@@ -620,10 +620,33 @@ body::before {
 #landing .landing-header {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 1rem;
   flex-wrap: wrap;
   margin-bottom: 0.5rem;
+  position: relative;
+}
+
+#landing .landing-header h1 {
+  flex: 1;
+  text-align: center;
+}
+
+#landing .header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#landing .last-updated {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  opacity: 0.7;
+  white-space: nowrap;
 }
 
 #landing h1 {
