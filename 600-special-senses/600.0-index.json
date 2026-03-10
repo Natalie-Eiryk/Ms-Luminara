@@ -1,26 +1,26 @@
 {
-  "id": "600",
-  "name": "Special Senses",
-  "description": "Chapter 15 — Vision, Hearing, Equilibrium, Taste, and Smell",
-  "folder": "600-special-senses",
-  "banks": [
-    {
-      "id": "600.1",
-      "file": "600.1-eye-structure.json",
-      "title": "Eye Structure & Photoreceptors",
-      "questionCount": 12
-    },
-    {
-      "id": "600.2",
-      "file": "600.2-vision-pathways.json",
-      "title": "Vision Pathways & Adaptation",
-      "questionCount": 10
-    },
-    {
-      "id": "600.3",
-      "file": "600.3-ear-hearing.json",
-      "title": "Ear Anatomy & Hearing",
-      "questionCount": 9
-    }
-  ]
+ "id": "600",
+ "name": "Special Senses",
+ "description": "Chapter 15 — Vision, Hearing, Equilibrium, Taste, and Smell",
+ "folder": "600-special-senses",
+ "banks": [
+ {
+ "id": "600.1",
+ "file": "600.1-eye-structure.json",
+ "title": "Eye Structure & Photoreceptors",
+ "questionCount": 12
+ },
+ {
+ "id": "600.2",
+ "file": "600.2-vision-pathways.json",
+ "title": "Vision Pathways & Adaptation",
+ "questionCount": 10
+ },
+ {
+ "id": "600.3",
+ "file": "600.3-ear-hearing.json",
+ "title": "Ear Anatomy & Hearing",
+ "questionCount": 9
+ }
+ ]
 }

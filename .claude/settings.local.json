@@ -11,7 +11,17 @@
       "Bash(git -C \"G:/Studying_Help/ms_luminara_quiz\" remote add origin https://github.com/Natalie-Eiryk/Ms-Luminara.git)",
       "Bash(git -C \"G:/Studying_Help/ms_luminara_quiz\" status)",
       "Bash(git config:*)",
-      "Bash(git -C \"G:/Studying_Help/ms_luminara_quiz\" add .)"
+      "Bash(git -C \"G:/Studying_Help/ms_luminara_quiz\" add .)",
+      "Bash(git -C \"G:/Studying_Help/ms_luminara_quiz\" commit -m \"$(cat <<''EOF''\nInitial deployment of Ms. Luminara''s Quiz Lab\n\nFeatures:\n- Gamified A&P quiz with 189+ questions across 7 topics\n- D20 RPG system with stats, rolls, and equipment\n- XP/leveling with streak multipliers and Lucky Strike bonus\n- Multiple study modes: Standard, Jeopardy, Blitz, Lightning, Spaced Review\n- PWA support for iPhone \"Add to Home Screen\"\n- Offline functionality via service worker\n- Isotope-tagged semantic memory system\n- Zone of Proximal Development scaffolding\n- Spaced repetition for optimal retention\n\nTopics covered:\n- Brain structure and function\n- Nervous system and reflexes\n- Anatomical foundations\n- Tissue types\n- Autonomic nervous system\n- Special senses\n- Endocrine system\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git -C \"G:/Studying_Help/ms_luminara_quiz\" branch -M main)",
+      "Bash(git -C \"G:/Studying_Help/ms_luminara_quiz\" push -u origin main)",
+      "Bash(find:*)",
+      "Bash(python cleanup_phrases.py:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(git -C \"G:/Studying_Help/ms_luminara_quiz\" status --short)",
+      "Bash(git -C \"G:/Studying_Help/ms_luminara_quiz\" add -A)",
+      "Bash(git -C \"G:/Studying_Help/ms_luminara_quiz\" commit -m \"$(cat <<''EOF''\nReduce repetitive phrases in quiz explanations\n\nCleaned up overused phrases across all question banks while\nmaintaining Ms. Luminara''s distinctive teaching voice:\n\n- Removed excessive \"Come closer/with me\" openings\n- Removed formulaic \"Isn't that beautiful/exquisite?\"\" endings\n- Removed repetitive \"\"Here's where it gets delicious/beautiful\"\n- Removed \"Let yourself sink into this mechanism\" filler\n- Removed \"Stay with me\" and \"Wait for it\" interruptions\n- Removed \"The body does this thousands of times per second\"\n\nThe explanations retain their pedagogical structure, physics-first\nmetaphors, and warmth - just without the repetitive scaffolding\nthat made them predictable. Ms. Luminara''s voice is preserved\nthrough varied phrasing.\n\nFiles modified: 31 question bank JSON files across all 7 topics\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n)\")"
     ]
   }
 }

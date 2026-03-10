@@ -1,26 +1,26 @@
 {
-  "id": "700",
-  "name": "Endocrine System",
-  "description": "Chapter 16 — Hormones, Glands, and Feedback Mechanisms",
-  "folder": "700-endocrine",
-  "banks": [
-    {
-      "id": "700.1",
-      "file": "700.1-pituitary.json",
-      "title": "Pituitary & Hypothalamus",
-      "questionCount": 8
-    },
-    {
-      "id": "700.2",
-      "file": "700.2-hormones-mechanisms.json",
-      "title": "Hormone Mechanisms & Second Messengers",
-      "questionCount": 9
-    },
-    {
-      "id": "700.3",
-      "file": "700.3-metabolic-hormones.json",
-      "title": "Metabolic Hormones & Clinical",
-      "questionCount": 8
-    }
-  ]
+ "id": "700",
+ "name": "Endocrine System",
+ "description": "Chapter 16 — Hormones, Glands, and Feedback Mechanisms",
+ "folder": "700-endocrine",
+ "banks": [
+ {
+ "id": "700.1",
+ "file": "700.1-pituitary.json",
+ "title": "Pituitary & Hypothalamus",
+ "questionCount": 8
+ },
+ {
+ "id": "700.2",
+ "file": "700.2-hormones-mechanisms.json",
+ "title": "Hormone Mechanisms & Second Messengers",
+ "questionCount": 9
+ },
+ {
+ "id": "700.3",
+ "file": "700.3-metabolic-hormones.json",
+ "title": "Metabolic Hormones & Clinical",
+ "questionCount": 8
+ }
+ ]
 }
