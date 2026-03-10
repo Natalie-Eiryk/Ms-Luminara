@@ -534,6 +534,64 @@
   </style>
 </head>
 <body>
+  <!-- ==================== CHARACTER BAR (RPG HUD) ==================== -->
+  <div class="character-bar" id="characterBar">
+    <div class="char-left">
+      <div class="char-avatar" id="charAvatar">🧙</div>
+      <div class="char-info">
+        <div class="char-name" id="charTitle">Novice Scholar</div>
+        <div class="char-level">LV <span id="charLevel">1</span></div>
+      </div>
+    </div>
+    <div class="char-bars">
+      <div class="bar-row hp-row">
+        <span class="bar-icon">❤️</span>
+        <div class="bar-track">
+          <div class="bar-fill hp-fill" id="hpFill" style="width: 100%"></div>
+        </div>
+        <span class="bar-text" id="hpText">100/100</span>
+      </div>
+      <div class="bar-row xp-row">
+        <span class="bar-icon">⭐</span>
+        <div class="bar-track">
+          <div class="bar-fill xp-fill" id="xpFill" style="width: 0%"></div>
+        </div>
+        <span class="bar-text" id="xpText">0 XP</span>
+      </div>
+    </div>
+    <div class="char-right">
+      <div class="streak-display" id="streakDisplay">
+        <span class="streak-icon">🔥</span>
+        <span class="streak-count" id="streakCount">0</span>
+      </div>
+      <button class="inventory-btn" id="inventoryBtn">🎒</button>
+    </div>
+  </div>
+
+  <!-- Quick Stats Row -->
+  <div class="quick-stats" id="quickStats">
+    <div class="quick-stat" id="statInt">
+      <span class="stat-icon">🧠</span>
+      <span class="stat-mod" id="intMod">+0</span>
+    </div>
+    <div class="quick-stat" id="statWis">
+      <span class="stat-icon">👁️</span>
+      <span class="stat-mod" id="wisMod">+0</span>
+    </div>
+    <div class="quick-stat" id="statCon">
+      <span class="stat-icon">💪</span>
+      <span class="stat-mod" id="conMod">+0</span>
+    </div>
+    <div class="quick-stat gold" id="statGold">
+      <span class="stat-icon">💰</span>
+      <span class="stat-val" id="goldDisplay">0</span>
+    </div>
+    <div class="quick-stat insight" id="statInsight">
+      <span class="stat-icon">💡</span>
+      <span class="stat-val" id="insightDisplay">0</span>
+    </div>
+  </div>
+
   <!-- Loading Overlay -->
   <div id="loader" class="hidden">
     <div class="loader-content">
@@ -1480,6 +1538,133 @@
     // Initialize after main quiz loads
     document.addEventListener('DOMContentLoaded', () => {
       setTimeout(() => QuizModes.init(), 500);
+    });
+  </script>
+
+  <!-- Mobile RPG HUD Controller -->
+  <script>
+    const MobileRPG = {
+      init() {
+        this.updateDisplay();
+        this.setupEventListeners();
+        // Update display every 2 seconds to catch changes
+        setInterval(() => this.updateDisplay(), 2000);
+      },
+
+      setupEventListeners() {
+        // Avatar and stats open character sheet
+        document.getElementById('charAvatar')?.addEventListener('click', () => this.showCharacterSheet());
+        document.getElementById('statInt')?.addEventListener('click', () => this.showCharacterSheet());
+        document.getElementById('statWis')?.addEventListener('click', () => this.showCharacterSheet());
+        document.getElementById('statCon')?.addEventListener('click', () => this.showCharacterSheet());
+
+        // Gold and inventory button open inventory
+        document.getElementById('statGold')?.addEventListener('click', () => this.showInventory());
+        document.getElementById('inventoryBtn')?.addEventListener('click', () => this.showInventory());
+
+        // Insight can be used during questions
+        document.getElementById('statInsight')?.addEventListener('click', () => this.useInsight());
+      },
+
+      updateDisplay() {
+        if (typeof quiz === 'undefined') return;
+
+        const char = quiz.d20System?.character;
+        const gam = quiz.gamification;
+        const scaffold = quiz.scaffold;
+
+        if (!char && !gam) return;
+
+        // Level and title
+        const level = gam?.level || 1;
+        document.getElementById('charLevel').textContent = level;
+        document.getElementById('charTitle').textContent = this.getTitleForLevel(level);
+
+        // HP
+        if (scaffold) {
+          const hp = scaffold.currentHP || 100;
+          const maxHp = scaffold.maxHP || 100;
+          const pct = Math.max(0, Math.min(100, (hp / maxHp) * 100));
+          document.getElementById('hpFill').style.width = pct + '%';
+          document.getElementById('hpText').textContent = `${hp}/${maxHp}`;
+
+          // Color coding
+          const hpFill = document.getElementById('hpFill');
+          if (pct > 50) hpFill.style.background = 'linear-gradient(90deg, var(--correct) 0%, #6ee7b7 100%)';
+          else if (pct > 25) hpFill.style.background = 'linear-gradient(90deg, #fbbf24 0%, #fcd34d 100%)';
+          else hpFill.style.background = 'linear-gradient(90deg, var(--incorrect) 0%, #fca5a5 100%)';
+        }
+
+        // XP
+        if (gam) {
+          const xp = gam.xp || 0;
+          const nextLevel = gam.xpForNextLevel || 100;
+          const prevLevel = gam.xpForCurrentLevel || 0;
+          const progress = ((xp - prevLevel) / (nextLevel - prevLevel)) * 100;
+          document.getElementById('xpFill').style.width = Math.min(100, progress) + '%';
+          document.getElementById('xpText').textContent = `${xp} XP`;
+        }
+
+        // Streak
+        const streak = gam?.streak || 0;
+        document.getElementById('streakCount').textContent = streak;
+        const streakEl = document.getElementById('streakDisplay');
+        if (streak > 0) streakEl.classList.add('active');
+        else streakEl.classList.remove('active');
+
+        // Stats
+        if (char) {
+          const getMod = (stat) => {
+            const val = char.stats?.[stat] || 10;
+            const mod = Math.floor((val - 10) / 2);
+            return mod >= 0 ? `+${mod}` : `${mod}`;
+          };
+          document.getElementById('intMod').textContent = getMod('intelligence');
+          document.getElementById('wisMod').textContent = getMod('wisdom');
+          document.getElementById('conMod').textContent = getMod('constitution');
+        }
+
+        // Gold
+        const gold = char?.gold || gam?.gold || 0;
+        document.getElementById('goldDisplay').textContent = gold;
+
+        // Insight points
+        const insight = scaffold?.insightPoints || 0;
+        document.getElementById('insightDisplay').textContent = insight;
+      },
+
+      getTitleForLevel(level) {
+        const titles = [
+          'Novice Scholar', 'Curious Mind', 'Eager Learner', 'Knowledge Seeker',
+          'Anatomy Adept', 'Body Mapper', 'System Scholar', 'Physio Pioneer',
+          'Organ Oracle', 'Neural Navigator', 'Master Anatomist', 'Luminara\'s Heir'
+        ];
+        return titles[Math.min(level - 1, titles.length - 1)] || titles[0];
+      },
+
+      showCharacterSheet() {
+        if (typeof quiz !== 'undefined' && quiz.renderer?.showCharacterSheet) {
+          quiz.renderer.showCharacterSheet();
+        }
+      },
+
+      showInventory() {
+        if (typeof quiz !== 'undefined' && quiz.renderer?.showInventory) {
+          quiz.renderer.showInventory();
+        }
+      },
+
+      useInsight() {
+        if (typeof quiz !== 'undefined' && quiz.scaffold?.useInsight) {
+          quiz.scaffold.useInsight();
+          this.updateDisplay();
+        }
+      }
+    };
+
+    // Initialize after quiz loads
+    window.addEventListener('load', () => {
+      setTimeout(() => MobileRPG.init(), 1000);
     });
   </script>
 

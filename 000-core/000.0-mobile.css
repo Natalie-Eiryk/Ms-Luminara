@@ -19,14 +19,215 @@ html, body {
 
 /* Add safe area padding to body */
 body {
-  padding-top: var(--safe-top);
   padding-left: var(--safe-left);
   padding-right: var(--safe-right);
 }
 
-/* Mode nav needs extra top padding for notch/Dynamic Island */
+/* ==================== CHARACTER BAR (RPG HUD) ==================== */
+.character-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  padding-top: calc(0.75rem + var(--safe-top));
+  padding-left: calc(1rem + var(--safe-left));
+  padding-right: calc(1rem + var(--safe-right));
+  background: linear-gradient(180deg, #1a1f2e 0%, var(--bg-card) 100%);
+  border-bottom: 2px solid var(--glow-warm);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.char-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.char-avatar {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #4a1f7a 0%, #7c3aed 100%);
+  border: 2px solid var(--glow-warm);
+  border-radius: 50%;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.char-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.char-name {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  max-width: 70px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.char-level {
+  font-size: 0.7rem;
+  color: var(--glow-warm);
+  font-weight: 700;
+}
+
+.char-bars {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.bar-row {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.bar-icon {
+  font-size: 0.75rem;
+  width: 18px;
+  text-align: center;
+}
+
+.bar-track {
+  flex: 1;
+  height: 12px;
+  background: var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.3s ease;
+}
+
+.hp-fill {
+  background: linear-gradient(90deg, var(--correct) 0%, #6ee7b7 100%);
+}
+
+.xp-fill {
+  background: linear-gradient(90deg, var(--glow-warm) 0%, #fcd34d 100%);
+}
+
+.bar-text {
+  font-size: 0.65rem;
+  color: var(--text-secondary);
+  min-width: 45px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.char-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.streak-display {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.35rem 0.5rem;
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  opacity: 0.5;
+}
+
+.streak-display.active {
+  opacity: 1;
+  border-color: #f97316;
+  background: rgba(249, 115, 22, 0.2);
+}
+
+.streak-icon { font-size: 1rem; }
+
+.streak-count {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.streak-display.active .streak-count {
+  color: #fb923c;
+}
+
+.inventory-btn {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--bg-card) 0%, #1f2937 100%);
+  border: 2px solid var(--glow-warm);
+  border-radius: 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.inventory-btn:active {
+  transform: scale(0.92);
+}
+
+/* Quick Stats Row */
+.quick-stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0.6rem;
+  padding-left: calc(0.6rem + var(--safe-left));
+  padding-right: calc(0.6rem + var(--safe-right));
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  gap: 0.3rem;
+}
+
+.quick-stat {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.4rem 0.5rem;
+  background: var(--bg-deep);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  min-height: 36px;
+}
+
+.quick-stat:active {
+  transform: scale(0.95);
+  border-color: var(--glow-warm);
+}
+
+.quick-stat .stat-icon { font-size: 0.9rem; }
+
+.quick-stat .stat-mod,
+.quick-stat .stat-val {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.quick-stat.gold { border-color: rgba(245, 197, 66, 0.4); }
+.quick-stat.gold .stat-val { color: var(--glow-warm); }
+
+.quick-stat.insight { border-color: #a78bfa; }
+.quick-stat.insight .stat-val { color: #c4b5fd; }
+
+/* Mode nav - no extra top padding since character bar handles it */
 .mode-nav {
-  padding-top: calc(0.6rem + var(--safe-top));
   padding-left: calc(1rem + var(--safe-left));
   padding-right: calc(1rem + var(--safe-right));
 }
