@@ -100,7 +100,8 @@ class ScaffoldRemediationEngine {
   }
 
   /**
-   * Calculate damage based on D20 roll
+   * Calculate damage based on D20 roll (REVERSED: high roll = less damage)
+   * Natural 20 = no damage (lucky!), Natural 1 = critical hit (ouch!)
    * CON modifier reduces damage (min 1)
    */
   calculateDamage() {
@@ -108,19 +109,25 @@ class ScaffoldRemediationEngine {
     let baseDamage;
     let damageType;
 
-    if (roll.isCriticalFailure) {
+    // REVERSED: Higher rolls = better outcome (less damage)
+    if (roll.isCriticalSuccess) {
+      // Natural 20 = lucky, no damage!
       baseDamage = this.DAMAGE_TABLE.fumble;
       damageType = 'fumble';
-    } else if (roll.roll <= 7) {
+    } else if (roll.roll >= 15) {
+      // 15-19: minimal damage
       baseDamage = this.DAMAGE_TABLE.low;
       damageType = 'low';
-    } else if (roll.roll <= 14) {
+    } else if (roll.roll >= 8) {
+      // 8-14: standard damage
       baseDamage = this.DAMAGE_TABLE.medium;
       damageType = 'medium';
-    } else if (roll.roll <= 19) {
+    } else if (roll.roll >= 2) {
+      // 2-7: heavy damage
       baseDamage = this.DAMAGE_TABLE.high;
       damageType = 'high';
     } else {
+      // Natural 1 = critical hit, max damage!
       baseDamage = this.DAMAGE_TABLE.critical;
       damageType = 'critical';
     }
@@ -135,8 +142,8 @@ class ScaffoldRemediationEngine {
       conMod,
       finalDamage,
       damageType,
-      isFumble: roll.isCriticalFailure,
-      isCritical: roll.isCriticalSuccess
+      isFumble: roll.isCriticalSuccess,  // Nat 20 = fumble (no damage)
+      isCritical: roll.isCriticalFailure  // Nat 1 = critical hit (max damage)
     };
   }
 
@@ -499,18 +506,20 @@ class ScaffoldRemediationEngine {
 
   getDamageMessage(damageResult) {
     if (damageResult.isFumble) {
-      return "The dice show mercy! No damage taken.";
+      // Natural 20 - lucky!
+      return "Natural 20! The dice show mercy — no damage taken.";
     }
     if (damageResult.isCritical) {
-      return "Critical hit! That stung... but knowledge heals all wounds.";
+      // Natural 1 - ouch!
+      return "Natural 1! Critical hit... but knowledge heals all wounds.";
     }
     if (damageResult.damageType === 'low') {
-      return "Just a scratch. Let's strengthen that foundation.";
+      return "High roll! Just a scratch. Let's strengthen that foundation.";
     }
     if (damageResult.damageType === 'medium') {
       return "A solid hit, but nothing we can't recover from.";
     }
-    return "Heavy damage! These scaffolds will help you heal.";
+    return "Low roll — heavy damage! These scaffolds will help you heal.";
   }
 
   getHealMessage(healResult) {
