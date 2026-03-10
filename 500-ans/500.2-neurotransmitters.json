@@ -1,239 +1,272 @@
 {
- "id": "500.2",
- "title": "Neurotransmitters & Receptors",
- "category": "ch14",
- "description": "Questions about ACh, NE, receptor types, and pharmacology",
- "questions": [
- {
- "id": "500.2.01",
- "q": "Preganglionic fibers of BOTH sympathetic and parasympathetic divisions secrete acetylcholine (ACh).",
- "options": ["True", "False"],
- "answer": 0,
- "chapter": "Chapter 14 — ANS",
- "explain": "this is one of the most elegant consistencies in the ANS. ALL preganglionic neurons, whether sympathetic or parasympathetic, release ACh onto nicotinic receptors in autonomic ganglia. The division happens at the postganglionic level: parasympathetic postganglionics release ACh (onto muscarinic receptors at effectors), while sympathetic postganglionics mostly release norepinephrine (onto adrenergic receptors). Preganglionic = always cholinergic.",
- "optionExplains": [
- {
- "verdict": "correct",
- "text": "Correct! Every preganglionic fiber in the entire ANS — sympathetic AND parasympathetic — releases acetylcholine onto nicotinic receptors. The difference emerges at the postganglionic level: parasympathetic postganglionics continue with ACh (onto muscarinic receptors), while sympathetic postganglionics switch to norepinephrine (onto adrenergic receptors). nicotine activates ALL autonomic ganglia because they ALL use nicotinic ACh receptors."
- },
- {
- "verdict": "incorrect",
- "text": "This statement is actually TRUE. All preganglionic neurons release ACh regardless of division. The neurotransmitter difference appears at the second (postganglionic) neuron. Both divisions start with the same signal; they diverge in how they talk to effectors."
- }
- ],
- "mechanism": {
- "title": "The Two-Neuron Chain: Where Neurotransmitters Differ",
- "content": "Let yourself sink into this architecture: ANS pathways use two neurons in series. Neuron 1 (preganglionic) lives in CNS, axon extends to autonomic ganglion, ALWAYS releases ACh onto nicotinic receptors. This is universal — no exceptions. Neuron 2 (postganglionic) lives in ganglion, axon extends to effector organ. Here the divisions diverge: Parasympathetic postganglionic releases ACh onto MUSCARINIC receptors at effectors. Sympathetic postganglionic releases NE onto ADRENERGIC receptors at most effectors (exception: sympathetic to sweat glands releases ACh). The ganglion is where the switch happens. Same input (ACh/nicotinic), different output (ACh/muscarinic vs. NE/adrenergic).",
- "metaphor": "Think of it like a relay race. The first runner (preganglionic) always passes an ACh baton to the second runner in the exchange zone (ganglion). But the second runner (postganglionic) carries different colored batons to the finish line: parasympathetic carries ACh (blue), sympathetic carries NE (red). Same handoff mechanism at the exchange, different final delivery."
- }
- },
- {
- "id": "500.2.02",
- "q": "Most postganglionic sympathetic fibers secrete norepinephrine (NE).",
- "options": ["True", "False"],
- "answer": 0,
- "chapter": "Chapter 14 — ANS",
- "explain": "'most' is the key word. The vast majority of sympathetic postganglionic neurons release norepinephrine onto adrenergic receptors. But there are cholinergic exceptions: sympathetic postganglionic fibers to SWEAT GLANDS release ACh (onto muscarinic receptors). Also, sympathetic vasodilator fibers to skeletal muscle blood vessels (in some species, debated in humans) may be cholinergic. The adrenal medulla receives preganglionic ACh directly. NE dominates, but ACh exceptions exist.",
- "optionExplains": [
- {
- "verdict": "correct",
- "text": "Correct! Most sympathetic postganglionic fibers release NE — to blood vessels, heart, bronchi, GI tract sphincters, pupils, and more. The major exception: sweat glands receive sympathetic cholinergic innervation (ACh onto muscarinic receptors). This is why atropine (muscarinic blocker) inhibits sweating even though sweating is sympathetically controlled. The adrenal medulla is special — it receives preganglionic fibers directly and releases epinephrine into blood. But for typical postganglionic sympathetic transmission, NE is the neurotransmitter."
- },
- {
- "verdict": "incorrect",
- "text": "This statement is actually TRUE. Most (not all) sympathetic postganglionic neurons release NE. The exceptions — sweat glands being the most important — are cholinergic despite being sympathetic. Learning the exceptions helps cement the rule."
- }
- ],
- "mechanism": {
- "title": "Sympathetic Postganglionic: NE with Exceptions",
- "content": "watch how sympathetic postganglionic neurons signal. Most synthesize NE from dopamine via dopamine beta-hydroxylase, store it in vesicles, release it via exocytosis upon depolarization. NE binds adrenergic receptors: alpha-1 (vasoconstriction, pupil dilation), alpha-2 (presynaptic inhibition), beta-1 (heart rate and contractility), beta-2 (bronchodilation, vasodilation in muscle), beta-3 (lipolysis). But sweat glands have muscarinic receptors — evolution kept them cholinergic for unclear reasons. Perhaps thermoregulation predates the NE switch, or perhaps sweating needed different kinetics. The adrenal medulla receives direct preganglionic input because chromaffin cells ARE modified postganglionic neurons — they just release their catecholamines into blood instead of synaptic clefts.",
- "metaphor": "Sympathetic postganglionic neurons are like delivery trucks that mostly carry red packages (NE). But a few special routes require blue packages (ACh) — the sweat gland route, specifically. Same delivery company (sympathetic division), same scheduling system, but different cargo for different customers. The adrenal medulla is the warehouse that skips the truck entirely — packages go straight from factory to shipping (direct hormonal release)."
- }
- },
- {
- "id": "500.2.03",
- "q": "Postganglionic sympathetic fibers to sweat glands secrete acetylcholine (ACh), not norepinephrine.",
- "options": ["True", "False"],
- "answer": 0,
- "chapter": "Chapter 14 — ANS",
- "explain": "this is the most important sympathetic exception. Sweat glands receive sympathetic innervation (sweating increases with sympathetic activation), but the postganglionic neurotransmitter is ACh, not NE. Sweat gland receptors are muscarinic. This is why atropine (muscarinic antagonist) causes dry skin even though it blocks 'parasympathetic' receptors — sweating IS sympathetic, but uses ACh. Evolutionary quirk? Perhaps. But clinically crucial to understand.",
- "optionExplains": [
- {
- "verdict": "correct",
- "text": "Correct! Sympathetic postganglionic fibers to sweat glands release ACh onto muscarinic receptors. This is the classic exception to 'sympathetic = adrenergic.' Here's the clinical relevance: muscarinic blockers (atropine, scopolamine) inhibit sweating, contributing to hyperthermia risk. Beta-blockers (adrenergic blockers) DON'T affect sweating — wrong receptor type. The sympathetic division controls sweating, but the receptor pharmacology is muscarinic, not adrenergic. Beautiful exception, isn't it?"
- },
- {
- "verdict": "incorrect",
- "text": "This statement is actually TRUE. Sweat glands are the major sympathetic cholinergic exception. Sympathetically controlled (sweating increases in fight-or-flight), but using ACh/muscarinic rather than NE/adrenergic signaling. Know this exception — it appears on exams constantly."
- }
- ],
- "mechanism": {
- "title": "Sympathetic Cholinergic Transmission: The Sweat Gland Exception",
- "content": "Let me show you why this exception matters: Sweat glands (eccrine type) receive sympathetic postganglionic innervation, but these neurons express choline acetyltransferase instead of dopamine beta-hydroxylase — they make ACh, not NE. Sweat glands express muscarinic M3 receptors coupled to Gq, activating phospholipase C, increasing intracellular Ca2+, triggering sweat secretion. Pharmacologically, this means: muscarinic agonists (pilocarpine) → sweating; muscarinic antagonists (atropine) → dry skin; adrenergic drugs → no direct effect on sweating. During fight-or-flight, sympathetic activation causes sweating via this cholinergic pathway — preparing for heat dissipation during anticipated physical exertion. The body does this automatically whenever threat is detected.",
- "metaphor": "Most sympathetic postganglionic neurons speak 'adrenergic' language (NE). But the neurons innervating sweat glands speak 'muscarinic' dialect (ACh) — same sympathetic chain of command, different local language. If you want to silence sweat glands, you need a muscarinic translator blocker (atropine), not an adrenergic one (propranolol). Know the language each target speaks."
- }
- },
- {
- "id": "500.2.04",
- "q": "Where would you NOT find a cholinergic nicotinic receptor?",
- "options": ["All parasympathetic target organs", "All postganglionic neurons (cell bodies and dendrites)", "Adrenal medulla hormone producing cells", "Sarcolemma of skeletal muscle cells at neuromuscular junctions"],
- "answer": 0,
- "chapter": "Chapter 14 — ANS",
- "explain": "nicotinic receptors appear at autonomic ganglia (all postganglionic neuron cell bodies), adrenal medulla chromaffin cells, and neuromuscular junctions (skeletal muscle). But parasympathetic TARGET ORGANS (heart, GI tract, bladder) have MUSCARINIC receptors, not nicotinic. The ganglia use nicotinic; the effectors use muscarinic. This is a crucial distinction: nicotine activates ganglia and NMJs; muscarine activates parasympathetic end-organs.",
- "optionExplains": [
- {
- "verdict": "correct",
- "text": "Correct! Parasympathetic target organs have MUSCARINIC receptors, not nicotinic. Nicotinic receptors are found at: (1) all autonomic ganglia (both sympathetic and parasympathetic — where preganglionic ACh activates postganglionics), (2) adrenal medulla (where preganglionic ACh triggers epinephrine release), (3) neuromuscular junctions (where motor neuron ACh activates skeletal muscle). Target organs of the parasympathetic (heart, smooth muscle, glands) express muscarinic receptors to respond to postganglionic ACh. Different receptors, different locations."
- },
- {
- "verdict": "incorrect",
- "text": "All postganglionic neurons DO have nicotinic receptors — that's how preganglionic ACh activates them. Nicotinic = fast, excitatory, ligand-gated ion channels. Every autonomic ganglion uses this mechanism."
- },
- {
- "verdict": "incorrect",
- "text": "Adrenal medulla chromaffin cells DO have nicotinic receptors — they're modified postganglionic neurons receiving direct preganglionic innervation. ACh activates nicotinic receptors, triggering epinephrine/norepinephrine release into blood."
- },
- {
- "verdict": "incorrect",
- "text": "Skeletal muscle at neuromuscular junctions absolutely has nicotinic receptors. Motor neuron ACh binds nicotinic receptors, opening cation channels, depolarizing the sarcolemma, triggering muscle contraction. Classic nicotinic receptor location."
- }
- ],
- "mechanism": {
- "title": "Nicotinic vs. Muscarinic: Know Your Receptors",
- "content": "let me map the receptor territories. NICOTINIC receptors (ionotropic, fast): Located at all autonomic ganglia (sympathetic and parasympathetic), adrenal medulla, and neuromuscular junctions. They're ligand-gated Na+/K+ channels — ACh binding directly opens the channel, causing rapid depolarization. MUSCARINIC receptors (metabotropic, slower): Located at parasympathetic effectors (heart, smooth muscle, glands) and sympathetic cholinergic effectors (sweat glands). They're G-protein coupled — ACh binding activates intracellular signaling cascades. M1, M3, M5 are excitatory (Gq). M2, M4 are inhibitory (Gi). The same neurotransmitter (ACh) produces different effects depending on which receptor it binds. The body uses this receptor diversity to fine-tune responses.",
- "metaphor": "Nicotinic receptors are like instant coffee — add water (ACh), immediately dissolve (ion channel opens). Muscarinic receptors are like brewing espresso — add grounds (ACh), wait for the machine to process (G-protein cascade), then output arrives (cellular response). Same caffeine source (ACh), different delivery mechanisms, different speed profiles."
- }
- },
- {
- "id": "500.2.05",
- "q": "Beta-1 adrenergic receptors play the major role in heart activity.",
- "options": ["True", "False"],
- "answer": 0,
- "chapter": "Chapter 14 — ANS",
- "explain": "beta-1 is the heart's primary adrenergic receptor. Sympathetic postganglionic fibers release NE, which binds beta-1 receptors in SA node (increased heart rate), AV node (faster conduction), and ventricular myocardium (increased contractility). Circulating epinephrine from adrenal medulla also activates cardiac beta-1 receptors. Beta-2 is primarily in bronchi and blood vessels. Alpha-1 is in blood vessels. For the heart, beta-1 dominates.",
- "optionExplains": [
- {
- "verdict": "correct",
- "text": "Correct! Beta-1 receptors mediate sympathetic effects on the heart: positive chronotropy (increased rate via SA node), positive dromotropy (faster AV conduction), positive inotropy (increased contractility via ventricular myocytes). This is why 'beta-1 selective' blockers (metoprolol, atenolol) target the heart specifically. Non-selective beta-blockers also hit beta-2 (bronchi, blood vessels), causing additional effects. Heart = beta-1 territory."
- },
- {
- "verdict": "incorrect",
- "text": "This statement is actually TRUE. Beta-1 receptors ARE the primary cardiac adrenergic receptors. Sympathetic stimulation → NE release → beta-1 activation → increased rate, conduction velocity, and contractility. Clinical beta-blockers work by antagonizing these receptors."
- }
- ],
- "mechanism": {
- "title": "Cardiac Beta-1 Receptors: The Accelerator",
- "content": "Let me show you how beta-1 receptors accelerate the heart: Beta-1 receptors couple to Gs proteins, activating adenylyl cyclase, increasing intracellular cAMP. In SA node pacemaker cells, cAMP activates funny channels (HCN), speeding up the pacemaker current and increasing heart rate. In ventricular myocytes, cAMP activates protein kinase A (PKA), which phosphorylates L-type Ca2+ channels (more Ca2+ entry) and phospholamban (more Ca2+ reuptake into SR, enabling faster relaxation and stronger subsequent contraction). Every step amplifies cardiac output. Beta-blockers reverse this cascade — blocking the accelerator. The body uses this pathway thousands of times daily as sympathetic tone fluctuates.",
- "metaphor": "Beta-1 receptors are the heart's accelerator pedal. NE/epinephrine pressing the pedal activates a cascade that makes the heart pump faster and harder. Beta-blockers are like putting a brick under the pedal — you can still press, but the pedal doesn't go down as far. The heart can't accelerate as much, which is therapeutic when you want to prevent racing (arrhythmias, hypertension, angina)."
- }
- },
- {
- "id": "500.2.06",
- "q": "The effect of beta-blocker drugs is to increase blood pressure.",
- "options": ["True", "False"],
- "answer": 1,
- "chapter": "Chapter 14 — ANS",
- "explain": "this is backwards. Beta-blockers DECREASE blood pressure. They block beta-1 receptors in the heart (reducing heart rate and contractility → lower cardiac output) and beta-2 receptors in blood vessels (preventing catecholamine-mediated vasodilation, though alpha-mediated vasoconstriction can dominate). Overall effect: reduced cardiac output → reduced blood pressure. Beta-blockers are antihypertensive drugs, not hypertensive drugs.",
- "optionExplains": [
- {
- "verdict": "incorrect",
- "text": "This statement is FALSE. Beta-blockers DECREASE blood pressure, which is why they're prescribed for hypertension, angina, arrhythmias, and heart failure. By blocking cardiac beta-1 receptors, they reduce heart rate and contractility, decreasing cardiac output. Blood pressure = cardiac output × peripheral resistance. Reduce CO → reduce BP. Beta-blockers are antihypertensive agents."
- },
- {
- "verdict": "correct",
- "text": "Correct! The statement is false — beta-blockers LOWER blood pressure, not raise it. They're used therapeutically to treat: (1) hypertension (reduce cardiac output), (2) angina (reduce myocardial oxygen demand), (3) arrhythmias (slow conduction, reduce automaticity), (4) heart failure (prevent maladaptive remodeling). Blocking the sympathetic accelerator slows and quiets the heart."
- }
- ],
- "mechanism": {
- "title": "Beta-Blockers: Antagonizing the Sympathetic Accelerator",
- "content": "watch how beta-blockers reduce cardiovascular stress. Blocking beta-1 receptors in heart: reduced cAMP → slower SA node firing (reduced HR) → slower AV conduction → reduced ventricular contractility. Lower heart rate × lower stroke volume = lower cardiac output. Blocking beta-2 receptors in blood vessels: prevents epinephrine-mediated vasodilation, but this is offset by reduced cardiac output. Net effect: lower blood pressure. Beta-blockers also reduce renin release from kidney (beta-1 mediated), further reducing angiotensin II and aldosterone — additional antihypertensive effect. Side effects: bronchospasm (beta-2 blockade in airways), fatigue (reduced cardiac reserve), cold extremities (unopposed alpha vasoconstriction).",
- "metaphor": "Beta-blockers are like a governor on an engine — they limit how fast and hard the engine (heart) can rev. The car (body) can still run, but can't accelerate as aggressively. For someone whose engine was redlining (hypertension, tachycardia), the governor protects against damage. But it also means less power when you need to sprint (exercise intolerance with beta-blockers)."
- }
- },
- {
- "id": "500.2.07",
- "q": "The ANS stimulates smooth muscles, skeletal muscles and glands, whereas the somatic nervous system innervates skeletal muscles only.",
- "options": ["True", "False"],
- "answer": 1,
- "chapter": "Chapter 14 — ANS",
- "explain": "this statement has an error. The ANS does NOT innervate skeletal muscles. ANS targets: smooth muscle (blood vessels, GI tract, airways, iris), cardiac muscle, and glands. SKELETAL muscle is somatic nervous system territory — voluntary control via alpha motor neurons, neuromuscular junctions, nicotinic receptors. The ANS is involuntary; skeletal muscle is voluntary. Don't cross the streams.",
- "optionExplains": [
- {
- "verdict": "incorrect",
- "text": "This statement is FALSE because it claims the ANS stimulates skeletal muscles. The ANS does NOT innervate skeletal muscle. ANS targets: smooth muscle, cardiac muscle, glands. Somatic nervous system target: skeletal muscle only. The distinction is fundamental — ANS = involuntary (visceral); somatic = voluntary (skeletal). Skeletal muscle receives alpha motor neuron innervation with nicotinic receptors at the neuromuscular junction, controlled by somatic motor cortex, not autonomic centers."
- },
- {
- "verdict": "correct",
- "text": "Correct! The statement is false — ANS does NOT innervate skeletal muscle. ANS targets: smooth muscle + cardiac muscle + glands. Somatic NS target: skeletal muscle. Different targets, different pathways, different control (involuntary vs. voluntary). Here's the truth: ANS has two neurons in series (preganglionic → postganglionic); somatic has one motor neuron directly to skeletal muscle. Completely separate systems."
- }
- ],
- "mechanism": {
- "title": "ANS vs. Somatic: Know Your Targets",
- "content": "Let me clarify the division of labor: AUTONOMIC nervous system: Two-neuron pathway (preganglionic → ganglion → postganglionic → effector). Targets: smooth muscle (visceral walls, blood vessels, iris, ciliary muscle), cardiac muscle (SA node, AV node, myocardium), glands (salivary, lacrimal, gastric, sweat, adrenal medulla). Control: involuntary, modulated by hypothalamus, medulla, and spinal centers. SOMATIC nervous system: One-neuron pathway (alpha motor neuron → neuromuscular junction → skeletal muscle). Target: skeletal muscle only. Control: voluntary, initiated by motor cortex, modulated by basal nuclei, cerebellum. Nicotinic receptors at NMJ, ACh released, rapid depolarization, contraction. Different systems, different targets, different architectures.",
- "metaphor": "The ANS is like the building's automated systems — HVAC, plumbing, electrical panels — running in the background without your conscious input. The somatic system is like manually flipping switches and turning doorknobs — you decide when skeletal muscles contract. You don't consciously control your heart rate (ANS), but you do consciously control lifting your arm (somatic)."
- }
- },
- {
- "id": "500.2.08",
- "q": "Control of temperature, endocrine activity, and thirst are functions associated with the ________.",
- "options": ["Hypothalamus", "Medulla", "Cerebellum", "Thalamus"],
- "answer": 0,
- "chapter": "Chapter 14 — ANS",
- "explain": "the hypothalamus is the master integrator for autonomic, endocrine, and behavioral homeostasis. Temperature regulation (thermostat function), thirst and fluid balance (osmoreceptors), hunger and satiety, circadian rhythms, emotional responses, and endocrine control via the pituitary — all hypothalamus territory. It's the homeostatic command center, linking nervous and endocrine systems. The medulla handles cardiovascular and respiratory reflexes; cerebellum handles motor coordination; thalamus relays sensory information.",
- "optionExplains": [
- {
- "verdict": "correct",
- "text": "Correct! The hypothalamus is homeostatic headquarters. Temperature regulation: preoptic area contains thermosensitive neurons triggering sweating/vasodilation (cooling) or shivering/vasoconstriction (warming). Thirst: lateral hypothalamus and circumventricular organs detect plasma osmolarity, triggering drinking behavior. Endocrine: releases hormones to anterior pituitary (via portal system) and produces hormones stored in posterior pituitary (ADH, oxytocin). The hypothalamus integrates internal state monitoring with autonomic and endocrine outputs."
- },
- {
- "verdict": "incorrect",
- "text": "The medulla handles cardiovascular reflexes (baroreceptor response), respiratory rhythm, and vomiting — vital reflexes, but not temperature, thirst, or broad endocrine control. Those are hypothalamus functions."
- },
- {
- "verdict": "incorrect",
- "text": "The cerebellum coordinates voluntary movement — motor learning, balance, precision timing. It doesn't regulate temperature, thirst, or endocrine activity. Wrong structure, wrong functions."
- },
- {
- "verdict": "incorrect",
- "text": "The thalamus is the sensory relay station — almost all sensory information passes through thalamus en route to cortex. It doesn't regulate temperature, thirst, or endocrine activity. That's hypothalamus territory."
- }
- ],
- "mechanism": {
- "title": "The Hypothalamus: Homeostatic Command Center",
- "content": "watch how the hypothalamus maintains internal stability. TEMPERATURE: Preoptic area receives input from peripheral and central thermoreceptors. Cold → posterior hypothalamus activates sympathetic vasoconstriction, shivering, piloerection. Heat → anterior hypothalamus activates parasympathetic sweating, vasodilation, behavioral cooling. THIRST: Osmoreceptors in organum vasculosum of lamina terminalis (OVLT) detect plasma osmolarity. High osmolarity → thirst, ADH release, water retention. Low osmolarity → suppress thirst, reduce ADH. ENDOCRINE: Parvocellular neurons release releasing/inhibiting hormones into hypophyseal portal system → anterior pituitary. Magnocellular neurons project to posterior pituitary, releasing ADH and oxytocin directly into blood. The hypothalamus converts neural signals into hormonal outputs, bridging nervous and endocrine systems.",
- "metaphor": "The hypothalamus is like a building's smart thermostat combined with a water management system and an intercom to the facilities department (pituitary). It senses internal conditions (temperature, fluid balance), integrates the data, and issues commands through both neural (ANS) and hormonal (pituitary) channels. Disruption here causes dramatic homeostatic failures — temperature dysregulation, diabetes insipidus, appetite disorders."
- }
- },
- {
- "id": "500.2.09",
- "q": "The mushroom poison muscarine can bind to receptors on ________.",
- "options": ["Cell bodies of parasympathetic postganglionic neurons", "The hormone producing cells of the adrenal medulla", "Cell bodies of sympathetic postganglionic neurons", "All effector cells stimulated by postganglionic cholinergic fibers"],
- "answer": 3,
- "chapter": "Chapter 14 — ANS",
- "explain": "muscarine is a muscarinic receptor agonist. It binds MUSCARINIC receptors, found on: parasympathetic target organs (heart, GI tract, bladder, airways, glands), sympathetic cholinergic effectors (sweat glands), and anywhere postganglionic cholinergic fibers release ACh. It does NOT bind nicotinic receptors (ganglia, adrenal medulla, NMJs). Muscarine mimics ACh at muscarinic sites → excessive parasympathetic effects: salivation, lacrimation, urination, defecation, GI upset, emesis (SLUDGE).",
- "optionExplains": [
- {
- "verdict": "incorrect",
- "text": "Parasympathetic postganglionic neuron cell bodies have NICOTINIC receptors (for receiving preganglionic ACh input), not muscarinic. Muscarine doesn't activate ganglia — that's nicotine's territory."
- },
- {
- "verdict": "incorrect",
- "text": "Adrenal medulla chromaffin cells have NICOTINIC receptors — they receive direct preganglionic sympathetic innervation. Muscarine doesn't activate them; nicotine does."
- },
- {
- "verdict": "incorrect",
- "text": "Sympathetic postganglionic neuron cell bodies have NICOTINIC receptors for preganglionic input. Muscarine doesn't affect ganglia."
- },
- {
- "verdict": "correct",
- "text": "Correct! Muscarine binds all muscarinic receptors — found on effector cells innervated by postganglionic cholinergic fibers. This includes: parasympathetic targets (heart M2 → bradycardia; GI tract M3 → increased motility; glands M3 → secretion) AND sympathetic cholinergic targets (sweat glands M3 → sweating). Muscarine poisoning causes SLUDGE symptoms: Salivation, Lacrimation, Urination, Defecation, GI distress, Emesis. Treat with atropine (muscarinic antagonist)."
- }
- ],
- "mechanism": {
- "title": "Muscarine: The Parasympathomimetic Poison",
- "content": "Let me show you how muscarine toxicity works: Certain mushrooms (Inocybe, Clitocybe species) contain muscarine, which activates muscarinic receptors without being degraded by acetylcholinesterase. Overwhelming muscarinic stimulation → excessive parasympathetic effects. Heart (M2): bradycardia, AV block. GI tract (M3): hypermotility, cramping, diarrhea. Glands (M3): profuse salivation, lacrimation, bronchial secretions. Bladder (M3): urinary urgency, incontinence. Pupils (M3): miosis (constriction). Airways (M3): bronchoconstriction, wheezing. Treatment: atropine (competitive muscarinic antagonist) to block these effects until muscarine is metabolized. Nicotinic receptors are unaffected — ganglia and NMJs function normally during muscarine poisoning.",
- "metaphor": "Muscarine is like a master key that only fits muscarinic locks — it opens every parasympathetic effector door and the sweat gland door, flooding the house (body) with parasympathetic activity. Atropine is the emergency locksmith who changes all the muscarinic locks — suddenly the key doesn't work anymore, and the flooding stops."
- }
- }
- ]
+  "id": "500.2",
+  "title": "Neurotransmitters & Receptors",
+  "category": "ch14",
+  "description": "Questions about ACh, NE, receptor types, and pharmacology",
+  "questions": [
+    {
+      "id": "500.2.01",
+      "q": "Preganglionic fibers of BOTH sympathetic and parasympathetic divisions secrete acetylcholine (ACh).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — ANS",
+      "explain": "this is one of the most elegant consistencies in the ANS. ALL preganglionic neurons, whether sympathetic or parasympathetic, release ACh onto nicotinic receptors in autonomic ganglia. The division happens at the postganglionic level: parasympathetic postganglionics release ACh (onto muscarinic receptors at effectors), while sympathetic postganglionics mostly release norepinephrine (onto adrenergic receptors). Preganglionic = always cholinergic.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! Every preganglionic fiber in the entire ANS — sympathetic AND parasympathetic — releases acetylcholine onto nicotinic receptors. The difference emerges at the postganglionic level: parasympathetic postganglionics continue with ACh (onto muscarinic receptors), while sympathetic postganglionics switch to norepinephrine (onto adrenergic receptors). nicotine activates ALL autonomic ganglia because they ALL use nicotinic ACh receptors."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This statement is actually TRUE. All preganglionic neurons release ACh regardless of division. The neurotransmitter difference appears at the second (postganglionic) neuron. Both divisions start with the same signal; they diverge in how they talk to effectors."
+        }
+      ],
+      "mechanism": {
+        "title": "The Two-Neuron Chain: Where Neurotransmitters Differ",
+        "content": "Allow your mind to embrace this:into this architecture: ANS pathways use two neurons in series. Neuron 1 (preganglionic) lives in CNS, axon extends to autonomic ganglion, ALWAYS releases ACh onto nicotinic receptors. This is universal — no exceptions. Neuron 2 (postganglionic) lives in ganglion, axon extends to effector organ. Here the divisions diverge: Parasympathetic postganglionic releases ACh onto MUSCARINIC receptors at effectors. Sympathetic postganglionic releases NE onto ADRENERGIC receptors at most effectors (exception: sympathetic to sweat glands releases ACh). The ganglion is where the switch happens. Same input (ACh/nicotinic), different output (ACh/muscarinic vs. NE/adrenergic).",
+        "metaphor": "Think of it like a relay race. The first runner (preganglionic) always passes an ACh baton to the second runner in the exchange zone (ganglion). But the second runner (postganglionic) carries different colored batons to the finish line: parasympathetic carries ACh (blue), sympathetic carries NE (red). Same handoff mechanism at the exchange, different final delivery."
+      }
+    },
+    {
+      "id": "500.2.02",
+      "q": "Most postganglionic sympathetic fibers secrete norepinephrine (NE).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — ANS",
+      "explain": "'most' is the key word. The vast majority of sympathetic postganglionic neurons release norepinephrine onto adrenergic receptors. But there are cholinergic exceptions: sympathetic postganglionic fibers to SWEAT GLANDS release ACh (onto muscarinic receptors). Also, sympathetic vasodilator fibers to skeletal muscle blood vessels (in some species, debated in humans) may be cholinergic. The adrenal medulla receives preganglionic ACh directly. NE dominates, but ACh exceptions exist.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! Most sympathetic postganglionic fibers release NE — to blood vessels, heart, bronchi, GI tract sphincters, pupils, and more. The major exception: sweat glands receive sympathetic cholinergic innervation (ACh onto muscarinic receptors). This is why atropine (muscarinic blocker) inhibits sweating even though sweating is sympathetically controlled. The adrenal medulla is special — it receives preganglionic fibers directly and releases epinephrine into blood. But for typical postganglionic sympathetic transmission, NE is the neurotransmitter."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This statement is actually TRUE. Most (not all) sympathetic postganglionic neurons release NE. The exceptions — sweat glands being the most important — are cholinergic despite being sympathetic. Learning the exceptions helps cement the rule."
+        }
+      ],
+      "mechanism": {
+        "title": "Sympathetic Postganglionic: NE with Exceptions",
+        "content": "Cast your attention here:sympathetic postganglionic neurons signal. Most synthesize NE from dopamine via dopamine beta-hydroxylase, store it in vesicles, release it via exocytosis upon depolarization. NE binds adrenergic receptors: alpha-1 (vasoconstriction, pupil dilation), alpha-2 (presynaptic inhibition), beta-1 (heart rate and contractility), beta-2 (bronchodilation, vasodilation in muscle), beta-3 (lipolysis). But sweat glands have muscarinic receptors — evolution kept them cholinergic for unclear reasons. Perhaps thermoregulation predates the NE switch, or perhaps sweating needed different kinetics. The adrenal medulla receives direct preganglionic input because chromaffin cells ARE modified postganglionic neurons — they just release their catecholamines into blood instead of synaptic clefts.",
+        "metaphor": "Sympathetic postganglionic neurons are like delivery trucks that mostly carry red packages (NE). But a few special routes require blue packages (ACh) — the sweat gland route, specifically. Same delivery company (sympathetic division), same scheduling system, but different cargo for different customers. The adrenal medulla is the warehouse that skips the truck entirely — packages go straight from factory to shipping (direct hormonal release)."
+      }
+    },
+    {
+      "id": "500.2.03",
+      "q": "Postganglionic sympathetic fibers to sweat glands secrete acetylcholine (ACh), not norepinephrine.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — ANS",
+      "explain": "this is the most important sympathetic exception. Sweat glands receive sympathetic innervation (sweating increases with sympathetic activation), but the postganglionic neurotransmitter is ACh, not NE. Sweat gland receptors are muscarinic. This is why atropine (muscarinic antagonist) causes dry skin even though it blocks 'parasympathetic' receptors — sweating IS sympathetic, but uses ACh. Evolutionary quirk? Perhaps. But clinically crucial to understand.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! Sympathetic postganglionic fibers to sweat glands release ACh onto muscarinic receptors. This is the classic exception to 'sympathetic = adrenergic.' Here's the clinical relevance: muscarinic blockers (atropine, scopolamine) inhibit sweating, contributing to hyperthermia risk. Beta-blockers (adrenergic blockers) DON'T affect sweating — wrong receptor type. The sympathetic division controls sweating, but the receptor pharmacology is muscarinic, not adrenergic. Beautiful exception, isn't it?"
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This statement is actually TRUE. Sweat glands are the major sympathetic cholinergic exception. Sympathetically controlled (sweating increases in fight-or-flight), but using ACh/muscarinic rather than NE/adrenergic signaling. Know this exception — it appears on exams constantly."
+        }
+      ],
+      "mechanism": {
+        "title": "Sympathetic Cholinergic Transmission: The Sweat Gland Exception",
+        "content": "Let me show you why this exception matters: Sweat glands (eccrine type) receive sympathetic postganglionic innervation, but these neurons express choline acetyltransferase instead of dopamine beta-hydroxylase — they make ACh, not NE. Sweat glands express muscarinic M3 receptors coupled to Gq, activating phospholipase C, increasing intracellular Ca2+, triggering sweat secretion. Pharmacologically, this means: muscarinic agonists (pilocarpine) → sweating; muscarinic antagonists (atropine) → dry skin; adrenergic drugs → no direct effect on sweating. During fight-or-flight, sympathetic activation causes sweating via this cholinergic pathway — preparing for heat dissipation during anticipated physical exertion. The body does this automatically whenever threat is detected.",
+        "metaphor": "Most sympathetic postganglionic neurons speak 'adrenergic' language (NE). But the neurons innervating sweat glands speak 'muscarinic' dialect (ACh) — same sympathetic chain of command, different local language. If you want to silence sweat glands, you need a muscarinic translator blocker (atropine), not an adrenergic one (propranolol). Know the language each target speaks."
+      }
+    },
+    {
+      "id": "500.2.04",
+      "q": "Where would you NOT find a cholinergic nicotinic receptor?",
+      "options": [
+        "All parasympathetic target organs",
+        "All postganglionic neurons (cell bodies and dendrites)",
+        "Adrenal medulla hormone producing cells",
+        "Sarcolemma of skeletal muscle cells at neuromuscular junctions"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — ANS",
+      "explain": "nicotinic receptors appear at autonomic ganglia (all postganglionic neuron cell bodies), adrenal medulla chromaffin cells, and neuromuscular junctions (skeletal muscle). But parasympathetic TARGET ORGANS (heart, GI tract, bladder) have MUSCARINIC receptors, not nicotinic. The ganglia use nicotinic; the effectors use muscarinic. This is a crucial distinction: nicotine activates ganglia and NMJs; muscarine activates parasympathetic end-organs.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! Parasympathetic target organs have MUSCARINIC receptors, not nicotinic. Nicotinic receptors are found at: (1) all autonomic ganglia (both sympathetic and parasympathetic — where preganglionic ACh activates postganglionics), (2) adrenal medulla (where preganglionic ACh triggers epinephrine release), (3) neuromuscular junctions (where motor neuron ACh activates skeletal muscle). Target organs of the parasympathetic (heart, smooth muscle, glands) express muscarinic receptors to respond to postganglionic ACh. Different receptors, different locations."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "All postganglionic neurons DO have nicotinic receptors — that's how preganglionic ACh activates them. Nicotinic = fast, excitatory, ligand-gated ion channels. Every autonomic ganglion uses this mechanism."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "Adrenal medulla chromaffin cells DO have nicotinic receptors — they're modified postganglionic neurons receiving direct preganglionic innervation. ACh activates nicotinic receptors, triggering epinephrine/norepinephrine release into blood."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "Skeletal muscle at neuromuscular junctions absolutely has nicotinic receptors. Motor neuron ACh binds nicotinic receptors, opening cation channels, depolarizing the sarcolemma, triggering muscle contraction. Classic nicotinic receptor location."
+        }
+      ],
+      "mechanism": {
+        "title": "Nicotinic vs. Muscarinic: Know Your Receptors",
+        "content": "let me map the receptor territories. NICOTINIC receptors (ionotropic, fast): Located at all autonomic ganglia (sympathetic and parasympathetic), adrenal medulla, and neuromuscular junctions. They're ligand-gated Na+/K+ channels — ACh binding directly opens the channel, causing rapid depolarization. MUSCARINIC receptors (metabotropic, slower): Located at parasympathetic effectors (heart, smooth muscle, glands) and sympathetic cholinergic effectors (sweat glands). They're G-protein coupled — ACh binding activates intracellular signaling cascades. M1, M3, M5 are excitatory (Gq). M2, M4 are inhibitory (Gi). The same neurotransmitter (ACh) produces different effects depending on which receptor it binds. The body uses this receptor diversity to fine-tune responses.",
+        "metaphor": "Nicotinic receptors are like instant coffee — add water (ACh), immediately dissolve (ion channel opens). Muscarinic receptors are like brewing espresso — add grounds (ACh), wait for the machine to process (G-protein cascade), then output arrives (cellular response). Same caffeine source (ACh), different delivery mechanisms, different speed profiles."
+      }
+    },
+    {
+      "id": "500.2.05",
+      "q": "Beta-1 adrenergic receptors play the major role in heart activity.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — ANS",
+      "explain": "beta-1 is the heart's primary adrenergic receptor. Sympathetic postganglionic fibers release NE, which binds beta-1 receptors in SA node (increased heart rate), AV node (faster conduction), and ventricular myocardium (increased contractility). Circulating epinephrine from adrenal medulla also activates cardiac beta-1 receptors. Beta-2 is primarily in bronchi and blood vessels. Alpha-1 is in blood vessels. For the heart, beta-1 dominates.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! Beta-1 receptors mediate sympathetic effects on the heart: positive chronotropy (increased rate via SA node), positive dromotropy (faster AV conduction), positive inotropy (increased contractility via ventricular myocytes). This is why 'beta-1 selective' blockers (metoprolol, atenolol) target the heart specifically. Non-selective beta-blockers also hit beta-2 (bronchi, blood vessels), causing additional effects. Heart = beta-1 territory."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This statement is actually TRUE. Beta-1 receptors ARE the primary cardiac adrenergic receptors. Sympathetic stimulation → NE release → beta-1 activation → increased rate, conduction velocity, and contractility. Clinical beta-blockers work by antagonizing these receptors."
+        }
+      ],
+      "mechanism": {
+        "title": "Cardiac Beta-1 Receptors: The Accelerator",
+        "content": "Let me show you how beta-1 receptors accelerate the heart: Beta-1 receptors couple to Gs proteins, activating adenylyl cyclase, increasing intracellular cAMP. In SA node pacemaker cells, cAMP activates funny channels (HCN), speeding up the pacemaker current and increasing heart rate. In ventricular myocytes, cAMP activates protein kinase A (PKA), which phosphorylates L-type Ca2+ channels (more Ca2+ entry) and phospholamban (more Ca2+ reuptake into SR, enabling faster relaxation and stronger subsequent contraction). Every step amplifies cardiac output. Beta-blockers reverse this cascade — blocking the accelerator. The body uses this pathway thousands of times daily as sympathetic tone fluctuates.",
+        "metaphor": "Beta-1 receptors are the heart's accelerator pedal. NE/epinephrine pressing the pedal activates a cascade that makes the heart pump faster and harder. Beta-blockers are like putting a brick under the pedal — you can still press, but the pedal doesn't go down as far. The heart can't accelerate as much, which is therapeutic when you want to prevent racing (arrhythmias, hypertension, angina)."
+      }
+    },
+    {
+      "id": "500.2.06",
+      "q": "The effect of beta-blocker drugs is to increase blood pressure.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 14 — ANS",
+      "explain": "this is backwards. Beta-blockers DECREASE blood pressure. They block beta-1 receptors in the heart (reducing heart rate and contractility → lower cardiac output) and beta-2 receptors in blood vessels (preventing catecholamine-mediated vasodilation, though alpha-mediated vasoconstriction can dominate). Overall effect: reduced cardiac output → reduced blood pressure. Beta-blockers are antihypertensive drugs, not hypertensive drugs.",
+      "optionExplains": [
+        {
+          "verdict": "incorrect",
+          "text": "This statement is FALSE. Beta-blockers DECREASE blood pressure, which is why they're prescribed for hypertension, angina, arrhythmias, and heart failure. By blocking cardiac beta-1 receptors, they reduce heart rate and contractility, decreasing cardiac output. Blood pressure = cardiac output × peripheral resistance. Reduce CO → reduce BP. Beta-blockers are antihypertensive agents."
+        },
+        {
+          "verdict": "correct",
+          "text": "Correct! The statement is false — beta-blockers LOWER blood pressure, not raise it. They're used therapeutically to treat: (1) hypertension (reduce cardiac output), (2) angina (reduce myocardial oxygen demand), (3) arrhythmias (slow conduction, reduce automaticity), (4) heart failure (prevent maladaptive remodeling). Blocking the sympathetic accelerator slows and quiets the heart."
+        }
+      ],
+      "mechanism": {
+        "title": "Beta-Blockers: Antagonizing the Sympathetic Accelerator",
+        "content": "Behold what unfolds:beta-blockers reduce cardiovascular stress. Blocking beta-1 receptors in heart: reduced cAMP → slower SA node firing (reduced HR) → slower AV conduction → reduced ventricular contractility. Lower heart rate × lower stroke volume = lower cardiac output. Blocking beta-2 receptors in blood vessels: prevents epinephrine-mediated vasodilation, but this is offset by reduced cardiac output. Net effect: lower blood pressure. Beta-blockers also reduce renin release from kidney (beta-1 mediated), further reducing angiotensin II and aldosterone — additional antihypertensive effect. Side effects: bronchospasm (beta-2 blockade in airways), fatigue (reduced cardiac reserve), cold extremities (unopposed alpha vasoconstriction).",
+        "metaphor": "Beta-blockers are like a governor on an engine — they limit how fast and hard the engine (heart) can rev. The car (body) can still run, but can't accelerate as aggressively. For someone whose engine was redlining (hypertension, tachycardia), the governor protects against damage. But it also means less power when you need to sprint (exercise intolerance with beta-blockers)."
+      }
+    },
+    {
+      "id": "500.2.07",
+      "q": "The ANS stimulates smooth muscles, skeletal muscles and glands, whereas the somatic nervous system innervates skeletal muscles only.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 14 — ANS",
+      "explain": "this statement has an error. The ANS does NOT innervate skeletal muscles. ANS targets: smooth muscle (blood vessels, GI tract, airways, iris), cardiac muscle, and glands. SKELETAL muscle is somatic nervous system territory — voluntary control via alpha motor neurons, neuromuscular junctions, nicotinic receptors. The ANS is involuntary; skeletal muscle is voluntary. Don't cross the streams.",
+      "optionExplains": [
+        {
+          "verdict": "incorrect",
+          "text": "This statement is FALSE because it claims the ANS stimulates skeletal muscles. The ANS does NOT innervate skeletal muscle. ANS targets: smooth muscle, cardiac muscle, glands. Somatic nervous system target: skeletal muscle only. The distinction is fundamental — ANS = involuntary (visceral); somatic = voluntary (skeletal). Skeletal muscle receives alpha motor neuron innervation with nicotinic receptors at the neuromuscular junction, controlled by somatic motor cortex, not autonomic centers."
+        },
+        {
+          "verdict": "correct",
+          "text": "Correct! The statement is false — ANS does NOT innervate skeletal muscle. ANS targets: smooth muscle + cardiac muscle + glands. Somatic NS target: skeletal muscle. Different targets, different pathways, different control (involuntary vs. voluntary). Here's the truth: ANS has two neurons in series (preganglionic → postganglionic); somatic has one motor neuron directly to skeletal muscle. Completely separate systems."
+        }
+      ],
+      "mechanism": {
+        "title": "ANS vs. Somatic: Know Your Targets",
+        "content": "Let me clarify the division of labor: AUTONOMIC nervous system: Two-neuron pathway (preganglionic → ganglion → postganglionic → effector). Targets: smooth muscle (visceral walls, blood vessels, iris, ciliary muscle), cardiac muscle (SA node, AV node, myocardium), glands (salivary, lacrimal, gastric, sweat, adrenal medulla). Control: involuntary, modulated by hypothalamus, medulla, and spinal centers. SOMATIC nervous system: One-neuron pathway (alpha motor neuron → neuromuscular junction → skeletal muscle). Target: skeletal muscle only. Control: voluntary, initiated by motor cortex, modulated by basal nuclei, cerebellum. Nicotinic receptors at NMJ, ACh released, rapid depolarization, contraction. Different systems, different targets, different architectures.",
+        "metaphor": "The ANS is like the building's automated systems — HVAC, plumbing, electrical panels — running in the background without your conscious input. The somatic system is like manually flipping switches and turning doorknobs — you decide when skeletal muscles contract. You don't consciously control your heart rate (ANS), but you do consciously control lifting your arm (somatic)."
+      }
+    },
+    {
+      "id": "500.2.08",
+      "q": "Control of temperature, endocrine activity, and thirst are functions associated with the ________.",
+      "options": [
+        "Hypothalamus",
+        "Medulla",
+        "Cerebellum",
+        "Thalamus"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — ANS",
+      "explain": "the hypothalamus is the master integrator for autonomic, endocrine, and behavioral homeostasis. Temperature regulation (thermostat function), thirst and fluid balance (osmoreceptors), hunger and satiety, circadian rhythms, emotional responses, and endocrine control via the pituitary — all hypothalamus territory. It's the homeostatic command center, linking nervous and endocrine systems. The medulla handles cardiovascular and respiratory reflexes; cerebellum handles motor coordination; thalamus relays sensory information.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! The hypothalamus is homeostatic headquarters. Temperature regulation: preoptic area contains thermosensitive neurons triggering sweating/vasodilation (cooling) or shivering/vasoconstriction (warming). Thirst: lateral hypothalamus and circumventricular organs detect plasma osmolarity, triggering drinking behavior. Endocrine: releases hormones to anterior pituitary (via portal system) and produces hormones stored in posterior pituitary (ADH, oxytocin). The hypothalamus integrates internal state monitoring with autonomic and endocrine outputs."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "The medulla handles cardiovascular reflexes (baroreceptor response), respiratory rhythm, and vomiting — vital reflexes, but not temperature, thirst, or broad endocrine control. Those are hypothalamus functions."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "The cerebellum coordinates voluntary movement — motor learning, balance, precision timing. It doesn't regulate temperature, thirst, or endocrine activity. Wrong structure, wrong functions."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "The thalamus is the sensory relay station — almost all sensory information passes through thalamus en route to cortex. It doesn't regulate temperature, thirst, or endocrine activity. That's hypothalamus territory."
+        }
+      ],
+      "mechanism": {
+        "title": "The Hypothalamus: Homeostatic Command Center",
+        "content": "Keep your eyes on this:the hypothalamus maintains internal stability. TEMPERATURE: Preoptic area receives input from peripheral and central thermoreceptors. Cold → posterior hypothalamus activates sympathetic vasoconstriction, shivering, piloerection. Heat → anterior hypothalamus activates parasympathetic sweating, vasodilation, behavioral cooling. THIRST: Osmoreceptors in organum vasculosum of lamina terminalis (OVLT) detect plasma osmolarity. High osmolarity → thirst, ADH release, water retention. Low osmolarity → suppress thirst, reduce ADH. ENDOCRINE: Parvocellular neurons release releasing/inhibiting hormones into hypophyseal portal system → anterior pituitary. Magnocellular neurons project to posterior pituitary, releasing ADH and oxytocin directly into blood. The hypothalamus converts neural signals into hormonal outputs, bridging nervous and endocrine systems.",
+        "metaphor": "The hypothalamus is like a building's smart thermostat combined with a water management system and an intercom to the facilities department (pituitary). It senses internal conditions (temperature, fluid balance), integrates the data, and issues commands through both neural (ANS) and hormonal (pituitary) channels. Disruption here causes dramatic homeostatic failures — temperature dysregulation, diabetes insipidus, appetite disorders."
+      }
+    },
+    {
+      "id": "500.2.09",
+      "q": "The mushroom poison muscarine can bind to receptors on ________.",
+      "options": [
+        "Cell bodies of parasympathetic postganglionic neurons",
+        "The hormone producing cells of the adrenal medulla",
+        "Cell bodies of sympathetic postganglionic neurons",
+        "All effector cells stimulated by postganglionic cholinergic fibers"
+      ],
+      "answer": 3,
+      "chapter": "Chapter 14 — ANS",
+      "explain": "muscarine is a muscarinic receptor agonist. It binds MUSCARINIC receptors, found on: parasympathetic target organs (heart, GI tract, bladder, airways, glands), sympathetic cholinergic effectors (sweat glands), and anywhere postganglionic cholinergic fibers release ACh. It does NOT bind nicotinic receptors (ganglia, adrenal medulla, NMJs). Muscarine mimics ACh at muscarinic sites → excessive parasympathetic effects: salivation, lacrimation, urination, defecation, GI upset, emesis (SLUDGE).",
+      "optionExplains": [
+        {
+          "verdict": "incorrect",
+          "text": "Parasympathetic postganglionic neuron cell bodies have NICOTINIC receptors (for receiving preganglionic ACh input), not muscarinic. Muscarine doesn't activate ganglia — that's nicotine's territory."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "Adrenal medulla chromaffin cells have NICOTINIC receptors — they receive direct preganglionic sympathetic innervation. Muscarine doesn't activate them; nicotine does."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "Sympathetic postganglionic neuron cell bodies have NICOTINIC receptors for preganglionic input. Muscarine doesn't affect ganglia."
+        },
+        {
+          "verdict": "correct",
+          "text": "Correct! Muscarine binds all muscarinic receptors — found on effector cells innervated by postganglionic cholinergic fibers. This includes: parasympathetic targets (heart M2 → bradycardia; GI tract M3 → increased motility; glands M3 → secretion) AND sympathetic cholinergic targets (sweat glands M3 → sweating). Muscarine poisoning causes SLUDGE symptoms: Salivation, Lacrimation, Urination, Defecation, GI distress, Emesis. Treat with atropine (muscarinic antagonist)."
+        }
+      ],
+      "mechanism": {
+        "title": "Muscarine: The Parasympathomimetic Poison",
+        "content": "Let me show you how muscarine toxicity works: Certain mushrooms (Inocybe, Clitocybe species) contain muscarine, which activates muscarinic receptors without being degraded by acetylcholinesterase. Overwhelming muscarinic stimulation → excessive parasympathetic effects. Heart (M2): bradycardia, AV block. GI tract (M3): hypermotility, cramping, diarrhea. Glands (M3): profuse salivation, lacrimation, bronchial secretions. Bladder (M3): urinary urgency, incontinence. Pupils (M3): miosis (constriction). Airways (M3): bronchoconstriction, wheezing. Treatment: atropine (competitive muscarinic antagonist) to block these effects until muscarine is metabolized. Nicotinic receptors are unaffected — ganglia and NMJs function normally during muscarine poisoning.",
+        "metaphor": "Muscarine is like a master key that only fits muscarinic locks — it opens every parasympathetic effector door and the sweat gland door, flooding the house (body) with parasympathetic activity. Atropine is the emergency locksmith who changes all the muscarinic locks — suddenly the key doesn't work anymore, and the flooding stops."
+      }
+    }
+  ]
 }

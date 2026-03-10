@@ -27,7 +27,10 @@
       "Bash(git -C \"G:/Studying_Help/ms_luminara_quiz\" commit -m \"$(cat <<''EOF''\nFix header layout - move timestamp and voice settings to toolbar row\n\nSeparated the title from the toolbar elements to prevent overlap.\nTimestamp and Voice Settings button now appear on their own row,\naligned to the right.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n)\")",
       "Bash(git -C \"G:/Studying_Help/ms_luminara_quiz\" diff --stat)",
       "Bash(time:*)",
-      "Bash(powershell -Command \"Get-Date -Format ''MMM dd, yyyy h:mmtt''\")"
+      "Bash(powershell -Command \"Get-Date -Format ''MMM dd, yyyy h:mmtt''\")",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ]
   }
 }

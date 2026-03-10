@@ -1,232 +1,266 @@
 {
- "id": "700.1",
- "title": "Pituitary & Hypothalamus",
- "category": "ch16",
- "description": "Questions about pituitary hormones, targets, and hypothalamic control",
- "questions": [
- {
- "id": "700.1.01",
- "q": "ACTH stimulates the adrenal cortex to release corticosteroid hormones.",
- "options": ["True", "False"],
- "answer": 0,
- "chapter": "Chapter 16 — Endocrine System",
- "explain": "ACTH (adrenocorticotropic hormone) from the anterior pituitary is the master controller of the adrenal cortex, specifically the zona fasciculata and zona reticularis. ACTH binds melanocortin-2 receptors on adrenocortical cells, stimulating synthesis and release of cortisol (the primary glucocorticoid) and adrenal androgens. The zona glomerulosa (mineralocorticoid zone) responds primarily to angiotensin II and K+, though ACTH has permissive effects.",
- "optionExplains": [
- {
- "verdict": "correct",
- "text": "Correct! ACTH drives corticosteroid production — primarily glucocorticoids (cortisol) from the zona fasciculata. Here's the axis: Stress → hypothalamus releases CRH → anterior pituitary releases ACTH → adrenal cortex releases cortisol. Cortisol then feeds back negatively on both hypothalamus and pituitary, completing the HPA (hypothalamic-pituitary-adrenal) axis. Without ACTH, the zona fasciculata atrophies and cortisol production collapses."
- },
- {
- "verdict": "incorrect",
- "text": "This statement is actually TRUE. ACTH IS the tropic hormone for the adrenal cortex. It stimulates corticosteroid synthesis via cAMP-mediated pathways, increasing cholesterol uptake and conversion to pregnenolone — the first step in steroidogenesis."
- }
- ],
- "mechanism": {
- "title": "The HPA Axis: ACTH and Cortisol",
- "content": "Let me show you the HPA axis in detail: HYPOTHALAMUS: Paraventricular nucleus neurons release CRH (corticotropin-releasing hormone) into the hypophyseal portal system. Stress, circadian signals, and inflammatory cytokines regulate CRH release. ANTERIOR PITUITARY: Corticotrophs express CRH receptors. CRH binding → cAMP → POMC cleavage → ACTH release. ACTH pulses follow circadian rhythm (peak at awakening) and stress. ADRENAL CORTEX: Zona fasciculata cells express MC2R (melanocortin-2 receptor). ACTH binding → cAMP → increased StAR protein → cholesterol transport into mitochondria → cortisol synthesis. Cortisol effects: gluconeogenesis, protein catabolism, anti-inflammatory, permissive for catecholamines. FEEDBACK: Cortisol binds glucocorticoid receptors in hypothalamus and pituitary, suppressing CRH and ACTH release. This negative feedback maintains cortisol within homeostatic range. Dysregulation: Cushing's syndrome (excess cortisol), Addison's disease (cortisol deficiency).",
- "metaphor": "The HPA axis is like a corporate hierarchy. The CEO (hypothalamus) issues memos (CRH) to middle management (pituitary). Middle management sends orders (ACTH) to the factory (adrenal cortex). The factory produces product (cortisol) and ships it out. When product levels get high enough, the CEO and middle management see the inventory reports (negative feedback) and stop issuing new orders. Cut off the orders (ACTH deficiency), the factory shuts down (adrenal atrophy)."
- }
- },
- {
- "id": "700.1.02",
- "q": "The major targets of growth hormone are ________.",
- "options": ["The blood vessels", "The thyroid and adrenal glands", "The liver and gall bladder", "Liver, bones, and skeletal muscles"],
- "answer": 3,
- "chapter": "Chapter 16 — Endocrine System",
- "explain": "growth hormone (GH, somatotropin) has both direct and indirect effects on multiple tissues. Direct effects: lipolysis in adipose, amino acid uptake in muscle. Indirect effects: GH stimulates the liver to produce IGF-1 (insulin-like growth factor 1), which drives bone growth (epiphyseal plate cartilage proliferation) and muscle protein synthesis. The primary target organs are liver (IGF-1 production), bones (linear growth), and skeletal muscles (protein anabolism).",
- "optionExplains": [
- {
- "verdict": "incorrect",
- "text": "Blood vessels are not primary GH targets. GH affects metabolism and growth, not vascular function directly. Some IGF-1 effects on vasculature exist, but this isn't the major target."
- },
- {
- "verdict": "incorrect",
- "text": "The thyroid and adrenal glands are targets of TSH and ACTH respectively, not GH. GH is not a tropic hormone for other endocrine glands — it acts on peripheral tissues."
- },
- {
- "verdict": "incorrect",
- "text": "The liver is a major GH target (produces IGF-1), but the gallbladder is not. The gallbladder stores and concentrates bile — it has no significant GH-responsive functions."
- },
- {
- "verdict": "correct",
- "text": "Correct! GH's major targets: LIVER — produces IGF-1 (somatomedin C), the mediator of GH's growth-promoting effects. BONES — IGF-1 stimulates chondrocyte proliferation at epiphyseal plates, driving linear growth until plates fuse. SKELETAL MUSCLES — GH and IGF-1 promote protein synthesis, amino acid uptake, and muscle hypertrophy. Here's the clinical correlation: GH deficiency in children → short stature. GH excess before puberty → gigantism. GH excess after puberty → acromegaly (enlarged hands, feet, jaw, organs)."
- }
- ],
- "mechanism": {
- "title": "Growth Hormone: The Somatotropic Axis",
- "content": "watch how GH orchestrates growth: REGULATION: Hypothalamus releases GHRH (stimulatory) and somatostatin (inhibitory) into portal circulation. Balance determines GH release from somatotrophs (most abundant anterior pituitary cell type). GH secretion is pulsatile (highest during deep sleep) and affected by nutrition, exercise, and stress. DIRECT GH EFFECTS: Metabolic — lipolysis in adipose (fat burning), gluconeogenesis in liver (diabetogenic), protein synthesis in muscle. These are 'anti-insulin' effects. INDIRECT GH EFFECTS (via IGF-1): Liver produces IGF-1 in response to GH. IGF-1 stimulates: chondrocyte proliferation (epiphyseal plate expansion → linear growth), osteoblast activity (bone thickening), satellite cell activation (muscle growth). IGF-1 also feeds back negatively on GH release. FEEDBACK: IGF-1 inhibits GHRH neurons, stimulates somatostatin neurons, and directly inhibits somatotrophs. This negative feedback maintains physiological GH/IGF-1 levels.",
- "metaphor": "GH is like a CEO who works through both personal visits and corporate memos. Direct effects: the CEO personally visits the fat warehouse (adipose) and says 'sell inventory' (lipolysis), visits the protein factory (muscle) and says 'ramp up production' (protein synthesis). Indirect effects: the CEO tells the liver division to send out growth memos (IGF-1) to the construction teams (bones, muscles). The memos drive the actual building projects (growth). When enough growth happens, the teams send reports back (IGF-1 feedback), and the CEO scales back."
- }
- },
- {
- "id": "700.1.03",
- "q": "Oxytocin release is an example of a positive feedback control mechanism.",
- "options": ["True", "False"],
- "answer": 0,
- "chapter": "Chapter 16 — Endocrine System",
- "explain": "oxytocin during childbirth is the classic positive feedback example. Fetal head pressing on cervix → sensory signals to hypothalamus → oxytocin release from posterior pituitary → uterine contractions → more cervical stretching → more oxytocin. This escalating cycle continues until delivery (the stimulus is removed). Unlike negative feedback (which maintains stability), positive feedback amplifies the response toward a definitive endpoint.",
- "optionExplains": [
- {
- "verdict": "correct",
- "text": "Correct! The Ferguson reflex (oxytocin-labor positive feedback) demonstrates how positive feedback drives processes to completion: Cervical stretch → hypothalamic neurons → oxytocin from posterior pituitary → myometrial contraction → more cervical stretch → MORE oxytocin. Here's what makes it positive feedback: the response (uterine contraction) intensifies the stimulus (cervical stretch), not opposes it. The cycle terminates only when the baby is delivered (stimulus removed). Breastfeeding uses the same mechanism — suckling stimulates oxytocin → milk ejection → more suckling."
- },
- {
- "verdict": "incorrect",
- "text": "This statement is actually TRUE. Oxytocin release during labor IS positive feedback. The hormone's effect (contraction) enhances the stimulus (cervical stretch), creating an amplifying loop. This is fundamentally different from negative feedback (where the hormone's effect opposes the stimulus)."
- }
- ],
- "mechanism": {
- "title": "Positive Feedback: Amplifying to Completion",
- "content": "Let me show you how positive feedback differs from negative: NEGATIVE FEEDBACK (most common): Stimulus → response → response opposes stimulus → stimulus decreases → homeostasis maintained. Example: blood glucose rises → insulin released → glucose falls → insulin decreases. Stable equilibrium. POSITIVE FEEDBACK (rare, for completion events): Stimulus → response → response ENHANCES stimulus → stimulus increases → more response → escalating cycle → endpoint reached → stimulus removed → cycle terminates. Examples: (1) Oxytocin during labor: escalates until delivery. (2) LH surge during ovulation: estrogen triggers LH spike, LH causes follicle rupture (endpoint). (3) Blood clotting cascade: small injury triggers massive amplification until clot forms. Key insight: positive feedback is inherently unstable — it must terminate. If it doesn't, pathology results (e.g., disseminated intravascular coagulation).",
- "metaphor": "Positive feedback is like a microphone pointed at its own speaker — sound enters the mic, comes out the speaker, enters the mic again, louder each time. The screech escalates until something breaks the loop (you move the mic, turn down the volume, or the speaker blows). In labor, oxytocin is the screech, and delivery breaks the loop. Without an endpoint, positive feedback is dangerous — but with an endpoint, it drives powerful, decisive physiological events."
- }
- },
- {
- "id": "700.1.04",
- "q": "Iodine is an essential element required for the synthesis of thyroxine.",
- "options": ["True", "False"],
- "answer": 0,
- "chapter": "Chapter 16 — Endocrine System",
- "explain": "thyroid hormones (T4 = thyroxine, T3 = triiodothyronine) are unique because they require iodine atoms in their structure. T4 has four iodines; T3 has three. Without dietary iodine, the thyroid cannot synthesize these hormones, leading to compensatory TSH elevation, thyroid enlargement (goiter), and hypothyroidism. Iodized salt was one of the most successful public health interventions, eliminating endemic goiter and cretinism in iodine-deficient regions.",
- "optionExplains": [
- {
- "verdict": "correct",
- "text": "Correct! Thyroid hormone synthesis absolutely requires iodine. Here's the pathway: Dietary iodine → absorbed as iodide → taken up by thyroid follicular cells via sodium-iodide symporter (NIS) → oxidized by thyroid peroxidase → attached to tyrosine residues on thyroglobulin → MIT (monoiodotyrosine) and DIT (diiodotyrosine) → coupling: DIT+DIT=T4, DIT+MIT=T3. Without iodine, this process halts. The body compensates with TSH elevation, causing thyroid hyperplasia (goiter), but hormone production remains insufficient (hypothyroidism). Iodine deficiency remains the world's leading cause of preventable mental retardation."
- },
- {
- "verdict": "incorrect",
- "text": "This statement is actually TRUE. Iodine IS essential for thyroxine synthesis. The iodine atoms ARE the hormone — tyrosine residues without iodine attached have no thyroid hormone activity."
- }
- ],
- "mechanism": {
- "title": "Thyroid Hormone Synthesis: The Iodine Requirement",
- "content": "watch how the thyroid captures and uses iodine: IODIDE TRAPPING: Thyroid follicular cells express NIS (sodium-iodide symporter) on basolateral membrane. Concentrates iodide 20-40× above plasma levels. IODIDE OXIDATION: At apical membrane, thyroid peroxidase (TPO) oxidizes iodide (I⁻) to iodine (I⁰) using H₂O₂. ORGANIFICATION: TPO attaches iodine to tyrosine residues on thyroglobulin (Tg) in the colloid. One iodine → MIT. Two iodines → DIT. COUPLING: TPO catalyzes coupling reactions still on Tg: DIT + DIT → T4 (tetraiodothyronine). DIT + MIT → T3 (triiodothyronine). SECRETION: TSH stimulates follicular cells to endocytose colloid, lysosomal proteases release T4 and T3 from Tg, hormones enter blood. T4 is the predominant secretion (~90%); T3 is more active but mostly produced peripherally by deiodination. FEEDBACK: T3/T4 inhibit TSH and TRH release.",
- "metaphor": "Thyroid hormone synthesis is like a jewelry factory. Iodine is the gold — without it, you can't make the product. The thyroid actively hoards iodide (like a jeweler stockpiling gold), processes it (oxidation), attaches it to a scaffold (thyroglobulin), then links decorated pieces together (coupling). The final jewelry (T3, T4) is stored in the display case (colloid) until ordered (TSH signal). No gold (iodine deficiency), no jewelry (hypothyroidism), and the factory works overtime trying (goiter) but still can't produce."
- }
- },
- {
- "id": "700.1.05",
- "q": "The single most important regulator of calcium levels in the blood is ________.",
- "options": ["Gonadotropic hormones", "Calcitonin", "Thyroid hormone", "Parathyroid hormone"],
- "answer": 3,
- "chapter": "Chapter 16 — Endocrine System",
- "explain": "parathyroid hormone (PTH) is the dominant calcium regulator. When blood Ca²⁺ falls, parathyroid glands (four small glands behind the thyroid) release PTH, which: (1) stimulates osteoclast activity → Ca²⁺ release from bone, (2) increases renal Ca²⁺ reabsorption, (3) stimulates 1,25-(OH)₂D synthesis → increased intestinal Ca²⁺ absorption. Calcitonin opposes these effects but is much less potent — PTH is the primary minute-to-minute regulator.",
- "optionExplains": [
- {
- "verdict": "incorrect",
- "text": "Gonadotropic hormones (FSH, LH) regulate reproductive function, not calcium homeostasis. They target gonads (ovaries, testes), not bone, kidney, or intestine."
- },
- {
- "verdict": "incorrect",
- "text": "Calcitonin (from thyroid parafollicular/C cells) lowers blood calcium by inhibiting osteoclasts, but it's much less potent than PTH. Calcitonin deficiency or excess has minimal clinical impact on calcium levels — it's a fine-tuner, not the primary regulator."
- },
- {
- "verdict": "incorrect",
- "text": "Thyroid hormone (T3/T4) regulates metabolism, not calcium specifically. It does affect bone turnover (hyperthyroidism can cause osteoporosis), but it's not the primary calcium regulator."
- },
- {
- "verdict": "correct",
- "text": "Correct! PTH is the DOMINANT calcium regulator. Low Ca²⁺ → PTH release within minutes. PTH effects: BONE — stimulates osteoclast activity (indirectly via osteoblasts), releases Ca²⁺ and phosphate from bone matrix. KIDNEY — increases Ca²⁺ reabsorption in distal tubule, decreases phosphate reabsorption (phosphaturia), stimulates 1-alpha-hydroxylase (activates vitamin D). GUT — vitamin D increases Ca²⁺ absorption. Net effect: blood Ca²⁺ rises, phosphate falls. Here's the proof: parathyroidectomy → immediate hypocalcemia (tetany, cardiac arrhythmias). Calcitonin removal → no significant calcium change."
- }
- ],
- "mechanism": {
- "title": "PTH: The Calcium Thermostat",
- "content": "Parathyroid chief cells express calcium-sensing receptors (CaSR). High Ca²⁺ → CaSR activation → PTH secretion inhibited. Low Ca²⁺ → CaSR inactive → PTH secretion released. BONE: PTH binds PTH1R on osteoblasts → osteoblasts release RANKL → RANKL activates osteoclasts → bone resorption → Ca²⁺ and PO₄ released. KIDNEY: PTH increases Ca²⁺ reabsorption (DCT/connecting tubule), increases phosphate excretion (decreases Na-PO₄ cotransporter in PCT), stimulates 1α-hydroxylase (converts 25-OH-D to active 1,25-(OH)₂D). INTESTINE: Active vitamin D (1,25-(OH)₂D) increases TRPV6 and calbindin expression → increased Ca²⁺ absorption. FEEDBACK: Rising Ca²⁺ reactivates CaSR → PTH secretion decreases. The system maintains plasma Ca²⁺ at ~9-10.5 mg/dL, critical for nerve/muscle function and bone integrity.",
- "metaphor": "PTH is like a thermostat for calcium. When calcium runs low (room gets cold), the thermostat (parathyroid) turns on the heater (PTH secretion). PTH 'warms' calcium levels through three radiators: bone (releases stored calcium like a thermal mass), kidney (retains calcium, excretes phosphate like adjusting the vents), and gut (via vitamin D, like opening windows to let more heat in). When calcium reaches setpoint, the thermostat turns off. Calcitonin is like a weak air conditioner — it can cool slightly, but the heater is much more powerful."
- }
- },
- {
- "id": "700.1.06",
- "q": "Which organ is responsible for synthesizing the hormone atrial natriuretic peptide (ANP)?",
- "options": ["The skin", "The heart", "The spleen", "The kidney"],
- "answer": 1,
- "chapter": "Chapter 16 — Endocrine System",
- "explain": "the HEART is an endocrine organ. Atrial myocytes synthesize and store ANP (atrial natriuretic peptide) in granules. When atria stretch (from increased blood volume/pressure), ANP is released. ANP promotes sodium and water excretion by the kidneys, dilates blood vessels, and inhibits renin and aldosterone — collectively reducing blood volume and pressure. The heart detects 'too much volume' and signals the kidneys to fix it.",
- "optionExplains": [
- {
- "verdict": "incorrect",
- "text": "The skin produces vitamin D precursors (under UV light) and contains various signaling molecules, but not ANP. ANP is cardiac-specific."
- },
- {
- "verdict": "correct",
- "text": "Correct! The heart produces ANP — specifically atrial cardiomyocytes synthesize pro-ANP, store it in granules, and release mature ANP when stretched. Here's the elegant logic: the heart IS the pump that feels volume overload directly. Atrial stretch signals 'too much preload.' ANP release triggers natriuresis, diuresis, and vasodilation — reducing the load. The kidneys respond with increased Na⁺ and water excretion. This is the heart's way of telling the kidneys 'I'm overloaded, help me out.' ANP opposes the renin-angiotensin-aldosterone system."
- },
- {
- "verdict": "incorrect",
- "text": "The spleen filters blood and stores immune cells but doesn't synthesize ANP. It's not an endocrine organ in this context."
- },
- {
- "verdict": "incorrect",
- "text": "The kidney is the TARGET of ANP (responds by increasing sodium excretion), not the source. The kidney produces renin, erythropoietin, and active vitamin D — but not ANP."
- }
- ],
- "mechanism": {
- "title": "ANP: The Heart as an Endocrine Organ",
- "content": "watch how the heart regulates volume: STIMULUS: Atrial stretch from increased venous return/blood volume. Mechanosensitive channels in atrial myocytes detect wall tension. SECRETION: Atrial granules release ANP (and related peptide BNP from ventricles). ANP circulates to target tissues. KIDNEY EFFECTS: ANP binds natriuretic peptide receptors (NPR-A) → intracellular cGMP → increased GFR (afferent arteriole dilation, efferent constriction), decreased Na⁺ reabsorption (directly inhibits ENaC in collecting duct), decreased renin release (JG cells). VASCULAR EFFECTS: Vasodilation → reduced peripheral resistance → reduced blood pressure. ADRENAL EFFECTS: Inhibits aldosterone secretion → further natriuresis. NET EFFECT: Reduced blood volume, reduced blood pressure. ANP opposes the RAAS — it's the 'off switch' for volume conservation.",
- "metaphor": "ANP is like a pressure relief valve. When the heart's atria sense pressure building (stretch), they release a chemical signal saying 'dump excess fluid.' The kidneys respond by opening the drain (natriuresis, diuresis). Meanwhile, ANP tells the aldosterone factory (adrenal cortex) to shut down (stop retaining sodium) and the renin alarm (kidneys) to quiet down (stop activating RAAS). It's a coordinated pressure-reduction response originating from the very organ that feels the pressure most directly."
- }
- },
- {
- "id": "700.1.07",
- "q": "At age 85, Lyle's immune system does not respond to vaccines as well as it did when he was younger. The atrophy of which endocrine gland is likely responsible for this?",
- "options": ["Thyroid", "Anterior pituitary", "Thymus", "Adrenal"],
- "answer": 2,
- "chapter": "Chapter 16 — Endocrine System",
- "explain": "the thymus is essential for T cell maturation. It's largest in childhood, then progressively involutes (shrinks, replaces with fat) throughout adulthood. By age 85, very little functional thymic tissue remains. This 'thymic involution' means fewer naive T cells are produced, the T cell repertoire becomes restricted, and immune responses to new antigens (like vaccines) weaken. The thymus is technically both lymphoid AND endocrine (produces thymosins that promote T cell development).",
- "optionExplains": [
- {
- "verdict": "incorrect",
- "text": "The thyroid atrophies somewhat with age but doesn't cause immune dysfunction. Thyroid hormone regulates metabolism, not immune function directly."
- },
- {
- "verdict": "incorrect",
- "text": "The anterior pituitary continues functioning into old age (though some hormones decline). It doesn't directly regulate immune response to vaccines."
- },
- {
- "verdict": "correct",
- "text": "Correct! Thymic atrophy explains age-related immune decline (immunosenescence). The thymus produces naive T cells — T cells that have never encountered antigen and can respond to novel pathogens. Peak thymic output: infancy. By puberty: significant involution begins. By age 85: mostly fatty replacement, minimal T cell production. Consequences: restricted T cell repertoire (fewer clones to respond to new antigens), reduced vaccine responses, increased susceptibility to infections and cancers. Here's the clinical relevance: elderly patients often need higher vaccine doses or adjuvants to compensate for diminished T cell responses."
- },
- {
- "verdict": "incorrect",
- "text": "The adrenal glands continue functioning throughout life (cortisol remains essential). While cortisol affects immune function (immunosuppressive), adrenal atrophy isn't the cause of reduced vaccine response."
- }
- ],
- "mechanism": {
- "title": "Thymic Involution: The Aging Immune System",
- "content": "Let me show you why the thymus matters: T CELL DEVELOPMENT: Bone marrow progenitors → migrate to thymus → undergo positive selection (must recognize self-MHC) and negative selection (must not react too strongly to self-antigens) → mature naive T cells exit to periphery. This process creates T cell diversity and self-tolerance. THYMIC INVOLUTION: The thymus peaks in size/output before puberty. Sex hormones (especially androgens) trigger involution. Thymic epithelial cells decrease, fat infiltrates, lymphopoiesis slows. By age 60-70, thymic output is <10% of childhood levels. By 85, negligible. CONSEQUENCES: Existing T cell repertoire (established in youth) maintains immunity to familiar antigens. But new antigen responses depend on naive T cells → vaccine responses decline. Memory T cells persist but cannot compensate for lack of novel clones. INTERVENTIONS (experimental): IL-7 administration, sex hormone ablation, and thymic transplantation are being studied to restore thymic function.",
- "metaphor": "The thymus is like a military academy that trains new recruits. In childhood, the academy runs at full capacity — thousands of fresh soldiers (naive T cells) graduate yearly, ready to fight any enemy. After puberty, the academy scales back. By age 85, it's mostly closed — a few instructors remain, but hardly any new graduates. The veterans (memory T cells) can still fight enemies they've seen before, but there are no rookies to tackle novel threats (new vaccines, emerging pathogens). The army becomes experienced but inflexible."
- }
- },
- {
- "id": "700.1.08",
- "q": "Which of the following is NOT a category of endocrine gland stimulus?",
- "options": ["Enzymatic", "Neural", "Humoral", "Hormonal"],
- "answer": 0,
- "chapter": "Chapter 16 — Endocrine System",
- "explain": "endocrine glands are stimulated by three mechanisms: (1) HUMORAL — direct response to changing blood levels of ions or nutrients (e.g., parathyroid responds to Ca²⁺, beta cells respond to glucose). (2) NEURAL — nerve fibers directly stimulate hormone release (e.g., sympathetic innervation of adrenal medulla → epinephrine). (3) HORMONAL — one hormone stimulates release of another (e.g., TSH → thyroid hormone, ACTH → cortisol). 'Enzymatic' is not a stimulus category.",
- "optionExplains": [
- {
- "verdict": "correct",
- "text": "Correct! 'Enzymatic' is NOT a standard endocrine stimulus category. The three recognized categories: HUMORAL — gland responds directly to blood-borne chemical levels. Parathyroid senses Ca²⁺. Pancreatic beta cells sense glucose. Adrenal glomerulosa senses K⁺. NEURAL — neurons synapse on endocrine cells and trigger release. Adrenal medulla receives preganglionic sympathetic innervation. Posterior pituitary releases hormones via hypothalamic neuron action potentials. HORMONAL — tropic hormones stimulate target glands. TSH → thyroid. ACTH → adrenal cortex. FSH/LH → gonads. Enzymes are involved in hormone synthesis and signaling cascades, but 'enzymatic' isn't a stimulus category."
- },
- {
- "verdict": "incorrect",
- "text": "Neural IS a valid stimulus category. Example: sympathetic preganglionic fibers synapse directly on adrenal medulla chromaffin cells, triggering epinephrine release."
- },
- {
- "verdict": "incorrect",
- "text": "Humoral IS a valid stimulus category. Example: low blood Ca²⁺ directly stimulates parathyroid chief cells to release PTH — no intermediate hormone or nerve required."
- },
- {
- "verdict": "incorrect",
- "text": "Hormonal IS a valid stimulus category. Example: CRH from hypothalamus → ACTH from pituitary → cortisol from adrenal cortex. Tropic hormones stimulating target glands."
- }
- ],
- "mechanism": {
- "title": "Three Categories of Endocrine Stimuli",
- "content": "let me map how endocrine glands know when to secrete: HUMORAL STIMULI: Endocrine cells directly sense blood chemical levels. Parathyroid chief cells have calcium-sensing receptors — low Ca²⁺ → PTH release. Pancreatic beta cells have GLUT2 and glucokinase — high glucose → insulin release. Adrenal zona glomerulosa cells sense K⁺ — high K⁺ → aldosterone release. No intermediary needed. NEURAL STIMULI: Neurons directly innervate endocrine cells. Adrenal medulla: preganglionic sympathetic fibers release ACh → chromaffin cells release epinephrine/norepinephrine. Posterior pituitary: hypothalamic neurons (supraoptic, paraventricular nuclei) project axons to posterior pituitary, releasing ADH and oxytocin directly. HORMONAL STIMULI: Hormones trigger hormone release. The hypothalamic-pituitary axes exemplify this: TRH → TSH → T3/T4. CRH → ACTH → cortisol. GnRH → FSH/LH → sex steroids. Each tropic hormone is 'hormonal stimulus' for the next level.",
- "metaphor": "Think of endocrine glands as factories with three different alarm systems. HUMORAL: chemical sensors in the factory detect raw material levels (Ca²⁺, glucose) and directly adjust production. NEURAL: a direct phone line from headquarters (CNS) can call the factory and order production (adrenal medulla, posterior pituitary). HORMONAL: a memo from another factory (tropic hormone) arrives, ordering increased production at this factory. Different trigger systems, same endpoint: hormone release. 'Enzymatic' would be like saying the assembly line itself is an alarm — it's part of production machinery, not a trigger mechanism."
- }
- }
- ]
+  "id": "700.1",
+  "title": "Pituitary & Hypothalamus",
+  "category": "ch16",
+  "description": "Questions about pituitary hormones, targets, and hypothalamic control",
+  "questions": [
+    {
+      "id": "700.1.01",
+      "q": "ACTH stimulates the adrenal cortex to release corticosteroid hormones.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 16 — Endocrine System",
+      "explain": "ACTH (adrenocorticotropic hormone) from the anterior pituitary is the master controller of the adrenal cortex, specifically the zona fasciculata and zona reticularis. ACTH binds melanocortin-2 receptors on adrenocortical cells, stimulating synthesis and release of cortisol (the primary glucocorticoid) and adrenal androgens. The zona glomerulosa (mineralocorticoid zone) responds primarily to angiotensin II and K+, though ACTH has permissive effects.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! ACTH drives corticosteroid production — primarily glucocorticoids (cortisol) from the zona fasciculata. Here's the axis: Stress → hypothalamus releases CRH → anterior pituitary releases ACTH → adrenal cortex releases cortisol. Cortisol then feeds back negatively on both hypothalamus and pituitary, completing the HPA (hypothalamic-pituitary-adrenal) axis. Without ACTH, the zona fasciculata atrophies and cortisol production collapses."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This statement is actually TRUE. ACTH IS the tropic hormone for the adrenal cortex. It stimulates corticosteroid synthesis via cAMP-mediated pathways, increasing cholesterol uptake and conversion to pregnenolone — the first step in steroidogenesis."
+        }
+      ],
+      "mechanism": {
+        "title": "The HPA Axis: ACTH and Cortisol",
+        "content": "Let me show you the HPA axis in detail: HYPOTHALAMUS: Paraventricular nucleus neurons release CRH (corticotropin-releasing hormone) into the hypophyseal portal system. Stress, circadian signals, and inflammatory cytokines regulate CRH release. ANTERIOR PITUITARY: Corticotrophs express CRH receptors. CRH binding → cAMP → POMC cleavage → ACTH release. ACTH pulses follow circadian rhythm (peak at awakening) and stress. ADRENAL CORTEX: Zona fasciculata cells express MC2R (melanocortin-2 receptor). ACTH binding → cAMP → increased StAR protein → cholesterol transport into mitochondria → cortisol synthesis. Cortisol effects: gluconeogenesis, protein catabolism, anti-inflammatory, permissive for catecholamines. FEEDBACK: Cortisol binds glucocorticoid receptors in hypothalamus and pituitary, suppressing CRH and ACTH release. This negative feedback maintains cortisol within homeostatic range. Dysregulation: Cushing's syndrome (excess cortisol), Addison's disease (cortisol deficiency).",
+        "metaphor": "The HPA axis is like a corporate hierarchy. The CEO (hypothalamus) issues memos (CRH) to middle management (pituitary). Middle management sends orders (ACTH) to the factory (adrenal cortex). The factory produces product (cortisol) and ships it out. When product levels get high enough, the CEO and middle management see the inventory reports (negative feedback) and stop issuing new orders. Cut off the orders (ACTH deficiency), the factory shuts down (adrenal atrophy)."
+      }
+    },
+    {
+      "id": "700.1.02",
+      "q": "The major targets of growth hormone are ________.",
+      "options": [
+        "The blood vessels",
+        "The thyroid and adrenal glands",
+        "The liver and gall bladder",
+        "Liver, bones, and skeletal muscles"
+      ],
+      "answer": 3,
+      "chapter": "Chapter 16 — Endocrine System",
+      "explain": "growth hormone (GH, somatotropin) has both direct and indirect effects on multiple tissues. Direct effects: lipolysis in adipose, amino acid uptake in muscle. Indirect effects: GH stimulates the liver to produce IGF-1 (insulin-like growth factor 1), which drives bone growth (epiphyseal plate cartilage proliferation) and muscle protein synthesis. The primary target organs are liver (IGF-1 production), bones (linear growth), and skeletal muscles (protein anabolism).",
+      "optionExplains": [
+        {
+          "verdict": "incorrect",
+          "text": "Blood vessels are not primary GH targets. GH affects metabolism and growth, not vascular function directly. Some IGF-1 effects on vasculature exist, but this isn't the major target."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "The thyroid and adrenal glands are targets of TSH and ACTH respectively, not GH. GH is not a tropic hormone for other endocrine glands — it acts on peripheral tissues."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "The liver is a major GH target (produces IGF-1), but the gallbladder is not. The gallbladder stores and concentrates bile — it has no significant GH-responsive functions."
+        },
+        {
+          "verdict": "correct",
+          "text": "Correct! GH's major targets: LIVER — produces IGF-1 (somatomedin C), the mediator of GH's growth-promoting effects. BONES — IGF-1 stimulates chondrocyte proliferation at epiphyseal plates, driving linear growth until plates fuse. SKELETAL MUSCLES — GH and IGF-1 promote protein synthesis, amino acid uptake, and muscle hypertrophy. Here's the clinical correlation: GH deficiency in children → short stature. GH excess before puberty → gigantism. GH excess after puberty → acromegaly (enlarged hands, feet, jaw, organs)."
+        }
+      ],
+      "mechanism": {
+        "title": "Growth Hormone: The Somatotropic Axis",
+        "content": "Note this crucial step:GH orchestrates growth: REGULATION: Hypothalamus releases GHRH (stimulatory) and somatostatin (inhibitory) into portal circulation. Balance determines GH release from somatotrophs (most abundant anterior pituitary cell type). GH secretion is pulsatile (highest during deep sleep) and affected by nutrition, exercise, and stress. DIRECT GH EFFECTS: Metabolic — lipolysis in adipose (fat burning), gluconeogenesis in liver (diabetogenic), protein synthesis in muscle. These are 'anti-insulin' effects. INDIRECT GH EFFECTS (via IGF-1): Liver produces IGF-1 in response to GH. IGF-1 stimulates: chondrocyte proliferation (epiphyseal plate expansion → linear growth), osteoblast activity (bone thickening), satellite cell activation (muscle growth). IGF-1 also feeds back negatively on GH release. FEEDBACK: IGF-1 inhibits GHRH neurons, stimulates somatostatin neurons, and directly inhibits somatotrophs. This negative feedback maintains physiological GH/IGF-1 levels.",
+        "metaphor": "GH is like a CEO who works through both personal visits and corporate memos. Direct effects: the CEO personally visits the fat warehouse (adipose) and says 'sell inventory' (lipolysis), visits the protein factory (muscle) and says 'ramp up production' (protein synthesis). Indirect effects: the CEO tells the liver division to send out growth memos (IGF-1) to the construction teams (bones, muscles). The memos drive the actual building projects (growth). When enough growth happens, the teams send reports back (IGF-1 feedback), and the CEO scales back."
+      }
+    },
+    {
+      "id": "700.1.03",
+      "q": "Oxytocin release is an example of a positive feedback control mechanism.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 16 — Endocrine System",
+      "explain": "oxytocin during childbirth is the classic positive feedback example. Fetal head pressing on cervix → sensory signals to hypothalamus → oxytocin release from posterior pituitary → uterine contractions → more cervical stretching → more oxytocin. This escalating cycle continues until delivery (the stimulus is removed). Unlike negative feedback (which maintains stability), positive feedback amplifies the response toward a definitive endpoint.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! The Ferguson reflex (oxytocin-labor positive feedback) demonstrates how positive feedback drives processes to completion: Cervical stretch → hypothalamic neurons → oxytocin from posterior pituitary → myometrial contraction → more cervical stretch → MORE oxytocin. Here's what makes it positive feedback: the response (uterine contraction) intensifies the stimulus (cervical stretch), not opposes it. The cycle terminates only when the baby is delivered (stimulus removed). Breastfeeding uses the same mechanism — suckling stimulates oxytocin → milk ejection → more suckling."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This statement is actually TRUE. Oxytocin release during labor IS positive feedback. The hormone's effect (contraction) enhances the stimulus (cervical stretch), creating an amplifying loop. This is fundamentally different from negative feedback (where the hormone's effect opposes the stimulus)."
+        }
+      ],
+      "mechanism": {
+        "title": "Positive Feedback: Amplifying to Completion",
+        "content": "Let me show you how positive feedback differs from negative: NEGATIVE FEEDBACK (most common): Stimulus → response → response opposes stimulus → stimulus decreases → homeostasis maintained. Example: blood glucose rises → insulin released → glucose falls → insulin decreases. Stable equilibrium. POSITIVE FEEDBACK (rare, for completion events): Stimulus → response → response ENHANCES stimulus → stimulus increases → more response → escalating cycle → endpoint reached → stimulus removed → cycle terminates. Examples: (1) Oxytocin during labor: escalates until delivery. (2) LH surge during ovulation: estrogen triggers LH spike, LH causes follicle rupture (endpoint). (3) Blood clotting cascade: small injury triggers massive amplification until clot forms. Key insight: positive feedback is inherently unstable — it must terminate. If it doesn't, pathology results (e.g., disseminated intravascular coagulation).",
+        "metaphor": "Positive feedback is like a microphone pointed at its own speaker — sound enters the mic, comes out the speaker, enters the mic again, louder each time. The screech escalates until something breaks the loop (you move the mic, turn down the volume, or the speaker blows). In labor, oxytocin is the screech, and delivery breaks the loop. Without an endpoint, positive feedback is dangerous — but with an endpoint, it drives powerful, decisive physiological events."
+      }
+    },
+    {
+      "id": "700.1.04",
+      "q": "Iodine is an essential element required for the synthesis of thyroxine.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 16 — Endocrine System",
+      "explain": "thyroid hormones (T4 = thyroxine, T3 = triiodothyronine) are unique because they require iodine atoms in their structure. T4 has four iodines; T3 has three. Without dietary iodine, the thyroid cannot synthesize these hormones, leading to compensatory TSH elevation, thyroid enlargement (goiter), and hypothyroidism. Iodized salt was one of the most successful public health interventions, eliminating endemic goiter and cretinism in iodine-deficient regions.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! Thyroid hormone synthesis absolutely requires iodine. Here's the pathway: Dietary iodine → absorbed as iodide → taken up by thyroid follicular cells via sodium-iodide symporter (NIS) → oxidized by thyroid peroxidase → attached to tyrosine residues on thyroglobulin → MIT (monoiodotyrosine) and DIT (diiodotyrosine) → coupling: DIT+DIT=T4, DIT+MIT=T3. Without iodine, this process halts. The body compensates with TSH elevation, causing thyroid hyperplasia (goiter), but hormone production remains insufficient (hypothyroidism). Iodine deficiency remains the world's leading cause of preventable mental retardation."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This statement is actually TRUE. Iodine IS essential for thyroxine synthesis. The iodine atoms ARE the hormone — tyrosine residues without iodine attached have no thyroid hormone activity."
+        }
+      ],
+      "mechanism": {
+        "title": "Thyroid Hormone Synthesis: The Iodine Requirement",
+        "content": "Concentrate on this:the thyroid captures and uses iodine: IODIDE TRAPPING: Thyroid follicular cells express NIS (sodium-iodide symporter) on basolateral membrane. Concentrates iodide 20-40× above plasma levels. IODIDE OXIDATION: At apical membrane, thyroid peroxidase (TPO) oxidizes iodide (I⁻) to iodine (I⁰) using H₂O₂. ORGANIFICATION: TPO attaches iodine to tyrosine residues on thyroglobulin (Tg) in the colloid. One iodine → MIT. Two iodines → DIT. COUPLING: TPO catalyzes coupling reactions still on Tg: DIT + DIT → T4 (tetraiodothyronine). DIT + MIT → T3 (triiodothyronine). SECRETION: TSH stimulates follicular cells to endocytose colloid, lysosomal proteases release T4 and T3 from Tg, hormones enter blood. T4 is the predominant secretion (~90%); T3 is more active but mostly produced peripherally by deiodination. FEEDBACK: T3/T4 inhibit TSH and TRH release.",
+        "metaphor": "Thyroid hormone synthesis is like a jewelry factory. Iodine is the gold — without it, you can't make the product. The thyroid actively hoards iodide (like a jeweler stockpiling gold), processes it (oxidation), attaches it to a scaffold (thyroglobulin), then links decorated pieces together (coupling). The final jewelry (T3, T4) is stored in the display case (colloid) until ordered (TSH signal). No gold (iodine deficiency), no jewelry (hypothyroidism), and the factory works overtime trying (goiter) but still can't produce."
+      }
+    },
+    {
+      "id": "700.1.05",
+      "q": "The single most important regulator of calcium levels in the blood is ________.",
+      "options": [
+        "Gonadotropic hormones",
+        "Calcitonin",
+        "Thyroid hormone",
+        "Parathyroid hormone"
+      ],
+      "answer": 3,
+      "chapter": "Chapter 16 — Endocrine System",
+      "explain": "parathyroid hormone (PTH) is the dominant calcium regulator. When blood Ca²⁺ falls, parathyroid glands (four small glands behind the thyroid) release PTH, which: (1) stimulates osteoclast activity → Ca²⁺ release from bone, (2) increases renal Ca²⁺ reabsorption, (3) stimulates 1,25-(OH)₂D synthesis → increased intestinal Ca²⁺ absorption. Calcitonin opposes these effects but is much less potent — PTH is the primary minute-to-minute regulator.",
+      "optionExplains": [
+        {
+          "verdict": "incorrect",
+          "text": "Gonadotropic hormones (FSH, LH) regulate reproductive function, not calcium homeostasis. They target gonads (ovaries, testes), not bone, kidney, or intestine."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "Calcitonin (from thyroid parafollicular/C cells) lowers blood calcium by inhibiting osteoclasts, but it's much less potent than PTH. Calcitonin deficiency or excess has minimal clinical impact on calcium levels — it's a fine-tuner, not the primary regulator."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "Thyroid hormone (T3/T4) regulates metabolism, not calcium specifically. It does affect bone turnover (hyperthyroidism can cause osteoporosis), but it's not the primary calcium regulator."
+        },
+        {
+          "verdict": "correct",
+          "text": "Correct! PTH is the DOMINANT calcium regulator. Low Ca²⁺ → PTH release within minutes. PTH effects: BONE — stimulates osteoclast activity (indirectly via osteoblasts), releases Ca²⁺ and phosphate from bone matrix. KIDNEY — increases Ca²⁺ reabsorption in distal tubule, decreases phosphate reabsorption (phosphaturia), stimulates 1-alpha-hydroxylase (activates vitamin D). GUT — vitamin D increases Ca²⁺ absorption. Net effect: blood Ca²⁺ rises, phosphate falls. Here's the proof: parathyroidectomy → immediate hypocalcemia (tetany, cardiac arrhythmias). Calcitonin removal → no significant calcium change."
+        }
+      ],
+      "mechanism": {
+        "title": "PTH: The Calcium Thermostat",
+        "content": "Parathyroid chief cells express calcium-sensing receptors (CaSR). High Ca²⁺ → CaSR activation → PTH secretion inhibited. Low Ca²⁺ → CaSR inactive → PTH secretion released. BONE: PTH binds PTH1R on osteoblasts → osteoblasts release RANKL → RANKL activates osteoclasts → bone resorption → Ca²⁺ and PO₄ released. KIDNEY: PTH increases Ca²⁺ reabsorption (DCT/connecting tubule), increases phosphate excretion (decreases Na-PO₄ cotransporter in PCT), stimulates 1α-hydroxylase (converts 25-OH-D to active 1,25-(OH)₂D). INTESTINE: Active vitamin D (1,25-(OH)₂D) increases TRPV6 and calbindin expression → increased Ca²⁺ absorption. FEEDBACK: Rising Ca²⁺ reactivates CaSR → PTH secretion decreases. The system maintains plasma Ca²⁺ at ~9-10.5 mg/dL, critical for nerve/muscle function and bone integrity.",
+        "metaphor": "PTH is like a thermostat for calcium. When calcium runs low (room gets cold), the thermostat (parathyroid) turns on the heater (PTH secretion). PTH 'warms' calcium levels through three radiators: bone (releases stored calcium like a thermal mass), kidney (retains calcium, excretes phosphate like adjusting the vents), and gut (via vitamin D, like opening windows to let more heat in). When calcium reaches setpoint, the thermostat turns off. Calcitonin is like a weak air conditioner — it can cool slightly, but the heater is much more powerful."
+      }
+    },
+    {
+      "id": "700.1.06",
+      "q": "Which organ is responsible for synthesizing the hormone atrial natriuretic peptide (ANP)?",
+      "options": [
+        "The skin",
+        "The heart",
+        "The spleen",
+        "The kidney"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine System",
+      "explain": "the HEART is an endocrine organ. Atrial myocytes synthesize and store ANP (atrial natriuretic peptide) in granules. When atria stretch (from increased blood volume/pressure), ANP is released. ANP promotes sodium and water excretion by the kidneys, dilates blood vessels, and inhibits renin and aldosterone — collectively reducing blood volume and pressure. The heart detects 'too much volume' and signals the kidneys to fix it.",
+      "optionExplains": [
+        {
+          "verdict": "incorrect",
+          "text": "The skin produces vitamin D precursors (under UV light) and contains various signaling molecules, but not ANP. ANP is cardiac-specific."
+        },
+        {
+          "verdict": "correct",
+          "text": "Correct! The heart produces ANP — specifically atrial cardiomyocytes synthesize pro-ANP, store it in granules, and release mature ANP when stretched. Here's the elegant logic: the heart IS the pump that feels volume overload directly. Atrial stretch signals 'too much preload.' ANP release triggers natriuresis, diuresis, and vasodilation — reducing the load. The kidneys respond with increased Na⁺ and water excretion. This is the heart's way of telling the kidneys 'I'm overloaded, help me out.' ANP opposes the renin-angiotensin-aldosterone system."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "The spleen filters blood and stores immune cells but doesn't synthesize ANP. It's not an endocrine organ in this context."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "The kidney is the TARGET of ANP (responds by increasing sodium excretion), not the source. The kidney produces renin, erythropoietin, and active vitamin D — but not ANP."
+        }
+      ],
+      "mechanism": {
+        "title": "ANP: The Heart as an Endocrine Organ",
+        "content": "Attend to this process:the heart regulates volume: STIMULUS: Atrial stretch from increased venous return/blood volume. Mechanosensitive channels in atrial myocytes detect wall tension. SECRETION: Atrial granules release ANP (and related peptide BNP from ventricles). ANP circulates to target tissues. KIDNEY EFFECTS: ANP binds natriuretic peptide receptors (NPR-A) → intracellular cGMP → increased GFR (afferent arteriole dilation, efferent constriction), decreased Na⁺ reabsorption (directly inhibits ENaC in collecting duct), decreased renin release (JG cells). VASCULAR EFFECTS: Vasodilation → reduced peripheral resistance → reduced blood pressure. ADRENAL EFFECTS: Inhibits aldosterone secretion → further natriuresis. NET EFFECT: Reduced blood volume, reduced blood pressure. ANP opposes the RAAS — it's the 'off switch' for volume conservation.",
+        "metaphor": "ANP is like a pressure relief valve. When the heart's atria sense pressure building (stretch), they release a chemical signal saying 'dump excess fluid.' The kidneys respond by opening the drain (natriuresis, diuresis). Meanwhile, ANP tells the aldosterone factory (adrenal cortex) to shut down (stop retaining sodium) and the renin alarm (kidneys) to quiet down (stop activating RAAS). It's a coordinated pressure-reduction response originating from the very organ that feels the pressure most directly."
+      }
+    },
+    {
+      "id": "700.1.07",
+      "q": "At age 85, Lyle's immune system does not respond to vaccines as well as it did when he was younger. The atrophy of which endocrine gland is likely responsible for this?",
+      "options": [
+        "Thyroid",
+        "Anterior pituitary",
+        "Thymus",
+        "Adrenal"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 16 — Endocrine System",
+      "explain": "the thymus is essential for T cell maturation. It's largest in childhood, then progressively involutes (shrinks, replaces with fat) throughout adulthood. By age 85, very little functional thymic tissue remains. This 'thymic involution' means fewer naive T cells are produced, the T cell repertoire becomes restricted, and immune responses to new antigens (like vaccines) weaken. The thymus is technically both lymphoid AND endocrine (produces thymosins that promote T cell development).",
+      "optionExplains": [
+        {
+          "verdict": "incorrect",
+          "text": "The thyroid atrophies somewhat with age but doesn't cause immune dysfunction. Thyroid hormone regulates metabolism, not immune function directly."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "The anterior pituitary continues functioning into old age (though some hormones decline). It doesn't directly regulate immune response to vaccines."
+        },
+        {
+          "verdict": "correct",
+          "text": "Correct! Thymic atrophy explains age-related immune decline (immunosenescence). The thymus produces naive T cells — T cells that have never encountered antigen and can respond to novel pathogens. Peak thymic output: infancy. By puberty: significant involution begins. By age 85: mostly fatty replacement, minimal T cell production. Consequences: restricted T cell repertoire (fewer clones to respond to new antigens), reduced vaccine responses, increased susceptibility to infections and cancers. Here's the clinical relevance: elderly patients often need higher vaccine doses or adjuvants to compensate for diminished T cell responses."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "The adrenal glands continue functioning throughout life (cortisol remains essential). While cortisol affects immune function (immunosuppressive), adrenal atrophy isn't the cause of reduced vaccine response."
+        }
+      ],
+      "mechanism": {
+        "title": "Thymic Involution: The Aging Immune System",
+        "content": "Let me show you why the thymus matters: T CELL DEVELOPMENT: Bone marrow progenitors → migrate to thymus → undergo positive selection (must recognize self-MHC) and negative selection (must not react too strongly to self-antigens) → mature naive T cells exit to periphery. This process creates T cell diversity and self-tolerance. THYMIC INVOLUTION: The thymus peaks in size/output before puberty. Sex hormones (especially androgens) trigger involution. Thymic epithelial cells decrease, fat infiltrates, lymphopoiesis slows. By age 60-70, thymic output is <10% of childhood levels. By 85, negligible. CONSEQUENCES: Existing T cell repertoire (established in youth) maintains immunity to familiar antigens. But new antigen responses depend on naive T cells → vaccine responses decline. Memory T cells persist but cannot compensate for lack of novel clones. INTERVENTIONS (experimental): IL-7 administration, sex hormone ablation, and thymic transplantation are being studied to restore thymic function.",
+        "metaphor": "The thymus is like a military academy that trains new recruits. In childhood, the academy runs at full capacity — thousands of fresh soldiers (naive T cells) graduate yearly, ready to fight any enemy. After puberty, the academy scales back. By age 85, it's mostly closed — a few instructors remain, but hardly any new graduates. The veterans (memory T cells) can still fight enemies they've seen before, but there are no rookies to tackle novel threats (new vaccines, emerging pathogens). The army becomes experienced but inflexible."
+      }
+    },
+    {
+      "id": "700.1.08",
+      "q": "Which of the following is NOT a category of endocrine gland stimulus?",
+      "options": [
+        "Enzymatic",
+        "Neural",
+        "Humoral",
+        "Hormonal"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 16 — Endocrine System",
+      "explain": "endocrine glands are stimulated by three mechanisms: (1) HUMORAL — direct response to changing blood levels of ions or nutrients (e.g., parathyroid responds to Ca²⁺, beta cells respond to glucose). (2) NEURAL — nerve fibers directly stimulate hormone release (e.g., sympathetic innervation of adrenal medulla → epinephrine). (3) HORMONAL — one hormone stimulates release of another (e.g., TSH → thyroid hormone, ACTH → cortisol). 'Enzymatic' is not a stimulus category.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! 'Enzymatic' is NOT a standard endocrine stimulus category. The three recognized categories: HUMORAL — gland responds directly to blood-borne chemical levels. Parathyroid senses Ca²⁺. Pancreatic beta cells sense glucose. Adrenal glomerulosa senses K⁺. NEURAL — neurons synapse on endocrine cells and trigger release. Adrenal medulla receives preganglionic sympathetic innervation. Posterior pituitary releases hormones via hypothalamic neuron action potentials. HORMONAL — tropic hormones stimulate target glands. TSH → thyroid. ACTH → adrenal cortex. FSH/LH → gonads. Enzymes are involved in hormone synthesis and signaling cascades, but 'enzymatic' isn't a stimulus category."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "Neural IS a valid stimulus category. Example: sympathetic preganglionic fibers synapse directly on adrenal medulla chromaffin cells, triggering epinephrine release."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "Humoral IS a valid stimulus category. Example: low blood Ca²⁺ directly stimulates parathyroid chief cells to release PTH — no intermediate hormone or nerve required."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "Hormonal IS a valid stimulus category. Example: CRH from hypothalamus → ACTH from pituitary → cortisol from adrenal cortex. Tropic hormones stimulating target glands."
+        }
+      ],
+      "mechanism": {
+        "title": "Three Categories of Endocrine Stimuli",
+        "content": "let me map how endocrine glands know when to secrete: HUMORAL STIMULI: Endocrine cells directly sense blood chemical levels. Parathyroid chief cells have calcium-sensing receptors — low Ca²⁺ → PTH release. Pancreatic beta cells have GLUT2 and glucokinase — high glucose → insulin release. Adrenal zona glomerulosa cells sense K⁺ — high K⁺ → aldosterone release. No intermediary needed. NEURAL STIMULI: Neurons directly innervate endocrine cells. Adrenal medulla: preganglionic sympathetic fibers release ACh → chromaffin cells release epinephrine/norepinephrine. Posterior pituitary: hypothalamic neurons (supraoptic, paraventricular nuclei) project axons to posterior pituitary, releasing ADH and oxytocin directly. HORMONAL STIMULI: Hormones trigger hormone release. The hypothalamic-pituitary axes exemplify this: TRH → TSH → T3/T4. CRH → ACTH → cortisol. GnRH → FSH/LH → sex steroids. Each tropic hormone is 'hormonal stimulus' for the next level.",
+        "metaphor": "Think of endocrine glands as factories with three different alarm systems. HUMORAL: chemical sensors in the factory detect raw material levels (Ca²⁺, glucose) and directly adjust production. NEURAL: a direct phone line from headquarters (CNS) can call the factory and order production (adrenal medulla, posterior pituitary). HORMONAL: a memo from another factory (tropic hormone) arrives, ordering increased production at this factory. Different trigger systems, same endpoint: hormone release. 'Enzymatic' would be like saying the assembly line itself is an alarm — it's part of production machinery, not a trigger mechanism."
+      }
+    }
+  ]
 }
