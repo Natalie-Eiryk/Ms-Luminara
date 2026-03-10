@@ -91,6 +91,7 @@ class LuminaraQuiz {
     scaffolding = new ScaffoldingEngine(persistence);
     d20System = new D20System(persistence);
     lootSystem = new LootSystem();
+    scaffoldRemediation = new ScaffoldRemediationEngine(persistence, d20System);
     this.previousLevel = persistence.getPlayer().level;
     this.currentEncounter = null;
   }
@@ -596,7 +597,7 @@ class LuminaraQuiz {
       }
     }
 
-    // If wrong answer on first try for main phase, break streak
+    // If wrong answer on first try for main phase, break streak AND trigger scaffolds
     if (this.currentPhase === 'main' && !this.correctAnswerProcessed[questionId]) {
       const isCorrect = idx === currentQ.answer;
       if (!isCorrect && isFirstExploration && !alreadyExplored) {
@@ -605,10 +606,125 @@ class LuminaraQuiz {
           this.renderer.showStreakBroken(result.previousStreak);
           this.renderer.renderStatsBar();
         }
+
+        // Trigger scaffold remediation
+        this.triggerScaffoldRemediation(currentQ);
+        return; // Don't render normal question - scaffold flow takes over
       }
     }
 
     this.renderQuestion();
+  }
+
+  /**
+   * Trigger scaffold remediation after wrong answer
+   */
+  async triggerScaffoldRemediation(wrongQuestion) {
+    if (!scaffoldRemediation) return;
+
+    // Calculate damage
+    const damageResult = scaffoldRemediation.calculateDamage();
+
+    // Show damage roll animation
+    this.renderer.showDamageRoll(damageResult, async () => {
+      // Apply damage
+      const hpResult = scaffoldRemediation.applyDamage(damageResult.finalDamage);
+
+      // Check for knockout
+      if (hpResult.isKnockout) {
+        this.renderer.showKnockout();
+      }
+
+      // Update HP bar
+      this.renderer.renderStatsBar();
+
+      // Start scaffold session
+      const session = await scaffoldRemediation.startSession(wrongQuestion, damageResult);
+
+      if (session) {
+        // Enter scaffold phase
+        this.currentPhase = 'scaffold';
+        this.scaffoldExploredOptions = [];
+        this.renderScaffoldQuestion();
+      } else {
+        // Fallback if no scaffold questions available
+        this.renderQuestion();
+      }
+    });
+  }
+
+  /**
+   * Render current scaffold question
+   */
+  renderScaffoldQuestion() {
+    const session = scaffoldRemediation.getSessionState();
+    if (!session) return;
+
+    const scaffoldKey = `scaffold-${session.currentIndex}`;
+    if (!this.scaffoldExploredOptions) {
+      this.scaffoldExploredOptions = [];
+    }
+
+    this.renderer.renderScaffoldQuestion(
+      session.currentQuestion,
+      session.currentIndex,
+      this.scaffoldExploredOptions
+    );
+  }
+
+  /**
+   * Explore a scaffold question option
+   */
+  exploreScaffoldOption(idx) {
+    const session = scaffoldRemediation.getSessionState();
+    if (!session) return;
+
+    const currentQ = session.currentQuestion;
+    const alreadyExplored = this.scaffoldExploredOptions.includes(idx);
+
+    if (!alreadyExplored) {
+      this.scaffoldExploredOptions.push(idx);
+    }
+
+    // Check if correct answer found (first try)
+    const isCorrect = idx === currentQ.answer;
+    const isFirstTry = this.scaffoldExploredOptions.length === 1 && isCorrect;
+
+    if (isCorrect && !alreadyExplored) {
+      // Record result and heal
+      const result = scaffoldRemediation.recordScaffoldResult(isFirstTry);
+
+      if (result.healResult && result.healResult.healed > 0) {
+        this.renderer.showScaffoldHeal(result.healResult);
+        this.renderer.renderStatsBar();
+      }
+    }
+
+    // Re-render scaffold to show feedback
+    this.renderScaffoldQuestion();
+  }
+
+  /**
+   * Move to next scaffold question
+   */
+  nextScaffold() {
+    const result = scaffoldRemediation.nextScaffold();
+
+    if (result.completed) {
+      // All scaffolds done - show completion and return to main flow
+      this.renderer.showScaffoldComplete(result);
+      this.currentPhase = 'main';
+      this.scaffoldExploredOptions = [];
+
+      // Move to next question
+      setTimeout(() => {
+        this.nextQuestion();
+      }, 2000);
+    } else {
+      // More scaffolds to go
+      this.scaffoldExploredOptions = [];
+      this.renderScaffoldQuestion();
+    }
   }
 
   /**
@@ -837,6 +953,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Global navigation functions for button onclick handlers
 function exploreOption(idx) { quiz.exploreOption(idx); }
+function exploreScaffoldOption(idx) { quiz.exploreScaffoldOption(idx); }
+function nextScaffold() { quiz.nextScaffold(); }
 function nextQuestion() { quiz.nextQuestion(); }
 function prevQuestion() { quiz.prevQuestion(); }
 function skipToMain() { quiz.skipToMain(); }

@@ -20,11 +20,13 @@ class QuizRenderer {
     const stats = gamification.getStats();
     const levelProgress = stats.levelProgress;
     const charMini = this.renderCharacterMini();
+    const hpBar = this.renderHPBar();
 
     container.innerHTML = `
       <div class="stat-item">
         <span class="level-badge">LV ${stats.level}</span>
       </div>
+      ${hpBar}
       <div class="xp-container">
         <div class="xp-bar">
           <div class="xp-fill" style="width: ${levelProgress.percentage}%"></div>
@@ -36,6 +38,28 @@ class QuizRenderer {
         <span class="count">${stats.currentStreak}</span>
       </div>
       ${charMini}
+    `;
+  }
+
+  /**
+   * Render HP bar for scaffold remediation system
+   */
+  renderHPBar() {
+    if (!scaffoldRemediation) return '';
+
+    const hp = scaffoldRemediation.getHP();
+    const hpPercent = hp.percent;
+    const hpColor = hpPercent > 50 ? 'var(--correct)' :
+                    hpPercent > 25 ? 'var(--glow-warm)' :
+                    'var(--incorrect)';
+
+    return `
+      <div class="hp-container" title="Hit Points - Take damage on wrong answers, heal with scaffold questions">
+        <div class="hp-bar">
+          <div class="hp-fill" style="width: ${hpPercent}%; background: ${hpColor}"></div>
+        </div>
+        <div class="hp-text">${hp.current}/${hp.max} HP</div>
+      </div>
     `;
   }
 
@@ -824,6 +848,217 @@ class QuizRenderer {
     }, 2500);
   }
 
+  // ═══════════════════════════════════════════════════════════════
+  // SCAFFOLD REMEDIATION UI
+  // ═══════════════════════════════════════════════════════════════
+
+  /**
+   * Show damage roll animation when wrong answer triggers scaffolds
+   */
+  showDamageRoll(damageResult, callback) {
+    const existing = document.querySelector('.damage-roll-overlay');
+    if (existing) existing.remove();
+
+    const overlay = document.createElement('div');
+    overlay.className = 'damage-roll-overlay';
+
+    const isFumble = damageResult.isFumble;
+    const isCrit = damageResult.isCritical;
+    const overlayClass = isFumble ? 'fumble' : isCrit ? 'crit-hit' : '';
+
+    const damageMessage = scaffoldRemediation.getDamageMessage(damageResult);
+
+    overlay.innerHTML = `
+      <div class="damage-container ${overlayClass}">
+        <div class="damage-header">Wrong Answer!</div>
+        <div class="dice-spinning">
+          <div class="damage-dice">🎲</div>
+          <div class="damage-rolling">Rolling damage...</div>
+        </div>
+        <div class="damage-result" style="display: none;">
+          <div class="roll-value ${overlayClass}">${damageResult.roll.roll}</div>
+          ${isFumble ?
+            '<div class="fumble-text">FUMBLE! No damage!</div>' :
+            `<div class="damage-amount">-${damageResult.finalDamage} HP</div>`
+          }
+          ${isCrit ? '<div class="crit-text">CRITICAL HIT!</div>' : ''}
+          ${damageResult.conMod > 0 ? `<div class="con-reduction">CON reduced damage by ${damageResult.conMod}</div>` : ''}
+          <div class="damage-message">"${damageMessage}"</div>
+        </div>
+        <div class="scaffold-notice" style="display: none;">
+          <span class="scaffold-icon">📚</span>
+          <span class="scaffold-text">3 scaffold questions incoming...</span>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(overlay);
+
+    // Animation sequence
+    setTimeout(() => {
+      overlay.querySelector('.dice-spinning').style.display = 'none';
+      overlay.querySelector('.damage-result').style.display = 'block';
+    }, 1200);
+
+    setTimeout(() => {
+      overlay.querySelector('.scaffold-notice').style.display = 'flex';
+    }, 2200);
+
+    setTimeout(() => {
+      overlay.classList.add('hiding');
+      setTimeout(() => {
+        overlay.remove();
+        if (callback) callback();
+      }, 400);
+    }, 3500);
+
+    return overlay;
+  }
+
+  /**
+   * Render a scaffold question card
+   */
+  renderScaffoldQuestion(question, scaffoldIndex, exploredOptions) {
+    const area = document.getElementById('questionArea');
+    if (!area) return;
+
+    area.innerHTML = this.buildScaffoldCard(question, scaffoldIndex, exploredOptions);
+  }
+
+  /**
+   * Build scaffold question card HTML
+   */
+  buildScaffoldCard(question, scaffoldIndex, exploredOptions) {
+    const optionsHTML = this.buildScaffoldOptions(question, exploredOptions);
+    const explorationHTML = this.buildExplorationPanel(question, exploredOptions);
+    const introMessage = scaffoldRemediation.getScaffoldIntroMessage(scaffoldIndex);
+
+    // Check if correct answer has been found
+    const correctFound = exploredOptions.includes(question.answer);
+
+    return `
+      <div class="question-card scaffold-card">
+        <div class="scaffold-header">
+          <span class="scaffold-badge">Scaffold ${scaffoldIndex + 1} of 3</span>
+          <span class="scaffold-purpose">Building understanding...</span>
+        </div>
+
+        <div class="luminara-scaffold-intro">
+          <div class="speaker">Ms. Luminara</div>
+          <p>"${introMessage}"</p>
+        </div>
+
+        <div class="q-text">${this.escapeHtml(question.q)}</div>
+
+        <div class="options">${optionsHTML}</div>
+
+        ${explorationHTML}
+
+        <div class="scaffold-progress">
+          <div class="progress-dots">
+            ${[0, 1, 2].map(i =>
+              `<span class="dot ${i < scaffoldIndex ? 'completed' : i === scaffoldIndex ? 'active' : ''}">${i + 1}</span>`
+            ).join('')}
+          </div>
+        </div>
+
+        ${correctFound ? `
+          <div class="scaffold-next-container">
+            <button class="scaffold-next-btn" onclick="quiz.nextScaffold()">
+              ${scaffoldIndex < 2 ? 'Next Scaffold →' : 'Complete Scaffolds →'}
+            </button>
+          </div>
+        ` : ''}
+      </div>
+    `;
+  }
+
+  /**
+   * Show heal animation when scaffold answer is correct
+   */
+  showScaffoldHeal(healResult) {
+    if (!healResult || healResult.healed <= 0) return;
+
+    const popup = document.createElement('div');
+    popup.className = 'scaffold-heal-popup';
+    popup.innerHTML = `
+      <div class="heal-icon">💚</div>
+      <div class="heal-amount">+${healResult.healed} HP</div>
+      <div class="heal-message">${scaffoldRemediation.getHealMessage(healResult)}</div>
+    `;
+
+    document.body.appendChild(popup);
+
+    setTimeout(() => {
+      popup.classList.add('hiding');
+      setTimeout(() => popup.remove(), 400);
+    }, 1500);
+  }
+
+  /**
+   * Show scaffold completion summary
+   */
+  showScaffoldComplete(summary) {
+    const popup = document.createElement('div');
+    popup.className = 'scaffold-complete-popup';
+
+    const successRate = Math.round((summary.correctCount / 3) * 100);
+
+    popup.innerHTML = `
+      <div class="scaffold-complete-card">
+        <div class="complete-header">
+          <span class="complete-icon">✅</span>
+          <span class="complete-title">Scaffolds Complete</span>
+        </div>
+        <div class="complete-stats">
+          <div class="stat">
+            <span class="value">${summary.correctCount}/3</span>
+            <span class="label">Correct</span>
+          </div>
+          <div class="stat">
+            <span class="value">+${summary.totalHealed}</span>
+            <span class="label">HP Healed</span>
+          </div>
+        </div>
+        <div class="complete-message">
+          "${successRate >= 67 ? 'The foundation is stronger now.' : 'Every step forward matters.'}"
+        </div>
+        <button class="complete-continue" onclick="this.closest('.scaffold-complete-popup').remove()">
+          Continue →
+        </button>
+      </div>
+    `;
+
+    document.body.appendChild(popup);
+  }
+
+  /**
+   * Show knockout message when HP reaches 0
+   */
+  showKnockout() {
+    const overlay = document.createElement('div');
+    overlay.className = 'knockout-overlay';
+
+    const message = scaffoldRemediation.getKnockoutMessage();
+
+    overlay.innerHTML = `
+      <div class="knockout-card">
+        <div class="knockout-icon">💫</div>
+        <div class="knockout-title">Knocked Down!</div>
+        <div class="knockout-message">"${message}"</div>
+        <div class="knockout-effect">
+          <div class="effect-item">HP restored to full</div>
+          <div class="effect-item penalty">XP gains halved this session</div>
+        </div>
+        <button class="knockout-continue" onclick="this.closest('.knockout-overlay').remove()">
+          Rise Again →
+        </button>
+      </div>
+    `;
+
+    document.body.appendChild(overlay);
+  }
+
   /**
    * Render mini character stats in stats bar
    */
@@ -1232,6 +1467,28 @@ class QuizRenderer {
 
       return `
         <button class="${classes}" onclick="exploreOption(${i})">
+          <span>${this.escapeHtml(opt)}</span>
+          <span class="explore-icon">explore →</span>
+        </button>
+      `;
+    }).join('');
+  }
+
+  /**
+   * Build scaffold option buttons (use exploreScaffoldOption handler)
+   */
+  buildScaffoldOptions(question, exploredOptions) {
+    return question.options.map((opt, i) => {
+      const explored = exploredOptions.includes(i);
+      const isCorrect = i === question.answer;
+      let classes = 'option-btn scaffold-option';
+
+      if (explored) {
+        classes += isCorrect ? ' correct-answer' : ' wrong-answer';
+      }
+
+      return `
+        <button class="${classes}" onclick="exploreScaffoldOption(${i})">
           <span>${this.escapeHtml(opt)}</span>
           <span class="explore-icon">explore →</span>
         </button>

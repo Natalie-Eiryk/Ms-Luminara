@@ -20,7 +20,11 @@ class PersistenceManager {
         totalCorrectFirstTry: 0,
         achievements: [],
         lastSession: null,
-        sessionsCompleted: 0
+        sessionsCompleted: 0,
+        // HP System
+        hp: 100,
+        maxHP: 100,
+        knockouts: 0
       },
       categories: {},
       questionHistory: {},
