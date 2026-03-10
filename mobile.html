@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Luminara">
+  <meta name="theme-color" content="#f5c542">
+  <meta name="description" content="Ms. Luminara's Quiz - Mobile Edition">
+  <title>Luminara Quiz</title>
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- iOS Icons -->
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/icon-180.png">
+
+  <!-- Mobile-optimized styles -->
+  <link rel="stylesheet" href="000-core/000.0-mobile.css">
+</head>
+<body>
+  <!-- Compact Mode Navigation -->
+  <nav class="mode-nav">
+    <button class="mode-tab active" data-mode="study">
+      <span class="icon">📖</span>
+    </button>
+    <button class="mode-tab" data-mode="review">
+      <span class="icon">🔄</span>
+      <span class="badge" id="dueBadge" style="display:none">0</span>
+    </button>
+    <button class="mode-tab" data-mode="blitz">
+      <span class="icon">⚡</span>
+    </button>
+    <button class="mode-tab" data-mode="gauntlet">
+      <span class="icon">⚔️</span>
+    </button>
+    <button class="mode-tab" data-mode="stats">
+      <span class="icon">📊</span>
+    </button>
+  </nav>
+
+  <!-- ==================== STUDY MODULE ==================== -->
+  <div class="module-container active" id="module-study">
+    <!-- Landing Page -->
+    <div id="landing">
+      <div class="landing-content">
+        <h1>Ms. Luminara's Quiz</h1>
+        <p class="subtitle">Tap any answer to explore. No penalty for curiosity.</p>
+
+        <div id="quizSelect" class="quiz-select">
+          <div class="loading-placeholder">Loading...</div>
+        </div>
+
+        <div id="landingStats" class="landing-stats"></div>
+      </div>
+    </div>
+
+    <!-- Study View -->
+    <div id="studyView" class="hidden">
+      <div class="study-header">
+        <button class="back-btn" onclick="goHome()">←</button>
+        <div class="progress-mini">
+          <span id="progressInfo">1/10</span>
+          <div class="progress-bar-mini">
+            <div id="progressFill" class="progress-fill-mini"></div>
+          </div>
+        </div>
+        <div id="statsBar" class="stats-mini"></div>
+      </div>
+
+      <div id="questionArea" class="question-area"></div>
+
+      <div class="nav-footer">
+        <button id="prevBtn" class="nav-btn" onclick="prevQuestion()">←</button>
+        <button id="nextBtn" class="nav-btn primary" onclick="nextQuestion()">→</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== REVIEW MODULE ==================== -->
+  <div class="module-container" id="module-review">
+    <div class="review-container">
+      <div class="review-header">
+        <div class="review-due-count" id="reviewDueCount">0</div>
+        <div class="review-due-label">due for review</div>
+      </div>
+      <div id="reviewArea">
+        <div class="review-empty">
+          <div class="icon">✨</div>
+          <p>All caught up!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== BLITZ MODULE ==================== -->
+  <div class="module-container" id="module-blitz">
+    <div class="blitz-container">
+      <div class="blitz-header">
+        <div class="blitz-timer" id="blitzTimer">1:00</div>
+        <div class="blitz-score" id="blitzScore">0</div>
+      </div>
+      <button class="blitz-start-btn" id="blitzStartBtn" onclick="QuizModes.startBlitz()">
+        ⚡ 60-Second Blitz
+      </button>
+      <div id="blitzQuestion"></div>
+    </div>
+  </div>
+
+  <!-- ==================== GAUNTLET MODULE ==================== -->
+  <div class="module-container" id="module-gauntlet">
+    <div class="gauntlet-container">
+      <div class="gauntlet-landing" id="gauntletLanding">
+        <h1>⚔️ The Gauntlet</h1>
+        <p class="gauntlet-subtitle">Roguelike boss battles</p>
+
+        <div class="difficulty-select">
+          <button class="difficulty-btn easy" onclick="quiz.startGauntletRun('easy')">
+            <span class="diff-icon">🌱</span>
+            <span class="diff-name">Easy</span>
+          </button>
+          <button class="difficulty-btn normal" onclick="quiz.startGauntletRun('normal')">
+            <span class="diff-icon">📚</span>
+            <span class="diff-name">Normal</span>
+          </button>
+          <button class="difficulty-btn hard locked" id="hardBtn" onclick="quiz.startGauntletRun('hard')">
+            <span class="diff-icon">🔥</span>
+            <span class="diff-name">Hard</span>
+          </button>
+          <button class="difficulty-btn nightmare locked" id="nightmareBtn" onclick="quiz.startGauntletRun('nightmare')">
+            <span class="diff-icon">💀</span>
+            <span class="diff-name">Nightmare</span>
+          </button>
+        </div>
+
+        <div class="gauntlet-actions">
+          <button class="gauntlet-btn" onclick="quiz.renderer.showHighScores()">🏆 Scores</button>
+          <button class="gauntlet-btn" onclick="quiz.renderer.showPowerUpShop()">🎁 Shop</button>
+        </div>
+
+        <div class="gauntlet-stats" id="gauntletStats"></div>
+      </div>
+
+      <div class="gauntlet-run hidden" id="gauntletRun">
+        <div class="run-header" id="runHeader"></div>
+        <div id="runQuestionArea"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== STATS MODULE ==================== -->
+  <div class="module-container" id="module-stats">
+    <div class="stats-container">
+      <h2>📊 Your Progress</h2>
+      <div id="statsGrid" class="stats-grid"></div>
+      <h3>Category Mastery</h3>
+      <div id="masteryBars" class="mastery-bars"></div>
+    </div>
+  </div>
+
+  <!-- Core Scripts -->
+  <script src="000-core/000.1-app.js"></script>
+  <script src="000-core/000.2-renderer.js"></script>
+  <script src="000-core/000.2.2-renderer-inventory.js"></script>
+  <script src="000-core/000.2.3-renderer-d20-ui.js"></script>
+  <script src="000-core/000.3-gamification.js"></script>
+  <script src="000-core/000.4-persistence.js"></script>
+  <script src="000-core/000.5-achievements.js"></script>
+  <script src="000-core/000.6-scaffolding.js"></script>
+  <script src="000-core/000.7-d20-system.js"></script>
+  <script src="000-core/000.8-loot-system.js"></script>
+  <script src="000-core/000.10-isotope-engine.js"></script>
+  <script src="000-core/000.11-zpd-system.js"></script>
+  <script src="000-core/000.15-boss-system.js"></script>
+  <script src="000-core/000.16-run-manager.js"></script>
+  <script src="000-core/000.17-powerups.js"></script>
+  <script src="000-core/000.18-high-scores.js"></script>
+
+  <!-- Mobile Mode Controller -->
+  <script>
+    // Simple mode switching for mobile
+    const QuizModes = {
+      currentMode: 'study',
+      questions: [],
+      srsData: {},
+
+      init() {
+        // Mode tab switching
+        document.querySelectorAll('.mode-tab').forEach(tab => {
+          tab.addEventListener('click', () => {
+            const mode = tab.dataset.mode;
+            this.switchMode(mode);
+          });
+        });
+
+        // Load questions for modes
+        if (typeof quiz !== 'undefined' && quiz.questions) {
+          this.questions = quiz.questions;
+        }
+      },
+
+      switchMode(mode) {
+        this.currentMode = mode;
+
+        // Update tabs
+        document.querySelectorAll('.mode-tab').forEach(t => t.classList.remove('active'));
+        document.querySelector(`.mode-tab[data-mode="${mode}"]`).classList.add('active');
+
+        // Update modules
+        document.querySelectorAll('.module-container').forEach(m => m.classList.remove('active'));
+        document.getElementById(`module-${mode}`).classList.add('active');
+
+        // Mode-specific init
+        if (mode === 'stats') this.renderStats();
+        if (mode === 'review') this.checkReviews();
+      },
+
+      // Blitz mode
+      blitz: { active: false, score: 0, timer: 60, interval: null },
+
+      startBlitz() {
+        if (this.questions.length === 0) {
+          this.questions = quiz.questions || [];
+        }
+
+        this.blitz = { active: true, score: 0, timer: 60, interval: null };
+
+        document.getElementById('blitzStartBtn').style.display = 'none';
+        document.getElementById('blitzScore').textContent = '0';
+
+        this.blitz.interval = setInterval(() => {
+          this.blitz.timer--;
+          const timerEl = document.getElementById('blitzTimer');
+          timerEl.textContent = `0:${this.blitz.timer.toString().padStart(2, '0')}`;
+
+          if (this.blitz.timer <= 10) timerEl.classList.add('danger');
+          else if (this.blitz.timer <= 20) timerEl.classList.add('warning');
+
+          if (this.blitz.timer <= 0) this.endBlitz();
+        }, 1000);
+
+        this.showBlitzQuestion();
+      },
+
+      showBlitzQuestion() {
+        if (!this.blitz.active) return;
+
+        const q = this.questions[Math.floor(Math.random() * this.questions.length)];
+        const opts = [...q.options].sort(() => Math.random() - 0.5);
+
+        document.getElementById('blitzQuestion').innerHTML = `
+          <div class="blitz-question-card">
+            <div class="blitz-question-text">${q.question}</div>
+            <div class="blitz-options">
+              ${opts.map((opt, i) => `
+                <button class="blitz-option" onclick="QuizModes.answerBlitz(${i}, ${opts.indexOf(q.options[q.correct])}, this)">
+                  ${opt}
+                </button>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      },
+
+      answerBlitz(idx, correctIdx, btn) {
+        if (!this.blitz.active) return;
+
+        const isCorrect = idx === correctIdx;
+        btn.classList.add(isCorrect ? 'correct' : 'incorrect');
+
+        if (isCorrect) {
+          this.blitz.score++;
+          document.getElementById('blitzScore').textContent = this.blitz.score;
+        }
+
+        document.querySelectorAll('.blitz-option').forEach(b => b.classList.add('disabled'));
+
+        setTimeout(() => this.showBlitzQuestion(), 400);
+      },
+
+      endBlitz() {
+        clearInterval(this.blitz.interval);
+        this.blitz.active = false;
+
+        const xp = this.blitz.score * 15;
+        if (typeof persistence !== 'undefined') {
+          persistence.addXP(xp);
+        }
+
+        document.getElementById('blitzQuestion').innerHTML = `
+          <div class="blitz-result">
+            <div class="final-score">${this.blitz.score}</div>
+            <div class="result-label">correct answers</div>
+            <div class="xp-earned">+${xp} XP</div>
+          </div>
+        `;
+
+        document.getElementById('blitzTimer').textContent = '1:00';
+        document.getElementById('blitzTimer').classList.remove('warning', 'danger');
+        document.getElementById('blitzStartBtn').style.display = 'block';
+        document.getElementById('blitzStartBtn').textContent = 'Play Again';
+      },
+
+      checkReviews() {
+        const due = typeof persistence !== 'undefined' ? persistence.getDueForReview() : [];
+        document.getElementById('reviewDueCount').textContent = due.length;
+
+        if (due.length > 0) {
+          document.getElementById('reviewArea').innerHTML = `
+            <button class="blitz-start-btn" onclick="QuizModes.startReview()">
+              Start Review (${due.length} questions)
+            </button>
+          `;
+        }
+      },
+
+      startReview() {
+        // TODO: Implement SRS review for mobile
+      },
+
+      renderStats() {
+        const stats = typeof gamification !== 'undefined' ?
+          gamification.getStats() : { level: 1, totalXP: 0, currentStreak: 0, bestStreak: 0, totalAnswered: 0, accuracy: 0 };
+
+        document.getElementById('statsGrid').innerHTML = `
+          <div class="stat-card">
+            <div class="stat-value">${stats.level}</div>
+            <div class="stat-label">Level</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">${stats.totalXP.toLocaleString()}</div>
+            <div class="stat-label">XP</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">${stats.currentStreak}</div>
+            <div class="stat-label">Streak</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">${stats.accuracy}%</div>
+            <div class="stat-label">Accuracy</div>
+          </div>
+        `;
+      }
+    };
+
+    // Initialize after quiz loads
+    document.addEventListener('DOMContentLoaded', () => {
+      setTimeout(() => QuizModes.init(), 500);
+    });
+  </script>
+
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then((reg) => console.log('[PWA] SW registered'))
+          .catch((err) => console.warn('[PWA] SW failed:', err));
+      });
+    }
+  </script>
+</body>
+</html>
