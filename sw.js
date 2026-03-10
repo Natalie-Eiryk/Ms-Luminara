@@ -1,9 +1,10 @@
 /**
  * Service Worker for Ms. Luminara's Quiz Lab
- * Enables offline functionality as a PWA
+ * Network-first strategy - always fetch fresh on refresh, cache for offline only
+ * Truly roguelike: every run starts fresh!
  */
 
-const CACHE_NAME = 'luminara-quiz-v3';
+const CACHE_NAME = 'luminara-quiz-v4';
 const STATIC_ASSETS = [
   './',
   './index.html',
@@ -32,17 +33,17 @@ const STATIC_ASSETS = [
   './000-core/question-registry.json'
 ];
 
-// Install event - cache static assets
+// Install event - cache static assets for offline use
 self.addEventListener('install', (event) => {
   console.log('[SW] Installing service worker...');
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then((cache) => {
-        console.log('[SW] Caching static assets');
+        console.log('[SW] Caching static assets for offline');
         return cache.addAll(STATIC_ASSETS);
       })
       .then(() => {
-        console.log('[SW] Static assets cached');
+        console.log('[SW] Install complete - taking over immediately');
         return self.skipWaiting();
       })
       .catch((err) => {
@@ -51,7 +52,7 @@ self.addEventListener('install', (event) => {
   );
 });
 
-// Activate event - clean up old caches
+// Activate event - clean up ALL old caches aggressively
 self.addEventListener('activate', (event) => {
   console.log('[SW] Activating service worker...');
   event.waitUntil(
@@ -60,18 +61,18 @@ self.addEventListener('activate', (event) => {
         cacheNames
           .filter((name) => name !== CACHE_NAME)
           .map((name) => {
-            console.log('[SW] Deleting old cache:', name);
+            console.log('[SW] Purging old cache:', name);
             return caches.delete(name);
           })
       );
     }).then(() => {
-      console.log('[SW] Service worker activated');
+      console.log('[SW] Activated - claiming all clients');
       return self.clients.claim();
     })
   );
 });
 
-// Fetch event - serve from cache, fallback to network
+// Fetch event - NETWORK FIRST, cache only as fallback for offline
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
 
@@ -79,45 +80,36 @@ self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
   if (url.origin !== location.origin) return;
 
-  // Skip TTS server requests (they need to go to network)
+  // Skip TTS server requests
   if (url.port === '5500') return;
 
   event.respondWith(
-    caches.match(event.request)
-      .then((cachedResponse) => {
-        if (cachedResponse) {
-          // Return cached version
-          return cachedResponse;
+    // Always try network first - fresh files every time!
+    fetch(event.request)
+      .then((networkResponse) => {
+        // Got fresh response from network
+        if (networkResponse && networkResponse.status === 200) {
+          // Update the cache with the fresh version
+          const responseToCache = networkResponse.clone();
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, responseToCache);
+          });
         }
-
-        // Not in cache - fetch from network and cache it
-        return fetch(event.request)
-          .then((networkResponse) => {
-            // Don't cache non-successful responses
-            if (!networkResponse || networkResponse.status !== 200) {
-              return networkResponse;
+        return networkResponse;
+      })
+      .catch(() => {
+        // Network failed - we're offline, use cached version
+        console.log('[SW] Offline - serving from cache:', event.request.url);
+        return caches.match(event.request)
+          .then((cachedResponse) => {
+            if (cachedResponse) {
+              return cachedResponse;
             }
-
-            // Clone the response (it can only be read once)
-            const responseToCache = networkResponse.clone();
-
-            // Cache the fetched response for future use
-            caches.open(CACHE_NAME)
-              .then((cache) => {
-                // Only cache same-origin requests
-                if (url.origin === location.origin) {
-                  cache.put(event.request, responseToCache);
-                }
-              });
-
-            return networkResponse;
-          })
-          .catch(() => {
-            // Network failed, return offline fallback if available
+            // No cache either - return offline message for documents
             if (event.request.destination === 'document') {
               return caches.match('./index.html');
             }
-            return new Response('Offline', { status: 503 });
+            return new Response('Offline - no cached version available', { status: 503 });
           });
       })
   );
@@ -131,7 +123,7 @@ self.addEventListener('message', (event) => {
 
   if (event.data === 'clearCache') {
     caches.delete(CACHE_NAME).then(() => {
-      console.log('[SW] Cache cleared');
+      console.log('[SW] Cache nuked from orbit');
     });
   }
 });
