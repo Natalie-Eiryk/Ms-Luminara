@@ -21,6 +21,64 @@
   <link rel="stylesheet" href="000-core/000.0-mobile.css">
 </head>
 <body>
+  <!-- ==================== CHARACTER BAR (RPG HUD) ==================== -->
+  <div class="character-bar" id="characterBar">
+    <div class="char-left">
+      <div class="char-avatar" onclick="MobileRPG.showCharacterSheet()">🧙</div>
+      <div class="char-info">
+        <div class="char-name" id="charTitle">Novice Scholar</div>
+        <div class="char-level">LV <span id="charLevel">1</span></div>
+      </div>
+    </div>
+    <div class="char-bars">
+      <div class="bar-row hp-row">
+        <span class="bar-icon">❤️</span>
+        <div class="bar-track">
+          <div class="bar-fill hp-fill" id="hpFill" style="width: 100%"></div>
+        </div>
+        <span class="bar-text" id="hpText">100/100</span>
+      </div>
+      <div class="bar-row xp-row">
+        <span class="bar-icon">⭐</span>
+        <div class="bar-track">
+          <div class="bar-fill xp-fill" id="xpFill" style="width: 0%"></div>
+        </div>
+        <span class="bar-text" id="xpText">0 XP</span>
+      </div>
+    </div>
+    <div class="char-right">
+      <div class="streak-display" id="streakDisplay">
+        <span class="streak-icon">🔥</span>
+        <span class="streak-count" id="streakCount">0</span>
+      </div>
+      <button class="inventory-btn" onclick="MobileRPG.showInventory()">🎒</button>
+    </div>
+  </div>
+
+  <!-- Quick Stats Row -->
+  <div class="quick-stats" id="quickStats">
+    <div class="quick-stat" onclick="MobileRPG.showCharacterSheet()">
+      <span class="stat-icon">🧠</span>
+      <span class="stat-mod" id="intMod">+0</span>
+    </div>
+    <div class="quick-stat" onclick="MobileRPG.showCharacterSheet()">
+      <span class="stat-icon">👁️</span>
+      <span class="stat-mod" id="wisMod">+0</span>
+    </div>
+    <div class="quick-stat" onclick="MobileRPG.showCharacterSheet()">
+      <span class="stat-icon">💪</span>
+      <span class="stat-mod" id="conMod">+0</span>
+    </div>
+    <div class="quick-stat gold" onclick="MobileRPG.showInventory()">
+      <span class="stat-icon">💰</span>
+      <span class="stat-val" id="goldDisplay">0</span>
+    </div>
+    <div class="quick-stat insight" onclick="MobileRPG.useInsight()">
+      <span class="stat-icon">💡</span>
+      <span class="stat-val" id="insightDisplay">0</span>
+    </div>
+  </div>
+
   <!-- Compact Mode Navigation -->
   <nav class="mode-nav">
     <button class="mode-tab active" data-mode="study">
@@ -177,6 +235,91 @@
   <script src="000-core/000.16-run-manager.js"></script>
   <script src="000-core/000.17-powerups.js"></script>
   <script src="000-core/000.18-high-scores.js"></script>
+
+  <!-- Mobile RPG Controller -->
+  <script>
+    const MobileRPG = {
+      init() {
+        this.updateCharacterBar();
+        // Update every 2 seconds
+        setInterval(() => this.updateCharacterBar(), 2000);
+      },
+
+      updateCharacterBar() {
+        // Character stats from D20 system
+        if (typeof d20System !== 'undefined') {
+          const sheet = d20System.getCharacterSheet();
+          const formatMod = (mod) => mod >= 0 ? `+${mod}` : `${mod}`;
+
+          document.getElementById('charTitle').textContent = sheet.title || 'Scholar';
+          document.getElementById('intMod').textContent = formatMod(sheet.stats.intelligence.modifier);
+          document.getElementById('wisMod').textContent = formatMod(sheet.stats.wisdom.modifier);
+          document.getElementById('conMod').textContent = formatMod(sheet.stats.constitution.modifier);
+          document.getElementById('insightDisplay').textContent = sheet.insightPoints || 0;
+        }
+
+        // HP from scaffold system
+        if (typeof scaffoldRemediation !== 'undefined') {
+          const hp = scaffoldRemediation.getHP();
+          document.getElementById('hpFill').style.width = `${hp.percent}%`;
+          document.getElementById('hpText').textContent = `${hp.current}/${hp.max}`;
+
+          // Color based on HP
+          const fill = document.getElementById('hpFill');
+          if (hp.percent > 50) fill.style.background = 'var(--correct)';
+          else if (hp.percent > 25) fill.style.background = 'var(--glow-warm)';
+          else fill.style.background = 'var(--incorrect)';
+        }
+
+        // Level and XP from gamification
+        if (typeof gamification !== 'undefined') {
+          const stats = gamification.getStats();
+          document.getElementById('charLevel').textContent = stats.level;
+          document.getElementById('xpFill').style.width = `${stats.levelProgress.percentage}%`;
+          document.getElementById('xpText').textContent = `${stats.levelProgress.current}/${stats.levelProgress.needed}`;
+          document.getElementById('streakCount').textContent = stats.currentStreak;
+
+          // Streak visual
+          const streakEl = document.getElementById('streakDisplay');
+          if (stats.currentStreak > 0) {
+            streakEl.classList.add('active');
+          } else {
+            streakEl.classList.remove('active');
+          }
+        }
+
+        // Gold from loot system
+        if (typeof lootSystem !== 'undefined') {
+          document.getElementById('goldDisplay').textContent = lootSystem.getGold().toLocaleString();
+        }
+      },
+
+      showCharacterSheet() {
+        if (typeof quiz !== 'undefined' && typeof d20System !== 'undefined') {
+          quiz.renderer.showCharacterSheet(d20System.getCharacterSheet());
+        }
+      },
+
+      showInventory() {
+        if (typeof quiz !== 'undefined') {
+          quiz.renderer.showInventory();
+        }
+      },
+
+      useInsight() {
+        if (typeof quiz !== 'undefined' && typeof d20System !== 'undefined') {
+          if (d20System.canAfford(1)) {
+            quiz.rollForInsight();
+          }
+        }
+      }
+    };
+
+    // Initialize after quiz loads
+    document.addEventListener('DOMContentLoaded', () => {
+      setTimeout(() => MobileRPG.init(), 800);
+    });
+  </script>
 
   <!-- Mobile Mode Controller -->
   <script>

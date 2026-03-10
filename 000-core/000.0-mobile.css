@@ -58,7 +58,215 @@ body {
 /* Prevent pull-to-refresh */
 body {
   overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
+  padding-top: 0; /* Character bar handles safe area */
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   CHARACTER BAR - RPG HUD
+   ═══════════════════════════════════════════════════════════════ */
+.character-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  padding-top: calc(0.5rem + var(--safe-top));
+  background: linear-gradient(180deg, #1a1f2e 0%, var(--bg-card) 100%);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.char-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.char-avatar {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #4a1f7a 0%, #7c3aed 100%);
+  border: 2px solid var(--glow-warm);
+  border-radius: 50%;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.char-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.char-name {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  max-width: 70px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.char-level {
+  font-size: 0.65rem;
+  color: var(--glow-warm);
+  font-weight: 700;
+}
+
+.char-bars {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.bar-row {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.bar-icon {
+  font-size: 0.7rem;
+  width: 16px;
+  text-align: center;
+}
+
+.bar-track {
+  flex: 1;
+  height: 10px;
+  background: var(--border);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.3s ease;
+}
+
+.hp-fill {
+  background: linear-gradient(90deg, var(--correct) 0%, #6ee7b7 100%);
+}
+
+.xp-fill {
+  background: linear-gradient(90deg, var(--glow-warm) 0%, #fcd34d 100%);
+}
+
+.bar-text {
+  font-size: 0.6rem;
+  color: var(--text-muted);
+  min-width: 45px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.char-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.streak-display {
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+  padding: 0.3rem 0.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  opacity: 0.5;
+}
+
+.streak-display.active {
+  opacity: 1;
+  border-color: #f97316;
+  background: rgba(249, 115, 22, 0.15);
+}
+
+.streak-icon {
+  font-size: 0.9rem;
+}
+
+.streak-count {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.streak-display.active .streak-count {
+  color: #fb923c;
+}
+
+.inventory-btn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-card);
+  border: 1px solid var(--glow-warm);
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.inventory-btn:active {
+  transform: scale(0.95);
+  background: rgba(245, 197, 66, 0.1);
+}
+
+/* Quick Stats Row */
+.quick-stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.4rem 0.5rem;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+}
+
+.quick-stat {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.25rem 0.5rem;
+  background: var(--bg-deep);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.quick-stat:active {
+  transform: scale(0.95);
+}
+
+.quick-stat .stat-icon {
+  font-size: 0.8rem;
+}
+
+.quick-stat .stat-mod,
+.quick-stat .stat-val {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.quick-stat.gold .stat-val {
+  color: var(--glow-warm);
+}
+
+.quick-stat.insight {
+  border-color: #a78bfa;
+}
+
+.quick-stat.insight .stat-val {
+  color: #c4b5fd;
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -135,7 +343,6 @@ body {
    ═══════════════════════════════════════════════════════════════ */
 .landing-content {
   padding: 1rem;
-  padding-top: calc(1rem + var(--safe-top));
 }
 
 .landing-content h1 {
