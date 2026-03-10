@@ -3,7 +3,7 @@
  * Enables offline functionality as a PWA
  */
 
-const CACHE_NAME = 'luminara-quiz-v2';
+const CACHE_NAME = 'luminara-quiz-v3';
 const STATIC_ASSETS = [
   './',
   './index.html',
@@ -25,6 +25,10 @@ const STATIC_ASSETS = [
   './000-core/000.11-zpd-system.js',
   './000-core/000.12-multimodal-questions.js',
   './000-core/000.13-lumi-bridge.js',
+  './000-core/000.15-boss-system.js',
+  './000-core/000.16-run-manager.js',
+  './000-core/000.17-powerups.js',
+  './000-core/000.18-high-scores.js',
   './000-core/question-registry.json'
 ];
 
