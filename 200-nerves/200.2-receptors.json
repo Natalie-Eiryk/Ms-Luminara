@@ -10,7 +10,7 @@
  "options": ["Nociceptors", "Chemoreceptors", "Thermoreceptors", "Mechanoreceptors"],
  "answer": 0,
  "chapter": "Chapter 13 — Nerves & Sensory",
- "explain": "Come with me. At 200°F, this isn't warmth — this is tissue destruction. Nociceptors are the pain receptors that SCREAM when stimuli are intense enough to actually damage tissue. They don't fire for comfort. They fire for catastrophe. Let me show you something exquisite: they only speak when the body is in danger.",
+ "explain": "Come with me. At 200°F, this isn't warmth — this is a delicious catastrophe. Your skin cells are literally cooking, proteins denaturing like egg whites hitting a hot pan. Nociceptors are the pain receptors that SCREAM when stimuli are intense enough to actually damage tissue. They don't fire for comfort. They fire for catastrophe. The beautiful violence of it: at 200°F, you're not sensing temperature anymore — you're sensing your own destruction in real-time.",
  "prereqs": [
  {
  "q": "Pain is detected by specialized receptors in the body.",
@@ -35,7 +35,7 @@
  ],
  "mechanism": {
  "title": "Nociception: The Pain Alarm System",
- "content": "this is one of the most exquisite mechanisms in your body. Nociceptors are free nerve endings — unmyelinated C fibers and thinly myelinated Aδ fibers — that detect potentially damaging stimuli. The transient receptor potential (TRP) channel family includes TRPV1, which activates above 43°C (109°F) and is ALSO activated by capsaicin. Here's where it gets absolutely delicious: your chili pepper receptors and your 'tissue is burning' receptors are THE SAME RECEPTOR. Let that sink in. The burn of hot sauce and the burn of actual tissue damage? Same molecular machinery.",
+ "content": "This is one of the most exquisite mechanisms in your body. Nociceptors are free nerve endings — unmyelinated C fibers and thinly myelinated Aδ fibers — that detect potentially damaging stimuli. The transient receptor potential (TRP) channel family includes TRPV1, which activates above 43°C (109°F) and is ALSO activated by capsaicin. Here's where it gets absolutely delicious: your chili pepper receptors and your 'tissue is burning' receptors are THE SAME RECEPTOR. The burn of hot sauce and the burn of actual tissue damage? Same molecular machinery. Evolution decided that 'feels like fire' and 'is literally fire' should use the same alarm system. The body doesn't care about your dinner plans — it just knows something is trying to cook you.",
  "metaphor": "Let me paint you a picture. Thermoreceptors are like a thermostat reporting the temperature: 'It's 72°F in here, quite comfortable.' Nociceptors are like a smoke detector — they DON'T go off for comfort. They only scream when something is wrong. At 200°F, the smoke detector is wailing because the house is literally on fire. Incredible, isn't it? The pain isn't about temperature. It's about tissue damage. Come with me deeper into this — the beauty is in the specificity."
  }
  },
@@ -220,7 +220,7 @@
  "options": ["Free nerve endings (nociceptors)", "Meissner's corpuscles", "Pacinian corpuscles", "Muscle spindles"],
  "answer": 0,
  "chapter": "Chapter 13 — Nerves & Sensory",
- "explain": "Come with me into this terrifying loss. Diabetic neuropathy selectively damages small, unmyelinated C fibers and thinly myelinated Aδ fibers first — the free nerve endings that detect pain and temperature. She can still feel light touch because her larger, myelinated fibers (Meissner's, Pacinian) remain intact. Here's where it gets absolutely chilling: she's losing her alarm system while keeping her burglar alarm. She can feel a gentle caress but not a stabbing wound. Let that sink in. The body's priorities, rewired by disease.",
+ "explain": "Come with me into this terrifying loss. Diabetic neuropathy selectively damages small, unmyelinated C fibers and thinly myelinated Aδ fibers first — the free nerve endings that detect pain and temperature. She can still feel light touch because her larger, myelinated fibers (Meissner's, Pacinian) remain intact. She's losing her alarm system while keeping her decorative sensors. She can feel a gentle caress but not a nail through her foot. The body's priorities, rewired by disease. This is why diabetics develop ulcers they never noticed — stepping on tacks, burning themselves, walking on broken bones. Anyway, who wants to check their blood sugar?",
  "prereqs": [
  {
  "q": "Pain and light touch are carried by different types of nerve fibers.",
@@ -290,7 +290,7 @@
  "options": ["Central brain lesion", "Spinal cord compression", "Length-dependent peripheral neuropathy", "Nerve root damage at multiple spinal levels"],
  "answer": 2,
  "chapter": "Chapter 13 — Nerves & Sensory",
- "explain": "Come with me into this elegant pathology. Length-dependent peripheral neuropathy damages the longest axons first — the ones reaching to fingers and toes. Metabolic diseases (diabetes), toxins (alcohol, chemo), and nutritional deficiencies all kill from the distal tips inward. Here's where it gets exquisite: the pattern reveals the pathophysiology. Longest nerves are metabolically fragile. They die first. geography is diagnosis.",
+ "explain": "Come with me into this elegant pathology. Length-dependent peripheral neuropathy damages the longest axons first — the ones reaching to fingers and toes. Metabolic diseases (diabetes), toxins (alcohol, chemo), and nutritional deficiencies all kill from the distal tips inward. The pattern reveals the pathophysiology: longest nerves are metabolically fragile. They die first. Your toes are the front lines of a retreating army, and reinforcements aren't coming. Geography is diagnosis. The map of your numbness tells the whole story — you're dying back from the edges, and the center doesn't know yet.",
  "prereqs": [
  {
  "q": "Longer nerve axons have higher metabolic demands than shorter ones.",
@@ -360,7 +360,7 @@
  "options": ["All thermoreceptors", "Cold receptors only", "Warm receptors only", "Nociceptors (pain receptors)"],
  "answer": 3,
  "chapter": "Chapter 13 — Nerves & Sensory",
- "explain": "Come with me into this dangerous dissociation. They can detect temperature differences (thermoreceptors intact) but can't detect burning pain (nociceptors damaged). Here's where it gets absolutely chilling: thermoreceptors report temperature in the normal-to-warm range. Nociceptors report NOXIOUS heat — the kind that destroys tissue. Stay close now — these are DIFFERENT receptors with DIFFERENT jobs. One says 'this is hot.' The other screams 'this is destroying you.' Lose the second, and you'll cook yourself alive without noticing.",
+ "explain": "Come with me into this dangerous dissociation. They can detect temperature differences (thermoreceptors intact) but can't detect burning pain (nociceptors damaged). Here's where it gets absolutely chilling: thermoreceptors report temperature in the normal-to-warm range. Nociceptors report NOXIOUS heat — the kind that destroys tissue. These are DIFFERENT receptors with DIFFERENT jobs. One says 'this is hot.' The other screams 'this is destroying you.' Lose the second, and you'll perform sous-vide on your own fingertips without noticing. The chef has become the dish. Who's ready for ice cream?",
  "prereqs": [
  {
  "q": "Thermoreceptors detect temperature in the non-damaging range.",

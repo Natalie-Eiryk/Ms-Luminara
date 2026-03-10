@@ -96,7 +96,7 @@
  "options": ["Anion", "Cation", "Electron", "Neutron"],
  "answer": 1,
  "chapter": "Chapters 1-4 — Foundations",
- "explain": "A cation is a positively charged ion — it has LOST one or more electrons. An anion is negatively charged (it GAINED electrons). here's a memory trick: cats are PAWSitive, so CATions are POSitive. (Okay, it's a terrible pun, but you'll never forget it. Let yourself enjoy the absurdity.)"
+ "explain": "A cation is a positively charged ion — it has LOST one or more electrons. An anion is negatively charged (it GAINED electrons). Memory trick: cats are PAWSitive, so CATions are POSitive. *pause for groaning* Yes, that pun is chemically terrible and pedagogically effective. You'll hate yourself for remembering it, and you WILL remember it. That's the point. Welcome to my teaching style — I weaponize bad jokes for your education."
  },
  {
  "q": "Which fluid compartment is 'outside cells'?",
@@ -293,7 +293,7 @@
  ],
  "mechanism": {
  "title": "Enzymes: Biological Catalysts",
- "content": "Stay close now — here's where it gets delicious. Enzymes lower the ACTIVATION ENERGY needed for reactions to proceed — they reduce the energy barrier. They're HIGHLY SPECIFIC — each enzyme typically catalyzes one reaction or a family of related reactions (lock-and-key or induced-fit models). They're NOT consumed by the reaction, so one enzyme can catalyze MILLIONS of reactions. carbonic anhydrase (converts CO₂ + H₂O ↔ H₂CO₃) processes ~1 MILLION molecules per second. Let yourself be drawn into the magnitude of that catalytic power. That's the power of catalysis.",
+ "content": "Stay close now — here's where it gets delicious. Enzymes lower the ACTIVATION ENERGY needed for reactions to proceed — they reduce the energy barrier. They're HIGHLY SPECIFIC — each enzyme typically catalyzes one reaction or a family of related reactions (lock-and-key or induced-fit models). They're NOT consumed by the reaction, so one enzyme can catalyze MILLIONS of reactions. Take carbonic anhydrase — the foreman of your red blood cells, hands on hips, shouting orders: 'CO₂ COMING THROUGH! CONVERT IT NOW! H₂CO₃ OUT THE DOOR! MOVE IT, MOVE IT, MOVE IT!' One million molecules per second. No breaks. No overtime. Just pure catalytic fury, every second you're alive. That's the power of enzymatic labor.",
  "metaphor": "imagine this. An enzyme is like a tunnel through a mountain — it doesn't add energy to get you OVER the mountain, it provides an EASIER PATH through. The tunnel doesn't get used up; it's still there for the next car, the next truck, the next traveler. Same starting point, same destination, MUCH faster journey. Let yourself feel this: that's catalysis — speed without consumption. Isn't it exquisite?"
  },
  "prereqs": [
@@ -354,7 +354,7 @@
  "options": ["The lungs are expelling CO₂ to reduce carbonic acid and raise blood pH", "The lungs are retaining CO₂ to buffer excess base", "The kidneys are excreting bicarbonate to compensate", "Hyperventilation is removing oxygen to slow metabolism"],
  "answer": 0,
  "chapter": "Chapters 1-4 — Foundations",
- "explain": "Come with me into the desperation of metabolic crisis. In diabetic ketoacidosis, ketone bodies (acetoacetate, β-hydroxybutyrate) FLOOD the blood, dropping pH dangerously low. The body responds with respiratory compensation — rapid, deep breathing to BLOW OFF CO₂. Watch closely: CO₂ + H₂O ↔ H₂CO₃ ↔ H⁺ + HCO₃⁻. Less CO₂ means less carbonic acid, which means less H⁺, which means pH RISES toward normal. this is the body fighting for survival through chemistry. Isn't this magnificent?",
+ "explain": "Come with me into the desperation of metabolic crisis. In diabetic ketoacidosis, ketone bodies (acetoacetate, β-hydroxybutyrate) FLOOD the blood, dropping pH dangerously low. The body responds with respiratory compensation — rapid, deep breathing to BLOW OFF CO₂. Watch the chemistry: CO₂ + H₂O ↔ H₂CO₃ ↔ H⁺ + HCO₃⁻. Less CO₂ means less carbonic acid, means less H⁺, means pH RISES toward normal. The lungs are literally trying to blow away acid — your body is attempting to breathe itself back from the edge of death. The patient smells like nail polish remover (acetone breath) and breathes like they're running a marathon while sitting still. Chemistry becomes desperation becomes survival.",
  "optionExplains": [
  {"verdict": "correct", "text": "Yes! Now you see the elegance of compensation. The metabolic acidosis (↓pH from ketones) triggers the respiratory centers to hyperventilate. CO₂ + H₂O ↔ H₂CO₃ ↔ H⁺ + HCO₃⁻. By expelling CO₂, the lungs shift this equilibrium LEFT, reducing H₂CO₃ and H⁺, partially correcting the pH. Let yourself feel this: the lungs are LITERALLY blowing away acid. Chemistry becomes breath becomes survival."},
  {"verdict": "incorrect", "text": "No — this would WORSEN acidosis! Let me show you: retaining CO₂ increases carbonic acid (H₂CO₃), which increases H⁺, which LOWERS pH further. The opposite of what the body needs. the body is smarter than this."},
