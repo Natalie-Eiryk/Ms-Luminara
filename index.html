@@ -562,6 +562,9 @@
     <button class="mode-tab" data-mode="lightning">
       <span class="icon">🎯</span> Lightning
     </button>
+    <button class="mode-tab" data-mode="gauntlet">
+      <span class="icon">⚔️</span> Gauntlet
+    </button>
     <button class="mode-tab" data-mode="stats">
       <span class="icon">📊</span> Stats
     </button>
@@ -576,7 +579,7 @@
           <h1>Ms. Luminara's Study Session</h1>
         </div>
         <div class="header-toolbar">
-          <span class="last-updated">Updated: Mar 10, 2026 4:57PM</span>
+          <span class="last-updated">Updated: Mar 10, 2026 5:23PM</span>
         </div>
         <p class="subtitle">Explore every answer. Learn the mechanism. No penalty for curiosity.</p>
 
@@ -698,6 +701,85 @@
     </div>
   </div>
 
+  <!-- Gauntlet Module (Roguelike Boss Battles) -->
+  <div class="module-container" id="module-gauntlet">
+    <div class="gauntlet-container">
+      <div class="gauntlet-landing" id="gauntletLanding">
+        <div class="gauntlet-header">
+          <h1>⚔️ The Luminara Gauntlet</h1>
+          <p class="gauntlet-subtitle">A roguelike quiz adventure with boss battles</p>
+        </div>
+
+        <div class="gauntlet-intro">
+          <div class="speaker">Ms. Luminara</div>
+          <p>"Welcome to the Gauntlet, brave scholar. Here, your knowledge becomes your weapon. Answer questions to build power, defeat bosses using your D20 abilities, and climb the high scores. How far can you go before the shadows claim you?"</p>
+        </div>
+
+        <div class="difficulty-select">
+          <h3>Choose Your Challenge</h3>
+          <div class="difficulty-grid">
+            <button class="difficulty-btn easy" onclick="quiz.startGauntletRun('easy')">
+              <span class="diff-icon">🌱</span>
+              <span class="diff-name">Study Session</span>
+              <span class="diff-desc">3 questions per wave • 0.5x score</span>
+            </button>
+            <button class="difficulty-btn normal" onclick="quiz.startGauntletRun('normal')">
+              <span class="diff-icon">📚</span>
+              <span class="diff-name">Standard</span>
+              <span class="diff-desc">5 questions per wave • 1x score</span>
+            </button>
+            <button class="difficulty-btn hard locked" id="hardBtn" onclick="quiz.startGauntletRun('hard')">
+              <span class="diff-icon">🔥</span>
+              <span class="diff-name">Challenge</span>
+              <span class="diff-desc">7 questions per wave • 1.5x score</span>
+              <span class="unlock-req">Unlock: Complete 3 runs</span>
+            </button>
+            <button class="difficulty-btn nightmare locked" id="nightmareBtn" onclick="quiz.startGauntletRun('nightmare')">
+              <span class="diff-icon">💀</span>
+              <span class="diff-name">Nightmare</span>
+              <span class="diff-desc">10 questions per wave • 2.5x score</span>
+              <span class="unlock-req">Unlock: Beat Challenge mode</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="gauntlet-actions">
+          <button class="gauntlet-btn leaderboard" onclick="quiz.renderer.showHighScores()">
+            🏆 Leaderboard
+          </button>
+          <button class="gauntlet-btn shop" onclick="quiz.renderer.showPowerUpShop(runManager?.data?.arcadeTokens || 0)">
+            ⚡ Power-Up Shop
+          </button>
+        </div>
+
+        <div class="gauntlet-stats" id="gauntletStats">
+          <div class="g-stat">
+            <span class="g-value" id="gTotalRuns">0</span>
+            <span class="g-label">Runs</span>
+          </div>
+          <div class="g-stat">
+            <span class="g-value" id="gBestScore">0</span>
+            <span class="g-label">Best Score</span>
+          </div>
+          <div class="g-stat">
+            <span class="g-value" id="gBossesSlain">0</span>
+            <span class="g-label">Bosses Slain</span>
+          </div>
+          <div class="g-stat">
+            <span class="g-value" id="gTokens">0</span>
+            <span class="g-label">🎮 Tokens</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Run progress bar (shown during active run) -->
+      <div id="runProgressBar" class="run-progress-bar" style="display:none;"></div>
+
+      <!-- Boss arena (rendered by renderer) -->
+      <div id="gauntletArena" style="display:none;"></div>
+    </div>
+  </div>
+
   <!-- Stats Module -->
   <div class="module-container" id="module-stats">
     <div class="stats-container">
@@ -738,6 +820,10 @@
   <script src="000-core/000.7-d20-system.js"></script>
   <script src="000-core/000.8-loot-system.js"></script>
   <script src="000-core/000.14-scaffold-remediation.js"></script>
+  <script src="000-core/000.15-boss-system.js"></script>
+  <script src="000-core/000.16-run-manager.js"></script>
+  <script src="000-core/000.17-powerups.js"></script>
+  <script src="000-core/000.18-high-scores.js"></script>
   <script src="000-core/000.2-renderer.js"></script>
   <!-- Renderer Extension Modules -->
   <script src="000-core/000.2.2-renderer-inventory.js"></script>

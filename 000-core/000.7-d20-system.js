@@ -563,6 +563,92 @@ class D20System {
   canAfford(cost) {
     return this.data.insightPoints >= cost;
   }
+
+  // ═══════════════════════════════════════════════════════════════
+  // BOSS COMBAT ROLLS
+  // ═══════════════════════════════════════════════════════════════
+
+  /**
+   * Attack roll against a boss
+   * @param bossArmor - Boss's armor class to beat
+   * @param stat - Which stat to use for modifier (default: intelligence)
+   * @returns Attack result with hit determination
+   */
+  attackBoss(bossArmor, stat = 'intelligence') {
+    const roll = this.rollWithModifier(stat);
+    const hit = roll.total >= bossArmor;
+
+    return {
+      ...roll,
+      bossArmor,
+      hit,
+      isCriticalHit: roll.isCriticalSuccess,
+      isCriticalMiss: roll.isCriticalFailure,
+      damageMultiplier: roll.isCriticalSuccess ? 2 : (roll.isCriticalFailure ? 0.5 : 1)
+    };
+  }
+
+  /**
+   * Defense roll against boss attack
+   * @param attackPower - Boss's attack power
+   * @returns Defense result with damage reduction
+   */
+  defendAgainstBoss(attackPower) {
+    const roll = this.rollWithModifier('constitution');
+    const blocked = roll.total >= attackPower;
+    const damageReduction = Math.max(0, roll.modifier);
+
+    return {
+      ...roll,
+      attackPower,
+      blocked,
+      damageReduction,
+      isCriticalBlock: roll.isCriticalSuccess,
+      isCriticalFail: roll.isCriticalFailure,
+      // Critical block = take no damage, critical fail = double damage
+      finalMultiplier: roll.isCriticalSuccess ? 0 : (roll.isCriticalFailure ? 2 : 1)
+    };
+  }
+
+  /**
+   * Special ability check (for power-ups and special moves)
+   * @param stat - Which stat to use
+   * @param dc - Difficulty class to beat
+   * @returns Check result
+   */
+  specialAbilityCheck(stat, dc = 12) {
+    const roll = this.rollWithModifier(stat);
+    const success = roll.total >= dc || roll.isCriticalSuccess;
+
+    return {
+      ...roll,
+      dc,
+      success,
+      criticalSuccess: roll.isCriticalSuccess,
+      criticalFail: roll.isCriticalFailure,
+      margin: roll.total - dc // How much they beat/missed DC by
+    };
+  }
+
+  /**
+   * Boss battle summary stats
+   */
+  getBattleStats() {
+    const recentRolls = this.data.rollHistory.slice(-20);
+    const nat20s = recentRolls.filter(r => r.isCriticalSuccess).length;
+    const nat1s = recentRolls.filter(r => r.isCriticalFailure).length;
+    const avgRoll = recentRolls.length > 0 ?
+      Math.round(recentRolls.reduce((sum, r) => sum + r.roll, 0) / recentRolls.length) : 10;
+
+    return {
+      recentRolls: recentRolls.length,
+      nat20s,
+      nat1s,
+      avgRoll,
+      hotStreak: nat20s >= 3,
+      coldStreak: nat1s >= 3
+    };
+  }
 }
 
 // Export singleton

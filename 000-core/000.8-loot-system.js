@@ -906,5 +906,259 @@ class LootSystem {
   }
 }
 
+  // ═══════════════════════════════════════════════════════════════
+  // BOSS LOOT TABLES
+  // ═══════════════════════════════════════════════════════════════
+
+  /**
+   * Boss-specific loot tables with guaranteed drops
+   */
+  static BOSS_LOOT_TABLES = {
+    forgetful_one: {
+      guaranteedRarity: 'RARE',
+      bonusRarity: 20,
+      guaranteedSlots: ['HEAD', 'NECK'],
+      uniqueChance: 0.15,
+      possibleUniques: ['CROWN_OF_THE_ARCHMAGE'],
+      goldBonus: 200,
+      gemChance: 0.6,
+      specialDrop: {
+        name: "Memory Fragment",
+        description: "A crystallized moment of clarity. +5% to all stats for one quiz session.",
+        type: 'consumable',
+        effect: 'temp_all_stats',
+        value: 5,
+        duration: 'session'
+      }
+    },
+
+    procrastinator: {
+      guaranteedRarity: 'RARE',
+      bonusRarity: 15,
+      guaranteedSlots: ['FEET', 'WAIST'],
+      uniqueChance: 0.12,
+      possibleUniques: ['BOOTS_OF_SWIFT_STUDY'],
+      goldBonus: 175,
+      gemChance: 0.5,
+      specialDrop: {
+        name: "Hourglass of Focus",
+        description: "Time bends to your will. Next quiz has no time pressure.",
+        type: 'consumable',
+        effect: 'no_time_limit',
+        duration: 'next_quiz'
+      }
+    },
+
+    anxiety_spiral: {
+      guaranteedRarity: 'EPIC',
+      bonusRarity: 25,
+      guaranteedSlots: ['CHEST', 'SHOULDERS'],
+      uniqueChance: 0.18,
+      possibleUniques: ['LUMINARAS_FAVOR'],
+      goldBonus: 250,
+      gemChance: 0.7,
+      specialDrop: {
+        name: "Calm Stone",
+        description: "A smooth river stone that radiates peace. CON +10 for 3 boss battles.",
+        type: 'consumable',
+        effect: 'temp_constitution',
+        value: 10,
+        charges: 3
+      }
+    },
+
+    distraction_demon: {
+      guaranteedRarity: 'RARE',
+      bonusRarity: 20,
+      guaranteedSlots: ['HANDS', 'RING_L'],
+      uniqueChance: 0.15,
+      possibleUniques: ['RING_OF_PERFECT_RECALL'],
+      goldBonus: 200,
+      gemChance: 0.6,
+      specialDrop: {
+        name: "Focus Prism",
+        description: "Refracts scattered thoughts into a single beam. Immune to distraction abilities.",
+        type: 'consumable',
+        effect: 'anti_distraction',
+        charges: 5
+      }
+    },
+
+    imposter: {
+      guaranteedRarity: 'EPIC',
+      bonusRarity: 30,
+      guaranteedSlots: ['MAINHAND', 'OFFHAND'],
+      uniqueChance: 0.25,
+      possibleUniques: ['TOME_OF_ENDLESS_KNOWLEDGE'],
+      goldBonus: 350,
+      gemChance: 0.8,
+      specialDrop: {
+        name: "Mask of Confidence",
+        description: "Fake it till you make it. +25% damage to all bosses for one run.",
+        type: 'consumable',
+        effect: 'boss_damage_boost',
+        value: 25,
+        duration: 'run'
+      }
+    },
+
+    luminara_shadow: {
+      guaranteedRarity: 'LEGENDARY',
+      bonusRarity: 50,
+      guaranteedSlots: ['HEAD', 'CHEST', 'MAINHAND'],
+      uniqueChance: 0.5,
+      possibleUniques: ['LUMINARAS_FAVOR', 'TOME_OF_ENDLESS_KNOWLEDGE', 'CROWN_OF_THE_ARCHMAGE'],
+      goldBonus: 1000,
+      gemChance: 1.0,
+      gemCount: 3,
+      specialDrop: {
+        name: "Luminara's Blessing",
+        description: "The ultimate acknowledgment. Permanent +5 to all base stats.",
+        type: 'permanent',
+        effect: 'permanent_all_stats',
+        value: 5
+      }
+    }
+  };
+
+  /**
+   * Generate loot drops from defeating a boss
+   */
+  generateBossLoot(bossId, playerLevel = 1, battlePerformance = {}) {
+    const lootTable = LootSystem.BOSS_LOOT_TABLES[bossId];
+    if (!lootTable) {
+      console.warn(`No loot table for boss: ${bossId}`);
+      return [];
+    }
+
+    const drops = [];
+    const {
+      damageDealt = 0,
+      damageTaken = 0,
+      turnsTaken = 0,
+      perfectVictory = false
+    } = battlePerformance;
+
+    // Performance bonus to rarity
+    let performanceBonus = 0;
+    if (perfectVictory) performanceBonus += 20;
+    if (damageTaken === 0) performanceBonus += 15;
+    if (turnsTaken <= 5) performanceBonus += 10;
+
+    // Guaranteed equipment drops (1-2 items from guaranteed slots)
+    const slotsToUse = [...lootTable.guaranteedSlots];
+    const numGuaranteed = Math.min(slotsToUse.length, perfectVictory ? 2 : 1);
+
+    for (let i = 0; i < numGuaranteed; i++) {
+      const slotIndex = Math.floor(Math.random() * slotsToUse.length);
+      const slot = slotsToUse.splice(slotIndex, 1)[0];
+
+      const item = this.generateItem({
+        playerLevel,
+        bonusRarity: lootTable.bonusRarity + performanceBonus,
+        forceRarity: lootTable.guaranteedRarity,
+        forceSlot: slot
+      });
+
+      if (item) {
+        drops.push(item);
+        this.addToInventory(item);
+      }
+    }
+
+    // Roll for unique item
+    if (Math.random() < lootTable.uniqueChance + (performanceBonus / 100)) {
+      const possibleUniques = lootTable.possibleUniques.filter(
+        u => !this.data.uniquesFound.includes(u)
+      );
+
+      if (possibleUniques.length > 0) {
+        const uniqueKey = possibleUniques[Math.floor(Math.random() * possibleUniques.length)];
+        const uniqueItem = this.createUniqueItem(UNIQUE_ITEMS[uniqueKey]);
+        drops.push(uniqueItem);
+        this.addToInventory(uniqueItem);
+      }
+    }
+
+    // Gem drops
+    const gemCount = lootTable.gemCount || 1;
+    for (let i = 0; i < gemCount; i++) {
+      if (Math.random() < lootTable.gemChance) {
+        const gem = this.generateGem(playerLevel + 5); // Bosses drop better gems
+        drops.push(gem);
+        this.addGem(gem);
+      }
+    }
+
+    // Gold bonus
+    const goldAmount = lootTable.goldBonus + Math.floor(Math.random() * 100);
+    this.data.gold += goldAmount;
+    drops.push({ type: 'gold', amount: goldAmount });
+
+    // Special drop (always drops from bosses)
+    if (lootTable.specialDrop) {
+      const specialItem = {
+        ...lootTable.specialDrop,
+        id: 'special_' + Date.now() + '_' + Math.random().toString(36).slice(2, 8),
+        bossId,
+        acquiredAt: Date.now()
+      };
+      drops.push(specialItem);
+
+      // Store special items separately
+      if (!this.data.specialItems) {
+        this.data.specialItems = [];
+      }
+      this.data.specialItems.push(specialItem);
+    }
+
+    // Record in history
+    this.data.lootHistory.unshift({
+      type: 'boss_loot',
+      bossId,
+      drops,
+      timestamp: Date.now()
+    });
+
+    if (this.data.lootHistory.length > 50) {
+      this.data.lootHistory.pop();
+    }
+
+    this.save();
+    return drops;
+  }
+
+  /**
+   * Get special items (consumables from bosses)
+   */
+  getSpecialItems() {
+    return this.data.specialItems || [];
+  }
+
+  /**
+   * Use a special item
+   */
+  useSpecialItem(itemId) {
+    if (!this.data.specialItems) return null;
+
+    const index = this.data.specialItems.findIndex(i => i.id === itemId);
+    if (index === -1) return null;
+
+    const item = this.data.specialItems[index];
+
+    // Handle charges
+    if (item.charges && item.charges > 1) {
+      item.charges--;
+      this.save();
+      return { ...item, consumed: false };
+    }
+
+    // Consume item
+    this.data.specialItems.splice(index, 1);
+    this.save();
+    return { ...item, consumed: true };
+  }
+}
+
 // Export singleton
 let lootSystem = null;

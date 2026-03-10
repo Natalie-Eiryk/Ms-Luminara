@@ -1640,6 +1640,608 @@ class QuizRenderer {
   }
 }
 
+  // ═══════════════════════════════════════════════════════════════
+  // BOSS BATTLE UI - "The Luminara Gauntlet"
+  // ═══════════════════════════════════════════════════════════════
+
+  /**
+   * Render the boss encounter screen
+   */
+  renderBossEncounter(encounter, runSummary) {
+    const area = document.getElementById('questionArea');
+    if (!area) return;
+
+    const boss = encounter.boss;
+    const hpPercent = (encounter.currentHP / boss.maxHP) * 100;
+    const phaseInfo = encounter.getCurrentPhase();
+
+    // HP bar color based on remaining HP
+    const hpColor = hpPercent > 60 ? 'var(--correct)' :
+                    hpPercent > 30 ? 'var(--glow-warm)' :
+                    'var(--incorrect)';
+
+    area.innerHTML = `
+      <div class="boss-arena">
+        <div class="boss-header">
+          <span class="boss-wave">Wave ${runSummary.wave} Boss</span>
+          <span class="boss-difficulty">${runSummary.difficulty.toUpperCase()}</span>
+        </div>
+
+        <div class="boss-portrait">
+          <div class="boss-icon">${boss.icon}</div>
+          <div class="boss-phase-indicator ${phaseInfo.name.toLowerCase()}">${phaseInfo.name}</div>
+        </div>
+
+        <div class="boss-info">
+          <div class="boss-name">${boss.name}</div>
+          <div class="boss-title">${boss.title}</div>
+        </div>
+
+        <div class="boss-hp-section">
+          <div class="boss-hp-bar">
+            <div class="boss-hp-fill" style="width: ${hpPercent}%; background: ${hpColor}"></div>
+          </div>
+          <div class="boss-hp-text">${encounter.currentHP} / ${boss.maxHP} HP</div>
+          <div class="boss-armor">🛡️ Armor: ${boss.armor}</div>
+        </div>
+
+        <div class="boss-taunt">
+          <div class="taunt-text">"${this.getBossTaunt(boss, phaseInfo.name)}"</div>
+        </div>
+
+        <div class="boss-weakness">
+          <span class="weakness-label">Weakness:</span>
+          <span class="weakness-stat">${boss.weakTo.toUpperCase()}</span>
+        </div>
+
+        <div class="boss-abilities">
+          ${boss.abilities.map(a => `
+            <div class="boss-ability ${a.passive ? 'passive' : ''}" title="${a.description}">
+              <span class="ability-icon">${a.icon}</span>
+              <span class="ability-name">${a.name}</span>
+            </div>
+          `).join('')}
+        </div>
+
+        <div class="battle-actions">
+          <button class="battle-btn attack" onclick="quiz.bossBattle.playerAttack()">
+            ⚔️ Attack (INT)
+          </button>
+          <button class="battle-btn special" onclick="quiz.bossBattle.playerSpecial()">
+            ✨ Special (WIS)
+          </button>
+          <button class="battle-btn defend" onclick="quiz.bossBattle.playerDefend()">
+            🛡️ Defend (CON)
+          </button>
+        </div>
+
+        <div class="player-status">
+          <div class="player-hp">❤️ ${runSummary.playerHP} HP</div>
+          <div class="player-streak">🔥 Streak: ${runSummary.currentStreak}</div>
+          <div class="battle-score">📊 Score: ${runSummary.score}</div>
+        </div>
+      </div>
+    `;
+  }
+
+  /**
+   * Get a taunt from the boss based on phase
+   */
+  getBossTaunt(boss, phase) {
+    const defaultTaunts = {
+      Phase1: [
+        "You dare challenge me?",
+        "This will be over quickly.",
+        "How amusing..."
+      ],
+      Phase2: [
+        "You're more persistent than I expected.",
+        "Interesting. But futile.",
+        "Feel my true power!"
+      ],
+      Enraged: [
+        "ENOUGH!",
+        "You will REGRET this!",
+        "NO MORE HOLDING BACK!"
+      ]
+    };
+
+    const taunts = boss.taunts?.[phase] || defaultTaunts[phase] || defaultTaunts.Phase1;
+    return taunts[Math.floor(Math.random() * taunts.length)];
+  }
+
+  /**
+   * Show boss damage animation (player attacking boss)
+   */
+  showBossDamage(attackResult) {
+    const existing = document.querySelector('.boss-attack-overlay');
+    if (existing) existing.remove();
+
+    const overlay = document.createElement('div');
+    overlay.className = 'boss-attack-overlay';
+
+    const isCrit = attackResult.roll.isCriticalSuccess;
+    const isHit = attackResult.hit;
+
+    overlay.innerHTML = `
+      <div class="attack-animation ${isCrit ? 'critical' : ''} ${isHit ? 'hit' : 'miss'}">
+        <div class="attack-roll">
+          <div class="roll-label">Attack Roll</div>
+          <div class="roll-value">${attackResult.roll.roll}</div>
+          <div class="roll-modifier">+${attackResult.roll.modifier} INT = ${attackResult.roll.total}</div>
+          <div class="roll-vs">vs ${attackResult.armor} Armor</div>
+        </div>
+
+        ${isHit ? `
+          <div class="damage-dealt ${isCrit ? 'critical' : ''}">
+            <div class="damage-value">-${attackResult.damage}</div>
+            <div class="damage-type">${isCrit ? 'CRITICAL HIT!' : 'HIT!'}</div>
+          </div>
+        ` : `
+          <div class="attack-miss">
+            <div class="miss-text">MISS!</div>
+            <div class="miss-flavor">Your attack glances off their defenses...</div>
+          </div>
+        `}
+      </div>
+    `;
+
+    document.body.appendChild(overlay);
+
+    setTimeout(() => {
+      overlay.classList.add('hiding');
+      setTimeout(() => overlay.remove(), 400);
+    }, 2000);
+  }
+
+  /**
+   * Show boss attacking player animation
+   */
+  showBossAttack(defenseResult, bossName) {
+    const existing = document.querySelector('.boss-attack-overlay');
+    if (existing) existing.remove();
+
+    const overlay = document.createElement('div');
+    overlay.className = 'boss-attack-overlay boss-attacking';
+
+    const blocked = defenseResult.blocked;
+
+    overlay.innerHTML = `
+      <div class="defense-animation ${blocked ? 'blocked' : 'hit'}">
+        <div class="boss-attack-header">
+          <span class="boss-attack-icon">👹</span>
+          <span class="boss-attack-text">${bossName} attacks!</span>
+        </div>
+
+        <div class="defense-roll">
+          <div class="roll-label">Defense Roll (CON)</div>
+          <div class="roll-value">${defenseResult.roll.roll}</div>
+          <div class="roll-modifier">+${defenseResult.roll.modifier} CON = ${defenseResult.roll.total}</div>
+          <div class="roll-vs">vs ${defenseResult.attackPower} Power</div>
+        </div>
+
+        ${blocked ? `
+          <div class="defense-success">
+            <div class="block-text">BLOCKED!</div>
+            <div class="block-flavor">You withstand the assault!</div>
+          </div>
+        ` : `
+          <div class="defense-fail">
+            <div class="damage-taken">-${defenseResult.damageTaken} HP</div>
+            <div class="damage-flavor">The attack breaks through!</div>
+            ${defenseResult.damageReduction > 0 ?
+              `<div class="reduction">(Reduced by ${defenseResult.damageReduction} from CON)</div>` : ''}
+          </div>
+        `}
+      </div>
+    `;
+
+    document.body.appendChild(overlay);
+
+    setTimeout(() => {
+      overlay.classList.add('hiding');
+      setTimeout(() => overlay.remove(), 400);
+    }, 2500);
+  }
+
+  /**
+   * Show boss defeat celebration
+   */
+  showBossDefeat(boss, loot, runSummary) {
+    const overlay = document.createElement('div');
+    overlay.className = 'boss-defeat-overlay';
+
+    const lootHTML = loot.map(item => {
+      if (item.type === 'gold') {
+        return `<div class="loot-item gold">💰 +${item.amount} Gold</div>`;
+      } else if (item.type === 'gem') {
+        return `<div class="loot-item gem" style="color: ${item.color}">${item.icon} ${item.tierName} ${item.name}</div>`;
+      } else if (item.type === 'consumable' || item.type === 'permanent') {
+        return `<div class="loot-item special">⭐ ${item.name}</div>`;
+      } else {
+        return `<div class="loot-item equipment" style="color: ${this.getRarityColor(item.rarity)}">${item.icon || '📦'} ${item.name}</div>`;
+      }
+    }).join('');
+
+    overlay.innerHTML = `
+      <div class="boss-defeat-card">
+        <div class="defeat-header">
+          <span class="defeat-icon">⚔️</span>
+          <span class="defeat-title">Victory!</span>
+        </div>
+
+        <div class="boss-defeated">
+          <div class="boss-icon fading">${boss.icon}</div>
+          <div class="boss-name">${boss.name}</div>
+          <div class="boss-quote">"${this.getBossDefeatQuote(boss)}"</div>
+        </div>
+
+        <div class="defeat-stats">
+          <div class="stat">
+            <span class="value">+1000</span>
+            <span class="label">Boss Bonus</span>
+          </div>
+          <div class="stat">
+            <span class="value">${runSummary.bossesDefeated}</span>
+            <span class="label">Bosses Slain</span>
+          </div>
+        </div>
+
+        <div class="loot-section">
+          <div class="loot-header">Loot Acquired</div>
+          <div class="loot-grid">
+            ${lootHTML}
+          </div>
+        </div>
+
+        <button class="defeat-continue" onclick="quiz.bossBattle.continueAfterBoss(); this.closest('.boss-defeat-overlay').remove();">
+          Continue Run →
+        </button>
+      </div>
+    `;
+
+    document.body.appendChild(overlay);
+  }
+
+  /**
+   * Get boss defeat quote
+   */
+  getBossDefeatQuote(boss) {
+    const quotes = {
+      forgetful_one: "I... I can't remember... how to exist...",
+      procrastinator: "I'll... get revenge... eventually...",
+      anxiety_spiral: "The calm... it's... peaceful...",
+      distraction_demon: "Ooh, is that a— *poof*",
+      imposter: "Maybe you DO belong here after all...",
+      luminara_shadow: "You've surpassed even... me."
+    };
+    return quotes[boss.id] || "Defeated... but not forgotten...";
+  }
+
+  /**
+   * Render run progress UI
+   */
+  renderRunUI(runSummary, activePowerUps) {
+    const container = document.getElementById('runProgressBar');
+    if (!container) return;
+
+    const powerUpsHTML = activePowerUps.length > 0 ?
+      `<div class="active-powerups">
+        ${activePowerUps.map(p => `
+          <span class="active-powerup" title="${p.name}: ${p.description}">
+            ${p.icon}
+            ${typeof p.remainingDuration === 'number' ? `<span class="duration">${p.remainingDuration}</span>` : ''}
+          </span>
+        `).join('')}
+      </div>` : '';
+
+    container.innerHTML = `
+      <div class="run-info">
+        <div class="run-difficulty ${runSummary.difficulty}">${runSummary.difficulty.toUpperCase()}</div>
+        <div class="run-wave">Wave ${runSummary.wave}</div>
+        <div class="run-progress">
+          <div class="progress-fill" style="width: ${(runSummary.waveProgress / runSummary.questionsPerWave) * 100}%"></div>
+          <span class="progress-text">${runSummary.waveProgress}/${runSummary.questionsPerWave}</span>
+        </div>
+      </div>
+      <div class="run-stats">
+        <span class="run-score">📊 ${runSummary.score.toLocaleString()}</span>
+        <span class="run-streak">🔥 ${runSummary.currentStreak}</span>
+        <span class="run-accuracy">${runSummary.accuracy}%</span>
+      </div>
+      ${powerUpsHTML}
+    `;
+  }
+
+  /**
+   * Show power-up activation
+   */
+  showPowerUpActivation(powerUp) {
+    const popup = document.createElement('div');
+    popup.className = 'powerup-activation';
+
+    popup.innerHTML = `
+      <div class="powerup-card">
+        <div class="powerup-icon">${powerUp.icon}</div>
+        <div class="powerup-name">${powerUp.name}</div>
+        <div class="powerup-effect">${powerUp.description}</div>
+      </div>
+    `;
+
+    document.body.appendChild(popup);
+
+    setTimeout(() => {
+      popup.classList.add('hiding');
+      setTimeout(() => popup.remove(), 400);
+    }, 2000);
+  }
+
+  /**
+   * Show run complete summary (victory or defeat)
+   */
+  showRunComplete(result) {
+    const overlay = document.createElement('div');
+    overlay.className = `run-complete-overlay ${result.victory ? 'victory' : 'defeat'}`;
+
+    const breakdown = highScoreManager.getScoreBreakdown(result);
+
+    let achievementsHTML = '';
+    if (result.newAchievements && result.newAchievements.length > 0) {
+      achievementsHTML = `
+        <div class="run-achievements">
+          <div class="achievements-header">Achievements Unlocked!</div>
+          ${result.newAchievements.map(a => `
+            <div class="run-achievement">
+              <span class="achieve-icon">${a.icon}</span>
+              <span class="achieve-name">${a.name}</span>
+            </div>
+          `).join('')}
+        </div>
+      `;
+    }
+
+    overlay.innerHTML = `
+      <div class="run-complete-card">
+        <div class="run-header ${result.victory ? 'victory' : 'defeat'}">
+          <span class="run-icon">${result.victory ? '🏆' : '💀'}</span>
+          <span class="run-title">${result.victory ? 'Run Complete!' : 'Run Over'}</span>
+        </div>
+
+        <div class="run-title-earned">
+          <span class="title-icon">${result.title.icon}</span>
+          <span class="title-name" style="color: ${result.title.color}">${result.title.title}</span>
+        </div>
+
+        ${result.isHighScore ? `
+          <div class="high-score-banner">
+            🎉 NEW HIGH SCORE! Rank #${result.rank} 🎉
+          </div>
+        ` : ''}
+
+        <div class="score-breakdown">
+          <div class="breakdown-row">
+            <span>Questions</span>
+            <span>+${breakdown.baseScore}</span>
+          </div>
+          <div class="breakdown-row">
+            <span>Streak Bonus</span>
+            <span>+${breakdown.streakBonus}</span>
+          </div>
+          <div class="breakdown-row">
+            <span>Boss Bonus</span>
+            <span>+${breakdown.bossBonus}</span>
+          </div>
+          <div class="breakdown-row">
+            <span>Time Bonus</span>
+            <span>+${breakdown.timeBonus}</span>
+          </div>
+          <div class="breakdown-row">
+            <span>HP Bonus</span>
+            <span>+${breakdown.hpBonus}</span>
+          </div>
+          <div class="breakdown-row multiplier">
+            <span>Difficulty (×${breakdown.difficultyMultiplier})</span>
+            <span></span>
+          </div>
+          <div class="breakdown-total">
+            <span>TOTAL</span>
+            <span>${breakdown.total.toLocaleString()}</span>
+          </div>
+        </div>
+
+        <div class="tokens-earned">
+          <span class="tokens-icon">🎮</span>
+          <span class="tokens-amount">+${result.tokensEarned} Arcade Tokens</span>
+        </div>
+
+        ${achievementsHTML}
+
+        <div class="fun-fact">
+          <div class="fact-header">Did you know?</div>
+          <div class="fact-text">${result.funFact}</div>
+        </div>
+
+        <div class="run-actions">
+          <button class="run-btn home" onclick="quiz.endGauntletRun(); this.closest('.run-complete-overlay').remove();">
+            Back to Menu
+          </button>
+          <button class="run-btn retry" onclick="quiz.startGauntletRun('${result.difficulty}'); this.closest('.run-complete-overlay').remove();">
+            Try Again
+          </button>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(overlay);
+  }
+
+  /**
+   * Show high scores leaderboard
+   */
+  showHighScores() {
+    const existing = document.querySelector('.highscores-overlay');
+    if (existing) existing.remove();
+
+    const overlay = document.createElement('div');
+    overlay.className = 'highscores-overlay';
+
+    const scores = highScoreManager.getHighScores();
+    const personalBests = highScoreManager.getPersonalBests();
+    const stats = highScoreManager.getTotalStats();
+    const currentTitle = highScoreManager.getCurrentTitle();
+    const nextRank = highScoreManager.getNextRank();
+
+    const scoresHTML = scores.length > 0 ?
+      scores.map((entry, i) => `
+        <div class="score-row ${i === 0 ? 'first' : ''} ${i === 1 ? 'second' : ''} ${i === 2 ? 'third' : ''}">
+          <span class="rank">#${entry.rank}</span>
+          <span class="score">${entry.score.toLocaleString()}</span>
+          <span class="title" style="color: ${entry.title.color}">${entry.title.icon}</span>
+          <span class="details">${entry.waves} waves | ${entry.accuracy}% | ${highScoreManager.formatDuration(entry.duration)}</span>
+          <span class="difficulty ${entry.difficulty}">${entry.difficulty.charAt(0).toUpperCase()}</span>
+        </div>
+      `).join('') :
+      '<div class="no-scores">No runs completed yet. Start a Gauntlet run!</div>';
+
+    overlay.innerHTML = `
+      <div class="highscores-panel">
+        <button class="close-btn" onclick="this.closest('.highscores-overlay').remove()">✕</button>
+
+        <div class="hs-header">
+          <h2>🏆 The Luminara Gauntlet</h2>
+          <div class="current-rank">
+            <span class="rank-icon">${currentTitle.icon}</span>
+            <span class="rank-title" style="color: ${currentTitle.color}">${currentTitle.title}</span>
+          </div>
+          ${nextRank ? `
+            <div class="next-rank">
+              Next: ${nextRank.title.title} (${nextRank.pointsNeeded.toLocaleString()} pts away)
+            </div>
+          ` : '<div class="next-rank max-rank">Maximum Rank Achieved!</div>'}
+        </div>
+
+        <div class="hs-section">
+          <h3>Top 10 Scores</h3>
+          <div class="scores-list">
+            ${scoresHTML}
+          </div>
+        </div>
+
+        <div class="hs-section personal-bests">
+          <h3>Personal Bests</h3>
+          <div class="bests-grid">
+            <div class="best-item">
+              <span class="best-value">${personalBests.highestScore.toLocaleString()}</span>
+              <span class="best-label">Highest Score</span>
+            </div>
+            <div class="best-item">
+              <span class="best-value">${personalBests.longestStreak}</span>
+              <span class="best-label">Longest Streak</span>
+            </div>
+            <div class="best-item">
+              <span class="best-value">${personalBests.fastestRun ? highScoreManager.formatDuration(personalBests.fastestRun) : '--:--'}</span>
+              <span class="best-label">Fastest Run</span>
+            </div>
+            <div class="best-item">
+              <span class="best-value">${personalBests.mostBosses}</span>
+              <span class="best-label">Most Bosses</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hs-section total-stats">
+          <h3>Career Stats</h3>
+          <div class="stats-grid">
+            <div class="stat-item"><span class="val">${stats.totalScore.toLocaleString()}</span><span class="lbl">Total Score</span></div>
+            <div class="stat-item"><span class="val">${stats.totalVictories}/${stats.totalRuns}</span><span class="lbl">Victories</span></div>
+            <div class="stat-item"><span class="val">${stats.totalBossesDefeated}</span><span class="lbl">Bosses Slain</span></div>
+            <div class="stat-item"><span class="val">${stats.totalQuestionsAnswered}</span><span class="lbl">Questions</span></div>
+          </div>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(overlay);
+  }
+
+  /**
+   * Show power-up shop
+   */
+  showPowerUpShop(tokenCount) {
+    const existing = document.querySelector('.powerup-shop-overlay');
+    if (existing) existing.remove();
+
+    const overlay = document.createElement('div');
+    overlay.className = 'powerup-shop-overlay';
+
+    const unlocked = powerUpManager.getUnlockedPowerUps();
+    const locked = powerUpManager.getLockedPowerUps();
+
+    const unlockedHTML = unlocked.map(p => `
+      <div class="shop-item ${tokenCount < p.cost ? 'cant-afford' : ''}">
+        <div class="shop-item-header">
+          <span class="item-icon">${p.icon}</span>
+          <span class="item-name">${p.name}</span>
+          <span class="item-rarity ${p.rarity}">${p.rarity}</span>
+        </div>
+        <div class="item-desc">${p.description}</div>
+        <div class="item-footer">
+          <span class="item-owned">Owned: ${p.count}</span>
+          <button class="buy-btn" ${tokenCount < p.cost ? 'disabled' : ''}
+                  onclick="quiz.buyPowerUp('${p.id}')">
+            🎮 ${p.cost}
+          </button>
+        </div>
+      </div>
+    `).join('');
+
+    const lockedHTML = locked.map(p => `
+      <div class="shop-item locked">
+        <div class="shop-item-header">
+          <span class="item-icon">🔒</span>
+          <span class="item-name">???</span>
+          <span class="item-rarity ${p.rarity}">${p.rarity}</span>
+        </div>
+        <div class="item-desc">
+          Unlock: ${p.type.replace(/_/g, ' ')} (${p.progress}%)
+        </div>
+        <div class="unlock-progress">
+          <div class="progress-fill" style="width: ${p.progress}%"></div>
+        </div>
+      </div>
+    `).join('');
+
+    overlay.innerHTML = `
+      <div class="powerup-shop-panel">
+        <button class="close-btn" onclick="this.closest('.powerup-shop-overlay').remove()">✕</button>
+
+        <div class="shop-header">
+          <h2>⚡ Power-Up Shop</h2>
+          <div class="token-balance">🎮 ${tokenCount.toLocaleString()} Tokens</div>
+        </div>
+
+        <div class="shop-section">
+          <h3>Available Power-Ups</h3>
+          <div class="shop-grid">
+            ${unlockedHTML}
+          </div>
+        </div>
+
+        ${locked.length > 0 ? `
+          <div class="shop-section locked-section">
+            <h3>Locked Power-Ups</h3>
+            <div class="shop-grid">
+              ${lockedHTML}
+            </div>
+          </div>
+        ` : ''}
+      </div>
+    `;
+
+    document.body.appendChild(overlay);
+  }
+}
+
 // Apply extension mixins if they were loaded before the class
 // (supports both load orders)
 if (window._InventoryMixin) {
