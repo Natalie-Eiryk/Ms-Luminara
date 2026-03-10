@@ -1638,7 +1638,6 @@ class QuizRenderer {
     div.textContent = text;
     return div.innerHTML;
   }
-}
 
   // ═══════════════════════════════════════════════════════════════
   // BOSS BATTLE UI - "The Luminara Gauntlet"

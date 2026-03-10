@@ -904,128 +904,131 @@ class LootSystem {
 
     return Math.max(1, price);
   }
-}
 
   // ═══════════════════════════════════════════════════════════════
   // BOSS LOOT TABLES
   // ═══════════════════════════════════════════════════════════════
 
   /**
-   * Boss-specific loot tables with guaranteed drops
+   * Get boss-specific loot table
    */
-  static BOSS_LOOT_TABLES = {
-    forgetful_one: {
-      guaranteedRarity: 'RARE',
-      bonusRarity: 20,
-      guaranteedSlots: ['HEAD', 'NECK'],
-      uniqueChance: 0.15,
-      possibleUniques: ['CROWN_OF_THE_ARCHMAGE'],
-      goldBonus: 200,
-      gemChance: 0.6,
-      specialDrop: {
-        name: "Memory Fragment",
-        description: "A crystallized moment of clarity. +5% to all stats for one quiz session.",
-        type: 'consumable',
-        effect: 'temp_all_stats',
-        value: 5,
-        duration: 'session'
-      }
-    },
+  getBossLootTable(bossId) {
+    const tables = {
+      forgetful_one: {
+        guaranteedRarity: 'RARE',
+        bonusRarity: 20,
+        guaranteedSlots: ['HEAD', 'NECK'],
+        uniqueChance: 0.15,
+        possibleUniques: ['CROWN_OF_THE_ARCHMAGE'],
+        goldBonus: 200,
+        gemChance: 0.6,
+        specialDrop: {
+          name: "Memory Fragment",
+          description: "A crystallized moment of clarity. +5% to all stats for one quiz session.",
+          type: 'consumable',
+          effect: 'temp_all_stats',
+          value: 5,
+          duration: 'session'
+        }
+      },
 
-    procrastinator: {
-      guaranteedRarity: 'RARE',
-      bonusRarity: 15,
-      guaranteedSlots: ['FEET', 'WAIST'],
-      uniqueChance: 0.12,
-      possibleUniques: ['BOOTS_OF_SWIFT_STUDY'],
-      goldBonus: 175,
-      gemChance: 0.5,
-      specialDrop: {
-        name: "Hourglass of Focus",
-        description: "Time bends to your will. Next quiz has no time pressure.",
-        type: 'consumable',
-        effect: 'no_time_limit',
-        duration: 'next_quiz'
-      }
-    },
+      procrastinator: {
+        guaranteedRarity: 'RARE',
+        bonusRarity: 15,
+        guaranteedSlots: ['FEET', 'WAIST'],
+        uniqueChance: 0.12,
+        possibleUniques: ['BOOTS_OF_SWIFT_STUDY'],
+        goldBonus: 175,
+        gemChance: 0.5,
+        specialDrop: {
+          name: "Hourglass of Focus",
+          description: "Time bends to your will. Next quiz has no time pressure.",
+          type: 'consumable',
+          effect: 'no_time_limit',
+          duration: 'next_quiz'
+        }
+      },
 
-    anxiety_spiral: {
-      guaranteedRarity: 'EPIC',
-      bonusRarity: 25,
-      guaranteedSlots: ['CHEST', 'SHOULDERS'],
-      uniqueChance: 0.18,
-      possibleUniques: ['LUMINARAS_FAVOR'],
-      goldBonus: 250,
-      gemChance: 0.7,
-      specialDrop: {
-        name: "Calm Stone",
-        description: "A smooth river stone that radiates peace. CON +10 for 3 boss battles.",
-        type: 'consumable',
-        effect: 'temp_constitution',
-        value: 10,
-        charges: 3
-      }
-    },
+      anxiety_spiral: {
+        guaranteedRarity: 'EPIC',
+        bonusRarity: 25,
+        guaranteedSlots: ['CHEST', 'SHOULDERS'],
+        uniqueChance: 0.18,
+        possibleUniques: ['LUMINARAS_FAVOR'],
+        goldBonus: 250,
+        gemChance: 0.7,
+        specialDrop: {
+          name: "Calm Stone",
+          description: "A smooth river stone that radiates peace. CON +10 for 3 boss battles.",
+          type: 'consumable',
+          effect: 'temp_constitution',
+          value: 10,
+          charges: 3
+        }
+      },
 
-    distraction_demon: {
-      guaranteedRarity: 'RARE',
-      bonusRarity: 20,
-      guaranteedSlots: ['HANDS', 'RING_L'],
-      uniqueChance: 0.15,
-      possibleUniques: ['RING_OF_PERFECT_RECALL'],
-      goldBonus: 200,
-      gemChance: 0.6,
-      specialDrop: {
-        name: "Focus Prism",
-        description: "Refracts scattered thoughts into a single beam. Immune to distraction abilities.",
-        type: 'consumable',
-        effect: 'anti_distraction',
-        charges: 5
-      }
-    },
+      distraction_demon: {
+        guaranteedRarity: 'RARE',
+        bonusRarity: 20,
+        guaranteedSlots: ['HANDS', 'RING_L'],
+        uniqueChance: 0.15,
+        possibleUniques: ['RING_OF_PERFECT_RECALL'],
+        goldBonus: 200,
+        gemChance: 0.6,
+        specialDrop: {
+          name: "Focus Prism",
+          description: "Refracts scattered thoughts into a single beam. Immune to distraction abilities.",
+          type: 'consumable',
+          effect: 'anti_distraction',
+          charges: 5
+        }
+      },
 
-    imposter: {
-      guaranteedRarity: 'EPIC',
-      bonusRarity: 30,
-      guaranteedSlots: ['MAINHAND', 'OFFHAND'],
-      uniqueChance: 0.25,
-      possibleUniques: ['TOME_OF_ENDLESS_KNOWLEDGE'],
-      goldBonus: 350,
-      gemChance: 0.8,
-      specialDrop: {
-        name: "Mask of Confidence",
-        description: "Fake it till you make it. +25% damage to all bosses for one run.",
-        type: 'consumable',
-        effect: 'boss_damage_boost',
-        value: 25,
-        duration: 'run'
-      }
-    },
+      imposter: {
+        guaranteedRarity: 'EPIC',
+        bonusRarity: 30,
+        guaranteedSlots: ['MAINHAND', 'OFFHAND'],
+        uniqueChance: 0.25,
+        possibleUniques: ['TOME_OF_ENDLESS_KNOWLEDGE'],
+        goldBonus: 350,
+        gemChance: 0.8,
+        specialDrop: {
+          name: "Mask of Confidence",
+          description: "Fake it till you make it. +25% damage to all bosses for one run.",
+          type: 'consumable',
+          effect: 'boss_damage_boost',
+          value: 25,
+          duration: 'run'
+        }
+      },
 
-    luminara_shadow: {
-      guaranteedRarity: 'LEGENDARY',
-      bonusRarity: 50,
-      guaranteedSlots: ['HEAD', 'CHEST', 'MAINHAND'],
-      uniqueChance: 0.5,
-      possibleUniques: ['LUMINARAS_FAVOR', 'TOME_OF_ENDLESS_KNOWLEDGE', 'CROWN_OF_THE_ARCHMAGE'],
-      goldBonus: 1000,
-      gemChance: 1.0,
-      gemCount: 3,
-      specialDrop: {
-        name: "Luminara's Blessing",
-        description: "The ultimate acknowledgment. Permanent +5 to all base stats.",
-        type: 'permanent',
-        effect: 'permanent_all_stats',
-        value: 5
+      luminara_shadow: {
+        guaranteedRarity: 'LEGENDARY',
+        bonusRarity: 50,
+        guaranteedSlots: ['HEAD', 'CHEST', 'MAINHAND'],
+        uniqueChance: 0.5,
+        possibleUniques: ['LUMINARAS_FAVOR', 'TOME_OF_ENDLESS_KNOWLEDGE', 'CROWN_OF_THE_ARCHMAGE'],
+        goldBonus: 1000,
+        gemChance: 1.0,
+        gemCount: 3,
+        specialDrop: {
+          name: "Luminara's Blessing",
+          description: "The ultimate acknowledgment. Permanent +5 to all base stats.",
+          type: 'permanent',
+          effect: 'permanent_all_stats',
+          value: 5
+        }
       }
-    }
-  };
+    };
+
+    return tables[bossId] || null;
+  }
 
   /**
    * Generate loot drops from defeating a boss
    */
   generateBossLoot(bossId, playerLevel = 1, battlePerformance = {}) {
-    const lootTable = LootSystem.BOSS_LOOT_TABLES[bossId];
+    const lootTable = this.getBossLootTable(bossId);
     if (!lootTable) {
       console.warn(`No loot table for boss: ${bossId}`);
       return [];
