@@ -1,0 +1,483 @@
+{
+  "id": "200.6",
+  "title": "Nerves Vocabulary",
+  "category": "vocabulary",
+  "description": "Essential terminology for spinal cord, nerves, reflexes, and sensory pathways",
+  "questions": [
+    {
+      "id": "200.6.01",
+      "q": "The spinal cord extends from the medulla to approximately which vertebral level?",
+      "options": [
+        "T12",
+        "L1-L2",
+        "L5",
+        "S1"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "The spinal cord ends at the conus medullaris around L1-L2 in adults. Below this, only nerve roots continue as the cauda equina.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "T12 would be too high. The cord extends below the thoracic region."},
+        {"verdict": "correct", "text": "L1-L2 — the conus medullaris terminates here in adults. This is why lumbar punctures below L2 are safe — you tap the cauda equina, not the cord itself."},
+        {"verdict": "incorrect", "text": "L5 is below where the cord ends. Only the cauda equina reaches there."},
+        {"verdict": "incorrect", "text": "S1 is sacral — far below the cord's termination."}
+      ]
+    },
+    {
+      "id": "200.6.02",
+      "q": "The collection of nerve roots below the conus medullaris is called the:",
+      "options": [
+        "Spinal ganglion",
+        "Cauda equina",
+        "Dorsal root",
+        "Filum terminale"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "The cauda equina — Latin for 'horse's tail' — is the bundle of lumbar and sacral nerve roots streaming down from where the cord ends.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Spinal ganglia contain sensory neuron cell bodies. Not the nerve root bundle."},
+        {"verdict": "correct", "text": "Cauda equina — lumbar, sacral, and coccygeal nerve roots descending through the vertebral canal. They look like a horse's tail."},
+        {"verdict": "incorrect", "text": "Dorsal root is just the sensory branch of one spinal nerve. Cauda equina is many roots."},
+        {"verdict": "incorrect", "text": "Filum terminale is the thin strand anchoring the cord to the coccyx. Not the nerve roots."}
+      ]
+    },
+    {
+      "id": "200.6.03",
+      "q": "Afferent neurons carry impulses:",
+      "options": [
+        "From CNS to muscles",
+        "From sensory receptors to CNS",
+        "Between neurons in the CNS",
+        "Only within the brain"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "Afferent means 'arriving' — these sensory neurons carry information from receptors TO the central nervous system.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "That's efferent — 'exiting' the CNS. Motor neurons going out."},
+        {"verdict": "correct", "text": "Afferent neurons bring sensory information IN. Touch, pain, temperature, proprioception — all travel afferent pathways to the CNS for processing."},
+        {"verdict": "incorrect", "text": "Those are interneurons — connections within the CNS."},
+        {"verdict": "incorrect", "text": "Afferent neurons span the entire sensory path, not just the brain."}
+      ]
+    },
+    {
+      "id": "200.6.04",
+      "q": "The cervical plexus innervates structures of the:",
+      "options": [
+        "Upper limb",
+        "Neck and posterior head",
+        "Lower limb",
+        "Thoracic wall"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "The cervical plexus (C1-C4) supplies the neck, posterior head, and most importantly gives rise to the phrenic nerve for the diaphragm.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Upper limb is brachial plexus territory (C5-T1)."},
+        {"verdict": "correct", "text": "Cervical plexus — C1-C4 form this network. It supplies skin and muscles of the neck and back of head. The phrenic nerve (C3-C5) emerges here to control breathing."},
+        {"verdict": "incorrect", "text": "Lower limb is lumbar and sacral plexuses."},
+        {"verdict": "incorrect", "text": "Thoracic wall is supplied by intercostal nerves, not cervical plexus."}
+      ]
+    },
+    {
+      "id": "200.6.05",
+      "q": "Which type of receptor detects changes in temperature?",
+      "options": [
+        "Mechanoreceptors",
+        "Thermoreceptors",
+        "Nociceptors",
+        "Proprioceptors"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "Thermoreceptors detect temperature changes — separate receptors for warmth and cold, located in the skin and hypothalamus.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Mechanoreceptors detect pressure, vibration, and stretch — mechanical forces."},
+        {"verdict": "correct", "text": "Thermoreceptors — specialized free nerve endings responding to temperature. Cold receptors fire faster as temperature drops; warm receptors fire faster as it rises."},
+        {"verdict": "incorrect", "text": "Nociceptors detect pain — tissue damage or potentially harmful stimuli."},
+        {"verdict": "incorrect", "text": "Proprioceptors detect body position and movement — muscle spindles, Golgi tendons."}
+      ]
+    },
+    {
+      "id": "200.6.06",
+      "q": "The largest nerve in the body is the:",
+      "options": [
+        "Femoral nerve",
+        "Sciatic nerve",
+        "Vagus nerve",
+        "Tibial nerve"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "The sciatic nerve — as thick as your thumb — exits the pelvis and runs down the posterior thigh. It's the leg's main nerve trunk.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Femoral nerve supplies anterior thigh. Large, but not the largest."},
+        {"verdict": "correct", "text": "Sciatic nerve — formed from L4-S3 roots via the sacral plexus. It's the main nerve of the lower limb, splitting into tibial and common fibular nerves behind the knee."},
+        {"verdict": "incorrect", "text": "Vagus is the longest cranial nerve but not the largest in diameter."},
+        {"verdict": "incorrect", "text": "Tibial nerve is a branch OF the sciatic. Smaller than its parent."}
+      ]
+    },
+    {
+      "id": "200.6.07",
+      "q": "The dorsal root ganglion contains cell bodies of:",
+      "options": [
+        "Motor neurons",
+        "Sensory neurons",
+        "Interneurons",
+        "Autonomic neurons"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "Dorsal root ganglia house sensory neuron cell bodies. These pseudounipolar neurons send one branch to the periphery and one into the spinal cord.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Motor neuron cell bodies are in the ventral horn of the spinal cord, not ganglia."},
+        {"verdict": "correct", "text": "Sensory neurons — their cell bodies sit in the dorsal root ganglion, outside the CNS. Each sends a peripheral axon to receptors and a central axon into the cord."},
+        {"verdict": "incorrect", "text": "Interneurons are entirely within the CNS. No ganglia for them."},
+        {"verdict": "incorrect", "text": "Autonomic neuron cell bodies are in different ganglia — sympathetic chain or prevertebral."}
+      ]
+    },
+    {
+      "id": "200.6.08",
+      "q": "A reflex arc requires at minimum:",
+      "options": [
+        "One neuron",
+        "Two neurons",
+        "Three neurons",
+        "Five neurons"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "The simplest reflex — like the knee-jerk — uses just two neurons: sensory (afferent) and motor (efferent). It's monosynaptic.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "One neuron can't form a reflex arc — you need at least input and output neurons."},
+        {"verdict": "correct", "text": "Two neurons minimum — the stretch reflex (knee-jerk) is monosynaptic: sensory neuron synapses directly on motor neuron. No interneuron needed."},
+        {"verdict": "incorrect", "text": "Three neurons would include an interneuron — common but not minimum."},
+        {"verdict": "incorrect", "text": "Five is excessive for a simple reflex arc."}
+      ]
+    },
+    {
+      "id": "200.6.09",
+      "q": "The brachial plexus is formed by ventral rami of spinal nerves:",
+      "options": [
+        "C1-C4",
+        "C5-T1",
+        "T1-T12",
+        "L1-L4"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "The brachial plexus — supplying the upper limb — forms from C5-T1 ventral rami. Remember: roots, trunks, divisions, cords, branches.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "C1-C4 form the cervical plexus — neck, not arm."},
+        {"verdict": "correct", "text": "C5-T1 create the brachial plexus. Five roots combine and reorganize to eventually form the musculocutaneous, median, ulnar, radial, and axillary nerves."},
+        {"verdict": "incorrect", "text": "T1-T12 are thoracic — they form intercostal nerves, not plexuses."},
+        {"verdict": "incorrect", "text": "L1-L4 form the lumbar plexus — supplies lower limb and abdomen."}
+      ]
+    },
+    {
+      "id": "200.6.10",
+      "q": "Which receptor type is located in muscles and tendons to detect body position?",
+      "options": [
+        "Mechanoreceptors",
+        "Thermoreceptors",
+        "Proprioceptors",
+        "Photoreceptors"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "Proprioceptors — muscle spindles and Golgi tendon organs — detect muscle length and tension, telling the brain where your body parts are.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Mechanoreceptors is a broad category. Proprioceptors are specific for position sense."},
+        {"verdict": "incorrect", "text": "Thermoreceptors detect temperature, not position."},
+        {"verdict": "correct", "text": "Proprioceptors provide position sense — you know where your hand is without looking. Muscle spindles detect stretch; Golgi tendons detect tension."},
+        {"verdict": "incorrect", "text": "Photoreceptors detect light — they're in the retina, not muscles."}
+      ]
+    },
+    {
+      "id": "200.6.11",
+      "q": "The gray matter of the spinal cord is shaped like a:",
+      "options": [
+        "Circle",
+        "Butterfly or H",
+        "Square",
+        "Triangle"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "In cross-section, spinal cord gray matter forms a butterfly or H shape — dorsal horns receiving sensory input, ventral horns sending motor output.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Not circular. The gray matter has projecting horns."},
+        {"verdict": "correct", "text": "Butterfly or H-shaped gray matter. Dorsal horns point back (sensory), ventral horns point forward (motor). Lateral horns exist in thoracic and lumbar regions for autonomic neurons."},
+        {"verdict": "incorrect", "text": "Not square. The shape has distinct projections."},
+        {"verdict": "incorrect", "text": "Not triangular. The horns create an H or butterfly appearance."}
+      ]
+    },
+    {
+      "id": "200.6.12",
+      "q": "The neuron that transmits impulses from the CNS to effector organs is called:",
+      "options": [
+        "Afferent neuron",
+        "Efferent neuron",
+        "Interneuron",
+        "Sensory neuron"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "Efferent neurons carry impulses AWAY from the CNS to muscles and glands. They're motor neurons.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Afferent is sensory — bringing information IN to CNS."},
+        {"verdict": "correct", "text": "Efferent means 'exiting' — these motor neurons carry commands FROM the CNS to muscles (skeletal, smooth, cardiac) and glands."},
+        {"verdict": "incorrect", "text": "Interneurons stay within the CNS, connecting neurons to neurons."},
+        {"verdict": "incorrect", "text": "Sensory neuron is another term for afferent — incoming, not outgoing."}
+      ]
+    },
+    {
+      "id": "200.6.13",
+      "q": "The myelin sheath in the peripheral nervous system is formed by:",
+      "options": [
+        "Oligodendrocytes",
+        "Schwann cells",
+        "Astrocytes",
+        "Microglia"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "Schwann cells wrap peripheral axons in myelin. Each Schwann cell myelinates just one segment of one axon.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Oligodendrocytes myelinate CNS axons, not peripheral nerves."},
+        {"verdict": "correct", "text": "Schwann cells — PNS myelination. One cell, one internodal segment. This is why peripheral nerves can regenerate better — Schwann cells guide regrowth."},
+        {"verdict": "incorrect", "text": "Astrocytes support neurons but don't form myelin."},
+        {"verdict": "incorrect", "text": "Microglia are immune cells, not myelin producers."}
+      ]
+    },
+    {
+      "id": "200.6.14",
+      "q": "Which cranial nerve has the most extensive distribution in the body?",
+      "options": [
+        "Trigeminal (V)",
+        "Facial (VII)",
+        "Glossopharyngeal (IX)",
+        "Vagus (X)"
+      ],
+      "answer": 3,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "The vagus nerve wanders from the brainstem to the abdomen, innervating heart, lungs, and most digestive organs. Its name means 'wandering.'",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Trigeminal supplies face and jaw — extensive but limited to the head."},
+        {"verdict": "incorrect", "text": "Facial controls facial expression and some sensation — only the head."},
+        {"verdict": "incorrect", "text": "Glossopharyngeal reaches the throat but not beyond."},
+        {"verdict": "correct", "text": "Vagus — cranial nerve X — 'wanders' through thorax and abdomen. It's the main parasympathetic nerve to heart, lungs, and GI tract."}
+      ]
+    },
+    {
+      "id": "200.6.15",
+      "q": "The dermatome is an area of skin supplied by:",
+      "options": [
+        "One cranial nerve",
+        "One spinal nerve",
+        "Multiple nerve plexuses",
+        "The sympathetic trunk"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "Each dermatome is a strip of skin innervated by sensory fibers from one spinal nerve. Dermatome maps help locate spinal cord lesions.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Cranial nerves supply face — those aren't called dermatomes."},
+        {"verdict": "correct", "text": "One spinal nerve per dermatome. The pattern wraps around the body: C5 is shoulder, T4 is nipple line, T10 is umbilicus, L1 is inguinal region."},
+        {"verdict": "incorrect", "text": "Plexuses mix nerve roots. Dermatomes trace back to individual spinal levels."},
+        {"verdict": "incorrect", "text": "Sympathetic trunk is autonomic. Dermatomes are somatic sensory."}
+      ]
+    },
+    {
+      "id": "200.6.16",
+      "q": "The gaps in the myelin sheath where action potentials regenerate are called:",
+      "options": [
+        "Synapses",
+        "Nodes of Ranvier",
+        "Motor end plates",
+        "Neuromuscular junctions"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "Nodes of Ranvier are gaps between myelin segments where ion channels cluster. Action potentials jump from node to node — saltatory conduction.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Synapses are junctions between neurons. Nodes are on single axons."},
+        {"verdict": "correct", "text": "Nodes of Ranvier — unmyelinated gaps packed with voltage-gated sodium channels. Signals jump from node to node, speeding conduction 100-fold."},
+        {"verdict": "incorrect", "text": "Motor end plates are where motor neurons meet muscle. Different structure."},
+        {"verdict": "incorrect", "text": "Neuromuscular junctions are neuron-to-muscle synapses. Nodes are on axons."}
+      ]
+    },
+    {
+      "id": "200.6.17",
+      "q": "The median nerve passes through which structure at the wrist?",
+      "options": [
+        "Cubital tunnel",
+        "Guyon's canal",
+        "Carpal tunnel",
+        "Tarsal tunnel"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "The median nerve traverses the carpal tunnel — a narrow passage at the wrist. Compression here causes carpal tunnel syndrome.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Cubital tunnel is at the elbow — the ulnar nerve passes through there."},
+        {"verdict": "incorrect", "text": "Guyon's canal is for the ulnar nerve at the wrist, not median."},
+        {"verdict": "correct", "text": "Carpal tunnel — formed by carpal bones and flexor retinaculum. The median nerve runs through with flexor tendons. Swelling compresses it, causing numbness in thumb-to-ring finger."},
+        {"verdict": "incorrect", "text": "Tarsal tunnel is at the ankle — tibial nerve territory."}
+      ]
+    },
+    {
+      "id": "200.6.18",
+      "q": "Which type of receptor adapts slowly and provides continuous information?",
+      "options": [
+        "Phasic receptors",
+        "Tonic receptors",
+        "Nociceptors only",
+        "Thermoreceptors only"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "Tonic receptors adapt slowly, continuing to fire as long as the stimulus persists. They monitor ongoing states like posture.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Phasic receptors adapt quickly — they signal changes, then go quiet."},
+        {"verdict": "correct", "text": "Tonic receptors maintain their firing rate. Proprioceptors are tonic — your brain always needs to know where your limbs are, not just when they move."},
+        {"verdict": "incorrect", "text": "Nociceptors are pain receptors — some are tonic, but this isn't the best answer."},
+        {"verdict": "incorrect", "text": "Thermoreceptors are actually more phasic — they adapt to temperature changes."}
+      ]
+    },
+    {
+      "id": "200.6.19",
+      "q": "The radial nerve provides motor innervation primarily to:",
+      "options": [
+        "Forearm flexors",
+        "Forearm extensors",
+        "Hand intrinsics",
+        "Shoulder abductors"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "The radial nerve is the 'extensor nerve' — it innervates all arm and forearm extensors, plus brachioradialis.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Forearm flexors are median and ulnar nerve territory."},
+        {"verdict": "correct", "text": "Forearm extensors — triceps, brachioradialis, wrist extensors, finger extensors. Radial nerve damage causes wrist drop (can't extend wrist against gravity)."},
+        {"verdict": "incorrect", "text": "Hand intrinsics are mostly ulnar nerve, with some median (thenar muscles)."},
+        {"verdict": "incorrect", "text": "Shoulder abductors are axillary nerve (deltoid) and suprascapular nerve."}
+      ]
+    },
+    {
+      "id": "200.6.20",
+      "q": "The lumbar plexus gives rise to which major nerve?",
+      "options": [
+        "Sciatic nerve",
+        "Femoral nerve",
+        "Tibial nerve",
+        "Common fibular nerve"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "The femoral nerve emerges from the lumbar plexus (L2-L4), supplying anterior thigh muscles and carrying sensation from the medial leg.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Sciatic nerve comes from the sacral plexus, not lumbar."},
+        {"verdict": "correct", "text": "Femoral nerve — largest lumbar plexus branch. It supplies quadriceps (knee extension) and carries sensation from medial thigh and leg."},
+        {"verdict": "incorrect", "text": "Tibial nerve is a branch of sciatic — sacral plexus origin."},
+        {"verdict": "incorrect", "text": "Common fibular is also from sciatic — sacral plexus."}
+      ]
+    },
+    {
+      "id": "200.6.21",
+      "q": "The withdrawal reflex is an example of a:",
+      "options": [
+        "Monosynaptic reflex",
+        "Polysynaptic reflex",
+        "Stretch reflex",
+        "Crossed extensor reflex only"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "The withdrawal reflex involves multiple synapses — interneurons coordinate flexor activation across multiple joints to pull away from pain.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Monosynaptic has only one synapse (sensory to motor). Withdrawal is more complex."},
+        {"verdict": "correct", "text": "Polysynaptic — multiple interneurons coordinate the response. You don't just flex one joint; you pull the whole limb away while other reflexes maintain balance."},
+        {"verdict": "incorrect", "text": "Stretch reflex is the knee-jerk — monosynaptic, not withdrawal."},
+        {"verdict": "incorrect", "text": "Crossed extensor is part of withdrawal but not the whole reflex."}
+      ]
+    },
+    {
+      "id": "200.6.22",
+      "q": "Meissner's corpuscles are sensitive to:",
+      "options": [
+        "Deep pressure",
+        "Light touch and texture",
+        "Vibration only",
+        "Temperature"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "Meissner's corpuscles detect light touch and texture discrimination. They're concentrated in fingertips — why you can feel fine detail.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Deep pressure is Pacinian corpuscles and Ruffini endings."},
+        {"verdict": "correct", "text": "Light touch — Meissner's corpuscles are superficial, rapidly adapting. They're dense in fingertips and lips, enabling fine texture discrimination."},
+        {"verdict": "incorrect", "text": "Vibration is primarily Pacinian corpuscles (deep) and Meissner's for low-frequency."},
+        {"verdict": "incorrect", "text": "Temperature is free nerve endings (thermoreceptors)."}
+      ]
+    },
+    {
+      "id": "200.6.23",
+      "q": "The phrenic nerve originates from which spinal nerve levels?",
+      "options": [
+        "C1-C2",
+        "C3-C5",
+        "T1-T2",
+        "L1-L2"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "The phrenic nerve (C3-C5) innervates the diaphragm. Remember: 'C3, 4, 5 keeps the diaphragm alive.'",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "C1-C2 supply neck muscles, not the diaphragm."},
+        {"verdict": "correct", "text": "C3-C5 — the phrenic nerve. Damage above C3 stops breathing. This nerve descends through the thorax to reach the diaphragm."},
+        {"verdict": "incorrect", "text": "T1-T2 contribute to brachial plexus and sympathetics, not phrenic."},
+        {"verdict": "incorrect", "text": "L1-L2 is lumbar — way below where phrenic originates."}
+      ]
+    },
+    {
+      "id": "200.6.24",
+      "q": "The tract that carries pain and temperature sensations is the:",
+      "options": [
+        "Dorsal columns",
+        "Spinothalamic tract",
+        "Corticospinal tract",
+        "Spinocerebellar tract"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "The spinothalamic tract carries pain, temperature, and crude touch from body to thalamus. It crosses at the spinal cord level.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Dorsal columns carry fine touch and proprioception — discriminative sensation."},
+        {"verdict": "correct", "text": "Spinothalamic tract — lateral division for pain and temperature, anterior for crude touch. It crosses in the spinal cord, so right-side pain travels up the left tract."},
+        {"verdict": "incorrect", "text": "Corticospinal tract is motor — descending commands, not ascending sensation."},
+        {"verdict": "incorrect", "text": "Spinocerebellar carries proprioception to the cerebellum for coordination."}
+      ]
+    },
+    {
+      "id": "200.6.25",
+      "q": "Which structure contains the cell bodies of motor neurons that innervate skeletal muscle?",
+      "options": [
+        "Dorsal horn",
+        "Ventral horn",
+        "Lateral horn",
+        "Dorsal root ganglion"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves",
+      "explain": "Ventral horn gray matter contains somatic motor neuron cell bodies. Their axons exit via ventral roots to reach skeletal muscles.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Dorsal horn receives sensory input — it doesn't contain motor neurons."},
+        {"verdict": "correct", "text": "Ventral horn — motor neurons here send axons out the ventral root, through spinal nerves, to skeletal muscles. Lower motor neuron damage causes flaccid paralysis."},
+        {"verdict": "incorrect", "text": "Lateral horn contains autonomic (sympathetic) neurons, not somatic motor."},
+        {"verdict": "incorrect", "text": "Dorsal root ganglion contains sensory neuron cell bodies, not motor."}
+      ]
+    }
+  ]
+}

@@ -1,7 +1,45 @@
 {
-  "version": "1.1.0",
-  "lastUpdated": "2026-03-08",
+  "version": "1.2.0",
+  "lastUpdated": "2026-03-10",
   "categories": [
+    {
+      "id": "000",
+      "name": "Foundations",
+      "description": "Chapters 1-4 — Foundations & Chemistry",
+      "folder": "000-foundations",
+      "banks": [
+        {
+          "id": "000.1",
+          "file": "000.1-organization.json",
+          "title": "Body Organization & Homeostasis",
+          "questionCount": 12
+        },
+        {
+          "id": "000.2",
+          "file": "000.2-chemistry.json",
+          "title": "Basic Chemistry",
+          "questionCount": 10
+        },
+        {
+          "id": "000.3",
+          "file": "000.3-cells.json",
+          "title": "Cell Structure & Function",
+          "questionCount": 8
+        },
+        {
+          "id": "000.4",
+          "file": "000.4-membranes.json",
+          "title": "Membranes & Cavities",
+          "questionCount": 5
+        },
+        {
+          "id": "000.5",
+          "file": "000.5-vocabulary.json",
+          "title": "Foundations Vocabulary",
+          "questionCount": 25
+        }
+      ]
+    },
     {
       "id": "100",
       "name": "Brain",
@@ -31,6 +69,12 @@
           "file": "100.4-brainstem.json",
           "title": "Brainstem & Pathology",
           "questionCount": 5
+        },
+        {
+          "id": "100.5",
+          "file": "100.5-vocabulary.json",
+          "title": "Brain Vocabulary",
+          "questionCount": 25
         }
       ]
     },
@@ -69,38 +113,12 @@
           "file": "200.5-cranial-nerves.json",
           "title": "Cranial Nerves",
           "questionCount": 16
-        }
-      ]
-    },
-    {
-      "id": "300",
-      "name": "Foundations",
-      "description": "Chapters 1-4 — Foundations & Chemistry",
-      "folder": "300-foundations",
-      "banks": [
-        {
-          "id": "300.1",
-          "file": "300.1-organization.json",
-          "title": "Body Organization & Homeostasis",
-          "questionCount": 12
         },
         {
-          "id": "300.2",
-          "file": "300.2-chemistry.json",
-          "title": "Basic Chemistry",
-          "questionCount": 10
-        },
-        {
-          "id": "300.3",
-          "file": "300.3-cells.json",
-          "title": "Cell Structure & Function",
-          "questionCount": 8
-        },
-        {
-          "id": "300.4",
-          "file": "300.4-membranes.json",
-          "title": "Membranes & Cavities",
-          "questionCount": 5
+          "id": "200.6",
+          "file": "200.6-vocabulary.json",
+          "title": "Nerves Vocabulary",
+          "questionCount": 25
         }
       ]
     },
@@ -127,6 +145,12 @@
           "file": "400.3-glands.json",
           "title": "Glands & Repair",
           "questionCount": 4
+        },
+        {
+          "id": "400.4",
+          "file": "400.4-vocabulary.json",
+          "title": "Tissues Vocabulary",
+          "questionCount": 25
         }
       ]
     },
@@ -147,6 +171,12 @@
           "file": "500.2-neurotransmitters.json",
           "title": "Neurotransmitters & Receptors",
           "questionCount": 9
+        },
+        {
+          "id": "500.3",
+          "file": "500.3-vocabulary.json",
+          "title": "ANS Vocabulary",
+          "questionCount": 25
         }
       ]
     },
@@ -173,6 +203,12 @@
           "file": "600.3-ear-hearing.json",
           "title": "Ear Anatomy & Hearing",
           "questionCount": 9
+        },
+        {
+          "id": "600.4",
+          "file": "600.4-vocabulary.json",
+          "title": "Special Senses Vocabulary",
+          "questionCount": 25
         }
       ]
     },
@@ -199,6 +235,12 @@
           "file": "700.3-metabolic-hormones.json",
           "title": "Metabolic Hormones & Clinical",
           "questionCount": 8
+        },
+        {
+          "id": "700.4",
+          "file": "700.4-vocabulary.json",
+          "title": "Endocrine Vocabulary",
+          "questionCount": 25
         }
       ]
     }

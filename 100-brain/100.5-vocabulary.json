@@ -1,0 +1,483 @@
+{
+  "id": "100.5",
+  "title": "Brain Vocabulary",
+  "category": "vocabulary",
+  "description": "Essential terminology for brain anatomy, structures, and locations",
+  "questions": [
+    {
+      "id": "100.5.01",
+      "q": "The cerebrum is divided into left and right halves called:",
+      "options": [
+        "Lobes",
+        "Hemispheres",
+        "Ventricles",
+        "Gyri"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The cerebrum consists of two hemispheres — left and right — connected by the corpus callosum. Each hemisphere controls the opposite side of the body.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Lobes are subdivisions WITHIN each hemisphere — frontal, parietal, temporal, occipital. Not the main division."},
+        {"verdict": "correct", "text": "Hemispheres — the two great halves of the cerebrum. Left hemisphere typically dominates language; right dominates spatial processing. The corpus callosum bridges them."},
+        {"verdict": "incorrect", "text": "Ventricles are fluid-filled cavities inside the brain, not divisions of the cerebrum."},
+        {"verdict": "incorrect", "text": "Gyri are the ridges on the brain surface — the bumps between grooves. Not the major divisions."}
+      ]
+    },
+    {
+      "id": "100.5.02",
+      "q": "The shallow grooves on the brain surface are called:",
+      "options": [
+        "Fissures",
+        "Gyri",
+        "Sulci",
+        "Ventricles"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Sulci (singular: sulcus) are the shallow grooves between brain folds. They increase surface area without increasing skull size.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Fissures are DEEP grooves — like the longitudinal fissure between hemispheres. Sulci are shallower."},
+        {"verdict": "incorrect", "text": "Gyri are the ridges — the bumps between grooves. Opposite of sulci."},
+        {"verdict": "correct", "text": "Sulci are shallow grooves separating gyri. The central sulcus separates frontal from parietal lobes. The lateral sulcus marks the temporal lobe boundary."},
+        {"verdict": "incorrect", "text": "Ventricles are internal fluid spaces, not surface grooves."}
+      ]
+    },
+    {
+      "id": "100.5.03",
+      "q": "Which lobe of the cerebrum is primarily responsible for vision?",
+      "options": [
+        "Frontal lobe",
+        "Parietal lobe",
+        "Temporal lobe",
+        "Occipital lobe"
+      ],
+      "answer": 3,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The occipital lobe at the back of the brain processes visual information. Damage here causes cortical blindness even with healthy eyes.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Frontal lobe handles motor control, planning, personality. Not primary vision."},
+        {"verdict": "incorrect", "text": "Parietal lobe processes sensory information — touch, spatial awareness. Not vision."},
+        {"verdict": "incorrect", "text": "Temporal lobe handles hearing, memory, language. Some visual processing but not primary."},
+        {"verdict": "correct", "text": "Occipital lobe — the visual cortex lives here. Primary visual cortex (V1) receives input from the eyes; surrounding areas process edges, motion, color, faces."}
+      ]
+    },
+    {
+      "id": "100.5.04",
+      "q": "The brainstem consists of the midbrain, pons, and:",
+      "options": [
+        "Thalamus",
+        "Hypothalamus",
+        "Medulla oblongata",
+        "Cerebellum"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The brainstem is three parts: midbrain (superior), pons (middle), and medulla oblongata (inferior). It connects brain to spinal cord and controls vital functions.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Thalamus is part of the diencephalon, not the brainstem. It's the sensory relay station."},
+        {"verdict": "incorrect", "text": "Hypothalamus is also diencephalon — controls homeostasis, not brainstem tissue."},
+        {"verdict": "correct", "text": "Medulla oblongata — the brainstem's inferior portion, connecting to the spinal cord. Controls heart rate, breathing, blood pressure. Life depends on it."},
+        {"verdict": "incorrect", "text": "Cerebellum is posterior to the brainstem, not part of it. It coordinates movement separately."}
+      ]
+    },
+    {
+      "id": "100.5.05",
+      "q": "The corpus callosum is composed of:",
+      "options": [
+        "Gray matter",
+        "White matter",
+        "Cerebrospinal fluid",
+        "Meningeal tissue"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The corpus callosum is the largest white matter tract in the brain — myelinated axons connecting left and right hemispheres.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Gray matter contains cell bodies. The corpus callosum is axons — myelinated fibers."},
+        {"verdict": "correct", "text": "White matter — hundreds of millions of myelinated axons forming an information highway between hemispheres. Cut it and each hemisphere becomes an island."},
+        {"verdict": "incorrect", "text": "CSF fills ventricles and surrounds the brain. The corpus callosum is solid neural tissue."},
+        {"verdict": "incorrect", "text": "Meninges are protective membranes, not inter-hemispheric connections."}
+      ]
+    },
+    {
+      "id": "100.5.06",
+      "q": "The primary motor cortex is located in which gyrus?",
+      "options": [
+        "Postcentral gyrus",
+        "Precentral gyrus",
+        "Superior temporal gyrus",
+        "Cingulate gyrus"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The precentral gyrus contains the primary motor cortex — immediately anterior to the central sulcus. 'Pre' means before/in front of.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Postcentral gyrus is primary SOMATOSENSORY cortex — sensation, not movement. Behind the central sulcus."},
+        {"verdict": "correct", "text": "Precentral gyrus — motor neurons here send commands down to muscles. The motor homunculus maps body parts along this strip. Hands and face get huge representation."},
+        {"verdict": "incorrect", "text": "Superior temporal gyrus is primary auditory cortex — hearing, not movement."},
+        {"verdict": "incorrect", "text": "Cingulate gyrus is part of the limbic system — emotion and attention, not primary motor control."}
+      ]
+    },
+    {
+      "id": "100.5.07",
+      "q": "The three protective membranes covering the brain and spinal cord are called the:",
+      "options": [
+        "Ventricles",
+        "Meninges",
+        "Plexuses",
+        "Commissures"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The meninges are three membrane layers — dura mater, arachnoid mater, and pia mater — protecting the CNS.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Ventricles are internal CSF-filled spaces, not protective membranes."},
+        {"verdict": "correct", "text": "Meninges — dura (tough outer), arachnoid (middle web), pia (delicate inner). They cushion, protect, and contain cerebrospinal fluid. Meningitis is their inflammation."},
+        {"verdict": "incorrect", "text": "Plexuses are networks — nerve plexuses or choroid plexuses. Not protective membranes."},
+        {"verdict": "incorrect", "text": "Commissures are fiber tracts connecting brain regions, not protective membranes."}
+      ]
+    },
+    {
+      "id": "100.5.08",
+      "q": "Which ventricle is located within the diencephalon?",
+      "options": [
+        "Lateral ventricles",
+        "Third ventricle",
+        "Fourth ventricle",
+        "Central canal"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The third ventricle is a narrow slit between the left and right thalamus, within the diencephalon.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Lateral ventricles are within the cerebral hemispheres — one in each hemisphere."},
+        {"verdict": "correct", "text": "Third ventricle — sandwiched between the two thalami in the diencephalon. It connects to lateral ventricles above via foramina and to fourth ventricle below via the cerebral aqueduct."},
+        {"verdict": "incorrect", "text": "Fourth ventricle is in the hindbrain, between pons/medulla and cerebellum."},
+        {"verdict": "incorrect", "text": "Central canal runs through the spinal cord, not the diencephalon."}
+      ]
+    },
+    {
+      "id": "100.5.09",
+      "q": "The thalamus functions primarily as a:",
+      "options": [
+        "Motor control center",
+        "Sensory relay station",
+        "Hormone production site",
+        "Memory storage center"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The thalamus relays sensory information to the cortex. Almost all sensory input passes through the thalamus before reaching conscious awareness.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Motor control involves basal ganglia, cerebellum, and motor cortex. Thalamus relays, not commands."},
+        {"verdict": "correct", "text": "The thalamus is the sensory switchboard — visual, auditory, somatosensory information all route through here before reaching cortex. Only smell bypasses it directly."},
+        {"verdict": "incorrect", "text": "Hormone production is hypothalamus and pituitary, not thalamus."},
+        {"verdict": "incorrect", "text": "Memory involves hippocampus primarily. Thalamus relays information but doesn't store memories."}
+      ]
+    },
+    {
+      "id": "100.5.10",
+      "q": "The structure that coordinates voluntary muscle movements and maintains balance is the:",
+      "options": [
+        "Cerebrum",
+        "Hypothalamus",
+        "Cerebellum",
+        "Medulla"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The cerebellum — 'little brain' — coordinates movements, maintains posture, and processes balance information. Damage causes ataxia.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Cerebrum initiates voluntary movement but doesn't fine-tune coordination. That's cerebellar."},
+        {"verdict": "incorrect", "text": "Hypothalamus controls homeostasis — temperature, hunger, thirst. Not movement coordination."},
+        {"verdict": "correct", "text": "Cerebellum — tucked posterior to the brainstem, it compares intended movements to actual movements and adjusts in real time. It's why you can touch your nose with eyes closed."},
+        {"verdict": "incorrect", "text": "Medulla controls vital reflexes — breathing, heart rate. Not voluntary movement coordination."}
+      ]
+    },
+    {
+      "id": "100.5.11",
+      "q": "Broca's area is located in which lobe?",
+      "options": [
+        "Parietal lobe",
+        "Frontal lobe",
+        "Temporal lobe",
+        "Occipital lobe"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Broca's area is in the left frontal lobe (usually) and controls speech production. Damage causes Broca's aphasia — halting, effortful speech.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Parietal lobe handles sensory processing, not speech production."},
+        {"verdict": "correct", "text": "Broca's area sits in the left inferior frontal gyrus. It plans the motor sequences for speaking. 'Broca's Broken Boca' — patients understand but can't produce fluent speech."},
+        {"verdict": "incorrect", "text": "Temporal lobe contains Wernicke's area for language comprehension, not Broca's for production."},
+        {"verdict": "incorrect", "text": "Occipital lobe is for vision. No language production there."}
+      ]
+    },
+    {
+      "id": "100.5.12",
+      "q": "The hippocampus is primarily involved in:",
+      "options": [
+        "Motor coordination",
+        "Memory formation",
+        "Visual processing",
+        "Hormone secretion"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The hippocampus converts short-term memories into long-term memories. Damage prevents forming new memories (anterograde amnesia).",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Motor coordination is cerebellar. Hippocampus is limbic — emotion and memory."},
+        {"verdict": "correct", "text": "Hippocampus — shaped like a seahorse, essential for memory consolidation. H.M. had his removed and couldn't form new memories, though old memories remained."},
+        {"verdict": "incorrect", "text": "Visual processing is occipital. Hippocampus handles memory, including spatial memory."},
+        {"verdict": "incorrect", "text": "Hormone secretion is hypothalamus and pituitary. Hippocampus is memory."}
+      ]
+    },
+    {
+      "id": "100.5.13",
+      "q": "The dura mater is the:",
+      "options": [
+        "Innermost meningeal layer",
+        "Middle meningeal layer",
+        "Outermost meningeal layer",
+        "Fluid surrounding the brain"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Dura mater means 'tough mother' — it's the thick, outermost meningeal layer attached to the skull's inner surface.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Pia mater is innermost — delicate and adherent to brain surface."},
+        {"verdict": "incorrect", "text": "Arachnoid mater is middle — web-like, containing CSF in the subarachnoid space."},
+        {"verdict": "correct", "text": "Dura mater — outermost, toughest. Two layers in the cranium (periosteal and meningeal) fused except where they form venous sinuses."},
+        {"verdict": "incorrect", "text": "That's cerebrospinal fluid, not a meningeal layer."}
+      ]
+    },
+    {
+      "id": "100.5.14",
+      "q": "The limbic system is primarily associated with:",
+      "options": [
+        "Motor control",
+        "Emotions and memory",
+        "Visual processing",
+        "Respiration"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The limbic system — including amygdala, hippocampus, and cingulate gyrus — processes emotions, motivation, and memory formation.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Motor control involves motor cortex, basal ganglia, cerebellum. Not limbic."},
+        {"verdict": "correct", "text": "Limbic system — the emotional brain. Amygdala processes fear, hippocampus forms memories, cingulate gyrus connects emotion to cognition. It's why emotional memories last."},
+        {"verdict": "incorrect", "text": "Visual processing is occipital cortex. Limbic system adds emotional meaning to what you see."},
+        {"verdict": "incorrect", "text": "Respiration is brainstem territory — medullary centers. Limbic is emotional."}
+      ]
+    },
+    {
+      "id": "100.5.15",
+      "q": "Cerebrospinal fluid is produced by the:",
+      "options": [
+        "Dura mater",
+        "Choroid plexuses",
+        "Arachnoid villi",
+        "Pia mater"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Choroid plexuses are specialized capillary networks in the ventricles that produce CSF by filtering blood plasma.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Dura mater is protective membrane. It doesn't produce CSF."},
+        {"verdict": "correct", "text": "Choroid plexuses — clusters of capillaries and ependymal cells in each ventricle. They produce about 500mL of CSF daily, constantly renewed."},
+        {"verdict": "incorrect", "text": "Arachnoid villi ABSORB CSF back into venous blood. Production is choroid plexuses."},
+        {"verdict": "incorrect", "text": "Pia mater lines brain surface but doesn't produce CSF."}
+      ]
+    },
+    {
+      "id": "100.5.16",
+      "q": "The blood-brain barrier is formed primarily by:",
+      "options": [
+        "Neurons",
+        "Astrocytes and capillary endothelium",
+        "Oligodendrocytes",
+        "Microglia"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The blood-brain barrier is formed by tight junctions between capillary endothelial cells, supported by astrocyte end-feet wrapping around the vessels.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Neurons are protected BY the barrier but don't form it."},
+        {"verdict": "correct", "text": "Astrocytes wrap capillaries with their end-feet, inducing tight junctions in the endothelium. Together they create a selective barrier — keeping pathogens and toxins out while allowing nutrients through."},
+        {"verdict": "incorrect", "text": "Oligodendrocytes make CNS myelin. Not involved in blood-brain barrier."},
+        {"verdict": "incorrect", "text": "Microglia are immune cells of the CNS. They benefit from the barrier but don't form it."}
+      ]
+    },
+    {
+      "id": "100.5.17",
+      "q": "The structure connecting the third and fourth ventricles is the:",
+      "options": [
+        "Interventricular foramen",
+        "Cerebral aqueduct",
+        "Central canal",
+        "Lateral aperture"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The cerebral aqueduct (of Sylvius) is a narrow channel through the midbrain connecting third ventricle to fourth ventricle.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Interventricular foramina connect lateral ventricles to third ventricle. Wrong junction."},
+        {"verdict": "correct", "text": "Cerebral aqueduct — a narrow tube through the midbrain. Blockage here causes obstructive hydrocephalus as CSF backs up in the lateral and third ventricles."},
+        {"verdict": "incorrect", "text": "Central canal is in the spinal cord, below the fourth ventricle."},
+        {"verdict": "incorrect", "text": "Lateral apertures drain CSF FROM the fourth ventricle to subarachnoid space."}
+      ]
+    },
+    {
+      "id": "100.5.18",
+      "q": "Which structure controls the body's circadian rhythms?",
+      "options": [
+        "Thalamus",
+        "Pineal gland",
+        "Amygdala",
+        "Hippocampus"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The pineal gland secretes melatonin, regulated by light input from the eyes, controlling sleep-wake cycles and circadian rhythms.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Thalamus relays sensory information. Not the circadian clock."},
+        {"verdict": "correct", "text": "Pineal gland — this tiny cone-shaped structure secretes melatonin in darkness, signaling sleep time. It's the biological clock's hormone output station."},
+        {"verdict": "incorrect", "text": "Amygdala processes fear and emotion. Not circadian timing."},
+        {"verdict": "incorrect", "text": "Hippocampus handles memory formation. Circadian rhythms are pineal."}
+      ]
+    },
+    {
+      "id": "100.5.19",
+      "q": "The basal nuclei are primarily involved in:",
+      "options": [
+        "Sensory processing",
+        "Regulating voluntary movement",
+        "Memory formation",
+        "Language comprehension"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Basal nuclei (basal ganglia) filter and regulate voluntary movement. They help initiate wanted movements and suppress unwanted ones.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Sensory processing is cortical — somatosensory, visual, auditory cortices."},
+        {"verdict": "correct", "text": "Basal nuclei regulate movement — starting, stopping, and smoothing motor commands. Parkinson's disease damages the substantia nigra (basal nuclei input), causing tremors and rigidity."},
+        {"verdict": "incorrect", "text": "Memory formation is hippocampal. Basal nuclei are motor."},
+        {"verdict": "incorrect", "text": "Language comprehension is Wernicke's area. Basal nuclei are motor regulation."}
+      ]
+    },
+    {
+      "id": "100.5.20",
+      "q": "The primary somatosensory cortex is located in the:",
+      "options": [
+        "Precentral gyrus",
+        "Postcentral gyrus",
+        "Superior temporal gyrus",
+        "Inferior frontal gyrus"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Primary somatosensory cortex occupies the postcentral gyrus — immediately posterior to the central sulcus. It receives touch, pressure, temperature, and pain signals.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Precentral gyrus is primary MOTOR cortex — sends commands, doesn't receive sensation."},
+        {"verdict": "correct", "text": "Postcentral gyrus — the sensory homunculus maps body surface here. Lips and hands get huge representation because they need fine sensory discrimination."},
+        {"verdict": "incorrect", "text": "Superior temporal gyrus is primary auditory cortex — hearing, not touch."},
+        {"verdict": "incorrect", "text": "Inferior frontal gyrus contains Broca's area — speech, not sensation."}
+      ]
+    },
+    {
+      "id": "100.5.21",
+      "q": "The hypothalamus regulates all of the following EXCEPT:",
+      "options": [
+        "Body temperature",
+        "Hunger and thirst",
+        "Voluntary movement",
+        "Sleep-wake cycles"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Hypothalamus is the homeostatic control center — temperature, hunger, thirst, circadian rhythms, hormones. Voluntary movement is motor cortex and basal ganglia.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Hypothalamus controls thermoregulation — your internal thermostat."},
+        {"verdict": "incorrect", "text": "Hypothalamus contains hunger and satiety centers controlling eating and drinking."},
+        {"verdict": "correct", "text": "Voluntary movement is controlled by motor cortex, modulated by basal ganglia and cerebellum. Hypothalamus handles autonomic and endocrine functions, not voluntary motor control."},
+        {"verdict": "incorrect", "text": "Hypothalamus links to pineal gland and regulates circadian rhythms."}
+      ]
+    },
+    {
+      "id": "100.5.22",
+      "q": "Which cranial fossa contains the cerebellum?",
+      "options": [
+        "Anterior cranial fossa",
+        "Middle cranial fossa",
+        "Posterior cranial fossa",
+        "Superior cranial fossa"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The posterior cranial fossa — deepest and lowest — houses the cerebellum, pons, and medulla. Formed by occipital bone.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Anterior fossa holds frontal lobes. Too far forward for cerebellum."},
+        {"verdict": "incorrect", "text": "Middle fossa holds temporal lobes and pituitary. Not the cerebellum."},
+        {"verdict": "correct", "text": "Posterior cranial fossa — the cerebellum fits into this bowl-shaped depression. It's protected by the occipital bone and tentorium cerebelli above."},
+        {"verdict": "incorrect", "text": "No superior cranial fossa exists — just anterior, middle, and posterior."}
+      ]
+    },
+    {
+      "id": "100.5.23",
+      "q": "The amygdala is primarily responsible for:",
+      "options": [
+        "Balance and coordination",
+        "Fear and emotional processing",
+        "Speech production",
+        "Visual processing"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The amygdala — almond-shaped nuclei in the temporal lobes — processes fear, aggression, and emotional significance of stimuli.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Balance is cerebellar and vestibular. Amygdala is emotional."},
+        {"verdict": "correct", "text": "Amygdala — the fear center. It tags experiences as emotionally significant, especially threatening ones. Damage reduces fear responses; overstimulation causes anxiety disorders."},
+        {"verdict": "incorrect", "text": "Speech production is Broca's area in frontal lobe. Amygdala is emotion."},
+        {"verdict": "incorrect", "text": "Visual processing is occipital. Amygdala adds emotional meaning to what you see."}
+      ]
+    },
+    {
+      "id": "100.5.24",
+      "q": "The reticular formation is located in the:",
+      "options": [
+        "Cerebral cortex",
+        "Brainstem",
+        "Cerebellum",
+        "Thalamus"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The reticular formation is a netlike core of nuclei running through the brainstem, controlling arousal, attention, and sleep-wake transitions.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Cortex is surface gray matter. Reticular formation is deep in brainstem."},
+        {"verdict": "correct", "text": "Reticular formation — scattered through midbrain, pons, and medulla. The reticular activating system (RAS) keeps you awake and alert. Damage causes coma."},
+        {"verdict": "incorrect", "text": "Cerebellum coordinates movement. Reticular formation is brainstem arousal."},
+        {"verdict": "incorrect", "text": "Thalamus is diencephalon. Reticular formation is brainstem — though they connect."}
+      ]
+    },
+    {
+      "id": "100.5.25",
+      "q": "Wernicke's area is located in which lobe?",
+      "options": [
+        "Frontal lobe",
+        "Parietal lobe",
+        "Temporal lobe",
+        "Occipital lobe"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Wernicke's area is in the left temporal lobe (usually) and processes language comprehension. Damage causes fluent but meaningless speech.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Frontal lobe contains Broca's area for speech production, not Wernicke's."},
+        {"verdict": "incorrect", "text": "Parietal lobe handles sensory processing. Wernicke's is temporal."},
+        {"verdict": "correct", "text": "Wernicke's area — posterior temporal lobe, near auditory cortex. It decodes the meaning of heard words. Damage causes Wernicke's aphasia: fluent speech that makes no sense."},
+        {"verdict": "incorrect", "text": "Occipital lobe is visual. Language comprehension is temporal."}
+      ]
+    }
+  ]
+}

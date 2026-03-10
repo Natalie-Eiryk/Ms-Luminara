@@ -1,0 +1,483 @@
+{
+  "id": "700.4",
+  "title": "Endocrine Vocabulary",
+  "category": "vocabulary",
+  "description": "Essential terminology for hormones, glands, and feedback mechanisms",
+  "questions": [
+    {
+      "id": "700.4.01",
+      "q": "Hormones that are derived from amino acids include:",
+      "options": [
+        "Steroids",
+        "Prostaglandins",
+        "Thyroid hormones and catecholamines",
+        "Eicosanoids"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "Amino acid-derived hormones include thyroid hormones (from tyrosine), catecholamines (epinephrine, norepinephrine, dopamine), and others like melatonin.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Steroids are derived from cholesterol, not amino acids."},
+        {"verdict": "incorrect", "text": "Prostaglandins are eicosanoids derived from arachidonic acid (fatty acid)."},
+        {"verdict": "correct", "text": "Thyroid hormones (T3, T4) and catecholamines derive from tyrosine. Melatonin and histamine derive from other amino acids."},
+        {"verdict": "incorrect", "text": "Eicosanoids come from fatty acids, not amino acids."}
+      ]
+    },
+    {
+      "id": "700.4.02",
+      "q": "The anterior pituitary is also called the:",
+      "options": [
+        "Neurohypophysis",
+        "Adenohypophysis",
+        "Hypothalamus",
+        "Pineal gland"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "The adenohypophysis (glandular hypophysis) is the anterior pituitary — it develops from oral ectoderm and produces six major hormones.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Neurohypophysis is the posterior pituitary — neural tissue from hypothalamus."},
+        {"verdict": "correct", "text": "Adenohypophysis — 'adeno' means gland. It produces GH, TSH, ACTH, FSH, LH, and prolactin, controlled by hypothalamic releasing hormones."},
+        {"verdict": "incorrect", "text": "Hypothalamus controls the pituitary but is a separate structure."},
+        {"verdict": "incorrect", "text": "Pineal gland produces melatonin — different structure entirely."}
+      ]
+    },
+    {
+      "id": "700.4.03",
+      "q": "Which hormone stimulates the thyroid gland to release T3 and T4?",
+      "options": [
+        "ACTH",
+        "TSH",
+        "FSH",
+        "LH"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "Thyroid-stimulating hormone (TSH) from the anterior pituitary stimulates thyroid follicular cells to produce and release T3 and T4.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "ACTH stimulates the adrenal cortex, not thyroid."},
+        {"verdict": "correct", "text": "TSH — released when TRH from hypothalamus reaches the pituitary. TSH binds thyroid receptors, stimulating iodine uptake and hormone synthesis."},
+        {"verdict": "incorrect", "text": "FSH stimulates ovarian follicles and spermatogenesis."},
+        {"verdict": "incorrect", "text": "LH triggers ovulation and testosterone production."}
+      ]
+    },
+    {
+      "id": "700.4.04",
+      "q": "The posterior pituitary releases:",
+      "options": [
+        "Growth hormone and prolactin",
+        "ADH and oxytocin",
+        "TSH and ACTH",
+        "FSH and LH"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "The posterior pituitary stores and releases ADH (antidiuretic hormone) and oxytocin — made by hypothalamic neurons and transported down axons.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Growth hormone and prolactin are anterior pituitary products."},
+        {"verdict": "correct", "text": "ADH and oxytocin — made in hypothalamic neurons (supraoptic and paraventricular nuclei), transported to posterior pituitary for storage and release."},
+        {"verdict": "incorrect", "text": "TSH and ACTH are anterior pituitary hormones."},
+        {"verdict": "incorrect", "text": "FSH and LH are gonadotropins from anterior pituitary."}
+      ]
+    },
+    {
+      "id": "700.4.05",
+      "q": "Insulin is produced by which cells of the pancreas?",
+      "options": [
+        "Alpha cells",
+        "Beta cells",
+        "Delta cells",
+        "Acinar cells"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "Beta cells in pancreatic islets (islets of Langerhans) produce insulin, which lowers blood glucose by promoting cellular uptake.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Alpha cells produce glucagon — raises blood glucose."},
+        {"verdict": "correct", "text": "Beta cells — they sense blood glucose levels and release insulin proportionally. Destruction of beta cells causes Type 1 diabetes."},
+        {"verdict": "incorrect", "text": "Delta cells produce somatostatin — regulates other islet hormones."},
+        {"verdict": "incorrect", "text": "Acinar cells produce digestive enzymes — exocrine, not endocrine."}
+      ]
+    },
+    {
+      "id": "700.4.06",
+      "q": "Steroid hormones are derived from:",
+      "options": [
+        "Amino acids",
+        "Cholesterol",
+        "Glucose",
+        "Nucleic acids"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "All steroid hormones — cortisol, aldosterone, testosterone, estrogen, progesterone — are synthesized from cholesterol.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Amino acid-derived hormones include catecholamines and thyroid hormones."},
+        {"verdict": "correct", "text": "Cholesterol — the four-ring steroid backbone is modified differently to create glucocorticoids, mineralocorticoids, androgens, estrogens, and progestins."},
+        {"verdict": "incorrect", "text": "Glucose is metabolized for energy, not used to make hormones."},
+        {"verdict": "incorrect", "text": "Nucleic acids encode proteins, not steroid hormones."}
+      ]
+    },
+    {
+      "id": "700.4.07",
+      "q": "The 'master gland' that controls many other endocrine glands is the:",
+      "options": [
+        "Thyroid",
+        "Adrenal",
+        "Pituitary",
+        "Pineal"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "The pituitary gland secretes tropic hormones that control thyroid, adrenal cortex, and gonads — earning its 'master gland' title.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Thyroid is controlled BY pituitary TSH."},
+        {"verdict": "incorrect", "text": "Adrenal cortex is controlled BY pituitary ACTH."},
+        {"verdict": "correct", "text": "Pituitary — its tropic hormones (TSH, ACTH, FSH, LH) regulate other glands. But the hypothalamus controls the pituitary, so some say hypothalamus is the true master."},
+        {"verdict": "incorrect", "text": "Pineal produces melatonin but doesn't control other glands."}
+      ]
+    },
+    {
+      "id": "700.4.08",
+      "q": "Calcitonin is produced by:",
+      "options": [
+        "Parathyroid glands",
+        "Thyroid gland",
+        "Adrenal glands",
+        "Pancreas"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "Calcitonin is produced by parafollicular (C) cells of the thyroid. It lowers blood calcium by inhibiting osteoclasts.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Parathyroid glands produce PTH, which RAISES calcium — opposite of calcitonin."},
+        {"verdict": "correct", "text": "Thyroid gland — specifically the C cells between follicles. Calcitonin is released when blood calcium is high, promoting calcium deposition in bone."},
+        {"verdict": "incorrect", "text": "Adrenal glands produce cortisol, aldosterone, and catecholamines."},
+        {"verdict": "incorrect", "text": "Pancreas produces insulin and glucagon for glucose regulation."}
+      ]
+    },
+    {
+      "id": "700.4.09",
+      "q": "Second messengers like cAMP are used by:",
+      "options": [
+        "Steroid hormones",
+        "Thyroid hormones",
+        "Protein and peptide hormones",
+        "All hormones equally"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "Protein and peptide hormones can't enter cells — they bind surface receptors and use second messengers (cAMP, IP3, calcium) to relay signals inside.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Steroid hormones enter cells directly and bind intracellular receptors."},
+        {"verdict": "incorrect", "text": "Thyroid hormones also enter cells and bind nuclear receptors."},
+        {"verdict": "correct", "text": "Protein/peptide hormones are water-soluble and can't cross membranes. G protein-coupled receptors activate adenylyl cyclase, producing cAMP as a second messenger."},
+        {"verdict": "incorrect", "text": "Different hormone classes use different mechanisms."}
+      ]
+    },
+    {
+      "id": "700.4.10",
+      "q": "The adrenal medulla produces:",
+      "options": [
+        "Cortisol and aldosterone",
+        "Epinephrine and norepinephrine",
+        "Testosterone",
+        "Insulin"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "The adrenal medulla is modified sympathetic nervous tissue releasing catecholamines — about 80% epinephrine, 20% norepinephrine.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Cortisol and aldosterone come from adrenal CORTEX."},
+        {"verdict": "correct", "text": "Epinephrine and norepinephrine — chromaffin cells of the medulla release these catecholamines during stress, amplifying sympathetic responses."},
+        {"verdict": "incorrect", "text": "Testosterone comes from testes (and some from adrenal cortex)."},
+        {"verdict": "incorrect", "text": "Insulin comes from pancreatic beta cells."}
+      ]
+    },
+    {
+      "id": "700.4.11",
+      "q": "Negative feedback in the endocrine system means:",
+      "options": [
+        "Hormone levels continuously increase",
+        "Rising hormone levels inhibit further release",
+        "The system fails to respond",
+        "Positive responses are enhanced"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "Negative feedback maintains homeostasis — when hormone levels rise, they inhibit the releasing mechanisms, preventing overproduction.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Continuous increase would be positive feedback, not negative."},
+        {"verdict": "correct", "text": "Rising levels inhibit release — thyroid hormones inhibit TRH and TSH; cortisol inhibits CRH and ACTH. The product turns off its own production."},
+        {"verdict": "incorrect", "text": "Failure to respond would be pathology, not negative feedback."},
+        {"verdict": "incorrect", "text": "Enhancing responses is positive feedback."}
+      ]
+    },
+    {
+      "id": "700.4.12",
+      "q": "The zona glomerulosa of the adrenal cortex produces:",
+      "options": [
+        "Glucocorticoids",
+        "Mineralocorticoids",
+        "Androgens",
+        "Catecholamines"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "The zona glomerulosa (outermost cortical layer) produces mineralocorticoids — primarily aldosterone, which regulates sodium and potassium balance.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Glucocorticoids (cortisol) come from zona fasciculata (middle layer)."},
+        {"verdict": "correct", "text": "Mineralocorticoids — aldosterone from the glomerulosa increases sodium reabsorption and potassium excretion in kidneys. Think: 'Glomerulosa = minerals.'"},
+        {"verdict": "incorrect", "text": "Androgens come from zona reticularis (innermost cortex)."},
+        {"verdict": "incorrect", "text": "Catecholamines come from adrenal medulla, not cortex."}
+      ]
+    },
+    {
+      "id": "700.4.13",
+      "q": "Parathyroid hormone (PTH) acts to:",
+      "options": [
+        "Lower blood calcium",
+        "Raise blood calcium",
+        "Lower blood glucose",
+        "Raise blood glucose"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "PTH raises blood calcium by stimulating osteoclasts, increasing renal calcium reabsorption, and activating vitamin D.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Lowering calcium is calcitonin's job."},
+        {"verdict": "correct", "text": "Raise blood calcium — PTH pulls calcium from bone (osteoclast activation), reduces calcium loss in urine, and activates vitamin D to increase intestinal calcium absorption."},
+        {"verdict": "incorrect", "text": "Blood glucose is regulated by insulin and glucagon, not PTH."},
+        {"verdict": "incorrect", "text": "PTH doesn't affect blood glucose."}
+      ]
+    },
+    {
+      "id": "700.4.14",
+      "q": "Growth hormone (GH) is also known as:",
+      "options": [
+        "Prolactin",
+        "Somatotropin",
+        "Thyroxine",
+        "Corticotropin"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "Somatotropin is another name for growth hormone — 'somato' refers to body, 'tropin' refers to stimulating growth.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Prolactin stimulates milk production — different hormone."},
+        {"verdict": "correct", "text": "Somatotropin — GH promotes tissue growth, especially bone and muscle. It works partly through IGF-1 (insulin-like growth factor) produced by the liver."},
+        {"verdict": "incorrect", "text": "Thyroxine (T4) is thyroid hormone — metabolic regulation."},
+        {"verdict": "incorrect", "text": "Corticotropin is ACTH — stimulates adrenal cortex."}
+      ]
+    },
+    {
+      "id": "700.4.15",
+      "q": "Glucagon is released in response to:",
+      "options": [
+        "High blood glucose",
+        "Low blood glucose",
+        "High blood calcium",
+        "Low blood oxygen"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "Glucagon from pancreatic alpha cells is released when blood glucose drops. It promotes glycogenolysis and gluconeogenesis to raise glucose.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "High glucose triggers insulin release, not glucagon."},
+        {"verdict": "correct", "text": "Low blood glucose — glucagon mobilizes glucose stores. It tells the liver to break down glycogen and make new glucose, preventing hypoglycemia."},
+        {"verdict": "incorrect", "text": "Blood calcium is regulated by PTH and calcitonin, not glucagon."},
+        {"verdict": "incorrect", "text": "Blood oxygen doesn't directly regulate glucagon release."}
+      ]
+    },
+    {
+      "id": "700.4.16",
+      "q": "The thyroid gland is located:",
+      "options": [
+        "In the brain",
+        "In the neck, anterior to the trachea",
+        "Above the kidneys",
+        "In the pelvis"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "The thyroid gland is a butterfly-shaped gland in the anterior neck, wrapping around the trachea below the larynx.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Pituitary and pineal are in the brain, not thyroid."},
+        {"verdict": "correct", "text": "Neck, anterior to trachea — two lobes connected by an isthmus. It moves with swallowing because it's attached to the trachea."},
+        {"verdict": "incorrect", "text": "Above the kidneys describes adrenal gland location."},
+        {"verdict": "incorrect", "text": "Pelvic location describes reproductive glands (ovaries/testes)."}
+      ]
+    },
+    {
+      "id": "700.4.17",
+      "q": "Tropic hormones:",
+      "options": [
+        "Affect non-endocrine tissues only",
+        "Stimulate other endocrine glands",
+        "Are only produced by the thyroid",
+        "Do not use feedback mechanisms"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "Tropic hormones target other endocrine glands. TSH stimulates thyroid, ACTH stimulates adrenal cortex, FSH and LH stimulate gonads.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Tropic hormones specifically target endocrine glands."},
+        {"verdict": "correct", "text": "Stimulate other endocrine glands — 'tropic' means turning toward or stimulating. These hormones control the activity of target glands."},
+        {"verdict": "incorrect", "text": "Tropic hormones are produced by the pituitary, not thyroid."},
+        {"verdict": "incorrect", "text": "Tropic hormones are heavily regulated by negative feedback."}
+      ]
+    },
+    {
+      "id": "700.4.18",
+      "q": "Melatonin is produced by the:",
+      "options": [
+        "Pituitary gland",
+        "Pineal gland",
+        "Thymus",
+        "Parathyroid glands"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "The pineal gland produces melatonin in response to darkness, regulating circadian rhythms and sleep-wake cycles.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Pituitary produces many hormones but not melatonin."},
+        {"verdict": "correct", "text": "Pineal gland — this small gland in the brain produces melatonin at night. Light inhibits melatonin synthesis; darkness promotes it."},
+        {"verdict": "incorrect", "text": "Thymus produces thymic hormones for T cell development."},
+        {"verdict": "incorrect", "text": "Parathyroid glands produce PTH for calcium regulation."}
+      ]
+    },
+    {
+      "id": "700.4.19",
+      "q": "Cortisol is classified as a:",
+      "options": [
+        "Mineralocorticoid",
+        "Glucocorticoid",
+        "Catecholamine",
+        "Peptide hormone"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "Cortisol is the primary glucocorticoid — it affects glucose metabolism, suppresses inflammation, and helps manage stress.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Mineralocorticoids (aldosterone) regulate minerals — sodium and potassium."},
+        {"verdict": "correct", "text": "Glucocorticoid — cortisol promotes gluconeogenesis, has anti-inflammatory effects, and helps the body cope with stress. It's the 'stress hormone.'"},
+        {"verdict": "incorrect", "text": "Catecholamines are epinephrine and norepinephrine from adrenal medulla."},
+        {"verdict": "incorrect", "text": "Cortisol is a steroid hormone, not peptide."}
+      ]
+    },
+    {
+      "id": "700.4.20",
+      "q": "The hypothalamus controls the anterior pituitary via:",
+      "options": [
+        "Direct neural connections",
+        "Releasing and inhibiting hormones",
+        "The posterior pituitary",
+        "Blood calcium levels"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "Hypothalamic releasing and inhibiting hormones travel via the hypophyseal portal system to control anterior pituitary hormone secretion.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Direct neural connections control the posterior pituitary, not anterior."},
+        {"verdict": "correct", "text": "Releasing and inhibiting hormones — GHRH, TRH, CRH, GnRH stimulate release; dopamine and somatostatin inhibit. The portal system delivers them directly."},
+        {"verdict": "incorrect", "text": "Posterior pituitary is controlled separately by neural connections."},
+        {"verdict": "incorrect", "text": "Calcium levels don't directly control hypothalamus-pituitary axis."}
+      ]
+    },
+    {
+      "id": "700.4.21",
+      "q": "Antidiuretic hormone (ADH) promotes:",
+      "options": [
+        "Water loss in urine",
+        "Water reabsorption by kidneys",
+        "Sodium excretion",
+        "Blood glucose elevation"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "ADH (vasopressin) increases water reabsorption in kidney collecting ducts, concentrating urine and conserving body water.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "ADH does the opposite — it reduces water loss."},
+        {"verdict": "correct", "text": "Water reabsorption — ADH inserts aquaporin channels in collecting duct cells. Water flows back into blood, producing concentrated urine. Without ADH, you'd produce liters of dilute urine (diabetes insipidus)."},
+        {"verdict": "incorrect", "text": "Sodium handling is primarily aldosterone's role."},
+        {"verdict": "incorrect", "text": "Blood glucose is insulin/glucagon territory."}
+      ]
+    },
+    {
+      "id": "700.4.22",
+      "q": "The islets of Langerhans are located in the:",
+      "options": [
+        "Liver",
+        "Pancreas",
+        "Thyroid",
+        "Adrenal gland"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "Islets of Langerhans are clusters of endocrine cells scattered throughout the pancreas, producing insulin, glucagon, and somatostatin.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Liver responds to pancreatic hormones but doesn't contain islets."},
+        {"verdict": "correct", "text": "Pancreas — about 1-2 million islets dot the pancreas, comprising only 1-2% of its mass. The rest is exocrine (digestive enzyme production)."},
+        {"verdict": "incorrect", "text": "Thyroid has follicles, not islets."},
+        {"verdict": "incorrect", "text": "Adrenal gland has cortex and medulla organization, not islets."}
+      ]
+    },
+    {
+      "id": "700.4.23",
+      "q": "Prolactin primarily stimulates:",
+      "options": [
+        "Ovulation",
+        "Milk production",
+        "Sperm production",
+        "Thyroid hormone release"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "Prolactin from the anterior pituitary stimulates mammary gland development and milk production after childbirth.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Ovulation is triggered by LH surge."},
+        {"verdict": "correct", "text": "Milk production — prolactin levels rise during pregnancy and lactation. Suckling stimulates more prolactin release, maintaining milk production."},
+        {"verdict": "incorrect", "text": "Sperm production is stimulated by FSH."},
+        {"verdict": "incorrect", "text": "Thyroid hormone release is stimulated by TSH."}
+      ]
+    },
+    {
+      "id": "700.4.24",
+      "q": "Up-regulation of hormone receptors occurs when:",
+      "options": [
+        "Hormone levels are chronically high",
+        "Hormone levels are chronically low",
+        "The gland is removed",
+        "Feedback is eliminated"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "Up-regulation increases receptor numbers when hormone levels are low — making target cells more sensitive to the limited hormone available.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Chronically high levels cause down-regulation — fewer receptors."},
+        {"verdict": "correct", "text": "Chronically low hormone levels — cells compensate by making more receptors. This increases sensitivity. Example: diabetics may up-regulate insulin receptors."},
+        {"verdict": "incorrect", "text": "Gland removal would reduce hormone, potentially causing up-regulation, but isn't the direct cause."},
+        {"verdict": "incorrect", "text": "Feedback elimination doesn't directly cause receptor changes."}
+      ]
+    },
+    {
+      "id": "700.4.25",
+      "q": "Oxytocin stimulates:",
+      "options": [
+        "Water retention",
+        "Uterine contractions and milk ejection",
+        "Bone growth",
+        "Fat metabolism"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 16 — Endocrine",
+      "explain": "Oxytocin causes uterine smooth muscle contraction during labor and myoepithelial cell contraction for milk let-down reflex.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Water retention is ADH's role."},
+        {"verdict": "correct", "text": "Uterine contractions and milk ejection — oxytocin's dual roles. During labor, it drives contractions (positive feedback loop). During nursing, it causes milk let-down."},
+        {"verdict": "incorrect", "text": "Bone growth is influenced by GH, thyroid hormones, and sex steroids."},
+        {"verdict": "incorrect", "text": "Fat metabolism involves cortisol, thyroid hormones, and growth hormone."}
+      ]
+    }
+  ]
+}

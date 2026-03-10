@@ -1,0 +1,483 @@
+{
+  "id": "400.4",
+  "title": "Tissues Vocabulary",
+  "category": "vocabulary",
+  "description": "Essential terminology for epithelial, connective, muscle, and nervous tissue",
+  "questions": [
+    {
+      "id": "400.4.01",
+      "q": "A tissue with cells arranged in a single layer is classified as:",
+      "options": [
+        "Stratified",
+        "Simple",
+        "Pseudostratified",
+        "Transitional"
+      ],
+      "answer": 1,
+      "chapter": "Tissues",
+      "explain": "Simple epithelium has one layer of cells — all touching the basement membrane. It's thin, allowing diffusion and filtration.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Stratified means multiple layers — cells stacked on cells."},
+        {"verdict": "correct", "text": "Simple — one layer where every cell contacts the basement membrane. Found where absorption or filtration occurs: lungs, blood vessels, intestinal lining."},
+        {"verdict": "incorrect", "text": "Pseudostratified appears layered but isn't — all cells touch the basement membrane."},
+        {"verdict": "incorrect", "text": "Transitional is a special stratified type that stretches — found in bladder."}
+      ]
+    },
+    {
+      "id": "400.4.02",
+      "q": "Squamous cells are described as:",
+      "options": [
+        "Cube-shaped",
+        "Column-shaped",
+        "Flat and scale-like",
+        "Irregularly shaped"
+      ],
+      "answer": 2,
+      "chapter": "Tissues",
+      "explain": "Squamous means flat and scale-like — these cells are wider than they are tall, like floor tiles or fish scales.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Cube-shaped cells are cuboidal — equal dimensions."},
+        {"verdict": "incorrect", "text": "Column-shaped cells are columnar — taller than wide."},
+        {"verdict": "correct", "text": "Squamous — flat like scales. The word comes from Latin 'squama' meaning scale. They line surfaces where thinness matters: air sacs, blood vessels."},
+        {"verdict": "incorrect", "text": "Irregular shapes describe some connective tissue cells, not squamous epithelium."}
+      ]
+    },
+    {
+      "id": "400.4.03",
+      "q": "The basement membrane is located:",
+      "options": [
+        "At the apical surface",
+        "Between epithelium and connective tissue",
+        "Inside the cell nucleus",
+        "Within muscle fibers"
+      ],
+      "answer": 1,
+      "chapter": "Tissues",
+      "explain": "The basement membrane anchors epithelium to underlying connective tissue. It's a thin layer of extracellular matrix at the basal surface.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Apical surface faces the exterior or cavity — opposite of where basement membrane sits."},
+        {"verdict": "correct", "text": "The basement membrane separates epithelium from connective tissue beneath. It provides structural support and filters substances passing between tissues."},
+        {"verdict": "incorrect", "text": "Nothing called basement membrane is inside the nucleus."},
+        {"verdict": "incorrect", "text": "Muscle fibers have sarcolemma and endomysium, not basement membrane in the epithelial sense."}
+      ]
+    },
+    {
+      "id": "400.4.04",
+      "q": "Cilia are found on the apical surface of which tissue type?",
+      "options": [
+        "Simple squamous epithelium",
+        "Pseudostratified columnar epithelium",
+        "Stratified squamous epithelium",
+        "Adipose tissue"
+      ],
+      "answer": 1,
+      "chapter": "Tissues",
+      "explain": "Pseudostratified ciliated columnar epithelium lines respiratory passages. Cilia beat to move mucus and trapped particles upward.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Simple squamous is too thin for cilia — it specializes in diffusion."},
+        {"verdict": "correct", "text": "Pseudostratified ciliated columnar — the respiratory epithelium. Cilia wave in coordinated sweeps, pushing mucus (and debris) toward the throat."},
+        {"verdict": "incorrect", "text": "Stratified squamous protects against abrasion — no cilia needed."},
+        {"verdict": "incorrect", "text": "Adipose is connective tissue storing fat. No cilia."}
+      ]
+    },
+    {
+      "id": "400.4.05",
+      "q": "Goblet cells produce:",
+      "options": [
+        "Keratin",
+        "Mucus",
+        "Collagen",
+        "Histamine"
+      ],
+      "answer": 1,
+      "chapter": "Tissues",
+      "explain": "Goblet cells are unicellular glands that secrete mucus — a protective, lubricating glycoprotein coating.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Keratin is produced by keratinocytes in skin. Different cell type."},
+        {"verdict": "correct", "text": "Mucus — goblet cells are shaped like wine goblets filled with mucin granules. They're scattered among columnar cells in respiratory and digestive linings."},
+        {"verdict": "incorrect", "text": "Collagen is made by fibroblasts in connective tissue."},
+        {"verdict": "incorrect", "text": "Histamine comes from mast cells and basophils."}
+      ]
+    },
+    {
+      "id": "400.4.06",
+      "q": "The most abundant protein in the body is:",
+      "options": [
+        "Elastin",
+        "Keratin",
+        "Collagen",
+        "Actin"
+      ],
+      "answer": 2,
+      "chapter": "Tissues",
+      "explain": "Collagen makes up about 25-30% of total body protein. It forms the structural framework of connective tissues.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Elastin provides stretch but is far less abundant than collagen."},
+        {"verdict": "incorrect", "text": "Keratin is abundant in skin and hair but not the most abundant overall."},
+        {"verdict": "correct", "text": "Collagen — the body's structural scaffolding. It forms tendons, ligaments, bone matrix, dermis, fascia. Triple-helix structure gives incredible tensile strength."},
+        {"verdict": "incorrect", "text": "Actin is abundant in muscle but doesn't exceed collagen body-wide."}
+      ]
+    },
+    {
+      "id": "400.4.07",
+      "q": "Fibroblasts are the primary cells of:",
+      "options": [
+        "Epithelial tissue",
+        "Connective tissue proper",
+        "Muscle tissue",
+        "Nervous tissue"
+      ],
+      "answer": 1,
+      "chapter": "Tissues",
+      "explain": "Fibroblasts produce and maintain the extracellular matrix of connective tissue — they secrete collagen, elastin, and ground substance.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Epithelial cells are different — they form surface coverings."},
+        {"verdict": "correct", "text": "Connective tissue proper — fibroblasts are the master builders. They spin out collagen fibers and maintain the matrix. When you heal a wound, fibroblasts rush in."},
+        {"verdict": "incorrect", "text": "Muscle tissue has myocytes (muscle cells), not fibroblasts."},
+        {"verdict": "incorrect", "text": "Nervous tissue has neurons and glial cells."}
+      ]
+    },
+    {
+      "id": "400.4.08",
+      "q": "Dense regular connective tissue is found in:",
+      "options": [
+        "Dermis of skin",
+        "Tendons and ligaments",
+        "Around organs",
+        "In bones"
+      ],
+      "answer": 1,
+      "chapter": "Tissues",
+      "explain": "Dense regular connective tissue has collagen fibers aligned in parallel — perfectly suited for tendons and ligaments that resist pull in one direction.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Dermis contains dense IRREGULAR connective tissue — fibers in many directions."},
+        {"verdict": "correct", "text": "Tendons and ligaments — parallel collagen bundles resist unidirectional stress. Tendons connect muscle to bone; ligaments connect bone to bone."},
+        {"verdict": "incorrect", "text": "Around organs is loose connective tissue, allowing movement."},
+        {"verdict": "incorrect", "text": "Bones are osseous tissue — mineralized matrix, not dense regular."}
+      ]
+    },
+    {
+      "id": "400.4.09",
+      "q": "Adipose tissue functions primarily to:",
+      "options": [
+        "Transmit nerve impulses",
+        "Store energy and insulate",
+        "Produce red blood cells",
+        "Contract for movement"
+      ],
+      "answer": 1,
+      "chapter": "Tissues",
+      "explain": "Adipose tissue stores triglycerides for energy reserve and insulates the body against heat loss. It also cushions and protects organs.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Nerve impulse transmission is nervous tissue function."},
+        {"verdict": "correct", "text": "Store energy and insulate — adipocytes pack triglycerides. Subcutaneous fat insulates; visceral fat cushions organs. It's also an endocrine organ secreting leptin."},
+        {"verdict": "incorrect", "text": "Red blood cell production is red bone marrow."},
+        {"verdict": "incorrect", "text": "Contraction is muscle tissue function."}
+      ]
+    },
+    {
+      "id": "400.4.10",
+      "q": "Cartilage cells are called:",
+      "options": [
+        "Osteocytes",
+        "Chondrocytes",
+        "Adipocytes",
+        "Fibroblasts"
+      ],
+      "answer": 1,
+      "chapter": "Tissues",
+      "explain": "Chondrocytes are cartilage cells — they live in lacunae within the cartilage matrix they produced.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Osteocytes are mature bone cells."},
+        {"verdict": "correct", "text": "Chondrocytes — 'chondro' means cartilage. These cells sit in lacunae, surrounded by the rubbery matrix they secreted as chondroblasts."},
+        {"verdict": "incorrect", "text": "Adipocytes are fat cells."},
+        {"verdict": "incorrect", "text": "Fibroblasts are general connective tissue cells, not specific to cartilage."}
+      ]
+    },
+    {
+      "id": "400.4.11",
+      "q": "The type of cartilage found in intervertebral discs is:",
+      "options": [
+        "Hyaline cartilage",
+        "Elastic cartilage",
+        "Fibrocartilage",
+        "Bone"
+      ],
+      "answer": 2,
+      "chapter": "Tissues",
+      "explain": "Fibrocartilage contains thick collagen bundles making it tough and compressible — perfect for intervertebral discs, knee menisci, and pubic symphysis.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Hyaline cartilage covers joint surfaces but lacks the strength for disc compression."},
+        {"verdict": "incorrect", "text": "Elastic cartilage is flexible (ear, epiglottis) but not strong enough for spine."},
+        {"verdict": "correct", "text": "Fibrocartilage — dense collagen fibers withstand compression and tension. Intervertebral discs absorb spinal shock; their fibrocartilage annulus surrounds the gel nucleus."},
+        {"verdict": "incorrect", "text": "Intervertebral discs are cartilage, not bone."}
+      ]
+    },
+    {
+      "id": "400.4.12",
+      "q": "Endocrine glands release their secretions into:",
+      "options": [
+        "Ducts leading to body surface",
+        "The bloodstream",
+        "Body cavities only",
+        "Lymphatic vessels only"
+      ],
+      "answer": 1,
+      "chapter": "Tissues",
+      "explain": "Endocrine glands are ductless — they secrete hormones directly into the bloodstream for distribution throughout the body.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "That's exocrine glands — they use ducts (sweat glands, salivary glands)."},
+        {"verdict": "correct", "text": "Bloodstream — endocrine glands release hormones into surrounding capillaries. The blood carries hormones to target cells anywhere in the body."},
+        {"verdict": "incorrect", "text": "Body cavities receive serous secretions, not typically endocrine hormones."},
+        {"verdict": "incorrect", "text": "Some hormones enter lymph, but blood is the primary distribution route."}
+      ]
+    },
+    {
+      "id": "400.4.13",
+      "q": "Exocrine glands that release whole cells as their secretion are classified as:",
+      "options": [
+        "Merocrine",
+        "Apocrine",
+        "Holocrine",
+        "Endocrine"
+      ],
+      "answer": 2,
+      "chapter": "Tissues",
+      "explain": "Holocrine secretion involves the entire cell rupturing and releasing its contents. Sebaceous glands are holocrine.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Merocrine secretion releases only the product via exocytosis — no cell destruction."},
+        {"verdict": "incorrect", "text": "Apocrine secretion pinches off the cell apex with the product."},
+        {"verdict": "correct", "text": "Holocrine — the whole cell becomes the secretion. Sebaceous gland cells fill with oils, die, and rupture. New cells replace them continuously."},
+        {"verdict": "incorrect", "text": "Endocrine glands secrete into blood, not via duct secretion modes."}
+      ]
+    },
+    {
+      "id": "400.4.14",
+      "q": "The ground substance of connective tissue is composed primarily of:",
+      "options": [
+        "Collagen fibers",
+        "Proteoglycans and glycosaminoglycans",
+        "Calcium salts",
+        "Keratin"
+      ],
+      "answer": 1,
+      "chapter": "Tissues",
+      "explain": "Ground substance is the gel-like material between cells and fibers — made of proteoglycans, glycosaminoglycans, and adhesive glycoproteins.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Collagen fibers are embedded IN ground substance but aren't the substance itself."},
+        {"verdict": "correct", "text": "Proteoglycans and glycosaminoglycans (like hyaluronic acid) trap water, creating a hydrated gel. This allows diffusion of nutrients and provides resilience."},
+        {"verdict": "incorrect", "text": "Calcium salts are in bone matrix, not general ground substance."},
+        {"verdict": "incorrect", "text": "Keratin is a structural protein in epithelium, not connective tissue matrix."}
+      ]
+    },
+    {
+      "id": "400.4.15",
+      "q": "Elastic connective tissue is abundant in:",
+      "options": [
+        "Tendons",
+        "Walls of large arteries",
+        "Bone",
+        "Hyaline cartilage"
+      ],
+      "answer": 1,
+      "chapter": "Tissues",
+      "explain": "Elastic connective tissue — rich in elastin fibers — allows structures to stretch and recoil. Large arteries need this to handle blood pressure pulses.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Tendons are dense regular with collagen — they resist stretch, not accommodate it."},
+        {"verdict": "correct", "text": "Large artery walls — elastin lets them expand with systole and recoil in diastole. This maintains blood pressure between heartbeats. The aorta is highly elastic."},
+        {"verdict": "incorrect", "text": "Bone is rigid with mineralized matrix — no elastin prominence."},
+        {"verdict": "incorrect", "text": "Hyaline cartilage has some elasticity but isn't classified as elastic connective tissue."}
+      ]
+    },
+    {
+      "id": "400.4.16",
+      "q": "Osteocytes communicate through cell processes in channels called:",
+      "options": [
+        "Haversian canals",
+        "Volkmann's canals",
+        "Canaliculi",
+        "Lacunae"
+      ],
+      "answer": 2,
+      "chapter": "Tissues",
+      "explain": "Canaliculi are tiny tunnels radiating from lacunae, containing osteocyte processes. They allow nutrient exchange and cell-to-cell communication.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Haversian canals carry blood vessels through bone — too large for cell processes."},
+        {"verdict": "incorrect", "text": "Volkmann's canals connect Haversian canals — vascular channels, not for cell processes."},
+        {"verdict": "correct", "text": "Canaliculi — tiny canals containing osteocyte extensions. Gap junctions connect neighboring processes, allowing ions and small molecules to pass through bone matrix."},
+        {"verdict": "incorrect", "text": "Lacunae are the spaces where osteocytes live — canaliculi radiate from them."}
+      ]
+    },
+    {
+      "id": "400.4.17",
+      "q": "The tissue that lines the urinary bladder and can stretch is:",
+      "options": [
+        "Simple squamous",
+        "Stratified squamous",
+        "Transitional epithelium",
+        "Simple columnar"
+      ],
+      "answer": 2,
+      "chapter": "Tissues",
+      "explain": "Transitional epithelium (urothelium) is specialized stratified tissue that stretches as the bladder fills. Cells change shape from dome to flat.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Simple squamous is one thin layer — can't handle bladder distension."},
+        {"verdict": "incorrect", "text": "Stratified squamous protects but doesn't stretch like transitional."},
+        {"verdict": "correct", "text": "Transitional epithelium — uniquely stretchable. When empty, cells appear dome-shaped and layered; when full, they flatten. Found in bladder, ureters, urethra."},
+        {"verdict": "incorrect", "text": "Simple columnar is for secretion/absorption — not stretching."}
+      ]
+    },
+    {
+      "id": "400.4.18",
+      "q": "Mast cells release which substance during allergic reactions?",
+      "options": [
+        "Collagen",
+        "Histamine",
+        "Melanin",
+        "Mucus"
+      ],
+      "answer": 1,
+      "chapter": "Tissues",
+      "explain": "Mast cells contain granules packed with histamine. When triggered by allergens, they degranulate — releasing histamine that causes inflammation.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Collagen is made by fibroblasts, not mast cells."},
+        {"verdict": "correct", "text": "Histamine — mast cell granules burst when IgE antibodies bind allergens. Histamine causes vasodilation, increased permeability, and itching. Antihistamines block its effects."},
+        {"verdict": "incorrect", "text": "Melanin is produced by melanocytes in skin."},
+        {"verdict": "incorrect", "text": "Mucus comes from goblet cells, not mast cells."}
+      ]
+    },
+    {
+      "id": "400.4.19",
+      "q": "Reticular connective tissue forms the framework of:",
+      "options": [
+        "Tendons",
+        "Lymph nodes and spleen",
+        "Joint capsules",
+        "Skin dermis"
+      ],
+      "answer": 1,
+      "chapter": "Tissues",
+      "explain": "Reticular tissue — a network of thin reticular fibers — provides the structural scaffolding for lymphoid organs where immune cells reside.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Tendons are dense regular connective tissue with collagen bundles."},
+        {"verdict": "correct", "text": "Lymph nodes, spleen, and bone marrow use reticular fiber networks. These delicate meshworks support and filter immune cells moving through."},
+        {"verdict": "incorrect", "text": "Joint capsules are dense irregular connective tissue."},
+        {"verdict": "incorrect", "text": "Dermis is dense irregular — collagen-rich for strength."}
+      ]
+    },
+    {
+      "id": "400.4.20",
+      "q": "The apical surface of epithelium faces:",
+      "options": [
+        "The basement membrane",
+        "The body exterior or cavity",
+        "Blood vessels",
+        "Underlying connective tissue"
+      ],
+      "answer": 1,
+      "chapter": "Tissues",
+      "explain": "Apical means top — the apical surface faces outward toward an external environment, body cavity, or lumen of a tube.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Basement membrane is at the basal (bottom) surface — opposite of apical."},
+        {"verdict": "correct", "text": "Apical surface contacts the exterior or lumen. In skin, it faces outside; in intestine, it faces the gut lumen. This is where microvilli and cilia project."},
+        {"verdict": "incorrect", "text": "Blood vessels are in connective tissue below epithelium."},
+        {"verdict": "incorrect", "text": "That's the basal surface, which rests on connective tissue via basement membrane."}
+      ]
+    },
+    {
+      "id": "400.4.21",
+      "q": "Keratinized stratified squamous epithelium is found in:",
+      "options": [
+        "Mouth and esophagus",
+        "Epidermis of skin",
+        "Blood vessels",
+        "Alveoli of lungs"
+      ],
+      "answer": 1,
+      "chapter": "Tissues",
+      "explain": "Skin epidermis is keratinized — surface cells fill with keratin protein and die, forming a tough, waterproof barrier.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Mouth and esophagus have NON-keratinized stratified squamous — moist environments."},
+        {"verdict": "correct", "text": "Epidermis — keratinocytes fill with keratin as they migrate upward, then die. This creates the dead, protective stratum corneum that resists abrasion and water loss."},
+        {"verdict": "incorrect", "text": "Blood vessels have simple squamous endothelium — no keratin."},
+        {"verdict": "incorrect", "text": "Alveoli have simple squamous for gas exchange — paper thin."}
+      ]
+    },
+    {
+      "id": "400.4.22",
+      "q": "Lacunae in cartilage and bone are:",
+      "options": [
+        "Channels for blood vessels",
+        "Spaces containing cells",
+        "Protein fibers",
+        "Mineral deposits"
+      ],
+      "answer": 1,
+      "chapter": "Tissues",
+      "explain": "Lacunae are small cavities in the matrix where chondrocytes (cartilage) or osteocytes (bone) reside.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Blood vessel channels in bone are Haversian and Volkmann's canals."},
+        {"verdict": "correct", "text": "Lacunae — Latin for 'little lakes.' Each lacuna houses one cell that originally secreted the surrounding matrix. The cell is trapped in its own product."},
+        {"verdict": "incorrect", "text": "Protein fibers (collagen, elastin) are in the matrix between lacunae."},
+        {"verdict": "incorrect", "text": "Mineral deposits are in bone matrix but lacunae are cell-containing spaces."}
+      ]
+    },
+    {
+      "id": "400.4.23",
+      "q": "Simple cuboidal epithelium is found in:",
+      "options": [
+        "Skin surface",
+        "Kidney tubules",
+        "Blood vessels",
+        "Respiratory bronchioles"
+      ],
+      "answer": 1,
+      "chapter": "Tissues",
+      "explain": "Simple cuboidal epithelium lines kidney tubules, where cells actively transport substances. The shape balances surface area with secretory capacity.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Skin surface is stratified squamous — multiple layers for protection."},
+        {"verdict": "correct", "text": "Kidney tubules — simple cuboidal cells reabsorb water, glucose, and ions. Also found in small gland ducts and ovary surface."},
+        {"verdict": "incorrect", "text": "Blood vessels have simple squamous endothelium."},
+        {"verdict": "incorrect", "text": "Respiratory bronchioles transition from ciliated columnar to cuboidal, but simple cuboidal is characteristic of kidney tubules."}
+      ]
+    },
+    {
+      "id": "400.4.24",
+      "q": "Blood is classified as which type of connective tissue?",
+      "options": [
+        "Dense connective tissue",
+        "Loose connective tissue",
+        "Fluid connective tissue",
+        "Supporting connective tissue"
+      ],
+      "answer": 2,
+      "chapter": "Tissues",
+      "explain": "Blood is fluid connective tissue — cells suspended in liquid matrix (plasma). It transports substances and provides immune defense.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Dense connective tissue has abundant fibers — blood has dissolved proteins instead."},
+        {"verdict": "incorrect", "text": "Loose connective tissue has gel-like ground substance — blood has liquid plasma."},
+        {"verdict": "correct", "text": "Fluid connective tissue — blood and lymph. The matrix is liquid plasma; cells float within it. Despite being liquid, blood fits connective tissue criteria."},
+        {"verdict": "incorrect", "text": "Supporting connective tissue refers to cartilage and bone — solid matrices."}
+      ]
+    },
+    {
+      "id": "400.4.25",
+      "q": "Tissue repair that replaces damaged tissue with scar tissue is called:",
+      "options": [
+        "Regeneration",
+        "Fibrosis",
+        "Hyperplasia",
+        "Metaplasia"
+      ],
+      "answer": 1,
+      "chapter": "Tissues",
+      "explain": "Fibrosis replaces functional tissue with fibrous scar tissue. It restores structural integrity but not original function.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Regeneration replaces damaged cells with SAME type — full functional recovery."},
+        {"verdict": "correct", "text": "Fibrosis — when regeneration isn't possible, fibroblasts produce collagen scar tissue. Hearts can't regenerate muscle, so infarcts heal by fibrosis."},
+        {"verdict": "incorrect", "text": "Hyperplasia is increase in cell NUMBER, not scar formation."},
+        {"verdict": "incorrect", "text": "Metaplasia is one mature cell type changing to another — not scar formation."}
+      ]
+    }
+  ]
+}

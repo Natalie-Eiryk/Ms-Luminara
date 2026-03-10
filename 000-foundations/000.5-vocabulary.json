@@ -1,0 +1,483 @@
+{
+  "id": "000.5",
+  "title": "Foundations Vocabulary",
+  "category": "vocabulary",
+  "description": "Essential terminology for body organization, chemistry, cells, and membranes",
+  "questions": [
+    {
+      "id": "000.5.01",
+      "q": "Which term describes the study of body structures and their relationships?",
+      "options": [
+        "Physiology",
+        "Anatomy",
+        "Histology",
+        "Pathology"
+      ],
+      "answer": 1,
+      "chapter": "Foundations",
+      "explain": "Anatomy is the study of body structures. The word comes from Greek 'anatome' meaning 'dissection' — literally cutting apart to see what's inside.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Physiology studies how structures FUNCTION, not what they ARE. Different question entirely."},
+        {"verdict": "correct", "text": "Anatomy examines structure — the architecture of the body. Where things are, how they connect, what they look like. It's the blueprint before the building starts working."},
+        {"verdict": "incorrect", "text": "Histology is the study of tissues specifically — a subset of anatomy that zooms in to the microscopic level."},
+        {"verdict": "incorrect", "text": "Pathology studies disease processes — what goes wrong, not what's there when things are right."}
+      ]
+    },
+    {
+      "id": "000.5.02",
+      "q": "The term 'homeostasis' refers to:",
+      "options": [
+        "The study of tissues",
+        "The maintenance of stable internal conditions",
+        "The breakdown of molecules",
+        "The formation of new cells"
+      ],
+      "answer": 1,
+      "chapter": "Foundations",
+      "explain": "Homeostasis means 'staying the same' — the body's ability to maintain stable internal conditions despite external changes. Temperature, pH, glucose levels — all held within narrow ranges.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "That's histology. Homeostasis is about stability, not tissue structure."},
+        {"verdict": "correct", "text": "Homeostasis is dynamic equilibrium — the body constantly adjusting to keep internal conditions stable. Your core temperature stays around 37°C whether you're in a sauna or a snowstorm."},
+        {"verdict": "incorrect", "text": "That describes catabolism — breaking molecules down. Homeostasis is about balance, not breakdown."},
+        {"verdict": "incorrect", "text": "Cell formation is proliferation or mitosis. Homeostasis includes regulating cell numbers, but it's much broader than that."}
+      ]
+    },
+    {
+      "id": "000.5.03",
+      "q": "Which body cavity contains the heart and lungs?",
+      "options": [
+        "Abdominal cavity",
+        "Pelvic cavity",
+        "Thoracic cavity",
+        "Cranial cavity"
+      ],
+      "answer": 2,
+      "chapter": "Foundations",
+      "explain": "The thoracic cavity is the chest cavity — bounded by the ribs, protected by the sternum. It houses the heart, lungs, and great vessels.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "The abdominal cavity holds digestive organs — stomach, intestines, liver. Below the diaphragm, not above."},
+        {"verdict": "incorrect", "text": "The pelvic cavity contains reproductive organs and bladder. It's the bowl at the bottom of your trunk."},
+        {"verdict": "correct", "text": "The thoracic cavity — your ribcage fortress. The heart sits medially in the mediastinum, lungs flanking it on either side. The diaphragm forms the floor."},
+        {"verdict": "incorrect", "text": "The cranial cavity houses the brain. Different neighborhood entirely — upstairs, not chest-level."}
+      ]
+    },
+    {
+      "id": "000.5.04",
+      "q": "The anatomical term 'proximal' means:",
+      "options": [
+        "Toward the back",
+        "Toward the front",
+        "Closer to the trunk or point of attachment",
+        "Further from the trunk or point of attachment"
+      ],
+      "answer": 2,
+      "chapter": "Foundations",
+      "explain": "Proximal means closer to the origin or attachment point. Your elbow is proximal to your wrist — closer to where the arm connects to the body.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "That's posterior or dorsal. Proximal is about distance from the trunk, not front-back orientation."},
+        {"verdict": "incorrect", "text": "That's anterior or ventral. Again, wrong axis — proximal measures distance along a limb."},
+        {"verdict": "correct", "text": "Proximal means 'nearer to the root.' The shoulder is proximal to the elbow, the elbow proximal to the wrist, the wrist proximal to the fingers."},
+        {"verdict": "incorrect", "text": "That's distal — the opposite of proximal. Distal means further from the trunk."}
+      ]
+    },
+    {
+      "id": "000.5.05",
+      "q": "Which plane divides the body into anterior and posterior portions?",
+      "options": [
+        "Sagittal plane",
+        "Frontal (coronal) plane",
+        "Transverse plane",
+        "Midsagittal plane"
+      ],
+      "answer": 1,
+      "chapter": "Foundations",
+      "explain": "The frontal or coronal plane runs vertically from side to side, dividing the body into front (anterior) and back (posterior) portions.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Sagittal planes divide left from right, not front from back."},
+        {"verdict": "correct", "text": "The frontal plane — also called coronal because it aligns with the coronal suture of the skull — slices you into front and back halves. Like a pane of glass from ear to ear."},
+        {"verdict": "incorrect", "text": "Transverse planes are horizontal — they divide superior from inferior, creating cross-sections."},
+        {"verdict": "incorrect", "text": "Midsagittal is a specific sagittal plane down the exact middle — still divides left from right, not front from back."}
+      ]
+    },
+    {
+      "id": "000.5.06",
+      "q": "The smallest living unit of the body is the:",
+      "options": [
+        "Organ",
+        "Tissue",
+        "Cell",
+        "Organ system"
+      ],
+      "answer": 2,
+      "chapter": "Foundations",
+      "explain": "The cell is the fundamental unit of life. Everything living is made of cells — they're the smallest structures that can perform all life functions independently.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Organs are made OF cells — they're collections of tissues working together. Too big."},
+        {"verdict": "incorrect", "text": "Tissues are groups of similar cells. Still too large — you need to zoom in further."},
+        {"verdict": "correct", "text": "The cell is life's basic unit. It can metabolize, reproduce, respond to stimuli, maintain homeostasis — all the criteria for life, wrapped in one membrane-bound package."},
+        {"verdict": "incorrect", "text": "Organ systems are the largest organizational level — groups of organs cooperating. Way too big."}
+      ]
+    },
+    {
+      "id": "000.5.07",
+      "q": "Which term describes a solution with a pH below 7?",
+      "options": [
+        "Basic",
+        "Neutral",
+        "Acidic",
+        "Alkaline"
+      ],
+      "answer": 2,
+      "chapter": "Foundations",
+      "explain": "Acidic solutions have pH values below 7. They contain excess hydrogen ions (H+). The lower the pH, the more acidic — stomach acid is around pH 2.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Basic solutions have pH ABOVE 7. They're also called alkaline."},
+        {"verdict": "incorrect", "text": "Neutral is exactly pH 7 — pure water. Neither acidic nor basic."},
+        {"verdict": "correct", "text": "Acidic means pH below 7, indicating excess H+ ions. Gastric juice, lemon juice, vinegar — all acidic. The lower the number, the stronger the acid."},
+        {"verdict": "incorrect", "text": "Alkaline is another word for basic — pH above 7. Opposite of acidic."}
+      ]
+    },
+    {
+      "id": "000.5.08",
+      "q": "The organelle responsible for ATP production is the:",
+      "options": [
+        "Ribosome",
+        "Golgi apparatus",
+        "Mitochondrion",
+        "Lysosome"
+      ],
+      "answer": 2,
+      "chapter": "Foundations",
+      "explain": "Mitochondria are the powerhouses of the cell. They perform cellular respiration, converting glucose and oxygen into ATP — the energy currency cells actually spend.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Ribosomes make proteins by reading mRNA instructions. Important, but not energy production."},
+        {"verdict": "incorrect", "text": "The Golgi apparatus packages and ships proteins. It's the post office, not the power plant."},
+        {"verdict": "correct", "text": "Mitochondria — double-membraned, cristae-folded, ATP-generating machines. They run the citric acid cycle and electron transport chain to harvest energy from food."},
+        {"verdict": "incorrect", "text": "Lysosomes digest cellular waste. They're recycling centers, not energy factories."}
+      ]
+    },
+    {
+      "id": "000.5.09",
+      "q": "The plasma membrane is described as 'selectively permeable' because it:",
+      "options": [
+        "Allows all substances to pass through",
+        "Blocks all substances from entering",
+        "Allows some substances to pass while blocking others",
+        "Only functions during cell division"
+      ],
+      "answer": 2,
+      "chapter": "Foundations",
+      "explain": "Selectively permeable means the membrane chooses what crosses. Small nonpolar molecules slip through; charged ions need channels; large molecules need transporters.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "If it allowed everything through, it wouldn't be selective — it would be freely permeable. The cell would have no control."},
+        {"verdict": "incorrect", "text": "If it blocked everything, the cell would starve. Nutrients couldn't enter, wastes couldn't exit."},
+        {"verdict": "correct", "text": "Selective permeability is the membrane's superpower. It creates controlled chaos — O2 and CO2 diffuse freely, but glucose needs GLUT transporters, sodium needs channels. The membrane is a bouncer with a very specific guest list."},
+        {"verdict": "incorrect", "text": "The membrane functions constantly, not just during division. Permeability is a 24/7 operation."}
+      ]
+    },
+    {
+      "id": "000.5.10",
+      "q": "Which type of tissue covers body surfaces and lines cavities?",
+      "options": [
+        "Connective tissue",
+        "Muscle tissue",
+        "Nervous tissue",
+        "Epithelial tissue"
+      ],
+      "answer": 3,
+      "chapter": "Foundations",
+      "explain": "Epithelial tissue forms coverings and linings — skin surfaces, organ linings, gland secretory units. It's the body's interface layer.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Connective tissue supports and binds — bone, cartilage, blood, fat. It doesn't form surface coverings."},
+        {"verdict": "incorrect", "text": "Muscle tissue contracts for movement. It doesn't line surfaces."},
+        {"verdict": "incorrect", "text": "Nervous tissue transmits signals. It's communication infrastructure, not surface coverage."},
+        {"verdict": "correct", "text": "Epithelial tissue lines and covers everything. Skin epidermis, mouth lining, stomach lining, kidney tubules, blood vessel interiors — all epithelium. It's the body's gift wrap."}
+      ]
+    },
+    {
+      "id": "000.5.11",
+      "q": "The term 'lateral' refers to a position:",
+      "options": [
+        "Toward the midline",
+        "Away from the midline",
+        "Above another structure",
+        "Below another structure"
+      ],
+      "answer": 1,
+      "chapter": "Foundations",
+      "explain": "Lateral means away from the midline — toward the side. Your ears are lateral to your nose. Your shoulders are lateral to your sternum.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "That's medial — toward the midline. The opposite of lateral."},
+        {"verdict": "correct", "text": "Lateral means 'to the side.' The lungs are lateral to the heart. The eyes are lateral to the nose. Lateral moves you away from the body's center line."},
+        {"verdict": "incorrect", "text": "That's superior — above. Different directional axis entirely."},
+        {"verdict": "incorrect", "text": "That's inferior — below. Again, wrong axis."}
+      ]
+    },
+    {
+      "id": "000.5.12",
+      "q": "Negative feedback mechanisms:",
+      "options": [
+        "Amplify changes from the set point",
+        "Oppose changes to return to the set point",
+        "Only occur during disease states",
+        "Increase body temperature continuously"
+      ],
+      "answer": 1,
+      "chapter": "Foundations",
+      "explain": "Negative feedback opposes change. When something deviates from the set point, negative feedback pushes it back. It's the body's thermostat principle.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "That's positive feedback — amplification. Negative feedback does the opposite."},
+        {"verdict": "correct", "text": "Negative feedback maintains homeostasis by opposing deviations. Blood glucose rises → insulin secretion → glucose drops back down. Temperature rises → sweating → temperature drops. Always pushing back toward the set point."},
+        {"verdict": "incorrect", "text": "Negative feedback operates constantly in health. It's how you stay alive, not a disease response."},
+        {"verdict": "incorrect", "text": "Temperature regulation uses negative feedback to STABILIZE temperature, not increase it continuously."}
+      ]
+    },
+    {
+      "id": "000.5.13",
+      "q": "The serous membrane that lines the abdominal cavity wall is called the:",
+      "options": [
+        "Visceral peritoneum",
+        "Parietal peritoneum",
+        "Pleura",
+        "Pericardium"
+      ],
+      "answer": 1,
+      "chapter": "Foundations",
+      "explain": "Parietal peritoneum lines the abdominal WALL. Parietal means 'wall' — it's the membrane against the body cavity's outer boundary.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Visceral peritoneum covers the ORGANS, not the wall. Visceral means 'organ.'"},
+        {"verdict": "correct", "text": "Parietal peritoneum lines the wall — parietal always means 'wall layer.' It's the outer sheet of the double membrane, pressed against the abdominal wall."},
+        {"verdict": "incorrect", "text": "Pleura is the serous membrane of the lungs and thoracic cavity, not the abdomen."},
+        {"verdict": "incorrect", "text": "Pericardium is the serous membrane around the heart specifically."}
+      ]
+    },
+    {
+      "id": "000.5.14",
+      "q": "Which macromolecule stores genetic information?",
+      "options": [
+        "Carbohydrates",
+        "Lipids",
+        "Proteins",
+        "Nucleic acids"
+      ],
+      "answer": 3,
+      "chapter": "Foundations",
+      "explain": "Nucleic acids — DNA and RNA — store and transmit genetic information. DNA holds the permanent instructions; RNA copies and delivers them.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Carbohydrates store energy and provide structure. No information storage — they're fuel, not files."},
+        {"verdict": "incorrect", "text": "Lipids store energy and build membranes. Still no genetic information capacity."},
+        {"verdict": "incorrect", "text": "Proteins do the work encoded by genes, but they don't store the genetic information itself."},
+        {"verdict": "correct", "text": "Nucleic acids — DNA's double helix holds the master blueprint, RNA reads and executes it. Four bases encode the entire instruction manual for life."}
+      ]
+    },
+    {
+      "id": "000.5.15",
+      "q": "The movement of water across a selectively permeable membrane from high to low water concentration is called:",
+      "options": [
+        "Diffusion",
+        "Active transport",
+        "Osmosis",
+        "Filtration"
+      ],
+      "answer": 2,
+      "chapter": "Foundations",
+      "explain": "Osmosis is specifically water diffusion across a membrane. Water moves from where it's more concentrated (dilute solution) to where it's less concentrated (concentrated solution).",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Diffusion is the general term for any substance moving down its concentration gradient. Osmosis is specifically water."},
+        {"verdict": "incorrect", "text": "Active transport requires ATP and moves substances AGAINST their gradient. Osmosis is passive."},
+        {"verdict": "correct", "text": "Osmosis — water's special journey across membranes. It follows the gradient passively, always trying to dilute the more concentrated side."},
+        {"verdict": "incorrect", "text": "Filtration is pressure-driven movement through a membrane, like in the kidneys. Different mechanism."}
+      ]
+    },
+    {
+      "id": "000.5.16",
+      "q": "The region of the cell containing genetic material and surrounded by a double membrane is the:",
+      "options": [
+        "Cytoplasm",
+        "Nucleus",
+        "Ribosome",
+        "Endoplasmic reticulum"
+      ],
+      "answer": 1,
+      "chapter": "Foundations",
+      "explain": "The nucleus houses DNA within its double-membrane envelope. Nuclear pores control traffic between the nucleus and cytoplasm.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Cytoplasm is the gel-like material outside the nucleus. It contains organelles but not the main genetic storage."},
+        {"verdict": "correct", "text": "The nucleus — command center enclosed by a double membrane studded with pores. DNA stays safe inside, directing cellular operations through messenger RNA."},
+        {"verdict": "incorrect", "text": "Ribosomes are protein factories. They're not membrane-bound and don't store DNA."},
+        {"verdict": "incorrect", "text": "The ER processes proteins and lipids. It's connected to the nuclear envelope but isn't the genetic storage site."}
+      ]
+    },
+    {
+      "id": "000.5.17",
+      "q": "Which directional term means 'toward the head'?",
+      "options": [
+        "Caudal",
+        "Inferior",
+        "Superior (cranial)",
+        "Posterior"
+      ],
+      "answer": 2,
+      "chapter": "Foundations",
+      "explain": "Superior or cranial means toward the head end. The heart is superior to the intestines. The brain is the most superior structure.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Caudal means toward the tail — the opposite direction. Used more in animal anatomy."},
+        {"verdict": "incorrect", "text": "Inferior means toward the feet — below. Opposite of superior."},
+        {"verdict": "correct", "text": "Superior or cranial — headward. The nose is superior to the chin. The lungs are superior to the liver. Always pointing up toward the skull."},
+        {"verdict": "incorrect", "text": "Posterior means toward the back, not toward the head. Different axis."}
+      ]
+    },
+    {
+      "id": "000.5.18",
+      "q": "A covalent bond forms when atoms:",
+      "options": [
+        "Transfer electrons completely",
+        "Share electrons",
+        "Are attracted by opposite charges",
+        "Lose their protons"
+      ],
+      "answer": 1,
+      "chapter": "Foundations",
+      "explain": "Covalent bonds form when atoms share electrons. Each atom contributes to a shared pair, creating a strong, stable bond.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Complete electron transfer creates ionic bonds, not covalent. Different bonding mechanism."},
+        {"verdict": "correct", "text": "Covalent bonding is electron sharing. Two atoms each contribute electrons to a shared orbital, binding them together. Carbon-carbon bonds, oxygen-hydrogen bonds — all covalent."},
+        {"verdict": "incorrect", "text": "That describes ionic bonds — oppositely charged ions attracting after electron transfer."},
+        {"verdict": "incorrect", "text": "Atoms don't lose protons in chemical bonding. Protons define the element itself."}
+      ]
+    },
+    {
+      "id": "000.5.19",
+      "q": "The transverse plane divides the body into:",
+      "options": [
+        "Left and right portions",
+        "Anterior and posterior portions",
+        "Superior and inferior portions",
+        "Proximal and distal portions"
+      ],
+      "answer": 2,
+      "chapter": "Foundations",
+      "explain": "The transverse plane is horizontal — it creates cross-sections, dividing the body into upper (superior) and lower (inferior) portions.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "That's what sagittal planes do — divide left from right."},
+        {"verdict": "incorrect", "text": "That's the frontal/coronal plane — dividing front from back."},
+        {"verdict": "correct", "text": "Transverse planes run horizontally, like slicing a loaf of bread. CT scans show transverse sections — each slice divides what's above from what's below."},
+        {"verdict": "incorrect", "text": "Proximal and distal describe positions along limbs, not body plane divisions."}
+      ]
+    },
+    {
+      "id": "000.5.20",
+      "q": "The organelle that modifies, packages, and ships proteins is the:",
+      "options": [
+        "Ribosome",
+        "Golgi apparatus",
+        "Mitochondrion",
+        "Nucleus"
+      ],
+      "answer": 1,
+      "chapter": "Foundations",
+      "explain": "The Golgi apparatus is the cell's shipping department. Proteins arrive from the ER, get modified and packaged into vesicles, then shipped to their destinations.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Ribosomes MAKE proteins but don't modify or ship them. That's the Golgi's job."},
+        {"verdict": "correct", "text": "The Golgi apparatus — stacked cisternae that receive, modify, and dispatch proteins. Add sugar groups, trim sequences, sort by destination, package into vesicles. It's FedEx for molecules."},
+        {"verdict": "incorrect", "text": "Mitochondria make ATP. They're power plants, not post offices."},
+        {"verdict": "incorrect", "text": "The nucleus stores DNA and coordinates gene expression. Protein shipping happens in the cytoplasm."}
+      ]
+    },
+    {
+      "id": "000.5.21",
+      "q": "Which term describes the front surface of the body?",
+      "options": [
+        "Posterior",
+        "Dorsal",
+        "Anterior (ventral)",
+        "Lateral"
+      ],
+      "answer": 2,
+      "chapter": "Foundations",
+      "explain": "Anterior or ventral refers to the front of the body. Your belly button is on your anterior surface. Your face is anterior to your brain.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Posterior means back — the opposite of anterior."},
+        {"verdict": "incorrect", "text": "Dorsal also means back (think dorsal fin on a fish). Same as posterior in humans."},
+        {"verdict": "correct", "text": "Anterior or ventral — the front. Your chest is anterior. Your nose is anterior. In anatomical position, anterior faces forward."},
+        {"verdict": "incorrect", "text": "Lateral means to the side, not front or back."}
+      ]
+    },
+    {
+      "id": "000.5.22",
+      "q": "Enzymes are which type of macromolecule?",
+      "options": [
+        "Carbohydrates",
+        "Lipids",
+        "Proteins",
+        "Nucleic acids"
+      ],
+      "answer": 2,
+      "chapter": "Foundations",
+      "explain": "Enzymes are proteins that catalyze biochemical reactions. Their 3D shape creates active sites where substrates bind and reactions accelerate.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Carbohydrates are energy sources and structural molecules, not catalysts."},
+        {"verdict": "incorrect", "text": "Lipids store energy and build membranes. They don't catalyze reactions."},
+        {"verdict": "correct", "text": "Enzymes are proteins — specifically, catalytic proteins. Their amino acid sequence folds into shapes that grab specific substrates and speed reactions millions-fold."},
+        {"verdict": "incorrect", "text": "Nucleic acids store genetic information. Some RNA molecules have catalytic activity (ribozymes), but most enzymes are proteins."}
+      ]
+    },
+    {
+      "id": "000.5.23",
+      "q": "The epigastric region is located:",
+      "options": [
+        "Below the umbilical region",
+        "Above the umbilical region",
+        "Lateral to the umbilical region",
+        "Posterior to the umbilical region"
+      ],
+      "answer": 1,
+      "chapter": "Foundations",
+      "explain": "The epigastric region is the upper central abdomen — 'epi' means above, 'gastric' refers to stomach. It's above the umbilicus, below the sternum.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "That would be the hypogastric region — 'hypo' means below."},
+        {"verdict": "correct", "text": "Epigastric — 'epi' (above) + 'gastric' (stomach). This central upper abdominal region sits above the umbilicus, housing parts of the stomach, liver, and pancreas."},
+        {"verdict": "incorrect", "text": "The lateral regions are the lumbar (flanks) and iliac regions. Epigastric is central."},
+        {"verdict": "incorrect", "text": "Abdominal regions are on the anterior surface. There's no posterior epigastric region."}
+      ]
+    },
+    {
+      "id": "000.5.24",
+      "q": "Active transport differs from passive transport because it:",
+      "options": [
+        "Moves substances down their concentration gradient",
+        "Requires ATP energy",
+        "Only moves water",
+        "Occurs without membrane proteins"
+      ],
+      "answer": 1,
+      "chapter": "Foundations",
+      "explain": "Active transport requires ATP because it moves substances AGAINST their concentration gradient — from low to high concentration. It's swimming upstream.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "That's passive transport — movement down the gradient requires no energy input."},
+        {"verdict": "correct", "text": "Active transport burns ATP to move molecules against the gradient. The sodium-potassium pump uses ATP to push 3 Na+ out and 2 K+ in — against both ions' natural tendencies."},
+        {"verdict": "incorrect", "text": "Water movement (osmosis) is passive. Active transport moves ions, glucose, amino acids — many substances."},
+        {"verdict": "incorrect", "text": "Active transport absolutely requires membrane proteins — the pumps and carriers that use ATP."}
+      ]
+    },
+    {
+      "id": "000.5.25",
+      "q": "The hypodermis (subcutaneous layer) is located:",
+      "options": [
+        "Above the epidermis",
+        "Between epidermis and dermis",
+        "Below the dermis",
+        "Inside the body cavities"
+      ],
+      "answer": 2,
+      "chapter": "Foundations",
+      "explain": "The hypodermis lies below the dermis — 'hypo' means under. It's the fatty layer connecting skin to underlying structures, providing insulation and cushioning.",
+      "optionExplains": [
+        {"verdict": "incorrect", "text": "Nothing is above the epidermis — it's the outermost layer."},
+        {"verdict": "incorrect", "text": "The epidermis and dermis are directly connected. No layer between them."},
+        {"verdict": "correct", "text": "Hypodermis — below the dermis. This subcutaneous fat layer anchors skin to deeper tissues, stores energy, and insulates against temperature extremes."},
+        {"verdict": "incorrect", "text": "The hypodermis is part of the integumentary system, not inside body cavities."}
+      ]
+    }
+  ]
+}
