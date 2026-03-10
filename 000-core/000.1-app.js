@@ -600,7 +600,10 @@ class LuminaraQuiz {
     // If wrong answer on first try for main phase, break streak AND trigger scaffolds
     if (this.currentPhase === 'main' && !this.correctAnswerProcessed[questionId]) {
       const isCorrect = idx === currentQ.answer;
+      console.log('[Quiz] Wrong answer check:', { isCorrect, isFirstExploration, alreadyExplored, phase: this.currentPhase });
+
       if (!isCorrect && isFirstExploration && !alreadyExplored) {
+        console.log('[Quiz] First wrong answer detected - triggering scaffolds');
         const result = gamification.processWrongAnswer(questionId);
         if (result.streakBroken) {
           this.renderer.showStreakBroken(result.previousStreak);
@@ -620,34 +623,58 @@ class LuminaraQuiz {
    * Trigger scaffold remediation after wrong answer
    */
   async triggerScaffoldRemediation(wrongQuestion) {
-    if (!scaffoldRemediation) return;
+    console.log('[Scaffold] Triggering remediation for:', wrongQuestion.id);
+
+    if (!scaffoldRemediation) {
+      console.error('[Scaffold] scaffoldRemediation not initialized!');
+      this.renderQuestion();
+      return;
+    }
 
     // Calculate damage
-    const damageResult = scaffoldRemediation.calculateDamage();
+    let damageResult;
+    try {
+      damageResult = scaffoldRemediation.calculateDamage();
+      console.log('[Scaffold] Damage calculated:', damageResult);
+    } catch (e) {
+      console.error('[Scaffold] Damage calculation failed:', e);
+      this.renderQuestion();
+      return;
+    }
 
-    // Show damage roll animation
+    // Show damage roll animation (use arrow function to preserve 'this')
     this.renderer.showDamageRoll(damageResult, async () => {
-      // Apply damage
-      const hpResult = scaffoldRemediation.applyDamage(damageResult.finalDamage);
+      console.log('[Scaffold] Damage animation complete, starting scaffold session');
 
-      // Check for knockout
-      if (hpResult.isKnockout) {
-        this.renderer.showKnockout();
-      }
+      try {
+        // Apply damage
+        const hpResult = scaffoldRemediation.applyDamage(damageResult.finalDamage);
+        console.log('[Scaffold] HP result:', hpResult);
 
-      // Update HP bar
-      this.renderer.renderStatsBar();
+        // Check for knockout
+        if (hpResult.isKnockout) {
+          this.renderer.showKnockout();
+        }
 
-      // Start scaffold session
-      const session = await scaffoldRemediation.startSession(wrongQuestion, damageResult);
+        // Update HP bar
+        this.renderer.renderStatsBar();
 
-      if (session) {
-        // Enter scaffold phase
-        this.currentPhase = 'scaffold';
-        this.scaffoldExploredOptions = [];
-        this.renderScaffoldQuestion();
-      } else {
-        // Fallback if no scaffold questions available
+        // Start scaffold session
+        const session = await scaffoldRemediation.startSession(wrongQuestion, damageResult);
+        console.log('[Scaffold] Session started:', session);
+
+        if (session) {
+          // Enter scaffold phase
+          this.currentPhase = 'scaffold';
+          this.scaffoldExploredOptions = [];
+          this.renderScaffoldQuestion();
+        } else {
+          console.warn('[Scaffold] No session created, falling back');
+          // Fallback if no scaffold questions available
+          this.renderQuestion();
+        }
+      } catch (e) {
+        console.error('[Scaffold] Error in scaffold flow:', e);
         this.renderQuestion();
       }
     });
