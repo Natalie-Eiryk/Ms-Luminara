@@ -30,7 +30,8 @@
       "Bash(powershell -Command \"Get-Date -Format ''MMM dd, yyyy h:mmtt''\")",
       "Bash(git checkout:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git push)"
     ]
   }
 }

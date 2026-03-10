@@ -576,7 +576,7 @@
           <h1>Ms. Luminara's Study Session</h1>
         </div>
         <div class="header-toolbar">
-          <span class="last-updated">Updated: Mar 10, 2026 3:04PM</span>
+          <span class="last-updated">Updated: Mar 10, 2026 3:12PM</span>
           <button class="settings-btn" onclick="if(quiz && quiz.renderer) quiz.renderer.showVoiceSettings(); else alert('Quiz still loading...');" title="Voice Settings">
             🔊 Voice Settings
           </button>
@@ -594,6 +594,19 @@
         </div>
 
         <div id="landingStats" class="landing-stats"></div>
+
+        <div class="progress-controls">
+          <button class="progress-btn" onclick="exportProgress()" title="Download your progress as a file">
+            💾 Export Progress
+          </button>
+          <button class="progress-btn" onclick="document.getElementById('importFile').click()" title="Load progress from a file">
+            📂 Import Progress
+          </button>
+          <input type="file" id="importFile" accept=".json" style="display:none" onchange="importProgress(this)">
+          <button class="progress-btn danger" onclick="confirmResetProgress()" title="Start fresh">
+            🗑️ Reset Progress
+          </button>
+        </div>
 
         <div class="reference-note">
           <p><strong>Reference:</strong> Question banks organized using Dewey Decimal system</p>

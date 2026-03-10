@@ -1516,6 +1516,167 @@ body::before {
   margin-top: 0.2rem;
 }
 
+/* Progress Controls (Save/Load/Reset) */
+.progress-controls {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.progress-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  color: var(--text-secondary);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.progress-btn:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-warm);
+  color: var(--text-primary);
+}
+
+.progress-btn.danger:hover {
+  border-color: var(--wrong);
+  color: var(--wrong);
+}
+
+/* Dewey Decimal Category Grid */
+.quiz-select {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+.dewey-group {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.dewey-header {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-deep) 100%);
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.dewey-header:hover {
+  background: var(--bg-card-hover);
+}
+
+.dewey-code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--glow-warm);
+  min-width: 3rem;
+}
+
+.dewey-title {
+  flex: 1;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.dewey-count {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  padding: 0.2rem 0.5rem;
+  background: var(--bg-deep);
+  border-radius: 4px;
+}
+
+.dewey-expand {
+  color: var(--text-dim);
+  margin-left: 0.75rem;
+  transition: transform 0.2s;
+}
+
+.dewey-group.expanded .dewey-expand {
+  transform: rotate(180deg);
+}
+
+.dewey-banks {
+  display: none;
+  padding: 0.5rem;
+  background: var(--bg-deep);
+}
+
+.dewey-group.expanded .dewey-banks {
+  display: block;
+}
+
+.dewey-bank {
+  display: flex;
+  align-items: center;
+  padding: 0.6rem 0.75rem;
+  margin: 0.25rem 0;
+  background: var(--bg-card);
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.dewey-bank:hover {
+  border-color: var(--border-warm);
+  transform: translateX(4px);
+}
+
+.dewey-bank-code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--glow-warm);
+  opacity: 0.7;
+  min-width: 3.5rem;
+}
+
+.dewey-bank-title {
+  flex: 1;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.dewey-bank-count {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--text-dim);
+}
+
+.dewey-bank-mastery {
+  width: 40px;
+  height: 4px;
+  background: var(--bg-deep);
+  border-radius: 2px;
+  margin-left: 0.75rem;
+  overflow: hidden;
+}
+
+.dewey-bank-mastery-fill {
+  height: 100%;
+  background: var(--correct);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
 /* ═══════════════════════════════════════════════════════════════
    SCAFFOLDING UI (Vygotsky Adaptive Learning)
    ═══════════════════════════════════════════════════════════════ */

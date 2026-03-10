@@ -285,7 +285,91 @@ class PersistenceManager {
     this.data = this.getDefaultData();
     this.save();
   }
+
+  /**
+   * Export progress data for backup
+   */
+  exportData() {
+    return {
+      version: '1.0',
+      exportedAt: new Date().toISOString(),
+      data: this.data
+    };
+  }
+
+  /**
+   * Import progress data from backup
+   */
+  importData(importedData) {
+    if (!importedData || !importedData.data) {
+      throw new Error('Invalid backup file format');
+    }
+    this.data = this.mergeWithDefaults(importedData.data);
+    this.save();
+    return true;
+  }
 }
 
 // Export singleton
 const persistence = new PersistenceManager();
+
+// Global progress control functions
+function exportProgress() {
+  const exportData = persistence.exportData();
+  const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `luminara-progress-${new Date().toISOString().split('T')[0]}.json`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+
+  // Show feedback
+  alert('Progress exported! Check your downloads folder.');
+}
+
+function importProgress(input) {
+  const file = input.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    try {
+      const importedData = JSON.parse(e.target.result);
+      persistence.importData(importedData);
+
+      alert('Progress imported successfully! Refreshing...');
+      location.reload();
+    } catch (err) {
+      alert('Failed to import: ' + err.message);
+    }
+  };
+  reader.readAsText(file);
+
+  // Reset the input so the same file can be selected again
+  input.value = '';
+}
+
+function confirmResetProgress() {
+  const confirmed = confirm(
+    'Are you sure you want to reset ALL progress?\n\n' +
+    'This will delete:\n' +
+    '• Your XP and level\n' +
+    '• All achievements\n' +
+    '• Question history\n' +
+    '• Category mastery\n\n' +
+    'This cannot be undone!'
+  );
+
+  if (confirmed) {
+    const doubleConfirm = confirm('Really? This is permanent. Last chance to cancel.');
+    if (doubleConfirm) {
+      persistence.resetProgress();
+      alert('Progress reset. Refreshing...');
+      location.reload();
+    }
+  }
+}

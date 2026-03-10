@@ -251,7 +251,7 @@ class LuminaraQuiz {
   }
 
   /**
-   * Set up category selection buttons
+   * Set up category selection buttons with Dewey Decimal hierarchy
    */
   setupCategoryButtons() {
     const container = document.getElementById('quizSelect');
@@ -262,14 +262,117 @@ class LuminaraQuiz {
     for (const category of this.registry.categories) {
       const totalQuestions = category.banks.reduce((sum, b) => sum + b.questionCount, 0);
 
-      const button = document.createElement('button');
-      button.className = 'quiz-btn';
-      button.innerHTML = `
-        <span class="label">${category.description}</span>
-        <span class="count">${totalQuestions} questions (with warmups)</span>
+      // Create Dewey group
+      const group = document.createElement('div');
+      group.className = 'dewey-group';
+
+      // Header (clickable to expand/collapse or start all)
+      const header = document.createElement('div');
+      header.className = 'dewey-header';
+      header.innerHTML = `
+        <span class="dewey-code">${category.id}</span>
+        <span class="dewey-title">${category.name}</span>
+        <span class="dewey-count">${totalQuestions}q</span>
+        <span class="dewey-expand">▼</span>
       `;
-      button.addEventListener('click', () => this.startStudy(category.id));
-      container.appendChild(button);
+      header.addEventListener('click', () => {
+        group.classList.toggle('expanded');
+      });
+      group.appendChild(header);
+
+      // Banks container
+      const banksContainer = document.createElement('div');
+      banksContainer.className = 'dewey-banks';
+
+      // "Study All" button for the category
+      const studyAllBtn = document.createElement('div');
+      studyAllBtn.className = 'dewey-bank';
+      studyAllBtn.style.background = 'linear-gradient(135deg, var(--bg-card) 0%, var(--bg-card-hover) 100%)';
+      studyAllBtn.style.borderColor = 'var(--border-warm)';
+      studyAllBtn.innerHTML = `
+        <span class="dewey-bank-code">ALL</span>
+        <span class="dewey-bank-title" style="color: var(--glow-warm);">Study All ${category.name}</span>
+        <span class="dewey-bank-count">${totalQuestions} questions</span>
+      `;
+      studyAllBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        this.startStudy(category.id);
+      });
+      banksContainer.appendChild(studyAllBtn);
+
+      // Individual banks
+      for (const bank of category.banks) {
+        const bankBtn = document.createElement('div');
+        bankBtn.className = 'dewey-bank';
+
+        // Get mastery for this bank
+        const mastery = persistence.getCategoryProgress(`${bank.id.replace('.', '-')}`);
+        const masteryPct = mastery.mastery || 0;
+
+        bankBtn.innerHTML = `
+          <span class="dewey-bank-code">${bank.id}</span>
+          <span class="dewey-bank-title">${bank.title}</span>
+          <span class="dewey-bank-count">${bank.questionCount}q</span>
+          <div class="dewey-bank-mastery">
+            <div class="dewey-bank-mastery-fill" style="width: ${masteryPct}%"></div>
+          </div>
+        `;
+        bankBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          this.startStudyBank(category.id, bank.id);
+        });
+        banksContainer.appendChild(bankBtn);
+      }
+
+      group.appendChild(banksContainer);
+      container.appendChild(group);
+    }
+  }
+
+  /**
+   * Start study session for a specific bank
+   */
+  async startStudyBank(categoryId, bankId) {
+    try {
+      this.showLoading(true);
+
+      const category = this.registry.categories.find(c => c.id === categoryId);
+      const bank = category.banks.find(b => b.id === bankId);
+
+      const data = await this.loadQuestionBank(categoryId, bank.id);
+      const questions = data.questions;
+
+      // Initialize state
+      this.currentQuiz = questions.map(q => ({...q}));
+      this.currentIdx = 0;
+      this.exploredOptions = {};
+      this.correctAnswerProcessed = {};
+      this.firstExplorationPerPhase = {};
+
+      // Reset warmup state
+      this.currentPhase = 'warmup1';
+      this.mainQuestion = this.currentQuiz[0];
+      this.warmupAnswered = { warmup1: false, warmup2: false };
+
+      // Start gamification session
+      persistence.startSession();
+      scaffolding.resetSessionCounters();
+      this.previousLevel = persistence.getPlayer().level;
+
+      // Switch views
+      document.getElementById('landing').classList.add('hidden');
+      document.getElementById('studyView').classList.add('active');
+
+      // Render stats bar and first question
+      this.renderer.renderStatsBar();
+      this.startEncounter();
+      this.renderQuestion();
+
+    } catch (error) {
+      console.error('Failed to start bank study session:', error);
+      this.showError('Failed to load questions. Please try again.');
+    } finally {
+      this.showLoading(false);
     }
   }
 
