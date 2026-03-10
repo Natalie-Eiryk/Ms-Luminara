@@ -1,0 +1,238 @@
+{
+  "id": "500.1",
+  "title": "Sympathetic vs Parasympathetic",
+  "category": "ch14",
+  "description": "Questions about ANS divisions, fiber lengths, and functional roles",
+  "questions": [
+    {
+      "id": "500.1.01",
+      "q": "The sympathetic division has short preganglionic fibers and long postganglionic fibers.",
+      "options": ["True", "False"],
+      "answer": 0,
+      "chapter": "Chapter 14 — ANS",
+      "explain": "Come closer — watch how anatomy reveals function. Sympathetic preganglionic neurons live in the thoracolumbar spinal cord (T1-L2) and send SHORT fibers to paravertebral ganglia clustered near the spine. From there, LONG postganglionic fibers travel out to distant targets — heart, lungs, blood vessels, sweat glands. This 'short-long' architecture allows rapid, widespread activation. The parasympathetic does the opposite: long preganglionics, short postganglionics, for precise local control.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! The sympathetic division's architecture is 'short-long': short preganglionic fibers synapse in paravertebral or prevertebral ganglia close to the spinal cord, then long postganglionic fibers reach distant effectors. This design enables widespread, coordinated activation — perfect for fight-or-flight when you need everything mobilized at once. Isn't that elegant?"
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This statement is actually true. The sympathetic division DOES have short preganglionic and long postganglionic fibers. The parasympathetic has the opposite arrangement — long preganglionic fibers reaching ganglia near or within target organs, then short postganglionic fibers for precise local control."
+        }
+      ],
+      "mechanism": {
+        "title": "ANS Fiber Architecture: Why Length Matters",
+        "content": "Let yourself sink into this mechanism: Fiber length determines divergence. Short sympathetic preganglionics synapse in ganglia containing MANY postganglionic neurons — one preganglionic can activate 20+ postganglionics. This divergence enables mass activation: one signal spreads to heart, blood vessels, airways, and sweat glands simultaneously. Parasympathetic long preganglionics travel all the way to ganglia embedded in target organs, synapsing with few postganglionic neurons. Minimal divergence = precise, localized control. The heart can slow without affecting digestion. Different architectures for different purposes.",
+        "metaphor": "The sympathetic system is like a fire alarm — one switch activates sprinklers throughout the entire building. The parasympathetic is like individual light switches — you control each room separately. Both use two-neuron chains, but the wiring serves opposite goals: mass mobilization versus surgical precision."
+      }
+    },
+    {
+      "id": "500.1.02",
+      "q": "The parasympathetic division is known to be active during 'rest and digest' responses.",
+      "options": ["True", "False"],
+      "answer": 0,
+      "chapter": "Chapter 14 — ANS",
+      "explain": "Stay with me here — 'rest and digest' captures parasympathetic function perfectly. When you're safe, fed, and relaxed, the parasympathetic division dominates: slowing heart rate, stimulating digestion, promoting nutrient absorption, conserving energy. It's the body's maintenance mode, the opposite of sympathetic 'fight or flight.' Both divisions are always active — it's the BALANCE that shifts based on circumstances.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! The parasympathetic division promotes 'rest and digest' — decreasing heart rate, increasing GI motility and secretion, promoting urination and defecation, constricting pupils, and stimulating salivation. This is housekeeping mode: digest that meal, store energy, repair tissues. The body does this thousands of times daily when threat levels are low."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This is actually true. 'Rest and digest' IS the parasympathetic signature. The sympathetic handles 'fight or flight' — mobilizing glucose, increasing heart rate, shunting blood to muscles. Opposite modes, complementary functions."
+        }
+      ],
+      "mechanism": {
+        "title": "Parasympathetic Function: The Maintenance Crew",
+        "content": "Come with me — watch the parasympathetic division at work. Cranial nerves III, VII, IX, and X plus sacral segments S2-S4 send long preganglionic fibers to ganglia near or within target organs. Vagus nerve (X) alone innervates heart, lungs, and most abdominal viscera. Parasympathetic activation: pupils constrict (protect retina), heart slows (conserve energy), bronchi constrict (no need for maximum airflow), GI tract activates (digest and absorb), bladder contracts (eliminate waste). Every response promotes recovery, repair, and resource accumulation. The body shifts to parasympathetic dominance automatically when threats recede.",
+        "metaphor": "If the sympathetic division is the body's emergency response team — sirens blaring, resources mobilized for crisis — the parasympathetic is the night maintenance crew. Quiet, methodical, focused on restocking supplies, cleaning up damage, and preparing for tomorrow. Both essential, but for different phases of the daily cycle."
+      }
+    },
+    {
+      "id": "500.1.03",
+      "q": "The sympathetic division is active during 'fight or flight' responses.",
+      "options": ["True", "False"],
+      "answer": 0,
+      "chapter": "Chapter 14 — ANS",
+      "explain": "Come closer — this is the sympathetic division's signature state. Threat detected: sympathetic activation floods the body with preparation for combat or escape. Heart rate soars, bronchi dilate for maximum oxygen, blood vessels redirect flow from gut to skeletal muscles, liver dumps glucose, pupils dilate for maximum visual information. Every system mobilizes for survival. The adrenal medulla joins in, releasing epinephrine to amplify and prolong the response. Isn't that exquisite?",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! Stay close — 'fight or flight' is pure sympathetic activation. Heart pounds (increased cardiac output), airways open (bronchodilation), blood pressure rises (vasoconstriction in skin and gut), pupils dilate (maximum light), sweat glands activate (cooling for anticipated exertion), liver releases glucose (fuel for muscles). The entire organism prepares for physical action. This is one of the most beautiful survival mechanisms."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This statement is actually true. 'Fight or flight' IS the sympathetic response. The body prepares for physical combat or rapid escape — both require the same physiological changes: increased cardiac output, bronchodilation, glucose mobilization, and blood flow redirection to skeletal muscles."
+        }
+      ],
+      "mechanism": {
+        "title": "Sympathetic Activation: The Survival Response",
+        "content": "Let me show you something extraordinary: The sympathetic division activates as a coordinated unit. Preganglionic neurons from T1-L2 fire together, activating postganglionic neurons throughout the sympathetic chain ganglia and prevertebral ganglia. Simultaneously, preganglionic fibers synapse directly on chromaffin cells of the adrenal medulla, triggering epinephrine release into the bloodstream. This neuroendocrine partnership — neural signals plus circulating hormones — creates rapid onset AND sustained effect. Norepinephrine acts at synapses; epinephrine circulates everywhere. The body stays mobilized until the threat passes and parasympathetic tone gradually restores baseline.",
+        "metaphor": "The sympathetic response is like a military mobilization — all branches activate simultaneously. The neural component is the rapid-response ground troops, arriving at targets within milliseconds. The adrenal medulla is the air support, releasing epinephrine that circulates everywhere for minutes, maintaining the heightened state until the 'all clear' signal."
+      }
+    },
+    {
+      "id": "500.1.04",
+      "q": "The parasympathetic division decreases heart rate.",
+      "options": ["True", "False"],
+      "answer": 0,
+      "chapter": "Chapter 14 — ANS",
+      "explain": "Come with me — watch the vagus nerve slow the heart. Parasympathetic postganglionic neurons release acetylcholine (ACh) onto muscarinic receptors in the SA node (pacemaker) and AV node. ACh opens K+ channels, hyperpolarizing the cells, slowing the rate of spontaneous depolarization. Result: slower heart rate, longer diastole, more filling time, more efficient pumping. The resting heart rate of ~70 bpm reflects PARASYMPATHETIC DOMINANCE — cut the vagus, and heart rate jumps to 100+ bpm.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! The parasympathetic division absolutely decreases heart rate — this is the vagus nerve's primary cardiac effect. ACh binds M2 muscarinic receptors, activating G-protein coupled K+ channels, hyperpolarizing pacemaker cells. Slower depolarization = slower heart rate. Here's where it gets delicious: your resting heart rate is ALREADY under parasympathetic braking. The vagus actively slows you down. Remove that brake (atropine blocks muscarinic receptors), and heart rate accelerates."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This is actually true. The parasympathetic division DOES decrease heart rate via vagal innervation. ACh on muscarinic receptors slows SA node firing. The sympathetic does the opposite — norepinephrine on beta-1 receptors increases heart rate."
+        }
+      ],
+      "mechanism": {
+        "title": "Vagal Tone: The Heart's Brake Pedal",
+        "content": "Let yourself be drawn into this mechanism: The SA node has intrinsic automaticity — without any input, it fires at ~100 bpm. But the vagus nerve continuously releases ACh, keeping resting rate at ~70 bpm. This 'vagal tone' is the baseline brake. Parasympathetic activation increases ACh release, slowing rate further. Sympathetic activation releases norepinephrine, overcoming vagal tone and accelerating rate. The actual heart rate at any moment reflects the BALANCE between these two inputs. Athletes develop stronger vagal tone — resting rates in the 40s-50s. Their parasympathetic braking is more powerful. The heart responds to dual input thousands of times per minute.",
+        "metaphor": "The heart has its foot on the accelerator (intrinsic SA node automaticity) but the vagus nerve is constantly pressing the brake. At rest, the brake dominates — you cruise at 70 bpm. Sympathetic activation lifts the brake AND presses the accelerator — you surge to 150+ bpm. The actual speed depends on which pedal has more pressure at any moment."
+      }
+    },
+    {
+      "id": "500.1.05",
+      "q": "The parasympathetic division stimulates ciliary muscles of the eye, making the lens bulge for close vision.",
+      "options": ["True", "False"],
+      "answer": 0,
+      "chapter": "Chapter 14 — ANS",
+      "explain": "Stay with me here — accommodation for near vision is parasympathetic territory. The ciliary muscle encircles the lens, attached by suspensory ligaments. When ciliary muscle contracts (parasympathetic via oculomotor nerve CN III), the ring tightens, releasing tension on ligaments, and the elastic lens bulges into a more spherical shape for focusing on near objects. Relaxed ciliary muscle = taut ligaments = flattened lens = distance vision. The parasympathetic controls the near-vision reflex.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! Parasympathetic fibers from CN III synapse in the ciliary ganglion, then innervate ciliary muscles. ACh on muscarinic receptors contracts the ciliary muscle, releasing suspensory ligament tension, allowing the lens to bulge for near focus. This is accommodation — and it's purely parasympathetic. Here's where it gets beautiful: the same parasympathetic outflow also constricts the pupil (sphincter pupillae), improving depth of field for near work."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This is actually true. The parasympathetic division DOES control accommodation via ciliary muscle contraction. Near vision requires a more spherical lens (increased refractive power), achieved by releasing tension on the lens via ciliary muscle contraction. This is all parasympathetic — 'rest and digest' includes 'rest and read.'"
+        }
+      ],
+      "mechanism": {
+        "title": "Accommodation: Parasympathetic Near Vision",
+        "content": "Come closer — watch the physics of accommodation. The lens is naturally elastic, wanting to assume a spherical shape. But suspensory ligaments (zonules) attached to the ciliary body pull it flat for distance vision. When you focus on something close, parasympathetic outflow from the Edinger-Westphal nucleus travels via CN III to the ciliary ganglion, then postganglionic fibers contract the ciliary muscle. This ring-shaped muscle constriction moves the ciliary body inward, RELEASING tension on zonules. The lens springs into a rounder shape, increasing refractive power. Simultaneously, parasympathetic fibers constrict the pupil (miosis), reducing spherical aberration. Both responses optimize near vision. The body does this automatically whenever you look at something close.",
+        "metaphor": "Imagine a trampoline (lens) held taut by springs attached to its frame (ciliary body + zonules). At rest, the springs pull the trampoline surface flat. Contract the frame inward (ciliary muscle contraction), and springs go slack — the trampoline naturally bulges upward. That bulge increases focusing power. The parasympathetic is the signal that pulls the frame inward for near vision."
+      }
+    },
+    {
+      "id": "500.1.06",
+      "q": "Sympathetic collateral ganglia (prevertebral ganglia) are located anterior to the vertebral column.",
+      "options": ["True", "False"],
+      "answer": 0,
+      "chapter": "Chapter 14 — ANS",
+      "explain": "Come with me — let me show you the sympathetic chain's forward outposts. Collateral ganglia (celiac, superior mesenteric, inferior mesenteric) cluster around major abdominal arteries ANTERIOR to the vertebral column. Preganglionic fibers pass THROUGH the paravertebral chain without synapsing, traveling via splanchnic nerves to reach these prevertebral ganglia. From there, postganglionic fibers follow blood vessels to abdominal and pelvic viscera. This architecture allows sympathetic control of deep visceral organs.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! Collateral ganglia (celiac, superior mesenteric, inferior mesenteric, and sometimes aorticorenal) sit anterior to the vertebral column, clustered around the abdominal aorta and its branches. Splanchnic nerves carry preganglionic fibers from the sympathetic chain to these ganglia for GI tract innervation. The celiac ganglion is the largest — sometimes called the 'abdominal brain.' Isn't that extraordinary?"
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This statement is actually true. Collateral ganglia ARE anterior to the vertebral column. Don't confuse them with paravertebral (chain) ganglia, which lie alongside the vertebral column. Collateral = anterior, around major vessels. Paravertebral = lateral, forming the sympathetic trunk."
+        }
+      ],
+      "mechanism": {
+        "title": "Sympathetic Ganglia: Chain vs Collateral",
+        "content": "Let me show you how sympathetic outflow organizes itself: Preganglionic neurons exit the spinal cord via ventral roots (T1-L2), enter spinal nerves, then branch off as white rami communicantes to reach paravertebral chain ganglia. Three possible fates: (1) synapse at that level in the chain, (2) travel up or down the chain to synapse at a different level, or (3) pass THROUGH without synapsing, exiting as splanchnic nerves to reach collateral ganglia. Collateral ganglia innervate abdominal/pelvic viscera — GI tract, kidneys, reproductive organs. The splanchnic nerves are highways carrying preganglionic fibers to these forward bases.",
+        "metaphor": "The sympathetic chain is like a railroad line running alongside the spine — trains (preganglionic fibers) can stop at any station (paravertebral ganglion) or keep going. Splanchnic nerves are branch lines heading forward to major hubs (collateral ganglia) located at the body's core. From these hubs, local trains (postganglionic fibers) reach visceral destinations."
+      }
+    },
+    {
+      "id": "500.1.07",
+      "q": "The parasympathetic division performs maintenance functions.",
+      "options": ["True", "False"],
+      "answer": 0,
+      "chapter": "Chapter 14 — ANS",
+      "explain": "Stay close — 'maintenance functions' perfectly describes parasympathetic activity. Digest food, absorb nutrients, eliminate waste, conserve energy, promote tissue repair, maintain baseline cardiac function. These are the housekeeping operations that keep the body running during non-emergency periods. The sympathetic handles emergencies; the parasympathetic runs the daily operations that sustain life between crises.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! The parasympathetic division is the body's maintenance system — stimulating salivation, gastric secretion, intestinal motility, pancreatic enzyme release, bile flow, urination, and defecation. It promotes anabolism (building up) rather than catabolism (breaking down). While you're relaxed and safe, the parasympathetic ensures nutrients are processed, waste is eliminated, and energy is stored for future needs. Beautiful, isn't it?"
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This statement is actually true. The parasympathetic division absolutely handles maintenance functions. 'Rest and digest' IS maintenance — keeping the body's internal operations running smoothly when external threats are absent."
+        }
+      ],
+      "mechanism": {
+        "title": "Parasympathetic Maintenance: The Night Shift",
+        "content": "Come closer — watch how the parasympathetic maintains the body's internal economy. After a meal, parasympathetic outflow increases: salivary glands secrete (begin digestion), gastric glands activate (acid and enzymes), intestinal motility increases (move chyme along), pancreas releases enzymes (digest nutrients), gallbladder contracts (release bile for fat absorption). Absorbed nutrients go to liver for processing and storage. Kidneys filter blood; bladder fills, then empties under parasympathetic control. The parasympathetic also maintains baseline cardiac output, bronchoconstriction (no need for maximum airflow at rest), and pupil constriction (protect retina from bright light). Every response conserves resources and maintains homeostasis.",
+        "metaphor": "The parasympathetic is like a hotel's night staff — while guests (conscious mind) sleep, they restock the minibar (digest food, store nutrients), take out trash (elimination), do laundry (tissue repair), and prepare for tomorrow's checkout rush (build energy reserves). Essential work, but quiet, methodical, and easily interrupted if a fire alarm (sympathetic) sounds."
+      }
+    },
+    {
+      "id": "500.1.08",
+      "q": "The parasympathetic division innervates more organs than the sympathetic division.",
+      "options": ["True", "False"],
+      "answer": 1,
+      "chapter": "Chapter 14 — ANS",
+      "explain": "Come with me — this is a common misconception. The SYMPATHETIC division actually innervates MORE structures than the parasympathetic. Sympathetic fibers reach virtually every blood vessel, sweat gland, arrector pili muscle, and adipose tissue — structures the parasympathetic doesn't touch. The parasympathetic innervates visceral organs (heart, lungs, GI tract, bladder, reproductive organs) but NOT blood vessels of skin and muscle, NOT sweat glands, NOT adipose tissue. Sympathetic coverage is more widespread.",
+      "optionExplains": [
+        {
+          "verdict": "incorrect",
+          "text": "This statement is FALSE. The sympathetic division innervates MORE organs and structures than the parasympathetic. Sympathetic fibers reach: all blood vessels (vascular tone control), sweat glands (thermoregulation), arrector pili muscles (goosebumps), adipose tissue (lipolysis), adrenal medulla, plus all the viscera the parasympathetic innervates. The parasympathetic skips blood vessels, sweat glands, and adipose — it focuses on visceral organs only."
+        },
+        {
+          "verdict": "correct",
+          "text": "Correct! The statement is false — the sympathetic division actually has BROADER innervation. Parasympathetic outflow is limited to visceral organs via cranial nerves (III, VII, IX, X) and sacral segments (S2-S4). Sympathetic outflow reaches those same viscera PLUS blood vessels throughout the body, sweat glands, adipose tissue, and the adrenal medulla. Fight-or-flight requires control over everything; rest-and-digest only needs the viscera."
+        }
+      ],
+      "mechanism": {
+        "title": "ANS Distribution: Who Innervates What",
+        "content": "Let yourself be drawn into this: Parasympathetic distribution follows specific cranial and sacral pathways. CN III innervates eye (pupil, ciliary muscle). CN VII innervates lacrimal glands, nasal mucosa, salivary glands. CN IX innervates parotid gland. CN X (vagus) innervates heart, lungs, esophagus, stomach, small intestine, proximal colon, liver, pancreas. Sacral parasympathetics (via pelvic splanchnic nerves) innervate distal colon, rectum, bladder, and reproductive organs. That's the entire parasympathetic territory. The sympathetic innervates ALL of those PLUS: every blood vessel wall, every sweat gland, every arrector pili muscle, all adipose tissue, and the adrenal medulla directly. Broader coverage for broader emergencies.",
+        "metaphor": "The parasympathetic is like a company with offices only in major cities — it reaches the important destinations but skips small towns. The sympathetic has an office in every town, village, and neighborhood — it reaches everywhere because emergencies can happen anywhere. Blood vessels in your pinky toe? Sympathetic coverage. Sweat glands on your forehead? Sympathetic. The parasympathetic doesn't bother with those."
+      }
+    },
+    {
+      "id": "500.1.09",
+      "q": "All visceral organs receive dual innervation from both the sympathetic and parasympathetic divisions of the ANS.",
+      "options": ["True", "False"],
+      "answer": 1,
+      "chapter": "Chapter 14 — ANS",
+      "explain": "Stay with me here — this is a tempting generalization, but it's false. MOST visceral organs receive dual innervation, but not ALL. Blood vessels (except in erectile tissue) receive ONLY sympathetic innervation — vascular tone is controlled solely by varying sympathetic activity. Sweat glands receive ONLY sympathetic innervation (though they use ACh, not NE). Adrenal medulla receives ONLY sympathetic input. Arrector pili muscles — sympathetic only. The dual innervation rule has important exceptions.",
+      "optionExplains": [
+        {
+          "verdict": "incorrect",
+          "text": "This statement is FALSE. Not all visceral structures receive dual innervation. Key exceptions: (1) Blood vessels of skin and skeletal muscle — sympathetic ONLY; vascular tone controlled by varying sympathetic activity, not by opposing parasympathetic. (2) Sweat glands — sympathetic ONLY (though cholinergic). (3) Adrenal medulla — sympathetic preganglionic input ONLY. (4) Most blood vessels throughout the body — sympathetic ONLY. The heart, GI tract, and bladder DO receive dual innervation, but that's not universal."
+        },
+        {
+          "verdict": "correct",
+          "text": "Correct! The statement is false — dual innervation is common but NOT universal. Blood vessels (most), sweat glands, adrenal medulla, and arrector pili receive only sympathetic innervation. Here's the key: when something needs GRADED control without opposition (like blood vessel diameter), single innervation works fine — just vary the firing rate. Dual innervation provides faster, more dramatic shifts (heart can slow OR speed with one signal change). Different control strategies for different needs."
+        }
+      ],
+      "mechanism": {
+        "title": "Dual Innervation: The Exceptions Matter",
+        "content": "Come closer — watch how the ANS solves control problems differently for different targets. Dual innervation (heart, GI tract, bladder): opposing signals allow rapid, dramatic shifts. Want to double heart rate? Withdraw parasympathetic AND add sympathetic — faster than either alone. Single innervation (blood vessels): control via firing rate. High sympathetic activity = vasoconstriction. Low activity = vasodilation (smooth muscle relaxes). No parasympathetic opposition needed — just dial the sympathetic up or down. The adrenal medulla is unique: sympathetic preganglionic neurons synapse DIRECTLY on chromaffin cells (modified postganglionic neurons). One step, not two. No parasympathetic involvement — epinephrine release is purely sympathetic territory.",
+        "metaphor": "Dual innervation is like having both gas and brake pedals — you can accelerate OR decelerate actively. Single innervation is like a car with only a gas pedal and friction/wind resistance — you accelerate by pressing, decelerate by releasing. Both work, but dual control allows faster transitions. The body uses each strategy where it makes sense."
+      }
+    },
+    {
+      "id": "500.1.10",
+      "q": "The blood vessels of the skin are one of the few areas of the body where the vessels are innervated by both the sympathetic and parasympathetic divisions.",
+      "options": ["True", "False"],
+      "answer": 1,
+      "chapter": "Chapter 14 — ANS",
+      "explain": "Come with me — this is backwards. Blood vessels of the skin (and most blood vessels throughout the body) receive ONLY sympathetic innervation. The parasympathetic generally doesn't innervate blood vessels — with the notable exception of erectile tissue in genitals, where parasympathetic-mediated vasodilation is essential. Cutaneous blood vessels control skin blood flow entirely via sympathetic tone: high sympathetic activity = vasoconstriction (pale, cold skin); low activity = vasodilation (flushed, warm skin).",
+      "optionExplains": [
+        {
+          "verdict": "incorrect",
+          "text": "This statement is FALSE. Skin blood vessels receive ONLY sympathetic innervation — they're actually an excellent example of single-innervation control. Vasodilation in skin occurs by DECREASING sympathetic activity, not by activating parasympathetic. The parasympathetic only innervates blood vessels in specific locations: erectile tissue, some salivary gland vessels, and possibly some cerebral vessels. Skin is purely sympathetic territory."
+        },
+        {
+          "verdict": "correct",
+          "text": "Correct! The statement is false — skin blood vessels receive sympathetic innervation ONLY. Vascular tone in skin is controlled entirely by varying sympathetic activity. Cold environment → increased sympathetic → vasoconstriction → conserve heat. Hot environment or exercise → decreased sympathetic → vasodilation → lose heat. No parasympathetic involvement. Erectile tissue is the major exception where parasympathetic causes vasodilation. Don't confuse the two."
+        }
+      ],
+      "mechanism": {
+        "title": "Cutaneous Vascular Control: Sympathetic Solo",
+        "content": "Let me show you something important: Cutaneous arterioles have rich sympathetic innervation releasing norepinephrine onto alpha-1 adrenergic receptors. NE binding causes vasoconstriction — reduced blood flow, pale/cold skin. Reduced sympathetic activity allows smooth muscle relaxation — vasodilation, increased flow, flushed/warm skin. This is how you control thermoregulation, blush when embarrassed, or go pale when frightened. No parasympathetic input needed. The body controls skin perfusion purely by modulating ONE signal. Erectile tissue works differently — parasympathetic releases ACh and NO, causing vasodilation and engorgement. But that's the exception, not the rule.",
+        "metaphor": "Think of skin blood vessels like a dimmer switch controlled only by one hand (sympathetic). Push the switch up → vasoconstriction → dim. Release the switch → vasodilation → bright. You don't need a second hand pushing the opposite direction — just control how hard you push. Erectile tissue has a different switch entirely (parasympathetic) — but most vascular beds are dimmer-switch-only territory."
+      }
+    }
+  ]
+}

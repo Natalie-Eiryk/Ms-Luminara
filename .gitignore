@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+tts-server/node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+tts-server/__pycache__/
+
+# TTS cache (regenerated at runtime)
+tts-server/.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+nul
+
+# IDE
+.vscode/
+.idea/
+
+# Local-only files (TTS server needs local Python)
+tts-server/
+*.bat
+*.ps1
+*.sh
+
+# Dev docs (not needed for deployment)
+docs/
+DEV_SESSION_SUMMARY.md
+DEPLOY_TO_WEBSITE.md
+
+# Build artifacts (generated from .json via build-for-local.js)
+# Uncomment if you want to ignore generated .js question banks:
+# 100-brain/*.js
+# 200-nerves/*.js
+# 300-foundations/*.js
+# 400-tissues/*.js
+# !**/000-core/*.js

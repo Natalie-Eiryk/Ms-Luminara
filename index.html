@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Luminara Quiz">
+  <meta name="theme-color" content="#f5c542">
+  <meta name="description" content="Gamified anatomy & physiology quiz with RPG mechanics - by Ms. Luminara">
+  <title>Ms. Luminara's Quiz Lab</title>
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- iOS Icons -->
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/icon-180.png">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="000-core/000.0-styles.css">
+  <link rel="stylesheet" href="000-core/000.0-dev-panel.css">
+  <style>
+    /* ==================== MODE NAV TABS ==================== */
+    .mode-nav {
+      display: flex;
+      justify-content: center;
+      gap: 0.25rem;
+      padding: 0.6rem 1rem;
+      background: linear-gradient(180deg, var(--bg-card) 0%, var(--bg-deep) 100%);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 90;
+    }
+
+    .mode-tab {
+      padding: 0.5rem 1.1rem;
+      background: transparent;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      color: var(--text-dim);
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.15s;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-family: inherit;
+    }
+
+    .mode-tab:hover {
+      background: var(--bg-card);
+      color: var(--text-primary);
+    }
+
+    .mode-tab.active {
+      background: var(--bg-card);
+      border-color: var(--glow-warm);
+      color: var(--glow-warm);
+    }
+
+    .mode-tab .icon { font-size: 1rem; }
+
+    .mode-tab .badge {
+      background: var(--incorrect);
+      color: #fff;
+      font-size: 0.6rem;
+      padding: 0.1rem 0.4rem;
+      border-radius: 10px;
+      font-weight: 600;
+      margin-left: 0.25rem;
+    }
+
+    /* ==================== MODULE CONTAINERS ==================== */
+    .module-container { display: none; }
+    .module-container.active { display: block; }
+
+    /* ==================== BLITZ MODE ==================== */
+    .blitz-container {
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .blitz-header {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .blitz-timer {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--glow-warm);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .blitz-timer.warning { color: #fbbf24; }
+    .blitz-timer.danger { color: var(--incorrect); animation: blink 0.5s infinite; }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+
+    .blitz-score-display {
+      text-align: right;
+    }
+
+    .blitz-score-display .score {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--correct);
+    }
+
+    .blitz-score-display .label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .blitz-start-btn {
+      width: 100%;
+      padding: 1.25rem;
+      background: linear-gradient(135deg, var(--glow-warm) 0%, #f59e0b 100%);
+      border: none;
+      border-radius: 10px;
+      color: #000;
+      font-size: 1.2rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.1s, box-shadow 0.2s;
+      margin-bottom: 1rem;
+    }
+
+    .blitz-start-btn:hover {
+      transform: scale(1.02);
+      box-shadow: 0 4px 20px rgba(245, 158, 11, 0.3);
+    }
+
+    .blitz-question-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .blitz-question-text {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+
+    .blitz-options {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+    }
+
+    .blitz-option {
+      padding: 1rem;
+      background: var(--bg-card);
+      border: 2px solid var(--border);
+      border-radius: 8px;
+      color: var(--text-primary);
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.1s;
+      text-align: center;
+    }
+
+    .blitz-option:hover:not(.disabled) {
+      border-color: var(--glow-warm);
+      background: var(--bg-card-hover);
+    }
+
+    .blitz-option.correct { background: var(--correct-soft); border-color: var(--correct); }
+    .blitz-option.incorrect { background: var(--incorrect-soft); border-color: var(--incorrect); }
+    .blitz-option.disabled { cursor: default; }
+
+    .blitz-result {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .blitz-result .final-score {
+      font-size: 4rem;
+      font-weight: 700;
+      color: var(--glow-warm);
+    }
+
+    .blitz-result .result-label {
+      font-size: 1.2rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+
+    .blitz-result .xp-earned {
+      font-size: 1.5rem;
+      color: var(--correct);
+      margin-top: 1rem;
+    }
+
+    /* ==================== JEOPARDY MODE ==================== */
+    .jeopardy-container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .jeopardy-clue-card {
+      background: linear-gradient(135deg, #1a237e 0%, #0d47a1 100%);
+      border: 3px solid #ffd700;
+      border-radius: 16px;
+      padding: 2.5rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+      box-shadow: 0 8px 32px rgba(26, 35, 126, 0.5);
+    }
+
+    .jeopardy-category {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: rgba(255, 215, 0, 0.7);
+      margin-bottom: 0.5rem;
+    }
+
+    .jeopardy-value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #ffd700;
+      margin-bottom: 1rem;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+
+    .jeopardy-clue-text {
+      font-family: 'Georgia', serif;
+      font-size: 1.4rem;
+      color: #fff;
+      line-height: 1.7;
+      font-style: italic;
+    }
+
+    .jeopardy-answer-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .jeopardy-answer-btn {
+      padding: 1.25rem;
+      background: var(--bg-card);
+      border: 2px solid var(--border);
+      border-radius: 10px;
+      color: var(--text-primary);
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .jeopardy-answer-btn:hover:not(.disabled) {
+      border-color: #ffd700;
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .jeopardy-answer-btn.correct {
+      background: rgba(52, 211, 153, 0.2);
+      border-color: var(--correct);
+    }
+
+    .jeopardy-answer-btn.incorrect {
+      background: var(--incorrect-soft);
+      border-color: var(--incorrect);
+    }
+
+    .jeopardy-nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    /* ==================== SRS REVIEW MODE ==================== */
+    .review-container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .review-header {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .review-due-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .review-due-count {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--glow-warm);
+    }
+
+    .review-due-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .review-badges {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .review-badge {
+      padding: 0.3rem 0.6rem;
+      border-radius: 6px;
+      font-size: 0.7rem;
+      font-weight: 600;
+    }
+
+    .review-badge.overdue { background: var(--incorrect-soft); color: var(--incorrect); }
+    .review-badge.due { background: rgba(245, 197, 66, 0.2); color: var(--glow-warm); }
+    .review-badge.new { background: rgba(52, 211, 153, 0.2); color: var(--correct); }
+
+    .srs-buttons {
+      display: flex;
+      gap: 0.5rem;
+      padding: 1rem;
+      background: var(--bg-card);
+      border-top: 1px solid var(--border);
+      border-radius: 0 0 12px 12px;
+    }
+
+    .srs-btn {
+      flex: 1;
+      padding: 0.75rem 0.5rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--bg-card-hover);
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.15s;
+      text-align: center;
+    }
+
+    .srs-btn:hover { background: rgba(255,255,255,0.05); color: var(--text-primary); }
+
+    .srs-btn.again { border-color: var(--incorrect); }
+    .srs-btn.again:hover { background: var(--incorrect-soft); color: var(--incorrect); }
+    .srs-btn.hard { border-color: #fbbf24; }
+    .srs-btn.good { border-color: var(--correct); }
+    .srs-btn.easy { border-color: #60a5fa; }
+
+    .srs-btn .interval {
+      display: block;
+      font-size: 0.65rem;
+      margin-top: 0.2rem;
+      opacity: 0.7;
+    }
+
+    .review-empty {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: var(--text-muted);
+    }
+
+    .review-empty .icon { font-size: 4rem; margin-bottom: 1rem; }
+
+    /* ==================== LIGHTNING MODE ==================== */
+    .lightning-container {
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .lightning-header {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .lightning-progress {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
+    .lightning-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--bg-card-hover);
+      border: 1px solid var(--border);
+    }
+
+    .lightning-dot.correct { background: var(--correct); border-color: var(--correct); }
+    .lightning-dot.wrong { background: var(--incorrect); border-color: var(--incorrect); }
+    .lightning-dot.current { border-color: var(--glow-warm); box-shadow: 0 0 8px var(--glow-warm); }
+
+    .lightning-strikes {
+      display: flex;
+      gap: 0.25rem;
+      font-size: 1.5rem;
+    }
+
+    .lightning-strikes .strike { opacity: 0.2; }
+    .lightning-strikes .strike.active { opacity: 1; }
+
+    /* ==================== STATS VIEW ==================== */
+    .stats-container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .stat-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    .stat-card .stat-value {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--glow-warm);
+    }
+
+    .stat-card .stat-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 0.25rem;
+    }
+
+    .mastery-section {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .mastery-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+
+    .mastery-row {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .mastery-label { flex: 1; font-size: 0.9rem; }
+
+    .mastery-bar {
+      width: 150px;
+      height: 8px;
+      background: var(--bg-card);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .mastery-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--glow-warm), var(--correct));
+      border-radius: 4px;
+      transition: width 0.3s;
+    }
+
+    .mastery-pct {
+      width: 40px;
+      text-align: right;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    /* ==================== RESPONSIVE ==================== */
+    @media (max-width: 768px) {
+      .mode-nav {
+        overflow-x: auto;
+        justify-content: flex-start;
+        padding: 0.5rem;
+      }
+
+      .mode-tab {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.75rem;
+        white-space: nowrap;
+      }
+
+      .blitz-options,
+      .jeopardy-answer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .blitz-timer { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Loading Overlay -->
+  <div id="loader" class="hidden">
+    <div class="loader-content">
+      <div class="spinner"></div>
+      <p>Loading questions...</p>
+    </div>
+  </div>
+
+  <!-- Error Message -->
+  <div id="errorMessage" class="hidden"></div>
+
+  <!-- Mode Navigation -->
+  <nav class="mode-nav" id="modeNav">
+    <button class="mode-tab active" data-mode="study">
+      <span class="icon">📖</span> Study
+    </button>
+    <button class="mode-tab" data-mode="review">
+      <span class="icon">🔄</span> Review
+      <span class="badge" id="dueBadge" style="display:none">0</span>
+    </button>
+    <button class="mode-tab" data-mode="jeopardy">
+      <span class="icon">❓</span> Jeopardy
+    </button>
+    <button class="mode-tab" data-mode="blitz">
+      <span class="icon">⚡</span> Blitz
+    </button>
+    <button class="mode-tab" data-mode="lightning">
+      <span class="icon">🎯</span> Lightning
+    </button>
+    <button class="mode-tab" data-mode="stats">
+      <span class="icon">📊</span> Stats
+    </button>
+  </nav>
+
+  <!-- Study Module (Original landing + study view) -->
+  <div class="module-container active" id="module-study">
+    <!-- Landing Page -->
+    <div id="landing">
+      <div class="landing-content">
+        <div class="landing-header">
+          <h1>Ms. Luminara's Study Session</h1>
+          <button class="settings-btn" onclick="if(quiz && quiz.renderer) quiz.renderer.showVoiceSettings(); else alert('Quiz still loading...');" title="Voice Settings">
+            🔊 Voice Settings
+          </button>
+        </div>
+        <p class="subtitle">Explore every answer. Learn the mechanism. No penalty for curiosity.</p>
+
+        <div class="luminara-welcome">
+          <div class="speaker">Ms. Luminara</div>
+          <p>"Welcome to my study session. Here, there are no wrong answers — only opportunities to learn. Click any option to explore it. I'll explain why it's right or wrong, and together we'll take a tour through the mechanism. Ready to begin?"</p>
+        </div>
+
+        <h2>Choose Your Topic</h2>
+        <div id="quizSelect" class="quiz-select">
+          <div class="loading-placeholder">Loading categories...</div>
+        </div>
+
+        <div id="landingStats" class="landing-stats"></div>
+
+        <div class="reference-note">
+          <p><strong>Reference:</strong> Question banks organized using Dewey Decimal system</p>
+          <p>See <a href="README.md">README.md</a> for documentation</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Study View -->
+    <div id="studyView">
+      <div id="statsBar" class="stats-bar"></div>
+
+      <div class="progress-bar">
+        <div id="progressFill" class="progress-fill"></div>
+      </div>
+
+      <div class="nav-header">
+        <button class="nav-btn" onclick="goHome()">← Back to Topics</button>
+        <span id="progressInfo">Question 1 of 10</span>
+      </div>
+
+      <div id="questionArea"></div>
+
+      <div class="nav-footer">
+        <button id="prevBtn" class="nav-btn" onclick="prevQuestion()">← Previous</button>
+        <button id="nextBtn" class="nav-btn primary" onclick="nextQuestion()">Next →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Review Module (SRS) -->
+  <div class="module-container" id="module-review">
+    <div class="review-container">
+      <div class="review-header">
+        <div class="review-due-info">
+          <div class="review-due-count" id="reviewDueCount">0</div>
+          <div class="review-due-label">questions to review</div>
+        </div>
+        <div class="review-badges" id="reviewBadges"></div>
+      </div>
+      <div id="reviewArea">
+        <div class="review-empty">
+          <div class="icon">✨</div>
+          <h3>All caught up!</h3>
+          <p>No reviews due right now. Come back later or study new topics.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Jeopardy Module -->
+  <div class="module-container" id="module-jeopardy">
+    <div class="jeopardy-container">
+      <div id="jeopardyArea">
+        <div class="loading">Loading Jeopardy...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Blitz Module -->
+  <div class="module-container" id="module-blitz">
+    <div class="blitz-container">
+      <div class="blitz-header">
+        <div class="blitz-timer" id="blitzTimer">1:00</div>
+        <div class="blitz-score-display">
+          <div class="score" id="blitzScore">0</div>
+          <div class="label">correct</div>
+        </div>
+      </div>
+      <button class="blitz-start-btn" id="blitzStartBtn" onclick="QuizModes.startBlitz()">
+        Start 60-Second Blitz!
+      </button>
+      <div id="blitzQuestion"></div>
+    </div>
+  </div>
+
+  <!-- Lightning Module -->
+  <div class="module-container" id="module-lightning">
+    <div class="lightning-container">
+      <div class="lightning-header">
+        <div class="lightning-progress" id="lightningProgress"></div>
+        <div class="lightning-strikes" id="lightningStrikes">
+          <span class="strike active">❌</span>
+          <span class="strike active">❌</span>
+          <span class="strike active">❌</span>
+        </div>
+      </div>
+      <button class="blitz-start-btn" id="lightningStartBtn" onclick="QuizModes.startLightning()">
+        Start Lightning Round (10 Questions)
+      </button>
+      <div id="lightningQuestion"></div>
+    </div>
+  </div>
+
+  <!-- Stats Module -->
+  <div class="module-container" id="module-stats">
+    <div class="stats-container">
+      <div class="stats-grid" id="statsGrid"></div>
+      <div class="mastery-section" id="masterySection">
+        <div class="mastery-title">Category Mastery</div>
+        <div id="masteryBars"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dev Panel -->
+  <div id="devPanel" class="dev-panel hidden">
+    <div class="dev-panel-header">
+      <span>Dev Tools</span>
+      <button onclick="toggleDevPanel()" class="dev-close">×</button>
+    </div>
+    <div class="dev-panel-content">
+      <div class="dev-section">
+        <h4>Quick Actions</h4>
+        <button onclick="location.reload()" class="dev-btn">Refresh Page</button>
+        <button onclick="reloadStyles()" class="dev-btn">Reload CSS</button>
+        <button onclick="reloadQuestions()" class="dev-btn">Reload Questions</button>
+      </div>
+      <div class="dev-section">
+        <h4>Live CSS Tweaks</h4>
+        <label>Background: <input type="color" id="devBgColor" value="#0a0e1a" onchange="updateCSSVar('--bg-deep', this.value)"></label>
+        <label>Glow: <input type="color" id="devGlowColor" value="#f59e0b" onchange="updateCSSVar('--glow-warm', this.value)"></label>
+      </div>
+    </div>
+  </div>
+
+  <!-- Core Scripts -->
+  <script src="000-core/000.0-dev-tools.js"></script>
+  <script src="000-core/000.4-persistence.js"></script>
+  <script src="000-core/000.3-gamification.js"></script>
+  <script src="000-core/000.6-scaffolding.js"></script>
+  <script src="000-core/000.7-d20-system.js"></script>
+  <script src="000-core/000.8-loot-system.js"></script>
+  <script src="000-core/000.9-voice-system.js"></script>
+  <script src="000-core/000.2-renderer.js"></script>
+  <!-- Renderer Extension Modules (Body-Function-Subfunction architecture) -->
+  <script src="000-core/000.2.1-renderer-voice-lab.js"></script>
+  <script src="000-core/000.2.2-renderer-inventory.js"></script>
+  <script src="000-core/000.2.3-renderer-d20-ui.js"></script>
+  <script src="000-core/000.1-app.js"></script>
+
+  <!-- Mode Manager Script -->
+  <script>
+    /**
+     * QuizModes - Manages Blitz, Lightning, Jeopardy, and Review modes
+     * Integrates with the existing LuminaraQuiz system
+     */
+    const QuizModes = {
+      questions: [],
+      srsData: {},
+      currentMode: 'study',
+      mentorStyles: ['luminara', 'frizzle', 'feynman'],
+      wrongHistory: {},
+
+      // Blitz state
+      blitz: { active: false, timer: 60, score: 0, index: 0, interval: null },
+
+      // Lightning state
+      lightning: { active: false, index: 0, strikes: 3, results: [], maxQuestions: 10 },
+
+      // Jeopardy state
+      jeopardy: { index: 0, score: 0 },
+
+      // ==================== INIT ====================
+      async init() {
+        this.loadSrsData();
+        await this.loadAllQuestions();
+        this.setupModeNavigation();
+        this.updateDueBadge();
+      },
+
+      loadSrsData() {
+        const srs = localStorage.getItem('luminara_srs_data');
+        const wrong = localStorage.getItem('luminara_wrong_history');
+        if (srs) this.srsData = JSON.parse(srs);
+        if (wrong) this.wrongHistory = JSON.parse(wrong);
+      },
+
+      saveSrsData() {
+        localStorage.setItem('luminara_srs_data', JSON.stringify(this.srsData));
+        localStorage.setItem('luminara_wrong_history', JSON.stringify(this.wrongHistory));
+      },
+
+      async loadAllQuestions() {
+        try {
+          const registry = await fetch('000-core/question-registry.json').then(r => r.json());
+          for (const cat of registry.categories) {
+            for (const bank of cat.banks) {
+              try {
+                const data = await fetch(`${cat.folder}/${bank.file}`).then(r => r.json());
+                if (data.questions) {
+                  data.questions.forEach(q => {
+                    q._category = cat.name;
+                    q._bank = bank.title || bank.name;
+                    this.questions.push(q);
+                  });
+                }
+              } catch (e) {}
+            }
+          }
+          this.shuffleArray(this.questions);
+        } catch (e) {
+          console.error('Failed to load questions:', e);
+        }
+      },
+
+      shuffleArray(arr) {
+        for (let i = arr.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [arr[i], arr[j]] = [arr[j], arr[i]];
+        }
+      },
+
+      // ==================== MODE NAVIGATION ====================
+      setupModeNavigation() {
+        document.querySelectorAll('.mode-tab').forEach(tab => {
+          tab.addEventListener('click', () => {
+            const mode = tab.dataset.mode;
+            this.switchMode(mode);
+          });
+        });
+      },
+
+      switchMode(mode) {
+        this.currentMode = mode;
+
+        // Update tabs
+        document.querySelectorAll('.mode-tab').forEach(t => t.classList.remove('active'));
+        document.querySelector(`[data-mode="${mode}"]`)?.classList.add('active');
+
+        // Update containers
+        document.querySelectorAll('.module-container').forEach(c => c.classList.remove('active'));
+        document.getElementById(`module-${mode}`)?.classList.add('active');
+
+        // Special handling for Study mode - restore original landing/studyView visibility
+        if (mode === 'study') {
+          const landing = document.getElementById('landing');
+          const studyView = document.getElementById('studyView');
+          // If studyView is active (user was in a quiz), keep it visible
+          // Otherwise show landing
+          if (!studyView.classList.contains('active')) {
+            landing.classList.remove('hidden');
+          }
+        }
+
+        // Initialize mode
+        if (mode === 'review') this.initReview();
+        if (mode === 'jeopardy') this.initJeopardy();
+        if (mode === 'stats') this.renderStats();
+      },
+
+      // ==================== DUE BADGE ====================
+      updateDueBadge() {
+        const due = this.getDueQuestions();
+        const badge = document.getElementById('dueBadge');
+        if (due.length > 0) {
+          badge.style.display = 'inline';
+          badge.textContent = due.length;
+        } else {
+          badge.style.display = 'none';
+        }
+      },
+
+      getDueQuestions() {
+        const now = Date.now();
+        return this.questions.filter(q => {
+          const srs = this.srsData[q.id];
+          if (!srs) return true; // New
+          return srs.nextReview <= now;
+        });
+      },
+
+      // ==================== REVIEW MODE (SRS) ====================
+      initReview() {
+        const due = this.getDueQuestions();
+        document.getElementById('reviewDueCount').textContent = due.length;
+
+        // Badges
+        const now = Date.now();
+        let overdue = 0, dueNow = 0, newCards = 0;
+        due.forEach(q => {
+          const srs = this.srsData[q.id];
+          if (!srs) { newCards++; }
+          else if (srs.nextReview < now - 86400000) { overdue++; }
+          else { dueNow++; }
+        });
+
+        const badges = document.getElementById('reviewBadges');
+        badges.innerHTML = '';
+        if (overdue) badges.innerHTML += `<span class="review-badge overdue">${overdue} overdue</span>`;
+        if (dueNow) badges.innerHTML += `<span class="review-badge due">${dueNow} due</span>`;
+        if (newCards) badges.innerHTML += `<span class="review-badge new">${newCards} new</span>`;
+
+        // Render questions
+        const area = document.getElementById('reviewArea');
+        if (!due.length) {
+          area.innerHTML = `
+            <div class="review-empty">
+              <div class="icon">✨</div>
+              <h3>All caught up!</h3>
+              <p>No reviews due right now. Come back later or study new topics.</p>
+            </div>
+          `;
+          return;
+        }
+
+        area.innerHTML = due.slice(0, 5).map(q => this.renderReviewCard(q)).join('');
+      },
+
+      renderReviewCard(q) {
+        const mentor = this.getMentorForQuestion(q.id);
+        const srs = this.srsData[q.id] || { interval: 0, easeFactor: 2.5 };
+        const isNew = !this.srsData[q.id];
+
+        return `
+          <div class="blitz-question-card" data-qid="${q.id}" data-mentor="${mentor}">
+            <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:0.5rem;">
+              ${q._category} ${isNew ? '<span style="color:var(--correct)">• NEW</span>' : ''}
+            </div>
+            <div class="blitz-question-text">${q.q}</div>
+            <div class="blitz-options">
+              ${q.options.map((opt, i) => `
+                <button class="blitz-option" onclick="QuizModes.answerReview('${q.id}', ${i})">${opt}</button>
+              `).join('')}
+            </div>
+            <div class="srs-buttons" id="srs-${q.id}" style="display:none;">
+              <button class="srs-btn again" onclick="QuizModes.rateSrs('${q.id}', 0)">
+                Again<span class="interval">&lt;1m</span>
+              </button>
+              <button class="srs-btn hard" onclick="QuizModes.rateSrs('${q.id}', 1)">
+                Hard<span class="interval">${this.formatInterval(Math.max(1, srs.interval * 1.2))}</span>
+              </button>
+              <button class="srs-btn good" onclick="QuizModes.rateSrs('${q.id}', 2)">
+                Good<span class="interval">${this.formatInterval(srs.interval < 1 ? 10 : srs.interval * srs.easeFactor)}</span>
+              </button>
+              <button class="srs-btn easy" onclick="QuizModes.rateSrs('${q.id}', 3)">
+                Easy<span class="interval">${this.formatInterval(srs.interval < 1 ? 4*24*60 : srs.interval * srs.easeFactor * 1.5)}</span>
+              </button>
+            </div>
+          </div>
+        `;
+      },
+
+      answerReview(qid, optIndex) {
+        const q = this.questions.find(q => q.id === qid);
+        if (!q) return;
+
+        const card = document.querySelector(`[data-qid="${qid}"]`);
+        const options = card.querySelectorAll('.blitz-option');
+        const isCorrect = optIndex === q.answer;
+
+        options.forEach((opt, i) => {
+          opt.classList.add('disabled');
+          opt.onclick = null;
+          if (i === q.answer) opt.classList.add('correct');
+          if (i === optIndex && !isCorrect) opt.classList.add('incorrect');
+        });
+
+        // Show SRS buttons
+        document.getElementById(`srs-${qid}`).style.display = 'flex';
+
+        // Award XP via gamification if available
+        if (typeof gamification !== 'undefined' && gamification && typeof persistence !== 'undefined') {
+          if (isCorrect) {
+            const result = gamification.processCorrectAnswer(qid, { completedWarmups: false, exploredWrongFirst: false });
+            if (quiz && quiz.renderer) {
+              quiz.renderer.renderStatsBar();
+              quiz.renderer.showXPPopup(result.xp, gamification.getStreakMessage(result.streak), false);
+            }
+          } else {
+            gamification.processWrongAnswer(qid);
+            if (!this.wrongHistory[qid]) this.wrongHistory[qid] = [];
+            const mentor = card.dataset.mentor;
+            if (!this.wrongHistory[qid].includes(mentor)) {
+              this.wrongHistory[qid].push(mentor);
+            }
+          }
+        }
+      },
+
+      rateSrs(qid, rating) {
+        const now = Date.now();
+        let srs = this.srsData[qid] || { interval: 1, easeFactor: 2.5, reviewCount: 0 };
+
+        if (rating === 0) {
+          srs.interval = 1;
+          srs.easeFactor = Math.max(1.3, srs.easeFactor - 0.2);
+        } else if (rating === 1) {
+          srs.interval = Math.max(1, srs.interval * 1.2);
+          srs.easeFactor = Math.max(1.3, srs.easeFactor - 0.15);
+        } else if (rating === 2) {
+          srs.interval = srs.interval < 1 ? 10 : srs.interval * srs.easeFactor;
+        } else {
+          srs.interval = srs.interval < 1 ? 4 * 24 * 60 : srs.interval * srs.easeFactor * 1.5;
+          srs.easeFactor += 0.1;
+        }
+
+        srs.nextReview = now + (srs.interval * 60 * 1000);
+        srs.reviewCount = (srs.reviewCount || 0) + 1;
+
+        this.srsData[qid] = srs;
+        this.saveSrsData();
+
+        // Replace buttons with confirmation
+        const btns = document.getElementById(`srs-${qid}`);
+        btns.innerHTML = `<div style="text-align:center;color:var(--correct);padding:0.5rem;width:100%;">
+          ✓ Scheduled for ${this.formatInterval(srs.interval)}
+        </div>`;
+
+        this.updateDueBadge();
+      },
+
+      formatInterval(minutes) {
+        if (!minutes || minutes < 1) return '<1m';
+        if (minutes < 60) return `${Math.round(minutes)}m`;
+        if (minutes < 24 * 60) return `${Math.round(minutes / 60)}h`;
+        return `${Math.round(minutes / (24 * 60))}d`;
+      },
+
+      getMentorForQuestion(qid) {
+        const used = this.wrongHistory[qid] || [];
+        if (used.length > 0) {
+          const available = this.mentorStyles.filter(s => !used.includes(s));
+          if (available.length > 0) {
+            return available[Math.floor(Math.random() * available.length)];
+          }
+        }
+        return this.mentorStyles[Math.floor(Math.random() * this.mentorStyles.length)];
+      },
+
+      // ==================== JEOPARDY MODE ====================
+      initJeopardy() {
+        this.jeopardy.index = 0;
+        this.shuffleArray(this.questions);
+        this.renderJeopardyQuestion();
+      },
+
+      renderJeopardyQuestion() {
+        const q = this.questions[this.jeopardy.index];
+        if (!q) return;
+
+        const clue = this.getJeopardyClue(q);
+        const shuffledOpts = [...q.options].sort(() => Math.random() - 0.5);
+        const value = (this.jeopardy.index + 1) * 100;
+
+        document.getElementById('jeopardyArea').innerHTML = `
+          <div class="jeopardy-clue-card">
+            <div class="jeopardy-category">${q._category || 'Anatomy'}</div>
+            <div class="jeopardy-value">$${value}</div>
+            <div class="jeopardy-clue-text">"${clue}"</div>
+          </div>
+          <div class="jeopardy-answer-grid">
+            ${shuffledOpts.map(opt => `
+              <button class="jeopardy-answer-btn" onclick="QuizModes.answerJeopardy('${q.id}', '${opt.replace(/'/g, "\\'")}')">${opt}</button>
+            `).join('')}
+          </div>
+          <div class="jeopardy-nav">
+            <span style="color:var(--text-muted);">Score: <strong style="color:var(--glow-warm);">$${this.jeopardy.score}</strong></span>
+          </div>
+        `;
+      },
+
+      getJeopardyClue(q) {
+        let clue = null;
+
+        // Priority 1: Use the mechanism metaphor (best for Jeopardy - descriptive)
+        if (q.mechanism?.metaphor) {
+          clue = q.mechanism.metaphor;
+        }
+        // Priority 2: Use mechanism content
+        else if (q.mechanism?.content) {
+          clue = q.mechanism.content;
+        }
+        // Priority 3: Use the correct answer's explanation
+        else if (q.optionExplains && q.optionExplains[q.answer]) {
+          const exp = q.optionExplains[q.answer];
+          clue = exp.text || (typeof exp === 'string' ? exp : null);
+        }
+        // Priority 4: General explanation
+        else {
+          clue = q.explain;
+        }
+
+        // Fallback to question itself
+        if (!clue) return q.q;
+
+        // Clean up clue text - remove verdict prefixes that don't work as clues
+        clue = clue
+          .replace(/^Correct!\s*/i, '')
+          .replace(/^Incorrect[.!]?\s*/i, '')
+          .replace(/^Yes[.!]?\s*/i, '')
+          .replace(/^No[.!]?\s*/i, '')
+          .replace(/^That's right[.!]?\s*/i, '')
+          .replace(/^Stay close\s*—?\s*/i, '')
+          .replace(/^Come with me\s*—?\s*/i, '')
+          .replace(/^Let me show you\s*—?\s*/i, '');
+
+        // Truncate very long clues for readability
+        if (clue.length > 300) {
+          clue = clue.substring(0, 297) + '...';
+        }
+
+        return clue;
+      },
+
+      answerJeopardy(qid, selectedOpt) {
+        const q = this.questions.find(q => q.id === qid);
+        if (!q) return;
+
+        const correct = q.options[q.answer];
+        const isCorrect = selectedOpt === correct;
+        const value = (this.jeopardy.index + 1) * 100;
+
+        document.querySelectorAll('.jeopardy-answer-btn').forEach(btn => {
+          btn.classList.add('disabled');
+          btn.onclick = null;
+          if (btn.textContent === correct) btn.classList.add('correct');
+          if (btn.textContent === selectedOpt && !isCorrect) btn.classList.add('incorrect');
+        });
+
+        if (isCorrect) {
+          this.jeopardy.score += value;
+        }
+
+        // Award XP
+        if (typeof gamification !== 'undefined' && gamification) {
+          if (isCorrect) {
+            gamification.processCorrectAnswer(qid, { completedWarmups: false, exploredWrongFirst: false });
+          } else {
+            gamification.processWrongAnswer(qid);
+          }
+          if (quiz && quiz.renderer) quiz.renderer.renderStatsBar();
+        }
+
+        setTimeout(() => {
+          this.jeopardy.index++;
+          if (this.jeopardy.index >= this.questions.length) {
+            this.jeopardy.index = 0;
+            this.shuffleArray(this.questions);
+          }
+          this.renderJeopardyQuestion();
+        }, 1500);
+      },
+
+      // ==================== BLITZ MODE ====================
+      startBlitz() {
+        this.blitz = { active: true, timer: 60, score: 0, index: 0, interval: null };
+        this.shuffleArray(this.questions);
+
+        document.getElementById('blitzStartBtn').style.display = 'none';
+        document.getElementById('blitzScore').textContent = '0';
+        document.getElementById('blitzTimer').className = 'blitz-timer';
+
+        this.renderBlitzQuestion();
+
+        this.blitz.interval = setInterval(() => {
+          this.blitz.timer--;
+          const el = document.getElementById('blitzTimer');
+          el.textContent = `0:${this.blitz.timer.toString().padStart(2, '0')}`;
+
+          if (this.blitz.timer <= 10) el.className = 'blitz-timer danger';
+          else if (this.blitz.timer <= 20) el.className = 'blitz-timer warning';
+
+          if (this.blitz.timer <= 0) this.endBlitz();
+        }, 1000);
+      },
+
+      renderBlitzQuestion() {
+        if (!this.blitz.active) return;
+        const q = this.questions[this.blitz.index % this.questions.length];
+
+        document.getElementById('blitzQuestion').innerHTML = `
+          <div class="blitz-question-card">
+            <div class="blitz-question-text">${q.q}</div>
+            <div class="blitz-options">
+              ${q.options.map((opt, i) => `
+                <button class="blitz-option" onclick="QuizModes.answerBlitz('${q.id}', ${i})">${opt}</button>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      },
+
+      answerBlitz(qid, optIndex) {
+        if (!this.blitz.active) return;
+        const q = this.questions.find(q => q.id === qid);
+        if (!q) return;
+
+        if (optIndex === q.answer) {
+          this.blitz.score++;
+          document.getElementById('blitzScore').textContent = this.blitz.score;
+        }
+
+        this.blitz.index++;
+        this.renderBlitzQuestion();
+      },
+
+      endBlitz() {
+        clearInterval(this.blitz.interval);
+        this.blitz.active = false;
+
+        const score = this.blitz.score;
+        const xp = score * 15;
+
+        // Award XP
+        if (typeof persistence !== 'undefined') {
+          persistence.addXP(xp);
+          if (quiz && quiz.renderer) quiz.renderer.renderStatsBar();
+        }
+
+        document.getElementById('blitzQuestion').innerHTML = `
+          <div class="blitz-result">
+            <div class="result-label">Time's Up!</div>
+            <div class="final-score">${score}</div>
+            <div class="result-label">questions correct</div>
+            <div class="xp-earned">+${xp} XP</div>
+          </div>
+        `;
+
+        document.getElementById('blitzStartBtn').style.display = 'block';
+        document.getElementById('blitzStartBtn').textContent = 'Play Again';
+        document.getElementById('blitzTimer').textContent = '1:00';
+        document.getElementById('blitzTimer').className = 'blitz-timer';
+      },
+
+      // ==================== LIGHTNING MODE ====================
+      startLightning() {
+        this.lightning = { active: true, index: 0, strikes: 3, results: [], maxQuestions: 10 };
+        this.shuffleArray(this.questions);
+
+        document.getElementById('lightningStartBtn').style.display = 'none';
+        this.renderLightningProgress();
+        this.renderLightningQuestion();
+      },
+
+      renderLightningProgress() {
+        const prog = document.getElementById('lightningProgress');
+        prog.innerHTML = Array(this.lightning.maxQuestions).fill(0).map((_, i) => {
+          let cls = 'lightning-dot';
+          if (i < this.lightning.results.length) {
+            cls += this.lightning.results[i] ? ' correct' : ' wrong';
+          } else if (i === this.lightning.index) {
+            cls += ' current';
+          }
+          return `<div class="${cls}"></div>`;
+        }).join('');
+
+        const strikes = document.getElementById('lightningStrikes');
+        strikes.innerHTML = [0, 1, 2].map(i =>
+          `<span class="strike ${i < this.lightning.strikes ? 'active' : ''}">${i < this.lightning.strikes ? '❌' : '💀'}</span>`
+        ).join('');
+      },
+
+      renderLightningQuestion() {
+        if (!this.lightning.active) return;
+
+        if (this.lightning.strikes <= 0 || this.lightning.index >= this.lightning.maxQuestions) {
+          this.endLightning();
+          return;
+        }
+
+        const q = this.questions[this.lightning.index % this.questions.length];
+
+        document.getElementById('lightningQuestion').innerHTML = `
+          <div class="blitz-question-card">
+            <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:0.5rem;">
+              Question ${this.lightning.index + 1} of ${this.lightning.maxQuestions}
+            </div>
+            <div class="blitz-question-text">${q.q}</div>
+            <div class="blitz-options">
+              ${q.options.map((opt, i) => `
+                <button class="blitz-option" onclick="QuizModes.answerLightning('${q.id}', ${i})">${opt}</button>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      },
+
+      answerLightning(qid, optIndex) {
+        if (!this.lightning.active) return;
+        const q = this.questions.find(q => q.id === qid);
+        if (!q) return;
+
+        const isCorrect = optIndex === q.answer;
+        this.lightning.results.push(isCorrect);
+
+        if (!isCorrect) {
+          this.lightning.strikes--;
+        }
+
+        // Show feedback
+        const options = document.querySelectorAll('#lightningQuestion .blitz-option');
+        options.forEach((opt, i) => {
+          opt.classList.add('disabled');
+          opt.onclick = null;
+          if (i === q.answer) opt.classList.add('correct');
+          if (i === optIndex && !isCorrect) opt.classList.add('incorrect');
+        });
+
+        this.renderLightningProgress();
+
+        setTimeout(() => {
+          this.lightning.index++;
+          this.renderLightningQuestion();
+        }, 800);
+      },
+
+      endLightning() {
+        this.lightning.active = false;
+        const correct = this.lightning.results.filter(r => r).length;
+        const total = this.lightning.results.length;
+        const xp = correct * 20;
+
+        // Award XP
+        if (typeof persistence !== 'undefined') {
+          persistence.addXP(xp);
+          if (quiz && quiz.renderer) quiz.renderer.renderStatsBar();
+        }
+
+        const won = this.lightning.strikes > 0 && correct === this.lightning.maxQuestions;
+
+        document.getElementById('lightningQuestion').innerHTML = `
+          <div class="blitz-result">
+            <div class="result-label">${won ? 'Perfect Round!' : this.lightning.strikes <= 0 ? 'Struck Out!' : 'Round Complete'}</div>
+            <div class="final-score">${correct}/${total}</div>
+            <div class="result-label">questions correct</div>
+            <div class="xp-earned">+${xp} XP</div>
+          </div>
+        `;
+
+        document.getElementById('lightningStartBtn').style.display = 'block';
+        document.getElementById('lightningStartBtn').textContent = 'Play Again';
+      },
+
+      // ==================== STATS ====================
+      renderStats() {
+        const stats = typeof gamification !== 'undefined' && gamification ?
+          gamification.getStats() : { level: 1, totalXP: 0, currentStreak: 0, bestStreak: 0, totalAnswered: 0, accuracy: 0 };
+
+        document.getElementById('statsGrid').innerHTML = `
+          <div class="stat-card">
+            <div class="stat-value">${stats.level}</div>
+            <div class="stat-label">Level</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">${stats.totalXP.toLocaleString()}</div>
+            <div class="stat-label">Total XP</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">${stats.currentStreak}</div>
+            <div class="stat-label">Current Streak</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">${stats.bestStreak}</div>
+            <div class="stat-label">Best Streak</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">${stats.totalAnswered}</div>
+            <div class="stat-label">Answered</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">${stats.accuracy}%</div>
+            <div class="stat-label">Accuracy</div>
+          </div>
+        `;
+
+        // Category mastery
+        const categories = {};
+        this.questions.forEach(q => {
+          if (!categories[q._category]) categories[q._category] = { total: 0, reviewed: 0 };
+          categories[q._category].total++;
+          if (this.srsData[q.id]) categories[q._category].reviewed++;
+        });
+
+        document.getElementById('masteryBars').innerHTML = Object.entries(categories).map(([cat, data]) => {
+          const pct = data.total > 0 ? Math.round((data.reviewed / data.total) * 100) : 0;
+          return `
+            <div class="mastery-row">
+              <span class="mastery-label">${cat}</span>
+              <div class="mastery-bar"><div class="mastery-fill" style="width:${pct}%"></div></div>
+              <span class="mastery-pct">${pct}%</span>
+            </div>
+          `;
+        }).join('');
+      }
+    };
+
+    // Initialize after main quiz loads
+    document.addEventListener('DOMContentLoaded', () => {
+      setTimeout(() => QuizModes.init(), 500);
+    });
+  </script>
+
+  <!-- Service Worker Registration for PWA -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then((registration) => {
+            console.log('[PWA] Service Worker registered:', registration.scope);
+          })
+          .catch((error) => {
+            console.warn('[PWA] Service Worker registration failed:', error);
+          });
+      });
+    }
+  </script>
+</body>
+</html>

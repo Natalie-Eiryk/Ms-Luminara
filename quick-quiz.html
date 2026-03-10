@@ -1,0 +1,1739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Luminara Study">
+  <meta name="theme-color" content="#f5c542">
+  <title>Study Session - Ms. Luminara</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0e14;
+      --card: #141a22;
+      --card-border: #1e2832;
+      --text: #e8eaed;
+      --text-dim: #8b919a;
+      --text-muted: #5c636e;
+      --correct: #34d399;
+      --correct-bg: rgba(52, 211, 153, 0.08);
+      --incorrect: #f87171;
+      --incorrect-bg: rgba(248, 113, 113, 0.08);
+      --luminara: #f5c542;
+      --luminara-bg: rgba(245, 197, 66, 0.08);
+      --frizzle: #a78bfa;
+      --frizzle-bg: rgba(167, 139, 250, 0.08);
+      --feynman: #60a5fa;
+      --feynman-bg: rgba(96, 165, 250, 0.08);
+      --jeopardy: #6366f1;
+      --jeopardy-bg: rgba(99, 102, 241, 0.15);
+      --blitz: #f43f5e;
+      --blitz-bg: rgba(244, 63, 94, 0.15);
+      --layer-1: #1a2129;
+      --layer-2: #1f2833;
+      --layer-3: #252f3c;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', -apple-system, sans-serif;
+      line-height: 1.6;
+    }
+
+    /* MODE SELECTOR */
+    .mode-selector {
+      position: fixed;
+      inset: 0;
+      background: var(--bg);
+      z-index: 1000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .mode-selector.hidden { display: none; }
+
+    .mode-title {
+      font-family: 'Crimson Pro', serif;
+      font-size: 2rem;
+      color: var(--luminara);
+      margin-bottom: 0.5rem;
+      font-style: italic;
+    }
+
+    .mode-subtitle {
+      color: var(--text-dim);
+      margin-bottom: 2rem;
+      font-size: 0.9rem;
+    }
+
+    .mode-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+      max-width: 800px;
+      width: 100%;
+    }
+
+    .mode-card {
+      background: var(--card);
+      border: 2px solid var(--card-border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-align: left;
+    }
+
+    .mode-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--text-muted);
+    }
+
+    .mode-card.study:hover { border-color: var(--luminara); }
+    .mode-card.jeopardy:hover { border-color: var(--jeopardy); }
+    .mode-card.blitz:hover { border-color: var(--blitz); }
+    .mode-card.lightning:hover { border-color: var(--feynman); }
+    .mode-card.review:hover { border-color: var(--correct); }
+
+    .mode-icon { font-size: 2rem; margin-bottom: 0.75rem; }
+
+    .mode-name { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.25rem; }
+    .mode-card.study .mode-name { color: var(--luminara); }
+    .mode-card.jeopardy .mode-name { color: var(--jeopardy); }
+    .mode-card.blitz .mode-name { color: var(--blitz); }
+    .mode-card.lightning .mode-name { color: var(--feynman); }
+    .mode-card.review .mode-name { color: var(--correct); }
+
+    .mode-desc { font-size: 0.8rem; color: var(--text-dim); line-height: 1.4; }
+
+    .mode-keys { margin-top: 0.75rem; display: flex; gap: 0.5rem; flex-wrap: wrap; }
+    .mode-key { font-size: 0.65rem; padding: 0.2rem 0.5rem; background: var(--layer-1); border-radius: 4px; color: var(--text-muted); }
+
+    /* Header */
+    .sticky-header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      background: rgba(10, 14, 20, 0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--card-border);
+      z-index: 100;
+      padding: 0.75rem 1.5rem;
+    }
+
+    .header-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .header-left { display: flex; align-items: center; gap: 1rem; }
+
+    .logo {
+      font-family: 'Crimson Pro', serif;
+      font-size: 1.1rem;
+      color: var(--luminara);
+      font-style: italic;
+      cursor: pointer;
+    }
+    .logo:hover { text-decoration: underline; }
+
+    .current-mode {
+      font-size: 0.7rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .current-mode.study { background: var(--luminara-bg); color: var(--luminara); }
+    .current-mode.jeopardy { background: var(--jeopardy-bg); color: var(--jeopardy); }
+    .current-mode.blitz { background: var(--blitz-bg); color: var(--blitz); }
+    .current-mode.lightning { background: var(--feynman-bg); color: var(--feynman); }
+
+    .topic-filter { display: flex; gap: 0.4rem; }
+
+    .topic-pill {
+      padding: 0.3rem 0.7rem;
+      background: var(--card);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      color: var(--text-dim);
+      font-size: 0.75rem;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .topic-pill:hover { border-color: var(--text-muted); color: var(--text); }
+    .topic-pill.active { background: var(--luminara); color: #000; border-color: var(--luminara); }
+
+    .stats-row { display: flex; gap: 1rem; font-size: 0.8rem; }
+    .stat { display: flex; align-items: center; gap: 0.3rem; color: var(--text-dim); }
+    .stat.correct { color: var(--correct); }
+    .stat.incorrect { color: var(--incorrect); }
+
+    /* Timer */
+    .timer-bar {
+      display: none;
+      position: fixed;
+      top: 60px; left: 0; right: 0;
+      height: 4px;
+      background: var(--card-border);
+      z-index: 99;
+    }
+    .timer-bar.show { display: block; }
+    .timer-fill { height: 100%; background: var(--blitz); transition: width 0.1s linear; }
+
+    .timer-display {
+      position: fixed;
+      top: 70px; right: 1.5rem;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--blitz);
+      z-index: 99;
+    }
+    .timer-display.hidden { display: none; }
+
+    /* Main */
+    .main-content {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 5rem 1.5rem 4rem;
+    }
+    .main-content.with-timer { padding-top: 7rem; }
+
+    .question-list { display: flex; flex-direction: column; gap: 1rem; }
+
+    /* Question Card */
+    .question-card {
+      background: var(--card);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: all 0.2s;
+    }
+    .question-card:hover { border-color: var(--text-muted); }
+    .question-card.answered-correct { border-color: var(--correct); border-left: 3px solid var(--correct); }
+    .question-card.answered-incorrect { border-color: var(--incorrect); border-left: 3px solid var(--incorrect); }
+    .question-card.jeopardy-mode { border-color: var(--jeopardy); }
+
+    .q-header {
+      padding: 1rem 1.25rem 0.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .q-meta { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+
+    .q-badges { display: flex; gap: 0.5rem; }
+
+    .q-badge {
+      font-size: 0.65rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 10px;
+      background: var(--layer-1);
+      color: var(--text-dim);
+    }
+    .q-badge.correct { background: var(--correct-bg); color: var(--correct); }
+    .q-badge.incorrect { background: var(--incorrect-bg); color: var(--incorrect); }
+    .q-badge.jeopardy { background: var(--jeopardy-bg); color: var(--jeopardy); }
+    .q-badge.luminara { background: var(--luminara-bg); color: var(--luminara); }
+    .q-badge.frizzle { background: var(--frizzle-bg); color: var(--frizzle); }
+    .q-badge.feynman { background: var(--feynman-bg); color: var(--feynman); }
+    .q-badge.retry { background: rgba(251, 191, 36, 0.15); color: #fbbf24; }
+
+    .q-body { padding: 0.5rem 1.25rem 1rem; }
+
+    .q-text { font-size: 1.05rem; font-weight: 500; line-height: 1.5; margin-bottom: 1rem; }
+
+    /* Jeopardy Clue */
+    .jeopardy-clue {
+      background: var(--jeopardy-bg);
+      border: 1px solid var(--jeopardy);
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .jeopardy-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--jeopardy);
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+
+    .jeopardy-text {
+      font-family: 'Crimson Pro', serif;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: var(--text);
+      text-align: center;
+    }
+
+    .jeopardy-prompt {
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      margin-top: 1rem;
+      text-align: center;
+      font-style: italic;
+    }
+
+    /* Options */
+    .options-grid { display: flex; flex-direction: column; gap: 0.5rem; }
+
+    .option {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      padding: 0.85rem 1rem;
+      background: var(--layer-1);
+      border: 1px solid transparent;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .option:hover:not(.disabled) { background: var(--layer-2); border-color: var(--text-muted); }
+    .option.disabled { cursor: default; }
+    .option.selected-correct { background: var(--correct-bg); border-color: var(--correct); }
+    .option.selected-incorrect { background: var(--incorrect-bg); border-color: var(--incorrect); }
+    .option.reveal-correct { background: var(--correct-bg); border-color: var(--correct); }
+
+    .option-marker {
+      width: 22px; height: 22px; min-width: 22px;
+      display: flex; align-items: center; justify-content: center;
+      border-radius: 50%;
+      background: var(--layer-2);
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--text-dim);
+    }
+    .option.selected-correct .option-marker, .option.reveal-correct .option-marker { background: var(--correct); color: #000; }
+    .option.selected-incorrect .option-marker { background: var(--incorrect); color: #fff; }
+
+    .option-text { flex: 1; font-size: 0.95rem; color: var(--text); }
+
+    /* Feedback Layers */
+    .layer-feedback {
+      display: none;
+      padding: 1rem 1.25rem;
+      background: var(--layer-1);
+      border-top: 1px solid var(--card-border);
+    }
+    .layer-feedback.show { display: block; }
+
+    .feedback-row { display: flex; justify-content: space-between; align-items: center; }
+
+    .verdict { font-weight: 600; font-size: 0.9rem; }
+    .verdict.correct { color: var(--correct); }
+    .verdict.incorrect { color: var(--incorrect); }
+
+    .verdict-hint { font-size: 0.85rem; color: var(--text-dim); margin-top: 0.25rem; }
+
+    .expand-trigger {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.4rem 0.8rem;
+      background: var(--layer-2);
+      border: 1px solid var(--card-border);
+      border-radius: 6px;
+      color: var(--text-dim);
+      font-size: 0.75rem;
+      cursor: pointer;
+    }
+    .expand-trigger:hover { background: var(--layer-3); color: var(--text); }
+    .expand-trigger .arrow { transition: transform 0.2s; }
+    .expand-trigger.open .arrow { transform: rotate(180deg); }
+
+    /* Explanation Layer */
+    .layer-explain {
+      display: none;
+      padding: 1.25rem;
+      border-top: 1px solid var(--card-border);
+    }
+    .layer-explain.show { display: block; }
+
+    .layer-explain.luminara { background: var(--luminara-bg); }
+    .layer-explain.frizzle { background: var(--frizzle-bg); }
+    .layer-explain.feynman { background: var(--feynman-bg); }
+
+    .mentor-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 0.75rem;
+    }
+    .layer-explain.luminara .mentor-label { color: var(--luminara); }
+    .layer-explain.frizzle .mentor-label { color: var(--frizzle); }
+    .layer-explain.feynman .mentor-label { color: var(--feynman); }
+
+    .explain-text {
+      font-family: 'Crimson Pro', serif;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      color: var(--text);
+    }
+
+    .option-breakdown {
+      margin-top: 1.25rem;
+      padding-top: 1rem;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .option-explain {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.85rem;
+      line-height: 1.6;
+      font-family: 'Inter', sans-serif;
+    }
+    .option-explain:last-child { border-bottom: none; }
+
+    .option-explain-marker {
+      display: inline-block;
+      width: 18px; height: 18px;
+      text-align: center;
+      line-height: 18px;
+      border-radius: 50%;
+      font-size: 0.65rem;
+      margin-right: 0.5rem;
+    }
+    .option-explain-marker.correct { background: var(--correct-bg); color: var(--correct); }
+    .option-explain-marker.wrong { background: var(--incorrect-bg); color: var(--incorrect); }
+
+    .metaphor-box {
+      margin-top: 1rem;
+      padding: 0.85rem 1rem;
+      background: rgba(0,0,0,0.2);
+      border-left: 3px solid currentColor;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .metaphor-label {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      opacity: 0.8;
+      margin-bottom: 0.25rem;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .metaphor-text {
+      font-family: 'Crimson Pro', serif;
+      font-size: 0.95rem;
+      font-style: italic;
+    }
+
+    /* Blitz Mode */
+    .blitz-container {
+      display: none;
+      min-height: calc(100vh - 120px);
+      align-items: center;
+      justify-content: center;
+    }
+    .blitz-container.show { display: flex; }
+
+    .blitz-card {
+      width: 100%;
+      max-width: 700px;
+      background: var(--card);
+      border: 2px solid var(--blitz);
+      border-radius: 16px;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .blitz-question { font-size: 1.3rem; font-weight: 500; margin-bottom: 1.5rem; line-height: 1.5; }
+
+    .blitz-options { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+
+    .blitz-option {
+      padding: 1rem 1.25rem;
+      background: var(--layer-1);
+      border: 2px solid var(--card-border);
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: all 0.15s;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .blitz-option:hover { border-color: var(--blitz); background: var(--layer-2); }
+    .blitz-option .key {
+      width: 28px; height: 28px;
+      display: flex; align-items: center; justify-content: center;
+      background: var(--layer-2);
+      border-radius: 6px;
+      font-weight: 600;
+    }
+    .blitz-option.correct { border-color: var(--correct); background: var(--correct-bg); }
+    .blitz-option.incorrect { border-color: var(--incorrect); background: var(--incorrect-bg); }
+
+    .blitz-score { margin-top: 1.5rem; font-size: 1.5rem; font-weight: 700; color: var(--blitz); }
+
+    /* Game Over */
+    .game-over {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(10, 14, 20, 0.95);
+      z-index: 200;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .game-over.show { display: flex; }
+
+    .game-over-title { font-size: 2.5rem; font-weight: 700; color: var(--blitz); margin-bottom: 1rem; }
+    .game-over-score { font-size: 4rem; font-weight: 700; color: var(--text); margin-bottom: 0.5rem; }
+    .game-over-label { color: var(--text-dim); margin-bottom: 2rem; }
+
+    .game-over-btn {
+      padding: 1rem 2rem;
+      background: var(--blitz);
+      border: none;
+      border-radius: 12px;
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .game-over-btn:hover { transform: scale(1.05); }
+
+    /* Keyboard hints */
+    .keyboard-hints {
+      position: fixed;
+      bottom: 1rem;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 1.5rem;
+      padding: 0.6rem 1.25rem;
+      background: rgba(20, 26, 34, 0.95);
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      font-size: 0.7rem;
+      color: var(--text-dim);
+      z-index: 100;
+    }
+    .keyboard-hints kbd {
+      padding: 0.15rem 0.4rem;
+      background: var(--layer-2);
+      border-radius: 4px;
+      color: var(--text);
+      margin: 0 0.15rem;
+    }
+
+    .scroll-top {
+      position: fixed;
+      bottom: 4rem; right: 1.5rem;
+      width: 40px; height: 40px;
+      background: var(--card);
+      border: 1px solid var(--card-border);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--text-dim);
+      cursor: pointer;
+      opacity: 0;
+      z-index: 100;
+    }
+    .scroll-top.show { opacity: 1; }
+
+    .loading { text-align: center; padding: 4rem 2rem; color: var(--text-dim); }
+    .loading-spinner {
+      width: 32px; height: 32px;
+      border: 2px solid var(--card-border);
+      border-top-color: var(--luminara);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 1rem;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    @media (max-width: 640px) {
+      .topic-filter { display: none; }
+      .keyboard-hints { display: none; }
+      .blitz-options { grid-template-columns: 1fr; }
+    }
+
+    /* SRS Review Mode Styles */
+    .current-mode.review { background: rgba(52, 211, 153, 0.15); color: var(--correct); }
+
+    .srs-buttons {
+      display: none;
+      padding: 1rem 1.25rem;
+      background: var(--layer-1);
+      border-top: 1px solid var(--card-border);
+      gap: 0.5rem;
+    }
+    .srs-buttons.show { display: flex; }
+
+    .srs-btn {
+      flex: 1;
+      padding: 0.65rem 0.5rem;
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      background: var(--layer-2);
+      color: var(--text-dim);
+      font-size: 0.75rem;
+      cursor: pointer;
+      transition: all 0.15s;
+      text-align: center;
+    }
+    .srs-btn:hover { background: var(--layer-3); color: var(--text); }
+
+    .srs-btn.again { border-color: var(--incorrect); }
+    .srs-btn.again:hover { background: var(--incorrect-bg); color: var(--incorrect); }
+    .srs-btn.hard { border-color: #fbbf24; }
+    .srs-btn.hard:hover { background: rgba(251, 191, 36, 0.1); color: #fbbf24; }
+    .srs-btn.good { border-color: var(--correct); }
+    .srs-btn.good:hover { background: var(--correct-bg); color: var(--correct); }
+    .srs-btn.easy { border-color: var(--feynman); }
+    .srs-btn.easy:hover { background: var(--feynman-bg); color: var(--feynman); }
+
+    .srs-btn .interval {
+      display: block;
+      font-size: 0.6rem;
+      margin-top: 0.2rem;
+      opacity: 0.7;
+    }
+
+    .srs-confirmed {
+      text-align: center;
+      padding: 0.75rem;
+      color: var(--correct);
+      font-size: 0.85rem;
+    }
+
+    .review-header {
+      background: var(--card);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .review-due-count {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--correct);
+    }
+
+    .review-due-label {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+    }
+
+    .review-badges {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .review-badge {
+      padding: 0.3rem 0.6rem;
+      border-radius: 6px;
+      font-size: 0.7rem;
+      font-weight: 600;
+    }
+    .review-badge.overdue { background: var(--incorrect-bg); color: var(--incorrect); }
+    .review-badge.due { background: rgba(251, 191, 36, 0.15); color: #fbbf24; }
+    .review-badge.new { background: var(--correct-bg); color: var(--correct); }
+  </style>
+</head>
+<body>
+  <!-- MODE SELECTOR -->
+  <div class="mode-selector" id="modeSelector">
+    <h1 class="mode-title">Ms. Luminara's Study Session</h1>
+    <p class="mode-subtitle">Choose your study mode</p>
+
+    <div class="mode-grid">
+      <div class="mode-card study" onclick="Game.startMode('study')">
+        <div class="mode-icon">📚</div>
+        <div class="mode-name">Study Mode</div>
+        <div class="mode-desc">Scroll through questions. Each one gets a random mentor style. Miss it? See it again with a different teacher.</div>
+        <div class="mode-keys">
+          <span class="mode-key">auto-rotating styles</span>
+          <span class="mode-key">adaptive retry</span>
+        </div>
+      </div>
+
+      <div class="mode-card jeopardy" onclick="Game.startMode('jeopardy')">
+        <div class="mode-icon">❓</div>
+        <div class="mode-name">Jeopardy Mode</div>
+        <div class="mode-desc">See the explanation first. "This is the process by which cells engulf particles..." What is it?</div>
+        <div class="mode-keys">
+          <span class="mode-key">reverse recall</span>
+          <span class="mode-key">clue → term</span>
+        </div>
+      </div>
+
+      <div class="mode-card blitz" onclick="Game.startMode('blitz')">
+        <div class="mode-icon">⚡</div>
+        <div class="mode-name">Blitz Mode</div>
+        <div class="mode-desc">60 seconds. How many can you get? 100 points each.</div>
+        <div class="mode-keys">
+          <span class="mode-key">60 sec timer</span>
+          <span class="mode-key">speed run</span>
+        </div>
+      </div>
+
+      <div class="mode-card lightning" onclick="Game.startMode('lightning')">
+        <div class="mode-icon">🎯</div>
+        <div class="mode-name">Lightning Round</div>
+        <div class="mode-desc">10 rapid-fire questions. Build streaks for bonus points. Miss 3 and you're out!</div>
+        <div class="mode-keys">
+          <span class="mode-key">streak bonus</span>
+          <span class="mode-key">3 strikes</span>
+        </div>
+      </div>
+
+      <div class="mode-card review" onclick="Game.startMode('review')">
+        <div class="mode-icon">🔄</div>
+        <div class="mode-name">Spaced Review</div>
+        <div class="mode-desc">Smart review powered by spaced repetition. Rate your confidence to schedule optimal review times.</div>
+        <div class="mode-keys">
+          <span class="mode-key">SRS algorithm</span>
+          <span class="mode-key" id="dueCountPreview">0 due</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN APP -->
+  <header class="sticky-header">
+    <div class="header-inner">
+      <div class="header-left">
+        <div class="logo" onclick="Game.showModeSelector()">Ms. Luminara's Study Session</div>
+        <span class="current-mode study" id="currentMode">Study</span>
+        <div class="topic-filter" id="topicFilter">
+          <button class="topic-pill active" data-topic="all">All</button>
+        </div>
+      </div>
+      <div class="stats-row">
+        <span class="stat correct"><span id="correctCount">0</span> correct</span>
+        <span class="stat incorrect"><span id="incorrectCount">0</span> wrong</span>
+        <span class="stat"><span id="answeredCount">0</span>/<span id="totalCount">0</span></span>
+      </div>
+    </div>
+  </header>
+
+  <div class="timer-bar" id="timerBar"><div class="timer-fill" id="timerFill"></div></div>
+  <div class="timer-display hidden" id="timerDisplay">60</div>
+
+  <main class="main-content" id="mainContent">
+    <div class="question-list" id="questionList">
+      <div class="loading"><div class="loading-spinner"></div>Loading...</div>
+    </div>
+    <div class="blitz-container" id="blitzContainer"></div>
+  </main>
+
+  <div class="game-over" id="gameOver">
+    <div class="game-over-title">Time's Up!</div>
+    <div class="game-over-score" id="finalScore">0</div>
+    <div class="game-over-label">points</div>
+    <button class="game-over-btn" onclick="Game.showModeSelector()">Play Again</button>
+  </div>
+
+  <button class="scroll-top" id="scrollTop">↑</button>
+
+  <div class="keyboard-hints">
+    <span><kbd>1</kbd>-<kbd>4</kbd> answer</span>
+    <span><kbd>E</kbd> explain</span>
+    <span><kbd>↓</kbd><kbd>↑</kbd> navigate</span>
+    <span><kbd>Esc</kbd> menu</span>
+  </div>
+
+  <script>
+    const MENTORS = ['luminara', 'frizzle', 'feynman'];
+
+    const Game = {
+      questions: [],
+      shuffled: [],
+      answered: new Map(),
+      questionStyles: new Map(),  // qid -> current mentor style
+      wrongHistory: new Map(),    // qid -> array of wrong attempts with styles used
+      correct: 0,
+      incorrect: 0,
+      currentTopic: 'all',
+      focusedIndex: 0,
+      mode: 'study',
+      timer: null,
+      timeLeft: 60,
+      blitzScore: 0,
+      blitzIndex: 0,
+      lightningStreak: 0,
+      lightningMisses: 0,
+      lightningCount: 0,
+
+      async init() {
+        await this.loadQuestions();
+        this.renderTopics();
+        this.bindKeys();
+        this.bindScroll();
+      },
+
+      async loadQuestions() {
+        try {
+          const registry = await fetch('000-core/question-registry.json').then(r => r.json());
+          for (const category of registry.categories) {
+            for (const bank of category.banks) {
+              try {
+                const data = await fetch(`${category.folder}/${bank.file}`).then(r => r.json());
+                if (data.questions) {
+                  data.questions.forEach(q => {
+                    q._category = category.name;
+                    q._bank = bank.name;
+                    this.questions.push(q);
+                  });
+                }
+              } catch (e) { console.warn(`Could not load ${bank.file}`); }
+            }
+          }
+          console.log(`Loaded ${this.questions.length} questions`);
+        } catch (e) { console.error('Failed to load questions:', e); }
+      },
+
+      // Assign a random mentor style, avoiding styles already used for wrong answers
+      assignStyle(qid) {
+        const wrongStyles = this.wrongHistory.get(qid) || [];
+        const available = MENTORS.filter(m => !wrongStyles.includes(m));
+        const style = available.length > 0
+          ? available[Math.floor(Math.random() * available.length)]
+          : MENTORS[Math.floor(Math.random() * MENTORS.length)];
+        this.questionStyles.set(qid, style);
+        return style;
+      },
+
+      getStyle(qid) {
+        if (!this.questionStyles.has(qid)) {
+          this.assignStyle(qid);
+        }
+        return this.questionStyles.get(qid);
+      },
+
+      showModeSelector() {
+        this.stopTimer();
+        document.getElementById('modeSelector').classList.remove('hidden');
+        document.getElementById('gameOver').classList.remove('show');
+        document.getElementById('blitzContainer').classList.remove('show');
+        document.getElementById('questionList').style.display = 'flex';
+      },
+
+      startMode(mode) {
+        this.mode = mode;
+        this.correct = 0;
+        this.incorrect = 0;
+        this.answered = new Map();
+        this.questionStyles = new Map();
+        this.blitzScore = 0;
+        this.blitzIndex = 0;
+        this.lightningStreak = 0;
+        this.lightningMisses = 0;
+        this.lightningCount = 0;
+
+        document.getElementById('modeSelector').classList.add('hidden');
+        document.getElementById('gameOver').classList.remove('show');
+
+        const modeEl = document.getElementById('currentMode');
+        modeEl.className = 'current-mode ' + mode;
+        modeEl.textContent = mode.charAt(0).toUpperCase() + mode.slice(1);
+
+        this.shuffle();
+
+        if (mode === 'blitz') this.startBlitz();
+        else if (mode === 'lightning') this.startLightning();
+        else if (mode === 'review') this.startReview();
+        else {
+          document.getElementById('questionList').style.display = 'flex';
+          document.getElementById('blitzContainer').classList.remove('show');
+          document.getElementById('timerBar').classList.remove('show');
+          document.getElementById('timerDisplay').classList.add('hidden');
+          document.getElementById('mainContent').classList.remove('with-timer');
+          this.renderQuestions();
+        }
+        this.updateStats();
+      },
+
+      startBlitz() {
+        this.timeLeft = 60;
+        document.getElementById('questionList').style.display = 'none';
+        document.getElementById('blitzContainer').classList.add('show');
+        document.getElementById('timerBar').classList.add('show');
+        document.getElementById('timerDisplay').classList.remove('hidden');
+        document.getElementById('mainContent').classList.add('with-timer');
+        this.renderBlitzQuestion();
+        this.startTimer();
+      },
+
+      startLightning() {
+        document.getElementById('questionList').style.display = 'none';
+        document.getElementById('blitzContainer').classList.add('show');
+        document.getElementById('timerBar').classList.remove('show');
+        document.getElementById('timerDisplay').classList.add('hidden');
+        document.getElementById('mainContent').classList.remove('with-timer');
+        this.renderBlitzQuestion();
+      },
+
+      startTimer() {
+        this.updateTimerDisplay();
+        this.timer = setInterval(() => {
+          this.timeLeft--;
+          this.updateTimerDisplay();
+          if (this.timeLeft <= 0) this.endBlitz();
+        }, 1000);
+      },
+
+      stopTimer() {
+        if (this.timer) { clearInterval(this.timer); this.timer = null; }
+      },
+
+      updateTimerDisplay() {
+        document.getElementById('timerDisplay').textContent = this.timeLeft;
+        document.getElementById('timerFill').style.width = (this.timeLeft / 60 * 100) + '%';
+      },
+
+      endBlitz() {
+        this.stopTimer();
+        document.getElementById('finalScore').textContent = this.blitzScore;
+        document.getElementById('gameOver').classList.add('show');
+        document.getElementById('gameOver').querySelector('.game-over-title').textContent =
+          this.mode === 'lightning' ? 'Game Over!' : "Time's Up!";
+      },
+
+      renderBlitzQuestion() {
+        const container = document.getElementById('blitzContainer');
+        if (!this.shuffled || this.shuffled.length === 0) {
+          this.shuffle();
+        }
+        const q = this.shuffled[this.blitzIndex];
+
+        if (!q || (this.mode === 'lightning' && this.lightningCount >= 10)) {
+          this.endBlitz();
+          return;
+        }
+
+        const streakText = this.mode === 'lightning'
+          ? `<div style="margin-top:0.5rem;color:var(--text-dim);">Q${this.lightningCount + 1}/10 · Streak: ${this.lightningStreak} · Misses: ${this.lightningMisses}/3</div>`
+          : '';
+
+        container.innerHTML = `
+          <div class="blitz-card">
+            <div class="blitz-question">${q.q}</div>
+            <div class="blitz-options">
+              ${q.options.map((opt, i) => `
+                <div class="blitz-option" onclick="Game.answerBlitz(${i})">
+                  <span class="key">${i + 1}</span>
+                  <span>${opt}</span>
+                </div>
+              `).join('')}
+            </div>
+            <div class="blitz-score">${this.blitzScore} pts ${streakText}</div>
+          </div>
+        `;
+      },
+
+      answerBlitz(index) {
+        const q = this.shuffled[this.blitzIndex];
+        const options = document.querySelectorAll('.blitz-option');
+        const isCorrect = index === q.answer;
+
+        options.forEach((opt, i) => {
+          opt.style.pointerEvents = 'none';
+          if (i === q.answer) opt.classList.add('correct');
+          if (i === index && !isCorrect) opt.classList.add('incorrect');
+        });
+
+        if (isCorrect) {
+          this.blitzScore += (this.mode === 'lightning' ? 100 + (this.lightningStreak * 25) : 100);
+          this.correct++;
+          if (this.mode === 'lightning') this.lightningStreak++;
+        } else {
+          this.incorrect++;
+          if (this.mode === 'lightning') {
+            this.lightningStreak = 0;
+            this.lightningMisses++;
+            if (this.lightningMisses >= 3) {
+              setTimeout(() => this.endBlitz(), 500);
+              return;
+            }
+          }
+        }
+
+        if (this.mode === 'lightning') this.lightningCount++;
+        this.updateStats();
+
+        setTimeout(() => {
+          this.blitzIndex++;
+          if (this.blitzIndex >= this.shuffled.length) {
+            this.shuffle();
+            this.blitzIndex = 0;
+          }
+          this.renderBlitzQuestion();
+        }, 400);
+      },
+
+      renderTopics() {
+        const filter = document.getElementById('topicFilter');
+        const categories = [...new Set(this.questions.map(q => q._category))];
+        categories.forEach(cat => {
+          const btn = document.createElement('button');
+          btn.className = 'topic-pill';
+          btn.dataset.topic = cat;
+          btn.textContent = cat.split(' ')[0];
+          btn.onclick = () => this.selectTopic(cat);
+          filter.appendChild(btn);
+        });
+      },
+
+      selectTopic(topic) {
+        this.currentTopic = topic;
+        document.querySelectorAll('.topic-pill').forEach(p => {
+          p.classList.toggle('active', p.dataset.topic === topic);
+        });
+        this.shuffle();
+        if (this.mode === 'study' || this.mode === 'jeopardy') this.renderQuestions();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      },
+
+      getFiltered() {
+        return this.currentTopic === 'all'
+          ? [...this.questions]
+          : this.questions.filter(q => q._category === this.currentTopic);
+      },
+
+      shuffle() {
+        this.shuffled = this.getFiltered();
+        for (let i = this.shuffled.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [this.shuffled[i], this.shuffled[j]] = [this.shuffled[j], this.shuffled[i]];
+        }
+        this.focusedIndex = 0;
+      },
+
+      renderQuestions() {
+        const list = document.getElementById('questionList');
+        if (!this.shuffled.length) {
+          list.innerHTML = '<div class="loading">No questions available</div>';
+          return;
+        }
+        list.innerHTML = this.shuffled.map((q, idx) => this.renderCard(q, idx)).join('');
+        this.updateStats();
+        document.getElementById('totalCount').textContent = this.shuffled.length;
+      },
+
+      renderCard(q, idx) {
+        const state = this.answered.get(q.id);
+        const isAnswered = !!state;
+        const isJeopardy = this.mode === 'jeopardy';
+        const style = this.getStyle(q.id);
+        const wrongCount = (this.wrongHistory.get(q.id) || []).length;
+
+        let cardClass = isAnswered
+          ? (state.correct ? 'answered-correct' : 'answered-incorrect')
+          : '';
+        if (isJeopardy && !isAnswered) cardClass += ' jeopardy-mode';
+
+        return `
+          <div class="question-card ${cardClass}" data-index="${idx}" data-qid="${q.id}">
+            <div class="q-header">
+              <span class="q-meta">${q._category || 'General'}${q._bank ? ' · ' + q._bank : ''}</span>
+              <div class="q-badges">
+                ${wrongCount > 0 ? `<span class="q-badge retry">Retry #${wrongCount + 1}</span>` : ''}
+                <span class="q-badge ${style}">${this.getMentorName(style)}</span>
+                ${isAnswered ? `<span class="q-badge ${state.correct ? 'correct' : 'incorrect'}">${state.correct ? 'Correct' : 'Review'}</span>` : ''}
+              </div>
+            </div>
+
+            <div class="q-body">
+              ${isJeopardy && !isAnswered ? this.renderJeopardyClue(q) : `<div class="q-text">${q.q}</div>`}
+
+              <div class="options-grid">
+                ${q.options.map((opt, i) => {
+                  let optClass = 'option';
+                  if (isAnswered) {
+                    optClass += ' disabled';
+                    if (i === q.answer) optClass += ' reveal-correct';
+                    if (i === state.selected && i !== q.answer) optClass += ' selected-incorrect';
+                    if (i === state.selected && i === q.answer) optClass += ' selected-correct';
+                  }
+                  return `
+                    <div class="${optClass}" onclick="Game.answer('${q.id}', ${i})">
+                      <span class="option-marker">${String.fromCharCode(65 + i)}</span>
+                      <span class="option-text">${opt}</span>
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+
+            <!-- Feedback -->
+            <div class="layer-feedback ${isAnswered ? 'show' : ''}">
+              <div class="feedback-row">
+                <div>
+                  <div class="verdict ${isAnswered && state.correct ? 'correct' : 'incorrect'}">
+                    ${isAnswered ? (state.correct ? '✓ Correct!' : '✗ Not quite — answer is ' + String.fromCharCode(65 + q.answer)) : ''}
+                  </div>
+                  <div class="verdict-hint">${isAnswered ? 'Click to see explanation' : ''}</div>
+                </div>
+                <button class="expand-trigger" onclick="Game.toggleExplain('${q.id}')">
+                  Why? <span class="arrow">▼</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Explanation in current style -->
+            <div class="layer-explain ${style}" id="explain-${q.id}">
+              <div class="mentor-label">${this.getMentorName(style)} explains:</div>
+              <div class="explain-text">${this.getStyledExplanation(q, style)}</div>
+
+              ${q.optionExplains && Array.isArray(q.optionExplains) ? `
+                <div class="option-breakdown">
+                  ${q.options.map((opt, i) => `
+                    <div class="option-explain">
+                      <span class="option-explain-marker ${i === q.answer ? 'correct' : 'wrong'}">${String.fromCharCode(65 + i)}</span>
+                      ${(q.optionExplains[i] && q.optionExplains[i].text) || opt}
+                    </div>
+                  `).join('')}
+                </div>
+              ` : ''}
+
+              ${q.mechanism?.metaphor ? `
+                <div class="metaphor-box">
+                  <div class="metaphor-label">Think of it like...</div>
+                  <div class="metaphor-text">${q.mechanism.metaphor}</div>
+                </div>
+              ` : ''}
+            </div>
+
+            ${this.mode === 'review' && isAnswered ? this.renderSrsButtons(q.id) : ''}
+          </div>
+        `;
+      },
+
+      renderJeopardyClue(q) {
+        // Show the explanation as the clue, they guess which term/answer it describes
+        const clue = this.getJeopardyClueText(q);
+        return `
+          <div class="jeopardy-clue">
+            <div class="jeopardy-label">The Clue:</div>
+            <div class="jeopardy-text">${clue}</div>
+            <div class="jeopardy-prompt">Which answer does this describe?</div>
+          </div>
+        `;
+      },
+
+      getJeopardyClueText(q) {
+        // Use the mechanism metaphor (best for Jeopardy), then mechanism content, then explanation
+        let clue = '';
+
+        // Priority 1: Metaphor (most descriptive, best for Jeopardy)
+        if (q.mechanism?.metaphor) {
+          clue = q.mechanism.metaphor;
+        }
+        // Priority 2: Mechanism content
+        else if (q.mechanism?.content) {
+          clue = q.mechanism.content;
+        }
+        // Priority 3: Option explanation for correct answer
+        else if (q.optionExplains && q.optionExplains[q.answer]) {
+          clue = q.optionExplains[q.answer].text || '';
+        }
+        // Priority 4: General explanation
+        else if (q.explain) {
+          clue = q.explain;
+        }
+
+        if (!clue) {
+          clue = `This is the correct answer to: "${q.q}"`;
+        }
+
+        // Clean up verdict prefixes and Ms. Luminara phrases for clue format
+        clue = clue
+          .replace(/^Correct!\s*/i, '')
+          .replace(/^Incorrect[.!]?\s*/i, '')
+          .replace(/^Yes[.!]?\s*/i, '')
+          .replace(/^No[.!]?\s*/i, '')
+          .replace(/^That's right[.!]?\s*/i, '')
+          .replace(/Come closer —\s*/g, '')
+          .replace(/Stay with me here —\s*/g, '')
+          .replace(/Stay close —\s*/g, '')
+          .replace(/Let me show you —\s*/g, '')
+          .replace(/Isn't that (beautiful|elegant|extraordinary|exquisite)\?/gi, '')
+          .replace(/Here's where it gets delicious:/g, '')
+          .trim();
+
+        // Limit length for readability
+        if (clue.length > 350) {
+          clue = clue.substring(0, 347) + '...';
+        }
+
+        return clue;
+      },
+
+      getMentorName(style) {
+        return {
+          luminara: 'Ms. Luminara',
+          frizzle: 'Ms. Frizzle',
+          feynman: 'Feynman'
+        }[style] || 'Ms. Luminara';
+      },
+
+      getStyledExplanation(q, style) {
+        const base = q.explain || '';
+        const mechanism = q.mechanism?.content || '';
+        let full = base + (mechanism ? '<br><br>' + mechanism : '');
+
+        if (style === 'luminara') {
+          if (!full.includes('Come closer')) {
+            full = 'Come closer — ' + full;
+          }
+          return full || 'Come closer — let me show you how this works...';
+        }
+
+        if (style === 'frizzle') {
+          const intros = [
+            "Seatbelts, everyone! ",
+            "At my old school, we never explored this — but here, ",
+            "Take chances, make mistakes, get messy! ",
+            "Bus, do your stuff! Now class, ",
+            "You're not going to believe this! "
+          ];
+          full = full
+            .replace(/Come closer —/g, '')
+            .replace(/Stay with me here —/g, '')
+            .replace(/Isn't that (beautiful|elegant|extraordinary|exquisite)\?/gi, 'How cool is THAT?!')
+            .replace(/Here's where it gets delicious:/g, "Now here's the REALLY exciting part:")
+            .trim();
+          // Use seeded selection based on question ID for consistent rendering
+          const introIdx = (q.id || '').charCodeAt(0) % intros.length;
+          return intros[introIdx] + full;
+        }
+
+        if (style === 'feynman') {
+          const intros = [
+            "Look, the thing is really quite simple. ",
+            "Now, suppose you knew nothing about this. What would you notice? ",
+            "The key insight here — and textbooks miss this — ",
+            "Let's forget the jargon. What's actually happening? ",
+            "Nature doesn't care about our categories. Here's what's really going on: "
+          ];
+          full = full
+            .replace(/Come closer —/g, '')
+            .replace(/Stay with me here —/g, '')
+            .replace(/Isn't that (beautiful|elegant|extraordinary|exquisite)\?/gi, "See? Not so complicated.")
+            .replace(/Here's where it gets delicious:/g, "Now here's the interesting bit:")
+            .trim();
+          // Use seeded selection based on question ID for consistent rendering
+          const introIdx = (q.id || '').charCodeAt(0) % intros.length;
+          return intros[introIdx] + full;
+        }
+
+        return full;
+      },
+
+      answer(qid, optIndex) {
+        if (this.answered.has(qid)) return;
+
+        const q = this.questions.find(q => q.id === qid);
+        if (!q) return;
+
+        const isCorrect = optIndex === q.answer;
+        const style = this.getStyle(qid);
+
+        this.answered.set(qid, { selected: optIndex, correct: isCorrect });
+
+        if (isCorrect) {
+          this.correct++;
+        } else {
+          this.incorrect++;
+          // Track this wrong answer with the style used
+          const history = this.wrongHistory.get(qid) || [];
+          history.push(style);
+          this.wrongHistory.set(qid, history);
+          // Reassign style for next time they see it
+          this.assignStyle(qid);
+        }
+
+        this.updateStats();
+
+        const card = document.querySelector(`[data-qid="${qid}"]`);
+        if (card) {
+          const idx = parseInt(card.dataset.index, 10) || 0;
+          card.outerHTML = this.renderCard(q, idx);
+
+          // Show SRS buttons in review mode
+          if (this.mode === 'review') {
+            const srsEl = document.getElementById(`srs-${qid}`);
+            if (srsEl) srsEl.classList.add('show');
+          }
+        }
+      },
+
+      toggleExplain(qid) {
+        const layer = document.getElementById(`explain-${qid}`);
+        const card = document.querySelector(`[data-qid="${qid}"]`);
+        const trigger = card?.querySelector('.expand-trigger');
+
+        if (layer) {
+          const isOpen = layer.classList.contains('show');
+          layer.classList.toggle('show');
+          if (trigger) trigger.classList.toggle('open', !isOpen);
+
+          if (!isOpen) {
+            setTimeout(() => {
+              layer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }, 100);
+          }
+        }
+      },
+
+      updateStats() {
+        document.getElementById('correctCount').textContent = this.correct;
+        document.getElementById('incorrectCount').textContent = this.incorrect;
+        document.getElementById('answeredCount').textContent = this.answered.size;
+      },
+
+      bindKeys() {
+        document.addEventListener('keydown', (e) => {
+          if (e.target.tagName === 'INPUT') return;
+
+          if (this.mode === 'blitz' || this.mode === 'lightning') {
+            if (e.key >= '1' && e.key <= '4') this.answerBlitz(parseInt(e.key) - 1);
+            return;
+          }
+
+          const cards = document.querySelectorAll('.question-card');
+          const currentCard = cards[this.focusedIndex];
+          const qid = currentCard?.dataset.qid;
+
+          if (e.key >= '1' && e.key <= '4' && qid) {
+            this.answer(qid, parseInt(e.key) - 1);
+          }
+
+          if ((e.key === 'e' || e.key === 'E') && qid && this.answered.has(qid)) {
+            this.toggleExplain(qid);
+          }
+
+          if (e.key === 'ArrowDown' || e.key === 'j') {
+            e.preventDefault();
+            this.focusedIndex = Math.min(this.focusedIndex + 1, cards.length - 1);
+            cards[this.focusedIndex]?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }
+
+          if (e.key === 'ArrowUp' || e.key === 'k') {
+            e.preventDefault();
+            this.focusedIndex = Math.max(this.focusedIndex - 1, 0);
+            cards[this.focusedIndex]?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }
+
+          if (e.key === 'Escape') this.showModeSelector();
+        });
+      },
+
+      bindScroll() {
+        const scrollBtn = document.getElementById('scrollTop');
+        window.addEventListener('scroll', () => {
+          scrollBtn.classList.toggle('show', window.scrollY > 500);
+          const cards = document.querySelectorAll('.question-card');
+          const center = window.innerHeight / 2;
+          cards.forEach((card, idx) => {
+            const rect = card.getBoundingClientRect();
+            if (rect.top < center && rect.bottom > center) this.focusedIndex = idx;
+          });
+        });
+        scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+      },
+
+      // ==================== SRS SYSTEM ====================
+      srsData: {},
+
+      loadSrsData() {
+        const data = localStorage.getItem('luminara_srs_data');
+        if (data) this.srsData = JSON.parse(data);
+        this.updateDueCountPreview();
+      },
+
+      saveSrsData() {
+        localStorage.setItem('luminara_srs_data', JSON.stringify(this.srsData));
+      },
+
+      getDueQuestions() {
+        const now = Date.now();
+        return this.questions.filter(q => {
+          const srs = this.srsData[q.id];
+          if (!srs) return true; // New questions are "due"
+          return srs.nextReview <= now;
+        });
+      },
+
+      updateDueCountPreview() {
+        const due = this.getDueQuestions();
+        const el = document.getElementById('dueCountPreview');
+        if (el) el.textContent = `${due.length} due`;
+      },
+
+      startReview() {
+        document.getElementById('questionList').style.display = 'flex';
+        document.getElementById('blitzContainer').classList.remove('show');
+        document.getElementById('timerBar').classList.remove('show');
+        document.getElementById('timerDisplay').classList.add('hidden');
+        document.getElementById('mainContent').classList.remove('with-timer');
+
+        const due = this.getDueQuestions();
+        this.shuffled = due;
+
+        // Render review header + questions
+        this.renderReviewQuestions();
+        this.updateStats();
+        document.getElementById('totalCount').textContent = due.length;
+      },
+
+      renderReviewQuestions() {
+        const list = document.getElementById('questionList');
+        const due = this.getDueQuestions();
+
+        if (!due.length) {
+          list.innerHTML = `
+            <div class="review-header">
+              <div>
+                <div class="review-due-count">✓</div>
+                <div class="review-due-label">All caught up!</div>
+              </div>
+            </div>
+            <div style="text-align:center;padding:2rem;color:var(--text-dim);">
+              No questions due for review. Come back later or try Study mode.
+            </div>
+          `;
+          return;
+        }
+
+        // Count breakdown
+        const now = Date.now();
+        let overdue = 0, dueNow = 0, newCount = 0;
+        due.forEach(q => {
+          const srs = this.srsData[q.id];
+          if (!srs) { newCount++; }
+          else if (srs.nextReview < now - 86400000) { overdue++; }
+          else { dueNow++; }
+        });
+
+        let badges = '';
+        if (overdue) badges += `<span class="review-badge overdue">${overdue} overdue</span>`;
+        if (dueNow) badges += `<span class="review-badge due">${dueNow} due</span>`;
+        if (newCount) badges += `<span class="review-badge new">${newCount} new</span>`;
+
+        const header = `
+          <div class="review-header">
+            <div>
+              <div class="review-due-count">${due.length}</div>
+              <div class="review-due-label">questions to review</div>
+            </div>
+            <div class="review-badges">${badges}</div>
+          </div>
+        `;
+
+        list.innerHTML = header + due.slice(0, 20).map((q, idx) => this.renderCard(q, idx)).join('');
+      },
+
+      renderSrsButtons(qid) {
+        const srs = this.srsData[qid] || { interval: 0, easeFactor: 2.5 };
+        return `
+          <div class="srs-buttons" id="srs-${qid}">
+            <button class="srs-btn again" onclick="Game.rateSrs('${qid}', 0)">
+              Again<span class="interval">&lt;1m</span>
+            </button>
+            <button class="srs-btn hard" onclick="Game.rateSrs('${qid}', 1)">
+              Hard<span class="interval">${this.formatInterval(Math.max(1, srs.interval * 1.2))}</span>
+            </button>
+            <button class="srs-btn good" onclick="Game.rateSrs('${qid}', 2)">
+              Good<span class="interval">${this.formatInterval(srs.interval < 1 ? 10 : srs.interval * srs.easeFactor)}</span>
+            </button>
+            <button class="srs-btn easy" onclick="Game.rateSrs('${qid}', 3)">
+              Easy<span class="interval">${this.formatInterval(srs.interval < 1 ? 4*24*60 : srs.interval * srs.easeFactor * 1.5)}</span>
+            </button>
+          </div>
+        `;
+      },
+
+      rateSrs(qid, rating) {
+        const now = Date.now();
+        let srs = this.srsData[qid] || { interval: 1, easeFactor: 2.5, reviewCount: 0 };
+
+        // SM-2 inspired algorithm
+        if (rating === 0) { // Again
+          srs.interval = 1;
+          srs.easeFactor = Math.max(1.3, srs.easeFactor - 0.2);
+        } else if (rating === 1) { // Hard
+          srs.interval = Math.max(1, srs.interval * 1.2);
+          srs.easeFactor = Math.max(1.3, srs.easeFactor - 0.15);
+        } else if (rating === 2) { // Good
+          srs.interval = srs.interval < 1 ? 10 : srs.interval * srs.easeFactor;
+        } else { // Easy
+          srs.interval = srs.interval < 1 ? 4 * 24 * 60 : srs.interval * srs.easeFactor * 1.5;
+          srs.easeFactor = Math.min(3.0, srs.easeFactor + 0.1);
+        }
+
+        srs.nextReview = now + (srs.interval * 60 * 1000);
+        srs.reviewCount = (srs.reviewCount || 0) + 1;
+        srs.lastReview = now;
+
+        this.srsData[qid] = srs;
+        this.saveSrsData();
+
+        // Update UI
+        const btns = document.getElementById(`srs-${qid}`);
+        if (btns) {
+          btns.innerHTML = `<div class="srs-confirmed">✓ Next review: ${this.formatInterval(srs.interval)}</div>`;
+        }
+
+        this.updateDueCountPreview();
+      },
+
+      formatInterval(minutes) {
+        if (!minutes || minutes < 1) return '<1m';
+        if (minutes < 60) return `${Math.round(minutes)}m`;
+        if (minutes < 24 * 60) return `${Math.round(minutes / 60)}h`;
+        return `${Math.round(minutes / (24 * 60))}d`;
+      }
+    };
+
+    // ==================== TICK-TOCK SYSTEM INTEGRATION ====================
+    // Load external modules
+    const loadModule = (src) => {
+      return new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = src;
+        script.onload = resolve;
+        script.onerror = reject;
+        document.head.appendChild(script);
+      });
+    };
+
+    // Initialize enhanced systems
+    async function initEnhancedSystems() {
+      try {
+        // Load modules
+        await Promise.all([
+          loadModule('000-core/000.10-isotope-engine.js'),
+          loadModule('000-core/000.11-zpd-system.js'),
+          loadModule('000-core/000.12-multimodal-questions.js'),
+          loadModule('000-core/000.13-lumi-bridge.js')
+        ]);
+
+        // Initialize IsotopeEngine
+        if (typeof IsotopeEngine !== 'undefined') {
+          IsotopeEngine.init(Game.questions);
+          console.log('[Enhanced] IsotopeEngine loaded:', IsotopeEngine.getStats());
+        }
+
+        // Initialize ZPDSystem
+        if (typeof ZPDSystem !== 'undefined') {
+          const savedZPD = localStorage.getItem('luminara_zpd_state');
+          ZPDSystem.init(Game.questions, savedZPD ? JSON.parse(savedZPD) : null);
+          console.log('[Enhanced] ZPDSystem loaded');
+        }
+
+        // Initialize MultiModalQuestions
+        if (typeof MultiModalQuestions !== 'undefined') {
+          MultiModalQuestions.init(Game.questions);
+          console.log('[Enhanced] MultiModalQuestions loaded');
+        }
+
+        // Initialize LumiBridge
+        if (typeof LumiBridge !== 'undefined') {
+          LumiBridge.init();
+          // Try to connect (non-blocking)
+          LumiBridge.connect().catch(() => {
+            console.log('[Enhanced] LUMI-OS not available, running standalone');
+          });
+          console.log('[Enhanced] LumiBridge loaded');
+        }
+
+        // Add isotope display to question rendering
+        Game._originalRenderCard = Game.renderCard;
+        Game.renderCard = function(q, idx) {
+          // Get isotopes
+          const isotopes = q.isotopes || (typeof IsotopeEngine !== 'undefined' ?
+            IsotopeEngine.inferIsotopes(q) : []);
+
+          // Get ZPD info
+          let zpdInfo = null;
+          if (typeof ZPDSystem !== 'undefined') {
+            zpdInfo = {
+              phase: ZPDSystem.mapToInquiryPhase(q),
+              difficulty: ZPDSystem.estimateDifficulty(q)
+            };
+          }
+
+          // Render base card
+          let html = this._originalRenderCard(q, idx);
+
+          // Add isotope badges if present
+          if (isotopes.length > 0) {
+            const isotopeHtml = `
+              <div class="isotope-tags" style="padding: 0.5rem 1.25rem; display: flex; flex-wrap: wrap; gap: 0.3rem;">
+                ${isotopes.slice(0, 4).map(iso => {
+                  const formatted = typeof IsotopeEngine !== 'undefined' ?
+                    IsotopeEngine.formatIsotope(iso) : { icon: '🔗', label: iso };
+                  return `<span class="isotope-tag" title="${iso}" style="
+                    font-size: 0.65rem;
+                    padding: 0.15rem 0.4rem;
+                    background: var(--layer-2);
+                    border-radius: 4px;
+                    color: var(--text-dim);
+                    cursor: help;
+                  ">${formatted.icon} ${formatted.label}</span>`;
+                }).join('')}
+                ${isotopes.length > 4 ? `<span class="isotope-more" style="
+                  font-size: 0.65rem;
+                  color: var(--text-muted);
+                ">+${isotopes.length - 4} more</span>` : ''}
+              </div>
+            `;
+
+            // Insert before the feedback layer
+            html = html.replace(
+              '<!-- Feedback -->',
+              `${isotopeHtml}\n            <!-- Feedback -->`
+            );
+          }
+
+          // Add ZPD indicator
+          if (zpdInfo) {
+            const phaseColors = {
+              engage: '#f5c542',
+              explore: '#60a5fa',
+              explain: '#a78bfa',
+              elaborate: '#34d399',
+              evaluate: '#f87171'
+            };
+            const difficultyStars = '★'.repeat(Math.min(5, Math.round(zpdInfo.difficulty))) +
+                                   '☆'.repeat(Math.max(0, 5 - Math.round(zpdInfo.difficulty)));
+
+            const zpdHtml = `<span class="q-badge" style="
+              background: ${phaseColors[zpdInfo.phase] || '#666'}20;
+              color: ${phaseColors[zpdInfo.phase] || '#666'};
+            ">${zpdInfo.phase.charAt(0).toUpperCase() + zpdInfo.phase.slice(1)}</span>
+            <span class="q-badge" title="Difficulty: ${zpdInfo.difficulty.toFixed(1)}" style="
+              font-size: 0.6rem;
+              letter-spacing: 0;
+            ">${difficultyStars}</span>`;
+
+            // Add to badges
+            html = html.replace(
+              '</div>\n            </div>\n\n            <div class="q-body">',
+              `${zpdHtml}\n              </div>\n            </div>\n\n            <div class="q-body">`
+            );
+          }
+
+          return html;
+        };
+
+        // Hook into answer function for tracking
+        Game._originalAnswer = Game.answer;
+        Game.answer = function(qid, optIndex) {
+          const startTime = this._answerStartTime || Date.now();
+          const q = this.questions.find(q => q.id === qid);
+
+          // Call original
+          this._originalAnswer(qid, optIndex);
+
+          // Record interaction
+          if (typeof LumiBridge !== 'undefined' && q) {
+            const state = this.answered.get(qid);
+            const wrongCount = (this.wrongHistory.get(qid) || []).length;
+
+            LumiBridge.recordInteraction({
+              questionId: qid,
+              format: 'multiple-choice',
+              response: optIndex,
+              correct: state?.correct || false,
+              timeToAnswer: Date.now() - startTime,
+              mentorStyle: this.getStyle(qid),
+              attemptNumber: wrongCount + 1,
+              zpdMoment: typeof ZPDSystem !== 'undefined' ?
+                ZPDSystem.detectMomentType(q, state, wrongCount) : null,
+              isotopes: q.isotopes || [],
+              srsRating: null
+            });
+          }
+
+          // Record to ZPD system
+          if (typeof ZPDSystem !== 'undefined' && q) {
+            const state = this.answered.get(qid);
+            ZPDSystem.recordInteraction(qid, state);
+
+            // Save ZPD state
+            localStorage.setItem('luminara_zpd_state', JSON.stringify(ZPDSystem.saveState()));
+          }
+        };
+
+        // Track answer start time
+        document.addEventListener('click', (e) => {
+          if (e.target.closest('.option') && !e.target.closest('.disabled')) {
+            Game._answerStartTime = Date.now();
+          }
+        });
+
+        // Add export button to mode selector
+        const modeSelector = document.getElementById('modeSelector');
+        if (modeSelector) {
+          const exportBtn = document.createElement('button');
+          exportBtn.innerHTML = '📊 Export Session';
+          exportBtn.style.cssText = `
+            position: fixed;
+            bottom: 1rem;
+            right: 1rem;
+            padding: 0.6rem 1rem;
+            background: var(--layer-2);
+            border: 1px solid var(--card-border);
+            border-radius: 8px;
+            color: var(--text-dim);
+            font-size: 0.8rem;
+            cursor: pointer;
+            z-index: 1001;
+          `;
+          exportBtn.onclick = () => {
+            if (typeof LumiBridge !== 'undefined') {
+              const summary = LumiBridge.exportSummary();
+              console.log('Session Summary:', summary);
+              LumiBridge.downloadExport('json');
+            }
+          };
+          document.body.appendChild(exportBtn);
+        }
+
+        console.log('[Enhanced] All systems integrated successfully');
+
+      } catch (error) {
+        console.warn('[Enhanced] Some modules could not be loaded:', error);
+      }
+    }
+
+    // Initialize game and enhanced systems
+    Game.init().then(() => {
+      Game.loadSrsData();
+      initEnhancedSystems();
+    });
+  </script>
+</body>
+</html>

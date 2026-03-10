@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(ls:*)",
+      "Bash(wc:*)",
+      "WebFetch(domain:ragnarok.natalie-eiryk.com)",
+      "Bash(findstr:*)",
+      "Bash(git -C \"F:/Lumi286/ragnarok-site\" remote -v)",
+      "Bash(git -C \"G:/Studying_Help/ms_luminara_quiz\" init)",
+      "Bash(git -C \"G:/Studying_Help/ms_luminara_quiz\" remote add origin https://github.com/Natalie-Eiryk/Ms-Luminara.git)",
+      "Bash(git -C \"G:/Studying_Help/ms_luminara_quiz\" status)",
+      "Bash(git config:*)",
+      "Bash(git -C \"G:/Studying_Help/ms_luminara_quiz\" add .)"
+    ]
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "id": "600.3",
+  "title": "Ear Anatomy & Hearing",
+  "category": "ch15",
+  "description": "Questions about ear structure, hearing pathways, and equilibrium",
+  "questions": [
+    {
+      "id": "600.3.01",
+      "q": "Sour taste receptors are stimulated by hydrogen ions of acidic food substances.",
+      "options": ["True", "False"],
+      "answer": 0,
+      "chapter": "Chapter 15 — Special Senses",
+      "explain": "Come closer — sour taste directly reflects pH. Hydrogen ions (H+) from acidic foods enter taste receptor cells through ion channels or block K+ channels, depolarizing the cell. The more acidic the food (lower pH, more H+), the stronger the sour signal. This is the most straightforward taste transduction mechanism — H+ concentration directly drives receptor activation. Lemon juice, vinegar, fermented foods all trigger sour via their H+ content.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! Sour taste transduction is essentially a pH sensor. H+ ions either: (1) enter through amiloride-sensitive Na+ channels, (2) block K+ channels (reducing K+ efflux, causing depolarization), or (3) enter through specific H+ channels (PKD2L1). All mechanisms convert H+ concentration into electrical signal. Here's the evolutionary logic: sour detection warns against spoiled food (bacterial fermentation produces acid) and unripe fruit. Isn't that elegant?"
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This statement is actually TRUE. Sour taste IS H+ detection. Acidic foods release hydrogen ions in solution; those ions directly activate sour-sensing taste receptor cells. The other tastes use more complex receptor mechanisms, but sour is essentially an ionotropic pH sensor."
+        }
+      ],
+      "mechanism": {
+        "title": "Sour Taste: Detecting Acidity",
+        "content": "Let me show you sour transduction: Sour-sensing type III taste receptor cells respond to H+ ions. Several mechanisms contribute: (1) H+ blocks ROMK-type K+ channels → reduced K+ efflux → depolarization. (2) H+ enters through amiloride-sensitive epithelial Na+ channels (ENaC) → depolarization. (3) H+ activates PKD2L1 channels (the primary sour sensor) → cation influx → depolarization. Depolarization triggers action potentials and neurotransmitter release (ATP, serotonin) onto gustatory afferent fibers. The relationship between pH and sour intensity is roughly logarithmic — a 10-fold increase in H+ (1 pH unit drop) approximately doubles perceived sourness. Acids vary in sourness partly because organic acids cross membranes differently than mineral acids, affecting intracellular pH.",
+        "metaphor": "Sour taste cells are like pH meters on your tongue. H+ ions are the signal; the meter converts ion concentration into an electrical readout. More H+ = stronger electrical signal = more sour perception. Unlike other tastes (which require complex receptor-ligand interactions), sour detection is almost as simple as sticking a pH probe in the food. Direct ion detection, direct response."
+      }
+    },
+    {
+      "id": "600.3.02",
+      "q": "In order for sound to reach the spiral organ (of Corti), the auditory ossicles must vibrate the oval window and set the endolymph in motion.",
+      "options": ["True", "False"],
+      "answer": 0,
+      "chapter": "Chapter 15 — Special Senses",
+      "explain": "Stay with me here — sound transmission requires this chain: Sound waves → tympanic membrane vibration → ossicle movement (malleus → incus → stapes) → stapes footplate vibrates oval window → pressure waves in perilymph (scala vestibuli) → displacement of basilar membrane → movement of endolymph relative to tectorial membrane → hair cell stereocilia deflection → neural signal. The ossicles amplify sound (~22x) to overcome the impedance mismatch between air and cochlear fluid.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! The ossicular chain is essential for efficient sound transmission. The three tiniest bones — malleus (hammer), incus (anvil), stapes (stirrup) — convert large-amplitude, low-force air vibrations into small-amplitude, high-force fluid vibrations. Here's the physics: Area ratio (tympanic membrane vs. oval window, ~17:1) + lever action of ossicles (~1.3:1) = ~22x pressure amplification. This overcomes the ~99.9% energy loss that would occur at an air-fluid interface. Without ossicles, you'd lose most sound energy to reflection."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This statement is actually TRUE. Sound DOES require ossicular vibration of the oval window to generate fluid waves in the cochlea. The ossicles provide the impedance matching necessary for efficient air-to-fluid sound transmission."
+        }
+      ],
+      "mechanism": {
+        "title": "Impedance Matching: Why We Need Ossicles",
+        "content": "Come closer — watch the physics of hearing: Air has low acoustic impedance (molecules move easily). Cochlear fluid has high acoustic impedance (molecules resist movement). Without amplification, ~99.9% of sound energy would reflect at the air-fluid boundary. The middle ear solves this with two mechanisms: (1) AREA RATIO: Tympanic membrane (~55 mm²) collects sound energy, concentrates it onto smaller oval window (~3.2 mm²). Force concentrated on smaller area = higher pressure. (2) LEVER ACTION: Malleus handle is longer than incus process, creating mechanical advantage (~1.3:1). Combined effect: ~22-fold pressure amplification at oval window. This nearly perfectly matches air to cochlear fluid impedance. Stapes footplate rocks in oval window → pressure wave in scala vestibuli perilymph → traveling wave along basilar membrane → frequency-specific maximum amplitude location → hair cell stimulation at that location → tonotopic encoding.",
+        "metaphor": "The middle ear is like a transformer in an electrical circuit — matching impedances between source (air) and load (cochlear fluid) to maximize power transfer. Without a transformer, most energy would bounce back. The tympanic membrane + ossicles transform high-amplitude, low-pressure air vibrations into low-amplitude, high-pressure fluid vibrations. Same energy, different packaging, maximally delivered to the cochlea."
+      }
+    },
+    {
+      "id": "600.3.03",
+      "q": "Theoretically, an individual born without a middle ear would be able to hear by bone conduction with a hearing aid.",
+      "options": ["True", "False"],
+      "answer": 0,
+      "chapter": "Chapter 15 — Special Senses",
+      "explain": "Come with me — bone conduction bypasses the outer and middle ear entirely. Vibrations applied to the skull bones (mastoid process, teeth, forehead) directly stimulate the cochlear fluids and inner ear structures. Bone-anchored hearing aids (BAHAs) and bone conduction headphones exploit this pathway. Someone with congenital middle ear absence but intact inner ear could hear via bone conduction. The limitation: bone conduction is less sensitive than normal air conduction, requiring amplification.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! Bone conduction provides an alternative hearing pathway that bypasses outer and middle ear. Skull vibrations directly stimulate cochlear fluids. Clinical applications: (1) Rinne and Weber tuning fork tests differentiate conductive vs. sensorineural hearing loss. (2) Bone-anchored hearing aids (BAHAs) help patients with middle ear disease or atresia. (3) Bone conduction headphones allow hearing while keeping ears open. Here's the key: bone conduction requires a functioning inner ear (cochlea, hair cells, auditory nerve). Middle ear problems = use bone conduction. Inner ear problems = bone conduction won't help."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This statement is actually TRUE. Bone conduction CAN provide hearing for someone without a middle ear, assuming their inner ear is intact. The skull bones transmit vibrations directly to the cochlea, bypassing the ossicular chain. Modern bone-anchored hearing aids exploit this principle."
+        }
+      ],
+      "mechanism": {
+        "title": "Bone Conduction: The Alternative Hearing Pathway",
+        "content": "Let me show you how bone conduction works: Normal hearing: Air conduction → tympanic membrane → ossicles → oval window → cochlear fluid → hair cells. Bone conduction: Skull vibration → direct compression of temporal bone → cochlear fluid displacement → hair cells. Several mechanisms contribute: (1) Osseous-vibration: skull movement compresses/rarefies cochlear fluids directly. (2) Inertial: inner ear structures (basilar membrane, ossicles) lag behind skull movement, creating relative motion. (3) Osseotympanic: skull vibration creates sound in ear canal, some of which enters normally. Clinical testing: Weber test — tuning fork on forehead. Conductive loss: sound louder in affected ear (bone conduction intact, background noise blocked). Sensorineural loss: sound louder in good ear. Rinne test: compare air vs. bone conduction. Normally air > bone. Conductive loss: bone > air.",
+        "metaphor": "Bone conduction is like feeling bass through the floor at a concert — the vibrations reach your body directly, bypassing your ears. Your skull bones can act like a vibrating speaker cabinet, transmitting sound directly to your inner ear. If your outer/middle ear pathway is blocked (like wearing earplugs), bone conduction still works. But if your inner ear is damaged, neither pathway works — the final receiver is broken."
+      }
+    },
+    {
+      "id": "600.3.04",
+      "q": "The receptor for static equilibrium is the macula.",
+      "options": ["True", "False"],
+      "answer": 0,
+      "chapter": "Chapter 15 — Special Senses",
+      "explain": "Stay close — the maculae (two of them: utricle macula and saccule macula) detect linear acceleration and head position relative to gravity. They're 'static' equilibrium sensors because they respond to head position even when stationary. Hair cells are embedded in a gelatinous otolithic membrane studded with calcium carbonate crystals (otoliths/otoconia). Gravity pulls the otolith-laden membrane, bending hair cells, signaling head orientation. The semicircular canals detect 'dynamic' (rotational) equilibrium.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! The maculae are static equilibrium sensors. Utricle macula: oriented horizontally, detects horizontal linear acceleration (starting/stopping in a car) and forward/backward head tilt. Saccule macula: oriented vertically, detects vertical linear acceleration (elevator movement) and lateral head tilt. Here's the mechanism: otoliths (calcium carbonate crystals) add mass to the otolithic membrane. Gravity/acceleration shifts this mass, bending hair cell stereocilia, generating neural signals. The vestibular system constantly reports 'which way is down' and 'am I accelerating linearly.'"
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This statement is actually TRUE. The maculae (of utricle and saccule) ARE the static equilibrium receptors. They detect linear acceleration and gravitational orientation — 'static' in the sense of detecting position, not rotation."
+        }
+      ],
+      "mechanism": {
+        "title": "The Maculae: Gravity and Linear Acceleration Sensors",
+        "content": "Come closer — watch how the maculae encode head position: Structure: Type I and II hair cells with stereocilia embedded in gelatinous otolithic membrane. Otoliths (otoconia, ~3µm calcium carbonate crystals) sit atop the membrane, adding weight. Function: Gravity pulls otoliths downward. Head tilt shifts otolith weight relative to hair cells, bending stereocilia. Stereocilia deflection toward kinocilium = depolarization (increased firing). Deflection away = hyperpolarization (decreased firing). The utricle's macula is roughly horizontal — senses horizontal linear acceleration and forward/backward head tilt. The saccule's macula is roughly vertical — senses vertical linear acceleration and lateral head tilt. Combined information from both maculae tells the brain 'which way is up' and 'am I accelerating linearly in any direction.' This feeds into vestibular reflexes (VOR, VSR) maintaining gaze and posture.",
+        "metaphor": "The maculae are like leveling bubbles in a carpenter's tool, but made of weighted crystals on hair cells. Tilt your head, the bubble (otolithic membrane) shifts, touching sensors (hair cells) on one side more than the other. The brain reads which sensors are pushed to determine head orientation. Unlike a simple bubble level, the maculae also detect linear acceleration — like feeling pushed backward when a car accelerates. Gravity and acceleration produce the same mechanical effect (Einstein's equivalence principle in biological form)."
+      }
+    },
+    {
+      "id": "600.3.05",
+      "q": "Hair cells receptive to changes in dynamic equilibrium are found in the crista ampullaris.",
+      "options": ["True", "False"],
+      "answer": 0,
+      "chapter": "Chapter 15 — Special Senses",
+      "explain": "Come with me — the cristae ampullares (three of them, one in each semicircular canal) detect angular/rotational acceleration. They're 'dynamic' equilibrium sensors because they respond to head ROTATION (turning, nodding, tilting). Hair cells are embedded in a gelatinous mass called the cupula, which spans the ampulla (the swelling at the base of each canal). When the head rotates, endolymph lags behind, deflecting the cupula and bending hair cells. Three perpendicular canals detect rotation in all three planes.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! The cristae ampullares detect dynamic (rotational) equilibrium. Each semicircular canal has an ampulla containing a crista with hair cells embedded in the cupula. Head rotation → endolymph inertia → cupula deflection → hair cell stereocilia bending → neural signal. Here's the elegant design: three canals oriented perpendicular to each other (horizontal, anterior, posterior) detect rotation around all three spatial axes. Matching pairs on opposite sides work in push-pull fashion — rotation excites one side while inhibiting the other, doubling sensitivity."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This statement is actually TRUE. The cristae ampullares (in the semicircular canals) ARE the dynamic equilibrium sensors. They detect rotational acceleration — turning your head, nodding, tilting. The maculae handle static/linear; the cristae handle dynamic/rotational."
+        }
+      ],
+      "mechanism": {
+        "title": "Semicircular Canals: Rotational Motion Detection",
+        "content": "Let me show you how the cristae encode rotation: Structure: Each semicircular canal contains endolymph-filled tube. The ampulla (widened region) houses the crista ampullaris — a ridge of hair cells with stereocilia embedded in the cupula (gelatinous partition spanning the ampulla). Function: When head begins rotating, the canal walls move but endolymph (due to inertia) lags behind. This relative motion deflects the cupula, bending hair cell stereocilia. Stereocilia deflection → depolarization or hyperpolarization depending on direction. The three canals are oriented perpendicular to each other: horizontal canal detects horizontal rotation (shaking head 'no'), anterior canal detects sagittal rotation (nodding 'yes'), posterior canal detects coronal rotation (tilting ear to shoulder). Each canal has a partner on the opposite side oriented in the same plane — they work as push-pull pairs. During rotation, one side is excited while the contralateral partner is inhibited. The brain computes rotation direction and velocity from this bilateral input.",
+        "metaphor": "The semicircular canals are like those toys with liquid and glitter inside — when you spin the toy, the liquid takes a moment to catch up, and the glitter swirls. In the canals, the 'glitter' is the cupula with hair cells. Spin your head, the endolymph 'liquid' lags, the cupula 'glitter' gets pushed by the relative flow, hair cells bend, and your brain knows you're rotating. When you stop spinning, the liquid catches up and the glitter settles — that's why you feel dizzy afterward (the cupula is still deflected briefly from endolymph continuing to move)."
+      }
+    },
+    {
+      "id": "600.3.06",
+      "q": "As sound levels increase in the spiral organ (of Corti), outer hair cells stiffen the basilar membrane.",
+      "options": ["True", "False"],
+      "answer": 0,
+      "chapter": "Chapter 15 — Special Senses",
+      "explain": "Stay with me here — outer hair cells (OHCs) are electromotile. When activated by sound, they rapidly contract and elongate (up to 20,000 Hz), modifying basilar membrane mechanics. At higher sound levels, this active process can increase local stiffness and dampen excessive motion, protecting the delicate inner hair cells. OHCs act as 'cochlear amplifiers' — enhancing sensitivity at low sound levels and compressing response at high levels.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! Outer hair cells (OHCs) actively modify cochlear mechanics. They contain prestin, a motor protein that changes cell length with voltage changes. At low sound levels, OHC motility amplifies basilar membrane motion ~100-fold, enabling detection of faint sounds. At high sound levels, OHC activity can stiffen/dampen the response, compressing the dynamic range. Here's the clinical relevance: OHC damage (noise, drugs, age) causes sensorineural hearing loss with recruitment (abnormal loudness growth) because the compressive function is lost."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This statement is actually TRUE. OHCs DO modify basilar membrane mechanics, including stiffening at high sound levels. Their electromotility is crucial for cochlear function — sensitivity, frequency selectivity, and dynamic range all depend on active OHC processes."
+        }
+      ],
+      "mechanism": {
+        "title": "Outer Hair Cells: The Cochlear Amplifier",
+        "content": "Come closer — watch how OHCs transform cochlear function: STRUCTURE: OHCs (three rows) are cylindrical cells embedded in the reticular lamina, with stereocilia contacting the tectorial membrane. They contain prestin (SLC26A5), a motor protein in the lateral membrane. FUNCTION: Sound-induced stereocilia deflection → depolarization → prestin conformational change → OHC shortening. Hyperpolarization → OHC elongation. This electromotility is FAST (up to 20 kHz) and POWERFUL. Effect: OHC motility feeds energy back into the basilar membrane, amplifying motion at low sound levels (gain ~40-60 dB) and compressing motion at high levels. This 'cochlear amplifier' provides: (1) extraordinary sensitivity (can detect atomic-diameter movements), (2) sharp frequency tuning (0.2% bandwidth), (3) wide dynamic range (120 dB compressed into neural coding range). OHC loss → flat audiogram with elevated thresholds + recruitment (small loudness increase causes large perception change because compression is lost).",
+        "metaphor": "OHCs are like active noise-canceling headphones in reverse — instead of canceling sound, they amplify faint sounds while preventing loud sounds from overloading. They're tiny speakers embedded in your microphone, adding power at low volumes and dampening at high volumes. Without them, you'd need sounds to be 100x more intense to hear them, and loud sounds would immediately overload your system. OHCs are the cochlea's gain control and limiter circuit."
+      }
+    },
+    {
+      "id": "600.3.07",
+      "q": "Motion sickness seems to result from mismatch between visual and vestibular inputs.",
+      "options": ["True", "False"],
+      "answer": 0,
+      "chapter": "Chapter 15 — Special Senses",
+      "explain": "Come with me — motion sickness arises from sensory conflict. Your vestibular system, visual system, and proprioceptors normally agree about body motion. When they conflict — reading in a car (vestibular says 'moving,' visual says 'stationary') or watching a movie in a theater (visual says 'moving,' vestibular says 'stationary') — the brainstem interprets this mismatch as possible neurotoxin ingestion and triggers nausea/vomiting. The evolutionary hypothesis: sensory conflicts historically indicated poisoning, and vomiting was protective.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! The sensory conflict theory explains motion sickness. Classic scenarios: Reading in a car → vestibular detects motion, visual focuses on stationary book → conflict. Boat below deck → vestibular detects waves, visual sees stable cabin → conflict. VR headset → visual shows motion, vestibular detects stillness → 'cybersickness.' Here's the treatment logic: Looking at the horizon synchronizes visual and vestibular input. Scopolamine (anticholinergic) suppresses vestibular signals. Habituation gradually resolves the conflict. Some people are more susceptible due to individual differences in sensory integration."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "This statement is actually TRUE. Visual-vestibular mismatch IS the primary cause of motion sickness. The brainstem integrates multiple motion-sensing systems; when they disagree, it interprets the conflict as potentially dangerous and triggers protective responses (nausea, vomiting, sweating)."
+        }
+      ],
+      "mechanism": {
+        "title": "Motion Sickness: When Senses Disagree",
+        "content": "Let me explain the neuroscience of motion sickness: Multiple systems encode body motion: (1) Vestibular: semicircular canals (rotation) + maculae (linear/gravity). (2) Visual: optic flow patterns indicate self-motion. (3) Proprioceptive: joint and muscle receptors report body position. The brainstem (vestibular nuclei, reticular formation) integrates these signals. Normally they agree. When they conflict, the brain faces an impossible situation — which sensor to trust? Evolutionary hypothesis: Certain neurotoxins cause sensory disturbances. Sensory conflict might indicate poisoning. Vomiting would expel the toxin. Thus, conflict → area postrema (chemoreceptor trigger zone) → vomiting center → nausea and emesis. Treatment targets: (1) Reduce vestibular signal: scopolamine (muscarinic antagonist), antihistamines (meclizine). (2) Reduce visual conflict: look at horizon, close eyes, avoid reading. (3) Adaptation: repeated exposure reduces susceptibility (pilots, sailors adapt). (4) Anticipation: controlling the vehicle reduces sickness (drivers rarely get carsick).",
+        "metaphor": "Motion sickness is like your brain's fire alarm going off from burned toast. Your senses are the smoke detectors — vestibular, visual, proprioceptive. Normally they agree: either all detect 'smoke' (motion) or none do. When one says 'smoke' and another says 'no smoke,' the alarm (nausea center) doesn't know what to believe, so it sounds the alarm anyway. Better to evacuate (vomit) unnecessarily than ignore a real fire (poison). The solution is getting all detectors to agree — look outside, take the wheel, or suppress some detectors chemically."
+      }
+    },
+    {
+      "id": "600.3.08",
+      "q": "Tinnitus, vertigo, and gradual hearing loss typify the disorder called ________.",
+      "options": ["Conjunctivitis", "Motion sickness", "Strabismus", "Ménière's syndrome"],
+      "answer": 3,
+      "chapter": "Chapter 15 — Special Senses",
+      "explain": "Stay close — Ménière's syndrome (Ménière's disease) is the classic triad of: (1) episodic vertigo (rotational dizziness lasting minutes to hours), (2) tinnitus (ringing/roaring in the ear), and (3) fluctuating, progressive sensorineural hearing loss (initially low-frequency). A fourth feature is aural fullness (pressure sensation). The underlying pathology is endolymphatic hydrops — excess endolymph distending the membranous labyrinth. Treatment includes low-sodium diet, diuretics, vestibular rehabilitation, and in severe cases, surgical intervention.",
+      "optionExplains": [
+        {
+          "verdict": "incorrect",
+          "text": "Conjunctivitis is inflammation of the conjunctiva (pink eye) — an eye disorder, not an ear/vestibular disorder. Symptoms: red eye, discharge, itching. Not related to hearing or balance."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "Motion sickness causes nausea, vomiting, and malaise during motion, but not hearing loss or tinnitus. It's a normal (if unpleasant) response to sensory conflict, not a disease of the vestibular apparatus."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "Strabismus is misalignment of the eyes (crossed eyes or wall-eyes) — an extraocular muscle or innervation problem. Symptoms: diplopia, abnormal eye position. Not related to hearing or vestibular function."
+        },
+        {
+          "verdict": "correct",
+          "text": "Correct! Ménière's syndrome (disease) is defined by the triad of episodic vertigo + tinnitus + fluctuating sensorineural hearing loss, often with aural fullness. Pathophysiology: endolymphatic hydrops (excess endolymph) distends the membranous labyrinth, disrupting hair cell function. Here's the clinical picture: attacks of severe vertigo lasting 20 minutes to several hours, with horizontal-rotary nystagmus, nausea, and vomiting. Between attacks, progressive low-frequency hearing loss and constant tinnitus. Treatment: sodium restriction, diuretics, vestibular suppressants (meclizine, benzodiazepines), and refractory cases may need surgery (endolymphatic sac decompression, vestibular nerve section, labyrinthectomy)."
+        }
+      ],
+      "mechanism": {
+        "title": "Ménière's Disease: Endolymphatic Hydrops",
+        "content": "Come closer — watch the pathophysiology of Ménière's: The membranous labyrinth (cochlear duct, utricle, saccule, semicircular ducts) contains endolymph — high K+, low Na+. Endolymph is produced by the stria vascularis (in cochlea) and dark cells (in vestibule), absorbed by the endolymphatic sac. In Ménière's, the endolymphatic sac dysfunction leads to endolymph accumulation → increased endolymph pressure → distension of Reissner's membrane (cochlear) and vestibular membranes. This distension: (1) Disrupts ionic gradients necessary for hair cell function → hearing loss, tinnitus. (2) Mechanically disturbs vestibular hair cells → vertigo, nystagmus. (3) May cause membrane ruptures, allowing endolymph-perilymph mixing (further ion disruption) → acute attacks. Episodes are self-limited (hours) as membranes heal and ion gradients restore. Over time, permanent hair cell damage accumulates. The exact cause of endolymphatic hydrops remains debated — viral, autoimmune, vascular, and genetic factors all proposed.",
+        "metaphor": "Ménière's is like a plumbing problem in the inner ear. The drain (endolymphatic sac) isn't working properly, so fluid (endolymph) backs up, creating pressure. Rooms (cochlea, vestibule) become waterlogged, damaging the furniture (hair cells). During bad floods (acute attacks), walls bulge and may rupture (membrane breaks, ion mixing), causing alarm sirens (vertigo) and static on the intercom (tinnitus). As floods recur, permanent water damage (hair cell loss) accumulates, making the building gradually less functional (progressive hearing loss)."
+      }
+    },
+    {
+      "id": "600.3.09",
+      "q": "Which movement of ions produces EPSPs in cochlea hair cells?",
+      "options": ["Efflux of Ca²⁺", "Efflux of K⁺", "Influx of K⁺ and Ca²⁺", "Influx of Na⁺"],
+      "answer": 2,
+      "chapter": "Chapter 15 — Special Senses",
+      "explain": "Come with me — cochlear hair cells are unusual. They're bathed in endolymph (high K+, ~150mM, similar to intracellular levels) at their apical surface. But the endolymph is also at a positive potential (+80mV 'endocochlear potential'). So when mechanotransduction channels open, K+ flows INTO the hair cell down the electrochemical gradient (unusual for K+, which normally flows OUT). Ca²⁺ also enters. This influx depolarizes the hair cell (EPSP equivalent), triggering neurotransmitter release.",
+      "optionExplains": [
+        {
+          "verdict": "incorrect",
+          "text": "Efflux of Ca²⁺ would hyperpolarize the cell (losing positive charges). Hair cell excitation requires Ca²⁺ INFLUX, which drives neurotransmitter vesicle fusion. Ca²⁺ exits later during recovery via Ca-ATPases."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "Efflux of K⁺ would hyperpolarize the cell — that's what happens at rest in most neurons. Hair cell EXCITATION requires K⁺ INFLUX (unusual but driven by endocochlear potential)."
+        },
+        {
+          "verdict": "correct",
+          "text": "Correct! K⁺ and Ca²⁺ INFLUX depolarizes cochlear hair cells. The key is the unique ionic environment: endolymph has high K⁺ (150mM) AND positive potential (+80mV). Hair cell interior is ~-70mV. Total driving force for K⁺ entry is ~+150mV (enormous!). When mechanotransduction channels open, K⁺ rushes IN, depolarizing the cell. Ca²⁺ enters through voltage-gated and mechanotransduction channels, triggering synaptic vesicle release. This K⁺-driven depolarization is unique to inner ear hair cells."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "Na⁺ influx depolarizes most neurons (action potentials), but cochlear hair cells use K⁺ influx for mechanotransduction. Endolymph has low Na⁺ but very high K⁺. The ionic gradient favors K⁺ entry, not Na⁺."
+        }
+      ],
+      "mechanism": {
+        "title": "Cochlear Hair Cell Transduction: The K⁺ Exception",
+        "content": "Let me show you this unique mechanism: Most cells: K⁺ concentration is high inside (~140mM), low outside (~5mM). K⁺ channels opening → K⁺ efflux → hyperpolarization. Cochlear hair cells: Apical surface contacts ENDOLYMPH with high K⁺ (~150mM) AND positive potential (+80mV endocochlear potential, generated by stria vascularis). Hair cell interior: ~-70mV, K⁺ ~140mM. Electrochemical gradient: +80mV (endolymph) - (-70mV (cell)) = +150mV driving K⁺ INTO the cell. When stereocilia tip links stretch mechanotransduction channels open → K⁺ (and some Ca²⁺) rushes in → depolarization. This receptor potential activates voltage-gated Ca²⁺ channels at the synaptic pole → Ca²⁺ influx → vesicle fusion → glutamate release → auditory nerve excitation. K⁺ exits at the basolateral membrane (low K⁺ perilymph environment, normal gradient) through KCNQ4 channels. The body recycles K⁺ through supporting cells back to stria vascularis.",
+        "metaphor": "Cochlear hair cells are like fish living at the bottom of a pressurized aquarium. The 'water' above them (endolymph) is charged (+80mV) and full of K⁺. Opening the 'mouth' (mechanotransduction channel) lets K⁺ pour in with tremendous force — not because of concentration gradient (both sides are high K⁺) but because of electrical pressure. Most cells live in 'normal' aquariums where K⁺ wants to leave. Cochlear hair cells live in electrically charged aquariums where K⁺ wants to enter. This unique setup powers the most sensitive hearing in biology."
+      }
+    }
+  ]
+}

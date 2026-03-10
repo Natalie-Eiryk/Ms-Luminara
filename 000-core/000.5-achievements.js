@@ -1,0 +1,193 @@
+// Auto-generated achievements
+window.achievementsData = [
+  {
+    "id": "first_steps",
+    "name": "First Steps",
+    "icon": "footprints",
+    "type": "first_question",
+    "description": "Answer your first question",
+    "luminara": "Your journey into my world begins...",
+    "secret": false
+  },
+  {
+    "id": "neuron_spark",
+    "name": "Neuron Spark",
+    "icon": "zap",
+    "type": "questions_answered",
+    "threshold": 10,
+    "description": "Answer 10 questions",
+    "luminara": "The synapses are firing now, aren't they?",
+    "secret": false
+  },
+  {
+    "id": "brain_trust",
+    "name": "Brain Trust",
+    "icon": "brain",
+    "type": "questions_answered",
+    "threshold": 50,
+    "description": "Answer 50 questions",
+    "luminara": "You're becoming quite the specimen...",
+    "secret": false
+  },
+  {
+    "id": "centurion",
+    "name": "Centurion",
+    "icon": "crown",
+    "type": "questions_answered",
+    "threshold": 100,
+    "description": "Answer 100 questions",
+    "luminara": "A hundred victories... I'm thoroughly impressed.",
+    "secret": false
+  },
+  {
+    "id": "perfect_five",
+    "name": "Perfect Five",
+    "icon": "flame",
+    "type": "streak",
+    "threshold": 5,
+    "description": "Get 5 correct answers in a row",
+    "luminara": "Five in a row... you're making me blush.",
+    "secret": false
+  },
+  {
+    "id": "on_fire",
+    "name": "On Fire",
+    "icon": "fire",
+    "type": "streak",
+    "threshold": 10,
+    "description": "Get 10 correct answers in a row",
+    "luminara": "Unstoppable. I do love watching you work.",
+    "secret": false
+  },
+  {
+    "id": "inferno",
+    "name": "Inferno",
+    "icon": "meteor",
+    "type": "streak",
+    "threshold": 20,
+    "description": "Get 20 correct answers in a row",
+    "luminara": "Twenty! Such blazing brilliance...",
+    "secret": false
+  },
+  {
+    "id": "legendary_streak",
+    "name": "Legendary",
+    "icon": "star",
+    "type": "best_streak",
+    "threshold": 25,
+    "description": "Achieve a best streak of 25",
+    "luminara": "Legendary status achieved. I bow to your mastery.",
+    "secret": false
+  },
+  {
+    "id": "category_master",
+    "name": "Category Master",
+    "icon": "trophy",
+    "type": "category_mastery",
+    "threshold": 100,
+    "description": "Achieve 100% mastery in any category",
+    "luminara": "You've conquered this domain. Impressive.",
+    "secret": false
+  },
+  {
+    "id": "night_owl",
+    "name": "Night Owl",
+    "icon": "moon",
+    "type": "time_of_day",
+    "condition": "night_owl",
+    "description": "Study after 10pm",
+    "luminara": "Burning the midnight oil with me?",
+    "secret": true
+  },
+  {
+    "id": "early_bird",
+    "name": "Early Bird",
+    "icon": "sunrise",
+    "type": "time_of_day",
+    "condition": "early_bird",
+    "description": "Study between 5-7am",
+    "luminara": "Eager, aren't we? I appreciate dedication.",
+    "secret": true
+  },
+  {
+    "id": "level_5",
+    "name": "Rising Scholar",
+    "icon": "graduation",
+    "type": "level",
+    "threshold": 5,
+    "description": "Reach Level 5",
+    "luminara": "Level 5... you're ascending nicely.",
+    "secret": false
+  },
+  {
+    "id": "level_10",
+    "name": "Dedicated Mind",
+    "icon": "book",
+    "type": "level",
+    "threshold": 10,
+    "description": "Reach Level 10",
+    "luminara": "A true scholar emerges. Level 10.",
+    "secret": false
+  },
+  {
+    "id": "xp_collector",
+    "name": "XP Collector",
+    "icon": "gem",
+    "type": "total_xp",
+    "threshold": 5000,
+    "description": "Earn 5,000 total XP",
+    "luminara": "Five thousand points of brilliance...",
+    "secret": false
+  },
+  {
+    "id": "xp_hoarder",
+    "name": "XP Hoarder",
+    "icon": "diamond",
+    "type": "total_xp",
+    "threshold": 10000,
+    "description": "Earn 10,000 total XP",
+    "luminara": "Ten thousand! Such dedication to my teachings.",
+    "secret": false
+  },
+  {
+    "id": "sharp_shooter",
+    "name": "Sharp Shooter",
+    "icon": "target",
+    "type": "accuracy",
+    "threshold": 90,
+    "description": "Maintain 90%+ accuracy (min 10 questions)",
+    "luminara": "Precision personified. 90% accuracy.",
+    "secret": false
+  },
+  {
+    "id": "perfectionist",
+    "name": "Perfectionist",
+    "icon": "sparkles",
+    "type": "accuracy",
+    "threshold": 100,
+    "description": "Maintain 100% accuracy (min 10 questions)",
+    "luminara": "Perfection. Not a single misstep. Extraordinary.",
+    "secret": true
+  },
+  {
+    "id": "regular",
+    "name": "Regular",
+    "icon": "calendar",
+    "type": "sessions",
+    "threshold": 5,
+    "description": "Complete 5 study sessions",
+    "luminara": "You keep coming back... I like that.",
+    "secret": false
+  },
+  {
+    "id": "devoted",
+    "name": "Devoted",
+    "icon": "heart",
+    "type": "sessions",
+    "threshold": 20,
+    "description": "Complete 20 study sessions",
+    "luminara": "Twenty sessions... you're devoted to me.",
+    "secret": false
+  }
+]
+;

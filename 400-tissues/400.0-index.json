@@ -1,0 +1,18 @@
+{
+  "id": "400",
+  "name": "Tissues",
+  "description": "Tissues & Epithelia",
+  "chapter": "Tissues",
+  "topics": [
+    "Epithelial tissue types",
+    "Connective tissue types",
+    "Glands and secretion",
+    "Tissue repair"
+  ],
+  "banks": [
+    "400.1-epithelial.json",
+    "400.2-connective.json",
+    "400.3-glands.json"
+  ],
+  "totalQuestions": 18
+}

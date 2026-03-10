@@ -1,0 +1,20 @@
+{
+  "id": "300",
+  "name": "Foundations",
+  "description": "Chapters 1-4 — Foundations & Chemistry",
+  "chapter": "Chapters 1-4",
+  "topics": [
+    "Body organization levels",
+    "Homeostasis and feedback",
+    "Basic chemistry and pH",
+    "Cell structure and transport",
+    "Body cavities and membranes"
+  ],
+  "banks": [
+    "300.1-organization.json",
+    "300.2-chemistry.json",
+    "300.3-cells.json",
+    "300.4-membranes.json"
+  ],
+  "totalQuestions": 35
+}

@@ -1,0 +1,20 @@
+{
+  "id": "500",
+  "name": "Autonomic Nervous System",
+  "description": "Chapter 14 — ANS Divisions, Neurotransmitters, and Receptors",
+  "folder": "500-ans",
+  "banks": [
+    {
+      "id": "500.1",
+      "file": "500.1-divisions.json",
+      "title": "Sympathetic vs Parasympathetic",
+      "questionCount": 10
+    },
+    {
+      "id": "500.2",
+      "file": "500.2-neurotransmitters.json",
+      "title": "Neurotransmitters & Receptors",
+      "questionCount": 9
+    }
+  ]
+}

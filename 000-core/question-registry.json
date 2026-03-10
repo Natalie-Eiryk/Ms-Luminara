@@ -1,0 +1,206 @@
+{
+  "version": "1.1.0",
+  "lastUpdated": "2026-03-08",
+  "categories": [
+    {
+      "id": "100",
+      "name": "Brain",
+      "description": "Chapter 12 — The Brain",
+      "folder": "100-brain",
+      "banks": [
+        {
+          "id": "100.1",
+          "file": "100.1-structure.json",
+          "title": "Brain Structure & Regions",
+          "questionCount": 10
+        },
+        {
+          "id": "100.2",
+          "file": "100.2-meninges-csf.json",
+          "title": "Meninges & CSF",
+          "questionCount": 6
+        },
+        {
+          "id": "100.3",
+          "file": "100.3-cortex.json",
+          "title": "Cerebral Cortex & Functions",
+          "questionCount": 7
+        },
+        {
+          "id": "100.4",
+          "file": "100.4-brainstem.json",
+          "title": "Brainstem & Pathology",
+          "questionCount": 5
+        }
+      ]
+    },
+    {
+      "id": "200",
+      "name": "Nerves",
+      "description": "Chapter 13 — Nerves & Sensory",
+      "folder": "200-nerves",
+      "banks": [
+        {
+          "id": "200.1",
+          "file": "200.1-spinal.json",
+          "title": "Spinal Cord & Roots",
+          "questionCount": 5
+        },
+        {
+          "id": "200.2",
+          "file": "200.2-receptors.json",
+          "title": "Sensory Receptors",
+          "questionCount": 6
+        },
+        {
+          "id": "200.3",
+          "file": "200.3-plexuses.json",
+          "title": "Nerve Plexuses",
+          "questionCount": 5
+        },
+        {
+          "id": "200.4",
+          "file": "200.4-reflexes.json",
+          "title": "Reflexes & Pathways",
+          "questionCount": 4
+        },
+        {
+          "id": "200.5",
+          "file": "200.5-cranial-nerves.json",
+          "title": "Cranial Nerves",
+          "questionCount": 16
+        }
+      ]
+    },
+    {
+      "id": "300",
+      "name": "Foundations",
+      "description": "Chapters 1-4 — Foundations & Chemistry",
+      "folder": "300-foundations",
+      "banks": [
+        {
+          "id": "300.1",
+          "file": "300.1-organization.json",
+          "title": "Body Organization & Homeostasis",
+          "questionCount": 12
+        },
+        {
+          "id": "300.2",
+          "file": "300.2-chemistry.json",
+          "title": "Basic Chemistry",
+          "questionCount": 10
+        },
+        {
+          "id": "300.3",
+          "file": "300.3-cells.json",
+          "title": "Cell Structure & Function",
+          "questionCount": 8
+        },
+        {
+          "id": "300.4",
+          "file": "300.4-membranes.json",
+          "title": "Membranes & Cavities",
+          "questionCount": 5
+        }
+      ]
+    },
+    {
+      "id": "400",
+      "name": "Tissues",
+      "description": "Tissues & Epithelia",
+      "folder": "400-tissues",
+      "banks": [
+        {
+          "id": "400.1",
+          "file": "400.1-epithelial.json",
+          "title": "Epithelial Tissues",
+          "questionCount": 8
+        },
+        {
+          "id": "400.2",
+          "file": "400.2-connective.json",
+          "title": "Connective Tissues",
+          "questionCount": 6
+        },
+        {
+          "id": "400.3",
+          "file": "400.3-glands.json",
+          "title": "Glands & Repair",
+          "questionCount": 4
+        }
+      ]
+    },
+    {
+      "id": "500",
+      "name": "Autonomic Nervous System",
+      "description": "Chapter 14 — ANS Divisions, Neurotransmitters, and Receptors",
+      "folder": "500-ans",
+      "banks": [
+        {
+          "id": "500.1",
+          "file": "500.1-divisions.json",
+          "title": "Sympathetic vs Parasympathetic",
+          "questionCount": 10
+        },
+        {
+          "id": "500.2",
+          "file": "500.2-neurotransmitters.json",
+          "title": "Neurotransmitters & Receptors",
+          "questionCount": 9
+        }
+      ]
+    },
+    {
+      "id": "600",
+      "name": "Special Senses",
+      "description": "Chapter 15 — Vision, Hearing, Equilibrium, Taste, and Smell",
+      "folder": "600-special-senses",
+      "banks": [
+        {
+          "id": "600.1",
+          "file": "600.1-eye-structure.json",
+          "title": "Eye Structure & Photoreceptors",
+          "questionCount": 12
+        },
+        {
+          "id": "600.2",
+          "file": "600.2-vision-pathways.json",
+          "title": "Vision Pathways & Adaptation",
+          "questionCount": 7
+        },
+        {
+          "id": "600.3",
+          "file": "600.3-ear-hearing.json",
+          "title": "Ear Anatomy & Hearing",
+          "questionCount": 9
+        }
+      ]
+    },
+    {
+      "id": "700",
+      "name": "Endocrine System",
+      "description": "Chapter 16 — Hormones, Glands, and Feedback Mechanisms",
+      "folder": "700-endocrine",
+      "banks": [
+        {
+          "id": "700.1",
+          "file": "700.1-pituitary.json",
+          "title": "Pituitary & Hypothalamus",
+          "questionCount": 8
+        },
+        {
+          "id": "700.2",
+          "file": "700.2-hormones-mechanisms.json",
+          "title": "Hormone Mechanisms & Second Messengers",
+          "questionCount": 9
+        },
+        {
+          "id": "700.3",
+          "file": "700.3-metabolic-hormones.json",
+          "title": "Metabolic Hormones & Clinical",
+          "questionCount": 8
+        }
+      ]
+    }
+  ]
+}

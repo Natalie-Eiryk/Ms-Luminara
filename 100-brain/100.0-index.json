@@ -1,0 +1,21 @@
+{
+  "id": "100",
+  "name": "Brain",
+  "description": "Chapter 12 — The Brain",
+  "chapter": "Chapter 12",
+  "topics": [
+    "Brain regions and organization",
+    "Meninges and cerebrospinal fluid",
+    "Cerebral cortex and functional areas",
+    "Brainstem structures and functions",
+    "Memory systems",
+    "Cranial nerves (brainstem nuclei)"
+  ],
+  "banks": [
+    "100.1-structure.json",
+    "100.2-meninges-csf.json",
+    "100.3-cortex.json",
+    "100.4-brainstem.json"
+  ],
+  "totalQuestions": 28
+}
