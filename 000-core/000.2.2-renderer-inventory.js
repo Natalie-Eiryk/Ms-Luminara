@@ -310,14 +310,6 @@ const InventoryMixin = {
   showLootDrop(drops) {
     if (!drops || drops.length === 0) return;
 
-    // Speak notable loot drops
-    if (typeof voiceSystem !== 'undefined' && voiceSystem) {
-      const itemDrop = drops.find(d => d.type !== 'gold' && d.type !== 'gem');
-      if (itemDrop && ['RARE', 'EPIC', 'LEGENDARY', 'UNIQUE'].includes(itemDrop.rarity)) {
-        voiceSystem.speakLootDrop(itemDrop.name, itemDrop.rarity);
-      }
-    }
-
     const container = document.createElement('div');
     container.className = 'loot-drop-container';
 

@@ -91,7 +91,6 @@ class LuminaraQuiz {
     scaffolding = new ScaffoldingEngine(persistence);
     d20System = new D20System(persistence);
     lootSystem = new LootSystem();
-    voiceSystem = new VoiceSystem();
     this.previousLevel = persistence.getPlayer().level;
     this.currentEncounter = null;
   }
@@ -492,11 +491,6 @@ class LuminaraQuiz {
     const currentQ = this.getCurrentQuestion();
     const main = this.currentQuiz[this.currentIdx];
     const questionId = main.id || `q${this.currentIdx}`;
-
-    // Notify voice system of user interaction (stops idle pokes)
-    if (typeof voiceSystem !== 'undefined' && voiceSystem) {
-      voiceSystem.onUserInteraction();
-    }
 
     // Track if this is the first exploration for this phase
     if (!this.firstExplorationPerPhase[phaseKey]) {

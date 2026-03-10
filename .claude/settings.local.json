@@ -31,7 +31,11 @@
       "Bash(git checkout:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git push)"
+      "Bash(git push)",
+      "Bash(move \"G:\\Studying_Help\\ms_luminara_quiz\\tts-server\" \"G:\\Studying_Help\\voice-work\"\")",
+      "Bash(powershell -Command:*)",
+      "Bash(git rm:*)",
+      "Bash(git -C \"G:/Studying_Help/ms_luminara_quiz\" commit -m \"$(cat <<''EOF''\nRemove voice system from quiz project\n\nVoice files moved to G:\\Studying_Help\\voice-work\\ for potential future use.\n\nChanges:\n- Removed 000.9-voice-system.js (2349 lines)\n- Removed 000.2.1-renderer-voice-lab.js (977 lines) \n- Cleaned up 000.2-renderer.js (removed ~3700 lines of voice code)\n- Removed voice CSS from styles.css (~2900 lines)\n- Removed voice buttons from character mini display\n- Removed voiceSystem references from app.js, renderer files\n- Updated service worker cache (v1 -> v2) to clear old assets\n\nThe quiz retains full functionality without voice features.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n)\")"
     ]
   }
 }

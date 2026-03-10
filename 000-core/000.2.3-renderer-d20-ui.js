@@ -343,7 +343,6 @@ const D20UIMixin = {
 
     const sheet = d20System.getCharacterSheet();
     const formatMod = (mod) => mod >= 0 ? `+${mod}` : `${mod}`;
-    const voiceEnabled = typeof voiceSystem !== 'undefined' && voiceSystem?.settings?.enabled;
 
     return `
       <div class="char-mini" onclick="quiz.renderer.showCharacterSheet(d20System.getCharacterSheet())">
@@ -358,56 +357,7 @@ const D20UIMixin = {
       <button class="inventory-btn" onclick="quiz.renderer.showInventory()" title="Inventory & Equipment">
         🎒
       </button>
-      <button class="voice-btn ${voiceEnabled ? 'active' : ''}" onclick="quiz.renderer.toggleVoice()" title="Toggle Ms. Luminara's Voice">
-        ${voiceEnabled ? '🔊' : '🔇'}
-      </button>
-      <button class="voice-settings-btn" onclick="quiz.renderer.showVoiceSettings()" title="Voice Settings">
-        ⚙️
-      </button>
     `;
-  },
-
-  /**
-   * Toggle voice on/off
-   */
-  toggleVoice() {
-    if (typeof voiceSystem === 'undefined' || !voiceSystem) return;
-
-    const newState = !voiceSystem.settings.enabled;
-    voiceSystem.setEnabled(newState);
-    this.renderStatsBar();
-
-    if (newState) {
-      voiceSystem.speak("I'm back, darling. Did you miss my voice?", { priority: 'high', emotion: 'playful' });
-    }
-  },
-
-  /**
-   * Update voice setting
-   */
-  updateVoiceSetting(key, value) {
-    if (typeof voiceSystem === 'undefined' || !voiceSystem) return;
-    voiceSystem.settings[key] = value;
-    voiceSystem.saveSettings();
-  },
-
-  /**
-   * Quick audition a voice
-   */
-  async quickAudition(voiceId) {
-    if (typeof voiceSystem === 'undefined' || !voiceSystem) return;
-
-    // Update selection UI
-    document.querySelectorAll('.voice-item').forEach(btn => {
-      btn.classList.toggle('selected', btn.dataset.voice === voiceId);
-    });
-
-    // Update settings
-    voiceSystem.settings.piperModel = voiceId;
-    voiceSystem.saveSettings();
-
-    // Play preview
-    await voiceSystem.previewVoice({ backend: 'piper', id: voiceId }, 'short');
   }
 };
 
