@@ -1,26 +1,96 @@
 {
   "parentId": "100.3.10",
-  "parentQuestion": "A patient has difficulty planning and sequencing complex tasks — they can perfor...",
+  "parentQuestion": "A patient has difficulty planning and sequencing complex tasks — they can perform individual movements normally, but cannot organize multi-step actions like making coffee or getting dressed in the correct order. Which lobe is most likely affected?",
   "scaffolds": [
     {
-      "q": "Complex tasks like making coffee require planning and sequencing multiple steps in the correct order.",
+      "q": "Executive function = planning, sequencing, organizing complex behaviors.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Multi-step tasks require executive function — planning, sequencing, monitoring progress, and adjusting behavior. This is different from simply executing individual motor movements. It's the difference between knowing how to stir and knowing when stirring fits into the recipe."
+      "difficulty": "foundation",
+      "explain": "Yes! Executive functions coordinate behavior toward goals - like a CEO of the brain."
     },
     {
-      "q": "The frontal lobe is involved in planning, decision-making, and organizing behavior.",
+      "q": "The frontal lobe is responsible for executive functions.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The prefrontal cortex in the frontal lobe is the brain's executive center, responsible for planning, sequencing, inhibiting inappropriate actions, and coordinating complex goal-directed behavior. It's the conductor of the neural orchestra."
+      "difficulty": "foundation",
+      "explain": "Correct! Especially the prefrontal cortex - planning, judgment, sequencing."
+    },
+    {
+      "q": "Individual motor movements are controlled by primary motor cortex.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Primary motor cortex executes movements. Prefrontal cortex PLANS them."
+    },
+    {
+      "q": "Sequencing multi-step tasks requires the prefrontal cortex (frontal lobe).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Prefrontal cortex maintains the goal, sequences subgoals, monitors progress."
+    },
+    {
+      "q": "Can do individual steps + can't sequence them = prefrontal problem.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Motor system intact (can move). Executive system broken (can't organize)."
+    },
+    {
+      "q": "Executive dysfunction makes complex tasks like cooking or dressing difficult.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Steps happen in wrong order, are repeated, or abandoned mid-task."
+    },
+    {
+      "q": "The frontal lobe orchestrates behavior - it's the conductor of the brain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Without it, individual brain functions work but aren't coordinated into purposeful behavior."
+    },
+    {
+      "q": "Can perform movements + can't sequence tasks = frontal lobe (executive) damage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Motor output works. Planning and organization don't. That's frontal lobe."
+    },
+    {
+      "q": "The answer is FRONTAL LOBE - for planning and sequencing complex tasks.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not occipital (vision), not temporal (hearing/memory), not parietal (sensation/spatial). Frontal lobe damage disrupts executive function - planning, sequencing, task organization."
     }
   ]
 }

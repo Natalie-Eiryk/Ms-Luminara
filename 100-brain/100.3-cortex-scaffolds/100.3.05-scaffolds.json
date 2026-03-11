@@ -1,28 +1,96 @@
 {
   "parentId": "100.3.05",
-  "parentQuestion": "The area of the cortex that is responsible for sensing a full bladder and the fe...",
+  "parentQuestion": "The area of the cortex that is responsible for sensing a full bladder and the feeling that your lungs will burst when you hold your breath too long is the ___.",
   "scaffolds": [
     {
-      "q": "The brain can sense internal conditions of the body, not just external stimuli.",
+      "q": "The brain can sense internal body states - not just the external world.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "In addition to sensing the external world (touch, sight, sound), the brain monitors internal body states like hunger, thirst, bladder fullness, and organ function. This is called interoception — the sense of the body sensing itself."
+      "difficulty": "foundation",
+      "explain": "Yes! Internal sensations like hunger, thirst, bladder fullness, and air hunger are called 'interoception.'"
     },
     {
-      "q": "Sensations from internal organs like the stomach, bladder, and lungs are called:",
+      "q": "Interoception = sensing the body's internal state (visceral sensations).",
       "options": [
-        "External sensations",
-        "Visceral sensations",
-        "Somatic sensations",
-        "Special sensations"
+        "True",
+        "False"
       ],
-      "answer": 1,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Visceral sensations arise from internal organs (viscera). These include feelings of fullness, hunger, nausea, bladder urgency, and air hunger — the rising panic when you can't breathe."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Intero- (inside) + -ception (sensing). Awareness of internal organ states."
+    },
+    {
+      "q": "Bladder fullness is a visceral (internal organ) sensation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Stretch receptors in bladder wall signal fullness - an interoceptive signal."
+    },
+    {
+      "q": "Air hunger (urge to breathe) is triggered by rising CO2 levels.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Chemoreceptors detect CO2, and the sensation becomes overwhelming. That's interoception."
+    },
+    {
+      "q": "The insula (insular cortex) processes interoceptive signals.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The insula is buried beneath frontal/temporal lobes and is the interoceptive cortex."
+    },
+    {
+      "q": "The insula creates conscious awareness of internal body states.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Hunger, thirst, air hunger, heartbeat awareness, temperature - all processed in insula."
+    },
+    {
+      "q": "The 'visceral sensory area' is another name for the insular cortex.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Visceral = internal organs. The insula processes visceral sensations."
+    },
+    {
+      "q": "Full bladder + air hunger = interoceptive signals processed in visceral sensory area.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Both are internal body sensations (interoception), processed by the insular cortex."
+    },
+    {
+      "q": "The answer is VISCERAL SENSORY AREA (insula) - the interoceptive cortex.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not gustatory (taste), not olfactory (smell), not vestibular (balance). Visceral sensory area = internal body sensations like bladder fullness and air hunger."
     }
   ]
 }

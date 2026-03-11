@@ -1,26 +1,96 @@
 {
   "parentId": "100.3.13",
-  "parentQuestion": "A patient sustains a traumatic brain injury and afterward becomes impulsive, soc...",
+  "parentQuestion": "A patient sustains a traumatic brain injury and afterward becomes impulsive, socially inappropriate, and unable to consider long-term consequences of their actions. Their memory, language, and motor function are intact. The most likely affected region is the ___.",
   "scaffolds": [
     {
-      "q": "Different parts of the frontal lobe have different specialized functions.",
+      "q": "Impulse control requires a brain 'brake system' to inhibit inappropriate actions.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The frontal lobe contains multiple functional regions: motor cortex (movement), dorsolateral prefrontal cortex (working memory, planning), and orbitofrontal cortex (impulse control, social judgment, decision-making). Damage to different regions produces very different deficits."
+      "difficulty": "foundation",
+      "explain": "Yes! Without inhibition, every thought becomes action. That's what we're seeing here."
     },
     {
-      "q": "Impulse control and social judgment are functions of the brain that can be selectively damaged.",
+      "q": "The orbitofrontal cortex (OFC) is on the ventral surface of the frontal lobe.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Impulse control, emotional regulation, and social decision-making are localized functions — primarily in the orbitofrontal cortex and ventromedial prefrontal cortex. Damage here produces disinhibition while leaving other cognitive functions intact."
+      "difficulty": "foundation",
+      "explain": "Correct! Above the eye orbits. It's part of the prefrontal cortex."
+    },
+    {
+      "q": "The OFC is involved in impulse control and social judgment.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! It weighs consequences before acting - 'Should I do this?'"
+    },
+    {
+      "q": "Phineas Gage became impulsive and inappropriate after OFC damage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Famous 1848 case - tamping iron through frontal lobe changed his personality."
+    },
+    {
+      "q": "OFC damage = impulsive + socially inappropriate + poor judgment.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Memory and language stay intact. Just the 'brake' is broken."
+    },
+    {
+      "q": "The OFC evaluates potential actions for social and emotional consequences.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! It connects emotion (amygdala) with decision-making to guide behavior."
+    },
+    {
+      "q": "Without OFC, patients act on impulses without considering consequences.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! They KNOW right from wrong abstractly but CAN'T inhibit inappropriate behavior."
+    },
+    {
+      "q": "Impulsive + socially inappropriate + intact memory/language = orbitofrontal damage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Classic orbitofrontal syndrome - disinhibition with preserved cognition."
+    },
+    {
+      "q": "The answer is ORBITOFRONTAL CORTEX - the brain's behavioral brake system.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not hippocampus (memory), not Wernicke's (language), not cerebellum (motor coordination). OFC damage = impulsivity, social inappropriateness, poor judgment with intact cognitive abilities."
     }
   ]
 }

@@ -1,26 +1,96 @@
 {
   "parentId": "100.3.11",
-  "parentQuestion": "A patient can speak fluently and produce grammatically correct sentences, but th...",
+  "parentQuestion": "A patient can speak fluently and produce grammatically correct sentences, but their speech is filled with made-up words and nonsensical content. They also cannot understand spoken or written language. The lesion is most likely in ___.",
   "scaffolds": [
     {
-      "q": "The brain has specialized regions for producing speech and understanding language.",
+      "q": "Language involves both production (speaking) and comprehension (understanding).",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Language processing involves multiple specialized brain regions. Broca's area (frontal lobe) is involved in speech production, while Wernicke's area (temporal lobe) is crucial for language comprehension. They work together but have distinct functions."
+      "difficulty": "foundation",
+      "explain": "Yes! Different brain areas handle production vs. comprehension."
     },
     {
-      "q": "It is possible to produce speech sounds without understanding language or producing meaningful sentences.",
+      "q": "Broca's area (frontal lobe) controls speech PRODUCTION.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Speaking and understanding are dissociable functions. Motor speech production can remain intact while comprehension is destroyed, resulting in fluent but meaningless speech — form without content."
+      "difficulty": "foundation",
+      "explain": "Correct! Broca's damage = nonfluent speech, effortful, telegraphic. Comprehension OK."
+    },
+    {
+      "q": "Wernicke's area (temporal lobe) handles language COMPREHENSION.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Wernicke's damage = fluent but meaningless speech. Comprehension lost."
+    },
+    {
+      "q": "Wernicke's aphasia = fluent speech + meaningless content + poor comprehension.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! They speak smoothly but say nothing meaningful. They can't understand you either."
+    },
+    {
+      "q": "Broca's aphasia = nonfluent speech + meaningful content + good comprehension.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! They struggle to speak but know what they want to say. They understand you fine."
+    },
+    {
+      "q": "Neologisms (made-up words) and word salad are hallmarks of Wernicke's aphasia.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Grammar is preserved but words are nonsense - 'flibberish,' 'tramble.'"
+    },
+    {
+      "q": "Wernicke's patients don't know their speech is meaningless - they can't self-monitor.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! They can't understand their own speech any more than they can understand you."
+    },
+    {
+      "q": "Fluent nonsense + no comprehension = Wernicke's area (temporal lobe) damage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Wernicke's area extracts meaning. Lose it, and language becomes form without content."
+    },
+    {
+      "q": "The answer is WERNICKE'S AREA - fluent aphasia with lost comprehension.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not Broca's (would be nonfluent), not motor cortex (would be dysarthria, not aphasia), not prefrontal (executive, not language). Wernicke's area damage = fluent meaningless speech + comprehension loss."
     }
   ]
 }

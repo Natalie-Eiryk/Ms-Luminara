@@ -3,24 +3,94 @@
   "parentQuestion": "Which type of wave predominates during stage 1 NREM sleep?",
   "scaffolds": [
     {
-      "q": "Brain activity can be measured using electrical recordings called EEG.",
+      "q": "Brain electrical activity can be measured with EEG (electroencephalography).",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Electroencephalography (EEG) records electrical activity of the brain through electrodes on the scalp. Different brain states produce different characteristic wave patterns — rhythmic voltage oscillations reflecting synchronized neural activity."
+      "difficulty": "foundation",
+      "explain": "Yes! EEG records voltage fluctuations from scalp electrodes - 'brain waves.'"
     },
     {
-      "q": "Sleep is divided into multiple stages with different brain activity patterns.",
+      "q": "Different brain wave frequencies correspond to different states of consciousness.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Sleep cycles through stages: light sleep (stages 1-2), deep sleep (stage 3), and REM sleep. Each stage has distinctive EEG patterns. Sleep isn't a uniform state — it's a structured progression through different neural configurations."
+      "difficulty": "foundation",
+      "explain": "Correct! Fast waves = alert. Slow waves = relaxed or asleep. Frequency reflects brain state."
+    },
+    {
+      "q": "Beta waves (13-30 Hz) = alert, focused, concentrating. Fastest waves.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Beta is the signature of an active, engaged brain. Wide awake and thinking hard."
+    },
+    {
+      "q": "Alpha waves (8-13 Hz) = relaxed wakefulness, eyes closed. Slower than beta.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Alpha emerges when you close your eyes and relax. Idling frequency."
+    },
+    {
+      "q": "Theta waves (4-7 Hz) = light sleep, drowsy. Even slower.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Theta marks the transition from wakefulness to sleep - stage 1 NREM."
+    },
+    {
+      "q": "Delta waves (0.5-4 Hz) = deep sleep (stage 3 NREM). Slowest waves.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Delta = slow-wave sleep. High amplitude, highly synchronized, deep restorative sleep."
+    },
+    {
+      "q": "Stage 1 NREM is the LIGHTEST sleep stage - drifting off, easily awakened.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! N1 is the transition zone between awake and asleep. Just drifting off."
+    },
+    {
+      "q": "Stage 1 NREM (N1) is dominated by theta waves (4-7 Hz).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Slower than alpha (relaxed awake) but faster than delta (deep sleep)."
+    },
+    {
+      "q": "The answer is THETA - the wave that predominates in stage 1 NREM.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not alpha (relaxed wakefulness), not beta (alert), not delta (deep sleep). Theta waves dominate stage 1 NREM - the lightest sleep stage."
     }
   ]
 }

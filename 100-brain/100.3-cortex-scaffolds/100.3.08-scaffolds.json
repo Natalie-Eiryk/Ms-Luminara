@@ -1,26 +1,96 @@
 {
   "parentId": "100.3.08",
-  "parentQuestion": "A patient can see objects perfectly but cannot recognize familiar faces, includi...",
+  "parentQuestion": "A patient can see objects perfectly but cannot recognize familiar faces, including their own family members. Which cortical area is most likely damaged?",
   "scaffolds": [
     {
-      "q": "The brain has specialized regions that are specifically dedicated to recognizing faces.",
+      "q": "Face recognition is a specialized brain function - not just general vision.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The fusiform gyrus in the temporal lobe contains the 'fusiform face area' (FFA) that specializes in face recognition. Faces are so important to social survival that evolution gave them dedicated neural real estate."
+      "difficulty": "foundation",
+      "explain": "Yes! Humans are face experts - we have dedicated brain areas just for processing faces."
     },
     {
-      "q": "Seeing an object and recognizing what it is can involve different brain regions.",
+      "q": "The fusiform gyrus is located on the ventral (bottom) surface of the temporal lobe.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The brain processes vision hierarchically — primary visual areas detect features, while specialized association areas extract meaning. Different classes of objects (faces, places, bodies) have dedicated recognition circuits."
+      "difficulty": "foundation",
+      "explain": "Correct! The fusiform gyrus is part of the 'what' pathway for object recognition."
+    },
+    {
+      "q": "The fusiform face area (FFA) responds selectively and strongly to faces.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Show it a face - it lights up. Show it objects or houses - minimal response."
+    },
+    {
+      "q": "Prosopagnosia = face blindness - inability to recognize faces despite intact vision.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Prosop- (face) + agnosia (without knowledge). They see faces but can't extract identity."
+    },
+    {
+      "q": "Prosopagnosia patients can see facial features but can't recognize WHO the face belongs to.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! They see eyes, nose, mouth - but can't extract identity. Even their own reflection is a stranger."
+    },
+    {
+      "q": "People with prosopagnosia often recognize others by voice, gait, or clothing.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! They develop workarounds because face recognition is broken."
+    },
+    {
+      "q": "If vision is intact but faces are unrecognizable, the fusiform face area is damaged.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! V1 is working (can see). Fusiform is damaged (can't recognize faces)."
+    },
+    {
+      "q": "Sees perfectly + can't recognize faces = prosopagnosia = fusiform gyrus damage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The fusiform face area is the specialized face recognition module."
+    },
+    {
+      "q": "The answer is FUSIFORM GYRUS (fusiform face area) - the face recognition area.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not V1 (they can see), not prefrontal (executive function), not somatosensory (body sensation). Fusiform face area damage causes prosopagnosia - face blindness."
     }
   ]
 }

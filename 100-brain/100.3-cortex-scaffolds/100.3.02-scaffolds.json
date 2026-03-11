@@ -1,28 +1,96 @@
 {
   "parentId": "100.3.02",
-  "parentQuestion": "An individual who could trace a picture of a bicycle with their finger but could...",
+  "parentQuestion": "An individual who could trace a picture of a bicycle with their finger but could not recognize it as a bicycle most likely has damage to the ___.",
   "scaffolds": [
     {
-      "q": "Seeing an object and recognizing what it is are two different brain processes.",
+      "q": "Vision is processed in stages: first detecting shapes, then recognizing meaning.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The brain processes vision in stages: first detecting shapes and features (primary visual cortex), then identifying what those shapes mean (association areas). You can have one without the other."
+      "difficulty": "foundation",
+      "explain": "Yes! Primary visual cortex (V1) processes raw features. Association areas build meaning."
     },
     {
-      "q": "What term describes being unable to recognize objects despite being able to see them?",
+      "q": "The primary visual cortex (V1) detects edges, orientations, colors, and motion.",
       "options": [
-        "Blindness",
-        "Agnosia",
-        "Aphasia",
-        "Amnesia"
+        "True",
+        "False"
       ],
-      "answer": 1,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Agnosia means 'without knowledge' — the inability to recognize or interpret sensory information despite intact sensation. Visual agnosia specifically affects visual recognition. You see perfectly. You understand nothing."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! V1 builds a 'feature map' - the raw building blocks of vision."
+    },
+    {
+      "q": "Visual ASSOCIATION areas interpret what V1 detects - assigning meaning to shapes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Association cortex turns meaningless geometry into recognizable objects."
+    },
+    {
+      "q": "Visual agnosia = ability to SEE objects but inability to RECOGNIZE them.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! 'Agnosia' means 'without knowledge.' Vision is intact; comprehension is lost."
+    },
+    {
+      "q": "If someone can TRACE a picture, their primary visual cortex must be intact.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Tracing requires seeing the lines. If V1 were damaged, they'd be blind to the image."
+    },
+    {
+      "q": "If someone CAN'T RECOGNIZE a picture, their visual association area is damaged.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! They see perfectly but can't extract meaning - classic visual agnosia."
+    },
+    {
+      "q": "V1 damage causes cortical BLINDNESS. Association damage causes AGNOSIA.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Blindness = can't see. Agnosia = can see but can't recognize. Different failures."
+    },
+    {
+      "q": "Can trace but can't recognize = vision OK, interpretation broken = association damage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Primary visual processing is intact (can trace). Recognition is lost (can't identify)."
+    },
+    {
+      "q": "The answer is VISUAL ASSOCIATION AREA - where meaning is extracted from geometry.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not V1 (they can see), not LGN (relay station), not calcarine cortex (same as V1). Visual association area damage causes visual agnosia - perception without comprehension."
     }
   ]
 }

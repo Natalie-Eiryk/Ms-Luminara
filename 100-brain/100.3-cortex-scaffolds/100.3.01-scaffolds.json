@@ -3,26 +3,94 @@
   "parentQuestion": "The primary visual cortex contains a map of visual space.",
   "scaffolds": [
     {
-      "q": "Visual information from the eyes is processed in a specific region of the brain.",
+      "q": "Visual information from the eyes is processed in the occipital lobe.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The brain has specialized regions for different functions. Visual processing occurs primarily in the occipital lobe at the back of the brain — the farthest point from the eyes themselves. Geography follows function, not convenience."
+      "difficulty": "foundation",
+      "explain": "Yes! The occipital lobe, at the back of the brain, contains the primary visual cortex (V1)."
     },
     {
-      "q": "Which lobe of the brain is primarily responsible for processing vision?",
+      "q": "The primary visual cortex is also called V1 or the calcarine cortex.",
       "options": [
-        "Frontal lobe",
-        "Temporal lobe",
-        "Occipital lobe",
-        "Parietal lobe"
+        "True",
+        "False"
       ],
-      "answer": 2,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The occipital lobe, located at the back of the brain, contains the primary visual cortex (V1) and is the main processing center for visual information. Your eyes point forward, but the cortex that interprets what you see sits at the back of your skull."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! V1 sits in the calcarine sulcus of the occipital lobe."
+    },
+    {
+      "q": "Visual information travels: retina → optic nerve → LGN (thalamus) → V1.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The lateral geniculate nucleus (LGN) is the thalamic relay for vision."
+    },
+    {
+      "q": "Neighboring retinal cells project to neighboring cortical cells in V1.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! This preserves spatial relationships - called 'retinotopy' or topographic mapping."
+    },
+    {
+      "q": "The fovea (center of gaze) is overrepresented in V1 - 'cortical magnification.'",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The fovea covers ~1% of retina but takes ~50% of V1! High-resolution central vision."
+    },
+    {
+      "q": "Damage to a patch of V1 causes blindness in a corresponding patch of visual field.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The map IS the function. Destroy part of the map, that region of visual space goes dark."
+    },
+    {
+      "q": "The term for this spatial mapping is 'retinotopy' - the retina is mapped onto cortex.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Retino- (retina) + -topy (place). Spatial relationships are preserved across relay stations."
+    },
+    {
+      "q": "V1 contains a retinotopic map - a spatial representation of the visual field.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Neighboring points in visual space map to neighboring points in V1, with the fovea massively overrepresented."
+    },
+    {
+      "q": "The answer is TRUE - the primary visual cortex contains a map of visual space.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! V1 contains a retinotopic map - spatial relationships preserved from retina through LGN to cortex, with cortical magnification favoring central vision."
     }
   ]
 }

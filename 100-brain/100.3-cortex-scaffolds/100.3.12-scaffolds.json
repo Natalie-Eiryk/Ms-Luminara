@@ -1,28 +1,96 @@
 {
   "parentId": "100.3.12",
-  "parentQuestion": "A patient reports being able to 'feel' someone touching their left hand, but can...",
+  "parentQuestion": "A patient reports being able to 'feel' someone touching their left hand, but cannot localize WHERE on the hand they are being touched or identify the shape of objects placed in that hand. The lesion is in the ___.",
   "scaffolds": [
     {
-      "q": "The brain processes touch in stages — first detecting that touch occurred, then interpreting where and what was touched.",
+      "q": "Touch processing has multiple stages - detection first, then interpretation.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Sensory processing is hierarchical. Primary sensory cortex detects the raw stimulus (touch occurred). Association cortex interprets it (where, what shape, what texture). You can have one without the other."
+      "difficulty": "foundation",
+      "explain": "Yes! Primary cortex detects. Association cortex interprets meaning."
     },
     {
-      "q": "The somatosensory cortex is located in which lobe?",
+      "q": "Primary somatosensory cortex (S1) detects basic touch sensations.",
       "options": [
-        "Frontal lobe",
-        "Temporal lobe",
-        "Parietal lobe",
-        "Occipital lobe"
+        "True",
+        "False"
       ],
-      "answer": 2,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The primary somatosensory cortex (S1) is located in the postcentral gyrus of the parietal lobe, just behind the central sulcus. It processes touch, pressure, temperature, pain, and proprioception."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! S1 processes pressure, texture, temperature, vibration - raw sensory data."
+    },
+    {
+      "q": "Somatosensory ASSOCIATION cortex interprets touch - localizing and identifying.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Association cortex builds meaning from raw data - WHERE and WHAT."
+    },
+    {
+      "q": "Astereognosis = inability to identify objects by touch despite intact sensation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! A- (without) + stereo (solid) + gnosis (knowledge). Can't recognize shapes by touch."
+    },
+    {
+      "q": "If S1 were damaged, the patient couldn't FEEL touch at all.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! S1 damage = loss of primary sensation. This patient CAN feel touch."
+    },
+    {
+      "q": "Can feel touch + can't localize or identify shape = association cortex damage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Primary sensation intact (S1 OK). Interpretation broken (association damaged)."
+    },
+    {
+      "q": "The somatosensory association cortex is in the posterior parietal lobe.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Just behind S1, in the parietal cortex. It integrates and interprets touch."
+    },
+    {
+      "q": "Feels touch + can't localize it + can't identify objects by touch = association damage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Raw sensation arrives. Interpretation fails. That's somatosensory association cortex."
+    },
+    {
+      "q": "The answer is SOMATOSENSORY ASSOCIATION CORTEX - for tactile interpretation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not S1 (they can feel), not motor cortex (movement, not sensation), not thalamus (relay - would lose all sensation). Association cortex damage = astereognosis - sensation without comprehension."
     }
   ]
 }

@@ -1,28 +1,96 @@
 {
   "parentId": "100.3.03",
-  "parentQuestion": "Which part of the cerebral cortex is involved in intellect, cognition, recall, a...",
+  "parentQuestion": "Which part of the cerebral cortex is involved in intellect, cognition, recall, and personality?",
   "scaffolds": [
     {
-      "q": "Different parts of the cerebral cortex have different functions.",
+      "q": "Different parts of the cortex have different functions (localization).",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The cerebral cortex is organized into specialized regions — motor areas control movement, sensory areas process input, and association areas integrate information and handle higher functions. Damage to different regions produces wildly different deficits."
+      "difficulty": "foundation",
+      "explain": "Yes! Occipital = vision, temporal = hearing/memory, parietal = sensation, frontal = motor/executive."
     },
     {
-      "q": "The frontal lobe is located at which part of the brain?",
+      "q": "The frontal lobe is involved in planning, decision-making, and personality.",
       "options": [
-        "Back",
-        "Top middle",
-        "Front",
-        "Sides"
+        "True",
+        "False"
       ],
-      "answer": 2,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The frontal lobe is at the front of the brain, behind the forehead. The prefrontal cortex is the most anterior (front) part of the frontal lobe — the tip of the spear, evolutionarily speaking."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The frontal lobe is the 'executive' of the brain - planning, judgment, impulse control."
+    },
+    {
+      "q": "The PREFRONTAL cortex is the front part of the frontal lobe.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Pre- (in front of) frontal. It's the most anterior part of the frontal lobe."
+    },
+    {
+      "q": "The prefrontal cortex handles 'executive functions' - like a CEO of the brain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Working memory, planning, judgment, impulse control, personality, abstract reasoning."
+    },
+    {
+      "q": "Phineas Gage's injury to prefrontal cortex changed his personality dramatically.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Responsible foreman became impulsive and unreliable after tamping iron destroyed his PFC."
+    },
+    {
+      "q": "The prefrontal cortex is the LAST brain region to fully myelinate (~age 25).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! This explains adolescent impulsivity - the brake pedal isn't fully connected yet."
+    },
+    {
+      "q": "The 'anterior association area' is another name for the prefrontal cortex.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Anterior (front) association cortex. It integrates information from everywhere to guide behavior."
+    },
+    {
+      "q": "Intellect + cognition + recall + personality = prefrontal cortex functions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The prefrontal cortex is the seat of executive function - planning, working memory, personality."
+    },
+    {
+      "q": "The answer is PREFRONTAL CORTEX (anterior association area).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not posterior association (sensory integration), not limbic (emotion/memory encoding), not somatosensory (body sensation). Prefrontal cortex = executive function, personality, higher cognition."
     }
   ]
 }

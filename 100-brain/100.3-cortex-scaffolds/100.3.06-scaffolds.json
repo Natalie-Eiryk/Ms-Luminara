@@ -1,26 +1,96 @@
 {
   "parentId": "100.3.06",
-  "parentQuestion": "Which of the following statements is FALSE? \"Damage to the primary (somatic) mot...",
+  "parentQuestion": "Which of the following statements is FALSE? \"Damage to the primary (somatic) motor cortex results in the loss of both voluntary muscle control and all reflexive contractions.\"",
   "scaffolds": [
     {
-      "q": "Voluntary movements (like reaching for a cup) are controlled by the brain's motor cortex.",
+      "q": "The motor cortex controls VOLUNTARY (conscious) movements.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The primary motor cortex in the frontal lobe initiates voluntary movements. Neurons there send signals down the spinal cord to activate muscles. Lose the cortex, lose voluntary control."
+      "difficulty": "foundation",
+      "explain": "Yes! When you decide to move your arm, that command originates in the primary motor cortex."
     },
     {
-      "q": "A reflex (like the knee-jerk response) requires the brain to process the information.",
+      "q": "Reflexes are automatic, involuntary responses that don't require the cortex.",
       "options": [
         "True",
         "False"
       ],
-      "answer": 1,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Reflexes are processed at the spinal cord level — the signal goes to the spinal cord and back to the muscle without needing brain involvement. This is why reflexes are so fast. The spinal cord is the local controller; the brain is just an observer."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The knee-jerk reflex happens at the spinal cord - no cortex needed."
+    },
+    {
+      "q": "Reflex arcs are completed at the spinal cord or brainstem level.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Sensory neuron → interneuron → motor neuron, all within the spinal cord. Cortex not involved."
+    },
+    {
+      "q": "If motor cortex is damaged, voluntary movement is lost on the opposite side.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Contralateral control - right cortex controls left body and vice versa."
+    },
+    {
+      "q": "If motor cortex is damaged, reflexes are PRESERVED (not lost).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Reflexes don't need the cortex. The spinal circuit remains intact."
+    },
+    {
+      "q": "In upper motor neuron lesions, reflexes often become HYPERactive (not lost).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The cortex normally INHIBITS reflexes. Lose the cortex → disinhibition → hyperreflexia."
+    },
+    {
+      "q": "Spasticity = exaggerated reflexes due to loss of cortical inhibition.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! After stroke, reflexes become overactive because the inhibitory 'brake' is gone."
+    },
+    {
+      "q": "The statement is FALSE - motor cortex damage does NOT eliminate reflexes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Voluntary movement is lost, but reflexes are preserved (often hyperactive)."
+    },
+    {
+      "q": "The answer is TRUE - this statement IS false. Reflexes survive cortical damage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The statement claims ALL reflexes are lost - that's wrong. Reflexes are spinal circuits that persist (and become exaggerated) after motor cortex damage."
     }
   ]
 }

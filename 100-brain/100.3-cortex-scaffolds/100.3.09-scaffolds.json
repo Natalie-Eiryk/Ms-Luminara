@@ -1,26 +1,96 @@
 {
   "parentId": "100.3.09",
-  "parentQuestion": "Following a stroke, a patient ignores the left side of space — failing to dress ...",
+  "parentQuestion": "Following a stroke, a patient ignores the left side of space — failing to dress the left side of their body, eat food on the left side of their plate, or notice people approaching from the left. The lesion is most likely in the ___.",
   "scaffolds": [
     {
-      "q": "The two hemispheres of the brain have different specializations and control opposite sides of the body.",
+      "q": "Spatial attention is controlled by the parietal lobes.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The brain exhibits lateralization — each hemisphere controls the opposite (contralateral) side of the body. But attention and spatial awareness follow more complex rules, particularly involving the parietal lobes."
+      "difficulty": "foundation",
+      "explain": "Yes! The parietal cortex creates spatial maps and directs attention through space."
     },
     {
-      "q": "The parietal lobe is involved in spatial awareness and attention to the environment.",
+      "q": "Hemispatial neglect = ignoring one side of space (usually left side).",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The parietal lobe, particularly the posterior parietal cortex, integrates sensory information and is crucial for spatial attention, body awareness, and navigation through space. It builds your map of the world."
+      "difficulty": "foundation",
+      "explain": "Correct! The patient isn't blind - they're UNAWARE that one side of space exists."
+    },
+    {
+      "q": "Neglect is different from blindness - vision is intact, attention is not.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! They CAN see the left side if forced to look - they just don't attend to it spontaneously."
+    },
+    {
+      "q": "The RIGHT hemisphere attends to BOTH sides of space (left and right).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! This is the key asymmetry. Right hemisphere has bilateral spatial attention."
+    },
+    {
+      "q": "The LEFT hemisphere attends primarily to the RIGHT side of space only.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Left hemisphere is focused on right hemispace. It can't compensate for right damage."
+    },
+    {
+      "q": "Damage to RIGHT parietal → left neglect (nothing attends to left space).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Lose the right parietal, and there's no backup for left spatial attention."
+    },
+    {
+      "q": "Patients with left neglect may eat only right half of plate, shave only right side of face.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The left side of space simply doesn't register. They're unaware it exists."
+    },
+    {
+      "q": "Ignores left side of space + eats only right side of plate = right parietal damage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Right parietal lesion causes left hemispatial neglect due to asymmetric spatial attention."
+    },
+    {
+      "q": "The answer is RIGHT PARIETAL LOBE - causing left hemispatial neglect.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not left parietal (would cause milder right neglect), not occipital (causes blindness, not neglect), not temporal (hearing/memory). Right parietal damage = left neglect because the left hemisphere can't attend to left space."
     }
   ]
 }

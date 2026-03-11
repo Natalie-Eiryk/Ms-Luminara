@@ -1,28 +1,96 @@
 {
   "parentId": "100.3.04",
-  "parentQuestion": "The brain area that regulates activities that control the state of wakefulness o...",
+  "parentQuestion": "The brain area that regulates activities that control the state of wakefulness or alertness of the cerebral cortex is the ___.",
   "scaffolds": [
     {
-      "q": "The brain has specific systems that control whether you are awake or asleep.",
+      "q": "The cortex needs to be 'turned on' to be conscious and aware.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Sleep and wakefulness are regulated by specific brain structures, not just by being tired. These systems actively promote either sleep or arousal. Consciousness is a controlled variable."
+      "difficulty": "foundation",
+      "explain": "Yes! Something must provide the arousal signal - the brain's 'power switch.'"
     },
     {
-      "q": "The brainstem connects which two structures?",
+      "q": "The brainstem contains structures that regulate consciousness and arousal.",
       "options": [
-        "Left and right hemispheres",
-        "Brain and spinal cord",
-        "Eyes and visual cortex",
-        "Ears and auditory cortex"
+        "True",
+        "False"
       ],
-      "answer": 1,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The brainstem (midbrain, pons, medulla) connects the cerebrum above to the spinal cord below. It contains vital centers for breathing, heart rate, and consciousness — the phylogenetically ancient control systems that keep you alive."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The brainstem (midbrain, pons, medulla) contains arousal-regulating circuits."
+    },
+    {
+      "q": "The reticular formation is a diffuse network running through the brainstem core.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! 'Reticular' means net-like. It's a mesh of interconnected neurons, not a discrete nucleus."
+    },
+    {
+      "q": "The reticular ACTIVATING system (RAS) projects to thalamus and cortex.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! RAS = ascending component of reticular formation. It 'activates' the cortex."
+    },
+    {
+      "q": "The RAS controls sleep-wake cycles and maintains consciousness.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! It's the brain's power switch - turn it off and you're unconscious."
+    },
+    {
+      "q": "Damage to the reticular formation causes COMA, not just sleep.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Sleep is reversible. Coma from RAS damage may be permanent. The cortex can't wake up."
+    },
+    {
+      "q": "The reticular formation receives input from all sensory systems.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This lets it wake the cortex when something important happens - loud noise, pain, etc."
+    },
+    {
+      "q": "Wakefulness and alertness are controlled by the reticular formation/RAS.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The reticular activating system maintains cortical arousal and consciousness."
+    },
+    {
+      "q": "The answer is RETICULAR FORMATION - the brainstem arousal system.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not pyramids (motor tracts), not limbic (emotion), not thalamus (sensory relay - though it receives RAS input). Reticular formation = arousal control."
     }
   ]
 }
