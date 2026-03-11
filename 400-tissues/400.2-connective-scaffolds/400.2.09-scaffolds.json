@@ -1,30 +1,96 @@
 {
   "parentId": "400.2.09",
-  "parentQuestion": "A 62-year-old patient with osteoarthritis shows knee cartilage breaking down fas...",
+  "parentQuestion": "A 62-year-old patient with osteoarthritis shows knee cartilage breaking down faster than it can be repaired. Which cells have FAILED in their regenerative function?",
   "scaffolds": [
     {
-      "q": "What is the primary cell type found in cartilage?",
+      "q": "Cartilage is a connective tissue that cushions joints.",
       "options": [
-        "Fibroblast",
-        "Osteocyte",
-        "Chondrocyte",
-        "Adipocyte"
+        "True",
+        "False"
       ],
-      "answer": 2,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Chondrocytes are cartilage cells. They live in lacunae within the cartilage matrix and maintain that matrix by secreting collagen and proteoglycans. The prefix 'chondro-' means cartilage. Language helps, darling."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Cartilage covers the ends of bones in joints, providing smooth surfaces and shock absorption."
     },
     {
-      "q": "Cartilage receives nutrients by:",
+      "q": "The prefix 'chondro-' means cartilage.",
       "options": [
-        "Direct blood supply",
-        "Diffusion from surrounding tissues",
-        "Absorption from synovial fluid only",
-        "It doesn't need nutrients"
+        "True",
+        "False"
       ],
-      "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Cartilage is AVASCULAR — it has no blood vessels. It receives nutrients by diffusion from the surrounding perichondrium and synovial fluid. This is why cartilage heals slowly and why osteoarthritis is so hard to reverse. No highways, just slow diffusion."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! From Greek. Chondrocyte = cartilage cell. Chondroblast = cartilage builder."
+    },
+    {
+      "q": "CHONDROCYTES are the cells that live in and maintain cartilage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Chondrocytes secrete the collagen and proteoglycans that make up cartilage matrix."
+    },
+    {
+      "q": "Cartilage is AVASCULAR - it has no blood vessels.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Nutrients reach chondrocytes only by diffusion. No express delivery, just slow diffusion."
+    },
+    {
+      "q": "Osteoarthritis is a disease where cartilage breaks down.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The protective cartilage wears away, eventually leading to painful bone-on-bone contact."
+    },
+    {
+      "q": "When cartilage breaks down faster than chondrocytes can repair it, osteoarthritis progresses.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The chondrocytes try to rebuild, but can't keep up with the damage. Slow healing tissue fighting a losing battle."
+    },
+    {
+      "q": "Osteocytes are BONE cells, not cartilage cells.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Osteo- = bone. Chondro- = cartilage. Different tissues, different cell names."
+    },
+    {
+      "q": "In osteoarthritis, CHONDROCYTES are failing to regenerate cartilage fast enough.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The chondrocytes are overwhelmed - breakdown exceeds their repair capacity, especially in avascular tissue."
+    },
+    {
+      "q": "The answer is CHONDROCYTES - the cartilage cells that can't keep up with repair.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not fibroblasts (fibrous tissue), not osteoblasts (bone), not adipocytes (fat). Chondrocytes maintain cartilage."
     }
   ]
 }

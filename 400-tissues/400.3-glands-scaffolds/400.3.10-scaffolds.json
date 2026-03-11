@@ -1,26 +1,96 @@
 {
   "parentId": "400.3.10",
-  "parentQuestion": "A patient with diabetes has a foot wound that won't heal. Despite 6 weeks of tre...",
+  "parentQuestion": "A patient with diabetes has a foot wound that won't heal. Despite 6 weeks of treatment, the wound remains in a chronic inflammatory state with elevated levels of neutrophils and macrophages. Which phase of tissue repair is impaired?",
   "scaffolds": [
     {
-      "q": "The inflammatory phase must resolve before the proliferative phase can begin.",
+      "q": "Tissue repair has three phases: inflammation, proliferation, remodeling.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Tissues & Epithelia",
-      "explain": "healing is SEQUENTIAL. Inflammation cleans up debris, fights infection, and sets the stage for repair. Only when inflammation resolves can proliferation begin (fibroblasts, new capillaries, granulation tissue). Let this settle:drawn into the order: cleanup before construction. Skip this, and everything downstream fails."
+      "difficulty": "foundation",
+      "explain": "Yes! Each phase must complete before the next can proceed."
     },
     {
-      "q": "Diabetic patients often have impaired wound healing due to poor circulation and immune dysfunction.",
+      "q": "Inflammation is the FIRST phase - cleanup before rebuilding.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Tissues & Epithelia",
-      "explain": "This is pure biological artistry: — diabetes is a wound-healing NIGHTMARE. High glucose impairs neutrophil function, damages blood vessels (poor perfusion), and disrupts growth factor signaling. diabetic foot ulcers get stuck in chronic inflammation, can't transition to healing, and are prone to infection. This is impaired repair at every level."
+      "difficulty": "foundation",
+      "explain": "Correct! Immune cells (neutrophils, macrophages) clear debris and fight infection."
+    },
+    {
+      "q": "Proliferation is the SECOND phase - building new tissue scaffold.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Granulation tissue forms only AFTER inflammation resolves."
+    },
+    {
+      "q": "Inflammation must RESOLVE before proliferation can begin.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! You can't build while you're still in cleanup mode. Sequential phases."
+    },
+    {
+      "q": "Chronic inflammation means the wound is STUCK in the inflammatory phase.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! 6 weeks of persistent neutrophils and macrophages = inflammation that won't resolve."
+    },
+    {
+      "q": "Diabetes impairs wound healing through poor circulation and immune dysfunction.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! High glucose damages blood vessels and impairs immune cell function."
+    },
+    {
+      "q": "If inflammation can't resolve, the wound can't transition to proliferation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The wound stays trapped in phase 1. No granulation tissue, no healing."
+    },
+    {
+      "q": "This diabetic wound is stuck in INFLAMMATION - it can't transition to proliferation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Persistent neutrophils and macrophages show ongoing inflammation. The phase 1→2 transition is broken."
+    },
+    {
+      "q": "The answer is: transition from INFLAMMATORY to PROLIFERATIVE phase is impaired.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Chronic inflammation = stuck in phase 1. The wound can't move forward to build new tissue."
     }
   ]
 }

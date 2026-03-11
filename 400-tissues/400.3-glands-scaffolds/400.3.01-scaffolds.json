@@ -1,6 +1,6 @@
 {
   "parentId": "400.3.01",
-  "parentQuestion": "Glands whose secretions are stored and then released when the cell ruptures and ...",
+  "parentQuestion": "Glands whose secretions are stored and then released when the cell ruptures and dies are classified as ___.",
   "scaffolds": [
     {
       "q": "Glands can release their secretions in different ways.",
@@ -9,18 +9,88 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Accept this reality:drawn into this — different glands have VERY different delivery methods. some use careful exocytosis (like handing packages through a window), some tear off part of themselves, and some... well, some go out with a BANG. Wait for it."
+      "difficulty": "foundation",
+      "explain": "Yes! Some glands use gentle exocytosis, others tear off parts of themselves, and some literally explode."
     },
     {
-      "q": "Sebaceous glands produce oily secretions for the skin and hair.",
+      "q": "There are THREE main modes of secretion: merocrine, apocrine, and holocrine.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Sebaceous glands make sebum — that's the oil that keeps your skin and hair lubricated. But The plot thickens beautifully here:: the cell literally fills itself with lipid until it's so bloated it RUPTURES. Travel deeper into this: on this — the cell IS the product."
+      "difficulty": "foundation",
+      "explain": "Correct! Each mode describes HOW the cell releases its product - from gentle to destructive."
+    },
+    {
+      "q": "MEROCRINE secretion uses exocytosis - the cell stays intact.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Vesicles release contents at the cell surface. The cell survives and keeps working. Sweat glands work this way."
+    },
+    {
+      "q": "APOCRINE secretion pinches off part of the cell - partial loss.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The cell's apex breaks off with the secretion. The cell survives but loses a piece. Some mammary glands work this way."
+    },
+    {
+      "q": "HOLOCRINE secretion destroys the entire cell - the cell BECOMES the product.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! 'Holo-' means whole/entire. The whole cell fills with product, dies, and ruptures to release it."
+    },
+    {
+      "q": "Sebaceous glands (oil glands) use holocrine secretion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The cell fills with sebum (oil), swells, and eventually ruptures. Cellular martyrdom for smooth skin."
+    },
+    {
+      "q": "In holocrine secretion, the cell dies as part of releasing its product.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Unlike merocrine (cell lives) or apocrine (cell loses apex), holocrine means total cell destruction."
+    },
+    {
+      "q": "Glands that release secretions when the cell RUPTURES and DIES are HOLOCRINE.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Rupture + cell death = holocrine. The entire cell becomes the secretion."
+    },
+    {
+      "q": "The answer is HOLOCRINE - cells fill with product, then rupture and die to release it.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not merocrine (cell stays intact), not apocrine (only apex pinches off). Holocrine = whole cell destruction."
     }
   ]
 }

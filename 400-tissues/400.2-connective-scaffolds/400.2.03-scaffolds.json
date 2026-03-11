@@ -1,30 +1,96 @@
 {
   "parentId": "400.2.03",
-  "parentQuestion": "Which of the following connective tissues provides the framework for lymphoid or...",
+  "parentQuestion": "Which of the following connective tissues provides the framework for lymphoid organs?",
   "scaffolds": [
     {
-      "q": "What are lymphoid organs?",
+      "q": "Lymphoid organs are part of the immune system.",
       "options": [
-        "Organs that produce lymph fluid",
-        "Organs involved in immune system function",
-        "Organs that filter blood",
-        "Organs that store fat"
+        "True",
+        "False"
       ],
-      "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Lymphoid organs (like lymph nodes, spleen, thymus, bone marrow) are part of the immune system. They house immune cells and coordinate the body's defense against infection. we'll explore their architecture together."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Lymph nodes, spleen, and thymus are lymphoid organs where immune cells live and work."
     },
     {
-      "q": "A delicate mesh or network structure inside an organ is called the:",
+      "q": "Organs need internal scaffolding (framework) to support their cells.",
       "options": [
-        "Capsule",
-        "Stroma (framework)",
-        "Parenchyma (functional cells)",
-        "Basement membrane"
+        "True",
+        "False"
       ],
-      "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "The stroma is the supportive framework of an organ — like scaffolding in a building. The parenchyma is the functional cells that do the organ's main work. Architecture matters, darling — form creates function."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! This supporting framework is called the stroma. It holds everything in place."
+    },
+    {
+      "q": "The stroma is the supportive framework; the parenchyma is the functional cells.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Think of stroma as scaffolding and parenchyma as the workers on that scaffolding."
+    },
+    {
+      "q": "RETICULAR tissue forms a delicate mesh-like network.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! 'Reticular' means net-like. It forms a 3D spiderweb structure."
+    },
+    {
+      "q": "Reticular tissue is made of thin fibers called reticular fibers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! These are thin type III collagen fibers that form the delicate mesh."
+    },
+    {
+      "q": "Lymphoid organs need a mesh where immune cells can perch, crawl, and interact.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The reticular mesh provides the perfect 3D scaffolding for immune cell surveillance."
+    },
+    {
+      "q": "Reticular tissue is found in lymph nodes, spleen, and bone marrow.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Anywhere immune cells need to gather and interact, reticular tissue provides the framework."
+    },
+    {
+      "q": "RETICULAR connective tissue provides the internal framework (stroma) of lymphoid organs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Its delicate mesh supports the immune cells that populate these organs."
+    },
+    {
+      "q": "The answer is RETICULAR tissue - the mesh-like framework for lymphoid organs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not dense regular (tendons), not dense irregular (dermis), not areolar (loose packing). Reticular = lymphoid organ scaffolding."
     }
   ]
 }

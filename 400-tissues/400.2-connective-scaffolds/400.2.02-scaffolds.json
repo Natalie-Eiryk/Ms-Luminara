@@ -3,28 +3,94 @@
   "parentQuestion": "The connective tissue that stores fat is called ___.",
   "scaffolds": [
     {
-      "q": "What type of molecule is stored as the body's main long-term energy reserve?",
+      "q": "The body stores energy for later use.",
       "options": [
-        "Glucose",
-        "Protein",
-        "Fat (triglycerides)",
-        "Glycogen"
+        "True",
+        "False"
       ],
-      "answer": 2,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Fat (triglycerides) is the primary long-term energy storage molecule. It contains more than TWICE the energy per gram compared to carbohydrates or proteins — incredibly energy-dense. Let me show you why your body prefers this for long-term storage."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! When you eat more calories than you burn, the excess is stored for times when food is scarce."
     },
     {
-      "q": "Specialized cells that store substances are usually filled mostly with:",
+      "q": "Fat (triglycerides) is the body's main long-term energy storage molecule.",
       "options": [
-        "Nucleus",
-        "The stored substance",
-        "Mitochondria",
-        "Ribosomes"
+        "True",
+        "False"
       ],
-      "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Cells specialized for storage dedicate most of their internal volume to the stored substance. For example, fat cells are nearly COMPLETELY filled with lipid droplets — the nucleus and cytoplasm get squeezed to the periphery. Form follows function, darling."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Fat contains more than twice the energy per gram compared to carbohydrates. Very efficient storage!"
+    },
+    {
+      "q": "Specialized cells store fat in large droplets that fill most of the cell.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Fat cells (adipocytes) are mostly filled with one giant lipid droplet - the nucleus gets pushed to the edge."
+    },
+    {
+      "q": "The tissue made of fat-storing cells is called ADIPOSE tissue.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! 'Adipo-' means fat. Adipose tissue = fat tissue."
+    },
+    {
+      "q": "Adipose tissue is classified as connective tissue.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Despite being mostly fat droplets, adipose tissue is a type of connective tissue because of its developmental origin and matrix."
+    },
+    {
+      "q": "Adipose tissue does MORE than just store fat - it also secretes hormones.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Adipose tissue is an endocrine organ. It releases leptin (satiety signal) and other hormones that affect metabolism."
+    },
+    {
+      "q": "Adipose tissue also provides insulation and cushioning for organs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Fat under your skin insulates against cold, and fat around kidneys protects them from impact."
+    },
+    {
+      "q": "ADIPOSE tissue stores fat in specialized cells called adipocytes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! These cells are designed for fat storage - each is essentially a giant triglyceride droplet with a rim of cytoplasm."
+    },
+    {
+      "q": "The answer is ADIPOSE tissue - the connective tissue specialized for fat storage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not areolar (loose packing tissue), not dense connective tissue (tendons/ligaments). Adipose = fat storage tissue."
     }
   ]
 }

@@ -1,26 +1,96 @@
 {
   "parentId": "400.3.07",
-  "parentQuestion": "A patient has a wound that is healing very slowly. Biopsy shows abundant granula...",
+  "parentQuestion": "A patient has a wound that is healing very slowly. Biopsy shows abundant granulation tissue that is failing to transition to the next phase of repair. Which phase is the tissue 'stuck' in?",
   "scaffolds": [
     {
-      "q": "Granulation tissue is pink and granular, composed of new capillaries and fibroblasts.",
+      "q": "Tissue repair happens in three phases: inflammation, proliferation, remodeling.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Let me show you granulation tissue — it's NAMED for its grainy, granular appearance. New blood vessels (that's the pink color from all the fresh capillaries) and fibroblasts secreting matrix (that's the structural scaffold). it's temporary infrastructure, the foundation for healing. Beautiful in its incompleteness."
+      "difficulty": "foundation",
+      "explain": "Yes! Each phase must complete before the next can succeed."
     },
     {
-      "q": "Tissue repair proceeds through sequential phases: inflammation, proliferation, and remodeling.",
+      "q": "Phase 1 (inflammation) involves cleanup - immune cells remove debris.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Tissues & Epithelia",
-      "explain": "healing is SEQUENTIAL. First you clean up the mess (inflammation), then you build the scaffold (proliferation), then you refine and strengthen (remodeling). Allow this to wash over you:drawn into the order of it. Each phase depends on the one before. Skip a step or get stuck, and healing fails."
+      "difficulty": "foundation",
+      "explain": "Correct! First responders clear the damage zone. Painful but necessary."
+    },
+    {
+      "q": "Phase 2 (proliferation) involves building - new tissue scaffold forms.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Fibroblasts and new blood vessels create granulation tissue."
+    },
+    {
+      "q": "GRANULATION TISSUE is characteristic of the PROLIFERATIVE phase.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! That pink, granular tissue with new capillaries = proliferation is happening."
+    },
+    {
+      "q": "Phase 3 (remodeling) involves maturation - collagen reorganizes, scar strengthens.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The final phase refines the repair - can take months or years."
+    },
+    {
+      "q": "If you see GRANULATION TISSUE, the wound is in the PROLIFERATIVE phase.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Granulation tissue is THE hallmark of proliferation."
+    },
+    {
+      "q": "A wound stuck WITH granulation tissue is stuck IN proliferation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The tissue can't transition to remodeling. Construction continues but never finishes."
+    },
+    {
+      "q": "This wound shows granulation tissue, so it's stuck in the PROLIFERATIVE phase.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Not inflammatory (that's before granulation), not remodeling (that's after). Proliferation = granulation."
+    },
+    {
+      "q": "The answer is PROLIFERATIVE phase - granulation tissue is its hallmark.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The wound keeps making scaffold tissue but can't progress to final remodeling/healing."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "parentId": "400.3.05",
-  "parentQuestion": "A patient presents with severe acne. Examination reveals sebaceous glands that a...",
+  "parentQuestion": "A patient presents with severe acne. Examination reveals sebaceous glands that are overfilled with sebum, causing them to rupture and trigger inflammation. What mode of secretion characterizes these problematic glands?",
   "scaffolds": [
     {
       "q": "Sebaceous glands produce an oily substance called sebum.",
@@ -9,18 +9,88 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Sebum is that wonderful oil that keeps your skin and hair lubricated. it's mostly lipids (fats, waxes, cholesterol). When everything works right, it's protective. When it goes wrong... well, that's when you get acne. Allow the mechanism to reveal itself:drawn into the delicate balance."
+      "difficulty": "foundation",
+      "explain": "Yes! Sebum lubricates and waterproofs your skin and hair."
     },
     {
-      "q": "In some secretion modes, the secretory cell dies as part of the release process.",
+      "q": "Acne occurs when sebaceous glands produce too much sebum.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Tissues & Epithelia",
-      "explain": "holocrine secretion is the ultimate sacrifice. The cell fills with product until it RUPTURES and dies, releasing everything at once. It's cellular suicide for a cause. Brilliantly engineered. The cell IS the delivery system."
+      "difficulty": "foundation",
+      "explain": "Correct! Excess oil + blocked pores = acne. The sebum has nowhere to go."
+    },
+    {
+      "q": "In HOLOCRINE secretion, the cell fills with product and then ruptures.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The cell literally explodes to release its contents. The cell dies in the process."
+    },
+    {
+      "q": "Sebaceous glands use holocrine secretion - the cells rupture to release sebum.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Each sebaceous cell swells with oil until it bursts. Cellular martyrdom for soft skin."
+    },
+    {
+      "q": "MEROCRINE secretion keeps the cell intact - the cell doesn't rupture.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Sweat glands use merocrine secretion. The cells survive and keep secreting."
+    },
+    {
+      "q": "APOCRINE secretion pinches off part of the cell, but doesn't destroy it completely.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Some mammary glands work this way. Partial loss, not total destruction."
+    },
+    {
+      "q": "In acne, holocrine secretion creates lots of dead cell debris along with excess sebum.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Cell rupture = cell death debris. This debris gets trapped in blocked pores and feeds bacteria."
+    },
+    {
+      "q": "Sebaceous glands use HOLOCRINE secretion - cells rupture and die to release sebum.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! This normal process goes wrong in acne when ducts get blocked."
+    },
+    {
+      "q": "The answer is HOLOCRINE secretion - the mode where cells rupture and die.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not merocrine (cell stays intact), not apocrine (only apex lost), not endocrine (that's hormone secretion into blood)."
     }
   ]
 }

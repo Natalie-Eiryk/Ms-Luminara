@@ -1,30 +1,96 @@
 {
   "parentId": "400.2.12",
-  "parentQuestion": "A marathon runner develops severe knee pain. MRI shows a torn meniscus (fibrocar...",
+  "parentQuestion": "A marathon runner develops severe knee pain. MRI shows a torn meniscus (fibrocartilage). The orthopedic surgeon explains this will heal very slowly and may require surgical repair. What property of this tissue makes healing so difficult?",
   "scaffolds": [
     {
-      "q": "What does 'avascular' mean?",
+      "q": "Healing requires delivery of nutrients, oxygen, and repair cells to the injury.",
       "options": [
-        "Having many blood vessels",
-        "Having no blood vessels",
-        "Having blocked blood vessels",
-        "Having leaky blood vessels"
-      ],
-      "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Avascular means having NO blood vessels. Vascular means having blood vessels. Cartilage is avascular — it relies on diffusion for nutrients and waste removal. This is why it heals slowly, darling."
-    },
-    {
-      "q": "Tissues heal faster when they have:",
-      "options": [
-        "Good blood supply",
-        "No blood supply",
-        "Thick extracellular matrix",
-        "Few cells"
+        "True",
+        "False"
       ],
       "answer": 0,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Good blood supply (vascularity) enables rapid delivery of nutrients, oxygen, inflammatory cells, and growth factors to the injury site. This accelerates healing. Avascular tissues heal slowly or not at all. Circulation is life, love."
+      "difficulty": "foundation",
+      "explain": "Yes! Without these supplies, tissues can't repair themselves effectively."
+    },
+    {
+      "q": "Blood vessels deliver healing supplies directly to injured tissues.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Good blood supply = fast healing. Blood brings inflammatory cells, growth factors, and nutrients."
+    },
+    {
+      "q": "'Vascular' means having blood vessels.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! 'A-vascular' means WITHOUT blood vessels. The 'a-' prefix means 'not' or 'without.'"
+    },
+    {
+      "q": "Cartilage is AVASCULAR - it has NO blood vessels.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! This includes the meniscus (fibrocartilage). Nutrients reach it only by slow diffusion."
+    },
+    {
+      "q": "Without blood vessels, healing supplies must DIFFUSE in slowly from the edges.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This is much slower than direct blood delivery. Days instead of hours."
+    },
+    {
+      "q": "Avascular tissues heal SLOWLY or sometimes not at all.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! That's why cartilage injuries are so problematic - minimal blood supply means minimal healing."
+    },
+    {
+      "q": "The meniscus often requires surgery because it won't heal well on its own.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Surgeons often remove damaged portions because waiting for healing may be futile."
+    },
+    {
+      "q": "The meniscus heals slowly because fibrocartilage is AVASCULAR (no blood supply).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! No blood vessels means slow nutrient delivery and poor access for repair cells."
+    },
+    {
+      "q": "The answer is AVASCULAR (no blood supply) - cartilage can't heal quickly without blood vessels.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The tissue has cells, growth factors can reach it eventually, but the lack of blood supply is the critical limitation."
     }
   ]
 }

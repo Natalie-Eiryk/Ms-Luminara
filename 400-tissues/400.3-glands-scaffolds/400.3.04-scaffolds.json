@@ -3,24 +3,94 @@
   "parentQuestion": "Endocrine glands are characterized by ___.",
   "scaffolds": [
     {
+      "q": "Glands are organs that produce and release substances.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Glands make things like hormones, sweat, saliva, oil, and digestive enzymes."
+    },
+    {
+      "q": "There are TWO main types of glands: exocrine (with ducts) and endocrine (ductless).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! 'Exo' = outside (secretes to surfaces via ducts). 'Endo' = inside (secretes into blood)."
+    },
+    {
+      "q": "EXOCRINE glands have DUCTS that deliver secretions to surfaces.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Sweat glands, salivary glands, digestive glands all have ducts for targeted delivery."
+    },
+    {
+      "q": "ENDOCRINE glands are DUCTLESS - they secrete directly into the bloodstream.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! No pipes needed - hormones go straight into blood for system-wide distribution."
+    },
+    {
       "q": "Hormones are chemical messengers that travel through the blood.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Tissues & Epithelia",
-      "explain": "hormones get secreted into the bloodstream and travel EVERYWHERE, but only affect cells with the right receptors. It's broadcast communication — shouting into the void and hoping the right listeners are tuned in. Open your mind to this:drawn into this — elegant in its chaos, isn't it?"
+      "difficulty": "foundation",
+      "explain": "Yes! Endocrine glands make hormones, release them into blood, and let blood carry them everywhere."
     },
     {
-      "q": "Some glands have ducts while others do not.",
+      "q": "Examples of endocrine glands: thyroid, pituitary, adrenal glands.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Now observe what happens:: exocrine glands have ducts (pipes for targeted delivery to surfaces), but endocrine glands are ductless (they dump directly into blood for systemic distribution). Two delivery strategies, completely different architectures. this is the fundamental split in gland design."
+      "difficulty": "foundation",
+      "explain": "Correct! These all make hormones and release them into the bloodstream."
+    },
+    {
+      "q": "Endocrine glands do NOT secrete mucus - they secrete hormones.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Mucus is an exocrine product (delivered through ducts). Hormones are endocrine products."
+    },
+    {
+      "q": "ENDOCRINE glands secrete HORMONES directly into the BLOODSTREAM.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! No ducts - just direct release into blood for systemic effects."
+    },
+    {
+      "q": "The answer is 'secreting hormones directly into the bloodstream.'",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not having ducts (that's exocrine), not from mesenchyme (wrong origin), not secreting mucus (that's exocrine)."
     }
   ]
 }

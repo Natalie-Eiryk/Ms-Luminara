@@ -3,28 +3,94 @@
   "parentQuestion": "The shock-absorbing pads between the vertebrae are made of ___.",
   "scaffolds": [
     {
-      "q": "What is the main structural protein found in cartilage that provides strength?",
+      "q": "The spine is made up of individual bones called vertebrae.",
       "options": [
-        "Elastin",
-        "Collagen",
-        "Keratin",
-        "Actin"
+        "True",
+        "False"
       ],
-      "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Collagen is the main structural protein in cartilage — the scaffolding that gives it strength. Different types of cartilage have varying amounts and arrangements of collagen fibers. This is foundational, love — you'll see collagen everywhere we go."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Your spine has 33 vertebrae stacked on top of each other."
     },
     {
-      "q": "Which property is most important for tissue between vertebrae?",
+      "q": "Between each vertebra, there is a cushion or pad that prevents bone-on-bone contact.",
       "options": [
-        "Stretch and recoil",
-        "Shock absorption",
-        "Smooth gliding",
-        "Heat insulation"
+        "True",
+        "False"
       ],
-      "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "The vertebrae need cushioning from impact and compression during movement. Shock absorption prevents the bony vertebrae from grinding against each other — crucial for every step you take. we'll see exactly how this works."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! These cushions are called intervertebral discs. They absorb shock during walking, jumping, and movement."
+    },
+    {
+      "q": "Cartilage is a connective tissue that provides cushioning and support.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Cartilage is softer than bone but firm enough to provide support and shock absorption."
+    },
+    {
+      "q": "There are THREE main types of cartilage: hyaline, elastic, and fibrocartilage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Each type has different properties suited for different jobs in the body."
+    },
+    {
+      "q": "FIBROcartilage contains lots of FIBER (collagen), making it very tough.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The 'fibro' means fiber. Thick collagen bundles make fibrocartilage resistant to compression and tension."
+    },
+    {
+      "q": "Fibrocartilage is found where you need shock absorption - like between vertebrae.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Also found in knee menisci and the pubic symphysis - anywhere needing tough cushioning."
+    },
+    {
+      "q": "Hyaline cartilage is smooth and found on joint surfaces for gliding, NOT for shock absorption.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Hyaline covers the ends of bones in joints. Fibrocartilage handles the heavy-duty compression."
+    },
+    {
+      "q": "Intervertebral discs are made of fibrocartilage because it resists both compression AND tension.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The thick collagen bundles handle the enormous forces between vertebrae during movement."
+    },
+    {
+      "q": "The answer is FIBROCARTILAGE - the tough, shock-absorbing cartilage between vertebrae.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not hyaline (too smooth, for gliding), not elastic (for flexibility like ears). Fibrocartilage is built for crushing forces."
     }
   ]
 }

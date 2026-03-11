@@ -1,30 +1,96 @@
 {
   "parentId": "400.2.07",
-  "parentQuestion": "A 45-year-old sailor presents with bleeding gums, poor wound healing, and bruisi...",
+  "parentQuestion": "A 45-year-old sailor presents with bleeding gums, poor wound healing, and bruising. Blood work shows normal clotting factors. Which connective tissue component requires the vitamin he's deficient in for proper synthesis?",
   "scaffolds": [
     {
-      "q": "What is the most abundant structural protein in the human body?",
+      "q": "Sailors historically got sick after months at sea without fresh fruits and vegetables.",
       "options": [
-        "Actin",
-        "Myosin",
-        "Collagen",
-        "Keratin"
+        "True",
+        "False"
       ],
-      "answer": 2,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Collagen is the most abundant protein in the body — it's the main structural component of connective tissues. It provides tensile strength to skin, blood vessels, tendons, ligaments, bone, and cartilage. The scaffolding of your entire body, darling."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This disease was called scurvy. It was devastating to sailors before the cause was discovered."
     },
     {
-      "q": "Post-translational modifications occur:",
+      "q": "Vitamin C (ascorbic acid) is found in fresh fruits and vegetables.",
       "options": [
-        "During DNA transcription",
-        "During mRNA translation",
-        "After the protein is synthesized",
-        "Before the gene is expressed"
+        "True",
+        "False"
       ],
-      "answer": 2,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Post-translational modifications happen AFTER the protein is made. The amino acid chain gets modified by adding chemical groups (phosphate, hydroxyl, sugars, etc.) that are crucial for the protein's final structure and function. we'll see how these modifications matter clinically."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Citrus fruits, peppers, and many vegetables are rich in vitamin C."
+    },
+    {
+      "q": "COLLAGEN is the most abundant structural protein in the body.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Collagen provides strength to skin, blood vessels, tendons, ligaments, and bones. It's everywhere."
+    },
+    {
+      "q": "Collagen requires vitamin C for proper synthesis and stability.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Vitamin C is needed to hydroxylate amino acids in collagen, which stabilizes its structure."
+    },
+    {
+      "q": "Without vitamin C, collagen is WEAK and unstable.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Under-hydroxylated collagen falls apart. Blood vessels leak, wounds won't heal, gums bleed."
+    },
+    {
+      "q": "Bleeding gums, bruising, and poor wound healing are signs of weak collagen.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! These are classic scurvy symptoms. Blood vessel walls contain collagen - weak collagen means leaky vessels."
+    },
+    {
+      "q": "A sailor without fresh food for months would be deficient in vitamin C.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This is classic scurvy. The British Navy eventually gave sailors limes (hence 'limeys')."
+    },
+    {
+      "q": "This sailor has scurvy - vitamin C deficiency causing COLLAGEN failure.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Normal clotting factors rule out clotting problems. The bleeding is from weak collagen in vessel walls."
+    },
+    {
+      "q": "The answer is COLLAGEN - requires vitamin C for proper synthesis.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Elastin and other fibers don't require vitamin C the same way. Collagen hydroxylation depends on it."
     }
   ]
 }

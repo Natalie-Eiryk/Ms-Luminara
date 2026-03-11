@@ -1,30 +1,96 @@
 {
   "parentId": "400.2.10",
-  "parentQuestion": "A 55-year-old woman falls and fractures her hip. Six months later, the fracture ...",
+  "parentQuestion": "A 55-year-old woman falls and fractures her hip. Six months later, the fracture still hasn't healed despite proper immobilization. Blood work reveals normal calcium but very low vitamin D. Which cells are being deprived of the signal they need to deposit new bone?",
   "scaffolds": [
     {
-      "q": "Which cells BUILD new bone?",
+      "q": "Bone heals by growing new bone tissue at the fracture site.",
       "options": [
-        "Osteoclasts",
-        "Osteocytes",
-        "Osteoblasts",
-        "Chondroblasts"
+        "True",
+        "False"
       ],
-      "answer": 2,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Osteoblasts build bone by secreting osteoid (organic matrix) which then mineralizes. The suffix '-blast' means 'builder' or 'forming cell.' Osteoclasts destroy bone, osteocytes maintain it. Know your workers, darling."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Unlike simple scars, bone fractures actually regenerate with new bone tissue."
     },
     {
-      "q": "What mineral is the main component of bone hardness?",
+      "q": "The suffix '-blast' means a cell that BUILDS.",
       "options": [
-        "Iron",
-        "Calcium (as hydroxyapatite)",
-        "Magnesium",
-        "Sodium"
+        "True",
+        "False"
       ],
-      "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Bone is mineralized with hydroxyapatite crystals — calcium phosphate. This mineral gives bone its hardness and rigidity. The organic matrix (collagen) provides tensile strength, the mineral provides compressive strength. Beautiful engineering, darling."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Osteoblast = bone builder. Fibroblast = fiber builder. Blasts are construction cells."
+    },
+    {
+      "q": "OSTEOBLASTS are the cells that BUILD new bone.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! They secrete bone matrix (osteoid) which then mineralizes with calcium."
+    },
+    {
+      "q": "Bone matrix must MINERALIZE with calcium to become hard.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Without mineralization, bone would be soft like rubber. Calcium phosphate gives hardness."
+    },
+    {
+      "q": "Vitamin D is essential for calcium absorption and bone mineralization.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Vitamin D helps the gut absorb calcium AND helps osteoblasts mineralize bone properly."
+    },
+    {
+      "q": "Without vitamin D, osteoblasts can't properly mineralize new bone.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! They can lay down the matrix, but it won't harden properly. Soft, weak bone results."
+    },
+    {
+      "q": "Low vitamin D causes fractures to heal poorly because bone can't mineralize.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This is why the fracture hasn't healed after 6 months - the new bone isn't hardening."
+    },
+    {
+      "q": "OSTEOBLASTS need vitamin D signaling to properly deposit and mineralize new bone.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Without adequate vitamin D, osteoblasts can't do their job effectively."
+    },
+    {
+      "q": "The answer is OSTEOBLASTS - they need vitamin D to build and mineralize bone.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not osteoclasts (they break down bone), not chondrocytes (cartilage cells). Osteoblasts BUILD bone and need vitamin D."
     }
   ]
 }

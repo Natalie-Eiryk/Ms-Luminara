@@ -3,24 +3,94 @@
   "parentQuestion": "Which of the following is NOT a step in tissue repair?",
   "scaffolds": [
     {
-      "q": "Tissue repair is a process with distinct phases.",
+      "q": "When tissue is damaged, the body repairs it through a predictable sequence of steps.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Tissues & Epithelia",
-      "explain": "when tissue gets damaged, your body doesn't panic. It follows a PREDICTABLE sequence. Give this idea space to land:drawn into this: inflammation first (cleanup crew), then proliferation (construction), then remodeling (finishing touches). Orderly chaos."
+      "difficulty": "foundation",
+      "explain": "Yes! Tissue repair follows a specific order: inflammation first, then proliferation, then remodeling."
     },
     {
-      "q": "Osteoporosis is a disease that weakens bones.",
+      "q": "Step 1 of tissue repair is INFLAMMATION - the cleanup phase.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Osteoporosis means 'porous bones' — bone density decreases, fracture risk increases. Here's the key: it's a disease of gradual bone loss, not a step in how damaged tissue heals. Completely different process. we're learning to separate disease from repair."
+      "difficulty": "foundation",
+      "explain": "Correct! Blood flow increases, immune cells arrive, debris gets cleared. Painful but necessary."
+    },
+    {
+      "q": "Step 2 is GRANULATION TISSUE formation - building the scaffold.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! New blood vessels and connective tissue form a pink, granular foundation for repair."
+    },
+    {
+      "q": "Step 3 is REGENERATION or FIBROSIS - the final outcome.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Either you get original tissue back (regeneration) or scar tissue forms (fibrosis)."
+    },
+    {
+      "q": "OSTEOPOROSIS is a disease of bone loss, NOT a repair step.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Osteoporosis = weak, porous bones. It's a disease process, not part of wound healing."
+    },
+    {
+      "q": "The three real repair steps are: inflammation, granulation, regeneration/fibrosis.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Osteoporosis doesn't fit this sequence - it's a completely different process."
+    },
+    {
+      "q": "When asked what is NOT a repair step, look for a disease rather than a healing phase.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Osteoporosis is a bone disease. The other options are all legitimate repair phases."
+    },
+    {
+      "q": "OSTEOPOROSIS is NOT a step in tissue repair - it's a disease.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! It doesn't belong in the repair sequence. Inflammation, granulation, and regeneration/fibrosis are real steps."
+    },
+    {
+      "q": "The answer is OSTEOPOROSIS - it's a bone disease, not a repair phase.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! All the other options (inflammation, granulation tissue, regeneration/fibrosis) are actual tissue repair steps."
     }
   ]
 }

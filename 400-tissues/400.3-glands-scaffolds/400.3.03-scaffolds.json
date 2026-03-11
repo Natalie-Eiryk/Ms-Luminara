@@ -3,24 +3,94 @@
   "parentQuestion": "An inflammation response would include which of the following?",
   "scaffolds": [
     {
-      "q": "Inflammation causes redness, heat, and swelling at an injury site.",
+      "q": "Inflammation is the body's first response to tissue damage.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Tissues & Epithelia",
-      "explain": "the cardinal signs of inflammation: redness (more blood), heat (increased metabolism), swelling (fluid leakage), pain (nerve stimulation), loss of function (damage). these aren't bugs, they're FEATURES. Your body screaming 'DAMAGE HERE, SEND HELP.'"
+      "difficulty": "foundation",
+      "explain": "Yes! Before you can rebuild, you need to clean up the damage and fight infection."
     },
     {
-      "q": "Blood vessels can change diameter to control blood flow.",
+      "q": "The cardinal signs of inflammation are: redness, heat, swelling, and pain.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Let me show you something beautiful. Blood vessels aren't rigid pipes — they have smooth muscle that can contract (vasoconstriction = less flow) or relax (vasodilation = more flow). This dynamic control lets your body redirect blood exactly where it's needed. this is Perfectly orchestrated."
+      "difficulty": "foundation",
+      "explain": "Correct! These aren't bugs - they're features! They indicate your body is responding to damage."
+    },
+    {
+      "q": "VASODILATION means blood vessels WIDEN, increasing blood flow.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! 'Vaso' = vessel, 'dilation' = widening. More blood flows to the area, causing redness and heat."
+    },
+    {
+      "q": "Increased PERMEABILITY means vessel walls become 'leaky.'",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Fluid and proteins leak out of blood vessels into tissues, causing swelling."
+    },
+    {
+      "q": "During inflammation, immune cells rush TO the injury site.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Vasodilation brings more blood, and increased permeability lets immune cells leave vessels to reach damaged tissue."
+    },
+    {
+      "q": "Inflammation INCREASES blood flow, not decreases it.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! You want MORE blood bringing immune cells and nutrients to the damage zone."
+    },
+    {
+      "q": "Granulation tissue forms AFTER inflammation, during the proliferative phase.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! First cleanup (inflammation), THEN building (proliferation with granulation tissue)."
+    },
+    {
+      "q": "Inflammation includes VASODILATION and INCREASED PERMEABILITY.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Wider vessels + leaky walls = more blood flow and fluid/cells leaving vessels."
+    },
+    {
+      "q": "The answer is 'dilation of blood vessels and increased permeability.'",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not reduced blood flow (inflammation increases flow), not granulation (that's later), not regeneration (that's the final phase)."
     }
   ]
 }

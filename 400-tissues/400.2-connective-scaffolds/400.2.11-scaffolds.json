@@ -1,30 +1,96 @@
 {
   "parentId": "400.2.11",
-  "parentQuestion": "A 70-year-old man with chronic kidney disease has persistently high blood calciu...",
+  "parentQuestion": "A 70-year-old man with chronic kidney disease has persistently high blood calcium levels despite dietary calcium restriction. His bones are becoming progressively weaker and X-rays show 'moth-eaten' appearance. Which cells are being OVERSTIMULATED by the hormone his kidneys can no longer properly regulate?",
   "scaffolds": [
     {
-      "q": "Which cells break down bone to release calcium into the bloodstream?",
+      "q": "Bone serves as a storage reservoir for calcium.",
       "options": [
-        "Osteoblasts",
-        "Osteoclasts",
-        "Osteocytes",
-        "Chondroblasts"
+        "True",
+        "False"
       ],
-      "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Osteoclasts are bone-destroying cells that resorb bone and release calcium into the blood. They're regulated by parathyroid hormone (PTH) as part of calcium homeostasis. The suffix '-clast' means 'breaker.' Know your demolition crew, darling."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! About 99% of body calcium is stored in bones. It can be released when blood calcium drops."
     },
     {
-      "q": "Parathyroid hormone (PTH) is secreted when blood calcium is:",
+      "q": "The suffix '-clast' means to break or destroy.",
       "options": [
-        "Too high",
-        "Too low",
-        "Normal",
-        "Not related to calcium"
+        "True",
+        "False"
       ],
-      "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "PTH is secreted when blood calcium drops below normal. PTH then acts on bone (stimulates osteoclasts to release calcium), kidney (increases calcium reabsorption), and indirectly on intestine (via vitamin D activation) to RAISE blood calcium. Negative feedback loop, love."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Osteoclast = bone breaker. Iconoclast = image/icon breaker. Clasts destroy things."
+    },
+    {
+      "q": "OSTEOCLASTS are cells that BREAK DOWN bone.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! They resorb bone matrix, releasing calcium into the bloodstream."
+    },
+    {
+      "q": "Parathyroid hormone (PTH) stimulates osteoclasts to release calcium from bone.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! When blood calcium is low, PTH tells osteoclasts to break down bone and release calcium."
+    },
+    {
+      "q": "Kidneys normally help regulate PTH and calcium levels.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Kidneys activate vitamin D and excrete phosphate - both crucial for calcium balance."
+    },
+    {
+      "q": "In kidney disease, PTH can become chronically elevated (hyperparathyroidism).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The feedback loop breaks down, leading to persistent PTH secretion."
+    },
+    {
+      "q": "Chronically high PTH overstimulates osteoclasts, dissolving bone.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The bones are literally being eaten away to maintain blood calcium. The 'moth-eaten' appearance on X-ray shows this."
+    },
+    {
+      "q": "In this patient, OSTEOCLASTS are being overstimulated by excess PTH.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The kidney can't regulate PTH properly, so osteoclasts keep breaking down bone."
+    },
+    {
+      "q": "The answer is OSTEOCLASTS - they're breaking down bone due to uncontrolled PTH.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not osteoblasts (they build), not osteocytes (they maintain). Osteoclasts are the bone destroyers responding to PTH."
     }
   ]
 }
