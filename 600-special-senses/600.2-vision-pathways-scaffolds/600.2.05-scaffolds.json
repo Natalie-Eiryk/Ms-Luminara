@@ -1,0 +1,96 @@
+{
+  "parentId": "600.2.05",
+  "parentQuestion": "Sound is generally perceived in the occipital lobe of the cerebral cortex.",
+  "scaffolds": [
+    {
+      "q": "Different brain lobes handle different sensory modalities.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Functional localization - each sense has dedicated cortical areas."
+    },
+    {
+      "q": "The OCCIPITAL lobe processes VISION.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Primary visual cortex (V1) is in the occipital lobe."
+    },
+    {
+      "q": "The TEMPORAL lobe processes HEARING (audition).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Primary auditory cortex (A1) is in the temporal lobe."
+    },
+    {
+      "q": "The PARIETAL lobe processes TOUCH (somatosensation).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Primary somatosensory cortex (S1) is in the postcentral gyrus."
+    },
+    {
+      "q": "Sound = hearing = temporal lobe, NOT occipital lobe.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Occipital is for vision. Don't confuse them!"
+    },
+    {
+      "q": "Occipital damage → visual problems. Temporal damage → hearing/language problems.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Each lobe has specific functions."
+    },
+    {
+      "q": "The statement 'sound is perceived in occipital lobe' is INCORRECT.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Sound is temporal, not occipital."
+    },
+    {
+      "q": "Sound perception occurs in TEMPORAL cortex, not occipital.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Occipital = vision. Temporal = hearing. Know your lobes!"
+    },
+    {
+      "q": "The answer is FALSE - sound is perceived in TEMPORAL, not occipital cortex.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The question contains a common error. Vision = occipital. Hearing = temporal. The statement is false."
+    }
+  ]
+}

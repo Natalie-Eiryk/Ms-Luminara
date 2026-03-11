@@ -1,0 +1,96 @@
+{
+  "parentId": "600.2.07",
+  "parentQuestion": "A patient who has experienced previous jaw and face trauma now reports difficulty tasting with the tip of her tongue. Which cranial nerve was likely damaged in that injury?",
+  "scaffolds": [
+    {
+      "q": "Taste sensation from different parts of the tongue travels via different cranial nerves.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The tongue isn't innervated by just one nerve for taste."
+    },
+    {
+      "q": "The ANTERIOR 2/3 of the tongue (including tip) → CN VII (facial nerve).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Specifically via the chorda tympani branch of CN VII."
+    },
+    {
+      "q": "The POSTERIOR 1/3 of the tongue → CN IX (glossopharyngeal).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Different nerve for the back of tongue taste."
+    },
+    {
+      "q": "CN V (trigeminal) provides TOUCH sensation to tongue, not TASTE.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! CN V = general sensation (pain, touch, temperature). CN VII/IX = taste."
+    },
+    {
+      "q": "CN XII (hypoglossal) controls tongue MOVEMENT, not taste.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Hypoglossal is motor only. Taste is sensory via VII and IX."
+    },
+    {
+      "q": "The chorda tympani (CN VII) passes near the jaw and middle ear.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! This makes it vulnerable to jaw/face trauma."
+    },
+    {
+      "q": "Tip of tongue = anterior tongue = CN VII territory.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Loss of taste at tip = CN VII (facial nerve) damage."
+    },
+    {
+      "q": "Taste from tongue tip = anterior 2/3 = CN VII (facial nerve via chorda tympani).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Jaw trauma can damage this nerve's chorda tympani branch."
+    },
+    {
+      "q": "The answer is FACIAL (VII) - carries taste from anterior 2/3 of tongue.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not CN V (touch, not taste), not CN XII (motor, not taste), not CN IX (posterior 1/3, not tip). Facial nerve via chorda tympani carries anterior tongue taste."
+    }
+  ]
+}

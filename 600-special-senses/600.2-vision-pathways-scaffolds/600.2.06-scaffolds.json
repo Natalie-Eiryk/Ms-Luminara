@@ -1,0 +1,96 @@
+{
+  "parentId": "600.2.06",
+  "parentQuestion": "The visible light portion of the electromagnetic spectrum fits between ________.",
+  "scaffolds": [
+    {
+      "q": "Light is electromagnetic radiation - a wave with a specific wavelength.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Different wavelengths = different types of EM radiation."
+    },
+    {
+      "q": "The EM spectrum goes from gamma rays (shortest) to radio waves (longest).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Order: gamma → X-rays → UV → visible → infrared → microwaves → radio."
+    },
+    {
+      "q": "Visible light has wavelengths from about 380nm (violet) to 700nm (red).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This narrow band is what human eyes can detect."
+    },
+    {
+      "q": "ULTRAVIOLET (UV) has SHORTER wavelength than visible light.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! UV is 'beyond violet' - shorter wavelength, higher energy."
+    },
+    {
+      "q": "INFRARED (IR) has LONGER wavelength than visible light.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! IR is 'below red' - longer wavelength, lower energy (heat radiation)."
+    },
+    {
+      "q": "Visible light sits BETWEEN UV (shorter) and IR (longer).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! That's where our eyes can detect EM radiation."
+    },
+    {
+      "q": "This matches the 'window' where Earth's atmosphere is transparent.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Evolution tuned our eyes to available sunlight."
+    },
+    {
+      "q": "Visible light is between UV (shorter wavelength) and IR (longer wavelength).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The visible spectrum occupies this narrow band."
+    },
+    {
+      "q": "The answer is 'UV and infrared waves' - visible light fits between them.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not microwaves/radio (both longer than visible), not X-rays/UV (both shorter). Visible light sits between UV and infrared."
+    }
+  ]
+}

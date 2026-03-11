@@ -1,0 +1,96 @@
+{
+  "parentId": "600.2.04",
+  "parentQuestion": "Which statement about malnutrition-induced night blindness is most accurate?",
+  "scaffolds": [
+    {
+      "q": "Night blindness = difficulty seeing in dim light (rod dysfunction).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Rods handle dim light. Night blindness means rods aren't working properly."
+    },
+    {
+      "q": "Vitamin A (retinol) is required to make the chromophore in photopigments.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Vitamin A → retinal → 11-cis-retinal (the light-absorbing part of rhodopsin)."
+    },
+    {
+      "q": "Vitamin A DEFICIENCY reduces the ability to make rhodopsin.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! No vitamin A = no 11-cis-retinal = no functional rhodopsin."
+    },
+    {
+      "q": "Rods are affected first because night vision is most sensitive to rhodopsin levels.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Rod sensitivity depends on having lots of rhodopsin available."
+    },
+    {
+      "q": "Vitamin D is for calcium/bones, NOT for vision. Vitamin A is for vision.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Don't confuse them! Vitamin A = retinol = retina-related."
+    },
+    {
+      "q": "EARLY vitamin A deficiency is REVERSIBLE with supplements.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Restore vitamin A → restore rhodopsin production → restore night vision."
+    },
+    {
+      "q": "Prolonged deficiency can cause irreversible damage (xerophthalmia, corneal damage).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Early intervention is key - simple night blindness can be reversed."
+    },
+    {
+      "q": "Early vitamin A deficiency night blindness is reversible with supplements.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Restoring vitamin A restores the rhodopsin supply chain."
+    },
+    {
+      "q": "The answer is 'vitamin supplements can reverse degenerative changes' (early stages).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not vitamin D (wrong vitamin), not cones affected more (rods first), not cone dysfunction (night blindness = rod problem). Early supplementation works."
+    }
+  ]
+}

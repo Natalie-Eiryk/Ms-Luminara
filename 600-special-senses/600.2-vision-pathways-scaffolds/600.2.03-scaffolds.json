@@ -1,0 +1,96 @@
+{
+  "parentId": "600.2.03",
+  "parentQuestion": "During dark adaptation, rhodopsin accumulates in the rods.",
+  "scaffolds": [
+    {
+      "q": "Rods are the photoreceptors for dim light (night) vision.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Rods are extremely sensitive but only detect brightness, not color."
+    },
+    {
+      "q": "Rhodopsin is the photopigment that makes rods light-sensitive.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Without rhodopsin, rods can't detect photons."
+    },
+    {
+      "q": "In bright light, rhodopsin molecules are continuously bleached.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Light breaks rhodopsin into opsin + all-trans-retinal."
+    },
+    {
+      "q": "In darkness, no light = no bleaching (rhodopsin is preserved).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The destruction process stops in the dark."
+    },
+    {
+      "q": "Meanwhile, the regeneration process keeps running (rebuilding rhodopsin).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The RPE keeps converting retinal back to the active 11-cis form."
+    },
+    {
+      "q": "Net result in darkness: rhodopsin ACCUMULATES (regeneration > bleaching).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! This is dark adaptation at the molecular level."
+    },
+    {
+      "q": "Fully dark-adapted rods contain ~10^8 rhodopsin molecules each.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This enormous supply enables single-photon detection."
+    },
+    {
+      "q": "Dark adaptation = rhodopsin builds up in rods = increased sensitivity.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! More rhodopsin molecules means higher probability of catching photons."
+    },
+    {
+      "q": "The answer is TRUE - during dark adaptation, rhodopsin accumulates in rods.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! This is the molecular mechanism behind improving night vision over 20-40 minutes in darkness."
+    }
+  ]
+}

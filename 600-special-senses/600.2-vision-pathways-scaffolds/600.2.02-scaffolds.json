@@ -1,0 +1,96 @@
+{
+  "parentId": "600.2.02",
+  "parentQuestion": "Dark adaptation involves accumulation of rhodopsin.",
+  "scaffolds": [
+    {
+      "q": "Rhodopsin is the photopigment in ROD photoreceptors.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Rhodopsin = opsin protein + 11-cis-retinal chromophore."
+    },
+    {
+      "q": "In bright light, rhodopsin gets 'bleached' (broken down by light).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Photon absorption isomerizes 11-cis-retinal to all-trans-retinal."
+    },
+    {
+      "q": "More bleaching = less rhodopsin available = lower rod sensitivity.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Fewer photon 'catchers' = less ability to detect dim light."
+    },
+    {
+      "q": "In darkness, bleaching STOPS but regeneration CONTINUES.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The RPE converts all-trans-retinal back to 11-cis-retinal."
+    },
+    {
+      "q": "As rhodopsin accumulates, rod sensitivity INCREASES.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! More rhodopsin = more photon catchers = better night vision."
+    },
+    {
+      "q": "Full dark adaptation takes 20-40 minutes (slow rhodopsin regeneration).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! That's why it takes time to see well in a dark theater."
+    },
+    {
+      "q": "Dark adaptation = rhodopsin accumulation = restored rod sensitivity.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The molecular basis of adjusting to darkness."
+    },
+    {
+      "q": "Dark adaptation requires rhodopsin regeneration and accumulation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! RPE rebuilds 11-cis-retinal, which recombines with opsin to form rhodopsin."
+    },
+    {
+      "q": "The answer is TRUE - dark adaptation involves rhodopsin accumulation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! In darkness, bleaching stops while regeneration continues. Net effect: rhodopsin builds up, sensitivity increases, you can eventually detect single photons."
+    }
+  ]
+}

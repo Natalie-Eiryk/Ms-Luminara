@@ -1,0 +1,96 @@
+{
+  "parentId": "600.2.01",
+  "parentQuestion": "Nerve fibers from the medial aspect of each eye cross over to the opposite side at the chiasma.",
+  "scaffolds": [
+    {
+      "q": "The optic CHIASMA is where the two optic nerves meet.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The chiasma is the X-shaped junction where optic nerves meet and partially cross."
+    },
+    {
+      "q": "At the chiasma, SOME fibers cross to the opposite side while others don't.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! It's a PARTIAL decussation, not complete crossing."
+    },
+    {
+      "q": "The NASAL retina (medial half) sees the TEMPORAL visual field (lateral side).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Light from the temporal (outer) field hits the nasal (inner) retina."
+    },
+    {
+      "q": "NASAL retinal fibers CROSS at the chiasma to the opposite side.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Nasal = medial = crosses. This reorganizes from 'per eye' to 'per visual field.'"
+    },
+    {
+      "q": "TEMPORAL retinal fibers stay on the SAME side (don't cross).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Temporal = lateral = stays ipsilateral."
+    },
+    {
+      "q": "After the chiasma, each optic TRACT carries information from ONE visual hemifield.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Left tract = right visual field (from both eyes). Right tract = left visual field."
+    },
+    {
+      "q": "This arrangement allows binocular processing of each visual field by one hemisphere.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Essential for depth perception and unified visual experience."
+    },
+    {
+      "q": "Medial (nasal) retinal fibers cross at the chiasma; temporal fibers don't.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Partial decussation reorganizes visual information by visual field, not by eye."
+    },
+    {
+      "q": "The answer is TRUE - nasal (medial) retinal fibers cross at the chiasma.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! This partial crossing ensures each hemisphere receives input from both eyes but for only its contralateral visual field."
+    }
+  ]
+}
