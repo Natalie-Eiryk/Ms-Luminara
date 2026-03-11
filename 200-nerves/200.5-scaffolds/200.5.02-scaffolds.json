@@ -3,14 +3,92 @@
   "parentQuestion": "Damage to the optic nerve (CN II) would result in ___.",
   "scaffolds": [
     {
+      "q": "Your eyes are where you detect light and see things.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Your eyes contain special light-detecting cells. Light enters through the pupil, hits the retina at the back, and those cells turn light into electrical signals your brain can understand."
+    },
+    {
+      "q": "The word optic means related to ___.",
+      "options": [
+        "Hearing",
+        "Smell",
+        "Vision/Sight",
+        "Taste"
+      ],
+      "answer": 2,
+      "difficulty": "foundation",
+      "explain": "Optic = vision/sight! When you see optical or optic in anatomy, think eyes and seeing. Opticians make glasses, optometrists check eyes - its all about vision!"
+    },
+    {
+      "q": "If a cable connecting your TV to the wall is cut, the TV screen goes blank.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Exactly! And your optic nerve works the same way - its the cable connecting your eye to your brain. Cut that nerve and the signal cant reach your brain, so you cant see from that eye."
+    },
+    {
+      "q": "CN II is the abbreviation for Cranial Nerve number ___.",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Twelve"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN II = Cranial Nerve Two! In Roman numerals, II = 2. The optic nerve is the second cranial nerve, right after the olfactory (smell) nerve."
+    },
+    {
+      "q": "The optic nerve carries information about what you ___.",
+      "options": [
+        "Hear",
+        "See",
+        "Smell",
+        "Taste"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The optic nerve carries visual information - what you see! It takes the light signals your retina detects and sends them to the visual processing area in your brain."
+    },
+    {
+      "q": "If something is damaged or broken, it usually stops working properly.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Right! When nerves are damaged, they cant carry signals properly. A damaged optic nerve means visual signals cant get from your eye to your brain."
+    },
+    {
+      "q": "Blindness means you cannot ___.",
+      "options": [
+        "Hear",
+        "See",
+        "Walk",
+        "Think"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Blindness = inability to see. If the optic nerve is completely damaged, signals from that eye never reach the brain, causing blindness in that eye."
+    },
+    {
       "q": "Visual information from the eye must travel to the brain to be perceived.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The retina detects light and converts it to electrical signals, but let me show you what happens next — those signals must reach the visual cortex in the brain before you 'see' anything. The optic nerve is the highway that carries the data. Beautiful engineering."
+      "difficulty": "intermediate",
+      "explain": "The retina detects light and converts it to electrical signals, but those signals must reach the visual cortex in the brain before you see anything. The optic nerve is the highway that carries the data."
     },
     {
       "q": "Each eye has its own optic nerve.",
@@ -19,8 +97,8 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Each eye has a separate optic nerve (CN II). damage to one optic nerve affects only that eye's vision. It's a dedicated connection, one eye, one cable. Precise and vulnerable."
+      "difficulty": "intermediate",
+      "explain": "Each eye has a separate optic nerve (CN II). Damage to one optic nerve affects only that eyes vision. Its a dedicated connection - one eye, one cable."
     }
   ]
 }

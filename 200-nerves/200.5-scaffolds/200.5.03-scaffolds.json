@@ -1,7 +1,83 @@
 {
   "parentId": "200.5.03",
-  "parentQuestion": "Which cranial nerve controls most eye movements, pupil constriction, and lens ac...",
+  "parentQuestion": "Which cranial nerve controls most eye movements, pupil constriction, and lens accommodation?",
   "scaffolds": [
+    {
+      "q": "Your eyes can move to look up, down, left, and right.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Your eyeballs can rotate in their sockets to let you look in different directions without moving your head. Muscles attached to each eye pull it in different directions."
+    },
+    {
+      "q": "The black circle in the center of your eye is called the ___.",
+      "options": [
+        "Iris",
+        "Pupil",
+        "Cornea",
+        "Lens"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The pupil! Its the dark hole in the center of your colored iris. Light enters your eye through the pupil. It gets bigger in dim light and smaller in bright light."
+    },
+    {
+      "q": "When you walk from a dark room into bright sunlight, your pupils get ___.",
+      "options": [
+        "Bigger",
+        "Smaller",
+        "Stay the same",
+        "Turn red"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Your pupils get smaller (constrict) in bright light to protect your retina from too much light. This happens automatically - you dont have to think about it!"
+    },
+    {
+      "q": "CN III is the abbreviation for Cranial Nerve number ___.",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Thirteen"
+      ],
+      "answer": 2,
+      "difficulty": "foundation",
+      "explain": "CN III = Cranial Nerve Three! In Roman numerals, III = 3. The oculomotor nerve is the third cranial nerve."
+    },
+    {
+      "q": "The word oculomotor contains ocul- (eye) and motor (movement).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Exactly! Oculo = eye, motor = movement. So oculomotor literally means eye-mover. This nerve controls most of the muscles that move your eyeball."
+    },
+    {
+      "q": "When you focus on something close to your face, your lens changes shape.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This is called accommodation. The lens gets rounder to focus on close objects and flatter for distant objects. The oculomotor nerve controls the muscle that does this."
+    },
+    {
+      "q": "One nerve can control multiple different functions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Absolutely! CN III is a great example - it controls eye movement AND pupil size AND lens focusing. Its a multi-tasking nerve with several different jobs."
+    },
     {
       "q": "The pupil can change size to control how much light enters the eye.",
       "options": [
@@ -9,8 +85,8 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The pupil constricts (gets smaller) in bright light and dilates (gets larger) in dim light. Let me show you the mechanism: this is controlled by muscles in the iris — sphincter pupillae to constrict, dilator pupillae to dilate. Automatic aperture control. Exquisite precision."
+      "difficulty": "intermediate",
+      "explain": "The pupil constricts (smaller) in bright light and dilates (larger) in dim light. This is controlled by muscles in the iris - sphincter pupillae to constrict, dilator pupillae to dilate."
     },
     {
       "q": "Multiple muscles are needed to move the eye in different directions.",
@@ -19,8 +95,8 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Six extraocular muscles control eye movement: up, down, left, right, and rotational movements. Different nerves control different muscles. it's a coordinated system. Break one component, and the whole performance falls apart. Look at what occurs:."
+      "difficulty": "intermediate",
+      "explain": "Six extraocular muscles control eye movement: up, down, left, right, and rotational movements. Different nerves control different muscles - CN III controls 4 of the 6!"
     }
   ]
 }
