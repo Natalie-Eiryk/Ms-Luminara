@@ -1,0 +1,96 @@
+{
+  "parentId": "500.2.06",
+  "parentQuestion": "The effect of beta-blocker drugs is to increase blood pressure.",
+  "scaffolds": [
+    {
+      "q": "Beta-blockers are drugs that block beta-adrenergic receptors.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! They prevent NE and epinephrine from activating beta receptors, blocking sympathetic effects."
+    },
+    {
+      "q": "Beta-1 receptors in the heart increase heart rate and contractility when activated.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Sympathetic activation of cardiac beta-1 receptors speeds and strengthens the heart."
+    },
+    {
+      "q": "BLOCKING beta-1 receptors would DECREASE heart rate and contractility.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! If you block the accelerator, the heart slows down and pumps less forcefully."
+    },
+    {
+      "q": "Blood pressure = cardiac output × peripheral resistance.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Reduce cardiac output → reduce blood pressure (assuming resistance stays constant)."
+    },
+    {
+      "q": "Beta-blockers reduce cardiac output by slowing the heart.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Lower heart rate × lower contractility = lower cardiac output = lower blood pressure."
+    },
+    {
+      "q": "Beta-blockers are used to TREAT hypertension (high blood pressure).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! They LOWER blood pressure, which is therapeutic for hypertensive patients."
+    },
+    {
+      "q": "Beta-blockers DECREASE blood pressure, not increase it.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The question's statement is backwards. Beta-blockers are anti-hypertensive drugs."
+    },
+    {
+      "q": "The statement 'beta-blockers increase blood pressure' is FALSE.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Beta-blockers DECREASE blood pressure by reducing cardiac output. They're used to TREAT hypertension."
+    },
+    {
+      "q": "The answer is FALSE - beta-blockers LOWER blood pressure.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The statement is FALSE. Beta-blockers reduce heart rate and contractility, lowering cardiac output and blood pressure. They're antihypertensive medications."
+    }
+  ]
+}

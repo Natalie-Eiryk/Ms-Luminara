@@ -1,0 +1,96 @@
+{
+  "parentId": "500.2.02",
+  "parentQuestion": "Most postganglionic sympathetic fibers secrete norepinephrine (NE).",
+  "scaffolds": [
+    {
+      "q": "Norepinephrine (NE) is also called noradrenaline.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Same molecule, different names. NE/noradrenaline is the main sympathetic postganglionic neurotransmitter."
+    },
+    {
+      "q": "Sympathetic postganglionic neurons send signals to target organs like heart and blood vessels.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! After synapsing in ganglia, postganglionic fibers travel to effector organs to execute sympathetic responses."
+    },
+    {
+      "q": "'Adrenergic' means using norepinephrine or epinephrine as neurotransmitter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Adrenergic neurons release NE (or epi). Most sympathetic postganglionic neurons are adrenergic."
+    },
+    {
+      "q": "Adrenergic receptors (alpha and beta) respond to NE and epinephrine.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Alpha-1, alpha-2, beta-1, beta-2, beta-3 receptors are all adrenergic - they bind NE and epinephrine."
+    },
+    {
+      "q": "The word 'most' is important - there are a few sympathetic exceptions that use ACh.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Most sympathetic postganglionics use NE, but sweat glands receive sympathetic fibers that use ACh (cholinergic exception)."
+    },
+    {
+      "q": "Sympathetic activation causes NE release at the heart, blood vessels, and other targets.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! NE binding adrenergic receptors produces fight-or-flight effects: faster heart, vasoconstriction, etc."
+    },
+    {
+      "q": "Sympathetic = mostly adrenergic (NE); Parasympathetic = cholinergic (ACh).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This is the key distinction at the postganglionic level. Sympathetic uses NE (mostly), parasympathetic uses ACh."
+    },
+    {
+      "q": "Most sympathetic postganglionic fibers release norepinephrine.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The majority of sympathetic postganglionics are adrenergic. Sweat glands are the main cholinergic exception."
+    },
+    {
+      "q": "The statement is TRUE - MOST sympathetic postganglionic fibers use NE.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The answer is TRUE. 'Most' is accurate - NE is the dominant sympathetic postganglionic transmitter, with ACh exceptions for sweat glands."
+    }
+  ]
+}

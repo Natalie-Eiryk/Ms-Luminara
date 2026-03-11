@@ -1,0 +1,96 @@
+{
+  "parentId": "500.2.09",
+  "parentQuestion": "The mushroom poison muscarine can bind to receptors on ________.",
+  "scaffolds": [
+    {
+      "q": "Muscarine is a toxin found in certain mushrooms.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Some Inocybe and Clitocybe mushrooms contain muscarine, which can cause poisoning."
+    },
+    {
+      "q": "Muscarine was used to NAME muscarinic receptors (they respond to muscarine).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Just like nicotinic receptors respond to nicotine, muscarinic receptors respond to muscarine."
+    },
+    {
+      "q": "Muscarinic receptors are found at parasympathetic TARGET organs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Heart, GI tract, glands, bladder - parasympathetic effectors have muscarinic receptors."
+    },
+    {
+      "q": "Muscarinic receptors are also found at sweat glands (sympathetic but cholinergic).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Sweat glands are the sympathetic cholinergic exception - they have muscarinic receptors too."
+    },
+    {
+      "q": "Muscarine does NOT bind nicotinic receptors (ganglia, NMJs).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Muscarine is specific for muscarinic receptors. Nicotinic receptors require nicotine or ACh."
+    },
+    {
+      "q": "Muscarine poisoning causes excessive parasympathetic symptoms (SLUDGE).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! SLUDGE = Salivation, Lacrimation, Urination, Defecation, GI distress, Emesis. All muscarinic effects."
+    },
+    {
+      "q": "Atropine (muscarinic blocker) is the antidote for muscarine poisoning.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Atropine blocks muscarinic receptors, counteracting the effects of muscarine."
+    },
+    {
+      "q": "Muscarine binds muscarinic receptors on all postganglionic cholinergic effector cells.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Anywhere postganglionic cholinergic fibers release ACh onto muscarinic receptors, muscarine can also bind."
+    },
+    {
+      "q": "The answer is 'all effector cells stimulated by postganglionic cholinergic fibers.'",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Muscarine binds muscarinic receptors at parasympathetic targets AND sympathetic cholinergic targets (sweat glands). Not ganglia (nicotinic), not NMJs (nicotinic), not adrenal medulla (nicotinic)."
+    }
+  ]
+}

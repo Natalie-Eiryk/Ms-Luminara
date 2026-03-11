@@ -1,0 +1,96 @@
+{
+  "parentId": "500.2.04",
+  "parentQuestion": "Where would you NOT find a cholinergic nicotinic receptor?",
+  "scaffolds": [
+    {
+      "q": "There are TWO types of ACh receptors: nicotinic and muscarinic.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Both respond to ACh, but they're structurally different and found in different locations."
+    },
+    {
+      "q": "Nicotinic receptors are ion channels that open directly when ACh binds.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Nicotinic receptors are ligand-gated ion channels - fast, excitatory responses."
+    },
+    {
+      "q": "Muscarinic receptors use G-protein signaling (slower, modulatory effects).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Muscarinic receptors are metabotropic (G-protein coupled) - they trigger intracellular cascades."
+    },
+    {
+      "q": "Nicotinic receptors are found at ALL autonomic ganglia (both divisions).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Preganglionic ACh activates nicotinic receptors on postganglionic neurons - universal in both sympathetic and parasympathetic ganglia."
+    },
+    {
+      "q": "Nicotinic receptors are found at neuromuscular junctions (skeletal muscle).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Motor neurons release ACh onto nicotinic receptors on skeletal muscle, causing contraction."
+    },
+    {
+      "q": "Nicotinic receptors are found on adrenal medulla chromaffin cells.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The adrenal medulla receives direct preganglionic sympathetic input via nicotinic receptors."
+    },
+    {
+      "q": "Parasympathetic TARGET ORGANS have MUSCARINIC receptors, not nicotinic.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Ganglia have nicotinic, but effector organs (heart, GI, glands) have muscarinic receptors for postganglionic ACh."
+    },
+    {
+      "q": "Nicotinic receptors are NOT found at parasympathetic target organs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Target organs have muscarinic receptors. Nicotinic receptors are at ganglia, NMJs, and adrenal medulla - not at parasympathetic effector tissues."
+    },
+    {
+      "q": "The answer is 'parasympathetic target organs' - they have muscarinic, not nicotinic receptors.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! You would NOT find nicotinic receptors at parasympathetic target organs. Those tissues have muscarinic receptors for responding to postganglionic ACh."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "parentId": "500.2.07",
+  "parentQuestion": "The ANS stimulates smooth muscles, skeletal muscles and glands, whereas the somatic nervous system innervates skeletal muscles only.",
+  "scaffolds": [
+    {
+      "q": "The ANS controls INVOLUNTARY functions (visceral organs).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! ANS = autonomic = 'self-governing.' It controls things you don't consciously think about."
+    },
+    {
+      "q": "The somatic nervous system controls VOLUNTARY movements (skeletal muscle).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! When you decide to move your arm, that's somatic motor control."
+    },
+    {
+      "q": "The ANS innervates smooth muscle (blood vessels, GI tract, airways).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Smooth muscle in visceral walls is under autonomic control - involuntary."
+    },
+    {
+      "q": "The ANS innervates cardiac muscle (heart).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Heart rate and contractility are regulated by sympathetic and parasympathetic input."
+    },
+    {
+      "q": "The ANS innervates glands (salivary, sweat, digestive).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Glandular secretion is controlled by the ANS - you don't consciously control salivation."
+    },
+    {
+      "q": "SKELETAL muscle is controlled by the SOMATIC nervous system, not the ANS.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! You consciously control skeletal muscles. They're somatic territory, not autonomic."
+    },
+    {
+      "q": "The ANS does NOT innervate skeletal muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The question's statement is wrong - it claims ANS stimulates skeletal muscle, but it doesn't."
+    },
+    {
+      "q": "The statement contains an error - ANS does NOT innervate skeletal muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! ANS targets: smooth muscle, cardiac muscle, glands. Somatic targets: skeletal muscle only. The statement incorrectly includes skeletal muscle in ANS targets."
+    },
+    {
+      "q": "The answer is FALSE - the ANS does NOT stimulate skeletal muscles.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The statement is FALSE. The ANS innervates smooth muscle, cardiac muscle, and glands - but NOT skeletal muscle. Skeletal muscle is somatic nervous system only."
+    }
+  ]
+}

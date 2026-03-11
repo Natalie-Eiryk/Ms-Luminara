@@ -1,0 +1,96 @@
+{
+  "parentId": "500.2.08",
+  "parentQuestion": "Control of temperature, endocrine activity, and thirst are functions associated with the ________.",
+  "scaffolds": [
+    {
+      "q": "The hypothalamus is part of the diencephalon, located below the thalamus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! 'Hypo-' means below. The hypothalamus sits beneath the thalamus, above the pituitary."
+    },
+    {
+      "q": "Body temperature is regulated by a 'thermostat' in the brain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The hypothalamus acts as the body's thermostat, triggering heating or cooling responses."
+    },
+    {
+      "q": "The hypothalamus controls the pituitary gland (master endocrine gland).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The hypothalamus releases hormones that control the pituitary, which then controls other endocrine glands."
+    },
+    {
+      "q": "Thirst is triggered when blood osmolarity increases (dehydration).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Osmoreceptors detect concentrated blood and signal 'drink water!' The hypothalamus contains these sensors."
+    },
+    {
+      "q": "The hypothalamus also controls hunger, sleep-wake cycles, and emotional responses.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The hypothalamus is homeostasis headquarters - regulating many basic drives and rhythms."
+    },
+    {
+      "q": "The medulla controls breathing and heart rate, but NOT temperature or thirst.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Medulla = vital reflexes (cardiovascular, respiratory). Hypothalamus = homeostatic regulation (temp, thirst, endocrine)."
+    },
+    {
+      "q": "Temperature + endocrine + thirst control = hypothalamus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This combination of functions points directly to the hypothalamus - the homeostatic command center."
+    },
+    {
+      "q": "The hypothalamus controls temperature, endocrine activity, and thirst.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! These are classic hypothalamic functions - thermoregulation, pituitary control, and fluid balance."
+    },
+    {
+      "q": "The answer is HYPOTHALAMUS - the homeostatic control center.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not medulla (vital reflexes), not cerebellum (motor coordination), not thalamus (sensory relay). HYPOTHALAMUS controls temperature, endocrine, and thirst."
+    }
+  ]
+}

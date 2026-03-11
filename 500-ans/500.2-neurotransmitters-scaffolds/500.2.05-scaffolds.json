@@ -1,0 +1,96 @@
+{
+  "parentId": "500.2.05",
+  "parentQuestion": "Beta-1 adrenergic receptors play the major role in heart activity.",
+  "scaffolds": [
+    {
+      "q": "There are different types of adrenergic receptors: alpha and beta.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Alpha-1, alpha-2, beta-1, beta-2, beta-3 - each with different tissue distributions and effects."
+    },
+    {
+      "q": "Beta receptors are further divided into beta-1, beta-2, and beta-3.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Each subtype has different locations: beta-1 (heart), beta-2 (lungs, vessels), beta-3 (fat)."
+    },
+    {
+      "q": "The heart is a major target of sympathetic stimulation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Sympathetic activation increases heart rate and contractility - essential for fight-or-flight."
+    },
+    {
+      "q": "Beta-1 receptors are the PRIMARY adrenergic receptor type in the heart.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The heart is beta-1 territory. NE and epinephrine activate cardiac beta-1 receptors."
+    },
+    {
+      "q": "Beta-1 activation increases heart rate (positive chronotropy).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Beta-1 receptors in the SA node speed up pacemaker firing when activated."
+    },
+    {
+      "q": "Beta-1 activation increases heart contractility (positive inotropy).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Beta-1 receptors in ventricular muscle increase the force of each contraction."
+    },
+    {
+      "q": "Beta-blockers targeting beta-1 receptors slow the heart and reduce blood pressure.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! That's why beta-1 blockers (metoprolol, atenolol) are used for hypertension and heart conditions."
+    },
+    {
+      "q": "Beta-1 receptors are the major cardiac adrenergic receptor.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Heart = beta-1. Sympathetic NE and circulating epinephrine both activate cardiac beta-1 receptors."
+    },
+    {
+      "q": "The statement is TRUE - beta-1 receptors play the major role in heart activity.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The answer is TRUE. Beta-1 adrenergic receptors mediate the heart's response to sympathetic stimulation - increased rate, conduction, and contractility."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "parentId": "500.2.01",
+  "parentQuestion": "Preganglionic fibers of BOTH sympathetic and parasympathetic divisions secrete acetylcholine (ACh).",
+  "scaffolds": [
+    {
+      "q": "The ANS uses a two-neuron chain: preganglionic and postganglionic.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Both sympathetic and parasympathetic divisions use two neurons in series - preganglionic (CNS to ganglion) and postganglionic (ganglion to target)."
+    },
+    {
+      "q": "Acetylcholine (ACh) is a neurotransmitter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! ACh was the first neurotransmitter discovered. It's used at neuromuscular junctions, autonomic ganglia, and parasympathetic effectors."
+    },
+    {
+      "q": "Preganglionic neurons synapse in autonomic ganglia.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The preganglionic neuron's axon travels from the CNS to a ganglion, where it synapses with the postganglionic neuron."
+    },
+    {
+      "q": "ALL preganglionic neurons - both sympathetic and parasympathetic - release ACh.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! This is universal - no exceptions. Every preganglionic fiber, regardless of division, releases ACh."
+    },
+    {
+      "q": "The sympathetic and parasympathetic divisions differ at the POSTGANGLIONIC level.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Preganglionic = same (ACh). Postganglionic = different (parasympathetic uses ACh, sympathetic mostly uses norepinephrine)."
+    },
+    {
+      "q": "Nicotinic receptors in ganglia respond to ACh from preganglionic neurons.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Preganglionic ACh binds nicotinic receptors on postganglionic neurons, activating them."
+    },
+    {
+      "q": "The first neuron in BOTH divisions is cholinergic (uses ACh).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! 'Cholinergic' means ACh-releasing. All preganglionic neurons are cholinergic - a beautiful consistency in the ANS."
+    },
+    {
+      "q": "Both sympathetic and parasympathetic preganglionic fibers release ACh.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! This is one of the key principles of ANS organization. The divisions share the same preganglionic neurotransmitter."
+    },
+    {
+      "q": "The statement is TRUE - ALL preganglionic fibers secrete ACh.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The answer is TRUE. Whether sympathetic or parasympathetic, every preganglionic neuron releases acetylcholine onto nicotinic receptors in the ganglion."
+    }
+  ]
+}

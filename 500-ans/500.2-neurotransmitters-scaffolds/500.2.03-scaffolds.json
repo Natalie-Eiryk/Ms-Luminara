@@ -1,0 +1,96 @@
+{
+  "parentId": "500.2.03",
+  "parentQuestion": "Postganglionic sympathetic fibers to sweat glands secrete acetylcholine (ACh), not norepinephrine.",
+  "scaffolds": [
+    {
+      "q": "Sweating is controlled by the sympathetic nervous system.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Sweating increases during stress/exercise - that's sympathetic 'fight or flight' preparing for heat dissipation."
+    },
+    {
+      "q": "Most sympathetic postganglionic fibers release norepinephrine (NE).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Heart, blood vessels, pupils - most sympathetic targets receive NE. But there are exceptions."
+    },
+    {
+      "q": "Sweat glands are the major EXCEPTION to the 'sympathetic = NE' rule.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Even though sweat glands are sympathetically controlled, the postganglionic fibers release ACh, not NE."
+    },
+    {
+      "q": "Sweat glands have muscarinic receptors, not adrenergic receptors.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Muscarinic receptors respond to ACh. That's why atropine (muscarinic blocker) inhibits sweating."
+    },
+    {
+      "q": "Atropine blocks muscarinic receptors and causes dry skin (reduced sweating).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Even though sweating is sympathetic, atropine blocks it because sweat glands use ACh/muscarinic signaling."
+    },
+    {
+      "q": "Beta-blockers (adrenergic blockers) do NOT affect sweating.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Sweat glands don't have adrenergic receptors, so beta-blockers don't touch them. Wrong receptor type."
+    },
+    {
+      "q": "Sympathetic but cholinergic = sweat glands (the famous exception).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This exception appears on exams constantly. Know it: sympathetic innervation, but ACh/muscarinic transmission."
+    },
+    {
+      "q": "Sympathetic fibers to sweat glands release ACh, not NE.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The sympathetic cholinergic exception. Sweating is sympathetically controlled but uses cholinergic transmission."
+    },
+    {
+      "q": "The statement is TRUE - sweat gland innervation is sympathetic but cholinergic.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The answer is TRUE. This is the most important sympathetic exception: sweat glands receive sympathetic fibers that release ACh onto muscarinic receptors."
+    }
+  ]
+}
