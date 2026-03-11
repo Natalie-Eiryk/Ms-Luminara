@@ -1,26 +1,96 @@
 {
   "parentId": "000.1.03",
-  "parentQuestion": "A structure that is composed of two or more tissue types that work together to p...",
+  "parentQuestion": "A structure that is composed of two or more tissue types that work together to perform specific functions for the body is a(n) ___.",
   "scaffolds": [
     {
-      "q": "The body is organized in a hierarchy: cells → tissues → organs → organ systems.",
+      "q": "The body is organized in levels of increasing complexity.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Get excited about this hierarchy, darling. Each level builds on the previous one. Cells group into tissues, tissues combine to form organs, organs collaborate as organ systems. It's like Russian nesting dolls, except each layer DOES something new that the lower level couldn't. Breathe in this knowledge:drawn into this."
+      "difficulty": "foundation",
+      "explain": "Yes! From atoms all the way up to the complete organism."
     },
     {
-      "q": "A tissue is a group of similar cells working together.",
+      "q": "CELLS are the basic units of life.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Tissues are groups of SIMILAR cells (plus their extracellular matrix) with a common function. The four primary tissue types? Epithelial, connective, muscle, and nervous. That's it. Four building blocks for every organ in your body. Pursue this logic: now."
+      "difficulty": "foundation",
+      "explain": "Correct! Cells are the smallest living units that can function independently."
+    },
+    {
+      "q": "A TISSUE is a group of similar cells working together.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Muscle tissue = muscle cells. Nervous tissue = nerve cells. Similar cells, common function."
+    },
+    {
+      "q": "There are FOUR primary tissue types: epithelial, connective, muscle, nervous.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! These four tissue types make up all the organs in your body."
+    },
+    {
+      "q": "An ORGAN is made of TWO OR MORE tissue types working together.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The heart has muscle tissue, connective tissue, epithelial tissue, and nerve tissue."
+    },
+    {
+      "q": "An ORGAN SYSTEM is a group of ORGANS working together.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The cardiovascular system includes heart, blood vessels, and blood."
+    },
+    {
+      "q": "The hierarchy: cells → tissues → ORGANS → organ systems → organism.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Organs are made of multiple tissues, and are part of organ systems."
+    },
+    {
+      "q": "Multiple tissue types working together = an ORGAN.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! That's the definition of an organ - multiple tissues, specific function."
+    },
+    {
+      "q": "The answer is ORGAN - composed of 2+ tissue types for a specific function.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not a tissue (single cell type), not an organ system (multiple organs)."
     }
   ]
 }

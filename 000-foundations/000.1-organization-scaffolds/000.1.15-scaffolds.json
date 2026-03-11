@@ -1,26 +1,96 @@
 {
   "parentId": "000.1.15",
-  "parentQuestion": "During childbirth, cervical stretch triggers oxytocin release, which intensifies...",
+  "parentQuestion": "During childbirth, cervical stretch triggers oxytocin release, which intensifies contractions, causing more cervical stretch and more oxytocin release. This cycle accelerates until delivery occurs. A medical student asks, 'Why doesn't this kill the mother by continuing indefinitely?' What's the answer?",
   "scaffolds": [
     {
-      "q": "Positive feedback amplifies the original stimulus rather than opposing it.",
+      "q": "POSITIVE feedback AMPLIFIES the original stimulus.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Unlike negative feedback (which opposes change), positive feedback ENHANCES the original stimulus. Output feeds back to intensify input. It's a self-accelerating loop — explosive, dramatic, requiring an OFF switch. Surrender to the logic here:drawn into this."
+      "difficulty": "foundation",
+      "explain": "Yes! Unlike negative feedback which opposes change, positive feedback accelerates it."
     },
     {
-      "q": "Most physiological processes use negative feedback to maintain stability.",
+      "q": "Childbirth uses positive feedback: stretch → oxytocin → stronger contractions.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "About 99% of physiological control systems use NEGATIVE feedback because it's self-limiting and maintains homeostasis. Positive feedback is RARE — reserved for processes that need to happen FAST and COMPLETELY. you're about to see why that distinction is life-or-death."
+      "difficulty": "foundation",
+      "explain": "Correct! Each contraction leads to more oxytocin and even stronger contractions."
+    },
+    {
+      "q": "Positive feedback loops are self-accelerating - they keep getting stronger.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! That's why they need an external termination event."
+    },
+    {
+      "q": "If positive feedback continued forever, it would destroy the system.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Which is why positive feedback loops MUST have an endpoint."
+    },
+    {
+      "q": "In childbirth, the endpoint is DELIVERY - the baby is born.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Once the baby is delivered, cervical stretch stops and the loop ends."
+    },
+    {
+      "q": "Positive feedback requires an EXTERNAL termination event.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The loop doesn't stop itself - something external must end it."
+    },
+    {
+      "q": "Delivery removes the stimulus (cervical stretch), terminating the feedback loop.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! No more stretch = no more oxytocin trigger = contractions stop."
+    },
+    {
+      "q": "Positive feedback loops REQUIRE external termination events.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! They can't stop themselves - they need an external endpoint."
+    },
+    {
+      "q": "The answer: positive feedback requires an external termination event (delivery).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not pain stopping it, not homeostasis overriding, not desensitization."
     }
   ]
 }

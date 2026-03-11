@@ -1,26 +1,96 @@
 {
   "parentId": "000.1.14",
-  "parentQuestion": "A patient presents with muscle weakness, cardiac arrhythmias, and altered mental...",
+  "parentQuestion": "A patient presents with muscle weakness, cardiac arrhythmias, and altered mental status. Lab work reveals critically low potassium levels. The attending physician immediately orders IV potassium replacement, stating 'We need to restore homeostasis NOW.' What makes this an emergency requiring rapid intervention?",
   "scaffolds": [
     {
-      "q": "Homeostasis maintains stable internal conditions necessary for cell function.",
+      "q": "HOMEOSTASIS is the body's stable internal environment.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Cells require specific conditions to function — proper pH, temperature, electrolyte concentrations, oxygen levels. Deviate too far from these set points, and cellular processes FAIL. Homeostasis is the body's mechanism for maintaining those life-sustaining conditions. Join me in examining this:."
+      "difficulty": "foundation",
+      "explain": "Yes! Proper electrolyte balance, pH, temperature - all part of homeostasis."
     },
     {
-      "q": "When one physiological variable goes wrong, it can affect multiple organ systems.",
+      "q": "Potassium is essential for muscle contraction and nerve signaling.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "The body's systems are INTERCONNECTED. A problem in one variable — like electrolyte balance — affects every system that depends on it. Potassium is critical for muscle contraction, nerve conduction, and cardiac rhythm. Lose it, and multiple systems fail SIMULTANEOUSLY. Embrace this:that vulnerability."
+      "difficulty": "foundation",
+      "explain": "Correct! K+ is needed for action potentials in muscles and nerves."
+    },
+    {
+      "q": "When potassium is critically low, MULTIPLE systems malfunction.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Muscles weak (skeletal), heart arrhythmias (cardiac), confusion (nervous)."
+    },
+    {
+      "q": "The body's systems are INTERCONNECTED - one variable affects many systems.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Potassium is used by muscles, heart, AND brain."
+    },
+    {
+      "q": "This patient has muscle weakness (muscles), arrhythmias (heart), confusion (brain).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! THREE different organ systems failing from ONE homeostatic disruption."
+    },
+    {
+      "q": "This is an emergency because MULTIPLE organ systems are failing at once.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The heart arrhythmias alone could be fatal."
+    },
+    {
+      "q": "Homeostatic mechanisms can't compensate - the patient is already symptomatic.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! If the body could handle it, there wouldn't be symptoms."
+    },
+    {
+      "q": "Multiple organ systems failing simultaneously makes this an EMERGENCY.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Disrupted homeostasis affecting muscles, heart, AND brain at once."
+    },
+    {
+      "q": "The answer: multiple organ systems failing due to disrupted homeostasis.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not 'eventually' (it's happening NOW), not 'can compensate' (it can't)."
     }
   ]
 }

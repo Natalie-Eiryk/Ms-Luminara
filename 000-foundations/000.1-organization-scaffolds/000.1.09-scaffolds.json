@@ -9,18 +9,88 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Many medical and scientific terms use '-ology' (from Greek 'logos' meaning word, reason, or study). Biology equals study of life. Cardiology equals study of the heart. Histology equals study of tissues. Learn the pattern, unlock hundreds of terms. Explore alongside me:."
+      "difficulty": "foundation",
+      "explain": "Yes! Biology = study of life. Cardiology = study of heart. Pattern!"
     },
     {
-      "q": "Microscopes are essential tools for studying tissue structure.",
+      "q": "'Histo-' refers to TISSUES.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Tissues are too small to see in detail with the naked eye. Histology REQUIRES microscopes to examine the cellular organization and structure of tissues. Without magnification? You're just looking at pink blobs. Sustain this attention: now."
+      "difficulty": "foundation",
+      "explain": "Correct! From Greek 'histos' meaning tissue or web."
+    },
+    {
+      "q": "HISTOLOGY = histo (tissue) + logy (study) = study of tissues.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Put the word parts together to get the meaning."
+    },
+    {
+      "q": "CYTOLOGY is the study of CELLS (cyto = cell).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Different term for different level of organization."
+    },
+    {
+      "q": "Histology uses microscopes to examine tissue structure.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Tissues are too small to study in detail with the naked eye."
+    },
+    {
+      "q": "Gross anatomy studies structures visible WITHOUT a microscope.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Gross anatomy = large scale. Histology = microscopic scale."
+    },
+    {
+      "q": "Histology examines how cells are organized into tissues.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Looking at tissue slices under the microscope to see cell arrangement."
+    },
+    {
+      "q": "Histology is the study of TISSUES, not cells or gross structures.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Cytology = cells. Histology = tissues. Gross anatomy = organs."
+    },
+    {
+      "q": "The answer is TISSUES - histology is the study of tissues.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not cells (cytology), not cell chemistry (biochemistry), not gross structures."
     }
   ]
 }

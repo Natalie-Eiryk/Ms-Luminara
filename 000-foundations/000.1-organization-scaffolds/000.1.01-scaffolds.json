@@ -1,26 +1,96 @@
 {
   "parentId": "000.1.01",
-  "parentQuestion": "Positive feedback mechanisms tend to enhance the original stimulus so that the r...",
+  "parentQuestion": "Positive feedback mechanisms tend to enhance the original stimulus so that the response is accelerated.",
   "scaffolds": [
     {
-      "q": "The body uses feedback mechanisms to maintain stable internal conditions.",
+      "q": "The body uses feedback mechanisms to control its internal processes.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Let me show you something beautiful: feedback mechanisms are control systems where the output influences its own continuation. Zero in on this: now — they can either OPPOSE change (negative feedback keeps you alive) or AMPLIFY it (positive feedback — dramatic, explosive, requires an OFF switch). You're about to see why that distinction matters."
+      "difficulty": "foundation",
+      "explain": "Yes! Feedback loops allow the body to monitor conditions and respond appropriately."
     },
     {
-      "q": "Positive feedback increases or amplifies a change from the normal state.",
+      "q": "There are TWO main types of feedback: negative and positive.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Unlike negative feedback, which opposes change to maintain stability, positive feedback AMPLIFIES change. The output feeds back to intensify the input. Let this settle:drawn into this: it's a runaway process — exquisite when controlled, catastrophic when it isn't."
+      "difficulty": "foundation",
+      "explain": "Correct! They do opposite things - negative opposes changes, positive amplifies them."
+    },
+    {
+      "q": "NEGATIVE feedback OPPOSES changes - it brings things back toward normal.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Like a thermostat - too hot, cooling kicks in; too cold, heating kicks in."
+    },
+    {
+      "q": "POSITIVE feedback AMPLIFIES changes - it makes the response bigger.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The output feeds back to INCREASE the original stimulus."
+    },
+    {
+      "q": "Blood clotting uses positive feedback - each step triggers MORE clotting.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Clotting factors activate more clotting factors in an explosive cascade."
+    },
+    {
+      "q": "Childbirth contractions use positive feedback - contractions trigger stronger contractions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Oxytocin causes contractions, which trigger more oxytocin, more contractions..."
+    },
+    {
+      "q": "Positive feedback ENHANCES and ACCELERATES the original response.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Unlike negative feedback which opposes, positive feedback accelerates toward a goal."
+    },
+    {
+      "q": "Positive feedback mechanisms AMPLIFY the original stimulus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The response enhances and accelerates the original change."
+    },
+    {
+      "q": "The statement is TRUE - positive feedback enhances and accelerates the response.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! This is the defining characteristic of positive feedback."
     }
   ]
 }

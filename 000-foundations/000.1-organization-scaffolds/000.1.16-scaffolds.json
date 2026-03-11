@@ -1,26 +1,96 @@
 {
   "parentId": "000.1.16",
-  "parentQuestion": "A pathologist examines a biopsy showing severe disruption: cells are no longer o...",
+  "parentQuestion": "A pathologist examines a biopsy showing severe disruption: cells are no longer organized into distinct layers, tissues show loss of specialized architecture, and normal boundaries between structures have disappeared. This loss of structural organization most directly indicates which pathological process?",
   "scaffolds": [
     {
-      "q": "Normal tissues maintain organized structure with cells arranged in specific patterns.",
+      "q": "Normal tissues have organized structure - cells arranged in specific patterns.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Healthy tissues show ORGANIZED architecture — epithelial cells in distinct layers, connective tissue with regular fiber patterns, muscle cells aligned for coordinated contraction. This organization is ESSENTIAL for function. you're about to see what happens when it breaks down."
+      "difficulty": "foundation",
+      "explain": "Yes! Epithelium has layers, muscle fibers are aligned, etc."
     },
     {
-      "q": "Cancer cells often lose their specialized characteristics and normal tissue organization.",
+      "q": "Healthy cells stay in their proper locations and maintain boundaries.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Malignant transformation involves DEDIFFERENTIATION — cells lose specialized features and organized structure. They stop following the rules of tissue architecture. Immerse yourself in this:into this: cancer isn't just abnormal growth. It's organizational REBELLION."
+      "difficulty": "foundation",
+      "explain": "Correct! Normal cells respect tissue boundaries."
+    },
+    {
+      "q": "CANCER cells lose their organization and invade across normal boundaries.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! One hallmark of malignancy is loss of normal tissue architecture."
+    },
+    {
+      "q": "Loss of distinct layers and specialized structure = loss of DIFFERENTIATION.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Cancer cells often 'dedifferentiate' and lose specialized features."
+    },
+    {
+      "q": "Inflammation causes temporary disruption but PRESERVES underlying structure.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Inflammatory cells infiltrate, but the tissue framework remains recognizable."
+    },
+    {
+      "q": "Disappearing boundaries between structures = cells INVADING where they shouldn't.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! This is characteristic of cancer - invasion across normal boundaries."
+    },
+    {
+      "q": "Cancer = loss of organization + loss of boundaries + loss of specialization.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! These are pathological hallmarks of malignancy."
+    },
+    {
+      "q": "This biopsy shows features of CANCER - malignant cells losing organization.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Loss of layers, architecture, and boundaries = malignancy."
+    },
+    {
+      "q": "The answer is CANCER - malignant cells lose normal organizational hierarchy.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not inflammation (preserves structure), not infection (different pattern)."
     }
   ]
 }

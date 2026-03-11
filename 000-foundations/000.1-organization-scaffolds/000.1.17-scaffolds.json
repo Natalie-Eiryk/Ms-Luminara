@@ -1,26 +1,96 @@
 {
   "parentId": "000.1.17",
-  "parentQuestion": "A patient develops a rare autoimmune condition where antibodies attack the tight...",
+  "parentQuestion": "A patient develops a rare autoimmune condition where antibodies attack the tight junctions between endothelial cells lining blood vessels throughout the body. Which physiological consequence would you predict?",
   "scaffolds": [
     {
-      "q": "Tight junctions between cells create selective barriers that control permeability.",
+      "q": "Blood vessels have walls that control what enters and leaves the bloodstream.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Tight junctions are protein complexes that SEAL the space between adjacent cells, creating selective barriers. They control what crosses from one side to the other. Blood-brain barrier? Tight junctions between endothelial cells. Intestinal barrier? Tight junctions between epithelial cells. Permit yourself to feel this:into this: tight junctions are gatekeepers at the cellular level."
+      "difficulty": "foundation",
+      "explain": "Yes! The vessel wall acts as a selective barrier."
     },
     {
-      "q": "Edema occurs when fluid accumulates in tissues outside blood vessels.",
+      "q": "TIGHT JUNCTIONS seal the gaps between cells, controlling permeability.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Normally, capillaries exchange fluid in a balanced way — fluid filters out at the arterial end, returns at the venous end. When this balance is disrupted (increased permeability, increased pressure, blocked lymphatics), fluid accumulates in the INTERSTITIAL SPACE. That's edema. Press onward:."
+      "difficulty": "foundation",
+      "explain": "Correct! They're like gaskets that prevent leakage between cells."
+    },
+    {
+      "q": "When tight junctions are damaged, fluid and proteins can LEAK out of vessels.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The vessel wall becomes 'leaky' and substances escape."
+    },
+    {
+      "q": "EDEMA is swelling caused by fluid accumulating in tissues.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Fluid that should stay in blood vessels leaks into surrounding tissue."
+    },
+    {
+      "q": "Damaged tight junctions → increased permeability → fluid leaks into tissues.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This causes widespread edema throughout the body."
+    },
+    {
+      "q": "This condition would cause WIDESPREAD EDEMA as vessels leak everywhere.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Every blood vessel in the body would become leaky."
+    },
+    {
+      "q": "Clotting and blood pressure are NOT directly affected by tight junction damage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Those involve different mechanisms than tight junction integrity."
+    },
+    {
+      "q": "Attacking tight junctions causes WIDESPREAD EDEMA from leaky vessels.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Increased vascular permeability = fluid accumulation in tissues."
+    },
+    {
+      "q": "The answer is WIDESPREAD EDEMA - fluid leaking from vessels into tissues.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not oxygen delivery (hemoglobin issue), not clotting, not vasodilation."
     }
   ]
 }

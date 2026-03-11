@@ -3,26 +3,94 @@
   "parentQuestion": "Generally, what is the result of the negative feedback process?",
   "scaffolds": [
     {
-      "q": "Negative feedback opposes changes from a normal set point.",
+      "q": "Feedback mechanisms help the body respond to changes.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "In negative feedback, the response COUNTERACTS the original stimulus. something goes up? The response brings it down. Something goes down? The response brings it up. This is how we stay alive, and once you see it, you'll see it everywhere."
+      "difficulty": "foundation",
+      "explain": "Yes! The body constantly monitors conditions and adjusts its responses."
     },
     {
-      "q": "A thermostat that turns off the heater when the room gets warm enough is an example of:",
+      "q": "NEGATIVE feedback OPPOSES changes from the normal state.",
       "options": [
-        "Positive feedback",
-        "Negative feedback",
-        "No feedback",
-        "Amplification"
+        "True",
+        "False"
       ],
-      "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "A thermostat is the CLASSIC example of negative feedback — when temperature rises above the set point, heating stops. When it drops below, heating starts. The output OPPOSES deviations. Now The elegance reveals itself here:: your body does this with temperature, blood sugar, blood pressure, pH, oxygen levels... everything that keeps you alive. Permit yourself to feel this:into that realization."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! 'Negative' means the response is opposite to the change."
+    },
+    {
+      "q": "A thermostat is an example of negative feedback.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Room gets too hot, AC turns on. Gets too cold, heater turns on. Opposes deviations."
+    },
+    {
+      "q": "Blood sugar regulation uses negative feedback.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Too high glucose? Insulin lowers it. Too low? Glucagon raises it."
+    },
+    {
+      "q": "HOMEOSTASIS is the body's stable internal environment.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Temperature, pH, blood pressure - all kept within normal ranges."
+    },
+    {
+      "q": "Negative feedback is the PRIMARY way the body maintains homeostasis.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! By opposing changes, negative feedback keeps conditions stable."
+    },
+    {
+      "q": "Most body processes use negative feedback to maintain stability.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Temperature, blood pressure, pH, glucose - all use negative feedback."
+    },
+    {
+      "q": "The result of negative feedback is HOMEOSTASIS - stable internal conditions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! By opposing deviations, negative feedback maintains a stable state."
+    },
+    {
+      "q": "The answer is 'to maintain homeostasis.'",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Negative feedback opposes changes to keep the body stable."
     }
   ]
 }

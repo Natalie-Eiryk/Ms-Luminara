@@ -1,26 +1,96 @@
 {
   "parentId": "000.1.07",
-  "parentQuestion": "One of the descriptions below is from the perspective of physiological study; th...",
+  "parentQuestion": "One of the descriptions below is from the perspective of physiological study; the rest are from an anatomical perspective. Select the description that comes from a physiological perspective.",
   "scaffolds": [
     {
-      "q": "Anatomy is the study of body structure.",
+      "q": "ANATOMY studies STRUCTURE - what things look like and where they are.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Anatomy focuses on WHAT body parts look like, WHERE they're located, and HOW they're organized. It describes structure, shape, position — the ARCHITECTURE of the body. Venture here:."
+      "difficulty": "foundation",
+      "explain": "Yes! Anatomy describes the shape, location, and composition of body parts."
     },
     {
-      "q": "Physiology is the study of how the body works.",
+      "q": "PHYSIOLOGY studies FUNCTION - how things work and what processes occur.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Physiology focuses on HOW body parts FUNCTION and work together. It describes processes, mechanisms, ACTIONS — the OPERATION of the body. Structure is what it IS. Function is what it DOES. Welcome this realization:into that distinction."
+      "difficulty": "foundation",
+      "explain": "Correct! Physiology explains mechanisms, processes, and how body parts function."
+    },
+    {
+      "q": "'The heart has four chambers' is ANATOMY (structure).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This describes what the heart LOOKS LIKE, not how it works."
+    },
+    {
+      "q": "'The heart pumps blood through contractions' is PHYSIOLOGY (function).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! This describes HOW the heart works, what process it performs."
+    },
+    {
+      "q": "Words like 'contracts,' 'releases,' 'responds,' 'produces' suggest PHYSIOLOGY.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Action words = function = physiology."
+    },
+    {
+      "q": "Words like 'composed of,' 'located,' 'formed by' suggest ANATOMY.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Descriptive words about structure = anatomy."
+    },
+    {
+      "q": "'Vasoconstriction reduces blood flow' is PHYSIOLOGY (a process/function).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This describes a PROCESS - smooth muscle contracting, flow reducing."
+    },
+    {
+      "q": "Physiology describes PROCESSES and FUNCTIONS - how things WORK.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Look for action words and descriptions of mechanisms."
+    },
+    {
+      "q": "The PHYSIOLOGICAL answer describes a PROCESS (vasoconstriction reducing flow).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The other options describe structure/location (anatomy)."
     }
   ]
 }

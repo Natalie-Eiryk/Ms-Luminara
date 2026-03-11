@@ -3,24 +3,94 @@
   "parentQuestion": "Which one of the following systems responds fastest to environmental stimuli?",
   "scaffolds": [
     {
-      "q": "The nervous system uses electrical signals to transmit information.",
+      "q": "Different body systems respond at different speeds.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "The nervous system uses ACTION POTENTIALS — rapid electrical signals — to transmit information along nerve fibers. This is MUCH faster than chemical signaling. Electricity moves at the speed of... well, electricity. Walk through this:."
+      "difficulty": "foundation",
+      "explain": "Yes! Some systems respond in milliseconds, others take hours or days."
     },
     {
-      "q": "Nerve signals can travel at speeds over 100 meters per second.",
+      "q": "The NERVOUS system uses ELECTRICAL signals (action potentials).",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Myelinated nerve fibers can conduct action potentials at up to 120 m/s — about 270 mph. Sublimely intricate. Allow your mind to embrace this:into this: this allows you to react to danger in fractions of a second. You feel that potential?"
+      "difficulty": "foundation",
+      "explain": "Correct! Electrical signals travel along nerve fibers at incredible speeds."
+    },
+    {
+      "q": "Nerve signals can travel up to 120 meters per second.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! That's about 270 miles per hour - extremely fast!"
+    },
+    {
+      "q": "The ENDOCRINE system uses HORMONES that travel through blood.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Hormones must travel through the bloodstream - slower than nerves."
+    },
+    {
+      "q": "Hormones take seconds to hours to produce effects.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Blood must carry them to target cells, then they trigger responses."
+    },
+    {
+      "q": "The IMMUNE system takes hours to days to mount a full response.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Immune cells need time to recognize threats, multiply, and attack."
+    },
+    {
+      "q": "For FAST responses (milliseconds), the NERVOUS system is unmatched.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Touch a hot stove - you pull your hand back instantly. Nerves!"
+    },
+    {
+      "q": "The NERVOUS system responds FASTEST - milliseconds vs. seconds/hours.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Electrical signals beat chemical signals for speed."
+    },
+    {
+      "q": "The answer is NERVOUS system - fastest response to stimuli.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not immune (days), not muscular (needs nervous input). Nervous = fastest."
     }
   ]
 }

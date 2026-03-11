@@ -3,24 +3,94 @@
   "parentQuestion": "The serous membrane covering the abdominal organs is called ___.",
   "scaffolds": [
     {
-      "q": "Serous membranes have two layers: one covering organs and one lining cavity walls.",
+      "q": "SEROUS membranes are thin, slippery membranes that line body cavities.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Serous membranes consist of a VISCERAL layer (covering organs like shrink-wrap) and a PARIETAL layer (lining the cavity wall like wallpaper), with a thin film of fluid between them to reduce friction. Incredible engineering, isn't it? Hold the line here:."
+      "difficulty": "foundation",
+      "explain": "Yes! They produce watery fluid that reduces friction."
     },
     {
-      "q": "The term 'visceral' refers to internal organs.",
+      "q": "Serous membranes have TWO layers: parietal and visceral.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Viscera are the internal organs, especially those in the abdomen (stomach, intestines, liver, spleen). 'Visceral' means 'relating to the internal organs.' When you feel something in your GUT? That's visceral sensation. Allow the mechanism to reveal itself:that."
+      "difficulty": "foundation",
+      "explain": "Correct! Parietal = wall. Visceral = organ. Two sides of the same membrane."
+    },
+    {
+      "q": "PARIETAL layer lines the WALL of the cavity.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Parietal = wall. Think of it as wallpaper lining the cavity."
+    },
+    {
+      "q": "VISCERAL layer covers the ORGANS themselves.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Visceral = organs. Like shrink-wrap on the organ surface."
+    },
+    {
+      "q": "The PERITONEUM is the serous membrane of the abdominal cavity.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Pleura = lungs. Pericardium = heart. Peritoneum = abdomen."
+    },
+    {
+      "q": "VISCERAL peritoneum covers the abdominal ORGANS.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The layer directly touching stomach, intestines, liver, etc."
+    },
+    {
+      "q": "PARIETAL peritoneum lines the abdominal WALL (not the organs).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The layer touching the inside of your abdominal wall."
+    },
+    {
+      "q": "The membrane covering abdominal ORGANS = VISCERAL peritoneum.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Visceral = organ-covering. Peritoneum = abdominal membrane."
+    },
+    {
+      "q": "The answer is VISCERAL PERITONEUM - covers abdominal organs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not parietal (that's the wall), not mesentery (that's a double layer)."
     }
   ]
 }

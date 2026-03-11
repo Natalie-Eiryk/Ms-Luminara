@@ -3,24 +3,94 @@
   "parentQuestion": "Homeostasis is the condition in which the body maintains ___.",
   "scaffolds": [
     {
-      "q": "The body works to maintain stable internal conditions despite changes in the external environment.",
+      "q": "The body's internal environment must stay within certain limits for cells to survive.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Your body temperature, blood pH, and blood sugar levels stay relatively constant even when external conditions change dramatically. Step outside in freezing weather? Your core temperature stays at 37°C. Give this idea space to land:into this: this self-regulation is ESSENTIAL for survival. Lose it, and you die."
+      "difficulty": "foundation",
+      "explain": "Yes! Temperature, pH, glucose levels - they all have survival ranges."
     },
     {
-      "q": "Homeostasis means 'staying the same' in Greek.",
+      "q": "The body constantly monitors and adjusts its internal conditions.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "The word homeostasis comes from Greek: 'homeo' (same/similar) and 'stasis' (standing/stable). It refers to maintaining stable internal conditions — the foundation of staying alive. Let's explore this together: now."
+      "difficulty": "foundation",
+      "explain": "Correct! Sensors detect changes, control centers process info, effectors respond."
+    },
+    {
+      "q": "HOMEOSTASIS means maintaining a stable internal environment.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! 'Homeo' = similar, 'stasis' = standing still. Keeping things stable."
+    },
+    {
+      "q": "Homeostasis doesn't mean PERFECTLY stable - small fluctuations are normal.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Your blood sugar rises after eating, then comes back down. Dynamic balance."
+    },
+    {
+      "q": "Homeostasis keeps variables WITHIN NORMAL LIMITS, not perfectly fixed.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! There's an acceptable range, not just one perfect value."
+    },
+    {
+      "q": "Examples: body temperature ~37°C, blood pH 7.35-7.45, blood glucose 70-100 mg/dL.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Each variable has its normal range that homeostasis maintains."
+    },
+    {
+      "q": "Homeostasis requires constant adjustment - it's DYNAMIC, not static.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The body is constantly making small corrections to stay stable."
+    },
+    {
+      "q": "Homeostasis = RELATIVELY STABLE internal environment, WITHIN LIMITS.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Not perfectly fixed, not unlimited range - stable within normal limits."
+    },
+    {
+      "q": "The answer is 'a relatively stable internal environment, within limits.'",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not lowest energy, not unlimited range, not perfectly static."
     }
   ]
 }

@@ -3,24 +3,94 @@
   "parentQuestion": "A major function of serous membranes is to decrease friction.",
   "scaffolds": [
     {
-      "q": "Organs in body cavities need to move without rubbing against each other.",
+      "q": "Organs in body cavities move constantly (heart beats, lungs expand, intestines churn).",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "when you BREATHE, your lungs expand and contract against the thoracic wall. When your HEART beats, it moves within the pericardial cavity. When your INTESTINES churn food, they slide against each other and the abdominal wall. Without lubrication, this constant movement would cause painful, damaging friction. Serous membranes are the body's built-in lubricant system. Exquisite, isn't it?"
+      "difficulty": "foundation",
+      "explain": "Yes! All this movement could cause friction damage without lubrication."
     },
     {
-      "q": "Serous membranes produce a watery fluid.",
+      "q": "FRICTION is the resistance when surfaces rub against each other.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Serous membranes secrete SEROUS FLUID — a thin, watery, slippery liquid that fills the narrow space between the parietal and visceral layers. It's like having a permanent layer of lubricant between moving parts. Consider the elegance here:into that design."
+      "difficulty": "foundation",
+      "explain": "Correct! Friction causes heat and wear. Not good for delicate organs."
+    },
+    {
+      "q": "SEROUS membranes secrete a watery, slippery fluid.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This serous fluid acts as a lubricant between the membrane layers."
+    },
+    {
+      "q": "The serous fluid fills the space between parietal and visceral layers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! It creates a slippery layer that reduces friction."
+    },
+    {
+      "q": "Without lubrication, your heart beating would create painful friction.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Pericardial fluid lets the heart slide smoothly as it contracts."
+    },
+    {
+      "q": "Pleural fluid lets lungs expand smoothly against the chest wall.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! You breathe ~20,000 times per day - that's a lot of sliding!"
+    },
+    {
+      "q": "The PRIMARY function of serous membranes: REDUCE FRICTION.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Lubrication is their main job."
+    },
+    {
+      "q": "Serous membranes reduce friction between organs and cavity walls.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! This is their major function."
+    },
+    {
+      "q": "The statement is TRUE - decreasing friction is a major serous membrane function.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Serous fluid lubricates to reduce friction during organ movement."
     }
   ]
 }

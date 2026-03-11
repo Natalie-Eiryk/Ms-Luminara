@@ -3,24 +3,94 @@
   "parentQuestion": "Which of the following are survival needs of the body?",
   "scaffolds": [
     {
-      "q": "Cells need oxygen to produce energy through cellular respiration.",
+      "q": "Cells need certain things to stay alive.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Oxygen is required for aerobic cellular respiration, which produces most of the ATP that cells need to function. Without oxygen, brain cells die within 4-6 minutes. Heart stops. Game over. Feel that urgency?"
+      "difficulty": "foundation",
+      "explain": "Yes! Without these essentials, cells die and so does the organism."
     },
     {
-      "q": "Water is the most abundant molecule in the human body.",
+      "q": "OXYGEN is needed for cellular respiration to produce ATP (energy).",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "About 60-70% of the human body is water. It's essential as a solvent (every reaction happens IN water), transport medium (blood is mostly water), and participant in chemical reactions (hydrolysis, condensation). Now we arrive at the gorgeous part:: lose too much? Your blood thickens, your brain swells, your kidneys fail. Step into this world:."
+      "difficulty": "foundation",
+      "explain": "Correct! Without oxygen, brain cells start dying within 4-6 minutes."
+    },
+    {
+      "q": "WATER is essential - the body is about 60% water.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Water is the solvent for all biochemical reactions. No water = no life."
+    },
+    {
+      "q": "NUTRIENTS provide energy and building materials for cells.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Carbs, proteins, fats, vitamins, minerals - all essential."
+    },
+    {
+      "q": "ATMOSPHERIC PRESSURE is needed for breathing and gas exchange.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Without proper pressure, gases won't move in and out of lungs properly."
+    },
+    {
+      "q": "Growth and reproduction are important, but NOT immediate survival needs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! You can survive without growing or reproducing. You can't survive without oxygen."
+    },
+    {
+      "q": "The IMMEDIATE survival needs: oxygen, water, nutrients, atmospheric pressure.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! These are what you need RIGHT NOW to stay alive."
+    },
+    {
+      "q": "Survival needs = nutrients, water, atmospheric pressure, and oxygen.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Not growth (can stop and survive), not movement (can be still and survive)."
+    },
+    {
+      "q": "The answer is 'nutrients, water, atmospheric pressure, and oxygen.'",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Growth and reproduction are NOT immediate survival needs."
     }
   ]
 }

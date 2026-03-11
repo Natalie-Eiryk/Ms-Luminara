@@ -3,24 +3,94 @@
   "parentQuestion": "A tissue consists of groups of similar cells that have a common function.",
   "scaffolds": [
     {
-      "q": "Cells are the basic structural units of living organisms.",
+      "q": "The body is organized hierarchically: cells → tissues → organs.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Cells are the smallest units capable of carrying out life processes. All living things — every single one — are made of one or more cells. Below the cellular level? You have molecules, atoms, chemistry. NOT life. Carry this forward:."
+      "difficulty": "foundation",
+      "explain": "Yes! Each level builds on the one below it."
     },
     {
-      "q": "Similar cells often group together to perform specific tasks.",
+      "q": "A TISSUE is the level between cells and organs.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Just as workers with similar skills are grouped into departments, similar cells group together into tissues to perform specific functions more efficiently. Specialization plus cooperation equals POWER. Dive into this:."
+      "difficulty": "foundation",
+      "explain": "Correct! Cells group together to form tissues."
+    },
+    {
+      "q": "Tissues are made of SIMILAR cells - cells of the same type.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Muscle tissue contains muscle cells. Nerve tissue contains nerve cells."
+    },
+    {
+      "q": "The cells in a tissue work together toward a COMMON FUNCTION.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Muscle tissue contracts. Nerve tissue transmits signals."
+    },
+    {
+      "q": "There are FOUR primary tissue types: epithelial, connective, muscle, nervous.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Every tissue in your body fits into one of these four categories."
+    },
+    {
+      "q": "Epithelial tissue covers and lines surfaces.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Skin surface, gut lining, blood vessel lining - all epithelium."
+    },
+    {
+      "q": "Definition: Tissue = similar cells + common function.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This is the precise definition of a tissue."
+    },
+    {
+      "q": "The statement correctly defines tissue: similar cells, common function.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Both parts of the definition are accurate."
+    },
+    {
+      "q": "The answer is TRUE - tissues are groups of similar cells with common function.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! This is the standard definition of tissue."
     }
   ]
 }

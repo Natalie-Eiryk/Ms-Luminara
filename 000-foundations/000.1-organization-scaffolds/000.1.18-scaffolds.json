@@ -1,26 +1,96 @@
 {
   "parentId": "000.1.18",
-  "parentQuestion": "A trauma patient arrives with multiple injuries affecting skin, muscle, bone, an...",
+  "parentQuestion": "A trauma patient arrives with multiple injuries affecting skin, muscle, bone, and nerves in the left arm. The surgeon explains that reconstruction will require addressing 'all four primary tissue types.' The medical team must repair epithelial coverage, muscle function, skeletal support, and nerve signaling. What organizational principle makes this statement accurate?",
   "scaffolds": [
     {
-      "q": "The four primary tissue types are epithelial, connective, muscle, and nervous.",
+      "q": "There are FOUR primary tissue types: epithelial, connective, muscle, nervous.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Every tissue in your body falls into one of four categories: EPITHELIAL (covers, lines, secretes), CONNECTIVE (supports, connects, transports), MUSCLE (contracts, moves), NERVOUS (senses, signals). That's it. Four fundamental building blocks. Proceed with me:."
+      "difficulty": "foundation",
+      "explain": "Yes! Every tissue in your body fits into one of these four categories."
     },
     {
-      "q": "Most body regions contain multiple tissue types working together.",
+      "q": "Body REGIONS typically contain all four tissue types.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Body regions and organs are almost never made of just ONE tissue type. They're COMPOSITE structures containing multiple tissue types collaborating for function. Accept this reality:into this: cooperation between tissue types is what enables complex function."
+      "difficulty": "foundation",
+      "explain": "Correct! Your arm has skin, muscle, bone, nerves - all four represented."
+    },
+    {
+      "q": "Epithelial tissue in the arm = SKIN covering the surface.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The outer covering that protects against damage and infection."
+    },
+    {
+      "q": "Muscle tissue in the arm = MUSCLES that move the arm.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Skeletal muscle for movement, smooth muscle in blood vessels."
+    },
+    {
+      "q": "Connective tissue in the arm = BONES, tendons, ligaments, blood vessels.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Support, connection, and transport - all connective tissue functions."
+    },
+    {
+      "q": "Nervous tissue in the arm = NERVES for sensation and movement control.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Motor neurons, sensory receptors, all present."
+    },
+    {
+      "q": "The arm isn't a single organ, but a body REGION with all four tissue types.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Most body regions contain representatives of all four tissue types."
+    },
+    {
+      "q": "All body regions contain representatives of the four primary tissue types.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! That's why trauma to any region affects multiple tissue types."
+    },
+    {
+      "q": "The answer: all body regions contain representatives of the four tissue types.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not 'organs have multiple tissues' (arm isn't one organ), not 'organ system' (arm isn't a system)."
     }
   ]
 }

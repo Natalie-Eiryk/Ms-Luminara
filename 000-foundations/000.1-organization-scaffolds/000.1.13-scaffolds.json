@@ -1,26 +1,96 @@
 {
   "parentId": "000.1.13",
-  "parentQuestion": "A pharmaceutical company develops a highly effective anti-cancer drug, but it fa...",
+  "parentQuestion": "A pharmaceutical company develops a highly effective anti-cancer drug, but it fails to reach brain tumors despite excellent blood concentrations. The drug is water-soluble and cannot cross lipid barriers. Which level of organization explains this therapeutic failure?",
   "scaffolds": [
     {
-      "q": "The chemical level of organization includes atoms and molecules.",
+      "q": "The body is organized in levels: chemical → cellular → tissue → organ → organ system.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "The chemical level is the FOUNDATION — atoms combine into molecules, molecules interact based on their properties. Everything above this level DEPENDS on chemistry. Absorb this:into this: change ONE atom in a molecule, and you can transform a life-saving drug into a poison. The stakes are that precise."
+      "difficulty": "foundation",
+      "explain": "Yes! Each level has different properties and potential failure points."
     },
     {
-      "q": "Molecular properties like solubility determine how substances cross membranes.",
+      "q": "The CHEMICAL level involves atoms, molecules, and their properties.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Lipid-soluble molecules cross membranes easily. Water-soluble molecules? They need transport proteins or channels. The CHEMISTRY of the molecule dictates its MOVEMENT. this is why drug design is an art of molecular architecture."
+      "difficulty": "foundation",
+      "explain": "Correct! Molecules have properties like solubility that affect how they behave."
+    },
+    {
+      "q": "A drug's molecular structure determines whether it can cross barriers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Water-soluble drugs can't easily cross lipid membranes."
+    },
+    {
+      "q": "The blood-brain barrier protects the brain from harmful substances.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! But it also blocks some medications from reaching brain tumors."
+    },
+    {
+      "q": "Lipid-soluble molecules cross membranes easily; water-soluble molecules don't.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Cell membranes are lipid bilayers - they're friendly to lipids, not water."
+    },
+    {
+      "q": "The drug's MOLECULAR PROPERTIES (water-soluble) explain why it can't cross.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! This is a CHEMICAL level property determining biological behavior."
+    },
+    {
+      "q": "The CHEMICAL level of organization determines a drug's ability to cross barriers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Molecular solubility is a chemical property."
+    },
+    {
+      "q": "The failure occurs at the CHEMICAL level - the drug's molecular properties.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The drug is water-soluble, so it can't cross lipid barriers."
+    },
+    {
+      "q": "The answer is CHEMICAL level - molecular properties prevent passage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not cellular (neurons don't reject it), not tissue (density isn't the issue)."
     }
   ]
 }
