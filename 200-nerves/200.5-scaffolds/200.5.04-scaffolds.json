@@ -3,14 +3,86 @@
   "parentQuestion": "The trochlear nerve (CN IV) is unique because it ___.",
   "scaffolds": [
     {
+      "q": "The brainstem connects your brain to your spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The brainstem is like a bridge between your brain above and spinal cord below. Most cranial nerves come out of the brainstem."
+    },
+    {
+      "q": "Anterior means the front side, posterior means the back side.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Exactly! Anterior = front, posterior = back. Most nerves exit from the anterior (front) of the brainstem. CN IV is special because it exits from the posterior (back)."
+    },
+    {
+      "q": "CN IV is the abbreviation for Cranial Nerve number ___.",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Fourteen"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN IV = Cranial Nerve Four! In Roman numerals, IV = 4. The trochlear nerve is the fourth cranial nerve."
+    },
+    {
+      "q": "The word trochlear comes from a Latin word meaning pulley.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The superior oblique muscle (which CN IV controls) passes through a pulley-like loop of tissue called the trochlea. The nerve is named after this pulley structure."
+    },
+    {
+      "q": "Being unique means being different from all others.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Right! When we say CN IV is unique, we mean it has a special feature that no other cranial nerve has - it exits from the back of the brainstem instead of the front."
+    },
+    {
+      "q": "CN IV controls just one eye muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! CN IV only controls one muscle - the superior oblique. This muscle helps you look down and rotate your eye. Its a specialist nerve with just one job."
+    },
+    {
+      "q": "The trochlear nerve helps you look down, like when reading a book.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The superior oblique muscle (controlled by CN IV) helps rotate your eye downward and inward. Try looking at your nose - thats the superior oblique working!"
+    },
+    {
       "q": "Most cranial nerves exit from the front (anterior/ventral) surface of the brainstem.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Cranial nerves typically emerge from the anterior surface of the brainstem like cables coming out of the front of a router. Let me show you the exception — CN IV sneaks out the back door. Elegant deviation from the pattern."
+      "difficulty": "intermediate",
+      "explain": "Cranial nerves typically emerge from the anterior surface of the brainstem. CN IV is the exception - it sneaks out the back (posterior) door."
     },
     {
       "q": "CN IV controls the superior oblique muscle of the eye.",
@@ -19,8 +91,8 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The trochlear nerve (CN IV) innervates only one muscle: the superior oblique, which helps rotate and depress the eye. Invite this in:this — specialized control for a specialized job."
+      "difficulty": "intermediate",
+      "explain": "The trochlear nerve (CN IV) innervates only one muscle: the superior oblique, which helps rotate and depress the eye. Specialized control for a specialized job."
     }
   ]
 }

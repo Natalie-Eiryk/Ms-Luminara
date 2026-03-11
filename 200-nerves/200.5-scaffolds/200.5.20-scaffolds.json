@@ -1,26 +1,96 @@
 {
   "parentId": "200.5.20",
-  "parentQuestion": "A patient presents with severe, lancinating (stabbing) facial pain triggered by ...",
+  "parentQuestion": "Severe stabbing facial pain triggered by light touch",
   "scaffolds": [
     {
-      "q": "The trigeminal nerve carries sensation from the face.",
+      "q": "The trigeminal nerve (CN V) carries sensation from the face.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "CN V (trigeminal) provides sensory innervation to the face via three divisions: V1 (forehead), V2 (cheek), V3 (jaw). Let this settle:the coverage — from hairline to jaw, from nose to ear, it's the sentinel of facial sensation. When it malfunctions, the consequences are devastating."
+      "difficulty": "foundation",
+      "explain": "Touch, pain, temperature on your face travel through CN V."
     },
     {
-      "q": "Neuropathic pain can occur without tissue damage, arising from nerve dysfunction itself.",
+      "q": "Neuralgia means nerve pain.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Neuropathic pain originates from abnormal nerve signaling — the nerve itself becomes the source of pain, not an external injury. it's like a fire alarm that won't stop going off even though there's no fire. The warning system has become the threat."
+      "difficulty": "foundation",
+      "explain": "Neuro = nerve, algia = pain. Trigeminal neuralgia is pain from CN V."
+    },
+    {
+      "q": "Some nerve conditions cause extreme pain from normal touch.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "This is called allodynia - pain from something that should not hurt."
+    },
+    {
+      "q": "Lancinating pain means sharp, shooting, stabbing pain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Like an electric shock or knife stab. Very intense but brief."
+    },
+    {
+      "q": "Trigeminal neuralgia causes brief but severe facial pain attacks.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "The pain lasts seconds but is excruciating. Triggered by touch, chewing, wind."
+    },
+    {
+      "q": "CN V has three branches covering forehead, cheek, and jaw.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Trigeminal neuralgia usually affects one branch, often the cheek area."
+    },
+    {
+      "q": "A normal neurological exam with only pain suggests sensory nerve problem.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "No weakness, no numbness, just severe pain attacks = nerve hypersensitivity."
+    },
+    {
+      "q": "Trigeminal neuralgia is also called tic douloureux (painful tic).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "The intense pain can cause facial twitching or wincing."
+    },
+    {
+      "q": "Triggers for trigeminal neuralgia include touch, chewing, cold wind.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Light stimuli trigger severe pain - patients avoid these triggers."
     }
   ]
 }

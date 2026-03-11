@@ -3,24 +3,96 @@
   "parentQuestion": "The vagus nerve (CN X) is unique because it ___.",
   "scaffolds": [
     {
-      "q": "The word 'vagus' comes from Latin meaning 'wandering.'",
+      "q": "Most cranial nerves only go to the head and neck area.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Vagus means 'wandering' (same root as 'vagrant' and 'vagabond'). Immerse yourself in this:the poetry — CN X earned this name because it travels far from the head, descending into the chest and abdomen. It's the nomad of cranial nerves."
+      "difficulty": "foundation",
+      "explain": "Yes! Most cranial nerves stay in the head and neck - controlling eyes, face, ears, tongue. But one special nerve travels much farther!"
     },
     {
-      "q": "Some cranial nerves control internal organs like the heart and digestive system.",
+      "q": "The chest (thorax) contains the heart and lungs.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Parasympathetic fibers from certain cranial nerves (especially CN X) regulate visceral organs — slowing the heart, increasing digestion, managing respiratory tone. it's the 'rest and digest' system at work. Peaceful control."
+      "difficulty": "foundation",
+      "explain": "Exactly! The thorax is your chest cavity. It protects vital organs like your heart and lungs. The vagus nerve reaches all the way down here."
+    },
+    {
+      "q": "The abdomen contains organs like the stomach and intestines.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Your abdomen is the belly area containing digestive organs. The vagus nerve travels here too, helping control digestion."
+    },
+    {
+      "q": "CN X is the abbreviation for Cranial Nerve number ___.",
+      "options": [
+        "Nine",
+        "Ten",
+        "Eleven",
+        "Twenty"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN X = Cranial Nerve Ten! In Roman numerals, X = 10. The vagus nerve is the tenth cranial nerve."
+    },
+    {
+      "q": "The word vagus comes from Latin meaning wanderer.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Vagus means wanderer (like vagrant or vagabond). This nerve wanders far from the head, traveling through the chest and into the abdomen."
+    },
+    {
+      "q": "The vagus nerve helps control your heart rate.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! CN X sends signals to slow down your heart when you need to rest. Its part of the rest and digest system (parasympathetic nervous system)."
+    },
+    {
+      "q": "Some nerves can control organs that are far from the brain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The vagus nerve is the ultimate example - it starts in the brain but sends branches to the heart, lungs, stomach, and intestines."
+    },
+    {
+      "q": "The vagus nerve influences heart rate, breathing, and digestion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "CN X is the main parasympathetic nerve. It slows the heart, constricts airways, and stimulates digestion. Rest and digest mode."
+    },
+    {
+      "q": "No other cranial nerve extends as far into the body as CN X.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "The vagus is unique among cranial nerves for its extensive distribution. It wanders into the thorax and abdomen, earning its name (vagus = wanderer)."
     }
   ]
 }

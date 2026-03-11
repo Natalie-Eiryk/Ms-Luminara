@@ -3,14 +3,86 @@
   "parentQuestion": "The vestibulocochlear nerve (CN VIII) is responsible for ___.",
   "scaffolds": [
     {
+      "q": "Your ears are where you detect sounds.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Sound waves enter your ear and vibrate tiny structures inside. These vibrations are converted to electrical signals that travel to your brain so you can hear."
+    },
+    {
+      "q": "Your inner ear helps you keep your balance.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Deep inside your ear are special sensors that detect which way is up and whether youre moving. This is why ear infections can make you dizzy!"
+    },
+    {
+      "q": "CN VIII is the abbreviation for Cranial Nerve number ___.",
+      "options": [
+        "Seven",
+        "Eight",
+        "Nine",
+        "Eighteen"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN VIII = Cranial Nerve Eight! In Roman numerals, VIII = 8. The vestibulocochlear nerve is the eighth cranial nerve."
+    },
+    {
+      "q": "The name vestibulocochlear contains two parts: vestibulo (balance) and cochlear (hearing).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Exactly! Vestibulo = balance system, cochlear = hearing system (cochlea is the snail-shaped hearing organ). The name tells you both functions of this nerve!"
+    },
+    {
+      "q": "Some nerves carry information about more than one sense.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! CN VIII carries both hearing AND balance information. Both senses come from the inner ear, so they share one nerve pathway to the brain."
+    },
+    {
+      "q": "When you spin around and then stop, you feel dizzy because your balance system is confused.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Right! Fluid in your inner ear keeps sloshing around even after you stop spinning. Your balance sensors send confusing signals, making you feel dizzy."
+    },
+    {
+      "q": "Hearing and balance are both detected by structures in your ear.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The cochlea (hearing) and vestibular system (balance) are both in the inner ear. Thats why they share one nerve - CN VIII."
+    },
+    {
       "q": "The inner ear contains structures for both hearing and balance.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The inner ear has the cochlea for hearing (spiral-shaped sound processor) and the vestibular apparatus (semicircular canals and otolith organs) for balance. Absorb this:this — two completely different functions in one compact location. Elegant engineering."
+      "difficulty": "intermediate",
+      "explain": "The inner ear has the cochlea for hearing and the vestibular apparatus (semicircular canals) for balance. Two different functions in one compact location."
     },
     {
       "q": "Damage to the inner ear can cause both hearing loss and dizziness.",
@@ -19,8 +91,8 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Because hearing and balance structures are close together in the inner ear, damage can affect both systems simultaneously. lose CN VIII, and you lose your soundtrack AND your sense of which way is up. Disorientation at its most fundamental."
+      "difficulty": "intermediate",
+      "explain": "Because hearing and balance structures are close together in the inner ear, damage can affect both systems. Lose CN VIII, and you lose hearing AND your sense of which way is up."
     }
   ]
 }

@@ -1,26 +1,98 @@
 {
   "parentId": "200.5.12",
-  "parentQuestion": "When a patient sticks out their tongue and it deviates to the right, which nerve...",
+  "parentQuestion": "When a patient sticks out their tongue and it deviates to the right, which nerve is damaged?",
   "scaffolds": [
     {
-      "q": "The tongue contains muscles that can move it in different directions.",
+      "q": "Your tongue is a muscle that can move in many directions.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The tongue has intrinsic muscles (change shape — thicken, thin, curl) and extrinsic muscles (change position — protrude, retract, elevate, depress). Accept this reality:this — these allow complex movements for speech, chewing, and swallowing. Exquisite motor control."
+      "difficulty": "foundation",
+      "explain": "Yes! Your tongue is actually made of several muscles working together. They let you move food around, help you speak clearly, and stick your tongue out."
     },
     {
-      "q": "If muscles on one side are weak, the stronger side can push toward the weak side.",
+      "q": "You can stick your tongue straight out of your mouth.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "When paired muscles work asymmetrically, the stronger side dominates. if right tongue muscles are weak, the intact left muscles push the tongue toward the right. Unopposed force creates deviation. Physics meets pathology."
+      "difficulty": "foundation",
+      "explain": "Exactly! When both sides of your tongue push equally, it goes straight out. If one side is weak, the tongue will curve toward that weak side."
+    },
+    {
+      "q": "CN XII is the abbreviation for Cranial Nerve number ___.",
+      "options": [
+        "Ten",
+        "Eleven",
+        "Twelve",
+        "Twenty"
+      ],
+      "answer": 2,
+      "difficulty": "foundation",
+      "explain": "CN XII = Cranial Nerve Twelve! In Roman numerals, XII = 12. The hypoglossal nerve is the twelfth and last cranial nerve."
+    },
+    {
+      "q": "The word hypoglossal means under the tongue.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Hypo = under, glossal = tongue. CN XII runs under the tongue to control the tongue muscles."
+    },
+    {
+      "q": "If one side of a muscle is weak, movement will curve toward the weak side.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Think of rowing a boat - if one oar is weak, you turn toward that side. The strong side pushes harder, so movement curves toward the weak side."
+    },
+    {
+      "q": "The tongue has muscles on both its left and right sides.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Each side has its own muscles and its own nerve. Left CN XII controls left tongue muscles, right CN XII controls right tongue muscles."
+    },
+    {
+      "q": "When the tongue deviates to the right, the right side is the weak side.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Right! The left side pushes harder (its healthy), so the tongue curves toward the weaker right side. The deviation points to the problem."
+    },
+    {
+      "q": "The hypoglossal nerve controls tongue movement.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "CN XII controls all intrinsic and most extrinsic tongue muscles. Its purely motor - no sensation, just movement."
+    },
+    {
+      "q": "Tongue deviation toward one side indicates nerve damage on that same side.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "When protruded, the tongue deviates toward the weak (damaged) side. The healthy side pushes, the damaged side cant push back."
     }
   ]
 }

@@ -1,26 +1,98 @@
 {
   "parentId": "200.5.11",
-  "parentQuestion": "A patient can't turn their head to the left or shrug their left shoulder. Which ...",
+  "parentQuestion": "A patient cant turn their head to the left or shrug their left shoulder. Which nerve is damaged?",
   "scaffolds": [
     {
-      "q": "The sternocleidomastoid muscle turns the head.",
+      "q": "You can turn your head left and right to look around.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The sternocleidomastoid (SCM) runs from the sternum and clavicle to the mastoid process behind the ear. when the right SCM contracts, it turns the head to the LEFT (opposite side). It's a crossing pattern. Beautiful mechanics."
+      "difficulty": "foundation",
+      "explain": "Yes! Muscles in your neck rotate your head. When you shake your head no, youre using these neck-turning muscles."
     },
     {
-      "q": "Shrugging your shoulders uses the trapezius muscle.",
+      "q": "Shrugging your shoulders lifts them up toward your ears.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The upper trapezius elevates the scapula — that's the classic shrug movement. Permit yourself to feel this:it — the trapezius also helps stabilize the shoulder girdle and assists in head movements. Large muscle, large job."
+      "difficulty": "foundation",
+      "explain": "Exactly! The trapezius muscle lifts your shoulders when you shrug. Its a big muscle running from your skull down to your mid-back."
+    },
+    {
+      "q": "CN XI is the abbreviation for Cranial Nerve number ___.",
+      "options": [
+        "Ten",
+        "Eleven",
+        "Twelve",
+        "Twenty-one"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN XI = Cranial Nerve Eleven! In Roman numerals, XI = 11. The accessory nerve is the eleventh cranial nerve."
+    },
+    {
+      "q": "The accessory nerve helps with movements of the head and shoulders.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! CN XI controls the sternocleidomastoid (turns head) and trapezius (shrugs shoulders). Its called accessory because it assists other nerves."
+    },
+    {
+      "q": "If a nerve controlling a muscle is damaged, that muscle stops working.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Right! Without nerve signals, muscles cant contract. Damage to CN XI means you cant turn your head or shrug your shoulder on that side."
+    },
+    {
+      "q": "The right and left sides of your neck have separate nerves.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Left CN XI controls left-side movements, right CN XI controls right-side movements. Damage affects only the damaged side."
+    },
+    {
+      "q": "To turn your head left, the right sternocleidomastoid muscle contracts.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Its counterintuitive, but the muscle on the opposite side does the turning. Right muscle pulls your head to look left, and vice versa."
+    },
+    {
+      "q": "CN XI controls the sternocleidomastoid and trapezius muscles.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "The accessory nerve (CN XI) innervates these two muscles. The sternocleidomastoid turns the head, the trapezius elevates the shoulder."
+    },
+    {
+      "q": "Damage to CN XI on one side affects head turning and shoulder shrug on that side.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "CN XI damage causes weakness in turning the head (to the opposite side) and shrugging the shoulder (on the same side)."
     }
   ]
 }

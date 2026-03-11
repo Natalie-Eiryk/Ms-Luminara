@@ -1,7 +1,79 @@
 {
   "parentId": "200.5.07",
-  "parentQuestion": "A patient cannot smile, raise their eyebrows, or close their eye tightly on the ...",
+  "parentQuestion": "A patient cannot smile, raise their eyebrows, or close their eye tightly on the right side. Which nerve is damaged?",
   "scaffolds": [
+    {
+      "q": "Your face can show emotions like happiness, sadness, and surprise.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Facial expressions communicate emotions. Smiling shows happiness, frowning shows sadness, raised eyebrows show surprise. Muscles in your face create these expressions."
+    },
+    {
+      "q": "Smiling requires muscles to pull the corners of your mouth upward.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Exactly! Small muscles around your mouth contract to pull your lips into a smile. These are called muscles of facial expression, and theyre all controlled by one nerve."
+    },
+    {
+      "q": "CN VII is the abbreviation for Cranial Nerve number ___.",
+      "options": [
+        "Six",
+        "Seven",
+        "Eight",
+        "Seventeen"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN VII = Cranial Nerve Seven! In Roman numerals, VII = 7. The facial nerve is the seventh cranial nerve."
+    },
+    {
+      "q": "The facial nerve is named because it controls the face.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The facial nerve (CN VII) controls the muscles that move your face - smiling, frowning, blinking, raising eyebrows. Its named for what it does!"
+    },
+    {
+      "q": "The right side and left side of your face are controlled by separate nerves.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! You have a facial nerve on each side. The right CN VII controls the right side of your face, and the left CN VII controls the left side."
+    },
+    {
+      "q": "If only one side of someones face is drooping, only one nerve is damaged.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Right! Since each side has its own nerve, damage to just the right facial nerve causes problems only on the right side. The left side still works normally."
+    },
+    {
+      "q": "Closing your eyes tightly uses muscles around your eyes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The orbicularis oculi muscle circles your eye and squeezes it shut. This muscle, like all facial expression muscles, is controlled by the facial nerve (CN VII)."
+    },
     {
       "q": "Smiling, frowning, and raising eyebrows all use facial muscles.",
       "options": [
@@ -9,8 +81,8 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Facial expressions are produced by muscles of facial expression — small muscles that attach to the skin and move it to create expressions. they're all controlled by one nerve: CN VII. All of human emotion displayed through one cable."
+      "difficulty": "intermediate",
+      "explain": "Facial expressions are produced by muscles of facial expression - small muscles that attach to the skin. Theyre all controlled by CN VII."
     },
     {
       "q": "The same nerve controls all muscles of facial expression on one side.",
@@ -19,8 +91,8 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The facial nerve (CN VII) provides motor innervation to all muscles of facial expression on one side of the face. Consider the elegance here:the vulnerability — lose it, and half your face stops moving."
+      "difficulty": "intermediate",
+      "explain": "The facial nerve (CN VII) provides motor innervation to all muscles of facial expression on one side of the face. Lose it, and half your face stops moving."
     }
   ]
 }

@@ -1,7 +1,79 @@
 {
   "parentId": "200.5.06",
-  "parentQuestion": "Which cranial nerve would you test by asking a patient to look laterally (to the...",
+  "parentQuestion": "Which cranial nerve would you test by asking a patient to look laterally (to the side)?",
   "scaffolds": [
+    {
+      "q": "Lateral means to the side, away from the center.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Lateral = side. When you look laterally, youre looking to your left or right side. The opposite is medial, which means toward the middle/center."
+    },
+    {
+      "q": "Your eyes can turn to look to the side without moving your head.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Exactly! Try it - keep your head still and look to your right. Your eye muscles pull your eyeball to rotate in its socket. Different muscles pull in different directions."
+    },
+    {
+      "q": "CN VI is the abbreviation for Cranial Nerve number ___.",
+      "options": [
+        "Five",
+        "Six",
+        "Seven",
+        "Sixteen"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN VI = Cranial Nerve Six! In Roman numerals, VI = 6. The abducens nerve is the sixth cranial nerve."
+    },
+    {
+      "q": "The word abducens comes from abduct, meaning to move away from the center.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Ab = away, ducens = leading/moving. The abducens nerve moves the eye AWAY from the nose (toward the side). Its named for what it does!"
+    },
+    {
+      "q": "Each eye movement direction is controlled by a different muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Looking up, down, left, right - each direction uses different muscles. CN VI controls the lateral rectus muscle, which pulls the eye outward (to the side)."
+    },
+    {
+      "q": "Doctors can test specific nerves by asking patients to move in specific ways.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! If a doctor wants to test CN VI, they ask you to look to the side. If you cant do it, the nerve might be damaged. Each nerve has specific tests."
+    },
+    {
+      "q": "CN VI controls only one eye muscle - the one that looks sideways.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Right! CN VI controls just the lateral rectus muscle. This muscle pulls your eye outward (laterally). Its a simple nerve with one specific job."
+    },
     {
       "q": "To look to the right, the right eye must turn outward (laterally).",
       "options": [
@@ -9,8 +81,8 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "When you look right, your right eye abducts (turns outward) and your left eye adducts (turns inward toward the nose). coordinated movement using different muscles in each eye. Precision choreography."
+      "difficulty": "intermediate",
+      "explain": "When you look right, your right eye abducts (turns outward) and your left eye adducts (turns inward). Coordinated movement using different muscles in each eye."
     },
     {
       "q": "Abduction means movement away from the midline.",
@@ -19,8 +91,8 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Abduction moves a body part away from the midline. For the eye, this means turning outward (laterally), away from the nose. Feel the weight of this:the logic — the opposite is adduction, moving toward the midline."
+      "difficulty": "intermediate",
+      "explain": "Abduction moves a body part away from the midline. For the eye, this means turning outward (laterally), away from the nose. The opposite is adduction."
     }
   ]
 }

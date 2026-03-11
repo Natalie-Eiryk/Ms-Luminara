@@ -1,26 +1,96 @@
 {
   "parentId": "200.5.22",
-  "parentQuestion": "An elderly patient presents with double vision when looking downward (especially...",
+  "parentQuestion": "Double vision looking down, head tilt compensation",
   "scaffolds": [
     {
-      "q": "Each extraocular muscle has a primary action (direction of pull).",
+      "q": "Double vision (diplopia) means seeing two images of one object.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The six extraocular muscles each have specific primary actions: superior rectus (up), inferior rectus (down), medial rectus (in), lateral rectus (out), superior oblique (down + intorsion), inferior oblique (up + extorsion). Allow your mind to embrace this:the mechanical elegance — six cables, six directions, coordinated three-dimensional control."
+      "difficulty": "foundation",
+      "explain": "When eyes do not align properly, each eye sees differently, creating double images."
     },
     {
-      "q": "Patients often develop compensatory head positions to minimize double vision.",
+      "q": "Different muscles move your eye in different directions.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "When one eye muscle fails, the brain receives mismatched images (diplopia). patients intuitively tilt or turn their head to a position where the weak muscle doesn't need to work. This minimizes double vision. The body compensates. Beautiful adaptation."
+      "difficulty": "foundation",
+      "explain": "Six muscles per eye work together. Each has a specific direction it pulls."
+    },
+    {
+      "q": "Looking down is needed for reading and walking down stairs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "These activities require your eyes to look downward - a specific eye movement."
+    },
+    {
+      "q": "The trochlear nerve (CN IV) controls one muscle that pulls the eye down.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "CN IV controls only the superior oblique muscle, which helps look down and inward."
+    },
+    {
+      "q": "People often tilt their head to compensate for eye muscle problems.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Tilting the head reduces the work the damaged muscle needs to do."
+    },
+    {
+      "q": "CN IV is the smallest cranial nerve and only controls one muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "It is tiny but important - dedicated to just the superior oblique muscle."
+    },
+    {
+      "q": "Difficulty looking down and in, with head tilt, suggests CN IV damage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "This specific pattern is the classic sign of trochlear nerve palsy."
+    },
+    {
+      "q": "CN IV controls the superior oblique muscle for downward gaze.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "The superior oblique depresses and intorts the eye - essential for looking down."
+    },
+    {
+      "q": "Head trauma can damage CN IV due to its long path in the skull.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "CN IV has the longest intracranial course, making it vulnerable to shearing forces."
     }
   ]
 }

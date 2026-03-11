@@ -3,24 +3,94 @@
   "parentQuestion": "To test CN V (trigeminal) motor function, you would ask the patient to ___.",
   "scaffolds": [
     {
-      "q": "The muscles of mastication close the jaw.",
+      "q": "CN V (trigeminal) controls the muscles used for chewing.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Mastication means chewing. The masseter, temporalis, and pterygoid muscles work together to close the jaw with tremendous force and grind food side to side. Feel the weight of this:the power — bite force can exceed 200 pounds per square inch in healthy adults. Incredible strength."
+      "difficulty": "foundation",
+      "explain": "Yes! The masseter and other chewing muscles are controlled by CN V."
     },
     {
-      "q": "CN V has three branches, but only one has motor function.",
+      "q": "Motor function means the ability to move muscles.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "V1 (ophthalmic) and V2 (maxillary) are purely sensory — they monitor their territories. only V3 (mandibular) carries motor fibers to the jaw muscles. Sensory + motor in one branch. Dual function."
+      "difficulty": "foundation",
+      "explain": "Exactly! Motor = movement."
+    },
+    {
+      "q": "Doctors test nerves by asking patients to do specific movements.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Right! Each nerve controls specific muscles."
+    },
+    {
+      "q": "Clenching your jaw requires the muscles that close your mouth.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! These chewing muscles are controlled by CN V."
+    },
+    {
+      "q": "Smiling uses facial muscles controlled by CN VII, not CN V.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Different nerve, different muscles."
+    },
+    {
+      "q": "Sticking out your tongue uses CN XII (hypoglossal), not CN V.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Tongue movement is CN XII."
+    },
+    {
+      "q": "If CN V motor function is damaged, the patient would have trouble chewing.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Exactly! Jaw muscles cannot contract properly."
+    },
+    {
+      "q": "The masseter muscle is used for biting and chewing.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "The masseter is innervated by CN V. Feel it on your cheek when you clench."
+    },
+    {
+      "q": "Testing jaw clench strength tests the motor component of CN V.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Weakness in jaw clenching indicates trigeminal motor nerve damage."
     }
   ]
 }

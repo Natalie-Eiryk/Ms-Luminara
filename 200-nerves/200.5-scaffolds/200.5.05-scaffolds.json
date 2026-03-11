@@ -1,7 +1,79 @@
 {
   "parentId": "200.5.05",
-  "parentQuestion": "A patient cannot feel touch on their face and cannot chew properly. Which crania...",
+  "parentQuestion": "A patient cannot feel touch on their face and cannot chew properly. Which cranial nerve is likely damaged?",
   "scaffolds": [
+    {
+      "q": "You can feel when someone touches your face.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Your face has lots of nerve endings that detect touch, pressure, pain, and temperature. These sensations travel through nerves to your brain."
+    },
+    {
+      "q": "Chewing food requires moving your jaw up and down.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Exactly! Muscles attached to your jaw bone pull it up to close your mouth and let it drop to open. These chewing muscles are called muscles of mastication."
+    },
+    {
+      "q": "CN V is the abbreviation for Cranial Nerve number ___.",
+      "options": [
+        "Four",
+        "Five",
+        "Six",
+        "Fifteen"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN V = Cranial Nerve Five! In Roman numerals, V = 5. The trigeminal nerve is the fifth cranial nerve."
+    },
+    {
+      "q": "The word trigeminal means having three parts or branches.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Tri = three, geminal = twin/born together. CN V has three major branches: one for the forehead area, one for the cheek area, and one for the jaw area."
+    },
+    {
+      "q": "Some nerves can do two different jobs - carry sensation AND control muscles.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! CN V is a great example - it carries touch sensations FROM the face to the brain, AND sends motor commands TO the chewing muscles. Its a two-way street!"
+    },
+    {
+      "q": "If a nerve is damaged, the body parts it controls stop working properly.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Right! A damaged nerve cant carry signals. If the nerve for face sensation is damaged, you cant feel touch on your face. If the nerve to chewing muscles is damaged, you cant chew properly."
+    },
+    {
+      "q": "The trigeminal nerve is responsible for sensations in the face.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! CN V (trigeminal) is the main sensory nerve for your face. It lets you feel touch, pain, temperature, and pressure on your forehead, cheeks, and jaw."
+    },
     {
       "q": "Chewing requires muscles that move the jaw.",
       "options": [
@@ -9,8 +81,8 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Mastication (chewing) uses the masseter, temporalis, and pterygoid muscles to move the jaw up and side to side, grinding food between the teeth. Grant yourself this moment of clarity:the power — powerful muscles for a repetitive, essential task."
+      "difficulty": "intermediate",
+      "explain": "Mastication (chewing) uses the masseter, temporalis, and pterygoid muscles to move the jaw up and side to side, grinding food between the teeth."
     },
     {
       "q": "The face has sensory nerves that detect touch, pain, and temperature.",
@@ -19,8 +91,8 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The skin of the face is richly innervated with sensory receptors for touch, pain, temperature, and proprioception. these sensations are carried to the brain by cranial nerves, specifically CN V. Exquisite sensitivity."
+      "difficulty": "intermediate",
+      "explain": "The skin of the face is richly innervated with sensory receptors. These sensations are carried to the brain by CN V (trigeminal)."
     }
   ]
 }

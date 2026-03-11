@@ -1,26 +1,96 @@
 {
   "parentId": "200.5.18",
-  "parentQuestion": "A patient complains that food has lost most of its taste, and you notice they ha...",
+  "parentQuestion": "Food lost taste, dry eye, cannot close eye",
   "scaffolds": [
     {
-      "q": "Taste from the anterior tongue requires intact cranial nerve VII.",
+      "q": "CN VII carries taste from front 2/3 of tongue.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The chorda tympani branch of CN VII carries taste sensation from the anterior 2/3 of the tongue. Embrace this:this — it's a small branch doing big work. Lose it, and flavor becomes muted, incomplete. Food loses its poetry."
+      "difficulty": "foundation",
+      "explain": "If CN VII is damaged, taste from most of the tongue is lost."
     },
     {
-      "q": "The same nerve that controls facial movement also controls tear production.",
+      "q": "Tears keep your eye moist and healthy.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "CN VII carries parasympathetic fibers to the lacrimal gland via the greater petrosal nerve. it controls both the actor's performance (facial expression) and the production crew (tears). Elegant multi-tasking."
+      "difficulty": "foundation",
+      "explain": "The lacrimal gland makes tears. CN VII controls this gland."
+    },
+    {
+      "q": "Closing your eye uses the orbicularis oculi muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "This muscle circles the eye and squeezes it shut. CN VII controls it."
+    },
+    {
+      "q": "CN VII controls muscles of facial expression.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Smiling, frowning, blinking, raising eyebrows - all CN VII."
+    },
+    {
+      "q": "A dry eye can become damaged without tears for protection.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Without tears, the cornea can dry out and get scratched."
+    },
+    {
+      "q": "Multiple symptoms from one side suggest one nerve.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "When several functions fail together, look for the common nerve."
+    },
+    {
+      "q": "Bells palsy is a common condition affecting CN VII.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Bells palsy causes sudden facial weakness, dry eye, and taste changes."
+    },
+    {
+      "q": "CN VII carries taste, controls tears, and moves facial muscles.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "The facial nerve has multiple functions all affected by damage."
+    },
+    {
+      "q": "Facial nerve palsy requires eye protection.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Without eye closure, the cornea dries. Patients need artificial tears."
     }
   ]
 }

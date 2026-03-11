@@ -1,26 +1,96 @@
 {
   "parentId": "200.5.17",
-  "parentQuestion": "A patient wakes up with ptosis, a dilated pupil that won't respond to light, and...",
+  "parentQuestion": "Ptosis, dilated pupil, eye down and out",
   "scaffolds": [
     {
-      "q": "The pupil constricts in response to light via parasympathetic control.",
+      "q": "Ptosis means a drooping eyelid.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Light triggers the pupillary light reflex: CN II detects light → signal to midbrain → CN III parasympathetic fibers → sphincter pupillae contracts → pupil constricts. Absorb this:the circuit — it's automated brilliance. Break any link, and the reflex fails."
+      "difficulty": "foundation",
+      "explain": "The muscle that lifts your upper eyelid is controlled by CN III."
     },
     {
-      "q": "When multiple functions controlled by the same nerve fail simultaneously, it suggests that nerve is damaged.",
+      "q": "Pupils normally get smaller in bright light.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "When you see multiple deficits that map to a single nerve's territory, think of that nerve first. it's called anatomical localization. The pattern reveals the cable that failed. Beautiful diagnostic logic."
+      "difficulty": "foundation",
+      "explain": "A dilated pupil suggests the nerve controlling constriction is damaged."
+    },
+    {
+      "q": "CN III controls the muscle that constricts the pupil.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "CN III carries parasympathetic fibers to sphincter pupillae."
+    },
+    {
+      "q": "Down and out means eye looks downward and outward.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "When CN III fails, remaining muscles pull eye down and out."
+    },
+    {
+      "q": "CN III controls 4 of the 6 eye movement muscles.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "When CN III fails, remaining muscles (CN IV, VI) pull unopposed."
+    },
+    {
+      "q": "Multiple symptoms affecting one eye suggest one nerve controls all.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Ptosis + dilated pupil + eye deviation = classic CN III palsy."
+    },
+    {
+      "q": "The oculomotor nerve has multiple jobs: eyelid, pupil, eye movement.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "CN III is a busy nerve with several functions."
+    },
+    {
+      "q": "CN III palsy causes ptosis, mydriasis, and eye deviation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Classic triad of oculomotor nerve damage."
+    },
+    {
+      "q": "Third nerve palsy can be caused by aneurysm compression.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Posterior communicating artery aneurysm can compress CN III."
     }
   ]
 }

@@ -1,26 +1,96 @@
 {
   "parentId": "200.5.16",
-  "parentQuestion": "A hoarse voice and difficulty swallowing suggests damage to which cranial nerve?",
+  "parentQuestion": "Hoarse voice and difficulty swallowing",
   "scaffolds": [
     {
-      "q": "The larynx (voice box) contains muscles that control the vocal cords.",
+      "q": "Your voice comes from vibrations in your throat.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The larynx contains intrinsic muscles that adjust vocal cord tension and position, allowing us to produce different sounds, pitches, and volumes. damage these muscles, and the voice becomes hoarse or disappears entirely. Silence where speech should be."
+      "difficulty": "foundation",
+      "explain": "Air passing through your larynx vibrates vocal cords."
     },
     {
-      "q": "Swallowing requires coordinated muscle contractions in the throat.",
+      "q": "Swallowing moves food from mouth to stomach.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The pharyngeal phase of swallowing requires precisely timed contractions of pharyngeal constrictor muscles to push food toward the esophagus while simultaneously protecting the airway. Consider the elegance here:the choreography — it's a coordinated performance. One misstep, and you aspirate."
+      "difficulty": "foundation",
+      "explain": "Throat muscles coordinate to push food down."
+    },
+    {
+      "q": "A hoarse voice means something is wrong with the voice box.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "If vocal cords cannot move properly, voice sounds hoarse."
+    },
+    {
+      "q": "The vagus nerve (CN X) controls muscles in the throat.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "CN X innervates larynx and pharynx muscles."
+    },
+    {
+      "q": "If swallowing muscles are paralyzed, food can go down wrong.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Food might enter airway instead of esophagus."
+    },
+    {
+      "q": "CN X is the vagus nerve.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "It controls throat muscles for voice and swallowing."
+    },
+    {
+      "q": "Voice and swallowing problems together suggest one nerve controls both.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "When two functions fail together, look for one nerve."
+    },
+    {
+      "q": "The vagus nerve innervates larynx and pharynx muscles.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "CN X controls voice and swallowing."
+    },
+    {
+      "q": "Vagal damage can cause aspiration from impaired swallowing.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Without proper swallowing, food/liquid can enter airway."
     }
   ]
 }

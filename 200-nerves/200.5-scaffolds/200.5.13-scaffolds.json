@@ -1,26 +1,96 @@
 {
   "parentId": "200.5.13",
-  "parentQuestion": "The mnemonic 'Oh Oh Oh To Touch And Feel Very Good Velvet, AH!' helps remember _...",
+  "parentQuestion": "The mnemonic Oh Oh Oh To Touch And Feel Very Good Velvet, AH! helps remember ___.",
   "scaffolds": [
     {
-      "q": "There are 12 pairs of cranial nerves.",
+      "q": "A mnemonic is a memory trick that helps you remember things.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Humans have 12 pairs of cranial nerves, numbered I through XII in Roman numerals, from rostral (front) to caudal (back) based on where they emerge from the brain. Receive this insight:the pattern — twelve cables, twelve functions, twelve potential points of failure."
+      "difficulty": "foundation",
+      "explain": "Yes! Mnemonics use patterns, rhymes, or sentences to help you remember lists or facts."
     },
     {
-      "q": "Mnemonics use memorable phrases to help recall information in order.",
+      "q": "There are 12 cranial nerves, numbered I through XII.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Mnemonics are memory aids where the first letter of each word in a phrase corresponds to items you need to remember in sequence. they turn abstract lists into sticky stories. Let me show you how powerful they are."
+      "difficulty": "foundation",
+      "explain": "Correct! CN I through CN XII. The mnemonic helps you remember all 12 in order."
+    },
+    {
+      "q": "The first letter of Oh is O, which stands for Olfactory (CN I).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Each word gives you the first letter of a cranial nerve name."
+    },
+    {
+      "q": "In order, the cranial nerves start: Olfactory, Optic, Oculomotor, Trochlear...",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Oh Oh Oh To = Olfactory, Optic, Oculomotor, Trochlear."
+    },
+    {
+      "q": "Each cranial nerve has a unique name AND a Roman numeral.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Right! Like Olfactory (CN I). You need to know both!"
+    },
+    {
+      "q": "AH at the end stands for Accessory (XI) and Hypoglossal (XII).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Exactly! The last two cranial nerves in the sequence."
+    },
+    {
+      "q": "Learning the names in order helps you remember which number each one is.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Count through the mnemonic to get the number."
+    },
+    {
+      "q": "Mnemonics help organize information that would otherwise be hard to memorize.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Mnemonics convert random lists into memorable patterns."
+    },
+    {
+      "q": "The full mnemonic represents all 12 cranial nerves in order.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Olfactory, Optic, Oculomotor, Trochlear, Trigeminal, Abducens, Facial, Vestibulocochlear, Glossopharyngeal, Vagus, Accessory, Hypoglossal."
     }
   ]
 }

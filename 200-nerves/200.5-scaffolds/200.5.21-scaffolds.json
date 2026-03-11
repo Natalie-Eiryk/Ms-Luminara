@@ -1,26 +1,96 @@
 {
   "parentId": "200.5.21",
-  "parentQuestion": "A patient recovering from a thyroid surgery suddenly develops a hoarse, breathy ...",
+  "parentQuestion": "Hoarse voice after thyroid surgery, vocal cord paralyzed",
   "scaffolds": [
     {
-      "q": "The vocal cords must move together to produce normal voice.",
+      "q": "Your voice box (larynx) is located in your throat near the thyroid gland.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Voice production requires coordinated vocal cord adduction (coming together) and tension control. Breathe in this knowledge:the mechanics — air from the lungs passes through closed vocal cords, making them vibrate. Paralysis of one cord means incomplete closure → breathy, weak voice."
+      "difficulty": "foundation",
+      "explain": "The larynx sits just below the thyroid gland, making nearby nerves vulnerable during surgery."
     },
     {
-      "q": "Nerves running near surgical sites are at risk of being injured during the procedure.",
+      "q": "Vocal cords vibrate to produce sound.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Iatrogenic (surgeon-caused) nerve injury is a known complication of surgery in areas with dense neurovascular anatomy. the neck is a danger zone: carotid arteries, jugular veins, cranial nerves, sympathetic chain. One wrong move, and critical function is lost."
+      "difficulty": "foundation",
+      "explain": "Air from your lungs passes through vocal cords, making them vibrate to create voice."
+    },
+    {
+      "q": "Surgery can accidentally damage nearby nerves.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Nerves running close to surgical sites are at risk of being stretched, cut, or bruised."
+    },
+    {
+      "q": "If a vocal cord cannot move, the voice becomes hoarse and breathy.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Without proper cord movement, they cannot close fully to produce a clear voice."
+    },
+    {
+      "q": "The recurrent laryngeal nerve controls vocal cord movement.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "This branch of CN X (vagus) innervates the muscles that move the vocal cords."
+    },
+    {
+      "q": "The recurrent laryngeal nerve runs close to the thyroid gland.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "It passes right behind the thyroid, making it vulnerable during thyroid surgery."
+    },
+    {
+      "q": "Hoarse voice with intact swallowing suggests only the voice-controlling nerve is damaged.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Different nerves control voice vs swallowing. Only the voice nerve was injured here."
+    },
+    {
+      "q": "The recurrent laryngeal nerve is a branch of the vagus nerve (CN X).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "CN X has branches for different functions - RLN specifically controls vocal cords."
+    },
+    {
+      "q": "Bilateral recurrent laryngeal nerve injury can cause airway obstruction.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Both cords paralyzed means the airway cannot open properly - a medical emergency."
     }
   ]
 }
