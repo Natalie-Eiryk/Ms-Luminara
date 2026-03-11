@@ -216,13 +216,13 @@ class LuminaraQuiz {
     }
 
     // If no scaffoldFile reference, no scaffolds available
-    if (\!question.scaffoldFile) {
+    if (!question.scaffoldFile) {
       return [];
     }
 
     // Try to load from scaffold file
     try {
-      const scaffoldPath = \;
+      const scaffoldPath = `${categoryFolder}/${question.scaffoldFile}`;
       const response = await fetch(scaffoldPath);
       if (response.ok) {
         const scaffoldData = await response.json();
@@ -231,7 +231,7 @@ class LuminaraQuiz {
         return question.prereqs;
       }
     } catch (e) {
-      console.log(\, e.message);
+      console.log(`[Scaffold] Failed to load ${question.scaffoldFile}:`, e.message);
     }
 
     return [];
