@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.16",
+  "parentQuestion": "A hoarse voice and difficulty swallowing suggests damage to which cranial nerve?",
+  "scaffolds": [
+    {
+      "q": "The larynx (voice box) contains muscles that control the vocal cords.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The larynx contains intrinsic muscles that adjust vocal cord tension and position, allowing us to produce different sounds, pitches, and volumes. damage these muscles, and the voice becomes hoarse or disappears entirely. Silence where speech should be."
+    },
+    {
+      "q": "Swallowing requires coordinated muscle contractions in the throat.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The pharyngeal phase of swallowing requires precisely timed contractions of pharyngeal constrictor muscles to push food toward the esophagus while simultaneously protecting the airway. Consider the elegance here:the choreography — it's a coordinated performance. One misstep, and you aspirate."
+    }
+  ]
+}

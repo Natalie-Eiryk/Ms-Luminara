@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.12",
+  "parentQuestion": "The hypothalamus is considered the main integration center for autonomic control...",
+  "scaffolds": [
+    {
+      "q": "The hypothalamus is located in the brain, below the thalamus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "The hypothalamus is a small but mighty structure at the base of the forebrain, forming the floor and walls of the third ventricle. despite its small size, it controls body temperature, hunger, thirst, circadian rhythms, and autonomic function. Accept this reality:this miniature master controller."
+    },
+    {
+      "q": "Emotional states can affect autonomic functions like heart rate and digestion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Think about how fear makes your heart race, or how anxiety can upset your stomach. the limbic system (emotional brain) connects to the hypothalamus, which then adjusts autonomic output. Your feelings become physiology through this pathway. Crafted to perfection."
+    }
+  ]
+}

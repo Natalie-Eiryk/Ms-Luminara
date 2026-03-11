@@ -1,0 +1,28 @@
+{
+  "parentId": "100.1.04",
+  "parentQuestion": "Which of the following best describes the cerebrum?",
+  "scaffolds": [
+    {
+      "q": "The cerebrum is responsible for conscious thought and voluntary actions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The cerebrum is headquarters for everything conscious. Every thought you're aware of, every deliberate movement, every sensation you perceive — that's cerebral activity. When the cerebrum goes dark, consciousness disappears."
+    },
+    {
+      "q": "Which of these is NOT a function of the cerebrum?",
+      "options": [
+        "Conscious thought",
+        "Voluntary movement",
+        "Automatic breathing",
+        "Language"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Automatic breathing runs in the medulla — the brainstem's respiratory center adjusts rate and depth without conscious input. The cerebrum handles voluntary functions. You can choose to hold your breath, but your medulla will override you when CO₂ levels trigger the respiratory center. Brainstem wins."
+    }
+  ]
+}

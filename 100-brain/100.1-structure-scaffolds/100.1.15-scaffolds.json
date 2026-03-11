@@ -1,0 +1,26 @@
+{
+  "parentId": "100.1.15",
+  "parentQuestion": "A 34-year-old patient presents with vision loss in the right visual field of BOT...",
+  "scaffolds": [
+    {
+      "q": "At the optic chiasm, some optic nerve fibers cross to the opposite side while others remain on the same side.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The optic chiasm is where partial decussation occurs. Nasal retinal fibers (carrying information from temporal visual field) cross to the contralateral side. Temporal retinal fibers (carrying information from nasal visual field) remain ipsilateral. This allows each hemisphere to process the contralateral visual field."
+    },
+    {
+      "q": "The left visual cortex processes visual information from the right visual field of both eyes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Visual information is organized by visual field, not by eye. The left hemisphere receives input from the right visual field of both eyes (left eye nasal retina + right eye temporal retina). The right hemisphere receives input from the left visual field of both eyes. Contralateral visual field representation."
+    }
+  ]
+}

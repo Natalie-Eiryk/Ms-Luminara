@@ -1,0 +1,26 @@
+{
+  "parentId": "200.2.05",
+  "parentQuestion": "Transduction refers to conversion of ___.",
+  "scaffolds": [
+    {
+      "q": "Sensory receptors convert environmental stimuli into electrical signals.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Receptors convert stimuli (pressure, light, chemicals, heat) into electrical signals that neurons can process. This conversion is essential for ALL sensation. Without transduction, you'd be deaf, blind, and numb. Let that sink in."
+    },
+    {
+      "q": "A graded potential is an electrical change that varies in size with the stimulus strength.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Unlike action potentials (all-or-nothing), graded potentials vary in amplitude. A stronger stimulus produces a larger receptor potential. It's analog encoding before digital transmission."
+    }
+  ]
+}

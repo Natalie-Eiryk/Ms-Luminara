@@ -1,0 +1,29 @@
+{
+  "parentId": "000.4.02",
+  "parentQuestion": "In anatomical position, the ulna is ___ to the radius.",
+  "scaffolds": [
+    {
+      "q": "What does 'medial' mean in anatomical terms?",
+      "options": [
+        "Away from the body midline",
+        "Toward the body midline",
+        "Above",
+        "Below"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Medial means toward the midline (center) of your body. Lateral means away from the midline. Think: the nose is medial to the eyes. Your pinky is medial to your thumb. Simple, elegant, precise."
+    },
+    {
+      "q": "In anatomical position, which bone is on the thumb side of the forearm?",
+      "options": [
+        "Ulna",
+        "Radius",
+        "Humerus"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "The radius is on the lateral (thumb) side of the forearm. The ulna is on the medial (pinky) side. The humerus is the upper arm bone — wrong neighborhood entirely. Let me guide you to the right location."
+    }
+  ]
+}

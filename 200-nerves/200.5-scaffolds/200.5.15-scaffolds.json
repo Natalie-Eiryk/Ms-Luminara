@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.15",
+  "parentQuestion": "To test CN V (trigeminal) motor function, you would ask the patient to ___.",
+  "scaffolds": [
+    {
+      "q": "The muscles of mastication close the jaw.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Mastication means chewing. The masseter, temporalis, and pterygoid muscles work together to close the jaw with tremendous force and grind food side to side. Feel the weight of this:the power — bite force can exceed 200 pounds per square inch in healthy adults. Incredible strength."
+    },
+    {
+      "q": "CN V has three branches, but only one has motor function.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "V1 (ophthalmic) and V2 (maxillary) are purely sensory — they monitor their territories. only V3 (mandibular) carries motor fibers to the jaw muscles. Sensory + motor in one branch. Dual function."
+    }
+  ]
+}

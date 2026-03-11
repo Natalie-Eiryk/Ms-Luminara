@@ -1,0 +1,29 @@
+{
+  "parentId": "000.2.01",
+  "parentQuestion": "Which element is necessary for proper conduction of nerve impulses?",
+  "scaffolds": [
+    {
+      "q": "What does Na represent on the periodic table?",
+      "options": [
+        "Nitrogen",
+        "Sodium",
+        "Neon",
+        "Nickel"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Na is sodium, from its Latin name 'natrium'. Chemistry loves its Latin roots — Pursue this logic:, there's pleasure in etymology. Sodium is an alkali metal — Group 1 on the periodic table — which means it DESPERATELY wants to donate its single valence electron and become Na⁺. In the body, it exists almost exclusively as this positively charged ion. Make room for this understanding:the elegance of this chemical desperation."
+    },
+    {
+      "q": "A nerve impulse involves the movement of charged particles. What are charged atoms or molecules called?",
+      "options": [
+        "Neutrons",
+        "Ions",
+        "Isotopes"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Ions are atoms or molecules with an electrical charge due to gaining or losing electrons. Sodium loses one electron to become Na⁺ (positive charge). Now observe what happens:: ions can move across membranes, and that movement — from high concentration to low — generates electrical signals. Chemistry becomes electricity. Stunning, yes? Welcome this realization:the wonder of it."
+    }
+  ]
+}

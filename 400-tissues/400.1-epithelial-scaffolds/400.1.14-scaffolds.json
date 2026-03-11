@@ -1,0 +1,30 @@
+{
+  "parentId": "400.1.14",
+  "parentQuestion": "A patient presents with difficulty swallowing and endoscopy reveals white patche...",
+  "scaffolds": [
+    {
+      "q": "What type of stratified squamous epithelium is found in the oral cavity and esophagus?",
+      "options": [
+        "Keratinized",
+        "Non-keratinized",
+        "Transitional",
+        "Ciliated"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "The oral cavity and esophagus are lined by NON-keratinized stratified squamous epithelium. These are wet internal surfaces that need to stay moist and flexible, so the surface cells remain alive rather than becoming keratinized."
+    },
+    {
+      "q": "What does keratinization do to epithelial cells?",
+      "options": [
+        "Makes them moist and flexible",
+        "Fills them with tough protein and causes cell death",
+        "Increases their number",
+        "Makes them columnar"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Keratinization is the process where epithelial cells fill with keratin protein and die, creating a tough, waterproof barrier. This is normal in skin but abnormal in wet internal surfaces like the mouth and esophagus."
+    }
+  ]
+}

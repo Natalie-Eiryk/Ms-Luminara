@@ -1,0 +1,28 @@
+{
+  "parentId": "100.3.03",
+  "parentQuestion": "Which part of the cerebral cortex is involved in intellect, cognition, recall, a...",
+  "scaffolds": [
+    {
+      "q": "Different parts of the cerebral cortex have different functions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The cerebral cortex is organized into specialized regions — motor areas control movement, sensory areas process input, and association areas integrate information and handle higher functions. Damage to different regions produces wildly different deficits."
+    },
+    {
+      "q": "The frontal lobe is located at which part of the brain?",
+      "options": [
+        "Back",
+        "Top middle",
+        "Front",
+        "Sides"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The frontal lobe is at the front of the brain, behind the forehead. The prefrontal cortex is the most anterior (front) part of the frontal lobe — the tip of the spear, evolutionarily speaking."
+    }
+  ]
+}

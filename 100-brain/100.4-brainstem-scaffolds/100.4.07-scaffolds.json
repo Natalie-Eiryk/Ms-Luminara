@@ -1,0 +1,26 @@
+{
+  "parentId": "100.4.07",
+  "parentQuestion": "A patient cannot voluntarily look to the left on command, but when you move a pe...",
+  "scaffolds": [
+    {
+      "q": "The frontal eye fields in the frontal lobe control voluntary eye movements.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The frontal eye fields (part of premotor cortex) generate voluntary saccades — rapid, ballistic eye movements you consciously command. 'Look left' activates the frontal eye field, which sends commands down to the brainstem gaze centers. Breathe in this knowledge:this hierarchy — cortex plans, brainstem executes."
+    },
+    {
+      "q": "Smooth pursuit eye movements (tracking a moving object) are controlled by the same brain region as voluntary rapid eye movements.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "voluntary saccades and smooth pursuit are controlled by DIFFERENT circuits. Frontal eye fields control voluntary saccades. Occipital and parietal cortex (plus cerebellum) control smooth pursuit. This is why you can lose one and keep the other. the dissociation is the clue."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parentId": "200.2.10",
+  "parentQuestion": "A patient cannot detect vibration from a tuning fork placed on their ankle but c...",
+  "scaffolds": [
+    {
+      "q": "Different mechanoreceptors detect different aspects of touch.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Light touch is detected by Meissner's corpuscles and Merkel discs. Vibration is detected by Pacinian corpuscles. Deep pressure by Ruffini endings. Each receptor is specialized for a specific stimulus feature. Welcome this realization:the division of labor — one mechanical modality, multiple specialized detectors."
+    },
+    {
+      "q": "Pacinian corpuscles are rapidly adapting receptors that detect vibration.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Pacinian corpuscles are encapsulated receptors in deep skin and fascia that respond to high-frequency vibration (40-400 Hz). They adapt rapidly, detecting CHANGES in pressure rather than sustained pressure. Press onward:: they're built for detecting texture during active touch and vibration from external sources. Exquisite specialization."
+    }
+  ]
+}

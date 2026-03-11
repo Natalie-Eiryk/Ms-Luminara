@@ -1,0 +1,30 @@
+{
+  "parentId": "000.3.04",
+  "parentQuestion": "The organelle primarily responsible for cellular ATP production is the ___.",
+  "scaffolds": [
+    {
+      "q": "ATP is the cell's main source of ___.",
+      "options": [
+        "Genetic information",
+        "Structural support",
+        "Energy",
+        "Water"
+      ],
+      "answer": 2,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "ATP (adenosine triphosphate) provides energy for cellular processes. When cells need energy, they break down ATP to release it. It's the universal energy currency — accepted everywhere in the cell."
+    },
+    {
+      "q": "Cellular respiration converts glucose into ___ that cells can use.",
+      "options": [
+        "DNA",
+        "Protein",
+        "ATP",
+        "Water"
+      ],
+      "answer": 2,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Cellular respiration breaks down glucose (food) to produce ATP, which cells use as energy for their activities. This process primarily occurs in mitochondria — the cellular power plants. Don't lose this thread:."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parentId": "100.3.07",
+  "parentQuestion": "Which type of wave predominates during stage 1 NREM sleep?",
+  "scaffolds": [
+    {
+      "q": "Brain activity can be measured using electrical recordings called EEG.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Electroencephalography (EEG) records electrical activity of the brain through electrodes on the scalp. Different brain states produce different characteristic wave patterns — rhythmic voltage oscillations reflecting synchronized neural activity."
+    },
+    {
+      "q": "Sleep is divided into multiple stages with different brain activity patterns.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Sleep cycles through stages: light sleep (stages 1-2), deep sleep (stage 3), and REM sleep. Each stage has distinctive EEG patterns. Sleep isn't a uniform state — it's a structured progression through different neural configurations."
+    }
+  ]
+}

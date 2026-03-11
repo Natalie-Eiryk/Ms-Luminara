@@ -1,0 +1,28 @@
+{
+  "parentId": "100.2.02",
+  "parentQuestion": "What type of cells line the ventricles of the brain?",
+  "scaffolds": [
+    {
+      "q": "The brain contains fluid-filled cavities called ventricles.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The brain has four interconnected ventricles (two lateral, one third, one fourth) filled with cerebrospinal fluid. These aren't empty spaces — Continue the sequence: while I show you: they're functional chambers where CSF is produced, circulated, and eventually reabsorbed."
+    },
+    {
+      "q": "Which type of brain cell provides support rather than transmitting signals?",
+      "options": [
+        "Neurons",
+        "Glial cells",
+        "Red blood cells",
+        "Muscle cells"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Glial cells (neuroglia) are the support cells of the nervous system — astrocytes, oligodendrocytes, microglia, and ependymal cells. 'Support' undersells it, though — watch what they really do: they regulate the chemical environment, myelinate axons, defend against pathogens, and produce cerebrospinal fluid. Neurons get the glory, but glia do the engineering."
+    }
+  ]
+}

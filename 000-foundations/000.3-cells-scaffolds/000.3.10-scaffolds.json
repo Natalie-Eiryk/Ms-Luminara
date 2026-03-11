@@ -1,0 +1,30 @@
+{
+  "parentId": "000.3.10",
+  "parentQuestion": "A patient presents with severe muscle weakness and exercise intolerance. Lab tes...",
+  "scaffolds": [
+    {
+      "q": "Mitochondria produce ___ through cellular respiration.",
+      "options": [
+        "DNA",
+        "ATP",
+        "Protein",
+        "Glucose"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Mitochondria are the 'powerhouses' that produce ATP — the cell's energy currency — through aerobic respiration. They're your cellular power plants, darling."
+    },
+    {
+      "q": "Lactic acid is produced during ___ when oxygen is scarce.",
+      "options": [
+        "Photosynthesis",
+        "Glycolysis",
+        "DNA replication",
+        "Protein synthesis"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "When oxygen is limited, cells perform glycolysis and convert pyruvate to lactate (lactic acid) to regenerate NAD+ and keep glycolysis running. It's metabolic desperation, darling — not efficient, but it keeps you alive."
+    }
+  ]
+}

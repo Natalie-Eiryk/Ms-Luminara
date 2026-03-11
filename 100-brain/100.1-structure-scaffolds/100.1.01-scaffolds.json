@@ -1,0 +1,28 @@
+{
+  "parentId": "100.1.01",
+  "parentQuestion": "Specific motor and sensory functions are localized in specific areas called doma...",
+  "scaffolds": [
+    {
+      "q": "The brain has different regions that handle different functions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The brain divides labor with ruthless efficiency. Vision gets the occipital lobe. Hearing gets temporal real estate. Movement gets the motor strip. Different regions, different jobs — organizational genius born from evolutionary pressure."
+    },
+    {
+      "q": "Which part of the brain controls voluntary movement?",
+      "options": [
+        "Motor cortex",
+        "Occipital lobe",
+        "Cerebellum",
+        "Medulla"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The motor cortex — that strip of frontal lobe tissue right behind your forehead — sends the 'go' signals. Every voluntary twitch starts here. Your toe? Mapped. Your tongue? Mapped. Even your eyelids get their own address on this neural switchboard."
+    }
+  ]
+}

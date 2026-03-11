@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.11",
+  "parentQuestion": "A patient can't turn their head to the left or shrug their left shoulder. Which ...",
+  "scaffolds": [
+    {
+      "q": "The sternocleidomastoid muscle turns the head.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The sternocleidomastoid (SCM) runs from the sternum and clavicle to the mastoid process behind the ear. when the right SCM contracts, it turns the head to the LEFT (opposite side). It's a crossing pattern. Beautiful mechanics."
+    },
+    {
+      "q": "Shrugging your shoulders uses the trapezius muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The upper trapezius elevates the scapula — that's the classic shrug movement. Permit yourself to feel this:it — the trapezius also helps stabilize the shoulder girdle and assists in head movements. Large muscle, large job."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "parentId": "000.3.13",
+  "parentQuestion": "A researcher treats cells with a drug that disrupts the Golgi apparatus. Which c...",
+  "scaffolds": [
+    {
+      "q": "The Golgi apparatus receives proteins from the ___.",
+      "options": [
+        "Nucleus",
+        "Mitochondria",
+        "Rough endoplasmic reticulum",
+        "Lysosomes"
+      ],
+      "answer": 2,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Proteins synthesized on rough ER are transported to the Golgi apparatus in vesicles for further modification and sorting. The assembly line flows: ribosome → rough ER → Golgi → destination. Walk through this:, darling."
+    },
+    {
+      "q": "Glycosylation is the process of adding ___ to proteins.",
+      "options": [
+        "Phosphate groups",
+        "Lipids",
+        "Carbohydrate (sugar) chains",
+        "Amino acids"
+      ],
+      "answer": 2,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Glycosylation adds carbohydrate chains (sugars) to proteins, affecting their folding, stability, and function. Many glycoproteins are on cell surfaces or secreted. The Golgi is the master glycosylator, darling."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parentId": "100.1.13",
+  "parentQuestion": "A patient arrives in the ER after a diving accident with spinal cord trauma at C...",
+  "scaffolds": [
+    {
+      "q": "Each spinal nerve innervates specific muscles (myotome) and specific skin regions (dermatome).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The spinal cord is segmentally organized. Each spinal segment receives sensory input from a specific dermatome (skin region) and sends motor output to a specific myotome (muscle group). This creates predictable patterns of deficit based on lesion level."
+    },
+    {
+      "q": "Spinal cord injury results in loss of function at and below the level of the lesion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Spinal cord injury interrupts ascending sensory pathways and descending motor pathways. Segments at and below the lesion lose connection to the brain, causing motor paralysis and sensory loss in territories innervated by those segments."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "parentId": "000.3.06",
+  "parentQuestion": "Osmosis is the movement of ___ across a semipermeable membrane.",
+  "scaffolds": [
+    {
+      "q": "In a saltwater solution, salt is the ___ and water is the ___.",
+      "options": [
+        "Solvent; solute",
+        "Solute; solvent",
+        "Solution; mixture",
+        "Mixture; solution"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "The solute is the substance being dissolved (salt), and the solvent is the substance doing the dissolving (water). Together they form a solution. Solute gets dissolved, solvent does the dissolving. Maintain this focus:."
+    },
+    {
+      "q": "A semipermeable membrane allows ___ to pass through while blocking ___.",
+      "options": [
+        "Nothing; everything",
+        "Some substances; others",
+        "Everything; nothing",
+        "Solutes; water"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Semipermeable membranes are selective — they let some substances through while blocking others. Cell membranes are semipermeable, allowing water and some small molecules through while blocking larger molecules. It's a bouncer with a very specific guest list, darling."
+    }
+  ]
+}

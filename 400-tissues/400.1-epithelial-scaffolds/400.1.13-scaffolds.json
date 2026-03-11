@@ -1,0 +1,30 @@
+{
+  "parentId": "400.1.13",
+  "parentQuestion": "A patient undergoes cystoscopy, and the urologist observes that the bladder epit...",
+  "scaffolds": [
+    {
+      "q": "What organ in the urinary system stores urine before elimination?",
+      "options": [
+        "Kidney",
+        "Ureter",
+        "Bladder",
+        "Urethra"
+      ],
+      "answer": 2,
+      "chapter": "Tissues & Epithelia",
+      "explain": "The bladder is the organ that temporarily stores urine before it's eliminated through the urethra. It must be able to expand significantly as it fills, which requires specialized epithelium."
+    },
+    {
+      "q": "What happens to the bladder as it fills with urine?",
+      "options": [
+        "It stays the same size",
+        "It expands and stretches",
+        "It contracts",
+        "It produces more cells"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "As the bladder fills with urine, it expands and stretches dramatically — from holding essentially nothing when empty to 400-600 mL when full. The epithelium lining it must be able to accommodate this stretching."
+    }
+  ]
+}

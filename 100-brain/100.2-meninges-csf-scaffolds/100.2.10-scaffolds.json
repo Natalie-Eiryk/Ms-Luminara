@@ -1,0 +1,28 @@
+{
+  "parentId": "100.2.10",
+  "parentQuestion": "A 45-year-old presents with 'the worst headache of my life,' sudden onset during...",
+  "scaffolds": [
+    {
+      "q": "Cerebral aneurysms are balloon-like dilations in brain arteries.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Cerebral aneurysms (berry aneurysms) are saccular dilations at arterial bifurcations, typically in the Circle of Willis. They're usually asymptomatic until they rupture, causing subarachnoid hemorrhage. Invite this in:the anatomy — weakness at branch points becomes disaster."
+    },
+    {
+      "q": "What is the classic description of subarachnoid hemorrhage headache?",
+      "options": [
+        "Gradual and dull",
+        "Thunderclap — sudden and severe",
+        "Throbbing and unilateral",
+        "Mild and intermittent"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "'Thunderclap headache' — sudden onset, maximal intensity within seconds, described as the worst headache of the patient's life. This is subarachnoid hemorrhage until proven otherwise. Track this carefully:: the descriptive language patients use tells you the pathology."
+    }
+  ]
+}

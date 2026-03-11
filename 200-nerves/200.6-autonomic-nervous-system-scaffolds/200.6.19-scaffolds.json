@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.19",
+  "parentQuestion": "An asthmatic patient is started on propranolol (non-selective β-blocker) for hyp...",
+  "scaffolds": [
+    {
+      "q": "β2 receptors on bronchial smooth muscle mediate bronchodilation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Sympathetic activation and circulating epinephrine relax bronchial smooth muscle via β2 receptors, opening the airways. this is why β2 agonists (albuterol) are rescue medications for asthma. The β2 receptor keeps airways open. Block it, and they close."
+    },
+    {
+      "q": "β-blockers can have different selectivity for β1 versus β2 receptor subtypes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Non-selective β-blockers (propranolol, nadolol) block BOTH β1 and β2. Cardioselective β-blockers (metoprolol, atenolol) preferentially block β1. this selectivity matters when patients have both cardiac disease AND pulmonary disease. Choose the wrong drug, and you harm the lungs trying to help the heart."
+    }
+  ]
+}

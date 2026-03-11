@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.03",
+  "parentQuestion": "The sympathetic division of the ANS is also called the ___.",
+  "scaffolds": [
+    {
+      "q": "The spinal cord has different regions: cervical, thoracic, lumbar, and sacral.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "The spinal cord is organized into regions that correspond to the vertebral column: 8 cervical, 12 thoracic, 5 lumbar, 5 sacral, and 1 coccygeal segments. each region gives rise to specific spinal nerves serving different body territories. Open your mind to this:the map."
+    },
+    {
+      "q": "The two main divisions of the ANS are sympathetic and parasympathetic.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "the ANS has two major divisions: sympathetic (fight-or-flight, energy mobilization) and parasympathetic (rest-and-digest, energy conservation). They often have opposing effects on the same organ, creating a beautiful push-pull balance. Simply magnificent. engineering?"
+    }
+  ]
+}

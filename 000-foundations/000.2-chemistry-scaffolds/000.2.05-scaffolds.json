@@ -1,0 +1,29 @@
+{
+  "parentId": "000.2.05",
+  "parentQuestion": "Triglycerides are a poor source of stored energy.",
+  "scaffolds": [
+    {
+      "q": "What is another common name for triglycerides?",
+      "options": [
+        "Proteins",
+        "Fats",
+        "Sugars",
+        "Vitamins"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Triglycerides ARE fats. They consist of three fatty acid chains attached to a glycerol backbone (hence 'tri-glyceride' — three glycerides). they're the main form of fat stored in adipose tissue — your body's energy warehouse. Receive this insight:the molecular architecture: three long hydrocarbon chains, packed with potential energy."
+    },
+    {
+      "q": "Which macronutrient provides the most calories per gram?",
+      "options": [
+        "Carbohydrates (4 kcal/g)",
+        "Proteins (4 kcal/g)",
+        "Fats (9 kcal/g)"
+      ],
+      "answer": 2,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Fats provide 9 kcal per gram — more than TWICE the energy of carbohydrates or proteins (both 4 kcal/g). this high energy density makes fat an incredibly efficient storage medium. It's why migrating birds fatten up before long flights, and why your body stores excess energy as fat rather than glycogen. Compact, energy-dense, efficient. Make room for this understanding:the evolutionary logic of this."
+    }
+  ]
+}

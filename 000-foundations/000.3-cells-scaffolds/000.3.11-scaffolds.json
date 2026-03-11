@@ -1,0 +1,30 @@
+{
+  "parentId": "000.3.11",
+  "parentQuestion": "A newly developed antibiotic specifically targets bacterial ribosomes without af...",
+  "scaffolds": [
+    {
+      "q": "Ribosomes are responsible for making ___ using mRNA as a template.",
+      "options": [
+        "Lipids",
+        "Carbohydrates",
+        "Proteins",
+        "DNA"
+      ],
+      "answer": 2,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Ribosomes synthesize proteins by reading mRNA and linking amino acids in the correct sequence. They're molecular 3D printers, darling. Keep pace with this:."
+    },
+    {
+      "q": "Bacteria are ___ cells, meaning they lack a membrane-bound nucleus.",
+      "options": [
+        "Eukaryotic",
+        "Prokaryotic",
+        "Viral",
+        "Fungal"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Prokaryotic cells (bacteria) lack a membrane-bound nucleus — their DNA floats freely in the cytoplasm. Eukaryotic cells (like yours) have a nucleus. Pro = before, karyon = nucleus. Simple as that."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.18",
+  "parentQuestion": "A patient with a pheochromocytoma presents with episodic severe hypertension (BP...",
+  "scaffolds": [
+    {
+      "q": "The adrenal medulla releases catecholamines (epinephrine and norepinephrine) into the bloodstream.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "The chromaffin cells of the adrenal medulla are essentially postganglionic sympathetic neurons that lost their axons and dump their 'neurotransmitters' into the circulation instead. this creates systemic sympathetic effects. Epinephrine (80%) and norepinephrine (20%) become hormones."
+    },
+    {
+      "q": "Norepinephrine causes vasoconstriction and increased blood pressure through α1 receptors.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "NE binding to α1 receptors on vascular smooth muscle causes constriction, increasing peripheral resistance and blood pressure. this is the primary pressor effect. In a pheochromocytoma, uncontrolled NE release creates dangerous hypertensive surges. Feel the weight of this:the vasoconstriction."
+    }
+  ]
+}

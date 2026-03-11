@@ -1,0 +1,26 @@
+{
+  "parentId": "200.3.11",
+  "parentQuestion": "An infant born after prolonged labor with the arm pulled forcefully during deliv...",
+  "scaffolds": [
+    {
+      "q": "Intrinsic hand muscles control fine finger movements and prevent claw hand.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The intrinsic hand muscles (lumbricals, interossei) flex the MCP joints and extend the IP joints — preventing the claw hand deformity. They're primarily innervated by the ulnar nerve (C8-T1). Lose these muscles, and the extrinsic finger flexors (FDP, FDS) overpower the extensors — the fingers curl into a claw. imagine the delicate balance of opposing forces, and what happens when one side is paralyzed..."
+    },
+    {
+      "q": "Lower brachial plexus injuries (C8-T1) can occur during difficult births with the arm pulled upward.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "When the infant's arm is forcefully pulled upward during delivery — often in breech presentations with the arm overhead — the lower brachial plexus roots (C8-T1) are stretched beyond their limit. Some fibers tear. Some are avulsed from the spinal cord. Feel the weight of this:drawn into the mechanism — excessive traction, delicate nerve roots tearing. Often permanent. Devastating, isn't it?"
+    }
+  ]
+}

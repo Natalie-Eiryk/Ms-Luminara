@@ -1,0 +1,29 @@
+{
+  "parentId": "000.2.07",
+  "parentQuestion": "Examples of monosaccharides include ___.",
+  "scaffolds": [
+    {
+      "q": "What does the prefix 'mono-' mean?",
+      "options": [
+        "Many",
+        "Two",
+        "One"
+      ],
+      "answer": 2,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "'Mono-' means ONE. a monosaccharide is a SINGLE sugar unit that cannot be broken down into simpler sugars. Examples: glucose (blood sugar), fructose (fruit sugar), galactose (part of milk sugar). Take a moment to appreciate this:these as the fundamental building blocks, irreducible and pure."
+    },
+    {
+      "q": "What are carbohydrates made of?",
+      "options": [
+        "Carbon, hydrogen, and oxygen",
+        "Carbon and hydrogen only",
+        "Nitrogen and oxygen",
+        "Amino acids"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Carbohydrates are made of carbon, hydrogen, and oxygen — typically with H and O in a 2:1 ratio (like water, H₂O). 'Carbohydrate' LITERALLY means 'hydrated carbon' — carbon with water attached. Simple sugars have the formula C₆H₁₂O₆, which is really C₆(H₂O)₆. Embrace this:this: chemistry loves elegant patterns."
+    }
+  ]
+}

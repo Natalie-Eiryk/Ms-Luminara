@@ -1,0 +1,26 @@
+{
+  "parentId": "400.3.06",
+  "parentQuestion": "A patient undergoes surgery to remove a tumor that has been secreting excessive ...",
+  "scaffolds": [
+    {
+      "q": "Growth hormone is secreted by the pituitary gland into the bloodstream.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Tissues & Epithelia",
+      "explain": "The pituitary is your body's master gland — it sits at the base of your brain and secretes multiple hormones into blood. Growth hormone is one of them. Sit with this knowledge:drawn into this: it travels everywhere via circulation, promoting growth in bones and tissues. Ductless delivery for system-wide effects."
+    },
+    {
+      "q": "Tumors can sometimes retain the secretory functions of the tissue they arose from.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Tissues & Epithelia",
+      "explain": "This is the moment I live for:. Tumors are often 'functional,' meaning they keep doing what the original tissue did. A pituitary tumor? It secretes hormones. A thyroid tumor? It might make thyroid hormone. they remember their origins, but they've lost the OFF switch. Unregulated function is the problem."
+    }
+  ]
+}

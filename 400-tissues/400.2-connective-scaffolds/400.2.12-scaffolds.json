@@ -1,0 +1,30 @@
+{
+  "parentId": "400.2.12",
+  "parentQuestion": "A marathon runner develops severe knee pain. MRI shows a torn meniscus (fibrocar...",
+  "scaffolds": [
+    {
+      "q": "What does 'avascular' mean?",
+      "options": [
+        "Having many blood vessels",
+        "Having no blood vessels",
+        "Having blocked blood vessels",
+        "Having leaky blood vessels"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Avascular means having NO blood vessels. Vascular means having blood vessels. Cartilage is avascular — it relies on diffusion for nutrients and waste removal. This is why it heals slowly, darling."
+    },
+    {
+      "q": "Tissues heal faster when they have:",
+      "options": [
+        "Good blood supply",
+        "No blood supply",
+        "Thick extracellular matrix",
+        "Few cells"
+      ],
+      "answer": 0,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Good blood supply (vascularity) enables rapid delivery of nutrients, oxygen, inflammatory cells, and growth factors to the injury site. This accelerates healing. Avascular tissues heal slowly or not at all. Circulation is life, love."
+    }
+  ]
+}

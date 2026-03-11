@@ -1,0 +1,28 @@
+{
+  "parentId": "200.2.01",
+  "parentQuestion": "If someone spills very hot coffee (200°F) on their skin, they will likely percei...",
+  "scaffolds": [
+    {
+      "q": "Pain is detected by specialized receptors in the body.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Pain is detected by nociceptors — free nerve endings that respond to stimuli intense enough to cause or threaten tissue damage. Keep this momentum: now: they're your body's alarm system for 'this could kill you.'"
+    },
+    {
+      "q": "What does a nociceptor detect?",
+      "options": [
+        "Normal touch",
+        "Harmful or damaging stimuli",
+        "Body position",
+        "Chemical taste"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Nociceptors (from Latin 'nocere' meaning 'to harm') detect potentially harmful stimuli — extreme temperatures that burn tissue, intense pressure that crushes cells, damaging chemicals that dissolve membranes. Look at what occurs:, darling: they're not temperature sensors. They're DAMAGE sensors."
+    }
+  ]
+}

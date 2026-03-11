@@ -1,0 +1,30 @@
+{
+  "parentId": "000.4.04",
+  "parentQuestion": "The dorsal body cavity contains the ___.",
+  "scaffolds": [
+    {
+      "q": "What does 'dorsal' mean?",
+      "options": [
+        "Front (belly side)",
+        "Back (posterior)",
+        "Upper",
+        "Lower"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Dorsal means back or posterior. In humans standing upright, dorsal structures are on your back side. Think: dorsal fin on a shark — it's on the back/top. Simple, elegant, precise."
+    },
+    {
+      "q": "The brain and spinal cord together form the ___.",
+      "options": [
+        "Peripheral nervous system",
+        "Central nervous system",
+        "Digestive system",
+        "Respiratory system"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "The brain and spinal cord together form the central nervous system (CNS) — your body's command-and-control center. Everything else (nerves branching to your limbs and organs) is the peripheral nervous system. Beautiful hierarchy, isn't it?"
+    }
+  ]
+}

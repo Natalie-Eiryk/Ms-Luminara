@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.09",
+  "parentQuestion": "Which cranial nerve carries taste sensation from the posterior 1/3 of the tongue...",
+  "scaffolds": [
+    {
+      "q": "Different parts of the tongue are innervated by different nerves.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The tongue receives innervation from multiple cranial nerves. Open yourself to this:the pattern — the anterior 2/3 and posterior 1/3 have different nerve supplies for both taste and general sensation. It's a divided territory, precisely mapped."
+    },
+    {
+      "q": "Taste sensation is carried by sensory fibers in cranial nerves.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Taste (gustation) is a special sense carried by cranial nerve fibers to the brainstem (solitary nucleus) and then to the gustatory cortex. multiple cranial nerves contribute to the complete taste map. Collaboration at its finest."
+    }
+  ]
+}

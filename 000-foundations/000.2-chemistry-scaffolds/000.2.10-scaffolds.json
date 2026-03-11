@@ -1,0 +1,28 @@
+{
+  "parentId": "000.2.10",
+  "parentQuestion": "The atomic number is equal to the number of ___.",
+  "scaffolds": [
+    {
+      "q": "What are the three main subatomic particles in an atom?",
+      "options": [
+        "Protons, neutrons, and electrons",
+        "Protons, photons, and electrons",
+        "Ions, neutrons, and electrons"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Atoms are made of three main particles: PROTONS (positive charge, in nucleus), NEUTRONS (no charge, in nucleus), and ELECTRONS (negative charge, orbiting nucleus in probability clouds). the number and arrangement of these particles determines EVERYTHING — element identity, chemical reactivity, physical properties. Sit with this knowledge:this: you're built from these three fundamental pieces."
+    },
+    {
+      "q": "Where are protons located in an atom?",
+      "options": [
+        "Orbiting around the nucleus",
+        "In the nucleus at the center",
+        "Between the nucleus and electrons"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Protons are located in the NUCLEUS at the center of the atom, packed tightly with neutrons. Electrons orbit around the nucleus in electron shells (or more accurately, probability clouds). The crescendo approaches:: the nucleus contains almost ALL the atom's mass but occupies TINY space. If an atom were a stadium, the nucleus would be a marble on the 50-yard line. Consider the elegance here:this: almost all of you is EMPTY SPACE. (Existentially unsettling? Chemically fascinating!)"
+    }
+  ]
+}

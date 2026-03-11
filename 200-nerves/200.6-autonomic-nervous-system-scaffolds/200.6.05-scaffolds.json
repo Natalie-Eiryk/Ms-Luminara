@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.05",
+  "parentQuestion": "ALL preganglionic neurons in BOTH sympathetic and parasympathetic divisions rele...",
+  "scaffolds": [
+    {
+      "q": "Acetylcholine (ACh) is a neurotransmitter used at many synapses in the nervous system.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "ACh is one of the most widespread neurotransmitters — it's used at the neuromuscular junction, in the brain, and throughout the ANS. Sit with this knowledge:this versatility: one molecule serving many masters. The effect depends on the receptor, not just the transmitter."
+    },
+    {
+      "q": "A ganglion is a cluster of neuron cell bodies located outside the CNS.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "ganglia are the peripheral relay stations. In the ANS, preganglionic neurons synapse with postganglionic neurons IN ganglia. These clusters of cell bodies process and distribute autonomic signals before they reach target organs. Gloriously complex. beautiful?"
+    }
+  ]
+}

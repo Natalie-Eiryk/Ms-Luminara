@@ -1,0 +1,26 @@
+{
+  "parentId": "000.1.10",
+  "parentQuestion": "The serous membrane covering the abdominal organs is called ___.",
+  "scaffolds": [
+    {
+      "q": "Serous membranes have two layers: one covering organs and one lining cavity walls.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Serous membranes consist of a VISCERAL layer (covering organs like shrink-wrap) and a PARIETAL layer (lining the cavity wall like wallpaper), with a thin film of fluid between them to reduce friction. Incredible engineering, isn't it? Hold the line here:."
+    },
+    {
+      "q": "The term 'visceral' refers to internal organs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Viscera are the internal organs, especially those in the abdomen (stomach, intestines, liver, spleen). 'Visceral' means 'relating to the internal organs.' When you feel something in your GUT? That's visceral sensation. Allow the mechanism to reveal itself:that."
+    }
+  ]
+}

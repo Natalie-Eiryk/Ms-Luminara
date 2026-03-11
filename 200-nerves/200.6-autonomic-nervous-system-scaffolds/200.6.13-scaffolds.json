@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.13",
+  "parentQuestion": "Sympathetic and parasympathetic divisions interact primarily through ___.",
+  "scaffolds": [
+    {
+      "q": "Reciprocal inhibition means that activating one pathway inhibits the opposing pathway.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "When the CNS activates sympathetic pathways, it often simultaneously inhibits parasympathetic pathways (and vice versa). this reciprocal relationship ensures the two divisions don't fight each other. They take turns, coordinated from above. Elegant choreography."
+    },
+    {
+      "q": "The balance between sympathetic and parasympathetic activity determines the final state of an organ.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "An organ's function reflects the NET influence of both divisions. it's not just about one division being 'on'; it's about the ratio of activity. Shifting this balance in either direction changes organ function. Give this idea space to land:the continuous spectrum of control."
+    }
+  ]
+}

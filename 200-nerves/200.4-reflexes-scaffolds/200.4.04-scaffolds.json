@@ -1,0 +1,26 @@
+{
+  "parentId": "200.4.04",
+  "parentQuestion": "Reciprocal inhibition occurs when ___.",
+  "scaffolds": [
+    {
+      "q": "For smooth movement, opposing muscles must be coordinated.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Absolutely — and let me show you why. If both the biceps and triceps contracted at the same time with equal force, your elbow wouldn't move — it would be LOCKED in place, rigid and useless. Coordination is essential for function. we're going deeper."
+    },
+    {
+      "q": "Inhibitory interneurons can prevent motor neurons from firing.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Yes — and Now we arrive at the gorgeous part:. Interneurons in the spinal cord can release inhibitory neurotransmitters (like glycine or GABA) that hyperpolarize motor neurons, preventing them from firing. This effectively relaxes the muscle they control — all at the reflex level. this is the mechanism that makes reciprocal inhibition possible."
+    }
+  ]
+}

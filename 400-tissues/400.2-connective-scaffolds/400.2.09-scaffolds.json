@@ -1,0 +1,30 @@
+{
+  "parentId": "400.2.09",
+  "parentQuestion": "A 62-year-old patient with osteoarthritis shows knee cartilage breaking down fas...",
+  "scaffolds": [
+    {
+      "q": "What is the primary cell type found in cartilage?",
+      "options": [
+        "Fibroblast",
+        "Osteocyte",
+        "Chondrocyte",
+        "Adipocyte"
+      ],
+      "answer": 2,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Chondrocytes are cartilage cells. They live in lacunae within the cartilage matrix and maintain that matrix by secreting collagen and proteoglycans. The prefix 'chondro-' means cartilage. Language helps, darling."
+    },
+    {
+      "q": "Cartilage receives nutrients by:",
+      "options": [
+        "Direct blood supply",
+        "Diffusion from surrounding tissues",
+        "Absorption from synovial fluid only",
+        "It doesn't need nutrients"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Cartilage is AVASCULAR — it has no blood vessels. It receives nutrients by diffusion from the surrounding perichondrium and synovial fluid. This is why cartilage heals slowly and why osteoarthritis is so hard to reverse. No highways, just slow diffusion."
+    }
+  ]
+}

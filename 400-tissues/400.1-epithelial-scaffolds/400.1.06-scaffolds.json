@@ -1,0 +1,30 @@
+{
+  "parentId": "400.1.06",
+  "parentQuestion": "Which of the following is NOT a function of epithelial tissue?",
+  "scaffolds": [
+    {
+      "q": "What does absorption mean in biological terms?",
+      "options": [
+        "Releasing substances",
+        "Taking in substances from outside",
+        "Breaking down substances",
+        "Moving substances across a surface"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Absorption means taking in or assimilating substances from outside the cell or organism. For example, intestinal cells absorb nutrients from digested food."
+    },
+    {
+      "q": "Which of the four primary tissue types provides structural support to the body?",
+      "options": [
+        "Epithelial tissue",
+        "Connective tissue",
+        "Muscle tissue",
+        "Nervous tissue"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Connective tissue provides structural support to the body. It includes bone, cartilage, ligaments, and tendons — all structures that support and bind other tissues together."
+    }
+  ]
+}

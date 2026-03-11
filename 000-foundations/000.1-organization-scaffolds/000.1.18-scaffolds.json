@@ -1,0 +1,26 @@
+{
+  "parentId": "000.1.18",
+  "parentQuestion": "A trauma patient arrives with multiple injuries affecting skin, muscle, bone, an...",
+  "scaffolds": [
+    {
+      "q": "The four primary tissue types are epithelial, connective, muscle, and nervous.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Every tissue in your body falls into one of four categories: EPITHELIAL (covers, lines, secretes), CONNECTIVE (supports, connects, transports), MUSCLE (contracts, moves), NERVOUS (senses, signals). That's it. Four fundamental building blocks. Proceed with me:."
+    },
+    {
+      "q": "Most body regions contain multiple tissue types working together.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Body regions and organs are almost never made of just ONE tissue type. They're COMPOSITE structures containing multiple tissue types collaborating for function. Accept this reality:into this: cooperation between tissue types is what enables complex function."
+    }
+  ]
+}

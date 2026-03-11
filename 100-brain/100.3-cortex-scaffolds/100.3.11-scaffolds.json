@@ -1,0 +1,26 @@
+{
+  "parentId": "100.3.11",
+  "parentQuestion": "A patient can speak fluently and produce grammatically correct sentences, but th...",
+  "scaffolds": [
+    {
+      "q": "The brain has specialized regions for producing speech and understanding language.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Language processing involves multiple specialized brain regions. Broca's area (frontal lobe) is involved in speech production, while Wernicke's area (temporal lobe) is crucial for language comprehension. They work together but have distinct functions."
+    },
+    {
+      "q": "It is possible to produce speech sounds without understanding language or producing meaningful sentences.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Speaking and understanding are dissociable functions. Motor speech production can remain intact while comprehension is destroyed, resulting in fluent but meaningless speech — form without content."
+    }
+  ]
+}

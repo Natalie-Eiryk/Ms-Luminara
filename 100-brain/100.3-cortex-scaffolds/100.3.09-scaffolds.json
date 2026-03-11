@@ -1,0 +1,26 @@
+{
+  "parentId": "100.3.09",
+  "parentQuestion": "Following a stroke, a patient ignores the left side of space — failing to dress ...",
+  "scaffolds": [
+    {
+      "q": "The two hemispheres of the brain have different specializations and control opposite sides of the body.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The brain exhibits lateralization — each hemisphere controls the opposite (contralateral) side of the body. But attention and spatial awareness follow more complex rules, particularly involving the parietal lobes."
+    },
+    {
+      "q": "The parietal lobe is involved in spatial awareness and attention to the environment.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The parietal lobe, particularly the posterior parietal cortex, integrates sensory information and is crucial for spatial attention, body awareness, and navigation through space. It builds your map of the world."
+    }
+  ]
+}

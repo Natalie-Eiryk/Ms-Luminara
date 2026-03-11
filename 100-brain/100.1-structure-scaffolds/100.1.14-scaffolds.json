@@ -1,0 +1,26 @@
+{
+  "parentId": "100.1.14",
+  "parentQuestion": "A 58-year-old patient develops progressive difficulty with coordinated movement....",
+  "scaffolds": [
+    {
+      "q": "The cerebellum is located posterior to the brainstem and is responsible for motor coordination.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The cerebellum ('little brain') attaches to the posterior brainstem and contains more neurons than the entire cerebral cortex. It receives sensory input about body position and motor commands from the cortex, then coordinates smooth, precise movements by modulating motor output."
+    },
+    {
+      "q": "Cerebellar damage causes loss of muscle strength.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "False! The cerebellum modulates coordination, not strength. Motor cortex and spinal motor neurons generate force. Cerebellar lesions cause ataxia (incoordination), dysmetria (overshooting), intention tremor, and dysdiadochokinesia (impaired rapid alternating movements) — but muscle power remains normal."
+    }
+  ]
+}

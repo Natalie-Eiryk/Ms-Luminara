@@ -1,0 +1,26 @@
+{
+  "parentId": "100.4.10",
+  "parentQuestion": "A patient with a brainstem stroke presents with bilateral loss of pain and tempe...",
+  "scaffolds": [
+    {
+      "q": "Pain and temperature sensations travel via the spinothalamic tract, which is separate from fine touch and proprioception pathways.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The spinothalamic tract (anterolateral system) carries pain and temperature, crossing in the spinal cord and ascending contralaterally. Fine touch and proprioception travel via the dorsal columns (uncrossed) until the medulla, where they synapse and cross as the medial lemniscus. These are separate pathways that can be selectively damaged. the dissociation is the key."
+    },
+    {
+      "q": "The medial lemniscus carries fine touch and proprioception from the body to the thalamus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The medial lemniscus is formed when dorsal column axons synapse in the nucleus gracilis and nucleus cuneatus (in the medulla), then cross as internal arcuate fibers and ascend contralaterally. It carries fine touch, vibration, and proprioception. Let me show you why this anatomy matters for localization."
+    }
+  ]
+}

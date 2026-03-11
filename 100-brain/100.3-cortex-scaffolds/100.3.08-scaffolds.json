@@ -1,0 +1,26 @@
+{
+  "parentId": "100.3.08",
+  "parentQuestion": "A patient can see objects perfectly but cannot recognize familiar faces, includi...",
+  "scaffolds": [
+    {
+      "q": "The brain has specialized regions that are specifically dedicated to recognizing faces.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The fusiform gyrus in the temporal lobe contains the 'fusiform face area' (FFA) that specializes in face recognition. Faces are so important to social survival that evolution gave them dedicated neural real estate."
+    },
+    {
+      "q": "Seeing an object and recognizing what it is can involve different brain regions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The brain processes vision hierarchically — primary visual areas detect features, while specialized association areas extract meaning. Different classes of objects (faces, places, bodies) have dedicated recognition circuits."
+    }
+  ]
+}

@@ -14,30 +14,6 @@
       "answer": 0,
       "chapter": "Chapter 13 — Nerves & Sensory",
       "explain": "and watch where the terminology shifts. Both dorsal and ventral rami are mixed — they carry both sensory and motor fibers, yes. But Now things get truly spectacular:: dorsal ROOTS are sensory, ventral ROOTS are motor. Once they merge into rami, though? Both carry mixed traffic. The terminology is trying to trip you up. Let me show you exactly where the transformation happens.",
-      "prereqs": [
-        {
-          "q": "Spinal nerves carry both sensory information TO the spinal cord and motor commands FROM the spinal cord.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "spinal nerves are 'mixed' nerves, beautifully bidirectional highways carrying both sensory fibers inward and motor commands outward. Welcome this realization:into this: every moment, signals flow both ways through these cables. Information ascending, commands descending. It's exquisite engineering."
-        },
-        {
-          "q": "What is the difference between a nerve 'root' and a 'ramus'?",
-          "options": [
-            "Roots are at the spinal cord; rami branch out from the nerve",
-            "They are the same thing",
-            "Rami are sensory; roots are motor",
-            "Roots are larger than rami"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Let me show you the architecture. Roots are the attachment points — the anchoring cables where nerves connect to the spinal cord. Then, after dorsal and ventral roots merge into a spinal nerve, that nerve immediately divides into branches called rami. Think of it as a distribution network branching from the main junction. Nature at its finest. The body's wiring harness."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "correct",
@@ -52,7 +28,8 @@
         "title": "Spinal Nerve Anatomy: Roots vs. Rami",
         "content": "Navigate with me: and Observe carefully now: closely — this is one of the most exquisite anatomical transformations in the nervous system. A spinal nerve forms from the union of a dorsal root (sensory) and a ventral root (motor). This combined spinal nerve is very short — it almost immediately divides into a dorsal ramus (heading to the back) and a ventral ramus (heading to the front and limbs). both rami carry fibers from both roots, making them mixed nerves. It's a brief merge-and-split operation. The signal streams recombine and redistribute. Invite this in:drawn into the logic of it.",
         "metaphor": "Walk through this: on this. Think of it like a highway interchange. Sensory traffic (dorsal root) and motor traffic (ventral root) merge briefly at the spinal nerve junction, then split again into two highways — dorsal ramus heading to the back, ventral ramus heading everywhere else. But now — wait for it — each highway carries both types of traffic. The segregation dissolves. The streams intermingle. Pure physiological poetry."
-      }
+      },
+      "scaffoldFile": "200.1-spinal-scaffolds/200.1.01-scaffolds.json"
     },
     {
       "id": "200.1.02",
@@ -66,30 +43,6 @@
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
       "explain": "Let me walk you through the darkness of this injury. Motor loss with sensory intact — that precision tells us everything. The ventral roots carry motor fibers OUT to muscles, the outbound command cables. Cervical level, not thoracic, because the arm is innervated by the brachial plexus (C5–T1). The deficit reveals the location. Walk this path: and I'll show you why this patient can still FEEL his arm but cannot MOVE it. Devastating, isn't it?",
-      "prereqs": [
-        {
-          "q": "The dorsal root carries sensory information INTO the spinal cord.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "The dorsal root contains sensory neurons carrying information from receptors in the body INTO the spinal cord for processing. Inbound signals only. Open your mind to this:into the simplicity: one direction, one purpose. Information flowing inward like a river."
-        },
-        {
-          "q": "Which spinal cord region controls the arm?",
-          "options": [
-            "Thoracic",
-            "Cervical",
-            "Lumbar",
-            "Sacral"
-          ],
-          "answer": 1,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "The cervical spinal cord (C5-T1) gives rise to the brachial plexus, which innervates the entire upper limb. Let me show you the topographic precision: thoracic controls the trunk, lumbar and sacral control the lower limb. The body is mapped onto the spinal cord in exquisite segments."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -112,7 +65,8 @@
         "title": "Dorsal vs. Ventral Roots: The Functional Segregation",
         "content": "Join me in examining this: into the architecture of segregation. Spinal nerve organization follows the Bell-Magendie law: dorsal roots are sensory, ventral roots are motor. This segregation is absolute at the root level, and And this is the masterstroke:: DORSAL ROOT contains axons of sensory neurons. Damage means sensory loss, numbness, loss of proprioception. VENTRAL ROOT contains axons of motor neurons. Damage means motor loss, paralysis, muscle atrophy. SPINAL NERVE — after roots merge — carries both fiber types, so damage here affects both modalities. The patient loses everything distal to the injury. Grant yourself this moment of clarity:drawn into the clinical precision: the pattern of deficit reveals the location of damage. The body speaks in anatomical maps.",
         "metaphor": "Thread this needle carefully: and I'll show you the doors. The dorsal root is the 'in-door' — sensory signals entering the spinal cord. The ventral root is the 'out-door' — motor commands leaving the spinal cord. Damage one door, and traffic in that direction stops. But the other door still works. Now — What follows is exquisite: — damage the hallway after they merge (the spinal nerve), and all traffic stops. Both doors lead to darkness. Evolution's crowning achievement. in its terrible logic?"
-      }
+      },
+      "scaffoldFile": "200.1-spinal-scaffolds/200.1.02-scaffolds.json"
     },
     {
       "id": "200.1.03",
@@ -126,28 +80,6 @@
       "answer": 3,
       "chapter": "Chapter 13 — Nerves & Sensory",
       "explain": "Travel deeper into this: and I'll teach you the mnemonic that will save you: 'Robert Taylor Drinks Cold Beer' — Roots, Trunks, Divisions, Cords, Branches. A neural spaghetti junction that surgeons have nightmares about. Allow the mechanism to reveal itself:into the beauty of this: five spinal levels reorganizing into one unified arm control system. The body's quiet genius. The body's own telecommunications network.",
-      "prereqs": [
-        {
-          "q": "The brachial plexus is a network of nerves that supplies the upper limb.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "The brachial plexus is formed from spinal nerves C5-T1. Let me show you what happens: these nerves intermingle and reorganize to form the major nerves of the arm, forearm, and hand. It's a redistribution network for precision control. Continue the sequence: and Pay attention here:transformation."
-        },
-        {
-          "q": "A nerve plexus reorganizes nerve fibers before they reach their final destination.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Plexuses mix fibers from different spinal levels. Here's the beautiful logic: this ensures that damage to one spinal nerve doesn't completely denervate a region — redundancy engineering — and allows complex motor coordination across multiple joints. Feel the weight of this:the design."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -170,7 +102,8 @@
         "title": "Brachial Plexus Organization: A Neural Spaghetti Factory",
         "content": "Press onward: into the spaghetti factory. The brachial plexus reorganizes fibers from five spinal levels (C5-T1) into specific peripheral nerves through a series of mergers and splits. Let me walk you through each stage — Follow the breadcrumbs: now: ROOTS are the ventral rami of C5-T1, the starting cables. TRUNKS: C5+C6 merge into superior trunk, C7 continues as middle trunk, C8+T1 merge into inferior trunk. DIVISIONS: Each trunk splits into anterior (flexor territory) and posterior (extensor territory). the anterior/posterior split defines functional domains, not just anatomical regions. CORDS are named by position relative to the axillary artery — lateral, medial, posterior. BRANCHES are the terminal nerves like musculocutaneous, median, ulnar, radial, axillary. Now — here's the truth of the biology, and it's devastating: this reorganization allows fine motor control and provides redundancy. Damage to one root doesn't completely paralyze the arm — but severe brachial plexus injuries, like motorcycle crashes that tear multiple roots from the spinal cord, are catastrophic. Total arm paralysis. Let that sink in.",
         "metaphor": "Keep this momentum: and I'll show you the telecommunications routing center. Five trunk lines (roots) come in from different exchanges. They're sorted, combined, and redistributed through several switching stages until they finally emerge as specific circuits (branches) that each serve a particular destination — the biceps, the thumb, the wrist extensors. Cut one trunk line early, and you lose some function. But tear out the whole routing center? The arm goes dark. Complete blackout. Sublimely intricate. in its elegance?"
-      }
+      },
+      "scaffoldFile": "200.1-spinal-scaffolds/200.1.03-scaffolds.json"
     },
     {
       "id": "200.1.04",
@@ -184,28 +117,6 @@
       "answer": 2,
       "chapter": "Chapter 13 — Nerves & Sensory",
       "explain": "Advance into this: and let me show you the terminology. Ganglia are clusters of neuron cell bodies located OUTSIDE the CNS. The dorsal root ganglia contain the cell bodies of sensory neurons — the command centers for incoming signals. Inside the CNS, similar clusters are called nuclei. Here's the delicious distinction: same structure, different neighborhood, different name. The terminology matters, darling. It reveals location.",
-      "prereqs": [
-        {
-          "q": "A ganglion is a cluster of neuron cell bodies located outside the central nervous system.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Ganglia (singular: ganglion) are clusters of nerve cell bodies in the peripheral nervous system. Inside the CNS, similar clusters are called nuclei. Sit with this knowledge:into this: same structure, different neighborhood, different name. The body uses location as taxonomy."
-        },
-        {
-          "q": "Afferent neurons carry signals TOWARD the central nervous system.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Afferent means arriving, darling. Afferent (sensory) neurons carry information from receptors toward the CNS. Efferent (motor) neurons carry commands away from the CNS. Let me show you the elegance: the direction of signal flow defines the neuron type. Information inward, commands outward."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -228,7 +139,8 @@
         "title": "Ganglia vs. Nuclei: Where Cell Bodies Live",
         "content": "Let me take you through the fundamental anatomical distinction, and Carry this forward: — this is beautiful. Collections of neuron cell bodies OUTSIDE the CNS are ganglia; those INSIDE the CNS are nuclei. Now See what happens next:categories unfold: SENSORY GANGLIA — Dorsal root ganglia contain pseudounipolar sensory neuron cell bodies. These neurons sit OUTSIDE the spinal cord, in the intervertebral foramen. One branch extends to the periphery (to detect stimuli), the other extends into the dorsal horn (to transmit signals). The crescendo approaches:: the signal doesn't have to cross a synapse in the ganglion — it flows through the cell body without stopping. Fast sensory transmission. AUTONOMIC GANGLIA — Sympathetic chain ganglia, collateral ganglia, and terminal ganglia contain motor neuron cell bodies for the autonomic nervous system. MOTOR NUCLEI — Motor neuron cell bodies for skeletal muscles are located in the ventral horn of the spinal cord — inside the CNS, so they're nuclei, not ganglia. Allow this to wash over you:into the logic: location defines terminology. Geography is taxonomy.",
         "metaphor": "Sustain this attention: and I'll show you the corporate structure. Ganglia are like satellite offices — clusters of workers located out in the field, away from headquarters (CNS). They handle local operations and relay information back to central command. Nuclei are departments within headquarters itself, coordinating operations from inside the building. Same function, different location, different organizational name."
-      }
+      },
+      "scaffoldFile": "200.1-spinal-scaffolds/200.1.04-scaffolds.json"
     },
     {
       "id": "200.1.05",
@@ -242,28 +154,6 @@
       "answer": 0,
       "chapter": "Chapter 13 — Nerves & Sensory",
       "explain": "Move with me toward this: and follow the signal flow. The reflex arc is beautifully linear: Receptor → Afferent (sensory) neuron → Integration center (spinal cord) → Efferent (motor) neuron → Effector (muscle/gland). Stimulus to response in milliseconds. no conscious thought required — or even possible at this speed. Your spinal cord decides. Your brain finds out later. Absorb this:into that reality.",
-      "prereqs": [
-        {
-          "q": "A reflex is an automatic, involuntary response to a stimulus.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Reflexes are rapid, predictable, involuntary responses to stimuli. They don't require conscious thought and are mediated primarily at the spinal cord level. Let me show you the beauty: your hand jerks away from the flame before your brain even registers pain. The spinal cord makes the decision. Consciousness arrives late to the party."
-        },
-        {
-          "q": "In a reflex arc, the effector is the structure that produces the response.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "The effector is the muscle or gland that carries out the response. In the knee-jerk reflex, the quadriceps muscle is the effector that extends the leg. The end point of the signal cascade. Take a moment to appreciate this:the chain: signal arrives, muscle contracts, response happens. Automatic and beautiful."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "correct",
@@ -286,7 +176,8 @@
         "title": "The Reflex Arc: Speed Through Simplicity",
         "content": "Set out toward this: into the architecture of speed. Reflexes are fast because they minimize processing and bypass conscious control. Let me show you the simplest reflex — the monosynaptic stretch reflex (knee-jerk) — which has only ONE synapse: the sensory neuron from the muscle spindle synapses directly on the motor neuron that contracts the muscle. Stimulus → detection → response in about 50 milliseconds. Here's the delicious truth: your brain doesn't even know it happened until after the muscle contracts. Consciousness is always late. Most reflexes are polysynaptic, with interneurons allowing more complex responses — withdrawal reflexes, for instance, require coordinated inhibition of antagonist muscles. But even those are fast because they're pre-wired circuits in the spinal cord. Now — Persist through this:, because Now for the piece de resistance: and fascinating: after spinal cord transection (complete severing), reflexes below the injury site initially disappear (spinal shock), then gradually return over weeks to months. But they're often hyperactive because descending inhibitory signals from the brain are gone. The spinal cord can generate reflexes autonomously, but without brain input, it loses refinement. Embrace this:drawn into this clinical reality: patients with complete spinal cord injuries have reflexes in paralyzed limbs — muscles contract in response to stimuli, but the patient can't feel it or control it. The circuits work. The communication doesn't. Designed with precision.",
         "metaphor": "Track each step: and I'll show you the emergency protocol. The reflex arc is like a pre-programmed emergency response. The receptor is the smoke detector, the afferent neuron is the alarm wire to the fire station, the integration center is the dispatcher (who might just route the call directly to a truck, or coordinate multiple units), the efferent neuron is the radio call to the trucks, and the effector is the firefighters spraying water. Here's the beautiful logic: in a true emergency, you don't wait for the mayor to approve the response — you use the pre-authorized protocol and act immediately. Speed through simplicity. Survival through automation. Crafted to perfection."
-      }
+      },
+      "scaffoldFile": "200.1-spinal-scaffolds/200.1.05-scaffolds.json"
     },
     {
       "id": "200.1.06",
@@ -300,28 +191,6 @@
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
       "explain": "Chart this course: into one of neurology's most exquisite puzzles — the hemisection syndrome. different sensory pathways cross at different levels. Pain/temperature fibers cross immediately after entering the cord (in the anterior commissure), then ascend in the spinothalamic tract. But proprioception/vibration fibers ascend IPSILATERALLY in the dorsal columns before crossing in the medulla. Motor tracts descend and cross in the medulla before reaching the cord. Now Track this carefully: when you cut the RIGHT half of the cord: you lose motor and dorsal column function on the RIGHT (same side), but spinothalamic function on the LEFT (opposite side). The crossing patterns create this beautiful dissociation. this is the signature of Brown-Séquard syndrome, and it reveals exactly where the anatomy breaks.",
-      "prereqs": [
-        {
-          "q": "The spinothalamic tract carries pain and temperature information and crosses to the opposite side of the spinal cord shortly after entering.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Let me show you the crossing pattern. Pain and temperature fibers enter through the dorsal root, synapse in the dorsal horn, then cross to the opposite side within one or two segments and ascend in the spinothalamic tract. This means damage to the spinothalamic tract affects the OPPOSITE side of the body. The signal crosses early. this is crucial for understanding dissociated sensory loss."
-        },
-        {
-          "q": "The dorsal column pathway carries proprioception and vibration sense and ascends on the SAME side of the spinal cord before crossing in the brainstem.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Discover with me: and Follow this sequence: beautiful architecture. Proprioception and vibration fibers enter through the dorsal root and ascend IPSILATERALLY in the dorsal columns (fasciculus gracilis and cuneatus) all the way up to the medulla, where they synapse and THEN cross. This means dorsal column damage causes SAME-SIDE sensory loss. The signal crosses late. Open yourself to this:into the elegance: different modalities, different crossing points, different clinical patterns."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -344,7 +213,8 @@
         "title": "Brown-Séquard Syndrome: The Hemisection Dissociation",
         "content": "Journey with me into this: into one of the most beautiful lesions in clinical neurology. Brown-Séquard syndrome results from damage to one lateral half of the spinal cord — a hemisection. The resulting deficits reveal the anatomy of crossing patterns: IPSILATERAL deficits (same side as lesion): Motor weakness/paralysis (corticospinal tract), Loss of proprioception and vibration (dorsal columns), Loss of all sensation at the level of the lesion (because nerve roots are damaged). CONTRALATERAL deficits (opposite side): Loss of pain and temperature sensation (spinothalamic tract). Now — This is where physiology becomes poetry: — the LEVEL matters. Pain/temperature loss begins 1-2 segments BELOW the lesion on the opposite side (because fibers cross after ascending a segment or two). Proprioception loss begins AT the level of the lesion on the same side. Surrender to the logic here:drawn into the clinical localization: if you know the sensory levels, you can pinpoint the lesion. The crossing patterns create a neurological signature. Common causes: penetrating trauma (stab wounds, gunshots), spinal cord tumors (especially meningiomas pressing from one side), hematomyelia (bleeding into half the cord), multiple sclerosis plaques. Pure Brown-Séquard is rare; partial variants are common. But when you see it, darling, you KNOW where the damage is. The anatomy writes the diagnosis.",
         "metaphor": "See this through: and I'll show you the split highway. Imagine the spinal cord as a highway with multiple lanes of traffic, some northbound, some southbound. Now cut the highway in half vertically — right down the middle. Traffic in the right lanes (motor commands, proprioception) going to the right side of the body is blocked. But traffic in those same right lanes carrying pain from the LEFT side (because it already crossed over) is also blocked. So the right body loses motor and position sense, while the left body loses pain sensation. The crossing patterns create this beautiful, terrible asymmetry. The body splits along functional boundaries. Beautifully inevitable. in its elegance?"
-      }
+      },
+      "scaffoldFile": "200.1-spinal-scaffolds/200.1.06-scaffolds.json"
     },
     {
       "id": "200.1.07",
@@ -358,28 +228,6 @@
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
       "explain": "Let's explore this together: into the center of the cord, where a cavity can form and slowly expand, and Follow this thread: — this is syringomyelia, and it's devastating in its precision. the central canal is exactly where pain and temperature fibers CROSS from one side to the other (in the anterior commissure). A fluid-filled cavity expanding outward from the center damages these crossing fibers FIRST, creating bilateral loss of pain/temperature in a segmental distribution while sparing the dorsal columns (which are posterior) and corticospinal tracts (which are lateral). The result? A suspended sensory level, often in a cape distribution. The patient can still FEEL touch and position but not pain or temperature. They burn themselves, cut themselves, without realizing. this is called 'dissociated sensory loss,' and it's pathognomonic for central cord pathology.",
-      "prereqs": [
-        {
-          "q": "Pain and temperature fibers cross the spinal cord in the anterior commissure (the central region) shortly after entering.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Let me show you the crossing zone. Pain and temperature fibers enter through the dorsal root, travel to the dorsal horn, then send axons that cross through the anterior commissure (the central part of the cord, near the central canal) to reach the opposite spinothalamic tract. This crossing happens within one or two segments of entry. Here's the delicious vulnerability: anything expanding from the central canal damages these crossing fibers first. this creates a very specific clinical pattern."
-        },
-        {
-          "q": "Dissociated sensory loss means loss of some sensory modalities (like pain/temperature) while others (like touch/proprioception) remain intact.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Follow me deeper: and let me show you the dissociation. Different sensory modalities travel in different pathways in the spinal cord. Pain/temperature in the spinothalamic tract (anterolateral), touch/proprioception in the dorsal columns (posterior). When pathology selectively damages one pathway, you get dissociated sensory loss — some modalities lost, others preserved. This pattern reveals the anatomy of the lesion. Immerse yourself in this:into the diagnostic precision: the pattern tells you where the damage is."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -402,7 +250,8 @@
         "title": "Syringomyelia: The Central Cavity That Dissociates Sensation",
         "content": "Venture here: into the center of the spinal cord, and Track with me here: — this is a slow catastrophe. Syringomyelia is a condition where a fluid-filled cavity (syrinx) forms in the central canal of the spinal cord and gradually expands. Most commonly associated with Chiari malformation (where the cerebellar tonsils herniate through the foramen magnum, disrupting CSF flow), but also seen after spinal trauma or tumors. Here's where the anatomy becomes exquisite: the syrinx expands from the center outward, damaging structures in a predictable sequence. FIRST STAGE: The anterior commissure is destroyed — these are the crossing fibers for pain and temperature (spinothalamic pathway). Result: BILATERAL loss of pain/temperature in a segmental, cape-like distribution (often C4-T1). But touch, proprioception, and motor function remain intact initially. This is dissociated sensory loss. SECOND STAGE: The cavity expands into the anterior horns (motor neuron cell bodies). Result: Lower motor neuron signs — weakness, atrophy, fasciculations in the hands. The classic 'claw hand' deformity. THIRD STAGE: The cavity expands laterally into the lateral corticospinal tracts and sympathetic neurons. Result: Spastic weakness below the lesion, Horner's syndrome (if sympathetic chain affected at T1-T2). Now — here's the clinical tragedy, and it's heartbreaking: early syringomyelia is often painless and slowly progressive. Patients don't notice the loss of pain sensation until they've accumulated scars from unnoticed burns, cuts, and injuries. They develop painless arthropathy (Charcot joints) in the shoulders. The diagnosis is often delayed for years. MRI shows the cavity beautifully — a dark CSF-filled space in the cord. Treatment is surgical decompression to halt progression. Permit yourself to feel this:drawn into the anatomical precision: this one lesion reveals the geography of the cord — where crossing happens, where motor neurons live, where pathways run. The pathology is a dissection tutorial.",
         "metaphor": "Keep pace with this: and I'll show you the expanding water balloon. Imagine the spinal cord as a cable with multiple fiber bundles running through it — some carrying pain signals that cross in the center, some carrying touch/position signals that stay on the same side, some carrying motor commands in the outer layers. Now imagine a water balloon slowly inflating in the very CENTER of the cable. It cuts the crossing wires first (pain fibers), then expands into the motor control wires (anterior horn), then eventually reaches the outer layers (corticospinal tracts). The damage pattern reveals the internal geography. By the time the balloon is big enough to affect everything, the center has been destroyed for years. Stunning, yes? in its slow inevitability?"
-      }
+      },
+      "scaffoldFile": "200.1-spinal-scaffolds/200.1.07-scaffolds.json"
     },
     {
       "id": "200.1.08",
@@ -416,28 +265,6 @@
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
       "explain": "Enter this realm: into the temporal evolution of spinal cord injury, and Hold this thought: — this is one of the most important clinical progressions in neurology. immediately after spinal cord transection, everything below the injury goes silent — flaccid paralysis, no reflexes, no tone. This is spinal shock, a temporary suppression of all spinal cord function due to sudden loss of descending input. But wait for it — over days to weeks, the spinal cord circuits wake up. Reflexes return, but now they're hyperactive because the descending inhibitory pathways from the brain are gone. The spinal cord can generate reflexes autonomously, but without cortical modulation, they become exaggerated. Spasticity replaces flaccidity. Hyperreflexia replaces areflexia. Breathe in this knowledge:into this: the spinal cord has its own local circuits, and when you disconnect it from the brain, those circuits eventually recover — but they run wild without supervision.",
-      "prereqs": [
-        {
-          "q": "Upper motor neuron lesions (damage to descending motor pathways) typically cause spastic paralysis with hyperreflexia, while lower motor neuron lesions cause flaccid paralysis with areflexia.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Let me show you the fundamental distinction, darling. Upper motor neurons (UMN) are the descending pathways from the brain (corticospinal tract, etc.). Damage here causes spastic paralysis, hyperreflexia, and a positive Babinski sign — because you've lost descending inhibition; the spinal reflexes run unchecked. Lower motor neurons (LMN) are the motor neurons in the spinal cord and their axons. Damage here causes flaccid paralysis, areflexia, and atrophy — because you've lost the final pathway to the muscle; no circuit, no reflex. The clinical signs reveal the level of the lesion. this is diagnostic gold."
-        },
-        {
-          "q": "Spinal shock is a temporary loss of all spinal reflex activity below a spinal cord injury that typically lasts days to weeks.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Dive into this: and let me show you the silence after the storm. Spinal shock is the immediate aftermath of acute spinal cord injury — all reflexes below the lesion disappear, muscles go flaccid, there's loss of sensation, bladder and bowel function cease. The spinal cord goes temporarily 'offline' due to sudden loss of descending input. Observe what unfolds next:: this doesn't mean the spinal circuits are destroyed — they're just suppressed. Over days to weeks, they gradually recover. When they do, reflexes return — often hyperactive. The flaccid phase gives way to the spastic phase. Accept this reality:the transformation."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -460,7 +287,8 @@
         "title": "Spinal Shock to Spasticity: The Evolution of Upper Motor Neuron Injury",
         "content": "Explore alongside me: through the timeline of spinal cord injury, and Bear with me: — this is one of the most important clinical progressions you'll encounter. When the spinal cord is suddenly transected (trauma, infarction, hemorrhage), it triggers a biphasic response: PHASE 1 — SPINAL SHOCK (acute, hours to weeks): All neural activity below the lesion ceases. Flaccid paralysis, areflexia, loss of sensation, loss of autonomic function (bladder/bowel), loss of temperature regulation. The mechanism? Sudden loss of descending facilitatory input causes temporary suppression of spinal cord excitability. The spinal circuits are intact but non-functional — like a computer that's been unplugged. PHASE 2 — SPASTICITY (chronic, weeks to permanent): Spinal reflexes gradually return and become hyperactive. Spastic paralysis, hyperreflexia, clonus, positive Babinski sign, flexor/extensor spasms, autonomic dysreflexia. The mechanism? The local spinal circuits recover excitability, but without descending inhibitory control from the cortex and brainstem, they become disinhibited. Reflexes run unchecked. Now — here's where the neurobiology gets exquisite: Why does spinal shock happen? The spinal cord is normally under tonic excitatory influence from brainstem nuclei (reticulospinal, vestibulospinal tracts) and inhibitory influence from cortical areas. Sudden loss of this input causes immediate depression of spinal excitability. Why does spasticity develop? Over time, the spinal neurons undergo denervation supersensitivity — they upregulate receptors and increase intrinsic excitability to compensate for lost input. Local interneuron circuits reorganize. The result is hyperactive reflexes without voluntary control. Here's the clinical pearl: the transition from flaccid (spinal shock) to spastic (chronic UMN syndrome) helps you determine the timing of injury. Acute = flaccid. Chronic = spastic. And here's the tragedy: patients and families sometimes interpret the return of movement (reflexive spasms) as 'recovery.' It's not. It's the spinal cord adapting to isolation. Voluntary control never returns after complete transection. Give this idea space to land:drawn into the heartbreak of this: the body keeps trying. The spinal cord wakes up. But the connection to consciousness is severed forever.",
         "metaphor": "Trace this pathway: and I'll show you the orchestra without a conductor. The spinal cord is like an orchestra section that normally plays under the direction of a conductor (the brain). When you suddenly remove the conductor (spinal cord injury), the musicians are so shocked that they stop playing entirely (spinal shock — silence, flaccidity). But gradually, the musicians start playing again on their own, using the sheet music they have (local reflex circuits). Here's the problem: without the conductor's control, they play too loud, too fast, out of coordination with each other (spasticity — hyperreflexia, clonus, spasms). The musicians are functional. The instruments work. But the performance is chaotic because there's no top-down control. The music continues, but it's no longer a symphony. Quite breathtaking. perfect tragedy?"
-      }
+      },
+      "scaffoldFile": "200.1-spinal-scaffolds/200.1.08-scaffolds.json"
     },
     {
       "id": "200.1.09",
@@ -474,28 +302,6 @@
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
       "explain": "Descend with me into this: into the posterior columns, darling, where position sense lives, and Don't lose this thread: — this is one of the most elegant clinical syndromes in neurology. the dorsal columns carry proprioception (position sense) and vibration exclusively. Damage here causes loss of these modalities while sparing pain and temperature (which travel in the spinothalamic tract anterolaterally). The result? The patient can FEEL pain and temperature in their legs, but they don't know where their legs are in space. They can't stand with eyes closed (positive Romberg) because they rely entirely on vision to compensate for lost proprioception. They walk with a stomping, wide-based gait, watching their feet. this is called sensory ataxia, and the pattern reveals the anatomy. Classic causes: vitamin B12 deficiency (subacute combined degeneration), tabes dorsalis (tertiary syphilis), multiple sclerosis. Receive this insight:into the devastating beauty: they can feel, but they can't locate.",
-      "prereqs": [
-        {
-          "q": "The dorsal columns (fasciculus gracilis and cuneatus) carry proprioception, vibration sense, and fine discriminative touch.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Let me show you the pathway of elegance. The dorsal columns are the posterior white matter tracts that carry fine touch, vibration, and proprioception. These fibers enter through the dorsal root and ascend IPSILATERALLY (same side) in the dorsal columns all the way to the medulla, where they synapse and cross. This is why dorsal column lesions cause SAME-SIDE deficits. Here's the beautiful specificity: damage here affects position sense and vibration but spares pain and temperature. The modalities segregate anatomically. this creates distinctive clinical patterns."
-        },
-        {
-          "q": "The Romberg test assesses proprioceptive function by having the patient stand with eyes closed. A positive test (increased instability with eyes closed) indicates impaired proprioception.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Traverse this territory: and Direct your attention here:test. The Romberg test asks the patient to stand with feet together, first with eyes open, then with eyes closed. Here's the exquisite logic: standing requires input from three systems — vision, vestibular (balance), and proprioception (position sense from joints and muscles). If proprioception is lost, the patient compensates with vision. When you close their eyes, they lose that compensation and become unstable. A positive Romberg sign (increased sway or falling when eyes close) indicates dorsal column or peripheral nerve dysfunction. Make room for this understanding:into the diagnostic precision: you're unmasking the deficit by removing visual compensation."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -518,7 +324,8 @@
         "title": "Dorsal Column Syndrome: When Position Sense Disappears",
         "content": "Walk this path: into the posterior spinal cord, where the body's internal GPS lives, and Maintain this focus: — this is one of the most specific and devastating sensory syndromes. The dorsal columns (fasciculus gracilis medially for lower body, fasciculus cuneatus laterally for upper body) carry three related modalities: proprioception (position sense from joints and muscles), vibration (rapidly adapting mechanoreceptors), and fine discriminative touch (two-point discrimination, texture). These large-diameter, heavily myelinated fibers enter through the dorsal root and ascend IPSILATERALLY in the dorsal columns to the medulla, where they synapse in the nucleus gracilis and cuneatus, then cross as the medial lemniscus. Here's where the anatomy becomes exquisite: bilateral dorsal column damage causes a distinctive clinical syndrome: SENSORY DEFICITS — Loss of position sense (proprioception), loss of vibration sense, loss of fine touch discrimination (astereognosis — can't identify objects by touch), but preservation of pain and temperature (because spinothalamic tract is spared). MOTOR CONSEQUENCES OF SENSORY LOSS — Sensory ataxia: uncoordinated movement due to loss of proprioceptive feedback. Wide-based gait, watching feet while walking, stomping gait. Positive Romberg sign: instability increases dramatically when eyes are closed (because visual compensation is removed). Pseudo-athetosis: slow writhing finger movements when eyes are closed (loss of position sense causes involuntary drift). Now — here's where the clinical causes reveal the vulnerability: Vitamin B12 deficiency (subacute combined degeneration): damages dorsal columns AND lateral corticospinal tracts — produces ataxia plus spasticity. Tabes dorsalis (tertiary syphilis): damages dorsal roots and columns — produces 'lightning pains,' Argyll Robertson pupils, and sensory ataxia. Multiple sclerosis: demyelinating plaques preferentially affect heavily myelinated tracts like dorsal columns. Friedreich's ataxia: genetic degeneration of dorsal columns and spinocerebellar tracts. Here's the heartbreak, and it's devastating: these patients retain pain sensation (they can feel injury) but lose proprioception (they can't sense body position). The result? They injure themselves repeatedly — painless joint damage (Charcot joints), burns, falls — because they can't coordinate movement without looking. They feel pain but can't locate its source precisely. They feel the world but can't navigate it. Invite this in:drawn into the tragedy: the internal map is erased, but the alarm system remains. They know something is wrong; they just don't know where they are.",
         "metaphor": "Pursue this logic: and I'll show you the building with no interior lights. Imagine you're in a building where all the lights are off, but you have functional pain sensors (you'd feel if you walked into a wall). In a normal building, you'd use your proprioceptive sense — your internal awareness of body position — to navigate in the dark. But now that sense is gone. You can only navigate if you can see (vision). The moment someone turns off the lights (closing your eyes), you're helpless. You bump into things, stumble, fall. You feel the pain when you hit the wall, but you couldn't prevent it because you didn't know where your body was in space. That's dorsal column damage. The external sensors (pain) work. The internal GPS doesn't. Truly remarkable."
-      }
+      },
+      "scaffoldFile": "200.1-spinal-scaffolds/200.1.09-scaffolds.json"
     },
     {
       "id": "200.1.10",
@@ -532,28 +339,6 @@
       "answer": 2,
       "chapter": "Chapter 13 — Nerves & Sensory",
       "explain": "Accompany me through this: into the vascular anatomy of the spinal cord, darling, and Walk through this: — this is a surgical nightmare. the anterior spinal artery supplies the anterior two-thirds of the cord, including the corticospinal tracts (motor), spinothalamic tracts (pain/temperature), and anterior horns (motor neurons). The posterior one-third (dorsal columns) is supplied by paired posterior spinal arteries. When the anterior spinal artery is occluded — often during aortic surgery when intercostal arteries are ligated — you get immediate loss of motor function and ALL sensation. But wait for it — the spinothalamic tracts are more resilient to ischemia than the motor pathways. Pain/temperature sensation partially recovers as the penumbra recovers, but the motor pathways (corticospinal tracts) and anterior horn neurons are dead. The dorsal columns are spared because they have a separate blood supply. Open your mind to this:into the devastating pattern: the patient regains the ability to feel pain but not to move. They feel everything but can do nothing.",
-      "prereqs": [
-        {
-          "q": "The anterior spinal artery supplies the anterior two-thirds of the spinal cord, including motor pathways, while the posterior spinal arteries supply the dorsal columns.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Let me show you the vascular territories. The anterior spinal artery (single, midline) supplies the anterior and lateral regions of the cord — the corticospinal tracts (motor), spinothalamic tracts (pain/temperature), and anterior horns (motor neurons). The posterior spinal arteries (paired, posterolateral) supply the dorsal columns (proprioception/vibration). This vascular distribution creates a predictable infarct pattern: anterior spinal artery occlusion affects motor and pain/temperature, but spares proprioception and vibration. this is critical for recognizing spinal cord stroke."
-        },
-        {
-          "q": "Anterior spinal artery syndrome typically causes motor paralysis and loss of pain/temperature sensation below the lesion, but proprioception and vibration sense are preserved.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Join me in examining this: and Witness this transformation:vascular dissection. Anterior spinal artery syndrome is a spinal cord stroke affecting the anterior two-thirds of the cord. The result: bilateral motor paralysis (corticospinal tracts dead), bilateral loss of pain/temperature (spinothalamic tracts dead), but preserved proprioception and vibration (dorsal columns spared by posterior spinal artery supply). Grant yourself this moment of clarity:into the clinical pearl: if a patient is paralyzed but can still tell you the position of their toes with their eyes closed, think anterior spinal artery syndrome. The vascular territory defines the deficit."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -576,7 +361,8 @@
         "title": "Anterior Spinal Artery Syndrome: A Vascular Catastrophe",
         "content": "Press onward: into the blood supply of the spinal cord, and Continue the sequence: — this is where vascular anatomy meets devastating clinical reality. The spinal cord receives blood from three longitudinal arteries: One ANTERIOR SPINAL ARTERY (single, midline): Formed from branches of the vertebral arteries, runs along the anterior median fissure, supplies the ANTERIOR TWO-THIRDS of the cord. This includes: anterior horns (motor neurons), lateral corticospinal tracts (motor pathways), spinothalamic tracts (pain/temperature), autonomic neurons, anterior/lateral white matter. Two POSTERIOR SPINAL ARTERIES (paired, posterolateral): Arise from vertebral or posterior inferior cerebellar arteries, run along the posterolateral sulcus, supply the POSTERIOR ONE-THIRD of the cord. This includes: dorsal columns (proprioception/vibration), dorsal horns (sensory processing), posterior white matter. Here's the critical vulnerability: the anterior spinal artery is a WATERSHED territory — it has limited collateral supply. It's fed by segmental radicular arteries from intercostal and lumbar arteries, with the ARTERY OF ADAMKIEWICZ (great radicular artery) being the largest contributor, typically arising from T9-L2. During aortic surgery, trauma, aortic dissection, or prolonged hypotension, the anterior spinal artery can occlude, causing ANTERIOR SPINAL ARTERY SYNDROME: ACUTE PRESENTATION (within hours): Bilateral motor paralysis below lesion (corticospinal tracts and anterior horn infarction), Bilateral loss of pain/temperature (spinothalamic tract infarction), Loss of bladder/bowel control (autonomic pathway infarction), PRESERVED proprioception and vibration (dorsal columns spared). SUBACUTE EVOLUTION (days to weeks): Partial recovery of pain/temperature sensation (spinothalamic tracts have better collateral supply and penumbra recovery), Motor paralysis remains (motor neurons are highly vulnerable to ischemia; irreversible infarction), Transition from flaccid (spinal shock) to spastic paralysis (chronic UMN syndrome), Dorsal column function remains intact throughout. Here's the heartbreak: the patient transitions from being completely numb and paralyzed to being paralyzed but able to FEEL everything. They regain pain sensation but not motor function. They know where their legs are (proprioception preserved) but can't move them. The sensory world returns; the motor world doesn't. Risk factors: Aortic surgery (especially when intercostal arteries are sacrificed), Aortic dissection or aneurysm rupture, Prolonged hypotension, Spinal cord embolism (e.g., from cardiac surgery). Allow the mechanism to reveal itself:drawn into the clinical tragedy: this is often an iatrogenic injury — a known risk of saving someone's life during aortic repair. The surgeons know the artery of Adamkiewicz is at risk. They try to preserve it. Sometimes they can't. The patient survives the aneurysm but is paralyzed. Thread this needle carefully:, because here's the bitter truth: there's no good treatment once it happens. The infarction is irreversible. Rehabilitation focuses on adapting to permanent paralysis. The vascular anatomy is unforgiving.",
         "metaphor": "Follow the breadcrumbs: and I'll show you the city with two power grids. The spinal cord is like a city with two separate electrical grids — one for the front two-thirds of the city (anterior spinal artery), one for the back one-third (posterior spinal arteries). The front grid powers the motor systems (corticospinal tracts), the alarm systems (pain/temperature), and the autonomic systems (bladder/bowel). The back grid powers the positioning systems (proprioception/vibration). Now imagine the main power line to the front grid is cut during construction work (aortic surgery). The front two-thirds of the city goes dark — motors stop, alarms fail, autonomic systems shut down. But the back third keeps running on its separate grid — the positioning systems still work. Over a few days, some backup generators kick in for the alarm systems in the front (pain/temperature partially recovers), but the motors stay dead (irreversible infarction). The city can sense its position, feel pain, but it can't move. Simply magnificent. perfect architectural tragedy?"
-      }
+      },
+      "scaffoldFile": "200.1-spinal-scaffolds/200.1.10-scaffolds.json"
     }
   ]
 }

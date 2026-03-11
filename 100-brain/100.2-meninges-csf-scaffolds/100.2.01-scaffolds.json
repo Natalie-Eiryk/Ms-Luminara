@@ -1,0 +1,28 @@
+{
+  "parentId": "100.2.01",
+  "parentQuestion": "The blood-brain barrier is the protective mechanism that helps maintain the brai...",
+  "scaffolds": [
+    {
+      "q": "The brain needs protection from substances circulating in the blood.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The brain is catastrophically sensitive to its chemical environment. Let me show you why this matters: many substances that are perfectly harmless in your bloodstream would trigger seizures, neuronal death, or functional collapse if they reached brain tissue directly. This isn't overcaution — it's physics."
+    },
+    {
+      "q": "Which type of cell forms the walls of blood capillaries?",
+      "options": [
+        "Neurons",
+        "Endothelial cells",
+        "Red blood cells",
+        "Muscle cells"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Endothelial cells line all blood vessels. In the brain, though, these cells are special — Navigate this together: and Study this:: they're sealed together with tight junctions that eliminate the gaps other capillaries have. This transforms them from a leaky fence into a fortress wall."
+    }
+  ]
+}

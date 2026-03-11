@@ -1,0 +1,28 @@
+{
+  "parentId": "000.4.03",
+  "parentQuestion": "Which membrane lines body cavities that open to the exterior?",
+  "scaffolds": [
+    {
+      "q": "What is the cutaneous membrane?",
+      "options": [
+        "The lining of the stomach",
+        "The skin",
+        "The lining of joints",
+        "The lining of the heart"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "The cutaneous membrane is your skin — the largest organ in your body. It's a tough, keratinized, waterproof barrier covering your entire external surface. Without it, you'd dry out like a raisin in minutes. Dramatic? Yes. True? Absolutely."
+    },
+    {
+      "q": "Does the digestive tract (mouth to anus) have an opening to the exterior?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Yes! The digestive tract is technically a continuous tube THROUGH your body, opening to the exterior at both the mouth and anus. Topologically speaking, you're a very complicated donut. This means anything inside your digestive tract is technically still 'outside' your body — it hasn't crossed the membrane barrier into your internal tissues yet."
+    }
+  ]
+}

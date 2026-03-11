@@ -1,0 +1,30 @@
+{
+  "parentId": "000.3.03",
+  "parentQuestion": "The movement of substances across the membrane without any energy input from the...",
+  "scaffolds": [
+    {
+      "q": "Substances naturally move from areas of ___ concentration to areas of ___ concentration.",
+      "options": [
+        "Low; high",
+        "High; low",
+        "Equal; high",
+        "Low; equal"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "This is diffusion — substances naturally spread out from areas of high concentration to low concentration. This movement happens spontaneously without energy input. Think of perfume spreading through a room. Absorb this:the inevitability of it."
+    },
+    {
+      "q": "The main energy currency used by cells is ___.",
+      "options": [
+        "Glucose",
+        "ATP",
+        "DNA",
+        "Protein"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "ATP — adenosine triphosphate — is the primary energy currency of cells. When ATP is broken down to ADP, energy is released for cellular processes. It's the cell's wallet. spend it wisely."
+    }
+  ]
+}

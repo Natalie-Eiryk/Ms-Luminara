@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.16",
+  "parentQuestion": "Stimulation of β2 receptors in the bronchi causes ___.",
+  "scaffolds": [
+    {
+      "q": "Smooth muscle can contract or relax depending on the signals it receives.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Unlike skeletal muscle (which only contracts), smooth muscle has bidirectional control. sympathetic and parasympathetic signals can push it toward contraction or relaxation depending on the receptors present. The final state depends on the signal balance."
+    },
+    {
+      "q": "During exercise, you need more oxygen flowing into your lungs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Physical exertion demands increased oxygen delivery. your airways dilate, breathing deepens, and ventilation increases. This is coordinated by sympathetic activation and circulating epinephrine. The body opens all channels for gas exchange."
+    }
+  ]
+}

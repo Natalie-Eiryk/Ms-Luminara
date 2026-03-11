@@ -1,0 +1,30 @@
+{
+  "parentId": "400.1.04",
+  "parentQuestion": "Select the correct statement regarding epithelia.",
+  "scaffolds": [
+    {
+      "q": "What does 'stratified' mean in anatomy?",
+      "options": [
+        "Arranged in a single layer",
+        "Arranged in multiple layers",
+        "Arranged randomly",
+        "Arranged in a spiral"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Stratified means arranged in multiple layers or strata. Stratified epithelium has cells stacked on top of each other in layers, as opposed to simple epithelium which has only one layer."
+    },
+    {
+      "q": "What kind of stress would require protective tissue?",
+      "options": [
+        "Osmotic pressure",
+        "Abrasion and mechanical wear",
+        "Light exposure",
+        "Temperature changes"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Abrasion and mechanical wear (rubbing, friction) damage surface tissues. Areas subject to abrasion need thicker, more protective epithelium with multiple layers."
+    }
+  ]
+}

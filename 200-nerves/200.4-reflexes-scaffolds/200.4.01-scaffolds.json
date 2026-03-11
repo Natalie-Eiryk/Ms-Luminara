@@ -1,0 +1,26 @@
+{
+  "parentId": "200.4.01",
+  "parentQuestion": "Reciprocal inhibition means that while one sensory nerve is stimulated, another ...",
+  "scaffolds": [
+    {
+      "q": "Muscles often work in pairs with opposite actions (agonist and antagonist).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Absolutely true — and Quite breathtaking. Most joints are controlled by opposing muscle pairs, and it's one of the most beautiful pieces of engineering in your body. When one contracts (agonist), the other must relax (antagonist), or you'd be locked in place. Biceps flexes the elbow, triceps extends it. Simple. Exquisite. Functional. Absorb this:this."
+    },
+    {
+      "q": "Antagonist muscles have opposite actions to each other.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Yes — and here's where the tension builds. Antagonists oppose each other: when the biceps (flexor) contracts, the triceps (extensor) must relax, and vice versa. This coordination prevents your arm from fighting itself — which is exactly what reciprocal inhibition accomplishes. we're about to see how."
+    }
+  ]
+}

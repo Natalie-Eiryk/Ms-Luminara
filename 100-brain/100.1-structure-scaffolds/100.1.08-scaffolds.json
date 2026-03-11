@@ -1,0 +1,26 @@
+{
+  "parentId": "100.1.08",
+  "parentQuestion": "The large commissure that connects the right and left sides of the brain is call...",
+  "scaffolds": [
+    {
+      "q": "The brain has two hemispheres — left and right.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The cerebrum divides into left and right hemispheres separated by the longitudinal fissure. Each hemisphere controls the opposite (contralateral) side of the body due to decussation of motor and sensory pathways."
+    },
+    {
+      "q": "A commissure is a bundle of nerve fibers that connects the two hemispheres of the brain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Commissural fibers cross the midline, linking left and right hemispheres. The corpus callosum is the largest commissure. The anterior commissure and hippocampal commissure are smaller. These connections enable hemispheric coordination."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "parentId": "000.2.09",
+  "parentQuestion": "Enzymes are proteins that work as catalysts. A catalyst is defined as ___.",
+  "scaffolds": [
+    {
+      "q": "What are enzymes primarily made of?",
+      "options": [
+        "Carbohydrates",
+        "Lipids",
+        "Proteins",
+        "Nucleic acids"
+      ],
+      "answer": 2,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Enzymes are PROTEINS — large molecules made of amino acids folded into PRECISE 3D shapes. that shape — the active site — allows them to bind specific substrate molecules and speed up chemical reactions. Change the shape (through heat, pH, or denaturing agents) and the enzyme STOPS WORKING. Make room for this understanding:this principle: structure determines function. Always."
+    },
+    {
+      "q": "What does a catalyst do to a chemical reaction?",
+      "options": [
+        "Stops the reaction",
+        "Speeds up the reaction",
+        "Reverses the reaction"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "A catalyst SPEEDS UP a chemical reaction by lowering the energy barrier (activation energy) needed for the reaction to occur. critically, the catalyst itself is NOT consumed or permanently changed. It can be used over and over again. Welcome this realization:this: without catalysts, most biochemical reactions would be impossibly slow. Life REQUIRES catalysis."
+    }
+  ]
+}

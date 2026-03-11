@@ -1,0 +1,29 @@
+{
+  "parentId": "000.2.12",
+  "parentQuestion": "A patient with chronic renal failure develops severe muscle weakness and cardiac...",
+  "scaffolds": [
+    {
+      "q": "Which ion has a much higher concentration INSIDE cells compared to outside?",
+      "options": [
+        "Sodium (Na⁺)",
+        "Potassium (K⁺)",
+        "Calcium (Ca²⁺)",
+        "Chloride (Cl⁻)"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Potassium (K⁺) is the major INTRACELLULAR cation — about 140 mEq/L inside cells, only 4-5 mEq/L outside. Descend with me into this:: this gradient is the OPPOSITE of sodium (high outside, low inside). Together, they form the electrical battery that powers nerve and muscle function. Allow your mind to embrace this:this asymmetry — it's maintained at ENORMOUS metabolic cost, and it's absolutely essential for life."
+    },
+    {
+      "q": "What is the typical resting membrane potential of a neuron or muscle cell?",
+      "options": [
+        "0 mV (neutral)",
+        "About -70 mV (negative inside)",
+        "About +30 mV (positive inside)"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "The resting membrane potential is about -70 mV — the INSIDE of the cell is negative relative to the outside. this negative charge is maintained by the K⁺ gradient and the Na⁺/K⁺ ATPase pump. This electrical potential is the 'loaded spring' that allows rapid signaling when voltage-gated channels open. Give this idea space to land:this: you're electrically polarized, waiting to fire. Every thought, every heartbeat, every movement depends on this voltage difference."
+    }
+  ]
+}

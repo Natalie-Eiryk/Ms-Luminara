@@ -1,0 +1,26 @@
+{
+  "parentId": "200.3.01",
+  "parentQuestion": "Striking the 'funny bone' is actually stimulation of (or injury to) the ___.",
+  "scaffolds": [
+    {
+      "q": "Hitting your 'funny bone' causes tingling in your hand and fingers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The 'funny bone' isn't actually a bone — it's the ulnar nerve passing close to the surface at the elbow, completely unprotected. Bump it just right, and you get that distinctive electric tingling shooting down into your ring and little fingers. Truly remarkable. A cable carrying signals to your hand, exposed at a bend in the road. I want you to feel this anatomy."
+    },
+    {
+      "q": "The ulnar nerve supplies sensation to part of the hand.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The ulnar nerve provides sensation to the little finger and half of the ring finger. This is precisely why bumping your 'funny bone' causes that peculiar tingling in those specific fingers — you've just sent an electrical storm down the cable. Feel the weight of this:drawn into this exquisite precision — one nerve, two specific fingers."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "parentId": "000.2.14",
+  "parentQuestion": "A marathon runner collapses after drinking only water (no electrolytes) during a...",
+  "scaffolds": [
+    {
+      "q": "What is osmosis?",
+      "options": [
+        "Movement of water across a membrane from high solute to low solute concentration",
+        "Movement of water across a membrane from low solute to high solute concentration",
+        "Movement of ions using ATP energy"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Osmosis is the movement of WATER across a semipermeable membrane from LOW solute concentration (HIGH water concentration) to HIGH solute concentration (LOW water concentration). think of it as water chasing solute to equalize concentration. Continue the sequence:: this is PASSIVE — no energy required. Allow this to wash over you:this: osmosis is a fundamental force shaping cell volume, blood pressure, and kidney function."
+    },
+    {
+      "q": "What does 'hypotonic' mean in relation to a solution?",
+      "options": [
+        "Lower solute concentration than the comparison solution",
+        "Higher solute concentration than the comparison solution",
+        "Same solute concentration as the comparison solution"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Hypotonic means LOWER solute concentration (or equivalently, HIGHER water concentration) than the reference solution. Follow the breadcrumbs:: if you place cells in a hypotonic solution, water will ENTER the cells by osmosis, causing them to SWELL (potentially to the point of lysis — bursting). Absorb this:this: pure water is EXTREMELY hypotonic relative to cells. Drop red blood cells in pure water and they explode. That's osmotic pressure at work."
+    }
+  ]
+}

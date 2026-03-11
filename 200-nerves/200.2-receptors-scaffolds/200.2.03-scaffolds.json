@@ -1,0 +1,26 @@
+{
+  "parentId": "200.2.03",
+  "parentQuestion": "A person has gone for a deep-tissue therapeutic massage. Which of the following ...",
+  "scaffolds": [
+    {
+      "q": "Deep-tissue massage can be uncomfortable or even slightly painful.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Deep-tissue massage applies significant pressure to reach deeper muscle layers, which activates pain receptors along with pressure receptors. The discomfort is the point — you're activating nociceptors to break up adhesions and release tension. Sustain this attention:: pain as therapy."
+    },
+    {
+      "q": "Free nerve endings are the simplest type of sensory receptor.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Free nerve endings are bare nerve terminals without specialized capsules. They detect pain, temperature, and light touch, and are found throughout the body. Simple structure, profound function."
+    }
+  ]
+}

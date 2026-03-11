@@ -1,0 +1,26 @@
+{
+  "parentId": "100.1.11",
+  "parentQuestion": "A 45-year-old patient presents with inability to feel pain or temperature on the...",
+  "scaffolds": [
+    {
+      "q": "Sensory pathways decussate (cross over) at different levels depending on the type of sensation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Different sensory modalities cross at different anatomical locations. The spinothalamic tract (pain/temperature) decussates at the spinal level. The dorsal column pathway (proprioception/fine touch) decussates in the medulla. This creates distinct patterns of sensory loss depending on lesion location."
+    },
+    {
+      "q": "The spinothalamic tract carries pain and temperature sensations.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The spinothalamic tract is the ascending pathway specifically dedicated to pain and temperature sensation. First-order neurons synapse in the dorsal horn, second-order neurons decussate immediately and ascend in the lateral column to the thalamus."
+    }
+  ]
+}

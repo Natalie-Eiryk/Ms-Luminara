@@ -1,0 +1,26 @@
+{
+  "parentId": "100.3.13",
+  "parentQuestion": "A patient sustains a traumatic brain injury and afterward becomes impulsive, soc...",
+  "scaffolds": [
+    {
+      "q": "Different parts of the frontal lobe have different specialized functions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The frontal lobe contains multiple functional regions: motor cortex (movement), dorsolateral prefrontal cortex (working memory, planning), and orbitofrontal cortex (impulse control, social judgment, decision-making). Damage to different regions produces very different deficits."
+    },
+    {
+      "q": "Impulse control and social judgment are functions of the brain that can be selectively damaged.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Impulse control, emotional regulation, and social decision-making are localized functions — primarily in the orbitofrontal cortex and ventromedial prefrontal cortex. Damage here produces disinhibition while leaving other cognitive functions intact."
+    }
+  ]
+}

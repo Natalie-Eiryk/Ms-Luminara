@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.20",
+  "parentQuestion": "A patient presents with severe, lancinating (stabbing) facial pain triggered by ...",
+  "scaffolds": [
+    {
+      "q": "The trigeminal nerve carries sensation from the face.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "CN V (trigeminal) provides sensory innervation to the face via three divisions: V1 (forehead), V2 (cheek), V3 (jaw). Let this settle:the coverage — from hairline to jaw, from nose to ear, it's the sentinel of facial sensation. When it malfunctions, the consequences are devastating."
+    },
+    {
+      "q": "Neuropathic pain can occur without tissue damage, arising from nerve dysfunction itself.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Neuropathic pain originates from abnormal nerve signaling — the nerve itself becomes the source of pain, not an external injury. it's like a fire alarm that won't stop going off even though there's no fire. The warning system has become the threat."
+    }
+  ]
+}

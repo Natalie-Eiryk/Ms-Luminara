@@ -1,0 +1,28 @@
+{
+  "parentId": "000.4.08",
+  "parentQuestion": "A new cancer drug cannot enter tumor cells because it is large and highly charge...",
+  "scaffolds": [
+    {
+      "q": "Can large, highly charged molecules easily cross the lipid bilayer?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "No! Large, charged molecules are blocked by the hydrophobic lipid bilayer. They need protein channels, carriers, or bulk transport mechanisms (endocytosis) to enter cells. The membrane is a selective fortress."
+    },
+    {
+      "q": "What is the general term for a cell engulfing material by wrapping it in membrane?",
+      "options": [
+        "Exocytosis",
+        "Osmosis",
+        "Endocytosis",
+        "Diffusion"
+      ],
+      "answer": 2,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Endocytosis ('endo' = into, 'cyto' = cell) — the cell wraps material in membrane and brings it inside as a vesicle. Exocytosis is the reverse (releasing material). Osmosis is water movement. Diffusion is passive spreading. Etymology guides you to the right answer."
+    }
+  ]
+}

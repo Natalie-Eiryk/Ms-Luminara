@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.11",
+  "parentQuestion": "The fight-or-flight response includes all of the following EXCEPT ___.",
+  "scaffolds": [
+    {
+      "q": "The sympathetic nervous system prepares the body for emergency situations.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Sympathetic activation is the body's alarm system. when danger appears, the sympathetic system mobilizes energy stores, increases cardiac output, sharpens senses, and prepares muscles for action. Everything non-essential is suppressed. Permit yourself to feel this:the focused urgency."
+    },
+    {
+      "q": "During stress, blood flow is redirected from digestive organs to skeletal muscles.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Traverse this territory: into this redistribution. Sympathetic activation constricts blood vessels in the gut (α1 receptors) while dilating vessels in skeletal muscle (epinephrine on β2 receptors). The muscle that might save your life gets priority over the gut that's processing food. Survival triage."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parentId": "000.1.11",
+  "parentQuestion": "The part of the serous membrane that lines the peritoneal cavity wall is called ...",
+  "scaffolds": [
+    {
+      "q": "Parietal means 'relating to walls.'",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "The word 'parietal' comes from Latin 'paries' meaning WALL. Parietal layers of membranes line the WALLS of body cavities. Parietal bone? Forms the WALL of your skull. The pattern holds. Navigate with me:."
+    },
+    {
+      "q": "Visceral membranes are in direct contact with organs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Visceral layers of serous membranes adhere DIRECTLY to the surface of organs, like shrink-wrap covering food. They move WITH the organ as it functions. Feel the weight of this:that intimate contact."
+    }
+  ]
+}

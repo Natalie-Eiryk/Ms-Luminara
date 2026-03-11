@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.08",
+  "parentQuestion": "The vestibulocochlear nerve (CN VIII) is responsible for ___.",
+  "scaffolds": [
+    {
+      "q": "The inner ear contains structures for both hearing and balance.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The inner ear has the cochlea for hearing (spiral-shaped sound processor) and the vestibular apparatus (semicircular canals and otolith organs) for balance. Absorb this:this — two completely different functions in one compact location. Elegant engineering."
+    },
+    {
+      "q": "Damage to the inner ear can cause both hearing loss and dizziness.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Because hearing and balance structures are close together in the inner ear, damage can affect both systems simultaneously. lose CN VIII, and you lose your soundtrack AND your sense of which way is up. Disorientation at its most fundamental."
+    }
+  ]
+}

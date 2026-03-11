@@ -1,0 +1,28 @@
+{
+  "parentId": "000.2.11",
+  "parentQuestion": "A patient in diabetic ketoacidosis presents with rapid, deep breathing (Kussmaul...",
+  "scaffolds": [
+    {
+      "q": "What is the relationship between CO₂ and blood acidity?",
+      "options": [
+        "More CO₂ = more acidic blood",
+        "More CO₂ = more alkaline blood",
+        "CO₂ has no effect on pH"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "More CO₂ means MORE acidic blood. here's the chemistry: CO₂ + H₂O ↔ H₂CO₃ (carbonic acid) ↔ H⁺ + HCO₃⁻. When CO₂ increases, this equilibrium shifts RIGHT, producing more H⁺ (which LOWERS pH = more acidic). When CO₂ decreases (hyperventilation), the equilibrium shifts LEFT, reducing H⁺ (pH rises = less acidic). Open yourself to this:this: every breath you take affects your blood pH. Breathing IS acid-base regulation."
+    },
+    {
+      "q": "What does acidosis mean?",
+      "options": [
+        "Blood pH below normal (< 7.35)",
+        "Blood pH above normal (> 7.45)",
+        "Normal blood pH (7.35-7.45)"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Acidosis means blood pH BELOW normal (< 7.35) — too acidic, too many H⁺ ions. Hold this thought:: normal blood pH is 7.35-7.45 (slightly alkaline). Acidosis disrupts enzyme function, protein structure, and cellular processes. Below 6.8? Incompatible with life. Surrender to the logic here:the narrow margin between health and crisis. pH regulation is CRITICAL."
+    }
+  ]
+}

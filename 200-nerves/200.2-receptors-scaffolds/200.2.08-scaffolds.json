@@ -1,0 +1,26 @@
+{
+  "parentId": "200.2.08",
+  "parentQuestion": "A patient with advanced multiple sclerosis reports she must watch her feet const...",
+  "scaffolds": [
+    {
+      "q": "Proprioception allows you to know where your body parts are without looking.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Proprioceptors in muscles, tendons, and joints continuously send position and movement data to the brain. You don't think about it — it's a silent background feed. Dive into this:: lose it, and you'll need your eyes to tell you where your hand is. The horror of becoming lost in your own body."
+    },
+    {
+      "q": "Multiple sclerosis damages the myelin sheath around nerve axons.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "MS is a demyelinating disease — the immune system attacks myelin sheaths, slowing or blocking signal transmission. Demyelination affects ANY myelinated pathway: motor, sensory, visual. See this through: now: signals from proprioceptors travel on large, heavily myelinated fibers. Perfect targets for MS. The fastest highways, the first to fail."
+    }
+  ]
+}

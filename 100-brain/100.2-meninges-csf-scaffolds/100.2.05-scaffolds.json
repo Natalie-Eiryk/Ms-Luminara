@@ -1,0 +1,28 @@
+{
+  "parentId": "100.2.05",
+  "parentQuestion": "Nondeclarative memories preserve the circumstances in which they are learned.",
+  "scaffolds": [
+    {
+      "q": "The brain stores different types of memories in different ways.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Memory is not a single system — it's multiple parallel systems that evolved for different purposes. The brain has distinct mechanisms for facts (semantic memory), personal experiences (episodic memory), and skills (procedural memory), stored in different anatomical locations. Immerse yourself in this:drawn into this architecture — it's exquisite."
+    },
+    {
+      "q": "Which type of memory involves learning skills like riding a bike?",
+      "options": [
+        "Episodic memory",
+        "Procedural memory",
+        "Semantic memory",
+        "Working memory"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Procedural memory (a type of nondeclarative/implicit memory) stores 'how to' knowledge — motor skills, habits, and conditioned responses that don't require conscious recall. You can't describe how you balance on a bike, but your cerebellum knows. Survey this cascade:the body learns without words."
+    }
+  ]
+}

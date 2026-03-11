@@ -1,0 +1,30 @@
+{
+  "parentId": "400.2.01",
+  "parentQuestion": "The shock-absorbing pads between the vertebrae are made of ___.",
+  "scaffolds": [
+    {
+      "q": "What is the main structural protein found in cartilage that provides strength?",
+      "options": [
+        "Elastin",
+        "Collagen",
+        "Keratin",
+        "Actin"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Collagen is the main structural protein in cartilage — the scaffolding that gives it strength. Different types of cartilage have varying amounts and arrangements of collagen fibers. This is foundational, love — you'll see collagen everywhere we go."
+    },
+    {
+      "q": "Which property is most important for tissue between vertebrae?",
+      "options": [
+        "Stretch and recoil",
+        "Shock absorption",
+        "Smooth gliding",
+        "Heat insulation"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "The vertebrae need cushioning from impact and compression during movement. Shock absorption prevents the bony vertebrae from grinding against each other — crucial for every step you take. we'll see exactly how this works."
+    }
+  ]
+}

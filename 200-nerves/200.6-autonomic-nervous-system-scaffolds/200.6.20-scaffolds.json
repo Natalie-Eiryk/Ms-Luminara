@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.20",
+  "parentQuestion": "A 70-year-old man with benign prostatic hyperplasia (BPH) has difficulty initiat...",
+  "scaffolds": [
+    {
+      "q": "The prostate gland surrounds the urethra and can obstruct urine flow when enlarged.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "In BPH, the prostate enlarges and compresses the urethra like a hand squeezing a straw. both the bulk of the tissue AND the tension in the smooth muscle within the prostate contribute to obstruction. Reduce the tension, and flow improves even if the gland is still enlarged."
+    },
+    {
+      "q": "α1 receptors mediate smooth muscle contraction in response to sympathetic activation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "α1 receptors are Gq-coupled — activation increases intracellular Ca²⁺ and causes smooth muscle contraction. in the prostate and bladder neck, this sympathetic tone keeps the outlet closed between urinations. Allow this to wash over you:the sphincter grip."
+    }
+  ]
+}

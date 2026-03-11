@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.22",
+  "parentQuestion": "An elderly patient presents with double vision when looking downward (especially...",
+  "scaffolds": [
+    {
+      "q": "Each extraocular muscle has a primary action (direction of pull).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The six extraocular muscles each have specific primary actions: superior rectus (up), inferior rectus (down), medial rectus (in), lateral rectus (out), superior oblique (down + intorsion), inferior oblique (up + extorsion). Allow your mind to embrace this:the mechanical elegance — six cables, six directions, coordinated three-dimensional control."
+    },
+    {
+      "q": "Patients often develop compensatory head positions to minimize double vision.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "When one eye muscle fails, the brain receives mismatched images (diplopia). patients intuitively tilt or turn their head to a position where the weak muscle doesn't need to work. This minimizes double vision. The body compensates. Beautiful adaptation."
+    }
+  ]
+}

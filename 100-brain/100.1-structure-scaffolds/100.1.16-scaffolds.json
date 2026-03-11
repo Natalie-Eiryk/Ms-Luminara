@@ -1,0 +1,26 @@
+{
+  "parentId": "100.1.16",
+  "parentQuestion": "A patient awakens from surgery unable to form new memories. They can recall chil...",
+  "scaffolds": [
+    {
+      "q": "The hippocampus is located in the medial temporal lobe and is critical for memory formation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The hippocampus is a seahorse-shaped structure in the medial temporal lobe essential for encoding new declarative memories (facts and events). Bilateral hippocampal damage causes severe anterograde amnesia — inability to form new long-term memories."
+    },
+    {
+      "q": "There are multiple types of memory stored in different brain regions (e.g., declarative vs. procedural).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Memory is not unitary. Declarative memory (facts, events) requires hippocampus and medial temporal lobe. Procedural memory (motor skills, habits) involves cerebellum and basal nuclei. Working memory requires prefrontal cortex. Emotional memory involves amygdala. Different systems, different anatomy."
+    }
+  ]
+}

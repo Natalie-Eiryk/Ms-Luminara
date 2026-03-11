@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.19",
+  "parentQuestion": "Following a parotid gland tumor removal surgery, a patient cannot smile or close...",
+  "scaffolds": [
+    {
+      "q": "The facial nerve passes through the parotid gland on its way to innervate facial muscles.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "After exiting the stylomastoid foramen, CN VII travels through the parotid gland and divides into terminal branches (temporal, zygomatic, buccal, marginal mandibular, cervical). Surrender to the logic here:the vulnerability — the nerve is embedded in the gland tissue. Surgery to remove parotid tumors must carefully identify and preserve CN VII branches. One slip, and the face stops moving."
+    },
+    {
+      "q": "Facial sensation and facial movement are controlled by different cranial nerves.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "CN V (trigeminal) provides sensation to the face. CN VII (facial) provides motor control to facial expression muscles. FEELING the face vs. MOVING the face are separate systems. Different cables, different damage patterns. This distinction is diagnostically beautiful."
+    }
+  ]
+}

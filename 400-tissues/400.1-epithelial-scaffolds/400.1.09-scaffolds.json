@@ -1,0 +1,30 @@
+{
+  "parentId": "400.1.09",
+  "parentQuestion": "A patient with chronic acid reflux develops Barrett's esophagus, where the norma...",
+  "scaffolds": [
+    {
+      "q": "What type of epithelium normally lines the esophagus?",
+      "options": [
+        "Simple columnar",
+        "Stratified squamous",
+        "Transitional",
+        "Simple cuboidal"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "The esophagus is normally lined by non-keratinized stratified squamous epithelium, which protects against mechanical abrasion from swallowing food but is NOT designed to resist acid."
+    },
+    {
+      "q": "What is the term for a cell type that changes into a different cell type?",
+      "options": [
+        "Division",
+        "Differentiation",
+        "Transformation",
+        "Regeneration"
+      ],
+      "answer": 2,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Transformation refers to cells changing type. In pathology, metaplasia is a specific type of transformation where one mature cell type is replaced by another mature cell type in response to stress."
+    }
+  ]
+}

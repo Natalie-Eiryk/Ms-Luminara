@@ -1,0 +1,26 @@
+{
+  "parentId": "200.4.10",
+  "parentQuestion": "A 3-month-old infant is brought to the pediatrician for a routine checkup. The p...",
+  "scaffolds": [
+    {
+      "q": "Infants have immature nervous systems at birth.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Yes — and this is beautiful in its simplicity. The nervous system continues to develop for YEARS after birth. Myelination of motor pathways (especially the corticospinal tract) isn't complete until around age 2. This is why infants have reflexes that would be pathological in adults — their brains haven't finished building the control systems yet. Follow the breadcrumbs:."
+    },
+    {
+      "q": "The Babinski sign normally disappears by age 2 as the nervous system matures.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Absolutely — and here's where development becomes diagnostic. As the corticospinal tract matures and myelinates, it begins to SUPPRESS the primitive Babinski reflex. By age 2, the normal plantar reflex should be present (toes curl DOWN when the sole is stroked). If the Babinski persists beyond age 2, it indicates delayed myelination or neurological damage. Permit yourself to feel this:the precision: the disappearance of a reflex is a developmental milestone."
+    }
+  ]
+}

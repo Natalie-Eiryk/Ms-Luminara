@@ -1,0 +1,26 @@
+{
+  "parentId": "000.1.16",
+  "parentQuestion": "A pathologist examines a biopsy showing severe disruption: cells are no longer o...",
+  "scaffolds": [
+    {
+      "q": "Normal tissues maintain organized structure with cells arranged in specific patterns.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Healthy tissues show ORGANIZED architecture — epithelial cells in distinct layers, connective tissue with regular fiber patterns, muscle cells aligned for coordinated contraction. This organization is ESSENTIAL for function. you're about to see what happens when it breaks down."
+    },
+    {
+      "q": "Cancer cells often lose their specialized characteristics and normal tissue organization.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Malignant transformation involves DEDIFFERENTIATION — cells lose specialized features and organized structure. They stop following the rules of tissue architecture. Immerse yourself in this:into this: cancer isn't just abnormal growth. It's organizational REBELLION."
+    }
+  ]
+}

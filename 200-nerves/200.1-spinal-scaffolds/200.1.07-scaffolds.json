@@ -1,0 +1,26 @@
+{
+  "parentId": "200.1.07",
+  "parentQuestion": "A patient presents with bilateral loss of pain and temperature sensation in the ...",
+  "scaffolds": [
+    {
+      "q": "Pain and temperature fibers cross the spinal cord in the anterior commissure (the central region) shortly after entering.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Let me show you the crossing zone. Pain and temperature fibers enter through the dorsal root, travel to the dorsal horn, then send axons that cross through the anterior commissure (the central part of the cord, near the central canal) to reach the opposite spinothalamic tract. This crossing happens within one or two segments of entry. Here's the delicious vulnerability: anything expanding from the central canal damages these crossing fibers first. this creates a very specific clinical pattern."
+    },
+    {
+      "q": "Dissociated sensory loss means loss of some sensory modalities (like pain/temperature) while others (like touch/proprioception) remain intact.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Follow me deeper: and let me show you the dissociation. Different sensory modalities travel in different pathways in the spinal cord. Pain/temperature in the spinothalamic tract (anterolateral), touch/proprioception in the dorsal columns (posterior). When pathology selectively damages one pathway, you get dissociated sensory loss — some modalities lost, others preserved. This pattern reveals the anatomy of the lesion. Immerse yourself in this:into the diagnostic precision: the pattern tells you where the damage is."
+    }
+  ]
+}

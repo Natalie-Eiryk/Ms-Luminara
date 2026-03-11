@@ -1,0 +1,30 @@
+{
+  "parentId": "400.2.08",
+  "parentQuestion": "A 28-year-old woman presents with hyperextensible joints (she can bend her thumb...",
+  "scaffolds": [
+    {
+      "q": "Which tissue component provides tensile strength (resistance to pulling forces)?",
+      "options": [
+        "Ground substance",
+        "Collagen fibers",
+        "Adipocytes",
+        "Blood vessels"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Collagen fibers are the primary tensile strength component of connective tissue. They resist pulling and stretching forces. When collagen is defective, tissues become fragile and hyperextensible. Engineering principles in biology, darling."
+    },
+    {
+      "q": "What are ligaments?",
+      "options": [
+        "Bone to bone connections",
+        "Muscle to bone connections",
+        "Bone to skin connections",
+        "Skin to muscle connections"
+      ],
+      "answer": 0,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Ligaments connect bone to bone, stabilizing joints. They're made of dense regular connective tissue — mostly parallel collagen fibers. Tendons connect muscle to bone. Different connections, different names, same basic tissue type."
+    }
+  ]
+}

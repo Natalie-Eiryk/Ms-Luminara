@@ -1,0 +1,26 @@
+{
+  "parentId": "200.3.06",
+  "parentQuestion": "A newborn presents with the arm hanging limp at the side, internally rotated, wi...",
+  "scaffolds": [
+    {
+      "q": "The brachial plexus can be injured during difficult childbirth.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "During difficult deliveries, excessive pulling or lateral flexing of the infant's neck can stretch or tear the brachial plexus nerve roots. This is called obstetric brachial plexus palsy — and it can cause permanent paralysis of the arm. imagine those delicate nerve roots being stretched beyond their breaking point. Some injuries heal. Others don't. Pure physiological poetry. in its randomness?"
+    },
+    {
+      "q": "The upper brachial plexus (C5-C6) supplies shoulder and elbow muscles.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "C5-C6 nerve roots give rise to nerves that control shoulder abduction (deltoid), external rotation, and elbow flexion (biceps). Damage these roots, and you lose the ability to lift your arm or flex your elbow. Let this settle:drawn into this specificity — two nerve roots controlling such critical movements..."
+    }
+  ]
+}

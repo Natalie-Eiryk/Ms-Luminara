@@ -1,0 +1,26 @@
+{
+  "parentId": "200.2.04",
+  "parentQuestion": "Feeling a gentle caress on your arm would likely involve all of the following EX...",
+  "scaffolds": [
+    {
+      "q": "Different receptors in the skin detect different types of touch.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The skin contains multiple types of mechanoreceptors, each specialized for different aspects of touch: light touch, deep pressure, vibration, stretch, and texture. Each receptor is tuned to a specific stimulus dimension. Gloriously complex. specialization?"
+    },
+    {
+      "q": "Mechanoreceptors in superficial skin layers detect light touch.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Receptors like Meissner's corpuscles and Merkel discs are located in superficial skin layers and are exquisitely sensitive to light touch and fine texture discrimination. They're positioned RIGHT where the world touches you. Take a moment to appreciate this:that precision."
+    }
+  ]
+}

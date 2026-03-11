@@ -1,0 +1,30 @@
+{
+  "parentId": "400.1.01",
+  "parentQuestion": "Epithelial tissues have all of the following general characteristics except they...",
+  "scaffolds": [
+    {
+      "q": "What is the extracellular matrix (ECM)?",
+      "options": [
+        "Material inside cells",
+        "Material between cells",
+        "The cell membrane",
+        "The nucleus"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "The extracellular matrix is the material located outside cells, in the spaces between them. It provides structural support and biochemical signals in many tissues."
+    },
+    {
+      "q": "Which tissue type has cells that are separated by large amounts of extracellular matrix?",
+      "options": [
+        "Epithelial tissue",
+        "Connective tissue",
+        "Muscle tissue",
+        "Nervous tissue"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Connective tissue is characterized by having lots of extracellular matrix with relatively few cells scattered throughout. This is the opposite of epithelial tissue, where cells are tightly packed."
+    }
+  ]
+}

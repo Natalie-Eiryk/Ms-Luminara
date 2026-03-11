@@ -1,0 +1,26 @@
+{
+  "parentId": "200.4.08",
+  "parentQuestion": "A 28-year-old woman is involved in a motorcycle accident and suffers a spinal co...",
+  "scaffolds": [
+    {
+      "q": "The patellar (knee jerk) reflex tests the L2-L4 spinal segments.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Yes — and let me show you the elegance of this. When you tap the patellar tendon, you're testing the integrity of the L2-L4 spinal cord segments and the femoral nerve. Stretch receptors in the quadriceps → sensory neurons → L2-L4 dorsal horn → motor neurons → femoral nerve → quadriceps contracts. Simple. Surgical. Diagnostic. Walk through this:."
+    },
+    {
+      "q": "The ankle jerk reflex tests the S1-S2 spinal segments.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Absolutely — and here's where the anatomy becomes a map. The ankle jerk (Achilles reflex) tests S1-S2 via the tibial nerve. Tap the Achilles tendon → gastrocnemius/soleus contracts → foot plantar flexes. If this reflex is intact while the knee jerk is absent, you know the lesion is ABOVE S1 but involves L2-L4. Absorb this:the precision."
+    }
+  ]
+}

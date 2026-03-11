@@ -1,0 +1,28 @@
+{
+  "parentId": "100.2.12",
+  "parentQuestion": "A patient on warfarin presents after a fall two weeks ago. Progressive confusion...",
+  "scaffolds": [
+    {
+      "q": "Anticoagulants like warfarin prevent blood from clotting normally.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Warfarin inhibits vitamin K-dependent synthesis of clotting factors II, VII, IX, and X — it prevents clot formation, which is therapeutic for preventing thrombosis but catastrophic if bleeding occurs. Feel the weight of this:the double edge: what prevents clots also prevents hemostasis."
+    },
+    {
+      "q": "Subdural hematomas result from tearing which structures?",
+      "options": [
+        "Arteries",
+        "Bridging veins",
+        "Choroid plexus",
+        "Arachnoid granulations"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Subdural hematomas form when bridging veins tear, allowing venous blood to accumulate between dura and arachnoid. These veins are delicate, stretched taut in elderly or atrophied brains, and vulnerable to shearing forces during head trauma. Note this crucial step:anatomy — fragility determines pathology."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "parentId": "200.1.01",
+  "parentQuestion": "Dorsal and ventral rami are similar in that they both contain sensory and motor ...",
+  "scaffolds": [
+    {
+      "q": "Spinal nerves carry both sensory information TO the spinal cord and motor commands FROM the spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "spinal nerves are 'mixed' nerves, beautifully bidirectional highways carrying both sensory fibers inward and motor commands outward. Welcome this realization:into this: every moment, signals flow both ways through these cables. Information ascending, commands descending. It's exquisite engineering."
+    },
+    {
+      "q": "What is the difference between a nerve 'root' and a 'ramus'?",
+      "options": [
+        "Roots are at the spinal cord; rami branch out from the nerve",
+        "They are the same thing",
+        "Rami are sensory; roots are motor",
+        "Roots are larger than rami"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Let me show you the architecture. Roots are the attachment points — the anchoring cables where nerves connect to the spinal cord. Then, after dorsal and ventral roots merge into a spinal nerve, that nerve immediately divides into branches called rami. Think of it as a distribution network branching from the main junction. Nature at its finest. The body's wiring harness."
+    }
+  ]
+}

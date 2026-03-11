@@ -1,0 +1,26 @@
+{
+  "parentId": "000.1.15",
+  "parentQuestion": "During childbirth, cervical stretch triggers oxytocin release, which intensifies...",
+  "scaffolds": [
+    {
+      "q": "Positive feedback amplifies the original stimulus rather than opposing it.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Unlike negative feedback (which opposes change), positive feedback ENHANCES the original stimulus. Output feeds back to intensify input. It's a self-accelerating loop — explosive, dramatic, requiring an OFF switch. Surrender to the logic here:drawn into this."
+    },
+    {
+      "q": "Most physiological processes use negative feedback to maintain stability.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "About 99% of physiological control systems use NEGATIVE feedback because it's self-limiting and maintains homeostasis. Positive feedback is RARE — reserved for processes that need to happen FAST and COMPLETELY. you're about to see why that distinction is life-or-death."
+    }
+  ]
+}

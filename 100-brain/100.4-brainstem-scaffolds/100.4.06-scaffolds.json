@@ -1,0 +1,28 @@
+{
+  "parentId": "100.4.06",
+  "parentQuestion": "A 62-year-old woman presents with ipsilateral facial paralysis, loss of taste on...",
+  "scaffolds": [
+    {
+      "q": "Cranial nerve nuclei control structures on the same (ipsilateral) side of the body.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Cranial nerves innervate ipsilateral targets — meaning CN VII on the left controls the left side of the face. This is different from motor tracts controlling the body, which cross at the pyramidal decussation. this asymmetry is the key to localizing brainstem lesions."
+    },
+    {
+      "q": "The corticospinal tracts (descending motor pathways) cross over at which location?",
+      "options": [
+        "Midbrain",
+        "Pons",
+        "Medulla",
+        "Spinal cord"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The corticospinal tracts cross at the pyramidal decussation in the caudal medulla, approximately 85-90% of fibers. This is why left brain controls right body. Let me show you why this crossing point matters for localization."
+    }
+  ]
+}

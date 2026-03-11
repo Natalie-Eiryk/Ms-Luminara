@@ -1,0 +1,30 @@
+{
+  "parentId": "000.3.02",
+  "parentQuestion": "The organelle that serves as the 'control center' of the cell is the ___.",
+  "scaffolds": [
+    {
+      "q": "The genetic material (hereditary information) in a cell is stored as ___.",
+      "options": [
+        "Protein",
+        "DNA",
+        "RNA",
+        "Lipid"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "DNA — deoxyribonucleic acid — stores genetic information in the sequence of its nucleotide bases. This information is used to make proteins and pass traits to offspring. Four letters, three billion base pairs, and the entire instruction manual for building YOU. Feel the weight of this:awed by this."
+    },
+    {
+      "q": "An organelle is ___.",
+      "options": [
+        "A type of cell",
+        "A specialized structure within a cell",
+        "A tissue type",
+        "A body system"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Organelles are specialized structures within cells that perform specific functions, like the nucleus, mitochondria, and ribosomes. Think of them as the organs of the cellular city. we're going deeper."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parentId": "200.2.06",
+  "parentQuestion": "Which of the following is an INCORRECT statement regarding the occurrence of a s...",
+  "scaffolds": [
+    {
+      "q": "Each sensory receptor responds best to a specific type of stimulus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "This is called receptor specificity or modality. Photoreceptors respond to light, mechanoreceptors to pressure, thermoreceptors to temperature — each is tuned to its adequate stimulus. Mismatch stimulus and receptor, get no response. Evolution's crowning achievement. specialization?"
+    },
+    {
+      "q": "The graded potential produced by a sensory receptor is called a receptor potential.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "When transduction occurs, the result is a receptor potential (or generator potential) — a graded change in membrane voltage that can trigger action potentials if large enough. This is the electrical representation of stimulus intensity. Immerse yourself in this:the elegance of analog-to-digital conversion."
+    }
+  ]
+}

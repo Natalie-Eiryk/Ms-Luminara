@@ -1,0 +1,28 @@
+{
+  "parentId": "100.3.05",
+  "parentQuestion": "The area of the cortex that is responsible for sensing a full bladder and the fe...",
+  "scaffolds": [
+    {
+      "q": "The brain can sense internal conditions of the body, not just external stimuli.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "In addition to sensing the external world (touch, sight, sound), the brain monitors internal body states like hunger, thirst, bladder fullness, and organ function. This is called interoception — the sense of the body sensing itself."
+    },
+    {
+      "q": "Sensations from internal organs like the stomach, bladder, and lungs are called:",
+      "options": [
+        "External sensations",
+        "Visceral sensations",
+        "Somatic sensations",
+        "Special sensations"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Visceral sensations arise from internal organs (viscera). These include feelings of fullness, hunger, nausea, bladder urgency, and air hunger — the rising panic when you can't breathe."
+    }
+  ]
+}

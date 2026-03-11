@@ -1,0 +1,26 @@
+{
+  "parentId": "200.3.02",
+  "parentQuestion": "The phrenic nerve branches from which plexus?",
+  "scaffolds": [
+    {
+      "q": "The diaphragm is the main muscle used for breathing.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The diaphragm is a dome-shaped muscle that separates the chest from the abdomen. When it contracts, it flattens and pulls air into the lungs — the primary engine of respiration. Without it, breathing becomes incredibly difficult. I want you to appreciate the elegance of this mechanism..."
+    },
+    {
+      "q": "The cervical plexus is formed from neck-level spinal nerves.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The cervical plexus is formed from spinal nerves C1-C4 in the neck. It supplies muscles of the neck and — critically — the diaphragm via the phrenic nerve. this is why high spinal cord injuries are so devastating. Sit with this knowledge:drawn into the implications..."
+    }
+  ]
+}

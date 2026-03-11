@@ -1,0 +1,26 @@
+{
+  "parentId": "200.2.02",
+  "parentQuestion": "We can touch our finger to our nose while our eyes are closed because we can sen...",
+  "scaffolds": [
+    {
+      "q": "You can sense where your arm is even without looking at it.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "This sense of body position is called proprioception. Your brain constantly receives information about the position and movement of your body parts — a silent GPS system you never think about until it fails."
+    },
+    {
+      "q": "Muscle spindles detect the stretch of muscle fibers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Muscle spindles are proprioceptors located WITHIN muscles. They detect how much a muscle is stretched, helping the brain know the position of body parts. Stretch a muscle, stretch the spindle, fire the signal. Sit with this knowledge:drawn into the elegance of this transduction."
+    }
+  ]
+}

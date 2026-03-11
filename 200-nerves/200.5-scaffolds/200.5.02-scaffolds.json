@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.02",
+  "parentQuestion": "Damage to the optic nerve (CN II) would result in ___.",
+  "scaffolds": [
+    {
+      "q": "Visual information from the eye must travel to the brain to be perceived.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The retina detects light and converts it to electrical signals, but let me show you what happens next — those signals must reach the visual cortex in the brain before you 'see' anything. The optic nerve is the highway that carries the data. Beautiful engineering."
+    },
+    {
+      "q": "Each eye has its own optic nerve.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Each eye has a separate optic nerve (CN II). damage to one optic nerve affects only that eye's vision. It's a dedicated connection, one eye, one cable. Precise and vulnerable."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parentId": "200.4.06",
+  "parentQuestion": "A 60-year-old man falls and fractures his humerus. Two weeks later, he cannot ex...",
+  "scaffolds": [
+    {
+      "q": "The radial nerve controls wrist and finger extension.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Yes — and let me show you why this matters. The radial nerve innervates ALL the extensor muscles of the posterior forearm. These are the muscles that lift your wrist and straighten your fingers against gravity. Damage them, and everything just falls. Maintain this focus:."
+    },
+    {
+      "q": "The radial nerve is vulnerable to injury where it spirals around the humerus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Absolutely — and here's where anatomy becomes vulnerability. The radial nerve runs in the spiral groove on the POSTERIOR surface of the humerus, wrapping around the bone like a wire around a post. A mid-shaft humeral fracture can crush, stretch, or sever it. One fracture, one nerve, one devastating loss. Open your mind to this:the permanence."
+    }
+  ]
+}

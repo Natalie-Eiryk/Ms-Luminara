@@ -1,0 +1,28 @@
+{
+  "parentId": "100.2.06",
+  "parentQuestion": "The limbic system acts as our emotional, or affective (feelings), brain.",
+  "scaffolds": [
+    {
+      "q": "Emotions are processed by specific structures in the brain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Emotions aren't abstract 'feelings' floating in consciousness — they emerge from specific brain structures (amygdala, hypothalamus, cingulate gyrus) that detect threats, rewards, and social signals, then trigger appropriate behavioral and physiological responses. Emotion is neurobiology. Breathe in this knowledge:the biology beneath the feeling."
+    },
+    {
+      "q": "Which brain structure is most associated with fear responses?",
+      "options": [
+        "Cerebellum",
+        "Amygdala",
+        "Occipital lobe",
+        "Medulla"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The amygdala is an almond-shaped structure deep in the temporal lobe that processes fear, threat detection, and emotional memory formation. Lesion it, and fear responses disappear — the biology is that specific. Zero in on this:: emotion lives in anatomy."
+    }
+  ]
+}

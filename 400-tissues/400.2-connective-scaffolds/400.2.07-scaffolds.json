@@ -1,0 +1,30 @@
+{
+  "parentId": "400.2.07",
+  "parentQuestion": "A 45-year-old sailor presents with bleeding gums, poor wound healing, and bruisi...",
+  "scaffolds": [
+    {
+      "q": "What is the most abundant structural protein in the human body?",
+      "options": [
+        "Actin",
+        "Myosin",
+        "Collagen",
+        "Keratin"
+      ],
+      "answer": 2,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Collagen is the most abundant protein in the body — it's the main structural component of connective tissues. It provides tensile strength to skin, blood vessels, tendons, ligaments, bone, and cartilage. The scaffolding of your entire body, darling."
+    },
+    {
+      "q": "Post-translational modifications occur:",
+      "options": [
+        "During DNA transcription",
+        "During mRNA translation",
+        "After the protein is synthesized",
+        "Before the gene is expressed"
+      ],
+      "answer": 2,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Post-translational modifications happen AFTER the protein is made. The amino acid chain gets modified by adding chemical groups (phosphate, hydroxyl, sugars, etc.) that are crucial for the protein's final structure and function. we'll see how these modifications matter clinically."
+    }
+  ]
+}

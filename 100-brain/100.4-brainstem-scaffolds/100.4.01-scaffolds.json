@@ -1,0 +1,28 @@
+{
+  "parentId": "100.4.01",
+  "parentQuestion": "One functional center found within the medulla oblongata is a respiratory center...",
+  "scaffolds": [
+    {
+      "q": "Breathing happens automatically without you having to think about it.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Here's something beautiful: breathing is controlled by automatic centers in the brainstem that generate the rhythmic pattern of inhalation and exhalation — even when you're unconscious, even when you're asleep. You're not in charge. The medulla is. Connect these dots:, and I'll show you how."
+    },
+    {
+      "q": "The medulla oblongata is part of which brain region?",
+      "options": [
+        "Cerebrum",
+        "Cerebellum",
+        "Brainstem",
+        "Limbic system"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The medulla oblongata is the lowest part of the brainstem, connecting directly to the spinal cord. It contains vital centers for breathing, heart rate, and blood pressure. Damage this, and nothing else matters. Take a moment to appreciate this:why this tiny structure holds such immense power."
+    }
+  ]
+}

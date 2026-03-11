@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.10",
+  "parentQuestion": "The vagus nerve (CN X) is unique because it ___.",
+  "scaffolds": [
+    {
+      "q": "The word 'vagus' comes from Latin meaning 'wandering.'",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Vagus means 'wandering' (same root as 'vagrant' and 'vagabond'). Immerse yourself in this:the poetry — CN X earned this name because it travels far from the head, descending into the chest and abdomen. It's the nomad of cranial nerves."
+    },
+    {
+      "q": "Some cranial nerves control internal organs like the heart and digestive system.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Parasympathetic fibers from certain cranial nerves (especially CN X) regulate visceral organs — slowing the heart, increasing digestion, managing respiratory tone. it's the 'rest and digest' system at work. Peaceful control."
+    }
+  ]
+}

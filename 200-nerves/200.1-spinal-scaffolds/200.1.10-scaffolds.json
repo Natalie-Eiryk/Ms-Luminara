@@ -1,0 +1,26 @@
+{
+  "parentId": "200.1.10",
+  "parentQuestion": "A patient develops sudden paralysis and loss of all sensation below the waist af...",
+  "scaffolds": [
+    {
+      "q": "The anterior spinal artery supplies the anterior two-thirds of the spinal cord, including motor pathways, while the posterior spinal arteries supply the dorsal columns.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Let me show you the vascular territories. The anterior spinal artery (single, midline) supplies the anterior and lateral regions of the cord — the corticospinal tracts (motor), spinothalamic tracts (pain/temperature), and anterior horns (motor neurons). The posterior spinal arteries (paired, posterolateral) supply the dorsal columns (proprioception/vibration). This vascular distribution creates a predictable infarct pattern: anterior spinal artery occlusion affects motor and pain/temperature, but spares proprioception and vibration. this is critical for recognizing spinal cord stroke."
+    },
+    {
+      "q": "Anterior spinal artery syndrome typically causes motor paralysis and loss of pain/temperature sensation below the lesion, but proprioception and vibration sense are preserved.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Join me in examining this: and Witness this transformation:vascular dissection. Anterior spinal artery syndrome is a spinal cord stroke affecting the anterior two-thirds of the cord. The result: bilateral motor paralysis (corticospinal tracts dead), bilateral loss of pain/temperature (spinothalamic tracts dead), but preserved proprioception and vibration (dorsal columns spared by posterior spinal artery supply). Grant yourself this moment of clarity:into the clinical pearl: if a patient is paralyzed but can still tell you the position of their toes with their eyes closed, think anterior spinal artery syndrome. The vascular territory defines the deficit."
+    }
+  ]
+}

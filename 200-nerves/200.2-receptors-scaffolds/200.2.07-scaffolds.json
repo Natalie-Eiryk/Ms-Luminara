@@ -1,0 +1,26 @@
+{
+  "parentId": "200.2.07",
+  "parentQuestion": "A 68-year-old diabetic patient steps on a tack but doesn't notice until she sees...",
+  "scaffolds": [
+    {
+      "q": "Pain and light touch are carried by different types of nerve fibers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Pain travels on small, unmyelinated C fibers (slow, burning pain) and thinly myelinated Aδ fibers (fast, sharp pain). Light touch travels on larger, heavily myelinated Aβ fibers. Different fiber types, different speeds, different vulnerabilities. this matters when disease strikes."
+    },
+    {
+      "q": "Diabetic neuropathy tends to damage smaller nerve fibers before larger ones.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Small fibers are metabolically vulnerable and die first in diabetic neuropathy. Pain and temperature sensation disappear while light touch and vibration remain. Let me show you the cruel irony: you lose the ability to detect danger while keeping the ability to detect comfort. The body's security system, dismantled from the inside."
+    }
+  ]
+}

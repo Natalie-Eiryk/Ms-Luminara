@@ -1,0 +1,30 @@
+{
+  "parentId": "400.1.03",
+  "parentQuestion": "Transitional epithelium is found in the ___.",
+  "scaffolds": [
+    {
+      "q": "What is the main function of the urinary bladder?",
+      "options": [
+        "Filter blood",
+        "Store urine temporarily",
+        "Produce urine",
+        "Absorb water from urine"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "The urinary bladder's primary function is to store urine temporarily until it can be eliminated. This requires the bladder to expand and contract, which is why it needs specialized epithelium."
+    },
+    {
+      "q": "What does 'transitional' suggest about transitional epithelium?",
+      "options": [
+        "It transports substances",
+        "It can change shape",
+        "It's found in transition zones",
+        "It develops slowly"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "The term 'transitional' refers to the epithelium's ability to transition between different appearances — it can change from appearing thick and cuboidal to thin and squamous as the organ stretches."
+    }
+  ]
+}

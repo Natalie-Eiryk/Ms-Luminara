@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.06",
+  "parentQuestion": "Which cranial nerve would you test by asking a patient to look laterally (to the...",
+  "scaffolds": [
+    {
+      "q": "To look to the right, the right eye must turn outward (laterally).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "When you look right, your right eye abducts (turns outward) and your left eye adducts (turns inward toward the nose). coordinated movement using different muscles in each eye. Precision choreography."
+    },
+    {
+      "q": "Abduction means movement away from the midline.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Abduction moves a body part away from the midline. For the eye, this means turning outward (laterally), away from the nose. Feel the weight of this:the logic — the opposite is adduction, moving toward the midline."
+    }
+  ]
+}

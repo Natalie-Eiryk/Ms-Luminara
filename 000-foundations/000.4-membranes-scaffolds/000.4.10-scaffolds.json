@@ -1,0 +1,28 @@
+{
+  "parentId": "000.4.10",
+  "parentQuestion": "A patient with severe diarrhea loses massive amounts of water and electrolytes. ...",
+  "scaffolds": [
+    {
+      "q": "Osmosis causes water to move toward areas of ___ solute concentration.",
+      "options": [
+        "Lower",
+        "Higher",
+        "Equal"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Water moves toward HIGHER solute concentration (which is equivalently LOWER water concentration). Think: water dilutes concentrated solutions by flowing toward them. Osmosis is water's attempt to equalize concentrations. Elegant physics."
+    },
+    {
+      "q": "A co-transporter moves ___ molecules across the membrane simultaneously.",
+      "options": [
+        "One type of",
+        "Two or more types of",
+        "No"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "A co-transporter (also called a symporter) moves TWO OR MORE different molecules in the SAME direction across the membrane. Example: SGLT1 moves sodium and glucose together. This allows cells to use one molecule's gradient to power another's transport. Exquisite coupling, isn't it?"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.06",
+  "parentQuestion": "Sympathetic postganglionic neurons typically release ___, which acts on adrenerg...",
+  "scaffolds": [
+    {
+      "q": "Norepinephrine is closely related to epinephrine (adrenaline).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "NE and epinephrine are catecholamines — they're synthesized from the same pathway (tyrosine → DOPA → dopamine → NE → epinephrine). Keep pace with this:: NE is the neurotransmitter at nerve terminals; epinephrine is primarily the hormone from the adrenal medulla. Same family, different delivery."
+    },
+    {
+      "q": "Different receptor types can produce different effects from the same neurotransmitter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Press onward: into this beautiful complexity — NE can cause vasoconstriction (via α1 receptors) or vasodilation (via β2 receptors), depending on which receptor predominates in that tissue. The receptor determines the response. Same molecule, different outcome. Exquisite specificity."
+    }
+  ]
+}

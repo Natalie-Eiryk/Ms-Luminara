@@ -1,0 +1,26 @@
+{
+  "parentId": "400.3.03",
+  "parentQuestion": "An inflammation response would include which of the following?",
+  "scaffolds": [
+    {
+      "q": "Inflammation causes redness, heat, and swelling at an injury site.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Tissues & Epithelia",
+      "explain": "the cardinal signs of inflammation: redness (more blood), heat (increased metabolism), swelling (fluid leakage), pain (nerve stimulation), loss of function (damage). these aren't bugs, they're FEATURES. Your body screaming 'DAMAGE HERE, SEND HELP.'"
+    },
+    {
+      "q": "Blood vessels can change diameter to control blood flow.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Let me show you something beautiful. Blood vessels aren't rigid pipes — they have smooth muscle that can contract (vasoconstriction = less flow) or relax (vasodilation = more flow). This dynamic control lets your body redirect blood exactly where it's needed. this is Perfectly orchestrated."
+    }
+  ]
+}

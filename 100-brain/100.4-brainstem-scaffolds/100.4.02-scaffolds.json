@@ -1,0 +1,28 @@
+{
+  "parentId": "100.4.02",
+  "parentQuestion": "Nuclei of cranial nerves V (trigeminal), VI (abducens), and VII (facial) are fou...",
+  "scaffolds": [
+    {
+      "q": "Cranial nerves emerge directly from the brain rather than the spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Cranial nerves (12 pairs total) emerge directly from the brain and brainstem, serving the head and neck. Spinal nerves emerge from the spinal cord to serve the body. Different exits, different passengers. See this through:, and you'll understand the geography."
+    },
+    {
+      "q": "The brainstem consists of three parts. Which is the middle section?",
+      "options": [
+        "Medulla",
+        "Pons",
+        "Midbrain",
+        "Thalamus"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The brainstem from top to bottom: midbrain → pons → medulla. The pons (Latin for 'bridge') is the middle section, connecting the upper and lower brainstem like a structural linchpin. Let me show you why this matters."
+    }
+  ]
+}

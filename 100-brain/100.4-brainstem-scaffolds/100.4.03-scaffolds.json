@@ -1,0 +1,28 @@
+{
+  "parentId": "100.4.03",
+  "parentQuestion": "Vital centers for the control of heart rate, respiration, and blood pressure are...",
+  "scaffolds": [
+    {
+      "q": "Your heart rate and breathing are controlled by your brain even when you're unconscious.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The brainstem contains automatic control centers that regulate heart rate, breathing, and blood pressure 24/7, regardless of consciousness level. You can be completely unconscious, and your brainstem is still running the show. this is where the magic happens."
+    },
+    {
+      "q": "Which brainstem region is closest to and continuous with the spinal cord?",
+      "options": [
+        "Midbrain",
+        "Pons",
+        "Medulla oblongata",
+        "Thalamus"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The medulla oblongata is the lowest part of the brainstem, directly continuous with the spinal cord at the foramen magnum — the opening at the base of your skull. Let me show you why this location is so critical."
+    }
+  ]
+}

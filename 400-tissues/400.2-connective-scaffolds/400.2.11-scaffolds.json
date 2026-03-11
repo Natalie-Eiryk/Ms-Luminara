@@ -1,0 +1,30 @@
+{
+  "parentId": "400.2.11",
+  "parentQuestion": "A 70-year-old man with chronic kidney disease has persistently high blood calciu...",
+  "scaffolds": [
+    {
+      "q": "Which cells break down bone to release calcium into the bloodstream?",
+      "options": [
+        "Osteoblasts",
+        "Osteoclasts",
+        "Osteocytes",
+        "Chondroblasts"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Osteoclasts are bone-destroying cells that resorb bone and release calcium into the blood. They're regulated by parathyroid hormone (PTH) as part of calcium homeostasis. The suffix '-clast' means 'breaker.' Know your demolition crew, darling."
+    },
+    {
+      "q": "Parathyroid hormone (PTH) is secreted when blood calcium is:",
+      "options": [
+        "Too high",
+        "Too low",
+        "Normal",
+        "Not related to calcium"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "PTH is secreted when blood calcium drops below normal. PTH then acts on bone (stimulates osteoclasts to release calcium), kidney (increases calcium reabsorption), and indirectly on intestine (via vitamin D activation) to RAISE blood calcium. Negative feedback loop, love."
+    }
+  ]
+}

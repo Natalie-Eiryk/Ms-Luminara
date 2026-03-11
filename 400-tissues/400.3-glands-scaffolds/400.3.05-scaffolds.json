@@ -1,0 +1,26 @@
+{
+  "parentId": "400.3.05",
+  "parentQuestion": "A patient presents with severe acne. Examination reveals sebaceous glands that a...",
+  "scaffolds": [
+    {
+      "q": "Sebaceous glands produce an oily substance called sebum.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Sebum is that wonderful oil that keeps your skin and hair lubricated. it's mostly lipids (fats, waxes, cholesterol). When everything works right, it's protective. When it goes wrong... well, that's when you get acne. Allow the mechanism to reveal itself:drawn into the delicate balance."
+    },
+    {
+      "q": "In some secretion modes, the secretory cell dies as part of the release process.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Tissues & Epithelia",
+      "explain": "holocrine secretion is the ultimate sacrifice. The cell fills with product until it RUPTURES and dies, releasing everything at once. It's cellular suicide for a cause. Brilliantly engineered. The cell IS the delivery system."
+    }
+  ]
+}

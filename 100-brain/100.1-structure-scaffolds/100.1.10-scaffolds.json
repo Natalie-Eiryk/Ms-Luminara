@@ -1,0 +1,26 @@
+{
+  "parentId": "100.1.10",
+  "parentQuestion": "The corpora quadrigemina are found in the ___.",
+  "scaffolds": [
+    {
+      "q": "The midbrain is the uppermost part of the brainstem.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The midbrain (mesencephalon) sits atop the brainstem — above the pons, below the diencephalon. It contains reflex centers (corpora quadrigemina), motor pathways (cerebral peduncles), and dopamine production facilities (substantia nigra)."
+    },
+    {
+      "q": "The superior colliculi are involved in visual reflexes, such as tracking moving objects.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The superior colliculi receive visual input and coordinate eye and head movements toward visual stimuli. See sudden movement in peripheral vision? The superior colliculi orient your gaze automatically before conscious processing identifies the object."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parentId": "200.1.08",
+  "parentQuestion": "A patient with a spinal cord injury initially presents with flaccid paralysis an...",
+  "scaffolds": [
+    {
+      "q": "Upper motor neuron lesions (damage to descending motor pathways) typically cause spastic paralysis with hyperreflexia, while lower motor neuron lesions cause flaccid paralysis with areflexia.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Let me show you the fundamental distinction, darling. Upper motor neurons (UMN) are the descending pathways from the brain (corticospinal tract, etc.). Damage here causes spastic paralysis, hyperreflexia, and a positive Babinski sign — because you've lost descending inhibition; the spinal reflexes run unchecked. Lower motor neurons (LMN) are the motor neurons in the spinal cord and their axons. Damage here causes flaccid paralysis, areflexia, and atrophy — because you've lost the final pathway to the muscle; no circuit, no reflex. The clinical signs reveal the level of the lesion. this is diagnostic gold."
+    },
+    {
+      "q": "Spinal shock is a temporary loss of all spinal reflex activity below a spinal cord injury that typically lasts days to weeks.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Dive into this: and let me show you the silence after the storm. Spinal shock is the immediate aftermath of acute spinal cord injury — all reflexes below the lesion disappear, muscles go flaccid, there's loss of sensation, bladder and bowel function cease. The spinal cord goes temporarily 'offline' due to sudden loss of descending input. Observe what unfolds next:: this doesn't mean the spinal circuits are destroyed — they're just suppressed. Over days to weeks, they gradually recover. When they do, reflexes return — often hyperactive. The flaccid phase gives way to the spastic phase. Accept this reality:the transformation."
+    }
+  ]
+}

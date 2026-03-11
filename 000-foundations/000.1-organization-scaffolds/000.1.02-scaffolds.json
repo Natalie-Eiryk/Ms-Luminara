@@ -1,0 +1,28 @@
+{
+  "parentId": "000.1.02",
+  "parentQuestion": "Generally, what is the result of the negative feedback process?",
+  "scaffolds": [
+    {
+      "q": "Negative feedback opposes changes from a normal set point.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "In negative feedback, the response COUNTERACTS the original stimulus. something goes up? The response brings it down. Something goes down? The response brings it up. This is how we stay alive, and once you see it, you'll see it everywhere."
+    },
+    {
+      "q": "A thermostat that turns off the heater when the room gets warm enough is an example of:",
+      "options": [
+        "Positive feedback",
+        "Negative feedback",
+        "No feedback",
+        "Amplification"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "A thermostat is the CLASSIC example of negative feedback — when temperature rises above the set point, heating stops. When it drops below, heating starts. The output OPPOSES deviations. Now The elegance reveals itself here:: your body does this with temperature, blood sugar, blood pressure, pH, oxygen levels... everything that keeps you alive. Permit yourself to feel this:into that realization."
+    }
+  ]
+}

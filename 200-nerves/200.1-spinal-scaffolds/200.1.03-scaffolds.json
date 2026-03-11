@@ -1,0 +1,26 @@
+{
+  "parentId": "200.1.03",
+  "parentQuestion": "Starting at the spinal cord, the subdivisions of the brachial plexus are (in ord...",
+  "scaffolds": [
+    {
+      "q": "The brachial plexus is a network of nerves that supplies the upper limb.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The brachial plexus is formed from spinal nerves C5-T1. Let me show you what happens: these nerves intermingle and reorganize to form the major nerves of the arm, forearm, and hand. It's a redistribution network for precision control. Continue the sequence: and Pay attention here:transformation."
+    },
+    {
+      "q": "A nerve plexus reorganizes nerve fibers before they reach their final destination.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Plexuses mix fibers from different spinal levels. Here's the beautiful logic: this ensures that damage to one spinal nerve doesn't completely denervate a region — redundancy engineering — and allows complex motor coordination across multiple joints. Feel the weight of this:the design."
+    }
+  ]
+}

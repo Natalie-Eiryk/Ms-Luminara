@@ -1,0 +1,26 @@
+{
+  "parentId": "100.1.12",
+  "parentQuestion": "Following a stroke, a 62-year-old patient can understand spoken language perfect...",
+  "scaffolds": [
+    {
+      "q": "Language processing involves multiple specialized brain regions working together.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Language is a distributed function requiring multiple cortical areas: Wernicke's area for comprehension, Broca's area for production, arcuate fasciculus connecting them, motor cortex for articulation, auditory cortex for sound processing. Damage to different components creates different aphasia patterns."
+    },
+    {
+      "q": "Broca's area is located in the frontal lobe.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Broca's area occupies the inferior frontal gyrus (frontal lobe) adjacent to the motor cortex regions controlling facial muscles, tongue, and larynx. Its frontal location reflects its role in motor speech production."
+    }
+  ]
+}

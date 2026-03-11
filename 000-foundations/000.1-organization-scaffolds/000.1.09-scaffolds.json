@@ -1,0 +1,26 @@
+{
+  "parentId": "000.1.09",
+  "parentQuestion": "Histology would be best defined as a study of ___.",
+  "scaffolds": [
+    {
+      "q": "The suffix '-ology' means 'the study of.'",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Many medical and scientific terms use '-ology' (from Greek 'logos' meaning word, reason, or study). Biology equals study of life. Cardiology equals study of the heart. Histology equals study of tissues. Learn the pattern, unlock hundreds of terms. Explore alongside me:."
+    },
+    {
+      "q": "Microscopes are essential tools for studying tissue structure.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Tissues are too small to see in detail with the naked eye. Histology REQUIRES microscopes to examine the cellular organization and structure of tissues. Without magnification? You're just looking at pink blobs. Sustain this attention: now."
+    }
+  ]
+}

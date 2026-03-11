@@ -1,0 +1,26 @@
+{
+  "parentId": "100.1.09",
+  "parentQuestion": "White matter is found in all of the following locations EXCEPT the ___.",
+  "scaffolds": [
+    {
+      "q": "In the brain, gray matter is on the outside (cortex) and white matter is inside.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The brain positions gray matter superficially (cortex plus deep nuclei) and white matter internally (fiber tracts). This is opposite of the spinal cord's organization."
+    },
+    {
+      "q": "In the spinal cord, white matter is on the outside and gray matter is inside.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The spinal cord reverses the brain's arrangement: white matter (ascending and descending tracts) forms the outer shell, gray matter (butterfly or H-shaped) occupies the core. Opposite topology, same tissue types."
+    }
+  ]
+}

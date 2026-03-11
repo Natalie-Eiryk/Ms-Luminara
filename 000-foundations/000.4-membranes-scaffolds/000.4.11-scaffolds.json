@@ -1,0 +1,27 @@
+{
+  "parentId": "000.4.11",
+  "parentQuestion": "A patient's neurons are unable to fire action potentials after exposure to a tox...",
+  "scaffolds": [
+    {
+      "q": "Does the sodium-potassium pump require ATP to function?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Yes! The Na⁺/K⁺ pump is an active transporter — it moves ions AGAINST their concentration gradients, which requires energy input (ATP). It's one of the most ATP-hungry processes in your body. Without ATP, it stops, and neurons lose their ability to fire. Expensive but essential."
+    },
+    {
+      "q": "In a resting neuron, is the concentration of Na⁺ higher inside or outside the cell?",
+      "options": [
+        "Inside",
+        "Outside",
+        "Equal on both sides"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "OUTSIDE! The Na⁺/K⁺ pump maintains HIGH sodium OUTSIDE the cell (~145 mM extracellular vs. ~12 mM intracellular). This gradient is what allows Na⁺ to rush IN during action potentials, causing depolarization. Beautiful ionic architecture, isn't it?"
+    }
+  ]
+}

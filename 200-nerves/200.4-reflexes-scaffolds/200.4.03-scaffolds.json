@@ -1,0 +1,26 @@
+{
+  "parentId": "200.4.03",
+  "parentQuestion": "Trauma to a nerve of the brachial plexus may cause wrist drop.",
+  "scaffolds": [
+    {
+      "q": "The radial nerve controls muscles that extend the wrist.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Yes — and this is elegant. The radial nerve innervates ALL the extensor muscles of the forearm. These muscles extend (straighten) the wrist and fingers — they're the 'lift' muscles that fight gravity. you're about to see what happens when this fails."
+    },
+    {
+      "q": "If the muscles that lift the wrist are paralyzed, the wrist will hang limp.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Absolutely — and This is the breathtaking bit:. Without functioning extensor muscles, gravity pulls the wrist down into a flexed position. This condition is called 'wrist drop' and indicates radial nerve injury. The wrist just dangles — no tone, no control, no function. Immerse yourself in this:that loss."
+    }
+  ]
+}

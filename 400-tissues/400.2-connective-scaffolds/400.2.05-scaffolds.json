@@ -1,0 +1,30 @@
+{
+  "parentId": "400.2.05",
+  "parentQuestion": "The type of cartilage found in the external ear is ___.",
+  "scaffolds": [
+    {
+      "q": "What property does the external ear need to have?",
+      "options": [
+        "Rigid and hard",
+        "Flexible but able to return to shape",
+        "Transparent",
+        "Able to contract"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "The external ear can be bent and folded, but it springs back to its original shape. It needs to be flexible yet maintain its form — perfect for funneling sound waves into the ear canal. Form follows function, darling."
+    },
+    {
+      "q": "Which protein fiber provides elasticity and ability to stretch and recoil?",
+      "options": [
+        "Collagen",
+        "Keratin",
+        "Elastin",
+        "Myosin"
+      ],
+      "answer": 2,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Elastin fibers provide elasticity — they can stretch and then recoil back to their original length. Collagen provides strength and resists stretching, but elastin is the recoil specialist. we'll see elastin working throughout the body."
+    }
+  ]
+}

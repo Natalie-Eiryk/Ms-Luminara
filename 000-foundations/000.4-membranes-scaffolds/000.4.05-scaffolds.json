@@ -1,0 +1,30 @@
+{
+  "parentId": "000.4.05",
+  "parentQuestion": "The hypogastric region is ___ to the umbilical region.",
+  "scaffolds": [
+    {
+      "q": "What does 'inferior' mean in anatomical terms?",
+      "options": [
+        "Above",
+        "Below",
+        "Toward the side",
+        "Toward the midline"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Inferior means below or lower in position. Superior means above or higher. Think: your feet are inferior to your head (unless you're doing a headstand, in which case... still true). Simple, elegant, precise."
+    },
+    {
+      "q": "The umbilical region is named for what anatomical landmark?",
+      "options": [
+        "The stomach",
+        "The belly button (navel)",
+        "The hips",
+        "The ribs"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "The umbilical region is centered on the umbilicus — your belly button, the scar left from your umbilical cord. It's the dead-center region of the nine-region abdominal grid. Your first connection to the outside world, preserved as a landmark."
+    }
+  ]
+}

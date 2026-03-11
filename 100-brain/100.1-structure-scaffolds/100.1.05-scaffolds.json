@@ -1,0 +1,26 @@
+{
+  "parentId": "100.1.05",
+  "parentQuestion": "An elevated ridge of the cortex is called a ___.",
+  "scaffolds": [
+    {
+      "q": "The surface of the brain has a wrinkled, folded appearance.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The cerebral cortex is magnificently wrinkled — convoluted like a crumpled bedsheet. This folding increases surface area roughly threefold. More surface area = more neurons = more processing power within the same skull volume. Physics constrains biology; biology responds with clever geometry."
+    },
+    {
+      "q": "A sulcus is a groove or depression on the brain surface.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Sulci (plural) are the grooves between cortical folds. Deep sulci are called fissures. The longitudinal fissure separates hemispheres. The central sulcus divides frontal from parietal lobes. Grooves as anatomical landmarks."
+    }
+  ]
+}

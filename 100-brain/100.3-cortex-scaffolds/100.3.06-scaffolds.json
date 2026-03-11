@@ -1,0 +1,26 @@
+{
+  "parentId": "100.3.06",
+  "parentQuestion": "Which of the following statements is FALSE? \"Damage to the primary (somatic) mot...",
+  "scaffolds": [
+    {
+      "q": "Voluntary movements (like reaching for a cup) are controlled by the brain's motor cortex.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The primary motor cortex in the frontal lobe initiates voluntary movements. Neurons there send signals down the spinal cord to activate muscles. Lose the cortex, lose voluntary control."
+    },
+    {
+      "q": "A reflex (like the knee-jerk response) requires the brain to process the information.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Reflexes are processed at the spinal cord level — the signal goes to the spinal cord and back to the muscle without needing brain involvement. This is why reflexes are so fast. The spinal cord is the local controller; the brain is just an observer."
+    }
+  ]
+}

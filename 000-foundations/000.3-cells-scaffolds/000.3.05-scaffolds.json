@@ -1,0 +1,30 @@
+{
+  "parentId": "000.3.05",
+  "parentQuestion": "The process by which cells engulf particles or other cells is called ___.",
+  "scaffolds": [
+    {
+      "q": "Endocytosis is the process of bringing materials ___ the cell.",
+      "options": [
+        "Out of",
+        "Into",
+        "Around",
+        "Through"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Endocytosis means 'into the cell' — it's the process by which cells take in materials from their environment by surrounding them with membrane. Endo equals in. Easy, darling."
+    },
+    {
+      "q": "White blood cells engulf and destroy bacteria. This is an example of cells eating ___.",
+      "options": [
+        "Liquids",
+        "Solid particles",
+        "Gases",
+        "DNA"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "When white blood cells surround and engulf bacteria (solid particles), they are performing a type of endocytosis that involves eating solid material. Your immune cells are literally eating the invaders. Accept this reality:drawn into the violence of it."
+    }
+  ]
+}

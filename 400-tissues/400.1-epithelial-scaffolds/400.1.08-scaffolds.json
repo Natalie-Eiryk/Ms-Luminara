@@ -1,0 +1,30 @@
+{
+  "parentId": "400.1.08",
+  "parentQuestion": "Which type of epithelium is found lining the alveoli of the lungs?",
+  "scaffolds": [
+    {
+      "q": "What are alveoli?",
+      "options": [
+        "Airways in the lungs",
+        "Tiny air sacs where gas exchange occurs",
+        "Large breathing tubes",
+        "Muscles that control breathing"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Alveoli are tiny, grape-like air sacs at the end of the respiratory tree where gas exchange occurs. Oxygen moves from the air in the alveoli into the blood, and carbon dioxide moves from blood to air."
+    },
+    {
+      "q": "What does 'squamous' mean when describing cell shape?",
+      "options": [
+        "Cube-shaped",
+        "Tall and narrow",
+        "Flat and scale-like",
+        "Round and spherical"
+      ],
+      "answer": 2,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Squamous cells are flat and scale-like (the term comes from Latin 'squama,' meaning scale — like fish scales or roof shingles). This shape creates a thin barrier, which is ideal for diffusion and filtration processes."
+    }
+  ]
+}

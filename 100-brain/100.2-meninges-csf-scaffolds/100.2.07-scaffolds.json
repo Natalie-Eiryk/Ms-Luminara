@@ -1,0 +1,28 @@
+{
+  "parentId": "100.2.07",
+  "parentQuestion": "A 24-year-old presents with severe headache, neck stiffness, photophobia, and fe...",
+  "scaffolds": [
+    {
+      "q": "The meninges can become infected by bacteria.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Bacterial meningitis occurs when bacteria (Streptococcus pneumoniae, Neisseria meningitidis, Listeria) breach the meninges and multiply in the CSF. Cast your attention here:: the immune system floods the subarachnoid space with neutrophils, inflammation damages tissue, and intracranial pressure rises. This is a medical emergency."
+    },
+    {
+      "q": "What is the normal white blood cell count in cerebrospinal fluid?",
+      "options": [
+        "0-5 cells/μL",
+        "50-100 cells/μL",
+        "500-1000 cells/μL",
+        "Same as blood"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Normal CSF contains 0-5 WBCs per microliter — essentially sterile. Finding hundreds or thousands indicates infection or inflammation. Allow your mind to embrace this:what that number means: the immune system has recognized a threat inside your CNS and is flooding the scene with defenders."
+    }
+  ]
+}

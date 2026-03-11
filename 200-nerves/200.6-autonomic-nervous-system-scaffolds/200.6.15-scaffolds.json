@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.15",
+  "parentQuestion": "Which of the following correctly describes the muscarinic receptor?",
+  "scaffolds": [
+    {
+      "q": "G-protein coupled receptors use second messengers to produce their effects.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "GPCRs activate intracellular G-proteins when ligands bind. These G-proteins then modulate enzymes (like adenylyl cyclase or phospholipase C) that produce second messengers (cAMP, IP3, DAG). this cascade amplifies the signal and allows diverse cellular responses. Slower but more versatile than ion channels."
+    },
+    {
+      "q": "Muscarine is a toxin from certain mushrooms that mimics acetylcholine effects.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Muscarine from Amanita muscaria mushrooms activates the same receptors as ACh at parasympathetic targets. mushroom poisoning produces parasympathetic overactivation: salivation, lacrimation, urination, defecation (SLUD). The receptor was named after this toxin. Invite this in:the pharmacological history."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.07",
+  "parentQuestion": "Parasympathetic stimulation of the heart causes ___.",
+  "scaffolds": [
+    {
+      "q": "The vagus nerve (CN X) provides parasympathetic innervation to the heart.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "The vagus nerve is the great wanderer of parasympathetic control — it reaches from brainstem to heart, lungs, and GI tract. Hold this thought:: for the heart, vagal fibers synapse in ganglia within the cardiac wall, and the short postganglionic fibers release ACh onto the SA and AV nodes. Absorb this:the calming influence."
+    },
+    {
+      "q": "The SA node is the natural pacemaker of the heart.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "The sinoatrial (SA) node fires spontaneously at about 100 bpm without any neural input. parasympathetic slows this below 100; sympathetic speeds it above 100. Your resting heart rate (~70 bpm) reflects parasympathetic dominance. The vagus is always gently braking the heart."
+    }
+  ]
+}

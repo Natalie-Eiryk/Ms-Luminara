@@ -1,0 +1,28 @@
+{
+  "parentId": "100.2.09",
+  "parentQuestion": "A newborn develops progressive head enlargement, bulging fontanelles, and downwa...",
+  "scaffolds": [
+    {
+      "q": "CSF flows through connected chambers called ventricles.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "CSF flows from the lateral ventricles → third ventricle → cerebral aqueduct → fourth ventricle → subarachnoid space. This circulation is continuous, directional, and vulnerable to blockage at narrow points. Pay attention here:flow — obstruction anywhere causes upstream accumulation."
+    },
+    {
+      "q": "What is the medical term for abnormal accumulation of CSF in the ventricles?",
+      "options": [
+        "Meningitis",
+        "Hydrocephalus",
+        "Encephalitis",
+        "Hematoma"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Hydrocephalus means 'water head' — abnormal CSF accumulation causing ventricular enlargement and increased intracranial pressure. It can be obstructive (blockage prevents flow) or communicating (impaired absorption at arachnoid granulations). Make room for this understanding:the distinction — mechanism determines treatment."
+    }
+  ]
+}

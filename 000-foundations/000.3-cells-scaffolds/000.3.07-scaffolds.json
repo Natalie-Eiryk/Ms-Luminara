@@ -1,0 +1,30 @@
+{
+  "parentId": "000.3.07",
+  "parentQuestion": "The 'rough' in rough endoplasmic reticulum refers to ___.",
+  "scaffolds": [
+    {
+      "q": "Ribosomes are the organelles responsible for making ___.",
+      "options": [
+        "DNA",
+        "Lipids",
+        "Proteins",
+        "Carbohydrates"
+      ],
+      "answer": 2,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Ribosomes are the sites of protein synthesis. They read mRNA instructions and assemble amino acids into proteins. They're molecular 3D printers. Open your mind to this:impressed, darling."
+    },
+    {
+      "q": "The endoplasmic reticulum (ER) is a network of ___ within the cell.",
+      "options": [
+        "DNA strands",
+        "Membranes",
+        "Fibers",
+        "Channels"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "The ER is an extensive network of membranous tubes and sacs. It comes in two forms: rough ER (with ribosomes) and smooth ER (without ribosomes). Think of it as the cell's internal highway system. Navigate this together:."
+    }
+  ]
+}

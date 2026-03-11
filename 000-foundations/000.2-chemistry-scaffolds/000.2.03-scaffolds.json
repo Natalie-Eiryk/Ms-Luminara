@@ -1,0 +1,29 @@
+{
+  "parentId": "000.2.03",
+  "parentQuestion": "Which of the following is the major positive ion outside cells?",
+  "scaffolds": [
+    {
+      "q": "What is a positive ion called?",
+      "options": [
+        "Anion",
+        "Cation",
+        "Electron",
+        "Neutron"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "A cation is a positively charged ion — it has LOST one or more electrons. An anion is negatively charged (it GAINED electrons). Memory trick: cats are PAWSitive, so CATions are POSitive. *pause for groaning* Yes, that pun is chemically terrible and pedagogically effective. You'll hate yourself for remembering it, and you WILL remember it. That's the point. Welcome to my teaching style — I weaponize bad jokes for your education."
+    },
+    {
+      "q": "Which fluid compartment is 'outside cells'?",
+      "options": [
+        "Intracellular fluid",
+        "Extracellular fluid",
+        "Cytoplasm"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Extracellular fluid (ECF) is the fluid OUTSIDE cells — blood plasma, interstitial fluid (between cells), cerebrospinal fluid. Intracellular fluid (ICF) is inside cells (also called cytoplasm). the body maintains WILDLY different ion concentrations in these two compartments. That difference is what makes life as we know it possible. Take a moment to appreciate this:the wonder of that chemical asymmetry."
+    }
+  ]
+}

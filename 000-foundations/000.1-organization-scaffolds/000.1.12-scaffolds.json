@@ -1,0 +1,26 @@
+{
+  "parentId": "000.1.12",
+  "parentQuestion": "A major function of serous membranes is to decrease friction.",
+  "scaffolds": [
+    {
+      "q": "Organs in body cavities need to move without rubbing against each other.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "when you BREATHE, your lungs expand and contract against the thoracic wall. When your HEART beats, it moves within the pericardial cavity. When your INTESTINES churn food, they slide against each other and the abdominal wall. Without lubrication, this constant movement would cause painful, damaging friction. Serous membranes are the body's built-in lubricant system. Exquisite, isn't it?"
+    },
+    {
+      "q": "Serous membranes produce a watery fluid.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Serous membranes secrete SEROUS FLUID — a thin, watery, slippery liquid that fills the narrow space between the parietal and visceral layers. It's like having a permanent layer of lubricant between moving parts. Consider the elegance here:into that design."
+    }
+  ]
+}

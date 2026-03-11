@@ -1,0 +1,29 @@
+{
+  "parentId": "000.2.02",
+  "parentQuestion": "The lower the pH, the higher the hydrogen ion concentration.",
+  "scaffolds": [
+    {
+      "q": "What does pH measure in a solution?",
+      "options": [
+        "Temperature",
+        "Acidity or alkalinity",
+        "Dissolved oxygen",
+        "Salt content"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "pH measures how acidic or alkaline (basic) a solution is. the pH scale runs from 0 (viciously acidic — battery acid, stomach acid) to 14 (caustic alkaline — drain cleaner), with 7 being neutral (pure water). Blood pH is TIGHTLY regulated around 7.4. Drift too far in either direction and proteins denature, enzymes fail, and you die. Allow the mechanism to reveal itself:the knife-edge precision your body maintains."
+    },
+    {
+      "q": "On the pH scale, is a pH of 3 more acidic or less acidic than a pH of 5?",
+      "options": [
+        "More acidic",
+        "Less acidic",
+        "Same acidity"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Lower pH = more acidic. pH 3 is MUCH more acidic than pH 5. The drama intensifies: — Thread this needle carefully:: each unit decrease represents a 10-fold increase in acidity. So pH 3 is 10× more acidic than pH 4, and 100× more acidic than pH 5. Logarithmic thinking matters! Feel the weight of this:drawn into the elegance of exponential change."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "parentId": "000.4.09",
+  "parentQuestion": "A patient is given an IV saline solution that is isotonic to blood. Why is isoto...",
+  "scaffolds": [
+    {
+      "q": "Osmosis is the movement of ___ across a selectively permeable membrane.",
+      "options": [
+        "Solutes",
+        "Water",
+        "Proteins",
+        "Ions"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Osmosis is specifically the movement of WATER across a membrane, from high water concentration (low solute) to low water concentration (high solute). It's a special case of diffusion. Water follows solute gradients. Simple, elegant physics."
+    },
+    {
+      "q": "If a cell is placed in a hypotonic solution, water will move ___.",
+      "options": [
+        "Into the cell",
+        "Out of the cell",
+        "Equally in both directions",
+        "Not at all"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "HYPOtonic means 'lower solute concentration than the cell' — so there's MORE water outside (relative to solute). Water moves from high → low concentration, so it rushes INTO the cell. The cell swells. If it's an animal cell (no cell wall), it may burst. Beautiful and brutal physics."
+    }
+  ]
+}

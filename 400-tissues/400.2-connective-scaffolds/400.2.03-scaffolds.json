@@ -1,0 +1,30 @@
+{
+  "parentId": "400.2.03",
+  "parentQuestion": "Which of the following connective tissues provides the framework for lymphoid or...",
+  "scaffolds": [
+    {
+      "q": "What are lymphoid organs?",
+      "options": [
+        "Organs that produce lymph fluid",
+        "Organs involved in immune system function",
+        "Organs that filter blood",
+        "Organs that store fat"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Lymphoid organs (like lymph nodes, spleen, thymus, bone marrow) are part of the immune system. They house immune cells and coordinate the body's defense against infection. we'll explore their architecture together."
+    },
+    {
+      "q": "A delicate mesh or network structure inside an organ is called the:",
+      "options": [
+        "Capsule",
+        "Stroma (framework)",
+        "Parenchyma (functional cells)",
+        "Basement membrane"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "The stroma is the supportive framework of an organ — like scaffolding in a building. The parenchyma is the functional cells that do the organ's main work. Architecture matters, darling — form creates function."
+    }
+  ]
+}

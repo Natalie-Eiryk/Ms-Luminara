@@ -1,0 +1,26 @@
+{
+  "parentId": "100.1.06",
+  "parentQuestion": "Which of these would you NOT find in the cerebral cortex?",
+  "scaffolds": [
+    {
+      "q": "The cerebral cortex is composed of gray matter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The cortex is the outer 2-4mm shell of gray matter — neuron cell bodies and dendrites packed densely for computation. This is where synaptic integration happens, where inputs get processed into outputs."
+    },
+    {
+      "q": "White matter is found deep to (beneath) the cerebral cortex.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "White matter — myelinated axon bundles — lies beneath the cortical gray matter. These are the transmission cables connecting cortical regions to each other and to subcortical structures. The brain organizes with gray matter superficial, white matter deep."
+    }
+  ]
+}

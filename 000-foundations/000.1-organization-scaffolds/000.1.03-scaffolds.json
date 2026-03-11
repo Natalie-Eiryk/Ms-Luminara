@@ -1,0 +1,26 @@
+{
+  "parentId": "000.1.03",
+  "parentQuestion": "A structure that is composed of two or more tissue types that work together to p...",
+  "scaffolds": [
+    {
+      "q": "The body is organized in a hierarchy: cells → tissues → organs → organ systems.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Get excited about this hierarchy, darling. Each level builds on the previous one. Cells group into tissues, tissues combine to form organs, organs collaborate as organ systems. It's like Russian nesting dolls, except each layer DOES something new that the lower level couldn't. Breathe in this knowledge:drawn into this."
+    },
+    {
+      "q": "A tissue is a group of similar cells working together.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Tissues are groups of SIMILAR cells (plus their extracellular matrix) with a common function. The four primary tissue types? Epithelial, connective, muscle, and nervous. That's it. Four building blocks for every organ in your body. Pursue this logic: now."
+    }
+  ]
+}

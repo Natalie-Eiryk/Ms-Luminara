@@ -1,0 +1,28 @@
+{
+  "parentId": "100.3.12",
+  "parentQuestion": "A patient reports being able to 'feel' someone touching their left hand, but can...",
+  "scaffolds": [
+    {
+      "q": "The brain processes touch in stages — first detecting that touch occurred, then interpreting where and what was touched.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Sensory processing is hierarchical. Primary sensory cortex detects the raw stimulus (touch occurred). Association cortex interprets it (where, what shape, what texture). You can have one without the other."
+    },
+    {
+      "q": "The somatosensory cortex is located in which lobe?",
+      "options": [
+        "Frontal lobe",
+        "Temporal lobe",
+        "Parietal lobe",
+        "Occipital lobe"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The primary somatosensory cortex (S1) is located in the postcentral gyrus of the parietal lobe, just behind the central sulcus. It processes touch, pressure, temperature, pain, and proprioception."
+    }
+  ]
+}

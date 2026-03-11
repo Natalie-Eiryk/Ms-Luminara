@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.18",
+  "parentQuestion": "A patient complains that food has lost most of its taste, and you notice they ha...",
+  "scaffolds": [
+    {
+      "q": "Taste from the anterior tongue requires intact cranial nerve VII.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The chorda tympani branch of CN VII carries taste sensation from the anterior 2/3 of the tongue. Embrace this:this — it's a small branch doing big work. Lose it, and flavor becomes muted, incomplete. Food loses its poetry."
+    },
+    {
+      "q": "The same nerve that controls facial movement also controls tear production.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "CN VII carries parasympathetic fibers to the lacrimal gland via the greater petrosal nerve. it controls both the actor's performance (facial expression) and the production crew (tears). Elegant multi-tasking."
+    }
+  ]
+}

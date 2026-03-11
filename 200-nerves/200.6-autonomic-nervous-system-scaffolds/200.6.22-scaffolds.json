@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.22",
+  "parentQuestion": "A patient develops severe bradycardia (heart rate 35 bpm) and hypotension after ...",
+  "scaffolds": [
+    {
+      "q": "The vagus nerve releases ACh onto M2 receptors in the heart to slow heart rate.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Parasympathetic control of the heart is via the vagus nerve. ACh binding to M2 receptors in the SA and AV nodes hyperpolarizes the cells and slows pacemaker firing. This is the 'rest and digest' brake on your heart. Remove it, and the heart speeds up."
+    },
+    {
+      "q": "Atropine is a muscarinic receptor antagonist (blocker).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Atropine competitively blocks muscarinic cholinergic receptors throughout the body. it prevents ACh from binding, effectively shutting down parasympathetic effects at target organs. Surrender to the logic here:the molecular blockade."
+    }
+  ]
+}

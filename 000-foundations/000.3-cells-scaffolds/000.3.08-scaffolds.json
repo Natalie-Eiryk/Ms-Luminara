@@ -1,0 +1,30 @@
+{
+  "parentId": "000.3.08",
+  "parentQuestion": "The Na⁺/K⁺ ATPase pump moves ___ Na⁺ ions out and ___ K⁺ ions into the cell per ...",
+  "scaffolds": [
+    {
+      "q": "A pump that requires ATP to move substances is an example of ___ transport.",
+      "options": [
+        "Passive",
+        "Active",
+        "Simple",
+        "Osmotic"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Active transport requires energy (ATP) to move substances AGAINST their concentration gradient. Pumps use ATP to do this uphill work — it's expensive, but sometimes necessary, darling."
+    },
+    {
+      "q": "Na⁺ and K⁺ are examples of ___.",
+      "options": [
+        "Proteins",
+        "Ions",
+        "Lipids",
+        "Carbohydrates"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Na⁺ (sodium) and K⁺ (potassium) are ions — atoms or molecules with an electrical charge. The plus sign indicates they have a positive charge (they've lost an electron). They're charged particles zipping around your cells. Follow the breadcrumbs:."
+    }
+  ]
+}

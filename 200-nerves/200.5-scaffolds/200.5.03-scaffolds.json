@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.03",
+  "parentQuestion": "Which cranial nerve controls most eye movements, pupil constriction, and lens ac...",
+  "scaffolds": [
+    {
+      "q": "The pupil can change size to control how much light enters the eye.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The pupil constricts (gets smaller) in bright light and dilates (gets larger) in dim light. Let me show you the mechanism: this is controlled by muscles in the iris — sphincter pupillae to constrict, dilator pupillae to dilate. Automatic aperture control. Exquisite precision."
+    },
+    {
+      "q": "Multiple muscles are needed to move the eye in different directions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Six extraocular muscles control eye movement: up, down, left, right, and rotational movements. Different nerves control different muscles. it's a coordinated system. Break one component, and the whole performance falls apart. Look at what occurs:."
+    }
+  ]
+}

@@ -4,7 +4,7 @@
  * Truly roguelike: every run starts fresh!
  */
 
-const CACHE_NAME = 'luminara-quiz-v6';
+const CACHE_NAME = 'luminara-quiz-v7';
 const STATIC_ASSETS = [
   './',
   './index.html',

@@ -1,0 +1,28 @@
+{
+  "parentId": "100.2.03",
+  "parentQuestion": "The subarachnoid space lies between what two layers of meninges?",
+  "scaffolds": [
+    {
+      "q": "The brain and spinal cord are covered by protective membranes called meninges.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The meninges are three protective membranes that surround the brain and spinal cord: dura mater, arachnoid mater, and pia mater. They're named beautifully — 'tough mother,' 'spider mother,' and 'gentle mother' in Latin. there's poetry in the anatomy."
+    },
+    {
+      "q": "How many layers do the meninges have?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The meninges consist of three layers: the dura mater (tough outer layer), arachnoid mater (middle web-like layer with trabeculae spanning the CSF-filled space), and pia mater (delicate inner layer that adheres to every contour of the brain surface). Embrace this:these layers — each one matters."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.01",
+  "parentQuestion": "The olfactory nerve (CN I) is responsible for which sense?",
+  "scaffolds": [
+    {
+      "q": "The sense of smell detects airborne chemicals.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Smell (olfaction) detects volatile chemical molecules in the air. Witness this transformation:receptors in the nasal cavity bind these molecules and fire signals straight to the brain. It's chemistry meeting neurology in real time."
+    },
+    {
+      "q": "Cranial nerves connect directly to the brain rather than the spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "There are 12 pairs of cranial nerves that emerge directly from the brain or brainstem, serving primarily the head and neck region. Let me show you how elegant this is — think of them as the brain's private access cables. No spinal middleman required. Sustain this attention:."
+    }
+  ]
+}

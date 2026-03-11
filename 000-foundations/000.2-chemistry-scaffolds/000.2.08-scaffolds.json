@@ -1,0 +1,29 @@
+{
+  "parentId": "000.2.08",
+  "parentQuestion": "Minerals required by the body in fairly large amounts are called ___.",
+  "scaffolds": [
+    {
+      "q": "What are minerals in the context of nutrition?",
+      "options": [
+        "Organic compounds from plants",
+        "Inorganic elements from the earth",
+        "Types of vitamins"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Minerals are INORGANIC elements — simple atoms from the periodic table. they come from rocks, soil, and water, absorbed by plants and passed through the food chain. Unlike vitamins (which are ORGANIC compounds with carbon-hydrogen bonds), minerals are elemental: Ca, Fe, Na, K, Mg, Zn. Breathe in this knowledge:this: you're built from stardust and geology."
+    },
+    {
+      "q": "Which mineral is most abundant in the human body and essential for bone structure?",
+      "options": [
+        "Iron",
+        "Calcium",
+        "Sodium",
+        "Zinc"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Calcium is the MOST abundant mineral in the body — about 1-2% of body weight (roughly 1-2 kg in an adult!). about 99% is stored in bones and teeth as hydroxyapatite (Ca₁₀(PO₄)₆(OH)₂), providing rigid structural support. The remaining 1%? Critical for nerve signals, muscle contractions, blood clotting, enzyme regulation. Accept this reality:this: bulk mineral, MASSIVE importance."
+    }
+  ]
+}

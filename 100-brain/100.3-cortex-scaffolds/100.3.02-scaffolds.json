@@ -1,0 +1,28 @@
+{
+  "parentId": "100.3.02",
+  "parentQuestion": "An individual who could trace a picture of a bicycle with their finger but could...",
+  "scaffolds": [
+    {
+      "q": "Seeing an object and recognizing what it is are two different brain processes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The brain processes vision in stages: first detecting shapes and features (primary visual cortex), then identifying what those shapes mean (association areas). You can have one without the other."
+    },
+    {
+      "q": "What term describes being unable to recognize objects despite being able to see them?",
+      "options": [
+        "Blindness",
+        "Agnosia",
+        "Aphasia",
+        "Amnesia"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Agnosia means 'without knowledge' — the inability to recognize or interpret sensory information despite intact sensation. Visual agnosia specifically affects visual recognition. You see perfectly. You understand nothing."
+    }
+  ]
+}

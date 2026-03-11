@@ -1,0 +1,26 @@
+{
+  "parentId": "000.1.13",
+  "parentQuestion": "A pharmaceutical company develops a highly effective anti-cancer drug, but it fa...",
+  "scaffolds": [
+    {
+      "q": "The chemical level of organization includes atoms and molecules.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "The chemical level is the FOUNDATION — atoms combine into molecules, molecules interact based on their properties. Everything above this level DEPENDS on chemistry. Absorb this:into this: change ONE atom in a molecule, and you can transform a life-saving drug into a poison. The stakes are that precise."
+    },
+    {
+      "q": "Molecular properties like solubility determine how substances cross membranes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Lipid-soluble molecules cross membranes easily. Water-soluble molecules? They need transport proteins or channels. The CHEMISTRY of the molecule dictates its MOVEMENT. this is why drug design is an art of molecular architecture."
+    }
+  ]
+}

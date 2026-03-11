@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.17",
+  "parentQuestion": "A 45-year-old man presents with orthostatic hypotension, resting tachycardia of ...",
+  "scaffolds": [
+    {
+      "q": "Orthostatic hypotension occurs when blood pressure drops significantly upon standing.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Normally, when you stand, sympathetic activation constricts blood vessels to maintain blood pressure against gravity. without this compensatory vasoconstriction, blood pools in your legs and pressure drops. You feel dizzy, lightheaded, or faint. The baroreceptor reflex is broken."
+    },
+    {
+      "q": "Resting tachycardia can occur when vagal tone to the heart is lost.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "the vagus normally 'brakes' the heart down from its intrinsic ~100 bpm to a resting ~70 bpm. Lose that parasympathetic tone, and the heart races at rest. This is called 'cardiac denervation.' The accelerator is stuck on because the brake is gone."
+    }
+  ]
+}

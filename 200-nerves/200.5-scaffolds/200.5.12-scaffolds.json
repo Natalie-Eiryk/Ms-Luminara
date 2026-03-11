@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.12",
+  "parentQuestion": "When a patient sticks out their tongue and it deviates to the right, which nerve...",
+  "scaffolds": [
+    {
+      "q": "The tongue contains muscles that can move it in different directions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The tongue has intrinsic muscles (change shape — thicken, thin, curl) and extrinsic muscles (change position — protrude, retract, elevate, depress). Accept this reality:this — these allow complex movements for speech, chewing, and swallowing. Exquisite motor control."
+    },
+    {
+      "q": "If muscles on one side are weak, the stronger side can push toward the weak side.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "When paired muscles work asymmetrically, the stronger side dominates. if right tongue muscles are weak, the intact left muscles push the tongue toward the right. Unopposed force creates deviation. Physics meets pathology."
+    }
+  ]
+}

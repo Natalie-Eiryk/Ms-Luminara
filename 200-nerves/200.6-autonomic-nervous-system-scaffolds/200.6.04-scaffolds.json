@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.04",
+  "parentQuestion": "The parasympathetic division originates from which regions?",
+  "scaffolds": [
+    {
+      "q": "Cranial nerves emerge directly from the brain or brainstem.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "There are 12 pairs of cranial nerves that bypass the spinal cord entirely, emerging directly from the brain and brainstem. four of these (III, VII, IX, X) carry parasympathetic fibers to head, thorax, and abdomen. Allow the mechanism to reveal itself:how the brain reaches directly into your viscera."
+    },
+    {
+      "q": "The sacral spinal cord is at the base of the vertebral column.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "The sacral region (S1-S5) is below the lumbar segments, corresponding to the sacral vertebrae. this is where the second parasympathetic outflow originates, specifically S2-S4, serving the pelvic organs. Bladder, rectum, genitals — all under parasympathetic influence from down here."
+    }
+  ]
+}

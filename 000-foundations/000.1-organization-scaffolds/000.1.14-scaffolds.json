@@ -1,0 +1,26 @@
+{
+  "parentId": "000.1.14",
+  "parentQuestion": "A patient presents with muscle weakness, cardiac arrhythmias, and altered mental...",
+  "scaffolds": [
+    {
+      "q": "Homeostasis maintains stable internal conditions necessary for cell function.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Cells require specific conditions to function — proper pH, temperature, electrolyte concentrations, oxygen levels. Deviate too far from these set points, and cellular processes FAIL. Homeostasis is the body's mechanism for maintaining those life-sustaining conditions. Join me in examining this:."
+    },
+    {
+      "q": "When one physiological variable goes wrong, it can affect multiple organ systems.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "The body's systems are INTERCONNECTED. A problem in one variable — like electrolyte balance — affects every system that depends on it. Potassium is critical for muscle contraction, nerve conduction, and cardiac rhythm. Lose it, and multiple systems fail SIMULTANEOUSLY. Embrace this:that vulnerability."
+    }
+  ]
+}

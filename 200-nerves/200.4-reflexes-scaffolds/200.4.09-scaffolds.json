@@ -1,0 +1,26 @@
+{
+  "parentId": "200.4.09",
+  "parentQuestion": "A 50-year-old alcoholic man presents with difficulty walking and loss of vibrati...",
+  "scaffolds": [
+    {
+      "q": "Peripheral neuropathy causes ABSENT or DIMINISHED reflexes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Yes — and here's the mechanism. Peripheral neuropathy damages the PERIPHERAL nerves (lower motor neurons or sensory neurons), which are part of the reflex arc. Destroy the arc, and the reflex cannot happen. This is why diabetic neuropathy and alcoholic neuropathy both cause diminished or absent ankle jerks — the S1-S2 nerves are dying. Navigate this together:."
+    },
+    {
+      "q": "Upper motor neuron disease causes HYPERACTIVE reflexes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Absolutely — and let me show you why. Upper motor neurons provide DESCENDING INHIBITION to spinal reflexes. When you damage them (stroke, MS, spinal cord compression), you RELEASE the lower motor neurons from inhibition. Reflexes become exaggerated, brisk, and sometimes even clonus (rhythmic oscillations). This is classic upper motor neuron pathology. Open yourself to this:the irony: losing control creates too much response."
+    }
+  ]
+}

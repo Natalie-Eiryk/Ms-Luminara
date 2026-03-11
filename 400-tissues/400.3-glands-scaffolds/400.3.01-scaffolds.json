@@ -1,0 +1,26 @@
+{
+  "parentId": "400.3.01",
+  "parentQuestion": "Glands whose secretions are stored and then released when the cell ruptures and ...",
+  "scaffolds": [
+    {
+      "q": "Glands can release their secretions in different ways.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Accept this reality:drawn into this — different glands have VERY different delivery methods. some use careful exocytosis (like handing packages through a window), some tear off part of themselves, and some... well, some go out with a BANG. Wait for it."
+    },
+    {
+      "q": "Sebaceous glands produce oily secretions for the skin and hair.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Sebaceous glands make sebum — that's the oil that keeps your skin and hair lubricated. But The plot thickens beautifully here:: the cell literally fills itself with lipid until it's so bloated it RUPTURES. Travel deeper into this: on this — the cell IS the product."
+    }
+  ]
+}

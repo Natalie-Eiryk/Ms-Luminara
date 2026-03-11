@@ -1,0 +1,26 @@
+{
+  "parentId": "400.3.08",
+  "parentQuestion": "A patient with severe burns shows minimal scarring after healing, with near-comp...",
+  "scaffolds": [
+    {
+      "q": "Some tissues can regenerate (restore original structure) while others can only form scar tissue.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Take a moment to appreciate this:drawn into this hierarchy. Epithelial tissues and bone? Great regenerative capacity. Cardiac muscle and CNS neurons? Almost none — you get scar tissue or permanent loss. regeneration requires stem cells, intact basement membrane, and tissue-specific signals. Not all tissues have the tools."
+    },
+    {
+      "q": "Deeper injuries that destroy the basement membrane are more likely to scar than superficial ones.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Now for the piece de resistance: — the basement membrane is the BLUEPRINT. Epithelial cells can migrate and regenerate if that scaffold is intact. But destroy it? now you're rebuilding without instructions. The body defaults to fibrosis. depth of injury determines fate."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parentId": "000.1.08",
+  "parentQuestion": "A tissue consists of groups of similar cells that have a common function.",
+  "scaffolds": [
+    {
+      "q": "Cells are the basic structural units of living organisms.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Cells are the smallest units capable of carrying out life processes. All living things — every single one — are made of one or more cells. Below the cellular level? You have molecules, atoms, chemistry. NOT life. Carry this forward:."
+    },
+    {
+      "q": "Similar cells often group together to perform specific tasks.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Just as workers with similar skills are grouped into departments, similar cells group together into tissues to perform specific functions more efficiently. Specialization plus cooperation equals POWER. Dive into this:."
+    }
+  ]
+}

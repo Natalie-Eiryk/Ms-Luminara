@@ -1,0 +1,30 @@
+{
+  "parentId": "400.1.02",
+  "parentQuestion": "Which one of the following would be found lining the digestive tract?",
+  "scaffolds": [
+    {
+      "q": "What does 'simple' mean when describing epithelial tissue?",
+      "options": [
+        "The cells are flat",
+        "The cells form one layer",
+        "The cells have few organelles",
+        "The cells are easy to study"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "In epithelial tissue classification, 'simple' means the epithelium consists of a single layer of cells. This is contrasted with 'stratified' epithelium, which has multiple layers."
+    },
+    {
+      "q": "What shape are columnar epithelial cells?",
+      "options": [
+        "Flat and scale-like",
+        "Cube-shaped",
+        "Tall and narrow",
+        "Irregular"
+      ],
+      "answer": 2,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Columnar epithelial cells are tall and narrow (column-shaped). This shape provides more cytoplasm volume, which is useful for cells that perform absorption or secretion functions."
+    }
+  ]
+}

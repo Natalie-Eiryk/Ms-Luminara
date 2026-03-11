@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.08",
+  "parentQuestion": "Which receptor type is found at ALL autonomic ganglia?",
+  "scaffolds": [
+    {
+      "q": "Nicotinic receptors are ligand-gated ion channels that open when ACh binds.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Nicotinic receptors are ionotropic — ACh binding directly opens an ion channel allowing Na⁺ influx and K⁺ efflux, rapidly depolarizing the cell. Trace this pathway:: this makes ganglionic transmission fast. The receptor IS the channel. Beautiful directness."
+    },
+    {
+      "q": "There are two main types of cholinergic receptors: nicotinic and muscarinic.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Chart this course: into cholinergic pharmacology. Nicotinic receptors (named for nicotine) are ion channels. Muscarinic receptors (named for muscarine) are G-protein coupled. ACh activates both, but the effects are very different. Location determines which receptor matters."
+    }
+  ]
+}

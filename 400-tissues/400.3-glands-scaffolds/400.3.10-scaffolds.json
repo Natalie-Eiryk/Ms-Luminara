@@ -1,0 +1,26 @@
+{
+  "parentId": "400.3.10",
+  "parentQuestion": "A patient with diabetes has a foot wound that won't heal. Despite 6 weeks of tre...",
+  "scaffolds": [
+    {
+      "q": "The inflammatory phase must resolve before the proliferative phase can begin.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Tissues & Epithelia",
+      "explain": "healing is SEQUENTIAL. Inflammation cleans up debris, fights infection, and sets the stage for repair. Only when inflammation resolves can proliferation begin (fibroblasts, new capillaries, granulation tissue). Let this settle:drawn into the order: cleanup before construction. Skip this, and everything downstream fails."
+    },
+    {
+      "q": "Diabetic patients often have impaired wound healing due to poor circulation and immune dysfunction.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Tissues & Epithelia",
+      "explain": "This is pure biological artistry: — diabetes is a wound-healing NIGHTMARE. High glucose impairs neutrophil function, damages blood vessels (poor perfusion), and disrupts growth factor signaling. diabetic foot ulcers get stuck in chronic inflammation, can't transition to healing, and are prone to infection. This is impaired repair at every level."
+    }
+  ]
+}

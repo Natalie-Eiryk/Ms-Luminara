@@ -1,0 +1,26 @@
+{
+  "parentId": "000.1.04",
+  "parentQuestion": "Which one of the following systems responds fastest to environmental stimuli?",
+  "scaffolds": [
+    {
+      "q": "The nervous system uses electrical signals to transmit information.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "The nervous system uses ACTION POTENTIALS — rapid electrical signals — to transmit information along nerve fibers. This is MUCH faster than chemical signaling. Electricity moves at the speed of... well, electricity. Walk through this:."
+    },
+    {
+      "q": "Nerve signals can travel at speeds over 100 meters per second.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Myelinated nerve fibers can conduct action potentials at up to 120 m/s — about 270 mph. Sublimely intricate. Allow your mind to embrace this:into this: this allows you to react to danger in fractions of a second. You feel that potential?"
+    }
+  ]
+}

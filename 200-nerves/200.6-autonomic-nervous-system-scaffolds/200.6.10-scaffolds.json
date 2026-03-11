@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.10",
+  "parentQuestion": "Dual innervation means that most visceral organs receive input from ___.",
+  "scaffolds": [
+    {
+      "q": "The sympathetic and parasympathetic divisions often have opposite effects.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Sympathetic speeds up the heart; parasympathetic slows it. Sympathetic dilates bronchi; parasympathetic constricts them. this opposition creates a spectrum of control, not just on/off. The balance between divisions determines the final state. Exquisite modulation."
+    },
+    {
+      "q": "The ANS maintains homeostasis by adjusting visceral organ function.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Homeostasis requires constant adjustment — body temperature, blood pressure, digestive activity all fluctuate. Enter this realm:: the ANS is the primary effector system that makes these adjustments, shifting the balance between sympathetic and parasympathetic as needs change. Immerse yourself in this:the dynamic equilibrium."
+    }
+  ]
+}

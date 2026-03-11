@@ -1,0 +1,26 @@
+{
+  "parentId": "000.1.17",
+  "parentQuestion": "A patient develops a rare autoimmune condition where antibodies attack the tight...",
+  "scaffolds": [
+    {
+      "q": "Tight junctions between cells create selective barriers that control permeability.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Tight junctions are protein complexes that SEAL the space between adjacent cells, creating selective barriers. They control what crosses from one side to the other. Blood-brain barrier? Tight junctions between endothelial cells. Intestinal barrier? Tight junctions between epithelial cells. Permit yourself to feel this:into this: tight junctions are gatekeepers at the cellular level."
+    },
+    {
+      "q": "Edema occurs when fluid accumulates in tissues outside blood vessels.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Normally, capillaries exchange fluid in a balanced way — fluid filters out at the arterial end, returns at the venous end. When this balance is disrupted (increased permeability, increased pressure, blocked lymphatics), fluid accumulates in the INTERSTITIAL SPACE. That's edema. Press onward:."
+    }
+  ]
+}

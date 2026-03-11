@@ -1,0 +1,30 @@
+{
+  "parentId": "000.3.01",
+  "parentQuestion": "The lipid bilayer is primarily composed of molecules called ___.",
+  "scaffolds": [
+    {
+      "q": "A molecule that has both water-loving and water-fearing parts is called ___.",
+      "options": [
+        "Hydrophobic",
+        "Amphipathic",
+        "Hydrophilic",
+        "Polar"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Amphipathic molecules have both hydrophilic (water-loving) and hydrophobic (water-fearing) regions. This split personality — and darling, what a beautiful split it is — allows them to form membranes. Open your mind to this:the tension in that word: amphipathic. Both. Torn. Perfect."
+    },
+    {
+      "q": "The cell membrane has ___ layer(s) of lipid molecules.",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "The cell membrane is a lipid bilayer — it has TWO layers of lipid molecules arranged with their hydrophobic tails facing each other and hydrophilic heads facing outward. Bi = two. Simple as that. Keep pace with this:, though — the simplicity is deceptive."
+    }
+  ]
+}

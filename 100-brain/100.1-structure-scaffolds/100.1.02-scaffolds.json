@@ -1,0 +1,26 @@
+{
+  "parentId": "100.1.02",
+  "parentQuestion": "The three basic regions of the cerebrum are the cerebral cortical gray matter, i...",
+  "scaffolds": [
+    {
+      "q": "The cerebrum is the largest part of the brain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The cerebrum dominates — 83% of total brain mass. That wrinkled dome of conscious thought dwarfs everything else. When people think 'brain,' they're picturing the cerebrum."
+    },
+    {
+      "q": "Gray matter contains neuron cell bodies, while white matter contains myelinated axons.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Gray matter = neuron somas and dendrites, the computation hardware. White matter = myelinated axons, the data cables. The myelin lipids scatter light, making it appear white. Physics meets anatomy."
+    }
+  ]
+}

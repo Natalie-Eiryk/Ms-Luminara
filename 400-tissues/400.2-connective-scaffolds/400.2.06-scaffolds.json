@@ -1,0 +1,30 @@
+{
+  "parentId": "400.2.06",
+  "parentQuestion": "The primary cell of mature bone tissue is the ___.",
+  "scaffolds": [
+    {
+      "q": "What does 'mature' mean when describing cells?",
+      "options": [
+        "The cell is old and dying",
+        "The cell is fully developed and functional",
+        "The cell is dividing rapidly",
+        "The cell is very large"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Mature cells are fully developed and performing their specialized function. They are no longer growing or differentiating into something else. They've reached their final form — and that's where the real work begins."
+    },
+    {
+      "q": "The prefix 'osteo-' refers to:",
+      "options": [
+        "Cartilage",
+        "Bone",
+        "Muscle",
+        "Fat"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Osteo- means bone (from Greek). Osteoblast = bone builder, osteocyte = bone cell, osteoclast = bone breaker. The suffix '-cyte' means cell. Etymology helps, darling — language guides understanding."
+    }
+  ]
+}

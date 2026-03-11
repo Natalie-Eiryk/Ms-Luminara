@@ -14,28 +14,6 @@
       "answer": 0,
       "chapter": "Chapters 1-4 — Foundations",
       "explain": "Chart this course: here — positive feedback amplifies the original signal, makes the output ENHANCE the input. Blood clotting, labor contractions... Examine what follows:. these mechanisms don't stop themselves. They require an external endpoint, or they'd consume you entirely. Don't lose this thread:.",
-      "prereqs": [
-        {
-          "q": "The body uses feedback mechanisms to maintain stable internal conditions.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Let me show you something beautiful: feedback mechanisms are control systems where the output influences its own continuation. Zero in on this: now — they can either OPPOSE change (negative feedback keeps you alive) or AMPLIFY it (positive feedback — dramatic, explosive, requires an OFF switch). You're about to see why that distinction matters."
-        },
-        {
-          "q": "Positive feedback increases or amplifies a change from the normal state.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Unlike negative feedback, which opposes change to maintain stability, positive feedback AMPLIFIES change. The output feeds back to intensify the input. Let this settle:drawn into this: it's a runaway process — exquisite when controlled, catastrophic when it isn't."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "correct",
@@ -50,7 +28,8 @@
         "title": "Positive vs. Negative Feedback: When to Amplify vs. When to Oppose",
         "content": "most body systems use NEGATIVE feedback to maintain homeostasis by opposing changes. But some processes need to happen FAST and COMPLETELY, and that's where positive feedback becomes irresistible. Regard this carefully:: negative feedback is circular and self-limiting, like a thermostat turning itself off. Positive feedback is EXPLOSIVE and requires an external terminator — a clot forming and plugging the wound, stopping the cascade. in physiology.",
         "metaphor": "Negative feedback is your home thermostat — it keeps things stable, cycling gently around a set point. Positive feedback is an AVALANCHE — once started, it grows and GROWS until something external stops it. One keeps you alive. The other gets things DONE."
-      }
+      },
+      "scaffoldFile": "000.1-organization-scaffolds/000.1.01-scaffolds.json"
     },
     {
       "id": "000.1.02",
@@ -64,30 +43,6 @@
       "answer": 0,
       "chapter": "Chapters 1-4 — Foundations",
       "explain": "Let me show you the body's thermostat — negative feedback opposes changes to return a variable to its set point. Keep the chain connected: here, because this is incredible: your body is constantly detecting deviations and correcting them, thousands of times per second. You feel that?",
-      "prereqs": [
-        {
-          "q": "Negative feedback opposes changes from a normal set point.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "In negative feedback, the response COUNTERACTS the original stimulus. something goes up? The response brings it down. Something goes down? The response brings it up. This is how we stay alive, and once you see it, you'll see it everywhere."
-        },
-        {
-          "q": "A thermostat that turns off the heater when the room gets warm enough is an example of:",
-          "options": [
-            "Positive feedback",
-            "Negative feedback",
-            "No feedback",
-            "Amplification"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "A thermostat is the CLASSIC example of negative feedback — when temperature rises above the set point, heating stops. When it drops below, heating starts. The output OPPOSES deviations. Now The elegance reveals itself here:: your body does this with temperature, blood sugar, blood pressure, pH, oxygen levels... everything that keeps you alive. Permit yourself to feel this:into that realization."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "correct",
@@ -110,7 +65,8 @@
         "title": "Negative Feedback: The Body's Thermostat Principle",
         "content": "negative feedback has three essential components you need to see: RECEPTOR (detects the deviation — sensors everywhere), CONTROL CENTER (compares actual value to set point — usually in the brain or endocrine glands), EFFECTOR (produces the corrective response — muscles, glands, organs). The result? A return toward the set point. Here's what makes this exquisite: without this, you'd be DEAD within minutes. you're about to see why.",
         "metaphor": "Negative feedback is like cruise control on a car. Going too fast? It eases off the throttle. Going too slow? It adds more gas. The system OPPOSES deviations from your desired speed. Your body does this with everything that matters."
-      }
+      },
+      "scaffoldFile": "000.1-organization-scaffolds/000.1.02-scaffolds.json"
     },
     {
       "id": "000.1.03",
@@ -124,28 +80,6 @@
       "answer": 1,
       "chapter": "Chapters 1-4 — Foundations",
       "explain": "Let me show you something elegant — an ORGAN is two or more tissue types working together for a specific function. We're talking about a HIERARCHY of complexity, and this is where tissues collaborate and magic happens. Discover with me:.",
-      "prereqs": [
-        {
-          "q": "The body is organized in a hierarchy: cells → tissues → organs → organ systems.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Get excited about this hierarchy, darling. Each level builds on the previous one. Cells group into tissues, tissues combine to form organs, organs collaborate as organ systems. It's like Russian nesting dolls, except each layer DOES something new that the lower level couldn't. Breathe in this knowledge:drawn into this."
-        },
-        {
-          "q": "A tissue is a group of similar cells working together.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Tissues are groups of SIMILAR cells (plus their extracellular matrix) with a common function. The four primary tissue types? Epithelial, connective, muscle, and nervous. That's it. Four building blocks for every organ in your body. Pursue this logic: now."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -168,7 +102,8 @@
         "title": "The Structural Hierarchy: From Cells to Organ Systems",
         "content": "Behold what unfolds: now — the body is organized hierarchically: CELLS → TISSUES → ORGANS → ORGAN SYSTEMS → ORGANISM. Each level emerges from cooperation at the lower level. Accept this reality:into this: cells are workers, tissues are departments, organs are factories, organ systems are entire industries. And you? You're the whole economy. Delicious, isn't it?",
         "metaphor": "If tissues are building materials — wood beams, concrete, steel girders, electrical wiring — then organs are ROOMS built from those materials. A kitchen needs walls (epithelium), plumbing (connective tissue), wiring (nervous tissue). Different materials, coordinated function. Journey with me into this: and see."
-      }
+      },
+      "scaffoldFile": "000.1-organization-scaffolds/000.1.03-scaffolds.json"
     },
     {
       "id": "000.1.04",
@@ -182,28 +117,6 @@
       "answer": 3,
       "chapter": "Chapters 1-4 — Foundations",
       "explain": "the nervous system is the body's RAPID-RESPONSE network. Nerve impulses travel at up to 120 meters per second — that's 270 miles per hour. You touch a hot stove, and signals reach your brain in MILLISECONDS. Feel that speed?",
-      "prereqs": [
-        {
-          "q": "The nervous system uses electrical signals to transmit information.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "The nervous system uses ACTION POTENTIALS — rapid electrical signals — to transmit information along nerve fibers. This is MUCH faster than chemical signaling. Electricity moves at the speed of... well, electricity. Walk through this:."
-        },
-        {
-          "q": "Nerve signals can travel at speeds over 100 meters per second.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Myelinated nerve fibers can conduct action potentials at up to 120 m/s — about 270 mph. Sublimely intricate. Allow your mind to embrace this:into this: this allows you to react to danger in fractions of a second. You feel that potential?"
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -226,7 +139,8 @@
         "title": "Speed of Body Communication Systems",
         "content": "here's the speed hierarchy, and this is exquisite: NERVOUS SYSTEM: Milliseconds. Uses electrical signals along dedicated pathways. ENDOCRINE SYSTEM: Seconds to hours. Uses chemical signals (hormones) traveling through blood. IMMUNE SYSTEM: Hours to days. Requires cell proliferation and antibody production. One saves you from immediate danger. The others handle slower threats. Keep your eyes on this: unfold.",
         "metaphor": "The nervous system is like a phone call — immediate, direct, point-to-point. The endocrine system is like sending a letter in the mail — it takes time to travel, but it reaches EVERYONE. The immune system is like building an army — slow to mobilize, but devastating once deployed."
-      }
+      },
+      "scaffoldFile": "000.1-organization-scaffolds/000.1.04-scaffolds.json"
     },
     {
       "id": "000.1.05",
@@ -240,28 +154,6 @@
       "answer": 1,
       "chapter": "Chapters 1-4 — Foundations",
       "explain": "Let me show you something crucial — homeostasis isn't a FIXED state. It's a dynamic equilibrium within a normal range. You're constantly fluctuating, constantly adjusting. And Now witness the true sophistication:: when those adjustments FAIL? That's when things collapse. Thread this needle carefully:.",
-      "prereqs": [
-        {
-          "q": "The body works to maintain stable internal conditions despite changes in the external environment.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Your body temperature, blood pH, and blood sugar levels stay relatively constant even when external conditions change dramatically. Step outside in freezing weather? Your core temperature stays at 37°C. Give this idea space to land:into this: this self-regulation is ESSENTIAL for survival. Lose it, and you die."
-        },
-        {
-          "q": "Homeostasis means 'staying the same' in Greek.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "The word homeostasis comes from Greek: 'homeo' (same/similar) and 'stasis' (standing/stable). It refers to maintaining stable internal conditions — the foundation of staying alive. Let's explore this together: now."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -284,7 +176,8 @@
         "title": "Dynamic Equilibrium: What Homeostasis Really Means",
         "content": "Follow me deeper: now — homeostasis means 'maintaining stability through change.' Observe carefully now:: the body CONSTANTLY adjusts to perturbations. Eating changes blood glucose. Exercise changes temperature and oxygen demand. Stress changes heart rate and blood pressure. Every second, feedback mechanisms detect these changes and correct them. This is the breathtaking bit:: when these mechanisms FAIL — when feedback loops break down — homeostasis collapses. And then? Death. Receive this insight:that edge.",
         "metaphor": "Homeostasis is like a tightrope walker maintaining balance — constantly making small adjustments, swaying slightly left and right, but STAYING ON THE ROPE. Stop adjusting? You fall. That's death."
-      }
+      },
+      "scaffoldFile": "000.1-organization-scaffolds/000.1.05-scaffolds.json"
     },
     {
       "id": "000.1.06",
@@ -298,28 +191,6 @@
       "answer": 3,
       "chapter": "Chapters 1-4 — Foundations",
       "explain": "Let me show you the body's SURVIVAL needs — the things you need RIGHT NOW to stay alive: nutrients, water, atmospheric pressure, and oxygen. notice what's NOT on that list? Growth and reproduction. Important for the SPECIES, sure. But you personally? You can skip those and still wake up tomorrow. Continue the sequence:.",
-      "prereqs": [
-        {
-          "q": "Cells need oxygen to produce energy through cellular respiration.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Oxygen is required for aerobic cellular respiration, which produces most of the ATP that cells need to function. Without oxygen, brain cells die within 4-6 minutes. Heart stops. Game over. Feel that urgency?"
-        },
-        {
-          "q": "Water is the most abundant molecule in the human body.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "About 60-70% of the human body is water. It's essential as a solvent (every reaction happens IN water), transport medium (blood is mostly water), and participant in chemical reactions (hydrolysis, condensation). Now we arrive at the gorgeous part:: lose too much? Your blood thickens, your brain swells, your kidneys fail. Step into this world:."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -342,7 +213,8 @@
         "title": "Survival Needs: What Keeps Cells Alive",
         "content": "here's the brutal timeline, and this is beautiful in its precision: Cells require OXYGEN (survive MINUTES without it — brain cells die first), WATER (survive DAYS without it — blood thickens, kidneys fail), NUTRIENTS (survive WEEKS without it — you burn through glycogen, then fat, then muscle, then vital proteins), ATMOSPHERIC PRESSURE (survive SECONDS in a vacuum — blood boils, lungs rupture). Some needs are more urgent than others. Make room for this understanding:that hierarchy.",
         "metaphor": "Think of cells like campfires. They need OXYGEN (air to breathe — cut it off, flame dies in seconds), FUEL (nutrients — run out, flame dies slowly), WATER (to dissolve the fuel and run reactions — without it, chemistry stops), and CONTAINMENT (atmospheric pressure keeps gases where they belong — lose it, everything explodes outward). Artistry in flesh."
-      }
+      },
+      "scaffoldFile": "000.1-organization-scaffolds/000.1.06-scaffolds.json"
     },
     {
       "id": "000.1.07",
@@ -356,28 +228,6 @@
       "answer": 1,
       "chapter": "Chapters 1-4 — Foundations",
       "explain": "Let me show you the distinction — physiology studies FUNCTION, HOW things work, what PROCESSES occur. Anatomy studies STRUCTURE — what things look like, where they're located. One describes the machinery. The other describes how it RUNS. Keep this momentum:.",
-      "prereqs": [
-        {
-          "q": "Anatomy is the study of body structure.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Anatomy focuses on WHAT body parts look like, WHERE they're located, and HOW they're organized. It describes structure, shape, position — the ARCHITECTURE of the body. Venture here:."
-        },
-        {
-          "q": "Physiology is the study of how the body works.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Physiology focuses on HOW body parts FUNCTION and work together. It describes processes, mechanisms, ACTIONS — the OPERATION of the body. Structure is what it IS. Function is what it DOES. Welcome this realization:into that distinction."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -400,7 +250,8 @@
         "title": "Anatomy vs. Physiology: Structure vs. Function",
         "content": "Enter this realm: now — ANATOMY studies body structure: what parts exist, what they look like, where they're positioned. PHYSIOLOGY studies body function: how parts work, what processes occur, what mechanisms drive them. Pay attention here:: structure and function are INSEPARABLE. The shape of a protein determines what it can do. The architecture of the heart determines how it pumps. Form follows function. Function depends on form. Exquisite, isn't it?",
         "metaphor": "Anatomy is like studying a car by examining the engine, wheels, frame, and seats — cataloging the PARTS. Physiology is like understanding how the engine BURNS fuel, how the transmission SHIFTS gears, how the brakes STOP motion. One is the blueprint. The other is the operation manual. Invite this in:both."
-      }
+      },
+      "scaffoldFile": "000.1-organization-scaffolds/000.1.07-scaffolds.json"
     },
     {
       "id": "000.1.08",
@@ -412,28 +263,6 @@
       "answer": 0,
       "chapter": "Chapters 1-4 — Foundations",
       "explain": "Absolutely true, darling. A tissue is a group of SIMILAR cells (plus their extracellular matrix) working together toward a shared function. It's the first level where cooperation creates something NEW. Let me show you what that means.",
-      "prereqs": [
-        {
-          "q": "Cells are the basic structural units of living organisms.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Cells are the smallest units capable of carrying out life processes. All living things — every single one — are made of one or more cells. Below the cellular level? You have molecules, atoms, chemistry. NOT life. Carry this forward:."
-        },
-        {
-          "q": "Similar cells often group together to perform specific tasks.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Just as workers with similar skills are grouped into departments, similar cells group together into tissues to perform specific functions more efficiently. Specialization plus cooperation equals POWER. Dive into this:."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "correct",
@@ -448,7 +277,8 @@
         "title": "The Tissue Level of Organization",
         "content": "the body is organized hierarchically: atoms → molecules → organelles → cells → tissues → organs → organ systems → organism. Focus on this moment:: TISSUES represent the FIRST level where cells work together as a functional unit. Before this? Individual cells doing their thing. At the tissue level? COOPERATION. Division of labor. Specialization. And This is where the magic unfolds:: when tissue organization FAILS — when cells don't cooperate — you get cancer. Open your mind to this:that edge.",
         "metaphor": "If cells are workers, tissues are DEPARTMENTS where similar workers collaborate. The accounting department (epithelial tissue) handles barriers and secretion. The construction crew (connective tissue) builds structural frameworks. The movers (muscle tissue) generate force. The IT network (nervous tissue) coordinates everything."
-      }
+      },
+      "scaffoldFile": "000.1-organization-scaffolds/000.1.08-scaffolds.json"
     },
     {
       "id": "000.1.09",
@@ -462,28 +292,6 @@
       "answer": 0,
       "chapter": "Chapters 1-4 — Foundations",
       "explain": "Histology equals the study of TISSUES. Greek roots: 'histos' (tissue) plus 'logos' (study). When you look at a tissue slide under a microscope? That's histology in action. Let me show you what you're seeing.",
-      "prereqs": [
-        {
-          "q": "The suffix '-ology' means 'the study of.'",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Many medical and scientific terms use '-ology' (from Greek 'logos' meaning word, reason, or study). Biology equals study of life. Cardiology equals study of the heart. Histology equals study of tissues. Learn the pattern, unlock hundreds of terms. Explore alongside me:."
-        },
-        {
-          "q": "Microscopes are essential tools for studying tissue structure.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Tissues are too small to see in detail with the naked eye. Histology REQUIRES microscopes to examine the cellular organization and structure of tissues. Without magnification? You're just looking at pink blobs. Sustain this attention: now."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "correct",
@@ -506,7 +314,8 @@
         "title": "The Scales of Anatomical Study",
         "content": "Descend with me into this: now — GROSS ANATOMY: Structures visible to the naked eye. Organs, bones, muscles. HISTOLOGY: Tissue structure visible under LIGHT microscopy (100x to 1000x magnification). CYTOLOGY: Individual CELL structure (electron microscopy, up to 100,000x magnification). MOLECULAR ANATOMY: Molecular structures — proteins, DNA, lipids. Each scale reveals different levels of organization. Grant yourself this moment of clarity:into this hierarchy.",
         "metaphor": "Studying the body is like studying a city at different zoom levels. Gross anatomy is the SATELLITE view — you see buildings, roads, parks. Histology is STREET level — you see bricks, windows, construction materials. Cytology is INSIDE a single room — you see furniture, appliances, electrical outlets. Molecular anatomy is examining the ATOMS in the paint on the wall."
-      }
+      },
+      "scaffoldFile": "000.1-organization-scaffolds/000.1.09-scaffolds.json"
     },
     {
       "id": "000.1.10",
@@ -520,28 +329,6 @@
       "answer": 3,
       "chapter": "Chapters 1-4 — Foundations",
       "explain": "VISCERAL peritoneum covers the organs (viscera equals organs). PARIETAL peritoneum lines the cavity wall (parietal equals wall). It's an anatomical naming convention — learn it once, use it everywhere. Traverse this territory:.",
-      "prereqs": [
-        {
-          "q": "Serous membranes have two layers: one covering organs and one lining cavity walls.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Serous membranes consist of a VISCERAL layer (covering organs like shrink-wrap) and a PARIETAL layer (lining the cavity wall like wallpaper), with a thin film of fluid between them to reduce friction. Incredible engineering, isn't it? Hold the line here:."
-        },
-        {
-          "q": "The term 'visceral' refers to internal organs.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Viscera are the internal organs, especially those in the abdomen (stomach, intestines, liver, spleen). 'Visceral' means 'relating to the internal organs.' When you feel something in your GUT? That's visceral sensation. Allow the mechanism to reveal itself:that."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -564,7 +351,8 @@
         "title": "Parietal vs. Visceral: The Serous Membrane Convention",
         "content": "serous membranes have two layers: PARIETAL — adheres to the WALL of the cavity (parietal equals wall, like the parietal bone of your SKULL). VISCERAL — adheres to the SURFACE of the organs (visceral equals organs, your internal VISCERA). This naming convention applies to ALL serous membranes: pericardium (heart), pleura (lungs), peritoneum (abdomen). Learn it once, use it everywhere. Exquisite efficiency.",
         "metaphor": "Imagine pushing your fist (the organ) into a partially inflated balloon (the serous membrane). The part of the balloon touching your fist? That's the VISCERAL layer. The outer part of the balloon? That's the PARIETAL layer. The space between them? Filled with lubricating fluid. Now imagine your fist is a beating heart or churning intestines — you NEED that lubrication."
-      }
+      },
+      "scaffoldFile": "000.1-organization-scaffolds/000.1.10-scaffolds.json"
     },
     {
       "id": "000.1.11",
@@ -576,28 +364,6 @@
       "answer": 1,
       "chapter": "Chapters 1-4 — Foundations",
       "explain": "FALSE. The membrane lining the WALL is PARIETAL peritoneum (parietal equals wall). VISCERAL peritoneum covers the ORGANS (visceral equals organs). Don't mix these up, darling — it's a common trap. Let me show you the difference.",
-      "prereqs": [
-        {
-          "q": "Parietal means 'relating to walls.'",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "The word 'parietal' comes from Latin 'paries' meaning WALL. Parietal layers of membranes line the WALLS of body cavities. Parietal bone? Forms the WALL of your skull. The pattern holds. Navigate with me:."
-        },
-        {
-          "q": "Visceral membranes are in direct contact with organs.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Visceral layers of serous membranes adhere DIRECTLY to the surface of organs, like shrink-wrap covering food. They move WITH the organ as it functions. Feel the weight of this:that intimate contact."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -612,7 +378,8 @@
         "title": "Parietal vs. Visceral: The Naming Convention",
         "content": "this naming convention applies to ALL serous membranes in the body: Parietal PERICARDIUM lines the pericardial sac (the wall), visceral pericardium covers the HEART (the organ). Parietal PLEURA lines the thoracic wall and diaphragm, visceral pleura covers the LUNGS. Parietal PERITONEUM lines the abdominal wall, visceral peritoneum covers the abdominal ORGANS. Learn the pattern once, apply it everywhere. Incredible efficiency, isn't it?",
         "metaphor": "Parietal equals the room's wallpaper (lines the WALL of the cavity). Visceral equals gift wrap on each organ (covers the ORGAN itself). Between them? Lubricating fluid that lets the organ slide smoothly against the wall as it functions. Sit with this knowledge:that beautiful design."
-      }
+      },
+      "scaffoldFile": "000.1-organization-scaffolds/000.1.11-scaffolds.json"
     },
     {
       "id": "000.1.12",
@@ -624,28 +391,6 @@
       "answer": 0,
       "chapter": "Chapters 1-4 — Foundations",
       "explain": "Absolutely TRUE. Serous membranes secrete thin, watery serous fluid between their layers. This lubricant allows organs to slide SMOOTHLY during movement. without it? Every heartbeat, every breath, every intestinal contraction would be PAINFUL friction. Track each step:.",
-      "prereqs": [
-        {
-          "q": "Organs in body cavities need to move without rubbing against each other.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "when you BREATHE, your lungs expand and contract against the thoracic wall. When your HEART beats, it moves within the pericardial cavity. When your INTESTINES churn food, they slide against each other and the abdominal wall. Without lubrication, this constant movement would cause painful, damaging friction. Serous membranes are the body's built-in lubricant system. Exquisite, isn't it?"
-        },
-        {
-          "q": "Serous membranes produce a watery fluid.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Serous membranes secrete SEROUS FLUID — a thin, watery, slippery liquid that fills the narrow space between the parietal and visceral layers. It's like having a permanent layer of lubricant between moving parts. Consider the elegance here:into that design."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "correct",
@@ -660,7 +405,8 @@
         "title": "Serous Membranes: The Body's Internal Lubricant System",
         "content": "Walk this path: now — serous membranes consist of simple squamous epithelium (called MESOTHELIUM) that actively secretes serous fluid — a watery solution containing water, electrolytes, and HYALURONIC ACID (a lubricating glycosaminoglycan). See what happens next:: this creates a SLIPPERY interface between the two layers. The parietal layer stays anchored to the wall. The visceral layer moves WITH the organ. The fluid between them ELIMINATES friction. Ingenious engineering, isn't it?",
         "metaphor": "Serous membranes are like the body's built-in SLIP-AND-SLIDE. The wet, slippery surface lets moving organs coast through their cavities SMOOTHLY, without resistance. Your heart slides within its sac. Your lungs glide against your ribcage. Your intestines slip past each other. All day. Every day. For your entire life. And And now, the revelation:: when this system FAILS — when inflammation causes the membranes to stick together (adhesions) — movement becomes PAINFUL. Surgery. Suffering. The system matters. Allow this to wash over you:that importance."
-      }
+      },
+      "scaffoldFile": "000.1-organization-scaffolds/000.1.12-scaffolds.json"
     },
     {
       "id": "000.1.13",
@@ -674,28 +420,6 @@
       "answer": 1,
       "chapter": "Chapters 1-4 — Foundations",
       "explain": "Accompany me through this: here — this is about the blood-brain barrier, darling, and it operates at the CHEMICAL level. Track this carefully:: the drug's molecular properties (water-soluble, hydrophilic) prevent it from crossing lipid membranes. The CHEMISTRY determines the biology. Prepare yourself for this:: brilliant drugs fail because their ATOMS are arranged wrong.",
-      "prereqs": [
-        {
-          "q": "The chemical level of organization includes atoms and molecules.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "The chemical level is the FOUNDATION — atoms combine into molecules, molecules interact based on their properties. Everything above this level DEPENDS on chemistry. Absorb this:into this: change ONE atom in a molecule, and you can transform a life-saving drug into a poison. The stakes are that precise."
-        },
-        {
-          "q": "Molecular properties like solubility determine how substances cross membranes.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Lipid-soluble molecules cross membranes easily. Water-soluble molecules? They need transport proteins or channels. The CHEMISTRY of the molecule dictates its MOVEMENT. this is why drug design is an art of molecular architecture."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -718,7 +442,8 @@
         "title": "Levels of Organization: Chemical Properties Drive Biological Outcomes",
         "content": "Follow this sequence:the levels of organization interact: CHEMICAL level (molecular structure — hydrophilic vs. lipophilic) determines CELLULAR level function (can the molecule cross membranes?), which affects TISSUE level outcomes (does the drug reach target tissue?), which determines ORGAN level effectiveness (does the brain tumor respond?). Take a moment to appreciate this:this hierarchy: change ONE level, and every level above it changes. The blood-brain barrier exists at the tissue/cellular level, but it's ENFORCED by chemical properties. Exquisite engineering that sometimes defeats our best medicines.",
         "metaphor": "The blood-brain barrier is like a nightclub with a strict dress code enforced at the molecular level. Water-soluble molecules are wearing the WRONG outfit — they can't get in, no matter how effective they'd be once inside. Lipid-soluble molecules? They slip right through. The bouncer (tight junction proteins) checks your molecular 'clothing' and decides your fate. A symphony of function."
-      }
+      },
+      "scaffoldFile": "000.1-organization-scaffolds/000.1.13-scaffolds.json"
     },
     {
       "id": "000.1.14",
@@ -732,28 +457,6 @@
       "answer": 2,
       "chapter": "Chapters 1-4 — Foundations",
       "explain": "Let me show you something deadly — when homeostasis fails in one variable (potassium), it CASCADES through multiple systems. Muscles can't contract properly. Heart rhythm destabilizes. Neurons can't fire correctly. This is MULTI-SYSTEM failure driven by a single homeostatic disruption. this is why homeostasis isn't just theory. It's life or death. See this through:.",
-      "prereqs": [
-        {
-          "q": "Homeostasis maintains stable internal conditions necessary for cell function.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Cells require specific conditions to function — proper pH, temperature, electrolyte concentrations, oxygen levels. Deviate too far from these set points, and cellular processes FAIL. Homeostasis is the body's mechanism for maintaining those life-sustaining conditions. Join me in examining this:."
-        },
-        {
-          "q": "When one physiological variable goes wrong, it can affect multiple organ systems.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "The body's systems are INTERCONNECTED. A problem in one variable — like electrolyte balance — affects every system that depends on it. Potassium is critical for muscle contraction, nerve conduction, and cardiac rhythm. Lose it, and multiple systems fail SIMULTANEOUSLY. Embrace this:that vulnerability."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -776,7 +479,8 @@
         "title": "Homeostatic Failure: When Systems Collapse Together",
         "content": "here's why homeostasis matters at the organ system level: Potassium (K+) is essential for the RESTING MEMBRANE POTENTIAL of all excitable cells. When K+ drops, cells become HYPERPOLARIZED, making them less excitable. Direct your attention here:: SKELETAL MUSCLE — hyperpolarized cells can't contract properly → weakness, paralysis. CARDIAC MUSCLE — disrupted electrical conduction → arrhythmias, possible cardiac arrest. SMOOTH MUSCLE — impaired GI motility → ileus, constipation. NEURONS — altered excitability → confusion, altered mental status. One chemical, four tissue types, multiple organ systems. Here's what makes this exquisite: the body's INTERCONNECTEDNESS is usually its strength. But when homeostasis fails? That interconnectedness spreads the damage EVERYWHERE. Open yourself to this:that cascade.",
         "metaphor": "Homeostasis is like the electrical grid powering a city. When voltage drops critically (like potassium dropping), everything that depends on electricity fails SIMULTANEOUSLY — lights flicker (brain confusion), motors stall (muscle weakness), traffic signals malfunction (cardiac arrhythmias). One disrupted input, city-wide chaos. That's what's happening in this patient's body. Crafted to perfection."
-      }
+      },
+      "scaffoldFile": "000.1-organization-scaffolds/000.1.14-scaffolds.json"
     },
     {
       "id": "000.1.15",
@@ -790,28 +494,6 @@
       "answer": 1,
       "chapter": "Chapters 1-4 — Foundations",
       "explain": "Travel deeper into this: here — positive feedback loops are RUNAWAY processes by design. They amplify themselves explosively. But here's the crucial insight: they REQUIRE an external endpoint or they'd destroy the system. In childbirth? Delivery of the baby removes the stimulus (cervical stretch), terminating the loop. this is the beauty and danger of positive feedback. Track with me here:.",
-      "prereqs": [
-        {
-          "q": "Positive feedback amplifies the original stimulus rather than opposing it.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Unlike negative feedback (which opposes change), positive feedback ENHANCES the original stimulus. Output feeds back to intensify input. It's a self-accelerating loop — explosive, dramatic, requiring an OFF switch. Surrender to the logic here:drawn into this."
-        },
-        {
-          "q": "Most physiological processes use negative feedback to maintain stability.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "About 99% of physiological control systems use NEGATIVE feedback because it's self-limiting and maintains homeostasis. Positive feedback is RARE — reserved for processes that need to happen FAST and COMPLETELY. you're about to see why that distinction is life-or-death."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -834,7 +516,8 @@
         "title": "Positive Feedback: Controlled Explosions with Built-In Terminators",
         "content": "positive feedback mechanisms are RARE in physiology because they're inherently unstable. They amplify themselves exponentially, and without a termination mechanism, they'd destroy the system. Let me show you the three classic examples: CHILDBIRTH (oxytocin → contractions → cervical stretch → more oxytocin) — TERMINATES when baby is delivered, removing cervical stretch. BLOOD CLOTTING (platelet activation → more platelet recruitment → more activation) — TERMINATES when clot forms and seals wound. ACTION POTENTIAL (Na+ influx → depolarization → more Na+ channels open) — TERMINATES when channels inactivate after ~1 millisecond. Here's what makes this exquisite: positive feedback gets things DONE — processes that need to happen FAST and COMPLETELY. But each one has a kill switch. Watch for it.",
         "metaphor": "Positive feedback is like a rocket launch — you need EXPLOSIVE, self-accelerating thrust to break free of gravity. But you also need a CUTOFF mechanism (fuel depletion, engine shutdown) or the rocket would accelerate until it disintegrated. The body uses controlled explosions the same way — massive acceleration toward a goal, with a precise termination point. The pinnacle of adaptation."
-      }
+      },
+      "scaffoldFile": "000.1-organization-scaffolds/000.1.15-scaffolds.json"
     },
     {
       "id": "000.1.16",
@@ -848,28 +531,6 @@
       "answer": 1,
       "chapter": "Chapters 1-4 — Foundations",
       "explain": "Let me show you something dark — cancer is fundamentally a disease of LOST ORGANIZATION. Normal cells maintain hierarchical structure: organized layers, specialized functions, clear boundaries. Malignant cells? They abandon that hierarchy. They lose tissue organization, invade neighboring structures, ignore boundaries. This is organizational CHAOS at the cellular and tissue level. Hold this thought:.",
-      "prereqs": [
-        {
-          "q": "Normal tissues maintain organized structure with cells arranged in specific patterns.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Healthy tissues show ORGANIZED architecture — epithelial cells in distinct layers, connective tissue with regular fiber patterns, muscle cells aligned for coordinated contraction. This organization is ESSENTIAL for function. you're about to see what happens when it breaks down."
-        },
-        {
-          "q": "Cancer cells often lose their specialized characteristics and normal tissue organization.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Malignant transformation involves DEDIFFERENTIATION — cells lose specialized features and organized structure. They stop following the rules of tissue architecture. Immerse yourself in this:into this: cancer isn't just abnormal growth. It's organizational REBELLION."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -892,7 +553,8 @@
         "title": "Organizational Hierarchy: When Cells Forget the Rules",
         "content": "normal tissue organization depends on cells FOLLOWING RULES: Stay in your assigned layer. Maintain proper contacts with neighbors. Respond to growth-regulating signals. Specialize for your designated function. Respect boundaries. Watch what cancer does: IGNORE LAYERS — cells pile up without organization. LOSE SPECIALIZATION — cells dedifferentiate, stop performing specialized functions. INVADE BOUNDARIES — cells cross basement membranes, invade other tissues. IGNORE GROWTH SIGNALS — cells proliferate without restraint. Here's what makes this exquisite: pathologists can identify cancer partly by seeing ORGANIZATIONAL CHAOS. The more disorganized the tissue, the more aggressive the cancer. Form reflects function. Dysfunction reflects deformity. Let this settle:that pattern.",
         "metaphor": "Normal tissue is like a well-organized city — buildings in zones (residential, commercial), streets in grids, clear boundaries, specialized districts serving specific functions. Cancer is like that city after societal collapse — structures pile up chaotically, boundaries are ignored, specialized buildings are abandoned, everything invades everything else. The organization that made the city FUNCTIONAL has disintegrated. That's what the pathologist sees under the microscope. Beautifully inevitable."
-      }
+      },
+      "scaffoldFile": "000.1-organization-scaffolds/000.1.16-scaffolds.json"
     },
     {
       "id": "000.1.17",
@@ -906,28 +568,6 @@
       "answer": 1,
       "chapter": "Chapters 1-4 — Foundations",
       "explain": "tight junctions SEAL the gaps between endothelial cells, controlling what can leave the bloodstream. Destroy those junctions? Fluid, proteins, and cells leak OUT of vessels into surrounding tissues. This is EDEMA on a systemic scale. Look at what occurs: when cellular organization fails at the tissue level. Trace this pathway:.",
-      "prereqs": [
-        {
-          "q": "Tight junctions between cells create selective barriers that control permeability.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Tight junctions are protein complexes that SEAL the space between adjacent cells, creating selective barriers. They control what crosses from one side to the other. Blood-brain barrier? Tight junctions between endothelial cells. Intestinal barrier? Tight junctions between epithelial cells. Permit yourself to feel this:into this: tight junctions are gatekeepers at the cellular level."
-        },
-        {
-          "q": "Edema occurs when fluid accumulates in tissues outside blood vessels.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Normally, capillaries exchange fluid in a balanced way — fluid filters out at the arterial end, returns at the venous end. When this balance is disrupted (increased permeability, increased pressure, blocked lymphatics), fluid accumulates in the INTERSTITIAL SPACE. That's edema. Press onward:."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -950,7 +590,8 @@
         "title": "Tight Junctions: The Cellular Seals That Maintain Tissue Boundaries",
         "content": "tight junctions are protein complexes (claudins, occludins, ZO proteins) that create IMPERMEABLE SEALS between adjacent cells. They're essential in multiple barriers: BLOOD-BRAIN BARRIER (endothelial tight junctions prevent most substances from entering brain), INTESTINAL EPITHELIUM (tight junctions prevent bacteria and toxins from crossing), KIDNEY TUBULES (tight junctions control what's reabsorbed vs. excreted). Note this crucial step: when tight junctions FAIL: Blood-brain barrier breakdown → neurotoxins enter brain, cerebral edema. Intestinal barrier breakdown → bacterial translocation, systemic infection. Vascular barrier breakdown (as in this scenario) → widespread edema, tissue swelling, organ dysfunction. Here's what makes this exquisite: tight junctions operate at the CELLULAR level (connecting individual cells) but their failure causes problems at the TISSUE and ORGAN SYSTEM levels. Hierarchical cascade of dysfunction. Breathe in this knowledge:that progression.",
         "metaphor": "Tight junctions are like the weatherstripping around doors and windows — they seal the GAPS between structural elements. When weatherstripping fails, water leaks into your house (edema). When tight junctions fail, fluid leaks into your tissues. One seal failing? Minor problem. ALL seals failing throughout the body? Catastrophic flooding. Exquisitely logical."
-      }
+      },
+      "scaffoldFile": "000.1-organization-scaffolds/000.1.17-scaffolds.json"
     },
     {
       "id": "000.1.18",
@@ -964,28 +605,6 @@
       "answer": 1,
       "chapter": "Chapters 1-4 — Foundations",
       "explain": "Let me show you something elegant — virtually EVERY body region contains all four primary tissue types: epithelial, connective, muscle, and nervous. The arm has skin (epithelium), muscle (muscle tissue), bone/tendons/blood vessels (connective tissue), and nerves (nervous tissue). This isn't about being an organ — it's about regional anatomy containing ALL fundamental tissue types. Advance into this:.",
-      "prereqs": [
-        {
-          "q": "The four primary tissue types are epithelial, connective, muscle, and nervous.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Every tissue in your body falls into one of four categories: EPITHELIAL (covers, lines, secretes), CONNECTIVE (supports, connects, transports), MUSCLE (contracts, moves), NERVOUS (senses, signals). That's it. Four fundamental building blocks. Proceed with me:."
-        },
-        {
-          "q": "Most body regions contain multiple tissue types working together.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Body regions and organs are almost never made of just ONE tissue type. They're COMPOSITE structures containing multiple tissue types collaborating for function. Accept this reality:into this: cooperation between tissue types is what enables complex function."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -1008,7 +627,8 @@
         "title": "Regional Anatomy: Why Most Body Regions Contain All Four Tissue Types",
         "content": "here's why body regions typically contain all four primary tissue types: EPITHELIAL TISSUE — covers external and internal surfaces (skin, vessel linings, gland secretory cells). Present virtually everywhere. CONNECTIVE TISSUE — provides structural support (bone, cartilage), connection (tendons, ligaments), transport (blood), and fills spaces (areolar tissue). Present EVERYWHERE. MUSCLE TISSUE — generates movement (skeletal, smooth, or cardiac muscle). Present in most regions. NERVOUS TISSUE — provides sensation and control (sensory receptors, motor neurons). Present in ALL regions. Watch what this means: injure your arm? You damage epithelium (skin), connective tissue (bone, tendons, blood vessels), muscle (skeletal muscle), and nerves (sensory/motor). Repair requires addressing ALL tissue types. The INTEGRATION of these tissues is what makes body regions functional. Allow your mind to embrace this:that complexity.",
         "metaphor": "Body regions are like cities containing all essential infrastructure types: BUILDINGS (epithelium — boundaries and specialized structures), STRUCTURAL FRAMEWORK (connective tissue — roads, bridges, utilities), MACHINERY (muscle — moving parts, active systems), COMMUNICATION NETWORK (nervous tissue — phones, internet, control systems). Destroy a city block? You damage ALL infrastructure types. Reconstruction requires rebuilding ALL of them. The arm works the same way."
-      }
+      },
+      "scaffoldFile": "000.1-organization-scaffolds/000.1.18-scaffolds.json"
     }
   ]
 }

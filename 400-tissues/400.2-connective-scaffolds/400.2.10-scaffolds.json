@@ -1,0 +1,30 @@
+{
+  "parentId": "400.2.10",
+  "parentQuestion": "A 55-year-old woman falls and fractures her hip. Six months later, the fracture ...",
+  "scaffolds": [
+    {
+      "q": "Which cells BUILD new bone?",
+      "options": [
+        "Osteoclasts",
+        "Osteocytes",
+        "Osteoblasts",
+        "Chondroblasts"
+      ],
+      "answer": 2,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Osteoblasts build bone by secreting osteoid (organic matrix) which then mineralizes. The suffix '-blast' means 'builder' or 'forming cell.' Osteoclasts destroy bone, osteocytes maintain it. Know your workers, darling."
+    },
+    {
+      "q": "What mineral is the main component of bone hardness?",
+      "options": [
+        "Iron",
+        "Calcium (as hydroxyapatite)",
+        "Magnesium",
+        "Sodium"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Bone is mineralized with hydroxyapatite crystals — calcium phosphate. This mineral gives bone its hardness and rigidity. The organic matrix (collagen) provides tensile strength, the mineral provides compressive strength. Beautiful engineering, darling."
+    }
+  ]
+}

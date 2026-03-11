@@ -1,0 +1,28 @@
+{
+  "parentId": "100.3.04",
+  "parentQuestion": "The brain area that regulates activities that control the state of wakefulness o...",
+  "scaffolds": [
+    {
+      "q": "The brain has specific systems that control whether you are awake or asleep.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Sleep and wakefulness are regulated by specific brain structures, not just by being tired. These systems actively promote either sleep or arousal. Consciousness is a controlled variable."
+    },
+    {
+      "q": "The brainstem connects which two structures?",
+      "options": [
+        "Left and right hemispheres",
+        "Brain and spinal cord",
+        "Eyes and visual cortex",
+        "Ears and auditory cortex"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The brainstem (midbrain, pons, medulla) connects the cerebrum above to the spinal cord below. It contains vital centers for breathing, heart rate, and consciousness — the phylogenetically ancient control systems that keep you alive."
+    }
+  ]
+}

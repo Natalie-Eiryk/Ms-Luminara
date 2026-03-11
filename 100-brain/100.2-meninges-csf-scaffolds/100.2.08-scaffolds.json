@@ -1,0 +1,26 @@
+{
+  "parentId": "100.2.08",
+  "parentQuestion": "Following blunt head trauma, a 62-year-old develops progressively worsening head...",
+  "scaffolds": [
+    {
+      "q": "Head trauma can cause bleeding between the layers of meninges.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Traumatic head injury can tear blood vessels in different meningeal spaces, producing epidural, subdural, or subarachnoid hemorrhages. Each has distinctive presentations, mechanisms, and imaging characteristics. Give this idea space to land:that location determines destiny."
+    },
+    {
+      "q": "Venous bleeding is typically faster than arterial bleeding.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Arterial bleeding is high-pressure and rapid; venous bleeding is low-pressure and slow. This distinction is critical in intracranial hemorrhage: arterial bleeds (epidural from middle meningeal artery) develop rapidly, while venous bleeds (subdural from bridging veins) accumulate slowly over days. pressure determines pace."
+    }
+  ]
+}

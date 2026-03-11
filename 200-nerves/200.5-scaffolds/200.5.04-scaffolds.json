@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.04",
+  "parentQuestion": "The trochlear nerve (CN IV) is unique because it ___.",
+  "scaffolds": [
+    {
+      "q": "Most cranial nerves exit from the front (anterior/ventral) surface of the brainstem.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Cranial nerves typically emerge from the anterior surface of the brainstem like cables coming out of the front of a router. Let me show you the exception — CN IV sneaks out the back door. Elegant deviation from the pattern."
+    },
+    {
+      "q": "CN IV controls the superior oblique muscle of the eye.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The trochlear nerve (CN IV) innervates only one muscle: the superior oblique, which helps rotate and depress the eye. Invite this in:this — specialized control for a specialized job."
+    }
+  ]
+}

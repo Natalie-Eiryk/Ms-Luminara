@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.14",
+  "parentQuestion": "Which of the following cranial nerves are purely SENSORY?",
+  "scaffolds": [
+    {
+      "q": "Sensory nerves carry information from receptors to the brain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Sensory (afferent) nerves carry signals from sensory receptors toward the central nervous system. they bring information IN, like incoming data cables. The brain receives, processes, then sends commands out via motor nerves."
+    },
+    {
+      "q": "Some cranial nerves carry only sensory information with no motor function.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Three cranial nerves are purely sensory: they detect stimuli (smell, vision, hearing, balance) but don't control any muscles or glands. Open your mind to this:the purity — pure input, no output. Elegant specialization."
+    }
+  ]
+}

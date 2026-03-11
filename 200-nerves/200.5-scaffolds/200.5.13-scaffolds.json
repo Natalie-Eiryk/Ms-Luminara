@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.13",
+  "parentQuestion": "The mnemonic 'Oh Oh Oh To Touch And Feel Very Good Velvet, AH!' helps remember _...",
+  "scaffolds": [
+    {
+      "q": "There are 12 pairs of cranial nerves.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Humans have 12 pairs of cranial nerves, numbered I through XII in Roman numerals, from rostral (front) to caudal (back) based on where they emerge from the brain. Receive this insight:the pattern — twelve cables, twelve functions, twelve potential points of failure."
+    },
+    {
+      "q": "Mnemonics use memorable phrases to help recall information in order.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Mnemonics are memory aids where the first letter of each word in a phrase corresponds to items you need to remember in sequence. they turn abstract lists into sticky stories. Let me show you how powerful they are."
+    }
+  ]
+}

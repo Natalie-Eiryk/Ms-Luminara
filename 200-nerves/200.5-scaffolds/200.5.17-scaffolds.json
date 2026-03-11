@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.17",
+  "parentQuestion": "A patient wakes up with ptosis, a dilated pupil that won't respond to light, and...",
+  "scaffolds": [
+    {
+      "q": "The pupil constricts in response to light via parasympathetic control.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Light triggers the pupillary light reflex: CN II detects light → signal to midbrain → CN III parasympathetic fibers → sphincter pupillae contracts → pupil constricts. Absorb this:the circuit — it's automated brilliance. Break any link, and the reflex fails."
+    },
+    {
+      "q": "When multiple functions controlled by the same nerve fail simultaneously, it suggests that nerve is damaged.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "When you see multiple deficits that map to a single nerve's territory, think of that nerve first. it's called anatomical localization. The pattern reveals the cable that failed. Beautiful diagnostic logic."
+    }
+  ]
+}

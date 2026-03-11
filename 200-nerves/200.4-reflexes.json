@@ -14,28 +14,6 @@
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
       "explain": "let me show you where this statement falls apart. Observe carefully now: now, because it smuggles in TWO delicious errors. Reciprocal inhibition involves MOTOR neurons (not sensory ones), and it coordinates ANTAGONISTIC muscles (opponents who must yield to one another), not synergistic ones (teammates working in harmony). this is where it gets beautiful.",
-      "prereqs": [
-        {
-          "q": "Muscles often work in pairs with opposite actions (agonist and antagonist).",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Absolutely true — and Quite breathtaking. Most joints are controlled by opposing muscle pairs, and it's one of the most beautiful pieces of engineering in your body. When one contracts (agonist), the other must relax (antagonist), or you'd be locked in place. Biceps flexes the elbow, triceps extends it. Simple. Exquisite. Functional. Absorb this:this."
-        },
-        {
-          "q": "Antagonist muscles have opposite actions to each other.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Yes — and here's where the tension builds. Antagonists oppose each other: when the biceps (flexor) contracts, the triceps (extensor) must relax, and vice versa. This coordination prevents your arm from fighting itself — which is exactly what reciprocal inhibition accomplishes. we're about to see how."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -50,7 +28,8 @@
         "title": "Reciprocal Inhibition: Coordinating Opposing Muscles",
         "content": "This is pure biological artistry:. Reciprocal inhibition is a spinal reflex mechanism that coordinates antagonistic muscle pairs with EXQUISITE precision. Take a moment to appreciate this:drawn into this: When a muscle spindle detects stretch, its sensory neuron does TWO things simultaneously: (1) directly excites the alpha motor neuron to the SAME muscle (contract!), and (2) synapses on an inhibitory interneuron that inhibits the alpha motor neuron to the ANTAGONIST muscle (relax!). Your arm doesn't fight itself because of this elegant circuit. this is one of the most beautiful pieces of neural engineering you possess.",
         "metaphor": "Reciprocal inhibition is like a perfectly timed traffic light system for opposing muscles — and Absolutely elegant. When the agonist gets a green light (contract!), the antagonist automatically gets a red light (relax!). No conscious thought required — your spinal cord handles it at the reflex level. Embrace this:this: Pure coordination. Perfect timing. Zero effort."
-      }
+      },
+      "scaffoldFile": "200.4-reflexes-scaffolds/200.4.01-scaffolds.json"
     },
     {
       "id": "200.4.02",
@@ -64,28 +43,6 @@
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
       "explain": "Pay attention here: when light hits the retina. The pupillary light reflex tests TWO cranial nerves working together in perfect synchrony: CN II (optic) carries the sensory signal IN, and CN III (oculomotor) carries the motor signal OUT to constrict the pupil. If the pupil responds, CN III is functioning. this gets darker.",
-      "prereqs": [
-        {
-          "q": "The pupil gets smaller (constricts) when bright light shines in the eye.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Yes — and this is beautiful in its simplicity. This is the pupillary light reflex. Bright light triggers pupil constriction to protect the retina and regulate the amount of light entering the eye. It's an automatic, brainstem-level response — no thought required."
-        },
-        {
-          "q": "The pupillary light reflex is a test of brainstem function.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Absolutely — and The elegance reveals itself here:. The pupillary light reflex requires intact cranial nerves II and III, PLUS the midbrain pretectal nucleus. That's why checking pupil reactions is a quick, surgical way to assess brainstem function in emergencies. Let me show you where this gets dark: A blown pupil means something is CRUSHING CN III. Bear with me:."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -108,7 +65,8 @@
         "title": "The Pupillary Light Reflex: A Window to Brainstem Integrity",
         "content": "Now witness the true sophistication: — Walk this path:, and let me show you one of the most exquisite diagnostic mechanisms in emergency medicine. The pupillary light reflex tests brainstem function with surgical precision: AFFERENT LIMB (CN II): Photoreceptors → retinal ganglion cells → optic nerve → pretectal nucleus in the midbrain. EFFERENT LIMB (CN III): Pretectal nucleus → Edinger-Westphal nucleus → oculomotor nerve → ciliary ganglion → sphincter pupillae muscle (constriction). Now wait for it — here's where this gets delicious and terrifying: In brain herniation, rising intracranial pressure CRUSHES CN III against the tentorium cerebelli, causing a fixed, dilated pupil — the 'blown pupil.' This is a neurological emergency indicating possible brain death. Surrender to the logic here:the weight of this: A single, unresponsive pupil is the brainstem screaming.",
         "metaphor": "The pupillary reflex is like a simple circuit — and Wonderfully designed. The optic nerve is the sensor, the midbrain is the processor, and the oculomotor nerve is the motor. If you flip the switch (shine light) and the light comes on (pupil constricts), the circuit works. But if the pupil is fixed and dilated? The circuit is CRUSHED. The brainstem is being compressed. Focus on this moment: — because this is life or death, and you're watching it happen in real time."
-      }
+      },
+      "scaffoldFile": "200.4-reflexes-scaffolds/200.4.02-scaffolds.json"
     },
     {
       "id": "200.4.03",
@@ -120,28 +78,6 @@
       "answer": 0,
       "chapter": "Chapter 13 — Nerves & Sensory",
       "explain": "Absolutely true — and let me show you why this matters. Wrist drop results from damage to the radial nerve, which arises from the posterior cord of the brachial plexus (C5-T1). The radial nerve innervates the wrist and finger extensors — when it's damaged, your wrist just hangs there, limp and useless. this gets darker.",
-      "prereqs": [
-        {
-          "q": "The radial nerve controls muscles that extend the wrist.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Yes — and this is elegant. The radial nerve innervates ALL the extensor muscles of the forearm. These muscles extend (straighten) the wrist and fingers — they're the 'lift' muscles that fight gravity. you're about to see what happens when this fails."
-        },
-        {
-          "q": "If the muscles that lift the wrist are paralyzed, the wrist will hang limp.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Absolutely — and This is the breathtaking bit:. Without functioning extensor muscles, gravity pulls the wrist down into a flexed position. This condition is called 'wrist drop' and indicates radial nerve injury. The wrist just dangles — no tone, no control, no function. Immerse yourself in this:that loss."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "correct",
@@ -156,7 +92,8 @@
         "title": "The Radial Nerve and Wrist Drop",
         "content": "See what happens next: — here's where anatomy becomes devastation. The radial nerve (C5-T1) arises from the posterior cord of the brachial plexus and spirals around the POSTERIOR humerus in the spiral groove, making it vulnerable to mid-shaft humeral fractures. Let me show you what it innervates: triceps (elbow extension), brachioradialis (forearm flexion), and ALL the extensors of the wrist and fingers. Now wait for it — here's where this gets delicious: Radial nerve palsy causes: (1) inability to extend the wrist (wrist drop), (2) inability to extend the fingers at the MCP joints, (3) loss of sensation over the posterior forearm and dorsal hand. The functional result? The hand becomes nearly useless for gripping — you can't stabilize the wrist to generate grip force. Permit yourself to feel this:the totality of this loss.",
         "metaphor": "The radial nerve is the 'lift' nerve — and Perfectly orchestrated. in its simplicity? It powers all the muscles that lift your wrist and fingers against gravity. Without it, everything falls. Like cutting the cables on a puppet's hands — they just drop and dangle. No tone. No extension. No function. Just gravity winning. Breathe in this knowledge:that surrender."
-      }
+      },
+      "scaffoldFile": "200.4-reflexes-scaffolds/200.4.03-scaffolds.json"
     },
     {
       "id": "200.4.04",
@@ -170,28 +107,6 @@
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
       "explain": "reciprocal inhibition prevents antagonistic muscles from contracting while the agonist contracts. This coordination happens at the spinal cord level through inhibitory interneurons — beautiful, automatic, and completely unconscious. Don't lose this thread:. in your nervous system.",
-      "prereqs": [
-        {
-          "q": "For smooth movement, opposing muscles must be coordinated.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Absolutely — and let me show you why. If both the biceps and triceps contracted at the same time with equal force, your elbow wouldn't move — it would be LOCKED in place, rigid and useless. Coordination is essential for function. we're going deeper."
-        },
-        {
-          "q": "Inhibitory interneurons can prevent motor neurons from firing.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Yes — and Now we arrive at the gorgeous part:. Interneurons in the spinal cord can release inhibitory neurotransmitters (like glycine or GABA) that hyperpolarize motor neurons, preventing them from firing. This effectively relaxes the muscle they control — all at the reflex level. this is the mechanism that makes reciprocal inhibition possible."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -214,7 +129,8 @@
         "title": "Reciprocal Inhibition: The Foundation of Smooth Movement",
         "content": "This is where the magic unfolds: — Travel deeper into this:, and Accept this reality:drawn into this. For smooth movement, opposing muscles must be coordinated. When you flex your elbow, the biceps contracts while the triceps MUST relax — otherwise your arm fights itself. Now wait for it — reciprocal inhibition accomplishes this with elegant simplicity: the sensory neuron from the muscle spindle (Ia afferent) excites the alpha motor neuron to the AGONIST while also activating an inhibitory interneuron (using glycine as neurotransmitter) that suppresses the alpha motor neuron to the ANTAGONIST. All of this happens at the spinal level, completely unconsciously. Your arm doesn't fight itself because of this reflex circuit. Allow your mind to embrace this:the precision — this is one of the most exquisite mechanisms in your spinal cord.",
         "metaphor": "Think of reciprocal inhibition as a perfectly balanced seesaw where one side going up automatically pushes the other side down — and Gloriously complex. When the agonist muscle gets the 'contract' signal (green light), the antagonist automatically gets a 'relax' signal (red light). This prevents the arm from fighting itself. No conscious coordination needed — your spinal cord is the traffic controller, and it never sleeps. Give this idea space to land:the elegance of this automatic coordination."
-      }
+      },
+      "scaffoldFile": "200.4-reflexes-scaffolds/200.4.04-scaffolds.json"
     },
     {
       "id": "200.4.05",
@@ -228,28 +144,6 @@
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
       "explain": "let me show you the exquisite logic here. Hyperactive reflexes BELOW the lesion mean upper motor neuron damage (loss of descending inhibition). Absent reflexes AT the lesion mean lower motor neuron damage (destroyed reflex arc). The abdominal reflex tests T8-T12 segments — that's where the lesion is DESTROYING the reflex arc. Below that level (knee/ankle = L2-S2), reflexes are hyperactive because descending inhibition is lost. this is beautiful diagnostic reasoning.",
-      "prereqs": [
-        {
-          "q": "Upper motor neuron lesions cause hyperactive reflexes BELOW the level of the lesion.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Yes — and And now, the revelation:. Upper motor neurons normally provide INHIBITION to spinal reflexes. When you damage them, you RELEASE the lower motor neurons from inhibition — reflexes become exaggerated and brisk. This is why stroke patients develop hyperreflexia. Receive this insight:the irony: losing control creates too much response."
-        },
-        {
-          "q": "Lower motor neuron lesions cause ABSENT reflexes at the level of damage.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Absolutely — and this is where the anatomy becomes devastation. Lower motor neurons ARE the efferent limb of the reflex arc. Destroy them, and the reflex cannot happen — you've cut the wire that makes the muscle contract. The reflex arc is BROKEN. this is the key to locating spinal lesions."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -272,7 +166,8 @@
         "title": "Localizing Spinal Lesions: The Reflex Pattern",
         "content": "Advance into this:, and Make room for this understanding:the exquisite logic of spinal lesion localization. A spinal cord lesion creates TWO patterns: (1) AT the level of the lesion: ABSENT reflexes (lower motor neuron damage — the reflex arc is destroyed). (2) BELOW the level of the lesion: HYPERACTIVE reflexes (upper motor neuron damage — descending inhibition is lost). Now wait for it — the abdominal reflex tests spinal segments T8-T12. If it's absent while leg reflexes (L2-S2) are hyperactive, the lesion is at T8-T12. This is the level where the cord is being CRUSHED, compressed, or severed. Welcome this realization:this: the pattern of reflexes maps the anatomy of the damage with surgical precision.",
         "metaphor": "Think of the spinal cord as a highway with off-ramps at every level — and Nature at its finest. A lesion at T10 is like a roadblock: traffic to that exit (T10 reflex) is BLOCKED (absent reflex), but all the exits BELOW the roadblock become chaotic and uncontrolled because the 'slow down' signals from the brain can't get through (hyperactive reflexes). The reflex pattern tells you EXACTLY where the roadblock is. Invite this in:it: anatomy becomes geography, and you're reading the map."
-      }
+      },
+      "scaffoldFile": "200.4-reflexes-scaffolds/200.4.05-scaffolds.json"
     },
     {
       "id": "200.4.06",
@@ -286,28 +181,6 @@
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
       "explain": "Track this carefully:the anatomy tells the story. Wrist drop + inability to extend fingers + numbness over the dorsal hand = radial nerve injury. The radial nerve arises from C6-C7 (with contributions from C5, C8, and T1, but predominantly C6-C7). The fracture crushed the radial nerve in the spiral groove of the humerus. this is classic peripheral nerve trauma.",
-      "prereqs": [
-        {
-          "q": "The radial nerve controls wrist and finger extension.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Yes — and let me show you why this matters. The radial nerve innervates ALL the extensor muscles of the posterior forearm. These are the muscles that lift your wrist and straighten your fingers against gravity. Damage them, and everything just falls. Maintain this focus:."
-        },
-        {
-          "q": "The radial nerve is vulnerable to injury where it spirals around the humerus.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Absolutely — and here's where anatomy becomes vulnerability. The radial nerve runs in the spiral groove on the POSTERIOR surface of the humerus, wrapping around the bone like a wire around a post. A mid-shaft humeral fracture can crush, stretch, or sever it. One fracture, one nerve, one devastating loss. Open your mind to this:the permanence."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -330,7 +203,8 @@
         "title": "Radial Nerve Injury: From Fracture to Wrist Drop",
         "content": "Follow this sequence: — here's where a fracture becomes a functional catastrophe. The radial nerve (C5-C6-C7-C8-T1, but predominantly C6-C7) arises from the posterior cord of the brachial plexus and spirals around the POSTERIOR humerus in the spiral groove. This anatomical course makes it exquisitely vulnerable to mid-shaft humeral fractures. Now wait for it — when the radial nerve is crushed, you lose: (1) Wrist extension → wrist drop, (2) Finger extension at MCP joints → fingers hang limp, (3) Thumb extension and abduction → weak grip, (4) Sensation over dorsal hand and posterior forearm. The functional result? The hand becomes nearly USELESS for gripping — you cannot stabilize the wrist to generate force. Grant yourself this moment of clarity:this: one fracture, one nerve, one lost hand.",
         "metaphor": "The radial nerve wrapped around the humerus is like a garden hose wrapped around a pole — and Evolution's crowning achievement. delicious vulnerability? When the pole breaks (humeral fracture), the hose gets CRUSHED between the fractured edges. The water stops flowing (nerve signals stop), and everything downstream wilts and dies (muscles atrophy, wrist drops). Allow the mechanism to reveal itself:it: the anatomy that makes movement possible is the same anatomy that makes injury devastating."
-      }
+      },
+      "scaffoldFile": "200.4-reflexes-scaffolds/200.4.06-scaffolds.json"
     },
     {
       "id": "200.4.07",
@@ -344,28 +218,6 @@
       "answer": 2,
       "chapter": "Chapter 13 — Nerves & Sensory",
       "explain": "the Babinski sign is one of the most important pathological reflexes you'll ever test. In adults, it indicates damage to the CORTICOSPINAL TRACT (upper motor neurons). Normally, descending pathways suppress this primitive reflex. When you damage them, the reflex re-emerges — the big toe extends instead of flexing. this is where reflex testing becomes diagnostic gold.",
-      "prereqs": [
-        {
-          "q": "In healthy adults, stroking the sole of the foot causes the toes to curl downward (plantar flexion).",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Yes — and this is the NORMAL plantar reflex. When you stroke the lateral sole of the foot from heel to toe, the toes should curl DOWN. This is what you want to see. because when this reverses, everything changes."
-        },
-        {
-          "q": "The Babinski sign is normal in infants but pathological in adults.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Absolutely — and here's where development becomes diagnostic. Infants have immature corticospinal tracts, so the Babinski sign (big toe extends, other toes fan out) is NORMAL until about age 2. After that, it should disappear. If it re-emerges in an adult, it means the corticospinal tract is DAMAGED. Feel the weight of this:the weight of this: a baby's reflex in an adult's body is a sign of brain damage."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -388,7 +240,8 @@
         "title": "The Babinski Sign: When the Brain Loses Control",
         "content": "Prepare yourself for this: — Embark on this:, and Sit with this knowledge:why neurologists treasure this sign. The plantar reflex has TWO forms: (1) NORMAL (plantar flexion): Stroke the lateral sole → toes curl DOWN. This is mediated by intact corticospinal pathways that SUPPRESS the primitive extensor reflex. (2) BABINSKI SIGN (dorsiflexion): Stroke the lateral sole → big toe extends UP, other toes fan out. This primitive reflex re-emerges when the corticospinal tract is DAMAGED. Now wait for it — the Babinski sign indicates: stroke, spinal cord injury, MS, brain tumor, or ANY process that damages upper motor neurons. It's BILATERAL in spinal cord lesions above L5-S1, and UNILATERAL in cortical lesions (stroke). Consider the elegance here:the gravity: this simple test reveals whether the brain's command over the spinal cord is intact or shattered.",
         "metaphor": "Think of the Babinski sign as a security system that's been disabled — and Sublimely intricate. delicious metaphor? Normally, the brain (corticospinal tract) keeps the primitive toe-extension reflex LOCKED DOWN (toes curl down when stimulated). But when the brain's control is damaged, the primitive reflex breaks FREE (big toe extends up). It's like the brain's security system failing, and ancient, infantile reflexes escaping from their cage. Allow this to wash over you:it: the Babinski is the nervous system regressing to infancy."
-      }
+      },
+      "scaffoldFile": "200.4-reflexes-scaffolds/200.4.07-scaffolds.json"
     },
     {
       "id": "200.4.08",
@@ -402,28 +255,6 @@
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
       "explain": "the knee jerk (patellar reflex) tests L2-L4 spinal segments via the femoral nerve. If it's absent while the ankle jerk (S1-S2) is intact, the lesion must be at L2-L4 — that's where the reflex arc is destroyed. this is beautiful localization through reflex testing.",
-      "prereqs": [
-        {
-          "q": "The patellar (knee jerk) reflex tests the L2-L4 spinal segments.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Yes — and let me show you the elegance of this. When you tap the patellar tendon, you're testing the integrity of the L2-L4 spinal cord segments and the femoral nerve. Stretch receptors in the quadriceps → sensory neurons → L2-L4 dorsal horn → motor neurons → femoral nerve → quadriceps contracts. Simple. Surgical. Diagnostic. Walk through this:."
-        },
-        {
-          "q": "The ankle jerk reflex tests the S1-S2 spinal segments.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Absolutely — and here's where the anatomy becomes a map. The ankle jerk (Achilles reflex) tests S1-S2 via the tibial nerve. Tap the Achilles tendon → gastrocnemius/soleus contracts → foot plantar flexes. If this reflex is intact while the knee jerk is absent, you know the lesion is ABOVE S1 but involves L2-L4. Absorb this:the precision."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -446,7 +277,8 @@
         "title": "Reflex Testing: Mapping Spinal Cord Damage",
         "content": "here's where reflex testing becomes a surgical diagnostic tool. Each deep tendon reflex tests SPECIFIC spinal segments: Biceps reflex → C5-C6. Triceps reflex → C7-C8. Patellar reflex (knee jerk) → L2-L4. Achilles reflex (ankle jerk) → S1-S2. Now wait for it — when a reflex is ABSENT, the lesion is AT that spinal level (the reflex arc is destroyed — lower motor neuron damage). When reflexes are HYPERACTIVE below the lesion, descending inhibition is lost (upper motor neuron damage). In this case: absent knee jerk (L2-L4 destroyed) + normal ankle jerk (S1-S2 intact) = lesion at L2-L4. Take a moment to appreciate this:the precision: the pattern of reflexes maps the anatomy of the spinal cord injury with exquisite accuracy.",
         "metaphor": "Think of deep tendon reflexes as diagnostic sensors placed along the spinal cord — and A symphony of function. Each reflex tests a specific 'floor' of the spinal building. If the sensor at L2-L4 (knee jerk) is dead but the sensor at S1-S2 (ankle jerk) works fine, you know the damage is on the L2-L4 floor. The reflex pattern is a map, and you're reading the coordinates of the injury. Embrace this:it: the body tells you EXACTLY where it's broken."
-      }
+      },
+      "scaffoldFile": "200.4-reflexes-scaffolds/200.4.08-scaffolds.json"
     },
     {
       "id": "200.4.09",
@@ -460,28 +292,6 @@
       "answer": 0,
       "chapter": "Chapter 13 — Nerves & Sensory",
       "explain": "this is a MIXED pattern, and it's exquisite in its complexity. Absent ankle jerks (S1-S2) suggest PERIPHERAL neuropathy (lower motor neuron damage — the reflex arc is broken). Hyperactive knee jerks (L2-L4) suggest UPPER motor neuron disease (descending inhibition is lost). This combination is classic for conditions like subacute combined degeneration (B12 deficiency), tabes dorsalis, or combined peripheral neuropathy + spinal cord disease. this is where differential diagnosis gets delicious.",
-      "prereqs": [
-        {
-          "q": "Peripheral neuropathy causes ABSENT or DIMINISHED reflexes.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Yes — and here's the mechanism. Peripheral neuropathy damages the PERIPHERAL nerves (lower motor neurons or sensory neurons), which are part of the reflex arc. Destroy the arc, and the reflex cannot happen. This is why diabetic neuropathy and alcoholic neuropathy both cause diminished or absent ankle jerks — the S1-S2 nerves are dying. Navigate this together:."
-        },
-        {
-          "q": "Upper motor neuron disease causes HYPERACTIVE reflexes.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Absolutely — and let me show you why. Upper motor neurons provide DESCENDING INHIBITION to spinal reflexes. When you damage them (stroke, MS, spinal cord compression), you RELEASE the lower motor neurons from inhibition. Reflexes become exaggerated, brisk, and sometimes even clonus (rhythmic oscillations). This is classic upper motor neuron pathology. Open yourself to this:the irony: losing control creates too much response."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "correct",
@@ -504,7 +314,8 @@
         "title": "Mixed Reflex Patterns: When Two Diseases Collide",
         "content": "Direct your attention here: — this is where clinical neurology becomes detective work. A MIXED reflex pattern (absent distally, hyperactive proximally) suggests TWO simultaneous disease processes: (1) PERIPHERAL NEUROPATHY (distal segments): Damages peripheral nerves → absent ankle jerks (S1-S2). Common causes: diabetes, alcoholism, B12 deficiency, uremia. (2) UPPER MOTOR NEURON DISEASE (spinal cord or brain): Damages corticospinal tracts → hyperactive knee jerks (L2-L4) due to loss of descending inhibition. Now wait for it — the CLASSIC cause of this pattern is SUBACUTE COMBINED DEGENERATION (B12 deficiency), which damages BOTH the dorsal columns (vibration/proprioception loss) and the corticospinal tracts (hyperreflexia). The absent ankle jerks are from peripheral neuropathy. The hyperactive knee jerks are from corticospinal tract degeneration. Two diseases, one patient, one devastating combination. Surrender to the logic here:the elegance: the reflex pattern tells you EXACTLY which parts of the nervous system are failing.",
         "metaphor": "Think of this reflex pattern as a house with a broken basement (peripheral neuropathy — absent ankle jerks) and a broken upstairs control room (upper motor neuron disease — hyperactive knee jerks) — and Crafted to perfection. delicious metaphor? The wiring in the basement is dead (no signal), but the control room has lost its ability to regulate the middle floors (too much signal). The result? A chaotic mix of too little and too much. Immerse yourself in this:it: two levels of failure creating one diagnostic pattern."
-      }
+      },
+      "scaffoldFile": "200.4-reflexes-scaffolds/200.4.09-scaffolds.json"
     },
     {
       "id": "200.4.10",
@@ -518,28 +329,6 @@
       "answer": 2,
       "chapter": "Chapter 13 — Nerves & Sensory",
       "explain": "this is the Babinski sign, and in an infant, it's NORMAL. Babies are born with immature corticospinal tracts, so the primitive extensor reflex is present until about age 2. This is normal development, not pathology. because if this reflex persists AFTER age 2, or re-emerges in an adult, THEN it indicates brain damage. Let this settle:the timing: context determines whether a reflex is normal or catastrophic.",
-      "prereqs": [
-        {
-          "q": "Infants have immature nervous systems at birth.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Yes — and this is beautiful in its simplicity. The nervous system continues to develop for YEARS after birth. Myelination of motor pathways (especially the corticospinal tract) isn't complete until around age 2. This is why infants have reflexes that would be pathological in adults — their brains haven't finished building the control systems yet. Follow the breadcrumbs:."
-        },
-        {
-          "q": "The Babinski sign normally disappears by age 2 as the nervous system matures.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 13 — Nerves & Sensory",
-          "explain": "Absolutely — and here's where development becomes diagnostic. As the corticospinal tract matures and myelinates, it begins to SUPPRESS the primitive Babinski reflex. By age 2, the normal plantar reflex should be present (toes curl DOWN when the sole is stroked). If the Babinski persists beyond age 2, it indicates delayed myelination or neurological damage. Permit yourself to feel this:the precision: the disappearance of a reflex is a developmental milestone."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -562,7 +351,8 @@
         "title": "The Babinski Sign: Normal in Infants, Pathological in Adults",
         "content": "The plot thickens beautifully here: — Journey with me into this:, and Breathe in this knowledge:the developmental neurology behind the Babinski. Infants are born with IMMATURE corticospinal tracts (the pathways that carry voluntary motor commands from the brain to the spinal cord). Without mature descending inhibition, primitive reflexes dominate. The Babinski sign — big toe extends upward, other toes fan out — is one of these primitive reflexes. Now wait for it — as the infant's brain develops and the corticospinal tracts myelinate (complete by ~age 2), descending inhibition SUPPRESSES the Babinski reflex. The normal plantar reflex emerges: toes curl DOWN when the sole is stroked. If the Babinski PERSISTS beyond age 2, it indicates delayed myelination or neurological damage. If it RE-EMERGES in an adult, it means the corticospinal tract is DAMAGED (stroke, MS, spinal cord injury). Accept this reality:the elegance: the SAME reflex is normal in a baby but catastrophic in an adult — context is everything.",
         "metaphor": "The Babinski sign in an infant is like training wheels on a bicycle — and Beautifully inevitable. delicious metaphor? The baby's nervous system hasn't learned to 'ride' yet (immature corticospinal tracts), so the primitive reflexes are the training wheels keeping them functional. By age 2, the training wheels come off (descending inhibition suppresses the Babinski), and the mature nervous system takes over. But if an adult suddenly needs training wheels again (Babinski re-emerges), it means the mature control system has FAILED. Allow your mind to embrace this:it: a baby's reflex in an adult's body is the nervous system regressing to infancy."
-      }
+      },
+      "scaffoldFile": "200.4-reflexes-scaffolds/200.4.10-scaffolds.json"
     }
   ]
 }

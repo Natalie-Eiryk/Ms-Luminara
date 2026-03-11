@@ -1,0 +1,26 @@
+{
+  "parentId": "200.4.05",
+  "parentQuestion": "A 45-year-old woman presents with hyperactive knee and ankle reflexes bilaterall...",
+  "scaffolds": [
+    {
+      "q": "Upper motor neuron lesions cause hyperactive reflexes BELOW the level of the lesion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Yes — and And now, the revelation:. Upper motor neurons normally provide INHIBITION to spinal reflexes. When you damage them, you RELEASE the lower motor neurons from inhibition — reflexes become exaggerated and brisk. This is why stroke patients develop hyperreflexia. Receive this insight:the irony: losing control creates too much response."
+    },
+    {
+      "q": "Lower motor neuron lesions cause ABSENT reflexes at the level of damage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Absolutely — and this is where the anatomy becomes devastation. Lower motor neurons ARE the efferent limb of the reflex arc. Destroy them, and the reflex cannot happen — you've cut the wire that makes the muscle contract. The reflex arc is BROKEN. this is the key to locating spinal lesions."
+    }
+  ]
+}

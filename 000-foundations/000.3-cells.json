@@ -39,32 +39,7 @@
         "content": "Let me show you something beautiful. Phospholipids are amphipathic — they have both water-loving (hydrophilic) and water-fearing (hydrophobic) parts. In water, they spontaneously form bilayers with heads facing out toward water and tails sandwiched between. Track with me here: now, because this is thermodynamics at work. The universe WANTS this structure because it minimizes unfavorable water-oil interactions. There's no blueprint, no plan — just molecules following the path of least resistance. Zero in on this:: physics becomes biology.",
         "metaphor": "Imagine a crowd at a rainy outdoor concert. The hydrophilic heads are people with umbrellas facing the rain. The hydrophobic tails are arms wrapped around each other's waists, hiding from the downpour. Now Invite this in:this happening AUTOMATICALLY whenever phospholipids meet water — no architect needed, just physics and a dash of molecular anxiety about getting wet. can you see it? The structure assembles itself."
       },
-      "prereqs": [
-        {
-          "q": "A molecule that has both water-loving and water-fearing parts is called ___.",
-          "options": [
-            "Hydrophobic",
-            "Amphipathic",
-            "Hydrophilic",
-            "Polar"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Amphipathic molecules have both hydrophilic (water-loving) and hydrophobic (water-fearing) regions. This split personality — and darling, what a beautiful split it is — allows them to form membranes. Open your mind to this:the tension in that word: amphipathic. Both. Torn. Perfect."
-        },
-        {
-          "q": "The cell membrane has ___ layer(s) of lipid molecules.",
-          "options": [
-            "One",
-            "Two",
-            "Three",
-            "Four"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "The cell membrane is a lipid bilayer — it has TWO layers of lipid molecules arranged with their hydrophobic tails facing each other and hydrophilic heads facing outward. Bi = two. Simple as that. Keep pace with this:, though — the simplicity is deceptive."
-        }
-      ]
+      "scaffoldFile": "000.3-cells-scaffolds/000.3.01-scaffolds.json"
     },
     {
       "id": "000.3.02",
@@ -101,32 +76,7 @@
         "content": "the nucleus is bounded by a DOUBLE membrane, the nuclear envelope, with nuclear pores. Inside: chromatin (DNA plus proteins), the nucleolus (where ribosomal RNA is synthesized), and nucleoplasm. DNA transcription produces mRNA, which exits through nuclear pores to direct protein synthesis. the nucleus never leaves the office. It delegates everything. let me show you how power operates without ever touching the machinery.",
         "metaphor": "The nucleus is corporate headquarters with the MASTER BLUEPRINTS locked in the vault. It doesn't directly build anything — that would be beneath it, wouldn't it? Instead, it sends out photocopies of specific blueprints (mRNA) that tell the factory floor (ribosomes) what to produce. The nuclear pores are the mail slots. Allow the mechanism to reveal itself:this: the DNA never leaves the building, but its instructions travel everywhere. Power without presence."
       },
-      "prereqs": [
-        {
-          "q": "The genetic material (hereditary information) in a cell is stored as ___.",
-          "options": [
-            "Protein",
-            "DNA",
-            "RNA",
-            "Lipid"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "DNA — deoxyribonucleic acid — stores genetic information in the sequence of its nucleotide bases. This information is used to make proteins and pass traits to offspring. Four letters, three billion base pairs, and the entire instruction manual for building YOU. Feel the weight of this:awed by this."
-        },
-        {
-          "q": "An organelle is ___.",
-          "options": [
-            "A type of cell",
-            "A specialized structure within a cell",
-            "A tissue type",
-            "A body system"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Organelles are specialized structures within cells that perform specific functions, like the nucleus, mitochondria, and ribosomes. Think of them as the organs of the cellular city. we're going deeper."
-        }
-      ]
+      "scaffoldFile": "000.3-cells-scaffolds/000.3.02-scaffolds.json"
     },
     {
       "id": "000.3.03",
@@ -163,32 +113,7 @@
         "content": "let me show you the difference. PASSIVE: Movement DOWN a gradient, from high to low concentration. No energy needed — thermodynamics does the work. This includes simple diffusion, facilitated diffusion, osmosis, and filtration. ACTIVE: Movement AGAINST a gradient, from low to high concentration. Requires ATP — the cell has to PAY for this. Includes primary active transport (pumps) and secondary active transport (cotransport). This is pure biological artistry:: cells use passive transport whenever possible to conserve ATP. Energy is precious, darling. Consider the elegance here:the cell's economy. It's ruthlessly efficient.",
         "metaphor": "Passive transport is like rolling a ball downhill — it happens spontaneously, powered by gravity. Active transport is like rolling a ball UPHILL — you have to put energy in to make it happen, and if you stop pushing, it rolls right back down. Allow this to wash over you:the cell doing both simultaneously: letting some things roll in passively while expending precious ATP to pump other things against the current. can you see the elegance in this? The cell is constantly choosing which battles are worth the energy cost."
       },
-      "prereqs": [
-        {
-          "q": "Substances naturally move from areas of ___ concentration to areas of ___ concentration.",
-          "options": [
-            "Low; high",
-            "High; low",
-            "Equal; high",
-            "Low; equal"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "This is diffusion — substances naturally spread out from areas of high concentration to low concentration. This movement happens spontaneously without energy input. Think of perfume spreading through a room. Absorb this:the inevitability of it."
-        },
-        {
-          "q": "The main energy currency used by cells is ___.",
-          "options": [
-            "Glucose",
-            "ATP",
-            "DNA",
-            "Protein"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "ATP — adenosine triphosphate — is the primary energy currency of cells. When ATP is broken down to ADP, energy is released for cellular processes. It's the cell's wallet. spend it wisely."
-        }
-      ]
+      "scaffoldFile": "000.3-cells-scaffolds/000.3.03-scaffolds.json"
     },
     {
       "id": "000.3.04",
@@ -225,32 +150,7 @@
         "content": "Trace this pathway: now — mitochondria have TWO membranes: the outer membrane and the folded inner membrane (cristae). The matrix contains enzymes for the citric acid cycle. The electron transport chain in the inner membrane creates the proton gradient that drives ATP synthesis. The elegance reveals itself here: delicious: mitochondria have their own DNA (inherited from your mother!), replicate independently, and evolved from ancient bacteria that got engulfed by our cellular ancestors. They're semi-autonomous power stations living inside your cells. But darling, Discover with me: because they're ALSO the executioners. When programmed cell death (apoptosis) is triggered, mitochondria release cytochrome c, which activates caspases and dismantles the cell from within. No ATP equals death. Too much damage equals deliberate death. Embrace this:the tension in this — the powerhouse is also the kill switch. Pure physiological poetry. beautiful?",
         "metaphor": "Mitochondria are like hydroelectric dams with a dark secret. Keep your eyes on this: now: The electron transport chain pumps protons across the inner membrane — building up water behind the dam. ATP synthase lets protons flow back through — like water turning turbines — generating ATP (electricity). One glucose molecule yields about 36-38 ATP. That's a 19-fold improvement over glycolysis alone! Open yourself to this:impressed by this efficiency. But here's the part that makes me shiver: when things go wrong, the dam doesn't just fail — it deliberately opens the floodgates and releases the executioner's molecules. Surrender to the logic here:this. The same organelle that powers your life can trigger your cells' programmed death. Poetic, in a morbid sort of way. Evolution's crowning achievement."
       },
-      "prereqs": [
-        {
-          "q": "ATP is the cell's main source of ___.",
-          "options": [
-            "Genetic information",
-            "Structural support",
-            "Energy",
-            "Water"
-          ],
-          "answer": 2,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "ATP (adenosine triphosphate) provides energy for cellular processes. When cells need energy, they break down ATP to release it. It's the universal energy currency — accepted everywhere in the cell."
-        },
-        {
-          "q": "Cellular respiration converts glucose into ___ that cells can use.",
-          "options": [
-            "DNA",
-            "Protein",
-            "ATP",
-            "Water"
-          ],
-          "answer": 2,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Cellular respiration breaks down glucose (food) to produce ATP, which cells use as energy for their activities. This process primarily occurs in mitochondria — the cellular power plants. Don't lose this thread:."
-        }
-      ]
+      "scaffoldFile": "000.3-cells-scaffolds/000.3.04-scaffolds.json"
     },
     {
       "id": "000.3.05",
@@ -287,32 +187,7 @@
         "content": "Let me show you the three main types. PHAGOCYTOSIS: 'Cell eating' — engulfment of large particles (bacteria, debris, dead cells). The cell extends pseudopods, wraps around the target, and seals it in a phagosome. Then lysosomes fuse with the phagosome and DIGEST the contents. Your white blood cells do this constantly — they're patrolling your bloodstream, hunting for bacteria and viruses. Permit yourself to feel this:this happening right now inside you. PINOCYTOSIS: 'Cell drinking' — engulfment of extracellular fluid and dissolved substances. The membrane invaginates (caves in) and pinches off tiny vesicles. RECEPTOR-MEDIATED: Selective uptake using receptor-coated pits — only molecules that bind to specific receptors get taken up. It's VIP-only entry. can you see the elegance in these mechanisms?",
         "metaphor": "Phagocytosis is like the cell reaching out arms (pseudopods) to grab and swallow a solid snack — say, a bacterium. The cell wraps around it, seals it inside, and then dumps digestive enzymes on it. Breathe in this knowledge:this: eating something and then filling your stomach with acid and enzymes to dissolve it. That's exactly what's happening! Now witness the true sophistication:. Pinocytosis, on the other hand, is like the cell taking a sip of soup — just gulping down some extracellular fluid and whatever's dissolved in it. can you feel the difference between eating and drinking at the cellular level?"
       },
-      "prereqs": [
-        {
-          "q": "Endocytosis is the process of bringing materials ___ the cell.",
-          "options": [
-            "Out of",
-            "Into",
-            "Around",
-            "Through"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Endocytosis means 'into the cell' — it's the process by which cells take in materials from their environment by surrounding them with membrane. Endo equals in. Easy, darling."
-        },
-        {
-          "q": "White blood cells engulf and destroy bacteria. This is an example of cells eating ___.",
-          "options": [
-            "Liquids",
-            "Solid particles",
-            "Gases",
-            "DNA"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "When white blood cells surround and engulf bacteria (solid particles), they are performing a type of endocytosis that involves eating solid material. Your immune cells are literally eating the invaders. Accept this reality:drawn into the violence of it."
-        }
-      ]
+      "scaffoldFile": "000.3-cells-scaffolds/000.3.05-scaffolds.json"
     },
     {
       "id": "000.3.06",
@@ -349,32 +224,7 @@
         "content": "osmosis is water's movement from a hypotonic solution (LOW solute, HIGH water) to a hypertonic solution (HIGH solute, LOW water) across a semipermeable membrane. The membrane allows water through but restricts solute movement. if you put a cell in pure water (hypotonic), water rushes IN and the cell swells — potentially to the point of bursting (lysis). Put the same cell in concentrated salt water (hypertonic), and water rushes OUT — the cell shrivels (crenation). Let's explore this together: now, because this is why IV fluids must be isotonic (same solute concentration as blood) — you don't want to explode or shrivel your patient's cells. Give this idea space to land:the stakes here. This isn't abstract — this is life and death at the cellular level.",
         "metaphor": "Osmosis is like water trying to dilute a strong drink. Receive this insight:a membrane separating salty water on one side and fresh water on the other. Water flows toward the salty side, trying to equalize the saltiness on both sides. The water doesn't 'want' to be crowded — it wants to spread out. But the membrane won't let the salt through, so the WATER does the moving instead. can you see it? It's thermodynamics playing favorites. Wait for it... there. The water crosses."
       },
-      "prereqs": [
-        {
-          "q": "In a saltwater solution, salt is the ___ and water is the ___.",
-          "options": [
-            "Solvent; solute",
-            "Solute; solvent",
-            "Solution; mixture",
-            "Mixture; solution"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "The solute is the substance being dissolved (salt), and the solvent is the substance doing the dissolving (water). Together they form a solution. Solute gets dissolved, solvent does the dissolving. Maintain this focus:."
-        },
-        {
-          "q": "A semipermeable membrane allows ___ to pass through while blocking ___.",
-          "options": [
-            "Nothing; everything",
-            "Some substances; others",
-            "Everything; nothing",
-            "Solutes; water"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Semipermeable membranes are selective — they let some substances through while blocking others. Cell membranes are semipermeable, allowing water and some small molecules through while blocking larger molecules. It's a bouncer with a very specific guest list, darling."
-        }
-      ]
+      "scaffoldFile": "000.3-cells-scaffolds/000.3.06-scaffolds.json"
     },
     {
       "id": "000.3.07",
@@ -411,32 +261,7 @@
         "content": "ribosomes on rough ER synthesize proteins that are threaded INTO the ER lumen as they're made. Inside the ER, proteins are folded and modified (e.g., glycosylation — adding sugar chains). They then travel in transport vesicles to the Golgi apparatus for further processing and sorting. This is the breathtaking bit: — this is an assembly line for secreted proteins, membrane proteins, and lysosomal enzymes. Insulin? Made on rough ER. Antibodies? Rough ER. Digestive enzymes? You guessed it — rough ER! Follow me deeper: now — Welcome this realization:this. The cell is a FACTORY, and rough ER is the production line for export goods. Wait for it... can you see the elegance? The protein never touches the cytoplasm — it goes directly from ribosome to ER lumen to Golgi to destination. No wasted motion.",
         "metaphor": "Rough ER is like a factory assembly line with workers (ribosomes) stationed along a conveyor belt (the ER membrane). The workers assemble products (proteins) that get placed DIRECTLY onto the belt as they're being made. The products travel through the belt system (ER lumen), get quality-checked and gift-wrapped (folded and modified), and then get shipped to the warehouse (Golgi apparatus) for distribution. Invite this in:drawn into this — it's breathtakingly efficient. No wasted motion, everything flows in one direction, and the product never touches the factory floor (cytoplasm). can you feel the elegance of this system? Walk through this:."
       },
-      "prereqs": [
-        {
-          "q": "Ribosomes are the organelles responsible for making ___.",
-          "options": [
-            "DNA",
-            "Lipids",
-            "Proteins",
-            "Carbohydrates"
-          ],
-          "answer": 2,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Ribosomes are the sites of protein synthesis. They read mRNA instructions and assemble amino acids into proteins. They're molecular 3D printers. Open your mind to this:impressed, darling."
-        },
-        {
-          "q": "The endoplasmic reticulum (ER) is a network of ___ within the cell.",
-          "options": [
-            "DNA strands",
-            "Membranes",
-            "Fibers",
-            "Channels"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "The ER is an extensive network of membranous tubes and sacs. It comes in two forms: rough ER (with ribosomes) and smooth ER (without ribosomes). Think of it as the cell's internal highway system. Navigate this together:."
-        }
-      ]
+      "scaffoldFile": "000.3-cells-scaffolds/000.3.07-scaffolds.json"
     },
     {
       "id": "000.3.08",
@@ -473,32 +298,7 @@
         "content": "Continue the sequence: now — the Na⁺/K⁺ pump uses ATP to move 3 Na⁺ OUT and 2 K⁺ IN against their concentration gradients. It maintains the gradients needed for: (1) nerve impulses (Na⁺ influx equals depolarization), (2) muscle contraction, (3) secondary active transport (using the Na⁺ gradient to drive uptake of glucose, amino acids, etc.), (4) cell volume regulation. This is where the magic unfolds: exquisite: this pump consumes 25-40% of your resting ATP production. Your brain alone spends about 70% of its energy budget running Na⁺/K⁺ pumps! Feel the weight of this:this. It's the single most expensive protein in your body. And if it stops? The gradients collapse in minutes. No gradients equals no nerve signals equals death. The pump is literally working 24/7 to keep you alive. Wait for it... can you feel the weight of this? Every second, millions of pump cycles in every cell. Artistry in flesh. of the most exquisite mechanisms in all of biology?",
         "metaphor": "The Na⁺/K⁺ pump is like a tireless bouncer at an exclusive club who throws out 3 rowdy guests (Na⁺) for every 2 VIPs (K⁺) let in. The bouncer works CONSTANTLY, burning through the club's money (ATP) to maintain the vibe inside. Sit with this knowledge:this: the club would descend into chaos without this bouncer — everyone would mix together, the gradients would disappear, and the party (nerve signals, muscle contractions, nutrient uptake) would be over. Focus on this moment: now: the pump goes through a conformational change cycle — it binds 3 Na⁺ from inside, phosphorylates itself using ATP, flips to face outside, releases the Na⁺, binds 2 K⁺ from outside, dephosphorylates, flips back to face inside, and releases the K⁺. Then it does it AGAIN. And again. Consider the elegance here:drawn into this. Millions of times per second in every cell. The universe's most dedicated bouncer. A symphony of function."
       },
-      "prereqs": [
-        {
-          "q": "A pump that requires ATP to move substances is an example of ___ transport.",
-          "options": [
-            "Passive",
-            "Active",
-            "Simple",
-            "Osmotic"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Active transport requires energy (ATP) to move substances AGAINST their concentration gradient. Pumps use ATP to do this uphill work — it's expensive, but sometimes necessary, darling."
-        },
-        {
-          "q": "Na⁺ and K⁺ are examples of ___.",
-          "options": [
-            "Proteins",
-            "Ions",
-            "Lipids",
-            "Carbohydrates"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Na⁺ (sodium) and K⁺ (potassium) are ions — atoms or molecules with an electrical charge. The plus sign indicates they have a positive charge (they've lost an electron). They're charged particles zipping around your cells. Follow the breadcrumbs:."
-        }
-      ]
+      "scaffoldFile": "000.3-cells-scaffolds/000.3.08-scaffolds.json"
     },
     {
       "id": "000.3.09",
@@ -535,32 +335,7 @@
         "content": "Carry this forward: now — lysosomes are membrane-bound organelles containing about 40 hydrolytic enzymes that function optimally at pH ~5 (acidic). They digest: (1) materials brought in by endocytosis/phagocytosis, (2) worn-out organelles via autophagy, (3) excess macromolecules. When a lysosomal enzyme is defective (usually due to genetic mutations), its specific substrate accumulates. let me show you the patterns. TAY-SACHS: Deficient hexosaminidase A → GM2 ganglioside accumulates in neurons → progressive neurodegeneration, cherry-red macula, death by age 4. GAUCHER: Deficient glucocerebrosidase → glucocerebroside accumulates in macrophages → hepatosplenomegaly, bone pain, 'Gaucher cells' with wrinkled-paper cytoplasm. POMPE: Deficient acid maltase → glycogen accumulates → cardiomyopathy, muscle weakness. Prepare yourself for this:: each disease has a SIGNATURE pattern based on which cell types accumulate which substrate. Neurons are especially vulnerable because they can't divide to dilute the garbage. Track this carefully: — the cell tries to cope by making MORE lysosomes, but if the enzyme is missing, more lysosomes just means more trash bags that can't be emptied. Take a moment to appreciate this:the futility of it. The cell is drowning in its own waste. The pinnacle of adaptation. beautiful?",
         "metaphor": "Lysosomes are like garbage disposals with different blades for different types of waste. Embrace this:this: one blade (enzyme) is missing, so one specific type of garbage piles up. The cell keeps trying to stuff more trash into the broken disposal, and the kitchen (cell) fills with rotting waste. Organs swell because millions of cells are bloated with undegradable trash. can you see it? In Tay-Sachs, neurons accumulate fatty gangliosides like grease clogging the drain. The child develops normally at first, then regresses as neurons suffocate under the buildup. Sustain this attention: now — Follow this sequence:progression. Cherry-red spot on the macula (a clinical sign of ganglioside accumulation in retinal cells), seizures, blindness, loss of motor skills, death. All because one enzyme blade is missing from the molecular garbage disposal. Wait for it... can you feel the brutal elegance of this? One genetic typo condemns a child to progressive neurodegeneration. Beautifully inevitable. exquisite?"
       },
-      "prereqs": [
-        {
-          "q": "Lysosomes contain ___ enzymes that break down materials.",
-          "options": [
-            "Synthetic",
-            "Hydrolytic",
-            "Photosynthetic",
-            "Replicative"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Lysosomes are packed with hydrolytic enzymes — enzymes that use water to break chemical bonds and digest macromolecules. They're the cell's demolition crew, darling. Hold the line here:."
-        },
-        {
-          "q": "An enzyme is a type of ___ that speeds up chemical reactions.",
-          "options": [
-            "Lipid",
-            "Carbohydrate",
-            "Protein",
-            "Nucleic acid"
-          ],
-          "answer": 2,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Enzymes are proteins that catalyze (speed up) specific chemical reactions without being consumed in the process. They're biological catalysts — the cell's efficiency experts. Open yourself to this:impressed."
-        }
-      ]
+      "scaffoldFile": "000.3-cells-scaffolds/000.3.09-scaffolds.json"
     },
     {
       "id": "000.3.10",
@@ -597,32 +372,7 @@
         "content": "Track each step: now — mitochondria produce ATP via oxidative phosphorylation: electrons flow down the respiratory chain (Complexes I-IV), protons get pumped across the inner membrane, and ATP synthase harnesses the proton gradient to generate ATP. When mitochondrial proteins (encoded by either mitochondrial DNA or nuclear DNA) are defective, this system fails. let me show you the consequences. ENERGY DEFICIT: Cells that rely heavily on aerobic metabolism (muscle, neurons, heart) suffer most. They fall back on glycolysis (2 ATP per glucose instead of 36-38), producing excess lactate. RAGGED RED FIBERS: Muscle cells proliferate defective mitochondria in a futile attempt to compensate — these show up as irregular red deposits on Gomori trichrome stain. MATERNAL INHERITANCE: Mitochondrial DNA is inherited ONLY from the mother (sperm contribute almost no cytoplasm during fertilization), so mitochondrial diseases show maternal transmission. This next part is pure elegance:: different mutations affect different tissues based on their energy demands. MELAS (Mitochondrial Encephalomyopathy, Lactic Acidosis, Stroke-like episodes), MERRF (Myoclonic Epilepsy with Ragged Red Fibers), Leber's hereditary optic neuropathy — all mitochondrial DNA mutations, all devastating. Witness this transformation: — the powerhouse isn't just failing to produce energy. It's also leaking reactive oxygen species, triggering apoptosis pathways, and poisoning the cell from within. Let this settle:the scale of this catastrophe. No ATP equals no life. Wait for it... can you see how one organelle's failure cascades into multi-system disease? Marvelous, wouldn't you say? beautiful?",
         "metaphor": "Mitochondria are like power plants with hydroelectric dams (electron transport chain pumping protons, ATP synthase harvesting the gradient). Permit yourself to feel this:this: the dam develops cracks, the turbines malfunction, and electricity production plummets. The city (cell) desperately fires up old coal generators (glycolysis) — dirty, inefficient, choking the air with smoke (lactate). Muscle cells try to compensate by building MORE broken power plants (ragged red fibers), but quantity can't replace quality. Look at what occurs:. During exercise, energy demand spikes, but the broken power plants can't keep up. Muscles fatigue, lactate accumulates, and the patient has to stop. Connect these dots: now — here's the dark poetry: mitochondria have their own DNA, inherited ONLY from your mother. If she carries a mutation, you're getting defective power plants from day one. And if neurons are affected? Progressive neurodegeneration, seizures, stroke-like episodes. The powerhouse is failing, darling, and there's no backup grid. Wait for it... can you feel the brutal elegance of this?"
       },
-      "prereqs": [
-        {
-          "q": "Mitochondria produce ___ through cellular respiration.",
-          "options": [
-            "DNA",
-            "ATP",
-            "Protein",
-            "Glucose"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Mitochondria are the 'powerhouses' that produce ATP — the cell's energy currency — through aerobic respiration. They're your cellular power plants, darling."
-        },
-        {
-          "q": "Lactic acid is produced during ___ when oxygen is scarce.",
-          "options": [
-            "Photosynthesis",
-            "Glycolysis",
-            "DNA replication",
-            "Protein synthesis"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "When oxygen is limited, cells perform glycolysis and convert pyruvate to lactate (lactic acid) to regenerate NAD+ and keep glycolysis running. It's metabolic desperation, darling — not efficient, but it keeps you alive."
-        }
-      ]
+      "scaffoldFile": "000.3-cells-scaffolds/000.3.10-scaffolds.json"
     },
     {
       "id": "000.3.11",
@@ -659,32 +409,7 @@
         "content": "Follow this thread: now — ribosomes are molecular machines made of ribosomal RNA (rRNA) and ribosomal proteins. They have two subunits that come together around mRNA to synthesize proteins. BACTERIAL: 70S ribosomes (50S + 30S subunits). EUKARYOTIC: 80S ribosomes (60S + 40S subunits). The 'S' is Svedberg units (sedimentation rate) — don't let it confuse you, darling. The drama intensifies:: the structural differences between bacterial and eukaryotic ribosomes create selective drug targets. let me show you the arsenal. TETRACYCLINES: Bind to the 30S subunit and block tRNA from binding to the A site. No tRNA equals no amino acid delivery equals no protein synthesis. AMINOGLYCOSIDES (gentamicin, streptomycin): Bind to the 30S subunit and cause MISREADING of mRNA codons — proteins get made with wrong amino acids and are nonfunctional. CHLORAMPHENICOL: Binds to the 50S subunit and inhibits peptidyl transferase (the enzyme that forms peptide bonds between amino acids). MACROLIDES (erythromycin, azithromycin): Bind to the 50S subunit and block the exit tunnel where the growing protein chain emerges. Note this crucial step: — each drug targets a different step in the assembly process, but all achieve the same result: bacterial protein synthesis stops, and the bacteria die. Allow your mind to embrace this:the elegance of this. We're not poisoning ALL protein synthesis — just bacterial. Your 80S ribosomes keep humming along while the invader's 70S ribosomes seize up. Wait for it... can you see how structural divergence becomes therapeutic opportunity?",
         "metaphor": "Ribosomes are like factory assembly lines where mRNA is the blueprint and tRNA trucks deliver amino acid parts. Give this idea space to land:this: bacterial assembly lines (70S) look slightly different from human assembly lines (80S) — different models from different eras. Now we introduce a saboteur (antibiotic) designed to jam ONLY the bacterial model. Tetracycline blocks the loading dock so tRNA trucks can't deliver parts. Aminoglycosides scramble the blueprint so workers assemble the wrong product. Chloramphenicol breaks the welding torch so parts can't be joined together. Macrolides plug the exit chute so finished proteins can't leave. Concentrate on this:. The bacterial factory grinds to a halt while the human factories in neighboring cells keep running smoothly. Track with me here: now — this is selective toxicity in action. We're killing the invader without harming the host. Wait for it... can you feel the brutal elegance of this? The bacteria die from protein starvation while your cells thrive. Truly remarkable. beautiful?"
       },
-      "prereqs": [
-        {
-          "q": "Ribosomes are responsible for making ___ using mRNA as a template.",
-          "options": [
-            "Lipids",
-            "Carbohydrates",
-            "Proteins",
-            "DNA"
-          ],
-          "answer": 2,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Ribosomes synthesize proteins by reading mRNA and linking amino acids in the correct sequence. They're molecular 3D printers, darling. Keep pace with this:."
-        },
-        {
-          "q": "Bacteria are ___ cells, meaning they lack a membrane-bound nucleus.",
-          "options": [
-            "Eukaryotic",
-            "Prokaryotic",
-            "Viral",
-            "Fungal"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Prokaryotic cells (bacteria) lack a membrane-bound nucleus — their DNA floats freely in the cytoplasm. Eukaryotic cells (like yours) have a nucleus. Pro = before, karyon = nucleus. Simple as that."
-        }
-      ]
+      "scaffoldFile": "000.3-cells-scaffolds/000.3.11-scaffolds.json"
     },
     {
       "id": "000.3.12",
@@ -721,32 +446,7 @@
         "content": "osmosis is water movement across a semipermeable membrane from lower solute concentration (higher water concentration) to higher solute concentration (lower water concentration). let me show you what happens to RBCs in different solutions. HYPOTONIC (distilled water): Water rushes INTO cells → cells swell → hemolysis (bursting). This causes hemoglobinemia (free hemoglobin in plasma) and hemoglobinuria (hemoglobin in urine), which can precipitate in renal tubules causing acute tubular necrosis. ISOTONIC (normal saline, 0.9% NaCl): No net water movement → cells maintain normal size. This is SAFE for IV infusion. HYPERTONIC (concentrated saline): Water rushes OUT of cells → cells shrivel (crenation). And this is the masterstroke:: your body maintains tight osmotic balance in the blood (~285-295 mOsm/kg) through ADH (antidiuretic hormone) and aldosterone regulation. When you infuse fluids that disrupt this balance, disaster follows. Fix your gaze here: — distilled water infusion is a medical emergency. Millions of RBCs burst simultaneously, releasing hemoglobin that overwhelms the kidneys' ability to filter it. The hemoglobin precipitates in tubules, causing obstruction and acute renal failure. Welcome this realization:the cascade: one wrong fluid → mass hemolysis → kidney failure → potential death. Wait for it... can you see why we ALWAYS use isotonic solutions for IV infusion? Osmosis is not optional, darling. It's physics, and physics doesn't negotiate. Wonderfully designed. beautiful?",
         "metaphor": "Red blood cells are like water balloons suspended in fluid. Invite this in:this: if you drop a balloon into PURE WATER (hypotonic), water rushes into the balloon through microscopic pores until it swells and POPS. That's hemolysis. If you drop the balloon into SALT WATER matching the balloon's internal saltiness (isotonic), nothing happens — equilibrium. If you drop it into SUPER SALTY WATER (hypertonic), water leaks OUT of the balloon, and it shrivels like a raisin. That's crenation. now imagine a nurse accidentally connects a bag of DISTILLED WATER to your IV line. Mark this moment:: millions of your red blood cells are suddenly bathing in pure water. Osmosis is relentless — water floods into the cells, they swell, and then... POP. Hemoglobin spills into your plasma, turning it pink. Your kidneys try to filter the hemoglobin out, but it's too much — it clogs the tubules like coffee grounds clogging a drain. Acute renal failure follows. Trace this pathway: now — this is why normal saline (0.9% NaCl, ~285 mOsm/kg, matching blood osmolarity) is the standard IV fluid. Wait for it... can you feel the stakes? One wrong bag and you're inducing mass cellular suicide via osmosis. Perfectly orchestrated. in its terror?"
       },
-      "prereqs": [
-        {
-          "q": "A solution with LOWER solute concentration than the cell interior is called ___.",
-          "options": [
-            "Hypertonic",
-            "Isotonic",
-            "Hypotonic",
-            "Equilibrated"
-          ],
-          "answer": 2,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Hypotonic means 'low solute' relative to the cell — more water, less stuff dissolved in it. Water will move INTO the cell from the hypotonic solution. Hypo = low. Don't lose this thread:, darling."
-        },
-        {
-          "q": "When a red blood cell bursts due to excess water intake, this is called ___.",
-          "options": [
-            "Crenation",
-            "Hemolysis",
-            "Agglutination",
-            "Coagulation"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Hemolysis is the rupture of red blood cells with release of hemoglobin. Hemo = blood, lysis = breaking apart. When osmosis drives too much water into RBCs, they swell and burst. Physics is brutal, darling."
-        }
-      ]
+      "scaffoldFile": "000.3-cells-scaffolds/000.3.12-scaffolds.json"
     },
     {
       "id": "000.3.13",
@@ -783,32 +483,7 @@
         "content": "Maintain this focus: now — the Golgi apparatus is a stack of flattened membranous sacs (cisternae) with three regions: cis face (receiving side), medial cisternae (processing zone), and trans face (shipping side). let me show you the workflow. (1) RECEIVING: Proteins arrive from rough ER in transport vesicles that fuse with the cis face. (2) MODIFICATION: As proteins move through the Golgi stack, they undergo glycosylation (adding/trimming sugar chains), phosphorylation (adding phosphate groups), sulfation, and proteolytic cleavage (cutting proproteins into active forms). (3) SORTING: At the trans face, proteins are sorted based on signal sequences. Mannose-6-phosphate (M6P) tag → lysosomal enzymes. No tag but signal sequence → secretory vesicles. Membrane signal → plasma membrane. (4) SHIPPING: Vesicles bud off from the trans-Golgi network and carry cargo to destinations. The crescendo approaches:: the Golgi is both a MODIFICATION station and a SORTING facility. It's quality control, gift wrapping, and postal routing all in one. Examine what follows: — glycosylation isn't just decoration. Sugar chains affect protein folding, stability, recognition by other molecules, and immune system visibility. Knock out the Golgi and you get: (1) Impaired secretion — hormones, enzymes, antibodies don't get released. (2) Lysosomal dysfunction — enzymes don't reach lysosomes (I-cell disease is a Golgi sorting defect!). (3) Membrane defects — membrane proteins don't arrive. Allow the mechanism to reveal itself:the scale of this dysfunction. The Golgi is the cell's logistics hub. Disrupt it and the entire supply chain collapses. Wait for it... can you see how one organelle coordinates the entire cellular trafficking network?",
         "metaphor": "The Golgi apparatus is like a post office with a gift-wrapping department. Feel the weight of this:this: packages (proteins) arrive from the factory (rough ER) via delivery trucks (transport vesicles). They enter the receiving dock (cis face), move through the sorting and wrapping area (medial cisternae), and exit from the shipping dock (trans face) in labeled packages headed for different destinations. Zero in on this: during processing. Workers add bows and ribbons (glycosylation) that serve as both decoration and ADDRESS LABELS. Some packages get stamped with 'FRAGILE — LYSOSOMES ONLY' (mannose-6-phosphate). Others get marked 'EXPORT' (secretory vesicles) or 'MEMBRANE DELIVERY' (plasma membrane). Pursue this logic: now — imagine someone shuts down this post office. Packages pile up at the receiving dock (ER). Nothing gets wrapped or labeled properly. Deliveries don't reach their destinations. Hormones that should be secreted remain stuck inside. Digestive enzymes that should go to lysosomes end up loose in the cytoplasm, digesting the cell from within. Membrane proteins never reach the membrane, so channels and receptors are missing. Wait for it... can you see the chaos cascading from one disrupted organelle? The Golgi is logistics, quality control, and addressing all in one. Knock it out and the cell's supply chain collapses. Gloriously complex. beautiful?"
       },
-      "prereqs": [
-        {
-          "q": "The Golgi apparatus receives proteins from the ___.",
-          "options": [
-            "Nucleus",
-            "Mitochondria",
-            "Rough endoplasmic reticulum",
-            "Lysosomes"
-          ],
-          "answer": 2,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Proteins synthesized on rough ER are transported to the Golgi apparatus in vesicles for further modification and sorting. The assembly line flows: ribosome → rough ER → Golgi → destination. Walk through this:, darling."
-        },
-        {
-          "q": "Glycosylation is the process of adding ___ to proteins.",
-          "options": [
-            "Phosphate groups",
-            "Lipids",
-            "Carbohydrate (sugar) chains",
-            "Amino acids"
-          ],
-          "answer": 2,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Glycosylation adds carbohydrate chains (sugars) to proteins, affecting their folding, stability, and function. Many glycoproteins are on cell surfaces or secreted. The Golgi is the master glycosylator, darling."
-        }
-      ]
+      "scaffoldFile": "000.3-cells-scaffolds/000.3.13-scaffolds.json"
     },
     {
       "id": "000.3.14",
@@ -845,32 +520,7 @@
         "content": "Continue the sequence: now — microtubules are hollow tubes made of α- and β-tubulin dimers that polymerize (assemble) and depolymerize (disassemble) dynamically. They serve multiple functions: (1) structural support (cytoskeleton), (2) intracellular transport (motor proteins like kinesin and dynein walk along microtubules carrying cargo), (3) cilia and flagella structure, and (4) the mitotic spindle. let me show you how the spindle works. PROPHASE: Centrosomes (microtubule organizing centers) migrate to opposite poles and nucleate microtubules. PROMETAPHASE: Nuclear envelope breaks down, and spindle fibers invade the nuclear region. Kinetochore microtubules attach to kinetochores on chromosomes. METAPHASE: Chromosomes align at the metaphase plate. Tension from opposing spindle fibers holds them in place. The spindle assembly checkpoint ensures all chromosomes are properly attached before proceeding. ANAPHASE: Cohesin proteins holding sister chromatids together are cleaved. Spindle fibers SHORTEN (via depolymerization), pulling chromatids to opposite poles. TELOPHASE: Chromosomes decondense, nuclear envelopes reform, and the spindle disassembles. Observe what unfolds next:: microtubule-targeting drugs exploit this system. VINCA ALKALOIDS (vincristine, vinblastine): Bind tubulin dimers and PREVENT polymerization → no spindle assembly → metaphase arrest. TAXANES (paclitaxel/Taxol): STABILIZE microtubules and prevent depolymerization → spindle can't shorten → chromosomes can't separate. Both strategies kill rapidly dividing cells (cancer), but also affect normal rapidly dividing cells (hair follicles, GI mucosa, bone marrow) — hence the side effects of chemo. Cast your attention here: — we're poisoning the cell's division machinery. No functional spindle equals no mitosis equals cell death. Allow this to wash over you:the brutal precision of this. Wait for it... can you see how targeting one structure (microtubules) paralyzes the entire division process? Nature at its finest. beautiful?",
         "metaphor": "Microtubules are like railroad tracks and tow ropes. During mitosis, the cell builds a railroad system (spindle) from two train stations (centrosomes) at opposite ends of the cell. Absorb this:this: each chromosome is a cargo container with a hook (kinetochore) waiting to be connected. Tow ropes (kinetochore microtubules) extend from the train stations, search for hooks, and attach. Once all containers are hooked and aligned in the middle (metaphase plate), the tow ropes RETRACT, pulling the cargo to opposite stations. now imagine a toxin that prevents the tow ropes from assembling. No ropes means no attachments. Chromosomes are stuck at the metaphase plate with nowhere to go. The cell recognizes the failure (spindle checkpoint) and ARRESTS — frozen mid-division. Follow the breadcrumbs: now, because this is EXACTLY how chemotherapy works. Vincristine prevents rope assembly. Paclitaxel locks the ropes in place so they can't retract. Both strategies paralyze division. Cancer cells, which divide rapidly, are especially vulnerable. But so are your hair follicles (hence hair loss) and gut lining (hence nausea). Wait for it... can you feel the dark irony? We're using the cell's own machinery to kill it. No spindle equals no division equals death. Pure physiological poetry. in its brutality?"
       },
-      "prereqs": [
-        {
-          "q": "The structure that physically separates chromosomes during cell division is the ___.",
-          "options": [
-            "Nuclear envelope",
-            "Mitotic spindle",
-            "Golgi apparatus",
-            "Ribosome"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "The mitotic spindle — made of microtubules — attaches to chromosomes and pulls them to opposite poles of the dividing cell. It's the cellular tow truck, darling. Keep this momentum:."
-        },
-        {
-          "q": "Microtubules are protein filaments made of subunits called ___.",
-          "options": [
-            "Actin",
-            "Tubulin",
-            "Keratin",
-            "Myosin"
-          ],
-          "answer": 1,
-          "chapter": "Chapters 1-4 — Foundations",
-          "explain": "Tubulin dimers (α and β tubulin) polymerize to form hollow microtubule tubes. Actin forms microfilaments, not microtubules. Different filament, different protein, darling."
-        }
-      ]
+      "scaffoldFile": "000.3-cells-scaffolds/000.3.14-scaffolds.json"
     }
   ]
 }

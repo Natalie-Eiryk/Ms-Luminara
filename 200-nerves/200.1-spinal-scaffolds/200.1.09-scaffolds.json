@@ -1,0 +1,26 @@
+{
+  "parentId": "200.1.09",
+  "parentQuestion": "A patient presents with bilateral loss of proprioception and vibration sense in ...",
+  "scaffolds": [
+    {
+      "q": "The dorsal columns (fasciculus gracilis and cuneatus) carry proprioception, vibration sense, and fine discriminative touch.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Let me show you the pathway of elegance. The dorsal columns are the posterior white matter tracts that carry fine touch, vibration, and proprioception. These fibers enter through the dorsal root and ascend IPSILATERALLY (same side) in the dorsal columns all the way to the medulla, where they synapse and cross. This is why dorsal column lesions cause SAME-SIDE deficits. Here's the beautiful specificity: damage here affects position sense and vibration but spares pain and temperature. The modalities segregate anatomically. this creates distinctive clinical patterns."
+    },
+    {
+      "q": "The Romberg test assesses proprioceptive function by having the patient stand with eyes closed. A positive test (increased instability with eyes closed) indicates impaired proprioception.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Traverse this territory: and Direct your attention here:test. The Romberg test asks the patient to stand with feet together, first with eyes open, then with eyes closed. Here's the exquisite logic: standing requires input from three systems — vision, vestibular (balance), and proprioception (position sense from joints and muscles). If proprioception is lost, the patient compensates with vision. When you close their eyes, they lose that compensation and become unstable. A positive Romberg sign (increased sway or falling when eyes close) indicates dorsal column or peripheral nerve dysfunction. Make room for this understanding:into the diagnostic precision: you're unmasking the deficit by removing visual compensation."
+    }
+  ]
+}

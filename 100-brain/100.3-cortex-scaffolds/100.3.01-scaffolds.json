@@ -1,0 +1,28 @@
+{
+  "parentId": "100.3.01",
+  "parentQuestion": "The primary visual cortex contains a map of visual space.",
+  "scaffolds": [
+    {
+      "q": "Visual information from the eyes is processed in a specific region of the brain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The brain has specialized regions for different functions. Visual processing occurs primarily in the occipital lobe at the back of the brain — the farthest point from the eyes themselves. Geography follows function, not convenience."
+    },
+    {
+      "q": "Which lobe of the brain is primarily responsible for processing vision?",
+      "options": [
+        "Frontal lobe",
+        "Temporal lobe",
+        "Occipital lobe",
+        "Parietal lobe"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The occipital lobe, located at the back of the brain, contains the primary visual cortex (V1) and is the main processing center for visual information. Your eyes point forward, but the cortex that interprets what you see sits at the back of your skull."
+    }
+  ]
+}

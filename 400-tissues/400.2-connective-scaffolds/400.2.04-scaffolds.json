@@ -1,0 +1,30 @@
+{
+  "parentId": "400.2.04",
+  "parentQuestion": "Which of the following statements about connective tissue is FALSE?",
+  "scaffolds": [
+    {
+      "q": "What does 'vascular' mean?",
+      "options": [
+        "Having many cells",
+        "Having blood vessels",
+        "Being very hard",
+        "Being elastic"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Vascular means having blood vessels. Well-vascularized tissues have many blood vessels and good blood supply. Avascular tissues have NO blood vessels at all. Simple terminology, but it determines healing speed."
+    },
+    {
+      "q": "Which tissue is known for having NO blood vessels?",
+      "options": [
+        "Bone",
+        "Muscle",
+        "Cartilage",
+        "Fat"
+      ],
+      "answer": 2,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Cartilage is avascular (no blood vessels). It receives nutrients by diffusion from surrounding tissues. This is why cartilage injuries heal VERY slowly — no express delivery service. Let me show you why this matters clinically."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parentId": "100.3.10",
+  "parentQuestion": "A patient has difficulty planning and sequencing complex tasks — they can perfor...",
+  "scaffolds": [
+    {
+      "q": "Complex tasks like making coffee require planning and sequencing multiple steps in the correct order.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Multi-step tasks require executive function — planning, sequencing, monitoring progress, and adjusting behavior. This is different from simply executing individual motor movements. It's the difference between knowing how to stir and knowing when stirring fits into the recipe."
+    },
+    {
+      "q": "The frontal lobe is involved in planning, decision-making, and organizing behavior.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The prefrontal cortex in the frontal lobe is the brain's executive center, responsible for planning, sequencing, inhibiting inappropriate actions, and coordinating complex goal-directed behavior. It's the conductor of the neural orchestra."
+    }
+  ]
+}

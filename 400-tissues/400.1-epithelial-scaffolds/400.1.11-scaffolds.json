@@ -1,0 +1,30 @@
+{
+  "parentId": "400.1.11",
+  "parentQuestion": "A long-term smoker's respiratory epithelium undergoes changes, losing cilia and ...",
+  "scaffolds": [
+    {
+      "q": "What is the normal epithelium lining the trachea and bronchi?",
+      "options": [
+        "Stratified squamous",
+        "Simple squamous",
+        "Pseudostratified ciliated columnar",
+        "Simple cuboidal"
+      ],
+      "answer": 2,
+      "chapter": "Tissues & Epithelia",
+      "explain": "The trachea and bronchi are normally lined by pseudostratified ciliated columnar epithelium with goblet cells. The cilia sweep mucus upward, and goblet cells produce the mucus that traps debris."
+    },
+    {
+      "q": "What is the function of cilia in the respiratory tract?",
+      "options": [
+        "Absorb oxygen",
+        "Move mucus upward",
+        "Produce mucus",
+        "Filter air"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Cilia in the respiratory tract beat in coordinated waves to move mucus (and trapped debris) upward toward the throat. This is called the mucociliary escalator and is a critical defense mechanism."
+    }
+  ]
+}

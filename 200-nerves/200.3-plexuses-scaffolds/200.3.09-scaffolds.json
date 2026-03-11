@@ -1,0 +1,26 @@
+{
+  "parentId": "200.3.09",
+  "parentQuestion": "A patient reports numbness and tingling in the thumb, index, and middle fingers,...",
+  "scaffolds": [
+    {
+      "q": "The median nerve passes through the carpal tunnel at the wrist.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The carpal tunnel is a narrow passageway on the anterior wrist, bounded by carpal bones and the flexor retinaculum. Nine flexor tendons and the median nerve pass through this confined space. Swelling in the tunnel compresses the nerve — carpal tunnel syndrome. imagine that nerve slowly being squeezed in a confined space, day after day, month after month..."
+    },
+    {
+      "q": "The median nerve provides sensation to the thumb, index, middle, and lateral half of the ring finger.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The median nerve supplies sensation to the palmar surface of the lateral 3½ digits — thumb, index, middle, and radial half of ring finger. This is why carpal tunnel syndrome causes numbness in these SPECIFIC fingers. Make room for this understanding:drawn into this precision — one nerve, a defined territory. Compress the nerve, and that exact distribution goes numb."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parentId": "000.1.05",
+  "parentQuestion": "Homeostasis is the condition in which the body maintains ___.",
+  "scaffolds": [
+    {
+      "q": "The body works to maintain stable internal conditions despite changes in the external environment.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Your body temperature, blood pH, and blood sugar levels stay relatively constant even when external conditions change dramatically. Step outside in freezing weather? Your core temperature stays at 37°C. Give this idea space to land:into this: this self-regulation is ESSENTIAL for survival. Lose it, and you die."
+    },
+    {
+      "q": "Homeostasis means 'staying the same' in Greek.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "The word homeostasis comes from Greek: 'homeo' (same/similar) and 'stasis' (standing/stable). It refers to maintaining stable internal conditions — the foundation of staying alive. Let's explore this together: now."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.21",
+  "parentQuestion": "A patient recovering from a thyroid surgery suddenly develops a hoarse, breathy ...",
+  "scaffolds": [
+    {
+      "q": "The vocal cords must move together to produce normal voice.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Voice production requires coordinated vocal cord adduction (coming together) and tension control. Breathe in this knowledge:the mechanics — air from the lungs passes through closed vocal cords, making them vibrate. Paralysis of one cord means incomplete closure → breathy, weak voice."
+    },
+    {
+      "q": "Nerves running near surgical sites are at risk of being injured during the procedure.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Iatrogenic (surgeon-caused) nerve injury is a known complication of surgery in areas with dense neurovascular anatomy. the neck is a danger zone: carotid arteries, jugular veins, cranial nerves, sympathetic chain. One wrong move, and critical function is lost."
+    }
+  ]
+}

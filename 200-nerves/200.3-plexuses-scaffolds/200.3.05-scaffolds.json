@@ -1,0 +1,26 @@
+{
+  "parentId": "200.3.05",
+  "parentQuestion": "A fall or improper injection to the buttocks may injure a nerve of which plexus?",
+  "scaffolds": [
+    {
+      "q": "The sciatic nerve is the largest nerve in the body.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The sciatic nerve is about as thick as your THUMB — the largest nerve in the entire body. It runs from the lower back through the buttock and down the back of the thigh, providing motor and sensory supply to most of the leg. Gloriously complex. A single cable powering everything below the knee. I want you to appreciate the sheer scale of this nerve..."
+    },
+    {
+      "q": "Intramuscular injections in the buttock must be given in the correct location.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Gluteal injections should be given in the upper outer quadrant of the buttock to avoid the sciatic nerve. Injecting too low or too medial can damage this major nerve — and the consequences are devastating. Foot drop, inability to flex the knee, loss of sensation below the knee. Often permanent. Surrender to the logic here:drawn into the precision required here — one wrong placement, and you've destroyed a nerve..."
+    }
+  ]
+}

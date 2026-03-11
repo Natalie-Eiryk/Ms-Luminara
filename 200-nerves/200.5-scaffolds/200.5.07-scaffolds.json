@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.07",
+  "parentQuestion": "A patient cannot smile, raise their eyebrows, or close their eye tightly on the ...",
+  "scaffolds": [
+    {
+      "q": "Smiling, frowning, and raising eyebrows all use facial muscles.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Facial expressions are produced by muscles of facial expression — small muscles that attach to the skin and move it to create expressions. they're all controlled by one nerve: CN VII. All of human emotion displayed through one cable."
+    },
+    {
+      "q": "The same nerve controls all muscles of facial expression on one side.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The facial nerve (CN VII) provides motor innervation to all muscles of facial expression on one side of the face. Consider the elegance here:the vulnerability — lose it, and half your face stops moving."
+    }
+  ]
+}

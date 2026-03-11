@@ -1,0 +1,30 @@
+{
+  "parentId": "100.2.11",
+  "parentQuestion": "A patient undergoing lumbar puncture at the L4-L5 level has CSF withdrawn from w...",
+  "scaffolds": [
+    {
+      "q": "The spinal cord ends at approximately what vertebral level?",
+      "options": [
+        "T12",
+        "L1-L2",
+        "L5",
+        "S1"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The spinal cord terminates at the conus medullaris, typically at the L1-L2 vertebral level in adults. Below this, only nerve roots (cauda equina) occupy the subarachnoid space. This anatomy makes lumbar puncture safe at L3-L4 or L4-L5 — you won't hit the cord itself."
+    },
+    {
+      "q": "CSF circulates in which meningeal space?",
+      "options": [
+        "Epidural space",
+        "Subdural space",
+        "Subarachnoid space",
+        "Between dura and skull"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "CSF circulates in the subarachnoid space — between the arachnoid mater and pia mater. This space surrounds both brain and spinal cord, filled with CSF that provides buoyancy and cushioning. Grant yourself this moment of clarity:the continuity — it's one fluid-filled compartment."
+    }
+  ]
+}

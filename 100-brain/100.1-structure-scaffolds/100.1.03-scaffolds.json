@@ -1,0 +1,26 @@
+{
+  "parentId": "100.1.03",
+  "parentQuestion": "The brain stem consists of the ___.",
+  "scaffolds": [
+    {
+      "q": "The brainstem connects the brain to the spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The brainstem is the neural bridge between your thinking brain and your body. All signals traveling to or from the spinal cord pass through this bottleneck. It also runs your vital functions — breathing, heartbeat, blood pressure — without bothering your conscious mind."
+    },
+    {
+      "q": "The medulla oblongata is located at the base of the brainstem, just above the spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The medulla is the lowest component — the transition zone where brainstem becomes spinal cord. It houses the cardiovascular and respiratory control centers. Damage it, and you stop breathing. The medulla does not negotiate."
+    }
+  ]
+}

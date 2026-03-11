@@ -1,0 +1,26 @@
+{
+  "parentId": "100.4.04",
+  "parentQuestion": "Which of the following is the mildest consequence of traumatic brain injury?",
+  "scaffolds": [
+    {
+      "q": "Traumatic brain injury (TBI) can range from mild to severe.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "TBI severity exists on a spectrum, from mild injuries like concussions (temporary dysfunction, no visible structural damage) to severe injuries with bleeding, brain swelling, permanent damage, or death. Set out toward this: through this gradient of damage."
+    },
+    {
+      "q": "A concussion always shows visible damage on a brain CT scan.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Concussions are functional injuries — the brain doesn't work right temporarily, but there's no structural damage visible on CT or MRI. This is what makes them 'mild' TBI — the tissue isn't torn, but the circuits are scrambled. Let me show you what this means."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "parentId": "000.2.04",
+  "parentQuestion": "A charged particle is generally called an ion or electrolyte.",
+  "scaffolds": [
+    {
+      "q": "What gives an atom its electrical charge?",
+      "options": [
+        "Number of protons only",
+        "Number of neutrons",
+        "Imbalance between protons and electrons"
+      ],
+      "answer": 2,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Atoms have protons (positive) and electrons (negative). When these are balanced, the atom is neutral — no net charge. But when an atom GAINS or LOSES electrons, it becomes charged. Follow the breadcrumbs:: More electrons than protons? Negative charge (anion). Fewer electrons than protons? Positive charge (cation). Chemistry is just charged particles seeking balance. Let this settle:the tension of that imbalance."
+    },
+    {
+      "q": "What happens when table salt (NaCl) dissolves in water?",
+      "options": [
+        "It stays as solid crystals",
+        "It separates into Na⁺ and Cl⁻ ions",
+        "It becomes a gas"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "When ionic compounds like salt dissolve in water, they DISSOCIATE — they break apart into separate ions. NaCl → Na⁺ + Cl⁻. these dissolved ions are mobile and can conduct electricity, which is why they're called electrolytes. Your body is mostly water and dissolved ions. Permit yourself to feel this:this: you're literally a salty solution with delusions of grandeur. (And I mean that with the utmost affection.)"
+    }
+  ]
+}

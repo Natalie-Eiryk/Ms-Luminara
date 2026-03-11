@@ -1,0 +1,26 @@
+{
+  "parentId": "200.2.09",
+  "parentQuestion": "A patient presents with numbness and tingling in a 'glove-and-stocking' distribu...",
+  "scaffolds": [
+    {
+      "q": "Longer nerve axons have higher metabolic demands than shorter ones.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "A neuron with a 1-meter axon reaching your toe needs to transport proteins, organelles, and nutrients across that entire distance. Walk this path:: longer supply lines are more vulnerable to disruption. Metabolic stress hits the longest axons hardest. It's logistics failure at the cellular level."
+    },
+    {
+      "q": "Glove-and-stocking distribution affects distal extremities (hands and feet) while sparing proximal areas.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "This classic pattern affects the hands (like putting on gloves) and feet (like putting on stockings) symmetrically, while the upper arms, thighs, and trunk remain normal. Let me show you the beauty here: the PATTERN tells you the PATHOLOGY. Symmetrical distal loss = length-dependent process. Geography is diagnosis."
+    }
+  ]
+}

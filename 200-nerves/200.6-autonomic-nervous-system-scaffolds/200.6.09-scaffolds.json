@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.09",
+  "parentQuestion": "Which structure is considered a modified sympathetic ganglion that releases horm...",
+  "scaffolds": [
+    {
+      "q": "The adrenal glands sit atop the kidneys and have two distinct regions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Each adrenal gland has an outer cortex (produces steroid hormones — cortisol, aldosterone, androgens) and an inner medulla (produces catecholamines — epinephrine, norepinephrine). the medulla is the sympathetic extension. Open yourself to this:two glands in one."
+    },
+    {
+      "q": "Epinephrine (adrenaline) can act on tissues throughout the body when released into the bloodstream.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Hormones travel in the blood to reach distant targets. when the adrenal medulla releases epinephrine, it circulates everywhere, binding to adrenergic receptors throughout the body. This creates a systemic, sustained sympathetic effect beyond what nerve terminals alone could achieve. Amplification by circulation."
+    }
+  ]
+}

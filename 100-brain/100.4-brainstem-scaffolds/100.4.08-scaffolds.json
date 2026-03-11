@@ -1,0 +1,26 @@
+{
+  "parentId": "100.4.08",
+  "parentQuestion": "Following a posterior circulation stroke, a patient presents with vertigo, nysta...",
+  "scaffolds": [
+    {
+      "q": "The spinothalamic tract carries pain and temperature sensation and crosses over in the spinal cord, ascending contralaterally.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The spinothalamic tract carries pain and temperature from the body, crossing within 1-2 spinal segments of entry, then ascending contralaterally through the brainstem to the thalamus. This is why spinal or brainstem lesions cause contralateral body sensory loss. the crossing pattern is everything."
+    },
+    {
+      "q": "The trigeminal nerve (CN V) carries sensory information from the face.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The trigeminal nerve (CN V) is the sensory nerve for the face, carrying touch, pain, and temperature from facial skin. Its central pathways travel through the brainstem separately from body sensory tracts. Let me show you why this matters for localization."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parentId": "200.3.04",
+  "parentQuestion": "The obturator and femoral nerves branch from which plexus?",
+  "scaffolds": [
+    {
+      "q": "The femoral nerve supplies muscles that straighten the knee.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The femoral nerve innervates the quadriceps muscles on the front of the thigh. The quadriceps extend (straighten) the knee — absolutely essential for walking, climbing stairs, standing up from a chair. Damage the femoral nerve, and your knee buckles when you try to walk. Take a moment to appreciate this:drawn into this dependency — one nerve, complete control of knee extension..."
+    },
+    {
+      "q": "The lumbar plexus is formed from spinal nerves in the lower back.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The lumbar plexus is formed from spinal nerves L1-L4 in the lumbar (lower back) region. It supplies the lower abdomen and anterior/medial thigh — the machinery for kicking and squeezing your legs together. I want you to see how this network divides its territory..."
+    }
+  ]
+}

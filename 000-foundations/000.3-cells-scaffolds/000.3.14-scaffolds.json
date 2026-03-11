@@ -1,0 +1,30 @@
+{
+  "parentId": "000.3.14",
+  "parentQuestion": "A toxin prevents the assembly of microtubules in dividing cells. The most immedi...",
+  "scaffolds": [
+    {
+      "q": "The structure that physically separates chromosomes during cell division is the ___.",
+      "options": [
+        "Nuclear envelope",
+        "Mitotic spindle",
+        "Golgi apparatus",
+        "Ribosome"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "The mitotic spindle — made of microtubules — attaches to chromosomes and pulls them to opposite poles of the dividing cell. It's the cellular tow truck, darling. Keep this momentum:."
+    },
+    {
+      "q": "Microtubules are protein filaments made of subunits called ___.",
+      "options": [
+        "Actin",
+        "Tubulin",
+        "Keratin",
+        "Myosin"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Tubulin dimers (α and β tubulin) polymerize to form hollow microtubule tubes. Actin forms microfilaments, not microtubules. Different filament, different protein, darling."
+    }
+  ]
+}

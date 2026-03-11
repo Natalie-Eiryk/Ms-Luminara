@@ -1,0 +1,26 @@
+{
+  "parentId": "400.3.04",
+  "parentQuestion": "Endocrine glands are characterized by ___.",
+  "scaffolds": [
+    {
+      "q": "Hormones are chemical messengers that travel through the blood.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Tissues & Epithelia",
+      "explain": "hormones get secreted into the bloodstream and travel EVERYWHERE, but only affect cells with the right receptors. It's broadcast communication — shouting into the void and hoping the right listeners are tuned in. Open your mind to this:drawn into this — elegant in its chaos, isn't it?"
+    },
+    {
+      "q": "Some glands have ducts while others do not.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Now observe what happens:: exocrine glands have ducts (pipes for targeted delivery to surfaces), but endocrine glands are ductless (they dump directly into blood for systemic distribution). Two delivery strategies, completely different architectures. this is the fundamental split in gland design."
+    }
+  ]
+}

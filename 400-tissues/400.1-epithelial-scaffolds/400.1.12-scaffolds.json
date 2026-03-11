@@ -1,0 +1,30 @@
+{
+  "parentId": "400.1.12",
+  "parentQuestion": "A patient with primary ciliary dyskinesia (Kartagener syndrome) has immotile cil...",
+  "scaffolds": [
+    {
+      "q": "What is the primary function of cilia on epithelial cells?",
+      "options": [
+        "Increase surface area",
+        "Move substances across the surface",
+        "Absorb nutrients",
+        "Secrete mucus"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "The primary function of cilia is to move substances across the epithelial surface through coordinated beating. They act like tiny oars creating currents."
+    },
+    {
+      "q": "What are microvilli?",
+      "options": [
+        "Motile hair-like projections",
+        "Short non-motile projections that increase surface area",
+        "Cellular organelles",
+        "Gap junctions between cells"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Microvilli are short, non-motile cellular projections that increase surface area for absorption. They're found on intestinal cells (forming the brush border) and kidney tubule cells."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parentId": "400.3.07",
+  "parentQuestion": "A patient has a wound that is healing very slowly. Biopsy shows abundant granula...",
+  "scaffolds": [
+    {
+      "q": "Granulation tissue is pink and granular, composed of new capillaries and fibroblasts.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Let me show you granulation tissue — it's NAMED for its grainy, granular appearance. New blood vessels (that's the pink color from all the fresh capillaries) and fibroblasts secreting matrix (that's the structural scaffold). it's temporary infrastructure, the foundation for healing. Beautiful in its incompleteness."
+    },
+    {
+      "q": "Tissue repair proceeds through sequential phases: inflammation, proliferation, and remodeling.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Tissues & Epithelia",
+      "explain": "healing is SEQUENTIAL. First you clean up the mess (inflammation), then you build the scaffold (proliferation), then you refine and strengthen (remodeling). Allow this to wash over you:drawn into the order of it. Each phase depends on the one before. Skip a step or get stuck, and healing fails."
+    }
+  ]
+}

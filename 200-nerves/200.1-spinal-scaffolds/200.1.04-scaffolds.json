@@ -1,0 +1,26 @@
+{
+  "parentId": "200.1.04",
+  "parentQuestion": "Select the statement that is most correct.",
+  "scaffolds": [
+    {
+      "q": "A ganglion is a cluster of neuron cell bodies located outside the central nervous system.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Ganglia (singular: ganglion) are clusters of nerve cell bodies in the peripheral nervous system. Inside the CNS, similar clusters are called nuclei. Sit with this knowledge:into this: same structure, different neighborhood, different name. The body uses location as taxonomy."
+    },
+    {
+      "q": "Afferent neurons carry signals TOWARD the central nervous system.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Afferent means arriving, darling. Afferent (sensory) neurons carry information from receptors toward the CNS. Efferent (motor) neurons carry commands away from the CNS. Let me show you the elegance: the direction of signal flow defines the neuron type. Information inward, commands outward."
+    }
+  ]
+}

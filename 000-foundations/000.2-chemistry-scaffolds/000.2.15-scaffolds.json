@@ -1,0 +1,28 @@
+{
+  "parentId": "000.2.15",
+  "parentQuestion": "A patient presents with severe vomiting for 3 days. Labs show: pH 7.52 (normal: ...",
+  "scaffolds": [
+    {
+      "q": "What is the pH of stomach acid (gastric acid)?",
+      "options": [
+        "About 7 (neutral)",
+        "About 1-2 (very acidic)",
+        "About 9-10 (alkaline)"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Gastric acid has a pH of 1-2 — EXTREMELY acidic. this is almost 1 million times more acidic than blood (pH 7.4)! Stomach parietal cells secrete HCl (hydrochloric acid) to aid digestion and kill pathogens. Hold the line here:: this extreme acidity is why vomiting can cause metabolic ALKALOSIS — you're losing massive amounts of H⁺. Immerse yourself in this:this: your stomach is a chemical warfare zone, and it must be carefully contained."
+    },
+    {
+      "q": "What is bicarbonate (HCO₃⁻)?",
+      "options": [
+        "A strong acid",
+        "A base that helps buffer blood pH",
+        "A type of enzyme"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Bicarbonate (HCO₃⁻) is a BASE — the conjugate base of carbonic acid (H₂CO₃). Advance into this: into the beauty of the bicarbonate buffer system: CO₂ + H₂O ↔ H₂CO₃ ↔ H⁺ + HCO₃⁻. Bicarbonate ACCEPTS H⁺ ions, buffering excess acid. Persist through this:: normal blood HCO₃⁻ is 22-26 mEq/L. High HCO₃⁻ = metabolic alkalosis. Low HCO₃⁻ = metabolic acidosis. Let this settle:this: bicarbonate is your blood's primary chemical shock absorber."
+    }
+  ]
+}

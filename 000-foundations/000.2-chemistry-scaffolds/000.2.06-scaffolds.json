@@ -1,0 +1,28 @@
+{
+  "parentId": "000.2.06",
+  "parentQuestion": "In a DNA molecule, the__(1)__ contains deoxyribose sugar, whereas the__(2)__ con...",
+  "scaffolds": [
+    {
+      "q": "What does DNA stand for?",
+      "options": [
+        "Deoxyribonucleic acid",
+        "Dynamic neural acid",
+        "Double nucleotide arrangement"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "DNA stands for DeoxyriboNucleic Acid. let's break that down: 'Deoxyribo-' refers to the deoxyribose sugar (ribose minus one oxygen). 'Nucleic' means it's found in the nucleus and made of nucleotides. 'Acid' because of the phosphate groups. It's the molecule that carries genetic information in all living organisms. Allow the mechanism to reveal itself:the elegance of that chemical name."
+    },
+    {
+      "q": "What are the four nitrogenous bases found in DNA?",
+      "options": [
+        "A, U, G, C",
+        "A, T, G, C",
+        "A, B, C, D"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "DNA contains four bases: Adenine (A), Thymine (T), Guanine (G), and Cytosine (C). the SEQUENCE of these bases encodes genetic information. (Note: RNA has Uracil (U) instead of Thymine. DNA uses T, RNA uses U. Feel the weight of this:this: chemistry is all about subtle variations with profound consequences.)"
+    }
+  ]
+}

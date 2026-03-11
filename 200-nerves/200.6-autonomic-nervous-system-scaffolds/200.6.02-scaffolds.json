@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.02",
+  "parentQuestion": "Which statement correctly distinguishes ANS from somatic nervous system control?",
+  "scaffolds": [
+    {
+      "q": "Cardiac muscle can generate its own electrical impulses without nervous input.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "The heart has its own pacemaker cells — the sinoatrial node fires rhythmically without any neural input. Welcome this realization:this: your heart would beat even if every nerve to it were severed. The ANS modulates the rate, but doesn't initiate the beat. this is beautiful autonomy within autonomic control."
+    },
+    {
+      "q": "Skeletal muscle requires nerve stimulation to contract.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Without motor neuron input, skeletal muscle is paralyzed. Enter this realm: into this stark dependency: skeletal muscle fibers don't generate their own action potentials. They wait, silent and flaccid, until a motor neuron commands them. Denervation means paralysis and eventual atrophy. The muscle withers without its nerve."
+    }
+  ]
+}

@@ -206,6 +206,38 @@ class LuminaraQuiz {
   }
 
   /**
+   * Load scaffolds for a question (lazy loading from subfolder)
+   * Questions now have scaffoldFile instead of embedded prereqs
+   */
+  async loadScaffoldsForQuestion(question, categoryFolder) {
+    // If already has prereqs loaded, return them
+    if (question.prereqs && question.prereqs.length > 0) {
+      return question.prereqs;
+    }
+
+    // If no scaffoldFile reference, no scaffolds available
+    if (\!question.scaffoldFile) {
+      return [];
+    }
+
+    // Try to load from scaffold file
+    try {
+      const scaffoldPath = \;
+      const response = await fetch(scaffoldPath);
+      if (response.ok) {
+        const scaffoldData = await response.json();
+        // Cache on the question object
+        question.prereqs = scaffoldData.scaffolds || [];
+        return question.prereqs;
+      }
+    } catch (e) {
+      console.log(\, e.message);
+    }
+
+    return [];
+  }
+
+  /**
    * Load JSON via script tag (for file:// protocol)
    */
   loadJsonViaScript(path, varName) {
@@ -244,6 +276,10 @@ class LuminaraQuiz {
 
     for (const bank of category.banks) {
       const data = await this.loadQuestionBank(categoryId, bank.id);
+      // Tag each question with its category folder for scaffold loading
+      data.questions.forEach(q => {
+        q._categoryFolder = category.folder;
+      });
       questions.push(...data.questions);
     }
 
@@ -341,6 +377,12 @@ class LuminaraQuiz {
 
       const data = await this.loadQuestionBank(categoryId, bank.id);
       const questions = data.questions;
+      
+      // Tag questions with category folder and preload scaffolds
+      for (const q of questions) {
+        q._categoryFolder = category.folder;
+        await this.loadScaffoldsForQuestion(q, category.folder);
+      }
 
       // Initialize state
       this.currentQuiz = questions.map(q => ({...q}));
@@ -384,6 +426,11 @@ class LuminaraQuiz {
       this.showLoading(true);
 
       const questions = await this.loadCategory(categoryId);
+      
+      // Preload scaffolds for all questions
+      for (const q of questions) {
+        await this.loadScaffoldsForQuestion(q, q._categoryFolder);
+      }
 
       // Initialize state
       this.currentQuiz = questions.map(q => ({...q}));

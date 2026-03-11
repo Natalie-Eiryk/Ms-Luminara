@@ -1,0 +1,28 @@
+{
+  "parentId": "000.4.06",
+  "parentQuestion": "A patient with cystic fibrosis has abnormally thick, sticky mucus in their lungs...",
+  "scaffolds": [
+    {
+      "q": "Can charged ions like Na⁺ or Cl⁻ easily cross the lipid bilayer on their own?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "No! The lipid bilayer is hydrophobic — it repels charged, hydrophilic particles like ions. Ions need HELP crossing — either channels (protein tunnels) or carriers (protein shuttles). Without these transport proteins, ions are trapped on whichever side of the membrane they're on. Beautiful barrier, isn't it?"
+    },
+    {
+      "q": "What type of molecule makes up most of the cell membrane's structure?",
+      "options": [
+        "Proteins",
+        "Phospholipids",
+        "Carbohydrates",
+        "Nucleic acids"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Phospholipids form the bilayer — the fundamental structure of the membrane. They arrange themselves with hydrophilic heads facing outward (toward water) and hydrophobic tails facing inward (away from water). Proteins are embedded in this bilayer, but phospholipids are the structural backbone. Exquisite self-assembly, isn't it?"
+    }
+  ]
+}

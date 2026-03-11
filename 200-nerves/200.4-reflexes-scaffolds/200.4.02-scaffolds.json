@@ -1,0 +1,26 @@
+{
+  "parentId": "200.4.02",
+  "parentQuestion": "An EMT shines a pen light into a trauma patient's eye and records the reactivity...",
+  "scaffolds": [
+    {
+      "q": "The pupil gets smaller (constricts) when bright light shines in the eye.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Yes — and this is beautiful in its simplicity. This is the pupillary light reflex. Bright light triggers pupil constriction to protect the retina and regulate the amount of light entering the eye. It's an automatic, brainstem-level response — no thought required."
+    },
+    {
+      "q": "The pupillary light reflex is a test of brainstem function.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Absolutely — and The elegance reveals itself here:. The pupillary light reflex requires intact cranial nerves II and III, PLUS the midbrain pretectal nucleus. That's why checking pupil reactions is a quick, surgical way to assess brainstem function in emergencies. Let me show you where this gets dark: A blown pupil means something is CRUSHING CN III. Bear with me:."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parentId": "000.1.06",
+  "parentQuestion": "Which of the following are survival needs of the body?",
+  "scaffolds": [
+    {
+      "q": "Cells need oxygen to produce energy through cellular respiration.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Oxygen is required for aerobic cellular respiration, which produces most of the ATP that cells need to function. Without oxygen, brain cells die within 4-6 minutes. Heart stops. Game over. Feel that urgency?"
+    },
+    {
+      "q": "Water is the most abundant molecule in the human body.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "About 60-70% of the human body is water. It's essential as a solvent (every reaction happens IN water), transport medium (blood is mostly water), and participant in chemical reactions (hydrolysis, condensation). Now we arrive at the gorgeous part:: lose too much? Your blood thickens, your brain swells, your kidneys fail. Step into this world:."
+    }
+  ]
+}

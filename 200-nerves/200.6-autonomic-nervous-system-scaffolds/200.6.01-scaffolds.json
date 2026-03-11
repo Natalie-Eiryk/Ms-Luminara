@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.01",
+  "parentQuestion": "The autonomic nervous system differs from the somatic nervous system in that the...",
+  "scaffolds": [
+    {
+      "q": "The somatic nervous system controls voluntary skeletal muscle movements.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "The somatic nervous system is your voluntary motor system — it sends commands from the CNS directly to skeletal muscles. Receive this insight:this: when you decide to move your arm, a single motor neuron carries that command from spinal cord to muscle. Direct. Decisive. No intermediary required. Stunning, yes? efficient?"
+    },
+    {
+      "q": "The autonomic nervous system controls involuntary functions like heart rate and digestion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "the ANS runs your visceral machinery without conscious input. Heart rate, blood pressure, digestion, pupil size, gland secretion... all humming along beneath your awareness. you don't have to remember to digest your lunch. The ANS handles it while you think about other things. Autonomic means 'self-governing.' Track with me here:."
+    }
+  ]
+}

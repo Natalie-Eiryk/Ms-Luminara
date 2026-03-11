@@ -1,0 +1,26 @@
+{
+  "parentId": "200.3.08",
+  "parentQuestion": "A patient suffered a midshaft humeral fracture in a fall. Now they cannot extend...",
+  "scaffolds": [
+    {
+      "q": "The radial nerve can be injured in humeral shaft fractures.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The radial nerve is the MOST commonly injured nerve in humeral shaft fractures — occurring in up to 18% of cases. This is because the nerve wraps directly around the bone in the spiral groove. Break the bone, and you risk crushing, stretching, or lacerating the nerve. imagine the bone shattering and the sharp fragments tearing into that exposed nerve. Devastating, isn't it?"
+    },
+    {
+      "q": "Wrist drop indicates loss of wrist and finger extension.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Wrist drop is the classic sign of radial nerve injury. The hand hangs limply in flexion because the extensor muscles are paralyzed. You can't lift your wrist, can't straighten your fingers. Allow your mind to embrace this:drawn into this deficit — such a simple movement, now impossible. Beautiful in its specificity, isn't it?"
+    }
+  ]
+}

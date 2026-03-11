@@ -1,0 +1,30 @@
+{
+  "parentId": "000.3.09",
+  "parentQuestion": "A genetic disease causes undigested material to accumulate in cells, leading to ...",
+  "scaffolds": [
+    {
+      "q": "Lysosomes contain ___ enzymes that break down materials.",
+      "options": [
+        "Synthetic",
+        "Hydrolytic",
+        "Photosynthetic",
+        "Replicative"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Lysosomes are packed with hydrolytic enzymes — enzymes that use water to break chemical bonds and digest macromolecules. They're the cell's demolition crew, darling. Hold the line here:."
+    },
+    {
+      "q": "An enzyme is a type of ___ that speeds up chemical reactions.",
+      "options": [
+        "Lipid",
+        "Carbohydrate",
+        "Protein",
+        "Nucleic acid"
+      ],
+      "answer": 2,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Enzymes are proteins that catalyze (speed up) specific chemical reactions without being consumed in the process. They're biological catalysts — the cell's efficiency experts. Open yourself to this:impressed."
+    }
+  ]
+}

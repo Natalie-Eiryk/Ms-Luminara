@@ -1,0 +1,26 @@
+{
+  "parentId": "100.1.07",
+  "parentQuestion": "Which of the following is NOT a role of the basal nuclei?",
+  "scaffolds": [
+    {
+      "q": "The basal nuclei are deep gray matter structures involved in motor control.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The basal nuclei (also called basal ganglia) are islands of gray matter buried deep in the cerebral white matter. They form loops with the cortex (via thalamus) to regulate voluntary movement — acting as a sophisticated motor filter."
+    },
+    {
+      "q": "Reflexes like pulling your hand away from a hot stove are controlled by the spinal cord, not the cerebrum.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Protective reflexes operate at the spinal level for speed — sensory input triggers motor output within 2-3 synapses, bypassing the brain entirely. By the time your cortex becomes consciously aware of pain, your hand has already withdrawn. The spinal reflex wins the race."
+    }
+  ]
+}

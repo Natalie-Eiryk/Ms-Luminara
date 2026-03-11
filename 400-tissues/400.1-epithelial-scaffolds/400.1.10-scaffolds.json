@@ -1,0 +1,30 @@
+{
+  "parentId": "400.1.10",
+  "parentQuestion": "A patient with Fanconi syndrome has defective kidney tubules that cannot reabsor...",
+  "scaffolds": [
+    {
+      "q": "What is the primary function of the kidney tubules?",
+      "options": [
+        "Filter blood",
+        "Reabsorb useful substances from filtrate",
+        "Produce urine from scratch",
+        "Store urine"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Kidney tubules reabsorb useful substances (water, glucose, amino acids, electrolytes) from the filtrate back into the blood. This prevents loss of valuable nutrients and helps concentrate waste into urine."
+    },
+    {
+      "q": "What type of epithelium lines most kidney tubules?",
+      "options": [
+        "Simple squamous",
+        "Simple cuboidal",
+        "Stratified squamous",
+        "Transitional"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Most kidney tubules are lined by simple cuboidal epithelium, which is specialized for absorption and secretion. These cube-shaped cells have enough cytoplasm to house the molecular machinery needed for active transport."
+    }
+  ]
+}

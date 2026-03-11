@@ -1,0 +1,26 @@
+{
+  "parentId": "200.3.07",
+  "parentQuestion": "A patient wakes up unable to extend the wrist or fingers after falling asleep wi...",
+  "scaffolds": [
+    {
+      "q": "The radial nerve controls extension of the wrist and fingers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The radial nerve innervates all the extensor muscles of the posterior forearm — the muscles that lift your wrist and straighten your fingers. Lose the radial nerve, and your hand drops into flexion. You literally can't lift your wrist. I want you to appreciate the elegance of this single nerve controlling ALL extension..."
+    },
+    {
+      "q": "Prolonged pressure on a nerve can cause temporary paralysis.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Sustained compression cuts off blood flow to the nerve (ischemia) and causes mechanical deformation of nerve fibers. The result is temporary loss of function — neurapraxia. Most cases recover within weeks to months once pressure is relieved. But severe or prolonged compression? Permanent damage. Breathe in this knowledge:drawn into this vulnerability — hours of pressure, and the nerve stops working..."
+    }
+  ]
+}

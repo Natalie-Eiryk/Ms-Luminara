@@ -1,0 +1,26 @@
+{
+  "parentId": "100.4.09",
+  "parentQuestion": "A patient develops sudden inability to look upward, pupillary light-near dissoci...",
+  "scaffolds": [
+    {
+      "q": "The superior colliculus in the midbrain is involved in controlling vertical eye movements and visual reflexes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The superior colliculus in the dorsal midbrain (part of the tectum) controls vertical gaze, saccades, and reflexive orienting to visual stimuli. Damage here disrupts upward gaze. Let me show you why this location is so specific."
+    },
+    {
+      "q": "The pupillary light reflex involves a pathway that includes the pretectal area in the midbrain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "The pupillary light reflex: light hits retina → optic nerve → pretectal nucleus in midbrain → bilateral Edinger-Westphal nuclei → CN III → pupillary constriction. Damage to the pretectal area disrupts the light reflex but spares the near reflex (accommodation), which has a different pathway. this dissociation is the clue."
+    }
+  ]
+}

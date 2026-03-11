@@ -1,0 +1,26 @@
+{
+  "parentId": "200.1.05",
+  "parentQuestion": "The correct simple spinal reflex arc is: ___.",
+  "scaffolds": [
+    {
+      "q": "A reflex is an automatic, involuntary response to a stimulus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Reflexes are rapid, predictable, involuntary responses to stimuli. They don't require conscious thought and are mediated primarily at the spinal cord level. Let me show you the beauty: your hand jerks away from the flame before your brain even registers pain. The spinal cord makes the decision. Consciousness arrives late to the party."
+    },
+    {
+      "q": "In a reflex arc, the effector is the structure that produces the response.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The effector is the muscle or gland that carries out the response. In the knee-jerk reflex, the quadriceps muscle is the effector that extends the leg. The end point of the signal cascade. Take a moment to appreciate this:the chain: signal arrives, muscle contracts, response happens. Automatic and beautiful."
+    }
+  ]
+}

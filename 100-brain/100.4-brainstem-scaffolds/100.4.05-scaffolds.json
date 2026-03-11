@@ -1,0 +1,28 @@
+{
+  "parentId": "100.4.05",
+  "parentQuestion": "Degeneration of the dopamine-releasing neurons of the ___ is the ultimate cause ...",
+  "scaffolds": [
+    {
+      "q": "Dopamine is a neurotransmitter involved in movement control.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Dopamine is a neurotransmitter that plays a crucial role in movement, motivation, reward, and mood. Too little dopamine in movement circuits causes Parkinson's symptoms — tremor, rigidity, slow movement. the chemistry matters."
+    },
+    {
+      "q": "Parkinson's disease primarily affects which body function?",
+      "options": [
+        "Vision",
+        "Movement",
+        "Hearing",
+        "Digestion"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Parkinson's disease is a movement disorder characterized by resting tremor, rigidity, slow movement (bradykinesia), and balance problems. It results from progressive loss of dopamine-producing neurons. Let me show you where."
+    }
+  ]
+}

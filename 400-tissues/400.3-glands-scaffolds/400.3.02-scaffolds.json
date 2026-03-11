@@ -1,0 +1,26 @@
+{
+  "parentId": "400.3.02",
+  "parentQuestion": "Which of the following is NOT a step in tissue repair?",
+  "scaffolds": [
+    {
+      "q": "Tissue repair is a process with distinct phases.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Tissues & Epithelia",
+      "explain": "when tissue gets damaged, your body doesn't panic. It follows a PREDICTABLE sequence. Give this idea space to land:drawn into this: inflammation first (cleanup crew), then proliferation (construction), then remodeling (finishing touches). Orderly chaos."
+    },
+    {
+      "q": "Osteoporosis is a disease that weakens bones.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Osteoporosis means 'porous bones' — bone density decreases, fracture risk increases. Here's the key: it's a disease of gradual bone loss, not a step in how damaged tissue heals. Completely different process. we're learning to separate disease from repair."
+    }
+  ]
+}

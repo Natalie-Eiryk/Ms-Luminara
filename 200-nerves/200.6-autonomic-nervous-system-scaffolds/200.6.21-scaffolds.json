@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.21",
+  "parentQuestion": "A 28-year-old woman presents to the ER after eating wild mushrooms. She has prof...",
+  "scaffolds": [
+    {
+      "q": "Muscarine is a toxin from certain mushrooms that mimics acetylcholine at muscarinic receptors.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Muscarine binds to and activates muscarinic cholinergic receptors, producing parasympathetic effects. this is where the receptor got its name. The mushroom toxin taught us about this receptor subtype. Take a moment to appreciate this:the pharmacological history written in poisonings."
+    },
+    {
+      "q": "Parasympathetic activation increases secretions from glands and increases smooth muscle activity in the gut and bladder.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "The parasympathetic 'rest and digest' response cranks up secretory activity (saliva, tears, digestive juices) and GI motility. when these systems are overstimulated, you get excessive secretions and diarrhea. Embrace this:the parasympathetic overdrive."
+    }
+  ]
+}

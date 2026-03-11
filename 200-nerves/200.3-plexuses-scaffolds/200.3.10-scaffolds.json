@@ -1,0 +1,26 @@
+{
+  "parentId": "200.3.10",
+  "parentQuestion": "A patient cannot dorsiflex their foot after a fibular neck fracture. The foot sl...",
+  "scaffolds": [
+    {
+      "q": "The common fibular (peroneal) nerve controls foot dorsiflexion and eversion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The common fibular nerve divides into superficial and deep branches that innervate the anterior and lateral compartments of the leg. These muscles dorsiflex the foot (lift the toes) and evert the foot (turn sole outward). Lose this nerve, and the foot drops into plantarflexion — you can't lift your toes. I want you to appreciate how a single nerve controls these critical movements..."
+    },
+    {
+      "q": "The common fibular nerve is vulnerable to injury at the fibular neck.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The common fibular nerve wraps around the lateral fibular neck just below the knee — superficial, against bone, with minimal soft tissue protection. This makes it EXTREMELY vulnerable to compression from casts, leg crossing, fibular fractures, or direct trauma. Open your mind to this:drawn into this anatomical vulnerability — a major nerve, completely exposed at a bony prominence..."
+    }
+  ]
+}

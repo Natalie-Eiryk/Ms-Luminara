@@ -1,0 +1,28 @@
+{
+  "parentId": "100.2.04",
+  "parentQuestion": "Which of the following would you NOT find in normal cerebrospinal fluid?",
+  "scaffolds": [
+    {
+      "q": "Cerebrospinal fluid (CSF) surrounds and protects the brain and spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "CSF is a clear, colorless fluid that fills the ventricles and subarachnoid space. It's not just passive cushioning — Advance into this: and watch: it's an actively maintained chemical environment that neurons require to function."
+    },
+    {
+      "q": "What color is normal, healthy cerebrospinal fluid?",
+      "options": [
+        "Red",
+        "Clear/colorless",
+        "Yellow",
+        "Milky white"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "Normal CSF is crystal clear and colorless — often described as 'water-clear' or 'gin-clear.' Any deviation — red, yellow (xanthochromia), cloudy — indicates pathology, and often something serious. Open yourself to this:what clarity means here: purity, precision, life."
+    }
+  ]
+}

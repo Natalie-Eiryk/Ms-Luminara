@@ -1,0 +1,30 @@
+{
+  "parentId": "400.1.05",
+  "parentQuestion": "Choose which tissue would line the uterine (fallopian) tubes and function as a '...",
+  "scaffolds": [
+    {
+      "q": "What are cilia?",
+      "options": [
+        "Long whip-like structures",
+        "Short hair-like projections on cells",
+        "Folds in the cell membrane",
+        "Channels through the cell"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Cilia are short, hair-like projections that extend from the cell surface. They beat in coordinated waves to move substances across the cell surface, like a conveyor belt."
+    },
+    {
+      "q": "What is the primary function of cilia on epithelial cells?",
+      "options": [
+        "Absorb nutrients",
+        "Move substances across the surface",
+        "Protect against infection",
+        "Sense chemicals"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "The primary function of cilia is to move substances across the epithelial surface. They beat in rhythmic waves, creating currents that propel materials like mucus, eggs, or cerebrospinal fluid."
+    }
+  ]
+}

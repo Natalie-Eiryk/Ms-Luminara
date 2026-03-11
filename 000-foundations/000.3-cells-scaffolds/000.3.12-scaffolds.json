@@ -1,0 +1,30 @@
+{
+  "parentId": "000.3.12",
+  "parentQuestion": "A patient receives an IV infusion of distilled water by mistake. Red blood cells...",
+  "scaffolds": [
+    {
+      "q": "A solution with LOWER solute concentration than the cell interior is called ___.",
+      "options": [
+        "Hypertonic",
+        "Isotonic",
+        "Hypotonic",
+        "Equilibrated"
+      ],
+      "answer": 2,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Hypotonic means 'low solute' relative to the cell — more water, less stuff dissolved in it. Water will move INTO the cell from the hypotonic solution. Hypo = low. Don't lose this thread:, darling."
+    },
+    {
+      "q": "When a red blood cell bursts due to excess water intake, this is called ___.",
+      "options": [
+        "Crenation",
+        "Hemolysis",
+        "Agglutination",
+        "Coagulation"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Hemolysis is the rupture of red blood cells with release of hemoglobin. Hemo = blood, lysis = breaking apart. When osmosis drives too much water into RBCs, they swell and burst. Physics is brutal, darling."
+    }
+  ]
+}

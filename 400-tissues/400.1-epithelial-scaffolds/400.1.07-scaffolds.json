@@ -1,0 +1,30 @@
+{
+  "parentId": "400.1.07",
+  "parentQuestion": "Keratinized stratified squamous epithelium is found in the ___.",
+  "scaffolds": [
+    {
+      "q": "What is keratin?",
+      "options": [
+        "A type of sugar",
+        "A tough, waterproof protein",
+        "A type of fat",
+        "A cellular organelle"
+      ],
+      "answer": 1,
+      "chapter": "Tissues & Epithelia",
+      "explain": "Keratin is a tough, fibrous protein that provides strength and waterproofing. It's the main structural component of hair, nails, and the outer layer of skin."
+    },
+    {
+      "q": "Which body surface is exposed to air and requires waterproofing?",
+      "options": [
+        "Oral cavity",
+        "Esophagus",
+        "Skin",
+        "Stomach lining"
+      ],
+      "answer": 2,
+      "chapter": "Tissues & Epithelia",
+      "explain": "The skin is the body's external surface exposed to air. It needs waterproofing to prevent water loss and to protect against environmental damage. Internal surfaces like the esophagus need to stay moist."
+    }
+  ]
+}

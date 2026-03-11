@@ -1,0 +1,28 @@
+{
+  "parentId": "000.2.16",
+  "parentQuestion": "A patient with cystic fibrosis has thick, dehydrated mucus clogging the airways ...",
+  "scaffolds": [
+    {
+      "q": "What is osmosis driven by?",
+      "options": [
+        "Differences in solute concentration creating an osmotic gradient",
+        "ATP energy from active transport",
+        "Protein pumps moving water directly"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Osmosis is driven by differences in SOLUTE concentration across a semipermeable membrane. Water moves from LOW solute (high water) to HIGH solute (low water) concentration to equalize osmotic pressure. this is PASSIVE; no ATP needed. See this through:: when Cl⁻ is secreted into mucus, it creates an osmotic gradient that PULLS water out of cells. No Cl⁻ secretion? No osmotic pull. No water movement. Receive this insight:this: osmosis is a passive consequence of solute gradients."
+    },
+    {
+      "q": "What does CFTR stand for in cystic fibrosis?",
+      "options": [
+        "Cystic Fibrosis Transmembrane Conductance Regulator",
+        "Chloride Fluid Transport Receptor",
+        "Cellular Function and Transport Regulator"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "CFTR stands for Cystic Fibrosis Transmembrane Conductance Regulator — it's a CHLORIDE CHANNEL (and regulator of other ion channels). Embark on this:: it sits in the cell membrane and allows Cl⁻ to flow OUT of cells into secretions. When it's mutated (most common: ΔF508 deletion), Cl⁻ can't be secreted → secretions become dehydrated. Make room for this understanding:this: one protein, one job (Cl⁻ transport), catastrophic consequences when broken."
+    }
+  ]
+}

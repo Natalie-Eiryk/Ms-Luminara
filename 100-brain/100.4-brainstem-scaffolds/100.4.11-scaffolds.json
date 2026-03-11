@@ -1,0 +1,26 @@
+{
+  "parentId": "100.4.11",
+  "parentQuestion": "A 55-year-old man presents with progressive difficulty swallowing, hoarseness, a...",
+  "scaffolds": [
+    {
+      "q": "The hypoglossal nerve (CN XII) controls tongue movement, and tongue protrusion deviates toward the side of the lesion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "CN XII (hypoglossal nerve) innervates the intrinsic and extrinsic tongue muscles ipsilaterally. When one side is damaged, the tongue deviates toward the weak side when protruded — the intact side pushes harder, pushing the tongue toward the damaged side. the deviation direction is the key to lateralization."
+    },
+    {
+      "q": "Cranial nerves IX (glossopharyngeal) and X (vagus) control swallowing and phonation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 12 — The Brain",
+      "explain": "CN IX and X (housed in the nucleus ambiguus in the medulla) control the pharyngeal and laryngeal muscles involved in swallowing and speaking. Damage causes dysphagia (difficulty swallowing) and dysphonia (hoarseness). Let me show you why these nerves cluster together in the medulla."
+    }
+  ]
+}

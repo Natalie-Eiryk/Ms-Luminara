@@ -1,0 +1,26 @@
+{
+  "parentId": "200.4.07",
+  "parentQuestion": "A neurologist tests a patient's reflexes and finds a positive Babinski sign in b...",
+  "scaffolds": [
+    {
+      "q": "In healthy adults, stroking the sole of the foot causes the toes to curl downward (plantar flexion).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Yes — and this is the NORMAL plantar reflex. When you stroke the lateral sole of the foot from heel to toe, the toes should curl DOWN. This is what you want to see. because when this reverses, everything changes."
+    },
+    {
+      "q": "The Babinski sign is normal in infants but pathological in adults.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Absolutely — and here's where development becomes diagnostic. Infants have immature corticospinal tracts, so the Babinski sign (big toe extends, other toes fan out) is NORMAL until about age 2. After that, it should disappear. If it re-emerges in an adult, it means the corticospinal tract is DAMAGED. Feel the weight of this:the weight of this: a baby's reflex in an adult's body is a sign of brain damage."
+    }
+  ]
+}

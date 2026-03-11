@@ -1,0 +1,26 @@
+{
+  "parentId": "200.5.05",
+  "parentQuestion": "A patient cannot feel touch on their face and cannot chew properly. Which crania...",
+  "scaffolds": [
+    {
+      "q": "Chewing requires muscles that move the jaw.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Mastication (chewing) uses the masseter, temporalis, and pterygoid muscles to move the jaw up and side to side, grinding food between the teeth. Grant yourself this moment of clarity:the power — powerful muscles for a repetitive, essential task."
+    },
+    {
+      "q": "The face has sensory nerves that detect touch, pain, and temperature.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The skin of the face is richly innervated with sensory receptors for touch, pain, temperature, and proprioception. these sensations are carried to the brain by cranial nerves, specifically CN V. Exquisite sensitivity."
+    }
+  ]
+}

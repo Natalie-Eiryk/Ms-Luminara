@@ -1,0 +1,28 @@
+{
+  "parentId": "200.1.02",
+  "parentQuestion": "A patient has an injury of the spine and is now suffering from a loss of motor f...",
+  "scaffolds": [
+    {
+      "q": "The dorsal root carries sensory information INTO the spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The dorsal root contains sensory neurons carrying information from receptors in the body INTO the spinal cord for processing. Inbound signals only. Open your mind to this:into the simplicity: one direction, one purpose. Information flowing inward like a river."
+    },
+    {
+      "q": "Which spinal cord region controls the arm?",
+      "options": [
+        "Thoracic",
+        "Cervical",
+        "Lumbar",
+        "Sacral"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The cervical spinal cord (C5-T1) gives rise to the brachial plexus, which innervates the entire upper limb. Let me show you the topographic precision: thoracic controls the trunk, lumbar and sacral control the lower limb. The body is mapped onto the spinal cord in exquisite segments."
+    }
+  ]
+}

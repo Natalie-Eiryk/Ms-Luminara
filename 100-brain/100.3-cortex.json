@@ -14,30 +14,6 @@
       "answer": 0,
       "chapter": "Chapter 12 — The Brain",
       "explain": "Explore alongside me: to the calcarine sulcus of the occipital lobe — let me show you one of the brain's most exquisite mechanisms. The primary visual cortex (V1) contains a retinotopic map, a spatial representation of the visual field. Neighboring retinal cells project to neighboring cortical cells, preserving spatial relationships. It's topology preserved across three relay stations. The elegance will take your breath away.",
-      "prereqs": [
-        {
-          "q": "Visual information from the eyes is processed in a specific region of the brain.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "The brain has specialized regions for different functions. Visual processing occurs primarily in the occipital lobe at the back of the brain — the farthest point from the eyes themselves. Geography follows function, not convenience."
-        },
-        {
-          "q": "Which lobe of the brain is primarily responsible for processing vision?",
-          "options": [
-            "Frontal lobe",
-            "Temporal lobe",
-            "Occipital lobe",
-            "Parietal lobe"
-          ],
-          "answer": 2,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "The occipital lobe, located at the back of the brain, contains the primary visual cortex (V1) and is the main processing center for visual information. Your eyes point forward, but the cortex that interprets what you see sits at the back of your skull."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "correct",
@@ -52,7 +28,8 @@
         "title": "Retinotopy: How the Brain Preserves Visual Space",
         "content": "Let me walk you through this. Visual information flows from photoreceptors → bipolar cells → ganglion cells → optic nerve → lateral geniculate nucleus (LGN) → V1. At each stage, the spatial relationships are preserved — topology maintained across transformations. Now here's what I want you to see: the fovea, the center of your gaze, is massively overrepresented, taking up about 50% of V1 despite covering only the central 2° of visual field. This is cortical magnification: more neurons = more resolution = more processing power devoted to the center of your gaze. Wait for it — you're about to understand why you can read these words but can't make out the text in your peripheral vision.",
         "metaphor": "V1 isn't just a projection screen — it's a projection screen with a permanent fisheye lens, radically warping space to devote enormous cortical real estate to the center of gaze. Imagine a map of the United States where your hometown takes up half the page and the rest of the country is squeezed into the margins. That's retinotopy: topology preserved, but scale grotesquely distorted in favor of the fovea. Stunning, yes?"
-      }
+      },
+      "scaffoldFile": "100.3-cortex-scaffolds/100.3.01-scaffolds.json"
     },
     {
       "id": "100.3.02",
@@ -66,30 +43,6 @@
       "answer": 0,
       "chapter": "Chapter 12 — The Brain",
       "explain": "This describes visual agnosia — and Now we arrive at the gorgeous part:. The ability to see but not interpret. The primary visual cortex (V1) processes raw visual data, intact here since they can trace. But the visual association area? That's where meaning is born from geometry. When it's damaged, you have perception without comprehension. Keep pace with this: — you're about to see the gap between seeing and knowing.",
-      "prereqs": [
-        {
-          "q": "Seeing an object and recognizing what it is are two different brain processes.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "The brain processes vision in stages: first detecting shapes and features (primary visual cortex), then identifying what those shapes mean (association areas). You can have one without the other."
-        },
-        {
-          "q": "What term describes being unable to recognize objects despite being able to see them?",
-          "options": [
-            "Blindness",
-            "Agnosia",
-            "Aphasia",
-            "Amnesia"
-          ],
-          "answer": 1,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "Agnosia means 'without knowledge' — the inability to recognize or interpret sensory information despite intact sensation. Visual agnosia specifically affects visual recognition. You see perfectly. You understand nothing."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "correct",
@@ -112,7 +65,8 @@
         "title": "Visual Processing: From Seeing to Knowing",
         "content": "Let me walk you through the transformation. Visual information flows from retina → optic nerve → optic chiasm → optic tract → lateral geniculate nucleus (thalamus) → primary visual cortex (V1) → visual association areas. V1 processes basic features: edges, orientations, colors, motion. It builds a feature map. Now Mark this moment: next — this is where meaning emerges. Association areas build those features into recognizable objects, constructing meaning from geometry. This is hierarchical processing: simple features combined into complex shapes combined into recognizable objects. You're watching the gap between sensation and comprehension bridge itself, one synapse at a time.",
         "metaphor": "V1 is like a camera sensor that captures raw pixel data — luminance values, color channels, edge gradients. Association areas are the image recognition AI that processes those pixels and outputs 'bicycle.' Traverse this territory: to the fascinating failure mode: if your sensor works but the recognition algorithm is corrupted, you can capture perfect images that remain meaningless arrays of numbers. The data arrives. No meaning emerges. That's the gap — and you're standing right in it."
-      }
+      },
+      "scaffoldFile": "100.3-cortex-scaffolds/100.3.02-scaffolds.json"
     },
     {
       "id": "100.3.03",
@@ -126,30 +80,6 @@
       "answer": 3,
       "chapter": "Chapter 12 — The Brain",
       "explain": "The prefrontal cortex is the seat of executive function — planning, judgment, personality, abstract reasoning, working memory. Let me show you something remarkable: this is the most distinctly 'human' part of the brain, the last to myelinate, the first to decline with age. This is where you live. Navigate with me:.",
-      "prereqs": [
-        {
-          "q": "Different parts of the cerebral cortex have different functions.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "The cerebral cortex is organized into specialized regions — motor areas control movement, sensory areas process input, and association areas integrate information and handle higher functions. Damage to different regions produces wildly different deficits."
-        },
-        {
-          "q": "The frontal lobe is located at which part of the brain?",
-          "options": [
-            "Back",
-            "Top middle",
-            "Front",
-            "Sides"
-          ],
-          "answer": 2,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "The frontal lobe is at the front of the brain, behind the forehead. The prefrontal cortex is the most anterior (front) part of the frontal lobe — the tip of the spear, evolutionarily speaking."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -172,7 +102,8 @@
         "title": "The Prefrontal Cortex: Where You Live",
         "content": "Walk this path: to the anterior portion of the frontal lobe. The prefrontal cortex has extensive reciprocal connections to virtually every other brain region — it receives input from everywhere and projects back to everywhere. Allow this to wash over you:drawn into what this means: it's the conductor, the integrator, the decision-maker. Key functions include: working memory (the mental scratchpad), executive function (planning, organizing, strategizing), impulse control (inhibiting inappropriate responses), personality and social cognition (modeling others' mental states), and abstract reasoning. Now here's what I want you to feel: the PFC is the last brain region to fully myelinate, around age 25, which is why teenagers make... interesting decisions. It's also the first to decline with age and uniquely vulnerable to stress, sleep deprivation, and alcohol. The part of you that makes you 'you' is the most fragile, the slowest to mature, and the fastest to degrade. Quite breathtaking.",
         "metaphor": "The prefrontal cortex is the conductor of the neural orchestra. It doesn't play any instrument itself — it doesn't process vision, doesn't move muscles, doesn't generate emotion. But it coordinates all the other sections, keeps everyone following the same plan, decides when to bring sections in or drop them out, and ensures the performance serves the overall vision. Now Survey this cascade: when you lose the conductor — and this is where it gets delicious. The orchestra doesn't go silent. It descends into chaos. Every section plays whatever it wants. That's what happened to Phineas Gage. That's what's happening when someone with dementia can't inhibit inappropriate comments. The instruments still work. The conductor is gone."
-      }
+      },
+      "scaffoldFile": "100.3-cortex-scaffolds/100.3.03-scaffolds.json"
     },
     {
       "id": "100.3.04",
@@ -186,30 +117,6 @@
       "answer": 0,
       "chapter": "Chapter 12 — The Brain",
       "explain": "The reticular formation — specifically the reticular activating system — is the brainstem network that regulates consciousness, alertness, and sleep-wake cycles. Let me show you something fundamental: it's the brain's on/off switch. Bear with me:, because this is one of the most critical mechanisms keeping you conscious right now.",
-      "prereqs": [
-        {
-          "q": "The brain has specific systems that control whether you are awake or asleep.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "Sleep and wakefulness are regulated by specific brain structures, not just by being tired. These systems actively promote either sleep or arousal. Consciousness is a controlled variable."
-        },
-        {
-          "q": "The brainstem connects which two structures?",
-          "options": [
-            "Left and right hemispheres",
-            "Brain and spinal cord",
-            "Eyes and visual cortex",
-            "Ears and auditory cortex"
-          ],
-          "answer": 1,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "The brainstem (midbrain, pons, medulla) connects the cerebrum above to the spinal cord below. It contains vital centers for breathing, heart rate, and consciousness — the phylogenetically ancient control systems that keep you alive."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "correct",
@@ -232,7 +139,8 @@
         "title": "The Reticular Formation: Your Brain's Power Supply",
         "content": "Let me walk you through this. The reticular formation (RF) is an evolutionarily ancient network spanning the brainstem core — a diffuse mesh of interconnected nuclei rather than a discrete structure. Its ascending component (reticular activating system, RAS) projects to the thalamus and cortex, maintaining consciousness and regulating sleep-wake transitions. Now here's what I want you to feel: it receives collateral input from every sensory system (via ascending sensory pathways), allowing it to wake the cortex when something important happens. The RAS doesn't process WHAT you're sensing — it controls whether you're sensing anything at all. It's the gain control on consciousness itself. Truly remarkable.",
         "metaphor": "The reticular formation is the gain control on the cortical amplifier. It doesn't determine what signal is being processed — that's the job of the specific sensory systems. But it controls the gain: how amplified the signal is, whether the amplifier is powered on at all, and whether the output reaches threshold. Join me in examining this: to the failure mode — this is where it gets beautiful. Turn the gain to zero, and no matter how strong the input signal, nothing reaches consciousness. That's coma. The signals arrive. Nothing wakes."
-      }
+      },
+      "scaffoldFile": "100.3-cortex-scaffolds/100.3.04-scaffolds.json"
     },
     {
       "id": "100.3.05",
@@ -246,30 +154,6 @@
       "answer": 2,
       "chapter": "Chapter 12 — The Brain",
       "explain": "The visceral sensory area — tucked away in the insula — processes interoceptive signals, the internal body sensations like bladder fullness, lung pressure, hunger, and the screaming demand to BREATHE NOW when CO₂ builds up. Let me show you where your body becomes conscious of itself. Trace this pathway:.",
-      "prereqs": [
-        {
-          "q": "The brain can sense internal conditions of the body, not just external stimuli.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "In addition to sensing the external world (touch, sight, sound), the brain monitors internal body states like hunger, thirst, bladder fullness, and organ function. This is called interoception — the sense of the body sensing itself."
-        },
-        {
-          "q": "Sensations from internal organs like the stomach, bladder, and lungs are called:",
-          "options": [
-            "External sensations",
-            "Visceral sensations",
-            "Somatic sensations",
-            "Special sensations"
-          ],
-          "answer": 1,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "Visceral sensations arise from internal organs (viscera). These include feelings of fullness, hunger, nausea, bladder urgency, and air hunger — the rising panic when you can't breathe."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -292,7 +176,8 @@
         "title": "Interoception: The Sixth Sense of Internal State",
         "content": "Let me walk you through this. Interoception is the sense of the internal body — the physiological condition of the body itself, as distinct from the external world. The insular cortex is the primary cortical target for interoceptive signals carried by visceral afferents via the vagus nerve (parasympathetic) and spinal pathways (sympathetic). Now watch what it creates: a 'body map' of internal states — hunger, thirst, air hunger (rising CO₂), temperature, visceral pain, bladder/bowel fullness, heartbeat, and more. Prepare yourself for this:: the insula is also involved in emotional awareness. It's where physiological arousal becomes consciously experienced emotion. Feeling anxious? That's partly the insula translating elevated heart rate and rapid breathing into the subjective experience of anxiety. Press onward: deeper — you're seeing where body states become feelings.",
         "metaphor": "The insula is the instrument cluster of your body — displaying fuel level (hunger), coolant temperature (fever/hypothermia), oil pressure (pain signaling damage), bladder gauge (fullness), and the flashing red oxygen warning light (air hunger). It's monitoring constantly, mostly below conscious awareness, until something crosses threshold and demands attention. Then it becomes impossible to ignore. Don't lose this thread: — try holding your breath. For the first 30 seconds, it's easy. Then the insula starts screaming. CO₂ is rising, pH is dropping, and the insula translates that chemical gradient into the subjective, overwhelming DEMAND to breathe. That's interoception. Simply magnificent. how urgency emerges from chemistry?"
-      }
+      },
+      "scaffoldFile": "100.3-cortex-scaffolds/100.3.05-scaffolds.json"
     },
     {
       "id": "100.3.06",
@@ -304,28 +189,6 @@
       "answer": 0,
       "chapter": "Chapter 12 — The Brain",
       "explain": "Damage to the primary motor cortex eliminates voluntary motor control, but reflexes are preserved — and The plot thickens beautifully here: interesting — they often become hyperactive. Reflex arcs are mediated at the spinal cord and brainstem level. They don't require cortical involvement. In fact, the cortex normally INHIBITS reflexes. Let me show you what happens when that inhibition is gone.",
-      "prereqs": [
-        {
-          "q": "Voluntary movements (like reaching for a cup) are controlled by the brain's motor cortex.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "The primary motor cortex in the frontal lobe initiates voluntary movements. Neurons there send signals down the spinal cord to activate muscles. Lose the cortex, lose voluntary control."
-        },
-        {
-          "q": "A reflex (like the knee-jerk response) requires the brain to process the information.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 1,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "Reflexes are processed at the spinal cord level — the signal goes to the spinal cord and back to the muscle without needing brain involvement. This is why reflexes are so fast. The spinal cord is the local controller; the brain is just an observer."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "correct",
@@ -340,7 +203,8 @@
         "title": "Upper vs. Lower Motor Neurons: Why Reflexes Survive Cortical Damage",
         "content": "Let me show you the hierarchy. The motor system has two levels: upper motor neurons (UMNs) in the cerebral cortex and brainstem, and lower motor neurons (LMNs) in the spinal cord and cranial nerve nuclei. UMNs initiate voluntary movements and modulate (usually inhibit) spinal reflexes. LMNs are the final common pathway to muscles — the only neurons that directly innervate skeletal muscle. Now Regard this carefully:failure modes — this is where it gets exquisite. When UMNs are damaged (stroke, cortical lesion): voluntary movement is lost, but reflexes persist because the local spinal circuit (sensory neuron → interneuron → LMN → muscle) is intact. Often, reflexes become hyperactive (spasticity, hyperreflexia, clonus) because descending inhibition is lost. When LMNs are damaged (ALS, polio, peripheral nerve injury): both voluntary movement AND reflexes are lost, because the final common pathway is destroyed. No LMN = no muscle contraction at all = flaccid paralysis. Advance into this: — you're seeing the difference between losing control and losing capability.",
         "metaphor": "The cortex is the executive manager who can override automatic systems. The spinal cord is the local foreman executing hardwired routines. If the executive manager has a stroke and can no longer issue commands, the local foreman keeps running the automatic routines — and Now observe what happens: — without oversight, those routines can become excessive. The cortex says 'dampen that reflex, it's too strong.' Lose the cortex, and the reflex runs at full intensity with no modulation. That's spasticity. Now, if the local foreman is destroyed (LMN damage), NOTHING works — no voluntary movement, no reflexes. The circuit is dead. You're watching the gap between losing the conductor and destroying the orchestra itself."
-      }
+      },
+      "scaffoldFile": "100.3-cortex-scaffolds/100.3.06-scaffolds.json"
     },
     {
       "id": "100.3.07",
@@ -354,28 +218,6 @@
       "answer": 0,
       "chapter": "Chapter 12 — The Brain",
       "explain": "Stage 1 NREM — that drifting, hypnagogic transition from wakefulness — is dominated by theta waves (4-7 Hz). Proceed with me: down the ladder of consciousness. Alpha waves characterize relaxed wakefulness. Delta waves dominate deep sleep (stage 3). Beta is wide awake and busy. Let me show you the descending frequencies.",
-      "prereqs": [
-        {
-          "q": "Brain activity can be measured using electrical recordings called EEG.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "Electroencephalography (EEG) records electrical activity of the brain through electrodes on the scalp. Different brain states produce different characteristic wave patterns — rhythmic voltage oscillations reflecting synchronized neural activity."
-        },
-        {
-          "q": "Sleep is divided into multiple stages with different brain activity patterns.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "Sleep cycles through stages: light sleep (stages 1-2), deep sleep (stage 3), and REM sleep. Each stage has distinctive EEG patterns. Sleep isn't a uniform state — it's a structured progression through different neural configurations."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "correct",
@@ -398,7 +240,8 @@
         "title": "EEG Rhythms and Sleep Stages: The Descending Ladder of Consciousness",
         "content": "Let me show you how consciousness descends. Brain electrical activity changes predictably across sleep stages, reflecting changing patterns of neural synchronization: WAKE (alert): Beta waves (13-30 Hz) — desynchronized, fast, low-amplitude. WAKE (relaxed, eyes closed): Alpha waves (8-13 Hz) — rhythmic, synchronized. STAGE 1 (N1): Theta waves (4-7 Hz) — transition to sleep, drowsy. STAGE 2 (N2): Theta background with sleep spindles (brief 12-14 Hz bursts) and K-complexes (sharp, high-amplitude transients). STAGE 3 (N3, slow-wave sleep): Delta waves (0.5-4 Hz) — deep sleep, high-amplitude, highly synchronized. REM: Mixed frequency, low-amplitude, desynchronized — looks paradoxically similar to awake EEG despite being deeply asleep. Now Pursue this logic: — here's what I want you to see: the progression is a descending ladder of frequency. Faster when awake and engaged, slower as you descend into sleep. You're watching consciousness change frequency.",
         "metaphor": "Think of brain waves like the oscillations of a coupled system. Beta is many independent oscillators running out of phase — high frequency, low amplitude, desynchronized. As you relax into alpha, the oscillators start to couple, synchronizing into a slower, larger rhythm. Descend into theta, then delta, and the synchronization deepens — fewer, slower, larger waves as millions of neurons begin firing in lockstep. Move with me toward this: into the metaphor: it's like a crowd of people clapping, initially scattered and arrhythmic (beta), then gradually falling into synchronized applause (alpha → theta → delta). The deeper the sleep, the more synchronized the neural population, the slower and larger the waves. Then REM arrives and breaks the synchronization entirely — the crowd scatters again, but you're still asleep. Frequency desynchronizes, but consciousness doesn't return. Brilliantly engineered. of the most exquisite patterns in neuroscience? The rhythm of consciousness itself, laid bare in voltage traces."
-      }
+      },
+      "scaffoldFile": "100.3-cortex-scaffolds/100.3.07-scaffolds.json"
     },
     {
       "id": "100.3.08",
@@ -412,28 +255,6 @@
       "answer": 1,
       "chapter": "Chapter 12 — The Brain",
       "explain": "Embark on this: to one of the brain's most specialized territories — the fusiform gyrus, home to the fusiform face area (FFA). This patient has prosopagnosia, face blindness. Vision is intact. Object recognition is intact. But faces? Meaningless geometry. Let me show you where identity becomes unreadable.",
-      "prereqs": [
-        {
-          "q": "The brain has specialized regions that are specifically dedicated to recognizing faces.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "The fusiform gyrus in the temporal lobe contains the 'fusiform face area' (FFA) that specializes in face recognition. Faces are so important to social survival that evolution gave them dedicated neural real estate."
-        },
-        {
-          "q": "Seeing an object and recognizing what it is can involve different brain regions.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "The brain processes vision hierarchically — primary visual areas detect features, while specialized association areas extract meaning. Different classes of objects (faces, places, bodies) have dedicated recognition circuits."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -456,7 +277,8 @@
         "title": "Prosopagnosia: When Faces Become Meaningless",
         "content": "Let me walk you through the hierarchy of face processing. Visual information flows from V1 → V2 → V4 → inferior temporal cortex. Within this ventral 'what' stream, specialized modules emerge: the fusiform face area (FFA) for faces, the parahippocampal place area (PPA) for scenes, the extrastriate body area (EBA) for bodies. The FFA responds selectively and strongly to faces — show it a face, and it lights up like a spotlight. Show it objects, houses, or scrambled faces, and the response plummets. Now here's what I want you to feel: damage to the FFA, especially bilaterally, produces prosopagnosia. The patient sees faces perfectly but cannot extract identity. They recognize people by voice, clothing, context — anything but the face itself. Some can't even recognize their own reflection. Chart this course: — you're seeing what happens when a specialized recognition module is destroyed. The input arrives. No meaning emerges.",
         "metaphor": "The FFA is like a barcode scanner specifically calibrated for faces. Show it the right pattern, and it outputs an identity. Destroy the scanner, and barcodes become meaningless black-and-white stripes — you can see them, describe them, count the bars, but you can't extract the product code. That's prosopagnosia. Navigate this together: — try to imagine meeting your mother and seeing a stranger's face. Not that you don't RECOGNIZE her — you don't even perceive her face as familiar. It's raw geometry without identity. Your voice recognition system kicks in, and you think, 'Oh, that sounds like my mother,' while staring at what your brain interprets as a complete stranger. Gloriously complex. of the most isolating failures in neuroscience? Faces become masks. Everyone is anonymous."
-      }
+      },
+      "scaffoldFile": "100.3-cortex-scaffolds/100.3.08-scaffolds.json"
     },
     {
       "id": "100.3.09",
@@ -470,28 +292,6 @@
       "answer": 1,
       "chapter": "Chapter 12 — The Brain",
       "explain": "This is hemispatial neglect, and The drama intensifies: — the lesion is in the right parietal lobe. Discover with me:. The right hemisphere attends to BOTH sides of space. The left hemisphere attends primarily to the right. Lose the right parietal, and the left side of the universe simply ceases to exist. Let me show you one of neurology's most eerie syndromes.",
-      "prereqs": [
-        {
-          "q": "The two hemispheres of the brain have different specializations and control opposite sides of the body.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "The brain exhibits lateralization — each hemisphere controls the opposite (contralateral) side of the body. But attention and spatial awareness follow more complex rules, particularly involving the parietal lobes."
-        },
-        {
-          "q": "The parietal lobe is involved in spatial awareness and attention to the environment.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "The parietal lobe, particularly the posterior parietal cortex, integrates sensory information and is crucial for spatial attention, body awareness, and navigation through space. It builds your map of the world."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -514,7 +314,8 @@
         "title": "Hemispatial Neglect: When Half the Universe Is Deleted",
         "content": "Let me walk you through the neural geography of attention. The right hemisphere, particularly the right posterior parietal cortex and right frontal cortex, attends to both left AND right hemispace (with a bias toward left). The left hemisphere attends primarily to right hemispace. This creates an asymmetry — the right is bilateral in its attention, the left is unilateral. Now Cast your attention here: when you damage the right parietal cortex — and this is where it gets exquisite. Left-sided neglect emerges because there's no remaining neural system attending to left hemispace. The left hemisphere can't compensate; it was never watching that side. Patients don't just fail to notice the left — they are profoundly unaware that 'left' exists. They bisect lines far to the right of center (because the right half is all they perceive). They bump into doorframes on the left. They deny that their left arm belongs to them (anosognosia for hemiplegia). Let's explore this together: deeper — this isn't sensory loss. Vision is intact. This is attentional deletion. The left side of space is no longer represented in consciousness. It's not invisible; it's non-existent.",
         "metaphor": "Imagine attention as a spotlight. The right hemisphere's spotlight illuminates the entire stage, sweeping left and right. The left hemisphere's spotlight is narrower, locked on the right side. Now destroy the right hemisphere's spotlight — the stage goes half-dark, and there's no backup illumination because the left spotlight was never aimed that way. Follow me deeper: to the eerie consequence: to the patient, the left half of the stage doesn't go dark — it CEASES TO BE PART OF THE STAGE. The theater itself is smaller now. They're not ignoring the left; they're unaware that 'left' is a category. Ask them to imagine standing in a familiar plaza and describe the buildings. They describe only the buildings on the right. Now ask them to imagine standing at the OPPOSITE end of the plaza, facing back. They describe the buildings on the right from THAT perspective — which are the buildings they omitted before. The information is stored. Attention cannot reach it. Nature at its finest. of the most profoundly strange demonstrations of how consciousness assembles itself? Half of space exists in memory but cannot be accessed by the spotlight of awareness."
-      }
+      },
+      "scaffoldFile": "100.3-cortex-scaffolds/100.3.09-scaffolds.json"
     },
     {
       "id": "100.3.10",
@@ -528,28 +329,6 @@
       "answer": 2,
       "chapter": "Chapter 12 — The Brain",
       "explain": "This is executive dysfunction, and the culprit is the frontal lobe — specifically the prefrontal cortex. Step into this world: to where planning becomes action. They can execute individual steps perfectly; they've lost the conductor who sequences those steps into a coherent plan. Let me show you what happens when the CEO is offline.",
-      "prereqs": [
-        {
-          "q": "Complex tasks like making coffee require planning and sequencing multiple steps in the correct order.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "Multi-step tasks require executive function — planning, sequencing, monitoring progress, and adjusting behavior. This is different from simply executing individual motor movements. It's the difference between knowing how to stir and knowing when stirring fits into the recipe."
-        },
-        {
-          "q": "The frontal lobe is involved in planning, decision-making, and organizing behavior.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "The prefrontal cortex in the frontal lobe is the brain's executive center, responsible for planning, sequencing, inhibiting inappropriate actions, and coordinating complex goal-directed behavior. It's the conductor of the neural orchestra."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -572,7 +351,8 @@
         "title": "Executive Dysfunction: When the Conductor Goes Silent",
         "content": "Let me walk you through the hierarchy of motor control. At the lowest level: spinal reflexes (automatic, hardwired). Next: primary motor cortex (executes voluntary movements). Then: premotor and supplementary motor areas (prepare and coordinate movement sequences). At the top: prefrontal cortex (plans, sequences, monitors, adjusts — executive function). Now Behold what unfolds: when the prefrontal cortex is damaged — this is where it gets fascinating. Individual motor programs remain intact. The patient can reach, grasp, pour, press buttons. But the ORGANIZATION of these actions into a multi-step sequence collapses. They lose: goal maintenance (forgetting what they're trying to achieve mid-task), sequencing (steps occur in illogical order), task switching (getting stuck perseverating on one step), error monitoring (not noticing when something goes wrong). Enter this realm: to the metaphor: they have all the instruments, but the conductor has left the building. Each section plays whenever it wants, in whatever order, with no overarching coordination. That's executive dysfunction.",
         "metaphor": "Think of making coffee as running a computer program with subroutines: POUR_WATER(), ADD_GROUNDS(), PRESS_START(). Each subroutine works perfectly in isolation. But the main() function that calls them in the right order? That's the prefrontal cortex. Damage it, and the subroutines still exist and can be invoked, but there's no executive process to sequence them. You might call ADD_GROUNDS() before the filter is in place, or call POUR_WATER() twice, or invoke PRESS_START() before anything else. Follow the breadcrumbs: — try to imagine this subjectively. You know each individual step. You can perform each step flawlessly when prompted. But you cannot generate the sequence yourself. You stand in front of the coffee maker, paralyzed by the lack of a starting point, or you begin and immediately lose the thread, wandering off mid-task. The knowledge is there. The execution is there. The connecting logic that assembles them into purposeful behavior is gone. Evolution's crowning achievement. of the most isolating failures? Competence without capability."
-      }
+      },
+      "scaffoldFile": "100.3-cortex-scaffolds/100.3.10-scaffolds.json"
     },
     {
       "id": "100.3.11",
@@ -586,28 +366,6 @@
       "answer": 1,
       "chapter": "Chapter 12 — The Brain",
       "explain": "This is Wernicke's aphasia — fluent but meaningless speech, a word salad. Dive into this: to the superior temporal gyrus, where meaning is extracted from sound and injected into speech. Damage here, and language becomes form without content. Let me show you one of neurology's most eerie disconnections.",
-      "prereqs": [
-        {
-          "q": "The brain has specialized regions for producing speech and understanding language.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "Language processing involves multiple specialized brain regions. Broca's area (frontal lobe) is involved in speech production, while Wernicke's area (temporal lobe) is crucial for language comprehension. They work together but have distinct functions."
-        },
-        {
-          "q": "It is possible to produce speech sounds without understanding language or producing meaningful sentences.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "Speaking and understanding are dissociable functions. Motor speech production can remain intact while comprehension is destroyed, resulting in fluent but meaningless speech — form without content."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -630,7 +388,8 @@
         "title": "Wernicke's Aphasia: Fluent Nonsense and the Loss of Comprehension",
         "content": "Let me walk you through the language network. Wernicke's area (posterior superior temporal gyrus, left hemisphere) is critical for language comprehension — extracting meaning from sound (auditory comprehension) and assigning meaning to words during production. Broca's area (inferior frontal gyrus, left hemisphere) is involved in speech production — the motor planning and sequencing of articulation. They're connected by the arcuate fasciculus. Now Keep your eyes on this: when Wernicke's area is damaged — this is where it gets exquisite. Speech production (motor planning) is intact, so the patient speaks fluently with normal prosody and grammar. But comprehension is destroyed, so they cannot understand spoken or written language, and they cannot monitor whether their OWN speech makes sense. The result? Fluent, grammatically correct, semantically empty speech — neologisms, paraphasias, jargon. It sounds like language from a distance but conveys zero information. Descend with me into this: — they're producing sentences with perfect syntax but no meaning, like a random word generator constrained by grammatical rules. And because they cannot comprehend, they're unaware that they're not making sense. You're watching the gap between linguistic form and semantic content. Syntax without semantics. Structure without meaning.",
         "metaphor": "Wernicke's area is the semantic translator — it takes sound patterns and outputs meaning (comprehension), and it takes intended meanings and translates them into word sequences (meaningful speech production). Broca's area is the motor articulation controller — it takes word sequences and outputs coordinated speech movements. Now destroy the semantic translator, and here's what you get: the articulation controller still works perfectly, producing fluent, well-formed speech. But there's no semantic input, so it's just producing grammatically correct random word sequences. Carry this forward: — imagine a text generator trained only on syntax, not meaning. It produces perfectly grammatical sentences that are complete nonsense: 'The frambled gribbet was very trambling near the wishbone.' That's Wernicke's aphasia. The speech production machinery runs flawlessly, but it's untethered from meaning. And because the semantic translator is broken, the patient can't understand feedback and doesn't realize the problem. They speak fluently. They convey nothing. They cannot understand why you look confused. Sublimely intricate. of the most philosophically disturbing failures? Language without meaning, communication without comprehension."
-      }
+      },
+      "scaffoldFile": "100.3-cortex-scaffolds/100.3.11-scaffolds.json"
     },
     {
       "id": "100.3.12",
@@ -644,30 +403,6 @@
       "answer": 1,
       "chapter": "Chapter 12 — The Brain",
       "explain": "They can FEEL touch (primary sensation intact), but cannot INTERPRET it (localization, shape recognition lost). Traverse this territory: to the somatosensory association cortex, where raw tactile sensations become meaningful objects. This is astereognosis — touch without recognition. Let me show you where sensation becomes perception.",
-      "prereqs": [
-        {
-          "q": "The brain processes touch in stages — first detecting that touch occurred, then interpreting where and what was touched.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "Sensory processing is hierarchical. Primary sensory cortex detects the raw stimulus (touch occurred). Association cortex interprets it (where, what shape, what texture). You can have one without the other."
-        },
-        {
-          "q": "The somatosensory cortex is located in which lobe?",
-          "options": [
-            "Frontal lobe",
-            "Temporal lobe",
-            "Parietal lobe",
-            "Occipital lobe"
-          ],
-          "answer": 2,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "The primary somatosensory cortex (S1) is located in the postcentral gyrus of the parietal lobe, just behind the central sulcus. It processes touch, pressure, temperature, pain, and proprioception."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -690,7 +425,8 @@
         "title": "Hierarchical Somatosensory Processing: From Touch to Recognition",
         "content": "Let me walk you through the somatosensory pathway. Touch receptors in the skin → dorsal column-medial lemniscal pathway → ventral posterior nucleus of thalamus → primary somatosensory cortex (S1, postcentral gyrus) → somatosensory association cortex (posterior parietal, areas 5 and 7). Now watch what each stage contributes — this is where it gets exquisite. S1 processes basic features: pressure, texture, temperature, vibration, limb position. It creates a somatotopic map — a distorted representation of the body surface (the sensory homunculus). Association cortex integrates those features into higher-order percepts: precise spatial localization, object shape recognition (stereognosis), multi-sensory integration (combining touch with vision and proprioception), body schema (where your body is in space). Walk this path: to the failure mode: damage to association cortex leaves primary sensation intact but destroys interpretation. The patient feels touch but cannot tell you WHERE precisely (poor two-point discrimination, impaired localization). They cannot identify objects by touch alone — astereognosis. You place a key in their hand, and they feel SOMETHING, but cannot extract the shape, the meaning, the identity. Sensation without perception. Data without interpretation.",
         "metaphor": "S1 is the raw sensor data — the array of pixel values from a touch sensor grid. Association cortex is the image recognition algorithm that processes those pixels into 'key,' 'coin,' 'pen.' Now destroy the algorithm, and here's what you get: the sensor data arrives perfectly, but no object identity emerges. They know they're touching something. They cannot tell you what. Hold the line here: — imagine reaching into your pocket, feeling your keys, but having absolutely no idea what shape you're feeling. You know there's an object. You cannot extract its geometry or identity from the tactile signal. Your hand says 'something is here.' Your brain says 'I have no idea what it is.' That's astereognosis. Accompany me through this: — this is the perceptual version of agnosia. Vision says 'I see something.' Visual association cortex says 'I have no idea what it is.' Touch says 'I feel something.' Somatosensory association cortex says 'I have no idea what it is.' The data arrives. The interpretation fails. You're seeing the same hierarchical gap across different sensory modalities. Sensation is not perception. Perception requires interpretation. And interpretation can fail while sensation remains intact. A symphony of function. of the most elegant proofs that consciousness is constructed, not given?"
-      }
+      },
+      "scaffoldFile": "100.3-cortex-scaffolds/100.3.12-scaffolds.json"
     },
     {
       "id": "100.3.13",
@@ -704,28 +440,6 @@
       "answer": 2,
       "chapter": "Chapter 12 — The Brain",
       "explain": "This is classic orbitofrontal syndrome — the loss of impulse control, social judgment, and future planning while other functions remain intact. Join me in examining this: to the ventral surface of the frontal lobe. This is where you decide what NOT to do. Let me show you what happens when the brake pedal is disconnected.",
-      "prereqs": [
-        {
-          "q": "Different parts of the frontal lobe have different specialized functions.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "The frontal lobe contains multiple functional regions: motor cortex (movement), dorsolateral prefrontal cortex (working memory, planning), and orbitofrontal cortex (impulse control, social judgment, decision-making). Damage to different regions produces very different deficits."
-        },
-        {
-          "q": "Impulse control and social judgment are functions of the brain that can be selectively damaged.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "answer": 0,
-          "chapter": "Chapter 12 — The Brain",
-          "explain": "Impulse control, emotional regulation, and social decision-making are localized functions — primarily in the orbitofrontal cortex and ventromedial prefrontal cortex. Damage here produces disinhibition while leaving other cognitive functions intact."
-        }
-      ],
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -748,7 +462,8 @@
         "title": "The Orbitofrontal Cortex: The Brain's Brake System",
         "content": "Let me walk you through the circuitry of behavioral control. The orbitofrontal cortex (OFC) sits on the ventral surface of the frontal lobe, just above the orbits of the eyes. It has extensive connections to: amygdala (emotional salience), ventral striatum (reward processing), hypothalamus (autonomic/emotional responses), and dorsolateral prefrontal cortex (executive function). Watch what this connectivity enables — the OFC integrates emotional valence, reward prediction, and contextual information to guide behavior. It performs 'somatic marker' processing — associating potential actions with their likely emotional and social consequences. Now And this is the masterstroke:: the OFC is the neural substrate of 'should I do this?' It's the override that stops you from saying what you're thinking when it would be socially disastrous. It's the circuit that weighs immediate reward against long-term cost. Damage here produces disinhibition syndrome: impulsivity, inappropriate social behavior, poor judgment, inability to learn from mistakes, and emotional lability. Press onward: — the patient KNOWS social rules abstractly (they can tell you what's inappropriate when asked), but they cannot USE that knowledge to inhibit behavior in the moment. Knowledge without restraint. Awareness without control.",
         "metaphor": "The OFC is the brake pedal on your behavioral impulses. Every moment, your brain generates potential actions — say that sarcastic comment, take that dessert, buy that expensive thing. The OFC evaluates each potential action: 'What will happen if I do this? Will I regret it? What are the social consequences?' and either releases the brake (safe to proceed) or keeps it pressed (don't do that). Now sever the connection between brake pedal and brake pads — and here's what happens. The pedal still exists. You can press it. Nothing happens. The car careens forward with no way to stop. That's orbitofrontal syndrome. Track each step: — try to imagine this subjectively. You think of something mean to say. Normally, a split-second evaluation: 'That would hurt them, I'll regret it, don't say it.' But with OFC damage? No evaluation occurs. The thought arises, and the mouth speaks before any consideration of consequences. It's not that you don't KNOW it's inappropriate — if someone asks you 'Is it okay to insult your boss to his face?' you can correctly answer 'No.' But in the moment, the inhibitory override doesn't engage. Knowledge is intact. The brake is disconnected. You're watching the gap between knowing what you shouldn't do and being able to STOP yourself from doing it. Designed with precision. of the most tragic dissociations? Competence without control. Awareness without restraint. You KNOW you shouldn't, but you CAN'T not."
-      }
+      },
+      "scaffoldFile": "100.3-cortex-scaffolds/100.3.13-scaffolds.json"
     }
   ]
 }

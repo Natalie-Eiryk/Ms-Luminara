@@ -1,0 +1,26 @@
+{
+  "parentId": "200.1.06",
+  "parentQuestion": "A patient presents after a spinal cord injury with loss of pain and temperature ...",
+  "scaffolds": [
+    {
+      "q": "The spinothalamic tract carries pain and temperature information and crosses to the opposite side of the spinal cord shortly after entering.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Let me show you the crossing pattern. Pain and temperature fibers enter through the dorsal root, synapse in the dorsal horn, then cross to the opposite side within one or two segments and ascend in the spinothalamic tract. This means damage to the spinothalamic tract affects the OPPOSITE side of the body. The signal crosses early. this is crucial for understanding dissociated sensory loss."
+    },
+    {
+      "q": "The dorsal column pathway carries proprioception and vibration sense and ascends on the SAME side of the spinal cord before crossing in the brainstem.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Discover with me: and Follow this sequence: beautiful architecture. Proprioception and vibration fibers enter through the dorsal root and ascend IPSILATERALLY in the dorsal columns (fasciculus gracilis and cuneatus) all the way up to the medulla, where they synapse and THEN cross. This means dorsal column damage causes SAME-SIDE sensory loss. The signal crosses late. Open yourself to this:into the elegance: different modalities, different crossing points, different clinical patterns."
+    }
+  ]
+}

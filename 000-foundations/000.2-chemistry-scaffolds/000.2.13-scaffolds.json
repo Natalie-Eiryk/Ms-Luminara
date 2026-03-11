@@ -1,0 +1,28 @@
+{
+  "parentId": "000.2.13",
+  "parentQuestion": "A patient taking high-dose antacids (calcium carbonate) for weeks develops muscl...",
+  "scaffolds": [
+    {
+      "q": "What is the role of calcium ions (Ca²⁺) in muscle function?",
+      "options": [
+        "Required for muscle contraction",
+        "Causes muscle relaxation by blocking sodium channels",
+        "Has no direct role in muscle function"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Calcium is ESSENTIAL for muscle contraction. when a motor neuron fires, Ca²⁺ FLOODS into the muscle cell, binding to troponin and causing a conformational change that exposes myosin-binding sites on actin. Contraction begins. Maintain this focus:: LOW calcium paradoxically causes HYPEREXCITABILITY and muscle CRAMPS (because Ca²⁺ also stabilizes nerve membranes). Open your mind to this:this — calcium is a gatekeeper, a stabilizer, and a trigger. Chemistry becomes movement."
+    },
+    {
+      "q": "What does alkalosis mean?",
+      "options": [
+        "Blood pH above normal (> 7.45)",
+        "Blood pH below normal (< 7.35)",
+        "Normal blood pH"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Alkalosis means blood pH ABOVE normal (> 7.45) — too alkaline, too few H⁺ ions. Pursue this logic:: antacids neutralize stomach acid (HCl), and excessive use can cause metabolic alkalosis. While this sounds 'good' (less acidic!), it's DANGEROUS — enzymes denature, electrolyte binding changes (especially calcium and magnesium), and oxygen delivery to tissues is impaired (leftward shift of the oxygen-hemoglobin dissociation curve). Grant yourself this moment of clarity:this: balance is everything. Too acid OR too alkaline will kill you."
+    }
+  ]
+}

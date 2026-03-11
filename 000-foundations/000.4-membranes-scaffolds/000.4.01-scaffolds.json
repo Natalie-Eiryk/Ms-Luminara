@@ -1,0 +1,30 @@
+{
+  "parentId": "000.4.01",
+  "parentQuestion": "The abdominal cavity is separated from the thoracic cavity by the ___.",
+  "scaffolds": [
+    {
+      "q": "Which body cavity contains the lungs?",
+      "options": [
+        "Thoracic cavity",
+        "Abdominal cavity",
+        "Pelvic cavity",
+        "Cranial cavity"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "The thoracic cavity — your chest region — houses the lungs within their pleural cavities and the heart within its pericardial cavity. Your chest is basically a three-compartment fortress protecting your most vital pumping and breathing machinery."
+    },
+    {
+      "q": "Which body cavity contains the stomach and intestines?",
+      "options": [
+        "Thoracic cavity",
+        "Cranial cavity",
+        "Abdominal cavity",
+        "Vertebral cavity"
+      ],
+      "answer": 2,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "The abdominal cavity houses digestive organs like the stomach, intestines, liver, and spleen. It's your body's processing plant, where nutrients get extracted and waste gets packaged for disposal. We'll explore this churning darkness together."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parentId": "000.1.07",
+  "parentQuestion": "One of the descriptions below is from the perspective of physiological study; th...",
+  "scaffolds": [
+    {
+      "q": "Anatomy is the study of body structure.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Anatomy focuses on WHAT body parts look like, WHERE they're located, and HOW they're organized. It describes structure, shape, position — the ARCHITECTURE of the body. Venture here:."
+    },
+    {
+      "q": "Physiology is the study of how the body works.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Physiology focuses on HOW body parts FUNCTION and work together. It describes processes, mechanisms, ACTIONS — the OPERATION of the body. Structure is what it IS. Function is what it DOES. Welcome this realization:into that distinction."
+    }
+  ]
+}

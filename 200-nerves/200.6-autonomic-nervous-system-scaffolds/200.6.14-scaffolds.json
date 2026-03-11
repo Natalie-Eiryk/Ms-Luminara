@@ -1,0 +1,26 @@
+{
+  "parentId": "200.6.14",
+  "parentQuestion": "Which statement about autonomic tone is correct?",
+  "scaffolds": [
+    {
+      "q": "Some neurons fire continuously at a baseline rate, even without specific stimulation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Many neurons in the ANS maintain constant low-level firing. this creates a baseline from which activity can increase OR decrease. Without tonic activity, you could only increase function, never decrease it. Make room for this understanding:the advantage of starting from the middle."
+    },
+    {
+      "q": "Blood pressure depends partly on the degree of blood vessel constriction.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 14 — Autonomic Nervous System",
+      "explain": "Vasoconstriction increases resistance, raising blood pressure. Vasodilation decreases resistance, lowering blood pressure. by adjusting vessel diameter, the ANS can fine-tune blood pressure moment to moment. This requires constant baseline activity to have something to adjust from."
+    }
+  ]
+}

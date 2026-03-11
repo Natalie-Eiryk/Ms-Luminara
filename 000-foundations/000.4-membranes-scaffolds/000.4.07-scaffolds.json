@@ -1,0 +1,30 @@
+{
+  "parentId": "000.4.07",
+  "parentQuestion": "A bacterial toxin creates unregulated pores in cell membranes, causing rapid cel...",
+  "scaffolds": [
+    {
+      "q": "What happens to a cell placed in pure water (hypotonic solution)?",
+      "options": [
+        "It shrinks",
+        "It swells",
+        "Nothing happens",
+        "It divides"
+      ],
+      "answer": 1,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "The cell swells! Water moves by osmosis from areas of HIGH water concentration (pure water) to LOW water concentration (inside the cell, where dissolved solutes reduce water concentration). Water rushes in, the cell expands. If the membrane ruptures, that's lysis. Dramatic? Yes. Physics? Absolutely."
+    },
+    {
+      "q": "Which molecules can cross the lipid bilayer easily without protein help?",
+      "options": [
+        "Ions like Na⁺ and Cl⁻",
+        "Large polar molecules like glucose",
+        "Small nonpolar molecules like O₂ and CO₂",
+        "Proteins"
+      ],
+      "answer": 2,
+      "chapter": "Chapters 1-4 — Foundations",
+      "explain": "Small, nonpolar molecules (O₂, CO₂, steroid hormones) slip through the hydrophobic lipid bilayer easily. Ions and polar molecules need protein channels or carriers. Size and polarity determine permeability. Simple, elegant chemistry."
+    }
+  ]
+}
