@@ -1,26 +1,98 @@
 {
   "parentId": "200.2.10",
-  "parentQuestion": "A patient cannot detect vibration from a tuning fork placed on their ankle but c...",
+  "parentQuestion": "A patient cannot detect vibration from a tuning fork placed on their ankle but can still detect it on their knee. Light touch is intact at both locations. Which receptor type is selectively impaired?",
   "scaffolds": [
     {
-      "q": "Different mechanoreceptors detect different aspects of touch.",
+      "q": "Different mechanoreceptors detect different types of touch.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Light touch is detected by Meissner's corpuscles and Merkel discs. Vibration is detected by Pacinian corpuscles. Deep pressure by Ruffini endings. Each receptor is specialized for a specific stimulus feature. Welcome this realization:the division of labor — one mechanical modality, multiple specialized detectors."
+      "difficulty": "foundation",
+      "explain": "Yes! Light touch is detected by Meissner's corpuscles and Merkel discs. Vibration is detected by Pacinian corpuscles. Different receptors, different jobs."
     },
     {
-      "q": "Pacinian corpuscles are rapidly adapting receptors that detect vibration.",
+      "q": "Pacinian corpuscles detect vibration (like from a tuning fork).",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Pacinian corpuscles are encapsulated receptors in deep skin and fascia that respond to high-frequency vibration (40-400 Hz). They adapt rapidly, detecting CHANGES in pressure rather than sustained pressure. Press onward:: they're built for detecting texture during active touch and vibration from external sources. Exquisite specialization."
+      "difficulty": "foundation",
+      "explain": "Correct! Pacinian corpuscles are deep, encapsulated receptors that respond to high-frequency vibration (40-400 Hz)."
+    },
+    {
+      "q": "Meissner's corpuscles and Merkel discs detect light touch.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! These superficial receptors detect light touch and texture. They're sensitive to gentle pressure."
+    },
+    {
+      "q": "Vibration and light touch can be affected separately because they use different receptors.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Disease can damage one type of receptor or pathway while sparing others. This is called dissociated sensory loss."
+    },
+    {
+      "q": "In early neuropathy, vibration sense often fails before light touch.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Pacinian corpuscles (vibration) may be more vulnerable than light touch receptors. Vibration loss is an early sign of nerve damage."
+    },
+    {
+      "q": "Testing vibration at different body locations can map the progression of nerve damage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Lost at ankle but present at knee? The damage reaches up to ankle level. A tuning fork becomes a diagnostic mapping tool."
+    },
+    {
+      "q": "The patient's preserved light touch but lost vibration indicates selective damage to vibration-sensing receptors.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Different receptors, different fates. Pacinian corpuscles are damaged while light touch receptors survive."
+    },
+    {
+      "q": "Selective loss of vibration with preserved light touch indicates Pacinian corpuscle impairment.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Pacinian corpuscles detect vibration. When they fail, vibration sense is lost while light touch (different receptors) remains."
+    },
+    {
+      "q": "The receptor type selectively impaired is the ___.",
+      "options": [
+        "Free nerve endings",
+        "Meissner's corpuscles",
+        "Pacinian corpuscles",
+        "Merkel discs"
+      ],
+      "answer": 2,
+      "difficulty": "intermediate",
+      "explain": "Pacinian corpuscles! These detect vibration. Lost vibration + preserved light touch = selective Pacinian damage."
     }
   ]
 }

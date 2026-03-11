@@ -3,24 +3,96 @@
   "parentQuestion": "Transduction refers to conversion of ___.",
   "scaffolds": [
     {
-      "q": "Sensory receptors convert environmental stimuli into electrical signals.",
+      "q": "The nervous system uses electrical signals to transmit information.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Receptors convert stimuli (pressure, light, chemicals, heat) into electrical signals that neurons can process. This conversion is essential for ALL sensation. Without transduction, you'd be deaf, blind, and numb. Let that sink in."
+      "difficulty": "foundation",
+      "explain": "Yes! Neurons communicate using electrical signals (action potentials and graded potentials). The brain only understands electrical language."
     },
     {
-      "q": "A graded potential is an electrical change that varies in size with the stimulus strength.",
+      "q": "The world around you consists of different forms of energy - light, sound waves, pressure, chemicals, heat.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Unlike action potentials (all-or-nothing), graded potentials vary in amplitude. A stronger stimulus produces a larger receptor potential. It's analog encoding before digital transmission."
+      "difficulty": "foundation",
+      "explain": "Correct! Different stimuli are different forms of energy. Light is electromagnetic waves. Sound is pressure waves. Touch is mechanical force."
+    },
+    {
+      "q": "For your brain to understand a stimulus, it must be converted into electrical signals.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Your brain doesn't process light or sound directly. It processes electrical signals. Sensory receptors translate the world into electricity."
+    },
+    {
+      "q": "Transduction is the process of converting stimulus energy into electrical signals.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Transduction is the fundamental translation step. Physical stimulus → electrical potential. It's how the nervous system 'hears' the world."
+    },
+    {
+      "q": "A graded potential is an electrical signal that varies in strength with stimulus intensity.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Stronger stimulus = larger graded potential. Weaker stimulus = smaller graded potential. It's like a volume knob, not an on/off switch."
+    },
+    {
+      "q": "The receptor potential (or generator potential) is the graded electrical change produced by transduction.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! When transduction happens, the result is a receptor potential - a graded change in voltage that represents stimulus intensity."
+    },
+    {
+      "q": "Without transduction, you couldn't see, hear, feel, smell, or taste anything.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Every sensation depends on transduction. No conversion to electrical signals = no perception. Transduction is the foundation of all sensation."
+    },
+    {
+      "q": "Transduction converts stimulus energy into a graded (receptor) potential.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Light → receptor potential in photoreceptors. Pressure → receptor potential in mechanoreceptors. Every sensory modality uses transduction."
+    },
+    {
+      "q": "Transduction refers to conversion of ___.",
+      "options": [
+        "Stimulus energy into a graded potential",
+        "Afferent to efferent impulses",
+        "Presynaptic to postsynaptic impulses",
+        "Receptor energy to stimulus energy"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Stimulus energy into a graded (receptor) potential! Transduction is the translation from physical world (pressure, light, chemicals) to electrical language (voltage changes)."
     }
   ]
 }

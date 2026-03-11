@@ -1,26 +1,96 @@
 {
   "parentId": "200.4.02",
-  "parentQuestion": "An EMT shines a pen light into a trauma patient's eye and records the reactivity...",
+  "parentQuestion": "An EMT shines a pen light into a trauma patient's eye and records the reactivity of the pupil constricting when stimulated by light. This test supports which of the following?",
   "scaffolds": [
     {
-      "q": "The pupil gets smaller (constricts) when bright light shines in the eye.",
+      "q": "The pupil is the dark opening in the center of your eye.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Yes — and this is beautiful in its simplicity. This is the pupillary light reflex. Bright light triggers pupil constriction to protect the retina and regulate the amount of light entering the eye. It's an automatic, brainstem-level response — no thought required."
+      "difficulty": "foundation",
+      "explain": "Yes! The pupil is the hole that lets light into your eye. It looks black because light goes in and doesn't come back out."
     },
     {
-      "q": "The pupillary light reflex is a test of brainstem function.",
+      "q": "The pupil gets smaller (constricts) in bright light to protect the eye.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Absolutely — and The elegance reveals itself here:. The pupillary light reflex requires intact cranial nerves II and III, PLUS the midbrain pretectal nucleus. That's why checking pupil reactions is a quick, surgical way to assess brainstem function in emergencies. Let me show you where this gets dark: A blown pupil means something is CRUSHING CN III. Bear with me:."
+      "difficulty": "foundation",
+      "explain": "Correct! Pupil constriction reduces the amount of light entering the eye. This is automatic - you don't have to think about it."
+    },
+    {
+      "q": "The pupillary light reflex is controlled by the brainstem, not conscious thought.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! It's a reflex - automatic and involuntary. The pathway goes through the midbrain (brainstem), so checking pupil reactions tests brainstem function."
+    },
+    {
+      "q": "The optic nerve (CN II) carries visual information from the eye to the brain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! CN II is the sensory nerve for vision. It carries the light signal FROM the eye TO the brain. It's the 'input' side of the pupil reflex."
+    },
+    {
+      "q": "The oculomotor nerve (CN III) controls muscles that move the eye AND the muscle that constricts the pupil.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! CN III controls most eye muscles PLUS the sphincter pupillae muscle that constricts the pupil. It's the 'output' side of the pupil reflex."
+    },
+    {
+      "q": "The pupillary light reflex tests both CN II (sensory input) and CN III (motor output).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Light goes in (CN II), brainstem processes it, signal goes out (CN III), pupil constricts. Both nerves must work for the reflex to happen."
+    },
+    {
+      "q": "If a patient's pupil constricts when light is shined in it, this indicates CN III (oculomotor) is functioning.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The motor signal that constricts the pupil travels through CN III. If the pupil constricts, the efferent (output) limb of the reflex is working."
+    },
+    {
+      "q": "A 'blown pupil' (fixed and dilated) can indicate brain herniation compressing CN III.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Rising brain pressure can push the brain downward, crushing CN III against the skull. The pupil dilates and stops responding to light. This is a neurological emergency."
+    },
+    {
+      "q": "When an EMT checks pupil reactivity and sees constriction, it confirms the oculomotor nerve is functioning.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! A reactive pupil means CN III is carrying the motor signal to constrict it. This is reassuring - it means this part of the brainstem circuit is intact."
     }
   ]
 }

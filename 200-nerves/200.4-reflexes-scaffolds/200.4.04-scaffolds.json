@@ -3,24 +3,94 @@
   "parentQuestion": "Reciprocal inhibition occurs when ___.",
   "scaffolds": [
     {
-      "q": "For smooth movement, opposing muscles must be coordinated.",
+      "q": "An agonist muscle is the primary muscle producing a movement.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Absolutely — and let me show you why. If both the biceps and triceps contracted at the same time with equal force, your elbow wouldn't move — it would be LOCKED in place, rigid and useless. Coordination is essential for function. we're going deeper."
+      "difficulty": "foundation",
+      "explain": "Yes! The agonist is the 'prime mover' - the main muscle doing the work. When you flex your elbow, the biceps is the agonist."
     },
     {
-      "q": "Inhibitory interneurons can prevent motor neurons from firing.",
+      "q": "An antagonist muscle opposes the action of the agonist.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Yes — and Now we arrive at the gorgeous part:. Interneurons in the spinal cord can release inhibitory neurotransmitters (like glycine or GABA) that hyperpolarize motor neurons, preventing them from firing. This effectively relaxes the muscle they control — all at the reflex level. this is the mechanism that makes reciprocal inhibition possible."
+      "difficulty": "foundation",
+      "explain": "Correct! Antagonists have opposite actions. When the biceps flexes the elbow, the triceps (antagonist) would extend it. They're opponents."
+    },
+    {
+      "q": "For smooth movement, the antagonist muscle must relax while the agonist contracts.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! If both contracted equally, the joint would lock. The antagonist must 'get out of the way' for smooth, efficient movement."
+    },
+    {
+      "q": "The spinal cord coordinates reflexes without needing the brain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Many reflexes, including reciprocal inhibition, are processed entirely in the spinal cord. The brain can modulate them, but basic coordination is automatic."
+    },
+    {
+      "q": "Inhibitory interneurons release neurotransmitters that prevent other neurons from firing.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Inhibitory interneurons release chemicals like glycine or GABA that hyperpolarize motor neurons, making them less likely to fire."
+    },
+    {
+      "q": "In reciprocal inhibition, an inhibitory interneuron prevents the antagonist muscle from contracting.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The sensory signal that activates the agonist also activates an interneuron that inhibits the antagonist motor neuron. Automatic coordination!"
+    },
+    {
+      "q": "Reciprocal inhibition prevents antagonistic muscles from contracting.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This is the definition. When the agonist is activated, the antagonist is inhibited through spinal cord circuits. This prevents the limb from fighting itself."
+    },
+    {
+      "q": "Reciprocal inhibition is a spinal reflex that coordinates opposing muscles automatically.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! It happens at the spinal cord level without conscious thought. The sensory neuron activates both the agonist motor neuron AND an inhibitory interneuron to the antagonist."
+    },
+    {
+      "q": "The answer is 'antagonistic muscles are prevented from contracting' because reciprocal inhibition relaxes the opposing muscle during movement.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Reciprocal inhibition = antagonist muscles are prevented from contracting. This allows smooth, unopposed movement of the agonist."
     }
   ]
 }

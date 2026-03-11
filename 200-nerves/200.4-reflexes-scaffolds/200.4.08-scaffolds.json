@@ -1,26 +1,96 @@
 {
   "parentId": "200.4.08",
-  "parentQuestion": "A 28-year-old woman is involved in a motorcycle accident and suffers a spinal co...",
+  "parentQuestion": "A 28-year-old woman is involved in a motorcycle accident and suffers a spinal cord injury. On examination, her knee jerk reflex (patellar reflex) is ABSENT, but her ankle jerk reflex is NORMAL. Which spinal segments are most likely damaged?",
   "scaffolds": [
     {
-      "q": "The patellar (knee jerk) reflex tests the L2-L4 spinal segments.",
+      "q": "The knee jerk reflex is also called the patellar reflex.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Yes — and let me show you the elegance of this. When you tap the patellar tendon, you're testing the integrity of the L2-L4 spinal cord segments and the femoral nerve. Stretch receptors in the quadriceps → sensory neurons → L2-L4 dorsal horn → motor neurons → femoral nerve → quadriceps contracts. Simple. Surgical. Diagnostic. Walk through this:."
+      "difficulty": "foundation",
+      "explain": "Yes! Same thing - tap the patellar tendon below the kneecap, and the quadriceps contracts, making the leg kick forward."
     },
     {
-      "q": "The ankle jerk reflex tests the S1-S2 spinal segments.",
+      "q": "The knee jerk tests the L2, L3, and L4 spinal segments.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Absolutely — and here's where the anatomy becomes a map. The ankle jerk (Achilles reflex) tests S1-S2 via the tibial nerve. Tap the Achilles tendon → gastrocnemius/soleus contracts → foot plantar flexes. If this reflex is intact while the knee jerk is absent, you know the lesion is ABOVE S1 but involves L2-L4. Absorb this:the precision."
+      "difficulty": "foundation",
+      "explain": "Correct! The patellar reflex arc goes through L2-L4 via the femoral nerve. If this reflex is absent, those segments may be damaged."
+    },
+    {
+      "q": "The ankle jerk reflex is also called the Achilles reflex.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Same thing - tap the Achilles tendon at the heel, and the calf muscles contract, making the foot push down."
+    },
+    {
+      "q": "The ankle jerk tests the S1 and S2 spinal segments.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The ankle jerk arc goes through S1-S2 via the tibial nerve. If this reflex works, those segments are intact."
+    },
+    {
+      "q": "An absent reflex means the reflex arc at that spinal level is damaged.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! No reflex = broken circuit. The sensory neurons, motor neurons, or spinal cord segment itself is not working."
+    },
+    {
+      "q": "A normal reflex means that spinal segment is intact.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! If the reflex works, the whole arc (sensory neuron → spinal cord → motor neuron → muscle) is functioning at that level."
+    },
+    {
+      "q": "If the knee jerk is absent but the ankle jerk is normal, the lesion is at L2-L4 (not S1-S2).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Absent knee jerk = L2-L4 damaged. Normal ankle jerk = S1-S2 intact. The lesion must be at the level where the reflex is lost."
+    },
+    {
+      "q": "Reflex testing can precisely localize spinal cord injuries.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Each reflex tests specific spinal segments. By checking which reflexes are present or absent, you can map exactly where the damage is."
+    },
+    {
+      "q": "In this case, L2-L4 segments are most likely damaged because the knee jerk (L2-L4) is absent while the ankle jerk (S1-S2) is normal.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! This is the answer. The absent reflex tells you WHERE the damage is. L2-L4 arc is broken. S1-S2 arc is intact. The lesion is at L2-L4."
     }
   ]
 }

@@ -1,26 +1,98 @@
 {
   "parentId": "200.2.03",
-  "parentQuestion": "A person has gone for a deep-tissue therapeutic massage. Which of the following ...",
+  "parentQuestion": "A person has gone for a deep-tissue therapeutic massage. Which of the following receptors would be stimulated by the massage?",
   "scaffolds": [
     {
-      "q": "Deep-tissue massage can be uncomfortable or even slightly painful.",
+      "q": "Deep-tissue massage involves applying strong pressure to muscles.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Deep-tissue massage applies significant pressure to reach deeper muscle layers, which activates pain receptors along with pressure receptors. The discomfort is the point — you're activating nociceptors to break up adhesions and release tension. Sustain this attention:: pain as therapy."
+      "difficulty": "foundation",
+      "explain": "Yes! Unlike gentle Swedish massage, deep-tissue work uses significant pressure to reach deeper muscle layers. It can be uncomfortable or even painful."
     },
     {
-      "q": "Free nerve endings are the simplest type of sensory receptor.",
+      "q": "The 'hurts so good' feeling during deep-tissue massage suggests pain receptors are involved.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Free nerve endings are bare nerve terminals without specialized capsules. They detect pain, temperature, and light touch, and are found throughout the body. Simple structure, profound function."
+      "difficulty": "foundation",
+      "explain": "Correct! That intense, bordering-on-painful sensation comes from activating nociceptors (pain receptors). You're getting therapeutic pain."
+    },
+    {
+      "q": "Free nerve endings are the simplest type of sensory receptor - just bare nerve terminals.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Free nerve endings have no fancy capsules or structures. They're raw nerve terminals that respond to intense stimuli."
+    },
+    {
+      "q": "Free nerve endings detect painful, intense, or potentially damaging stimuli.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Free nerve endings (nociceptors) respond when stimuli are intense enough to be concerning - strong pressure, extreme temperature, or tissue damage."
+    },
+    {
+      "q": "Pacinian corpuscles detect vibration and brief pressure, not sustained deep pressure.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Pacinian corpuscles adapt rapidly - they fire when pressure starts and stops, but go quiet during sustained pressure. They're vibration detectors."
+    },
+    {
+      "q": "Golgi tendon organs detect muscle tension, not external pressure applied to skin.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Golgi tendon organs are in tendons and respond when YOUR muscle contracts forcefully. They don't detect someone pressing on you from outside."
+    },
+    {
+      "q": "The intense sensation of deep-tissue massage comes from stimulating free nerve endings (nociceptors).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! That uncomfortable-yet-therapeutic sensation is your nociceptors firing. You're essentially paying someone to activate your pain system in a controlled way."
+    },
+    {
+      "q": "Free nerve endings are polymodal - they respond to multiple types of intense stimuli.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Free nerve endings can respond to intense mechanical pressure, extreme temperature, AND damaging chemicals. They're the body's general alarm system."
+    },
+    {
+      "q": "The receptor most stimulated by deep-tissue massage is the ___.",
+      "options": [
+        "Golgi tendon organ",
+        "Pacinian corpuscle",
+        "Free nerve ending",
+        "Muscle spindle"
+      ],
+      "answer": 2,
+      "difficulty": "intermediate",
+      "explain": "Free nerve endings (nociceptors)! The intense pressure of deep-tissue work is strong enough to activate these pain receptors. That's why it 'hurts so good.'"
     }
   ]
 }

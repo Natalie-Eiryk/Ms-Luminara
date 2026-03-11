@@ -1,26 +1,96 @@
 {
   "parentId": "200.2.06",
-  "parentQuestion": "Which of the following is an INCORRECT statement regarding the occurrence of a s...",
+  "parentQuestion": "Which of the following is an INCORRECT statement regarding the occurrence of a sensation?",
   "scaffolds": [
     {
-      "q": "Each sensory receptor responds best to a specific type of stimulus.",
+      "q": "Sensation requires several steps to work properly.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "This is called receptor specificity or modality. Photoreceptors respond to light, mechanoreceptors to pressure, thermoreceptors to temperature — each is tuned to its adequate stimulus. Mismatch stimulus and receptor, get no response. Evolution's crowning achievement. specialization?"
+      "difficulty": "foundation",
+      "explain": "Yes! Sensation is a chain: stimulus → receptor → transduction → nerve signal → brain interpretation. Break any link, no sensation."
     },
     {
-      "q": "The graded potential produced by a sensory receptor is called a receptor potential.",
+      "q": "Each receptor type responds best to a specific type of stimulus (its 'adequate stimulus').",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "When transduction occurs, the result is a receptor potential (or generator potential) — a graded change in membrane voltage that can trigger action potentials if large enough. This is the electrical representation of stimulus intensity. Immerse yourself in this:the elegance of analog-to-digital conversion."
+      "difficulty": "foundation",
+      "explain": "Correct! Photoreceptors respond to light. Mechanoreceptors respond to pressure. Thermoreceptors respond to temperature. Receptor specificity is essential."
+    },
+    {
+      "q": "The stimulus must occur in the receptor's 'receptive field' - the area it monitors.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Touch my fingertip, activate fingertip receptors. Touch my shoulder, activate different receptors. Location matters."
+    },
+    {
+      "q": "Transduction converts stimulus energy into a receptor (generator) potential.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Transduction is the PROCESS. The receptor potential is the PRODUCT - the graded electrical change that results."
+    },
+    {
+      "q": "The receptor potential must be large enough to trigger action potentials in the sensory neuron.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The receptor potential must reach THRESHOLD to trigger action potentials. Too weak = no signal sent to brain."
+    },
+    {
+      "q": "The graded potential produced by transduction is called a RECEPTOR potential (or generator potential).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Receptor potential or generator potential - both terms describe the electrical change produced by transduction."
+    },
+    {
+      "q": "There is no such thing as a 'transduction potential' - that's mixing up the process with the product.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Transduction is the PROCESS. Receptor potential is the RESULT. Calling it 'transduction potential' confuses the action with the outcome."
+    },
+    {
+      "q": "The INCORRECT statement says the potential is called a 'transduction potential' instead of 'receptor potential.'",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The answer is the statement claiming 'transduction potential.' The correct term is RECEPTOR potential (or generator potential)."
+    },
+    {
+      "q": "The phrase 'transduction potential' is incorrect - the proper term is 'receptor potential' or 'generator potential.'",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! This is why that statement is INCORRECT. Transduction is the process. Receptor/generator potential is the result. Terminology matters."
     }
   ]
 }

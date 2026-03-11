@@ -1,26 +1,96 @@
 {
   "parentId": "200.4.09",
-  "parentQuestion": "A 50-year-old alcoholic man presents with difficulty walking and loss of vibrati...",
+  "parentQuestion": "A 50-year-old alcoholic man presents with difficulty walking and loss of vibration sense in his legs. His ankle jerk reflexes are absent bilaterally, but his knee jerk reflexes are exaggerated (hyperactive). What does this reflex pattern suggest?",
   "scaffolds": [
     {
-      "q": "Peripheral neuropathy causes ABSENT or DIMINISHED reflexes.",
+      "q": "Peripheral neuropathy damages the nerves outside the brain and spinal cord.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Yes — and here's the mechanism. Peripheral neuropathy damages the PERIPHERAL nerves (lower motor neurons or sensory neurons), which are part of the reflex arc. Destroy the arc, and the reflex cannot happen. This is why diabetic neuropathy and alcoholic neuropathy both cause diminished or absent ankle jerks — the S1-S2 nerves are dying. Navigate this together:."
+      "difficulty": "foundation",
+      "explain": "Yes! Peripheral neuropathy affects the peripheral nerves - the ones running to your limbs. Common causes include diabetes and alcoholism."
     },
     {
-      "q": "Upper motor neuron disease causes HYPERACTIVE reflexes.",
+      "q": "Peripheral neuropathy often affects the longest nerves first (feet before hands).",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Absolutely — and let me show you why. Upper motor neurons provide DESCENDING INHIBITION to spinal reflexes. When you damage them (stroke, MS, spinal cord compression), you RELEASE the lower motor neurons from inhibition. Reflexes become exaggerated, brisk, and sometimes even clonus (rhythmic oscillations). This is classic upper motor neuron pathology. Open yourself to this:the irony: losing control creates too much response."
+      "difficulty": "foundation",
+      "explain": "Correct! This is called 'length-dependent' neuropathy. The longest nerves (to the feet) are most vulnerable. Ankle reflexes go first."
+    },
+    {
+      "q": "Peripheral nerve damage causes ABSENT or DIMINISHED reflexes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! When the peripheral nerve is damaged, the reflex arc is broken. No signal gets through, so the reflex is weak or absent."
+    },
+    {
+      "q": "Upper motor neuron disease damages the pathways from brain to spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Upper motor neurons (like the corticospinal tract) control voluntary movement and normally inhibit reflexes."
+    },
+    {
+      "q": "Upper motor neuron damage causes HYPERACTIVE (exaggerated) reflexes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! When descending inhibition is lost, the spinal reflexes become overactive. The brain can't 'calm them down' anymore."
+    },
+    {
+      "q": "A patient can have BOTH peripheral neuropathy AND upper motor neuron disease at the same time.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Some conditions damage multiple parts of the nervous system. This creates a 'mixed' pattern of reflexes."
+    },
+    {
+      "q": "Absent ankle jerks (S1-S2) suggest peripheral neuropathy at that level.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The peripheral nerves to the ankle reflex are damaged. This is common in diabetic and alcoholic neuropathy."
+    },
+    {
+      "q": "Hyperactive knee jerks (L2-L4) suggest upper motor neuron disease above that level.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The reflex arc is intact, but descending inhibition is lost. The spinal cord at L2-L4 is being 'released' from brain control."
+    },
+    {
+      "q": "Absent ankle jerks PLUS hyperactive knee jerks suggests combined peripheral neuropathy AND upper motor neuron disease.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! This mixed pattern means two things are wrong: (1) peripheral nerves at S1-S2 are damaged (absent ankles), and (2) corticospinal tracts are damaged (hyperactive knees). Common in B12 deficiency and some alcoholics."
     }
   ]
 }

@@ -1,7 +1,37 @@
 {
   "parentId": "200.4.06",
-  "parentQuestion": "A 60-year-old man falls and fractures his humerus. Two weeks later, he cannot ex...",
+  "parentQuestion": "A 60-year-old man falls and fractures his humerus. Two weeks later, he cannot extend his wrist or fingers, and has numbness over the dorsal (back) surface of his hand between the thumb and index finger. Which spinal nerve roots are most likely affected?",
   "scaffolds": [
+    {
+      "q": "The humerus is the upper arm bone between the shoulder and elbow.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The humerus is the single bone of the upper arm. Important nerves wrap around it."
+    },
+    {
+      "q": "Bone fractures can damage nearby nerves.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Broken bone fragments are sharp. They can crush, stretch, or cut nerves that run near the fracture site."
+    },
+    {
+      "q": "The radial nerve wraps around the humerus and is vulnerable to humeral fractures.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The radial nerve runs in the spiral groove on the back of the humerus. A mid-shaft fracture often damages this nerve."
+    },
     {
       "q": "The radial nerve controls wrist and finger extension.",
       "options": [
@@ -9,18 +39,58 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Yes — and let me show you why this matters. The radial nerve innervates ALL the extensor muscles of the posterior forearm. These are the muscles that lift your wrist and straighten your fingers against gravity. Damage them, and everything just falls. Maintain this focus:."
+      "difficulty": "foundation",
+      "explain": "Correct! The radial nerve supplies all the extensor muscles. Damage causes wrist drop - inability to lift the wrist and fingers."
     },
     {
-      "q": "The radial nerve is vulnerable to injury where it spirals around the humerus.",
+      "q": "The radial nerve provides sensation to the back (dorsal) surface of the hand.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Absolutely — and here's where anatomy becomes vulnerability. The radial nerve runs in the spiral groove on the POSTERIOR surface of the humerus, wrapping around the bone like a wire around a post. A mid-shaft humeral fracture can crush, stretch, or sever it. One fracture, one nerve, one devastating loss. Open your mind to this:the permanence."
+      "difficulty": "foundation",
+      "explain": "Yes! The radial nerve's sensory territory includes the dorsum of the hand, especially the web space between thumb and index finger."
+    },
+    {
+      "q": "Loss of wrist extension + numbness on dorsal hand = radial nerve injury.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! This combination of motor loss (extension) and sensory loss (dorsal hand) is classic for radial nerve damage."
+    },
+    {
+      "q": "The radial nerve arises primarily from C6-C7 spinal nerve roots.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The radial nerve comes from C5-T1, but C6-C7 are the primary contributors. These roots control wrist extension."
+    },
+    {
+      "q": "A humeral fracture causing wrist drop and dorsal hand numbness indicates C6-C7 root involvement via the radial nerve.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The clinical picture (wrist/finger extension loss + dorsal hand sensory loss after humeral fracture) points to radial nerve injury, which derives mainly from C6-C7."
+    },
+    {
+      "q": "C6-C7 are the nerve roots most likely affected when a humeral fracture causes radial nerve palsy.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The radial nerve carries C6-C7 predominantly. The fracture damaged the nerve in the spiral groove, affecting these root distributions. Hence: wrist drop + dorsal hand numbness."
     }
   ]
 }

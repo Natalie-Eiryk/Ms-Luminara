@@ -1,6 +1,6 @@
 {
   "parentId": "200.2.04",
-  "parentQuestion": "Feeling a gentle caress on your arm would likely involve all of the following EX...",
+  "parentQuestion": "Feeling a gentle caress on your arm would likely involve all of the following EXCEPT ___.",
   "scaffolds": [
     {
       "q": "Different receptors in the skin detect different types of touch.",
@@ -9,18 +9,88 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The skin contains multiple types of mechanoreceptors, each specialized for different aspects of touch: light touch, deep pressure, vibration, stretch, and texture. Each receptor is tuned to a specific stimulus dimension. Gloriously complex. specialization?"
+      "difficulty": "foundation",
+      "explain": "Yes! The skin contains multiple types of mechanoreceptors - some for light touch, others for deep pressure, others for vibration."
     },
     {
-      "q": "Mechanoreceptors in superficial skin layers detect light touch.",
+      "q": "Meissner's corpuscles detect light touch and are located in SUPERFICIAL skin layers.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Receptors like Meissner's corpuscles and Merkel discs are located in superficial skin layers and are exquisitely sensitive to light touch and fine texture discrimination. They're positioned RIGHT where the world touches you. Take a moment to appreciate this:that precision."
+      "difficulty": "foundation",
+      "explain": "Correct! Meissner's corpuscles are near the skin surface and are very sensitive to light touch and texture. A gentle caress would activate them."
+    },
+    {
+      "q": "Tactile (Merkel) discs detect light, sustained touch and are in superficial skin.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Merkel discs are in the basal epidermis and respond to sustained light touch. A hand resting on your arm would activate them."
+    },
+    {
+      "q": "Hair follicle receptors detect movement of body hairs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Free nerve endings wrap around hair follicles. Even if a caress doesn't touch skin directly, bending the hairs triggers these receptors."
+    },
+    {
+      "q": "Lamellar (Pacinian) corpuscles are located DEEP in the skin.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Pacinian corpuscles are in the deep dermis and subcutaneous tissue. They're positioned to detect deep pressure and vibration, not gentle surface touch."
+    },
+    {
+      "q": "Pacinian corpuscles detect deep pressure and vibration, not light touch.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Pacinian corpuscles require significant pressure to deform them. A gentle caress wouldn't reach deep enough to activate them."
+    },
+    {
+      "q": "A gentle caress activates SUPERFICIAL receptors (Meissner's, Merkel, hair follicles) but not DEEP receptors (Pacinian).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Depth matters. Light touch affects the surface. Pacinian corpuscles are too deep to be stimulated by a gentle caress."
+    },
+    {
+      "q": "The location of a receptor (superficial vs deep) determines what kind of touch it responds to.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Receptor depth = stimulus type. Superficial receptors catch light touch. Deep receptors require more pressure. Architecture mirrors function."
+    },
+    {
+      "q": "A gentle caress would NOT activate lamellar (Pacinian) corpuscles because they are too deep.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! This is the answer. Pacinian corpuscles are in deep tissue. A gentle caress doesn't penetrate deep enough. They detect vibration and deep pressure, not surface caresses."
     }
   ]
 }

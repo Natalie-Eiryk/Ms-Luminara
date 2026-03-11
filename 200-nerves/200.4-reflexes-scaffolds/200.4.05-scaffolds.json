@@ -1,26 +1,96 @@
 {
   "parentId": "200.4.05",
-  "parentQuestion": "A 45-year-old woman presents with hyperactive knee and ankle reflexes bilaterall...",
+  "parentQuestion": "A 45-year-old woman presents with hyperactive knee and ankle reflexes bilaterally, but ABSENT reflexes when testing the abdominal wall. Where is the spinal cord lesion most likely located?",
   "scaffolds": [
     {
-      "q": "Upper motor neuron lesions cause hyperactive reflexes BELOW the level of the lesion.",
+      "q": "A reflex arc requires sensory neurons, the spinal cord, and motor neurons to work.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Yes — and And now, the revelation:. Upper motor neurons normally provide INHIBITION to spinal reflexes. When you damage them, you RELEASE the lower motor neurons from inhibition — reflexes become exaggerated and brisk. This is why stroke patients develop hyperreflexia. Receive this insight:the irony: losing control creates too much response."
+      "difficulty": "foundation",
+      "explain": "Yes! The reflex arc is: stimulus → sensory neuron → spinal cord (integration) → motor neuron → muscle response. All parts must be intact."
     },
     {
-      "q": "Lower motor neuron lesions cause ABSENT reflexes at the level of damage.",
+      "q": "If a reflex is ABSENT, the reflex arc at that level is damaged.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Absolutely — and this is where the anatomy becomes devastation. Lower motor neurons ARE the efferent limb of the reflex arc. Destroy them, and the reflex cannot happen — you've cut the wire that makes the muscle contract. The reflex arc is BROKEN. this is the key to locating spinal lesions."
+      "difficulty": "foundation",
+      "explain": "Correct! An absent reflex means the circuit is broken at that spinal level - either the sensory neurons, motor neurons, or the cord itself is damaged."
+    },
+    {
+      "q": "If a reflex is HYPERACTIVE (exaggerated), the brain's inhibitory control is lost.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The brain normally sends signals DOWN to dampen reflexes. When those pathways are cut (upper motor neuron damage), reflexes become exaggerated."
+    },
+    {
+      "q": "The abdominal reflex tests thoracic spinal levels (T8-T12).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Stroking the abdomen causes the muscles to contract. This reflex tests T8-T12 spinal segments."
+    },
+    {
+      "q": "The knee jerk (patellar) reflex tests lumbar levels L2-L4.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The knee jerk tests L2-L4 via the femoral nerve. If it's present and working, those spinal segments are intact."
+    },
+    {
+      "q": "The ankle jerk (Achilles) reflex tests sacral levels S1-S2.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The ankle jerk tests S1-S2 via the tibial nerve. If it's working, those segments are intact."
+    },
+    {
+      "q": "Upper motor neuron damage causes hyperactive reflexes BELOW the lesion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! When descending inhibition is lost, the reflexes below become exaggerated. The reflex arcs are intact but 'released' from brain control."
+    },
+    {
+      "q": "Absent abdominal reflex (T8-T12) + hyperactive leg reflexes (L2-S2) indicates a lesion AT the thoracic level.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The lesion destroys the reflex arc at T8-T12 (absent abdominal). Below the lesion (L2-S2), reflexes are hyperactive because descending inhibition is cut."
+    },
+    {
+      "q": "The pattern of absent reflexes AT the lesion level and hyperactive reflexes BELOW helps localize spinal cord injuries.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! This is key diagnostic reasoning. Absent = lesion is AT that level (arc destroyed). Hyperactive = lesion is ABOVE that level (inhibition lost). The pattern maps the damage."
     }
   ]
 }

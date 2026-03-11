@@ -1,7 +1,17 @@
 {
   "parentId": "200.2.07",
-  "parentQuestion": "A 68-year-old diabetic patient steps on a tack but doesn't notice until she sees...",
+  "parentQuestion": "A 68-year-old diabetic patient steps on a tack but doesn't notice until she sees blood on the floor. She can still feel light touch on her feet with a cotton swab. Which sensory pathway has likely failed?",
   "scaffolds": [
+    {
+      "q": "Diabetes can damage peripheral nerves over time (diabetic neuropathy).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! High blood sugar damages nerves, especially in the feet and hands. This is called diabetic neuropathy."
+    },
     {
       "q": "Pain and light touch are carried by different types of nerve fibers.",
       "options": [
@@ -9,18 +19,80 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Pain travels on small, unmyelinated C fibers (slow, burning pain) and thinly myelinated Aδ fibers (fast, sharp pain). Light touch travels on larger, heavily myelinated Aβ fibers. Different fiber types, different speeds, different vulnerabilities. this matters when disease strikes."
+      "difficulty": "foundation",
+      "explain": "Correct! Pain travels on small, unmyelinated fibers (C and Aδ). Light touch travels on larger, myelinated fibers (Aβ). Different fibers, different vulnerabilities."
     },
     {
-      "q": "Diabetic neuropathy tends to damage smaller nerve fibers before larger ones.",
+      "q": "Small nerve fibers are more vulnerable to diabetic damage than large fibers.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Small fibers are metabolically vulnerable and die first in diabetic neuropathy. Pain and temperature sensation disappear while light touch and vibration remain. Let me show you the cruel irony: you lose the ability to detect danger while keeping the ability to detect comfort. The body's security system, dismantled from the inside."
+      "difficulty": "foundation",
+      "explain": "Yes! Small fibers have higher metabolic demands and are damaged first. Pain and temperature sensation disappear before light touch."
+    },
+    {
+      "q": "Nociceptors (pain receptors) are free nerve endings that use small nerve fibers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Pain signals travel on unmyelinated C fibers and thinly myelinated Aδ fibers. These small fibers are fragile and die first in diabetes."
+    },
+    {
+      "q": "Light touch receptors (like Meissner's corpuscles) use larger, more protected nerve fibers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Light touch travels on thick, well-myelinated Aβ fibers. These survive longer in diabetic neuropathy."
+    },
+    {
+      "q": "A patient can lose pain sensation while keeping light touch if only the small fibers are damaged.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! This is called dissociated sensory loss. Small fibers die (no pain), large fibers survive (touch preserved). Different fibers, different fates."
+    },
+    {
+      "q": "This diabetic patient lost her pain alarm system but kept her touch sensors.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! She can feel the cotton swab (light touch intact) but not the tack (pain lost). Small fibers died, large fibers survived."
+    },
+    {
+      "q": "Free nerve endings (nociceptors) have likely failed because she feels touch but not pain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The small fibers carrying pain signals from free nerve endings are damaged. Large fibers carrying touch are intact."
+    },
+    {
+      "q": "The sensory pathway that has failed is carried by ___ (receptors that detect harmful stimuli).",
+      "options": [
+        "Meissner's corpuscles",
+        "Free nerve endings (nociceptors)",
+        "Pacinian corpuscles",
+        "Muscle spindles"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Free nerve endings (nociceptors)! These detect pain and travel on small, vulnerable fibers. Diabetic neuropathy killed her pain sensation while sparing touch."
     }
   ]
 }

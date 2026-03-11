@@ -1,26 +1,98 @@
 {
   "parentId": "200.2.11",
-  "parentQuestion": "A chef burns their fingertips repeatedly while cooking but doesn't notice until ...",
+  "parentQuestion": "A chef burns their fingertips repeatedly while cooking but doesn't notice until they see blisters forming. However, they can still detect when food is warm versus cold. Which receptor population is most likely damaged?",
   "scaffolds": [
     {
-      "q": "Thermoreceptors detect temperature in the non-damaging range.",
+      "q": "Thermoreceptors detect temperature in normal, non-damaging ranges.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Cold receptors respond to cooling (10-35°C), warm receptors respond to warming (30-45°C). They tell you about temperature, not tissue damage. Embark on this:: they're the thermometer, not the fire alarm. Different job entirely."
+      "difficulty": "foundation",
+      "explain": "Yes! Thermoreceptors detect pleasant warmth (30-45°C) and cool (10-35°C). They report temperature information."
     },
     {
-      "q": "Nociceptors include heat-sensitive channels that respond to temperatures above ~43°C (109°F).",
+      "q": "Nociceptors detect stimuli that are intense enough to damage tissue.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "TRPV1 channels in nociceptors activate above 43°C — the temperature where tissue damage begins. Let me show you the beautiful precision: below 43°C, thermoreceptors report. Above 43°C, nociceptors alarm. The threshold for pain perfectly matches the threshold for tissue injury."
+      "difficulty": "foundation",
+      "explain": "Correct! Nociceptors are your alarm system. They fire when stimuli are dangerous - including tissue-damaging heat."
+    },
+    {
+      "q": "Temperature information (warm vs cold) is different from pain alarm (burning/damage).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Thermoreceptors tell you 'this is warm.' Nociceptors scream 'THIS IS BURNING YOU!' Different receptors, different jobs."
+    },
+    {
+      "q": "Heat nociceptors activate above about 43°C (109°F) - where tissue damage begins.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! 43°C is the threshold where tissue damage starts. Below this, thermoreceptors report. Above this, nociceptors alarm."
+    },
+    {
+      "q": "The chef can feel warm vs cold, so their thermoreceptors are working.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! They can distinguish temperature, so their thermoreceptors are intact. The problem is elsewhere."
+    },
+    {
+      "q": "The chef doesn't feel the burns, so their pain receptors (nociceptors) are NOT working.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! No pain sensation from tissue-damaging heat = nociceptor failure. They can sense 'hot' but not 'BURNING.'"
+    },
+    {
+      "q": "This is dangerous because the chef has lost their damage alarm while keeping their temperature thermometer.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! They can measure temperature but can't detect danger. They'll keep burning themselves without realizing it."
+    },
+    {
+      "q": "Lost burn pain + preserved temperature discrimination = nociceptor damage with spared thermoreceptors.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! This is selective nociceptor loss. The temperature-sensing system works; the pain-alarm system is dead."
+    },
+    {
+      "q": "The receptor population most likely damaged is ___.",
+      "options": [
+        "All thermoreceptors",
+        "Cold receptors only",
+        "Warm receptors only",
+        "Nociceptors (pain receptors)"
+      ],
+      "answer": 3,
+      "difficulty": "intermediate",
+      "explain": "Nociceptors! They can feel warm vs cold (thermoreceptors work) but not burning pain (nociceptors damaged). They've lost the alarm while keeping the thermometer."
     }
   ]
 }

@@ -1,26 +1,96 @@
 {
   "parentId": "200.4.07",
-  "parentQuestion": "A neurologist tests a patient's reflexes and finds a positive Babinski sign in b...",
+  "parentQuestion": "A neurologist tests a patient's reflexes and finds a positive Babinski sign in both feet. In a 35-year-old adult, this most likely indicates damage to ___.",
   "scaffolds": [
     {
-      "q": "In healthy adults, stroking the sole of the foot causes the toes to curl downward (plantar flexion).",
+      "q": "When you stroke the sole of a healthy adult's foot, the toes curl downward.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Yes — and this is the NORMAL plantar reflex. When you stroke the lateral sole of the foot from heel to toe, the toes should curl DOWN. This is what you want to see. because when this reverses, everything changes."
+      "difficulty": "foundation",
+      "explain": "Yes! This is the normal plantar reflex. Stroke the lateral sole from heel to toes, and the toes flex (curl) downward."
     },
     {
-      "q": "The Babinski sign is normal in infants but pathological in adults.",
+      "q": "The Babinski sign is when the big toe extends UPWARD instead of curling down.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Absolutely — and here's where development becomes diagnostic. Infants have immature corticospinal tracts, so the Babinski sign (big toe extends, other toes fan out) is NORMAL until about age 2. After that, it should disappear. If it re-emerges in an adult, it means the corticospinal tract is DAMAGED. Feel the weight of this:the weight of this: a baby's reflex in an adult's body is a sign of brain damage."
+      "difficulty": "foundation",
+      "explain": "Correct! In a positive Babinski sign, the big toe extends (goes up) and the other toes may fan out. This is the opposite of normal."
+    },
+    {
+      "q": "The Babinski sign is NORMAL in babies but ABNORMAL in adults.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Babies have immature nervous systems, so the Babinski is normal until about age 2. In adults, it indicates brain or spinal cord damage."
+    },
+    {
+      "q": "Upper motor neurons are the pathways from the brain to the spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Upper motor neurons (like the corticospinal tract) carry commands from the brain DOWN to the spinal cord. They control voluntary movement."
+    },
+    {
+      "q": "Lower motor neurons are the final pathway from spinal cord to muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Lower motor neurons carry the signal from the spinal cord OUT to the muscles. They're the 'final common pathway.'"
+    },
+    {
+      "q": "The brain normally INHIBITS (suppresses) the Babinski reflex in adults.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Mature corticospinal tracts send signals that suppress this primitive reflex. When those tracts are damaged, the reflex 'escapes' and reappears."
+    },
+    {
+      "q": "Damage to the corticospinal tract (upper motor neurons) releases primitive reflexes like the Babinski.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Without descending inhibition from the brain, the spinal cord's primitive reflexes are no longer suppressed. The Babinski returns."
+    },
+    {
+      "q": "A positive Babinski sign in an adult suggests upper motor neuron damage (corticospinal tract).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! This is a key clinical sign. Stroke, MS, spinal cord injury, and other conditions that damage the corticospinal tract cause a positive Babinski."
+    },
+    {
+      "q": "In a 35-year-old with bilateral Babinski signs, the corticospinal tracts (upper motor neurons) are most likely damaged.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! This is the answer. The Babinski in an adult = upper motor neuron pathology. Bilateral involvement suggests a lesion affecting both corticospinal tracts."
     }
   ]
 }

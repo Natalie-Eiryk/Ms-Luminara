@@ -1,26 +1,96 @@
 {
   "parentId": "200.4.01",
-  "parentQuestion": "Reciprocal inhibition means that while one sensory nerve is stimulated, another ...",
+  "parentQuestion": "Reciprocal inhibition means that while one sensory nerve is stimulated, another sensory neuron for synergistic muscles in the same area is inhibited and cannot respond.",
   "scaffolds": [
     {
-      "q": "Muscles often work in pairs with opposite actions (agonist and antagonist).",
+      "q": "Muscles that work together to create the same movement are called synergists.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Absolutely true — and Quite breathtaking. Most joints are controlled by opposing muscle pairs, and it's one of the most beautiful pieces of engineering in your body. When one contracts (agonist), the other must relax (antagonist), or you'd be locked in place. Biceps flexes the elbow, triceps extends it. Simple. Exquisite. Functional. Absorb this:this."
+      "difficulty": "foundation",
+      "explain": "Yes! Synergists are 'teammates' - they help each other. For example, several muscles work together to flex your elbow."
     },
     {
-      "q": "Antagonist muscles have opposite actions to each other.",
+      "q": "Muscles that have opposite actions are called antagonists.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Yes — and here's where the tension builds. Antagonists oppose each other: when the biceps (flexor) contracts, the triceps (extensor) must relax, and vice versa. This coordination prevents your arm from fighting itself — which is exactly what reciprocal inhibition accomplishes. we're about to see how."
+      "difficulty": "foundation",
+      "explain": "Correct! Antagonists are 'opponents' - they oppose each other's action. The biceps (flexor) and triceps (extensor) are antagonists at the elbow."
+    },
+    {
+      "q": "For smooth movement, when one muscle contracts, its antagonist must relax.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! If both muscles contracted at once with equal force, the joint wouldn't move - it would be locked. Coordination is essential."
+    },
+    {
+      "q": "Motor neurons control muscle contraction.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Motor neurons carry signals from the spinal cord to muscles, telling them to contract. Sensory neurons carry information IN, motor neurons send commands OUT."
+    },
+    {
+      "q": "Sensory neurons carry information TO the spinal cord, not FROM it.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Sensory neurons are 'afferent' - they bring information IN from the body to the CNS. Motor neurons are 'efferent' - they carry commands OUT."
+    },
+    {
+      "q": "Reciprocal inhibition coordinates antagonist muscles, not synergist muscles.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Reciprocal inhibition makes the antagonist RELAX when the agonist contracts. It coordinates opponents, not teammates."
+    },
+    {
+      "q": "Reciprocal inhibition involves MOTOR neurons (controlling movement), not sensory neurons.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Reciprocal inhibition controls muscle contraction/relaxation. It works by inhibiting the motor neurons to the antagonist muscle so it relaxes."
+    },
+    {
+      "q": "When you flex your elbow, an inhibitory interneuron automatically inhibits the triceps motor neurons.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The sensory signal that triggers biceps contraction ALSO activates an inhibitory interneuron that prevents the triceps from contracting. This happens automatically at the spinal cord level."
+    },
+    {
+      "q": "The original statement is FALSE because reciprocal inhibition involves MOTOR neurons to ANTAGONIST muscles, not sensory neurons to synergist muscles.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Two errors in the original: (1) It's motor neurons, not sensory neurons. (2) It's antagonist muscles, not synergist muscles. Reciprocal inhibition relaxes the OPPONENT muscle so movement is smooth."
     }
   ]
 }
