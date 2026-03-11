@@ -1,26 +1,98 @@
 {
   "parentId": "200.3.03",
-  "parentQuestion": "Striking the \"funny bone\" (ulnar nerve) may cause injury to a nerve of which ple...",
+  "parentQuestion": "Striking the \"funny bone\" (ulnar nerve) may cause injury to a nerve of which plexus?",
   "scaffolds": [
     {
-      "q": "The brachial plexus supplies nerves to the arm and hand.",
+      "q": "The arm is supplied by a network of nerves called the brachial plexus.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The brachial plexus (C5-T1) is the network of nerves that supplies motor and sensory innervation to the ENTIRE upper limb — shoulder, arm, forearm, and hand. Every movement, every sensation, originates from this cable distribution system in your neck. Wonderfully designed. I want you to see the full scope of this system..."
+      "difficulty": "foundation",
+      "explain": "Yes! The brachial plexus is the nerve network that supplies your entire arm - from shoulder to fingertips. 'Brachial' means relating to the arm."
     },
     {
-      "q": "The ulnar nerve controls muscles in the hand.",
+      "q": "'Plexus' means a network or braid of nerves.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The ulnar nerve controls most of the small intrinsic muscles of the hand — the ones that spread and close your fingers, stabilize your grip, and let you perform fine motor tasks. Damage the ulnar nerve, and your hand loses precision and power. Allow this to wash over you:drawn into this delicate machinery — such complexity, such fragility..."
+      "difficulty": "foundation",
+      "explain": "Correct! Plexus comes from Latin meaning 'braid.' Spinal nerves weave together into plexuses before distributing to specific body regions."
+    },
+    {
+      "q": "The brachial plexus is formed from spinal nerves in the ___ region.",
+      "options": [
+        "Lower back (lumbar)",
+        "Neck (cervical)",
+        "Pelvis (sacral)",
+        "Mid-back (thoracic)"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The neck region! The brachial plexus comes from C5-T1 (lower cervical and upper thoracic nerves). These nerves exit the neck and travel to supply the arm."
+    },
+    {
+      "q": "All the major nerves of the arm (median, ulnar, radial) come from the brachial plexus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The brachial plexus gives rise to all the major arm nerves: median, ulnar, radial, musculocutaneous, and axillary. It's the master distribution center for the upper limb."
+    },
+    {
+      "q": "The ulnar nerve supplies sensation to the little finger and half the ring finger.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The ulnar nerve's sensory territory is the little finger and medial half of the ring finger. That's why hitting your 'funny bone' causes tingling in those specific fingers."
+    },
+    {
+      "q": "The ulnar nerve comes from C8 and T1 spinal nerve roots.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The ulnar nerve arises from C8-T1, the lowest roots of the brachial plexus. It comes from the medial cord of the plexus."
+    },
+    {
+      "q": "If the brachial plexus is damaged, arm function is affected.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Since the brachial plexus supplies the entire arm, damage here can cause widespread loss of movement and sensation. Severe injuries cause complete arm paralysis."
+    },
+    {
+      "q": "The ulnar nerve is a terminal branch of the brachial plexus, specifically from the medial cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The brachial plexus has three cords (lateral, medial, posterior). The ulnar nerve comes from the medial cord, which is formed from C8-T1 fibers."
+    },
+    {
+      "q": "Since the ulnar nerve comes from the brachial plexus, injury to this nerve is injury to a brachial plexus branch.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The ulnar nerve is a brachial plexus nerve. Any injury to the ulnar nerve (like hitting your funny bone) affects a nerve from the brachial plexus distribution."
     }
   ]
 }

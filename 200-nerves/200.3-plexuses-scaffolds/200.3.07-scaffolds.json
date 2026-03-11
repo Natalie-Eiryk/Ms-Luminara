@@ -1,26 +1,96 @@
 {
   "parentId": "200.3.07",
-  "parentQuestion": "A patient wakes up unable to extend the wrist or fingers after falling asleep wi...",
+  "parentQuestion": "A patient wakes up unable to extend the wrist or fingers after falling asleep with their arm draped over the back of a chair. Which nerve is most likely compressed?",
   "scaffolds": [
     {
-      "q": "The radial nerve controls extension of the wrist and fingers.",
+      "q": "Nerves can be damaged by prolonged pressure or compression.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The radial nerve innervates all the extensor muscles of the posterior forearm — the muscles that lift your wrist and straighten your fingers. Lose the radial nerve, and your hand drops into flexion. You literally can't lift your wrist. I want you to appreciate the elegance of this single nerve controlling ALL extension..."
+      "difficulty": "foundation",
+      "explain": "Yes! Sustained pressure on a nerve cuts off blood flow and squeezes the nerve fibers. This can cause temporary or permanent nerve damage."
     },
     {
-      "q": "Prolonged pressure on a nerve can cause temporary paralysis.",
+      "q": "Wrist extension means lifting your wrist upward (back of hand moves toward forearm).",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Sustained compression cuts off blood flow to the nerve (ischemia) and causes mechanical deformation of nerve fibers. The result is temporary loss of function — neurapraxia. Most cases recover within weeks to months once pressure is relieved. But severe or prolonged compression? Permanent damage. Breathe in this knowledge:drawn into this vulnerability — hours of pressure, and the nerve stops working..."
+      "difficulty": "foundation",
+      "explain": "Correct! Extension = straightening or lifting. Wrist extension lifts the hand up. If you can't extend your wrist, the hand hangs down limply."
+    },
+    {
+      "q": "Finger extension means straightening your fingers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Extension opens the hand by straightening the fingers. Without finger extension, you can't open your hand flat or point."
+    },
+    {
+      "q": "The radial nerve controls all the muscles that EXTEND the wrist and fingers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The radial nerve innervates all the extensor muscles on the back of the forearm. Damage it, and you lose all wrist and finger extension."
+    },
+    {
+      "q": "'Wrist drop' means the hand hangs limply because you can't extend the wrist.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Wrist drop is the classic sign of radial nerve injury. The wrist and fingers hang in flexion because the extensors are paralyzed."
+    },
+    {
+      "q": "The radial nerve wraps around the humerus (upper arm bone) where it can be compressed.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The radial nerve passes through the spiral groove on the back of the humerus. Here it's close to the bone and can be compressed against it."
+    },
+    {
+      "q": "Draping your arm over a chair back for hours can compress the radial nerve.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The chair back presses the radial nerve against the humerus in the spiral groove. Hours of pressure causes 'Saturday night palsy' - waking up with wrist drop."
+    },
+    {
+      "q": "'Saturday night palsy' is radial nerve compression from sleeping with the arm over a hard surface (often while intoxicated).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The name comes from people who fall asleep drunk with their arm over a chair or partner. They don't shift position, so the radial nerve gets compressed for hours."
+    },
+    {
+      "q": "Inability to extend the wrist and fingers after arm compression indicates radial nerve injury.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The radial nerve controls ALL wrist and finger extensors. If you wake up with wrist drop after sleeping with your arm compressed, it's radial nerve damage. Most cases recover in weeks to months."
     }
   ]
 }

@@ -1,26 +1,96 @@
 {
   "parentId": "200.1.07",
-  "parentQuestion": "A patient presents with bilateral loss of pain and temperature sensation in the ...",
+  "parentQuestion": "A patient presents with bilateral loss of pain and temperature sensation in the hands and upper arms, forming a 'cape-like' distribution across the shoulders, but proprioception, vibration sense, and motor function are intact. This pattern most strongly suggests ___.",
   "scaffolds": [
     {
-      "q": "Pain and temperature fibers cross the spinal cord in the anterior commissure (the central region) shortly after entering.",
+      "q": "The spinal cord has a central canal (a small tube running down the middle).",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Let me show you the crossing zone. Pain and temperature fibers enter through the dorsal root, travel to the dorsal horn, then send axons that cross through the anterior commissure (the central part of the cord, near the central canal) to reach the opposite spinothalamic tract. This crossing happens within one or two segments of entry. Here's the delicious vulnerability: anything expanding from the central canal damages these crossing fibers first. this creates a very specific clinical pattern."
+      "difficulty": "foundation",
+      "explain": "Yes! The central canal is a small, CSF-filled tube that runs through the center of the spinal cord. It's a remnant from early development."
     },
     {
-      "q": "Dissociated sensory loss means loss of some sensory modalities (like pain/temperature) while others (like touch/proprioception) remain intact.",
+      "q": "Pain and temperature fibers cross from one side to the other near the CENTER of the spinal cord.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Follow me deeper: and let me show you the dissociation. Different sensory modalities travel in different pathways in the spinal cord. Pain/temperature in the spinothalamic tract (anterolateral), touch/proprioception in the dorsal columns (posterior). When pathology selectively damages one pathway, you get dissociated sensory loss — some modalities lost, others preserved. This pattern reveals the anatomy of the lesion. Immerse yourself in this:into the diagnostic precision: the pattern tells you where the damage is."
+      "difficulty": "foundation",
+      "explain": "Correct! Pain and temperature fibers enter through the dorsal root, then cross through the anterior commissure (near the central canal) to reach the spinothalamic tract on the opposite side."
+    },
+    {
+      "q": "The dorsal columns (proprioception/vibration) are located at the BACK of the spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Dorsal = back. The dorsal columns run along the posterior (back) part of the spinal cord. This location becomes important when central cord lesions occur."
+    },
+    {
+      "q": "A 'syrinx' is a fluid-filled cavity that can form inside the spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! In syringomyelia, a syrinx (cavity filled with CSF-like fluid) forms in the central part of the spinal cord and can slowly expand outward over time."
+    },
+    {
+      "q": "If something expands from the CENTER of the spinal cord outward, it damages the central crossing fibers first.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! An expanding central lesion (like a syrinx) first damages structures near the center - including the crossing pain/temperature fibers. The dorsal columns (at the back) are spared initially."
+    },
+    {
+      "q": "A 'cape-like' or 'shawl' distribution refers to a pattern affecting the shoulders, arms, and upper back.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! This pattern looks like wearing a cape or shawl. It typically affects cervical (neck) levels, which control the shoulders and arms - the area a cape would cover."
+    },
+    {
+      "q": "'Dissociated sensory loss' means some sensations are lost while others remain intact.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! When you lose pain/temperature but keep touch/proprioception (or vice versa), that's dissociated sensory loss. Different pathways are selectively affected."
+    },
+    {
+      "q": "Syringomyelia causes loss of pain/temperature in a cape distribution while preserving proprioception because the syrinx damages crossing spinothalamic fibers while sparing the dorsal columns.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The expanding central cavity damages the crossing pain/temperature fibers first. The dorsal columns are at the back of the cord and get spared. This creates classic dissociated sensory loss."
+    },
+    {
+      "q": "A patient with syringomyelia might burn themselves without feeling pain because they've lost pain sensation but can still feel position and movement.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! This is the tragedy of syringomyelia - patients can't feel pain or temperature in the affected areas. They burn themselves on stoves, cut themselves without noticing, because their pain alarm system is damaged while their position sense remains."
     }
   ]
 }

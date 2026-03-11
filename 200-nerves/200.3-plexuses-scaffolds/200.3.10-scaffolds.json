@@ -1,26 +1,96 @@
 {
   "parentId": "200.3.10",
-  "parentQuestion": "A patient cannot dorsiflex their foot after a fibular neck fracture. The foot sl...",
+  "parentQuestion": "A patient cannot dorsiflex their foot after a fibular neck fracture. The foot slaps the ground during walking (steppage gait). Which nerve runs around the fibular neck and is most likely injured?",
   "scaffolds": [
     {
-      "q": "The common fibular (peroneal) nerve controls foot dorsiflexion and eversion.",
+      "q": "Dorsiflexion means lifting your foot and toes upward (toward your shin).",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The common fibular nerve divides into superficial and deep branches that innervate the anterior and lateral compartments of the leg. These muscles dorsiflex the foot (lift the toes) and evert the foot (turn sole outward). Lose this nerve, and the foot drops into plantarflexion — you can't lift your toes. I want you to appreciate how a single nerve controls these critical movements..."
+      "difficulty": "foundation",
+      "explain": "Yes! Dorsiflexion points your toes up. You need dorsiflexion to clear your foot off the ground when walking. Without it, your foot drags."
     },
     {
-      "q": "The common fibular nerve is vulnerable to injury at the fibular neck.",
+      "q": "If you can't dorsiflex your foot, it hangs down (foot drop).",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The common fibular nerve wraps around the lateral fibular neck just below the knee — superficial, against bone, with minimal soft tissue protection. This makes it EXTREMELY vulnerable to compression from casts, leg crossing, fibular fractures, or direct trauma. Open your mind to this:drawn into this anatomical vulnerability — a major nerve, completely exposed at a bony prominence..."
+      "difficulty": "foundation",
+      "explain": "Correct! Without dorsiflexor muscles working, the foot drops into plantarflexion (pointing down). This makes walking very difficult."
+    },
+    {
+      "q": "The fibula is the thin bone on the outside of your lower leg.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The fibula is the smaller bone, lateral to the tibia. Near the knee, its top portion (fibular neck) is an important landmark where a nerve wraps around."
+    },
+    {
+      "q": "The common fibular nerve wraps around the fibular neck just below the knee.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The common fibular (peroneal) nerve loops around the fibular neck superficially. This exposed location makes it very vulnerable to injury."
+    },
+    {
+      "q": "The common fibular nerve controls the muscles that lift the foot.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The common fibular nerve gives rise to nerves that control foot dorsiflexion (lifting foot up) and eversion (turning sole outward)."
+    },
+    {
+      "q": "'Foot drop' is when the foot hangs down because the dorsiflexors are paralyzed.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Without dorsiflexor function, gravity pulls the foot down. The patient must lift the knee high to clear the dropped foot - this is called 'steppage gait.'"
+    },
+    {
+      "q": "Steppage gait means lifting the knee high to clear a dropped foot when walking.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! When you can't lift your foot, you must lift your whole leg higher than normal. The foot then slaps the ground because you can't control the landing."
+    },
+    {
+      "q": "The common fibular nerve is the most commonly injured nerve in the lower limb.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Because it wraps superficially around the bony fibular neck, the common fibular nerve is easily damaged by fractures, casts, leg crossing, or direct trauma."
+    },
+    {
+      "q": "Foot drop after fibular neck fracture indicates common fibular nerve injury.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The combination of fibular neck injury + foot drop is classic for common fibular nerve damage. The nerve wraps right around this bone - fracture it, and the nerve gets crushed."
     }
   ]
 }

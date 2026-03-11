@@ -3,24 +3,94 @@
   "parentQuestion": "A fall or improper injection to the buttocks may injure a nerve of which plexus?",
   "scaffolds": [
     {
+      "q": "The buttock (gluteal region) is in the back of the hip area.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The gluteal region is your buttock - the fleshy area between your lower back and upper thigh. Important nerves pass through here."
+    },
+    {
+      "q": "The sacrum is the triangular bone at the base of your spine.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The sacrum sits between your hip bones, below the lumbar spine. The sacral plexus forms from nerves exiting this region."
+    },
+    {
+      "q": "The sacral plexus is formed from spinal nerves L4-S4.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The sacral plexus (L4-S4) supplies the buttock, back of the thigh, and most of the leg below the knee. It's the power supply for the posterior leg."
+    },
+    {
       "q": "The sciatic nerve is the largest nerve in the body.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The sciatic nerve is about as thick as your THUMB — the largest nerve in the entire body. It runs from the lower back through the buttock and down the back of the thigh, providing motor and sensory supply to most of the leg. Gloriously complex. A single cable powering everything below the knee. I want you to appreciate the sheer scale of this nerve..."
+      "difficulty": "foundation",
+      "explain": "Correct! The sciatic nerve is about as thick as your thumb! It runs from the lower back through the buttock and down the back of the thigh."
     },
     {
-      "q": "Intramuscular injections in the buttock must be given in the correct location.",
+      "q": "The sciatic nerve passes through the buttock region.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Gluteal injections should be given in the upper outer quadrant of the buttock to avoid the sciatic nerve. Injecting too low or too medial can damage this major nerve — and the consequences are devastating. Foot drop, inability to flex the knee, loss of sensation below the knee. Often permanent. Surrender to the logic here:drawn into the precision required here — one wrong placement, and you've destroyed a nerve..."
+      "difficulty": "foundation",
+      "explain": "Yes! The sciatic nerve exits the pelvis through the greater sciatic foramen and travels through the gluteal (buttock) region. This is why buttock injuries can damage it."
+    },
+    {
+      "q": "The sciatic nerve comes from the sacral plexus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The sciatic nerve (L4-S3) is the main branch of the sacral plexus. Damage to this nerve in the buttock affects sacral plexus function."
+    },
+    {
+      "q": "Intramuscular injections in the wrong part of the buttock can damage nerves.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The safe zone for gluteal injections is the upper outer quadrant only. Inject too low or too medial, and you risk hitting the sciatic nerve. The damage can be permanent."
+    },
+    {
+      "q": "The sciatic nerve provides motor and sensory function to most of the leg below the knee.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The sciatic nerve (and its branches - tibial and common fibular) controls nearly everything below the knee. Damage in the buttock can cause foot drop and loss of leg sensation."
+    },
+    {
+      "q": "Falls and improper injections to the buttock can damage nerves of the sacral plexus because the sciatic nerve passes through this region.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The sciatic nerve (from sacral plexus) is vulnerable in the buttock. A fall onto the buttock or a misplaced injection can crush or pierce this nerve, causing devastating leg weakness."
     }
   ]
 }

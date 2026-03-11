@@ -1,26 +1,96 @@
 {
   "parentId": "200.3.06",
-  "parentQuestion": "A newborn presents with the arm hanging limp at the side, internally rotated, wi...",
+  "parentQuestion": "A newborn presents with the arm hanging limp at the side, internally rotated, with the forearm pronated — the classic 'waiter's tip' position. The delivery was difficult with excessive lateral neck flexion. Which nerve roots are most likely injured?",
   "scaffolds": [
     {
-      "q": "The brachial plexus can be injured during difficult childbirth.",
+      "q": "The brachial plexus can be stretched or torn during difficult childbirth.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "During difficult deliveries, excessive pulling or lateral flexing of the infant's neck can stretch or tear the brachial plexus nerve roots. This is called obstetric brachial plexus palsy — and it can cause permanent paralysis of the arm. imagine those delicate nerve roots being stretched beyond their breaking point. Some injuries heal. Others don't. Pure physiological poetry. in its randomness?"
+      "difficulty": "foundation",
+      "explain": "Yes! During difficult deliveries, pulling on the baby's head or arm can stretch the brachial plexus nerves. If stretched too far, they can tear - causing arm paralysis."
     },
     {
-      "q": "The upper brachial plexus (C5-C6) supplies shoulder and elbow muscles.",
+      "q": "The brachial plexus connects the spinal cord to the arm.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "C5-C6 nerve roots give rise to nerves that control shoulder abduction (deltoid), external rotation, and elbow flexion (biceps). Damage these roots, and you lose the ability to lift your arm or flex your elbow. Let this settle:drawn into this specificity — two nerve roots controlling such critical movements..."
+      "difficulty": "foundation",
+      "explain": "Correct! The brachial plexus (C5-T1) is the nerve network connecting your spinal cord to your arm. All arm movement and sensation depends on this network."
+    },
+    {
+      "q": "The brachial plexus has 'upper' roots (C5-C6) and 'lower' roots (C8-T1).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The upper plexus (C5-C6) mainly controls shoulder and elbow. The lower plexus (C8-T1) mainly controls hand and fingers. Different injuries = different deficits."
+    },
+    {
+      "q": "The shoulder and elbow are mainly controlled by C5 and C6 nerve roots.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! C5-C6 give rise to nerves that control shoulder abduction (lifting arm out), external rotation, and elbow flexion (bending elbow). Lose these, and you can't lift or bend the arm."
+    },
+    {
+      "q": "Bending the baby's neck too far to one side during delivery can stretch the nerves on the opposite side.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! When the neck bends sideways, nerves on the stretched side get pulled. Excessive lateral flexion during difficult delivery can tear the brachial plexus roots."
+    },
+    {
+      "q": "If you can't lift your arm or bend your elbow, you might hold your arm in a 'waiter's tip' position.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! With paralyzed shoulder abductors and elbow flexors, the arm hangs limp, internally rotated, with palm facing backward - like a waiter subtly requesting a tip."
+    },
+    {
+      "q": "Upper brachial plexus injury (C5-C6) is called Erb-Duchenne palsy.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Erb-Duchenne palsy = upper plexus injury (C5-C6). It's the most common birth-related brachial plexus injury. The classic sign is the 'waiter's tip' position."
+    },
+    {
+      "q": "In Erb-Duchenne palsy, the deltoid (shoulder), biceps (elbow flexor), and external rotators are paralyzed.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! C5-C6 supply the axillary nerve (deltoid), musculocutaneous nerve (biceps), and suprascapular nerve (external rotators). Loss of these causes the waiter's tip position."
+    },
+    {
+      "q": "A newborn with arm hanging limp, internally rotated, elbow extended, and forearm pronated most likely has C5-C6 injury (Erb-Duchenne palsy).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! This is the classic 'waiter's tip' position of Erb-Duchenne palsy. Upper plexus (C5-C6) injury from excessive neck stretching during delivery. Some recover; some have permanent paralysis."
     }
   ]
 }

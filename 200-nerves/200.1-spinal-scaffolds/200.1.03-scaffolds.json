@@ -1,26 +1,100 @@
 {
   "parentId": "200.1.03",
-  "parentQuestion": "Starting at the spinal cord, the subdivisions of the brachial plexus are (in ord...",
+  "parentQuestion": "Starting at the spinal cord, the subdivisions of the brachial plexus are (in order) ___.",
   "scaffolds": [
     {
-      "q": "The brachial plexus is a network of nerves that supplies the upper limb.",
+      "q": "A 'plexus' is a network of nerves that interweave together.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The brachial plexus is formed from spinal nerves C5-T1. Let me show you what happens: these nerves intermingle and reorganize to form the major nerves of the arm, forearm, and hand. It's a redistribution network for precision control. Continue the sequence: and Pay attention here:transformation."
+      "difficulty": "foundation",
+      "explain": "Yes! Plexus means 'braid' or 'network.' Nerves from different spinal levels come together, mix their fibers, and then redistribute. It's like a complex interchange on a highway system."
     },
     {
-      "q": "A nerve plexus reorganizes nerve fibers before they reach their final destination.",
+      "q": "The brachial plexus controls the ___.",
+      "options": [
+        "Leg",
+        "Arm",
+        "Face",
+        "Trunk"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The brachial plexus controls your arm! 'Brachial' comes from the Latin word for arm. This network of nerves supplies your shoulder, arm, forearm, and hand."
+    },
+    {
+      "q": "The brachial plexus is formed from spinal nerves C5 through T1.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Plexuses mix fibers from different spinal levels. Here's the beautiful logic: this ensures that damage to one spinal nerve doesn't completely denervate a region — redundancy engineering — and allows complex motor coordination across multiple joints. Feel the weight of this:the design."
+      "difficulty": "foundation",
+      "explain": "Correct! Five spinal levels (C5, C6, C7, C8, T1) combine to form the brachial plexus. These are cervical (neck) and upper thoracic nerves - right where your arm attaches!"
+    },
+    {
+      "q": "The word 'root' in nerve anatomy refers to the part that attaches to the spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Just like tree roots anchor to the ground, nerve roots anchor to the spinal cord. In the brachial plexus, the roots are the ventral rami of C5-T1 - the starting point."
+    },
+    {
+      "q": "A 'trunk' in nerve anatomy is formed when roots combine together.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Just like a tree trunk is bigger than roots, nerve trunks form when roots merge. In the brachial plexus: C5+C6 = upper trunk, C7 = middle trunk, C8+T1 = lower trunk."
+    },
+    {
+      "q": "A 'division' in nerve anatomy splits a trunk into anterior and posterior parts.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Each trunk divides into an anterior division (front/flexor muscles) and posterior division (back/extensor muscles). This sorting determines which muscles each nerve will eventually control."
+    },
+    {
+      "q": "A 'cord' in nerve anatomy is named based on its position relative to an artery.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The three cords (lateral, medial, posterior) are named based on their position around the axillary artery. Divisions recombine to form these cords before giving off the final nerve branches."
+    },
+    {
+      "q": "The mnemonic 'Robert Taylor Drinks Cold Beer' helps remember the brachial plexus order: Roots, Trunks, Divisions, Cords, Branches.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! R-T-D-C-B: Roots → Trunks → Divisions → Cords → Branches. From spinal cord outward, nerve fibers reorganize through these five levels before becoming the final arm nerves."
+    },
+    {
+      "q": "Put the brachial plexus components in order from spinal cord to arm: Divisions, Cords, Trunks, Roots.",
+      "options": [
+        "Roots → Divisions → Trunks → Cords",
+        "Roots → Trunks → Divisions → Cords",
+        "Trunks → Roots → Cords → Divisions",
+        "Cords → Divisions → Trunks → Roots"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Roots → Trunks → Divisions → Cords (then Branches). Remember: Robert Taylor Drinks Cold Beer. The fibers merge (roots to trunks), split (divisions), recombine (cords), then branch to their final destinations."
     }
   ]
 }

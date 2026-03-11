@@ -3,24 +3,96 @@
   "parentQuestion": "The phrenic nerve branches from which plexus?",
   "scaffolds": [
     {
-      "q": "The diaphragm is the main muscle used for breathing.",
+      "q": "The diaphragm is the main muscle you use for breathing.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The diaphragm is a dome-shaped muscle that separates the chest from the abdomen. When it contracts, it flattens and pulls air into the lungs — the primary engine of respiration. Without it, breathing becomes incredibly difficult. I want you to appreciate the elegance of this mechanism..."
+      "difficulty": "foundation",
+      "explain": "Yes! The diaphragm is a dome-shaped muscle below your lungs. When it contracts and flattens, it pulls air into your lungs. It's your primary breathing muscle."
     },
     {
-      "q": "The cervical plexus is formed from neck-level spinal nerves.",
+      "q": "Muscles need nerves to tell them when to contract.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The cervical plexus is formed from spinal nerves C1-C4 in the neck. It supplies muscles of the neck and — critically — the diaphragm via the phrenic nerve. this is why high spinal cord injuries are so devastating. Sit with this knowledge:drawn into the implications..."
+      "difficulty": "foundation",
+      "explain": "Correct! Every muscle needs nerve signals to function. No nerve signal = no contraction. This is why nerve damage causes paralysis."
+    },
+    {
+      "q": "The nerve that controls the diaphragm is called the phrenic nerve.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! 'Phrenic' relates to the diaphragm. The phrenic nerve is the ONLY motor nerve to the diaphragm - if it's damaged, that side of the diaphragm can't move."
+    },
+    {
+      "q": "A 'plexus' is a network of nerves that work together.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Plexus means 'braid' or 'network.' Spinal nerves combine into plexuses before branching out to supply specific body regions."
+    },
+    {
+      "q": "The cervical region refers to the ___ area.",
+      "options": [
+        "Lower back",
+        "Neck",
+        "Chest",
+        "Pelvis"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The neck! Cervical = neck region. The cervical plexus is formed from neck-level spinal nerves (C1-C4). The cervical spine has 7 vertebrae."
+    },
+    {
+      "q": "The cervical plexus gives rise to the phrenic nerve.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The phrenic nerve comes from C3, C4, and C5 (mostly C4). Since C3 and C4 are part of the cervical plexus, the phrenic nerve is classified as arising from it."
+    },
+    {
+      "q": "The mnemonic 'C3, 4, 5 keeps the diaphragm alive' helps you remember which nerve roots form the phrenic nerve.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! C3, C4, C5 - keeps the diaphragm alive! These are the nerve roots that form the phrenic nerve. Damage above C3 can stop the diaphragm completely."
+    },
+    {
+      "q": "If the phrenic nerve is damaged, the diaphragm on that side cannot contract.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The phrenic nerve is the SOLE motor supply to the diaphragm. Damage it, and that hemidiaphragm is paralyzed. Damage BOTH phrenic nerves, and you can't breathe on your own."
+    },
+    {
+      "q": "A high cervical spinal cord injury (above C3) can stop breathing because it damages the origin of the phrenic nerve.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The phrenic nerve originates from C3-C5. Injury above C3 cuts off all signals to the phrenic nerve, paralyzing the diaphragm. These patients need mechanical ventilation to survive."
     }
   ]
 }

@@ -3,24 +3,98 @@
   "parentQuestion": "Striking the 'funny bone' is actually stimulation of (or injury to) the ___.",
   "scaffolds": [
     {
-      "q": "Hitting your 'funny bone' causes tingling in your hand and fingers.",
+      "q": "Nerves carry electrical signals through your body.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The 'funny bone' isn't actually a bone — it's the ulnar nerve passing close to the surface at the elbow, completely unprotected. Bump it just right, and you get that distinctive electric tingling shooting down into your ring and little fingers. Truly remarkable. A cable carrying signals to your hand, exposed at a bend in the road. I want you to feel this anatomy."
+      "difficulty": "foundation",
+      "explain": "Yes! Nerves are like electrical wires. They carry signals for sensation (feeling) and motor commands (movement) throughout your body."
     },
     {
-      "q": "The ulnar nerve supplies sensation to part of the hand.",
+      "q": "When you hit your 'funny bone', you feel tingling in your hand.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The ulnar nerve provides sensation to the little finger and half of the ring finger. This is precisely why bumping your 'funny bone' causes that peculiar tingling in those specific fingers — you've just sent an electrical storm down the cable. Feel the weight of this:drawn into this exquisite precision — one nerve, two specific fingers."
+      "difficulty": "foundation",
+      "explain": "Correct! That distinctive electric tingling shoots down into your fingers. It's not funny at all when you hit it hard! The sensation is caused by hitting a nerve."
+    },
+    {
+      "q": "The 'funny bone' is actually a nerve, not a bone.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Despite the name, you're not hitting a bone - you're hitting a nerve that runs close to the surface at your elbow, where it's unprotected."
+    },
+    {
+      "q": "The elbow is where the upper arm bone (humerus) meets the forearm bones.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The elbow joint connects your humerus (upper arm) to the radius and ulna (forearm). Several important nerves pass through this area."
+    },
+    {
+      "q": "When you hit your 'funny bone', which fingers feel the tingling?",
+      "options": [
+        "Thumb and index finger",
+        "Ring finger and little finger",
+        "All five fingers equally",
+        "Only the middle finger"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The ring finger and little finger! The nerve at the 'funny bone' (ulnar nerve) supplies these specific fingers. Each nerve has its own territory."
+    },
+    {
+      "q": "Different nerves supply different parts of the hand.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Three main nerves supply the hand: the median nerve (thumb/index/middle), ulnar nerve (ring/little finger), and radial nerve (back of hand). Each has its own territory."
+    },
+    {
+      "q": "The ulnar nerve is named after the ulna, a bone in the forearm.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The ulnar nerve runs along the ulna (the forearm bone on your pinky side). At the elbow, it passes behind the medial epicondyle - your 'funny bone' spot."
+    },
+    {
+      "q": "The ulnar nerve passes behind the elbow in an area where it's vulnerable to being hit.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The ulnar nerve passes through the cubital tunnel at the medial elbow, where it's superficial and unprotected. This is why a bump here causes such intense tingling."
+    },
+    {
+      "q": "The 'funny bone' sensation is caused by stimulating the ___ nerve.",
+      "options": [
+        "Median",
+        "Radial",
+        "Ulnar",
+        "Sciatic"
+      ],
+      "answer": 2,
+      "difficulty": "intermediate",
+      "explain": "The ulnar nerve! It passes through the cubital tunnel at the medial elbow, right against the bone with no protection. The tingling in your ring and little fingers is the ulnar nerve's sensory distribution."
     }
   ]
 }

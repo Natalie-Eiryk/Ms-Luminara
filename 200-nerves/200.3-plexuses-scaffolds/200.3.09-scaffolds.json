@@ -1,7 +1,27 @@
 {
   "parentId": "200.3.09",
-  "parentQuestion": "A patient reports numbness and tingling in the thumb, index, and middle fingers,...",
+  "parentQuestion": "A patient reports numbness and tingling in the thumb, index, and middle fingers, worse at night and when driving. Tapping the anterior wrist reproduces the symptoms (positive Tinel's sign). Which nerve is compressed?",
   "scaffolds": [
+    {
+      "q": "Numbness and tingling in the fingers usually indicates a nerve problem.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Numbness (loss of sensation) and tingling (pins and needles) are classic signs of nerve compression or damage. The specific fingers affected tell you which nerve."
+    },
+    {
+      "q": "The wrist has a narrow tunnel (carpal tunnel) that nerves and tendons pass through.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The carpal tunnel is a small passageway at the base of the palm. The flexor tendons and median nerve pass through it. Swelling here compresses the nerve."
+    },
     {
       "q": "The median nerve passes through the carpal tunnel at the wrist.",
       "options": [
@@ -9,18 +29,68 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The carpal tunnel is a narrow passageway on the anterior wrist, bounded by carpal bones and the flexor retinaculum. Nine flexor tendons and the median nerve pass through this confined space. Swelling in the tunnel compresses the nerve — carpal tunnel syndrome. imagine that nerve slowly being squeezed in a confined space, day after day, month after month..."
+      "difficulty": "foundation",
+      "explain": "Yes! The median nerve travels through the carpal tunnel to reach the hand. Compression here causes carpal tunnel syndrome - one of the most common nerve problems."
     },
     {
-      "q": "The median nerve provides sensation to the thumb, index, middle, and lateral half of the ring finger.",
+      "q": "The median nerve provides sensation to the thumb, index, middle, and half of the ring finger.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The median nerve supplies sensation to the palmar surface of the lateral 3½ digits — thumb, index, middle, and radial half of ring finger. This is why carpal tunnel syndrome causes numbness in these SPECIFIC fingers. Make room for this understanding:drawn into this precision — one nerve, a defined territory. Compress the nerve, and that exact distribution goes numb."
+      "difficulty": "foundation",
+      "explain": "Correct! The median nerve's sensory territory is the thumb, index, middle, and lateral half of the ring finger. Compression at the wrist causes numbness in these exact fingers."
+    },
+    {
+      "q": "Carpal tunnel syndrome symptoms are often worse at night.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! People often flex their wrists while sleeping, which increases pressure in the carpal tunnel. This is why symptoms wake people at night."
+    },
+    {
+      "q": "Tinel's sign is when tapping over a nerve causes tingling in its distribution.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! If tapping the anterior wrist (over the carpal tunnel) causes tingling in the thumb/index/middle fingers, that's a positive Tinel's sign - indicating median nerve compression."
+    },
+    {
+      "q": "Carpal tunnel syndrome is caused by compression of the median nerve.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! When the carpal tunnel becomes narrowed (from swelling, overuse, pregnancy, etc.), the median nerve gets squeezed. This causes the classic symptoms."
+    },
+    {
+      "q": "Numbness in thumb, index, and middle fingers with positive Tinel's sign at the wrist indicates median nerve compression (carpal tunnel syndrome).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! This is the classic presentation of carpal tunnel syndrome. The specific finger distribution + wrist location + Tinel's sign all point to the median nerve at the carpal tunnel."
+    },
+    {
+      "q": "If the little finger is NOT affected, the ulnar nerve is probably NOT the problem.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The ulnar nerve supplies the little finger and half the ring finger. If those are normal and the thumb/index/middle are numb, it's median nerve territory - carpal tunnel syndrome."
     }
   ]
 }

@@ -1,26 +1,96 @@
 {
   "parentId": "200.1.09",
-  "parentQuestion": "A patient presents with bilateral loss of proprioception and vibration sense in ...",
+  "parentQuestion": "A patient presents with bilateral loss of proprioception and vibration sense in the legs, but pain and temperature sensation are intact. The patient has a wide-based, unsteady gait and positive Romberg sign (increased instability when eyes are closed). This pattern suggests selective damage to ___.",
   "scaffolds": [
     {
-      "q": "The dorsal columns (fasciculus gracilis and cuneatus) carry proprioception, vibration sense, and fine discriminative touch.",
+      "q": "Proprioception tells you where your body parts are in space without looking.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Let me show you the pathway of elegance. The dorsal columns are the posterior white matter tracts that carry fine touch, vibration, and proprioception. These fibers enter through the dorsal root and ascend IPSILATERALLY (same side) in the dorsal columns all the way to the medulla, where they synapse and cross. This is why dorsal column lesions cause SAME-SIDE deficits. Here's the beautiful specificity: damage here affects position sense and vibration but spares pain and temperature. The modalities segregate anatomically. this creates distinctive clinical patterns."
+      "difficulty": "foundation",
+      "explain": "Yes! Proprioception is your internal position sense. Close your eyes and touch your nose - proprioception lets you know where your finger and nose are. It's your body's GPS."
     },
     {
-      "q": "The Romberg test assesses proprioceptive function by having the patient stand with eyes closed. A positive test (increased instability with eyes closed) indicates impaired proprioception.",
+      "q": "Vibration sense is tested by placing a vibrating tuning fork on the skin.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Traverse this territory: and Direct your attention here:test. The Romberg test asks the patient to stand with feet together, first with eyes open, then with eyes closed. Here's the exquisite logic: standing requires input from three systems — vision, vestibular (balance), and proprioception (position sense from joints and muscles). If proprioception is lost, the patient compensates with vision. When you close their eyes, they lose that compensation and become unstable. A positive Romberg sign (increased sway or falling when eyes close) indicates dorsal column or peripheral nerve dysfunction. Make room for this understanding:into the diagnostic precision: you're unmasking the deficit by removing visual compensation."
+      "difficulty": "foundation",
+      "explain": "Correct! Doctors test vibration sense by striking a tuning fork and placing it on a bony area (like the ankle). You should feel the buzzing vibration."
+    },
+    {
+      "q": "Proprioception and vibration travel in the same pathway in the spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Both proprioception and vibration travel in the dorsal columns (posterior columns) - the back part of the spinal cord. Damage here affects both together."
+    },
+    {
+      "q": "Pain and temperature travel in a DIFFERENT pathway than proprioception.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Pain/temperature travel in the spinothalamic tract (anterolateral cord), while proprioception/vibration travel in the dorsal columns (posterior cord). Different pathways can be damaged separately."
+    },
+    {
+      "q": "The dorsal columns are located at the BACK (posterior) of the spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Dorsal = back. The dorsal columns run along the posterior surface of the spinal cord. They carry proprioception, vibration, and fine touch."
+    },
+    {
+      "q": "If you lose proprioception, you have trouble knowing where your feet are without looking at them.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Without proprioception, you lose your internal body map. You'd have to watch your feet while walking, and you'd be very unsteady with your eyes closed."
+    },
+    {
+      "q": "The Romberg sign tests whether a patient can stand steadily with eyes closed.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The Romberg test has the patient stand with feet together. If they sway or fall only when eyes are CLOSED (not open), it means they're relying on vision to compensate for lost proprioception."
+    },
+    {
+      "q": "A positive Romberg sign (falling with eyes closed) indicates a problem with proprioception, not balance centers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! If the balance centers (cerebellum) were damaged, the patient would be unsteady even with eyes OPEN. When they're only unsteady with eyes CLOSED, it means vision was compensating for lost proprioception. Closing eyes removes that compensation."
+    },
+    {
+      "q": "Bilateral loss of proprioception/vibration with intact pain/temperature suggests damage to the dorsal columns specifically.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! This pattern of dissociated sensory loss (some modalities lost, others preserved) localizes to the dorsal columns. The spinothalamic tract (pain/temp) is intact. Common causes: B12 deficiency, tabes dorsalis, multiple sclerosis."
     }
   ]
 }

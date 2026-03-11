@@ -1,26 +1,96 @@
 {
   "parentId": "200.1.06",
-  "parentQuestion": "A patient presents after a spinal cord injury with loss of pain and temperature ...",
+  "parentQuestion": "A patient presents after a spinal cord injury with loss of pain and temperature sensation on the LEFT side below the lesion, but motor weakness and loss of proprioception/vibration on the RIGHT side below the lesion. This clinical pattern suggests damage to ___.",
   "scaffolds": [
     {
-      "q": "The spinothalamic tract carries pain and temperature information and crosses to the opposite side of the spinal cord shortly after entering.",
+      "q": "The spinal cord has a left side and a right side.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Let me show you the crossing pattern. Pain and temperature fibers enter through the dorsal root, synapse in the dorsal horn, then cross to the opposite side within one or two segments and ascend in the spinothalamic tract. This means damage to the spinothalamic tract affects the OPPOSITE side of the body. The signal crosses early. this is crucial for understanding dissociated sensory loss."
+      "difficulty": "foundation",
+      "explain": "Yes! The spinal cord is symmetrical, with left and right halves. Each side primarily controls and receives information from its respective side of the body."
     },
     {
-      "q": "The dorsal column pathway carries proprioception and vibration sense and ascends on the SAME side of the spinal cord before crossing in the brainstem.",
+      "q": "Motor pathways control muscle movement.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Discover with me: and Follow this sequence: beautiful architecture. Proprioception and vibration fibers enter through the dorsal root and ascend IPSILATERALLY in the dorsal columns (fasciculus gracilis and cuneatus) all the way up to the medulla, where they synapse and THEN cross. This means dorsal column damage causes SAME-SIDE sensory loss. The signal crosses late. Open yourself to this:into the elegance: different modalities, different crossing points, different clinical patterns."
+      "difficulty": "foundation",
+      "explain": "Correct! Motor pathways (like the corticospinal tract) carry commands from the brain DOWN to muscles, telling them when and how to contract."
+    },
+    {
+      "q": "Proprioception is your sense of body position - knowing where your limbs are without looking.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Proprioception lets you touch your nose with your eyes closed, walk without watching your feet, and sense where your body is in space. It's your internal GPS."
+    },
+    {
+      "q": "Some sensory pathways 'cross over' (decussate) in the spinal cord, while others cross higher up in the brainstem.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Different pathways cross at different levels. Pain/temperature crosses EARLY (in the spinal cord). Proprioception/vibration crosses LATE (in the brainstem). This is KEY to understanding crossed deficits!"
+    },
+    {
+      "q": "Pain and temperature sensations are carried by the spinothalamic tract.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The spinothalamic tract carries pain and temperature signals. Importantly, these fibers CROSS to the opposite side within 1-2 segments of entering the spinal cord."
+    },
+    {
+      "q": "Proprioception and vibration are carried by the dorsal columns (posterior columns).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The dorsal columns carry proprioception, vibration, and fine touch. These fibers stay on the SAME side until they reach the brainstem, where they finally cross."
+    },
+    {
+      "q": "Motor pathways (corticospinal tract) have already crossed in the brainstem before reaching the spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The corticospinal tract crosses in the medulla (brainstem) before descending into the spinal cord. So the right side of the spinal cord controls the right side of the body."
+    },
+    {
+      "q": "Brown-Sequard syndrome occurs when ONE HALF of the spinal cord is damaged (hemisection).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Brown-Sequard syndrome is caused by damage to one lateral half of the spinal cord. Because different pathways cross at different levels, you get a distinctive pattern of SAME-side and OPPOSITE-side deficits."
+    },
+    {
+      "q": "In Brown-Sequard syndrome, motor loss and proprioception loss occur on the SAME side as the injury, while pain/temperature loss occurs on the OPPOSITE side.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Motor tracts and dorsal columns haven't crossed yet at the spinal level (they cross in the brainstem), so damage causes SAME-side deficits. But spinothalamic fibers HAVE already crossed, so damage affects OPPOSITE-side pain/temperature. The crossing patterns create this dissociation."
     }
   ]
 }

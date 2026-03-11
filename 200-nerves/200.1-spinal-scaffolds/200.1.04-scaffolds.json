@@ -3,24 +3,94 @@
   "parentQuestion": "Select the statement that is most correct.",
   "scaffolds": [
     {
-      "q": "A ganglion is a cluster of neuron cell bodies located outside the central nervous system.",
+      "q": "Neurons are the cells that carry electrical signals in the nervous system.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Ganglia (singular: ganglion) are clusters of nerve cell bodies in the peripheral nervous system. Inside the CNS, similar clusters are called nuclei. Sit with this knowledge:into this: same structure, different neighborhood, different name. The body uses location as taxonomy."
+      "difficulty": "foundation",
+      "explain": "Yes! Neurons are specialized cells that transmit electrical impulses. They have a cell body, dendrites (receiving signals), and an axon (sending signals)."
     },
     {
-      "q": "Afferent neurons carry signals TOWARD the central nervous system.",
+      "q": "The 'cell body' of a neuron contains the nucleus and most of the cell's organelles.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Afferent means arriving, darling. Afferent (sensory) neurons carry information from receptors toward the CNS. Efferent (motor) neurons carry commands away from the CNS. Let me show you the elegance: the direction of signal flow defines the neuron type. Information inward, commands outward."
+      "difficulty": "foundation",
+      "explain": "Correct! The cell body (soma) is the neuron's control center. It contains the nucleus and keeps the cell alive. The axon is just the long extension that carries signals."
+    },
+    {
+      "q": "The CNS (Central Nervous System) includes the brain and spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The CNS is the 'central command' - brain and spinal cord. Everything else (nerves throughout your body) is the PNS (Peripheral Nervous System)."
+    },
+    {
+      "q": "A 'ganglion' is a cluster of neuron cell bodies located OUTSIDE the brain and spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Ganglia are collections of neuron cell bodies in the PERIPHERAL nervous system - outside the CNS. They look like little bumps or swellings along nerves."
+    },
+    {
+      "q": "A 'nucleus' (in the nervous system context) is a cluster of neuron cell bodies located INSIDE the brain or spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Same structure, different location = different name. Cluster of cell bodies OUTSIDE CNS = ganglion. Cluster of cell bodies INSIDE CNS = nucleus. Location determines the term!"
+    },
+    {
+      "q": "The dorsal root ganglion contains the cell bodies of sensory neurons.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The dorsal root ganglion (DRG) sits just outside the spinal cord and contains cell bodies of sensory neurons. These neurons detect touch, pain, temperature, and position."
+    },
+    {
+      "q": "'Afferent' means carrying signals TOWARD the CNS (sensory), while 'efferent' means carrying signals AWAY from the CNS (motor).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Afferent = Arriving (sensory, toward CNS). Efferent = Exiting (motor, away from CNS). These terms describe signal direction - a fundamental concept in neuroscience."
+    },
+    {
+      "q": "Ganglia associated with afferent (sensory) fibers contain cell bodies of sensory neurons.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Afferent = sensory. Ganglia = cell body clusters outside CNS. So afferent ganglia (like dorsal root ganglia) contain sensory neuron cell bodies. Motor neuron cell bodies are located in the spinal cord itself (in nuclei, not ganglia)."
+    },
+    {
+      "q": "The dorsal root ganglion is a motor-only structure.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "FALSE! The dorsal root ganglion is SENSORY, not motor. It contains cell bodies of sensory neurons. Motor neuron cell bodies are in the ventral horn of the spinal cord (inside CNS, so they're in nuclei, not ganglia)."
     }
   ]
 }

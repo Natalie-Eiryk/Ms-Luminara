@@ -1,28 +1,106 @@
 {
   "parentId": "200.1.02",
-  "parentQuestion": "A patient has an injury of the spine and is now suffering from a loss of motor f...",
+  "parentQuestion": "A patient has an injury of the spine and is now suffering from a loss of motor function in his right arm. However, he still has normal sensory function in the arm. Based on this, the nervous tissue damage is likely located at ___.",
   "scaffolds": [
     {
-      "q": "The dorsal root carries sensory information INTO the spinal cord.",
+      "q": "Motor function means the ability to move muscles.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The dorsal root contains sensory neurons carrying information from receptors in the body INTO the spinal cord for processing. Inbound signals only. Open your mind to this:into the simplicity: one direction, one purpose. Information flowing inward like a river."
+      "difficulty": "foundation",
+      "explain": "Yes! Motor = movement. Motor nerves control your muscles, allowing you to walk, grab things, and move your body. Loss of motor function means you can't move that body part."
     },
     {
-      "q": "Which spinal cord region controls the arm?",
+      "q": "Sensory function means the ability to feel sensations like touch, pain, and temperature.",
       "options": [
-        "Thoracic",
-        "Cervical",
-        "Lumbar",
-        "Sacral"
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Exactly! Sensory nerves let you feel things - touch, pressure, pain, hot, cold. If sensory function is intact, you can still feel even if you can't move."
+    },
+    {
+      "q": "The dorsal root carries ___ information.",
+      "options": [
+        "Motor (movement commands)",
+        "Sensory (feeling information)",
+        "Both motor and sensory",
+        "Neither"
       ],
       "answer": 1,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The cervical spinal cord (C5-T1) gives rise to the brachial plexus, which innervates the entire upper limb. Let me show you the topographic precision: thoracic controls the trunk, lumbar and sacral control the lower limb. The body is mapped onto the spinal cord in exquisite segments."
+      "difficulty": "foundation",
+      "explain": "Dorsal root = sensory! Think 'D for Dorsal, D for Detecting.' The dorsal root brings sensory information INTO the spinal cord from the body."
+    },
+    {
+      "q": "The ventral root carries ___ information.",
+      "options": [
+        "Motor (movement commands)",
+        "Sensory (feeling information)",
+        "Both motor and sensory",
+        "Neither"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Ventral root = motor! The ventral root carries motor commands OUT from the spinal cord to muscles. Remember: Ventral = 'Vroom' (movement)!"
+    },
+    {
+      "q": "The arm is controlled by nerves from the ___ region of the spinal cord.",
+      "options": [
+        "Cervical (neck)",
+        "Thoracic (chest)",
+        "Lumbar (lower back)",
+        "Sacral (pelvis)"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "The arm is controlled by cervical nerves (C5-T1). The neck region of your spinal cord controls your upper limbs. Makes sense - the arm nerves exit near shoulder level!"
+    },
+    {
+      "q": "If you damage ONLY motor nerves, you would lose the ability to move but still be able to feel.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Motor and sensory pathways are separate. Damage only motor nerves = paralysis but you can still feel. Damage only sensory nerves = numbness but you can still move."
+    },
+    {
+      "q": "If someone can feel their arm but cannot move it, which pathway is damaged?",
+      "options": [
+        "Sensory pathway (dorsal)",
+        "Motor pathway (ventral)",
+        "Both pathways",
+        "Neither pathway"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The motor pathway! Since feeling is intact, sensory nerves work fine. Since movement is lost, motor nerves are damaged. The deficit tells you which pathway is broken."
+    },
+    {
+      "q": "Damage to the ventral root at cervical level would cause paralysis in the arm while preserving sensation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Ventral root = motor only. Cervical level = arm control. So ventral root damage at cervical level = can't move arm but can still feel it. The dorsal (sensory) root is intact."
+    },
+    {
+      "q": "A patient with normal arm sensation but no arm movement most likely has damage to the ___ root at the ___ level.",
+      "options": [
+        "Dorsal root at thoracic level",
+        "Ventral root at cervical level",
+        "Dorsal root at cervical level",
+        "Ventral root at thoracic level"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Ventral (motor) root at cervical (arm) level. Motor loss + sensory preservation = ventral root damage. Arm involvement = cervical level. Put them together: ventral root at cervical vertebrae."
     }
   ]
 }

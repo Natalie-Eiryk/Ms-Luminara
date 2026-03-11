@@ -1,26 +1,96 @@
 {
   "parentId": "200.1.10",
-  "parentQuestion": "A patient develops sudden paralysis and loss of all sensation below the waist af...",
+  "parentQuestion": "A patient develops sudden paralysis and loss of all sensation below the waist after an abdominal aortic aneurysm repair. Pain and temperature sensation return partially after a few days, but motor function, proprioception, and vibration sense remain absent. This pattern suggests ___.",
   "scaffolds": [
     {
-      "q": "The anterior spinal artery supplies the anterior two-thirds of the spinal cord, including motor pathways, while the posterior spinal arteries supply the dorsal columns.",
+      "q": "The spinal cord needs blood supply to function, just like any other organ.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Let me show you the vascular territories. The anterior spinal artery (single, midline) supplies the anterior and lateral regions of the cord — the corticospinal tracts (motor), spinothalamic tracts (pain/temperature), and anterior horns (motor neurons). The posterior spinal arteries (paired, posterolateral) supply the dorsal columns (proprioception/vibration). This vascular distribution creates a predictable infarct pattern: anterior spinal artery occlusion affects motor and pain/temperature, but spares proprioception and vibration. this is critical for recognizing spinal cord stroke."
+      "difficulty": "foundation",
+      "explain": "Yes! The spinal cord needs oxygen and nutrients from blood. If blood supply is cut off (a stroke of the spinal cord), the affected tissue can die. This is a spinal cord infarct."
     },
     {
-      "q": "Anterior spinal artery syndrome typically causes motor paralysis and loss of pain/temperature sensation below the lesion, but proprioception and vibration sense are preserved.",
+      "q": "The spinal cord receives blood from arteries that run along its length.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Join me in examining this: and Witness this transformation:vascular dissection. Anterior spinal artery syndrome is a spinal cord stroke affecting the anterior two-thirds of the cord. The result: bilateral motor paralysis (corticospinal tracts dead), bilateral loss of pain/temperature (spinothalamic tracts dead), but preserved proprioception and vibration (dorsal columns spared by posterior spinal artery supply). Grant yourself this moment of clarity:into the clinical pearl: if a patient is paralyzed but can still tell you the position of their toes with their eyes closed, think anterior spinal artery syndrome. The vascular territory defines the deficit."
+      "difficulty": "foundation",
+      "explain": "Correct! Three main arteries supply the spinal cord: one anterior spinal artery (front) and two posterior spinal arteries (back). These run vertically along the cord."
+    },
+    {
+      "q": "The ANTERIOR spinal artery supplies the FRONT portion of the spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The anterior spinal artery supplies about the front two-thirds of the cord. This includes motor pathways (corticospinal tracts) and the spinothalamic tract (pain/temperature)."
+    },
+    {
+      "q": "The POSTERIOR spinal arteries supply the BACK portion of the spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The posterior spinal arteries (two of them) supply the back one-third of the cord. This includes the dorsal columns (proprioception and vibration)."
+    },
+    {
+      "q": "Motor pathways and pain/temperature pathways are supplied by the anterior spinal artery.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The anterior cord contains: corticospinal tracts (motor), spinothalamic tracts (pain/temp), and anterior horn motor neurons. All supplied by the anterior spinal artery."
+    },
+    {
+      "q": "Proprioception and vibration pathways (dorsal columns) are supplied by the posterior spinal arteries.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The dorsal columns sit at the back of the cord and are supplied by the posterior spinal arteries. If only the anterior artery is blocked, the dorsal columns are spared."
+    },
+    {
+      "q": "Aortic surgery can sometimes damage the blood supply to the spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The anterior spinal artery gets blood from arteries branching off the aorta. During aortic surgery (like aneurysm repair), these feeding arteries may be damaged, causing spinal cord ischemia."
+    },
+    {
+      "q": "Anterior spinal artery syndrome causes motor paralysis and loss of pain/temperature, but proprioception is PRESERVED.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! When the anterior artery is blocked: anterior cord dies (motor and pain/temp pathways), but posterior cord survives (dorsal columns preserved). The patient can still sense position but can't move or feel pain."
+    },
+    {
+      "q": "In anterior spinal artery syndrome, pain sensation may partially recover before motor function because the spinothalamic tract is more resilient to ischemia than motor neurons.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Motor neurons in the anterior horn are very vulnerable to ischemia and die quickly. The spinothalamic tract fibers may partially recover as the ischemic penumbra improves. This creates the tragic pattern: patients regain ability to FEEL pain but remain paralyzed."
     }
   ]
 }

@@ -1,26 +1,96 @@
 {
   "parentId": "200.3.11",
-  "parentQuestion": "An infant born after prolonged labor with the arm pulled forcefully during deliv...",
+  "parentQuestion": "An infant born after prolonged labor with the arm pulled forcefully during delivery presents with a 'claw hand' — hyperextension at the MCP joints and flexion at the IP joints of the 4th and 5th digits. Which nerve roots are most likely injured?",
   "scaffolds": [
     {
-      "q": "Intrinsic hand muscles control fine finger movements and prevent claw hand.",
+      "q": "The hand has intrinsic muscles that control fine finger movements.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "The intrinsic hand muscles (lumbricals, interossei) flex the MCP joints and extend the IP joints — preventing the claw hand deformity. They're primarily innervated by the ulnar nerve (C8-T1). Lose these muscles, and the extrinsic finger flexors (FDP, FDS) overpower the extensors — the fingers curl into a claw. imagine the delicate balance of opposing forces, and what happens when one side is paralyzed..."
+      "difficulty": "foundation",
+      "explain": "Yes! Intrinsic hand muscles (inside the hand itself) control delicate movements like spreading fingers, fine grip, and balancing finger position."
     },
     {
-      "q": "Lower brachial plexus injuries (C8-T1) can occur during difficult births with the arm pulled upward.",
+      "q": "The brachial plexus has lower roots (C8-T1) that mainly control the hand.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "When the infant's arm is forcefully pulled upward during delivery — often in breech presentations with the arm overhead — the lower brachial plexus roots (C8-T1) are stretched beyond their limit. Some fibers tear. Some are avulsed from the spinal cord. Feel the weight of this:drawn into the mechanism — excessive traction, delicate nerve roots tearing. Often permanent. Devastating, isn't it?"
+      "difficulty": "foundation",
+      "explain": "Correct! C8-T1 (lower brachial plexus) give rise to nerves that control intrinsic hand muscles. Upper roots (C5-C6) control shoulder and elbow."
+    },
+    {
+      "q": "The ulnar nerve controls most of the small muscles inside the hand.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The ulnar nerve (from C8-T1) supplies most intrinsic hand muscles - the interossei, lumbricals for 4th/5th fingers, hypothenar muscles."
+    },
+    {
+      "q": "A 'claw hand' deformity involves fingers that are bent in an abnormal position.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! In claw hand, the MCP joints are hyperextended (bent backward) while the IP joints are flexed (curled). The fingers look like a claw."
+    },
+    {
+      "q": "Claw hand happens when intrinsic hand muscles are paralyzed.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Intrinsic muscles normally flex the MCP joints and extend the IP joints. Without them, the extrinsic flexors (in the forearm) overpower and curl the fingers into a claw."
+    },
+    {
+      "q": "The 4th and 5th fingers are most affected in ulnar nerve injury.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The ulnar nerve mainly supplies the 4th and 5th fingers. Claw deformity is most prominent in these fingers when the ulnar nerve is damaged."
+    },
+    {
+      "q": "Lower brachial plexus injury (C8-T1) is called Klumpke's palsy.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Klumpke's palsy = lower plexus injury (C8-T1). It typically occurs when the arm is pulled forcefully upward during delivery. The classic sign is claw hand."
+    },
+    {
+      "q": "Klumpke's palsy causes claw hand because C8-T1 roots supply the intrinsic hand muscles.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! C8-T1 give rise to the ulnar nerve and medial contribution to median nerve. These control intrinsic hand muscles. Damage causes claw hand deformity."
+    },
+    {
+      "q": "An infant with claw hand deformity after difficult delivery most likely has C8-T1 injury (Klumpke's palsy), not C5-C6 injury.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Claw hand = lower plexus (C8-T1 = Klumpke's). Waiter's tip = upper plexus (C5-C6 = Erb-Duchenne). The presentation tells you which roots are injured."
     }
   ]
 }
