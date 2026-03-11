@@ -1,0 +1,96 @@
+{
+  "parentId": "600.1.04",
+  "parentQuestion": "Color perception is achieved by activation of various combinations between the three cone types.",
+  "scaffolds": [
+    {
+      "q": "Humans perceive millions of different colors.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! We can distinguish about 10 million different color shades."
+    },
+    {
+      "q": "We only have THREE cone types (not millions).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Three types must somehow encode millions of colors."
+    },
+    {
+      "q": "Color is encoded by the PATTERN of activation across cone types, not individual cones.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The RATIO of S:M:L activation determines perceived color."
+    },
+    {
+      "q": "Yellow activates M and L cones equally (between green and red).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Yellow is perceived when M and L respond similarly, with minimal S."
+    },
+    {
+      "q": "Orange activates L more than M (closer to red than green).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Different M:L ratios produce different perceived hues."
+    },
+    {
+      "q": "The brain compares cone outputs using 'opponent' channels (red vs green, blue vs yellow).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Color opponent processing compares L-M (red-green) and S-(L+M) (blue-yellow)."
+    },
+    {
+      "q": "Three cone types + combinatorial coding = millions of perceivable colors.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Each unique activation ratio corresponds to a unique perceived color."
+    },
+    {
+      "q": "Color perception emerges from comparing activation ratios across cone types.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Not individual cone activation, but the COMBINATION determines color."
+    },
+    {
+      "q": "The answer is TRUE - color perception comes from cone type combinations.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! This is trichromatic theory. The brain decodes wavelength from the S:M:L activation pattern, not from dedicated color detectors."
+    }
+  ]
+}

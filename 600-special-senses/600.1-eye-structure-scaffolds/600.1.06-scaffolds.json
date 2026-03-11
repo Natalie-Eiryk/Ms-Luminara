@@ -1,0 +1,96 @@
+{
+  "parentId": "600.1.06",
+  "parentQuestion": "Rods absorb light throughout the visual spectrum but confer only gray tone vision.",
+  "scaffolds": [
+    {
+      "q": "Rods are the photoreceptors for dim light (scotopic) vision.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Rods are incredibly sensitive - can detect single photons in darkness."
+    },
+    {
+      "q": "Rods contain only ONE type of photopigment: rhodopsin.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Unlike cones (3 types), rods have just one pigment."
+    },
+    {
+      "q": "Rhodopsin absorbs photons across the visible spectrum.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Peak at ~498nm (blue-green), but responds to all visible wavelengths."
+    },
+    {
+      "q": "A rod can't tell WHAT wavelength it absorbed - just that it absorbed a photon.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! One photopigment = no wavelength discrimination. Just counts photons."
+    },
+    {
+      "q": "Color perception requires COMPARING different photoreceptor types.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! You need multiple channels with different spectral sensitivities to decode color."
+    },
+    {
+      "q": "With only rods active (dim light), you see in shades of gray - no color.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! 'All cats are gray in the dark' - rod vision is achromatic."
+    },
+    {
+      "q": "Rods report intensity, not wavelength. Gray scale, not color.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! One channel can only report 'how much' light, not 'what kind' of light."
+    },
+    {
+      "q": "Rods absorb all visible wavelengths but can't distinguish them - only gray tones.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Single pigment type = no wavelength comparison = achromatic vision."
+    },
+    {
+      "q": "The answer is TRUE - rods absorb all wavelengths but only produce gray tone vision.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! This is the 'univariance principle.' One photoreceptor type conflates wavelength and intensity - can't tell them apart. Color requires multiple channels for comparison."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "parentId": "600.1.12",
+  "parentQuestion": "Conscious perception of vision probably reflects activity in the ________.",
+  "scaffolds": [
+    {
+      "q": "Visual information travels from retina → optic nerve → brain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Ganglion cell axons carry signals from eye to visual centers."
+    },
+    {
+      "q": "Visual information passes through the thalamus (LGN) on its way to cortex.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Lateral geniculate nucleus is the thalamic relay for vision."
+    },
+    {
+      "q": "The thalamus is a RELAY station, not where conscious perception occurs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! It passes information along, but consciousness requires cortex."
+    },
+    {
+      "q": "The primary visual cortex (V1) is in the OCCIPITAL lobe.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Back of the brain, in the calcarine sulcus."
+    },
+    {
+      "q": "Damage to V1 causes cortical blindness - no conscious vision.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Even with intact eyes and optic nerves, no conscious seeing without V1."
+    },
+    {
+      "q": "The superior colliculus handles visual REFLEXES (orienting), not conscious vision.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Subcortical structure - reflexive eye movements, not awareness."
+    },
+    {
+      "q": "The optic chiasma is a CROSSING point, not a processing center.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Nasal fibers cross here. No perception happens at the chiasma."
+    },
+    {
+      "q": "Conscious visual perception requires activity in the visual CORTEX.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! V1 and higher visual areas in occipital and temporal lobes."
+    },
+    {
+      "q": "The answer is OCCIPITAL LOBE OF THE CORTEX - for conscious vision.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not superior colliculus (reflexes), not thalamus (relay), not chiasma (crossing point). The occipital cortex is essential for conscious visual perception."
+    }
+  ]
+}

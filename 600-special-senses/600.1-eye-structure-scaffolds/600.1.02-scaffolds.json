@@ -1,0 +1,96 @@
+{
+  "parentId": "600.1.02",
+  "parentQuestion": "Cones come in three types, each sensitive to different wavelengths of light.",
+  "scaffolds": [
+    {
+      "q": "Cones are the photoreceptors responsible for color vision.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Cones detect color; rods only detect brightness (achromatic)."
+    },
+    {
+      "q": "Different colors have different wavelengths of light.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Red = long wavelength (~700nm), blue = short wavelength (~450nm)."
+    },
+    {
+      "q": "To perceive different colors, you need photoreceptors with different sensitivities.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! One photoreceptor type can't distinguish wavelengths - it just counts photons."
+    },
+    {
+      "q": "Humans have THREE types of cones: S, M, and L.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! S = short wavelength (blue), M = medium (green), L = long (red)."
+    },
+    {
+      "q": "Each cone type contains a different photopigment (opsin) with different spectral sensitivity.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Different opsins absorb maximally at different wavelengths."
+    },
+    {
+      "q": "Color perception comes from COMPARING activation across the three cone types.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The brain interprets the RATIO of S:M:L activation as a specific color."
+    },
+    {
+      "q": "This is called 'trichromatic' vision - three color channels.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Tri- = three. Three cone types, millions of perceivable colors."
+    },
+    {
+      "q": "Three cone types with different wavelength sensitivities enable color vision.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! S-cones (blue), M-cones (green), L-cones (red) together create full color perception."
+    },
+    {
+      "q": "The answer is TRUE - cones come in three types with different wavelength sensitivities.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Trichromatic theory of color vision: S, M, and L cones with different opsins, each maximally sensitive to short, medium, or long wavelengths respectively."
+    }
+  ]
+}

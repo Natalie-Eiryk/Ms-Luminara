@@ -1,0 +1,96 @@
+{
+  "parentId": "600.1.05",
+  "parentQuestion": "A single cone photoreceptor often connects to a single bipolar cell and a single ganglion cell, while as many as 100 rods will converge to a single ganglion cell.",
+  "scaffolds": [
+    {
+      "q": "Photoreceptors connect to ganglion cells through intermediate cells (bipolar, etc.).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Photoreceptor → bipolar cell → ganglion cell → optic nerve."
+    },
+    {
+      "q": "Ganglion cells are the retinal neurons whose axons form the optic nerve.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Ganglion cell axons bundle to exit the eye as the optic nerve."
+    },
+    {
+      "q": "'Convergence' refers to many inputs feeding into fewer outputs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Multiple rods → one ganglion cell = high convergence."
+    },
+    {
+      "q": "Cones have LOW convergence (few cones per ganglion cell).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! In fovea, often 1 cone → 1 bipolar → 1 ganglion cell. Private line!"
+    },
+    {
+      "q": "Rods have HIGH convergence (many rods per ganglion cell).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! ~100 rods may converge on one ganglion cell. Party line!"
+    },
+    {
+      "q": "Low convergence = high spatial resolution (you know exactly which cone detected light).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Private lines preserve location information. Sharp acuity."
+    },
+    {
+      "q": "High convergence = high sensitivity (sum many weak signals) but low resolution.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Many rods pooled can detect dim light, but you can't tell WHICH rod saw it."
+    },
+    {
+      "q": "Cone pathways have 1:1 convergence for acuity; rod pathways converge ~100:1 for sensitivity.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! This is the resolution-sensitivity tradeoff between cone and rod vision."
+    },
+    {
+      "q": "The answer is TRUE - cones have ~1:1 wiring, rods converge ~100:1.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Low cone convergence = high acuity (daytime detail). High rod convergence = high sensitivity (dim light detection) but coarse resolution."
+    }
+  ]
+}

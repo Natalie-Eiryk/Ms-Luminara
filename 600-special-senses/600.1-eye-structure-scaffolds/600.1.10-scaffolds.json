@@ -1,0 +1,96 @@
+{
+  "parentId": "600.1.10",
+  "parentQuestion": "When we move from darkness to bright light, retinal sensitivity is lost, but visual acuity is gained.",
+  "scaffolds": [
+    {
+      "q": "In darkness, RODS are the primary active photoreceptors.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Rods are exquisitely sensitive - can detect single photons."
+    },
+    {
+      "q": "In bright light, CONES become the primary active photoreceptors.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Cones need more light but provide color and sharp detail."
+    },
+    {
+      "q": "Rods have HIGH sensitivity but LOW resolution (spatial acuity).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! High convergence = detect dim light, but coarse detail."
+    },
+    {
+      "q": "Cones have LOWER sensitivity but HIGH resolution (sharp acuity).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Low convergence = each cone's signal is preserved = sharp edges."
+    },
+    {
+      "q": "Moving to bright light 'bleaches' rhodopsin, reducing rod sensitivity.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Light adaptation - rods become less responsive as rhodopsin is depleted."
+    },
+    {
+      "q": "In bright light, we lose the ability to detect very dim objects (sensitivity down).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Can't see stars at noon - rod sensitivity is gone."
+    },
+    {
+      "q": "In bright light, we gain sharp vision and color (acuity up).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Cone vision gives high resolution and full color perception."
+    },
+    {
+      "q": "Dark to light: lose sensitivity (rods bleach), gain acuity (cones activate).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Trade the ability to see in dark for the ability to see detail in light."
+    },
+    {
+      "q": "The answer is TRUE - moving to bright light loses sensitivity but gains acuity.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! This is the rod-cone tradeoff during light adaptation. Rods = sensitive but fuzzy. Cones = need more light but sharp and colorful."
+    }
+  ]
+}

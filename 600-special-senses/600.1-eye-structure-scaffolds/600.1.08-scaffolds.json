@@ -1,0 +1,96 @@
+{
+  "parentId": "600.1.08",
+  "parentQuestion": "Ordinarily, it is NOT possible to transplant tissues from one person to another, yet corneas can be transplanted without tissue rejection. This is because the cornea ________.",
+  "scaffolds": [
+    {
+      "q": "Tissue rejection occurs when the immune system attacks foreign tissue.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! T cells recognize foreign antigens and destroy transplanted tissue."
+    },
+    {
+      "q": "Immune cells travel through the bloodstream to reach tissues.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Blood vessels are the highways for immune cell surveillance."
+    },
+    {
+      "q": "The cornea is 'immune privileged' - it resists rejection better than most tissues.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Corneal transplants have ~90% success without systemic immunosuppression."
+    },
+    {
+      "q": "The cornea has NO blood vessels (avascular).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Blood vessels would scatter light. Cornea must be transparent."
+    },
+    {
+      "q": "Without blood vessels, immune cells can't easily reach the cornea.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! No vascular highway = no immune cell traffic = less rejection."
+    },
+    {
+      "q": "The cornea DOES have nerves (densely innervated - corneal injuries hurt!).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Nerves don't cause rejection. It's avascular, not anervous."
+    },
+    {
+      "q": "The cornea IS living tissue - it's not dead or non-functional.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Living cells that need nutrients (from aqueous humor, not blood vessels)."
+    },
+    {
+      "q": "Corneal transplants succeed because the cornea has no blood supply.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Avascularity prevents immune cell access, conferring immune privilege."
+    },
+    {
+      "q": "The answer is 'has no blood supply' - avascularity enables transplant success.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not 'no nerves' (it has lots), not 'not living' (it is), not 'no connective tissue' (it has stroma). AVASCULARITY = immune privilege = transplant success."
+    }
+  ]
+}

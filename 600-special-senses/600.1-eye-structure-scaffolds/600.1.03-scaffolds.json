@@ -1,0 +1,96 @@
+{
+  "parentId": "600.1.03",
+  "parentQuestion": "In a person who is color-blind, which of the following would you most expect to see?",
+  "scaffolds": [
+    {
+      "q": "Color blindness means difficulty distinguishing certain colors.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Most commonly red-green color blindness - confusing reds and greens."
+    },
+    {
+      "q": "Normal color vision requires all THREE cone types (S, M, L) working properly.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Missing or dysfunctional cone type = missing a comparison channel = color blindness."
+    },
+    {
+      "q": "Red-green color blindness involves problems with M-cones (green) or L-cones (red).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Deuteranopia = no M-cones. Protanopia = no L-cones."
+    },
+    {
+      "q": "The genes for M and L opsins are on the X chromosome.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Males (XY) have only one copy - no backup if it's defective."
+    },
+    {
+      "q": "Color blindness is more common in males because of X-linked inheritance.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! ~8% of males vs ~0.5% of females are red-green color-blind."
+    },
+    {
+      "q": "Color-blind individuals are missing or have defective cones in their foveae.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The fovea is cone-dense - missing cone types here causes color confusion."
+    },
+    {
+      "q": "Rods are NOT affected in typical color blindness.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Rods are achromatic anyway. Color blindness is a CONE problem."
+    },
+    {
+      "q": "Color blindness is due to absence or dysfunction of specific cone types.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Missing green (M) or red (L) cones prevents distinguishing those wavelengths."
+    },
+    {
+      "q": "The answer is 'absence of green or red cones in the foveae.'",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not retinal regeneration (would affect ALL vision), not rods (achromatic), not peripheral vision. Missing cone types = color blindness."
+    }
+  ]
+}

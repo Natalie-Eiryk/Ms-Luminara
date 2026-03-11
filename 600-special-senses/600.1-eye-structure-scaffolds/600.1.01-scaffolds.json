@@ -1,0 +1,96 @@
+{
+  "parentId": "600.1.01",
+  "parentQuestion": "The optic disc forms a blind spot where the optic nerve leaves the eyeball.",
+  "scaffolds": [
+    {
+      "q": "The optic nerve carries visual information from the eye to the brain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Retinal ganglion cell axons bundle together as the optic nerve."
+    },
+    {
+      "q": "The optic nerve must EXIT the eyeball at some point.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! All those axons have to leave the eye somewhere to reach the brain."
+    },
+    {
+      "q": "The optic DISC is the spot where the optic nerve leaves the eye.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The disc is where ~1.2 million ganglion cell axons converge and exit."
+    },
+    {
+      "q": "The optic disc has NO photoreceptors (no rods or cones).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! All the space is occupied by nerve fibers exiting. No room for photoreceptors."
+    },
+    {
+      "q": "Without photoreceptors, light falling on the optic disc cannot be detected.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! No photoreceptors = no light detection = 'blind spot.'"
+    },
+    {
+      "q": "You normally don't notice your blind spot because your brain fills in the gap.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The brain uses surrounding information to 'paint over' the blind spot."
+    },
+    {
+      "q": "The optic disc is located about 3mm nasal to the fovea.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! It's toward the nose from the central retina, not in the middle of vision."
+    },
+    {
+      "q": "The optic disc is called the 'blind spot' because it lacks photoreceptors.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Optic nerve exit point = no rods/cones = no light detection = blind spot."
+    },
+    {
+      "q": "The answer is TRUE - the optic disc forms a blind spot where the optic nerve exits.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! This is basic retinal anatomy. The optic disc is the one spot on the retina with no photoreceptors, creating a physiological blind spot about 15° temporal to fixation."
+    }
+  ]
+}

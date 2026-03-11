@@ -1,0 +1,96 @@
+{
+  "parentId": "600.1.09",
+  "parentQuestion": "As light travels through the eye, it passes through several structures or chambers before reaching the retina. Which list gives those structures in the correct order?",
+  "scaffolds": [
+    {
+      "q": "Light enters the eye through the CORNEA first.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The cornea is the clear front surface - first thing light hits."
+    },
+    {
+      "q": "After the cornea, light enters the ANTERIOR CHAMBER (in front of iris).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Filled with aqueous humor, between cornea and iris."
+    },
+    {
+      "q": "The PUPIL is the hole in the iris that lets light through.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Adjustable aperture - constricts in bright light, dilates in dim light."
+    },
+    {
+      "q": "After the pupil, light passes through the LENS.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The lens focuses light onto the retina (accommodation)."
+    },
+    {
+      "q": "After the lens is the POSTERIOR SEGMENT (vitreous chamber).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Filled with gel-like vitreous humor, maintains eye shape."
+    },
+    {
+      "q": "Finally, light reaches the RETINA where photoreceptors detect it.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Rods and cones in the retina convert light to neural signals."
+    },
+    {
+      "q": "The correct order: cornea → anterior chamber → pupil → lens → posterior segment → retina.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Front to back: clear surfaces, chambers, and finally photoreceptors."
+    },
+    {
+      "q": "Light path: cornea → anterior chamber → pupil → lens → posterior segment (→ retina).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! This sequence traces light from entry to detection."
+    },
+    {
+      "q": "The answer is 'cornea, anterior chamber, pupil, lens, posterior segment.'",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The pupil comes AFTER the anterior chamber (in iris), and the lens comes BEFORE the posterior segment (not after)."
+    }
+  ]
+}

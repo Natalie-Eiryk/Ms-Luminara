@@ -1,0 +1,96 @@
+{
+  "parentId": "600.1.11",
+  "parentQuestion": "The eye muscle that rotates the eye upward and turns the eye laterally is the ________.",
+  "scaffolds": [
+    {
+      "q": "The eye is moved by six extraocular muscles.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! 4 rectus muscles + 2 oblique muscles control eye position."
+    },
+    {
+      "q": "The RECTUS muscles move the eye in straight directions (up, down, medial, lateral).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Superior rectus (up), inferior rectus (down), medial (nose), lateral (temple)."
+    },
+    {
+      "q": "The OBLIQUE muscles have diagonal/rotational actions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Their insertion angles cause complex movements."
+    },
+    {
+      "q": "Superior oblique: depresses (down) + abducts (lateral) + intorts.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Superior oblique moves eye DOWN and OUT. CN IV innervates it."
+    },
+    {
+      "q": "INFERIOR oblique: elevates (up) + abducts (lateral) + extorts.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Inferior oblique moves eye UP and OUT. CN III innervates it."
+    },
+    {
+      "q": "The inferior oblique is the ONLY muscle that elevates AND abducts.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Superior rectus elevates but ADDUCTS. Inferior oblique elevates and ABDUCTS."
+    },
+    {
+      "q": "Lateral rectus only abducts (lateral movement). It doesn't elevate.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Lateral rectus is purely horizontal movement."
+    },
+    {
+      "q": "Elevates + abducts = inferior oblique (up and laterally).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The inferior oblique's insertion angle produces both movements."
+    },
+    {
+      "q": "The answer is INFERIOR OBLIQUE - elevates (up) and abducts (lateral).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not superior oblique (depresses, not elevates), not lateral rectus (abducts only, no elevation), not medial rectus (adducts, not abducts)."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "parentId": "600.1.07",
+  "parentQuestion": "The aqueous humor is continuously replenished and flows from the ciliary process to drain in the scleral venous sinus.",
+  "scaffolds": [
+    {
+      "q": "The anterior segment of the eye contains a clear fluid called aqueous humor.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! It fills the space between cornea and lens."
+    },
+    {
+      "q": "The cornea and lens are transparent and cannot have blood vessels.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Blood vessels would scatter light and blur vision."
+    },
+    {
+      "q": "Without blood supply, these tissues need another way to get nutrients.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Aqueous humor delivers nutrients and removes waste by diffusion."
+    },
+    {
+      "q": "The ciliary body/process PRODUCES aqueous humor.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Ciliary epithelium actively secretes this fluid into the posterior chamber."
+    },
+    {
+      "q": "Aqueous humor flows from posterior chamber → pupil → anterior chamber.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! It's made behind the iris, flows through the pupil to the front."
+    },
+    {
+      "q": "Aqueous humor drains through the trabecular meshwork into the scleral venous sinus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Scleral venous sinus = canal of Schlemm. Drains to episcleral veins."
+    },
+    {
+      "q": "Blocked drainage of aqueous humor causes elevated eye pressure (glaucoma).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! High intraocular pressure damages the optic nerve → blindness."
+    },
+    {
+      "q": "Aqueous humor: ciliary process → posterior chamber → pupil → anterior chamber → scleral venous sinus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! This continuous flow nourishes avascular tissues and maintains eye pressure."
+    },
+    {
+      "q": "The answer is TRUE - aqueous flows from ciliary process to scleral venous sinus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Continuous production and drainage maintains intraocular pressure (~15-16 mmHg) and nourishes cornea and lens."
+    }
+  ]
+}
