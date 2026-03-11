@@ -1,28 +1,96 @@
 {
   "parentId": "100.2.12",
-  "parentQuestion": "A patient on warfarin presents after a fall two weeks ago. Progressive confusion...",
+  "parentQuestion": "A patient on warfarin presents after a fall two weeks ago. Progressive confusion and headache develop. CT shows a crescent-shaped hypodensity. Why is anticoagulation significant here?",
   "scaffolds": [
     {
-      "q": "Anticoagulants like warfarin prevent blood from clotting normally.",
+      "q": "Warfarin is an anticoagulant - it prevents blood from clotting normally.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Warfarin inhibits vitamin K-dependent synthesis of clotting factors II, VII, IX, and X — it prevents clot formation, which is therapeutic for preventing thrombosis but catastrophic if bleeding occurs. Feel the weight of this:the double edge: what prevents clots also prevents hemostasis."
+      "difficulty": "foundation",
+      "explain": "Yes! Warfarin inhibits vitamin K-dependent clotting factors. It's used to prevent strokes but makes bleeding more dangerous."
     },
     {
-      "q": "Subdural hematomas result from tearing which structures?",
+      "q": "Normal bleeding stops because clots form to seal damaged blood vessels.",
       "options": [
-        "Arteries",
-        "Bridging veins",
-        "Choroid plexus",
-        "Arachnoid granulations"
+        "True",
+        "False"
       ],
-      "answer": 1,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Subdural hematomas form when bridging veins tear, allowing venous blood to accumulate between dura and arachnoid. These veins are delicate, stretched taut in elderly or atrophied brains, and vulnerable to shearing forces during head trauma. Note this crucial step:anatomy — fragility determines pathology."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The clotting cascade activates, fibrin cross-links platelets, and the tear is sealed. This is hemostasis."
+    },
+    {
+      "q": "Anticoagulants prevent clots from forming effectively.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Without functional clotting factors, the patient can't form stable clots. Bleeding continues instead of stopping."
+    },
+    {
+      "q": "Subdural hematomas form from torn bridging veins (slow venous bleeding).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! A fall tears delicate bridging veins. Normally, the bleeding would stop as clot forms. But on anticoagulation..."
+    },
+    {
+      "q": "On anticoagulation, the bleeding DOESN'T STOP because clots can't form.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The torn vein keeps oozing. Blood accumulates day after day because there's no clot to seal it."
+    },
+    {
+      "q": "A 'hypodense' appearance on CT indicates old/chronic blood (weeks old).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Acute blood is hyperdense (bright). Over weeks, the blood liquefies and becomes hypodense (dark). This patient's blood has been accumulating for two weeks."
+    },
+    {
+      "q": "The crescent shape confirms subdural (not epidural) hematoma.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Subdural blood follows the brain's contour (crescent). Epidural blood is lens-shaped because the dura limits its spread."
+    },
+    {
+      "q": "Anticoagulation allows slow venous bleeding to continue indefinitely.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Without clot formation, the bridging vein tear never seals. Blood accumulates for days to weeks, causing progressive symptoms."
+    },
+    {
+      "q": "The answer is 'it allows slow venous bleeding to continue' - the clot can't form.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not preventing venous sinus clots (wrong mechanism). Not increasing CSF (anticoagulants don't affect CSF). Not causing vasospasm. The significance is that BLEEDING WON'T STOP because clotting is impaired."
     }
   ]
 }

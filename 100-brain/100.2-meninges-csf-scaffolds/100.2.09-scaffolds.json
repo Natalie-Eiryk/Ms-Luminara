@@ -1,28 +1,96 @@
 {
   "parentId": "100.2.09",
-  "parentQuestion": "A newborn develops progressive head enlargement, bulging fontanelles, and downwa...",
+  "parentQuestion": "A newborn develops progressive head enlargement, bulging fontanelles, and downward deviation of the eyes ('setting sun sign'). Which structure's obstruction is most likely responsible?",
   "scaffolds": [
     {
-      "q": "CSF flows through connected chambers called ventricles.",
+      "q": "CSF is produced continuously and must flow through the ventricular system.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "CSF flows from the lateral ventricles → third ventricle → cerebral aqueduct → fourth ventricle → subarachnoid space. This circulation is continuous, directional, and vulnerable to blockage at narrow points. Pay attention here:flow — obstruction anywhere causes upstream accumulation."
+      "difficulty": "foundation",
+      "explain": "Yes! The choroid plexus produces about 500mL of CSF daily. It must flow through ventricles to the subarachnoid space to be reabsorbed."
     },
     {
-      "q": "What is the medical term for abnormal accumulation of CSF in the ventricles?",
+      "q": "The cerebral aqueduct is a narrow channel connecting the third and fourth ventricles.",
       "options": [
-        "Meningitis",
-        "Hydrocephalus",
-        "Encephalitis",
-        "Hematoma"
+        "True",
+        "False"
       ],
-      "answer": 1,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Hydrocephalus means 'water head' — abnormal CSF accumulation causing ventricular enlargement and increased intracranial pressure. It can be obstructive (blockage prevents flow) or communicating (impaired absorption at arachnoid granulations). Make room for this understanding:the distinction — mechanism determines treatment."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The cerebral aqueduct (of Sylvius) is only about 2mm in diameter - the narrowest point in CSF circulation."
+    },
+    {
+      "q": "Blocking CSF flow causes fluid to accumulate upstream.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! If the aqueduct is blocked, CSF backs up in the lateral and third ventricles. Pressure builds."
+    },
+    {
+      "q": "Hydrocephalus means abnormal accumulation of CSF causing ventricular enlargement.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! 'Hydro' = water, 'cephalus' = head. CSF accumulation increases intracranial pressure and enlarges ventricles."
+    },
+    {
+      "q": "In infants, the skull can expand because the fontanelles haven't closed.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Infant skull sutures aren't fused yet. Increased pressure causes head enlargement and bulging fontanelles."
+    },
+    {
+      "q": "The 'setting sun sign' (downward eye deviation) indicates pressure on the midbrain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Rising pressure pushes down on the midbrain tectum, which controls upward gaze. Eyes deviate downward - pupils look like a setting sun."
+    },
+    {
+      "q": "Aqueductal stenosis (narrowing) is a common cause of obstructive hydrocephalus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The aqueduct is already narrow. Congenital stenosis, infection, or tumor can block it completely, causing upstream CSF accumulation."
+    },
+    {
+      "q": "Head enlargement + bulging fontanelles + setting sun sign = obstructive hydrocephalus from aqueduct blockage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! All signs point to CSF blockage at the aqueduct - the narrowest point in the ventricular system."
+    },
+    {
+      "q": "The answer is CEREBRAL AQUEDUCT - obstruction here causes this pattern.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not arachnoid granulations (that causes communicating hydrocephalus), not Circle of Willis (that's arterial), not internal carotid (that causes stroke). CEREBRAL AQUEDUCT obstruction causes obstructive hydrocephalus."
     }
   ]
 }

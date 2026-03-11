@@ -9,20 +9,88 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The brain has four interconnected ventricles (two lateral, one third, one fourth) filled with cerebrospinal fluid. These aren't empty spaces — Continue the sequence: while I show you: they're functional chambers where CSF is produced, circulated, and eventually reabsorbed."
+      "difficulty": "foundation",
+      "explain": "Yes! Four ventricles (two lateral, one third, one fourth) are connected chambers filled with cerebrospinal fluid."
     },
     {
-      "q": "Which type of brain cell provides support rather than transmitting signals?",
+      "q": "Glial cells are support cells in the nervous system - they're not neurons.",
       "options": [
-        "Neurons",
-        "Glial cells",
-        "Red blood cells",
-        "Muscle cells"
+        "True",
+        "False"
       ],
-      "answer": 1,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Glial cells (neuroglia) are the support cells of the nervous system — astrocytes, oligodendrocytes, microglia, and ependymal cells. 'Support' undersells it, though — watch what they really do: they regulate the chemical environment, myelinate axons, defend against pathogens, and produce cerebrospinal fluid. Neurons get the glory, but glia do the engineering."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Glial cells (astrocytes, oligodendrocytes, microglia, ependymal cells) provide support, nutrition, and protection - they don't transmit electrical signals."
+    },
+    {
+      "q": "Ependymal cells are a specific type of glial cell.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Ependymal cells are classified as glial cells even though they form an epithelial-like lining. They're specialized support cells."
+    },
+    {
+      "q": "Ependymal cells have cilia on their surface.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The cilia beat in coordinated waves, helping circulate cerebrospinal fluid through the ventricular system."
+    },
+    {
+      "q": "CSF is produced by specialized ependymal cells in the choroid plexus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The choroid plexus contains modified ependymal cells that filter blood plasma and actively secrete CSF - about 500mL per day."
+    },
+    {
+      "q": "Neurons do NOT line body cavities - that's a job for epithelial-type cells.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Neurons transmit signals - they don't form barrier layers. The ventricles are lined by ependymal cells (glial, epithelial-like)."
+    },
+    {
+      "q": "Astrocytes support neurons but don't line the ventricles.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Astrocytes regulate the blood-brain barrier and support neurons throughout brain tissue, but they don't form the ventricular lining."
+    },
+    {
+      "q": "The cells lining the brain ventricles are called ependymal cells.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Ependymal cells form the ventricular lining. They're ciliated glial cells that help circulate CSF and produce it in the choroid plexus."
+    },
+    {
+      "q": "The answer is EPENDYMAL CELLS - the ciliated glial cells that line the ventricles.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not neurons (they transmit signals, don't line cavities), not astrocytes (they support neurons in tissue, not ventricular lining), not 'epithelial cells' (too vague - ependymal is the specific term)."
     }
   ]
 }

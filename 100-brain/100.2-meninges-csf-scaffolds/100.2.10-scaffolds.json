@@ -1,28 +1,96 @@
 {
   "parentId": "100.2.10",
-  "parentQuestion": "A 45-year-old presents with 'the worst headache of my life,' sudden onset during...",
+  "parentQuestion": "A 45-year-old presents with 'the worst headache of my life,' sudden onset during weightlifting, with nausea and photophobia. CT shows blood in the basal cisterns. Which structure has most likely ruptured?",
   "scaffolds": [
     {
-      "q": "Cerebral aneurysms are balloon-like dilations in brain arteries.",
+      "q": "Cerebral aneurysms are balloon-like dilations at arterial branch points.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Cerebral aneurysms (berry aneurysms) are saccular dilations at arterial bifurcations, typically in the Circle of Willis. They're usually asymptomatic until they rupture, causing subarachnoid hemorrhage. Invite this in:the anatomy — weakness at branch points becomes disaster."
+      "difficulty": "foundation",
+      "explain": "Yes! Aneurysms form at weak points where arteries branch - typically in the Circle of Willis. They're usually asymptomatic until they rupture."
     },
     {
-      "q": "What is the classic description of subarachnoid hemorrhage headache?",
+      "q": "The Circle of Willis is the arterial ring at the base of the brain.",
       "options": [
-        "Gradual and dull",
-        "Thunderclap — sudden and severe",
-        "Throbbing and unilateral",
-        "Mild and intermittent"
+        "True",
+        "False"
       ],
-      "answer": 1,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "'Thunderclap headache' — sudden onset, maximal intensity within seconds, described as the worst headache of the patient's life. This is subarachnoid hemorrhage until proven otherwise. Track this carefully:: the descriptive language patients use tells you the pathology."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! This arterial anastomosis provides collateral blood flow. Aneurysms commonly form at its branch points."
+    },
+    {
+      "q": "Aneurysm rupture causes sudden, catastrophic bleeding into the subarachnoid space.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Arterial blood at ~100 mmHg floods into the CSF-filled subarachnoid space. It's devastating - ~50% mortality."
+    },
+    {
+      "q": "'Thunderclap headache' means sudden onset, maximal intensity within seconds.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Patients describe being 'hit in the head with a baseball bat.' Sudden, explosive, worst-ever headache = subarachnoid hemorrhage until proven otherwise."
+    },
+    {
+      "q": "Straining activities (weightlifting, bowel movements) can trigger aneurysm rupture.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Sudden blood pressure spikes exceed the aneurysm's wall strength. The timing (during weightlifting) is classic."
+    },
+    {
+      "q": "Blood in the basal cisterns (CSF spaces at the brain base) indicates subarachnoid hemorrhage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The Circle of Willis sits in the basal cisterns. Ruptured aneurysms bleed directly into these CSF-filled spaces."
+    },
+    {
+      "q": "Photophobia and nausea occur because blood in CSF irritates the meninges.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Blood breakdown products irritate the meninges, causing meningeal signs similar to meningitis - stiff neck, photophobia, nausea."
+    },
+    {
+      "q": "Thunderclap headache + straining activity + blood in basal cisterns = ruptured aneurysm.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The classic presentation of subarachnoid hemorrhage from ruptured cerebral aneurysm."
+    },
+    {
+      "q": "The answer is CEREBRAL ANEURYSM - it ruptured, causing subarachnoid hemorrhage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not middle meningeal artery (that causes epidural, lens-shaped, trauma-related). Not bridging veins (that causes subdural, crescent, slow). CEREBRAL ANEURYSM causes thunderclap headache with blood in basal cisterns."
     }
   ]
 }

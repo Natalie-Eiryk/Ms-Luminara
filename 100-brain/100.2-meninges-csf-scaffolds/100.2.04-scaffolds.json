@@ -3,26 +3,94 @@
   "parentQuestion": "Which of the following would you NOT find in normal cerebrospinal fluid?",
   "scaffolds": [
     {
-      "q": "Cerebrospinal fluid (CSF) surrounds and protects the brain and spinal cord.",
+      "q": "CSF is normally clear and colorless - like water or gin.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "CSF is a clear, colorless fluid that fills the ventricles and subarachnoid space. It's not just passive cushioning — Advance into this: and watch: it's an actively maintained chemical environment that neurons require to function."
+      "difficulty": "foundation",
+      "explain": "Yes! Normal CSF is crystal clear - 'gin-clear.' Any color (red, yellow, cloudy) indicates something wrong."
     },
     {
-      "q": "What color is normal, healthy cerebrospinal fluid?",
+      "q": "CSF contains glucose because neurons need glucose for energy.",
       "options": [
-        "Red",
-        "Clear/colorless",
-        "Yellow",
-        "Milky white"
+        "True",
+        "False"
       ],
-      "answer": 1,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Normal CSF is crystal clear and colorless — often described as 'water-clear' or 'gin-clear.' Any deviation — red, yellow (xanthochromia), cloudy — indicates pathology, and often something serious. Open yourself to this:what clarity means here: purity, precision, life."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! CSF glucose is normally 60-80% of blood glucose. Neurons are glucose-dependent and can't use fatty acids."
+    },
+    {
+      "q": "CSF contains some protein, though much less than blood.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Normal CSF protein is 15-45 mg/dL. The blood-brain barrier restricts most proteins from entering CSF."
+    },
+    {
+      "q": "CSF contains electrolytes like potassium and sodium.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Neurons need precisely controlled ion concentrations. CSF electrolytes are carefully regulated by the choroid plexus."
+    },
+    {
+      "q": "Red blood cells belong in blood vessels, not in CSF.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! RBCs should NEVER be in normal CSF. Their presence means something is bleeding - subarachnoid hemorrhage or traumatic tap."
+    },
+    {
+      "q": "Finding blood (RBCs) in CSF is always abnormal and indicates pathology.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Blood in CSF means the barrier has been breached - hemorrhage, trauma, or you hit a blood vessel during the spinal tap."
+    },
+    {
+      "q": "Glucose, protein, and electrolytes are NORMAL components of CSF.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! These are expected in CSF at regulated levels. What's NOT expected is red blood cells - those don't belong."
+    },
+    {
+      "q": "Red blood cells should NOT be found in normal CSF.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! CSF should have zero RBCs. Blood in CSF means hemorrhage or vessel puncture during the procedure."
+    },
+    {
+      "q": "The answer is RED BLOOD CELLS - they don't belong in normal CSF.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Glucose (normal), protein (normal), potassium (normal) - all expected in CSF. RED BLOOD CELLS are the exception - they indicate bleeding."
     }
   ]
 }

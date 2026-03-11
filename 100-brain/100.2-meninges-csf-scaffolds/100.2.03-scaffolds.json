@@ -3,26 +3,94 @@
   "parentQuestion": "The subarachnoid space lies between what two layers of meninges?",
   "scaffolds": [
     {
-      "q": "The brain and spinal cord are covered by protective membranes called meninges.",
+      "q": "The brain is surrounded by protective membranes called meninges.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The meninges are three protective membranes that surround the brain and spinal cord: dura mater, arachnoid mater, and pia mater. They're named beautifully — 'tough mother,' 'spider mother,' and 'gentle mother' in Latin. there's poetry in the anatomy."
+      "difficulty": "foundation",
+      "explain": "Yes! The meninges are three membranes that protect the brain and spinal cord - a layered defense system."
     },
     {
-      "q": "How many layers do the meninges have?",
+      "q": "There are THREE layers of meninges, from outside to inside.",
       "options": [
-        "One",
-        "Two",
-        "Three",
-        "Four"
+        "True",
+        "False"
       ],
-      "answer": 2,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The meninges consist of three layers: the dura mater (tough outer layer), arachnoid mater (middle web-like layer with trabeculae spanning the CSF-filled space), and pia mater (delicate inner layer that adheres to every contour of the brain surface). Embrace this:these layers — each one matters."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Dura mater (tough outer), arachnoid mater (middle, web-like), pia mater (delicate inner). Three mothers protecting the brain."
+    },
+    {
+      "q": "The dura mater is the OUTERMOST and toughest meningeal layer.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! 'Dura mater' means 'tough mother' in Latin. It's thick, fibrous, and adheres to the skull - essentially leather protecting your brain."
+    },
+    {
+      "q": "The arachnoid mater is the MIDDLE meningeal layer.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! 'Arachnoid' means spider-like - it has web-like projections (trabeculae) that span the CSF-filled space below it."
+    },
+    {
+      "q": "The pia mater is the INNERMOST layer, directly touching the brain surface.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! 'Pia mater' means 'gentle mother' - it's thin, delicate, and follows every contour of the brain surface like shrink-wrap."
+    },
+    {
+      "q": "The prefix 'sub-' means 'below' or 'under'.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! So 'SUBarachnoid' means 'under the arachnoid' - the space beneath the arachnoid layer but above the pia."
+    },
+    {
+      "q": "CSF fills the subarachnoid space, providing cushioning for the brain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The subarachnoid space is filled with CSF and major cerebral blood vessels. This fluid bath reduces effective brain weight and cushions against impacts."
+    },
+    {
+      "q": "The subarachnoid space lies between arachnoid mater (above) and pia mater (below).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! SUBarachnoid = under the arachnoid. The space is below the arachnoid and above the pia, filled with CSF."
+    },
+    {
+      "q": "The answer is ARACHNOID and PIA - the subarachnoid space lies between these two layers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not dura and arachnoid (that's the subdural space - a potential space), not epidural (that's between dura and bone). Subarachnoid = arachnoid to pia."
     }
   ]
 }

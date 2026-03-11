@@ -1,6 +1,6 @@
 {
   "parentId": "100.2.01",
-  "parentQuestion": "The blood-brain barrier is the protective mechanism that helps maintain the brai...",
+  "parentQuestion": "The blood-brain barrier is the protective mechanism that helps maintain the brain's stable environment.",
   "scaffolds": [
     {
       "q": "The brain needs protection from substances circulating in the blood.",
@@ -9,20 +9,88 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The brain is catastrophically sensitive to its chemical environment. Let me show you why this matters: many substances that are perfectly harmless in your bloodstream would trigger seizures, neuronal death, or functional collapse if they reached brain tissue directly. This isn't overcaution — it's physics."
+      "difficulty": "foundation",
+      "explain": "Yes! Many substances in blood would harm neurons - toxins, hormones, pathogens. The brain needs a selective filter to maintain its delicate chemical environment."
     },
     {
-      "q": "Which type of cell forms the walls of blood capillaries?",
+      "q": "Endothelial cells line all blood capillaries in the body.",
       "options": [
-        "Neurons",
-        "Endothelial cells",
-        "Red blood cells",
-        "Muscle cells"
+        "True",
+        "False"
       ],
-      "answer": 1,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Endothelial cells line all blood vessels. In the brain, though, these cells are special — Navigate this together: and Study this:: they're sealed together with tight junctions that eliminate the gaps other capillaries have. This transforms them from a leaky fence into a fortress wall."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Endothelial cells form the inner wall of all blood vessels. But brain capillaries are special - their endothelial cells are sealed with tight junctions."
+    },
+    {
+      "q": "Most body capillaries have gaps between endothelial cells that allow substances to pass through.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Most capillaries are 'leaky' - small gaps (fenestrations) let substances diffuse in and out. But brain capillaries have tight junctions eliminating these gaps."
+    },
+    {
+      "q": "Brain capillaries have tight junctions that seal endothelial cells together.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Tight junctions are protein complexes that completely seal the spaces between brain endothelial cells - no gaps, no paracellular diffusion."
+    },
+    {
+      "q": "Astrocytes contribute to the blood-brain barrier by wrapping around capillaries.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Astrocyte foot processes surround brain capillaries, helping maintain barrier properties and regulating what crosses into brain tissue."
+    },
+    {
+      "q": "Small lipid-soluble molecules (like oxygen and CO2) can cross the blood-brain barrier easily.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Lipid-soluble molecules dissolve through the cell membrane. Oxygen, CO2, alcohol, anesthetics - they pass right through the barrier."
+    },
+    {
+      "q": "The blood-brain barrier maintains a stable chemical environment for neurons.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Neurons operate on millivolt gradients - even small changes in ion concentrations can trigger seizures. The BBB keeps the brain's chemistry stable."
+    },
+    {
+      "q": "The blood-brain barrier is a protective mechanism that maintains brain stability.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The BBB (tight junctions + astrocyte foot processes) selectively filters blood contents, protecting neurons from toxins and maintaining chemical homeostasis."
+    },
+    {
+      "q": "The statement is TRUE - the blood-brain barrier does protect the brain's stable environment.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The answer is TRUE. The BBB is absolutely a protective mechanism - without it, every meal would risk seizures, every infection would become encephalitis."
     }
   ]
 }

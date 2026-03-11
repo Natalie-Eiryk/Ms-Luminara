@@ -1,6 +1,6 @@
 {
   "parentId": "100.2.07",
-  "parentQuestion": "A 24-year-old presents with severe headache, neck stiffness, photophobia, and fe...",
+  "parentQuestion": "A 24-year-old presents with severe headache, neck stiffness, photophobia, and fever. CSF analysis shows elevated white blood cells (predominantly neutrophils), low glucose, and high protein. Which structure is inflamed?",
   "scaffolds": [
     {
       "q": "The meninges can become infected by bacteria.",
@@ -9,20 +9,88 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Bacterial meningitis occurs when bacteria (Streptococcus pneumoniae, Neisseria meningitidis, Listeria) breach the meninges and multiply in the CSF. Cast your attention here:: the immune system floods the subarachnoid space with neutrophils, inflammation damages tissue, and intracranial pressure rises. This is a medical emergency."
+      "difficulty": "foundation",
+      "explain": "Yes! Bacterial meningitis occurs when bacteria breach the blood-brain barrier and multiply in the CSF. It's a medical emergency."
     },
     {
-      "q": "What is the normal white blood cell count in cerebrospinal fluid?",
+      "q": "The meninges have pain receptors, unlike brain tissue itself.",
       "options": [
-        "0-5 cells/μL",
-        "50-100 cells/μL",
-        "500-1000 cells/μL",
-        "Same as blood"
+        "True",
+        "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Normal CSF contains 0-5 WBCs per microliter — essentially sterile. Finding hundreds or thousands indicates infection or inflammation. Allow your mind to embrace this:what that number means: the immune system has recognized a threat inside your CNS and is flooding the scene with defenders."
+      "difficulty": "foundation",
+      "explain": "Correct! Brain tissue has no pain receptors - that's why awake brain surgery is possible. But the meninges DO have pain receptors, so inflammation causes severe headache."
+    },
+    {
+      "q": "Neck stiffness (nuchal rigidity) occurs when inflamed meninges resist stretching.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Flexing the neck stretches the meninges. When they're inflamed, this is painful, so the neck muscles guard against movement."
+    },
+    {
+      "q": "Photophobia (light sensitivity) is a classic sign of meningeal irritation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Meningeal inflammation affects cranial nerve function, causing light sensitivity. This triad (headache, neck stiffness, photophobia) is classic meningitis."
+    },
+    {
+      "q": "Bacterial meningitis causes ELEVATED neutrophils (white blood cells) in CSF.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Normal CSF has 0-5 WBCs. In bacterial meningitis, the immune system floods CSF with neutrophils - often thousands per microliter."
+    },
+    {
+      "q": "Bacterial meningitis causes LOW glucose in CSF because bacteria consume it.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Bacteria use glucose for energy as they multiply. Low CSF glucose is a clue that bacteria are eating the brain's sugar supply."
+    },
+    {
+      "q": "Elevated protein in CSF indicates inflammation and blood-brain barrier breakdown.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The barrier is leaking - proteins that normally can't enter CSF are now getting through. Inflammation damages the barrier."
+    },
+    {
+      "q": "This presentation (headache, stiff neck, photophobia, fever, abnormal CSF) = meningitis.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The meninges are inflamed. The triad of symptoms plus CSF findings (neutrophils, low glucose, high protein) confirms bacterial meningitis."
+    },
+    {
+      "q": "The answer is MENINGES - the inflamed structures causing this presentation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not brain parenchyma (that would be encephalitis with seizures/focal deficits), not choroid plexus, not ependyma. The MENINGES are inflamed - bacterial meningitis."
     }
   ]
 }
