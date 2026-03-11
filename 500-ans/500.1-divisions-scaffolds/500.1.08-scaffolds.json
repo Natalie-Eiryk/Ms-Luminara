@@ -1,0 +1,96 @@
+{
+  "parentId": "500.1.08",
+  "parentQuestion": "The parasympathetic division innervates more organs than the sympathetic division.",
+  "scaffolds": [
+    {
+      "q": "Both ANS divisions innervate the heart, lungs, and GI tract.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Most major visceral organs receive DUAL innervation from both sympathetic and parasympathetic divisions."
+    },
+    {
+      "q": "Blood vessels throughout the body need nervous system control for pressure regulation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Blood vessel diameter determines blood pressure. The ANS controls vascular smooth muscle."
+    },
+    {
+      "q": "Most blood vessels are innervated by the sympathetic division ONLY.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The parasympathetic generally doesn't innervate blood vessels (except in erectile tissue). Vascular tone is controlled by sympathetic activity alone."
+    },
+    {
+      "q": "Sweat glands are innervated by the sympathetic division ONLY.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Sweating for thermoregulation is sympathetic (though the neurotransmitter is ACh, not norepinephrine)."
+    },
+    {
+      "q": "The adrenal medulla receives sympathetic input ONLY.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Sympathetic preganglionic neurons synapse directly on adrenal chromaffin cells. No parasympathetic involvement."
+    },
+    {
+      "q": "Arrector pili muscles (goosebumps) are sympathetic ONLY.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! These tiny muscles that raise hair follicles receive only sympathetic innervation."
+    },
+    {
+      "q": "The sympathetic reaches MORE structures (blood vessels, sweat glands, adrenal) than parasympathetic.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The sympathetic innervates everything the parasympathetic does, PLUS blood vessels, sweat glands, adrenal medulla, and arrector pili."
+    },
+    {
+      "q": "The parasympathetic does NOT innervate more organs than the sympathetic.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The opposite is true - the sympathetic has BROADER distribution than the parasympathetic."
+    },
+    {
+      "q": "The statement is FALSE - sympathetic actually innervates MORE structures.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The answer is FALSE. The parasympathetic is limited to visceral organs via cranial and sacral outflow. The sympathetic reaches all of that PLUS blood vessels, sweat glands, and more."
+    }
+  ]
+}

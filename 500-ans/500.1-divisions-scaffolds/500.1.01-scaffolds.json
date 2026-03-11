@@ -1,0 +1,96 @@
+{
+  "parentId": "500.1.01",
+  "parentQuestion": "The sympathetic division has short preganglionic fibers and long postganglionic fibers.",
+  "scaffolds": [
+    {
+      "q": "The autonomic nervous system uses TWO-neuron chains to reach target organs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Both sympathetic and parasympathetic divisions use a preganglionic neuron (CNS to ganglion) and postganglionic neuron (ganglion to target). Two neurons, one synapse in between."
+    },
+    {
+      "q": "Sympathetic preganglionic neurons originate from the thoracolumbar spinal cord (T1-L2).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The sympathetic division is called 'thoracolumbar outflow' because all preganglionic cell bodies live in the lateral horn from T1 to L2."
+    },
+    {
+      "q": "Sympathetic ganglia are located CLOSE to the spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Sympathetic ganglia (paravertebral chain and collateral ganglia) are near the spine. So preganglionic fibers don't have to travel far to reach them."
+    },
+    {
+      "q": "A SHORT preganglionic fiber means the ganglion is CLOSE to the CNS.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Sympathetic preganglionic neurons exit the spinal cord and quickly synapse in nearby ganglia. Short distance = short fiber."
+    },
+    {
+      "q": "After synapsing in the ganglion, postganglionic fibers travel to distant targets.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! From ganglia near the spine, sympathetic postganglionic fibers must travel long distances to reach the heart, blood vessels, lungs, etc."
+    },
+    {
+      "q": "LONG postganglionic fibers mean the target organs are FAR from the ganglia.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The ganglia are near the spine, but the targets (heart, lungs, skin) are far away. Long distance = long fiber."
+    },
+    {
+      "q": "Sympathetic architecture: short preganglionic + long postganglionic.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Ganglia are near the spine (short pre-), but targets are far (long post-). This 'short-long' arrangement allows widespread, coordinated activation."
+    },
+    {
+      "q": "The sympathetic division has short preganglionic and long postganglionic fibers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! This is the key anatomical feature. Contrast with parasympathetic (long pre-, short post-)."
+    },
+    {
+      "q": "The statement is TRUE - sympathetic = short preganglionic, long postganglionic.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The answer is TRUE. Sympathetic ganglia are close to the spinal cord (short preganglionic) but far from targets (long postganglionic)."
+    }
+  ]
+}

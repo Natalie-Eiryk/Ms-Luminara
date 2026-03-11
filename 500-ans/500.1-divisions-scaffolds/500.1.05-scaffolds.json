@@ -1,0 +1,96 @@
+{
+  "parentId": "500.1.05",
+  "parentQuestion": "The parasympathetic division stimulates ciliary muscles of the eye, making the lens bulge for close vision.",
+  "scaffolds": [
+    {
+      "q": "Your eye can focus on both near and far objects - this is called accommodation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Accommodation is the ability to change lens shape to focus at different distances. It's like autofocus on a camera."
+    },
+    {
+      "q": "The lens is held in place by suspensory ligaments attached to the ciliary muscle.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The zonule fibers (suspensory ligaments) connect the lens to the ciliary body. When the ciliary muscle contracts, it changes the tension."
+    },
+    {
+      "q": "The lens is naturally elastic - it WANTS to be round/spherical.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Like a rubber ball, the lens has natural elasticity pushing it toward a rounder shape."
+    },
+    {
+      "q": "When suspensory ligaments are TAUT, they pull the lens flat for distance vision.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! At rest, the ligaments are stretched and pulling - flattening the lens for focusing on distant objects."
+    },
+    {
+      "q": "When the ciliary muscle CONTRACTS, it releases tension on the ligaments.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The ring-shaped ciliary muscle tightens inward, bringing attachment points closer together, releasing tension on the zonule fibers."
+    },
+    {
+      "q": "When ligament tension releases, the elastic lens bulges into a rounder shape.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! With no pulling force, the lens springs into its natural round shape - more refractive power for near focus."
+    },
+    {
+      "q": "Ciliary muscle contraction is controlled by parasympathetic fibers from CN III.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The oculomotor nerve (CN III) carries parasympathetic fibers to the ciliary ganglion, then to the ciliary muscle."
+    },
+    {
+      "q": "Parasympathetic stimulates ciliary muscle → lens bulges → near vision focus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! This is the accommodation reflex for near vision - entirely parasympathetic-controlled."
+    },
+    {
+      "q": "The statement is TRUE - parasympathetic makes the lens bulge for close vision.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The answer is TRUE. Parasympathetic activation contracts the ciliary muscle, releasing lens tension, allowing it to bulge for near focus."
+    }
+  ]
+}

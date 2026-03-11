@@ -1,0 +1,96 @@
+{
+  "parentId": "500.1.10",
+  "parentQuestion": "The blood vessels of the skin are one of the few areas of the body where the vessels are innervated by both the sympathetic and parasympathetic divisions.",
+  "scaffolds": [
+    {
+      "q": "Cutaneous (skin) blood vessels control blood flow to the skin surface.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Skin blood flow affects thermoregulation, blushing, and pallor responses."
+    },
+    {
+      "q": "Skin blood vessels can constrict (less flow) or dilate (more flow).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Vasoconstriction = cold, pale skin; vasodilation = warm, flushed skin."
+    },
+    {
+      "q": "Most blood vessels in the body are innervated by sympathetic ONLY.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The parasympathetic generally does NOT innervate blood vessels (except erectile tissue). Vascular tone is sympathetic territory."
+    },
+    {
+      "q": "Skin blood vessels follow this same pattern - sympathetic innervation ONLY.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Cutaneous blood vessels are NOT an exception - they receive sympathetic innervation only, like most other blood vessels."
+    },
+    {
+      "q": "Sympathetic vasoconstriction makes skin pale (cold, fear, blood pressure control).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! High sympathetic activity constricts skin vessels, reducing blood flow and making skin pale and cool."
+    },
+    {
+      "q": "Vasodilation in skin occurs by DECREASING sympathetic activity, not by activating parasympathetic.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! With less sympathetic tone, smooth muscle relaxes and vessels dilate. No parasympathetic involvement needed."
+    },
+    {
+      "q": "Erectile tissue is the main exception - parasympathetic DOES cause vasodilation there.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Erectile tissue in genitals requires parasympathetic-mediated vasodilation for engorgement. But skin blood vessels are different."
+    },
+    {
+      "q": "Skin blood vessels are NOT innervated by parasympathetic - only sympathetic.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The question's statement is false - skin vessels are sympathetic-only, not dual innervated."
+    },
+    {
+      "q": "The statement is FALSE - skin blood vessels receive sympathetic innervation ONLY.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The answer is FALSE. Skin blood vessels are NOT 'one of the few areas' with dual innervation - they're actually sympathetic-only like most blood vessels."
+    }
+  ]
+}

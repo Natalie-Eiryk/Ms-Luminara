@@ -1,0 +1,96 @@
+{
+  "parentId": "500.1.07",
+  "parentQuestion": "The parasympathetic division performs maintenance functions.",
+  "scaffolds": [
+    {
+      "q": "Your body needs to do 'housekeeping' - digest food, eliminate waste, repair tissues.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! These maintenance activities happen in the background constantly - when you're not in emergency mode."
+    },
+    {
+      "q": "Digestion is a maintenance function - it happens when you're relaxed.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! GI secretion and motility increase during parasympathetic dominance. Your body breaks down food and absorbs nutrients."
+    },
+    {
+      "q": "Elimination (urination and defecation) is a maintenance function.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The parasympathetic promotes bladder contraction and bowel movements - getting rid of waste products."
+    },
+    {
+      "q": "Energy storage (glycogen synthesis, fat storage) happens during 'rest and digest.'",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! After a meal, insulin (not ANS, but associated with rest) promotes storage. The parasympathetic state supports anabolism."
+    },
+    {
+      "q": "Tissue repair happens best when you're relaxed, not stressed.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Sleep and relaxation (parasympathetic dominant states) promote healing and recovery."
+    },
+    {
+      "q": "The sympathetic handles emergencies; the parasympathetic handles daily operations.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Between crises, the body runs maintenance routines - that's parasympathetic territory."
+    },
+    {
+      "q": "'Maintenance' captures what the parasympathetic does between emergencies.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Digest, absorb, eliminate, conserve, repair - all the housekeeping that sustains life."
+    },
+    {
+      "q": "The parasympathetic division performs maintenance functions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! 'Rest and digest' IS maintenance - the daily operations that keep the body running."
+    },
+    {
+      "q": "The statement is TRUE - parasympathetic handles maintenance functions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The answer is TRUE. The parasympathetic division absolutely performs maintenance functions - digestion, elimination, energy conservation, and tissue repair."
+    }
+  ]
+}

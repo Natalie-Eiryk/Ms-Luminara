@@ -1,0 +1,96 @@
+{
+  "parentId": "500.1.04",
+  "parentQuestion": "The parasympathetic division decreases heart rate.",
+  "scaffolds": [
+    {
+      "q": "The heart has its own internal pacemaker (SA node) that generates heartbeats.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The SA node fires spontaneously at about 100 beats per minute - this is the intrinsic rate without any nervous system input."
+    },
+    {
+      "q": "But your resting heart rate is usually around 60-70 bpm, not 100 bpm.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Something is actively SLOWING the heart below its intrinsic rate. That something is the parasympathetic system."
+    },
+    {
+      "q": "The vagus nerve (CN X) carries parasympathetic input to the heart.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The vagus nerve is the main parasympathetic highway to the heart. It releases acetylcholine to slow the pacemaker."
+    },
+    {
+      "q": "Acetylcholine (ACh) from the vagus nerve slows the SA node firing rate.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! ACh binds muscarinic receptors on pacemaker cells, opening K+ channels, hyperpolarizing the cell, slowing the firing rate."
+    },
+    {
+      "q": "This vagal 'brake' is always active at rest, holding heart rate below 100.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! At rest, you have 'vagal tone' - continuous parasympathetic braking that keeps your heart at 60-70 bpm instead of 100."
+    },
+    {
+      "q": "To increase heart rate, the parasympathetic brake is released.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! During exercise or stress, parasympathetic tone decreases AND sympathetic activity increases - both contribute to faster heart rate."
+    },
+    {
+      "q": "Parasympathetic = decrease heart rate; Sympathetic = increase heart rate.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This is the classic example of dual innervation with opposing effects. The actual heart rate reflects the balance between the two."
+    },
+    {
+      "q": "The parasympathetic division decreases heart rate via the vagus nerve.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Vagal release of ACh slows SA node firing. Your resting heart rate IS the parasympathetic in action."
+    },
+    {
+      "q": "The statement is TRUE - parasympathetic decreases heart rate.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The answer is TRUE. The parasympathetic absolutely decreases heart rate - this is one of its primary effects on the cardiovascular system."
+    }
+  ]
+}

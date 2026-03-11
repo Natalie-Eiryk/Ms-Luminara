@@ -1,0 +1,96 @@
+{
+  "parentId": "500.1.02",
+  "parentQuestion": "The parasympathetic division is known to be active during 'rest and digest' responses.",
+  "scaffolds": [
+    {
+      "q": "The ANS has two main divisions with opposite functions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Sympathetic (fight or flight) and parasympathetic (rest and digest) generally oppose each other. When one is dominant, the other is suppressed."
+    },
+    {
+      "q": "After you eat a meal, you often feel sleepy and relaxed.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! This is parasympathetic dominance - blood goes to the gut, digestion activates, heart slows, you feel like resting. 'Rest and digest' in action."
+    },
+    {
+      "q": "Digestion requires increased blood flow to the GI tract.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The parasympathetic stimulates GI secretion and motility while redirecting blood to the digestive organs. This is 'digest' mode."
+    },
+    {
+      "q": "The parasympathetic slows heart rate to conserve energy.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Via the vagus nerve, the parasympathetic applies the 'brakes' to the heart. Slower rate = less oxygen consumed = energy conserved."
+    },
+    {
+      "q": "'Rest' means the body is NOT in emergency/survival mode.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! When you're safe and relaxed, the parasympathetic handles housekeeping - no need to fight or flee, so the body focuses on maintenance."
+    },
+    {
+      "q": "The parasympathetic promotes urination and defecation (elimination).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Waste elimination is part of 'rest and digest.' The parasympathetic contracts the bladder and stimulates bowel movements."
+    },
+    {
+      "q": "'Rest and digest' describes parasympathetic function.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This phrase captures what the parasympathetic does: calm the body, digest food, conserve energy, eliminate waste, repair tissues."
+    },
+    {
+      "q": "The parasympathetic is active during 'rest and digest' responses.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! This is the parasympathetic's signature state - when threats are absent, the body focuses on maintenance and recovery."
+    },
+    {
+      "q": "The statement is TRUE - parasympathetic = rest and digest.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The answer is TRUE. 'Rest and digest' is THE defining phrase for parasympathetic activity, just as 'fight or flight' defines the sympathetic."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "parentId": "500.1.06",
+  "parentQuestion": "Sympathetic collateral ganglia (prevertebral ganglia) are located anterior to the vertebral column.",
+  "scaffolds": [
+    {
+      "q": "The sympathetic system has two types of ganglia: paravertebral and prevertebral (collateral).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Paravertebral ganglia form the sympathetic chain alongside the spine. Prevertebral ganglia are separate clusters further forward."
+    },
+    {
+      "q": "Paravertebral ganglia form a chain ALONGSIDE (lateral to) the vertebral column.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The sympathetic trunk (chain ganglia) runs parallel to the spine on both sides, like two strings of beads."
+    },
+    {
+      "q": "'Prevertebral' means in FRONT of the vertebral column.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! 'Pre-' means before/in front of. Prevertebral ganglia are located anterior to (in front of) the vertebral column."
+    },
+    {
+      "q": "Collateral ganglia are another name for prevertebral ganglia.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Same structures, different names. Collateral/prevertebral ganglia include celiac, superior mesenteric, and inferior mesenteric."
+    },
+    {
+      "q": "Collateral ganglia cluster around major abdominal arteries.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The celiac ganglion surrounds the celiac trunk. The mesenteric ganglia are near the superior and inferior mesenteric arteries."
+    },
+    {
+      "q": "These ganglia innervate abdominal and pelvic viscera.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Postganglionic fibers from collateral ganglia follow blood vessels to reach GI tract, kidneys, bladder, and reproductive organs."
+    },
+    {
+      "q": "Splanchnic nerves carry preganglionic fibers to collateral ganglia.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Splanchnic nerves (greater, lesser, least) carry sympathetic preganglionic fibers that pass through the chain WITHOUT synapsing to reach collateral ganglia."
+    },
+    {
+      "q": "Collateral (prevertebral) ganglia are located anterior to the vertebral column.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! They're in front of the spine, around the abdominal aorta - hence 'prevertebral.'"
+    },
+    {
+      "q": "The statement is TRUE - collateral ganglia are anterior to the vertebral column.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The answer is TRUE. Collateral ganglia (celiac, mesenteric) are prevertebral = in front of the vertebral column, around the major abdominal arteries."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "parentId": "500.1.03",
+  "parentQuestion": "The sympathetic division is active during 'fight or flight' responses.",
+  "scaffolds": [
+    {
+      "q": "When you encounter a threat, your body rapidly prepares for physical action.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This is the 'fight or flight' response - your body prepares to either confront the threat or escape from it."
+    },
+    {
+      "q": "Heart rate increases during the fight or flight response.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! More blood flow means more oxygen and glucose delivered to muscles that might need to fight or run."
+    },
+    {
+      "q": "Bronchi dilate (open wider) to increase oxygen intake during stress.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Airways open up so you can breathe more air per breath - more oxygen for the anticipated physical exertion."
+    },
+    {
+      "q": "Blood flow shifts from the gut to skeletal muscles during emergency.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Digestion isn't a priority when you're running from a predator. Blood goes where it's needed most - muscles!"
+    },
+    {
+      "q": "Pupils dilate to let in more light during the stress response.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! More light entering the eyes = more visual information. You want to see everything when danger is near."
+    },
+    {
+      "q": "The liver releases stored glucose during sympathetic activation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Muscles need fuel. The liver releases glycogen as glucose so you have energy for physical action."
+    },
+    {
+      "q": "'Fight or flight' describes sympathetic function.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This phrase captures the sympathetic division's role - preparing the body for physical combat or rapid escape."
+    },
+    {
+      "q": "The sympathetic division is active during fight or flight responses.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! When threat is detected, the sympathetic system mobilizes the body for survival action."
+    },
+    {
+      "q": "The statement is TRUE - sympathetic = fight or flight.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The answer is TRUE. 'Fight or flight' is THE defining phrase for sympathetic activation, just as 'rest and digest' defines parasympathetic."
+    }
+  ]
+}

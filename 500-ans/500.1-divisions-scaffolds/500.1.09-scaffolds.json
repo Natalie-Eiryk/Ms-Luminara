@@ -1,0 +1,96 @@
+{
+  "parentId": "500.1.09",
+  "parentQuestion": "All visceral organs receive dual innervation from both the sympathetic and parasympathetic divisions of the ANS.",
+  "scaffolds": [
+    {
+      "q": "Dual innervation means a structure receives BOTH sympathetic AND parasympathetic input.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! With dual innervation, the two divisions usually have opposite effects, allowing fine control."
+    },
+    {
+      "q": "The heart has dual innervation - sympathetic speeds it up, parasympathetic slows it down.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The heart is a classic example of dual innervation with opposing effects."
+    },
+    {
+      "q": "The GI tract has dual innervation - parasympathetic stimulates, sympathetic inhibits.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Dual innervation allows rapid shifts between 'digest' mode and 'fight or flight' mode."
+    },
+    {
+      "q": "But NOT all structures have dual innervation - some are sympathetic ONLY.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Blood vessels, sweat glands, adrenal medulla, and arrector pili are sympathetic-only."
+    },
+    {
+      "q": "Most blood vessels are controlled by sympathetic alone - no parasympathetic input.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Vascular tone is controlled entirely by varying sympathetic activity - high = constriction, low = dilation."
+    },
+    {
+      "q": "The adrenal medulla receives ONLY sympathetic preganglionic input.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! No parasympathetic involvement in epinephrine release - it's purely a sympathetic response."
+    },
+    {
+      "q": "'All visceral organs' is an overgeneralization - dual innervation is common but not universal.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Most visceral organs have dual innervation, but blood vessels and some other structures are exceptions."
+    },
+    {
+      "q": "The statement 'ALL visceral organs receive dual innervation' is FALSE.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Blood vessels, sweat glands, adrenal medulla, and arrector pili muscles have sympathetic innervation only."
+    },
+    {
+      "q": "The answer is FALSE - not ALL structures receive dual innervation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The answer is FALSE. Dual innervation is common for major visceral organs (heart, GI tract, bladder) but NOT universal. Blood vessels are a major exception - sympathetic only."
+    }
+  ]
+}
