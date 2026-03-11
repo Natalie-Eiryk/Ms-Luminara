@@ -1,28 +1,96 @@
 {
   "parentId": "100.4.03",
-  "parentQuestion": "Vital centers for the control of heart rate, respiration, and blood pressure are...",
+  "parentQuestion": "Vital centers for the control of heart rate, respiration, and blood pressure are located in the ___.",
   "scaffolds": [
     {
-      "q": "Your heart rate and breathing are controlled by your brain even when you're unconscious.",
+      "q": "Your heart rate and breathing are controlled automatically by your brain.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The brainstem contains automatic control centers that regulate heart rate, breathing, and blood pressure 24/7, regardless of consciousness level. You can be completely unconscious, and your brainstem is still running the show. this is where the magic happens."
+      "difficulty": "foundation",
+      "explain": "Yes! You don't have to consciously remember to breathe or keep your heart beating. Automatic control centers in the brainstem handle this 24/7."
     },
     {
-      "q": "Which brainstem region is closest to and continuous with the spinal cord?",
+      "q": "The brainstem handles automatic, life-sustaining functions.",
       "options": [
-        "Midbrain",
-        "Pons",
-        "Medulla oblongata",
-        "Thalamus"
+        "True",
+        "False"
       ],
-      "answer": 2,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The medulla oblongata is the lowest part of the brainstem, directly continuous with the spinal cord at the foramen magnum — the opening at the base of your skull. Let me show you why this location is so critical."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The brainstem is the 'autopilot' - it keeps you alive by controlling vital functions even when you're unconscious or asleep."
+    },
+    {
+      "q": "The medulla oblongata is the lowest part of the brainstem, connecting to the spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The medulla is the most caudal (lowest) brainstem structure, continuous with the spinal cord at the foramen magnum."
+    },
+    {
+      "q": "Heart rate, respiration, and blood pressure are called 'vital' functions because they're essential for survival.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Without these functions, you die within minutes. That's why the centers controlling them are called 'vital centers.'"
+    },
+    {
+      "q": "The cardiovascular center controls heart rate and blood vessel diameter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The cardiovascular center adjusts heart rate (via vagus nerve) and blood vessel constriction (via sympathetic nerves) to maintain blood pressure."
+    },
+    {
+      "q": "The respiratory center generates the basic rhythm of breathing.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The pre-Bötzinger complex in the medulla fires rhythmically, creating the automatic breathing pattern."
+    },
+    {
+      "q": "Damage to the medulla's vital centers is usually fatal.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! If the vital centers are destroyed, breathing stops, circulation fails, and death follows rapidly. No backup exists for these functions."
+    },
+    {
+      "q": "The vital centers for heart rate, respiration, and blood pressure are in the medulla oblongata.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The medulla is 'vital centers headquarters' - cardiovascular center and respiratory centers live here."
+    },
+    {
+      "q": "The answer is MEDULLA OBLONGATA - the location of vital cardiovascular and respiratory centers.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not the pons (that modulates breathing but doesn't generate the rhythm), not the cerebrum (conscious functions), not the midbrain (visual/auditory reflexes). The MEDULLA controls vital functions."
     }
   ]
 }

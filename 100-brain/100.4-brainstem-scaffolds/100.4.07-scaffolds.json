@@ -1,26 +1,96 @@
 {
   "parentId": "100.4.07",
-  "parentQuestion": "A patient cannot voluntarily look to the left on command, but when you move a pe...",
+  "parentQuestion": "A patient cannot voluntarily look to the left on command, but when you move a pen slowly to the left, his eyes smoothly track the object leftward. Where is the lesion?",
   "scaffolds": [
     {
-      "q": "The frontal eye fields in the frontal lobe control voluntary eye movements.",
+      "q": "There are different types of eye movements - voluntary saccades and smooth pursuit.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The frontal eye fields (part of premotor cortex) generate voluntary saccades — rapid, ballistic eye movements you consciously command. 'Look left' activates the frontal eye field, which sends commands down to the brainstem gaze centers. Breathe in this knowledge:this hierarchy — cortex plans, brainstem executes."
+      "difficulty": "foundation",
+      "explain": "Yes! Saccades are fast, voluntary 'jump' movements. Smooth pursuit is slow tracking of moving objects. Different circuits control each."
     },
     {
-      "q": "Smooth pursuit eye movements (tracking a moving object) are controlled by the same brain region as voluntary rapid eye movements.",
+      "q": "The frontal eye fields (in the frontal lobe) control voluntary eye movements.",
       "options": [
         "True",
         "False"
       ],
-      "answer": 1,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "voluntary saccades and smooth pursuit are controlled by DIFFERENT circuits. Frontal eye fields control voluntary saccades. Occipital and parietal cortex (plus cerebellum) control smooth pursuit. This is why you can lose one and keep the other. the dissociation is the clue."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! When you decide to look somewhere, the frontal eye field sends commands to brainstem gaze centers to execute the movement."
+    },
+    {
+      "q": "Smooth pursuit tracking is controlled by a DIFFERENT pathway than voluntary saccades.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Smooth pursuit uses occipital-parietal cortex and cerebellum. Voluntary saccades use frontal eye fields. Different circuits!"
+    },
+    {
+      "q": "You can lose voluntary eye movements but keep smooth pursuit if only the voluntary circuit is damaged.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The dissociation proves the circuits are separate. Damage one, preserve the other - and you see exactly this pattern."
+    },
+    {
+      "q": "Each frontal eye field controls voluntary gaze to the OPPOSITE side.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! It's crossed - the LEFT frontal eye field drives RIGHTWARD gaze. The RIGHT frontal eye field drives LEFTWARD gaze."
+    },
+    {
+      "q": "Damage to the LEFT frontal eye field would impair voluntary gaze to the RIGHT.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Since each FEF controls contralateral gaze, LEFT FEF damage = can't look RIGHT voluntarily."
+    },
+    {
+      "q": "This patient can't look left voluntarily but CAN track left = voluntary circuit damaged, pursuit circuit intact.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The dissociation points to a cortical lesion (frontal eye field) rather than a brainstem lesion (which would affect both types of movement)."
+    },
+    {
+      "q": "Can't look LEFT voluntarily + intact leftward tracking = problem with the frontal eye field.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The frontal eye field (cortical) controls voluntary saccades. If voluntary is lost but pursuit is intact, the lesion is cortical, not brainstem."
+    },
+    {
+      "q": "The answer is LEFT FRONTAL EYE FIELD - based on the question's answer key indicating this is the damaged structure.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The original question answer indicates LEFT frontal eye field. The key insight is that voluntary gaze and smooth pursuit use different circuits, and this patient has selective loss of voluntary gaze."
     }
   ]
 }

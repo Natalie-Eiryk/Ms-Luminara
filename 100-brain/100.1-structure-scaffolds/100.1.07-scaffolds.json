@@ -3,24 +3,94 @@
   "parentQuestion": "Which of the following is NOT a role of the basal nuclei?",
   "scaffolds": [
     {
-      "q": "The basal nuclei are deep gray matter structures involved in motor control.",
+      "q": "The basal nuclei are deep gray matter structures in the cerebrum.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The basal nuclei (also called basal ganglia) are islands of gray matter buried deep in the cerebral white matter. They form loops with the cortex (via thalamus) to regulate voluntary movement — acting as a sophisticated motor filter."
+      "difficulty": "foundation",
+      "explain": "Yes! The basal nuclei (also called basal ganglia) are islands of gray matter buried deep in the white matter of the cerebrum."
     },
     {
-      "q": "Reflexes like pulling your hand away from a hot stove are controlled by the spinal cord, not the cerebrum.",
+      "q": "The basal nuclei help control voluntary movement.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Protective reflexes operate at the spinal level for speed — sensory input triggers motor output within 2-3 synapses, bypassing the brain entirely. By the time your cortex becomes consciously aware of pain, your hand has already withdrawn. The spinal reflex wins the race."
+      "difficulty": "foundation",
+      "explain": "Correct! The basal nuclei form loops with the motor cortex to regulate movement. They help start, stop, and filter movements."
+    },
+    {
+      "q": "The basal nuclei help START and STOP movements.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Problems with the basal nuclei cause movement disorders - Parkinson's (hard to start moving) and Huntington's (can't stop unwanted movements)."
+    },
+    {
+      "q": "The basal nuclei help SUPPRESS unwanted or antagonistic movements.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! When you reach for a cup, the basal nuclei suppress competing motor programs. They filter out the noise, letting intended movements through."
+    },
+    {
+      "q": "The basal nuclei also play roles in cognition and emotion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The basal nuclei aren't just for movement. They're involved in reward processing, motivation, and cognitive functions too."
+    },
+    {
+      "q": "Protective reflexes (like pulling away from heat) are controlled by the spinal cord, not the brain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Reflexes need speed, not deliberation. The spinal cord handles reflexes directly - your hand pulls away before your brain even knows there's pain."
+    },
+    {
+      "q": "The basal nuclei are involved in VOLUNTARY movement, not protective REFLEXES.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Reflexes bypass the cerebrum entirely. The basal nuclei work in the voluntary movement domain, filtering motor commands that originate in the cortex."
+    },
+    {
+      "q": "Initiating protective reflexes is a spinal cord function, NOT a basal nuclei function.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The basal nuclei help with voluntary movement: starting/stopping movements, inhibiting unwanted movements, cognition and emotion. Reflexes are spinal cord territory."
+    },
+    {
+      "q": "'Initiating protective reflex actions' is NOT a role of the basal nuclei - that's the spinal cord's job.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The answer is 'initiating protective reflex actions.' The basal nuclei do motor filtering, cognition, and emotion - but NOT reflexes. Reflexes are fast, automatic, spinal cord circuits."
     }
   ]
 }

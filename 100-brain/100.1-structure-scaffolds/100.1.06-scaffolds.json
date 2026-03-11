@@ -3,24 +3,94 @@
   "parentQuestion": "Which of these would you NOT find in the cerebral cortex?",
   "scaffolds": [
     {
-      "q": "The cerebral cortex is composed of gray matter.",
+      "q": "The cerebral cortex is the thin outer layer of the cerebrum.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The cortex is the outer 2-4mm shell of gray matter — neuron cell bodies and dendrites packed densely for computation. This is where synaptic integration happens, where inputs get processed into outputs."
+      "difficulty": "foundation",
+      "explain": "Yes! The cortex is about 2-4mm thick, covering the cerebrum's surface like a rind on an orange. This thin layer is where conscious processing happens."
     },
     {
-      "q": "White matter is found deep to (beneath) the cerebral cortex.",
+      "q": "The cerebral cortex is made of gray matter.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "White matter — myelinated axon bundles — lies beneath the cortical gray matter. These are the transmission cables connecting cortical regions to each other and to subcortical structures. The brain organizes with gray matter superficial, white matter deep."
+      "difficulty": "foundation",
+      "explain": "Correct! Gray matter contains neuron cell bodies, dendrites, and synapses - the computation hardware. That's what the cortex is."
+    },
+    {
+      "q": "Neuron cell bodies are found in gray matter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Cell bodies (somas) are the defining feature of gray matter. The cortex is packed with them - about 16 billion neurons."
+    },
+    {
+      "q": "Dendrites receive signals and are found in gray matter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Dendrites are the receiving branches of neurons. They're abundant in gray matter where synaptic connections form."
+    },
+    {
+      "q": "Interneurons are local circuit neurons found in gray matter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Interneurons connect neurons within a region. The cortex has many types of interneurons modulating local circuit activity."
+    },
+    {
+      "q": "White matter contains myelinated axons, not cell bodies.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! White matter = axon bundles covered in myelin (fatty insulation). It's transmission cables, not processing units."
+    },
+    {
+      "q": "Fiber tracts are bundles of axons found in white matter, not gray matter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Fiber tracts (like the corpus callosum) are organized bundles of myelinated axons. They live beneath the cortex in the white matter."
+    },
+    {
+      "q": "The cortex (gray matter) contains cell bodies, dendrites, and interneurons - but NOT fiber tracts.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Gray matter processes, white matter transmits. Fiber tracts are white matter structures found BENEATH the cortex, not in it."
+    },
+    {
+      "q": "You would NOT find fiber tracts in the cerebral cortex because they are white matter structures.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The answer is FIBER TRACTS. The cortex has cell bodies, dendrites, and interneurons (all gray matter components). Fiber tracts are white matter - they live deep to the cortex."
     }
   ]
 }

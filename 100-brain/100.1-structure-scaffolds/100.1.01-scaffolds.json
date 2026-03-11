@@ -1,6 +1,6 @@
 {
   "parentId": "100.1.01",
-  "parentQuestion": "Specific motor and sensory functions are localized in specific areas called doma...",
+  "parentQuestion": "Specific motor and sensory functions are localized in specific areas called domains, whereas memory and language have overlapping domains.",
   "scaffolds": [
     {
       "q": "The brain has different regions that handle different functions.",
@@ -9,20 +9,88 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The brain divides labor with ruthless efficiency. Vision gets the occipital lobe. Hearing gets temporal real estate. Movement gets the motor strip. Different regions, different jobs — organizational genius born from evolutionary pressure."
+      "difficulty": "foundation",
+      "explain": "Yes! The brain divides labor. Vision gets the occipital lobe. Hearing gets the temporal lobe. Movement gets the motor cortex. Different regions, different jobs."
     },
     {
-      "q": "Which part of the brain controls voluntary movement?",
+      "q": "The motor cortex controls voluntary movement.",
       "options": [
-        "Motor cortex",
-        "Occipital lobe",
-        "Cerebellum",
-        "Medulla"
+        "True",
+        "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The motor cortex — that strip of frontal lobe tissue right behind your forehead — sends the 'go' signals. Every voluntary twitch starts here. Your toe? Mapped. Your tongue? Mapped. Even your eyelids get their own address on this neural switchboard."
+      "difficulty": "foundation",
+      "explain": "Correct! The motor cortex (in the frontal lobe) sends commands to your muscles. Each body part has its own spot on the motor cortex."
+    },
+    {
+      "q": "The somatosensory cortex processes touch, pain, and temperature sensations.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The somatosensory cortex (in the parietal lobe) receives sensory information from the body. Like the motor cortex, each body part has its own territory."
+    },
+    {
+      "q": "'Localized' means a function happens in one specific brain area.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! When a function is localized, it has a dedicated brain address. Touch your thumb → specific somatosensory neurons fire. Move your thumb → specific motor neurons fire."
+    },
+    {
+      "q": "'Distributed' means a function involves multiple brain areas working together.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Complex functions like memory and language need multiple regions to collaborate. No single area handles everything - it's teamwork."
+    },
+    {
+      "q": "Memory involves many different brain regions working together.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Memory isn't stored in one spot. It involves the hippocampus (encoding), frontal lobes (working memory), and widespread cortical areas (storage). Distributed processing."
+    },
+    {
+      "q": "Language processing involves multiple brain areas, not just one.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Language needs Broca's area (speech production), Wernicke's area (comprehension), the arcuate fasciculus (connecting them), and more. A distributed network."
+    },
+    {
+      "q": "Simple sensory and motor functions are localized, while complex functions like memory are distributed.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The brain uses different organizational strategies. Basic mapping (touch this finger = activate this spot) is localized. Complex cognition (remember that conversation) is distributed across networks."
+    },
+    {
+      "q": "Motor and sensory functions have specific brain 'addresses,' but memory and language share overlapping territories.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! This is why the original statement is TRUE. Motor/sensory = dedicated real estate. Memory/language = shared, overlapping networks. The brain knows when to specialize and when to distribute."
     }
   ]
 }

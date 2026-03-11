@@ -3,24 +3,94 @@
   "parentQuestion": "White matter is found in all of the following locations EXCEPT the ___.",
   "scaffolds": [
     {
-      "q": "In the brain, gray matter is on the outside (cortex) and white matter is inside.",
+      "q": "Gray matter contains neuron cell bodies; white matter contains myelinated axons.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The brain positions gray matter superficially (cortex plus deep nuclei) and white matter internally (fiber tracts). This is opposite of the spinal cord's organization."
+      "difficulty": "foundation",
+      "explain": "Yes! Gray matter = cell bodies, dendrites, synapses (computation). White matter = myelinated axon bundles (transmission). Different functions, different tissue types."
     },
     {
-      "q": "In the spinal cord, white matter is on the outside and gray matter is inside.",
+      "q": "In the BRAIN, gray matter is on the outside (cortex) and white matter is deeper inside.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The spinal cord reverses the brain's arrangement: white matter (ascending and descending tracts) forms the outer shell, gray matter (butterfly or H-shaped) occupies the core. Opposite topology, same tissue types."
+      "difficulty": "foundation",
+      "explain": "Correct! The brain puts its processing layer (gray matter cortex) on the surface, with transmission cables (white matter tracts) running beneath it."
+    },
+    {
+      "q": "In the SPINAL CORD, white matter is on the outside and gray matter is inside.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The spinal cord flips the brain's arrangement. White matter (ascending/descending tracts) forms the outer shell; gray matter (butterfly shape) is the inner core."
+    },
+    {
+      "q": "The corpus callosum is white matter - a massive bundle of myelinated axons.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The corpus callosum is the brain's largest white matter structure - about 200 million myelinated commissural axons connecting the hemispheres."
+    },
+    {
+      "q": "The corticospinal tracts are white matter carrying motor commands from brain to spinal cord.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The corticospinal tracts are projection fibers - long myelinated axons carrying motor commands from motor cortex down to spinal motor neurons."
+    },
+    {
+      "q": "The outer portion of the spinal cord contains white matter (ascending and descending tracts).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The spinal cord's white matter shell contains dorsal columns (ascending sensory), lateral columns (motor and sensory tracts), and ventral columns."
+    },
+    {
+      "q": "The cerebral cortex is gray matter, not white matter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The cortex is where computation happens - packed with neuron cell bodies, dendrites, and synapses. That's gray matter territory."
+    },
+    {
+      "q": "White matter is found in the outer spinal cord, corpus callosum, and corticospinal tracts - but NOT in the cerebral cortex.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The cerebral cortex is the exception. It's gray matter (processing tissue). White matter is beneath the cortex, not in it."
+    },
+    {
+      "q": "The cerebral cortex is the EXCEPTION - it contains gray matter, not white matter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The answer is CEREBRAL CORTEX. The other options (outer spinal cord, corpus callosum, corticospinal tracts) are all white matter structures."
     }
   ]
 }

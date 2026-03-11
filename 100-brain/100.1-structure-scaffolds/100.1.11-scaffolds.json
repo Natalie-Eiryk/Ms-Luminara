@@ -1,26 +1,96 @@
 {
   "parentId": "100.1.11",
-  "parentQuestion": "A 45-year-old patient presents with inability to feel pain or temperature on the...",
+  "parentQuestion": "A 45-year-old patient presents with inability to feel pain or temperature on the left side of their body below the neck, but motor function remains intact and they can still sense light touch and proprioception. A lesion has most likely damaged which pathway?",
   "scaffolds": [
     {
-      "q": "Sensory pathways decussate (cross over) at different levels depending on the type of sensation.",
+      "q": "Pain and temperature sensations travel in the spinothalamic tract.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Different sensory modalities cross at different anatomical locations. The spinothalamic tract (pain/temperature) decussates at the spinal level. The dorsal column pathway (proprioception/fine touch) decussates in the medulla. This creates distinct patterns of sensory loss depending on lesion location."
+      "difficulty": "foundation",
+      "explain": "Yes! The spinothalamic tract is the dedicated pathway for pain and temperature. It's also called the anterolateral system."
     },
     {
-      "q": "The spinothalamic tract carries pain and temperature sensations.",
+      "q": "Proprioception and fine touch travel in the dorsal columns (a different pathway).",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The spinothalamic tract is the ascending pathway specifically dedicated to pain and temperature sensation. First-order neurons synapse in the dorsal horn, second-order neurons decussate immediately and ascend in the lateral column to the thalamus."
+      "difficulty": "foundation",
+      "explain": "Correct! The dorsal columns carry proprioception (body position sense) and fine discriminative touch. Different tract, different sensations."
+    },
+    {
+      "q": "Different sensory pathways cross over (decussate) at different levels.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This is clinically important. Pain/temperature fibers cross in the spinal cord. Proprioception fibers cross in the medulla. Different crossing points = different deficit patterns."
+    },
+    {
+      "q": "The spinothalamic tract crosses over (decussates) in the SPINAL CORD.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Pain/temperature fibers synapse in the dorsal horn and immediately cross to the opposite side of the spinal cord, then ascend."
+    },
+    {
+      "q": "The dorsal columns cross over (decussate) much higher - in the MEDULLA.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Proprioception fibers ascend ipsilaterally all the way to the medulla before crossing. That's why damage at different levels creates different patterns."
+    },
+    {
+      "q": "If the RIGHT spinothalamic tract is damaged, you lose pain/temperature on the LEFT body.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The spinothalamic tract has already crossed. The RIGHT tract carries pain/temperature from the LEFT side of the body."
+    },
+    {
+      "q": "Loss of pain/temperature with preserved motor function and proprioception = spinothalamic tract damage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! This 'dissociated sensory loss' is the signature of selective spinothalamic damage. Other pathways are spared."
+    },
+    {
+      "q": "LEFT body pain/temperature loss = RIGHT spinothalamic tract lesion (the tract has already crossed).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The spinothalamic tract crosses at the spinal level. By the time it's ascending, the RIGHT tract carries LEFT body sensation."
+    },
+    {
+      "q": "The answer is RIGHT SPINOTHALAMIC TRACT - it carries pain/temperature from the left body.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not the dorsal columns (they're intact - proprioception preserved). Not the corticospinal tracts (motor is intact). The dissociated sensory loss points to spinothalamic tract damage."
     }
   ]
 }

@@ -3,24 +3,94 @@
   "parentQuestion": "The corpora quadrigemina are found in the ___.",
   "scaffolds": [
     {
-      "q": "The midbrain is the uppermost part of the brainstem.",
+      "q": "The brainstem consists of midbrain, pons, and medulla (top to bottom).",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The midbrain (mesencephalon) sits atop the brainstem — above the pons, below the diencephalon. It contains reflex centers (corpora quadrigemina), motor pathways (cerebral peduncles), and dopamine production facilities (substantia nigra)."
+      "difficulty": "foundation",
+      "explain": "Yes! The midbrain is the uppermost brainstem component, sitting just below the diencephalon and above the pons."
     },
     {
-      "q": "The superior colliculi are involved in visual reflexes, such as tracking moving objects.",
+      "q": "The midbrain is the UPPERMOST part of the brainstem.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The superior colliculi receive visual input and coordinate eye and head movements toward visual stimuli. See sudden movement in peripheral vision? The superior colliculi orient your gaze automatically before conscious processing identifies the object."
+      "difficulty": "foundation",
+      "explain": "Correct! Midbrain sits at the top of the brainstem, connecting the diencephalon above to the pons below."
+    },
+    {
+      "q": "'Corpora quadrigemina' means 'four bodies' - referring to four bumps on the midbrain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! 'Quadri' = four, 'gemina' = twins/bodies. Four bumps arranged in two pairs on the posterior midbrain roof."
+    },
+    {
+      "q": "The corpora quadrigemina consist of superior colliculi and inferior colliculi.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Two superior colliculi (visual reflexes) and two inferior colliculi (auditory reflexes) make up the four bumps."
+    },
+    {
+      "q": "The superior colliculi handle VISUAL reflexes (tracking moving objects).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! See something move in your peripheral vision? The superior colliculi automatically orient your eyes and head toward it - before you consciously identify what moved."
+    },
+    {
+      "q": "The inferior colliculi handle AUDITORY reflexes (orienting toward sounds).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Hear a sudden noise? The inferior colliculi help orient your head toward the sound source automatically."
+    },
+    {
+      "q": "The corpora quadrigemina are NOT in the cerebellum, pons, or diencephalon.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The cerebellum is behind the brainstem. The pons is below the midbrain. The diencephalon is above. The corpora quadrigemina are specifically MIDBRAIN structures."
+    },
+    {
+      "q": "The corpora quadrigemina (four reflex bumps) are found in the midbrain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! They form the tectum (roof) of the midbrain - two superior colliculi for visual reflexes, two inferior colliculi for auditory reflexes."
+    },
+    {
+      "q": "The answer is MIDBRAIN - the corpora quadrigemina are posterior midbrain structures.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not cerebellum (that's behind), not pons (that's below), not diencephalon (that's above). The corpora quadrigemina = midbrain tectum."
     }
   ]
 }

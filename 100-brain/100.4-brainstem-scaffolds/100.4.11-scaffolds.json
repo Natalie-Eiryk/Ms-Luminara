@@ -1,26 +1,96 @@
 {
   "parentId": "100.4.11",
-  "parentQuestion": "A 55-year-old man presents with progressive difficulty swallowing, hoarseness, a...",
+  "parentQuestion": "A 55-year-old man presents with progressive difficulty swallowing, hoarseness, and tongue deviation to the right when protruded. On examination, the right side of his tongue is atrophied and fasciculating. Where is the lesion?",
   "scaffolds": [
     {
-      "q": "The hypoglossal nerve (CN XII) controls tongue movement, and tongue protrusion deviates toward the side of the lesion.",
+      "q": "The hypoglossal nerve (CN XII) controls tongue movement.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "CN XII (hypoglossal nerve) innervates the intrinsic and extrinsic tongue muscles ipsilaterally. When one side is damaged, the tongue deviates toward the weak side when protruded — the intact side pushes harder, pushing the tongue toward the damaged side. the deviation direction is the key to lateralization."
+      "difficulty": "foundation",
+      "explain": "Yes! CN XII innervates the tongue muscles. It controls tongue movement for speech, chewing, and swallowing."
     },
     {
-      "q": "Cranial nerves IX (glossopharyngeal) and X (vagus) control swallowing and phonation.",
+      "q": "When CN XII is damaged on one side, the tongue deviates TOWARD the weak side.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "CN IX and X (housed in the nucleus ambiguus in the medulla) control the pharyngeal and laryngeal muscles involved in swallowing and speaking. Damage causes dysphagia (difficulty swallowing) and dysphonia (hoarseness). Let me show you why these nerves cluster together in the medulla."
+      "difficulty": "foundation",
+      "explain": "Correct! The strong side pushes harder, deviating the tongue toward the weak/damaged side. Tongue deviation = toward the lesion."
+    },
+    {
+      "q": "CN IX (glossopharyngeal) and CN X (vagus) control swallowing and voice.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! These nerves control the pharynx and larynx. Damage causes dysphagia (difficulty swallowing) and dysphonia (hoarseness)."
+    },
+    {
+      "q": "CN IX, X, and XII all have their nuclei in the medulla.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The lower cranial nerves live in the medulla - close neighbors. A medullary lesion can damage multiple lower CNs."
+    },
+    {
+      "q": "Atrophy and fasciculations indicate LOWER motor neuron damage (nuclear or peripheral).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Upper motor neuron damage causes spastic weakness without atrophy. Lower motor neuron damage (like nuclear damage) causes atrophy, fasciculations, and flaccid weakness."
+    },
+    {
+      "q": "Tongue deviates RIGHT + right tongue atrophy = RIGHT CN XII damage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The tongue deviates toward the lesion side, and the atrophy is on the weak side. Both point to RIGHT-sided CN XII damage."
+    },
+    {
+      "q": "Dysphagia + hoarseness + tongue deviation to same side = medullary lesion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! CN IX, X, and XII all live in the medulla. This combination points to ipsilateral medullary damage affecting multiple lower cranial nerves."
+    },
+    {
+      "q": "Right tongue deviation + swallowing trouble + hoarseness + atrophy/fasciculations = RIGHT medulla lesion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The lower cranial nerve signs (CN IX, X, XII) all point to the right side. The lower motor neuron signs (atrophy, fasciculations) point to the nucleus itself."
+    },
+    {
+      "q": "The answer is RIGHT MEDULLA - where CN IX, X, and XII nuclei are located.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not left medulla (tongue deviates toward the lesion, so right-sided damage), not pons (CN V-VIII live there), not cerebral hemisphere (would cause upper motor neuron signs, not atrophy). RIGHT MEDULLA causes this lower cranial nerve constellation."
     }
   ]
 }

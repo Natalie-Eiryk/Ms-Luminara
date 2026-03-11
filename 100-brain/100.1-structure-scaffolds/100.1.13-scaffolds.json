@@ -1,26 +1,96 @@
 {
   "parentId": "100.1.13",
-  "parentQuestion": "A patient arrives in the ER after a diving accident with spinal cord trauma at C...",
+  "parentQuestion": "A patient arrives in the ER after a diving accident with spinal cord trauma at C6. They can shrug their shoulders and flex their elbows, but cannot extend their elbows or move their wrists or fingers. Sensation is present in the lateral arm and forearm but absent in the hand. Which anatomical principle explains this pattern?",
   "scaffolds": [
     {
-      "q": "Each spinal nerve innervates specific muscles (myotome) and specific skin regions (dermatome).",
+      "q": "The spinal cord is organized into segments - cervical, thoracic, lumbar, and sacral.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The spinal cord is segmentally organized. Each spinal segment receives sensory input from a specific dermatome (skin region) and sends motor output to a specific myotome (muscle group). This creates predictable patterns of deficit based on lesion level."
+      "difficulty": "foundation",
+      "explain": "Yes! 8 cervical, 12 thoracic, 5 lumbar, 5 sacral segments - each sending out spinal nerves to specific body regions."
     },
     {
-      "q": "Spinal cord injury results in loss of function at and below the level of the lesion.",
+      "q": "Each spinal segment controls specific muscles (called a myotome).",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Spinal cord injury interrupts ascending sensory pathways and descending motor pathways. Segments at and below the lesion lose connection to the brain, causing motor paralysis and sensory loss in territories innervated by those segments."
+      "difficulty": "foundation",
+      "explain": "Correct! C5 controls shoulder muscles, C6 controls wrist extensors, C7 controls elbow extensors, and so on. Predictable mapping."
+    },
+    {
+      "q": "Each spinal segment receives sensation from specific skin areas (called a dermatome).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Dermatomes are strips of skin innervated by specific spinal levels. C5-C6 covers the lateral arm, C7-C8 covers the hand."
+    },
+    {
+      "q": "Spinal cord injury at a specific level affects everything BELOW that level.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The lesion cuts off segments below from the brain. Above the lesion = preserved. At and below = affected."
+    },
+    {
+      "q": "C5 controls shoulder shrug and elbow flexion (biceps).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! That's why this patient can still shrug and flex elbows - C5 is above the C6 lesion."
+    },
+    {
+      "q": "C7 controls elbow extension (triceps) - below C6.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The patient can't extend elbows because C7 is disconnected from the brain by the C6 lesion."
+    },
+    {
+      "q": "C8-T1 control the hand muscles - also below C6.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! No wrist or finger movement because C8-T1 segments are below the injury level and can't receive motor commands."
+    },
+    {
+      "q": "The pattern of preserved vs. lost function tells you the LEVEL of spinal cord injury.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! This is segmental innervation and dermatome mapping in action - the anatomical principle that explains the pattern."
+    },
+    {
+      "q": "The answer is SEGMENTAL INNERVATION AND DERMATOME MAPPING - each level controls specific muscles and skin regions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not spinal shock (that's temporary reflex loss). Not hemisection (that causes different deficits on different sides). Not decussation (that's about left/right crossing). Segmental organization explains the level-specific pattern."
     }
   ]
 }

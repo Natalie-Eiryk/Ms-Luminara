@@ -3,24 +3,94 @@
   "parentQuestion": "An elevated ridge of the cortex is called a ___.",
   "scaffolds": [
     {
-      "q": "The surface of the brain has a wrinkled, folded appearance.",
+      "q": "The brain's surface has a wrinkled, folded appearance.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The cerebral cortex is magnificently wrinkled — convoluted like a crumpled bedsheet. This folding increases surface area roughly threefold. More surface area = more neurons = more processing power within the same skull volume. Physics constrains biology; biology responds with clever geometry."
+      "difficulty": "foundation",
+      "explain": "Yes! The cerebral cortex is magnificently folded - like a crumpled bedsheet. This isn't a defect; it's a design feature."
     },
     {
-      "q": "A sulcus is a groove or depression on the brain surface.",
+      "q": "Brain folding increases surface area without increasing skull size.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Sulci (plural) are the grooves between cortical folds. Deep sulci are called fissures. The longitudinal fissure separates hemispheres. The central sulcus divides frontal from parietal lobes. Grooves as anatomical landmarks."
+      "difficulty": "foundation",
+      "explain": "Correct! Folding packs more cortex into the same space. More surface area = more neurons = more processing power."
+    },
+    {
+      "q": "A groove or valley on the brain surface is called a sulcus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Sulcus (plural: sulci) = groove. A DEEP groove is called a fissure. These are the low points in the brain's landscape."
+    },
+    {
+      "q": "If sulci are the valleys, then the peaks must have a different name.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The brain has both valleys (sulci) and peaks (the ridges between them). Each has its own anatomical term."
+    },
+    {
+      "q": "A fissure is a very deep groove on the brain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Fissures are deep canyons. The longitudinal fissure separates left and right hemispheres. The lateral fissure separates frontal from temporal lobes."
+    },
+    {
+      "q": "A 'furrow' is too vague for anatomical terminology - we use specific terms like sulcus and fissure.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! 'Furrow' is farming language. Anatomy uses precise terms: sulcus (shallow groove), fissure (deep groove)."
+    },
+    {
+      "q": "The elevated ridges between sulci are called gyri (singular: gyrus).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Gyrus = ridge. The precentral GYRUS is the ridge containing the motor cortex. The postcentral GYRUS contains the somatosensory cortex."
+    },
+    {
+      "q": "Gyrus = ridge (elevated), Sulcus = groove (depressed).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! This is the key vocabulary. Gyrus = peak/ridge. Sulcus = valley/groove. The brain's topography in two words."
+    },
+    {
+      "q": "An elevated ridge of the cortex is called a gyrus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The answer is GYRUS. Not sulcus (that's a groove), not fissure (that's a deep groove), not furrow (that's vague). Gyrus = elevated ridge."
     }
   ]
 }

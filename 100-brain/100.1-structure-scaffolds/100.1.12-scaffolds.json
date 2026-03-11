@@ -1,26 +1,96 @@
 {
   "parentId": "100.1.12",
-  "parentQuestion": "Following a stroke, a 62-year-old patient can understand spoken language perfect...",
+  "parentQuestion": "Following a stroke, a 62-year-old patient can understand spoken language perfectly and follow complex instructions, but when asked to speak, produces only slow, effortful, telegraphic speech with poor grammar. Comprehension is intact. Which area is most likely damaged?",
   "scaffolds": [
     {
-      "q": "Language processing involves multiple specialized brain regions working together.",
+      "q": "Language involves multiple specialized brain regions working together.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Language is a distributed function requiring multiple cortical areas: Wernicke's area for comprehension, Broca's area for production, arcuate fasciculus connecting them, motor cortex for articulation, auditory cortex for sound processing. Damage to different components creates different aphasia patterns."
+      "difficulty": "foundation",
+      "explain": "Yes! Language isn't in one spot - it's a network. Comprehension areas, production areas, and pathways connecting them all work together."
     },
     {
-      "q": "Broca's area is located in the frontal lobe.",
+      "q": "Broca's area is involved in speech PRODUCTION (speaking).",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Broca's area occupies the inferior frontal gyrus (frontal lobe) adjacent to the motor cortex regions controlling facial muscles, tongue, and larynx. Its frontal location reflects its role in motor speech production."
+      "difficulty": "foundation",
+      "explain": "Correct! Broca's area in the inferior frontal gyrus handles the motor programming for speech - turning thoughts into articulated words."
+    },
+    {
+      "q": "Wernicke's area is involved in language COMPREHENSION (understanding).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Wernicke's area in the posterior temporal lobe processes the meaning of language - understanding what you hear."
+    },
+    {
+      "q": "Broca's area is in the FRONTAL lobe (near motor cortex).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! This makes sense - speech production is a motor act, so Broca's area sits next to the motor cortex that controls the mouth, tongue, and larynx."
+    },
+    {
+      "q": "Damage to Broca's area causes problems with SPEAKING, not understanding.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Broca's aphasia = expressive aphasia. Patients understand language perfectly but can't produce fluent speech. They know what they want to say but can't get it out smoothly."
+    },
+    {
+      "q": "'Telegraphic speech' means short, effortful sentences missing small words - like a telegram.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! 'Wife... home... tomorrow' instead of 'My wife is coming home tomorrow.' Content words preserved, grammar stripped away."
+    },
+    {
+      "q": "Intact comprehension + impaired production = Broca's area damage (not Wernicke's).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Wernicke's damage would cause comprehension problems. This patient understands perfectly - only speech output is affected. That's Broca's territory."
+    },
+    {
+      "q": "Slow, effortful, agrammatical speech with intact comprehension = Broca's aphasia.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! This is classic Broca's aphasia. The speech production center is damaged, but the comprehension center (Wernicke's) works fine."
+    },
+    {
+      "q": "The answer is BROCA'S AREA - speech production damage with preserved comprehension.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not Wernicke's (comprehension is intact), not primary auditory cortex (hearing is fine), not angular gyrus (reading/writing not tested). Broca's area damage causes this exact pattern."
     }
   ]
 }

@@ -1,28 +1,96 @@
 {
   "parentId": "100.4.06",
-  "parentQuestion": "A 62-year-old woman presents with ipsilateral facial paralysis, loss of taste on...",
+  "parentQuestion": "A 62-year-old woman presents with ipsilateral facial paralysis, loss of taste on the anterior tongue, and difficulty closing her left eye. Contralateral to the lesion, she has weakness in her arm and leg but normal facial strength. Where is the lesion?",
   "scaffolds": [
     {
-      "q": "Cranial nerve nuclei control structures on the same (ipsilateral) side of the body.",
+      "q": "Cranial nerves control structures on the SAME (ipsilateral) side of the body.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Cranial nerves innervate ipsilateral targets — meaning CN VII on the left controls the left side of the face. This is different from motor tracts controlling the body, which cross at the pyramidal decussation. this asymmetry is the key to localizing brainstem lesions."
+      "difficulty": "foundation",
+      "explain": "Yes! CN VII on the left controls the LEFT face. This is different from motor tracts to the body, which cross over."
     },
     {
-      "q": "The corticospinal tracts (descending motor pathways) cross over at which location?",
+      "q": "The corticospinal tracts (motor pathways to the body) cross at the pyramidal decussation in the medulla.",
       "options": [
-        "Midbrain",
-        "Pons",
-        "Medulla",
-        "Spinal cord"
+        "True",
+        "False"
       ],
-      "answer": 2,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The corticospinal tracts cross at the pyramidal decussation in the caudal medulla, approximately 85-90% of fibers. This is why left brain controls right body. Let me show you why this crossing point matters for localization."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Motor fibers cross low in the medulla. Above this crossing, the LEFT corticospinal tract controls the RIGHT body (and vice versa)."
+    },
+    {
+      "q": "CN VII (facial nerve) controls facial muscles and taste on the anterior tongue.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The facial nerve controls facial expression muscles, plus carries taste from the anterior 2/3 of the tongue."
+    },
+    {
+      "q": "CN VII nucleus is located in the PONS.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The facial nerve nucleus lives in the pons - above the pyramidal crossing point in the lower medulla."
+    },
+    {
+      "q": "In a pontine lesion, cranial nerve signs are IPSILATERAL but body motor signs are CONTRALATERAL.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The cranial nerve nucleus is damaged on one side (ipsilateral signs), but the corticospinal tract hasn't crossed yet (contralateral body weakness)."
+    },
+    {
+      "q": "LEFT facial paralysis + RIGHT body weakness = LEFT pontine lesion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Face is ipsilateral (LEFT CN VII damaged). Body is contralateral (LEFT corticospinal tract damaged before it crosses). Lesion is on the LEFT."
+    },
+    {
+      "q": "This pattern of ipsilateral cranial nerve + contralateral body signs is called 'alternating hemiplegia'.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! 'Crossed' or 'alternating' signs are the signature of brainstem lesions - cranial nerve ipsilateral, body contralateral."
+    },
+    {
+      "q": "Ipsilateral facial nerve palsy + contralateral arm/leg weakness = pontine lesion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! CN VII lives in the pons, and the corticospinal tract hasn't crossed yet at that level. The 'crossed' pattern localizes to the brainstem."
+    },
+    {
+      "q": "The answer is LEFT PONS - where CN VII nucleus and descending motor tracts both exist before the crossing.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not medulla (CN VII doesn't live there), not right pons (wrong side - face is on the left), not midbrain (CN VII isn't there). LEFT PONS causes left facial palsy + right body weakness."
     }
   ]
 }

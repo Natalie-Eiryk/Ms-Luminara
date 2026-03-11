@@ -1,6 +1,6 @@
 {
   "parentId": "100.1.02",
-  "parentQuestion": "The three basic regions of the cerebrum are the cerebral cortical gray matter, i...",
+  "parentQuestion": "The three basic regions of the cerebrum are the cerebral cortical gray matter, internal white matter, and the superior and inferior colliculi.",
   "scaffolds": [
     {
       "q": "The cerebrum is the largest part of the brain.",
@@ -9,18 +9,88 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The cerebrum dominates — 83% of total brain mass. That wrinkled dome of conscious thought dwarfs everything else. When people think 'brain,' they're picturing the cerebrum."
+      "difficulty": "foundation",
+      "explain": "Yes! The cerebrum makes up about 83% of your brain mass. It's the big wrinkled dome you picture when you think 'brain.'"
     },
     {
-      "q": "Gray matter contains neuron cell bodies, while white matter contains myelinated axons.",
+      "q": "Gray matter contains neuron cell bodies where processing happens.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Gray matter = neuron somas and dendrites, the computation hardware. White matter = myelinated axons, the data cables. The myelin lipids scatter light, making it appear white. Physics meets anatomy."
+      "difficulty": "foundation",
+      "explain": "Correct! Gray matter is where the computation happens - neuron cell bodies, dendrites, and synapses doing the actual thinking."
+    },
+    {
+      "q": "White matter contains myelinated axons that transmit signals.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! White matter is the wiring - axons covered in fatty myelin that carry signals between brain regions. The myelin makes it look white."
+    },
+    {
+      "q": "The cerebral cortex is the thin outer layer of gray matter covering the cerebrum.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The cortex is about 2-4mm thick, covering the cerebrum's surface. This thin layer is where conscious thought happens."
+    },
+    {
+      "q": "The basal nuclei (basal ganglia) are deep clusters of gray matter inside the cerebrum.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The basal nuclei are islands of gray matter deep in the cerebrum. They help filter and coordinate movement."
+    },
+    {
+      "q": "The colliculi are bumps on the MIDBRAIN, not the cerebrum.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The superior and inferior colliculi are on the back of the midbrain (part of the brainstem). They handle visual and auditory reflexes. They're NOT cerebrum structures."
+    },
+    {
+      "q": "The three regions of the cerebrum are: cortex, internal white matter, and basal nuclei.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Cerebrum = (1) cortical gray matter (outer processing layer), (2) internal white matter (transmission highways), (3) basal nuclei (deep gray matter islands)."
+    },
+    {
+      "q": "The colliculi are midbrain structures, NOT part of the cerebrum.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The original statement tries to sneak midbrain structures into the cerebrum. The colliculi live downstairs in the brainstem, not upstairs in the cerebrum."
+    },
+    {
+      "q": "The statement is FALSE because the colliculi are midbrain structures, not cerebrum regions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The statement is FALSE. The cerebrum's three regions are cortex, white matter, and basal nuclei. The colliculi are midbrain imposters trying to crash the cerebrum party."
     }
   ]
 }

@@ -1,26 +1,96 @@
 {
   "parentId": "100.4.10",
-  "parentQuestion": "A patient with a brainstem stroke presents with bilateral loss of pain and tempe...",
+  "parentQuestion": "A patient with a brainstem stroke presents with bilateral loss of pain and temperature sensation over the entire body with preserved fine touch and proprioception. Where is the lesion located?",
   "scaffolds": [
     {
-      "q": "Pain and temperature sensations travel via the spinothalamic tract, which is separate from fine touch and proprioception pathways.",
+      "q": "Pain/temperature and fine touch/proprioception travel in SEPARATE pathways.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The spinothalamic tract (anterolateral system) carries pain and temperature, crossing in the spinal cord and ascending contralaterally. Fine touch and proprioception travel via the dorsal columns (uncrossed) until the medulla, where they synapse and cross as the medial lemniscus. These are separate pathways that can be selectively damaged. the dissociation is the key."
+      "difficulty": "foundation",
+      "explain": "Yes! Pain/temp travels in the spinothalamic tract. Fine touch/proprioception travels in the dorsal columns → medial lemniscus. Different tracts!"
     },
     {
-      "q": "The medial lemniscus carries fine touch and proprioception from the body to the thalamus.",
+      "q": "The spinothalamic tract carries pain and temperature sensation.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The medial lemniscus is formed when dorsal column axons synapse in the nucleus gracilis and nucleus cuneatus (in the medulla), then cross as internal arcuate fibers and ascend contralaterally. It carries fine touch, vibration, and proprioception. Let me show you why this anatomy matters for localization."
+      "difficulty": "foundation",
+      "explain": "Correct! The spinothalamic tract (anterolateral system) is the dedicated pathway for pain and temperature from the body."
+    },
+    {
+      "q": "The medial lemniscus carries fine touch, vibration, and proprioception.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Dorsal column fibers synapse in the medulla, cross, and form the medial lemniscus - carrying discriminative touch and position sense."
+    },
+    {
+      "q": "These two pathways run through different parts of the medulla.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! In the medulla, the spinothalamic tracts run more centrally/medially, while the medial lemniscus runs more laterally/ventrally."
+    },
+    {
+      "q": "A small central medullary lesion could damage spinothalamic tracts bilaterally while sparing the medial lemnisci.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Because of their different positions, a strategically placed central lesion can selectively damage one tract type while sparing the other."
+    },
+    {
+      "q": "Bilateral loss of pain/temp with preserved fine touch means the spinothalamic tracts are damaged but the medial lemnisci are intact.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The pattern of selective sensory loss tells you which tracts are damaged. The dissociation is the key to localization."
+    },
+    {
+      "q": "This dissociation (pain/temp lost, fine touch preserved) can only happen where the tracts are anatomically separated.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! In the thalamus, all sensory info converges. But in the medulla, the tracts are still separate - a lesion can hit one and spare the other."
+    },
+    {
+      "q": "Bilateral pain/temp loss with preserved fine touch = central medulla lesion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The central medulla contains both spinothalamic tracts close together. A small central lesion damages both while sparing the more lateral medial lemnisci."
+    },
+    {
+      "q": "The answer is CENTRAL MEDULLA, BILATERAL - where spinothalamic tracts run before the medial lemnisci.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not lateral medulla (that's Wallenberg with crossed sensory loss), not dorsal columns (that would cause the opposite - loss of fine touch), not thalamus (all modalities would be affected). CENTRAL MEDULLA explains this dissociation."
     }
   ]
 }

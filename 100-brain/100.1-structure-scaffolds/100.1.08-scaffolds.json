@@ -1,26 +1,96 @@
 {
   "parentId": "100.1.08",
-  "parentQuestion": "The large commissure that connects the right and left sides of the brain is call...",
+  "parentQuestion": "The large commissure that connects the right and left sides of the brain is called the ___.",
   "scaffolds": [
     {
-      "q": "The brain has two hemispheres — left and right.",
+      "q": "The brain has two hemispheres - left and right.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The cerebrum divides into left and right hemispheres separated by the longitudinal fissure. Each hemisphere controls the opposite (contralateral) side of the body due to decussation of motor and sensory pathways."
+      "difficulty": "foundation",
+      "explain": "Yes! The cerebrum is divided into left and right hemispheres by the longitudinal fissure. Each controls the opposite side of the body."
     },
     {
-      "q": "A commissure is a bundle of nerve fibers that connects the two hemispheres of the brain.",
+      "q": "The left and right hemispheres need to communicate with each other.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Commissural fibers cross the midline, linking left and right hemispheres. The corpus callosum is the largest commissure. The anterior commissure and hippocampal commissure are smaller. These connections enable hemispheric coordination."
+      "difficulty": "foundation",
+      "explain": "Correct! For unified consciousness and coordinated action, the hemispheres must share information. They need a bridge."
+    },
+    {
+      "q": "A commissure is a bundle of nerve fibers connecting the two hemispheres.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Commissural fibers cross the midline, linking corresponding areas on each side. They're the brain's communication cables."
+    },
+    {
+      "q": "The largest commissure in the brain is called the corpus callosum.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The corpus callosum contains about 200 million myelinated axons connecting the hemispheres. It's the brain's superhighway."
+    },
+    {
+      "q": "'Corpus callosum' means 'tough body' in Latin.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Corpus = body, callosum = tough/hard. It's a dense, prominent white matter structure sitting at the bottom of the longitudinal fissure."
+    },
+    {
+      "q": "The corona radiata is NOT a commissure - it connects cortex to subcortical structures.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The corona radiata projects UP and DOWN (cortex to thalamus/brainstem), not ACROSS hemispheres. Different type of fiber tract."
+    },
+    {
+      "q": "The internal capsule is NOT a commissure - it carries signals vertically, not horizontally.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The internal capsule carries motor and sensory signals up and down. It doesn't connect hemispheres - it connects cortex to lower structures."
+    },
+    {
+      "q": "The longitudinal fissure SEPARATES the hemispheres; the corpus callosum CONNECTS them.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The fissure is the canyon, the corpus callosum is the bridge at the bottom. Opposite structures with opposite functions."
+    },
+    {
+      "q": "The large commissure connecting left and right hemispheres is the corpus callosum.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! The answer is CORPUS CALLOSUM. Not corona radiata (vertical fibers), not internal capsule (vertical fibers), not longitudinal fissure (that's what separates them)."
     }
   ]
 }

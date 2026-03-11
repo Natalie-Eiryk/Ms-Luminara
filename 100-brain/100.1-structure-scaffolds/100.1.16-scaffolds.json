@@ -1,26 +1,96 @@
 {
   "parentId": "100.1.16",
-  "parentQuestion": "A patient awakens from surgery unable to form new memories. They can recall chil...",
+  "parentQuestion": "A patient awakens from surgery unable to form new memories. They can recall childhood events perfectly and hold conversations, but 5 minutes later, they don't remember the conversation occurred. Procedural learning (motor skills) remains intact. Which structure was most likely damaged during surgery?",
   "scaffolds": [
     {
-      "q": "The hippocampus is located in the medial temporal lobe and is critical for memory formation.",
+      "q": "Memory is not a single system - there are different types stored in different brain regions.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The hippocampus is a seahorse-shaped structure in the medial temporal lobe essential for encoding new declarative memories (facts and events). Bilateral hippocampal damage causes severe anterograde amnesia — inability to form new long-term memories."
+      "difficulty": "foundation",
+      "explain": "Yes! Declarative memory (facts, events) uses different structures than procedural memory (motor skills). They can be damaged separately."
     },
     {
-      "q": "There are multiple types of memory stored in different brain regions (e.g., declarative vs. procedural).",
+      "q": "The hippocampus is critical for forming new declarative memories (facts and events).",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Memory is not unitary. Declarative memory (facts, events) requires hippocampus and medial temporal lobe. Procedural memory (motor skills, habits) involves cerebellum and basal nuclei. Working memory requires prefrontal cortex. Emotional memory involves amygdala. Different systems, different anatomy."
+      "difficulty": "foundation",
+      "explain": "Correct! The hippocampus in the medial temporal lobe is the 'memory encoder' - it binds together new experiences into storable memories."
+    },
+    {
+      "q": "Inability to form NEW memories is called 'anterograde amnesia'.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! Anterograde = going forward. The patient can't make new memories from this point on, though old memories may be preserved."
+    },
+    {
+      "q": "Old memories that were already stored before the injury can still be recalled.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Once memories are consolidated to the cortex, they don't need the hippocampus to be retrieved. That's why childhood memories are preserved."
+    },
+    {
+      "q": "Procedural memory (motor skills, habits) uses the cerebellum and basal nuclei, NOT the hippocampus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! That's why this patient can still learn motor skills - the procedural memory system is intact. The hippocampal (declarative) system is damaged."
+    },
+    {
+      "q": "Working memory (holding a conversation) uses prefrontal cortex, not hippocampus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The patient can hold conversations because working memory is intact. They just can't transfer that information to long-term storage."
+    },
+    {
+      "q": "Bilateral hippocampal damage causes severe anterograde amnesia (can't form new memories).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The famous patient H.M. had this exact pattern after bilateral hippocampal removal - trapped in an eternal present."
+    },
+    {
+      "q": "Old memories preserved + new memories impossible + procedural learning intact = hippocampal damage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! This dissociation pattern is the signature of hippocampal damage. Other memory systems remain functional."
+    },
+    {
+      "q": "The answer is HIPPOCAMPUS - the memory encoding structure for new declarative memories.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not the amygdala (that's for emotional memory). Not the prefrontal cortex (working memory is intact). Not the basal nuclei (procedural memory works). The hippocampus encodes new declarative memories."
     }
   ]
 }

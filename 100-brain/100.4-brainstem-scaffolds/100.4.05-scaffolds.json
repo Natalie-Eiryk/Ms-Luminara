@@ -1,6 +1,6 @@
 {
   "parentId": "100.4.05",
-  "parentQuestion": "Degeneration of the dopamine-releasing neurons of the ___ is the ultimate cause ...",
+  "parentQuestion": "Degeneration of the dopamine-releasing neurons of the ___ is the ultimate cause of Parkinson's disease.",
   "scaffolds": [
     {
       "q": "Dopamine is a neurotransmitter involved in movement control.",
@@ -9,20 +9,88 @@
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Dopamine is a neurotransmitter that plays a crucial role in movement, motivation, reward, and mood. Too little dopamine in movement circuits causes Parkinson's symptoms — tremor, rigidity, slow movement. the chemistry matters."
+      "difficulty": "foundation",
+      "explain": "Yes! Dopamine plays a crucial role in coordinating smooth, voluntary movement. It also affects motivation, reward, and mood."
     },
     {
-      "q": "Parkinson's disease primarily affects which body function?",
+      "q": "Parkinson's disease primarily affects movement.",
       "options": [
-        "Vision",
-        "Movement",
-        "Hearing",
-        "Digestion"
+        "True",
+        "False"
       ],
-      "answer": 1,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Parkinson's disease is a movement disorder characterized by resting tremor, rigidity, slow movement (bradykinesia), and balance problems. It results from progressive loss of dopamine-producing neurons. Let me show you where."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Parkinson's classic symptoms are resting tremor, muscle rigidity, slow movement (bradykinesia), and balance problems - all movement issues."
+    },
+    {
+      "q": "Parkinson's disease is caused by loss of dopamine-producing neurons.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! When dopamine-producing neurons die, dopamine levels drop in the movement circuits, causing Parkinson's symptoms."
+    },
+    {
+      "q": "The midbrain is the uppermost part of the brainstem.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The midbrain sits at the top of the brainstem, just below the diencephalon and above the pons."
+    },
+    {
+      "q": "The substantia nigra is a midbrain structure that produces dopamine.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! 'Substantia nigra' means 'black substance' in Latin - it's dark due to neuromelanin pigment. It's the brain's main dopamine factory for movement."
+    },
+    {
+      "q": "The substantia nigra sends dopamine to the basal nuclei (striatum) for movement control.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The nigrostriatal pathway connects substantia nigra to striatum. This dopamine signal is essential for smooth movement initiation."
+    },
+    {
+      "q": "When substantia nigra neurons die, Parkinson's symptoms appear.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! When about 70-80% of dopamine neurons are lost, symptoms emerge. The brain compensates silently until it can't anymore."
+    },
+    {
+      "q": "Degeneration of dopamine neurons in the substantia nigra causes Parkinson's disease.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! The substantia nigra in the midbrain is the source. When its dopamine neurons degenerate, you get tremor, rigidity, and bradykinesia."
+    },
+    {
+      "q": "The answer is SUBSTANTIA NIGRA - the midbrain structure whose dopamine neurons degenerate in Parkinson's.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not the reticular formation (that's arousal), not the internal capsule (that's white matter), not the red nucleus (that's motor coordination). SUBSTANTIA NIGRA produces dopamine for movement."
     }
   ]
 }

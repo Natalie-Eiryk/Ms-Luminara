@@ -1,26 +1,96 @@
 {
   "parentId": "100.1.15",
-  "parentQuestion": "A 34-year-old patient presents with vision loss in the right visual field of BOT...",
+  "parentQuestion": "A 34-year-old patient presents with vision loss in the right visual field of BOTH eyes. They cannot see anything to their right, but left visual field is completely normal in both eyes. An MRI would most likely reveal a lesion in which location?",
   "scaffolds": [
     {
-      "q": "At the optic chiasm, some optic nerve fibers cross to the opposite side while others remain on the same side.",
+      "q": "Visual information is organized by visual FIELD, not by eye.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The optic chiasm is where partial decussation occurs. Nasal retinal fibers (carrying information from temporal visual field) cross to the contralateral side. Temporal retinal fibers (carrying information from nasal visual field) remain ipsilateral. This allows each hemisphere to process the contralateral visual field."
+      "difficulty": "foundation",
+      "explain": "Yes! The brain cares about where in space something is, not which eye saw it. Both eyes contribute to each visual field."
     },
     {
-      "q": "The left visual cortex processes visual information from the right visual field of both eyes.",
+      "q": "The left hemisphere processes the RIGHT visual field from both eyes.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Visual information is organized by visual field, not by eye. The left hemisphere receives input from the right visual field of both eyes (left eye nasal retina + right eye temporal retina). The right hemisphere receives input from the left visual field of both eyes. Contralateral visual field representation."
+      "difficulty": "foundation",
+      "explain": "Correct! The visual system is contralateral - the LEFT brain handles the RIGHT side of visual space, and vice versa."
+    },
+    {
+      "q": "Visual pathways partially cross at the optic chiasm.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! At the optic chiasm, nasal retinal fibers cross to the opposite side. Temporal retinal fibers stay on the same side. Partial decussation."
+    },
+    {
+      "q": "After the optic chiasm, each optic tract carries information from ONE visual field (from both eyes).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The LEFT optic tract carries the RIGHT visual field from both eyes. The RIGHT optic tract carries the LEFT visual field from both eyes."
+    },
+    {
+      "q": "Loss of the same visual field in BOTH eyes is called 'homonymous hemianopsia'.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! 'Homonymous' = same side in both eyes. 'Hemianopsia' = half vision loss. This pattern indicates damage AFTER the optic chiasm."
+    },
+    {
+      "q": "Right homonymous hemianopsia (right field loss in both eyes) = damage to the LEFT visual pathway.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! The LEFT optic tract carries the RIGHT visual field. Damage it, and you lose right vision in both eyes."
+    },
+    {
+      "q": "Damage to the LEFT optic tract causes right visual field loss in BOTH eyes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The left optic tract is post-chiasm, carrying combined right visual field information from both eyes. Damage = right homonymous hemianopsia."
+    },
+    {
+      "q": "Right visual field loss in both eyes = LEFT optic tract lesion (or left visual cortex).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! Both could cause this pattern, but optic tract lesions typically cause complete hemianopsia, while cortical lesions often have macular sparing."
+    },
+    {
+      "q": "The answer is LEFT OPTIC TRACT - it carries the right visual field from both eyes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not the right optic nerve (that would affect only the right eye). Not the optic chiasm (that would cause bitemporal loss). The left optic tract carries the right visual field from both eyes."
     }
   ]
 }

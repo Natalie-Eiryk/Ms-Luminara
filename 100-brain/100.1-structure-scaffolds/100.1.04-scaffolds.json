@@ -3,26 +3,94 @@
   "parentQuestion": "Which of the following best describes the cerebrum?",
   "scaffolds": [
     {
-      "q": "The cerebrum is responsible for conscious thought and voluntary actions.",
+      "q": "The cerebrum is the largest part of the brain.",
       "options": [
         "True",
         "False"
       ],
       "answer": 0,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "The cerebrum is headquarters for everything conscious. Every thought you're aware of, every deliberate movement, every sensation you perceive — that's cerebral activity. When the cerebrum goes dark, consciousness disappears."
+      "difficulty": "foundation",
+      "explain": "Yes! The cerebrum makes up about 83% of your brain. It's the big wrinkled dome that fills most of your skull."
     },
     {
-      "q": "Which of these is NOT a function of the cerebrum?",
+      "q": "The cerebrum is where conscious thought happens.",
       "options": [
-        "Conscious thought",
-        "Voluntary movement",
-        "Automatic breathing",
-        "Language"
+        "True",
+        "False"
       ],
-      "answer": 2,
-      "chapter": "Chapter 12 — The Brain",
-      "explain": "Automatic breathing runs in the medulla — the brainstem's respiratory center adjusts rate and depth without conscious input. The cerebrum handles voluntary functions. You can choose to hold your breath, but your medulla will override you when CO₂ levels trigger the respiratory center. Brainstem wins."
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Every thought you're aware of, every decision you make, every sensation you perceive - that's cerebral activity."
+    },
+    {
+      "q": "Voluntary movements are controlled by the cerebrum.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! When you decide to raise your hand or walk across the room, the command originates in your cerebrum's motor cortex."
+    },
+    {
+      "q": "Memory, language, and personality are cerebrum functions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Everything that makes you 'you' - memories, language, emotions, personality, abstract thinking - lives in the cerebrum."
+    },
+    {
+      "q": "Automatic functions like breathing are controlled by the brainstem, not the cerebrum.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The brainstem handles autopilot functions (breathing, heart rate). The cerebrum handles conscious, voluntary activities."
+    },
+    {
+      "q": "An 'executive' makes high-level decisions and plans.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Correct! Like a CEO running a company, an executive makes strategic decisions, plans ahead, and oversees complex operations."
+    },
+    {
+      "q": "The cerebrum is like the brain's 'executive' - making high-level decisions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "foundation",
+      "explain": "Yes! The cerebrum is the command center for conscious thought, planning, decision-making - all the 'executive' functions."
+    },
+    {
+      "q": "Calling the cerebrum the 'executive suite' captures its role as the center for planning, thinking, and decision-making.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Correct! 'Executive suite' is the best description. It's where strategy happens - conscious thought, voluntary planning, memory, language, personality."
+    },
+    {
+      "q": "The cerebrum is best described as the 'executive suite' because it handles all conscious, high-level brain functions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "Yes! Not just a motor center or visceral center - the cerebrum is the executive suite where all conscious activity originates. The answer is 'executive suite.'"
     }
   ]
 }
