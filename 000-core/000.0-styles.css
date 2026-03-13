@@ -5239,6 +5239,566 @@ body::before {
 }
 
 /* ═══════════════════════════════════════════════════════════════
+   GAMIFICATION ENHANCEMENTS (7 PASSES)
+   ═══════════════════════════════════════════════════════════════ */
+
+/* PASS 1: Daily Challenges */
+.daily-challenges {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.daily-challenges-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.daily-challenges-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--glow-warm);
+}
+
+.daily-challenges-timer {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+}
+
+.daily-challenge {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem;
+  background: var(--bg-card-hover);
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  transition: all 0.2s;
+}
+
+.daily-challenge.completed {
+  background: var(--correct-soft);
+  border: 1px solid var(--correct);
+}
+
+.daily-challenge-icon {
+  font-size: 1.5rem;
+  min-width: 40px;
+  text-align: center;
+}
+
+.daily-challenge-info {
+  flex: 1;
+}
+
+.daily-challenge-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.daily-challenge-desc {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+}
+
+.daily-challenge-reward {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--glow-warm);
+  padding: 0.25rem 0.5rem;
+  background: rgba(245, 158, 11, 0.15);
+  border-radius: 4px;
+}
+
+.daily-challenge.completed .daily-challenge-reward {
+  color: var(--correct);
+  background: rgba(52, 211, 153, 0.2);
+}
+
+.daily-bonus-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background: linear-gradient(135deg, var(--glow-warm) 0%, #f59e0b 100%);
+  border-radius: 8px;
+  color: #000;
+  font-weight: 600;
+  margin-top: 0.75rem;
+}
+
+.daily-bonus-banner.claimed {
+  background: linear-gradient(135deg, var(--correct) 0%, #34d399 100%);
+}
+
+/* PASS 2: Combo System */
+.combo-indicator {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  background: linear-gradient(135deg, #ef4444 0%, #f97316 100%);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  z-index: 150;
+  animation: comboPulse 0.5s ease infinite;
+  box-shadow: 0 4px 20px rgba(239, 68, 68, 0.4);
+  display: none;
+}
+
+.combo-indicator.active {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.combo-indicator .combo-timer {
+  width: 30px;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.combo-indicator .combo-timer-fill {
+  height: 100%;
+  background: white;
+  transition: width 0.1s linear;
+}
+
+@keyframes comboPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.combo-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 0 0 30px rgba(239, 68, 68, 0.8), 0 0 60px rgba(249, 115, 22, 0.6);
+  z-index: 200;
+  pointer-events: none;
+  animation: comboExplode 1s ease forwards;
+}
+
+@keyframes comboExplode {
+  0% { opacity: 0; transform: translate(-50%, -50%) scale(0.5); }
+  30% { opacity: 1; transform: translate(-50%, -50%) scale(1.3); }
+  100% { opacity: 0; transform: translate(-50%, -70%) scale(1); }
+}
+
+/* PASS 3: Milestone Celebrations */
+.milestone-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--bg-card);
+  border: 2px solid var(--glow-warm);
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  z-index: 250;
+  animation: milestoneAppear 0.5s ease;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  max-width: 350px;
+}
+
+.milestone-popup .milestone-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  animation: milestoneBounce 1s ease infinite;
+}
+
+@keyframes milestoneBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.milestone-popup .milestone-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--glow-warm);
+  margin-bottom: 0.5rem;
+}
+
+.milestone-popup .milestone-reward {
+  font-size: 1.25rem;
+  color: var(--correct);
+  margin-bottom: 1rem;
+}
+
+.milestone-popup .milestone-dismiss {
+  padding: 0.75rem 1.5rem;
+  background: var(--glow-warm);
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+
+.milestone-popup .milestone-dismiss:hover {
+  transform: scale(1.05);
+}
+
+@keyframes milestoneAppear {
+  0% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+  100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+/* Confetti effect */
+.confetti-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 300;
+  overflow: hidden;
+}
+
+.confetti {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  animation: confettiFall 3s linear forwards;
+}
+
+@keyframes confettiFall {
+  0% { transform: translateY(-20px) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+}
+
+/* PASS 4: Study Calendar */
+.study-calendar {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.calendar-title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-dim);
+}
+
+.day-streak-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.3rem 0.6rem;
+  background: linear-gradient(135deg, #f97316 0%, #ef4444 100%);
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: white;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
+
+.calendar-day {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  background: var(--bg-card-hover);
+  border-radius: 4px;
+}
+
+.calendar-day.studied {
+  background: var(--correct);
+  color: white;
+}
+
+.calendar-day.today {
+  border: 2px solid var(--glow-warm);
+}
+
+.calendar-day.today.studied {
+  background: linear-gradient(135deg, var(--correct) 0%, var(--glow-warm) 100%);
+}
+
+.calendar-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+}
+
+.calendar-stat {
+  text-align: center;
+}
+
+.calendar-stat-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--glow-warm);
+}
+
+.calendar-stat-label {
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+}
+
+/* PASS 5: Mastery Tiers */
+.mastery-tier-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.mastery-tier-badge.diamond {
+  background: linear-gradient(135deg, #b9f2ff 0%, #89e0f2 100%);
+  color: #0d4f5f;
+  box-shadow: 0 0 10px rgba(185, 242, 255, 0.5);
+}
+
+.mastery-tier-badge.platinum {
+  background: linear-gradient(135deg, #e5e4e2 0%, #c4c3c0 100%);
+  color: #3d3d3d;
+}
+
+.mastery-tier-badge.gold {
+  background: linear-gradient(135deg, #ffd700 0%, #ffb700 100%);
+  color: #5a4800;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+}
+
+.mastery-tier-badge.silver {
+  background: linear-gradient(135deg, #c0c0c0 0%, #a0a0a0 100%);
+  color: #404040;
+}
+
+.mastery-tier-badge.bronze {
+  background: linear-gradient(135deg, #cd7f32 0%, #b87333 100%);
+  color: #fff;
+}
+
+.mastery-tier-badge.unranked {
+  background: var(--bg-card-hover);
+  color: var(--text-dim);
+}
+
+.tier-progress-bar {
+  height: 6px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-top: 0.25rem;
+}
+
+.tier-progress-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.tier-progress-fill.diamond { background: linear-gradient(90deg, #89e0f2, #b9f2ff); }
+.tier-progress-fill.platinum { background: linear-gradient(90deg, #a0a0a0, #e5e4e2); }
+.tier-progress-fill.gold { background: linear-gradient(90deg, #ffb700, #ffd700); }
+.tier-progress-fill.silver { background: linear-gradient(90deg, #808080, #c0c0c0); }
+.tier-progress-fill.bronze { background: linear-gradient(90deg, #8b4513, #cd7f32); }
+
+/* PASS 7: Seasonal Events */
+.seasonal-banner {
+  background: linear-gradient(135deg, var(--glow-warm) 0%, #f59e0b 100%);
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+  animation: seasonalGlow 2s ease infinite;
+}
+
+@keyframes seasonalGlow {
+  0%, 100% { box-shadow: 0 0 20px rgba(245, 158, 11, 0.3); }
+  50% { box-shadow: 0 0 30px rgba(245, 158, 11, 0.6); }
+}
+
+.seasonal-banner .event-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.seasonal-banner .event-icon {
+  font-size: 1.5rem;
+}
+
+.seasonal-banner .event-name {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.seasonal-banner .event-desc {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+.seasonal-banner .event-bonus {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0.3rem 0.75rem;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+/* Seasonal theme variations */
+.seasonal-banner.winter {
+  background: linear-gradient(135deg, #60a5fa 0%, #93c5fd 100%);
+}
+
+.seasonal-banner.spooky {
+  background: linear-gradient(135deg, #f97316 0%, #a855f7 100%);
+}
+
+.seasonal-banner.hearts {
+  background: linear-gradient(135deg, #f472b6 0%, #ec4899 100%);
+}
+
+.seasonal-banner.flowers {
+  background: linear-gradient(135deg, #f472b6 0%, #a3e635 100%);
+}
+
+/* XP Breakdown popup */
+.xp-breakdown {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  background: var(--bg-card);
+  border: 1px solid var(--glow-warm);
+  border-radius: 12px;
+  padding: 1rem;
+  min-width: 200px;
+  z-index: 150;
+  animation: xpBreakdownSlide 0.3s ease;
+}
+
+@keyframes xpBreakdownSlide {
+  0% { opacity: 0; transform: translateY(-50%) translateX(50px); }
+  100% { opacity: 1; transform: translateY(-50%) translateX(0); }
+}
+
+.xp-breakdown-title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--glow-warm);
+  margin-bottom: 0.5rem;
+}
+
+.xp-breakdown-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 0;
+  font-size: 0.85rem;
+}
+
+.xp-breakdown-row .label {
+  color: var(--text-dim);
+}
+
+.xp-breakdown-row .value {
+  color: var(--correct);
+  font-weight: 600;
+}
+
+.xp-breakdown-row.lucky {
+  color: var(--glow-warm);
+  font-weight: 700;
+}
+
+.xp-breakdown-total {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  margin-top: 0.5rem;
+  border-top: 1px solid var(--border);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.xp-breakdown-total .value {
+  color: var(--glow-warm);
+}
+
+/* Achievement notification variants */
+.achievement-notification.daily-challenge-complete {
+  border-color: var(--glow-warm);
+  box-shadow: 0 0 40px rgba(245, 158, 11, 0.4);
+}
+
+.achievement-notification.daily-challenge-complete .title {
+  color: var(--glow-warm);
+}
+
+.achievement-notification.daily-challenge-complete .reward,
+.achievement-notification .reward {
+  color: var(--correct);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.achievement-notification.tier-up {
+  border-color: var(--correct);
+  box-shadow: 0 0 40px rgba(52, 211, 153, 0.4);
+}
+
+.achievement-notification.tier-up .title {
+  color: var(--correct);
+}
+
+.achievement-notification.day-streak {
+  border-color: #f97316;
+  box-shadow: 0 0 40px rgba(249, 115, 22, 0.4);
+}
+
+.achievement-notification.day-streak .title {
+  color: #f97316;
+}
+
+/* ═══════════════════════════════════════════════════════════════
    RESPONSIVE GAUNTLET
    ═══════════════════════════════════════════════════════════════ */
 

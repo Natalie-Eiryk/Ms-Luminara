@@ -37,6 +37,7 @@ class LuminaraQuiz {
       this.renderer = new QuizRenderer(this);
       this.setupCategoryButtons();
       this.renderer.renderLandingStats();
+      this.renderLandingGamification();
       console.log('Ms. Luminara Quiz initialized successfully');
     } catch (error) {
       console.error('Failed to initialize quiz:', error);
@@ -284,6 +285,34 @@ class LuminaraQuiz {
     }
 
     return questions;
+  }
+
+  /**
+   * Render gamification UI elements on landing page
+   */
+  renderLandingGamification() {
+    // Render daily challenges
+    const dailyPanel = document.getElementById('dailyChallengesPanel');
+    if (dailyPanel && this.renderer) {
+      this.renderer.renderDailyChallenges(dailyPanel);
+    }
+
+    // Render study calendar
+    const calendarPanel = document.getElementById('studyCalendarPanel');
+    if (calendarPanel && this.renderer) {
+      this.renderer.renderStudyCalendar(calendarPanel);
+    }
+
+    // Show seasonal event banner if active
+    if (gamification) {
+      const event = gamification.getActiveSeasonalEvent();
+      if (event) {
+        const welcome = gamification.getSeasonalWelcome(event);
+        if (welcome) {
+          console.log('[Seasonal]', welcome);
+        }
+      }
+    }
   }
 
   /**

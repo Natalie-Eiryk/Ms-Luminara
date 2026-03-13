@@ -595,6 +595,12 @@
 
         <div id="landingStats" class="landing-stats"></div>
 
+        <!-- Daily Challenges Panel -->
+        <div id="dailyChallengesPanel"></div>
+
+        <!-- Study Calendar -->
+        <div id="studyCalendarPanel"></div>
+
         <div class="progress-controls">
           <button class="progress-btn" onclick="exportProgress()" title="Download your progress as a file">
             💾 Export Progress
@@ -783,7 +789,23 @@
   <!-- Stats Module -->
   <div class="module-container" id="module-stats">
     <div class="stats-container">
+      <!-- Seasonal Event Banner -->
+      <div id="statsSeasonalBanner"></div>
+
       <div class="stats-grid" id="statsGrid"></div>
+
+      <!-- Daily Challenges in Stats -->
+      <div id="statsDailyChallenges" style="margin-bottom: 1.5rem;"></div>
+
+      <!-- Study Calendar in Stats -->
+      <div id="statsStudyCalendar" style="margin-bottom: 1.5rem;"></div>
+
+      <!-- Milestones Progress -->
+      <div class="mastery-section" id="milestonesSection">
+        <div class="mastery-title">🏆 Milestones</div>
+        <div id="milestonesProgress"></div>
+      </div>
+
       <div class="mastery-section" id="masterySection">
         <div class="mastery-title">Category Mastery</div>
         <div id="masteryBars"></div>
@@ -1426,8 +1448,14 @@
       // ==================== STATS ====================
       renderStats() {
         const stats = typeof gamification !== 'undefined' && gamification ?
-          gamification.getStats() : { level: 1, totalXP: 0, currentStreak: 0, bestStreak: 0, totalAnswered: 0, accuracy: 0 };
+          gamification.getStats() : { level: 1, totalXP: 0, currentStreak: 0, bestStreak: 0, totalAnswered: 0, accuracy: 0, dayStreak: 0, totalStudyDays: 0 };
 
+        // Seasonal event banner
+        if (quiz && quiz.renderer && stats.seasonalEvent) {
+          quiz.renderer.renderSeasonalBanner(document.getElementById('statsSeasonalBanner'));
+        }
+
+        // Main stats grid with new gamification stats
         document.getElementById('statsGrid').innerHTML = `
           <div class="stat-card">
             <div class="stat-value">${stats.level}</div>
@@ -1439,11 +1467,19 @@
           </div>
           <div class="stat-card">
             <div class="stat-value">${stats.currentStreak}</div>
-            <div class="stat-label">Current Streak</div>
+            <div class="stat-label">Answer Streak</div>
           </div>
           <div class="stat-card">
             <div class="stat-value">${stats.bestStreak}</div>
             <div class="stat-label">Best Streak</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">${stats.dayStreak || 0}</div>
+            <div class="stat-label">🔥 Day Streak</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">${stats.totalStudyDays || 0}</div>
+            <div class="stat-label">Study Days</div>
           </div>
           <div class="stat-card">
             <div class="stat-value">${stats.totalAnswered}</div>
@@ -1455,7 +1491,33 @@
           </div>
         `;
 
-        // Category mastery
+        // Daily challenges panel
+        if (quiz && quiz.renderer) {
+          quiz.renderer.renderDailyChallenges(document.getElementById('statsDailyChallenges'));
+        }
+
+        // Study calendar
+        if (quiz && quiz.renderer) {
+          quiz.renderer.renderStudyCalendar(document.getElementById('statsStudyCalendar'));
+        }
+
+        // Milestones progress
+        if (gamification) {
+          const milestones = gamification.getMilestoneDefinitions();
+          const unlocked = persistence?.data?.milestones || [];
+          const milestonesHTML = milestones.slice(0, 8).map(m => {
+            const isUnlocked = unlocked.includes(m.id);
+            return `
+              <div class="mastery-row" style="opacity: ${isUnlocked ? '1' : '0.5'}">
+                <span class="mastery-label">${m.icon} ${m.name}</span>
+                <span class="mastery-pct" style="color: ${isUnlocked ? 'var(--correct)' : 'var(--text-dim)'}">${isUnlocked ? '✓' : `+${m.reward} XP`}</span>
+              </div>
+            `;
+          }).join('');
+          document.getElementById('milestonesProgress').innerHTML = milestonesHTML || '<p style="color:var(--text-dim)">No milestones yet</p>';
+        }
+
+        // Category mastery with tier badges
         const categories = {};
         this.questions.forEach(q => {
           if (!categories[q._category]) categories[q._category] = { total: 0, reviewed: 0 };
@@ -1465,9 +1527,10 @@
 
         document.getElementById('masteryBars').innerHTML = Object.entries(categories).map(([cat, data]) => {
           const pct = data.total > 0 ? Math.round((data.reviewed / data.total) * 100) : 0;
+          const tierBadge = quiz && quiz.renderer ? quiz.renderer.renderMasteryTierBadge(pct) : '';
           return `
             <div class="mastery-row">
-              <span class="mastery-label">${cat}</span>
+              <span class="mastery-label">${cat} ${tierBadge}</span>
               <div class="mastery-bar"><div class="mastery-fill" style="width:${pct}%"></div></div>
               <span class="mastery-pct">${pct}%</span>
             </div>

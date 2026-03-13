@@ -209,6 +209,352 @@ class QuizRenderer {
     document.body.appendChild(overlay);
   }
 
+  // ═══════════════════════════════════════════════════════════════
+  // GAMIFICATION ENHANCEMENT RENDERS (7 PASSES)
+  // ═══════════════════════════════════════════════════════════════
+
+  /**
+   * PASS 2: Show combo indicator
+   */
+  showComboIndicator(comboCount, timeRemaining) {
+    let indicator = document.querySelector('.combo-indicator');
+
+    if (comboCount < 2) {
+      if (indicator) indicator.classList.remove('active');
+      return;
+    }
+
+    if (!indicator) {
+      indicator = document.createElement('div');
+      indicator.className = 'combo-indicator';
+      indicator.innerHTML = `
+        <span class="combo-count">x${comboCount}</span>
+        <div class="combo-timer"><div class="combo-timer-fill"></div></div>
+      `;
+      document.body.appendChild(indicator);
+    }
+
+    indicator.classList.add('active');
+    indicator.querySelector('.combo-count').textContent = `x${comboCount}`;
+
+    // Update timer bar
+    const fillPercent = (timeRemaining / 8000) * 100;
+    indicator.querySelector('.combo-timer-fill').style.width = `${fillPercent}%`;
+  }
+
+  /**
+   * PASS 2: Show combo popup for milestones
+   */
+  showComboPopup(comboCount, message) {
+    if (comboCount < 3) return;
+
+    const popup = document.createElement('div');
+    popup.className = 'combo-popup';
+    popup.innerHTML = `<div>COMBO x${comboCount}!</div><div style="font-size:1.5rem">${message || ''}</div>`;
+
+    document.body.appendChild(popup);
+
+    setTimeout(() => popup.remove(), 1000);
+  }
+
+  /**
+   * PASS 1: Render daily challenges panel
+   */
+  renderDailyChallenges(container) {
+    if (!gamification) return;
+
+    const daily = gamification.getDailyChallenges();
+    if (!daily || !daily.challenges || !daily.completed) return;
+
+    const html = `
+      <div class="daily-challenges">
+        <div class="daily-challenges-header">
+          <span class="daily-challenges-title">🎯 Daily Challenges</span>
+          <span class="daily-challenges-timer">Resets at midnight</span>
+        </div>
+        ${daily.challenges.map(c => {
+          const isComplete = daily.completed.includes(c.id);
+          return `
+            <div class="daily-challenge ${isComplete ? 'completed' : ''}">
+              <span class="daily-challenge-icon">${c.icon}</span>
+              <div class="daily-challenge-info">
+                <div class="daily-challenge-name">${c.name}</div>
+                <div class="daily-challenge-desc">${c.desc}</div>
+              </div>
+              <span class="daily-challenge-reward">${isComplete ? '✓' : `+${c.xp} XP`}</span>
+            </div>
+          `;
+        }).join('')}
+        ${daily.completed.length >= 3 ? `
+          <div class="daily-bonus-banner ${daily.bonusClaimed ? 'claimed' : ''}">
+            🏆 ${daily.bonusClaimed ? 'Daily Champion Bonus Claimed!' : 'All Complete! +500 XP Bonus!'}
+          </div>
+        ` : ''}
+      </div>
+    `;
+
+    if (container) {
+      container.innerHTML = html;
+    }
+    return html;
+  }
+
+  /**
+   * PASS 1: Show daily challenge complete notification
+   */
+  showDailyChallengeComplete(challenge) {
+    const notification = document.createElement('div');
+    notification.className = 'achievement-notification daily-challenge-complete';
+
+    notification.innerHTML = `
+      <div class="badge-icon">${challenge.icon}</div>
+      <div class="content">
+        <div class="title">Daily Challenge Complete!</div>
+        <div class="name">${challenge.name}</div>
+        <div class="reward">+${challenge.xp} XP</div>
+      </div>
+    `;
+
+    document.body.appendChild(notification);
+
+    setTimeout(() => {
+      notification.classList.add('hiding');
+      setTimeout(() => notification.remove(), 400);
+    }, 3000);
+  }
+
+  /**
+   * PASS 3: Show milestone celebration
+   */
+  showMilestone(milestone) {
+    const popup = document.createElement('div');
+    popup.className = 'milestone-popup';
+
+    popup.innerHTML = `
+      <div class="milestone-icon">${milestone.icon}</div>
+      <div class="milestone-name">${milestone.name}</div>
+      <div class="milestone-reward">+${milestone.reward} XP</div>
+      <button class="milestone-dismiss" onclick="this.closest('.milestone-popup').remove()">
+        Claim Reward
+      </button>
+    `;
+
+    document.body.appendChild(popup);
+
+    // Trigger celebration effect
+    if (milestone.celebration === 'confetti') {
+      this.showConfetti();
+    } else if (milestone.celebration === 'fireworks') {
+      this.showConfetti({ count: 100, duration: 4000 });
+    } else if (milestone.celebration === 'epic') {
+      this.showConfetti({ count: 200, duration: 6000 });
+    }
+  }
+
+  /**
+   * PASS 3: Show confetti celebration
+   */
+  showConfetti(options = {}) {
+    const { count = 50, duration = 3000 } = options;
+
+    const container = document.createElement('div');
+    container.className = 'confetti-container';
+
+    const colors = ['#f5c542', '#34d399', '#f87171', '#60a5fa', '#a78bfa', '#fbbf24'];
+
+    for (let i = 0; i < count; i++) {
+      const confetti = document.createElement('div');
+      confetti.className = 'confetti';
+      confetti.style.left = `${Math.random() * 100}%`;
+      confetti.style.background = colors[Math.floor(Math.random() * colors.length)];
+      confetti.style.animationDelay = `${Math.random() * 1}s`;
+      confetti.style.animationDuration = `${2 + Math.random() * 2}s`;
+      container.appendChild(confetti);
+    }
+
+    document.body.appendChild(container);
+
+    setTimeout(() => container.remove(), duration);
+  }
+
+  /**
+   * PASS 4: Render study calendar
+   */
+  renderStudyCalendar(container) {
+    if (!gamification) return;
+
+    const stats = gamification.getCalendarStats();
+
+    const dayNames = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
+    const today = new Date().toISOString().split('T')[0];
+
+    const calendarHTML = stats.last30Days.map(day => {
+      const date = new Date(day.date);
+      const dayNum = date.getDate();
+      const isToday = day.date === today;
+      const classes = ['calendar-day'];
+      if (day.studied) classes.push('studied');
+      if (isToday) classes.push('today');
+
+      return `<div class="${classes.join(' ')}" title="${day.date}">${dayNum}</div>`;
+    }).join('');
+
+    const html = `
+      <div class="study-calendar">
+        <div class="calendar-header">
+          <span class="calendar-title">Study Calendar</span>
+          ${stats.currentStreak > 0 ? `
+            <span class="day-streak-badge">🔥 ${stats.currentStreak} day${stats.currentStreak > 1 ? 's' : ''}</span>
+          ` : ''}
+        </div>
+        <div class="calendar-grid">
+          ${calendarHTML}
+        </div>
+        <div class="calendar-stats">
+          <div class="calendar-stat">
+            <div class="calendar-stat-value">${stats.totalDays}</div>
+            <div class="calendar-stat-label">Total Days</div>
+          </div>
+          <div class="calendar-stat">
+            <div class="calendar-stat-value">${stats.longestStreak}</div>
+            <div class="calendar-stat-label">Best Streak</div>
+          </div>
+        </div>
+      </div>
+    `;
+
+    if (container) {
+      container.innerHTML = html;
+    }
+    return html;
+  }
+
+  /**
+   * PASS 5: Render mastery tier badge
+   */
+  renderMasteryTierBadge(mastery) {
+    if (!gamification) return '';
+
+    const tier = gamification.getMasteryTier(mastery);
+    return `<span class="mastery-tier-badge ${tier.tier}">${tier.icon} ${tier.name}</span>`;
+  }
+
+  /**
+   * PASS 5: Show tier-up notification
+   */
+  showTierUp(oldTier, newTier, categoryName) {
+    const notification = document.createElement('div');
+    notification.className = 'achievement-notification tier-up';
+
+    notification.innerHTML = `
+      <div class="badge-icon">${newTier.icon}</div>
+      <div class="content">
+        <div class="title">${categoryName}</div>
+        <div class="name">${oldTier.icon} → ${newTier.icon} ${newTier.name}!</div>
+        <div class="message">Mastery tier increased!</div>
+      </div>
+    `;
+
+    document.body.appendChild(notification);
+
+    setTimeout(() => {
+      notification.classList.add('hiding');
+      setTimeout(() => notification.remove(), 400);
+    }, 3500);
+  }
+
+  /**
+   * PASS 7: Render seasonal event banner
+   */
+  renderSeasonalBanner(container) {
+    if (!gamification) return;
+
+    const event = gamification.getActiveSeasonalEvent();
+    if (!event) return '';
+
+    const bonusPercent = Math.round((event.xpBonus - 1) * 100);
+
+    const html = `
+      <div class="seasonal-banner ${event.theme || ''}">
+        <div class="event-info">
+          <span class="event-icon">${event.icon}</span>
+          <div>
+            <div class="event-name">${event.name}</div>
+            <div class="event-desc">${event.desc}</div>
+          </div>
+        </div>
+        <span class="event-bonus">+${bonusPercent}% XP</span>
+      </div>
+    `;
+
+    if (container) {
+      container.innerHTML = html;
+    }
+    return html;
+  }
+
+  /**
+   * PASS 6: Enhanced XP popup with full breakdown
+   */
+  showEnhancedXPPopup(result) {
+    // Remove existing
+    document.querySelectorAll('.xp-breakdown').forEach(e => e.remove());
+
+    const popup = document.createElement('div');
+    popup.className = 'xp-breakdown';
+
+    const breakdownRows = result.xp.breakdown.map(item => {
+      const isSpecial = item.label.includes('Lucky') || item.label.includes('Combo');
+      return `
+        <div class="xp-breakdown-row ${isSpecial ? 'lucky' : ''}">
+          <span class="label">${item.label}</span>
+          <span class="value">+${item.value}</span>
+        </div>
+      `;
+    }).join('');
+
+    popup.innerHTML = `
+      <div class="xp-breakdown-title">XP Earned</div>
+      ${breakdownRows}
+      <div class="xp-breakdown-total">
+        <span class="label">Total</span>
+        <span class="value">+${result.xp.total}</span>
+      </div>
+    `;
+
+    document.body.appendChild(popup);
+
+    // Auto-dismiss
+    setTimeout(() => {
+      popup.style.opacity = '0';
+      popup.style.transform = 'translateY(-50%) translateX(50px)';
+      setTimeout(() => popup.remove(), 300);
+    }, result.xp.isLuckyStrike ? 4000 : 2500);
+  }
+
+  /**
+   * Show day streak milestone
+   */
+  showDayStreakMilestone(dayStreak, message) {
+    const notification = document.createElement('div');
+    notification.className = 'achievement-notification day-streak';
+
+    notification.innerHTML = `
+      <div class="badge-icon">🔥</div>
+      <div class="content">
+        <div class="title">${dayStreak}-Day Streak!</div>
+        <div class="message">"${message}"</div>
+      </div>
+    `;
+
+    document.body.appendChild(notification);
+
+    setTimeout(() => {
+      notification.classList.add('hiding');
+      setTimeout(() => notification.remove(), 400);
+    }, 4000);
+  }
+
   /**
    * Show session summary
    */

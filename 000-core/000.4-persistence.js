@@ -35,6 +35,28 @@ class PersistenceManager {
         correctFirstTry: 0,
         achievementsUnlocked: [],
         streakAtStart: 0
+      },
+      // GAMIFICATION PASS 1: Daily Challenges
+      dailyChallenges: {
+        date: null,
+        challenges: [],
+        completed: [],
+        bonusClaimed: false
+      },
+      // GAMIFICATION PASS 3: Milestones
+      milestones: [],
+      // GAMIFICATION PASS 4: Study Calendar
+      studyCalendar: {
+        days: [],
+        currentDayStreak: 0,
+        longestDayStreak: 0,
+        totalStudyDays: 0
+      },
+      // GAMIFICATION PASS 6: Sound preferences
+      soundPreferences: {
+        enabled: true,
+        volume: 0.7,
+        hapticEnabled: true
       }
     };
   }
@@ -59,7 +81,19 @@ class PersistenceManager {
       player: { ...defaults.player, ...saved.player },
       categories: { ...defaults.categories, ...saved.categories },
       questionHistory: { ...defaults.questionHistory, ...saved.questionHistory },
-      session: { ...defaults.session }
+      session: { ...defaults.session },
+      // GAMIFICATION PASS 1: Daily Challenges
+      dailyChallenges: saved.dailyChallenges || defaults.dailyChallenges,
+      // GAMIFICATION PASS 3: Milestones
+      milestones: saved.milestones || defaults.milestones,
+      // GAMIFICATION PASS 4: Study Calendar
+      studyCalendar: saved.studyCalendar ?
+        { ...defaults.studyCalendar, ...saved.studyCalendar } :
+        defaults.studyCalendar,
+      // GAMIFICATION PASS 6: Sound preferences
+      soundPreferences: saved.soundPreferences ?
+        { ...defaults.soundPreferences, ...saved.soundPreferences } :
+        defaults.soundPreferences
     };
   }
 
