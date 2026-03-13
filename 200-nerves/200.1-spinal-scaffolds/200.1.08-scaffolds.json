@@ -3,94 +3,157 @@
   "parentQuestion": "A patient with a spinal cord injury initially presents with flaccid paralysis and areflexia (absent reflexes) in the legs. Several weeks later, the same patient develops spastic paralysis and hyperreflexia. This progression from flaccid to spastic paralysis is explained by ___.",
   "scaffolds": [
     {
-      "q": "Flaccid paralysis means muscles are limp and floppy (no muscle tone).",
+      "q": "What is flaccid paralysis?",
       "options": [
-        "True",
-        "False"
+        "Stiff, rigid muscles",
+        "Limp, floppy muscles with no tone",
+        "Normal muscle strength",
+        "Overly active muscles"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Flaccid = floppy. In flaccid paralysis, the muscles have no resistance when you move them - they're completely relaxed and weak, like a rag doll."
+      "explain": "FLACCID = FLOPPY. In flaccid paralysis, muscles have no resistance when you move them — they're completely relaxed and weak, like a rag doll.",
+      "wrongExplains": {
+        "0": "Stiff, rigid muscles describe SPASTIC paralysis. Flaccid means floppy.",
+        "2": "Paralysis means weakness or inability to move. Flaccid paralysis is definitely abnormal.",
+        "3": "Overactive muscles would be spasticity. Flaccid muscles have NO tone."
+      }
     },
     {
-      "q": "Spastic paralysis means muscles are stiff and tight (increased muscle tone).",
+      "q": "What is spastic paralysis?",
       "options": [
-        "True",
-        "False"
+        "Limp, relaxed muscles",
+        "Stiff, tight muscles with increased tone",
+        "Complete absence of muscles",
+        "Only sensory loss"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Spastic = stiff. In spastic paralysis, the muscles are tight and resist being moved. The limb may feel rigid and tense, even though the patient can't voluntarily control it."
+      "explain": "SPASTIC = STIFF. In spastic paralysis, muscles are tight and resist being moved. The limb feels rigid and tense, even though the patient can't voluntarily control it.",
+      "wrongExplains": {
+        "0": "Limp muscles describe FLACCID paralysis. Spastic means stiff.",
+        "2": "The muscles are present but dysfunctional due to CNS damage.",
+        "3": "Spastic paralysis involves motor dysfunction, not just sensory loss."
+      }
     },
     {
-      "q": "Areflexia means reflexes are absent (no knee-jerk, etc.).",
+      "q": "What does 'areflexia' mean?",
       "options": [
-        "True",
-        "False"
+        "Overactive reflexes",
+        "Absent reflexes (no knee-jerk, etc.)",
+        "Normal reflexes",
+        "Painful reflexes"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! A- means without, reflexia refers to reflexes. Areflexia = no reflexes. Tap the knee, nothing happens."
+      "explain": "A- means without, reflexia refers to reflexes. AREFLEXIA = NO REFLEXES. Tap the knee, nothing happens.",
+      "wrongExplains": {
+        "0": "Overactive reflexes is HYPERREFLEXIA. Areflexia means absent.",
+        "2": "Normal reflexes are intact. Areflexia is pathologically absent reflexes.",
+        "3": "Painful reflexes would be abnormal but present. Areflexia means absent."
+      }
     },
     {
-      "q": "Hyperreflexia means reflexes are exaggerated (overly strong).",
+      "q": "What does 'hyperreflexia' mean?",
       "options": [
-        "True",
-        "False"
+        "Absent reflexes",
+        "Exaggerated, overly strong reflexes",
+        "Normal reflexes",
+        "Delayed reflexes"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Hyper- means excessive. Hyperreflexia = overactive reflexes. Tap the knee gently, the leg kicks strongly. The reflex circuits are 'turned up too high.'"
+      "explain": "HYPER- means excessive. HYPERREFLEXIA = OVERACTIVE REFLEXES. Tap the knee gently, the leg kicks strongly. The reflex circuits are 'turned up too high.'",
+      "wrongExplains": {
+        "0": "Absent reflexes is AREFLEXIA. Hyperreflexia means excessive.",
+        "2": "Normal reflexes are appropriate in strength. Hyperreflexia is pathologically strong.",
+        "3": "The reflexes occur — they're just too strong, not delayed."
+      }
     },
     {
-      "q": "Spinal reflexes can occur without the brain - they're processed in the spinal cord.",
+      "q": "Can spinal reflexes occur without the brain?",
       "options": [
-        "True",
-        "False"
+        "No, all reflexes require brain involvement",
+        "Yes, spinal reflexes are processed entirely in the spinal cord",
+        "Reflexes don't exist",
+        "Only pain reflexes work without the brain"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The spinal cord contains complete reflex circuits. The knee-jerk reflex doesn't need the brain - the signal goes to the spinal cord and right back out. The brain normally modulates these reflexes but isn't required for them."
+      "explain": "The spinal cord contains complete reflex circuits. The knee-jerk reflex doesn't need the brain — the signal goes to the spinal cord and right back out. The brain normally MODULATES these reflexes but isn't required for them.",
+      "wrongExplains": {
+        "0": "Simple spinal reflexes are complete at the spinal cord level.",
+        "2": "Reflexes definitely exist — they're fundamental protective responses.",
+        "3": "Many types of reflexes work at the spinal level, not just pain reflexes."
+      }
     },
     {
-      "q": "The brain normally sends signals that INHIBIT (dampen down) spinal reflexes.",
+      "q": "What does the brain normally do to spinal reflexes?",
       "options": [
-        "True",
-        "False"
+        "It has no effect on reflexes",
+        "It sends signals that INHIBIT (dampen down) spinal reflexes",
+        "It makes reflexes disappear completely",
+        "It creates new reflexes"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The brain keeps spinal reflexes under control - it sends inhibitory signals that prevent reflexes from being too strong. Without this brain control, reflexes become exaggerated."
+      "explain": "The brain keeps spinal reflexes UNDER CONTROL — it sends INHIBITORY signals that prevent reflexes from being too strong. Without this brain control, reflexes become exaggerated.",
+      "wrongExplains": {
+        "0": "The brain definitely modulates spinal reflexes through descending pathways.",
+        "2": "The brain modulates reflexes, not eliminates them. Reflexes persist below cord injuries.",
+        "3": "The brain modulates existing reflexes rather than creating new ones."
+      }
     },
     {
-      "q": "'Spinal shock' is a temporary period after spinal cord injury when everything below the injury goes quiet - no reflexes, no movement, no sensation.",
+      "q": "What is 'spinal shock'?",
       "options": [
-        "True",
-        "False"
+        "An electric shock to the spine",
+        "A temporary period after injury when everything below goes quiet",
+        "A permanent state of paralysis",
+        "A type of seizure"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Spinal shock is like the spinal cord going 'offline' temporarily after severe injury. It's not permanent damage - it's a temporary suppression. The cord circuits are stunned but not destroyed."
+      "explain": "SPINAL SHOCK is like the spinal cord going 'offline' temporarily after severe injury. No reflexes, no movement, no sensation below the injury. It's not permanent damage — the cord circuits are stunned but not destroyed.",
+      "wrongExplains": {
+        "0": "It's not electrical shock — it's a physiological state after cord injury.",
+        "2": "Spinal shock is TEMPORARY. It resolves, though deficits may remain.",
+        "3": "It's not a seizure — it's a period of absent spinal cord function below the injury."
+      }
     },
     {
-      "q": "After spinal shock resolves, reflexes return - but without brain inhibition, they become hyperactive.",
+      "q": "What happens when spinal shock resolves?",
       "options": [
-        "True",
-        "False"
+        "Complete recovery of all function",
+        "Reflexes return but become hyperactive without brain inhibition",
+        "All functions disappear permanently",
+        "Nothing changes"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The spinal circuits wake up, but the connection to the brain is still severed. Without descending inhibition from the brain, the reflexes run unchecked. Flaccid becomes spastic. Areflexia becomes hyperreflexia."
+      "explain": "The spinal circuits wake up, but the connection to the brain is still severed. Without DESCENDING INHIBITION from the brain, reflexes run unchecked. Flaccid becomes SPASTIC. Areflexia becomes HYPERREFLEXIA.",
+      "wrongExplains": {
+        "0": "Reflexes return, but voluntary control doesn't if the cord is severed.",
+        "2": "Reflexes actually return — they're just uncontrolled.",
+        "3": "A dramatic change occurs — from no reflexes to excessive reflexes."
+      }
     },
     {
-      "q": "The progression from flaccid to spastic paralysis after spinal cord injury reflects the spinal cord recovering its local reflex function, but without brain control.",
+      "q": "What does the flaccid-to-spastic progression indicate?",
       "options": [
-        "True",
-        "False"
+        "The injury is healing completely",
+        "The spinal cord is recovering local reflex function without brain control",
+        "The brain is regaining control",
+        "The injury is getting worse"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! This is spinal shock resolving. The spinal circuits recover, but they're isolated from the brain. The patient still can't voluntarily move (no brain control), but reflexes are now OVERACTIVE (no brain inhibition). It's adaptation to isolation, not recovery of function."
+      "explain": "This is spinal shock RESOLVING. The spinal circuits recover, but they're ISOLATED from the brain. The patient still can't voluntarily move (no brain control), but reflexes are now OVERACTIVE (no brain inhibition). It's adaptation to isolation, not true recovery.",
+      "wrongExplains": {
+        "0": "The cord reconnection to brain isn't healing — just local circuits recovering.",
+        "2": "The brain ISN'T regaining control — that's why reflexes become hyperactive.",
+        "3": "It's not worsening — it's the expected progression as spinal shock resolves."
+      }
     }
   ]
 }

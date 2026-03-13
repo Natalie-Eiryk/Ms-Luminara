@@ -3,94 +3,157 @@
   "parentQuestion": "The brain stem consists of the ___.",
   "scaffolds": [
     {
-      "q": "The brainstem connects the brain to the spinal cord.",
+      "q": "What is the brainstem?",
       "options": [
-        "True",
-        "False"
+        "The largest part of the brain",
+        "The stalk connecting the brain to the spinal cord",
+        "The outer layer of the cerebrum",
+        "A bone structure"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The brainstem is the bridge between your thinking brain and your body. All signals traveling up or down must pass through it."
+      "explain": "The BRAINSTEM is the STALK that connects the thinking brain (cerebrum) to the spinal cord. All signals traveling up or down must pass through it.",
+      "wrongExplains": {
+        "0": "The largest part is the cerebrum. The brainstem is the connecting stalk below it.",
+        "2": "The outer layer of the cerebrum is the cortex. The brainstem is a separate structure below.",
+        "3": "The brainstem is neural tissue, not bone."
+      }
     },
     {
-      "q": "The brainstem controls vital functions like breathing and heart rate.",
+      "q": "What vital functions does the brainstem control?",
       "options": [
-        "True",
-        "False"
+        "Conscious thought and decision-making",
+        "Breathing, heart rate, and blood pressure",
+        "Memory storage",
+        "Voluntary movement planning"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The brainstem runs your autopilot - breathing, heart rate, blood pressure, sleeping, waking. These happen without conscious thought."
+      "explain": "The brainstem runs your AUTOPILOT — BREATHING, HEART RATE, BLOOD PRESSURE, sleeping, waking. These vital functions happen without conscious thought.",
+      "wrongExplains": {
+        "0": "Conscious thought is a cerebrum function. The brainstem handles automatic vital functions.",
+        "2": "Memory involves the hippocampus and cortex. The brainstem handles vital reflexes.",
+        "3": "Movement planning is a cerebrum/basal nuclei function. The brainstem maintains vital functions."
+      }
     },
     {
-      "q": "The cerebrum is the large thinking brain that sits ON TOP of the brainstem.",
+      "q": "What is the midbrain?",
       "options": [
-        "True",
-        "False"
+        "The lowest part of the brainstem",
+        "The upper (most superior) part of the brainstem",
+        "Part of the cerebrum",
+        "The cerebellum"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The cerebrum (the wrinkled dome) sits above the brainstem. The brainstem is the stalk underneath, not part of the cerebrum."
+      "explain": "The MIDBRAIN is the MOST SUPERIOR (highest) part of the brainstem. It contains reflex centers for vision and hearing (the colliculi).",
+      "wrongExplains": {
+        "0": "The lowest part is the medulla. The midbrain is the highest part of the brainstem.",
+        "2": "The midbrain is part of the brainstem, not the cerebrum.",
+        "3": "The cerebellum is attached to the brainstem but is a separate structure."
+      }
     },
     {
-      "q": "The cerebellum is attached to the BACK of the brainstem.",
+      "q": "What is the pons?",
       "options": [
-        "True",
-        "False"
+        "The top of the brainstem",
+        "The middle part of the brainstem",
+        "Part of the cerebellum",
+        "The spinal cord"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The cerebellum hangs off the back of the brainstem like a small cauliflower. It's connected to the brainstem but is NOT part of it."
+      "explain": "The PONS is the MIDDLE part of the brainstem, sitting between the midbrain and medulla. 'Pons' means BRIDGE — it relays signals and helps control breathing.",
+      "wrongExplains": {
+        "0": "The top is the midbrain. The pons is in the middle.",
+        "2": "The pons is part of the brainstem, not the cerebellum.",
+        "3": "The pons is above the spinal cord, between midbrain and medulla."
+      }
     },
     {
-      "q": "The midbrain is the upper part of the brainstem.",
+      "q": "What is the medulla oblongata?",
       "options": [
-        "True",
-        "False"
+        "The highest part of the brainstem",
+        "The lowest part of the brainstem, continuous with the spinal cord",
+        "Part of the cerebrum",
+        "A cranial nerve"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The midbrain is the most superior (highest) part of the brainstem. It contains reflex centers for vision and hearing."
+      "explain": "The MEDULLA OBLONGATA is the LOWEST part of the brainstem, where it becomes continuous with the spinal cord. It controls HEART RATE and BREATHING — damage it, and you die.",
+      "wrongExplains": {
+        "0": "The highest part is the midbrain. The medulla is the lowest, connecting to the spinal cord.",
+        "2": "The medulla is part of the brainstem, not the cerebrum.",
+        "3": "The medulla is a brain region. Cranial nerves emerge from the brainstem."
+      }
     },
     {
-      "q": "The pons is the middle part of the brainstem.",
+      "q": "Is the cerebrum part of the brainstem?",
       "options": [
-        "True",
-        "False"
+        "Yes, the cerebrum is the top of the brainstem",
+        "No, the cerebrum sits ON TOP of the brainstem",
+        "Yes, they are the same structure",
+        "The cerebrum doesn't exist"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The pons sits between the midbrain and medulla. 'Pons' means bridge - it relays signals and helps control breathing."
+      "explain": "NO! The CEREBRUM (the wrinkled dome) sits ABOVE the brainstem. The brainstem is the stalk underneath — they are separate structures.",
+      "wrongExplains": {
+        "0": "The cerebrum is not part of the brainstem. It sits above and is a separate structure.",
+        "2": "They are different structures. The cerebrum is for conscious thought; the brainstem is for vital functions.",
+        "3": "The cerebrum definitely exists — it's the largest part of the brain."
+      }
     },
     {
-      "q": "The medulla oblongata is the lowest part of the brainstem, continuous with the spinal cord.",
+      "q": "Is the cerebellum part of the brainstem?",
       "options": [
-        "True",
-        "False"
+        "Yes, the cerebellum is inside the brainstem",
+        "No, the cerebellum attaches to the BACK of the brainstem",
+        "Yes, they are the same structure",
+        "The cerebellum is in the spinal cord"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The medulla is where the brainstem becomes the spinal cord. It controls heart rate and breathing - damage it, and you die."
+      "explain": "NO! The CEREBELLUM hangs off the BACK of the brainstem like a small cauliflower. It's CONNECTED to the brainstem but is NOT PART of it.",
+      "wrongExplains": {
+        "0": "The cerebellum is attached to the back of the brainstem, not inside it.",
+        "2": "They are different structures with different functions.",
+        "3": "The cerebellum is attached to the brainstem, not in the spinal cord."
+      }
     },
     {
-      "q": "The brainstem has three parts: midbrain, pons, and medulla oblongata.",
+      "q": "What are the three parts of the brainstem from top to bottom?",
       "options": [
-        "True",
-        "False"
+        "Cerebrum, cerebellum, spinal cord",
+        "Midbrain, pons, medulla oblongata",
+        "Cortex, white matter, basal nuclei",
+        "Frontal, parietal, occipital lobes"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! From top to bottom: midbrain → pons → medulla. Three structures stacked like a neural totem pole. The cerebrum and cerebellum are NOT part of the brainstem."
+      "explain": "From top to bottom: MIDBRAIN → PONS → MEDULLA OBLONGATA. Three structures stacked like a neural totem pole. The cerebrum and cerebellum are NOT part of the brainstem.",
+      "wrongExplains": {
+        "0": "Those are major brain divisions, but not the parts of the brainstem.",
+        "2": "Those are regions of the cerebrum, not parts of the brainstem.",
+        "3": "Those are lobes of the cerebrum, not parts of the brainstem."
+      }
     },
     {
-      "q": "The brainstem consists of the midbrain, pons, and medulla - NOT the cerebrum or cerebellum.",
+      "q": "The brainstem consists of what structures?",
       "options": [
-        "True",
-        "False"
+        "Cerebrum and cerebellum",
+        "Midbrain, pons, and medulla oblongata",
+        "Frontal and temporal lobes",
+        "Cortex and basal nuclei"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! The answer is midbrain + pons + medulla. The cerebrum sits on top, the cerebellum hangs on back - neither is part of the brainstem itself."
+      "explain": "The brainstem consists of MIDBRAIN, PONS, and MEDULLA OBLONGATA. The cerebrum sits on top, the cerebellum hangs on back — neither is part of the brainstem itself.",
+      "wrongExplains": {
+        "0": "The cerebrum and cerebellum are separate from the brainstem — they're attached but not part of it.",
+        "2": "The frontal and temporal lobes are parts of the cerebrum, not the brainstem.",
+        "3": "The cortex and basal nuclei are parts of the cerebrum, not the brainstem."
+      }
     }
   ]
 }

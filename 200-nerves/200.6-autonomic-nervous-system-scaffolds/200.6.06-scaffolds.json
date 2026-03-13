@@ -1,26 +1,159 @@
 {
   "parentId": "200.6.06",
-  "parentQuestion": "Sympathetic postganglionic neurons typically release ___, which acts on adrenerg...",
+  "parentQuestion": "Sympathetic postganglionic neurons typically release ___, which acts on adrenergic receptors.",
   "scaffolds": [
     {
-      "q": "Norepinephrine is closely related to epinephrine (adrenaline).",
+      "q": "What is the main neurotransmitter released by sympathetic postganglionic neurons?",
       "options": [
-        "True",
-        "False"
+        "Acetylcholine",
+        "Norepinephrine (NE)",
+        "Serotonin",
+        "GABA"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "NE and epinephrine are catecholamines — they're synthesized from the same pathway (tyrosine → DOPA → dopamine → NE → epinephrine). Keep pace with this:: NE is the neurotransmitter at nerve terminals; epinephrine is primarily the hormone from the adrenal medulla. Same family, different delivery."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Sympathetic postganglionic neurons release NOREPINEPHRINE (also called noradrenaline). This is the 'fight-or-flight' neurotransmitter at target organs.",
+      "wrongExplains": {
+        "0": "ACh is used by preganglionic neurons and parasympathetic postganglionic neurons, not most sympathetic postganglionic.",
+        "2": "Serotonin is important in the CNS and gut, but not the sympathetic postganglionic neurotransmitter.",
+        "3": "GABA is the main inhibitory transmitter in the brain, not used by sympathetic neurons at target organs."
+      }
     },
     {
-      "q": "Different receptor types can produce different effects from the same neurotransmitter.",
+      "q": "Norepinephrine is also called ___.",
       "options": [
-        "True",
-        "False"
+        "Adrenaline",
+        "Noradrenaline",
+        "Acetylcholine",
+        "Dopamine"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Press onward: into this beautiful complexity — NE can cause vasoconstriction (via α1 receptors) or vasodilation (via β2 receptors), depending on which receptor predominates in that tissue. The receptor determines the response. Same molecule, different outcome. Exquisite specificity."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Norepinephrine = NORADRENALINE. The 'nor-' means 'without a methyl group' compared to adrenaline. Same molecule, two naming systems (American vs. European).",
+      "wrongExplains": {
+        "0": "Adrenaline is epinephrine, not norepinephrine. Norepinephrine is noradrenaline.",
+        "2": "Acetylcholine is a completely different neurotransmitter used at other synapses.",
+        "3": "Dopamine is a precursor to norepinephrine but is a different molecule with different functions."
+      }
+    },
+    {
+      "q": "What is the relationship between norepinephrine and epinephrine?",
+      "options": [
+        "They're completely unrelated",
+        "They're closely related catecholamines from the same synthesis pathway",
+        "Epinephrine is converted into norepinephrine",
+        "They're the same molecule"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "NE and epinephrine are both CATECHOLAMINES synthesized from the same pathway: tyrosine → DOPA → dopamine → norepinephrine → epinephrine. They're chemical relatives.",
+      "wrongExplains": {
+        "0": "They're very closely related — epinephrine is made FROM norepinephrine by adding a methyl group.",
+        "2": "The conversion goes the other way: norepinephrine is converted INTO epinephrine (in the adrenal medulla).",
+        "3": "They're similar but different molecules. Epinephrine has an extra methyl group."
+      }
+    },
+    {
+      "q": "Receptors that bind norepinephrine and epinephrine are called ___.",
+      "options": [
+        "Cholinergic receptors",
+        "Adrenergic receptors",
+        "Dopaminergic receptors",
+        "Nicotinic receptors"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "ADRENERGIC receptors bind adrenaline-like molecules (norepinephrine and epinephrine). 'Adren-' refers to adrenaline/adrenal. These are the targets of sympathetic activation.",
+      "wrongExplains": {
+        "0": "Cholinergic receptors bind acetylcholine, not norepinephrine.",
+        "2": "Dopaminergic receptors bind dopamine. Though related, NE uses adrenergic receptors.",
+        "3": "Nicotinic receptors are a type of cholinergic receptor for ACh, not for NE."
+      }
+    },
+    {
+      "q": "What are the two main types of adrenergic receptors?",
+      "options": [
+        "Nicotinic and muscarinic",
+        "Alpha (α) and beta (β)",
+        "Fast and slow",
+        "Excitatory and inhibitory"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Adrenergic receptors are divided into ALPHA (α) and BETA (β) types. Each has subtypes (α1, α2, β1, β2, β3) with different effects in different tissues.",
+      "wrongExplains": {
+        "0": "Nicotinic and muscarinic are types of CHOLINERGIC receptors for ACh, not adrenergic.",
+        "2": "While response times vary, the main classification is alpha and beta, not fast/slow.",
+        "3": "Both alpha and beta can be excitatory or inhibitory depending on tissue — that's not the classification system."
+      }
+    },
+    {
+      "q": "The same neurotransmitter (NE) can have different effects in different tissues. Why?",
+      "options": [
+        "NE changes its chemical structure",
+        "Different tissues have different receptor types (α vs β)",
+        "The nervous system decides the effect",
+        "Effects are always the same"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The RECEPTOR determines the effect, not the neurotransmitter alone. NE binding to α1 receptors causes vasoconstriction; NE binding to β2 receptors causes vasodilation. Same molecule, different receptor, different outcome.",
+      "wrongExplains": {
+        "0": "NE stays chemically identical. The tissue's receptor type determines the response.",
+        "2": "The nervous system releases NE, but the tissue's receptor type determines how it responds.",
+        "3": "Effects definitely vary by tissue. Blood vessels constrict (α1) while bronchioles dilate (β2) — opposite effects from the same transmitter."
+      }
+    },
+    {
+      "q": "NE on α1 receptors in blood vessels causes ___.",
+      "options": [
+        "Vasodilation (vessels widen)",
+        "Vasoconstriction (vessels narrow)",
+        "No effect",
+        "Vessel rupture"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "α1 receptor activation causes VASOCONSTRICTION — blood vessels narrow. This increases blood pressure and redirects blood to muscles during fight-or-flight.",
+      "wrongExplains": {
+        "0": "Vasodilation occurs with β2 receptors, not α1. α1 causes constriction.",
+        "2": "There IS a significant effect — vasoconstriction raises blood pressure.",
+        "3": "Physiological vasoconstriction is controlled and beneficial, not damaging."
+      }
+    },
+    {
+      "q": "NE on β1 receptors in the heart causes ___.",
+      "options": [
+        "Heart rate to decrease",
+        "Heart rate and force to increase",
+        "The heart to stop",
+        "No cardiac effect"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "β1 receptor activation in the heart INCREASES heart rate (chronotropy) and contraction force (inotropy). This is the classic sympathetic cardiac response.",
+      "wrongExplains": {
+        "0": "Decreasing heart rate is a PARASYMPATHETIC effect via ACh on muscarinic receptors.",
+        "2": "Sympathetic activation speeds the heart up, never stops it. That would defeat the fight-or-flight purpose.",
+        "3": "β1 receptors are the primary adrenergic receptors in the heart — there's definitely an effect."
+      }
+    },
+    {
+      "q": "Which is an exception — a sympathetic postganglionic neuron that releases ACh instead of NE?",
+      "options": [
+        "Neurons to the heart",
+        "Neurons to sweat glands",
+        "Neurons to blood vessels",
+        "There are no exceptions"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "SWEAT GLANDS are the classic exception: sympathetic postganglionic neurons to sweat glands release ACh, not NE. This is anatomically sympathetic but biochemically 'cholinergic sympathetic.'",
+      "wrongExplains": {
+        "0": "Neurons to the heart release NE (acting on β1 receptors). Standard sympathetic.",
+        "2": "Neurons to most blood vessels release NE (causing vasoconstriction via α1). Standard sympathetic.",
+        "3": "There IS an important exception: sweat gland innervation uses ACh despite being sympathetic."
+      }
     }
   ]
 }

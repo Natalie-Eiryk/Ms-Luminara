@@ -1,98 +1,159 @@
 {
   "parentId": "200.5.11",
-  "parentQuestion": "A patient cant turn their head to the left or shrug their left shoulder. Which nerve is damaged?",
+  "parentQuestion": "A patient can't turn their head to the left or shrug their left shoulder. Which nerve is damaged?",
   "scaffolds": [
     {
-      "q": "You can turn your head left and right to look around.",
+      "q": "Which cranial nerve controls the muscles for head turning and shoulder shrugging?",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! Muscles in your neck rotate your head. When you shake your head no, youre using these neck-turning muscles."
-    },
-    {
-      "q": "Shrugging your shoulders lifts them up toward your ears.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Exactly! The trapezius muscle lifts your shoulders when you shrug. Its a big muscle running from your skull down to your mid-back."
-    },
-    {
-      "q": "CN XI is the abbreviation for Cranial Nerve number ___.",
-      "options": [
-        "Ten",
-        "Eleven",
-        "Twelve",
-        "Twenty-one"
+        "CN X (vagus)",
+        "CN XI (accessory)",
+        "CN XII (hypoglossal)",
+        "CN VII (facial)"
       ],
       "answer": 1,
       "difficulty": "foundation",
-      "explain": "CN XI = Cranial Nerve Eleven! In Roman numerals, XI = 11. The accessory nerve is the eleventh cranial nerve."
+      "explain": "CN XI (accessory nerve) controls the sternocleidomastoid muscle (head turning) and trapezius muscle (shoulder shrugging). It's the only cranial nerve with this specific job.",
+      "wrongExplains": {
+        "0": "CN X (vagus) controls heart, lungs, gut, and voice. It doesn't control skeletal muscles for head turning or shoulder movement.",
+        "2": "CN XII (hypoglossal) controls TONGUE muscles only. Head and shoulder movements use completely different muscles controlled by CN XI.",
+        "3": "CN VII (facial) controls facial EXPRESSION muscles (smiling, frowning). It doesn't control neck or shoulder muscles."
+      }
     },
     {
-      "q": "The accessory nerve helps with movements of the head and shoulders.",
+      "q": "The sternocleidomastoid (SCM) muscle does which action?",
       "options": [
-        "True",
-        "False"
+        "Shrugs the shoulders",
+        "Turns the head",
+        "Opens the mouth",
+        "Raises the eyebrows"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! CN XI controls the sternocleidomastoid (turns head) and trapezius (shrugs shoulders). Its called accessory because it assists other nerves."
+      "explain": "The sternocleidomastoid TURNS the head. It runs from the sternum and clavicle up to the mastoid process (behind the ear). When one side contracts, it turns your head to the OPPOSITE side.",
+      "wrongExplains": {
+        "0": "Shoulder shrugging is done by the TRAPEZIUS muscle (also controlled by CN XI). The SCM specifically handles head rotation.",
+        "2": "Opening the mouth involves jaw muscles (masseter, pterygoids) controlled by CN V. The SCM is a neck muscle for head rotation.",
+        "3": "Raising eyebrows uses the frontalis muscle controlled by CN VII (facial). The SCM is nowhere near the forehead."
+      }
     },
     {
-      "q": "If a nerve controlling a muscle is damaged, that muscle stops working.",
+      "q": "The trapezius muscle does which action?",
       "options": [
-        "True",
-        "False"
+        "Turns the head side to side",
+        "Shrugs the shoulders upward",
+        "Moves the tongue",
+        "Closes the eyes"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Right! Without nerve signals, muscles cant contract. Damage to CN XI means you cant turn your head or shrug your shoulder on that side."
+      "explain": "The trapezius SHRUGS the shoulders (elevates them toward the ears). It's a large diamond-shaped muscle running from the skull down to the mid-back. CN XI controls it.",
+      "wrongExplains": {
+        "0": "Head turning is done by the STERNOCLEIDOMASTOID (also controlled by CN XI). The trapezius is primarily for shoulder elevation.",
+        "2": "Tongue movement is controlled by CN XII (hypoglossal). The trapezius is a back/shoulder muscle with no tongue involvement.",
+        "3": "Closing the eyes uses the orbicularis oculi controlled by CN VII. The trapezius is a back/shoulder muscle, not a facial muscle."
+      }
     },
     {
-      "q": "The right and left sides of your neck have separate nerves.",
+      "q": "Here's the tricky part: to turn your head LEFT, which SCM muscle contracts?",
       "options": [
-        "True",
-        "False"
+        "Left SCM",
+        "Right SCM",
+        "Both equally",
+        "Neither — different muscles do this"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Correct! Left CN XI controls left-side movements, right CN XI controls right-side movements. Damage affects only the damaged side."
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The RIGHT SCM turns your head LEFT! This is counterintuitive. The muscle pulls from one side, rotating your head to look the opposite way. Right muscle = look left. Left muscle = look right.",
+      "wrongExplains": {
+        "0": "The left SCM turns your head RIGHT, not left. The muscle pulls from behind, so it turns your face away from the contracting side.",
+        "2": "For pure rotation, one SCM contracts while the other relaxes. Both contracting together would flex the neck forward, not turn it.",
+        "3": "The SCM is THE muscle for head turning. While other muscles assist, the SCM is the primary rotator controlled by CN XI."
+      }
     },
     {
-      "q": "To turn your head left, the right sternocleidomastoid muscle contracts.",
+      "q": "If the LEFT CN XI is damaged, the patient can't turn their head to which side?",
       "options": [
-        "True",
-        "False"
+        "Left",
+        "Right",
+        "Both sides",
+        "They can turn normally"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! Its counterintuitive, but the muscle on the opposite side does the turning. Right muscle pulls your head to look left, and vice versa."
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Left CN XI damage = can't turn head RIGHT. Remember the crossover: left SCM turns the head right. So left nerve damage means the left SCM is weak, and rightward head turning fails.",
+      "wrongExplains": {
+        "0": "Turning left uses the RIGHT SCM (controlled by right CN XI). Left CN XI damage affects rightward turning, not leftward turning.",
+        "2": "Only one side is affected because each CN XI controls its own side's muscles. The other side's muscles still work normally.",
+        "3": "Without the left SCM working, the patient definitely can't turn their head to the right as strongly. The weakness is real."
+      }
     },
     {
-      "q": "CN XI controls the sternocleidomastoid and trapezius muscles.",
+      "q": "In this patient who can't turn left or shrug the left shoulder, which CN XI is damaged?",
       "options": [
-        "True",
-        "False"
+        "Right CN XI",
+        "Left CN XI",
+        "Both CN XI nerves",
+        "CN XI is not the problem"
       ],
       "answer": 0,
       "difficulty": "intermediate",
-      "explain": "The accessory nerve (CN XI) innervates these two muscles. The sternocleidomastoid turns the head, the trapezius elevates the shoulder."
+      "explain": "RIGHT CN XI is damaged. Remember the crossover: to turn LEFT, you need the RIGHT SCM. And the shoulder shrug weakness is on the SAME side as the nerve damage. Right nerve = can't turn left + can't shrug right shoulder.",
+      "wrongExplains": {
+        "1": "Left CN XI damage would prevent turning the head RIGHT (not left) because the left SCM turns the head rightward. The symptoms don't match left-sided damage.",
+        "2": "If both were damaged, the patient couldn't turn OR shrug on EITHER side. This patient has one-sided symptoms, suggesting one-sided damage.",
+        "3": "These are classic CN XI symptoms — head turning + shoulder shrug weakness. The combination screams CN XI damage."
+      }
     },
     {
-      "q": "Damage to CN XI on one side affects head turning and shoulder shrug on that side.",
+      "q": "Why is CN XI called the 'accessory' nerve?",
       "options": [
-        "True",
-        "False"
+        "It's optional and not needed",
+        "It was discovered as an 'addition' to CN X",
+        "It only works sometimes",
+        "It controls accessories like hats"
       ],
-      "answer": 0,
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN XI was historically considered an 'accessory' (addition) to the vagus nerve (CN X) because they exit near each other and share some fibers. It's not 'optional' — it's essential for head and shoulder movement.",
+      "wrongExplains": {
+        "0": "CN XI is absolutely needed! Without it, you can't turn your head or shrug your shoulders properly. 'Accessory' refers to its anatomical relationship to CN X, not its importance.",
+        "2": "CN XI works all the time in healthy people. It's not intermittent. The name has nothing to do with reliability.",
+        "3": "The nerve has nothing to do with clothing or accessories. The anatomical term 'accessory' means it was seen as an addition to another structure."
+      }
+    },
+    {
+      "q": "A doctor tests CN XI by asking the patient to do what TWO movements?",
+      "options": [
+        "Smile and close eyes",
+        "Shrug shoulders and turn head against resistance",
+        "Stick out tongue and swallow",
+        "Look up and look sideways"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The doctor tests SHOULDER SHRUG and HEAD TURNING against resistance. If the patient can't resist the doctor pushing against these movements, CN XI may be damaged.",
+      "wrongExplains": {
+        "0": "Smiling and closing eyes tests CN VII (facial nerve). Different nerve, different test.",
+        "2": "Sticking out the tongue tests CN XII (hypoglossal). Swallowing involves CN IX and X. Neither tests CN XI.",
+        "3": "Looking up and sideways tests the eye movement nerves (CN III, IV, VI). Eye movements have nothing to do with CN XI."
+      }
+    },
+    {
+      "q": "CN XI is classified as purely ___.",
+      "options": [
+        "Sensory",
+        "Motor",
+        "Mixed (sensory + motor)",
+        "Autonomic"
+      ],
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "CN XI damage causes weakness in turning the head (to the opposite side) and shrugging the shoulder (on the same side)."
+      "explain": "CN XI is purely MOTOR — it only carries commands TO muscles (SCM and trapezius). It doesn't carry any sensory information back to the brain. The purely motor cranial nerves are CN III, IV, VI, XI, and XII.",
+      "wrongExplains": {
+        "0": "Purely sensory nerves carry information TO the brain (like CN I, II, VIII). CN XI carries motor commands FROM the brain to muscles.",
+        "2": "Mixed nerves have both sensory and motor fibers (like CN V, VII, IX, X). CN XI is simple — just motor output to two muscles.",
+        "3": "Autonomic functions (heart rate, digestion) are mainly handled by CN X (vagus). CN XI controls voluntary skeletal muscles, not autonomic functions."
+      }
     }
   ]
 }

@@ -3,94 +3,157 @@
   "parentQuestion": "A patient presents after a spinal cord injury with loss of pain and temperature sensation on the LEFT side below the lesion, but motor weakness and loss of proprioception/vibration on the RIGHT side below the lesion. This clinical pattern suggests damage to ___.",
   "scaffolds": [
     {
-      "q": "The spinal cord has a left side and a right side.",
+      "q": "Does the spinal cord have distinct left and right sides?",
       "options": [
-        "True",
-        "False"
+        "No, it's completely uniform",
+        "Yes, it has symmetrical left and right halves",
+        "Only the brain has sides",
+        "The spinal cord is a single tube"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The spinal cord is symmetrical, with left and right halves. Each side primarily controls and receives information from its respective side of the body."
+      "explain": "The spinal cord is SYMMETRICAL with LEFT and RIGHT halves. Each side primarily controls and receives information from its respective side of the body.",
+      "wrongExplains": {
+        "0": "The spinal cord has distinct anatomical halves with different functions.",
+        "2": "Both brain and spinal cord have bilateral symmetry with left and right sides.",
+        "3": "While the cord does have a central canal, it's organized into distinct left and right halves."
+      }
     },
     {
-      "q": "Motor pathways control muscle movement.",
+      "q": "What do motor pathways do?",
       "options": [
-        "True",
-        "False"
+        "Carry sensory information to the brain",
+        "Control muscle movement",
+        "Produce hormones",
+        "Filter blood"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Motor pathways (like the corticospinal tract) carry commands from the brain DOWN to muscles, telling them when and how to contract."
+      "explain": "MOTOR PATHWAYS (like the corticospinal tract) carry commands from the brain DOWN to muscles, telling them when and how to contract.",
+      "wrongExplains": {
+        "0": "That's what SENSORY pathways do. Motor pathways carry commands OUT to muscles.",
+        "2": "Hormones are produced by endocrine glands. Motor pathways control movement.",
+        "3": "Kidneys filter blood. Motor pathways are neural circuits for movement."
+      }
     },
     {
-      "q": "Proprioception is your sense of body position - knowing where your limbs are without looking.",
+      "q": "What is proprioception?",
       "options": [
-        "True",
-        "False"
+        "The sense of taste",
+        "The sense of body position — knowing where limbs are without looking",
+        "The sense of smell",
+        "The sense of hearing"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Proprioception lets you touch your nose with your eyes closed, walk without watching your feet, and sense where your body is in space. It's your internal GPS."
+      "explain": "PROPRIOCEPTION is your sense of BODY POSITION. It lets you touch your nose with eyes closed, walk without watching your feet, and sense where your body is in space. It's your internal GPS.",
+      "wrongExplains": {
+        "0": "Taste is gustation. Proprioception is position sense.",
+        "2": "Smell is olfaction. Proprioception tells you where your body parts are.",
+        "3": "Hearing is audition. Proprioception is the sense of body position."
+      }
     },
     {
-      "q": "Some sensory pathways 'cross over' (decussate) in the spinal cord, while others cross higher up in the brainstem.",
+      "q": "Where do different sensory pathways cross (decussate)?",
       "options": [
-        "True",
-        "False"
+        "All pathways cross at the same level",
+        "Pain/temp crosses in spinal cord; proprioception crosses in brainstem",
+        "Neither pathway crosses",
+        "They cross in the muscles"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Different pathways cross at different levels. Pain/temperature crosses EARLY (in the spinal cord). Proprioception/vibration crosses LATE (in the brainstem). This is KEY to understanding crossed deficits!"
+      "explain": "Different pathways cross at DIFFERENT LEVELS. Pain/temperature crosses EARLY (in the spinal cord). Proprioception/vibration crosses LATE (in the brainstem). This is KEY to understanding crossed deficits!",
+      "wrongExplains": {
+        "0": "The different crossing levels create the distinctive pattern of Brown-Sequard syndrome.",
+        "2": "Both pathways do cross — just at different levels. That's clinically important.",
+        "3": "Neural pathways cross in the CNS (spinal cord or brainstem), not in muscles."
+      }
     },
     {
-      "q": "Pain and temperature sensations are carried by the spinothalamic tract.",
+      "q": "Which tract carries pain and temperature sensations?",
       "options": [
-        "True",
-        "False"
+        "Dorsal columns",
+        "Spinothalamic tract",
+        "Corticospinal tract",
+        "Rubrospinal tract"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The spinothalamic tract carries pain and temperature signals. Importantly, these fibers CROSS to the opposite side within 1-2 segments of entering the spinal cord."
+      "explain": "The SPINOTHALAMIC TRACT carries pain and temperature signals. Importantly, these fibers CROSS to the opposite side within 1-2 segments of entering the spinal cord.",
+      "wrongExplains": {
+        "0": "Dorsal columns carry proprioception and vibration. Spinothalamic carries pain/temp.",
+        "2": "Corticospinal tract is motor (descending). Spinothalamic is sensory (ascending).",
+        "3": "Rubrospinal tract is a motor pathway. Spinothalamic carries pain/temperature."
+      }
     },
     {
-      "q": "Proprioception and vibration are carried by the dorsal columns (posterior columns).",
+      "q": "Which pathway carries proprioception and vibration?",
       "options": [
-        "True",
-        "False"
+        "Spinothalamic tract",
+        "Dorsal columns (posterior columns)",
+        "Corticospinal tract",
+        "Spinocerebellar tract"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The dorsal columns carry proprioception, vibration, and fine touch. These fibers stay on the SAME side until they reach the brainstem, where they finally cross."
+      "explain": "The DORSAL COLUMNS carry proprioception, vibration, and fine touch. These fibers stay on the SAME side until they reach the brainstem, where they finally cross.",
+      "wrongExplains": {
+        "0": "Spinothalamic carries pain/temperature. Dorsal columns carry proprioception.",
+        "2": "Corticospinal is a motor pathway. Dorsal columns are sensory.",
+        "3": "Spinocerebellar carries unconscious proprioception to cerebellum. Dorsal columns go to cortex."
+      }
     },
     {
-      "q": "Motor pathways (corticospinal tract) have already crossed in the brainstem before reaching the spinal cord.",
+      "q": "Where do motor pathways (corticospinal tract) cross?",
       "options": [
-        "True",
-        "False"
+        "They don't cross at all",
+        "In the medulla (brainstem), before reaching the spinal cord",
+        "In the muscles themselves",
+        "In the cerebral cortex"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The corticospinal tract crosses in the medulla (brainstem) before descending into the spinal cord. So the right side of the spinal cord controls the right side of the body."
+      "explain": "The CORTICOSPINAL TRACT crosses in the MEDULLA (brainstem) before descending into the spinal cord. So the right side of the spinal cord controls the right side of the body below that level.",
+      "wrongExplains": {
+        "0": "The corticospinal tract definitely crosses — that's why the left brain controls right body.",
+        "2": "Crossing occurs in the CNS (brainstem), not peripherally in muscles.",
+        "3": "The crossing (decussation) happens in the medulla, at the pyramids."
+      }
     },
     {
-      "q": "Brown-Sequard syndrome occurs when ONE HALF of the spinal cord is damaged (hemisection).",
+      "q": "What is Brown-Sequard syndrome?",
       "options": [
-        "True",
-        "False"
+        "Complete spinal cord transection",
+        "Damage to ONE HALF of the spinal cord (hemisection)",
+        "A brain tumor",
+        "A disease of the muscles"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Brown-Sequard syndrome is caused by damage to one lateral half of the spinal cord. Because different pathways cross at different levels, you get a distinctive pattern of SAME-side and OPPOSITE-side deficits."
+      "explain": "BROWN-SEQUARD SYNDROME is caused by damage to one lateral half of the spinal cord (hemisection). Because pathways cross at different levels, you get distinctive SAME-side and OPPOSITE-side deficits.",
+      "wrongExplains": {
+        "0": "Complete transection affects both sides equally. Brown-Sequard is hemisection (one side).",
+        "2": "It's a spinal cord syndrome, not a brain tumor.",
+        "3": "It affects the spinal cord pathways, not muscle tissue directly."
+      }
     },
     {
-      "q": "In Brown-Sequard syndrome, motor loss and proprioception loss occur on the SAME side as the injury, while pain/temperature loss occurs on the OPPOSITE side.",
+      "q": "In Brown-Sequard syndrome, why is motor loss on one side but pain loss on the other?",
       "options": [
-        "True",
-        "False"
+        "It's random",
+        "Motor and proprioception haven't crossed yet; pain/temp already crossed",
+        "They use the same pathway",
+        "Pain isn't affected"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Motor tracts and dorsal columns haven't crossed yet at the spinal level (they cross in the brainstem), so damage causes SAME-side deficits. But spinothalamic fibers HAVE already crossed, so damage affects OPPOSITE-side pain/temperature. The crossing patterns create this dissociation."
+      "explain": "Motor tracts and dorsal columns haven't crossed yet at the spinal level (they cross in brainstem), so damage causes SAME-side deficits. But spinothalamic fibers HAVE already crossed, so damage affects OPPOSITE-side pain/temperature. The crossing patterns create this dissociation.",
+      "wrongExplains": {
+        "0": "The pattern is predictable based on where each pathway crosses.",
+        "2": "Motor and pain use completely different pathways that cross at different levels.",
+        "3": "Pain sensation is definitely affected — it's lost on the opposite side of the lesion."
+      }
     }
   ]
 }

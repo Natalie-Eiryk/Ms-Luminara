@@ -3,94 +3,157 @@
   "parentQuestion": "The obturator and femoral nerves branch from which plexus?",
   "scaffolds": [
     {
-      "q": "The thigh has muscles on the front (anterior) and inside (medial).",
+      "q": "What is the lumbar plexus?",
       "options": [
-        "True",
-        "False"
+        "A muscle in the back",
+        "The nerve network formed from L1-L4 spinal nerves",
+        "A bone in the pelvis",
+        "A blood vessel in the leg"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The anterior thigh has muscles for straightening the knee (quadriceps). The medial thigh has muscles for squeezing your legs together (adductors)."
+      "explain": "The LUMBAR PLEXUS is a NERVE NETWORK formed from L1-L4 spinal nerves in the lower back. It supplies the lower abdomen, front of the thigh, and inner thigh.",
+      "wrongExplains": {
+        "0": "The lumbar plexus is nerves, not muscle. Muscles are supplied BY the plexus.",
+        "2": "Bones are different from plexuses. The lumbar vertebrae are nearby but distinct.",
+        "3": "Blood vessels carry blood. The lumbar plexus carries nerve signals."
+      }
     },
     {
-      "q": "The lumbar region refers to the lower back.",
+      "q": "What does the femoral nerve control?",
       "options": [
-        "True",
-        "False"
+        "Muscles of the arm",
+        "Muscles that straighten (extend) the knee (quadriceps)",
+        "Muscles of the face",
+        "Muscles of the chest"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Lumbar = lower back. You have 5 lumbar vertebrae (L1-L5). The lumbar plexus is formed from spinal nerves in this region."
+      "explain": "The FEMORAL NERVE controls the QUADRICEPS — the powerful muscles on the front of your thigh that EXTEND (straighten) your knee. Damage it, and your knee buckles when walking.",
+      "wrongExplains": {
+        "0": "Arm muscles are controlled by the brachial plexus. The femoral nerve is for the thigh.",
+        "2": "Facial muscles use cranial nerve VII. The femoral nerve is in the leg.",
+        "3": "Chest muscles use thoracic nerves. The femoral nerve is for the thigh."
+      }
     },
     {
-      "q": "The lumbar plexus is formed from spinal nerves L1-L4.",
+      "q": "What does the obturator nerve control?",
       "options": [
-        "True",
-        "False"
+        "Muscles of the hand",
+        "Muscles that squeeze the legs together (adductors)",
+        "Muscles of the neck",
+        "Muscles of the back"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The lumbar plexus (L1-L4) supplies the lower abdomen, anterior thigh, and medial thigh. It's the electrical panel for the front of your leg."
+      "explain": "The OBTURATOR NERVE controls the ADDUCTOR muscles on the inner thigh. These muscles bring your legs TOGETHER (adduction). They're important for stability when walking.",
+      "wrongExplains": {
+        "0": "Hand muscles use ulnar and median nerves. The obturator is in the thigh.",
+        "2": "Neck muscles use cervical nerves. The obturator is for the inner thigh.",
+        "3": "Back muscles use posterior rami. The obturator is for leg adduction."
+      }
     },
     {
-      "q": "The femoral nerve supplies the muscles that straighten (extend) the knee.",
+      "q": "What does 'lumbar' refer to?",
       "options": [
-        "True",
-        "False"
+        "The neck region",
+        "The lower back region",
+        "The head",
+        "The foot"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The femoral nerve innervates the quadriceps - the powerful muscles on the front of your thigh that extend your knee. Damage it, and your knee buckles."
+      "explain": "LUMBAR refers to the LOWER BACK region. You have 5 lumbar vertebrae (L1-L5). The lumbar plexus is formed from nerves exiting this spinal region.",
+      "wrongExplains": {
+        "0": "The neck is cervical. Lumbar is the lower back.",
+        "2": "The head is cranial or cephalic. Lumbar is the lower back.",
+        "3": "The foot is pedal. Lumbar refers to the lower back."
+      }
     },
     {
-      "q": "The obturator nerve supplies the muscles that squeeze your legs together (adductors).",
+      "q": "Which spinal nerve roots form the femoral and obturator nerves?",
       "options": [
-        "True",
-        "False"
+        "C5-C6",
+        "L2-L4",
+        "S1-S3",
+        "T1-T4"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The obturator nerve innervates the adductor muscles on the inner thigh. These muscles bring your legs together (adduct them)."
+      "explain": "Both the femoral and obturator nerves come from L2, L3, and L4 roots within the lumbar plexus. Same roots, different destinations — femoral goes anterior, obturator goes medial.",
+      "wrongExplains": {
+        "0": "C5-C6 are cervical roots for the arm. Femoral and obturator are from lumbar roots.",
+        "2": "S1-S3 are sacral roots for the sciatic nerve. These thigh nerves are from L2-L4.",
+        "3": "T1-T4 are thoracic roots for the chest. The thigh uses lumbar roots."
+      }
     },
     {
-      "q": "Both the femoral and obturator nerves come from L2-L4 spinal levels.",
+      "q": "What part of the thigh does the lumbar plexus supply?",
       "options": [
-        "True",
-        "False"
+        "Only the back of the thigh",
+        "The front (anterior) and inner (medial) thigh",
+        "Only the foot",
+        "Only the buttock"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Both nerves arise from L2, L3, and L4 roots within the lumbar plexus. Same roots, different destinations - one goes anterior, one goes medial."
+      "explain": "The lumbar plexus supplies the ANTERIOR (front) and MEDIAL (inner) thigh via the femoral and obturator nerves. The posterior thigh is supplied by the sacral plexus (sciatic nerve).",
+      "wrongExplains": {
+        "0": "The back of the thigh is sacral plexus territory (sciatic nerve).",
+        "2": "The foot is mostly supplied by branches of the sciatic nerve from the sacral plexus.",
+        "3": "The buttock is supplied by the sacral plexus (superior/inferior gluteal nerves)."
+      }
     },
     {
-      "q": "The lumbar plexus supplies the front and inner parts of the thigh.",
+      "q": "Where does the femoral nerve pass to reach the thigh?",
       "options": [
-        "True",
-        "False"
+        "Through the spinal cord",
+        "Under the inguinal ligament at the groin",
+        "Through the chest",
+        "Over the shoulder"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Lumbar plexus nerves go to the anterior thigh (femoral) and medial thigh (obturator). The back of the thigh is supplied by the sacral plexus (sciatic nerve)."
+      "explain": "The femoral nerve exits the pelvis by passing UNDER THE INGUINAL LIGAMENT at the groin crease. It then supplies the quadriceps and gives sensation to the anterior thigh and medial leg.",
+      "wrongExplains": {
+        "0": "The nerve exits the spinal cord but passes through the pelvis to reach the thigh.",
+        "2": "The chest is above the pelvis. The femoral nerve goes down, not up.",
+        "3": "The shoulder is for brachial plexus nerves. The femoral nerve is in the pelvis."
+      }
     },
     {
-      "q": "The femoral nerve passes under the inguinal ligament to reach the anterior thigh.",
+      "q": "What happens if the femoral nerve is damaged?",
       "options": [
-        "True",
-        "False"
+        "Only arm weakness",
+        "Difficulty extending the knee and climbing stairs",
+        "Only facial drooping",
+        "Only hearing loss"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The femoral nerve exits the pelvis by passing under the inguinal ligament (at the groin crease). It then supplies the quadriceps and gives sensation to the anterior thigh."
+      "explain": "FEMORAL NERVE damage causes QUADRICEPS weakness — you can't extend your knee properly. Climbing stairs becomes difficult, and the knee may buckle when walking.",
+      "wrongExplains": {
+        "0": "Arm weakness is from brachial plexus damage. The femoral nerve affects the leg.",
+        "2": "Facial drooping is from facial nerve (CN VII) damage.",
+        "3": "Hearing loss is from cochlear nerve damage. The femoral affects leg movement."
+      }
     },
     {
-      "q": "Both the femoral and obturator nerves are branches of the lumbar plexus, not the sacral plexus.",
+      "q": "The obturator and femoral nerves branch from which plexus?",
       "options": [
-        "True",
-        "False"
+        "Cervical plexus",
+        "Brachial plexus",
+        "Lumbar plexus",
+        "Sacral plexus"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "intermediate",
-      "explain": "Yes! The lumbar plexus (L1-L4) gives these nerves. The sacral plexus (L4-S4) is different - it gives the sciatic nerve for the back of the leg. Remember: lumbar = front of thigh, sacral = back of thigh."
+      "explain": "The LUMBAR PLEXUS (L1-L4)! Both nerves come from L2-L4 roots. The femoral nerve goes to the anterior thigh; the obturator nerve goes to the medial thigh.",
+      "wrongExplains": {
+        "0": "The cervical plexus (C1-C4) supplies the neck and diaphragm, not the leg.",
+        "1": "The brachial plexus (C5-T1) supplies the arm, not the leg.",
+        "3": "The sacral plexus (L4-S4) gives the sciatic nerve for the posterior leg."
+      }
     }
   ]
 }

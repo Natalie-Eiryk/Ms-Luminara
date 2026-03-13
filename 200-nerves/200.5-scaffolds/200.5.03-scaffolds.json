@@ -3,100 +3,157 @@
   "parentQuestion": "Which cranial nerve controls most eye movements, pupil constriction, and lens accommodation?",
   "scaffolds": [
     {
-      "q": "Your eyes can move to look up, down, left, and right.",
+      "q": "The word 'oculomotor' breaks down into 'oculo-' (eye) and 'motor' (movement). What does CN III do?",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! Your eyeballs can rotate in their sockets to let you look in different directions without moving your head. Muscles attached to each eye pull it in different directions."
-    },
-    {
-      "q": "The black circle in the center of your eye is called the ___.",
-      "options": [
-        "Iris",
-        "Pupil",
-        "Cornea",
-        "Lens"
+        "Carries vision to the brain",
+        "Moves the eye",
+        "Detects sound",
+        "Controls taste"
       ],
       "answer": 1,
       "difficulty": "foundation",
-      "explain": "The pupil! Its the dark hole in the center of your colored iris. Light enters your eye through the pupil. It gets bigger in dim light and smaller in bright light."
+      "explain": "CN III (oculomotor) MOVES the eye. The name tells you: oculo = eye, motor = movement. It controls 4 of the 6 eye muscles that rotate your eyeball in its socket.",
+      "wrongExplains": {
+        "0": "Carrying vision is CN II (optic). CN III moves the eye but doesn't carry the visual image itself.",
+        "2": "Sound detection uses CN VIII (vestibulocochlear). CN III is only for eye movement.",
+        "3": "Taste uses CN VII and IX. CN III has nothing to do with taste — it's all about eye control."
+      }
     },
     {
-      "q": "When you walk from a dark room into bright sunlight, your pupils get ___.",
-      "options": [
-        "Bigger",
-        "Smaller",
-        "Stay the same",
-        "Turn red"
-      ],
-      "answer": 1,
-      "difficulty": "foundation",
-      "explain": "Your pupils get smaller (constrict) in bright light to protect your retina from too much light. This happens automatically - you dont have to think about it!"
-    },
-    {
-      "q": "CN III is the abbreviation for Cranial Nerve number ___.",
+      "q": "How many of the six eye muscles does CN III control?",
       "options": [
         "One",
         "Two",
-        "Three",
-        "Thirteen"
+        "Four",
+        "All six"
       ],
       "answer": 2,
       "difficulty": "foundation",
-      "explain": "CN III = Cranial Nerve Three! In Roman numerals, III = 3. The oculomotor nerve is the third cranial nerve."
+      "explain": "CN III controls FOUR of the six eye muscles: superior rectus, inferior rectus, medial rectus, and inferior oblique. The other two muscles are controlled by CN IV (superior oblique) and CN VI (lateral rectus).",
+      "wrongExplains": {
+        "0": "One muscle is controlled by CN IV (trochlear). CN III is the 'big boss' controlling four muscles.",
+        "1": "Two is too few. CN III controls the majority — four muscles. It's the main eye movement nerve.",
+        "3": "CN III doesn't control all six. CN IV controls the superior oblique, and CN VI controls the lateral rectus. Three nerves share the work."
+      }
     },
     {
-      "q": "The word oculomotor contains ocul- (eye) and motor (movement).",
+      "q": "Besides eye movement, CN III also controls pupil size. When light shines in your eye, what happens to the pupil?",
       "options": [
-        "True",
-        "False"
+        "It gets bigger (dilates)",
+        "It gets smaller (constricts)",
+        "It stays the same",
+        "It changes color"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Exactly! Oculo = eye, motor = movement. So oculomotor literally means eye-mover. This nerve controls most of the muscles that move your eyeball."
+      "explain": "The pupil CONSTRICTS (gets smaller) in bright light. CN III controls the sphincter pupillae muscle that squeezes the pupil shut. This protects your retina from too much light.",
+      "wrongExplains": {
+        "0": "Dilation (getting bigger) happens in DIM light to let more light in. Bright light causes constriction, not dilation.",
+        "2": "The pupil definitely responds to light — that's the pupillary light reflex. CN III controls this automatic response.",
+        "3": "The pupil is always black (it's a hole). The IRIS has color, but it doesn't change. Only the pupil SIZE changes."
+      }
     },
     {
-      "q": "When you focus on something close to your face, your lens changes shape.",
+      "q": "What is 'accommodation' in vision?",
       "options": [
-        "True",
-        "False"
+        "Moving the eye left and right",
+        "Changing lens shape to focus at different distances",
+        "Changing pupil color",
+        "Closing the eyelids"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! This is called accommodation. The lens gets rounder to focus on close objects and flatter for distant objects. The oculomotor nerve controls the muscle that does this."
+      "explain": "Accommodation is CHANGING LENS SHAPE to focus on near or far objects. CN III controls the ciliary muscle that adjusts lens curvature. Rounder lens = focus near. Flatter lens = focus far.",
+      "wrongExplains": {
+        "0": "Eye movement (left/right) is a separate function. Accommodation specifically refers to focusing by changing lens shape.",
+        "2": "Pupil color doesn't change — that's determined by iris pigmentation. Accommodation is about lens focusing.",
+        "3": "Eyelid closure is controlled by CN VII (facial nerve). CN III controls muscles inside the eye, not the eyelids."
+      }
     },
     {
-      "q": "One nerve can control multiple different functions.",
+      "q": "CN III is damaged. The patient's pupil is dilated (large) and won't constrict in light. Why?",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Absolutely! CN III is a great example - it controls eye movement AND pupil size AND lens focusing. Its a multi-tasking nerve with several different jobs."
-    },
-    {
-      "q": "The pupil can change size to control how much light enters the eye.",
-      "options": [
-        "True",
-        "False"
+        "CN III normally constricts the pupil; without it, the pupil stays dilated",
+        "CN III normally dilates the pupil",
+        "Pupils don't respond to light",
+        "The problem is in CN II, not CN III"
       ],
       "answer": 0,
       "difficulty": "intermediate",
-      "explain": "The pupil constricts (smaller) in bright light and dilates (larger) in dim light. This is controlled by muscles in the iris - sphincter pupillae to constrict, dilator pupillae to dilate."
+      "explain": "CN III controls pupil CONSTRICTION. When damaged, the pupil can't constrict — it stays dilated because the sympathetic system (which dilates) is unopposed. A 'blown pupil' is a classic CN III sign.",
+      "wrongExplains": {
+        "1": "CN III CONSTRICTS the pupil. Dilation is controlled by the sympathetic nervous system. Different pathways, opposite actions.",
+        "2": "Normal pupils definitely respond to light. This patient's pupil doesn't respond because the CN III pathway is broken.",
+        "3": "CN II carries the sensory input (detecting the light), but CN III provides the motor output (constricting the pupil). The problem here is motor output."
+      }
     },
     {
-      "q": "Multiple muscles are needed to move the eye in different directions.",
+      "q": "If CN III is paralyzed, in which direction will the eye be stuck looking?",
       "options": [
-        "True",
-        "False"
+        "Straight ahead normally",
+        "Down and out (lateral)",
+        "Up and in (medial)",
+        "Completely closed"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Six extraocular muscles control eye movement: up, down, left, right, and rotational movements. Different nerves control different muscles - CN III controls 4 of the 6!"
+      "explain": "The eye drifts DOWN and OUT. CN III controls most muscles that move the eye up and inward. When paralyzed, the remaining muscles (CN IV's superior oblique and CN VI's lateral rectus) pull the eye down and outward.",
+      "wrongExplains": {
+        "0": "Without CN III, the eye can't be held straight. The remaining muscles pull it away from center.",
+        "2": "Up and in would require CN III to be working. These are the directions CN III normally pulls. Without it, the eye goes the opposite way.",
+        "3": "Eyelid closure uses CN VII. The eye position problem is about the extraocular muscles, not the eyelid."
+      }
+    },
+    {
+      "q": "CN III also controls the levator palpebrae muscle. What does this muscle do?",
+      "options": [
+        "Constricts the pupil",
+        "Lifts the upper eyelid",
+        "Moves the eye down",
+        "Focuses the lens"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The levator palpebrae LIFTS THE UPPER EYELID (keeps your eye open). CN III damage causes ptosis (drooping eyelid) because this muscle is paralyzed. The eyelid falls down.",
+      "wrongExplains": {
+        "0": "Pupil constriction uses the sphincter pupillae muscle (also CN III, but a different muscle). The levator is for the eyelid.",
+        "2": "Moving the eye down uses the inferior rectus (CN III) and superior oblique (CN IV). The levator only affects the eyelid.",
+        "3": "Lens focusing uses the ciliary muscle. The levator palpebrae only lifts the eyelid."
+      }
+    },
+    {
+      "q": "A patient has ptosis (drooping eyelid), a dilated pupil, and an eye pointing down-and-out. Which nerve is damaged?",
+      "options": [
+        "CN II (optic)",
+        "CN III (oculomotor)",
+        "CN IV (trochlear)",
+        "CN VI (abducens)"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "This is the classic CN III palsy triad: ptosis (can't lift eyelid), dilated pupil (can't constrict), and eye down-and-out (can't move up or medially). All three signs point to CN III.",
+      "wrongExplains": {
+        "0": "CN II damage would cause VISION loss, not movement/pupil problems. The eye would look normal but the patient couldn't see.",
+        "2": "CN IV damage would only affect downward gaze when looking inward. It doesn't cause ptosis or pupil changes.",
+        "3": "CN VI damage would only prevent looking outward (laterally). It doesn't cause ptosis or pupil changes."
+      }
+    },
+    {
+      "q": "The three eye movement nerves are CN III, CN IV, and CN VI. CN III controls the most muscles. What nickname could you give it?",
+      "options": [
+        "The minor eye nerve",
+        "The main eye-mover",
+        "The balance nerve",
+        "The smell nerve"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN III is the 'main eye-mover' — it controls 4 of 6 eye muscles plus the eyelid lifter, pupil constrictor, and lens focuser. It does MOST of the work for eye control.",
+      "wrongExplains": {
+        "0": "CN III is the MAJOR eye nerve, not minor. It controls more eye functions than CN IV and CN VI combined.",
+        "2": "The balance nerve is CN VIII (vestibulocochlear). CN III is about eye movement, not balance.",
+        "3": "The smell nerve is CN I (olfactory). CN III is the oculomotor — eye-mover."
+      }
     }
   ]
 }

@@ -13,7 +13,7 @@
       ],
       "answer": 0,
       "chapter": "Chapter 12 — The Brain",
-      "explain": "Follow this sequence:the brain divides its territory. Motor and sensory functions map to precise cortical real estate — your left thumb gets its own dedicated postal code on the precentral gyrus. But memory and language? They're squatters. They sprawl across distributed networks, borrowing resources from multiple domains like neural communists sharing a single cafeteria.",
+      "explain": "The brain divides its territory differently for different functions. Motor and sensory functions map to precise cortical real estate — your left thumb gets its own dedicated postal code on the precentral gyrus. But memory and language sprawl across distributed networks, borrowing resources from multiple domains.",
       "optionExplains": [
         {
           "verdict": "correct",
@@ -423,7 +423,7 @@
       ],
       "mechanism": {
         "title": "Broca's Aphasia: When Speech Production Fails",
-        "content": "Direct your attention here:language production fractures. Broca's area contains motor programs for speech articulation — the precise temporal sequences of tongue, lip, larynx, and respiratory muscle coordination needed to produce phonemes. It receives semantic content from Wernicke's area via the arcuate fasciculus, then translates meaning into motor commands sent to the motor cortex. Damage Broca's area, and the motor programming fails: The patient knows what they want to say (semantics intact), can understand others (Wernicke's intact), but cannot generate fluent motor output. Speech becomes effortful, agrammatical, telegraphic — content words preserved ('dog... bite... yesterday') but function words and grammar stripped away. The dissociation proves that semantic knowledge and motor execution separate at the neural level. Understanding lives in posterior temporal cortex. Production lives in inferior frontal cortex. Damage one, preserve the other.",
+        "content": "Broca's area contains motor programs for speech articulation — the precise temporal sequences of tongue, lip, larynx, and respiratory muscle coordination needed to produce phonemes. It receives semantic content from Wernicke's area via the arcuate fasciculus, then translates meaning into motor commands sent to the motor cortex. Damage Broca's area, and the motor programming fails: the patient knows what they want to say (semantics intact), can understand others (Wernicke's intact), but cannot generate fluent motor output. Speech becomes effortful, agrammatical, telegraphic — content words preserved ('dog... bite... yesterday') but function words and grammar stripped away. The dissociation proves that semantic knowledge and motor execution separate at the neural level. Understanding lives in posterior temporal cortex. Production lives in inferior frontal cortex. Damage one, preserve the other.",
         "metaphor": "Broca's area is like a conductor translating a musical score into specific instrumental instructions. Wernicke's area provides the score (semantic meaning). Broca's area tells each musician exactly when and how to play their note. Damage the conductor, and the musicians (motor cortex) still work, the score still makes sense, but nobody can coordinate the complex sequence to produce the symphony. You get individual notes (words) but lose the melody (fluent grammar)."
       },
       "scaffoldFile": "100.1-structure-scaffolds/100.1.12-scaffolds.json"

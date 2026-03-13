@@ -3,96 +3,157 @@
   "parentQuestion": "Which cranial nerve carries taste sensation from the posterior 1/3 of the tongue?",
   "scaffolds": [
     {
-      "q": "Your tongue can detect different tastes like sweet, salty, sour, and bitter.",
+      "q": "The tongue can be divided into regions. The 'posterior' part is which area?",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! Taste buds on your tongue contain cells that detect chemicals in food. Different areas and types of taste buds detect different flavors."
-    },
-    {
-      "q": "The tongue can be divided into front, middle, and back sections.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Exactly! The front 2/3 of the tongue (anterior) is served by one nerve, while the back 1/3 (posterior) is served by a different nerve. Different wiring for different zones!"
-    },
-    {
-      "q": "CN IX is the abbreviation for Cranial Nerve number ___.",
-      "options": [
-        "Eight",
-        "Nine",
-        "Ten",
-        "Nineteen"
+        "The front/tip",
+        "The back/base",
+        "The sides only",
+        "The underneath"
       ],
       "answer": 1,
       "difficulty": "foundation",
-      "explain": "CN IX = Cranial Nerve Nine! In Roman numerals, IX = 9. The glossopharyngeal nerve is the ninth cranial nerve."
+      "explain": "Posterior = BACK. The posterior 1/3 of the tongue is the back third, closest to your throat. Anterior = front. The anterior 2/3 is the front portion you can easily stick out.",
+      "wrongExplains": {
+        "0": "The front/tip is called ANTERIOR (anterior 2/3). Posterior specifically means the back portion. These directional terms are opposites.",
+        "2": "The sides of the tongue are called lateral edges. Posterior refers to front-to-back position, not side location.",
+        "3": "The underneath surface is the ventral tongue. Posterior means the back third when looking from the side."
+      }
     },
     {
-      "q": "The word glossopharyngeal contains glosso (tongue) and pharyngeal (throat).",
+      "q": "Different nerves carry taste from different parts of the tongue. The FRONT 2/3 uses which nerve?",
       "options": [
-        "True",
-        "False"
+        "CN VII (facial)",
+        "CN IX (glossopharyngeal)",
+        "CN X (vagus)",
+        "CN V (trigeminal)"
       ],
       "answer": 0,
       "difficulty": "foundation",
-      "explain": "Yes! Glosso = tongue, pharyngeal = throat. CN IX serves both the back of the tongue and the throat area. The name tells you what it connects to!"
+      "explain": "CN VII (facial) carries taste from the ANTERIOR 2/3 of the tongue. So if the question asks about the POSTERIOR 1/3, you need a different nerve — CN IX. Front vs back = different nerves.",
+      "wrongExplains": {
+        "1": "CN IX handles the POSTERIOR 1/3 (back), not the anterior 2/3 (front). Don't mix them up! Front = VII, Back = IX.",
+        "2": "CN X carries taste from the epiglottis and throat area, not the main tongue surface. It's even further back than CN IX territory.",
+        "3": "CN V carries TOUCH sensation from the tongue, not TASTE. Taste and touch are different sensory modalities carried by different nerves."
+      }
     },
     {
-      "q": "Posterior means the back part of something.",
+      "q": "The glossopharyngeal nerve name contains 'glosso-' meaning tongue and 'pharyngeal' meaning ___.",
       "options": [
-        "True",
-        "False"
+        "Nose",
+        "Eye",
+        "Throat",
+        "Ear"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "foundation",
-      "explain": "Correct! Posterior = back, anterior = front. The posterior 1/3 of the tongue is the back third, closest to your throat."
+      "explain": "Pharyngeal = THROAT. CN IX (glosso-pharyngeal) serves the tongue (glosso) AND throat (pharyngeal). It's perfectly positioned for the back of the tongue where it meets the throat.",
+      "wrongExplains": {
+        "0": "The nose is served by CN I (olfactory). 'Pharyngeal' comes from pharynx, which is the throat, not the nose.",
+        "1": "The eye uses CN II (optic) and the eye movement nerves (III, IV, VI). 'Pharyngeal' refers to the throat.",
+        "3": "The ear is served by CN VIII (vestibulocochlear). The pharynx is the throat cavity behind the mouth."
+      }
     },
     {
-      "q": "Different nerves can carry taste from different parts of the tongue.",
+      "q": "CN IX is which number cranial nerve?",
       "options": [
-        "True",
-        "False"
+        "Seven",
+        "Eight",
+        "Nine",
+        "Ten"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "foundation",
-      "explain": "Yes! The front of the tongue uses CN VII (facial) for taste, but the back uses CN IX (glossopharyngeal). Different regions, different nerves."
+      "explain": "CN IX = Cranial Nerve NINE (Roman numeral IX = 9). The glossopharyngeal nerve. It comes right after CN VIII (vestibulocochlear) and before CN X (vagus).",
+      "wrongExplains": {
+        "0": "CN VII (seven) is the facial nerve — it handles facial expression and taste from the FRONT 2/3 of tongue.",
+        "1": "CN VIII (eight) is vestibulocochlear — it handles hearing and balance, not taste.",
+        "3": "CN X (ten) is the vagus nerve — it handles heart, lungs, gut, and taste from the throat/epiglottis, not the posterior tongue."
+      }
     },
     {
-      "q": "When you taste food at the very back of your tongue, CN IX carries that signal.",
+      "q": "Besides taste, CN IX also triggers which protective reflex?",
       "options": [
-        "True",
-        "False"
+        "Blinking",
+        "Sneezing",
+        "Gag reflex",
+        "Coughing"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Right! CN IX handles taste from the posterior (back) third of the tongue. Bitter tastes are often detected here, which is why bitter things make you want to gag."
-    },
-    {
-      "q": "Taste from the back of the tongue travels through the glossopharyngeal nerve.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "intermediate",
-      "explain": "CN IX (glossopharyngeal) carries taste sensation from the posterior 1/3 of the tongue. It also triggers the gag reflex."
+      "explain": "CN IX triggers the GAG REFLEX. When something touches the back of your throat, CN IX senses it and triggers gagging to protect your airway. This is why doctors test the gag reflex to check CN IX function.",
+      "wrongExplains": {
+        "0": "Blinking uses CN VII (facial) for the motor component and CN V (trigeminal) for the sensory trigger. Not CN IX territory.",
+        "1": "Sneezing is triggered by nasal irritation (CN V) and uses multiple nerves for the explosive response. CN IX isn't the main player.",
+        "3": "Coughing primarily involves CN X (vagus) sensing airway irritation. CN IX is more about the gag reflex than cough reflex."
+      }
     },
     {
-      "q": "The glossopharyngeal nerve also controls swallowing muscles.",
+      "q": "If CN IX is damaged, a patient might have trouble tasting food in which location?",
       "options": [
-        "True",
-        "False"
+        "The tip of the tongue",
+        "The sides of the tongue",
+        "The back of the tongue",
+        "The entire tongue"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "intermediate",
-      "explain": "CN IX helps with swallowing by innervating muscles of the pharynx (throat). It also carries general sensation from the throat and monitors blood pressure."
+      "explain": "CN IX carries taste from the POSTERIOR 1/3 (back) of the tongue. Damage would affect taste perception at the back/base of the tongue, near the throat. The front 2/3 (using CN VII) would still work.",
+      "wrongExplains": {
+        "0": "The tip of the tongue uses CN VII (facial) for taste. CN IX damage wouldn't affect taste at the tip.",
+        "1": "The sides are part of the anterior 2/3 and use CN VII. CN IX serves the posterior portion, not the lateral edges of the front.",
+        "3": "Only the back 1/3 uses CN IX. The front 2/3 uses CN VII, so the entire tongue wouldn't be affected by CN IX damage alone."
+      }
+    },
+    {
+      "q": "Why are taste from the back tongue and the gag reflex carried by the same nerve (CN IX)?",
+      "options": [
+        "Random evolutionary accident",
+        "They're in the same anatomical region (where tongue meets throat)",
+        "They use the same muscles",
+        "They don't actually use the same nerve"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "CN IX serves the junction of tongue and throat — the posterior tongue and upper pharynx are neighbors. Taste at the back of the tongue and throat sensation naturally share this nerve because of anatomical proximity.",
+      "wrongExplains": {
+        "0": "Nerve territories follow anatomical logic. CN IX serves a specific region where the tongue meets the throat — this makes functional sense.",
+        "2": "The gag reflex uses pharyngeal muscles (some controlled by CN IX and X), while taste doesn't use muscles at all — it's a sensory function.",
+        "3": "They DO use the same nerve! CN IX carries both sensory functions: taste from posterior tongue AND general sensation from the throat that triggers gagging."
+      }
+    },
+    {
+      "q": "To summarize tongue taste innervation: anterior 2/3 = CN ___, posterior 1/3 = CN ___.",
+      "options": [
+        "V, VIII",
+        "VII, IX",
+        "IX, VII",
+        "VIII, X"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Anterior 2/3 = CN VII (facial), Posterior 1/3 = CN IX (glossopharyngeal). Memory trick: 'Seven up front, Nine behind' — 7 < 9, and the smaller number serves the front.",
+      "wrongExplains": {
+        "0": "CN V handles TOUCH sensation from the tongue, not taste. CN VIII handles hearing and balance — nothing to do with tongue.",
+        "2": "This is backwards! CN VII (front) comes before CN IX (back) both in number AND in tongue position. Don't reverse them.",
+        "3": "CN VIII is for hearing/balance. CN X handles taste from the epiglottis/throat, not the main tongue surface. Wrong nerves for tongue taste."
+      }
+    },
+    {
+      "q": "A patient loses their gag reflex and can't taste bitter things at the back of their tongue. Which nerve is damaged?",
+      "options": [
+        "CN VII (facial)",
+        "CN VIII (vestibulocochlear)",
+        "CN IX (glossopharyngeal)",
+        "CN X (vagus)"
+      ],
+      "answer": 2,
+      "difficulty": "intermediate",
+      "explain": "Loss of gag reflex + loss of taste at posterior tongue = CN IX damage. These are the TWO main functions of CN IX. When both fail together, it points directly to CN IX.",
+      "wrongExplains": {
+        "0": "CN VII damage would affect facial movement and taste at the FRONT of the tongue. This patient's symptoms are at the back — that's CN IX territory.",
+        "1": "CN VIII handles hearing and balance. It has nothing to do with taste or gag reflex. Wrong functions entirely.",
+        "3": "CN X could affect swallowing and the cough reflex, and it carries some sensation from the throat. But the posterior tongue taste specifically points to CN IX."
+      }
     }
   ]
 }

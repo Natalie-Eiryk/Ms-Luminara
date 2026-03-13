@@ -3,96 +3,157 @@
   "parentQuestion": "Which cranial nerve would you test by asking a patient to look laterally (to the side)?",
   "scaffolds": [
     {
-      "q": "Lateral means to the side, away from the center.",
+      "q": "What does 'lateral' mean in anatomy?",
       "options": [
-        "True",
-        "False"
+        "Toward the side, away from center",
+        "Toward the middle",
+        "Up and down",
+        "Front to back"
       ],
       "answer": 0,
       "difficulty": "foundation",
-      "explain": "Yes! Lateral = side. When you look laterally, youre looking to your left or right side. The opposite is medial, which means toward the middle/center."
+      "explain": "Lateral means toward the SIDE, away from the center/midline. When you look laterally, you're looking to your left or right. The opposite term is 'medial' (toward the middle).",
+      "wrongExplains": {
+        "1": "Toward the middle is called MEDIAL, not lateral. These are opposites! Lateral = side, Medial = middle. The nose is medial, the ears are lateral.",
+        "2": "Up and down movements are called superior (up) and inferior (down). Lateral specifically refers to side-to-side movement away from center.",
+        "3": "Front to back uses different terms: anterior (front) and posterior (back). Lateral means sideways only."
+      }
     },
     {
-      "q": "Your eyes can turn to look to the side without moving your head.",
+      "q": "Which muscle pulls the eye outward to look to the side?",
       "options": [
-        "True",
-        "False"
+        "Medial rectus",
+        "Superior rectus",
+        "Lateral rectus",
+        "Inferior oblique"
+      ],
+      "answer": 2,
+      "difficulty": "foundation",
+      "explain": "The LATERAL rectus pulls the eye LATERALLY (outward, toward the side). The name tells you what it does — lateral rectus moves the eye laterally. It's attached to the outer side of the eyeball.",
+      "wrongExplains": {
+        "0": "The medial rectus does the OPPOSITE — it pulls the eye toward the nose (medially/inward). Medial rectus is for looking toward your nose, lateral rectus is for looking away from your nose.",
+        "1": "Superior rectus pulls the eye UPWARD, not sideways. 'Superior' means upper/above. This muscle makes you look up.",
+        "3": "The inferior oblique rotates the eye and helps with upward gaze. It doesn't pull the eye sideways. The oblique muscles have complex rotating functions."
+      }
+    },
+    {
+      "q": "CN VI controls how many eye muscles?",
+      "options": [
+        "Just one — the lateral rectus",
+        "Two — both rectus muscles",
+        "Four — all rectus muscles",
+        "Six — all eye muscles"
       ],
       "answer": 0,
       "difficulty": "foundation",
-      "explain": "Exactly! Try it - keep your head still and look to your right. Your eye muscles pull your eyeball to rotate in its socket. Different muscles pull in different directions."
+      "explain": "CN VI (abducens) controls ONLY the lateral rectus muscle. It has one job: abduct the eye (move it outward). This makes CN VI damage easy to spot — the patient can't look outward on that side.",
+      "wrongExplains": {
+        "1": "CN VI controls only ONE muscle, not two. CN III (oculomotor) controls the medial rectus and most other eye muscles. CN VI is a specialist with just one job.",
+        "2": "CN III controls most of the four rectus muscles (medial, superior, inferior). CN VI controls only the lateral rectus. Different nerves, different muscles.",
+        "3": "The six eye muscles are split between THREE nerves: CN III controls four muscles, CN IV controls one (superior oblique), and CN VI controls one (lateral rectus)."
+      }
     },
     {
-      "q": "CN VI is the abbreviation for Cranial Nerve number ___.",
+      "q": "The word 'abducens' comes from 'abduct,' which means to:",
       "options": [
-        "Five",
-        "Six",
-        "Seven",
-        "Sixteen"
+        "Move toward the center",
+        "Move away from the center",
+        "Move up and down",
+        "Rotate in a circle"
       ],
       "answer": 1,
       "difficulty": "foundation",
-      "explain": "CN VI = Cranial Nerve Six! In Roman numerals, VI = 6. The abducens nerve is the sixth cranial nerve."
+      "explain": "ABducens = ABduct = move AWAY. The prefix 'ab-' means 'away from.' The abducens nerve moves the eye AWAY from the nose (outward). The nerve is literally named for its action!",
+      "wrongExplains": {
+        "0": "Moving toward the center is ADDUCTION, not abduction. Notice: ADduct = ADD to the middle. ABduct = move AWAY. The 'ab-' prefix means away.",
+        "2": "Up/down movements are called elevation and depression. Abduction specifically means moving away from the midline — a side-to-side concept.",
+        "3": "Rotation is a different type of movement controlled by the oblique muscles. Abduction is a straight lateral movement away from center."
+      }
     },
     {
-      "q": "The word abducens comes from abduct, meaning to move away from the center.",
+      "q": "If CN VI is damaged on the right side, what happens when the patient tries to look right?",
       "options": [
-        "True",
-        "False"
+        "Both eyes move normally",
+        "The right eye can't move outward",
+        "The left eye can't move outward",
+        "Both eyes move up instead"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! Ab = away, ducens = leading/moving. The abducens nerve moves the eye AWAY from the nose (toward the side). Its named for what it does!"
-    },
-    {
-      "q": "Each eye movement direction is controlled by a different muscle.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Correct! Looking up, down, left, right - each direction uses different muscles. CN VI controls the lateral rectus muscle, which pulls the eye outward (to the side)."
-    },
-    {
-      "q": "Doctors can test specific nerves by asking patients to move in specific ways.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! If a doctor wants to test CN VI, they ask you to look to the side. If you cant do it, the nerve might be damaged. Each nerve has specific tests."
-    },
-    {
-      "q": "CN VI controls only one eye muscle - the one that looks sideways.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Right! CN VI controls just the lateral rectus muscle. This muscle pulls your eye outward (laterally). Its a simple nerve with one specific job."
-    },
-    {
-      "q": "To look to the right, the right eye must turn outward (laterally).",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "When you look right, your right eye abducts (turns outward) and your left eye adducts (turns inward). Coordinated movement using different muscles in each eye."
+      "explain": "The RIGHT CN VI controls the RIGHT lateral rectus. If damaged, the RIGHT eye can't abduct (move outward). When looking right, the right eye stays stuck while the left eye moves normally — causing double vision.",
+      "wrongExplains": {
+        "0": "With CN VI damage, eye movement is definitely NOT normal. The lateral rectus on the affected side is paralyzed, so the eye can't look outward.",
+        "2": "The LEFT eye's lateral rectus is controlled by the LEFT CN VI. Right CN VI damage affects only the right eye. Each nerve controls its own side.",
+        "3": "CN VI only controls lateral (sideways) movement. Upward movement is controlled by CN III. CN VI damage doesn't affect vertical eye movements."
+      }
     },
     {
-      "q": "Abduction means movement away from the midline.",
+      "q": "Why do doctors ask patients to 'follow my finger' moving side to side?",
       "options": [
-        "True",
-        "False"
+        "To test hearing",
+        "To test CN VI (abducens) function",
+        "To test taste sensation",
+        "To test neck muscles"
       ],
-      "answer": 0,
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Testing lateral eye movement specifically tests CN VI. If the patient can't move their eye outward to follow the finger, CN VI may be damaged. This is a quick bedside test for the abducens nerve.",
+      "wrongExplains": {
+        "0": "Hearing is tested with tuning forks or by whispering (tests CN VIII). Eye movement tests have nothing to do with hearing.",
+        "2": "Taste is tested by applying substances to the tongue (tests CN VII and IX). Eye tracking tests motor control of eye muscles, not sensation.",
+        "3": "Neck muscles are controlled by CN XI (accessory nerve) and tested by having the patient turn their head against resistance. Eye movement tests don't involve neck muscles."
+      }
+    },
+    {
+      "q": "To look to the right, which eye needs CN VI to work?",
+      "options": [
+        "Only the left eye",
+        "Only the right eye",
+        "Both eyes equally",
+        "Neither eye needs CN VI"
+      ],
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Abduction moves a body part away from the midline. For the eye, this means turning outward (laterally), away from the nose. The opposite is adduction."
+      "explain": "To look RIGHT, the RIGHT eye must abduct (move outward) — this requires the RIGHT CN VI. The left eye adducts (moves inward) using CN III. So looking right depends heavily on the right CN VI.",
+      "wrongExplains": {
+        "0": "The left eye ADDUCTS (moves inward toward nose) when looking right. Adduction uses the medial rectus controlled by CN III, not CN VI. The left CN VI is used when looking LEFT.",
+        "2": "The eyes use DIFFERENT muscles to look the same direction. When looking right: right eye abducts (CN VI), left eye adducts (CN III). They don't use CN VI equally.",
+        "3": "CN VI is essential for lateral gaze. Without it, you can't look outward on that side. Looking right absolutely requires the right CN VI to abduct the right eye."
+      }
+    },
+    {
+      "q": "A patient has double vision when looking left, but not when looking right. Which CN VI might be damaged?",
+      "options": [
+        "Right CN VI",
+        "Left CN VI",
+        "Both CN VI nerves",
+        "CN VI is not involved"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Looking LEFT requires the LEFT eye to abduct (move outward). If the LEFT CN VI is damaged, the left eye can't move outward properly, causing double vision only when looking left. Right gaze is fine because right CN VI is intact.",
+      "wrongExplains": {
+        "0": "Right CN VI controls rightward gaze of the right eye. If damaged, you'd have trouble looking RIGHT, not left. The symptoms point to the left side.",
+        "2": "If both CN VI nerves were damaged, the patient would have trouble looking BOTH directions. This patient only has problems looking left, suggesting only one side is affected.",
+        "3": "CN VI IS involved — lateral gaze problems are the hallmark of CN VI damage. Double vision in lateral gaze screams CN VI problem. The question is which side."
+      }
+    },
+    {
+      "q": "The three cranial nerves that control eye movement are CN III, CN IV, and CN ___.",
+      "options": [
+        "V",
+        "VI",
+        "VII",
+        "VIII"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN III (oculomotor), CN IV (trochlear), and CN VI (abducens) control all eye movements. An easy way to remember: '3, 4, 6 make the eyes do tricks.' CN VI specifically handles lateral (outward) movement.",
+      "wrongExplains": {
+        "0": "CN V is the trigeminal nerve — it handles face SENSATION and CHEWING. It doesn't control eye movement at all. The eye movement trio is III, IV, VI.",
+        "2": "CN VII is the facial nerve — it controls facial EXPRESSION (smiling, frowning). Eye movement uses CN III, IV, and VI. Different functions entirely.",
+        "3": "CN VIII is the vestibulocochlear nerve — it handles HEARING and BALANCE. It doesn't move the eyes, though vestibular input can influence eye reflexes."
+      }
     }
   ]
 }

@@ -3,94 +3,157 @@
   "parentQuestion": "White matter is found in all of the following locations EXCEPT the ___.",
   "scaffolds": [
     {
-      "q": "Gray matter contains neuron cell bodies; white matter contains myelinated axons.",
+      "q": "What is the difference between gray matter and white matter?",
       "options": [
-        "True",
-        "False"
+        "They are the same tissue",
+        "Gray matter has cell bodies; white matter has myelinated axons",
+        "Gray matter is in the skull; white matter is outside",
+        "White matter has cell bodies; gray matter has axons"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Gray matter = cell bodies, dendrites, synapses (computation). White matter = myelinated axon bundles (transmission). Different functions, different tissue types."
+      "explain": "GRAY MATTER contains neuron CELL BODIES, dendrites, and synapses (computation). WHITE MATTER contains MYELINATED AXON bundles (transmission). Different functions, different tissue types.",
+      "wrongExplains": {
+        "0": "They are distinct tissue types with different compositions and functions.",
+        "2": "Both are inside the skull as brain tissue. Their location within the brain differs.",
+        "3": "That's reversed. Gray matter has cell bodies; white matter has axons."
+      }
     },
     {
-      "q": "In the BRAIN, gray matter is on the outside (cortex) and white matter is deeper inside.",
+      "q": "Where is gray matter located in the BRAIN?",
       "options": [
-        "True",
-        "False"
+        "Deep inside, beneath white matter",
+        "On the outside (cortex), covering white matter",
+        "Only in the brainstem",
+        "Outside the skull"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The brain puts its processing layer (gray matter cortex) on the surface, with transmission cables (white matter tracts) running beneath it."
+      "explain": "In the BRAIN, gray matter is on the OUTSIDE (cortex) and white matter is DEEPER INSIDE. The brain puts its processing layer on the surface, with transmission cables running beneath.",
+      "wrongExplains": {
+        "0": "In the brain, gray matter (cortex) is on the surface. Deep inside is white matter (and basal nuclei).",
+        "2": "Gray matter is also in the cerebral cortex, not just the brainstem.",
+        "3": "All brain tissue is inside the skull."
+      }
     },
     {
-      "q": "In the SPINAL CORD, white matter is on the outside and gray matter is inside.",
+      "q": "Where is gray matter located in the SPINAL CORD?",
       "options": [
-        "True",
-        "False"
+        "On the outside, forming a shell",
+        "On the inside, forming a butterfly shape",
+        "Only at the top",
+        "There is no gray matter in the spinal cord"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The spinal cord flips the brain's arrangement. White matter (ascending/descending tracts) forms the outer shell; gray matter (butterfly shape) is the inner core."
+      "explain": "In the SPINAL CORD, the arrangement is FLIPPED. Gray matter forms the INNER BUTTERFLY shape; WHITE MATTER forms the OUTER shell with ascending/descending tracts.",
+      "wrongExplains": {
+        "0": "The outer shell is white matter. Gray matter is the inner butterfly.",
+        "2": "Gray matter extends throughout the spinal cord length.",
+        "3": "The spinal cord definitely has gray matter — it's the central butterfly shape."
+      }
     },
     {
-      "q": "The corpus callosum is white matter - a massive bundle of myelinated axons.",
+      "q": "What type of tissue is the corpus callosum?",
       "options": [
-        "True",
-        "False"
+        "Gray matter",
+        "White matter (massive bundle of myelinated axons)",
+        "Bone",
+        "Cerebrospinal fluid"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The corpus callosum is the brain's largest white matter structure - about 200 million myelinated commissural axons connecting the hemispheres."
+      "explain": "The CORPUS CALLOSUM is WHITE MATTER — the brain's largest commissure with about 200 million myelinated axons connecting the hemispheres.",
+      "wrongExplains": {
+        "0": "The corpus callosum is white matter (axon bundles), not gray matter (cell bodies).",
+        "2": "The corpus callosum is neural tissue, not bone.",
+        "3": "It's solid white matter, not fluid."
+      }
     },
     {
-      "q": "The corticospinal tracts are white matter carrying motor commands from brain to spinal cord.",
+      "q": "What type of tissue are the corticospinal tracts?",
       "options": [
-        "True",
-        "False"
+        "Gray matter",
+        "White matter (motor command pathways)",
+        "Bone",
+        "Muscle"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The corticospinal tracts are projection fibers - long myelinated axons carrying motor commands from motor cortex down to spinal motor neurons."
+      "explain": "The CORTICOSPINAL TRACTS are WHITE MATTER — projection fibers carrying motor commands from motor cortex down to spinal motor neurons. They're myelinated axon bundles.",
+      "wrongExplains": {
+        "0": "Tracts are white matter (axon bundles). Gray matter has cell bodies.",
+        "2": "Neural tracts are soft tissue, not bone.",
+        "3": "Neural tracts are in the nervous system, not muscle tissue."
+      }
     },
     {
-      "q": "The outer portion of the spinal cord contains white matter (ascending and descending tracts).",
+      "q": "What type of tissue is in the outer portion of the spinal cord?",
       "options": [
-        "True",
-        "False"
+        "Gray matter",
+        "White matter (ascending and descending tracts)",
+        "Bone",
+        "Only sensory neurons"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The spinal cord's white matter shell contains dorsal columns (ascending sensory), lateral columns (motor and sensory tracts), and ventral columns."
+      "explain": "The OUTER SPINAL CORD contains WHITE MATTER — dorsal columns (sensory), lateral columns (motor and sensory), and ventral columns. The ascending and descending tracts are here.",
+      "wrongExplains": {
+        "0": "Gray matter is in the center (butterfly). White matter forms the outer shell.",
+        "2": "The spinal cord is neural tissue, protected by vertebral bone but not made of bone.",
+        "3": "Both motor and sensory tracts are in the outer white matter."
+      }
     },
     {
-      "q": "The cerebral cortex is gray matter, not white matter.",
+      "q": "What type of tissue is the cerebral cortex?",
       "options": [
-        "True",
-        "False"
+        "White matter",
+        "Gray matter (where computation happens)",
+        "Bone",
+        "Fluid"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The cortex is where computation happens - packed with neuron cell bodies, dendrites, and synapses. That's gray matter territory."
+      "explain": "The CEREBRAL CORTEX is GRAY MATTER — packed with neuron cell bodies, dendrites, and synapses. This is where conscious processing happens, NOT transmission.",
+      "wrongExplains": {
+        "0": "The cortex is gray matter. White matter is beneath the cortex.",
+        "2": "The cortex is neural tissue, not bone.",
+        "3": "The cortex is solid gray matter, not fluid."
+      }
     },
     {
-      "q": "White matter is found in the outer spinal cord, corpus callosum, and corticospinal tracts - but NOT in the cerebral cortex.",
+      "q": "Which locations contain white matter?",
       "options": [
-        "True",
-        "False"
+        "Only the spinal cord",
+        "Outer spinal cord, corpus callosum, corticospinal tracts",
+        "Only the cerebral cortex",
+        "Only the skull"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The cerebral cortex is the exception. It's gray matter (processing tissue). White matter is beneath the cortex, not in it."
+      "explain": "WHITE MATTER is found in the OUTER SPINAL CORD (tracts), CORPUS CALLOSUM (commissure), and CORTICOSPINAL TRACTS (projection fibers). The cerebral cortex is the exception — it's gray matter.",
+      "wrongExplains": {
+        "0": "White matter is also in the brain — corpus callosum, internal capsule, corona radiata, etc.",
+        "2": "The cerebral cortex is gray matter, not white matter.",
+        "3": "The skull is bone. White matter is neural tissue inside the brain and spinal cord."
+      }
     },
     {
-      "q": "The cerebral cortex is the EXCEPTION - it contains gray matter, not white matter.",
+      "q": "White matter is found in all locations EXCEPT the ___.",
       "options": [
-        "True",
-        "False"
+        "Outer portion of the spinal cord",
+        "Corpus callosum",
+        "Cerebral cortex",
+        "Corticospinal tracts"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "intermediate",
-      "explain": "Yes! The answer is CEREBRAL CORTEX. The other options (outer spinal cord, corpus callosum, corticospinal tracts) are all white matter structures."
+      "explain": "The CEREBRAL CORTEX is the exception — it's GRAY MATTER (processing tissue). The other options (outer spinal cord, corpus callosum, corticospinal tracts) are all WHITE MATTER structures.",
+      "wrongExplains": {
+        "0": "The outer spinal cord is white matter — it contains ascending and descending tracts.",
+        "1": "The corpus callosum is white matter — it's the largest commissure with 200 million axons.",
+        "3": "The corticospinal tracts are white matter — motor projection fibers."
+      }
     }
   ]
 }

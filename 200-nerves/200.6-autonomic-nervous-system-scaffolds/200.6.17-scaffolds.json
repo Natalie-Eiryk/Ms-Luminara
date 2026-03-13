@@ -1,26 +1,159 @@
 {
   "parentId": "200.6.17",
-  "parentQuestion": "A 45-year-old man presents with orthostatic hypotension, resting tachycardia of ...",
+  "parentQuestion": "A 45-year-old man presents with orthostatic hypotension, resting tachycardia, and poor exercise tolerance. This suggests dysfunction of ___.",
   "scaffolds": [
     {
-      "q": "Orthostatic hypotension occurs when blood pressure drops significantly upon standing.",
+      "q": "What is orthostatic hypotension?",
       "options": [
-        "True",
-        "False"
+        "High blood pressure while lying down",
+        "A drop in blood pressure upon standing up",
+        "High blood pressure during exercise",
+        "Normal blood pressure changes"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Normally, when you stand, sympathetic activation constricts blood vessels to maintain blood pressure against gravity. without this compensatory vasoconstriction, blood pools in your legs and pressure drops. You feel dizzy, lightheaded, or faint. The baroreceptor reflex is broken."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "ORTHOSTATIC HYPOTENSION is a significant DROP in blood pressure when standing up. 'Orthostatic' means related to standing posture. It causes dizziness, lightheadedness, or fainting.",
+      "wrongExplains": {
+        "0": "Lying down typically has normal or slightly higher pressure. Orthostatic refers to standing.",
+        "2": "Exercise normally increases blood pressure. Orthostatic hypotension is specifically about standing.",
+        "3": "Orthostatic hypotension is abnormal — a pathological drop in pressure upon standing."
+      }
     },
     {
-      "q": "Resting tachycardia can occur when vagal tone to the heart is lost.",
+      "q": "When you stand up, what normally happens to prevent blood from pooling in your legs?",
       "options": [
-        "True",
-        "False"
+        "Nothing — gravity doesn't affect blood",
+        "Sympathetic activation causes vasoconstriction to maintain blood pressure",
+        "Parasympathetic activation slows the heart",
+        "The lungs compress"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "the vagus normally 'brakes' the heart down from its intrinsic ~100 bpm to a resting ~70 bpm. Lose that parasympathetic tone, and the heart races at rest. This is called 'cardiac denervation.' The accelerator is stuck on because the brake is gone."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "When you stand, SYMPATHETIC activation rapidly constricts blood vessels (especially in the legs) to prevent blood pooling and maintain blood pressure to the brain. This is the baroreceptor reflex.",
+      "wrongExplains": {
+        "0": "Gravity definitely affects blood. Without compensation, blood pools in the legs when standing.",
+        "2": "Slowing the heart would drop pressure further. The reflex speeds up heart AND constricts vessels.",
+        "3": "The lungs don't compress to maintain blood pressure. The cardiovascular system compensates."
+      }
+    },
+    {
+      "q": "If the sympathetic system fails to respond when you stand, what happens?",
+      "options": [
+        "Blood pressure stays normal",
+        "Blood pressure drops (orthostatic hypotension)",
+        "Blood pressure increases",
+        "Heart rate decreases"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Without sympathetic compensation, blood pools in the legs when you stand, and blood pressure DROPS. The brain doesn't get enough blood, causing dizziness or fainting.",
+      "wrongExplains": {
+        "0": "Without sympathetic vasoconstriction, pressure definitely drops when standing.",
+        "2": "Blood pressure decreases without compensation, not increases.",
+        "3": "Heart rate typically increases (reflex tachycardia) trying to compensate, but if the whole ANS is dysfunctional, compensation fails."
+      }
+    },
+    {
+      "q": "What is resting tachycardia?",
+      "options": [
+        "A slow heart rate at rest",
+        "A fast heart rate at rest (above normal)",
+        "A normal heart rate",
+        "Heart rate only during exercise"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "RESTING TACHYCARDIA is an abnormally FAST heart rate while at rest (typically >100 bpm when it should be ~70 bpm). 'Tachy' = fast; 'cardia' = heart.",
+      "wrongExplains": {
+        "0": "Slow heart rate would be bradycardia. Tachycardia means fast.",
+        "2": "Tachycardia is abnormally fast, not normal.",
+        "3": "Resting means while at rest, not during exercise."
+      }
+    },
+    {
+      "q": "If vagal tone (parasympathetic) to the heart is lost, what happens to resting heart rate?",
+      "options": [
+        "Heart rate decreases",
+        "Heart rate increases toward the intrinsic SA node rate (~100 bpm)",
+        "Heart rate stays exactly the same",
+        "The heart stops"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Without vagal braking, the heart speeds up toward its INTRINSIC rate (~100 bpm). The vagus normally slows the heart to ~70 bpm at rest. Lose that brake and resting heart rate rises.",
+      "wrongExplains": {
+        "0": "Decreasing would require MORE vagal activity. Losing it removes the brake, increasing rate.",
+        "2": "There IS a change — the vagal brake is gone, so heart rate increases.",
+        "3": "The heart has its own pacemaker. Without vagal tone, it just beats faster, not stops."
+      }
+    },
+    {
+      "q": "A patient with orthostatic hypotension AND resting tachycardia likely has dysfunction of ___.",
+      "options": [
+        "Only the parasympathetic system",
+        "Only the sympathetic system",
+        "Both sympathetic and parasympathetic (autonomic dysfunction)",
+        "Only the somatic system"
+      ],
+      "answer": 2,
+      "difficulty": "intermediate",
+      "explain": "BOTH symptoms together suggest widespread AUTONOMIC DYSFUNCTION: orthostatic hypotension = sympathetic failure (can't vasoconstrict); resting tachycardia = parasympathetic failure (can't brake the heart).",
+      "wrongExplains": {
+        "0": "Parasympathetic loss alone would cause resting tachycardia, but orthostatic hypotension indicates sympathetic problems too.",
+        "1": "Sympathetic loss alone would cause orthostatic hypotension, but resting tachycardia indicates parasympathetic problems too.",
+        "3": "These are autonomic symptoms, not somatic. The somatic system controls skeletal muscle."
+      }
+    },
+    {
+      "q": "What is autonomic neuropathy?",
+      "options": [
+        "Normal autonomic function",
+        "Damage to autonomic nerves causing dysfunction",
+        "Enhanced autonomic reflexes",
+        "Only affects muscles"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "AUTONOMIC NEUROPATHY is damage to autonomic nerves that impairs their function. It can be caused by diabetes, autoimmune conditions, or other diseases, leading to symptoms like orthostatic hypotension and resting tachycardia.",
+      "wrongExplains": {
+        "0": "Neuropathy means nerve damage/dysfunction, not normal function.",
+        "2": "Neuropathy typically impairs reflexes, not enhances them.",
+        "3": "Autonomic neuropathy affects autonomic nerves to organs, not somatic nerves to muscles."
+      }
+    },
+    {
+      "q": "Poor exercise tolerance in autonomic dysfunction occurs because ___.",
+      "options": [
+        "The heart can respond normally to exercise demands",
+        "The heart can't appropriately increase rate and output for exercise",
+        "Skeletal muscles are paralyzed",
+        "Exercise requires no heart rate changes"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "During exercise, the normal response is sympathetic activation increasing heart rate and output. With autonomic dysfunction, this adaptation FAILS, so the heart can't meet exercise demands.",
+      "wrongExplains": {
+        "0": "In autonomic dysfunction, the heart CAN'T respond normally — that's the problem.",
+        "2": "Autonomic dysfunction affects heart and blood vessels, not skeletal muscle control.",
+        "3": "Exercise definitely requires heart rate increases — that's exactly what can't happen properly."
+      }
+    },
+    {
+      "q": "Diabetes is a common cause of autonomic neuropathy. Why?",
+      "options": [
+        "Diabetes has no effect on nerves",
+        "High blood glucose damages small blood vessels and nerves over time",
+        "Insulin directly destroys nerves",
+        "Autonomic nerves don't exist in diabetics"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Chronic HIGH BLOOD GLUCOSE damages small blood vessels (vasa nervorum) that supply nerves, and directly injures nerve fibers. This causes diabetic neuropathy, including autonomic neuropathy.",
+      "wrongExplains": {
+        "0": "Diabetes definitely affects nerves — diabetic neuropathy is a major complication.",
+        "2": "Insulin doesn't destroy nerves. High glucose (from lack of insulin effect) causes the damage.",
+        "3": "Autonomic nerves exist in everyone. In diabetics, they can become damaged over time."
+      }
     }
   ]
 }

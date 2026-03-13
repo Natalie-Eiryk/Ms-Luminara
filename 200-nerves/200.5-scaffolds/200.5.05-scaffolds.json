@@ -3,96 +3,157 @@
   "parentQuestion": "A patient cannot feel touch on their face and cannot chew properly. Which cranial nerve is likely damaged?",
   "scaffolds": [
     {
-      "q": "You can feel when someone touches your face.",
+      "q": "Which cranial nerve provides sensation to the face?",
       "options": [
-        "True",
-        "False"
+        "CN V (trigeminal)",
+        "CN VII (facial)",
+        "CN X (vagus)",
+        "CN XII (hypoglossal)"
       ],
       "answer": 0,
       "difficulty": "foundation",
-      "explain": "Yes! Your face has lots of nerve endings that detect touch, pressure, pain, and temperature. These sensations travel through nerves to your brain."
+      "explain": "CN V (trigeminal) carries all sensation from the face — touch, pain, temperature, and pressure. CN VII controls facial EXPRESSION (movement), not sensation. This is a common confusion: CN V FEELS, CN VII MOVES.",
+      "wrongExplains": {
+        "1": "CN VII (facial) controls facial MOVEMENT (smiling, frowning, eye closure) but doesn't carry sensation. If CN VII is damaged, you can still feel your face perfectly — you just can't move it. Remember: CN V FEELS, CN VII MOVES.",
+        "2": "CN X (vagus) is the 'wanderer' that goes to the throat, heart, lungs, and gut. It has nothing to do with facial sensation. The vagus stays far from the face.",
+        "3": "CN XII (hypoglossal) controls only TONGUE muscles. It doesn't provide sensation to anything. The face uses CN V for sensation."
+      }
     },
     {
-      "q": "Chewing food requires moving your jaw up and down.",
+      "q": "Which cranial nerve controls the muscles used for chewing?",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Exactly! Muscles attached to your jaw bone pull it up to close your mouth and let it drop to open. These chewing muscles are called muscles of mastication."
-    },
-    {
-      "q": "CN V is the abbreviation for Cranial Nerve number ___.",
-      "options": [
-        "Four",
-        "Five",
-        "Six",
-        "Fifteen"
+        "CN VII (facial)",
+        "CN V (trigeminal)",
+        "CN IX (glossopharyngeal)",
+        "CN XI (accessory)"
       ],
       "answer": 1,
       "difficulty": "foundation",
-      "explain": "CN V = Cranial Nerve Five! In Roman numerals, V = 5. The trigeminal nerve is the fifth cranial nerve."
+      "explain": "CN V (trigeminal) controls the four muscles of mastication: masseter, temporalis, medial pterygoid, and lateral pterygoid. These powerful muscles move your jaw for chewing. The mandibular branch (V3) carries these motor fibers.",
+      "wrongExplains": {
+        "0": "CN VII controls facial EXPRESSION muscles (smiling, frowning) but NOT chewing muscles. The muscles that move your lips and face are different from the muscles that move your jaw. Chewing = CN V.",
+        "2": "CN IX (glossopharyngeal) controls only ONE muscle — the stylopharyngeus for swallowing. It doesn't control chewing. Different function, different nerve.",
+        "3": "CN XI (accessory) controls the sternocleidomastoid (head turning) and trapezius (shoulder shrugging). These are neck/shoulder muscles, not jaw muscles. Chewing = CN V."
+      }
     },
     {
-      "q": "The word trigeminal means having three parts or branches.",
+      "q": "The trigeminal nerve has THREE branches. What are they?",
       "options": [
-        "True",
-        "False"
+        "Superior, Middle, Inferior",
+        "Ophthalmic (V1), Maxillary (V2), Mandibular (V3)",
+        "Motor, Sensory, Autonomic",
+        "Temporal, Zygomatic, Buccal"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The three branches are: V1 (Ophthalmic) — forehead/upper face, V2 (Maxillary) — cheek/mid-face, V3 (Mandibular) — lower face AND the motor fibers for chewing. Only V3 has motor fibers.",
+      "wrongExplains": {
+        "0": "Superior/Middle/Inferior might describe other anatomical structures, but not the trigeminal branches. The branches are named for the facial regions they serve: Ophthalmic (eye area), Maxillary (upper jaw), Mandibular (lower jaw).",
+        "2": "Motor/Sensory/Autonomic describes TYPES of nerve fibers, not the three BRANCHES of CN V. The actual branches are V1, V2, and V3, each covering different facial territories.",
+        "3": "Temporal, Zygomatic, Buccal (plus Marginal mandibular and Cervical) are the five terminal branches of CN VII (facial nerve), not CN V. Don't confuse the two nerves!"
+      }
+    },
+    {
+      "q": "Why does CN V damage cause BOTH sensory loss AND chewing weakness?",
+      "options": [
+        "CN V is a mixed nerve with both sensory and motor fibers",
+        "CN V connects to CN VII",
+        "All cranial nerves do both jobs",
+        "Chewing creates the sensation"
       ],
       "answer": 0,
       "difficulty": "foundation",
-      "explain": "Yes! Tri = three, geminal = twin/born together. CN V has three major branches: one for the forehead area, one for the cheek area, and one for the jaw area."
+      "explain": "CN V is a MIXED nerve — it carries sensory information FROM the face AND motor commands TO the chewing muscles. When CN V is damaged, both functions fail. This is why the patient loses sensation AND chewing ability together.",
+      "wrongExplains": {
+        "1": "CN V and CN VII are separate nerves with different functions. They don't 'connect' to share functions. CN V handles face sensation + chewing. CN VII handles facial expression + taste. Each has its own territory.",
+        "2": "Not all cranial nerves do both jobs. CN I (smell) and CN II (vision) are purely SENSORY. CN XII (tongue movement) is purely MOTOR. Only some cranial nerves are mixed. CN V happens to be one of the mixed nerves.",
+        "3": "Chewing doesn't 'create' facial sensation. These are separate neural pathways that happen to travel in the same nerve trunk. The sensory fibers detect touch, the motor fibers contract muscles — different jobs, same cable."
+      }
     },
     {
-      "q": "Some nerves can do two different jobs - carry sensation AND control muscles.",
+      "q": "If ONLY the motor part of CN V is damaged, what would happen?",
       "options": [
-        "True",
-        "False"
+        "Can't feel face, can chew normally",
+        "Can feel face, can't chew properly",
+        "Can't see, can't hear",
+        "Can't smell, can't taste"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Correct! CN V is a great example - it carries touch sensations FROM the face to the brain, AND sends motor commands TO the chewing muscles. Its a two-way street!"
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "If only the motor component is damaged (just the V3 motor fibers), sensation stays intact but chewing fails. The jaw muscles (masseter, temporalis, pterygoids) won't contract properly, and the jaw deviates toward the weak side when opened.",
+      "wrongExplains": {
+        "0": "This is backwards. Motor damage affects MOVEMENT (chewing), not sensation. The sensory fibers would still work, so face sensation would be normal. Only chewing would be impaired.",
+        "2": "Vision (CN II) and hearing (CN VIII) have nothing to do with CN V. The trigeminal nerve handles face sensation and chewing only. Wrong nerves entirely.",
+        "3": "Smell (CN I) and taste (CN VII, IX, X) are different nerves. CN V doesn't carry smell or taste. It handles face sensation (touch, pain, temperature) and chewing muscles."
+      }
     },
     {
-      "q": "If a nerve is damaged, the body parts it controls stop working properly.",
+      "q": "A patient has facial numbness in the forehead. Which CN V branch is affected?",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Right! A damaged nerve cant carry signals. If the nerve for face sensation is damaged, you cant feel touch on your face. If the nerve to chewing muscles is damaged, you cant chew properly."
-    },
-    {
-      "q": "The trigeminal nerve is responsible for sensations in the face.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! CN V (trigeminal) is the main sensory nerve for your face. It lets you feel touch, pain, temperature, and pressure on your forehead, cheeks, and jaw."
-    },
-    {
-      "q": "Chewing requires muscles that move the jaw.",
-      "options": [
-        "True",
-        "False"
+        "V1 (Ophthalmic)",
+        "V2 (Maxillary)",
+        "V3 (Mandibular)",
+        "All three branches"
       ],
       "answer": 0,
       "difficulty": "intermediate",
-      "explain": "Mastication (chewing) uses the masseter, temporalis, and pterygoid muscles to move the jaw up and side to side, grinding food between the teeth."
+      "explain": "V1 (Ophthalmic) provides sensation to the forehead, upper eyelid, and nose bridge. Numbness limited to the forehead suggests V1 damage specifically. V2 covers the cheek, V3 covers the lower jaw.",
+      "wrongExplains": {
+        "1": "V2 (Maxillary) covers the CHEEK area — cheek, upper lip, upper teeth, and sides of the nose. Forehead numbness points to V1, not V2. Each branch has its own territory.",
+        "2": "V3 (Mandibular) covers the LOWER face — lower jaw, lower lip, lower teeth, and anterior tongue. Forehead is upper face territory — that's V1.",
+        "3": "If all three branches were affected, the ENTIRE face would be numb, not just the forehead. Isolated forehead numbness means only V1 is damaged. The lesion pattern tells you which branch is affected."
+      }
     },
     {
-      "q": "The face has sensory nerves that detect touch, pain, and temperature.",
+      "q": "The masseter, temporalis, and pterygoid muscles are collectively called the muscles of ___.",
       "options": [
-        "True",
-        "False"
+        "Facial expression",
+        "Mastication",
+        "Swallowing",
+        "Tongue movement"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "These are the muscles of MASTICATION (chewing). Masseter and temporalis close the jaw. Medial pterygoid helps close and protrude. Lateral pterygoid opens the jaw and produces side-to-side grinding. All controlled by CN V (trigeminal, V3 branch).",
+      "wrongExplains": {
+        "0": "Facial expression muscles (orbicularis oculi, zygomaticus, frontalis, etc.) are controlled by CN VII (facial nerve). The mastication muscles move the JAW for chewing — different muscles, different nerve.",
+        "2": "Swallowing uses pharyngeal muscles controlled mainly by CN IX and X. The mastication muscles chew food BEFORE swallowing. Different phase of eating, different muscles.",
+        "3": "Tongue movement muscles (genioglossus, hyoglossus, styloglossus) are controlled by CN XII (hypoglossal). The jaw muscles and tongue muscles work together during eating but are controlled by different nerves."
+      }
+    },
+    {
+      "q": "CN V damage causes the jaw to deviate toward the WEAK side when opening. Why?",
+      "options": [
+        "The strong side pushes the jaw toward the weak side",
+        "The weak side pulls the jaw toward itself",
+        "The jaw always deviates left",
+        "Gravity pulls the jaw down"
       ],
       "answer": 0,
       "difficulty": "intermediate",
-      "explain": "The skin of the face is richly innervated with sensory receptors. These sensations are carried to the brain by CN V (trigeminal)."
+      "explain": "When you open your jaw, the lateral pterygoid muscles pull the mandible forward. If ONE side is weak, the STRONG lateral pterygoid pushes unopposed, deviating the jaw toward the weak/damaged side. The stronger muscle wins.",
+      "wrongExplains": {
+        "1": "A weak muscle can't pull effectively — that's the problem! The weak side has reduced force. The jaw deviates because the HEALTHY side's lateral pterygoid pushes forward while the damaged side can't match it.",
+        "2": "The jaw deviates toward the DAMAGED side, whichever side that is. It's not always left or right — it depends on which CN V is injured. The deviation reveals the lesion location.",
+        "3": "Gravity plays a minimal role. Jaw deviation on opening is caused by the imbalance between left and right lateral pterygoid muscles. The strong side overpowers the weak side."
+      }
+    },
+    {
+      "q": "A patient can feel their face normally but can't chew. Which part of CN V is damaged?",
+      "options": [
+        "Sensory fibers only",
+        "Motor fibers only",
+        "Both sensory and motor",
+        "CN V is not involved"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "If sensation is intact but chewing fails, only the MOTOR fibers (in V3) are damaged. The sensory fibers still carry touch, pain, and temperature normally. This selective damage can occur because sensory and motor fibers travel separately within the nerve.",
+      "wrongExplains": {
+        "0": "If sensory fibers were damaged, the patient would have numbness or reduced sensation. But this patient feels normally — so sensory fibers are intact. Only motor function is lost.",
+        "2": "If both were damaged, the patient would have BOTH numbness AND chewing weakness. This patient has normal sensation, so the sensory component is spared. Only motor is affected.",
+        "3": "CN V IS involved — it's the only nerve that controls chewing. The question is WHICH part of CN V is damaged. Since sensation is normal but chewing is impaired, the motor fibers are selectively damaged."
+      }
     }
   ]
 }

@@ -3,24 +3,157 @@
   "parentQuestion": "Parasympathetic stimulation of the heart causes ___.",
   "scaffolds": [
     {
-      "q": "The vagus nerve (CN X) provides parasympathetic innervation to the heart.",
+      "q": "Which nerve provides parasympathetic innervation to the heart?",
       "options": [
-        "True",
-        "False"
+        "Phrenic nerve",
+        "Vagus nerve (CN X)",
+        "Sympathetic trunk",
+        "Cardiac accelerator nerve"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "The vagus nerve is the great wanderer of parasympathetic control — it reaches from brainstem to heart, lungs, and GI tract. Hold this thought:: for the heart, vagal fibers synapse in ganglia within the cardiac wall, and the short postganglionic fibers release ACh onto the SA and AV nodes. Absorb this:the calming influence."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The VAGUS NERVE (CN X) provides parasympathetic control to the heart. It acts as a 'brake' — slowing heart rate and reducing the force of atrial contraction.",
+      "wrongExplains": {
+        "0": "The phrenic nerve controls the diaphragm for breathing, not the heart directly.",
+        "2": "The sympathetic trunk provides SYMPATHETIC innervation (speeds heart), not parasympathetic.",
+        "3": "The cardiac accelerator nerve is sympathetic — it speeds the heart up, opposite of parasympathetic."
+      }
     },
     {
-      "q": "The SA node is the natural pacemaker of the heart.",
+      "q": "Where do vagal (parasympathetic) fibers synapse with postganglionic neurons for heart control?",
       "options": [
-        "True",
-        "False"
+        "In the sympathetic chain ganglia",
+        "In ganglia within the cardiac wall itself",
+        "In the brain",
+        "They don't synapse — they go directly to the heart"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "The sinoatrial (SA) node fires spontaneously at about 100 bpm without any neural input. parasympathetic slows this below 100; sympathetic speeds it above 100. Your resting heart rate (~70 bpm) reflects parasympathetic dominance. The vagus is always gently braking the heart."
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Parasympathetic ganglia for the heart are located IN THE CARDIAC WALL (intramural ganglia). The preganglionic fibers are long (from brainstem), and postganglionic fibers are very short to the SA and AV nodes.",
+      "wrongExplains": {
+        "0": "The sympathetic chain ganglia are for the sympathetic division, not parasympathetic.",
+        "2": "The brain contains the origin of the vagus, but the synapse occurs in ganglia near the target organ.",
+        "3": "Autonomic pathways always have TWO neurons — preganglionic must synapse with postganglionic."
+      }
+    },
+    {
+      "q": "The SA node (sinoatrial node) is the heart's natural ___.",
+      "options": [
+        "Valve",
+        "Pacemaker",
+        "Muscle layer",
+        "Blood supply"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The SA node is the heart's natural PACEMAKER. It spontaneously generates electrical impulses at about 100 beats per minute without any neural input.",
+      "wrongExplains": {
+        "0": "Valves control blood flow direction. The SA node generates the heartbeat rhythm.",
+        "2": "The muscle layer (myocardium) contracts. The SA node initiates the signal that triggers contraction.",
+        "3": "Coronary arteries provide blood supply. The SA node is specialized conduction tissue."
+      }
+    },
+    {
+      "q": "Without any autonomic input, the SA node fires at about ___ beats per minute.",
+      "options": [
+        "50 bpm",
+        "70 bpm",
+        "100 bpm",
+        "150 bpm"
+      ],
+      "answer": 2,
+      "difficulty": "foundation",
+      "explain": "The SA node's INTRINSIC rate is about 100 bpm. Your resting rate (~70 bpm) is LOWER because the parasympathetic vagus nerve constantly 'brakes' it. Remove vagal tone and the heart speeds up.",
+      "wrongExplains": {
+        "0": "50 bpm would be bradycardia. The intrinsic SA rate is higher — about 100 bpm.",
+        "1": "70 bpm is the typical RESTING rate after vagal slowing. The intrinsic rate is higher.",
+        "3": "150 bpm is tachycardia. The intrinsic SA rate is about 100 bpm."
+      }
+    },
+    {
+      "q": "If the resting heart rate is about 70 bpm but the SA node fires at 100 bpm intrinsically, what does this tell you?",
+      "options": [
+        "The heart is broken",
+        "Parasympathetic (vagal) tone dominates at rest, slowing the heart",
+        "Sympathetic activity dominates at rest",
+        "The numbers are wrong"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "PARASYMPATHETIC (vagal) tone dominates at rest. The vagus constantly 'brakes' the heart from 100 down to about 70 bpm. This is why you're calm and energy-efficient most of the time.",
+      "wrongExplains": {
+        "0": "A heart rate of 70 is healthy and normal — it reflects proper parasympathetic regulation.",
+        "2": "If sympathetic dominated at rest, heart rate would be ABOVE 100, not below it.",
+        "3": "These are accurate physiological values. Intrinsic rate ~100, resting rate ~70 due to vagal tone."
+      }
+    },
+    {
+      "q": "What neurotransmitter does the vagus nerve release onto the heart?",
+      "options": [
+        "Norepinephrine",
+        "Acetylcholine (ACh)",
+        "Epinephrine",
+        "Dopamine"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Parasympathetic postganglionic neurons release ACETYLCHOLINE (ACh) onto the SA and AV nodes. ACh slows the heart by hyperpolarizing pacemaker cells.",
+      "wrongExplains": {
+        "0": "Norepinephrine is released by SYMPATHETIC neurons, which speed the heart up.",
+        "2": "Epinephrine is a hormone from the adrenal medulla. The vagus nerve releases ACh.",
+        "3": "Dopamine is a CNS neurotransmitter. Vagal fibers use ACh at the heart."
+      }
+    },
+    {
+      "q": "ACh from the vagus nerve binds to which receptor type on the heart?",
+      "options": [
+        "Nicotinic receptors",
+        "Muscarinic receptors (M2)",
+        "Beta-1 adrenergic receptors",
+        "Alpha receptors"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "ACh binds to MUSCARINIC (specifically M2) receptors on cardiac cells. These are G-protein coupled receptors that slow the heart by increasing K⁺ efflux and decreasing Ca²⁺ entry.",
+      "wrongExplains": {
+        "0": "Nicotinic receptors are in ganglia. At target organs, parasympathetic uses muscarinic receptors.",
+        "2": "Beta-1 receptors bind norepinephrine (sympathetic) and INCREASE heart rate.",
+        "3": "Alpha receptors are mainly on blood vessels. The heart's parasympathetic receptors are muscarinic."
+      }
+    },
+    {
+      "q": "What does parasympathetic stimulation do to heart rate?",
+      "options": [
+        "Increases it (tachycardia)",
+        "Decreases it (bradycardia)",
+        "No effect",
+        "Makes it irregular"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Parasympathetic stimulation DECREASES heart rate (negative chronotropy). The vagus acts as a brake, producing bradycardia when strongly activated.",
+      "wrongExplains": {
+        "0": "Increasing heart rate is a SYMPATHETIC effect. Parasympathetic does the opposite.",
+        "2": "There IS a significant effect — parasympathetic dominates at rest and strongly influences rate.",
+        "3": "Normal parasympathetic activity creates a steady, slow rhythm, not irregularity."
+      }
+    },
+    {
+      "q": "Parasympathetic stimulation primarily affects which parts of the heart?",
+      "options": [
+        "The ventricles strongly",
+        "The SA node, AV node, and atria",
+        "Only the coronary arteries",
+        "The heart valves"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Vagal innervation is concentrated at the SA NODE (pacemaker), AV NODE (conduction), and ATRIA. Ventricles have little parasympathetic innervation, so vagal stimulation mainly slows rate, not contractility.",
+      "wrongExplains": {
+        "0": "Ventricles have minimal parasympathetic innervation. The vagus mainly targets the nodal tissue.",
+        "2": "Coronary arteries have autonomic innervation, but the main cardiac target is the nodal tissue.",
+        "3": "Heart valves are passive structures. They're not directly innervated by autonomic nerves."
+      }
     }
   ]
 }

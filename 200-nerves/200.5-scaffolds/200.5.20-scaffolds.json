@@ -1,96 +1,159 @@
 {
   "parentId": "200.5.20",
-  "parentQuestion": "Severe stabbing facial pain triggered by light touch",
+  "parentQuestion": "A patient experiences severe stabbing facial pain triggered by light touch to the cheek. What condition involves CN V?",
   "scaffolds": [
     {
-      "q": "The trigeminal nerve (CN V) carries sensation from the face.",
+      "q": "Which cranial nerve carries sensation (touch, pain, temperature) from the face?",
       "options": [
-        "True",
-        "False"
+        "CN V (trigeminal)",
+        "CN VII (facial)",
+        "CN X (vagus)",
+        "CN XII (hypoglossal)"
       ],
       "answer": 0,
       "difficulty": "foundation",
-      "explain": "Touch, pain, temperature on your face travel through CN V."
+      "explain": "CN V (trigeminal) carries all SENSATION from the face — touch, pain, temperature, and pressure. It has three branches covering the forehead, cheek, and jaw.",
+      "wrongExplains": {
+        "1": "CN VII controls facial MOVEMENT (expression), not sensation. It doesn't detect touch or pain.",
+        "2": "CN X (vagus) handles throat, heart, lungs, and gut. It doesn't carry facial sensation.",
+        "3": "CN XII controls TONGUE movement. It doesn't provide sensation to the face."
+      }
     },
     {
-      "q": "Neuralgia means nerve pain.",
+      "q": "What does 'neuralgia' mean?",
       "options": [
-        "True",
-        "False"
+        "Nerve weakness",
+        "Nerve pain",
+        "Nerve numbness",
+        "Nerve swelling"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Neuro = nerve, algia = pain. Trigeminal neuralgia is pain from CN V."
+      "explain": "Neuralgia = NERVE PAIN. 'Neuro-' means nerve, '-algia' means pain. Trigeminal neuralgia is severe pain originating from CN V dysfunction.",
+      "wrongExplains": {
+        "0": "Weakness is usually described as paresis or paralysis. Neuralgia specifically means pain.",
+        "2": "Numbness is anesthesia or hypoesthesia. Neuralgia is about pain, not loss of sensation.",
+        "3": "Swelling would be neuritis (nerve inflammation). Neuralgia specifically refers to pain."
+      }
     },
     {
-      "q": "Some nerve conditions cause extreme pain from normal touch.",
+      "q": "In trigeminal neuralgia, what triggers the severe pain?",
       "options": [
-        "True",
-        "False"
+        "Only deep pressure",
+        "Light touch, chewing, cold wind, or talking",
+        "Only during sleep",
+        "Only after eating spicy food"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "This is called allodynia - pain from something that should not hurt."
+      "explain": "Trigeminal neuralgia is triggered by LIGHT STIMULI: gentle touch to the cheek, eating, brushing teeth, a cool breeze, or even talking. This is called having 'trigger zones.'",
+      "wrongExplains": {
+        "0": "Light touch, not deep pressure, typically triggers the pain. The hypersensitivity makes even gentle stimuli excruciating.",
+        "2": "The pain occurs during waking activities like eating and talking. Sleep typically provides relief.",
+        "3": "Spicy food isn't a specific trigger. Light touch, movement of the jaw, and temperature changes are common triggers."
+      }
     },
     {
-      "q": "Lancinating pain means sharp, shooting, stabbing pain.",
+      "q": "The pain in trigeminal neuralgia is often described as ___.",
       "options": [
-        "True",
-        "False"
+        "Dull and constant",
+        "Sharp, stabbing, like an electric shock",
+        "Itchy",
+        "Mild discomfort"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Like an electric shock or knife stab. Very intense but brief."
+      "explain": "The pain is LANCINATING — sharp, stabbing, electric-shock-like. It lasts seconds to minutes but is described as one of the most intense pains known. Patients call it 'the suicide disease.'",
+      "wrongExplains": {
+        "0": "Trigeminal neuralgia is typically episodic and sharp, not dull and constant. The attacks are brief but severe.",
+        "2": "Itching is not a feature of neuralgia. The sensation is intense pain, not itchiness.",
+        "3": "The pain is anything but mild — it's often described as the worst pain imaginable."
+      }
     },
     {
-      "q": "Trigeminal neuralgia causes brief but severe facial pain attacks.",
+      "q": "CN V has three branches. Which branch covers the CHEEK area?",
       "options": [
-        "True",
-        "False"
+        "V1 (ophthalmic) — forehead",
+        "V2 (maxillary) — cheek",
+        "V3 (mandibular) — jaw",
+        "All branches equally"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "The pain lasts seconds but is excruciating. Triggered by touch, chewing, wind."
+      "explain": "V2 (maxillary) covers the CHEEK, upper lip, and side of the nose. Trigeminal neuralgia most commonly affects V2 or V3 (jaw) areas.",
+      "wrongExplains": {
+        "0": "V1 covers the forehead and upper face. The cheek is specifically V2 territory.",
+        "2": "V3 covers the lower jaw and chin area. The cheek is V2.",
+        "3": "Each branch has a specific territory. The cheek is V2's domain."
+      }
     },
     {
-      "q": "CN V has three branches covering forehead, cheek, and jaw.",
+      "q": "A patient has severe facial pain but a NORMAL neurological exam (no numbness, no weakness). What does this suggest?",
       "options": [
-        "True",
-        "False"
+        "The nerve is completely destroyed",
+        "The nerve is hypersensitive, not damaged structurally",
+        "A motor nerve is involved",
+        "The brain is severely damaged"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Trigeminal neuralgia usually affects one branch, often the cheek area."
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "In trigeminal neuralgia, the nerve is HYPERSENSITIVE (firing abnormally) but not structurally destroyed. Sensation and motor function are preserved — only pain signals are abnormal.",
+      "wrongExplains": {
+        "0": "If destroyed, there would be numbness. Normal sensation with severe pain suggests dysfunction, not destruction.",
+        "2": "Motor nerves control movement. This is a sensory pain problem, not a movement problem.",
+        "3": "Trigeminal neuralgia is often a peripheral nerve problem (sometimes from vascular compression), not brain damage."
+      }
     },
     {
-      "q": "A normal neurological exam with only pain suggests sensory nerve problem.",
+      "q": "Trigeminal neuralgia is also called 'tic douloureux.' What does this mean?",
       "options": [
-        "True",
-        "False"
+        "Happy face",
+        "Painful twitch/tic",
+        "Nerve death",
+        "Facial paralysis"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "No weakness, no numbness, just severe pain attacks = nerve hypersensitivity."
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "'Tic douloureux' is French for 'PAINFUL TWITCH.' The intense pain often causes the patient to wince or grimace involuntarily — a visible 'tic' reaction to the pain.",
+      "wrongExplains": {
+        "0": "There's nothing happy about this condition. The face contorts in pain, not happiness.",
+        "2": "The nerve isn't dead — it's overactive. The problem is too much firing, not nerve death.",
+        "3": "Paralysis would be motor weakness. Trigeminal neuralgia is a pain condition, not paralysis."
+      }
     },
     {
-      "q": "Trigeminal neuralgia is also called tic douloureux (painful tic).",
+      "q": "What commonly causes trigeminal neuralgia?",
       "options": [
-        "True",
-        "False"
+        "A blood vessel compressing CN V",
+        "Eating too much sugar",
+        "Lack of sleep",
+        "Cold weather alone"
       ],
       "answer": 0,
       "difficulty": "intermediate",
-      "explain": "The intense pain can cause facial twitching or wincing."
+      "explain": "A common cause is a BLOOD VESSEL (usually superior cerebellar artery) pressing on CN V at the brainstem. This compression damages the nerve's myelin sheath, causing abnormal pain signals.",
+      "wrongExplains": {
+        "1": "Diet doesn't cause trigeminal neuralgia. It's a structural/vascular problem, not nutritional.",
+        "2": "Sleep deprivation doesn't cause this condition. The cause is typically vascular compression.",
+        "3": "Cold may trigger attacks in someone who already HAS the condition, but cold doesn't cause the underlying disease."
+      }
     },
     {
-      "q": "Triggers for trigeminal neuralgia include touch, chewing, cold wind.",
+      "q": "How might trigeminal neuralgia be treated?",
       "options": [
-        "True",
-        "False"
+        "Antibiotics",
+        "Medications that calm nerve firing, or surgery to decompress the nerve",
+        "Physical therapy for muscles",
+        "Hearing aids"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Light stimuli trigger severe pain - patients avoid these triggers."
+      "explain": "Treatment includes ANTICONVULSANT medications (carbamazepine) that reduce nerve excitability, or SURGERY to move the compressing blood vessel away from the nerve (microvascular decompression).",
+      "wrongExplains": {
+        "0": "Antibiotics treat bacterial infections. Trigeminal neuralgia isn't caused by bacteria.",
+        "2": "Physical therapy helps muscle/joint problems. This is a nerve hypersensitivity issue.",
+        "3": "Hearing aids help with CN VIII (hearing) problems. This is a CN V (facial sensation) problem."
+      }
     }
   ]
 }

@@ -3,94 +3,157 @@
   "parentQuestion": "The large commissure that connects the right and left sides of the brain is called the ___.",
   "scaffolds": [
     {
-      "q": "The brain has two hemispheres - left and right.",
+      "q": "How is the brain divided?",
       "options": [
-        "True",
-        "False"
+        "Into three hemispheres",
+        "Into left and right hemispheres",
+        "It's not divided",
+        "Into four equal quarters"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The cerebrum is divided into left and right hemispheres by the longitudinal fissure. Each controls the opposite side of the body."
+      "explain": "The brain is divided into LEFT and RIGHT HEMISPHERES by the LONGITUDINAL FISSURE. Each hemisphere controls the opposite side of the body.",
+      "wrongExplains": {
+        "0": "The brain has two hemispheres, not three.",
+        "2": "The brain is definitely divided — the longitudinal fissure separates the hemispheres.",
+        "3": "The brain has two hemispheres (each with four lobes), not four equal quarters."
+      }
     },
     {
-      "q": "The left and right hemispheres need to communicate with each other.",
+      "q": "Why do the hemispheres need to communicate?",
       "options": [
-        "True",
-        "False"
+        "They don't need to communicate",
+        "For unified consciousness and coordinated action",
+        "Only for breathing",
+        "Only for digestion"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! For unified consciousness and coordinated action, the hemispheres must share information. They need a bridge."
+      "explain": "The hemispheres must SHARE INFORMATION for UNIFIED CONSCIOUSNESS and COORDINATED ACTION. Without communication, the two sides of your brain would act independently.",
+      "wrongExplains": {
+        "0": "Hemispheric communication is essential for integrated brain function.",
+        "2": "Communication is needed for all conscious functions, not just breathing.",
+        "3": "Communication serves all brain functions, not just autonomic ones."
+      }
     },
     {
-      "q": "A commissure is a bundle of nerve fibers connecting the two hemispheres.",
+      "q": "What is a commissure?",
       "options": [
-        "True",
-        "False"
+        "A groove on the brain surface",
+        "A bundle of nerve fibers connecting the two hemispheres",
+        "A skull bone",
+        "A type of neuron"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Commissural fibers cross the midline, linking corresponding areas on each side. They're the brain's communication cables."
+      "explain": "A COMMISSURE is a BUNDLE OF NERVE FIBERS that crosses the midline, CONNECTING corresponding areas on the LEFT and RIGHT hemispheres. It's a communication cable between sides.",
+      "wrongExplains": {
+        "0": "A groove is a sulcus or fissure. A commissure is a connecting fiber bundle.",
+        "2": "A commissure is neural tissue, not bone.",
+        "3": "A commissure is a bundle of axons, not a single neuron."
+      }
     },
     {
-      "q": "The largest commissure in the brain is called the corpus callosum.",
+      "q": "What is the corpus callosum?",
       "options": [
-        "True",
-        "False"
+        "A small nerve",
+        "The largest commissure connecting the hemispheres",
+        "A bone",
+        "A fluid-filled space"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The corpus callosum contains about 200 million myelinated axons connecting the hemispheres. It's the brain's superhighway."
+      "explain": "The CORPUS CALLOSUM is the LARGEST COMMISSURE in the brain, containing about 200 MILLION myelinated axons connecting the hemispheres. It's the brain's superhighway.",
+      "wrongExplains": {
+        "0": "The corpus callosum contains about 200 million axons — it's massive, not small.",
+        "2": "The corpus callosum is white matter (neural tissue), not bone.",
+        "3": "The corpus callosum is solid neural tissue. Fluid-filled spaces are ventricles."
+      }
     },
     {
-      "q": "'Corpus callosum' means 'tough body' in Latin.",
+      "q": "What does 'corpus callosum' mean in Latin?",
       "options": [
-        "True",
-        "False"
+        "Small body",
+        "Tough body",
+        "Soft tissue",
+        "Fluid chamber"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Corpus = body, callosum = tough/hard. It's a dense, prominent white matter structure sitting at the bottom of the longitudinal fissure."
+      "explain": "'Corpus' means BODY, 'callosum' means TOUGH or hard. The corpus callosum is a dense, prominent white matter structure — a 'tough body' of neural connections.",
+      "wrongExplains": {
+        "0": "It means 'tough body,' not small body. It's actually quite large.",
+        "2": "It's called tough body because of its dense structure.",
+        "3": "It's solid white matter, not a fluid chamber."
+      }
     },
     {
-      "q": "The corona radiata is NOT a commissure - it connects cortex to subcortical structures.",
+      "q": "What does the corona radiata do?",
       "options": [
-        "True",
-        "False"
+        "Connects the hemispheres",
+        "Connects cortex to subcortical structures vertically",
+        "Separates the hemispheres",
+        "Contains cerebrospinal fluid"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The corona radiata projects UP and DOWN (cortex to thalamus/brainstem), not ACROSS hemispheres. Different type of fiber tract."
+      "explain": "The CORONA RADIATA projects UP and DOWN, connecting CORTEX to SUBCORTICAL structures (thalamus, brainstem). It's vertical projection fibers, NOT a commissure (horizontal).",
+      "wrongExplains": {
+        "0": "The corona radiata runs vertically. Commissures like the corpus callosum connect hemispheres horizontally.",
+        "2": "The longitudinal fissure separates hemispheres. The corona radiata is a fiber tract.",
+        "3": "The corona radiata is white matter. CSF is in ventricles."
+      }
     },
     {
-      "q": "The internal capsule is NOT a commissure - it carries signals vertically, not horizontally.",
+      "q": "What does the internal capsule do?",
       "options": [
-        "True",
-        "False"
+        "Connects left and right hemispheres",
+        "Carries motor and sensory signals vertically",
+        "Separates brain from skull",
+        "Produces cerebrospinal fluid"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The internal capsule carries motor and sensory signals up and down. It doesn't connect hemispheres - it connects cortex to lower structures."
+      "explain": "The INTERNAL CAPSULE carries MOTOR and SENSORY signals VERTICALLY (up and down). It connects cortex to lower structures — it's NOT a commissure connecting hemispheres.",
+      "wrongExplains": {
+        "0": "The internal capsule runs vertically. The corpus callosum connects hemispheres.",
+        "2": "The meninges separate brain from skull. The internal capsule is a fiber tract.",
+        "3": "The choroid plexus produces CSF. The internal capsule transmits motor/sensory signals."
+      }
     },
     {
-      "q": "The longitudinal fissure SEPARATES the hemispheres; the corpus callosum CONNECTS them.",
+      "q": "What is the difference between the longitudinal fissure and corpus callosum?",
       "options": [
-        "True",
-        "False"
+        "They're the same structure",
+        "The fissure SEPARATES hemispheres; the corpus callosum CONNECTS them",
+        "The fissure connects; the corpus callosum separates",
+        "Neither relates to hemispheres"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The fissure is the canyon, the corpus callosum is the bridge at the bottom. Opposite structures with opposite functions."
+      "explain": "The LONGITUDINAL FISSURE is the CANYON that SEPARATES the hemispheres. The CORPUS CALLOSUM is the BRIDGE at the bottom that CONNECTS them. Opposite structures with opposite functions.",
+      "wrongExplains": {
+        "0": "They're different — one separates, one connects.",
+        "2": "That's reversed. The fissure separates; the corpus callosum connects.",
+        "3": "Both directly relate to the hemispheres — separation and connection."
+      }
     },
     {
-      "q": "The large commissure connecting left and right hemispheres is the corpus callosum.",
+      "q": "The large commissure connecting the hemispheres is called the ___.",
       "options": [
-        "True",
-        "False"
+        "Corona radiata",
+        "Corpus callosum",
+        "Internal capsule",
+        "Longitudinal fissure"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! The answer is CORPUS CALLOSUM. Not corona radiata (vertical fibers), not internal capsule (vertical fibers), not longitudinal fissure (that's what separates them)."
+      "explain": "The answer is CORPUS CALLOSUM. It's the large commissure connecting left and right hemispheres. Not corona radiata or internal capsule (vertical fibers), not longitudinal fissure (that separates them).",
+      "wrongExplains": {
+        "0": "The corona radiata runs vertically (cortex to subcortical). The corpus callosum connects hemispheres.",
+        "2": "The internal capsule runs vertically (motor/sensory signals). The corpus callosum connects hemispheres.",
+        "3": "The longitudinal fissure SEPARATES hemispheres. The corpus callosum CONNECTS them."
+      }
     }
   ]
 }

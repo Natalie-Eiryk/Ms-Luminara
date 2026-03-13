@@ -1,96 +1,159 @@
 {
   "parentId": "200.5.18",
-  "parentQuestion": "Food lost taste, dry eye, cannot close eye",
+  "parentQuestion": "A patient reports food has lost its taste, has a dry eye, and cannot close their eye on one side. Which nerve is damaged?",
   "scaffolds": [
     {
-      "q": "CN VII carries taste from front 2/3 of tongue.",
+      "q": "Which nerve carries taste sensation from the FRONT 2/3 of the tongue?",
       "options": [
-        "True",
-        "False"
+        "CN V (trigeminal)",
+        "CN VII (facial)",
+        "CN IX (glossopharyngeal)",
+        "CN XII (hypoglossal)"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "If CN VII is damaged, taste from most of the tongue is lost."
+      "explain": "CN VII (facial nerve) carries TASTE from the anterior 2/3 of the tongue. If CN VII is damaged, most of the tongue loses taste sensation.",
+      "wrongExplains": {
+        "0": "CN V carries TOUCH sensation from the tongue, not taste. Taste and touch are different sensory modalities.",
+        "2": "CN IX carries taste from the POSTERIOR 1/3 (back) of the tongue. The front 2/3 uses CN VII.",
+        "3": "CN XII controls tongue MOVEMENT, not taste. It's purely motor."
+      }
     },
     {
-      "q": "Tears keep your eye moist and healthy.",
+      "q": "Which nerve controls the lacrimal gland that produces tears?",
       "options": [
-        "True",
-        "False"
+        "CN II (optic)",
+        "CN III (oculomotor)",
+        "CN VII (facial)",
+        "CN VIII (vestibulocochlear)"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "foundation",
-      "explain": "The lacrimal gland makes tears. CN VII controls this gland."
+      "explain": "CN VII controls the LACRIMAL GLAND through parasympathetic fibers. If CN VII is damaged, the gland can't produce enough tears, causing dry eye.",
+      "wrongExplains": {
+        "0": "CN II carries vision. It doesn't control any glands.",
+        "1": "CN III controls pupil and some eye muscles, but not the tear gland. That's CN VII.",
+        "3": "CN VIII handles hearing and balance. It has nothing to do with tear production."
+      }
     },
     {
-      "q": "Closing your eye uses the orbicularis oculi muscle.",
+      "q": "Which muscle closes the eye, and which nerve controls it?",
       "options": [
-        "True",
-        "False"
+        "Levator palpebrae, CN III",
+        "Orbicularis oculi, CN VII",
+        "Lateral rectus, CN VI",
+        "Superior oblique, CN IV"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "This muscle circles the eye and squeezes it shut. CN VII controls it."
+      "explain": "The ORBICULARIS OCULI muscle circles the eye and squeezes it SHUT. It's controlled by CN VII (facial). CN VII damage = can't close the eye.",
+      "wrongExplains": {
+        "0": "The levator palpebrae OPENS the eye (CN III). The orbicularis oculi CLOSES it (CN VII). Opposite actions.",
+        "2": "The lateral rectus moves the eyeball sideways (CN VI). It doesn't close the eyelid.",
+        "3": "The superior oblique rotates the eye downward (CN IV). It doesn't affect the eyelid."
+      }
     },
     {
-      "q": "CN VII controls muscles of facial expression.",
+      "q": "A patient has THREE symptoms: lost taste, dry eye, and can't close eye. What do these have in common?",
       "options": [
-        "True",
-        "False"
+        "They all involve CN V",
+        "They all involve CN VII",
+        "They're unrelated",
+        "They all involve CN X"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Smiling, frowning, blinking, raising eyebrows - all CN VII."
+      "explain": "ALL THREE are CN VII functions: taste (anterior tongue), tear production (lacrimal gland), and eye closure (orbicularis oculi). One nerve damage = all three symptoms.",
+      "wrongExplains": {
+        "0": "CN V handles facial SENSATION and CHEWING. It doesn't control taste, tears, or eye closure.",
+        "2": "They're not unrelated — they all use CN VII. This is why they appear together.",
+        "3": "CN X handles voice, swallowing, and internal organs. These eye/taste symptoms are CN VII."
+      }
     },
     {
-      "q": "A dry eye can become damaged without tears for protection.",
+      "q": "What condition commonly causes sudden CN VII damage with these symptoms?",
       "options": [
-        "True",
-        "False"
+        "Heart attack",
+        "Bell's palsy",
+        "Broken leg",
+        "Stomach flu"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Without tears, the cornea can dry out and get scratched."
+      "explain": "BELL'S PALSY is sudden, usually temporary facial nerve paralysis. It causes facial weakness, dry eye, taste changes, and inability to close the eye on one side.",
+      "wrongExplains": {
+        "0": "Heart attack affects the heart (blood supply), not the facial nerve. Different problem entirely.",
+        "2": "A broken leg involves bones and different nerves. It doesn't affect CN VII in the face.",
+        "3": "Stomach flu affects the GI tract. Bell's palsy specifically affects the facial nerve."
+      }
     },
     {
-      "q": "Multiple symptoms from one side suggest one nerve.",
+      "q": "Why is a dry eye dangerous in CN VII palsy?",
       "options": [
-        "True",
-        "False"
+        "It's not dangerous",
+        "The cornea can dry out and become damaged without tears",
+        "It causes deafness",
+        "It causes blindness immediately"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "When several functions fail together, look for the common nerve."
-    },
-    {
-      "q": "Bells palsy is a common condition affecting CN VII.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Bells palsy causes sudden facial weakness, dry eye, and taste changes."
-    },
-    {
-      "q": "CN VII carries taste, controls tears, and moves facial muscles.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "The facial nerve has multiple functions all affected by damage."
+      "explain": "Without tears, the CORNEA dries out and can get scratched or infected (keratitis). Plus, the eye can't close to protect itself. Patients need artificial tears and eye protection.",
+      "wrongExplains": {
+        "0": "Dry eye IS dangerous. Without tears and eye closure, the cornea can be permanently damaged.",
+        "2": "Deafness involves CN VIII, not CN VII. Dry eye doesn't cause hearing problems.",
+        "3": "It doesn't cause immediate blindness, but prolonged corneal damage CAN eventually impair vision."
+      }
     },
     {
-      "q": "Facial nerve palsy requires eye protection.",
+      "q": "CN VII damage causes facial weakness. Why can the patient still FEEL their face?",
       "options": [
-        "True",
-        "False"
+        "CN VII carries sensation too",
+        "Facial SENSATION uses CN V, which is intact",
+        "Feeling and movement use the same nerve",
+        "The patient is imagining the sensation"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Without eye closure, the cornea dries. Patients need artificial tears."
+      "explain": "CN V handles facial SENSATION. CN VII handles facial MOVEMENT. They're different nerves! So CN VII damage causes paralysis but NOT numbness. The patient can feel but can't move.",
+      "wrongExplains": {
+        "0": "CN VII is primarily motor (plus taste and glands). Facial touch sensation uses CN V.",
+        "2": "Feeling (CN V) and movement (CN VII) use DIFFERENT nerves. That's why one can fail while the other works.",
+        "3": "The sensation is real — CN V is working normally, transmitting touch information to the brain."
+      }
+    },
+    {
+      "q": "What treatment might a CN VII palsy patient need for eye protection?",
+      "options": [
+        "Hearing aids",
+        "Artificial tears and eye taping at night",
+        "Glasses for vision",
+        "Chewing exercises"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "ARTIFICIAL TEARS replace missing tear production. EYE TAPING at night keeps the eye closed during sleep since the patient can't close it voluntarily. This prevents corneal damage.",
+      "wrongExplains": {
+        "0": "Hearing aids are for hearing loss (CN VIII). CN VII palsy doesn't affect hearing.",
+        "2": "Glasses correct vision problems. The issue here is eye protection, not visual acuity.",
+        "3": "Chewing uses CN V. The eye protection problem relates to CN VII controlling tears and eye closure."
+      }
+    },
+    {
+      "q": "The patient notices the affected side of their face droops and they can't raise that eyebrow. This confirms damage to which nerve?",
+      "options": [
+        "CN V (trigeminal)",
+        "CN VII (facial)",
+        "CN III (oculomotor)",
+        "CN XII (hypoglossal)"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Facial drooping and inability to raise the eyebrow = facial EXPRESSION muscle paralysis = CN VII damage. All muscles of facial expression are controlled by CN VII.",
+      "wrongExplains": {
+        "0": "CN V provides facial SENSATION and controls CHEWING. It doesn't move the eyebrow or control facial expression.",
+        "2": "CN III controls eye movement and eyelid LIFTING. Eyebrow raising is a facial expression controlled by CN VII.",
+        "3": "CN XII controls TONGUE movement. It doesn't affect facial expression or eyebrow movement."
+      }
     }
   ]
 }

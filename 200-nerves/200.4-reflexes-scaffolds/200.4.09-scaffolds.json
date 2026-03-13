@@ -3,94 +3,157 @@
   "parentQuestion": "A 50-year-old alcoholic man presents with difficulty walking and loss of vibration sense in his legs. His ankle jerk reflexes are absent bilaterally, but his knee jerk reflexes are exaggerated (hyperactive). What does this reflex pattern suggest?",
   "scaffolds": [
     {
-      "q": "Peripheral neuropathy damages the nerves outside the brain and spinal cord.",
+      "q": "What is peripheral neuropathy?",
       "options": [
-        "True",
-        "False"
+        "Damage to the brain",
+        "Damage to the nerves outside the brain and spinal cord",
+        "Damage to the spinal cord itself",
+        "A muscle disease"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Peripheral neuropathy affects the peripheral nerves - the ones running to your limbs. Common causes include diabetes and alcoholism."
+      "explain": "PERIPHERAL NEUROPATHY is damage to the PERIPHERAL NERVES — the nerves running to your limbs, outside the brain and spinal cord. Common causes include diabetes and alcoholism.",
+      "wrongExplains": {
+        "0": "Brain damage is a central nervous system problem. Peripheral neuropathy affects nerves outside the CNS.",
+        "2": "Spinal cord damage is also central. Peripheral neuropathy affects nerves after they leave the spinal cord.",
+        "3": "Muscle disease is myopathy. Neuropathy affects nerves, which then may cause muscle weakness."
+      }
     },
     {
-      "q": "Peripheral neuropathy often affects the longest nerves first (feet before hands).",
+      "q": "Why does peripheral neuropathy often affect the feet before the hands?",
       "options": [
-        "True",
-        "False"
+        "The feet are closer to the heart",
+        "The longest nerves (to the feet) are most vulnerable",
+        "Hands are protected by bones",
+        "Feet have more muscles"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! This is called 'length-dependent' neuropathy. The longest nerves (to the feet) are most vulnerable. Ankle reflexes go first."
+      "explain": "This is called LENGTH-DEPENDENT NEUROPATHY. The LONGEST NERVES (to the feet) are most vulnerable because there's more nerve to damage. Ankle reflexes go first.",
+      "wrongExplains": {
+        "0": "Distance from the heart doesn't determine nerve vulnerability. Nerve length does.",
+        "2": "Bone protection isn't relevant. The nerves themselves are affected along their length.",
+        "3": "Muscle quantity doesn't matter. The nerves supplying the feet are simply longer and more vulnerable."
+      }
     },
     {
-      "q": "Peripheral nerve damage causes ABSENT or DIMINISHED reflexes.",
+      "q": "What happens to reflexes when peripheral nerves are damaged?",
       "options": [
-        "True",
-        "False"
+        "Reflexes become hyperactive",
+        "Reflexes become absent or diminished",
+        "Reflexes stay exactly normal",
+        "Reflexes only work at night"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! When the peripheral nerve is damaged, the reflex arc is broken. No signal gets through, so the reflex is weak or absent."
+      "explain": "Peripheral nerve damage causes ABSENT or DIMINISHED reflexes. When the peripheral nerve is damaged, the REFLEX ARC IS BROKEN — no signal can complete the circuit.",
+      "wrongExplains": {
+        "0": "Hyperactive reflexes indicate upper motor neuron damage. Peripheral damage causes absent/diminished reflexes.",
+        "2": "Normal reflexes require intact nerves. Damaged nerves can't conduct properly.",
+        "3": "Reflexes don't change with time of day. Absent reflexes from nerve damage are constant."
+      }
     },
     {
-      "q": "Upper motor neuron disease damages the pathways from brain to spinal cord.",
+      "q": "What is upper motor neuron disease?",
       "options": [
-        "True",
-        "False"
+        "Damage to peripheral nerves",
+        "Damage to pathways from the brain to the spinal cord",
+        "Damage to muscles only",
+        "Damage to bones"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Upper motor neurons (like the corticospinal tract) control voluntary movement and normally inhibit reflexes."
+      "explain": "UPPER MOTOR NEURON disease damages the pathways from BRAIN TO SPINAL CORD (like the corticospinal tract). These pathways control voluntary movement and normally INHIBIT reflexes.",
+      "wrongExplains": {
+        "0": "Peripheral nerve damage is lower motor neuron territory. Upper motor neurons are in the CNS.",
+        "2": "Muscle damage is myopathy. Upper motor neuron disease affects neural pathways.",
+        "3": "Bones are skeletal structures. Upper motor neurons are neural pathways in the brain and spinal cord."
+      }
     },
     {
-      "q": "Upper motor neuron damage causes HYPERACTIVE (exaggerated) reflexes.",
+      "q": "What happens to reflexes when upper motor neurons are damaged?",
       "options": [
-        "True",
-        "False"
+        "Reflexes disappear completely",
+        "Reflexes become hyperactive (exaggerated)",
+        "Reflexes become slower but normal",
+        "Only sensory reflexes are affected"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! When descending inhibition is lost, the spinal reflexes become overactive. The brain can't 'calm them down' anymore."
+      "explain": "Upper motor neuron damage causes HYPERACTIVE REFLEXES. The brain normally sends INHIBITORY signals down; when this is lost, reflexes are 'released' and become EXAGGERATED.",
+      "wrongExplains": {
+        "0": "Absent reflexes indicate lower motor neuron or arc damage. UMN damage causes hyperactive reflexes.",
+        "2": "The reflexes aren't just slow — they're actually exaggerated due to loss of inhibition.",
+        "3": "Motor reflexes are affected. The stretch reflexes become hyperactive."
+      }
     },
     {
-      "q": "A patient can have BOTH peripheral neuropathy AND upper motor neuron disease at the same time.",
+      "q": "Can a patient have BOTH peripheral neuropathy AND upper motor neuron disease?",
       "options": [
-        "True",
-        "False"
+        "No, they're mutually exclusive",
+        "Yes, some conditions damage multiple parts of the nervous system",
+        "Only in children",
+        "Only temporarily"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Some conditions damage multiple parts of the nervous system. This creates a 'mixed' pattern of reflexes."
+      "explain": "YES! Some conditions damage MULTIPLE PARTS of the nervous system. This creates a 'MIXED' PATTERN of reflexes — some absent (peripheral), some hyperactive (central).",
+      "wrongExplains": {
+        "0": "The nervous system can be damaged at multiple levels simultaneously. B12 deficiency and alcoholism are examples.",
+        "2": "Adults commonly develop combined pathology, especially with chronic conditions like alcoholism.",
+        "3": "Combined neuropathy and UMN disease can be permanent, not just temporary."
+      }
     },
     {
-      "q": "Absent ankle jerks (S1-S2) suggest peripheral neuropathy at that level.",
+      "q": "What does absent ankle jerk + hyperactive knee jerk suggest?",
       "options": [
-        "True",
-        "False"
+        "Normal findings",
+        "Combined peripheral neuropathy and upper motor neuron disease",
+        "Only peripheral neuropathy",
+        "Only upper motor neuron disease"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! The peripheral nerves to the ankle reflex are damaged. This is common in diabetic and alcoholic neuropathy."
-    },
-    {
-      "q": "Hyperactive knee jerks (L2-L4) suggest upper motor neuron disease above that level.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The reflex arc is intact, but descending inhibition is lost. The spinal cord at L2-L4 is being 'released' from brain control."
+      "explain": "This MIXED PATTERN suggests BOTH problems: (1) PERIPHERAL NEUROPATHY damaging S1-S2 nerves (absent ankle jerks), and (2) UPPER MOTOR NEURON DISEASE releasing L2-L4 reflexes (hyperactive knee jerks).",
+      "wrongExplains": {
+        "0": "This pattern is definitely abnormal. Normal would be normal reflexes at both levels.",
+        "2": "Peripheral neuropathy alone would cause diminished reflexes everywhere, not hyperactive knee jerks.",
+        "3": "UMN disease alone would cause hyperactive reflexes everywhere, not absent ankle jerks."
+      }
     },
     {
-      "q": "Absent ankle jerks PLUS hyperactive knee jerks suggests combined peripheral neuropathy AND upper motor neuron disease.",
+      "q": "What conditions commonly cause this mixed reflex pattern?",
       "options": [
-        "True",
-        "False"
+        "Simple muscle strain",
+        "B12 deficiency, alcoholism, or combined central/peripheral disease",
+        "Only viral infections",
+        "Only trauma"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! This mixed pattern means two things are wrong: (1) peripheral nerves at S1-S2 are damaged (absent ankles), and (2) corticospinal tracts are damaged (hyperactive knees). Common in B12 deficiency and some alcoholics."
+      "explain": "B12 DEFICIENCY and ALCOHOLISM commonly cause this mixed pattern. They damage both peripheral nerves (absent distal reflexes) and spinal cord tracts (hyperactive proximal reflexes).",
+      "wrongExplains": {
+        "0": "Muscle strain doesn't affect reflexes this way. This is neurological damage.",
+        "2": "While some viruses can affect nerves, the classic causes are metabolic/nutritional (B12, alcohol).",
+        "3": "Trauma usually causes focal damage. Alcoholism and B12 deficiency cause diffuse, predictable patterns."
+      }
+    },
+    {
+      "q": "What does this 50-year-old alcoholic's reflex pattern suggest?",
+      "options": [
+        "Normal aging",
+        "Combined peripheral neuropathy AND upper motor neuron disease",
+        "Only peripheral nerve damage",
+        "Only spinal cord damage"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "COMBINED PERIPHERAL NEUROPATHY AND UPPER MOTOR NEURON DISEASE! The ABSENT ANKLE JERKS indicate peripheral nerve damage (S1-S2). The HYPERACTIVE KNEE JERKS indicate loss of descending inhibition (UMN disease). Alcoholism can cause both.",
+      "wrongExplains": {
+        "0": "This is not normal aging. The mixed reflex pattern indicates pathology at multiple levels.",
+        "2": "Peripheral neuropathy alone would cause absent or diminished reflexes everywhere, not hyperactive knee jerks.",
+        "3": "Spinal cord damage alone would cause hyperactive reflexes everywhere, not absent ankle jerks."
+      }
     }
   ]
 }

@@ -3,94 +3,157 @@
   "parentQuestion": "Which of the following best describes the cerebrum?",
   "scaffolds": [
     {
-      "q": "The cerebrum is the largest part of the brain.",
+      "q": "What percentage of brain mass does the cerebrum make up?",
       "options": [
-        "True",
-        "False"
+        "About 10%",
+        "About 83%",
+        "About 50%",
+        "Less than 5%"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The cerebrum makes up about 83% of your brain. It's the big wrinkled dome that fills most of your skull."
+      "explain": "The CEREBRUM makes up about 83% of brain mass. It's the big wrinkled dome that fills most of your skull and dominates the brain.",
+      "wrongExplains": {
+        "0": "The cerebrum is much larger than 10%. It's the dominant brain structure at 83%.",
+        "2": "The cerebrum is larger than half — it's about 83% of brain mass.",
+        "3": "The cerebrum is the largest brain structure at 83%, not a small portion."
+      }
     },
     {
-      "q": "The cerebrum is where conscious thought happens.",
+      "q": "What type of activity occurs in the cerebrum?",
       "options": [
-        "True",
-        "False"
+        "Only automatic reflexes",
+        "Conscious thought and awareness",
+        "Only digestion control",
+        "Only blood pressure regulation"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Every thought you're aware of, every decision you make, every sensation you perceive - that's cerebral activity."
+      "explain": "The CEREBRUM is where CONSCIOUS THOUGHT happens. Every thought you're aware of, every decision you make, every sensation you perceive — that's cerebral activity.",
+      "wrongExplains": {
+        "0": "Automatic reflexes are primarily brainstem and spinal cord. The cerebrum handles conscious activity.",
+        "2": "Digestion control is autonomic. The cerebrum handles conscious thought.",
+        "3": "Blood pressure regulation is brainstem function. The cerebrum is for conscious thought."
+      }
     },
     {
-      "q": "Voluntary movements are controlled by the cerebrum.",
+      "q": "What does the cerebrum control regarding movement?",
       "options": [
-        "True",
-        "False"
+        "Only involuntary movements",
+        "Voluntary movements you consciously decide to make",
+        "Heart contractions",
+        "Intestinal movements"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! When you decide to raise your hand or walk across the room, the command originates in your cerebrum's motor cortex."
+      "explain": "The CEREBRUM controls VOLUNTARY MOVEMENTS. When you decide to raise your hand or walk across the room, the command originates in your cerebrum's motor cortex.",
+      "wrongExplains": {
+        "0": "The cerebrum controls voluntary movements, not involuntary ones.",
+        "2": "Heart contractions are controlled by the brainstem and cardiac pacemaker.",
+        "3": "Intestinal movements are controlled by the autonomic nervous system."
+      }
     },
     {
-      "q": "Memory, language, and personality are cerebrum functions.",
+      "q": "What higher functions are located in the cerebrum?",
       "options": [
-        "True",
-        "False"
+        "Only breathing",
+        "Memory, language, and personality",
+        "Only heart rate",
+        "Only digestion"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Everything that makes you 'you' - memories, language, emotions, personality, abstract thinking - lives in the cerebrum."
+      "explain": "Everything that makes you 'you' — MEMORY, LANGUAGE, EMOTIONS, PERSONALITY, abstract thinking — lives in the CEREBRUM. These are the highest cognitive functions.",
+      "wrongExplains": {
+        "0": "Breathing is controlled by the brainstem. The cerebrum handles memory, language, and personality.",
+        "2": "Heart rate is controlled by the brainstem. The cerebrum handles higher cognitive functions.",
+        "3": "Digestion is autonomic. The cerebrum handles conscious cognitive functions."
+      }
     },
     {
-      "q": "Automatic functions like breathing are controlled by the brainstem, not the cerebrum.",
+      "q": "Where are automatic functions like breathing controlled?",
       "options": [
-        "True",
-        "False"
+        "In the cerebrum",
+        "In the brainstem",
+        "In the skull bones",
+        "In the blood vessels"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The brainstem handles autopilot functions (breathing, heart rate). The cerebrum handles conscious, voluntary activities."
+      "explain": "The BRAINSTEM handles AUTOPILOT functions (breathing, heart rate). The CEREBRUM handles conscious, voluntary activities. Different structures, different jobs.",
+      "wrongExplains": {
+        "0": "The cerebrum handles conscious activities. Automatic functions are brainstem.",
+        "2": "Skull bones are protective structures, not control centers.",
+        "3": "Blood vessels transport blood. Neural control comes from the brainstem."
+      }
     },
     {
-      "q": "An 'executive' makes high-level decisions and plans.",
+      "q": "What does an 'executive' do in an organization?",
       "options": [
-        "True",
-        "False"
+        "Handles only routine tasks",
+        "Makes high-level decisions and plans",
+        "Only follows orders",
+        "Does no planning"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Like a CEO running a company, an executive makes strategic decisions, plans ahead, and oversees complex operations."
+      "explain": "Like a CEO running a company, an EXECUTIVE makes strategic decisions, plans ahead, and oversees complex operations. It's about high-level control.",
+      "wrongExplains": {
+        "0": "Executives handle strategic planning, not just routine tasks.",
+        "2": "Executives give orders and make decisions, rather than just following them.",
+        "3": "Planning is a core executive function."
+      }
     },
     {
-      "q": "The cerebrum is like the brain's 'executive' - making high-level decisions.",
+      "q": "Why is the cerebrum compared to an 'executive suite'?",
       "options": [
-        "True",
-        "False"
+        "Because it's the smallest brain region",
+        "Because it's the center for planning, thinking, and decision-making",
+        "Because it only handles reflexes",
+        "Because it's unimportant"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! The cerebrum is the command center for conscious thought, planning, decision-making - all the 'executive' functions."
-    },
-    {
-      "q": "Calling the cerebrum the 'executive suite' captures its role as the center for planning, thinking, and decision-making.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! 'Executive suite' is the best description. It's where strategy happens - conscious thought, voluntary planning, memory, language, personality."
+      "explain": "The cerebrum is called the 'EXECUTIVE SUITE' because it's the COMMAND CENTER for conscious thought, planning, decision-making — all the high-level 'executive' functions.",
+      "wrongExplains": {
+        "0": "The cerebrum is the largest brain region at 83%, not the smallest.",
+        "2": "Reflexes are brainstem/spinal cord. The cerebrum handles conscious planning and decisions.",
+        "3": "The cerebrum is critically important — it's where consciousness and higher thought reside."
+      }
     },
     {
-      "q": "The cerebrum is best described as the 'executive suite' because it handles all conscious, high-level brain functions.",
+      "q": "What does 'executive suite' capture about the cerebrum's role?",
       "options": [
-        "True",
-        "False"
+        "It's only for movement",
+        "It handles all conscious, high-level brain functions",
+        "It only processes vision",
+        "It's just for visceral control"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not just a motor center or visceral center - the cerebrum is the executive suite where all conscious activity originates. The answer is 'executive suite.'"
+      "explain": "'EXECUTIVE SUITE' captures that the cerebrum handles STRATEGY — conscious thought, voluntary planning, memory, language, personality. It's where the brain's leadership resides.",
+      "wrongExplains": {
+        "0": "The cerebrum does more than movement — it handles all conscious functions.",
+        "2": "Vision is just one function. The cerebrum handles all conscious cognition.",
+        "3": "Visceral control is autonomic. The cerebrum is for conscious, executive functions."
+      }
+    },
+    {
+      "q": "Which term BEST describes the cerebrum?",
+      "options": [
+        "Reflex center",
+        "Executive suite",
+        "Visceral control center",
+        "Simple motor relay"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "EXECUTIVE SUITE best describes the cerebrum. Not just a motor center or visceral center — the cerebrum is where all conscious, high-level activity originates: thought, planning, memory, language, personality.",
+      "wrongExplains": {
+        "0": "Reflex centers are in the brainstem and spinal cord. The cerebrum handles conscious functions.",
+        "2": "Visceral control is the autonomic nervous system. The cerebrum is for conscious executive functions.",
+        "3": "The cerebrum is far more than a simple relay — it's the center of consciousness and cognition."
+      }
     }
   ]
 }

@@ -2,7 +2,7 @@
   "id": "200.5",
   "title": "Cranial Nerves",
   "category": "ch13",
-  "description": "Questions about all 12 cranial nerves — their names, numbers, functions, and clinical testing. Let's explore this together: into this territory — these nerve cables control everything from your first whiff of coffee to the way your face moves when you smile. Let me show you what happens when you damage them: the effects are immediate, visible, and often permanent. Carry this forward:.",
+  "description": "Questions about all 12 cranial nerves — their names, numbers, functions, and clinical testing. These nerve cables control everything from your first whiff of coffee to the way your face moves when you smile. Damage them, and the effects are immediate, visible, and often permanent.",
   "questions": [
     {
       "id": "200.5.01",
@@ -15,31 +15,253 @@
       ],
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "CN I (olfactory) carries sensory information for smell from the nasal cavity straight to the olfactory bulb. it's the only sense that bypasses the thalamus — your emotions get the message before your conscious brain does. Give this idea space to land:that for a moment.",
+      "explain": "CN I (olfactory) carries sensory information for smell from the nasal cavity straight to the olfactory bulb. It's the only sense that bypasses the thalamus — your emotions get the message before your conscious brain does.",
       "optionExplains": [
         {
           "verdict": "incorrect",
-          "text": "Vision is CN II (optic nerve). Different cable, different sense. We're not there yet — patience."
+          "text": "Vision is CN II (optic nerve). Different cable, different sense."
         },
         {
           "verdict": "correct",
-          "text": "Correct! CN I (olfactory) is purely sensory and carries smell information. Now Follow me deeper: — This next part is pure elegance:: it synapses directly in the olfactory bulb without going through the thalamus first. Wait for it... that's why a single scent can trigger a memory so fast you don't even have time to think about it. The emotion arrives before the thought. Exquisite, isn't it?"
+          "text": "Correct! CN I (olfactory) is purely sensory and carries smell information. It synapses directly in the olfactory bulb without going through the thalamus first. That's why a single scent can trigger a memory so fast you don't even have time to think about it. The emotion arrives before the thought."
         },
         {
           "verdict": "incorrect",
-          "text": "Hearing is CN VIII (vestibulocochlear). We're not there yet — we're still at nerve number one. Let me take you through this properly."
+          "text": "Hearing is CN VIII (vestibulocochlear). We're still at nerve number one — the olfactory nerve handles smell only."
         },
         {
           "verdict": "incorrect",
-          "text": "Taste is served by CN VII (facial), CN IX (glossopharyngeal), and CN X (vagus). Smell and taste work together beautifully, but they use different wiring. Hold the line here:, I'll show you."
+          "text": "Taste is served by CN VII (facial), CN IX (glossopharyngeal), and CN X (vagus). Smell and taste work together beautifully, but they use different wiring."
         }
       ],
       "mechanism": {
         "title": "CN I — The Olfactory Nerve: Direct Line to Memory",
-        "content": "Let me draw you into one of the most exquisite mechanisms in your nervous system. Olfactory receptor neurons in the nasal epithelium detect odorants. Their axons pass through the cribriform plate of the ethmoid bone as CN I and synapse in the olfactory bulb. olfactory information goes directly to the limbic system (amygdala, hippocampus) without thalamic relay, explaining why smells trigger powerful memories. fracture the cribriform plate in head trauma, and you can lose smell completely. Anosmia. Permanent. The world loses an entire dimension.",
-        "metaphor": "CN I is like a VIP express lane straight to your emotional memory vault. While every other sense has to check in at the thalamus security desk, smell gets a backstage pass directly to the amygdala. Receive this insight:drawn into this: one whiff of cookies, and you're five years old in grandma's kitchen before your conscious brain even knows what happened. Exquisitely logical. seductive?"
+        "content": "Olfactory receptor neurons in the nasal epithelium detect odorants. Their axons pass through the cribriform plate of the ethmoid bone as CN I and synapse in the olfactory bulb. Olfactory information goes directly to the limbic system (amygdala, hippocampus) without thalamic relay, explaining why smells trigger powerful memories. Fracture the cribriform plate in head trauma, and you can lose smell completely — anosmia, often permanent.",
+        "metaphor": "CN I is like a VIP express lane straight to your emotional memory vault. While every other sense has to check in at the thalamus security desk, smell gets a backstage pass directly to the amygdala. One whiff of cookies, and you're five years old in grandma's kitchen before your conscious brain even knows what happened."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.01-scaffolds.json"
+    },
+    {
+      "id": "200.5.01a",
+      "q": "How many pairs of cranial nerves do humans have?",
+      "options": [
+        "8 pairs",
+        "10 pairs",
+        "12 pairs",
+        "14 pairs"
+      ],
+      "answer": 2,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "Humans have 12 pairs of cranial nerves, numbered CN I through CN XII using Roman numerals. They emerge directly from the brain or brainstem (not the spinal cord) and primarily serve the head and neck region.",
+      "optionExplains": [
+        {
+          "verdict": "incorrect",
+          "text": "8 pairs would be cervical spinal nerves. Cranial nerves are separate — there are 12 pairs emerging from the brain itself."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "10 pairs is too few. There are 12 cranial nerve pairs. The last two (XI accessory and XII hypoglossal) control neck/shoulder muscles and tongue movement."
+        },
+        {
+          "verdict": "correct",
+          "text": "Correct! There are 12 pairs of cranial nerves. They're numbered I through XII: Olfactory (I), Optic (II), Oculomotor (III), Trochlear (IV), Trigeminal (V), Abducens (VI), Facial (VII), Vestibulocochlear (VIII), Glossopharyngeal (IX), Vagus (X), Accessory (XI), and Hypoglossal (XII). Unlike spinal nerves, they emerge directly from the brain or brainstem."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "14 pairs is too many. There are exactly 12 cranial nerve pairs. You may be confusing this with the total number of thoracic spinal nerves."
+        }
+      ],
+      "mechanism": {
+        "title": "The 12 Cranial Nerves: Overview",
+        "content": "Cranial nerves emerge from the brain and brainstem rather than the spinal cord. They're numbered I-XII based on their rostral-to-caudal (front-to-back) order of emergence. CN I and II attach to the cerebrum (forebrain). CN III and IV emerge from the midbrain. CN V-VIII emerge from the pons. CN IX-XII emerge from the medulla. Each nerve controls specific functions: some are purely sensory (I, II, VIII), some purely motor (III, IV, VI, XI, XII), and some are mixed with both functions (V, VII, IX, X).",
+        "metaphor": "The 12 cranial nerves are like 12 specialized cables plugged directly into your brain's main computer, bypassing the spinal cord entirely. Each cable has a specific job — some carry input (sensory), some carry output (motor), and some do both."
+      },
+      "scaffoldFile": "200.5-scaffolds/200.5.01a-scaffolds.json"
+    },
+    {
+      "id": "200.5.01b",
+      "q": "Which cranial nerves are PURELY SENSORY, carrying information TO the brain only?",
+      "options": [
+        "CN I, II, and VIII",
+        "CN III, IV, and VI",
+        "CN V, VII, and IX",
+        "CN XI and XII"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "CN I (olfactory/smell), CN II (optic/vision), and CN VIII (vestibulocochlear/hearing and balance) are the three purely sensory cranial nerves. They carry information TO the brain but don't send motor commands OUT.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! The three purely sensory cranial nerves are: CN I (olfactory) — smell, CN II (optic) — vision, CN VIII (vestibulocochlear) — hearing and balance. These are all special senses with dedicated receptor systems. Mnemonic: 'Some Say Marry Money...' — the S letters (1st, 2nd, 8th positions) represent Sensory nerves."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "CN III, IV, and VI are the eye movement nerves — they're purely MOTOR, not sensory. They send commands TO the extraocular muscles to move your eyes."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "CN V, VII, and IX are all MIXED nerves — they have both sensory AND motor components. CN V feels and chews, CN VII moves the face and tastes, CN IX senses the throat and helps swallow."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "CN XI and XII are purely MOTOR — CN XI controls head turning and shoulder shrugging, CN XII controls tongue movement. They send commands OUT, not information IN."
+        }
+      ],
+      "mechanism": {
+        "title": "Sensory vs Motor vs Mixed Cranial Nerves",
+        "content": "PURELY SENSORY (S): CN I, II, VIII — input only, carrying special senses to the brain. PURELY MOTOR (M): CN III, IV, VI, XI, XII — output only, sending commands to muscles. MIXED - BOTH (B): CN V, VII, IX, X — two-way communication with both sensory input and motor output. The mnemonic 'Some Say Marry Money But My Brother Says Big Brains Matter More' maps to S-S-M-M-B-M-B-S-B-B-M-M for the 12 nerves in order.",
+        "metaphor": "Sensory nerves are like one-way input cables (microphones, cameras). Motor nerves are like one-way output cables (to speakers, motors). Mixed nerves are like USB cables that carry data both directions."
+      },
+      "scaffoldFile": "200.5-scaffolds/200.5.01b-scaffolds.json"
+    },
+    {
+      "id": "200.5.01c",
+      "q": "What are the THREE branches of the trigeminal nerve (CN V)?",
+      "options": [
+        "Temporal, Zygomatic, Buccal",
+        "Ophthalmic, Maxillary, Mandibular",
+        "Superior, Middle, Inferior",
+        "Frontal, Parietal, Occipital"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The trigeminal nerve (CN V) has three branches: V1 (Ophthalmic) serves the forehead and upper face, V2 (Maxillary) serves the cheek and upper jaw, and V3 (Mandibular) serves the lower face and jaw — and is the ONLY branch with motor fibers for chewing.",
+      "optionExplains": [
+        {
+          "verdict": "incorrect",
+          "text": "Temporal, Zygomatic, Buccal, Marginal mandibular, and Cervical are the five terminal branches of CN VII (facial nerve) within the parotid gland — not CN V branches."
+        },
+        {
+          "verdict": "correct",
+          "text": "Correct! The trigeminal nerve divides into three branches: V1 (OPHTHALMIC) — sensory to forehead, upper eyelid, cornea, nose. V2 (MAXILLARY) — sensory to cheek, upper lip, upper teeth, palate. V3 (MANDIBULAR) — sensory to lower face, lower teeth, anterior tongue (general sensation, not taste) PLUS motor to muscles of mastication (chewing). Only V3 has motor fibers — the other two are purely sensory."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "Superior, Middle, Inferior describes other structures (like pharyngeal constrictors or rectal veins) but not the trigeminal branches. The branches are named for the facial regions they serve."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "Frontal, Parietal, Occipital are brain lobes, not nerve branches. The trigeminal branches are named Ophthalmic, Maxillary, and Mandibular."
+        }
+      ],
+      "mechanism": {
+        "title": "The Three Divisions of CN V",
+        "content": "V1 (OPHTHALMIC): Exits skull through superior orbital fissure. Sensory to forehead, upper eyelid, cornea, nose bridge. The corneal reflex tests V1 (afferent) with CN VII (efferent blink). V2 (MAXILLARY): Exits through foramen rotundum. Sensory to cheek, upper lip, upper teeth, hard palate, nasal cavity. V3 (MANDIBULAR): Exits through foramen ovale. Sensory to lower face, lower lip, lower teeth, anterior 2/3 tongue (general sensation only — NOT taste). Motor to muscles of mastication: masseter, temporalis, medial/lateral pterygoids, plus tensor tympani and tensor veli palatini. V3 is the only branch with motor fibers — it's how the trigeminal nerve controls chewing.",
+        "metaphor": "Think of CN V like a three-zone security system covering your face: Zone 1 (V1) monitors the upper third (forehead to eyebrows), Zone 2 (V2) monitors the middle third (cheek area), Zone 3 (V3) monitors the lower third (jaw area) AND controls the gate (chewing muscles)."
+      },
+      "scaffoldFile": "200.5-scaffolds/200.5.01c-scaffolds.json"
+    },
+    {
+      "id": "200.5.01d",
+      "q": "Which FOUR muscles of mastication (chewing) are innervated by the trigeminal nerve (CN V)?",
+      "options": [
+        "Masseter, Temporalis, Medial pterygoid, Lateral pterygoid",
+        "Orbicularis oris, Buccinator, Mentalis, Risorius",
+        "Sternocleidomastoid, Trapezius, Scalenes, Platysma",
+        "Genioglossus, Hyoglossus, Styloglossus, Palatoglossus"
+      ],
+      "answer": 0,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The four muscles of mastication are: Masseter (main jaw closer), Temporalis (elevates and retracts jaw), Medial pterygoid (closes and protrudes jaw), and Lateral pterygoid (opens mouth and moves jaw side-to-side). All are innervated by the mandibular branch (V3) of CN V.",
+      "optionExplains": [
+        {
+          "verdict": "correct",
+          "text": "Correct! The four muscles of mastication, all innervated by V3 (mandibular branch of CN V): MASSETER — powerful jaw elevator, you can palpate it at the angle of your jaw when you clench. TEMPORALIS — fan-shaped muscle in the temple area, elevates and retracts the jaw. MEDIAL PTERYGOID — deep muscle that elevates and protrudes the jaw, works with masseter. LATERAL PTERYGOID — opens the mouth (depresses mandible) and produces side-to-side grinding movements. When V3 is damaged, the jaw deviates toward the weak side when opening."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "Orbicularis oris, Buccinator, Mentalis, and Risorius are muscles of FACIAL EXPRESSION — controlled by CN VII (facial nerve), not CN V. They move your lips and cheeks for expression, not for chewing."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "Sternocleidomastoid and Trapezius are controlled by CN XI (accessory nerve). Scalenes are cervical muscles. Platysma is a facial expression muscle (CN VII). None are chewing muscles."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "These are tongue muscles controlled by CN XII (hypoglossal) — except palatoglossus which is CN X (vagus). They move the tongue, not the jaw for chewing."
+        }
+      ],
+      "mechanism": {
+        "title": "Muscles of Mastication: The Four Jaw Movers",
+        "content": "All four muscles of mastication attach to the mandible and are innervated by V3. MASSETER: Origin — zygomatic arch. Insertion — lateral mandible. Action — powerful jaw elevation (closing). Strongest bite force muscle. TEMPORALIS: Origin — temporal fossa. Insertion — coronoid process of mandible. Action — elevates jaw, posterior fibers retract it. MEDIAL PTERYGOID: Deep to masseter. Action — elevates and protrudes jaw, assists lateral movement. LATERAL PTERYGOID: Two heads. Action — opens mouth by pulling mandibular condyle forward, produces side-to-side grinding. Testing: Have patient clench jaw (palpate masseter/temporalis), open mouth against resistance (tests pterygoids). In V3 lesions, jaw deviates TOWARD the weak side when opened.",
+        "metaphor": "The four mastication muscles work like a coordinated team operating your jaw: Masseter and Temporalis are the closers (like closing a drawbridge), Medial pterygoid helps close and push forward, Lateral pterygoid opens the gate and creates the grinding motion for chewing. All controlled by one nerve branch (V3)."
+      },
+      "scaffoldFile": "200.5-scaffolds/200.5.01d-scaffolds.json"
+    },
+    {
+      "id": "200.5.01e",
+      "q": "Which THREE cranial nerves control eye movements?",
+      "options": [
+        "CN I, CN II, CN III",
+        "CN III, CN IV, CN VI",
+        "CN V, CN VII, CN VIII",
+        "CN II, CN V, CN VII"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "The three eye movement nerves are CN III (oculomotor), CN IV (trochlear), and CN VI (abducens). Together they control all six extraocular muscles that move each eye. CN II (optic) carries vision but doesn't move the eye.",
+      "optionExplains": [
+        {
+          "verdict": "incorrect",
+          "text": "CN I is olfactory (smell) and CN II is optic (vision) — neither controls eye MOVEMENT. CN II carries visual information TO the brain, but the muscles that MOVE the eye are controlled by CN III, IV, and VI."
+        },
+        {
+          "verdict": "correct",
+          "text": "Correct! The three eye movement nerves: CN III (OCULOMOTOR) — controls 4 of 6 extraocular muscles (superior rectus, inferior rectus, medial rectus, inferior oblique), plus levator palpebrae (eyelid lift) and parasympathetic fibers for pupil constriction. CN IV (TROCHLEAR) — controls only the superior oblique muscle (depresses eye, especially when looking medially). CN VI (ABDUCENS) — controls only the lateral rectus muscle (abducts eye, turns it outward). Memory aid: 'LR6 SO4' — Lateral Rectus is CN 6, Superior Oblique is CN 4, everything else is CN 3."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "CN V is trigeminal (face sensation/chewing), CN VII is facial (facial expression), CN VIII is vestibulocochlear (hearing/balance). None of these control eye movement."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "CN II carries vision (sensory input), CN V handles facial sensation, CN VII moves the face. Eye MOVEMENT requires CN III, IV, and VI — the motor nerves to the extraocular muscles."
+        }
+      ],
+      "mechanism": {
+        "title": "The Three Eye Movement Nerves: CN III, IV, and VI",
+        "content": "CN III (OCULOMOTOR) — The workhorse: Controls superior rectus (up), inferior rectus (down), medial rectus (in), inferior oblique (up and out), plus levator palpebrae (eyelid). Also carries parasympathetic fibers for pupil constriction and lens accommodation. Damage causes ptosis, 'down and out' eye, dilated pupil. CN IV (TROCHLEAR) — The specialist: Controls only superior oblique (depression, especially when adducted, plus intorsion). Smallest cranial nerve, longest intracranial course. Damage causes difficulty looking down (reading, stairs), head tilt. CN VI (ABDUCENS) — The abductor: Controls only lateral rectus (abduction — turning eye outward). Damage causes eye deviation inward (esotropia), can't look laterally. Memory: 'LR6 SO4 all the rest 3' — Lateral Rectus = CN 6, Superior Oblique = CN 4, all other eye muscles = CN 3.",
+        "metaphor": "The three eye movement nerves are like different controllers for a camera gimbal: CN III is the main controller handling most directions plus zoom (pupil), CN IV is a specialized tilt mechanism for looking down-and-in, and CN VI handles sideways panning away from center. Lose any one controller, and the camera can't point in certain directions."
+      },
+      "scaffoldFile": "200.5-scaffolds/200.5.01e-scaffolds.json"
+    },
+    {
+      "id": "200.5.01f",
+      "q": "Which cranial nerve controls the muscles of facial EXPRESSION (smiling, frowning, eye closure)?",
+      "options": [
+        "Trigeminal (CN V)",
+        "Facial (CN VII)",
+        "Glossopharyngeal (CN IX)",
+        "Hypoglossal (CN XII)"
+      ],
+      "answer": 1,
+      "chapter": "Chapter 13 — Nerves & Sensory",
+      "explain": "CN VII (facial nerve) controls all muscles of facial expression — the muscles that let you smile, frown, raise your eyebrows, close your eyes, and pucker your lips. CN V (trigeminal) controls chewing muscles, which is a common point of confusion.",
+      "optionExplains": [
+        {
+          "verdict": "incorrect",
+          "text": "CN V (trigeminal) controls CHEWING muscles (mastication) and provides facial SENSATION — but it doesn't control facial expression. Common mistake: CN V feels your face, CN VII moves your face."
+        },
+        {
+          "verdict": "correct",
+          "text": "Correct! CN VII (facial nerve) controls all muscles of facial expression: frontalis (raises eyebrows), orbicularis oculi (closes eye), zygomaticus (smiling), orbicularis oris (puckers lips), platysma (neck/mouth), and many more. It also carries taste from the anterior 2/3 of the tongue and controls lacrimal (tears) and salivary glands. Bell's palsy is CN VII paralysis — half the face droops because these expression muscles fail."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "CN IX (glossopharyngeal) handles sensation and taste from the posterior tongue, pharyngeal sensation, and one swallowing muscle (stylopharyngeus). It doesn't control facial expression."
+        },
+        {
+          "verdict": "incorrect",
+          "text": "CN XII (hypoglossal) controls TONGUE muscles only. It moves your tongue but has nothing to do with facial expression."
+        }
+      ],
+      "mechanism": {
+        "title": "CN VII — Facial Expression Control",
+        "content": "CN VII innervates all muscles of facial expression. These muscles are in the superficial fascia of the face and scalp: FOREHEAD — frontalis (wrinkles forehead, raises eyebrows). EYES — orbicularis oculi (closes eyelids), corrugator supercilii (furrows brow). NOSE — nasalis, procerus. MOUTH — orbicularis oris (purses lips), zygomaticus major/minor (smile), risorius (smile corner), levator labii superioris, depressor anguli oris, mentalis. NECK — platysma. CN VII also has other functions: taste from anterior 2/3 tongue (via chorda tympani), parasympathetic to lacrimal gland (tears) and submandibular/sublingual salivary glands. Bell's palsy (CN VII paralysis) causes: entire half of face droops, can't close eye (lagophthalmos), can't smile, forehead wrinkles disappear.",
+        "metaphor": "CN VII is like the puppeteer controlling every string that moves your face — from the muscles that wrinkle your forehead when surprised to the ones that pull your mouth into a smile. Damage the puppeteer (CN VII), and half your face's strings go limp while the other half works normally."
+      },
+      "scaffoldFile": "200.5-scaffolds/200.5.01f-scaffolds.json"
     },
     {
       "id": "200.5.02",
@@ -52,7 +274,7 @@
       ],
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "CN II (optic) carries visual information from the retina to the brain. Step into this world: into the darkness — damage causes blindness in that eye. Cut the cable, lose the picture. It's that simple and that devastating. Let that reality settle.",
+      "explain": "CN II (optic) carries visual information from the retina to the brain. Damage causes blindness in that eye. Cut the cable, lose the picture. It's that simple and that devastating.",
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -73,8 +295,8 @@
       ],
       "mechanism": {
         "title": "CN II — The Optic Nerve: Your Visual Highway",
-        "content": "the optic nerve is actually a CNS tract, not a true peripheral nerve. It's myelinated by oligodendrocytes, not Schwann cells. Now observe what happens:: it carries approximately 1 million axons from retinal ganglion cells. At the optic chiasm, fibers from the nasal retina cross to the opposite side; temporal fibers stay on the same side. This arrangement allows each hemisphere to process the opposite visual field. Make room for this understanding:drawn into the pathology: optic neuritis in multiple sclerosis? You get painful vision loss. Papilledema from increased intracranial pressure? The optic disc swells and vision blurs. Glaucoma slowly strangles the nerve fibers. The optic nerve doesn't forgive. It's beautiful and merciless.",
-        "metaphor": "CN II is a fiber optic cable carrying high-definition video from your eye-camera to the brain's processing center. Let me show you what happens: cut the cable, and that screen goes permanently dark. No reboot, no replacement cable — just darkness. Stay with that image. Feel its weight."
+        "content": "The optic nerve is actually a CNS tract, not a true peripheral nerve. It's myelinated by oligodendrocytes, not Schwann cells. It carries approximately 1 million axons from retinal ganglion cells. At the optic chiasm, fibers from the nasal retina cross to the opposite side; temporal fibers stay on the same side. This arrangement allows each hemisphere to process the opposite visual field. Clinically: optic neuritis in multiple sclerosis causes painful vision loss. Papilledema from increased intracranial pressure makes the optic disc swell and vision blur. Glaucoma slowly strangles the nerve fibers. The optic nerve doesn't forgive.",
+        "metaphor": "CN II is a fiber optic cable carrying high-definition video from your eye-camera to the brain's processing center. Cut the cable, and that screen goes permanently dark. No reboot, no replacement cable — just darkness."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.02-scaffolds.json"
     },
@@ -89,29 +311,29 @@
       ],
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "CN III (oculomotor) controls 4 of 6 extraocular muscles, the levator palpebrae (eyelid), pupil constriction, and lens accommodation. Let me show you why this matters — it's the workhorse of eye control. When it fails, the effects are visible and diagnostic. Venture here:.",
+      "explain": "CN III (oculomotor) controls 4 of 6 extraocular muscles, the levator palpebrae (eyelid), pupil constriction, and lens accommodation. It's the workhorse of eye control. When it fails, the effects are visible and diagnostic.",
       "optionExplains": [
         {
           "verdict": "incorrect",
-          "text": "CN II (optic) is purely sensory — it carries visual information TO the brain, not motor commands FROM it. It's the input cable, not the control cable. Stay focused."
+          "text": "CN II (optic) is purely sensory — it carries visual information TO the brain, not motor commands FROM it. It's the input cable, not the control cable."
         },
         {
           "verdict": "correct",
-          "text": "Correct! Let me take you deeper into CN III (oculomotor) — it's the workhorse of eye movement. Here's what it controls: superior rectus, inferior rectus, medial rectus, inferior oblique (4 out of 6 muscles), levator palpebrae (lifts eyelid), PLUS parasympathetic fibers for pupil constriction and lens accommodation. CN III palsy is clinically dramatic: ptosis (drooping eyelid), 'down and out' eye position, dilated pupil that won't constrict. See this in trauma with a blown pupil? suspect uncal herniation compressing CN III. That's a neurosurgical emergency. The clock is ticking."
+          "text": "Correct! CN III (oculomotor) is the workhorse of eye movement. It controls: superior rectus, inferior rectus, medial rectus, inferior oblique (4 out of 6 muscles), levator palpebrae (lifts eyelid), PLUS parasympathetic fibers for pupil constriction and lens accommodation. CN III palsy is clinically dramatic: ptosis (drooping eyelid), 'down and out' eye position, dilated pupil that won't constrict. See this in trauma with a blown pupil? Suspect uncal herniation compressing CN III — that's a neurosurgical emergency."
         },
         {
           "verdict": "incorrect",
-          "text": "CN IV (trochlear) controls only ONE muscle — the superior oblique, which depresses and intorts the eye. Small nerve, small job. We're going deeper."
+          "text": "CN IV (trochlear) controls only ONE muscle — the superior oblique, which depresses and intorts the eye. Small nerve, small job."
         },
         {
           "verdict": "incorrect",
-          "text": "CN VI (abducens) controls only ONE muscle — the lateral rectus, which abducts (turns outward) the eye. Another specialist. Patient — I'll show you all of them."
+          "text": "CN VI (abducens) controls only ONE muscle — the lateral rectus, which abducts (turns outward) the eye. Another single-muscle specialist."
         }
       ],
       "mechanism": {
         "title": "CN III — The Oculomotor Nerve: Master of Eye Control",
-        "content": "Welcome this realization:immersed in this — CN III has the most extensive eye functions. SOMATIC MOTOR: Superior rectus (up), inferior rectus (down), medial rectus (in), inferior oblique (up + out), levator palpebrae (eyelid lift). PARASYMPATHETIC: Edinger-Westphal nucleus → ciliary ganglion → sphincter pupillae (constrict pupil) + ciliary muscle (lens accommodation for near vision). Brace yourself for brilliance:: CN III palsy causes ptosis (drooping eyelid), 'down and out' eye position (lateral rectus and superior oblique unopposed), dilated pupil unresponsive to light. Study this: — the parasympathetic fibers run on the OUTSIDE of the nerve. They're vulnerable to compression. Enter this realm: into the emergency: in uncal herniation from trauma or tumor, the medial temporal lobe herniates and compresses CN III. You get a blown pupil on the same side as the lesion. If you see this, the patient has minutes to hours before brain death. Persist through this:. This is where life and death meet.",
-        "metaphor": "CN III is the main remote control for your eye — it handles most of the movement channels plus the auto-focus and auto-brightness features. Let me show you what happens when you lose it: your eye droops, drifts outward and downward, and the pupil blows wide open like a broken aperture stuck at maximum. Stunning, yes? striking image?"
+        "content": "CN III has the most extensive eye functions. SOMATIC MOTOR: Superior rectus (up), inferior rectus (down), medial rectus (in), inferior oblique (up + out), levator palpebrae (eyelid lift). PARASYMPATHETIC: Edinger-Westphal nucleus → ciliary ganglion → sphincter pupillae (constrict pupil) + ciliary muscle (lens accommodation for near vision). CN III palsy causes ptosis (drooping eyelid), 'down and out' eye position (lateral rectus and superior oblique unopposed), dilated pupil unresponsive to light. Critical: the parasympathetic fibers run on the OUTSIDE of the nerve, making them vulnerable to compression. In uncal herniation from trauma or tumor, the medial temporal lobe herniates and compresses CN III. You get a blown pupil on the same side as the lesion. If you see this, the patient has minutes to hours before brain death.",
+        "metaphor": "CN III is the main remote control for your eye — it handles most of the movement channels plus the auto-focus and auto-brightness features. Lose it, and your eye droops, drifts outward and downward, and the pupil blows wide open like a broken aperture stuck at maximum."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.03-scaffolds.json"
     },
@@ -126,11 +348,11 @@
       ],
       "answer": 0,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "CN IV (trochlear) is unique — let me show you why: it's the only cranial nerve that exits from the posterior (dorsal) brainstem, and its fibers completely decussate (cross). It's the rebel nerve that takes the back exit. Dive into this:, there's more.",
+      "explain": "CN IV (trochlear) is unique — it's the only cranial nerve that exits from the posterior (dorsal) brainstem, and its fibers completely decussate (cross). It's the rebel nerve that takes the back exit.",
       "optionExplains": [
         {
           "verdict": "correct",
-          "text": "Correct! Let me take you into what makes CN IV fascinating: (1) It's the only cranial nerve to exit from the dorsal (posterior) brainstem. (2) It completely decussates — the right nucleus controls the left eye's superior oblique and vice versa. it's also the smallest cranial nerve and has the longest intracranial course, making it vulnerable to trauma. Get hit on the head? CN IV can tear. The result: difficulty looking down, especially when reading or going down stairs. patients compensate by tilting their head to the opposite shoulder. Watch for that head tilt. It tells the story."
+          "text": "Correct! What makes CN IV fascinating: (1) It's the only cranial nerve to exit from the dorsal (posterior) brainstem. (2) It completely decussates — the right nucleus controls the left eye's superior oblique and vice versa. It's also the smallest cranial nerve and has the longest intracranial course, making it vulnerable to trauma. Get hit on the head? CN IV can tear. The result: difficulty looking down, especially when reading or going down stairs. Patients compensate by tilting their head to the opposite shoulder. Watch for that head tilt — it tells the story."
         },
         {
           "verdict": "incorrect",
@@ -138,17 +360,17 @@
         },
         {
           "verdict": "incorrect",
-          "text": "Taste is carried by CN VII, IX, and X — not CN IV. Wrong function entirely. Stay focused."
+          "text": "Taste is carried by CN VII, IX, and X — not CN IV. Wrong function entirely."
         },
         {
           "verdict": "incorrect",
-          "text": "CN V (trigeminal) is the thickest cranial nerve. CN IV is actually the smallest. They're at opposite ends of the size spectrum. Let me show you the contrasts."
+          "text": "CN V (trigeminal) is the thickest cranial nerve. CN IV is actually the smallest. They're at opposite ends of the size spectrum."
         }
       ],
       "mechanism": {
         "title": "CN IV — The Trochlear Nerve: Small but Unique",
-        "content": "Explore alongside me: into this delicate mechanism — CN IV innervates only the superior oblique muscle, which passes through a fibrous pulley (the trochlea — Latin for 'pulley') to depress and intort the eye. The drama intensifies:: smallest cranial nerve, longest intracranial course (vulnerable to shearing forces in trauma), only nerve exiting dorsally from the brainstem, complete decussation (right trochlear nucleus controls LEFT superior oblique). Open your mind to this:drawn into the pathology: CN IV palsy causes difficulty looking down (especially problematic when reading or walking downstairs), vertical diplopia (double vision), compensatory head tilt to the opposite shoulder. test it: ask the patient to look down and in. That's when the superior oblique does its main work. Beautiful mechanical precision, beautifully vulnerable.",
-        "metaphor": "CN IV is like a specialized technician who does only one job but uses an unusual back entrance to get there. Let me show you: the superior oblique muscle loops through a pulley (the trochlea) to pull the eye down and rotate it inward — elegant mechanical engineering in nerve form. feel the precision."
+        "content": "CN IV innervates only the superior oblique muscle, which passes through a fibrous pulley (the trochlea — Latin for 'pulley') to depress and intort the eye. Key facts: smallest cranial nerve, longest intracranial course (vulnerable to shearing forces in trauma), only nerve exiting dorsally from the brainstem, complete decussation (right trochlear nucleus controls LEFT superior oblique). CN IV palsy causes difficulty looking down (especially problematic when reading or walking downstairs), vertical diplopia (double vision), compensatory head tilt to the opposite shoulder. Test it: ask the patient to look down and in. That's when the superior oblique does its main work.",
+        "metaphor": "CN IV is like a specialized technician who does only one job but uses an unusual back entrance to get there. The superior oblique muscle loops through a pulley (the trochlea) to pull the eye down and rotate it inward — elegant mechanical engineering in nerve form."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.04-scaffolds.json"
     },
@@ -163,19 +385,19 @@
       ],
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "CN V (trigeminal) provides sensation to the face AND motor innervation to the muscles of mastication (chewing). it's the guardian of the face, both feeling and function. Let me show you what happens when it fails.",
+      "explain": "CN V (trigeminal) provides sensation to the face AND motor innervation to the muscles of mastication (chewing). It's the guardian of the face, both feeling and function.",
       "optionExplains": [
         {
           "verdict": "incorrect",
-          "text": "CN VII (facial) controls facial EXPRESSION muscles (smiling, frowning, eye closure) — not chewing. It also carries taste from the anterior 2/3 of the tongue. Different job description. Let me guide you."
+          "text": "CN VII (facial) controls facial EXPRESSION muscles (smiling, frowning, eye closure) — not chewing. It also carries taste from the anterior 2/3 of the tongue. Different job."
         },
         {
           "verdict": "correct",
-          "text": "Correct! Let me take you deeper into CN V (trigeminal — 'three twins'). It has three branches: V1 (ophthalmic) — forehead and upper face sensation, V2 (maxillary) — mid-face and upper teeth sensation, V3 (mandibular) — lower face sensation PLUS motor innervation to the muscles of mastication (masseter, temporalis, pterygoids). Now things get truly spectacular:: lose CN V, and half your face goes numb and you can't chew on that side. The jaw deviates toward the weak side when you open your mouth. trigeminal neuralgia? Lancinating facial pain so severe it's called the 'suicide disease.' Descend with me into this:. The trigeminal nerve doesn't play around."
+          "text": "Correct! CN V (trigeminal — 'three twins') has three branches: V1 (ophthalmic) — forehead and upper face sensation, V2 (maxillary) — mid-face and upper teeth sensation, V3 (mandibular) — lower face sensation PLUS motor innervation to the muscles of mastication (masseter, temporalis, pterygoids). Lose CN V, and half your face goes numb and you can't chew on that side. The jaw deviates toward the weak side when you open your mouth. Trigeminal neuralgia causes lancinating facial pain so severe it's called the 'suicide disease.'"
         },
         {
           "verdict": "incorrect",
-          "text": "CN IX (glossopharyngeal) provides sensation to the posterior tongue and pharynx — not the face. Wrong territory. Stay focused."
+          "text": "CN IX (glossopharyngeal) provides sensation to the posterior tongue and pharynx — not the face. Wrong territory."
         },
         {
           "verdict": "incorrect",
@@ -184,8 +406,8 @@
       ],
       "mechanism": {
         "title": "CN V — The Trigeminal Nerve: Guardian of the Face",
-        "content": "Allow the mechanism to reveal itself:immersed in this — CN V is the largest cranial nerve with three divisions: V1 (ophthalmic): Sensory to forehead, upper eyelid, nose, cornea. V2 (maxillary): Sensory to cheek, upper lip, upper teeth, nasal cavity. V3 (mandibular): Sensory to lower face, lower teeth, anterior 2/3 tongue (general sensation, not taste), PLUS motor to muscles of mastication (masseter, temporalis, medial/lateral pterygoids) and tensor tympani. Here's one of the most exquisite reflexes: the corneal reflex (touch cornea → blink) tests V1 afferent and VII efferent. lose the corneal reflex, and you're at risk for corneal abrasion because you don't blink when something touches the eye. The guardian fails, and the territory suffers. Note this crucial step:.",
-        "metaphor": "CN V is like a three-zone security system for your face (V1, V2, V3). Let me show you how it works: it detects any intrusion (touch, pain, temperature) across the entire face and also controls the powerful jaw muscles that let you bite down. It's both the alarm system AND the security guard operating the reinforced gate. Marvelous, wouldn't you say? integration?"
+        "content": "CN V is the largest cranial nerve with three divisions: V1 (ophthalmic): Sensory to forehead, upper eyelid, nose, cornea. V2 (maxillary): Sensory to cheek, upper lip, upper teeth, nasal cavity. V3 (mandibular): Sensory to lower face, lower teeth, anterior 2/3 tongue (general sensation, not taste), PLUS motor to muscles of mastication (masseter, temporalis, medial/lateral pterygoids) and tensor tympani. The corneal reflex (touch cornea → blink) tests V1 afferent and VII efferent. Lose the corneal reflex, and you're at risk for corneal abrasion because you don't blink when something touches the eye.",
+        "metaphor": "CN V is like a three-zone security system for your face (V1, V2, V3). It detects any intrusion (touch, pain, temperature) across the entire face and also controls the powerful jaw muscles that let you bite down. It's both the alarm system AND the security guard operating the reinforced gate."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.05-scaffolds.json"
     },
@@ -200,7 +422,7 @@
       ],
       "answer": 2,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "CN VI (abducens) innervates the lateral rectus muscle, which abducts (turns outward) the eye. the name tells you what it does: ab-ducens = 'leading away' from the nose. Let me show you.",
+      "explain": "CN VI (abducens) innervates the lateral rectus muscle, which abducts (turns outward) the eye. The name tells you what it does: ab-ducens = 'leading away' from the nose.",
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -208,11 +430,11 @@
         },
         {
           "verdict": "incorrect",
-          "text": "CN IV controls the superior oblique (looks down and rotates) — not lateral movement. Track each step:."
+          "text": "CN IV controls the superior oblique (looks down and rotates) — not lateral movement."
         },
         {
           "verdict": "correct",
-          "text": "Correct! Let me draw you into CN VI (abducens) — it innervates the lateral rectus muscle. 'Abducens' literally means 'to lead away' — it ABducts the eye, turning it laterally away from the nose. Memory aid: 'LR6' — Lateral Rectus, cranial nerve 6. This is the moment I live for:: CN VI palsy causes inability to look outward; the affected eye deviates inward (esotropia), and the patient sees double when trying to look toward the affected side. CN VI has a long intracranial course, making it vulnerable to increased intracranial pressure. It's a 'false localizing sign' because the damage can be remote from the actual pathology. the nerve can fail far from where the real problem lives."
+          "text": "Correct! CN VI (abducens) innervates the lateral rectus muscle. 'Abducens' literally means 'to lead away' — it ABducts the eye, turning it laterally away from the nose. Memory aid: 'LR6' — Lateral Rectus, cranial nerve 6. CN VI palsy causes inability to look outward; the affected eye deviates inward (esotropia), and the patient sees double when trying to look toward the affected side. CN VI has a long intracranial course, making it vulnerable to increased intracranial pressure. It's a 'false localizing sign' because the damage can be remote from the actual pathology."
         },
         {
           "verdict": "incorrect",
@@ -221,8 +443,8 @@
       ],
       "mechanism": {
         "title": "CN VI — The Abducens Nerve: Looking Outward",
-        "content": "Let me show you what makes CN VI vulnerable — it has the longest intracranial course of any cranial nerve, making it susceptible to increased intracranial pressure, trauma, and vascular issues. It innervates only the lateral rectus muscle. Memory aid: 'LR6' — Lateral Rectus, CN 6. Traverse this territory: into the pathology: CN VI palsy causes medial deviation of the affected eye (esotropia — eye turns in), horizontal diplopia (double vision) worse when looking toward the affected side, inability to abduct the eye past midline. increased ICP can compress CN VI bilaterally. Diabetic neuropathy loves to pick on CN VI. The result? The patient's eye is stuck looking at their nose. Connect these dots:. Concentrate on this:.",
-        "metaphor": "CN VI is a simple rope that pulls your eye outward, away from the nose. The name is a perfect description: ab-ducens = 'leading away.' Sit with this knowledge:this: if the rope breaks, your eye can't look sideways and drifts inward like a boat with a snapped anchor line. Quite breathtaking. elegant metaphor for failure?"
+        "content": "CN VI is vulnerable because it has the longest intracranial course of any cranial nerve, making it susceptible to increased intracranial pressure, trauma, and vascular issues. It innervates only the lateral rectus muscle. Memory aid: 'LR6' — Lateral Rectus, CN 6. CN VI palsy causes medial deviation of the affected eye (esotropia — eye turns in), horizontal diplopia (double vision) worse when looking toward the affected side, inability to abduct the eye past midline. Increased ICP can compress CN VI bilaterally. Diabetic neuropathy commonly affects CN VI. The result? The patient's eye is stuck looking at their nose.",
+        "metaphor": "CN VI is a simple rope that pulls your eye outward, away from the nose. The name is a perfect description: ab-ducens = 'leading away.' If the rope breaks, your eye can't look sideways and drifts inward like a boat with a snapped anchor line."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.06-scaffolds.json"
     },
@@ -237,7 +459,7 @@
       ],
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "CN VII (facial) controls the muscles of facial expression. Navigate with me: into this territory — Bell's palsy is unilateral facial nerve paralysis. Half the face DROPS, and the patient can't close their eye or smile on that side. Let me show you why this matters.",
+      "explain": "CN VII (facial) controls the muscles of facial expression. Bell's palsy is unilateral facial nerve paralysis. Half the face DROPS, and the patient can't close their eye or smile on that side.",
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -245,7 +467,7 @@
         },
         {
           "verdict": "correct",
-          "text": "Correct! Let me take you deeper — CN VII (facial) controls all muscles of facial expression on one side. Here's what damage causes: Bell's palsy. The face droops on the affected side, forehead wrinkles disappear, eye won't close (lagophthalmos — risk of corneal damage), corner of mouth droops, loss of nasolabial fold, food/drink drips from the mouth. CN VII also carries taste from anterior 2/3 of tongue (chorda tympani branch) and controls salivation and lacrimation. Walk this path:: Bell's palsy patients wake up with half their face paralyzed — terrifying, often mistaken for stroke. But here's the key: in Bell's palsy, the FOREHEAD is affected because it's a peripheral nerve lesion. In a stroke (upper motor neuron), the forehead is spared. Attend to this process:. This distinction can save a life."
+          "text": "Correct! CN VII (facial) controls all muscles of facial expression on one side. Damage causes Bell's palsy: the face droops on the affected side, forehead wrinkles disappear, eye won't close (lagophthalmos — risk of corneal damage), corner of mouth droops, loss of nasolabial fold, food/drink drips from the mouth. CN VII also carries taste from anterior 2/3 of tongue (chorda tympani branch) and controls salivation and lacrimation. Key distinction: in Bell's palsy (peripheral lesion), the FOREHEAD is affected. In a stroke (upper motor neuron lesion), the forehead is spared. This distinction can save a life."
         },
         {
           "verdict": "incorrect",
@@ -253,13 +475,13 @@
         },
         {
           "verdict": "incorrect",
-          "text": "CN X (vagus) controls pharynx/larynx muscles and parasympathetic functions — not facial expression. We're going deeper."
+          "text": "CN X (vagus) controls pharynx/larynx muscles and parasympathetic functions — not facial expression. Different nerve territory."
         }
       ],
       "mechanism": {
         "title": "CN VII — The Facial Nerve: Master of Expression",
-        "content": "Allow this to wash over you:immersed in this exquisite system — CN VII is a mixed nerve with multiple functions: MOTOR: All muscles of facial expression (orbicularis oculi, frontalis, zygomaticus, etc.), stapedius (dampens loud sounds in middle ear), stylohyoid, posterior belly of digastric. SENSORY: Taste from anterior 2/3 of tongue via chorda tympani. PARASYMPATHETIC: Lacrimal gland (tears), submandibular and sublingual salivary glands. Accompany me through this: into Bell's palsy (idiopathic CN VII paralysis): facial droop, inability to close eye (risk of corneal ulceration), hyperacusis (sounds are too loud because stapedius is paralyzed), loss of taste on anterior tongue, dry eye (or paradoxically, excessive tearing because eye irritation triggers lacrimation but eye won't blink). the facial nerve exits the skull through the stylomastoid foramen. Parotid gland tumors can compress it. Lyme disease can inflame it. Ramsay Hunt syndrome (herpes zoster reactivation in the facial nerve) causes Bell's palsy PLUS painful vesicles in the ear canal. See this through:. This is where neurology meets suffering.",
-        "metaphor": "CN VII is the puppet master controlling all the strings that move your face — every smile, frown, eye blink, eyebrow raise. It also manages tears, saliva production, and taste on the front of your tongue. Let me show you what happens when the puppet master is injured: the whole performance falls apart. The face droops like a mask with severed strings, frozen on one side while the other side moves normally. Truly remarkable. One nerve controls your entire ability to express emotion on half your face. Stay with that image."
+        "content": "CN VII is a mixed nerve with multiple functions: MOTOR: All muscles of facial expression (orbicularis oculi, frontalis, zygomaticus, etc.), stapedius (dampens loud sounds in middle ear), stylohyoid, posterior belly of digastric. SENSORY: Taste from anterior 2/3 of tongue via chorda tympani. PARASYMPATHETIC: Lacrimal gland (tears), submandibular and sublingual salivary glands. Bell's palsy (idiopathic CN VII paralysis) causes: facial droop, inability to close eye (risk of corneal ulceration), hyperacusis (sounds are too loud because stapedius is paralyzed), loss of taste on anterior tongue, dry eye (or paradoxically, excessive tearing because eye irritation triggers lacrimation but eye won't blink). The facial nerve exits the skull through the stylomastoid foramen. Parotid gland tumors can compress it. Lyme disease can inflame it. Ramsay Hunt syndrome (herpes zoster reactivation in the facial nerve) causes Bell's palsy PLUS painful vesicles in the ear canal.",
+        "metaphor": "CN VII is the puppet master controlling all the strings that move your face — every smile, frown, eye blink, eyebrow raise. It also manages tears, saliva production, and taste on the front of your tongue. When the puppet master is injured, the whole performance falls apart. The face droops like a mask with severed strings, frozen on one side while the other side moves normally. One nerve controls your entire ability to express emotion on half your face."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.07-scaffolds.json"
     },
@@ -274,15 +496,15 @@
       ],
       "answer": 0,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "CN VIII has two components: vestibular (balance/equilibrium) and cochlear (hearing). one cable, two data streams. Audio and gyroscope information flowing together. Let me show you what happens when it fails.",
+      "explain": "CN VIII has two components: vestibular (balance/equilibrium) and cochlear (hearing). One cable, two data streams. Audio and gyroscope information flowing together.",
       "optionExplains": [
         {
           "verdict": "correct",
-          "text": "Correct! Let me take you into CN VIII — it's purely sensory with two divisions: VESTIBULAR: Semicircular canals detect rotational movement (like turning your head), utricle and saccule detect linear acceleration and head position relative to gravity. COCHLEAR: The cochlea detects sound vibrations and converts them to neural signals. And this is the masterstroke:: damage causes hearing loss (often with tinnitus — phantom ringing), vertigo (the room spins), and balance problems. acoustic neuroma (schwannoma of CN VIII) is a benign tumor that slowly strangles the nerve: progressive hearing loss, tinnitus, and imbalance. Ménière's disease causes episodic vertigo, hearing loss, and tinnitus due to excess endolymph in the inner ear. Join me in examining this:. Take a moment to appreciate this:that loss of orientation."
+          "text": "Correct! CN VIII is purely sensory with two divisions: VESTIBULAR: Semicircular canals detect rotational movement (like turning your head), utricle and saccule detect linear acceleration and head position relative to gravity. COCHLEAR: The cochlea detects sound vibrations and converts them to neural signals. Damage causes hearing loss (often with tinnitus — phantom ringing), vertigo (the room spins), and balance problems. Acoustic neuroma (schwannoma of CN VIII) is a benign tumor that slowly strangles the nerve: progressive hearing loss, tinnitus, and imbalance. Ménière's disease causes episodic vertigo, hearing loss, and tinnitus due to excess endolymph in the inner ear."
         },
         {
           "verdict": "incorrect",
-          "text": "Smell is CN I; taste involves CN VII, IX, and X — not CN VIII. Different senses entirely. Stay focused."
+          "text": "Smell is CN I; taste involves CN VII, IX, and X — not CN VIII. Different senses entirely."
         },
         {
           "verdict": "incorrect",
@@ -290,13 +512,13 @@
         },
         {
           "verdict": "incorrect",
-          "text": "Facial sensation is CN V; chewing is also CN V — not CN VIII. Let me guide you properly."
+          "text": "Facial sensation is CN V; chewing is also CN V — not CN VIII. Different nerve entirely."
         }
       ],
       "mechanism": {
         "title": "CN VIII — The Vestibulocochlear Nerve: Hearing and Balance",
-        "content": "Embrace this:drawn into one of the most intricate mechanisms — CN VIII is purely sensory with two distinct divisions. COCHLEAR DIVISION: Hair cells in the cochlea transduce sound vibrations (mechanical → electrical) → spiral ganglion neurons → cochlear nuclei in brainstem → auditory cortex. What follows is exquisite:: high frequencies are processed at the base of the cochlea; low frequencies at the apex. VESTIBULAR DIVISION: Hair cells in semicircular canals (detect angular acceleration — rotation) and otolith organs (utricle/saccule — detect linear acceleration and head tilt relative to gravity) → vestibular ganglion → vestibular nuclei in brainstem → cerebellum and extraocular muscles (for vestibulo-ocular reflex). Travel deeper into this: into the pathology: acoustic neuroma is a CN VIII tumor that grows slowly in the internal acoustic meatus, compressing the nerve and causing gradual hearing loss, tinnitus, and imbalance. As it grows, it can compress the brainstem and CN VII. bilateral acoustic neuromas? Think neurofibromatosis type 2. Follow this thread:. This is where genetics meets neurology.",
-        "metaphor": "CN VIII is a two-channel cable from your inner ear to your brain: one channel streams audio (cochlear division), the other streams real-time gyroscope data for balance (vestibular division). Let me show you what happens when you damage the cable: you lose both your soundtrack and your sense of orientation. The world spins, sounds fade, and your brain can't tell up from down. Absolutely elegant. beautiful horror?"
+        "content": "CN VIII is purely sensory with two distinct divisions. COCHLEAR DIVISION: Hair cells in the cochlea transduce sound vibrations (mechanical → electrical) → spiral ganglion neurons → cochlear nuclei in brainstem → auditory cortex. High frequencies are processed at the base of the cochlea; low frequencies at the apex. VESTIBULAR DIVISION: Hair cells in semicircular canals (detect angular acceleration — rotation) and otolith organs (utricle/saccule — detect linear acceleration and head tilt relative to gravity) → vestibular ganglion → vestibular nuclei in brainstem → cerebellum and extraocular muscles (for vestibulo-ocular reflex). Pathology: acoustic neuroma is a CN VIII tumor that grows slowly in the internal acoustic meatus, compressing the nerve and causing gradual hearing loss, tinnitus, and imbalance. As it grows, it can compress the brainstem and CN VII. Bilateral acoustic neuromas? Think neurofibromatosis type 2.",
+        "metaphor": "CN VIII is a two-channel cable from your inner ear to your brain: one channel streams audio (cochlear division), the other streams real-time gyroscope data for balance (vestibular division). Damage the cable, and you lose both your soundtrack and your sense of orientation. The world spins, sounds fade, and your brain can't tell up from down."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.08-scaffolds.json"
     },
@@ -311,7 +533,7 @@
       ],
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "CN IX (glossopharyngeal — 'tongue and throat') carries taste from the posterior 1/3 of the tongue, while CN VII carries taste from the anterior 2/3. different territories, different nerves. Let me show you the division.",
+      "explain": "CN IX (glossopharyngeal — 'tongue and throat') carries taste from the posterior 1/3 of the tongue, while CN VII carries taste from the anterior 2/3. Different territories, different nerves.",
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -319,11 +541,11 @@
         },
         {
           "verdict": "correct",
-          "text": "Correct! Let me take you into CN IX (glossopharyngeal) — it carries taste from the posterior 1/3 of the tongue. The crescendo approaches:: it also provides general sensation to the pharynx, tonsils, middle ear cavity, and monitors blood pressure (carotid sinus baroreceptor) and blood oxygen/CO2 (carotid body chemoreceptor). Motor function: stylopharyngeus muscle (elevates pharynx during swallowing). Parasympathetic: parotid salivary gland secretion. the gag reflex is the classic CN IX test. Touch the back of the throat (CN IX afferent sensation) and the pharynx contracts (CN X efferent motor). Press onward:: lose CN IX, and you lose the gag reflex on that side — risk of aspiration. The guardian fails."
+          "text": "Correct! CN IX (glossopharyngeal) carries taste from the posterior 1/3 of the tongue. It also provides general sensation to the pharynx, tonsils, middle ear cavity, and monitors blood pressure (carotid sinus baroreceptor) and blood oxygen/CO2 (carotid body chemoreceptor). Motor function: stylopharyngeus muscle (elevates pharynx during swallowing). Parasympathetic: parotid salivary gland secretion. The gag reflex is the classic CN IX test: touch the back of the throat (CN IX afferent sensation) and the pharynx contracts (CN X efferent motor). Lose CN IX, and you lose the gag reflex on that side — risk of aspiration."
         },
         {
           "verdict": "incorrect",
-          "text": "CN X (vagus) carries a tiny bit of taste from the epiglottis region — a minor contribution compared to VII and IX. Stay focused."
+          "text": "CN X (vagus) carries a tiny bit of taste from the epiglottis region — a minor contribution compared to VII and IX."
         },
         {
           "verdict": "incorrect",
@@ -332,8 +554,8 @@
       ],
       "mechanism": {
         "title": "CN IX — The Glossopharyngeal Nerve: Tongue and Throat Sentinel",
-        "content": "Surrender to the logic here:immersed in this exquisite sentinel system — CN IX is a mixed nerve (sensory, motor, parasympathetic): SENSORY: Taste from posterior 1/3 tongue, general sensation from pharynx/tonsils/middle ear/posterior tongue, carotid sinus (blood pressure monitor), carotid body (blood oxygen/CO2 monitor). MOTOR: Stylopharyngeus muscle (elevates pharynx during swallowing). PARASYMPATHETIC: Parotid salivary gland (via otic ganglion). the gag reflex tests both CN IX (afferent — sensation from pharynx) and CN X (efferent — motor to pharyngeal constrictors). Now for the piece de resistance:: glossopharyngeal neuralgia causes severe, lancinating pain in the throat, tongue, and ear — triggered by swallowing, talking, or coughing. it's the throat version of trigeminal neuralgia, and it's just as excruciating. Track with me here:. This is where pain meets function.",
-        "metaphor": "CN IX is the 'back of the throat' monitoring nerve. Let me show you what it does: it tastes what's coming in, monitors critical blood chemistry at the carotid artery, triggers the gag reflex if something dangerous approaches the airway, and helps elevate the pharynx during swallowing. It's the sentinel guarding the entrance to your digestive and respiratory systems. Simply magnificent. integration?"
+        "content": "CN IX is a mixed nerve (sensory, motor, parasympathetic): SENSORY: Taste from posterior 1/3 tongue, general sensation from pharynx/tonsils/middle ear/posterior tongue, carotid sinus (blood pressure monitor), carotid body (blood oxygen/CO2 monitor). MOTOR: Stylopharyngeus muscle (elevates pharynx during swallowing). PARASYMPATHETIC: Parotid salivary gland (via otic ganglion). The gag reflex tests both CN IX (afferent — sensation from pharynx) and CN X (efferent — motor to pharyngeal constrictors). Glossopharyngeal neuralgia causes severe, lancinating pain in the throat, tongue, and ear — triggered by swallowing, talking, or coughing. It's the throat version of trigeminal neuralgia, and just as excruciating.",
+        "metaphor": "CN IX is the 'back of the throat' monitoring nerve. It tastes what's coming in, monitors critical blood chemistry at the carotid artery, triggers the gag reflex if something dangerous approaches the airway, and helps elevate the pharynx during swallowing. It's the sentinel guarding the entrance to your digestive and respiratory systems."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.09-scaffolds.json"
     },
@@ -348,7 +570,7 @@
       ],
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "CN X (vagus — 'wandering') is the great wanderer — Advance into this: as it extends far beyond the head and neck, descending into the thorax and abdomen to control heart rate, breathing, and digestion. it's the peacekeeper of the autonomic nervous system.",
+      "explain": "CN X (vagus — 'wandering') is the great wanderer. It extends far beyond the head and neck, descending into the thorax and abdomen to control heart rate, breathing, and digestion. It's the peacekeeper of the autonomic nervous system.",
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -356,11 +578,11 @@
         },
         {
           "verdict": "correct",
-          "text": "Correct! Let me take you on the vagus journey — it descends through the neck, thorax, and abdomen, providing parasympathetic innervation to heart (slows heart rate), lungs (bronchoconstriction, mucus secretion), and GI tract (increases motility and secretion) down to the splenic flexure of the colon. This is where physiology becomes poetry:: it also controls the laryngeal muscles for phonation (voice production) and pharyngeal muscles for swallowing. damage CN X, and you get: hoarse voice (recurrent laryngeal nerve), difficulty swallowing (dysphagia), uvula deviation away from the lesion, loss of gag reflex on that side, and altered autonomic tone. Proceed with me:: the recurrent laryngeal nerve (branch of CN X) is vulnerable during thyroid surgery. Damage it bilaterally, and the patient can't breathe because both vocal cords are paralyzed. Unilateral damage: hoarse voice. Bilateral damage: airway emergency. Keep pace with this:. This is life and death territory."
+          "text": "Correct! The vagus descends through the neck, thorax, and abdomen, providing parasympathetic innervation to heart (slows heart rate), lungs (bronchoconstriction, mucus secretion), and GI tract (increases motility and secretion) down to the splenic flexure of the colon. It also controls the laryngeal muscles for phonation (voice production) and pharyngeal muscles for swallowing. Damage CN X, and you get: hoarse voice (recurrent laryngeal nerve), difficulty swallowing (dysphagia), uvula deviation away from the lesion, loss of gag reflex on that side, and altered autonomic tone. Critical: the recurrent laryngeal nerve (branch of CN X) is vulnerable during thyroid surgery. Unilateral damage: hoarse voice. Bilateral damage: airway emergency — the patient can't breathe because both vocal cords are paralyzed."
         },
         {
           "verdict": "incorrect",
-          "text": "CN X is a MIXED nerve — it has extensive sensory, motor, AND parasympathetic fibers. It does everything. Let me show you."
+          "text": "CN X is a MIXED nerve — it has extensive sensory, motor, AND parasympathetic fibers. It does everything."
         },
         {
           "verdict": "incorrect",
@@ -369,8 +591,8 @@
       ],
       "mechanism": {
         "title": "CN X — The Vagus Nerve: The Great Wanderer and Peacekeeper",
-        "content": "Let this settle:drawn into this magnificent wanderer — CN X is the longest cranial nerve and the main parasympathetic nerve of the body. MOTOR: Pharynx (swallowing), larynx (voice — superior and recurrent laryngeal nerves), palatoglossus muscle. SENSORY: Pharynx, larynx, external ear, dura of posterior fossa, visceral organs (heart, lungs, GI tract). PARASYMPATHETIC: Heart (decreases rate and conduction velocity), lungs (bronchoconstriction, increases mucus), GI tract (increases motility and secretion from esophagus to splenic flexure). Move with me toward this: into the anatomy: the recurrent laryngeal nerves have long, asymmetric paths — the right loops under the subclavian artery, the left descends and loops under the aortic arch. the left recurrent laryngeal is vulnerable during cardiac surgery, aortic aneurysm, and lung cancer. vagal tone (parasympathetic activity) influences heart rate variability — high vagal tone correlates with better cardiovascular health and stress resilience. Vagal nerve stimulation is used to treat refractory epilepsy and depression. Hold this thought:. This nerve whispers peace to your entire body.",
-        "metaphor": "CN X is like a wandering messenger carrying peace treaties to organs throughout your body below the head. Let me show you: it tells your heart to calm down and slow its pace, your stomach to get to work digesting, your intestines to keep moving things along. It's the nervous system's peacekeeper, whispering 'rest and digest' to every organ it touches. damage it, and chaos ensues: your voice fails, swallowing becomes difficult, and your internal organs lose their calming influence. Wonderfully designed. beautiful responsibility?"
+        "content": "CN X is the longest cranial nerve and the main parasympathetic nerve of the body. MOTOR: Pharynx (swallowing), larynx (voice — superior and recurrent laryngeal nerves), palatoglossus muscle. SENSORY: Pharynx, larynx, external ear, dura of posterior fossa, visceral organs (heart, lungs, GI tract). PARASYMPATHETIC: Heart (decreases rate and conduction velocity), lungs (bronchoconstriction, increases mucus), GI tract (increases motility and secretion from esophagus to splenic flexure). Anatomy: the recurrent laryngeal nerves have long, asymmetric paths — the right loops under the subclavian artery, the left descends and loops under the aortic arch. The left recurrent laryngeal is vulnerable during cardiac surgery, aortic aneurysm, and lung cancer. Vagal tone (parasympathetic activity) influences heart rate variability — high vagal tone correlates with better cardiovascular health and stress resilience. Vagal nerve stimulation is used to treat refractory epilepsy and depression.",
+        "metaphor": "CN X is like a wandering messenger carrying peace treaties to organs throughout your body below the head. It tells your heart to calm down and slow its pace, your stomach to get to work digesting, your intestines to keep moving things along. It's the nervous system's peacekeeper, whispering 'rest and digest' to every organ it touches. Damage it, and chaos ensues: your voice fails, swallowing becomes difficult, and your internal organs lose their calming influence."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.10-scaffolds.json"
     },
@@ -385,15 +607,15 @@
       ],
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "CN XI (accessory) innervates the sternocleidomastoid (turns head to opposite side) and trapezius (shrugs shoulder, stabilizes scapula). lose it, and your shoulder droops and you can't turn your head. Let me show you the mechanics.",
+      "explain": "CN XI (accessory) innervates the sternocleidomastoid (turns head to opposite side) and trapezius (shrugs shoulder, stabilizes scapula). Lose it, and your shoulder droops and you can't turn your head.",
       "optionExplains": [
         {
           "verdict": "incorrect",
-          "text": "CN X (vagus) controls pharynx/larynx muscles and visceral autonomic functions — not head turning or shoulder shrugging. Different territory. Stay focused."
+          "text": "CN X (vagus) controls pharynx/larynx muscles and visceral autonomic functions — not head turning or shoulder shrugging. Different territory."
         },
         {
           "verdict": "correct",
-          "text": "Correct! Let me take you into CN XI (accessory) — it's purely motor, innervating: STERNOCLEIDOMASTOID — turns head to the OPPOSITE side (right SCM turns head left). TRAPEZIUS — shrugs shoulder, retracts and stabilizes scapula. Observe what unfolds next:: to test the left CN XI, you have the patient turn their head to the LEFT against resistance (testing the right SCM innervated by right CN XI — it crosses!) and shrug the left shoulder. CN XI injury causes: difficulty turning head to the opposite side, drooped shoulder on the affected side, scapular winging. Embark on this:: the spinal accessory nerve can be damaged during lymph node biopsy in the posterior triangle of the neck — a surgical hazard. The surgeon's knife can sever the nerve of shoulder stability."
+          "text": "Correct! CN XI (accessory) is purely motor, innervating: STERNOCLEIDOMASTOID — turns head to the OPPOSITE side (right SCM turns head left). TRAPEZIUS — shrugs shoulder, retracts and stabilizes scapula. To test the left CN XI, have the patient turn their head to the LEFT against resistance (testing the right SCM innervated by right CN XI — it crosses!) and shrug the left shoulder. CN XI injury causes: difficulty turning head to the opposite side, drooped shoulder on the affected side, scapular winging. The spinal accessory nerve can be damaged during lymph node biopsy in the posterior triangle of the neck — a surgical hazard."
         },
         {
           "verdict": "incorrect",
@@ -401,13 +623,13 @@
         },
         {
           "verdict": "incorrect",
-          "text": "CN VII (facial) controls facial expression muscles — not the large muscles of the neck and shoulder. We're in bigger territory now."
+          "text": "CN VII (facial) controls facial expression muscles — not the large muscles of the neck and shoulder. Different territory."
         }
       ],
       "mechanism": {
         "title": "CN XI — The Accessory Nerve: Head Turner and Shoulder Shrug",
-        "content": "Breathe in this knowledge:drawn into this unusual anatomy — CN XI is unique among cranial nerves. It has a SPINAL PORTION (motor neurons from C1-C5 spinal cord) that ascends THROUGH the foramen magnum into the skull, briefly joins a cranial portion from the medulla, then exits the skull through the jugular foramen to innervate the sternocleidomastoid and trapezius muscles. The beauty of this mechanism reveals itself:: the cranial portion actually joins CN X (vagus) to innervate laryngeal muscles — so the 'accessory' nerve is accessory to the vagus. Set out toward this: into testing: (1) Have patient turn head against resistance — tests SCM on opposite side. (2) Have patient shrug shoulders against resistance — tests trapezius. injury causes: difficulty turning head to opposite side, drooped shoulder, scapular winging (medial border of scapula sticks out). The spinal accessory nerve is vulnerable during posterior triangle of the neck surgery (lymph node biopsy, tumor removal). Bear with me:. This is where anatomy meets surgical risk.",
-        "metaphor": "CN XI is the 'helper nerve' — it was named 'accessory' because anatomists thought it assisted CN X. Let me show you the truth: it has its own critical job, controlling the powerful muscles that let you turn your head to look over your shoulder (checking blind spots!) and shrug when you don't know the answer to a question. It's the nerve of head-turning skepticism and the universal 'I dunno' shoulder shrug. Perfectly orchestrated. human?"
+        "content": "CN XI is unique among cranial nerves. It has a SPINAL PORTION (motor neurons from C1-C5 spinal cord) that ascends THROUGH the foramen magnum into the skull, briefly joins a cranial portion from the medulla, then exits the skull through the jugular foramen to innervate the sternocleidomastoid and trapezius muscles. The cranial portion actually joins CN X (vagus) to innervate laryngeal muscles — so the 'accessory' nerve is accessory to the vagus. Testing: (1) Have patient turn head against resistance — tests SCM on opposite side. (2) Have patient shrug shoulders against resistance — tests trapezius. Injury causes: difficulty turning head to opposite side, drooped shoulder, scapular winging (medial border of scapula sticks out). The spinal accessory nerve is vulnerable during posterior triangle of the neck surgery (lymph node biopsy, tumor removal).",
+        "metaphor": "CN XI is the 'helper nerve' — it was named 'accessory' because anatomists thought it assisted CN X. In reality, it has its own critical job: controlling the powerful muscles that let you turn your head to look over your shoulder (checking blind spots!) and shrug when you don't know the answer to a question. It's the nerve of head-turning skepticism and the universal 'I dunno' shoulder shrug."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.11-scaffolds.json"
     },
@@ -422,15 +644,15 @@
       ],
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "CN XII (hypoglossal) controls tongue movement. when damaged, the tongue deviates TOWARD the weak (damaged) side when protruded. Let me show you why: the tongue licks its wound. It points to the problem.",
+      "explain": "CN XII (hypoglossal) controls tongue movement. When damaged, the tongue deviates TOWARD the weak (damaged) side when protruded. Memory aid: the tongue licks its wound — it points to the problem.",
       "optionExplains": [
         {
           "verdict": "incorrect",
-          "text": "If the LEFT CN XII were damaged, the tongue would deviate to the LEFT (toward the weak side), not the right. Fix your gaze here:direction carefully."
+          "text": "If the LEFT CN XII were damaged, the tongue would deviate to the LEFT (toward the weak side), not the right. Watch the direction carefully."
         },
         {
           "verdict": "correct",
-          "text": "Correct! Let me take you into the mechanism: when you protrude your tongue, the genioglossus muscle (largest tongue muscle) pushes it forward and out. If the RIGHT CN XII is damaged, the RIGHT genioglossus is weak. The intact LEFT genioglossus pushes forward unopposed, deviating the tongue to the RIGHT — toward the lesion. Memory aid: 'The tongue points to the problem' or 'The tongue licks its wound.' also look for tongue atrophy (wasting) and fasciculations (muscle twitching) on the affected side, signs of lower motor neuron damage. Chart this course:: CN XII damage affects speech (dysarthria) and swallowing. The tongue can't shape sounds properly, can't manipulate food. Function fails where the nerve fails."
+          "text": "Correct! When you protrude your tongue, the genioglossus muscle (largest tongue muscle) pushes it forward and out. If the RIGHT CN XII is damaged, the RIGHT genioglossus is weak. The intact LEFT genioglossus pushes forward unopposed, deviating the tongue to the RIGHT — toward the lesion. Memory aid: 'The tongue points to the problem' or 'The tongue licks its wound.' Also look for tongue atrophy (wasting) and fasciculations (muscle twitching) on the affected side — signs of lower motor neuron damage. CN XII damage affects speech (dysarthria) and swallowing. The tongue can't shape sounds properly or manipulate food."
         },
         {
           "verdict": "incorrect",
@@ -438,13 +660,13 @@
         },
         {
           "verdict": "incorrect",
-          "text": "CN X (vagus) controls pharynx and larynx, not tongue protrusion. It helps with swallowing but doesn't move the tongue itself. Stay focused."
+          "text": "CN X (vagus) controls pharynx and larynx, not tongue protrusion. It helps with swallowing but doesn't move the tongue itself."
         }
       ],
       "mechanism": {
         "title": "CN XII — The Hypoglossal Nerve: Tongue Motor Control",
-        "content": "Allow your mind to embrace this:immersed in this pure motor system — CN XII ('below the tongue') is purely motor, controlling all intrinsic tongue muscles (superior/inferior longitudinal, transverse, vertical — these change tongue SHAPE) and most extrinsic tongue muscles (genioglossus, hyoglossus, styloglossus — these change tongue POSITION). Exception: palatoglossus is innervated by CN X. Discover with me: into testing: (1) Ask patient to protrude tongue — it deviates toward the weak/damaged side because the healthy genioglossus pushes unopposed. (2) Inspect for atrophy (muscle wasting) and fasciculations (twitching — sign of lower motor neuron damage). (3) Ask patient to push tongue against cheek while you resist — tests strength. speech (especially lingual sounds like 't', 'd', 'l') and swallowing are affected by CN XII damage. What comes next will dazzle you:: bilateral CN XII damage means the tongue doesn't protrude, speech is severely impaired, swallowing is nearly impossible. Causes: brainstem stroke, motor neuron disease (ALS), neck surgery/trauma. Trace this pathway:. This is where movement meets survival.",
-        "metaphor": "CN XII is the tongue's only motor driver — the single cable controlling all tongue movement muscles. Let me show you the clinical pearl: when testing it, remember 'the tongue licks its wound' — it deviates toward the injured side because the healthy side pushes harder, like a boat with one oar rowing alone. Brilliantly engineered. elegant way to remember pathology?"
+        "content": "CN XII ('below the tongue') is purely motor, controlling all intrinsic tongue muscles (superior/inferior longitudinal, transverse, vertical — these change tongue SHAPE) and most extrinsic tongue muscles (genioglossus, hyoglossus, styloglossus — these change tongue POSITION). Exception: palatoglossus is innervated by CN X. Testing: (1) Ask patient to protrude tongue — it deviates toward the weak/damaged side because the healthy genioglossus pushes unopposed. (2) Inspect for atrophy (muscle wasting) and fasciculations (twitching — sign of lower motor neuron damage). (3) Ask patient to push tongue against cheek while you resist — tests strength. Speech (especially lingual sounds like 't', 'd', 'l') and swallowing are affected by CN XII damage. Bilateral CN XII damage means the tongue doesn't protrude, speech is severely impaired, swallowing is nearly impossible. Causes: brainstem stroke, motor neuron disease (ALS), neck surgery/trauma.",
+        "metaphor": "CN XII is the tongue's only motor driver — the single cable controlling all tongue movement muscles. Clinical pearl: remember 'the tongue licks its wound' — it deviates toward the injured side because the healthy side pushes harder, like a boat with one oar rowing alone."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.12-scaffolds.json"
     },
@@ -459,19 +681,19 @@
       ],
       "answer": 0,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "This mnemonic encodes: Olfactory, Optic, Oculomotor, Trochlear, Trigeminal, Abducens, Facial, Vestibulocochlear, Glossopharyngeal, Vagus, Accessory, Hypoglossal. Oh Oh Oh To Touch And Feel... Give this idea space to land:the rhythm. It's gleefully memorable, isn't it?",
+      "explain": "This mnemonic encodes: Olfactory, Optic, Oculomotor, Trochlear, Trigeminal, Abducens, Facial, Vestibulocochlear, Glossopharyngeal, Vagus, Accessory, Hypoglossal. The rhythm makes it memorable.",
       "optionExplains": [
         {
           "verdict": "correct",
-          "text": "Correct! Let me take you through this: the first letters spell out the 12 cranial nerves in order: O-O-O-T-T-A-F-V-G-V-A-H = Olfactory, Optic, Oculomotor, Trochlear, Trigeminal, Abducens, Facial, Vestibulocochlear, Glossopharyngeal, Vagus, Accessory, Hypoglossal. some people prefer alternate versions (some quite ribald), but this one is classroom-safe and effective. Journey with me into this:: the sensory quality of the mnemonic ('To Touch And Feel Very Good Velvet') makes it stick in memory like velvet sticks to Velcro. Make room for this understanding:those textures. The memory will follow."
+          "text": "Correct! The first letters spell out the 12 cranial nerves in order: O-O-O-T-T-A-F-V-G-V-A-H = Olfactory, Optic, Oculomotor, Trochlear, Trigeminal, Abducens, Facial, Vestibulocochlear, Glossopharyngeal, Vagus, Accessory, Hypoglossal. Some prefer alternate versions (some quite ribald), but this one is classroom-safe and effective. The sensory quality of the mnemonic ('To Touch And Feel Very Good Velvet') makes it stick in memory."
         },
         {
           "verdict": "incorrect",
-          "text": "Functions require a different mnemonic. For sensory/motor/both classification, use: 'Some Say Marry Money But My Brother Says Big Brains Matter More' — S for Sensory, M for Motor, B for Both. Don't lose this thread:."
+          "text": "Functions require a different mnemonic. For sensory/motor/both classification, use: 'Some Say Marry Money But My Brother Says Big Brains Matter More' — S for Sensory, M for Motor, B for Both."
         },
         {
           "verdict": "incorrect",
-          "text": "For sensory/motor/both classification, use the separate mnemonic: 'Some Say Marry Money But My Brother Says Big Brains Matter More' (S=Sensory, M=Motor, B=Both). It maps perfectly to the cranial nerves in order. Let me show you."
+          "text": "For sensory/motor/both classification, use the separate mnemonic: 'Some Say Marry Money But My Brother Says Big Brains Matter More' (S=Sensory, M=Motor, B=Both). It maps perfectly to the cranial nerves in order."
         },
         {
           "verdict": "incorrect",
@@ -500,11 +722,11 @@
       "optionExplains": [
         {
           "verdict": "correct",
-          "text": "Correct! Let me take you into this beautiful simplicity — CN I (smell), CN II (vision), and CN VIII (hearing + balance) are purely sensory, one-way streets carrying information TO the brain. This is pure biological artistry:: these are all special senses, not general sensation. They have dedicated receptor systems (olfactory epithelium, retinal photoreceptors, cochlear hair cells, vestibular hair cells). mnemonic: 'Some Say Marry Money...' the first two S's are I and II (sensory), and the third S is VIII. Let's explore this together:: purely sensory means these nerves CAN'T be tested with motor tasks. You test them by evaluating the senses themselves: smell, vision, hearing, balance. Grant yourself this moment of clarity:the logic."
+          "text": "Correct! CN I (smell), CN II (vision), and CN VIII (hearing + balance) are purely sensory, one-way streets carrying information TO the brain. These are all special senses, not general sensation. They have dedicated receptor systems (olfactory epithelium, retinal photoreceptors, cochlear hair cells, vestibular hair cells). Mnemonic: 'Some Say Marry Money...' — the first two S's are I and II (sensory), and the third S is VIII. Purely sensory means these nerves CAN'T be tested with motor tasks. You test them by evaluating the senses themselves: smell, vision, hearing, balance."
         },
         {
           "verdict": "incorrect",
-          "text": "CN III, IV, VI control eye movements — they are purely MOTOR (though CN III also has parasympathetic fibers for pupil and lens). They're output cables, not input. Stay focused."
+          "text": "CN III, IV, VI control eye movements — they are purely MOTOR (though CN III also has parasympathetic fibers for pupil and lens). They're output cables, not input."
         },
         {
           "verdict": "incorrect",
@@ -517,8 +739,8 @@
       ],
       "mechanism": {
         "title": "Cranial Nerve Modalities: Input, Output, or Both",
-        "content": "Allow the mechanism to reveal itself:drawn into this classification — PURELY SENSORY (S) — Input only: I (smell), II (vision), VIII (hearing/balance). These carry special sensory information to the brain with no motor component. PURELY MOTOR (M) — Output only: III, IV, VI (eye movements), XI (SCM/trapezius), XII (tongue muscles). These send commands to muscles with no sensory component (though III has parasympathetic fibers). MIXED - BOTH (B) — Two-way communication: V (facial sensation + chewing muscles), VII (facial expression + taste), IX (pharyngeal sensation/taste + swallowing muscle), X (visceral sensation + voice/swallowing/parasympathetic). memory aid: 'Some Say Marry Money But My Brother Says Big Brains Matter More' = S-S-M-M-B-M-B-S-B-B-M-M. the pattern makes sense: special senses are purely sensory, eye movement nerves are purely motor, and the face/throat nerves need both sensation and motor control to function properly. A masterpiece of biology. logical? Stay with it.",
-        "metaphor": "Think of sensory nerves as 'input cables' feeding data to the brain (like camera or microphone feeds), motor nerves as 'output cables' sending commands to actuators (like motorized devices), and mixed nerves as 'bidirectional data cables' handling both input and output simultaneously (like USB cables that carry data both ways). Let me show you: the cranial nerves are a cable management system for your head — some read-only, some write-only, some read-write. Nature at its finest. elegant way to understand it?"
+        "content": "PURELY SENSORY (S) — Input only: I (smell), II (vision), VIII (hearing/balance). These carry special sensory information to the brain with no motor component. PURELY MOTOR (M) — Output only: III, IV, VI (eye movements), XI (SCM/trapezius), XII (tongue muscles). These send commands to muscles with no sensory component (though III has parasympathetic fibers). MIXED - BOTH (B) — Two-way communication: V (facial sensation + chewing muscles), VII (facial expression + taste), IX (pharyngeal sensation/taste + swallowing muscle), X (visceral sensation + voice/swallowing/parasympathetic). Memory aid: 'Some Say Marry Money But My Brother Says Big Brains Matter More' = S-S-M-M-B-M-B-S-B-B-M-M. The pattern makes sense: special senses are purely sensory, eye movement nerves are purely motor, and the face/throat nerves need both sensation and motor control to function properly.",
+        "metaphor": "Think of sensory nerves as 'input cables' feeding data to the brain (like camera or microphone feeds), motor nerves as 'output cables' sending commands to actuators (like motorized devices), and mixed nerves as 'bidirectional data cables' handling both input and output simultaneously (like USB cables that carry data both ways). The cranial nerves are a cable management system for your head — some read-only, some write-only, some read-write."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.14-scaffolds.json"
     },
@@ -533,29 +755,29 @@
       ],
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "CN V motor fibers (V3 branch — mandibular division) innervate the muscles of mastication. clenching the jaw tests the masseter and temporalis muscles. Let me show you: you can feel these powerful muscles bulge as they contract. Keep the chain connected:.",
+      "explain": "CN V motor fibers (V3 branch — mandibular division) innervate the muscles of mastication. Clenching the jaw tests the masseter and temporalis muscles. You can feel these powerful muscles bulge as they contract.",
       "optionExplains": [
         {
           "verdict": "incorrect",
-          "text": "Smiling tests CN VII (facial nerve), which controls the muscles of facial expression — zygomaticus major pulls the corners of the mouth up and out. Wrong nerve. Stay focused."
+          "text": "Smiling tests CN VII (facial nerve), which controls the muscles of facial expression — zygomaticus major pulls the corners of the mouth up and out. Wrong nerve."
         },
         {
           "verdict": "correct",
-          "text": "Correct! Let me take you into this test — jaw clenching tests CN V motor function. Have the patient clench their teeth hard while you palpate the masseter (angle of jaw) and temporalis (temple) muscles. you should feel them bulge firm and strong. Weakness indicates V3 (mandibular branch) damage. Follow me deeper:: also test jaw opening. Ask patient to open mouth while you resist — the pterygoid muscles do this work. Here's the key: in V3 motor lesions, the jaw deviates TOWARD the weak side when opened (the intact lateral pterygoid on the healthy side pushes unopposed). Survey this cascade:. The deviation tells the story."
+          "text": "Correct! Jaw clenching tests CN V motor function. Have the patient clench their teeth hard while you palpate the masseter (angle of jaw) and temporalis (temple) muscles. You should feel them bulge firm and strong. Weakness indicates V3 (mandibular branch) damage. Also test jaw opening: ask patient to open mouth while you resist — the pterygoid muscles do this work. Key: in V3 motor lesions, the jaw deviates TOWARD the weak side when opened (the intact lateral pterygoid on the healthy side pushes unopposed). The deviation tells the story."
         },
         {
           "verdict": "incorrect",
-          "text": "Tongue protrusion tests CN XII (hypoglossal) — the tongue's motor cable. Different nerve, different territory. Patient."
+          "text": "Tongue protrusion tests CN XII (hypoglossal) — the tongue's motor cable. Different nerve, different territory."
         },
         {
           "verdict": "incorrect",
-          "text": "Shoulder shrugging tests CN XI (accessory) — trapezius muscle. We're not there yet. Let me guide you properly."
+          "text": "Shoulder shrugging tests CN XI (accessory) — trapezius muscle. Different nerve entirely."
         }
       ],
       "mechanism": {
         "title": "Testing Cranial Nerve V: Sensation and Mastication",
-        "content": "Sit with this knowledge:immersed in this comprehensive test — CN V testing has three components: SENSORY TEST: Light touch or pinprick to forehead (V1 — ophthalmic division), cheek (V2 — maxillary division), and jaw (V3 — mandibular division) with patient's eyes closed. Map out areas of numbness. MOTOR TEST: Palpate masseter and temporalis muscles while patient clenches jaw (should feel firm bilateral bulging). Have patient open mouth against resistance (tests pterygoids). Watch for jaw deviation — in unilateral V3 weakness, jaw deviates TOWARD the weak side when opened. REFLEX TEST: Corneal reflex — gently touch cornea with wisp of cotton; normal response is immediate bilateral blink. this tests V1 afferent (sensation) and CN VII efferent (eyelid closure via orbicularis oculi). loss of corneal reflex is an early sign of trigeminal nerve damage and puts the cornea at risk for abrasion. The protective blink fails. Maintain this focus:. This is where reflex meets protection.",
-        "metaphor": "Testing CN V is like quality-checking a three-zone security system: first test all three sensor zones (V1, V2, V3 sensation) to make sure the alarm works in each territory, then test the mechanical gate (jaw muscles) to make sure it opens and closes with force. Let me show you the logic: if the sensors work but the gate won't close properly, the motor output is damaged. If the sensors are dead but the gate works fine, it's a pure sensory lesion. Pure physiological poetry. diagnostic?"
+        "content": "CN V testing has three components: SENSORY TEST: Light touch or pinprick to forehead (V1 — ophthalmic division), cheek (V2 — maxillary division), and jaw (V3 — mandibular division) with patient's eyes closed. Map out areas of numbness. MOTOR TEST: Palpate masseter and temporalis muscles while patient clenches jaw (should feel firm bilateral bulging). Have patient open mouth against resistance (tests pterygoids). Watch for jaw deviation — in unilateral V3 weakness, jaw deviates TOWARD the weak side when opened. REFLEX TEST: Corneal reflex — gently touch cornea with wisp of cotton; normal response is immediate bilateral blink. This tests V1 afferent (sensation) and CN VII efferent (eyelid closure via orbicularis oculi). Loss of corneal reflex is an early sign of trigeminal nerve damage and puts the cornea at risk for abrasion.",
+        "metaphor": "Testing CN V is like quality-checking a three-zone security system: first test all three sensor zones (V1, V2, V3 sensation) to make sure the alarm works in each territory, then test the mechanical gate (jaw muscles) to make sure it opens and closes with force. If the sensors work but the gate won't close properly, the motor output is damaged. If the sensors are dead but the gate works fine, it's a pure sensory lesion."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.15-scaffolds.json"
     },
@@ -570,19 +792,19 @@
       ],
       "answer": 2,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "CN X (vagus) innervates the muscles of the larynx (voice production) and pharynx (swallowing). Step into this world: into this dark territory — damage causes hoarseness and dysphagia. The voice fails, swallowing becomes difficult, and in bilateral damage, the airway is at risk. Let me show you why this matters.",
+      "explain": "CN X (vagus) innervates the muscles of the larynx (voice production) and pharynx (swallowing). Damage causes hoarseness and dysphagia. The voice fails, swallowing becomes difficult, and in bilateral damage, the airway is at risk.",
       "optionExplains": [
         {
           "verdict": "incorrect",
-          "text": "CN V controls chewing muscles and facial sensation — not voice or pharyngeal swallowing. Wrong territory. Stay focused."
+          "text": "CN V controls chewing muscles and facial sensation — not voice or pharyngeal swallowing. Wrong territory."
         },
         {
           "verdict": "incorrect",
-          "text": "CN VII controls facial expression muscles — it moves your face, not your larynx or pharynx. Different job entirely. Patient."
+          "text": "CN VII controls facial expression muscles — it moves your face, not your larynx or pharynx. Different job entirely."
         },
         {
           "verdict": "correct",
-          "text": "Correct! Let me take you into the vagus territory — CN X innervates all intrinsic laryngeal muscles (except cricothyroid, which is also vagus but via superior laryngeal nerve) through the recurrent laryngeal nerve, and most pharyngeal muscles. Here's what damage causes: hoarseness or breathy voice (vocal cord paralysis — the cord sits in a partially open position), dysphagia (difficulty swallowing — food 'goes down the wrong pipe'), nasal regurgitation of fluids, uvula deviation AWAY from the lesion when you say 'Ah' (the intact side pulls harder). Venture here:: the left recurrent laryngeal nerve loops under the aortic arch. It's vulnerable during cardiac surgery, thoracic surgery, and can be compressed by lung cancer or aortic aneurysm. The elegance reveals itself here:: unilateral damage means hoarse voice, aspiration risk. Bilateral damage means vocal cords both paralyzed near midline — airway obstruction, potential need for emergency tracheostomy. Pursue this logic:. This is life and death."
+          "text": "Correct! CN X innervates all intrinsic laryngeal muscles (except cricothyroid, via superior laryngeal nerve) through the recurrent laryngeal nerve, and most pharyngeal muscles. Damage causes: hoarseness or breathy voice (vocal cord paralysis — the cord sits in a partially open position), dysphagia (difficulty swallowing — food 'goes down the wrong pipe'), nasal regurgitation of fluids, uvula deviation AWAY from the lesion when you say 'Ah' (the intact side pulls harder). The left recurrent laryngeal nerve loops under the aortic arch — vulnerable during cardiac surgery, thoracic surgery, and can be compressed by lung cancer or aortic aneurysm. Unilateral damage means hoarse voice, aspiration risk. Bilateral damage means vocal cords both paralyzed near midline — airway obstruction, potential need for emergency tracheostomy."
         },
         {
           "verdict": "incorrect",
@@ -591,8 +813,8 @@
       ],
       "mechanism": {
         "title": "CN X and Voice/Swallowing: The Vagus Connection",
-        "content": "Allow this to wash over you:drawn into this complex territory — CN X has multiple branches serving different functions: PHARYNGEAL BRANCHES: Most pharyngeal constrictor muscles (superior, middle, inferior) and soft palate muscles (levator veli palatini). Loss causes dysphagia, nasal regurgitation, uvula deviation away from lesion. SUPERIOR LARYNGEAL NERVE: External branch innervates cricothyroid muscle (tenses vocal cords, raises pitch); internal branch provides sensation above vocal cords. Loss causes reduced pitch range, aspiration risk (loss of sensation). RECURRENT LARYNGEAL NERVES: Innervate all other intrinsic laryngeal muscles. Right loops under subclavian artery; left descends and loops under aortic arch (longer, more vulnerable). Enter this realm: into the pathology: loss causes vocal cord paralysis. Unilateral = hoarseness, breathy voice; bilateral = both cords near midline = stridor, airway obstruction. the vagus nerve is the voice cable and swallowing coordinator. Damage it, and both critical functions fail. Now witness the true sophistication:: in thyroid surgery, protecting the recurrent laryngeal nerves is paramount. Injure one: hoarse voice. Injure both: patient can't breathe. Walk through this:. This is where precision surgery meets survival.",
-        "metaphor": "CN X is like the director of a complex dinner theater production — it controls both the performance on stage (voice via laryngeal muscles) and the catering logistics (swallowing via pharyngeal muscles). Let me show you what happens when you damage the director: both the show and the meal service fall apart. The actors lose their voices, food goes to the wrong destination, and in the worst case, the stage (airway) gets blocked entirely. Evolution's crowning achievement. striking image of total function failure?"
+        "content": "CN X has multiple branches serving different functions: PHARYNGEAL BRANCHES: Most pharyngeal constrictor muscles (superior, middle, inferior) and soft palate muscles (levator veli palatini). Loss causes dysphagia, nasal regurgitation, uvula deviation away from lesion. SUPERIOR LARYNGEAL NERVE: External branch innervates cricothyroid muscle (tenses vocal cords, raises pitch); internal branch provides sensation above vocal cords. Loss causes reduced pitch range, aspiration risk (loss of sensation). RECURRENT LARYNGEAL NERVES: Innervate all other intrinsic laryngeal muscles. Right loops under subclavian artery; left descends and loops under aortic arch (longer, more vulnerable). Loss causes vocal cord paralysis. Unilateral = hoarseness, breathy voice; bilateral = both cords near midline = stridor, airway obstruction. In thyroid surgery, protecting the recurrent laryngeal nerves is paramount. Injure one: hoarse voice. Injure both: patient can't breathe.",
+        "metaphor": "CN X is like the director of a complex dinner theater production — it controls both the performance on stage (voice via laryngeal muscles) and the catering logistics (swallowing via pharyngeal muscles). Damage the director, and both the show and the meal service fall apart. The actors lose their voices, food goes to the wrong destination, and in the worst case, the stage (airway) gets blocked entirely."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.16-scaffolds.json"
     },
@@ -607,7 +829,7 @@
       ],
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Dive into this: into this emergency — CN III (oculomotor) controls eyelid elevation, most eye movements, AND pupil constriction via parasympathetic fibers. Let me show you the pattern: ptosis (eyelid droops), 'down and out' eye (only lateral rectus and superior oblique work), blown pupil (parasympathetic fibers damaged). this triad screams CN III compression, possibly from uncal herniation. Navigate this together:. Time is running out.",
+      "explain": "CN III (oculomotor) controls eyelid elevation, most eye movements, AND pupil constriction via parasympathetic fibers. The pattern: ptosis (eyelid droops), 'down and out' eye (only lateral rectus and superior oblique work), blown pupil (parasympathetic fibers damaged). This triad screams CN III compression, possibly from uncal herniation — a neurosurgical emergency.",
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -615,21 +837,21 @@
         },
         {
           "verdict": "correct",
-          "text": "Correct! let me walk you through this clinical pearl. CN III controls: levator palpebrae (lifts eyelid), four extraocular muscles (superior rectus, inferior rectus, medial rectus, inferior oblique), AND parasympathetic fibers for pupil constriction. This is the breathtaking bit:: complete CN III palsy gives you the classic triad: (1) Ptosis — eyelid droops because levator palpebrae fails. (2) 'Down and out' eye — only CN IV (superior oblique) and CN VI (lateral rectus) still work, so the eye drifts down and laterally. (3) Dilated pupil with no light response — parasympathetic fibers run on the OUTSIDE of the nerve, vulnerable to compression. if you see this after head trauma or with severe headache, suspect uncal herniation compressing CN III. The brain is shifting, and you have minutes to hours before irreversible damage. This is where pattern recognition saves lives. The body's quiet genius. urgent?"
+          "text": "Correct! CN III controls: levator palpebrae (lifts eyelid), four extraocular muscles (superior rectus, inferior rectus, medial rectus, inferior oblique), AND parasympathetic fibers for pupil constriction. Complete CN III palsy gives you the classic triad: (1) Ptosis — eyelid droops because levator palpebrae fails. (2) 'Down and out' eye — only CN IV (superior oblique) and CN VI (lateral rectus) still work, so the eye drifts down and laterally. (3) Dilated pupil with no light response — parasympathetic fibers run on the OUTSIDE of the nerve, vulnerable to compression. If you see this after head trauma or with severe headache, suspect uncal herniation compressing CN III. The brain is shifting, and you have minutes to hours before irreversible damage."
         },
         {
           "verdict": "incorrect",
-          "text": "CN IV (trochlear) controls only the superior oblique — one muscle. It wouldn't cause ptosis, pupil dilation, or the full 'down and out' deviation. Too limited. Keep going."
+          "text": "CN IV (trochlear) controls only the superior oblique — one muscle. It wouldn't cause ptosis, pupil dilation, or the full 'down and out' deviation. Too limited."
         },
         {
           "verdict": "incorrect",
-          "text": "CN V (trigeminal) handles facial sensation and chewing — nothing to do with eye movement or pupils. Wrong territory entirely. Stay focused."
+          "text": "CN V (trigeminal) handles facial sensation and chewing — nothing to do with eye movement or pupils. Wrong territory entirely."
         }
       ],
       "mechanism": {
         "title": "CN III Palsy: Reading the Emergency in Three Signs",
-        "content": "Take a moment to appreciate this:drawn into this life-threatening scenario — complete CN III palsy presents with three cardinal signs that tell the complete story. PTOSIS: Levator palpebrae fails → eyelid droops, covering the eye. 'DOWN AND OUT' EYE POSITION: With CN III muscles paralyzed (superior/inferior/medial rectus, inferior oblique), only CN IV (superior oblique → depresses eye) and CN VI (lateral rectus → abducts eye) remain functional. The unopposed action of these two muscles pulls the eye down and out. DILATED, UNREACTIVE PUPIL: Parasympathetic fibers from the Edinger-Westphal nucleus travel on the periphery of CN III. They're vulnerable to external compression. Loss of these fibers means unopposed sympathetic tone → pupil dilates and won't constrict to light. Explore alongside me: into the mechanism of compression: increased intracranial pressure (trauma, tumor, hemorrhage) causes the medial temporal lobe (uncus) to herniate through the tentorial notch. The herniating uncus compresses CN III against the edge of the tentorium. the pupil 'blows' (dilates) on the same side as the herniation. Here's the critical insight: 'blown pupil' + altered consciousness = herniation until proven otherwise. This patient needs immediate imaging and neurosurgical evaluation. you're watching the brain run out of space.",
-        "metaphor": "Think of CN III palsy like a puppet with three severed strings simultaneously: the eyelid string breaks (ptosis), the eye movement strings snap (leaving only two muscles to pull it down and out), and the pupil control string cuts (leaving it wide open like a broken aperture). Let me show you why this matters: when all three strings break at once, it's not random — something is crushing the main cable that controls all three. Descend with me into this:. The pattern isn't just diagnostic; it's a countdown clock to brain death."
+        "content": "Complete CN III palsy presents with three cardinal signs. PTOSIS: Levator palpebrae fails → eyelid droops, covering the eye. 'DOWN AND OUT' EYE POSITION: With CN III muscles paralyzed (superior/inferior/medial rectus, inferior oblique), only CN IV (superior oblique → depresses eye) and CN VI (lateral rectus → abducts eye) remain functional. The unopposed action of these two muscles pulls the eye down and out. DILATED, UNREACTIVE PUPIL: Parasympathetic fibers from the Edinger-Westphal nucleus travel on the periphery of CN III. They're vulnerable to external compression. Loss of these fibers means unopposed sympathetic tone → pupil dilates and won't constrict to light. Mechanism of compression: increased intracranial pressure (trauma, tumor, hemorrhage) causes the medial temporal lobe (uncus) to herniate through the tentorial notch. The herniating uncus compresses CN III against the edge of the tentorium. The pupil 'blows' (dilates) on the same side as the herniation. Critical insight: 'blown pupil' + altered consciousness = herniation until proven otherwise. This patient needs immediate imaging and neurosurgical evaluation.",
+        "metaphor": "Think of CN III palsy like a puppet with three severed strings simultaneously: the eyelid string breaks (ptosis), the eye movement strings snap (leaving only two muscles to pull it down and out), and the pupil control string cuts (leaving it wide open like a broken aperture). When all three strings break at once, it's not random — something is crushing the main cable that controls all three. The pattern isn't just diagnostic; it's a countdown clock to brain death."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.17-scaffolds.json"
     },
@@ -644,7 +866,7 @@
       ],
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "this is a beautiful demonstration of CN VII's multiple functions. Let me show you: facial expression muscles fail (can't close eye), taste from anterior 2/3 tongue is lost (chorda tympani branch), and lacrimal gland parasympathetic innervation fails (dry eye). three deficits, one nerve. Thread this needle carefully:.",
+      "explain": "This is a demonstration of CN VII's multiple functions: facial expression muscles fail (can't close eye), taste from anterior 2/3 tongue is lost (chorda tympani branch), and lacrimal gland parasympathetic innervation fails (dry eye). Three deficits, one nerve.",
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -652,11 +874,11 @@
         },
         {
           "verdict": "correct",
-          "text": "Correct! Let me take you deeper into this exquisite case. CN VII (facial nerve) has three critical functions at play here: (1) MOTOR to muscles of facial expression — including orbicularis oculi, which closes the eye. Damage causes lagophthalmos (inability to close eye fully). (2) TASTE from anterior 2/3 tongue via chorda tympani branch. Loss makes food bland — patients often say 'everything tastes like cardboard.' (3) PARASYMPATHETIC to lacrimal gland (tears) and salivary glands. Loss causes dry eye (xerophthalmia) on the affected side. Now we arrive at the gorgeous part:: the dry eye PLUS inability to blink/close the eye means the cornea is exposed and unprotected. the patient is at severe risk for corneal abrasion, ulceration, and permanent vision loss. Traverse this territory:: Bell's palsy patients need artificial tears and nighttime eye taping to protect the cornea. The face may recover, but corneal damage is permanent. Sublimely intricate. striking vulnerability?"
+          "text": "Correct! CN VII (facial nerve) has three critical functions at play here: (1) MOTOR to muscles of facial expression — including orbicularis oculi, which closes the eye. Damage causes lagophthalmos (inability to close eye fully). (2) TASTE from anterior 2/3 tongue via chorda tympani branch. Loss makes food bland — patients often say 'everything tastes like cardboard.' (3) PARASYMPATHETIC to lacrimal gland (tears) and salivary glands. Loss causes dry eye (xerophthalmia) on the affected side. The dry eye PLUS inability to blink/close the eye means the cornea is exposed and unprotected — the patient is at severe risk for corneal abrasion, ulceration, and permanent vision loss. Bell's palsy patients need artificial tears and nighttime eye taping to protect the cornea. The face may recover, but corneal damage is permanent."
         },
         {
           "verdict": "incorrect",
-          "text": "CN IX (glossopharyngeal) carries taste from POSTERIOR 1/3 tongue and controls the parotid gland — not lacrimal gland or eye closure. Wrong territory. Stay focused."
+          "text": "CN IX (glossopharyngeal) carries taste from POSTERIOR 1/3 tongue and controls the parotid gland — not lacrimal gland or eye closure. Wrong territory."
         },
         {
           "verdict": "incorrect",
@@ -665,8 +887,8 @@
       ],
       "mechanism": {
         "title": "CN VII: When Expression, Taste, and Tears All Fail Together",
-        "content": "Open yourself to this:immersed in the multi-functional architecture of CN VII. It's not just the 'facial expression nerve' — it's a complex mixed nerve with four major functional divisions. MOTOR: All muscles of facial expression (can't smile, can't close eye → lagophthalmos). SENSORY - TASTE: Chorda tympani branch carries taste from anterior 2/3 tongue. Loss dramatically reduces taste perception (most taste buds are on anterior tongue). PARASYMPATHETIC - LACRIMAL: Greater petrosal nerve → pterygopalatine ganglion → lacrimal gland. Loss causes dry eye. PARASYMPATHETIC - SALIVARY: Chorda tympani also carries secretomotor fibers to submandibular and sublingual salivary glands. Navigate with me: into the clinical picture: Bell's palsy (idiopathic CN VII paralysis) causes ALL of these to fail simultaneously. The patient wakes up terrified — half their face won't move, food tastes bland, one eye is dry and won't close. here's the emergency within the emergency: the exposed, dry cornea (loss of blink + loss of tears) is at immediate risk. Corneal abrasion → infection → scarring → blindness. Treatment must address the eye FIRST: artificial tears every hour while awake, lubricating ointment at night, eye patch or taping the lid closed during sleep. The face may recover spontaneously in 70-80% of cases, but corneal damage doesn't heal. Continue the sequence:. This is where multiple functions converge into one vulnerable cable.",
-        "metaphor": "CN VII is like the control panel for your face's entire performance: it runs the motor controls (facial movements), the sensory inputs (taste), and the support systems (tears and saliva). Let me show you what happens when you yank that control panel out: the stage goes dark (face paralyzed), the sound system cuts out (taste muted), and the cooling system fails (tears stop). the actor can't perform, the audience can't taste the meal, and the theater (cornea) starts to overheat and crack from dryness. Artistry in flesh. exquisite cascade of failure from a single source?"
+        "content": "CN VII is not just the 'facial expression nerve' — it's a complex mixed nerve with four major functional divisions. MOTOR: All muscles of facial expression (can't smile, can't close eye → lagophthalmos). SENSORY - TASTE: Chorda tympani branch carries taste from anterior 2/3 tongue. Loss dramatically reduces taste perception (most taste buds are on anterior tongue). PARASYMPATHETIC - LACRIMAL: Greater petrosal nerve → pterygopalatine ganglion → lacrimal gland. Loss causes dry eye. PARASYMPATHETIC - SALIVARY: Chorda tympani also carries secretomotor fibers to submandibular and sublingual salivary glands. Bell's palsy (idiopathic CN VII paralysis) causes ALL of these to fail simultaneously. The patient wakes up terrified — half their face won't move, food tastes bland, one eye is dry and won't close. Emergency within the emergency: the exposed, dry cornea (loss of blink + loss of tears) is at immediate risk. Corneal abrasion → infection → scarring → blindness. Treatment must address the eye FIRST: artificial tears every hour while awake, lubricating ointment at night, eye patch or taping the lid closed during sleep. The face may recover spontaneously in 70-80% of cases, but corneal damage doesn't heal.",
+        "metaphor": "CN VII is like the control panel for your face's entire performance: it runs the motor controls (facial movements), the sensory inputs (taste), and the support systems (tears and saliva). Yank that control panel out, and the stage goes dark (face paralyzed), the sound system cuts out (taste muted), and the cooling system fails (tears stop). The actor can't perform, the audience can't taste the meal, and the theater (cornea) starts to overheat and crack from dryness."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.18-scaffolds.json"
     },
@@ -681,7 +903,7 @@
       ],
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Walk this path: into the surgical hazard — the facial nerve (CN VII) runs directly through the parotid gland. Let me show you why this matters: CN VII controls facial EXPRESSION (motor), NOT sensation. Sensation is CN V territory. Here's the key: motor loss with intact sensation = CN VII damaged, CN V spared. Follow the breadcrumbs:. The pattern reveals the injury.",
+      "explain": "The facial nerve (CN VII) runs directly through the parotid gland — a surgical hazard. CN VII controls facial EXPRESSION (motor), NOT sensation. Sensation is CN V territory. Key pattern: motor loss with intact sensation = CN VII damaged, CN V spared.",
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -689,11 +911,11 @@
         },
         {
           "verdict": "correct",
-          "text": "Correct! Let me walk you through this surgical anatomy pearl. The facial nerve (CN VII) exits the skull via the stylomastoid foramen, then immediately passes THROUGH the substance of the parotid gland before branching into its five terminal divisions. This is where the magic unfolds:: parotid surgery (especially for tumor removal) requires meticulous identification and preservation of CN VII branches. the nerve is the single most important structure to preserve during parotid surgery. Damage causes: facial paralysis on that side (can't smile, can't close eye, forehead won't wrinkle), but facial SENSATION is completely intact because CN V (trigeminal) is anatomically separate and unaffected by parotid surgery. Accompany me through this:: this dissociation (motor loss, sensation preserved) is the diagnostic signature of CN VII injury. It's how you know it's not a stroke (which would spare forehead muscles) and not CN V damage (which would cause numbness, not paralysis). The pattern tells the story. A symphony of function. logical?"
+          "text": "Correct! The facial nerve (CN VII) exits the skull via the stylomastoid foramen, then immediately passes THROUGH the substance of the parotid gland before branching into its five terminal divisions. Parotid surgery (especially for tumor removal) requires meticulous identification and preservation of CN VII branches — the nerve is the single most important structure to preserve during parotid surgery. Damage causes: facial paralysis on that side (can't smile, can't close eye, forehead won't wrinkle), but facial SENSATION is completely intact because CN V (trigeminal) is anatomically separate and unaffected by parotid surgery. This dissociation (motor loss, sensation preserved) is the diagnostic signature of CN VII injury. It's how you know it's not a stroke (which would spare forehead muscles) and not CN V damage (which would cause numbness, not paralysis)."
         },
         {
           "verdict": "incorrect",
-          "text": "CN IX (glossopharyngeal) innervates the parotid SALIVARY secretion (via otic ganglion) but doesn't control facial movement. Different function entirely. Stay focused."
+          "text": "CN IX (glossopharyngeal) innervates the parotid SALIVARY secretion (via otic ganglion) but doesn't control facial movement. Different function entirely."
         },
         {
           "verdict": "incorrect",
@@ -702,8 +924,8 @@
       ],
       "mechanism": {
         "title": "Facial Nerve in Parotid Surgery: Anatomy of a Surgical Hazard",
-        "content": "Immerse yourself in this:drawn into this anatomical danger zone. The facial nerve (CN VII) emerges from the stylomastoid foramen and immediately enters the POSTERIOR surface of the parotid gland. Within the gland, it divides into five main terminal branches: Temporal, Zygomatic, Buccal, Marginal mandibular, and Cervical (mnemonic: 'To Zanzibar By Motor Car'). These branches spread like a fan through the gland substance before emerging to innervate muscles of facial expression. Join me in examining this: into the surgical challenge: the parotid gland is the most common site of salivary gland tumors. Surgical removal requires meticulous dissection because the facial nerve is EMBEDDED in the gland tissue. surgeons must identify the main trunk of CN VII and trace each branch through tumor tissue, preserving the nerve while removing the tumor. Here's the critical diagnostic pattern: CN VII injury causes motor deficit (facial paralysis) with INTACT sensation, because CN V (trigeminal) is anatomically distant and unaffected. This dissociation (can't move but can feel) immediately localizes the lesion to CN VII. Contrast this with: (1) Stroke — forehead muscles SPARED (upper motor neuron lesion). (2) Bell's palsy — sudden onset, entire side affected, often recovers. (3) CN V lesion — sensation LOST, movement intact. Keep this momentum:. The anatomy dictates the pathology, and the pathology reveals the anatomy.",
-        "metaphor": "Think of the facial nerve passing through the parotid gland like a critical fiber optic cable running through the middle of a renovation site. Let me show you the surgical dilemma: the surgeon must remove the building (tumor) without cutting the cable (nerve). One wrong move, and the entire system downstream goes dark — the face stops moving. But here's the key: the sensation cable (CN V) runs through a different building entirely, so it stays intact. when you see a patient who can FEEL their face perfectly but can't MOVE it after parotid surgery, you know exactly which cable was cut. Designed with precision. elegant?"
+        "content": "The facial nerve (CN VII) emerges from the stylomastoid foramen and immediately enters the POSTERIOR surface of the parotid gland. Within the gland, it divides into five main terminal branches: Temporal, Zygomatic, Buccal, Marginal mandibular, and Cervical (mnemonic: 'To Zanzibar By Motor Car'). These branches spread like a fan through the gland substance before emerging to innervate muscles of facial expression. Surgical challenge: the parotid gland is the most common site of salivary gland tumors. Surgical removal requires meticulous dissection because the facial nerve is EMBEDDED in the gland tissue. Surgeons must identify the main trunk of CN VII and trace each branch through tumor tissue, preserving the nerve while removing the tumor. Critical diagnostic pattern: CN VII injury causes motor deficit (facial paralysis) with INTACT sensation, because CN V (trigeminal) is anatomically distant and unaffected. This dissociation (can't move but can feel) immediately localizes the lesion to CN VII. Contrast with: (1) Stroke — forehead muscles SPARED (upper motor neuron lesion). (2) Bell's palsy — sudden onset, entire side affected, often recovers. (3) CN V lesion — sensation LOST, movement intact. The anatomy dictates the pathology.",
+        "metaphor": "Think of the facial nerve passing through the parotid gland like a critical fiber optic cable running through the middle of a renovation site. The surgeon must remove the building (tumor) without cutting the cable (nerve). One wrong move, and the entire system downstream goes dark — the face stops moving. But the sensation cable (CN V) runs through a different building entirely, so it stays intact. When you see a patient who can FEEL their face perfectly but can't MOVE it after parotid surgery, you know exactly which cable was cut."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.19-scaffolds.json"
     },
@@ -718,7 +940,7 @@
       ],
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Travel deeper into this: into one of the most agonizing pain syndromes in neurology — trigeminal neuralgia (tic douloureux). Let me show you the pattern: lancinating facial pain in CN V distribution, triggered by innocuous stimuli (light touch, eating, talking), with normal exam between episodes. it's called the 'suicide disease' because the pain is so severe. Carry this forward:.",
+      "explain": "Trigeminal neuralgia (tic douloureux) is one of the most agonizing pain syndromes in neurology. The pattern: lancinating facial pain in CN V distribution, triggered by innocuous stimuli (light touch, eating, talking), with normal exam between episodes. It's called the 'suicide disease' because the pain is so severe.",
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -726,7 +948,7 @@
         },
         {
           "verdict": "correct",
-          "text": "Correct! Let me take you into this dark territory — trigeminal neuralgia (TN) is one of the most severe pain syndromes known. The clinical features are diagnostic: (1) PAIN CHARACTER: Sudden, severe, lancinating (electric shock-like), lasting seconds to minutes. Patients describe it as the worst pain imaginable. (2) DISTRIBUTION: Usually V2 (maxillary) or V3 (mandibular) divisions — cheek, upper/lower jaw, teeth. V1 (ophthalmic) involvement is rare. (3) TRIGGERS: Light touch, chewing, talking, cold air, brushing teeth. These innocuous stimuli cause explosive pain. (4) PAIN-FREE INTERVALS: Normal exam between attacks — no sensory loss, no motor deficit. And now, the revelation:: the mechanism is usually vascular compression of the trigeminal nerve root at the brainstem (typically by superior cerebellar artery). The pulsating vessel damages the myelin sheath → abnormal nerve signaling → severe pain from minimal stimuli. treatment is medical first (carbamazepine is first-line, blocks sodium channels and stabilizes hyperactive nerves) or surgical (microvascular decompression — place a cushion between vessel and nerve). Press onward:: patients become terrified of triggers. They stop eating, stop talking, stop living. The pain controls them. Crafted to perfection. horrifying power for a nerve to wield?"
+          "text": "Correct! Trigeminal neuralgia (TN) is one of the most severe pain syndromes known. The clinical features are diagnostic: (1) PAIN CHARACTER: Sudden, severe, lancinating (electric shock-like), lasting seconds to minutes. Patients describe it as the worst pain imaginable. (2) DISTRIBUTION: Usually V2 (maxillary) or V3 (mandibular) divisions — cheek, upper/lower jaw, teeth. V1 (ophthalmic) involvement is rare. (3) TRIGGERS: Light touch, chewing, talking, cold air, brushing teeth. These innocuous stimuli cause explosive pain. (4) PAIN-FREE INTERVALS: Normal exam between attacks — no sensory loss, no motor deficit. The mechanism is usually vascular compression of the trigeminal nerve root at the brainstem (typically by superior cerebellar artery). The pulsating vessel damages the myelin sheath → abnormal nerve signaling → severe pain from minimal stimuli. Treatment is medical first (carbamazepine is first-line, blocks sodium channels and stabilizes hyperactive nerves) or surgical (microvascular decompression — place a cushion between vessel and nerve). Patients become terrified of triggers. They stop eating, stop talking, stop living. The pain controls them."
         },
         {
           "verdict": "incorrect",
@@ -739,8 +961,8 @@
       ],
       "mechanism": {
         "title": "Trigeminal Neuralgia: When the Sentinel Becomes the Torturer",
-        "content": "Permit yourself to feel this:drawn into the mechanism of this devastating syndrome. Trigeminal neuralgia (TN) typically results from VASCULAR COMPRESSION of the trigeminal nerve root entry zone at the pons. Most commonly, the superior cerebellar artery (occasionally the AICA — anterior inferior cerebellar artery) loops and pulsates against the nerve root, causing focal demyelination. Advance into this: into the pathophysiology: loss of myelin → abnormal ephaptic transmission (cross-talk between adjacent nerve fibers) → light touch signals aberrantly activate pain pathways → innocuous stimuli perceived as excruciating pain. Here's the clinical signature: (1) Paroxysmal attacks — sudden onset, seconds to 2 minutes duration. (2) Trigger zones — specific areas of the face that, when touched, reliably trigger attacks. Patients avoid touching these zones like they're electrified. (3) Unilateral — almost always one side. Bilateral TN suggests multiple sclerosis. (4) Refractory periods — can't immediately re-trigger after an attack. (5) Pain-free intervals with normal neurological exam. the pain is so severe that patients stop eating (triggers attacks), lose weight, develop depression, and have one of the highest suicide rates of any chronic pain condition. Proceed with me: into treatment: MEDICAL — carbamazepine (first-line), oxcarbazepine, gabapentin, baclofen. These stabilize hyperactive nerves. SURGICAL — microvascular decompression (MVD): open the skull, identify the offending vessel, place a Teflon cushion between vessel and nerve. Success rate 80-90% with risks of surgery. Alternative: percutaneous procedures (radiofrequency ablation, glycerol injection, balloon compression) destroy some trigeminal fibers to stop pain — but also cause facial numbness. Sustain this attention:. This is where pain becomes unbearable, and treatment becomes a calculated destruction of sensation to achieve peace.",
-        "metaphor": "Think of trigeminal neuralgia like a hypersensitive car alarm that's been damaged — even a gentle breeze or a leaf touching the car triggers a full, ear-splitting alarm. Let me show you the horror: in TN, light touch to the face (breeze, eating, talking) triggers explosive, electric-shock pain so severe that patients describe it as lightning bolts in their face. the sentinel nerve that should gently monitor your face has become a torturer, turning every innocent stimulus into agony. The irony is devastating: the system designed to protect you is now the source of unbearable suffering. The pinnacle of adaptation. beautiful nightmare of neurological dysfunction?"
+        "content": "Trigeminal neuralgia (TN) typically results from VASCULAR COMPRESSION of the trigeminal nerve root entry zone at the pons. Most commonly, the superior cerebellar artery (occasionally the AICA — anterior inferior cerebellar artery) loops and pulsates against the nerve root, causing focal demyelination. Pathophysiology: loss of myelin → abnormal ephaptic transmission (cross-talk between adjacent nerve fibers) → light touch signals aberrantly activate pain pathways → innocuous stimuli perceived as excruciating pain. Clinical signature: (1) Paroxysmal attacks — sudden onset, seconds to 2 minutes duration. (2) Trigger zones — specific areas of the face that, when touched, reliably trigger attacks. Patients avoid touching these zones. (3) Unilateral — almost always one side. Bilateral TN suggests multiple sclerosis. (4) Refractory periods — can't immediately re-trigger after an attack. (5) Pain-free intervals with normal neurological exam. The pain is so severe that patients stop eating (triggers attacks), lose weight, develop depression, and have one of the highest suicide rates of any chronic pain condition. Treatment: MEDICAL — carbamazepine (first-line), oxcarbazepine, gabapentin, baclofen. These stabilize hyperactive nerves. SURGICAL — microvascular decompression (MVD): open the skull, identify the offending vessel, place a Teflon cushion between vessel and nerve. Success rate 80-90% with risks of surgery. Alternative: percutaneous procedures (radiofrequency ablation, glycerol injection, balloon compression) destroy some trigeminal fibers to stop pain — but also cause facial numbness.",
+        "metaphor": "Think of trigeminal neuralgia like a hypersensitive car alarm that's been damaged — even a gentle breeze or a leaf touching the car triggers a full, ear-splitting alarm. In TN, light touch to the face (breeze, eating, talking) triggers explosive, electric-shock pain so severe that patients describe it as lightning bolts in their face. The sentinel nerve that should gently monitor your face has become a torturer, turning every innocent stimulus into agony. The system designed to protect you is now the source of unbearable suffering."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.20-scaffolds.json"
     },
@@ -755,7 +977,7 @@
       ],
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Move with me toward this: into the surgical anatomy of the neck — the recurrent laryngeal nerve (RLN) runs in the tracheoesophageal groove and is dangerously close to the thyroid gland. Let me show you why this matters: unilateral RLN injury causes vocal cord paralysis → hoarse voice, but swallowing remains intact. bilateral injury is an airway emergency. Hold the line here:.",
+      "explain": "The recurrent laryngeal nerve (RLN) runs in the tracheoesophageal groove and is dangerously close to the thyroid gland — a surgical hazard. Unilateral RLN injury causes vocal cord paralysis → hoarse voice, but swallowing remains intact. Bilateral injury is an airway emergency.",
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -763,7 +985,7 @@
         },
         {
           "verdict": "correct",
-          "text": "Correct! Let me take you into this surgical hazard — the recurrent laryngeal nerve (RLN) is a branch of CN X that innervates ALL intrinsic laryngeal muscles except the cricothyroid. Here's the critical anatomy: the RIGHT RLN loops under the subclavian artery and ascends in the tracheoesophageal groove. The LEFT RLN descends into the chest, loops under the aortic arch, then ascends in the tracheoesophageal groove (longer course, more vulnerable). During thyroid surgery, the RLN is at risk because it runs immediately posterior to the thyroid gland. unilateral RLN injury causes: (1) Vocal cord paralysis — the cord sits in a paramedian position (slightly open). (2) Hoarse, breathy voice — incomplete vocal cord closure during phonation. (3) Aspiration risk — but less severe than bilateral injury. (4) Swallowing usually intact — pharyngeal muscles (also CN X but different branches) still work. Embark on this: into the emergency scenario: BILATERAL RLN injury means BOTH vocal cords are paralyzed near midline → airway obstruction → stridor → respiratory distress → emergency tracheostomy. This is why surgeons performing thyroid surgery must meticulously identify and preserve both RLNs. One mistake doubles; two mistakes kill. Persist through this:. This is where anatomy meets life support."
+          "text": "Correct! The recurrent laryngeal nerve (RLN) is a branch of CN X that innervates ALL intrinsic laryngeal muscles except the cricothyroid. Critical anatomy: the RIGHT RLN loops under the subclavian artery and ascends in the tracheoesophageal groove. The LEFT RLN descends into the chest, loops under the aortic arch, then ascends in the tracheoesophageal groove (longer course, more vulnerable). During thyroid surgery, the RLN is at risk because it runs immediately posterior to the thyroid gland. Unilateral RLN injury causes: (1) Vocal cord paralysis — the cord sits in a paramedian position (slightly open). (2) Hoarse, breathy voice — incomplete vocal cord closure during phonation. (3) Aspiration risk — but less severe than bilateral injury. (4) Swallowing usually intact — pharyngeal muscles (also CN X but different branches) still work. Emergency scenario: BILATERAL RLN injury means BOTH vocal cords are paralyzed near midline → airway obstruction → stridor → respiratory distress → emergency tracheostomy. This is why surgeons performing thyroid surgery must meticulously identify and preserve both RLNs."
         },
         {
           "verdict": "incorrect",
@@ -776,8 +998,8 @@
       ],
       "mechanism": {
         "title": "Recurrent Laryngeal Nerve: Surgical Anatomy and Voice Control",
-        "content": "Accept this reality:immersed in this exquisite and vulnerable anatomy. The recurrent laryngeal nerves (RLNs) have an unusual embryological course. They arise from CN X (vagus) in the neck, descend into the thorax (RIGHT: loops under subclavian artery; LEFT: descends further and loops under aortic arch), then ascend back up in the tracheoesophageal groove to innervate the larynx. Here's the anatomical vulnerability: the RLNs run immediately POSTERIOR to the thyroid gland and can be injured during thyroid surgery, parathyroid surgery, anterior cervical spine surgery, or compressed by thyroid tumors, esophageal cancer, or lung cancer. Set out toward this: into the functional anatomy: the RLNs innervate ALL intrinsic laryngeal muscles EXCEPT the cricothyroid (which is innervated by the external branch of the superior laryngeal nerve). These muscles control: vocal cord abduction (opening — for breathing), adduction (closing — for phonation and airway protection), and tension adjustments. UNILATERAL RLN injury: the affected vocal cord is paralyzed in a slightly open (paramedian) position → incomplete vocal cord closure during phonation → hoarse, breathy voice. Aspiration risk is present but moderate because the intact cord can partially compensate. BILATERAL RLN injury: BOTH cords paralyzed near midline → airway obstruction → stridor (high-pitched breathing sound) → respiratory distress requiring emergency tracheostomy. Here's the clinical pearl: unilateral injury after thyroid surgery is fairly common (1-5% of cases, usually temporary). Bilateral injury is rare but catastrophic. Track each step:. This is where millimeters of surgical dissection determine whether the patient speaks or breathes.",
-        "metaphor": "Think of the recurrent laryngeal nerves as the control cables for your vocal cord stage curtains. Let me show you what happens: unilateral cable cut → one curtain stuck partially open → you can still perform, but your voice is breathy and weak because the curtains won't close completely. Now Prepare yourself for this:: bilateral cables cut → BOTH curtains stuck near-closed → the stage opening is so narrow that air can barely get through → you can't breathe. in thyroid surgery, the surgeon must navigate around these cables running behind the thyroid like trip wires in a minefield. One wire cut, voice damage. Both wires cut, airway emergency. Beautifully inevitable. striking image of surgical precision under pressure?"
+        "content": "The recurrent laryngeal nerves (RLNs) have an unusual embryological course. They arise from CN X (vagus) in the neck, descend into the thorax (RIGHT: loops under subclavian artery; LEFT: descends further and loops under aortic arch), then ascend back up in the tracheoesophageal groove to innervate the larynx. Anatomical vulnerability: the RLNs run immediately POSTERIOR to the thyroid gland and can be injured during thyroid surgery, parathyroid surgery, anterior cervical spine surgery, or compressed by thyroid tumors, esophageal cancer, or lung cancer. Functional anatomy: the RLNs innervate ALL intrinsic laryngeal muscles EXCEPT the cricothyroid (which is innervated by the external branch of the superior laryngeal nerve). These muscles control: vocal cord abduction (opening — for breathing), adduction (closing — for phonation and airway protection), and tension adjustments. UNILATERAL RLN injury: the affected vocal cord is paralyzed in a slightly open (paramedian) position → incomplete vocal cord closure during phonation → hoarse, breathy voice. Aspiration risk is present but moderate because the intact cord can partially compensate. BILATERAL RLN injury: BOTH cords paralyzed near midline → airway obstruction → stridor (high-pitched breathing sound) → respiratory distress requiring emergency tracheostomy. Clinical pearl: unilateral injury after thyroid surgery is fairly common (1-5% of cases, usually temporary). Bilateral injury is rare but catastrophic.",
+        "metaphor": "Think of the recurrent laryngeal nerves as the control cables for your vocal cord stage curtains. Unilateral cable cut → one curtain stuck partially open → you can still perform, but your voice is breathy and weak because the curtains won't close completely. Bilateral cables cut → BOTH curtains stuck near-closed → the stage opening is so narrow that air can barely get through → you can't breathe. In thyroid surgery, the surgeon must navigate around these cables running behind the thyroid like trip wires in a minefield. One wire cut, voice damage. Both wires cut, airway emergency."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.21-scaffolds.json"
     },
@@ -792,7 +1014,7 @@
       ],
       "answer": 1,
       "chapter": "Chapter 13 — Nerves & Sensory",
-      "explain": "Chart this course: into this subtle but distinctive clinical pattern — CN IV (trochlear) controls the superior oblique muscle, which depresses the eye and intorts it. Let me show you: damage causes difficulty looking DOWN and IN (reading, stairs). the patient tilts their head away from the lesion to compensate. It's called the 'head tilt test.' Connect these dots:. The body finds its own solution.",
+      "explain": "CN IV (trochlear) controls the superior oblique muscle, which depresses the eye and intorts it. Damage causes difficulty looking DOWN and IN (reading, stairs). The patient tilts their head away from the lesion to compensate — this is called the 'head tilt test.'",
       "optionExplains": [
         {
           "verdict": "incorrect",
@@ -813,8 +1035,8 @@
       ],
       "mechanism": {
         "title": "CN IV Palsy: The Subtle Nerve with the Distinctive Presentation",
-        "content": "Give this idea space to land:drawn into the unique anatomy and vulnerability of the trochlear nerve. CN IV is unusual in three ways: (1) SMALLEST cranial nerve. (2) LONGEST intracranial course — making it vulnerable to trauma, especially shearing forces during rapid acceleration/deceleration. (3) ONLY cranial nerve to exit DORSALLY (from the back of the brainstem). (4) COMPLETE DECUSSATION — the right CN IV nucleus controls the LEFT superior oblique, and vice versa. Journey with me into this: into the muscle mechanics: the superior oblique muscle originates in the apex of the orbit, passes through a fibrous pulley (the TROCHLEA — hence 'trochlear' nerve), then inserts on the posterolateral aspect of the globe. Primary actions: DEPRESSION (eye down) — especially effective when eye is ADducted (looking inward); INTORSION (top of eye rotates medially). CN IV palsy causes: (1) Vertical diplopia (double vision) — worse when looking DOWN and IN. This is most problematic during READING (eyes converge and look down) and DESCENDING STAIRS (looking down at steps). (2) Compensatory HEAD TILT — patient tilts head AWAY from the affected side to reduce diplopia. The head tilt recruits other neck muscles to compensate for the weak superior oblique. (3) BIELSCHOWSKY HEAD TILT TEST — diagnostic: tilt patient's head TOWARD the affected side → diplopia worsens. Tilt AWAY → diplopia improves. Here's the etiology pattern: CONGENITAL (most common cause — often well-compensated until decompensation later in life), TRAUMA (especially bilateral CN IV palsy after head injury — both nerves sheared), VASCULAR (microvascular infarction in diabetes, hypertension — like CN III and VI palsies), TUMOR (rare). See this through:. This is where subtle symptoms meet elegant anatomical localization.",
-        "metaphor": "Think of CN IV (trochlear) as a single specialized pulley cable that helps pull your eye down and inward — like the cable in a Venetian blind system that controls one specific angle. Let me show you what happens when this cable breaks: you can't look down and in efficiently, so reading and descending stairs become problematic because your eyes can't converge downward properly. your body's ingenious compensation is to tilt your head away from the problem, using neck position to minimize the broken eye muscle's workload. It's like tilting the entire window frame to compensate for one stuck blind cord. Exquisitely logical. adaptive?"
+        "content": "CN IV is unusual in four ways: (1) SMALLEST cranial nerve. (2) LONGEST intracranial course — making it vulnerable to trauma, especially shearing forces during rapid acceleration/deceleration. (3) ONLY cranial nerve to exit DORSALLY (from the back of the brainstem). (4) COMPLETE DECUSSATION — the right CN IV nucleus controls the LEFT superior oblique, and vice versa. Muscle mechanics: the superior oblique muscle originates in the apex of the orbit, passes through a fibrous pulley (the TROCHLEA — hence 'trochlear' nerve), then inserts on the posterolateral aspect of the globe. Primary actions: DEPRESSION (eye down) — especially effective when eye is ADducted (looking inward); INTORSION (top of eye rotates medially). CN IV palsy causes: (1) Vertical diplopia (double vision) — worse when looking DOWN and IN. This is most problematic during READING (eyes converge and look down) and DESCENDING STAIRS (looking down at steps). (2) Compensatory HEAD TILT — patient tilts head AWAY from the affected side to reduce diplopia. (3) BIELSCHOWSKY HEAD TILT TEST — diagnostic: tilt patient's head TOWARD the affected side → diplopia worsens. Tilt AWAY → diplopia improves. Etiology: CONGENITAL (most common cause — often well-compensated until decompensation later in life), TRAUMA (especially bilateral CN IV palsy after head injury — both nerves sheared), VASCULAR (microvascular infarction in diabetes, hypertension), TUMOR (rare).",
+        "metaphor": "Think of CN IV (trochlear) as a single specialized pulley cable that helps pull your eye down and inward — like the cable in a Venetian blind system that controls one specific angle. When this cable breaks, you can't look down and in efficiently, so reading and descending stairs become problematic because your eyes can't converge downward properly. Your body's ingenious compensation is to tilt your head away from the problem, using neck position to minimize the broken eye muscle's workload. It's like tilting the entire window frame to compensate for one stuck blind cord."
       },
       "scaffoldFile": "200.5-scaffolds/200.5.22-scaffolds.json"
     }

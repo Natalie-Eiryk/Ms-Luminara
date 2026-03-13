@@ -1,26 +1,159 @@
 {
   "parentId": "200.6.09",
-  "parentQuestion": "Which structure is considered a modified sympathetic ganglion that releases horm...",
+  "parentQuestion": "Which structure is considered a modified sympathetic ganglion that releases hormones into the blood?",
   "scaffolds": [
     {
-      "q": "The adrenal glands sit atop the kidneys and have two distinct regions.",
+      "q": "Where are the adrenal glands located?",
       "options": [
-        "True",
-        "False"
+        "In the neck near the thyroid",
+        "On top of each kidney",
+        "In the pelvis",
+        "In the chest"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Each adrenal gland has an outer cortex (produces steroid hormones — cortisol, aldosterone, androgens) and an inner medulla (produces catecholamines — epinephrine, norepinephrine). the medulla is the sympathetic extension. Open yourself to this:two glands in one."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The adrenal (suprarenal) glands sit ON TOP OF each kidney. 'Ad-renal' means 'near the kidney.' 'Suprarenal' means 'above the kidney.' Same structure, two names.",
+      "wrongExplains": {
+        "0": "The thyroid and parathyroid are in the neck. The adrenals are in the abdomen on the kidneys.",
+        "2": "The pelvis contains reproductive organs. The adrenals are higher, on top of the kidneys.",
+        "3": "The chest contains heart and lungs. The adrenals are in the upper abdomen, retroperitoneal."
+      }
     },
     {
-      "q": "Epinephrine (adrenaline) can act on tissues throughout the body when released into the bloodstream.",
+      "q": "What are the two distinct regions of each adrenal gland?",
       "options": [
-        "True",
-        "False"
+        "Left and right halves",
+        "Cortex (outer) and medulla (inner)",
+        "Upper and lower lobes",
+        "Anterior and posterior"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Hormones travel in the blood to reach distant targets. when the adrenal medulla releases epinephrine, it circulates everywhere, binding to adrenergic receptors throughout the body. This creates a systemic, sustained sympathetic effect beyond what nerve terminals alone could achieve. Amplification by circulation."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Each adrenal gland has an outer CORTEX and inner MEDULLA. They're functionally different: the cortex produces steroid hormones, the medulla produces catecholamines (epinephrine, norepinephrine).",
+      "wrongExplains": {
+        "0": "The adrenal has concentric layers (outer cortex, inner medulla), not left/right halves.",
+        "2": "The adrenal has cortex and medulla, not lobes like the liver or lungs.",
+        "3": "The division is outside-to-inside (cortex/medulla), not front-to-back."
+      }
+    },
+    {
+      "q": "What does the adrenal CORTEX produce?",
+      "options": [
+        "Epinephrine and norepinephrine",
+        "Steroid hormones (cortisol, aldosterone, androgens)",
+        "Acetylcholine",
+        "Insulin"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The adrenal CORTEX produces STEROID hormones: cortisol (stress response), aldosterone (sodium/water balance), and androgens (sex hormones). These are synthesized from cholesterol.",
+      "wrongExplains": {
+        "0": "Epinephrine and norepinephrine come from the MEDULLA, not the cortex.",
+        "2": "Acetylcholine is a neurotransmitter from neurons, not a hormone from the adrenal gland.",
+        "3": "Insulin comes from the pancreas (beta cells), not the adrenal gland."
+      }
+    },
+    {
+      "q": "What does the adrenal MEDULLA produce?",
+      "options": [
+        "Cortisol and aldosterone",
+        "Epinephrine (adrenaline) and norepinephrine",
+        "Growth hormone",
+        "Testosterone"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The adrenal MEDULLA produces CATECHOLAMINES: primarily epinephrine (~80%) and some norepinephrine (~20%). These are the 'adrenaline' hormones of the fight-or-flight response.",
+      "wrongExplains": {
+        "0": "Cortisol and aldosterone come from the CORTEX, not the medulla.",
+        "2": "Growth hormone comes from the anterior pituitary, not the adrenal medulla.",
+        "3": "Testosterone is produced by the gonads and in small amounts by the adrenal cortex, not medulla."
+      }
+    },
+    {
+      "q": "Why is the adrenal medulla called a 'modified sympathetic ganglion'?",
+      "options": [
+        "It has nothing to do with the sympathetic system",
+        "Its cells develop from neural crest and receive preganglionic sympathetic fibers",
+        "It controls parasympathetic functions",
+        "It contains typical postganglionic neurons"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The adrenal medulla cells are MODIFIED POSTGANGLIONIC NEURONS. They develop from neural crest (like sympathetic neurons) and receive preganglionic fibers directly. Instead of axons, they release hormones into blood.",
+      "wrongExplains": {
+        "0": "The medulla is absolutely connected to the sympathetic system — it's an extension of it.",
+        "2": "The medulla is sympathetic territory. It releases fight-or-flight hormones, not rest-and-digest.",
+        "3": "The cells are modified postganglionic neurons that became hormone-secreting cells, not typical neurons with axons."
+      }
+    },
+    {
+      "q": "What innervates the adrenal medulla?",
+      "options": [
+        "Parasympathetic postganglionic fibers",
+        "Sympathetic preganglionic fibers (directly)",
+        "Somatic motor neurons",
+        "No neural connection"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Sympathetic PREGANGLIONIC neurons synapse DIRECTLY on adrenal medulla cells. There's no postganglionic neuron — the medulla cells themselves ARE the modified postganglionic cells releasing hormones instead of neurotransmitter.",
+      "wrongExplains": {
+        "0": "The medulla is sympathetic, not parasympathetic. It releases fight-or-flight hormones.",
+        "2": "Somatic motor neurons go to skeletal muscle. The adrenal medulla receives autonomic (sympathetic) input.",
+        "3": "There IS neural connection — the splanchnic nerve carries sympathetic preganglionic fibers to the medulla."
+      }
+    },
+    {
+      "q": "How do epinephrine and norepinephrine reach their target tissues?",
+      "options": [
+        "Through nerves",
+        "Through the bloodstream (as hormones)",
+        "Through lymph",
+        "They don't leave the adrenal gland"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The adrenal medulla releases epinephrine and norepinephrine into the BLOODSTREAM. As hormones, they circulate throughout the body, reaching all tissues with adrenergic receptors simultaneously.",
+      "wrongExplains": {
+        "0": "Nerves release norepinephrine locally. The adrenal medulla releases hormones into blood for systemic effects.",
+        "2": "Lymph carries immune cells and fluid. Hormones travel in the blood.",
+        "3": "The whole point of hormone release is to affect distant tissues throughout the body."
+      }
+    },
+    {
+      "q": "What is the advantage of releasing catecholamines as hormones (via blood) rather than just as neurotransmitters (via nerves)?",
+      "options": [
+        "Hormonal release is more localized",
+        "Hormonal release provides systemic, sustained, whole-body effects",
+        "There is no advantage",
+        "Hormones act faster than neurotransmitters"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Blood-borne hormones reach EVERY tissue with receptors, creating a SYSTEMIC fight-or-flight response. Nerve terminals are local and brief; circulating epinephrine is global and sustained.",
+      "wrongExplains": {
+        "0": "Hormonal release is actually MORE widespread than localized nerve release.",
+        "2": "There's a significant advantage — systemic amplification of the stress response.",
+        "3": "Neurotransmitters actually act faster at local synapses. Hormones take longer but last longer and reach everywhere."
+      }
+    },
+    {
+      "q": "During intense stress, both sympathetic nerves AND the adrenal medulla are activated. What is the combined effect?",
+      "options": [
+        "They cancel each other out",
+        "Amplified, prolonged fight-or-flight response throughout the body",
+        "Only digestion increases",
+        "Heart rate decreases"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Sympathetic nerves provide fast, local effects. The adrenal medulla adds circulating epinephrine for sustained, whole-body effects. Together: AMPLIFIED, PROLONGED fight-or-flight — maximum preparation for survival.",
+      "wrongExplains": {
+        "0": "They work together, not against each other. Both activate fight-or-flight responses.",
+        "2": "Digestion is SUPPRESSED during stress. Both sympathetic nerves and adrenal medulla inhibit gut activity.",
+        "3": "Heart rate INCREASES during stress. Both mechanisms speed up the heart."
+      }
     }
   ]
 }

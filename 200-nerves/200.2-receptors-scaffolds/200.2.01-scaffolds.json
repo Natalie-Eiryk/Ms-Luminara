@@ -3,87 +3,143 @@
   "parentQuestion": "If someone spills very hot coffee (200°F) on their skin, they will likely perceive much pain. Which of the following receptor types is causing this sensation?",
   "scaffolds": [
     {
-      "q": "Pain is a sensation that warns you of potential harm to your body.",
+      "q": "What is the purpose of pain sensation?",
       "options": [
-        "True",
-        "False"
+        "To make life unpleasant",
+        "To warn you of potential harm to your body",
+        "To help you sleep",
+        "Pain has no purpose"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Pain is your body's alarm system. It tells you something is wrong and you need to protect yourself."
+      "explain": "Pain is your body's ALARM SYSTEM. It warns you something is wrong and you need to protect yourself from tissue damage.",
+      "wrongExplains": {
+        "0": "Pain serves a protective purpose. It's not just unpleasant — it's vital for survival.",
+        "2": "Pain typically prevents sleep. Its purpose is to warn of harm.",
+        "3": "Pain definitely has a critical purpose — protecting you from injury."
+      }
     },
     {
-      "q": "Pain is detected by specialized receptors called nociceptors.",
+      "q": "What are pain receptors called?",
       "options": [
-        "True",
-        "False"
+        "Mechanoreceptors",
+        "Nociceptors",
+        "Thermoreceptors",
+        "Photoreceptors"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! 'Noci-' comes from Latin 'nocere' meaning 'to harm.' Nociceptors are harm detectors."
+      "explain": "Pain receptors are called NOCICEPTORS. 'Noci-' comes from Latin 'nocere' meaning 'to harm.' They're literally HARM DETECTORS.",
+      "wrongExplains": {
+        "0": "Mechanoreceptors detect touch and pressure. Nociceptors detect pain.",
+        "2": "Thermoreceptors detect normal temperature. Nociceptors detect painful stimuli.",
+        "3": "Photoreceptors detect light in the eyes. Nociceptors detect tissue damage."
+      }
     },
     {
-      "q": "Nociceptors respond to stimuli that are intense enough to damage tissue.",
+      "q": "What kind of stimuli activate nociceptors?",
       "options": [
-        "True",
-        "False"
+        "Gentle touch",
+        "Stimuli intense enough to damage tissue",
+        "Normal body temperature",
+        "Pleasant fragrances"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Nociceptors don't fire for gentle touch or warmth. They fire when the stimulus is intense enough to threaten tissue damage - extreme heat, crushing pressure, or damaging chemicals."
+      "explain": "Nociceptors don't fire for gentle touch or warmth. They fire when stimuli are INTENSE enough to THREATEN TISSUE DAMAGE — extreme heat, crushing pressure, or damaging chemicals.",
+      "wrongExplains": {
+        "0": "Gentle touch activates mechanoreceptors, not nociceptors. Nociceptors need intense stimuli.",
+        "2": "Normal temperature activates thermoreceptors. Nociceptors respond to extreme temperatures.",
+        "3": "Fragrances activate olfactory receptors. Nociceptors detect potentially harmful stimuli."
+      }
     },
     {
-      "q": "Thermoreceptors detect normal temperature ranges (warm and cold sensations).",
+      "q": "What do thermoreceptors detect?",
       "options": [
-        "True",
-        "False"
+        "Only painful heat",
+        "Normal temperature ranges (warm and cold sensations)",
+        "Pressure and vibration",
+        "Body position"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Thermoreceptors detect comfortable temperatures - the pleasant warmth of a heating pad or the cool of a breeze. They report temperature information."
+      "explain": "THERMORECEPTORS detect comfortable temperatures — the pleasant warmth of a heating pad or the cool of a breeze. They report temperature INFORMATION, not pain.",
+      "wrongExplains": {
+        "0": "Painful heat activates nociceptors. Thermoreceptors handle normal temperature ranges.",
+        "2": "Pressure and vibration are detected by mechanoreceptors. Thermo = temperature.",
+        "3": "Body position is proprioception. Thermoreceptors detect temperature."
+      }
     },
     {
-      "q": "200°F (93°C) coffee would cause burns and tissue damage.",
+      "q": "Would 200°F (93°C) coffee cause tissue damage?",
       "options": [
-        "True",
-        "False"
+        "No, it's a comfortable temperature",
+        "Yes, it would cause burns and tissue damage",
+        "Only if you drink it",
+        "200°F is cool"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Water boils at 212°F, so 200°F coffee is extremely hot - hot enough to instantly burn and damage skin tissue."
+      "explain": "Water boils at 212°F, so 200°F coffee is EXTREMELY HOT — hot enough to INSTANTLY BURN and DAMAGE skin tissue.",
+      "wrongExplains": {
+        "0": "200°F is near boiling. It would cause severe burns immediately.",
+        "2": "Skin contact with 200°F liquid causes burns, not just drinking it.",
+        "3": "200°F is extremely hot, not cool. It's near the boiling point of water."
+      }
     },
     {
-      "q": "When tissue is being damaged by extreme heat, you feel PAIN, not just warmth.",
+      "q": "What sensation do you feel when tissue is being damaged by extreme heat?",
       "options": [
-        "True",
-        "False"
+        "Pleasant warmth",
+        "Mild coolness",
+        "PAIN, not just warmth",
+        "Nothing at all"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "foundation",
-      "explain": "Correct! At damaging temperatures, nociceptors take over from thermoreceptors. The sensation changes from 'hot' to 'PAIN!' It's an alarm, not just information."
+      "explain": "At DAMAGING temperatures, NOCICEPTORS take over from thermoreceptors. The sensation changes from 'hot' to 'PAIN!' It's an ALARM, not just information.",
+      "wrongExplains": {
+        "0": "Pleasant warmth is from thermoreceptors with mild heat. Damaging heat causes pain.",
+        "1": "Extreme heat doesn't feel cool. It triggers intense pain.",
+        "3": "Nerve damage aside, extreme heat activates nociceptors intensely."
+      }
     },
     {
-      "q": "Mechanoreceptors detect touch and pressure, not temperature or pain.",
+      "q": "What do mechanoreceptors detect?",
       "options": [
-        "True",
-        "False"
+        "Temperature changes",
+        "Touch and pressure",
+        "Pain only",
+        "Light"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Mechanoreceptors respond to mechanical forces - touch, pressure, vibration, stretch. They don't detect heat or tissue damage."
+      "explain": "MECHANORECEPTORS respond to mechanical forces — touch, pressure, vibration, stretch. They don't detect heat or tissue damage.",
+      "wrongExplains": {
+        "0": "Temperature is detected by thermoreceptors. Mechano = mechanical forces.",
+        "2": "Pain is detected by nociceptors. Mechanoreceptors detect touch/pressure.",
+        "3": "Light is detected by photoreceptors in the eyes. Mechanoreceptors detect physical forces."
+      }
     },
     {
-      "q": "At tissue-damaging temperatures, nociceptors (not thermoreceptors) are the primary receptors responsible for the pain sensation.",
+      "q": "At tissue-damaging temperatures, which receptors create the pain sensation?",
       "options": [
-        "True",
-        "False"
+        "Thermoreceptors",
+        "Nociceptors",
+        "Mechanoreceptors",
+        "Proprioceptors"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Thermoreceptors handle normal temperature ranges. When heat becomes intense enough to damage tissue (like 200°F coffee), nociceptors fire and create the sensation of pain."
+      "explain": "NOCICEPTORS are the primary receptors for pain. Thermoreceptors handle normal temperature ranges; when heat becomes intense enough to damage tissue (like 200°F coffee), NOCICEPTORS fire.",
+      "wrongExplains": {
+        "0": "Thermoreceptors detect comfortable temperature ranges. Nociceptors detect damaging heat.",
+        "2": "Mechanoreceptors detect touch/pressure, not temperature-related pain.",
+        "3": "Proprioceptors detect body position, not temperature or pain."
+      }
     },
     {
-      "q": "The burning pain from very hot coffee is caused by ___ receptors.",
+      "q": "The burning pain from very hot coffee is caused by which receptors?",
       "options": [
         "Mechanoreceptors",
         "Thermoreceptors",
@@ -92,7 +148,12 @@
       ],
       "answer": 2,
       "difficulty": "intermediate",
-      "explain": "Nociceptors! At damaging temperatures, the sensation is PAIN, not just warmth. Nociceptors detect stimuli intense enough to harm tissue."
+      "explain": "NOCICEPTORS! At damaging temperatures, the sensation is PAIN, not just warmth. Nociceptors detect stimuli intense enough to harm tissue.",
+      "wrongExplains": {
+        "0": "Mechanoreceptors detect physical touch, not heat damage.",
+        "1": "Thermoreceptors detect normal temperature ranges. Damaging heat activates nociceptors.",
+        "3": "Chemoreceptors detect chemicals. Heat damage activates nociceptors."
+      }
     }
   ]
 }

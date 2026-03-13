@@ -3,24 +3,157 @@
   "parentQuestion": "Which statement about autonomic tone is correct?",
   "scaffolds": [
     {
-      "q": "Some neurons fire continuously at a baseline rate, even without specific stimulation.",
+      "q": "What is 'autonomic tone'?",
       "options": [
-        "True",
-        "False"
+        "A sound made by the nervous system",
+        "The continuous baseline level of ANS activity that's always present",
+        "Complete absence of ANS activity",
+        "Only activity during sleep"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Many neurons in the ANS maintain constant low-level firing. this creates a baseline from which activity can increase OR decrease. Without tonic activity, you could only increase function, never decrease it. Make room for this understanding:the advantage of starting from the middle."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "AUTONOMIC TONE is the continuous BASELINE level of ANS activity. Even at rest, both sympathetic and parasympathetic neurons fire at some rate. This baseline can then be increased or decreased as needed.",
+      "wrongExplains": {
+        "0": "Tone doesn't refer to sound. It means continuous baseline neural activity.",
+        "2": "Tone means activity IS present, not absent. There's always some baseline firing.",
+        "3": "Autonomic tone is present all the time — awake, asleep, stressed, relaxed."
+      }
     },
     {
-      "q": "Blood pressure depends partly on the degree of blood vessel constriction.",
+      "q": "Why is having a baseline level of activity (tone) important?",
       "options": [
-        "True",
-        "False"
+        "It wastes energy unnecessarily",
+        "It allows activity to be increased OR decreased from baseline",
+        "It has no purpose",
+        "It prevents all ANS function"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Vasoconstriction increases resistance, raising blood pressure. Vasodilation decreases resistance, lowering blood pressure. by adjusting vessel diameter, the ANS can fine-tune blood pressure moment to moment. This requires constant baseline activity to have something to adjust from."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Starting from a BASELINE allows adjustment in EITHER direction. If neurons started at zero, you could only increase activity, never decrease it. Having tone means you can fine-tune up OR down.",
+      "wrongExplains": {
+        "0": "The energy cost is worth the benefit of bidirectional control.",
+        "2": "It has a crucial purpose — enabling both increases and decreases in activity.",
+        "3": "Tone enables function, not prevents it. It's the foundation for graded control."
+      }
+    },
+    {
+      "q": "Sympathetic tone to blood vessels keeps them partially ___.",
+      "options": [
+        "Fully dilated at all times",
+        "Partially constricted (baseline constriction)",
+        "Completely closed",
+        "Unaffected by nerves"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Sympathetic tone keeps blood vessels PARTIALLY CONSTRICTED at baseline. This sets a 'starting point' — increasing sympathetic activity causes more constriction; decreasing it causes relative dilation.",
+      "wrongExplains": {
+        "0": "Full dilation would be the maximum relaxed state. Tone keeps them partially constricted.",
+        "2": "Completely closed vessels would block blood flow. Tone maintains partial constriction.",
+        "3": "Blood vessels are definitely affected by sympathetic tone — it's crucial for blood pressure."
+      }
+    },
+    {
+      "q": "If sympathetic tone to blood vessels is reduced, what happens to blood pressure?",
+      "options": [
+        "Blood pressure increases",
+        "Blood pressure decreases (vessels dilate)",
+        "Blood pressure stays exactly the same",
+        "Blood pressure becomes irregular"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Reducing sympathetic tone causes vessels to DILATE (less constriction). Wider vessels mean less resistance, so blood pressure DECREASES. This is how the body can lower blood pressure.",
+      "wrongExplains": {
+        "0": "Less constriction = wider vessels = less resistance = LOWER pressure.",
+        "2": "Reducing vasoconstrictor tone definitely changes pressure — it decreases.",
+        "3": "The change is predictable — less sympathetic tone = lower pressure."
+      }
+    },
+    {
+      "q": "Vagal tone refers to the continuous activity of which nerve?",
+      "options": [
+        "Sympathetic nerves",
+        "The vagus nerve (parasympathetic to the heart)",
+        "The phrenic nerve",
+        "Motor nerves to muscles"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "VAGAL TONE is the continuous parasympathetic activity from the VAGUS NERVE to the heart. This keeps resting heart rate (~70 bpm) below the intrinsic pacemaker rate (~100 bpm).",
+      "wrongExplains": {
+        "0": "Sympathetic tone is a separate concept. Vagal tone specifically refers to vagus nerve activity.",
+        "2": "The phrenic nerve controls the diaphragm for breathing, not the heart.",
+        "3": "Motor nerves to muscles are somatic, not autonomic. Vagal tone is parasympathetic."
+      }
+    },
+    {
+      "q": "Your resting heart rate is about 70 bpm, but the SA node fires at 100 bpm. What explains this difference?",
+      "options": [
+        "The heart is damaged",
+        "Vagal tone is constantly slowing the heart below its intrinsic rate",
+        "Sympathetic activity is very high at rest",
+        "The SA node doesn't control heart rate"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "VAGAL TONE keeps the heart slower than its intrinsic rate. The vagus constantly 'brakes' the heart from 100 down to ~70 bpm. Remove vagal tone (cut the vagus) and heart rate would increase to ~100.",
+      "wrongExplains": {
+        "0": "A 70 bpm resting rate is healthy and normal. Vagal braking is beneficial.",
+        "2": "At rest, PARASYMPATHETIC (vagal) dominates, not sympathetic. That's why heart rate is below 100.",
+        "3": "The SA node absolutely controls heart rate. Vagal tone modulates what rate it sets."
+      }
+    },
+    {
+      "q": "What would happen to heart rate if vagal tone were suddenly eliminated?",
+      "options": [
+        "Heart rate would decrease",
+        "Heart rate would increase (to near intrinsic SA rate)",
+        "Heart rate would stay exactly the same",
+        "The heart would stop"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Without vagal braking, heart rate would INCREASE to near the SA node's intrinsic rate (~100 bpm). The vagus normally holds it back — remove that influence and the rate climbs.",
+      "wrongExplains": {
+        "0": "Decreasing would require MORE vagal activity. Losing vagal tone removes the brake.",
+        "2": "There IS a change — the vagal brake is gone, so rate increases.",
+        "3": "The heart won't stop — it has its own pacemaker. It just beats faster without vagal control."
+      }
+    },
+    {
+      "q": "Athletes often have low resting heart rates (50-60 bpm). What does this suggest about their vagal tone?",
+      "options": [
+        "They have low vagal tone",
+        "They have high vagal tone (strong parasympathetic activity)",
+        "Their vagus nerve doesn't work",
+        "Vagal tone is unrelated to heart rate"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Athletes typically have HIGH VAGAL TONE — strong parasympathetic activity that slows the heart even more than normal. This is called 'athletic heart' and is a sign of cardiovascular fitness.",
+      "wrongExplains": {
+        "0": "Low vagal tone would cause faster heart rate, not slower.",
+        "2": "Their vagus works very well — better than average, providing strong braking.",
+        "3": "Vagal tone directly controls resting heart rate by braking the SA node."
+      }
+    },
+    {
+      "q": "Summary: Autonomic tone allows the body to ___.",
+      "options": [
+        "Only increase organ activity",
+        "Only decrease organ activity",
+        "Both increase AND decrease organ activity from a baseline",
+        "Block all organ function"
+      ],
+      "answer": 2,
+      "difficulty": "foundation",
+      "explain": "Autonomic tone provides a BASELINE from which activity can go UP or DOWN. This bidirectional control allows precise regulation — not just 'on/off' but anywhere along a spectrum.",
+      "wrongExplains": {
+        "0": "The whole point of tone is enabling BOTH increases and decreases.",
+        "1": "Tone enables both directions of adjustment, not just decreasing.",
+        "3": "Tone enables control, not blocks it. It's the foundation for graded regulation."
+      }
     }
   ]
 }

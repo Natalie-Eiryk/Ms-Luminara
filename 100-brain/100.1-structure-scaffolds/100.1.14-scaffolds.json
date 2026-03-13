@@ -3,94 +3,157 @@
   "parentQuestion": "A 58-year-old patient develops progressive difficulty with coordinated movement. They can initiate walking but their gait is wide-based and staggering. When reaching for objects, their hand overshoots the target, then oscillates back and forth before finally grasping. Muscle strength is normal. Which structure is most likely affected?",
   "scaffolds": [
     {
-      "q": "The cerebellum is the brain's coordination center.",
+      "q": "What is the cerebellum's main function?",
       "options": [
-        "True",
-        "False"
+        "Initiating voluntary movement",
+        "Coordinating and smoothing movements",
+        "Controlling heart rate",
+        "Processing vision"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The cerebellum ('little brain') doesn't initiate movements - it smooths and coordinates them, comparing intended vs. actual movement."
+      "explain": "The CEREBELLUM is the brain's COORDINATION CENTER. It doesn't initiate movements — it SMOOTHS and COORDINATES them, comparing intended vs. actual movement and making corrections.",
+      "wrongExplains": {
+        "0": "Movement initiation is motor cortex and basal nuclei. Cerebellum coordinates ongoing movement.",
+        "2": "Heart rate is controlled by the brainstem (medulla). Cerebellum handles movement coordination.",
+        "3": "Vision is processed in the occipital lobe. Cerebellum coordinates movement."
+      }
     },
     {
-      "q": "The cerebellum is located posterior to the brainstem.",
+      "q": "Where is the cerebellum located?",
       "options": [
-        "True",
-        "False"
+        "On top of the cerebrum",
+        "Posterior to the brainstem",
+        "Inside the spinal cord",
+        "In the frontal lobe"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! It sits behind the pons and medulla, connected via three cerebellar peduncles. It contains more neurons than the entire cerebral cortex!"
+      "explain": "The CEREBELLUM sits POSTERIOR TO THE BRAINSTEM (behind the pons and medulla). It's connected via three cerebellar peduncles and contains more neurons than the entire cerebral cortex!",
+      "wrongExplains": {
+        "0": "The cerebrum is on top. The cerebellum is behind the brainstem.",
+        "2": "The cerebellum is in the posterior cranial fossa, not in the spinal cord.",
+        "3": "The frontal lobe is part of the cerebrum. The cerebellum is separate."
+      }
     },
     {
-      "q": "Cerebellar damage causes incoordination, NOT weakness.",
+      "q": "Does cerebellar damage cause weakness?",
       "options": [
-        "True",
-        "False"
+        "Yes, severe weakness",
+        "No, strength is normal but coordination is impaired",
+        "Only in the legs",
+        "Only in the arms"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Muscle strength stays normal because the motor cortex and spinal motor neurons are intact. The problem is coordination, not power."
+      "explain": "CEREBELLAR DAMAGE causes INCOORDINATION, NOT weakness. Muscle strength stays normal because the motor cortex and spinal motor neurons are intact. The problem is coordination, not power.",
+      "wrongExplains": {
+        "0": "Weakness indicates motor cortex or spinal cord damage. Cerebellum causes incoordination.",
+        "2": "All limbs can be affected, but with incoordination, not weakness.",
+        "3": "All limbs can be affected, but with incoordination, not weakness."
+      }
     },
     {
-      "q": "Wide-based, staggering gait (ataxia) is a sign of cerebellar dysfunction.",
+      "q": "What is ataxia?",
       "options": [
-        "True",
-        "False"
+        "Muscle weakness",
+        "Incoordination of movement, including wide-based staggering gait",
+        "Loss of sensation",
+        "Memory loss"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The cerebellum normally maintains balance and smooth walking. Damage it, and patients walk like they're drunk - wide stance, lurching steps."
+      "explain": "ATAXIA is INCOORDINATION of movement. Wide-based, staggering gait is a classic sign — patients walk like they're drunk, with lurching steps and a wide stance to maintain balance.",
+      "wrongExplains": {
+        "0": "Weakness is different. Ataxia is incoordination with normal strength.",
+        "2": "Sensory loss is separate. Ataxia is a motor coordination problem.",
+        "3": "Memory loss involves the hippocampus. Ataxia is cerebellar movement disorder."
+      }
     },
     {
-      "q": "Overshooting targets (dysmetria) is a cerebellar sign.",
+      "q": "What is dysmetria?",
       "options": [
-        "True",
-        "False"
+        "Normal movement accuracy",
+        "Overshooting or undershooting targets",
+        "Paralysis",
+        "Tremor at rest"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The cerebellum calculates how far to move. Without it, movements overshoot or undershoot targets - the feedback loop is broken."
+      "explain": "DYSMETRIA is OVERSHOOTING or UNDERSHOOTING targets. The cerebellum normally calculates how far to move. Without it, movements miss their mark — the feedback loop is broken.",
+      "wrongExplains": {
+        "0": "Dysmetria means abnormal measurement of movement — missing targets.",
+        "2": "Paralysis is loss of movement. Dysmetria is inaccurate movement.",
+        "3": "Tremor at rest is Parkinson's. Dysmetria is target-missing during movement."
+      }
     },
     {
-      "q": "Oscillating tremor that worsens as you approach a target (intention tremor) is cerebellar.",
+      "q": "What is intention tremor?",
       "options": [
-        "True",
-        "False"
+        "Tremor that occurs at rest",
+        "Oscillating tremor that worsens as you approach a target",
+        "Steady hand movement",
+        "Tremor that improves with movement"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Intention tremor gets worse as you get closer to the goal. It's the opposite of resting tremor (Parkinson's), which improves with movement."
+      "explain": "INTENTION TREMOR is an oscillating tremor that gets WORSE as you approach the target. It's the OPPOSITE of resting tremor (Parkinson's), which improves with movement.",
+      "wrongExplains": {
+        "0": "Resting tremor is Parkinson's. Intention tremor occurs during movement toward a target.",
+        "2": "Intention tremor causes unsteady oscillation, not smooth movement.",
+        "3": "Intention tremor worsens with movement toward a goal, not improves."
+      }
     },
     {
-      "q": "Basal nuclei problems cause trouble INITIATING movement; cerebellar problems cause trouble COORDINATING movement.",
+      "q": "How do basal nuclei problems differ from cerebellar problems?",
       "options": [
-        "True",
-        "False"
+        "They're the same",
+        "Basal nuclei: trouble INITIATING movement. Cerebellum: trouble COORDINATING movement",
+        "Cerebellum initiates, basal nuclei coordinate",
+        "Neither affects movement"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! This patient can initiate walking fine - the problem is coordination during the movement. That points to cerebellum, not basal nuclei."
+      "explain": "BASAL NUCLEI problems cause trouble INITIATING movement (Parkinson's). CEREBELLAR problems cause trouble COORDINATING ongoing movement. This patient can initiate walking — the problem is coordination.",
+      "wrongExplains": {
+        "0": "They cause different patterns of movement disorders.",
+        "2": "That's reversed. Basal nuclei affect initiation; cerebellum affects coordination.",
+        "3": "Both significantly affect movement, but in different ways."
+      }
     },
     {
-      "q": "Normal strength + ataxia + dysmetria + intention tremor = cerebellar dysfunction.",
+      "q": "What triad suggests cerebellar dysfunction?",
       "options": [
-        "True",
-        "False"
+        "Weakness, numbness, pain",
+        "Normal strength + ataxia + dysmetria + intention tremor",
+        "Paralysis and sensory loss",
+        "Memory loss and confusion"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! This triad is the classic cerebellar presentation. Motor cortex damage would cause weakness. Basal nuclei damage would cause movement initiation problems."
+      "explain": "The CEREBELLAR TRIAD: NORMAL STRENGTH + ATAXIA + DYSMETRIA + INTENTION TREMOR. Motor cortex damage would cause weakness. Basal nuclei damage would cause initiation problems.",
+      "wrongExplains": {
+        "0": "Those symptoms suggest spinal cord or peripheral nerve problems, not cerebellum.",
+        "2": "Paralysis suggests motor cortex or spinal cord damage, not cerebellar.",
+        "3": "Memory and confusion suggest cortical or hippocampal problems, not cerebellar."
+      }
     },
     {
-      "q": "The answer is CEREBELLUM - the coordination center is damaged, not the motor cortex or basal nuclei.",
+      "q": "Which structure is most likely affected in this patient?",
       "options": [
-        "True",
-        "False"
+        "Basal nuclei",
+        "Cerebellum",
+        "Motor cortex",
+        "Thalamus"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not basal nuclei (can initiate movement), not motor cortex (strength is normal), not thalamus (wrong pattern). The cerebellum coordinates ongoing movement, and that's exactly what's failing here."
+      "explain": "CEREBELLUM. The pattern is classic cerebellar dysfunction: can initiate movement (not basal nuclei), normal strength (not motor cortex), but incoordination (ataxia), overshooting (dysmetria), and oscillating tremor (intention tremor).",
+      "wrongExplains": {
+        "0": "Basal nuclei damage causes initiation problems. This patient can initiate movement.",
+        "2": "Motor cortex damage causes weakness. Strength is normal here.",
+        "3": "Thalamus damage causes different sensory or motor patterns."
+      }
     }
   ]
 }

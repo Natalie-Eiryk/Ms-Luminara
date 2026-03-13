@@ -1,96 +1,159 @@
 {
   "parentId": "200.5.17",
-  "parentQuestion": "Ptosis, dilated pupil, eye down and out",
+  "parentQuestion": "A patient has ptosis (drooping eyelid), a dilated pupil, and an eye that looks down and out. Which nerve is damaged?",
   "scaffolds": [
     {
-      "q": "Ptosis means a drooping eyelid.",
+      "q": "What does 'ptosis' mean?",
       "options": [
-        "True",
-        "False"
+        "Dilated pupil",
+        "Drooping eyelid",
+        "Double vision",
+        "Eye pain"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "The muscle that lifts your upper eyelid is controlled by CN III."
+      "explain": "Ptosis = DROOPING EYELID. The levator palpebrae muscle that lifts the upper eyelid is controlled by CN III. When CN III is damaged, the eyelid falls down.",
+      "wrongExplains": {
+        "0": "A dilated pupil is called mydriasis, not ptosis. Ptosis specifically refers to eyelid drooping.",
+        "2": "Double vision is called diplopia. Ptosis is about the eyelid position, not vision quality.",
+        "3": "Eye pain has various causes but isn't called ptosis. Ptosis = droopy lid."
+      }
     },
     {
-      "q": "Pupils normally get smaller in bright light.",
+      "q": "Which nerve controls the muscle that LIFTS the upper eyelid?",
       "options": [
-        "True",
-        "False"
+        "CN II (optic)",
+        "CN III (oculomotor)",
+        "CN VII (facial)",
+        "CN VI (abducens)"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "A dilated pupil suggests the nerve controlling constriction is damaged."
+      "explain": "CN III (oculomotor) controls the levator palpebrae superioris — the muscle that LIFTS the upper eyelid. Damage causes the lid to droop (ptosis).",
+      "wrongExplains": {
+        "0": "CN II carries VISION. It doesn't control any muscles, including eyelid muscles.",
+        "2": "CN VII closes the eye (orbicularis oculi). CN III opens/lifts the eyelid. Different actions, different nerves.",
+        "3": "CN VI controls lateral eye movement (abduction). It doesn't affect the eyelid."
+      }
     },
     {
-      "q": "CN III controls the muscle that constricts the pupil.",
+      "q": "A dilated pupil (mydriasis) that won't constrict suggests damage to which nerve?",
       "options": [
-        "True",
-        "False"
+        "CN II (optic)",
+        "CN III (oculomotor)",
+        "CN V (trigeminal)",
+        "CN VIII (vestibulocochlear)"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "CN III carries parasympathetic fibers to sphincter pupillae."
+      "explain": "CN III controls pupil CONSTRICTION through the sphincter pupillae muscle. When CN III is damaged, the pupil can't constrict — it stays dilated ('blown pupil').",
+      "wrongExplains": {
+        "0": "CN II carries visual information TO the brain. It doesn't control the pupil muscles directly. CN III does.",
+        "2": "CN V handles facial sensation and chewing. It has nothing to do with the pupil.",
+        "3": "CN VIII handles hearing and balance. It doesn't affect the pupil at all."
+      }
     },
     {
-      "q": "Down and out means eye looks downward and outward.",
+      "q": "When CN III is damaged, the eye drifts 'down and out.' Why?",
       "options": [
-        "True",
-        "False"
+        "CN III pulls the eye down and out",
+        "The remaining working muscles (CN IV and VI) pull unopposed",
+        "Gravity alone causes this",
+        "The patient chooses this position"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "When CN III fails, remaining muscles pull eye down and out."
+      "explain": "CN III controls most muscles that move the eye UP and INWARD. When paralyzed, CN IV (superior oblique) pulls DOWN and CN VI (lateral rectus) pulls OUT — unopposed.",
+      "wrongExplains": {
+        "0": "CN III actually pulls the eye UP and IN. When it fails, the eye goes the opposite direction.",
+        "2": "Gravity plays a minimal role. The deviation is caused by the muscle imbalance from CN IV and VI pulling without CN III resistance.",
+        "3": "The patient has no control over this. It's an involuntary result of muscle paralysis."
+      }
     },
     {
-      "q": "CN III controls 4 of the 6 eye movement muscles.",
+      "q": "CN III controls how many of the six eye muscles?",
       "options": [
-        "True",
-        "False"
+        "One",
+        "Two",
+        "Four",
+        "All six"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "foundation",
-      "explain": "When CN III fails, remaining muscles (CN IV, VI) pull unopposed."
+      "explain": "CN III controls FOUR eye muscles: superior rectus, inferior rectus, medial rectus, and inferior oblique. That's why CN III damage causes such dramatic eye deviation.",
+      "wrongExplains": {
+        "0": "One muscle is controlled by CN IV (superior oblique). CN III controls four.",
+        "1": "Two is not enough. CN III is the major eye movement nerve, controlling four of six muscles.",
+        "3": "Six muscles are split between three nerves: CN III (four), CN IV (one), CN VI (one)."
+      }
     },
     {
-      "q": "Multiple symptoms affecting one eye suggest one nerve controls all.",
+      "q": "The classic triad of CN III palsy is: ptosis, mydriasis, and ___.",
       "options": [
-        "True",
-        "False"
+        "Deafness",
+        "Eye down and out",
+        "Facial numbness",
+        "Loss of smell"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Ptosis + dilated pupil + eye deviation = classic CN III palsy."
-    },
-    {
-      "q": "The oculomotor nerve has multiple jobs: eyelid, pupil, eye movement.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "CN III is a busy nerve with several functions."
-    },
-    {
-      "q": "CN III palsy causes ptosis, mydriasis, and eye deviation.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Classic triad of oculomotor nerve damage."
+      "explain": "The CN III palsy triad: (1) Ptosis (can't lift lid), (2) Mydriasis (dilated pupil), (3) Eye DOWN and OUT. All three symptoms point to one damaged nerve.",
+      "wrongExplains": {
+        "0": "Deafness involves CN VIII. CN III damage doesn't affect hearing.",
+        "2": "Facial numbness involves CN V. CN III damage doesn't affect facial sensation.",
+        "3": "Loss of smell involves CN I. CN III damage doesn't affect olfaction."
+      }
     },
     {
-      "q": "Third nerve palsy can be caused by aneurysm compression.",
+      "q": "Why do these THREE symptoms (ptosis, dilated pupil, eye deviation) all occur together?",
       "options": [
-        "True",
-        "False"
+        "Three different nerves are damaged",
+        "One nerve (CN III) controls all three functions",
+        "It's a coincidence",
+        "The brain is damaged"
       ],
-      "answer": 0,
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN III is a MULTI-FUNCTION nerve: it lifts the eyelid, constricts the pupil, AND moves most eye muscles. Damage to this one nerve causes all three symptoms.",
+      "wrongExplains": {
+        "0": "One nerve damage explains all three. CN III handles lid, pupil, and most eye movement.",
+        "2": "This pattern is not coincidental — it's a classic, predictable result of CN III damage.",
+        "3": "Peripheral nerve damage (CN III itself) can cause this triad without brain involvement."
+      }
+    },
+    {
+      "q": "A posterior communicating artery aneurysm can cause CN III palsy. Why?",
+      "options": [
+        "The artery is far from CN III",
+        "The aneurysm compresses CN III as it passes nearby",
+        "Aneurysms don't affect nerves",
+        "CN III is inside the artery"
+      ],
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Posterior communicating artery aneurysm can compress CN III."
+      "explain": "The posterior communicating artery runs VERY CLOSE to CN III. An aneurysm (bulging blood vessel) can compress the nerve, causing the classic palsy. This is a medical emergency.",
+      "wrongExplains": {
+        "0": "The artery is very close to CN III — that's exactly why aneurysms there cause CN III problems.",
+        "2": "Aneurysms absolutely can compress nearby nerves. CN III palsy from aneurysm is well-documented.",
+        "3": "CN III is a nerve that runs outside blood vessels, but close enough to be compressed by bulging ones."
+      }
+    },
+    {
+      "q": "If a patient suddenly develops this triad, why is it potentially an emergency?",
+      "options": [
+        "It's never serious",
+        "A brain aneurysm could be compressing the nerve and might rupture",
+        "It always goes away on its own",
+        "Only cosmetic concern"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Sudden CN III palsy with pupil involvement can indicate a BRAIN ANEURYSM about to rupture. This is life-threatening and requires immediate imaging and treatment.",
+      "wrongExplains": {
+        "0": "Sudden CN III palsy CAN be serious — it might signal an aneurysm that could rupture and cause stroke or death.",
+        "2": "While some CN III palsies (like diabetic) may improve, sudden onset with pupil involvement needs urgent evaluation.",
+        "3": "This is far more than cosmetic — the underlying cause (aneurysm) can be fatal if not treated."
+      }
     }
   ]
 }

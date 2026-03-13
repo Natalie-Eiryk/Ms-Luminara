@@ -3,94 +3,157 @@
   "parentQuestion": "A 3-month-old infant is brought to the pediatrician for a routine checkup. The physician strokes the lateral sole of the infant's foot, and the big toe extends upward while the other toes fan out. What does this finding indicate?",
   "scaffolds": [
     {
-      "q": "Babies are born with immature nervous systems that continue to develop after birth.",
+      "q": "What is the state of a newborn's nervous system?",
       "options": [
-        "True",
-        "False"
+        "Completely mature at birth",
+        "Immature at birth and continues developing for years",
+        "Only the brain is immature",
+        "Mature but inactive"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The nervous system isn't fully developed at birth. Myelination and neural connections continue to mature for years."
+      "explain": "The nervous system is IMMATURE AT BIRTH. MYELINATION and neural connections continue to develop for YEARS after birth. This affects how reflexes present in infants.",
+      "wrongExplains": {
+        "0": "The nervous system continues significant development for years after birth.",
+        "2": "Both the brain and spinal cord pathways are immature. The corticospinal tract isn't fully myelinated until age 2.",
+        "3": "The system isn't just inactive — it's structurally immature with incomplete myelination."
+      }
     },
     {
-      "q": "The corticospinal tract controls voluntary movement and develops gradually in infants.",
+      "q": "What is the corticospinal tract?",
       "options": [
-        "True",
-        "False"
+        "A bone in the spine",
+        "The main pathway from motor cortex to spinal cord for voluntary movement",
+        "A muscle in the leg",
+        "A blood vessel in the brain"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The corticospinal tract (from brain to spinal cord) isn't fully myelinated until about age 2. Until then, some reflexes look different."
+      "explain": "The CORTICOSPINAL TRACT is the main DESCENDING PATHWAY from the motor cortex to the spinal cord. It controls voluntary movement and, when mature, INHIBITS primitive reflexes.",
+      "wrongExplains": {
+        "0": "The corticospinal tract is a neural pathway, not a bone.",
+        "2": "It's a neural tract in the CNS, not a peripheral muscle.",
+        "3": "It's a neural pathway, not a blood vessel."
+      }
     },
     {
-      "q": "The Babinski sign is when the big toe extends up instead of curling down.",
+      "q": "What is the Babinski sign?",
       "options": [
-        "True",
-        "False"
+        "The big toe curling downward when the sole is stroked",
+        "The big toe extending upward while other toes fan out when the sole is stroked",
+        "A test for hearing",
+        "A normal walking pattern"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! When you stroke the sole and the big toe goes UP (with other toes fanning out), that's a positive Babinski sign."
+      "explain": "The BABINSKI SIGN is when the BIG TOE EXTENDS UPWARD and the other toes FAN OUT when the lateral sole is stroked. It's the OPPOSITE of the normal adult plantar response.",
+      "wrongExplains": {
+        "0": "Toe curling downward is the normal adult plantar response. Babinski is upward extension.",
+        "2": "Hearing tests use cranial nerve VIII. The Babinski tests motor pathways.",
+        "3": "The Babinski is a reflex test, not a walking pattern."
+      }
     },
     {
-      "q": "In adults, the Babinski sign indicates brain or spinal cord damage.",
+      "q": "What does the Babinski sign indicate in ADULTS?",
       "options": [
-        "True",
-        "False"
+        "Normal nervous system function",
+        "Damage to the brain or spinal cord (upper motor neuron lesion)",
+        "Excellent reflexes",
+        "Peripheral nerve damage"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! In adults with mature nervous systems, the Babinski means the corticospinal tract is damaged. It's pathological."
+      "explain": "In ADULTS, a positive Babinski indicates UPPER MOTOR NEURON DAMAGE — the corticospinal tract is injured. The mature brain should suppress this primitive reflex.",
+      "wrongExplains": {
+        "0": "In adults, the Babinski is pathological, not normal.",
+        "2": "It indicates pathology, not excellent function.",
+        "3": "Peripheral nerve damage causes absent reflexes. Babinski indicates central (upper motor neuron) damage."
+      }
     },
     {
-      "q": "In infants, the Babinski sign is NORMAL because their corticospinal tracts aren't mature yet.",
+      "q": "Why is the Babinski sign NORMAL in infants?",
       "options": [
-        "True",
-        "False"
+        "Babies have stronger toes",
+        "Their corticospinal tracts aren't fully myelinated yet",
+        "It's never normal in babies",
+        "Babies don't have reflexes"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Babies don't have fully developed inhibitory pathways yet. The primitive reflex (toe extension) is normal until about age 2."
+      "explain": "In infants, the CORTICOSPINAL TRACT ISN'T FULLY MYELINATED yet. Without mature inhibitory pathways, the PRIMITIVE REFLEX (toe extension) is normal until about age 2.",
+      "wrongExplains": {
+        "0": "Toe strength isn't relevant. It's about nervous system maturity.",
+        "2": "The Babinski is completely normal in infants — it's expected until about age 2.",
+        "3": "Babies definitely have reflexes. The Babinski is one of them during early development."
+      }
     },
     {
-      "q": "The Babinski sign normally disappears by about age 2 as the nervous system matures.",
+      "q": "At what age does the Babinski sign normally disappear?",
       "options": [
-        "True",
-        "False"
+        "At birth",
+        "By about age 2 as the nervous system matures",
+        "At age 10",
+        "Never — it's always present"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! As myelination completes and the corticospinal tract matures, the brain starts suppressing this primitive reflex."
+      "explain": "The Babinski sign normally DISAPPEARS BY ABOUT AGE 2. As MYELINATION completes and the corticospinal tract matures, the brain SUPPRESSES this primitive reflex.",
+      "wrongExplains": {
+        "0": "The Babinski is present at birth and persists during infancy. It disappears around age 2.",
+        "2": "By age 2, not age 10. The corticospinal tract myelinates by then.",
+        "3": "In healthy individuals, it disappears by age 2. Persistence beyond that is abnormal."
+      }
     },
     {
-      "q": "A 3-month-old infant with a Babinski sign has a NORMAL finding for their age.",
+      "q": "Can the same reflex be normal at one age and pathological at another?",
       "options": [
-        "True",
-        "False"
+        "No, reflexes are always the same",
+        "Yes, age and developmental context determine interpretation",
+        "Only in certain diseases",
+        "Only in males"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! At 3 months, the Babinski is completely expected and normal. The nervous system hasn't matured yet."
+      "explain": "YES! CONTEXT MATTERS. Babinski at 3 months = NORMAL development. Babinski at 35 years = brain/spinal cord damage. AGE DETERMINES INTERPRETATION.",
+      "wrongExplains": {
+        "0": "The Babinski is a perfect example of a reflex that changes meaning with age.",
+        "2": "It's true for normal development, not just diseases. Infant Babinski is physiological.",
+        "3": "Sex doesn't affect this. The developmental timeline is the same for all infants."
+      }
     },
     {
-      "q": "The same reflex can be normal at one age and pathological at another.",
+      "q": "Is a 3-month-old's Babinski sign concerning?",
       "options": [
-        "True",
-        "False"
+        "Yes, it indicates brain damage",
+        "No, it's a normal finding for this age",
+        "Only if present on both feet",
+        "Only if the baby is crying"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Context matters. Babinski at 3 months = normal development. Babinski at 35 years = brain/spinal cord damage. Age determines interpretation."
+      "explain": "NO, it's NOT CONCERNING! At 3 months, the Babinski is COMPLETELY NORMAL. The nervous system hasn't matured yet, so the primitive reflex is expected.",
+      "wrongExplains": {
+        "0": "At 3 months, the Babinski is developmentally appropriate, not pathological.",
+        "2": "Bilateral Babinski in an infant is still normal. Both feet typically show this response.",
+        "3": "Crying doesn't affect the interpretation. The Babinski is normal at this age regardless."
+      }
     },
     {
-      "q": "This 3-month-old's Babinski sign is a NORMAL finding because the infant's corticospinal tracts are still developing.",
+      "q": "What does this 3-month-old infant's Babinski sign indicate?",
       "options": [
-        "True",
-        "False"
+        "Brain damage requiring treatment",
+        "Normal developmental finding — immature corticospinal tracts",
+        "Spinal cord injury",
+        "Peripheral nerve damage"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! This is the answer. At 3 months old, the Babinski is normal. The pathways that suppress it haven't matured yet. No pathology here - just normal infant neurology."
+      "explain": "NORMAL DEVELOPMENTAL FINDING! At 3 months, the infant's CORTICOSPINAL TRACTS ARE STILL DEVELOPING. The pathways that suppress the Babinski reflex haven't matured yet. This is COMPLETELY NORMAL infant neurology.",
+      "wrongExplains": {
+        "0": "No treatment needed. This is expected at 3 months and will resolve by age 2.",
+        "2": "Spinal cord injury in infants would present differently. This is normal development.",
+        "3": "Peripheral nerve damage causes absent reflexes. The Babinski is a normal primitive reflex in infants."
+      }
     }
   ]
 }

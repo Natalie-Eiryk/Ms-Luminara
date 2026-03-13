@@ -3,96 +3,157 @@
   "parentQuestion": "The trochlear nerve (CN IV) is unique because it ___.",
   "scaffolds": [
     {
-      "q": "The brainstem connects your brain to your spinal cord.",
+      "q": "Most cranial nerves exit from which side of the brainstem?",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! The brainstem is like a bridge between your brain above and spinal cord below. Most cranial nerves come out of the brainstem."
-    },
-    {
-      "q": "Anterior means the front side, posterior means the back side.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Exactly! Anterior = front, posterior = back. Most nerves exit from the anterior (front) of the brainstem. CN IV is special because it exits from the posterior (back)."
-    },
-    {
-      "q": "CN IV is the abbreviation for Cranial Nerve number ___.",
-      "options": [
-        "Three",
-        "Four",
-        "Five",
-        "Fourteen"
+        "Posterior (back)",
+        "Anterior (front)",
+        "Top only",
+        "They don't come from the brainstem"
       ],
       "answer": 1,
       "difficulty": "foundation",
-      "explain": "CN IV = Cranial Nerve Four! In Roman numerals, IV = 4. The trochlear nerve is the fourth cranial nerve."
+      "explain": "Most cranial nerves exit from the ANTERIOR (front) surface of the brainstem. This is the normal pattern. CN IV is the only exception — it sneaks out the back door (posterior).",
+      "wrongExplains": {
+        "0": "Posterior (back) is where CN IV exits, but it's the ONLY one. All other cranial nerves exit anteriorly. That's what makes CN IV unique.",
+        "2": "Cranial nerves emerge from various levels of the brainstem, not just the top. And they exit from the front surface, not the top.",
+        "3": "Most cranial nerves DO come from the brainstem (CN III through XII). Only CN I and II connect directly to the cerebrum."
+      }
     },
     {
-      "q": "The word trochlear comes from a Latin word meaning pulley.",
+      "q": "CN IV is unique because it exits from the ___ of the brainstem.",
       "options": [
-        "True",
-        "False"
+        "Anterior (front) — like all others",
+        "Posterior (back) — unlike all others",
+        "Sides only",
+        "It doesn't exit from the brainstem"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN IV exits from the POSTERIOR (back) of the brainstem. This is its unique feature — it's the ONLY cranial nerve to exit dorsally/posteriorly. All others exit from the front.",
+      "wrongExplains": {
+        "0": "If CN IV exited anteriorly like all others, it wouldn't be unique. Its posterior exit is exactly what makes it special.",
+        "2": "CN IV specifically exits from the back (posterior), not the sides. The dorsal midbrain is where CN IV emerges.",
+        "3": "CN IV does exit from the brainstem — specifically from the posterior midbrain. It just takes the unusual back route."
+      }
+    },
+    {
+      "q": "The word 'trochlear' comes from a Latin word meaning ___.",
+      "options": [
+        "Eye",
+        "Pulley",
+        "Four",
+        "Back"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Trochlear = PULLEY. The superior oblique muscle (which CN IV controls) passes through a pulley-like loop of tissue called the trochlea. The nerve is named after this anatomical pulley.",
+      "wrongExplains": {
+        "0": "'Ocul-' means eye. Trochlea specifically refers to a pulley structure in the orbit that the muscle wraps around.",
+        "2": "The 'IV' means four (it's the fourth cranial nerve), but 'trochlear' refers to the pulley, not the number.",
+        "3": "While CN IV does exit from the back, 'trochlear' means pulley, referring to the anatomical structure, not the exit location."
+      }
+    },
+    {
+      "q": "CN IV controls how many eye muscles?",
+      "options": [
+        "One (superior oblique)",
+        "Two",
+        "Four",
+        "Six"
       ],
       "answer": 0,
       "difficulty": "foundation",
-      "explain": "Yes! The superior oblique muscle (which CN IV controls) passes through a pulley-like loop of tissue called the trochlea. The nerve is named after this pulley structure."
+      "explain": "CN IV controls ONLY ONE muscle — the superior oblique. It's a specialist nerve with a single job. Compare to CN III, which controls four muscles. CN IV is focused and simple.",
+      "wrongExplains": {
+        "1": "CN IV controls just one muscle. You might be thinking of a different arrangement, but CN IV is a one-muscle nerve.",
+        "2": "Four muscles are controlled by CN III (oculomotor). CN IV is much more limited — just the superior oblique.",
+        "3": "There are six eye muscles total, but they're split between THREE nerves: CN III (four), CN IV (one), CN VI (one)."
+      }
     },
     {
-      "q": "Being unique means being different from all others.",
+      "q": "The superior oblique muscle (controlled by CN IV) helps you look ___.",
       "options": [
-        "True",
-        "False"
+        "Straight up",
+        "Straight to the side",
+        "Down and inward",
+        "Straight ahead"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "foundation",
-      "explain": "Right! When we say CN IV is unique, we mean it has a special feature that no other cranial nerve has - it exits from the back of the brainstem instead of the front."
+      "explain": "The superior oblique pulls the eye DOWN and rotates it INWARD (intorsion). It's essential for looking down when your eye is turned toward your nose — like reading or walking down stairs.",
+      "wrongExplains": {
+        "0": "Looking straight up uses the superior rectus (CN III). The superior oblique actually helps with DOWNWARD gaze.",
+        "1": "Looking to the side (laterally) uses the lateral rectus (CN VI). The superior oblique pulls down and rotates, not sideways.",
+        "3": "Looking straight ahead uses balanced muscle activity. The superior oblique specifically helps with downward and inward movements."
+      }
     },
     {
-      "q": "CN IV controls just one eye muscle.",
+      "q": "Why is CN IV also unique for being the only cranial nerve to cross (decussate) completely?",
       "options": [
-        "True",
-        "False"
+        "It doesn't cross — this is false",
+        "The nerve fibers cross to control the opposite eye",
+        "All cranial nerves cross",
+        "It controls both eyes simultaneously"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! CN IV only controls one muscle - the superior oblique. This muscle helps you look down and rotate your eye. Its a specialist nerve with just one job."
-    },
-    {
-      "q": "The trochlear nerve helps you look down, like when reading a book.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Correct! The superior oblique muscle (controlled by CN IV) helps rotate your eye downward and inward. Try looking at your nose - thats the superior oblique working!"
-    },
-    {
-      "q": "Most cranial nerves exit from the front (anterior/ventral) surface of the brainstem.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Cranial nerves typically emerge from the anterior surface of the brainstem. CN IV is the exception - it sneaks out the back (posterior) door."
+      "explain": "CN IV CROSSES completely — left CN IV controls the RIGHT superior oblique, and vice versa. This is another unique feature. Most cranial nerves control the same side (ipsilateral).",
+      "wrongExplains": {
+        "0": "CN IV does cross (decussate). This is a real anatomical fact that makes CN IV doubly unique.",
+        "2": "Most cranial nerves don't cross completely. CN IV is special for its complete decussation.",
+        "3": "Each CN IV controls one eye — but the OPPOSITE eye due to the crossing. Left nerve → right eye's superior oblique."
+      }
     },
     {
-      "q": "CN IV controls the superior oblique muscle of the eye.",
+      "q": "A patient has trouble looking down when reading. CN IV damage might cause difficulty with which activity?",
       "options": [
-        "True",
-        "False"
+        "Seeing colors",
+        "Walking down stairs (looking at steps)",
+        "Hearing conversations",
+        "Smelling food"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "The trochlear nerve (CN IV) innervates only one muscle: the superior oblique, which helps rotate and depress the eye. Specialized control for a specialized job."
+      "explain": "Walking DOWN STAIRS requires looking down — exactly what the superior oblique (CN IV) helps with. Patients with CN IV palsy often tilt their head to compensate when descending stairs.",
+      "wrongExplains": {
+        "0": "Color vision uses the retina and optic nerve (CN II). CN IV controls eye movement, not color perception.",
+        "2": "Hearing uses CN VIII. CN IV has nothing to do with auditory function.",
+        "3": "Smelling uses CN I (olfactory). CN IV only controls the superior oblique muscle for eye movement."
+      }
+    },
+    {
+      "q": "CN IV palsy often causes patients to tilt their head. Why would tilting help?",
+      "options": [
+        "It has no effect",
+        "Tilting compensates for the eye's inability to rotate properly",
+        "Tilting improves hearing",
+        "Tilting helps smell better"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Head tilting COMPENSATES for the lost eye rotation (intorsion) that the superior oblique normally provides. By tilting the head, the patient can align their vision without the faulty muscle.",
+      "wrongExplains": {
+        "0": "Head tilt definitely helps CN IV palsy patients. It's a classic compensatory mechanism that doctors look for.",
+        "2": "Hearing is unaffected by CN IV. The head tilt is specifically to compensate for abnormal eye rotation.",
+        "3": "Smell is unaffected by CN IV. The tilt compensates for the visual/eye movement problem."
+      }
+    },
+    {
+      "q": "Summary: CN IV has TWO unique features. What are they?",
+      "options": [
+        "Largest nerve and controls most muscles",
+        "Exits posteriorly and crosses completely to opposite side",
+        "Carries vision and hearing",
+        "Controls pupil and eyelid"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "CN IV is unique for: (1) exiting from the POSTERIOR brainstem (only cranial nerve to do so), and (2) CROSSING completely to control the opposite side's superior oblique. Two unusual features!",
+      "wrongExplains": {
+        "0": "CN IV is actually the SMALLEST cranial nerve and controls only ONE muscle. The opposite of this answer.",
+        "2": "Vision uses CN II, hearing uses CN VIII. CN IV is purely motor for one eye muscle.",
+        "3": "Pupil and eyelid are controlled by CN III (oculomotor). CN IV only controls the superior oblique muscle."
+      }
     }
   ]
 }

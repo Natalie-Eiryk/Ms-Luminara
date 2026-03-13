@@ -3,94 +3,157 @@
   "parentQuestion": "A patient suffered a midshaft humeral fracture in a fall. Now they cannot extend their wrist or fingers, and the hand hangs in flexion. Which nerve runs in the spiral groove and is most likely injured?",
   "scaffolds": [
     {
-      "q": "The humerus is the bone of the upper arm.",
+      "q": "What is the humerus?",
       "options": [
-        "True",
-        "False"
+        "A leg bone",
+        "The bone of the upper arm between shoulder and elbow",
+        "A muscle in the forearm",
+        "A nerve in the hand"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The humerus is the single bone between your shoulder and elbow. It's surrounded by important nerves and blood vessels."
+      "explain": "The HUMERUS is the single bone of the UPPER ARM, between the shoulder and elbow. Important nerves wrap around it, making them vulnerable when it breaks.",
+      "wrongExplains": {
+        "0": "Leg bones include the femur and tibia. The humerus is in the arm.",
+        "2": "The humerus is a bone, not a muscle. Muscles attach to it.",
+        "3": "It's a bone, not a nerve. Nerves run alongside it."
+      }
     },
     {
-      "q": "When a bone breaks (fractures), nearby structures like nerves can be damaged.",
+      "q": "What is the spiral groove?",
       "options": [
-        "True",
-        "False"
+        "A type of music",
+        "A shallow channel on the back of the humerus where the radial nerve runs",
+        "A muscle in the arm",
+        "A joint in the elbow"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Broken bones have sharp edges. Nerves, blood vessels, and muscles near the fracture can be cut, crushed, or stretched by the bone fragments."
+      "explain": "The SPIRAL GROOVE (radial groove) is a shallow CHANNEL on the posterior humerus where the RADIAL NERVE wraps around the bone. This makes the nerve vulnerable to fractures.",
+      "wrongExplains": {
+        "0": "The spiral groove is anatomical, not musical.",
+        "2": "It's a groove in bone, not a muscle.",
+        "3": "It's a groove on the humerus shaft, not a joint."
+      }
     },
     {
-      "q": "The 'spiral groove' is a shallow channel on the back of the humerus.",
+      "q": "What does 'midshaft' mean for a bone fracture?",
       "options": [
-        "True",
-        "False"
+        "A fracture at the joint",
+        "A fracture in the middle portion of the bone",
+        "A fracture at the growth plate",
+        "A hairline crack only"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The spiral groove (radial groove) runs diagonally across the posterior humerus. It's where the radial nerve wraps around the bone."
+      "explain": "MIDSHAFT means the MIDDLE portion of the bone shaft, between the two ends. A midshaft humeral fracture is in the middle of the upper arm bone.",
+      "wrongExplains": {
+        "0": "Joint fractures are at the ends of bones. Midshaft is the middle.",
+        "2": "Growth plates are at bone ends. Midshaft is the middle section.",
+        "3": "Midshaft describes location, not severity. It can be complete or partial."
+      }
     },
     {
-      "q": "The radial nerve passes through the spiral groove of the humerus.",
+      "q": "Why is the radial nerve vulnerable in midshaft humeral fractures?",
       "options": [
-        "True",
-        "False"
+        "It's not near the humerus",
+        "It runs directly against the bone in the spiral groove",
+        "It's protected by thick muscle",
+        "It's in the forearm only"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The radial nerve runs in the spiral groove, directly against the bone. This location makes it vulnerable to humeral fractures."
+      "explain": "The radial nerve runs DIRECTLY AGAINST THE BONE in the spiral groove at the midshaft level. When the bone breaks here, the nerve can be crushed, cut, or stretched by bone fragments.",
+      "wrongExplains": {
+        "0": "The radial nerve runs right against the humerus — that's the problem.",
+        "2": "The nerve is superficial in the groove with minimal protection.",
+        "3": "The radial nerve runs through the arm AND forearm, passing the midshaft."
+      }
     },
     {
-      "q": "The midshaft of a bone is the middle portion, not the ends.",
+      "q": "What is wrist drop?",
       "options": [
-        "True",
-        "False"
+        "A fashion trend",
+        "The wrist hanging limply because extensor muscles are paralyzed",
+        "A type of exercise",
+        "A wrist accessory"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Midshaft = middle of the bone shaft. A midshaft humeral fracture is in the middle part of the upper arm bone."
+      "explain": "WRIST DROP is when the wrist and fingers HANG LIMPLY in flexion because the EXTENSOR MUSCLES are paralyzed. It's the classic sign of radial nerve injury.",
+      "wrongExplains": {
+        "0": "Wrist drop is a medical sign of nerve damage, not fashion.",
+        "2": "It's a pathological condition, not an exercise.",
+        "3": "It's a sign of nerve injury, not an accessory."
+      }
     },
     {
-      "q": "The radial nerve is the most commonly injured nerve in humeral shaft fractures.",
+      "q": "Which nerve controls all wrist and finger extensors?",
       "options": [
-        "True",
-        "False"
+        "Median nerve",
+        "Radial nerve",
+        "Ulnar nerve",
+        "Sciatic nerve"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Because the radial nerve lies directly against the bone in the spiral groove, midshaft fractures frequently damage it. This happens in up to 18% of cases."
+      "explain": "The RADIAL NERVE controls ALL the extensor muscles on the back of the forearm. These muscles extend (straighten) the wrist and fingers. Damage it, and you get wrist drop.",
+      "wrongExplains": {
+        "0": "The median nerve controls flexion and thumb opposition, not extension.",
+        "2": "The ulnar nerve controls hand intrinsics. Radial controls extensors.",
+        "3": "The sciatic nerve is in the leg. The radial is for arm extension."
+      }
     },
     {
-      "q": "Radial nerve injury causes 'wrist drop' - inability to extend the wrist and fingers.",
+      "q": "How common is radial nerve injury with humeral shaft fractures?",
       "options": [
-        "True",
-        "False"
+        "Never happens",
+        "Occurs in up to 18% of cases",
+        "Happens in every case",
+        "Only with leg fractures"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The radial nerve controls all the wrist and finger extensors. Damage it, and the hand hangs limply in flexion - classic wrist drop."
+      "explain": "Radial nerve injury occurs in approximately 11-18% of humeral shaft fractures. It's the MOST COMMONLY INJURED NERVE in this type of fracture due to its position in the spiral groove.",
+      "wrongExplains": {
+        "0": "It's actually quite common due to the nerve's vulnerable position.",
+        "2": "Most fractures don't injure the nerve. It's about 11-18%.",
+        "3": "This involves arm fractures. Leg fractures affect different nerves."
+      }
     },
     {
-      "q": "A midshaft humeral fracture with wrist drop indicates radial nerve injury in the spiral groove.",
+      "q": "What is the prognosis for radial nerve injury with humeral fracture?",
       "options": [
-        "True",
-        "False"
+        "Always permanent",
+        "Many cases recover over weeks to months; some have permanent deficits",
+        "Always immediate recovery",
+        "Only treatable with amputation"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The combination of midshaft fracture + wrist drop is classic for radial nerve injury. The nerve gets crushed or lacerated by bone fragments at the spiral groove."
+      "explain": "Many radial nerve injuries from humeral fractures are NEUROPRAXIA (temporary conduction block) and RECOVER in weeks to months. Severe injuries with nerve laceration may cause permanent wrist drop.",
+      "wrongExplains": {
+        "0": "Many cases do recover. Permanent damage occurs only in severe injuries.",
+        "2": "Recovery takes time — weeks to months, not immediate.",
+        "3": "Conservative treatment or nerve repair works. Amputation isn't needed."
+      }
     },
     {
-      "q": "The radial nerve's location in the spiral groove makes it specifically vulnerable to midshaft humeral fractures.",
+      "q": "Which nerve runs in the spiral groove and is most likely injured in midshaft humeral fracture?",
       "options": [
-        "True",
-        "False"
+        "Median nerve",
+        "Ulnar nerve",
+        "Radial nerve",
+        "Musculocutaneous nerve"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "intermediate",
-      "explain": "Yes! The spiral groove is at the midshaft level. Break the bone here, and the radial nerve is right in the danger zone. Many cases recover over months, but some have permanent wrist drop."
+      "explain": "The RADIAL NERVE! It wraps around the humerus in the SPIRAL GROOVE at the midshaft level. Fracture here crushes or lacerates the nerve, causing classic wrist drop.",
+      "wrongExplains": {
+        "0": "The median nerve runs anteriorly in the arm. It's not in the spiral groove.",
+        "1": "The ulnar nerve runs medially. The spiral groove is on the posterior humerus.",
+        "3": "The musculocutaneous nerve is in the anterior compartment, not the spiral groove."
+      }
     }
   ]
 }

@@ -3,96 +3,157 @@
   "parentQuestion": "The vestibulocochlear nerve (CN VIII) is responsible for ___.",
   "scaffolds": [
     {
-      "q": "Your ears are where you detect sounds.",
+      "q": "The vestibulocochlear nerve name has two parts. 'Vestibulo-' refers to which function?",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! Sound waves enter your ear and vibrate tiny structures inside. These vibrations are converted to electrical signals that travel to your brain so you can hear."
-    },
-    {
-      "q": "Your inner ear helps you keep your balance.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! Deep inside your ear are special sensors that detect which way is up and whether youre moving. This is why ear infections can make you dizzy!"
-    },
-    {
-      "q": "CN VIII is the abbreviation for Cranial Nerve number ___.",
-      "options": [
-        "Seven",
-        "Eight",
-        "Nine",
-        "Eighteen"
+        "Hearing",
+        "Balance",
+        "Taste",
+        "Smell"
       ],
       "answer": 1,
       "difficulty": "foundation",
-      "explain": "CN VIII = Cranial Nerve Eight! In Roman numerals, VIII = 8. The vestibulocochlear nerve is the eighth cranial nerve."
+      "explain": "Vestibulo- refers to BALANCE. The vestibular system detects head position and movement. 'Cochlear' refers to hearing (cochlea = spiral hearing organ). The nerve name tells you both functions: vestibulo (balance) + cochlear (hearing).",
+      "wrongExplains": {
+        "0": "Hearing is the '-cochlear' part of the name. The cochlea is the snail-shaped organ that converts sound waves to nerve signals. Vestibulo- specifically means balance.",
+        "2": "Taste uses different nerves: CN VII (front tongue), CN IX (back tongue), and CN X (throat). CN VIII has nothing to do with taste.",
+        "3": "Smell uses CN I (olfactory nerve). CN VIII is exclusively for hearing and balance — two senses located in the inner ear."
+      }
     },
     {
-      "q": "The name vestibulocochlear contains two parts: vestibulo (balance) and cochlear (hearing).",
+      "q": "Where are both hearing AND balance detected?",
       "options": [
-        "True",
-        "False"
+        "The nose",
+        "The outer ear",
+        "The inner ear",
+        "The throat"
+      ],
+      "answer": 2,
+      "difficulty": "foundation",
+      "explain": "Both senses are detected in the INNER ear! The cochlea (hearing) and vestibular apparatus (balance) are both deep inside. This is why CN VIII carries both signals — they originate from the same location.",
+      "wrongExplains": {
+        "0": "The nose handles smell (CN I). Hearing and balance are ear functions, not nose functions.",
+        "1": "The outer ear (pinna and ear canal) just funnels sound waves inward. The actual sensory organs for hearing AND balance are in the INNER ear.",
+        "3": "The throat involves CN IX and X for swallowing and sensation. Hearing and balance are detected by specialized organs deep in the ear."
+      }
+    },
+    {
+      "q": "If CN VIII is damaged, what TWO things could be affected?",
+      "options": [
+        "Hearing and balance",
+        "Hearing and taste",
+        "Balance and smell",
+        "Taste and touch"
       ],
       "answer": 0,
       "difficulty": "foundation",
-      "explain": "Exactly! Vestibulo = balance system, cochlear = hearing system (cochlea is the snail-shaped hearing organ). The name tells you both functions of this nerve!"
+      "explain": "CN VIII carries HEARING (cochlear portion) and BALANCE (vestibular portion). Damage can cause deafness AND vertigo/dizziness. This is why inner ear infections cause both hearing problems and dizziness.",
+      "wrongExplains": {
+        "1": "Taste uses different nerves (CN VII, IX, X). CN VIII doesn't carry taste information at all.",
+        "2": "Smell uses CN I (olfactory). CN VIII handles only ear functions: hearing and balance. Different sensory systems entirely.",
+        "3": "Taste (CN VII, IX, X) and touch (CN V for face) use other nerves. CN VIII is specialized for hearing and balance only."
+      }
     },
     {
-      "q": "Some nerves carry information about more than one sense.",
+      "q": "The cochlea is shaped like a snail shell. What does it detect?",
       "options": [
-        "True",
-        "False"
+        "Head rotation",
+        "Sound vibrations",
+        "Light",
+        "Temperature"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! CN VIII carries both hearing AND balance information. Both senses come from the inner ear, so they share one nerve pathway to the brain."
+      "explain": "The cochlea converts SOUND vibrations into nerve signals. Hair cells inside the spiral tube bend when sound waves pass through, generating electrical signals sent to the brain via CN VIII.",
+      "wrongExplains": {
+        "0": "Head rotation is detected by the SEMICIRCULAR CANALS (part of the vestibular system), not the cochlea. Different structure, different function.",
+        "2": "Light is detected by the retina in the eye (CN II = optic nerve). The cochlea is an ear structure, not an eye structure.",
+        "3": "Temperature is detected by sensory nerves in the skin (CN V for face). The cochlea specifically detects sound pressure waves."
+      }
     },
     {
-      "q": "When you spin around and then stop, you feel dizzy because your balance system is confused.",
+      "q": "The semicircular canals detect head rotation. They are part of the ___ system.",
       "options": [
-        "True",
-        "False"
+        "Cochlear (hearing)",
+        "Vestibular (balance)",
+        "Olfactory (smell)",
+        "Visual (sight)"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Right! Fluid in your inner ear keeps sloshing around even after you stop spinning. Your balance sensors send confusing signals, making you feel dizzy."
+      "explain": "The semicircular canals are part of the VESTIBULAR (balance) system. Three canals oriented in different planes detect rotation in any direction. Fluid movement inside tells your brain which way your head is turning.",
+      "wrongExplains": {
+        "0": "The cochlear system handles hearing, not rotation detection. The cochlea is the spiral structure that converts sound waves to nerve signals.",
+        "2": "The olfactory system is in the nose for smell. The semicircular canals are in the inner ear for balance — completely different locations.",
+        "3": "The visual system uses eyes. While vision helps with balance, the semicircular canals directly sense rotation without any visual input."
+      }
     },
     {
-      "q": "Hearing and balance are both detected by structures in your ear.",
+      "q": "Why do inner ear infections often cause BOTH hearing loss AND dizziness?",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Correct! The cochlea (hearing) and vestibular system (balance) are both in the inner ear. Thats why they share one nerve - CN VIII."
-    },
-    {
-      "q": "The inner ear contains structures for both hearing and balance.",
-      "options": [
-        "True",
-        "False"
+        "The hearing and balance organs are next to each other",
+        "The infection spreads to the eyes",
+        "The infection affects taste",
+        "There is no connection between them"
       ],
       "answer": 0,
       "difficulty": "intermediate",
-      "explain": "The inner ear has the cochlea for hearing and the vestibular apparatus (semicircular canals) for balance. Two different functions in one compact location."
+      "explain": "The cochlea (hearing) and vestibular apparatus (balance) are RIGHT NEXT TO EACH OTHER in the inner ear. An infection or damage in this area often affects both structures simultaneously.",
+      "wrongExplains": {
+        "1": "Inner ear infections don't spread to the eyes. The eyes use CN II (optic) and are anatomically separate from the ear structures.",
+        "2": "Taste uses CN VII and IX, which are separate from CN VIII. Inner ear infections don't affect taste perception.",
+        "3": "There IS a strong connection — they share the same nerve (CN VIII) and are located in the same anatomical region (inner ear). That's why they're often affected together."
+      }
     },
     {
-      "q": "Damage to the inner ear can cause both hearing loss and dizziness.",
+      "q": "A patient has vertigo (spinning sensation) and can't hear in one ear. Which nerve is most likely damaged?",
       "options": [
-        "True",
-        "False"
+        "CN V (trigeminal)",
+        "CN VII (facial)",
+        "CN VIII (vestibulocochlear)",
+        "CN X (vagus)"
+      ],
+      "answer": 2,
+      "difficulty": "intermediate",
+      "explain": "Vertigo (balance problem) + hearing loss = CN VIII damage. This is the only nerve that carries BOTH hearing AND balance information. Both symptoms together scream CN VIII.",
+      "wrongExplains": {
+        "0": "CN V handles facial SENSATION and CHEWING. It doesn't carry hearing or balance information at all.",
+        "1": "CN VII handles facial MOVEMENT and taste from the front tongue. While it's near the ear anatomically, it doesn't carry hearing or balance signals.",
+        "3": "CN X (vagus) handles heart, lungs, gut, and some throat function. It has nothing to do with hearing or balance."
+      }
+    },
+    {
+      "q": "CN VIII is classified as purely ___.",
+      "options": [
+        "Motor (movement)",
+        "Sensory (sensation)",
+        "Mixed (both motor and sensory)",
+        "Autonomic (automatic functions)"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "CN VIII is purely SENSORY. It carries information TO the brain (hearing and balance signals) but doesn't carry motor commands FROM the brain. It's one of the three purely sensory cranial nerves (CN I, II, VIII).",
+      "wrongExplains": {
+        "0": "Motor nerves control muscles. CN VIII doesn't control any muscles — it only carries sensory information about sound and head position.",
+        "2": "Mixed nerves carry both sensory and motor fibers (like CN V or CN VII). CN VIII carries only sensory information — no motor component.",
+        "3": "Autonomic functions (heart rate, digestion) are mainly carried by CN X (vagus). CN VIII is about conscious perception of sound and balance."
+      }
+    },
+    {
+      "q": "Which THREE cranial nerves are purely sensory?",
+      "options": [
+        "CN I (olfactory), CN II (optic), CN VIII (vestibulocochlear)",
+        "CN III, CN IV, CN VI",
+        "CN V, CN VII, CN IX",
+        "CN X, CN XI, CN XII"
       ],
       "answer": 0,
       "difficulty": "intermediate",
-      "explain": "Because hearing and balance structures are close together in the inner ear, damage can affect both systems. Lose CN VIII, and you lose hearing AND your sense of which way is up."
+      "explain": "CN I (smell), CN II (vision), and CN VIII (hearing/balance) are the three purely SENSORY cranial nerves. They carry information TO the brain but don't control any muscles. Memory trick: 1, 2, 8 are sensory gates.",
+      "wrongExplains": {
+        "1": "CN III, IV, and VI are the EYE MOVEMENT nerves — they're purely MOTOR (control eye muscles). They don't carry sensory information.",
+        "2": "CN V, VII, and IX are MIXED nerves — they carry both sensory AND motor fibers. They don't fit the 'purely sensory' category.",
+        "3": "CN X is mixed (sensory + motor + autonomic). CN XI and XII are purely motor (control muscles). None of these are purely sensory."
+      }
     }
   ]
 }

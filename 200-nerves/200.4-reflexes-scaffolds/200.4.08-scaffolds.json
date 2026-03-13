@@ -3,94 +3,157 @@
   "parentQuestion": "A 28-year-old woman is involved in a motorcycle accident and suffers a spinal cord injury. On examination, her knee jerk reflex (patellar reflex) is ABSENT, but her ankle jerk reflex is NORMAL. Which spinal segments are most likely damaged?",
   "scaffolds": [
     {
-      "q": "The knee jerk reflex is also called the patellar reflex.",
+      "q": "What is the knee jerk reflex?",
       "options": [
-        "True",
-        "False"
+        "A test for hearing",
+        "A reflex where tapping the patellar tendon causes the leg to kick forward",
+        "A reflex that tests arm movement",
+        "A voluntary movement you control consciously"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Same thing - tap the patellar tendon below the kneecap, and the quadriceps contracts, making the leg kick forward."
+      "explain": "The KNEE JERK (PATELLAR REFLEX) is elicited by tapping the patellar tendon below the kneecap. This stretches the quadriceps muscle, causing a reflex kick forward.",
+      "wrongExplains": {
+        "0": "Hearing tests use cranial nerve VIII. The knee jerk tests spinal reflexes.",
+        "2": "The knee jerk tests the leg. Arm reflexes include the biceps and triceps reflexes.",
+        "3": "Reflexes are involuntary. The knee jerk happens automatically without conscious control."
+      }
     },
     {
-      "q": "The knee jerk tests the L2, L3, and L4 spinal segments.",
+      "q": "Which spinal segments does the knee jerk reflex test?",
       "options": [
-        "True",
-        "False"
+        "C5-C7",
+        "L2-L4",
+        "S1-S2",
+        "T8-T12"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The patellar reflex arc goes through L2-L4 via the femoral nerve. If this reflex is absent, those segments may be damaged."
+      "explain": "The KNEE JERK tests L2-L4 spinal segments via the FEMORAL NERVE. If this reflex is absent, those lumbar segments may be damaged.",
+      "wrongExplains": {
+        "0": "C5-C7 controls the arm (biceps, triceps reflexes). The knee jerk is lumbar.",
+        "2": "S1-S2 is tested by the ankle jerk. The knee jerk tests L2-L4.",
+        "3": "T8-T12 controls the abdominal muscles. The knee jerk tests L2-L4."
+      }
     },
     {
-      "q": "The ankle jerk reflex is also called the Achilles reflex.",
+      "q": "What is the ankle jerk reflex?",
       "options": [
-        "True",
-        "False"
+        "Tapping the heel causes arm movement",
+        "Tapping the Achilles tendon causes the foot to push downward",
+        "Stroking the sole causes toe movement",
+        "A test for breathing"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Same thing - tap the Achilles tendon at the heel, and the calf muscles contract, making the foot push down."
+      "explain": "The ANKLE JERK (ACHILLES REFLEX) is elicited by tapping the Achilles tendon at the heel. The calf muscles contract, causing PLANTAR FLEXION (foot pushes down).",
+      "wrongExplains": {
+        "0": "The ankle jerk causes leg/foot movement, not arm movement.",
+        "2": "Stroking the sole tests the plantar reflex (Babinski). The ankle jerk uses tendon tapping.",
+        "3": "Breathing is tested by the phrenic nerve (C3-C5). The ankle jerk tests S1-S2."
+      }
     },
     {
-      "q": "The ankle jerk tests the S1 and S2 spinal segments.",
+      "q": "Which spinal segments does the ankle jerk reflex test?",
       "options": [
-        "True",
-        "False"
+        "C3-C5",
+        "L2-L4",
+        "S1-S2",
+        "T1-T4"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "foundation",
-      "explain": "Correct! The ankle jerk arc goes through S1-S2 via the tibial nerve. If this reflex works, those segments are intact."
+      "explain": "The ANKLE JERK tests S1-S2 spinal segments via the TIBIAL NERVE. If this reflex works, those sacral segments are intact.",
+      "wrongExplains": {
+        "0": "C3-C5 is the phrenic nerve for breathing. The ankle jerk is sacral.",
+        "1": "L2-L4 is tested by the knee jerk. The ankle jerk tests S1-S2.",
+        "3": "T1-T4 controls upper chest sensation. The ankle jerk tests sacral levels."
+      }
     },
     {
-      "q": "An absent reflex means the reflex arc at that spinal level is damaged.",
+      "q": "What does an ABSENT reflex indicate?",
       "options": [
-        "True",
-        "False"
+        "The reflex arc is hyperactive",
+        "The reflex arc at that spinal level is damaged or interrupted",
+        "Normal nervous system function",
+        "Upper motor neuron damage"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! No reflex = broken circuit. The sensory neurons, motor neurons, or spinal cord segment itself is not working."
+      "explain": "An ABSENT REFLEX means the REFLEX ARC IS BROKEN. The sensory neurons, motor neurons, or spinal cord segment itself is damaged and can't complete the circuit.",
+      "wrongExplains": {
+        "0": "Hyperactive reflexes are present and exaggerated. Absent means no response at all.",
+        "2": "Absent reflexes are abnormal. Normal function produces a normal reflex response.",
+        "3": "Upper motor neuron damage causes hyperactive reflexes, not absent ones. Absent reflexes indicate lower motor neuron or arc damage."
+      }
     },
     {
-      "q": "A normal reflex means that spinal segment is intact.",
+      "q": "What does a NORMAL reflex indicate?",
       "options": [
-        "True",
-        "False"
+        "Spinal cord injury at that level",
+        "The entire reflex arc at that spinal level is intact",
+        "Upper motor neuron damage",
+        "Peripheral nerve damage"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! If the reflex works, the whole arc (sensory neuron → spinal cord → motor neuron → muscle) is functioning at that level."
+      "explain": "A NORMAL REFLEX means the whole arc is functioning: SENSORY NEURON → SPINAL CORD → MOTOR NEURON → MUSCLE. If any part were damaged, the reflex would be abnormal.",
+      "wrongExplains": {
+        "0": "Spinal cord injury at that level would make the reflex absent or abnormal, not normal.",
+        "2": "Upper motor neuron damage causes hyperactive reflexes, not normal ones.",
+        "3": "Peripheral nerve damage would diminish or abolish the reflex, not keep it normal."
+      }
     },
     {
-      "q": "If the knee jerk is absent but the ankle jerk is normal, the lesion is at L2-L4 (not S1-S2).",
+      "q": "Why is reflex testing valuable for localizing spinal cord injuries?",
       "options": [
-        "True",
-        "False"
+        "It can't localize injuries",
+        "Each reflex tests specific spinal segments, mapping the damage precisely",
+        "Reflexes are the same at all spinal levels",
+        "Only MRI can localize injuries"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Absent knee jerk = L2-L4 damaged. Normal ankle jerk = S1-S2 intact. The lesion must be at the level where the reflex is lost."
+      "explain": "REFLEXES MAP SPINAL LEVELS precisely. By checking which reflexes are present, absent, or hyperactive, you can determine exactly which spinal segments are damaged.",
+      "wrongExplains": {
+        "0": "Reflex testing is one of the most valuable clinical tools for localizing spinal lesions.",
+        "2": "Different reflexes test different levels: knee jerk = L2-L4, ankle jerk = S1-S2, etc.",
+        "3": "While MRI is useful, clinical reflex testing provides immediate bedside localization."
+      }
     },
     {
-      "q": "Reflex testing can precisely localize spinal cord injuries.",
+      "q": "In this patient, what does absent knee jerk + normal ankle jerk indicate?",
       "options": [
-        "True",
-        "False"
+        "S1-S2 damage",
+        "L2-L4 damage with S1-S2 intact",
+        "Complete spinal cord transection",
+        "Normal findings"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Each reflex tests specific spinal segments. By checking which reflexes are present or absent, you can map exactly where the damage is."
+      "explain": "ABSENT KNEE JERK = L2-L4 arc is damaged. NORMAL ANKLE JERK = S1-S2 arc is intact. The lesion is specifically at L2-L4, sparing the sacral segments.",
+      "wrongExplains": {
+        "0": "If S1-S2 were damaged, the ankle jerk would be absent. Here the ankle jerk is normal.",
+        "2": "Complete transection would affect both reflexes. Here only L2-L4 is affected.",
+        "3": "Absent reflexes are not normal findings. This indicates pathology at L2-L4."
+      }
     },
     {
-      "q": "In this case, L2-L4 segments are most likely damaged because the knee jerk (L2-L4) is absent while the ankle jerk (S1-S2) is normal.",
+      "q": "Which spinal segments are most likely damaged in this 28-year-old patient?",
       "options": [
-        "True",
-        "False"
+        "C5-C7 (cervical)",
+        "T8-T12 (thoracic)",
+        "L2-L4 (lumbar)",
+        "S1-S2 (sacral)"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "intermediate",
-      "explain": "Yes! This is the answer. The absent reflex tells you WHERE the damage is. L2-L4 arc is broken. S1-S2 arc is intact. The lesion is at L2-L4."
+      "explain": "L2-L4! The ABSENT KNEE JERK indicates the L2-L4 reflex arc is broken. The NORMAL ANKLE JERK confirms S1-S2 is intact. The motorcycle accident damaged the lumbar segments.",
+      "wrongExplains": {
+        "0": "Cervical damage (C5-C7) would affect arm reflexes. The knee jerk tests lumbar levels.",
+        "1": "Thoracic damage (T8-T12) would affect abdominal reflexes. The knee jerk tests L2-L4.",
+        "3": "S1-S2 damage would cause absent ankle jerk. Here the ankle jerk is normal, so S1-S2 is intact."
+      }
     }
   ]
 }

@@ -3,96 +3,157 @@
   "parentQuestion": "When a patient sticks out their tongue and it deviates to the right, which nerve is damaged?",
   "scaffolds": [
     {
-      "q": "Your tongue is a muscle that can move in many directions.",
+      "q": "Which cranial nerve controls tongue MOVEMENT?",
       "options": [
-        "True",
-        "False"
+        "CN V (trigeminal)",
+        "CN IX (glossopharyngeal)",
+        "CN X (vagus)",
+        "CN XII (hypoglossal)"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": "foundation",
-      "explain": "Yes! Your tongue is actually made of several muscles working together. They let you move food around, help you speak clearly, and stick your tongue out."
+      "explain": "CN XII (hypoglossal) controls all tongue MOVEMENT. It's a purely motor nerve — it makes the tongue move but doesn't provide sensation. 'Hypo' = under, 'glossal' = tongue.",
+      "wrongExplains": {
+        "0": "CN V provides SENSATION to the tongue (touch, pain, temperature) but doesn't control movement. Different job — feeling vs. moving.",
+        "1": "CN IX provides TASTE sensation from the back 1/3 of the tongue. It doesn't control tongue muscles. Taste is sensory, movement is motor.",
+        "2": "CN X affects swallowing and the throat but doesn't directly control tongue muscles. Tongue movement is specifically CN XII territory."
+      }
     },
     {
-      "q": "You can stick your tongue straight out of your mouth.",
+      "q": "The tongue has muscles on both sides. What controls the LEFT side's muscles?",
       "options": [
-        "True",
-        "False"
+        "Right CN XII",
+        "Left CN XII",
+        "Both CN XII nerves equally",
+        "CN VII (facial)"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Exactly! When both sides of your tongue push equally, it goes straight out. If one side is weak, the tongue will curve toward that weak side."
+      "explain": "LEFT CN XII controls LEFT tongue muscles. Each hypoglossal nerve controls its own side. This is important for understanding tongue deviation — damage to one side affects only that side's muscles.",
+      "wrongExplains": {
+        "0": "Right CN XII controls the RIGHT side of the tongue. Each nerve controls its ipsilateral (same-side) muscles.",
+        "2": "Each CN XII controls only its own side. They don't share control equally. That's why one-sided damage causes one-sided weakness.",
+        "3": "CN VII controls facial EXPRESSION muscles (around the mouth, eyes, forehead). It doesn't control the tongue."
+      }
     },
     {
-      "q": "CN XII is the abbreviation for Cranial Nerve number ___.",
+      "q": "When you stick out your tongue, both sides push forward. What happens if the RIGHT side is weak?",
       "options": [
-        "Ten",
-        "Eleven",
-        "Twelve",
-        "Twenty"
+        "The tongue goes straight",
+        "The tongue deviates LEFT",
+        "The tongue deviates RIGHT",
+        "The tongue can't move at all"
       ],
       "answer": 2,
       "difficulty": "foundation",
-      "explain": "CN XII = Cranial Nerve Twelve! In Roman numerals, XII = 12. The hypoglossal nerve is the twelfth and last cranial nerve."
+      "explain": "The tongue deviates toward the WEAK side (RIGHT). Think of it like rowing: if one oar is weak, the boat turns toward that side. The STRONG left pushes unopposed, curving the tongue right.",
+      "wrongExplains": {
+        "0": "With unequal strength, the tongue can't go straight. The stronger side overpowers the weaker side, causing deviation.",
+        "1": "The tongue deviates toward the WEAK side, not away from it. The strong side pushes harder, so the tongue points toward the weak side.",
+        "3": "One weak side doesn't stop all movement. The healthy side still works, but the imbalance causes the tongue to deviate rather than protrude straight."
+      }
     },
     {
-      "q": "The word hypoglossal means under the tongue.",
+      "q": "The tongue deviates RIGHT when protruded. Which CN XII is damaged?",
       "options": [
-        "True",
-        "False"
+        "Left CN XII",
+        "Right CN XII",
+        "Both CN XII nerves",
+        "Neither — CN XII isn't involved"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Hypo = under, glossal = tongue. CN XII runs under the tongue to control the tongue muscles."
+      "explain": "RIGHT CN XII is damaged. The tongue deviates TOWARD the damaged side. Right-side weakness means the left side pushes unopposed, and the tongue points right (toward the weak side).",
+      "wrongExplains": {
+        "0": "Left CN XII damage would cause the tongue to deviate LEFT (toward the damaged left side). This patient deviates right, so the right nerve is damaged.",
+        "2": "If both were damaged, the tongue might not move at all, or would be weak everywhere. One-sided deviation = one-sided damage.",
+        "3": "This IS a CN XII problem. Tongue deviation on protrusion is the classic sign of hypoglossal nerve damage. The deviation tells you which side."
+      }
     },
     {
-      "q": "If one side of a muscle is weak, movement will curve toward the weak side.",
+      "q": "Why does the tongue deviate TOWARD the damaged side, not away from it?",
       "options": [
-        "True",
-        "False"
+        "The damaged side pulls harder",
+        "The healthy side pushes harder, deflecting the tongue toward the weak side",
+        "Gravity pulls it that way",
+        "The tongue always deviates left"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Correct! Think of rowing a boat - if one oar is weak, you turn toward that side. The strong side pushes harder, so movement curves toward the weak side."
-    },
-    {
-      "q": "The tongue has muscles on both its left and right sides.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! Each side has its own muscles and its own nerve. Left CN XII controls left tongue muscles, right CN XII controls right tongue muscles."
-    },
-    {
-      "q": "When the tongue deviates to the right, the right side is the weak side.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Right! The left side pushes harder (its healthy), so the tongue curves toward the weaker right side. The deviation points to the problem."
-    },
-    {
-      "q": "The hypoglossal nerve controls tongue movement.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "CN XII controls all intrinsic and most extrinsic tongue muscles. Its purely motor - no sensation, just movement."
+      "explain": "The HEALTHY side's muscles push harder because the damaged side can't push back. This imbalance deflects the tongue toward the weak side. It's like a tug-of-war where one team gives up.",
+      "wrongExplains": {
+        "0": "The damaged side can't pull or push effectively — that's the problem! A damaged nerve means weak or absent muscle contraction on that side.",
+        "2": "Gravity plays a minimal role in tongue protrusion. The deviation is caused by muscular imbalance, not gravitational pull.",
+        "3": "The tongue deviates toward whichever side is damaged. It could be left or right depending on which CN XII is affected."
+      }
     },
     {
-      "q": "Tongue deviation toward one side indicates nerve damage on that same side.",
+      "q": "A patient can't move their tongue to the left when asked. Which CN XII might be damaged?",
       "options": [
-        "True",
-        "False"
+        "Right CN XII",
+        "Left CN XII",
+        "Both are damaged",
+        "CN XII doesn't move the tongue sideways"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "When protruded, the tongue deviates toward the weak (damaged) side. The healthy side pushes, the damaged side cant push back."
+      "explain": "To push the tongue LEFT, you need the RIGHT genioglossus muscle (which pushes the tongue to the opposite side). Wait — but the LEFT CN XII controls the LEFT muscles that push TOWARD the right. Actually, inability to move left suggests LEFT CN XII damage affecting the left-sided muscles.",
+      "wrongExplains": {
+        "0": "Right CN XII damage would weaken the right tongue muscles, affecting movement to the right side. Problems moving left suggest left-side involvement.",
+        "2": "The symptoms suggest one-sided weakness. If both were damaged, there would be weakness in all directions.",
+        "3": "CN XII absolutely controls tongue movement in all directions. The genioglossus muscles push the tongue side to side as well as forward."
+      }
+    },
+    {
+      "q": "CN XII is classified as purely ___.",
+      "options": [
+        "Sensory",
+        "Motor",
+        "Mixed (sensory + motor)",
+        "Autonomic"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN XII is purely MOTOR. It controls tongue movement but carries NO sensation. Tongue sensation (touch, pain, taste) uses other nerves (CN V for touch, CN VII/IX for taste). CN XII just makes the tongue move.",
+      "wrongExplains": {
+        "0": "Sensory nerves carry information TO the brain. CN XII carries motor commands FROM the brain to muscles. Different direction, different function.",
+        "2": "Mixed nerves have both sensory and motor fibers. CN XII is simple — it only has motor fibers. The purely motor cranial nerves are III, IV, VI, XI, XII.",
+        "3": "Autonomic functions (heart rate, digestion) use CN X (vagus). CN XII controls voluntary skeletal muscle in the tongue, not autonomic functions."
+      }
+    },
+    {
+      "q": "A doctor asks a patient to 'stick out your tongue.' This tests which nerve?",
+      "options": [
+        "CN VII (facial)",
+        "CN IX (glossopharyngeal)",
+        "CN X (vagus)",
+        "CN XII (hypoglossal)"
+      ],
+      "answer": 3,
+      "difficulty": "foundation",
+      "explain": "Sticking out the tongue tests CN XII (hypoglossal). The doctor watches for deviation — if it curves to one side, that side's CN XII may be damaged. This is a quick bedside neurological test.",
+      "wrongExplains": {
+        "0": "CN VII is tested by facial movements like smiling, closing eyes, raising eyebrows. It doesn't control the tongue.",
+        "1": "CN IX is tested with the gag reflex. While it provides taste from the back tongue, it doesn't control tongue movement.",
+        "2": "CN X is tested by watching the palate rise when saying 'ah' and checking voice quality. It doesn't control tongue protrusion."
+      }
+    },
+    {
+      "q": "If BOTH CN XII nerves are damaged, what happens to the tongue?",
+      "options": [
+        "It deviates to the right only",
+        "It deviates to the left only",
+        "It can't protrude at all or protrudes weakly",
+        "It moves normally"
+      ],
+      "answer": 2,
+      "difficulty": "intermediate",
+      "explain": "With BOTH CN XII nerves damaged, the tongue CAN'T PROTRUDE properly. Neither side can push, so the tongue stays in the mouth or barely moves forward. It might also waste away (atrophy) over time.",
+      "wrongExplains": {
+        "0": "Right-only deviation suggests RIGHT CN XII damage with left intact. Bilateral damage doesn't cause one-sided deviation.",
+        "1": "Left-only deviation suggests LEFT CN XII damage with right intact. Bilateral damage affects both sides.",
+        "3": "Without functioning CN XII nerves, the tongue absolutely cannot move normally. Both nerves are essential for tongue control."
+      }
     }
   ]
 }

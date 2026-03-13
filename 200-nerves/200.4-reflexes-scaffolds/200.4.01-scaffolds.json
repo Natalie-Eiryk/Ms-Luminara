@@ -3,94 +3,157 @@
   "parentQuestion": "Reciprocal inhibition means that while one sensory nerve is stimulated, another sensory neuron for synergistic muscles in the same area is inhibited and cannot respond.",
   "scaffolds": [
     {
-      "q": "Muscles that work together to create the same movement are called synergists.",
+      "q": "What is reciprocal inhibition?",
       "options": [
-        "True",
-        "False"
+        "When both muscles contract at once",
+        "When the antagonist muscle is automatically relaxed while the agonist contracts",
+        "When all muscles in the body relax",
+        "When sensory neurons are blocked"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Synergists are 'teammates' - they help each other. For example, several muscles work together to flex your elbow."
+      "explain": "RECIPROCAL INHIBITION is when the ANTAGONIST muscle is automatically RELAXED while the AGONIST contracts. This prevents opposing muscles from fighting each other during movement.",
+      "wrongExplains": {
+        "0": "If both contracted equally, the joint would lock. Reciprocal inhibition prevents this.",
+        "2": "Only the antagonist relaxes, not all muscles.",
+        "3": "Sensory neurons bring information IN. Reciprocal inhibition affects motor neurons."
+      }
     },
     {
-      "q": "Muscles that have opposite actions are called antagonists.",
+      "q": "What are synergist muscles?",
       "options": [
-        "True",
-        "False"
+        "Muscles that oppose each other",
+        "Muscles that work together to create the same movement",
+        "Muscles that don't exist",
+        "Muscles in the heart only"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Antagonists are 'opponents' - they oppose each other's action. The biceps (flexor) and triceps (extensor) are antagonists at the elbow."
+      "explain": "SYNERGISTS are 'teammates' — muscles that WORK TOGETHER to create the same movement. For example, several muscles work together to flex your elbow.",
+      "wrongExplains": {
+        "0": "Muscles that oppose each other are antagonists. Synergists cooperate.",
+        "2": "Synergist muscles definitely exist throughout the body.",
+        "3": "Skeletal muscles throughout the body can be synergists. It's not limited to the heart."
+      }
     },
     {
-      "q": "For smooth movement, when one muscle contracts, its antagonist must relax.",
+      "q": "What are antagonist muscles?",
       "options": [
-        "True",
-        "False"
+        "Muscles that work together",
+        "Muscles that have opposite actions (opponents)",
+        "Muscles that help digestion",
+        "Muscles that don't move"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! If both muscles contracted at once with equal force, the joint wouldn't move - it would be locked. Coordination is essential."
+      "explain": "ANTAGONISTS are 'opponents' — muscles that have OPPOSITE ACTIONS. The biceps (flexor) and triceps (extensor) are antagonists at the elbow.",
+      "wrongExplains": {
+        "0": "Muscles that work together are synergists. Antagonists oppose each other.",
+        "2": "Digestive muscles are smooth muscle. Antagonists refer to opposing skeletal muscles.",
+        "3": "Antagonists do move — they just produce opposite movements."
+      }
     },
     {
-      "q": "Motor neurons control muscle contraction.",
+      "q": "Why must antagonist muscles relax during movement?",
       "options": [
-        "True",
-        "False"
+        "They don't need to relax",
+        "If both contracted with equal force, the joint would lock",
+        "To save calories",
+        "Because they're tired"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Motor neurons carry signals from the spinal cord to muscles, telling them to contract. Sensory neurons carry information IN, motor neurons send commands OUT."
+      "explain": "If agonist and antagonist contracted EQUALLY, the joint would LOCK and not move. The antagonist must 'get out of the way' for smooth, efficient movement.",
+      "wrongExplains": {
+        "0": "They definitely need to relax. Otherwise movement would be jerky or impossible.",
+        "2": "While efficiency matters, the primary reason is to prevent joint locking.",
+        "3": "Relaxation is active inhibition, not fatigue."
+      }
     },
     {
-      "q": "Sensory neurons carry information TO the spinal cord, not FROM it.",
+      "q": "What type of neurons does reciprocal inhibition actually affect?",
       "options": [
-        "True",
-        "False"
+        "Only sensory neurons",
+        "Motor neurons (that control muscle contraction)",
+        "Only interneurons",
+        "Only brain neurons"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Sensory neurons are 'afferent' - they bring information IN from the body to the CNS. Motor neurons are 'efferent' - they carry commands OUT."
+      "explain": "Reciprocal inhibition affects MOTOR NEURONS — the neurons that control muscle contraction. It inhibits the motor neurons to the antagonist muscle so it relaxes.",
+      "wrongExplains": {
+        "0": "Sensory neurons carry information IN. Motor neurons are the target of inhibition.",
+        "2": "Interneurons mediate the inhibition, but motor neurons are the final target.",
+        "3": "This reflex happens at the spinal cord level, not the brain."
+      }
     },
     {
-      "q": "Reciprocal inhibition coordinates antagonist muscles, not synergist muscles.",
+      "q": "Does reciprocal inhibition coordinate synergists or antagonists?",
       "options": [
-        "True",
-        "False"
+        "Synergists (teammates)",
+        "Antagonists (opponents)",
+        "Neither",
+        "Only heart muscles"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Reciprocal inhibition makes the antagonist RELAX when the agonist contracts. It coordinates opponents, not teammates."
+      "explain": "Reciprocal inhibition coordinates ANTAGONISTS (opponents). It makes the antagonist RELAX when the agonist contracts. It's about coordinating OPPONENTS, not teammates.",
+      "wrongExplains": {
+        "0": "Synergists work together naturally. Reciprocal inhibition manages opponents.",
+        "2": "It definitely coordinates muscle activity — specifically antagonists.",
+        "3": "This involves skeletal muscles and spinal reflexes, not heart muscles."
+      }
     },
     {
-      "q": "Reciprocal inhibition involves MOTOR neurons (controlling movement), not sensory neurons.",
+      "q": "How does the inhibitory interneuron work in reciprocal inhibition?",
       "options": [
-        "True",
-        "False"
+        "It excites both muscles equally",
+        "It prevents the antagonist motor neuron from firing",
+        "It blocks all sensation",
+        "It only works when sleeping"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Reciprocal inhibition controls muscle contraction/relaxation. It works by inhibiting the motor neurons to the antagonist muscle so it relaxes."
+      "explain": "The INHIBITORY INTERNEURON releases chemicals (like glycine) that PREVENT the antagonist motor neuron from firing. This automatically relaxes the antagonist muscle.",
+      "wrongExplains": {
+        "0": "The interneuron inhibits, not excites. It targets the antagonist specifically.",
+        "2": "It blocks motor output to one muscle, not sensation.",
+        "3": "It works during all movement, not just sleep."
+      }
     },
     {
-      "q": "When you flex your elbow, an inhibitory interneuron automatically inhibits the triceps motor neurons.",
+      "q": "What is wrong with the original statement about reciprocal inhibition?",
       "options": [
-        "True",
-        "False"
+        "Nothing — it's completely correct",
+        "It says 'sensory' neurons and 'synergists' but should say 'motor' neurons and 'antagonists'",
+        "Reciprocal inhibition doesn't exist",
+        "Only the name is wrong"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The sensory signal that triggers biceps contraction ALSO activates an inhibitory interneuron that prevents the triceps from contracting. This happens automatically at the spinal cord level."
+      "explain": "The original statement has TWO errors: (1) It's MOTOR neurons, not sensory neurons. (2) It's ANTAGONIST muscles, not synergist muscles. Reciprocal inhibition relaxes the OPPONENT.",
+      "wrongExplains": {
+        "0": "The statement has key errors about neuron type and muscle relationship.",
+        "2": "Reciprocal inhibition definitely exists and is well-established.",
+        "3": "Both the neuron type and muscle relationship are wrong, not just the name."
+      }
     },
     {
-      "q": "The original statement is FALSE because reciprocal inhibition involves MOTOR neurons to ANTAGONIST muscles, not sensory neurons to synergist muscles.",
+      "q": "Is the original statement true or false?",
       "options": [
-        "True",
-        "False"
+        "True — reciprocal inhibition works exactly as described",
+        "False — it involves motor neurons and antagonist muscles, not sensory neurons and synergists",
+        "True — sensory neurons are inhibited",
+        "True — synergist muscles are inhibited"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Two errors in the original: (1) It's motor neurons, not sensory neurons. (2) It's antagonist muscles, not synergist muscles. Reciprocal inhibition relaxes the OPPONENT muscle so movement is smooth."
+      "explain": "The statement is FALSE. Reciprocal inhibition involves MOTOR neurons (not sensory) to ANTAGONIST muscles (not synergists). It relaxes the opponent muscle during movement.",
+      "wrongExplains": {
+        "0": "The description has fundamental errors about which neurons and muscles are involved.",
+        "2": "Sensory neurons carry information IN. They're not the target of this inhibition.",
+        "3": "Synergists cooperate. Antagonists (opponents) are what's inhibited."
+      }
     }
   ]
 }

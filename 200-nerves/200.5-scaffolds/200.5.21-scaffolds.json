@@ -1,96 +1,159 @@
 {
   "parentId": "200.5.21",
-  "parentQuestion": "Hoarse voice after thyroid surgery, vocal cord paralyzed",
+  "parentQuestion": "After thyroid surgery, a patient has a hoarse voice and one vocal cord is paralyzed. Which nerve was damaged?",
   "scaffolds": [
     {
-      "q": "Your voice box (larynx) is located in your throat near the thyroid gland.",
+      "q": "Where is the thyroid gland located relative to the larynx (voice box)?",
       "options": [
-        "True",
-        "False"
+        "In the chest",
+        "Just in front of/around the larynx in the neck",
+        "In the abdomen",
+        "Inside the brain"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "The larynx sits just below the thyroid gland, making nearby nerves vulnerable during surgery."
+      "explain": "The thyroid gland wraps around the front and sides of the TRACHEA and LARYNX in the neck. This close proximity means nerves to the larynx are at risk during thyroid surgery.",
+      "wrongExplains": {
+        "0": "The thyroid is in the neck, not the chest. The parathyroids are near the thyroid, also in the neck.",
+        "2": "The abdomen contains digestive organs. The thyroid is in the anterior neck.",
+        "3": "The pituitary is in the brain. The thyroid is an external neck gland."
+      }
     },
     {
-      "q": "Vocal cords vibrate to produce sound.",
+      "q": "Which nerve controls the muscles that move the vocal cords?",
       "options": [
-        "True",
-        "False"
+        "CN VII (facial)",
+        "CN X (vagus) via the recurrent laryngeal nerve",
+        "CN XII (hypoglossal)",
+        "CN V (trigeminal)"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Air from your lungs passes through vocal cords, making them vibrate to create voice."
+      "explain": "The RECURRENT LARYNGEAL NERVE (a branch of CN X/vagus) controls most muscles that move the vocal cords. It's called 'recurrent' because it loops down and back up to reach the larynx.",
+      "wrongExplains": {
+        "0": "CN VII controls facial expression muscles, not vocal cord muscles. Different territory.",
+        "2": "CN XII controls TONGUE muscles, not vocal cord muscles. Different structure.",
+        "3": "CN V controls chewing and facial sensation. It doesn't control the vocal cords."
+      }
     },
     {
-      "q": "Surgery can accidentally damage nearby nerves.",
+      "q": "Why is the recurrent laryngeal nerve at risk during thyroid surgery?",
       "options": [
-        "True",
-        "False"
+        "It's far from the thyroid",
+        "It runs right behind/alongside the thyroid gland",
+        "It's protected by thick bone",
+        "Surgeons never work near it"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Nerves running close to surgical sites are at risk of being stretched, cut, or bruised."
+      "explain": "The recurrent laryngeal nerve runs in the groove BETWEEN the trachea and esophagus, right behind the thyroid lobes. Surgeons must carefully identify and protect it during thyroidectomy.",
+      "wrongExplains": {
+        "0": "The nerve is very CLOSE to the thyroid. That's exactly why it's at risk during surgery.",
+        "2": "The nerve is in soft tissue, not protected by bone. It's vulnerable to surgical injury.",
+        "3": "Thyroid surgery is common, and surgeons always work near this nerve. That's why injury is a known risk."
+      }
     },
     {
-      "q": "If a vocal cord cannot move, the voice becomes hoarse and breathy.",
+      "q": "If ONE recurrent laryngeal nerve is damaged, what happens to the voice?",
       "options": [
-        "True",
-        "False"
+        "Voice is completely lost",
+        "Voice becomes hoarse and breathy",
+        "Voice becomes louder",
+        "No change to voice"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Without proper cord movement, they cannot close fully to produce a clear voice."
+      "explain": "One paralyzed vocal cord can't close completely against the other. Air leaks through, making the voice HOARSE and BREATHY. The patient can still speak but with reduced quality.",
+      "wrongExplains": {
+        "0": "One-sided paralysis doesn't eliminate voice — the other cord can still work. Voice is weakened, not lost.",
+        "2": "Paralysis weakens the voice, it doesn't make it louder. Air leaks reduce vocal power.",
+        "3": "There IS a change — the vocal cord can't move properly, affecting voice quality."
+      }
     },
     {
-      "q": "The recurrent laryngeal nerve controls vocal cord movement.",
+      "q": "The vocal cords need to do what to produce a clear voice?",
       "options": [
-        "True",
-        "False"
+        "Stay wide open",
+        "Come together and vibrate",
+        "Stay completely still",
+        "Move randomly"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "This branch of CN X (vagus) innervates the muscles that move the vocal cords."
+      "explain": "For voice production, vocal cords must come TOGETHER (adduct) and VIBRATE as air passes through. If one cord is paralyzed, it can't close properly, causing air leak and hoarseness.",
+      "wrongExplains": {
+        "0": "Wide open cords produce no voice — just a breathy whisper. Cords must close to vibrate.",
+        "2": "Still cords produce no sound. They must vibrate to create voice.",
+        "3": "Coordinated movement is essential. Random movement would produce unintelligible sounds."
+      }
     },
     {
-      "q": "The recurrent laryngeal nerve runs close to the thyroid gland.",
+      "q": "This patient has a hoarse voice but can swallow normally. What does this tell you?",
       "options": [
-        "True",
-        "False"
+        "Both CN X and CN IX are damaged",
+        "Only the recurrent laryngeal branch (voice) is damaged, not the whole CN X",
+        "CN XII is damaged",
+        "Nothing is damaged"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "It passes right behind the thyroid, making it vulnerable during thyroid surgery."
-    },
-    {
-      "q": "Hoarse voice with intact swallowing suggests only the voice-controlling nerve is damaged.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Different nerves control voice vs swallowing. Only the voice nerve was injured here."
-    },
-    {
-      "q": "The recurrent laryngeal nerve is a branch of the vagus nerve (CN X).",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "CN X has branches for different functions - RLN specifically controls vocal cords."
+      "explain": "Swallowing uses pharyngeal branches of CN X. Voice uses the recurrent laryngeal branch. Isolated hoarseness with normal swallowing means only the RLN is damaged, not the main vagus trunk.",
+      "wrongExplains": {
+        "0": "If both CN X and CN IX were fully damaged, swallowing would be severely affected. Swallowing is normal here.",
+        "2": "CN XII controls the tongue. Tongue movement would be affected, not voice. This is a laryngeal nerve problem.",
+        "3": "Something IS damaged — the patient has hoarseness from vocal cord paralysis. The RLN was injured."
+      }
     },
     {
-      "q": "Bilateral recurrent laryngeal nerve injury can cause airway obstruction.",
+      "q": "What is the recurrent laryngeal nerve's relationship to the vagus nerve?",
       "options": [
-        "True",
-        "False"
+        "They're completely unrelated",
+        "The RLN is a branch of the vagus (CN X)",
+        "The vagus is a branch of the RLN",
+        "They're the same nerve"
       ],
-      "answer": 0,
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The recurrent laryngeal nerve is a BRANCH of CN X (vagus). The vagus has many branches for different functions; the RLN specifically controls vocal cord muscles.",
+      "wrongExplains": {
+        "0": "They ARE related — the RLN branches off from the vagus nerve as it descends in the neck/chest.",
+        "2": "The vagus is the parent nerve. The RLN is the branch, not the other way around.",
+        "3": "They're not the same — the vagus has many functions (heart, lungs, gut). The RLN is just the voice-controlling branch."
+      }
+    },
+    {
+      "q": "Why is it called 'recurrent' laryngeal nerve?",
+      "options": [
+        "Because it causes recurring pain",
+        "Because it loops down then back up to reach the larynx",
+        "Because it regenerates quickly",
+        "Because injuries keep happening"
+      ],
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Both cords paralyzed means the airway cannot open properly - a medical emergency."
+      "explain": "The nerve 'RECURS' (loops back). On the left, it loops under the aortic arch; on the right, under the subclavian artery. Then it travels back UP to innervate the larynx.",
+      "wrongExplains": {
+        "0": "The name has nothing to do with recurring pain. It describes the nerve's looping path.",
+        "2": "Nerve regeneration is slow. 'Recurrent' describes the anatomical path, not healing.",
+        "3": "The name describes anatomy, not injury patterns. It loops down and back up."
+      }
+    },
+    {
+      "q": "If BOTH recurrent laryngeal nerves are damaged, what emergency can occur?",
+      "options": [
+        "Hearing loss",
+        "Airway obstruction — both vocal cords paralyzed in closed position",
+        "Blindness",
+        "Loss of smell"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "BILATERAL RLN damage can leave both vocal cords paralyzed in the midline (closed). The airway cannot open properly, causing breathing difficulty or obstruction — a medical emergency requiring tracheostomy.",
+      "wrongExplains": {
+        "0": "Hearing uses CN VIII. RLN damage doesn't affect hearing.",
+        "2": "Vision uses CN II. RLN damage doesn't affect the eyes.",
+        "3": "Smell uses CN I. RLN damage only affects the larynx/voice."
+      }
     }
   ]
 }

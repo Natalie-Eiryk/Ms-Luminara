@@ -3,27 +3,41 @@
   "parentQuestion": "A patient has an injury of the spine and is now suffering from a loss of motor function in his right arm. However, he still has normal sensory function in the arm. Based on this, the nervous tissue damage is likely located at ___.",
   "scaffolds": [
     {
-      "q": "Motor function means the ability to move muscles.",
+      "q": "What does 'motor function' mean?",
       "options": [
-        "True",
-        "False"
+        "The ability to see colors",
+        "The ability to move muscles",
+        "The ability to digest food",
+        "The ability to produce hormones"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Motor = movement. Motor nerves control your muscles, allowing you to walk, grab things, and move your body. Loss of motor function means you can't move that body part."
+      "explain": "MOTOR = MOVEMENT. Motor nerves control your muscles, allowing you to walk, grab things, and move your body. Loss of motor function means you cannot move that body part.",
+      "wrongExplains": {
+        "0": "Vision involves sensory pathways, not motor. Motor specifically means muscle movement.",
+        "2": "Digestion involves the autonomic nervous system and GI tract. Motor refers to skeletal muscle movement.",
+        "3": "Hormone production is endocrine function. Motor refers to voluntary muscle control."
+      }
     },
     {
-      "q": "Sensory function means the ability to feel sensations like touch, pain, and temperature.",
+      "q": "What does 'sensory function' mean?",
       "options": [
-        "True",
-        "False"
+        "The ability to move quickly",
+        "The ability to feel sensations like touch, pain, and temperature",
+        "The ability to think clearly",
+        "The ability to breathe"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Exactly! Sensory nerves let you feel things - touch, pressure, pain, hot, cold. If sensory function is intact, you can still feel even if you can't move."
+      "explain": "SENSORY function means feeling sensations — touch, pressure, pain, hot, cold. If sensory function is intact, you can still FEEL even if you cannot move.",
+      "wrongExplains": {
+        "0": "Moving quickly is motor function. Sensory is about FEELING, not moving.",
+        "2": "Thinking involves higher brain functions. Sensory specifically means detecting stimuli.",
+        "3": "Breathing involves respiratory control centers. Sensory refers to detecting touch, pain, temperature."
+      }
     },
     {
-      "q": "The dorsal root carries ___ information.",
+      "q": "What type of information does the dorsal root carry?",
       "options": [
         "Motor (movement commands)",
         "Sensory (feeling information)",
@@ -32,10 +46,15 @@
       ],
       "answer": 1,
       "difficulty": "foundation",
-      "explain": "Dorsal root = sensory! Think 'D for Dorsal, D for Detecting.' The dorsal root brings sensory information INTO the spinal cord from the body."
+      "explain": "DORSAL ROOT = SENSORY. Think 'D for Dorsal, D for Detecting.' The dorsal root brings sensory information INTO the spinal cord from the body.",
+      "wrongExplains": {
+        "0": "Motor commands travel through the VENTRAL root. Dorsal is sensory only.",
+        "2": "Roots are segregated. Dorsal is sensory ONLY; ventral is motor ONLY.",
+        "3": "The dorsal root definitely carries information — specifically sensory input."
+      }
     },
     {
-      "q": "The ventral root carries ___ information.",
+      "q": "What type of information does the ventral root carry?",
       "options": [
         "Motor (movement commands)",
         "Sensory (feeling information)",
@@ -44,10 +63,15 @@
       ],
       "answer": 0,
       "difficulty": "foundation",
-      "explain": "Ventral root = motor! The ventral root carries motor commands OUT from the spinal cord to muscles. Remember: Ventral = 'Vroom' (movement)!"
+      "explain": "VENTRAL ROOT = MOTOR. The ventral root carries motor commands OUT from the spinal cord to muscles. Remember: Ventral = 'Vroom' (movement)!",
+      "wrongExplains": {
+        "1": "Sensory information travels through the DORSAL root. Ventral is motor only.",
+        "2": "Roots are segregated. Ventral is motor ONLY; dorsal is sensory ONLY.",
+        "3": "The ventral root definitely carries information — specifically motor commands."
+      }
     },
     {
-      "q": "The arm is controlled by nerves from the ___ region of the spinal cord.",
+      "q": "Which spinal cord region controls the arm?",
       "options": [
         "Cervical (neck)",
         "Thoracic (chest)",
@@ -56,20 +80,32 @@
       ],
       "answer": 0,
       "difficulty": "foundation",
-      "explain": "The arm is controlled by cervical nerves (C5-T1). The neck region of your spinal cord controls your upper limbs. Makes sense - the arm nerves exit near shoulder level!"
+      "explain": "The arm is controlled by CERVICAL nerves (C5-T1). The neck region of your spinal cord controls your upper limbs — the arm nerves exit near shoulder level.",
+      "wrongExplains": {
+        "1": "Thoracic nerves control the chest and trunk. Arms are controlled by cervical nerves.",
+        "2": "Lumbar nerves control the legs. Arms are controlled by cervical (neck) nerves.",
+        "3": "Sacral nerves control pelvic organs and lower limbs. Arms are cervical."
+      }
     },
     {
-      "q": "If you damage ONLY motor nerves, you would lose the ability to move but still be able to feel.",
+      "q": "If you damage ONLY motor nerves, what happens?",
       "options": [
-        "True",
-        "False"
+        "You lose movement AND feeling",
+        "You lose feeling but can still move",
+        "You lose movement but can still feel",
+        "Nothing happens"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "foundation",
-      "explain": "Correct! Motor and sensory pathways are separate. Damage only motor nerves = paralysis but you can still feel. Damage only sensory nerves = numbness but you can still move."
+      "explain": "Motor and sensory pathways are SEPARATE. Damage only motor nerves = paralysis but you can still feel. Damage only sensory nerves = numbness but you can still move.",
+      "wrongExplains": {
+        "0": "That would require damage to BOTH motor and sensory pathways. They're separate.",
+        "1": "That's backwards. Motor damage = can't move. Sensory damage = can't feel.",
+        "3": "Motor nerve damage definitely causes paralysis of the affected muscles."
+      }
     },
     {
-      "q": "If someone can feel their arm but cannot move it, which pathway is damaged?",
+      "q": "A patient can feel their arm but cannot move it. Which pathway is damaged?",
       "options": [
         "Sensory pathway (dorsal)",
         "Motor pathway (ventral)",
@@ -78,29 +114,46 @@
       ],
       "answer": 1,
       "difficulty": "foundation",
-      "explain": "The motor pathway! Since feeling is intact, sensory nerves work fine. Since movement is lost, motor nerves are damaged. The deficit tells you which pathway is broken."
+      "explain": "The MOTOR PATHWAY is damaged. Since feeling is intact, sensory nerves work fine. Since movement is lost, motor nerves are damaged. The deficit tells you which pathway is broken.",
+      "wrongExplains": {
+        "0": "If sensory was damaged, the patient couldn't FEEL. This patient CAN feel.",
+        "2": "If both were damaged, the patient would lose BOTH movement AND sensation.",
+        "3": "Something is definitely damaged — the patient can't move their arm."
+      }
     },
     {
-      "q": "Damage to the ventral root at cervical level would cause paralysis in the arm while preserving sensation.",
+      "q": "Damage to the ventral root at cervical level would cause what?",
       "options": [
-        "True",
-        "False"
+        "Numbness in the arm with preserved movement",
+        "Paralysis in the arm with preserved sensation",
+        "Complete loss of arm function",
+        "No effect on the arm"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Ventral root = motor only. Cervical level = arm control. So ventral root damage at cervical level = can't move arm but can still feel it. The dorsal (sensory) root is intact."
+      "explain": "VENTRAL ROOT = motor only. CERVICAL level = arm control. So ventral root damage at cervical level = can't move arm but can still feel it. The dorsal (sensory) root is intact.",
+      "wrongExplains": {
+        "0": "Numbness would require DORSAL root damage. Ventral root damage affects movement only.",
+        "2": "Complete loss would require damage to BOTH roots. Ventral damage spares sensation.",
+        "3": "Ventral root damage at cervical level definitely affects the arm — causing paralysis."
+      }
     },
     {
-      "q": "A patient with normal arm sensation but no arm movement most likely has damage to the ___ root at the ___ level.",
+      "q": "A patient has normal arm sensation but no arm movement. Where is the damage?",
       "options": [
         "Dorsal root at thoracic level",
         "Ventral root at cervical level",
         "Dorsal root at cervical level",
-        "Ventral root at thoracic level"
+        "Ventral root at lumbar level"
       ],
       "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Ventral (motor) root at cervical (arm) level. Motor loss + sensory preservation = ventral root damage. Arm involvement = cervical level. Put them together: ventral root at cervical vertebrae."
+      "explain": "VENTRAL (motor) root at CERVICAL (arm) level. Motor loss + sensory preservation = ventral root damage. Arm involvement = cervical level. Combine them: ventral root at cervical vertebrae.",
+      "wrongExplains": {
+        "0": "Thoracic controls the trunk, not the arm. Also, dorsal damage would cause numbness, not paralysis.",
+        "2": "Dorsal root damage would cause NUMBNESS, not paralysis. This patient has paralysis.",
+        "3": "Lumbar level controls the LEGS, not the arm."
+      }
     }
   ]
 }

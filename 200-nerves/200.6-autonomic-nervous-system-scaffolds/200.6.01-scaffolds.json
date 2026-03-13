@@ -1,26 +1,159 @@
 {
   "parentId": "200.6.01",
-  "parentQuestion": "The autonomic nervous system differs from the somatic nervous system in that the...",
+  "parentQuestion": "The autonomic nervous system differs from the somatic nervous system in that the autonomic system ___.",
   "scaffolds": [
     {
-      "q": "The somatic nervous system controls voluntary skeletal muscle movements.",
+      "q": "What does the SOMATIC nervous system control?",
       "options": [
-        "True",
-        "False"
+        "Involuntary functions like heart rate",
+        "Voluntary skeletal muscle movements",
+        "Digestion and gland secretion",
+        "Pupil size"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "The somatic nervous system is your voluntary motor system — it sends commands from the CNS directly to skeletal muscles. Receive this insight:this: when you decide to move your arm, a single motor neuron carries that command from spinal cord to muscle. Direct. Decisive. No intermediary required. Stunning, yes? efficient?"
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The SOMATIC nervous system controls VOLUNTARY skeletal muscle movements. When you decide to move your arm, walk, or wave, the somatic system carries that command directly from brain/spinal cord to skeletal muscles.",
+      "wrongExplains": {
+        "0": "Involuntary functions like heart rate are controlled by the AUTONOMIC nervous system, not somatic.",
+        "2": "Digestion and gland secretion are AUTONOMIC functions. The somatic system only controls skeletal muscles.",
+        "3": "Pupil size is controlled by the AUTONOMIC nervous system. Somatic = voluntary muscle movement."
+      }
     },
     {
-      "q": "The autonomic nervous system controls involuntary functions like heart rate and digestion.",
+      "q": "What does the AUTONOMIC nervous system control?",
       "options": [
-        "True",
-        "False"
+        "Voluntary arm and leg movements",
+        "Involuntary functions like heart rate and digestion",
+        "Only skeletal muscles",
+        "Conscious decision-making"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The AUTONOMIC nervous system controls INVOLUNTARY functions: heart rate, blood pressure, digestion, pupil size, gland secretion. These happen automatically without conscious thought.",
+      "wrongExplains": {
+        "0": "Voluntary arm and leg movements use the SOMATIC nervous system, not autonomic.",
+        "2": "Skeletal muscles are controlled by the SOMATIC system. The autonomic system controls smooth muscle, cardiac muscle, and glands.",
+        "3": "Conscious decision-making is a brain function, not peripheral nervous system. The autonomic system works automatically."
+      }
+    },
+    {
+      "q": "The word 'autonomic' means ___.",
+      "options": [
+        "Requiring conscious control",
+        "Self-governing or automatic",
+        "Only active during sleep",
+        "Controlled by hormones only"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "'Autonomic' = SELF-GOVERNING or automatic. The autonomic nervous system runs your vital functions (heart, digestion, breathing) without you having to think about them.",
+      "wrongExplains": {
+        "0": "Requiring conscious control would be the somatic system. 'Autonomic' means automatic, self-governing.",
+        "2": "The autonomic system works all the time — awake and asleep. It never stops regulating vital functions.",
+        "3": "The autonomic system uses nerve signals, not just hormones. Though it does interact with the endocrine system."
+      }
+    },
+    {
+      "q": "How many neurons does the SOMATIC pathway use to reach skeletal muscle?",
+      "options": [
+        "One motor neuron (CNS directly to muscle)",
+        "Two neurons with a ganglion in between",
+        "Three neurons",
+        "No neurons — just hormones"
       ],
       "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "the ANS runs your visceral machinery without conscious input. Heart rate, blood pressure, digestion, pupil size, gland secretion... all humming along beneath your awareness. you don't have to remember to digest your lunch. The ANS handles it while you think about other things. Autonomic means 'self-governing.' Track with me here:."
+      "difficulty": "foundation",
+      "explain": "The somatic pathway uses ONE motor neuron that extends directly from the CNS to the skeletal muscle. No intermediary needed — one neuron, one target.",
+      "wrongExplains": {
+        "1": "Two neurons with a ganglion describes the AUTONOMIC pathway, not somatic. The somatic system is direct — one neuron.",
+        "2": "Three neurons is too many for either system. Somatic uses one, autonomic uses two.",
+        "3": "Skeletal muscle requires nerve stimulation. Without motor neurons, skeletal muscle can't contract."
+      }
+    },
+    {
+      "q": "How many neurons does the AUTONOMIC pathway use to reach its target?",
+      "options": [
+        "One neuron direct from brain",
+        "Two neurons with a ganglion (relay station) in between",
+        "Five neurons",
+        "No neurons needed"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The autonomic pathway uses TWO neurons: a preganglionic neuron (CNS to ganglion) and a postganglionic neuron (ganglion to target organ). The ganglion is a relay station.",
+      "wrongExplains": {
+        "0": "One direct neuron is the SOMATIC pattern. The autonomic system requires two neurons with a ganglion.",
+        "2": "Five neurons is too many. The autonomic pathway specifically uses two: preganglionic and postganglionic.",
+        "3": "The autonomic system absolutely uses neurons. It's a neural system, not purely hormonal."
+      }
+    },
+    {
+      "q": "What is a 'ganglion' in the autonomic pathway?",
+      "options": [
+        "A muscle fiber",
+        "A cluster of neuron cell bodies outside the CNS (relay station)",
+        "A type of hormone",
+        "A blood vessel"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "A ganglion is a CLUSTER OF NEURON CELL BODIES located outside the CNS. It acts as a relay station where the preganglionic neuron synapses with the postganglionic neuron.",
+      "wrongExplains": {
+        "0": "Muscle fibers are the target of nerves, not part of the nerve pathway itself.",
+        "2": "Hormones are chemical messengers. A ganglion is a neural structure — a cluster of nerve cell bodies.",
+        "3": "Blood vessels carry blood. A ganglion is a nervous system structure for signal relay."
+      }
+    },
+    {
+      "q": "Which type of muscle can the autonomic nervous system control?",
+      "options": [
+        "Only skeletal muscle",
+        "Smooth muscle, cardiac muscle, and glands",
+        "Only tendons",
+        "Only voluntary muscles"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The autonomic nervous system controls SMOOTH MUSCLE (in organs/vessels), CARDIAC MUSCLE (heart), and GLANDS. These are all involuntary targets.",
+      "wrongExplains": {
+        "0": "Skeletal muscle is controlled by the SOMATIC nervous system, not autonomic.",
+        "2": "Tendons are connective tissue, not muscle. The autonomic system controls smooth and cardiac muscle.",
+        "3": "Voluntary muscles (skeletal) are somatic. Autonomic controls INvoluntary targets."
+      }
+    },
+    {
+      "q": "You don't have to consciously remember to digest your lunch. Which system handles this?",
+      "options": [
+        "Somatic nervous system",
+        "Autonomic nervous system",
+        "Skeletal muscle system",
+        "Your conscious brain"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "DIGESTION is an autonomic function — it happens automatically without conscious control. The ANS manages smooth muscle contractions in your gut and secretion of digestive enzymes.",
+      "wrongExplains": {
+        "0": "The somatic system controls voluntary movements, not digestion. Digestion is involuntary.",
+        "2": "Skeletal muscles are for voluntary movement. The digestive tract uses smooth muscle controlled by the autonomic system.",
+        "3": "Your conscious brain doesn't control digestion — thankfully! The autonomic system handles it automatically."
+      }
+    },
+    {
+      "q": "What's the KEY difference between somatic and autonomic nervous systems?",
+      "options": [
+        "Somatic is voluntary (skeletal muscle); Autonomic is involuntary (organs/glands)",
+        "They control the same things",
+        "Autonomic is voluntary; Somatic is involuntary",
+        "Neither uses neurons"
+      ],
+      "answer": 0,
+      "difficulty": "intermediate",
+      "explain": "The key difference: SOMATIC = voluntary control of skeletal muscles. AUTONOMIC = involuntary control of organs, glands, and vital functions. Different targets, different levels of conscious control.",
+      "wrongExplains": {
+        "1": "They control completely different targets. Somatic = skeletal muscle. Autonomic = smooth muscle, cardiac muscle, glands.",
+        "2": "This is backwards. Somatic is voluntary, autonomic is involuntary.",
+        "3": "Both systems use neurons. The somatic uses one neuron; autonomic uses two with a ganglion."
+      }
     }
   ]
 }

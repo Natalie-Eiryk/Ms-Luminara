@@ -3,96 +3,157 @@
   "parentQuestion": "A patient presents with numbness and tingling in a 'glove-and-stocking' distribution — affecting hands and feet but sparing proximal limbs and trunk. What pattern of nerve damage does this distribution suggest?",
   "scaffolds": [
     {
-      "q": "The nerves that go to your toes are longer than the nerves that go to your knee.",
+      "q": "Are nerves to your toes longer or shorter than nerves to your knee?",
       "options": [
-        "True",
-        "False"
+        "Shorter",
+        "Longer — they travel from the spinal cord all the way to the feet",
+        "Exactly the same length",
+        "Toes don't have nerves"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Nerves to the toes travel from the spinal cord all the way to the feet - about 1 meter. Nerves to the knee are much shorter."
+      "explain": "Nerves to the toes travel from the spinal cord ALL THE WAY to the feet — about 1 meter. Nerves to the knee are much SHORTER.",
+      "wrongExplains": {
+        "0": "Nerves to toes must travel farther, making them longer.",
+        "2": "Distance to toes is greater than distance to knee.",
+        "3": "Toes definitely have nerves — that's how you feel them."
+      }
     },
     {
-      "q": "Longer axons need more nutrients and have higher metabolic demands.",
+      "q": "Why are longer axons more vulnerable to disease?",
       "options": [
-        "True",
-        "False"
+        "They're not more vulnerable",
+        "They need more nutrients and have higher metabolic demands",
+        "They're thicker",
+        "They don't exist"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Everything needed by the axon terminal must travel from the cell body. Longer distance = more transport needed = more vulnerable."
+      "explain": "Everything needed by the axon terminal must TRAVEL from the cell body. Longer distance = more transport needed = MORE VULNERABLE to metabolic stress.",
+      "wrongExplains": {
+        "0": "Length does create vulnerability — longer supply lines are harder to maintain.",
+        "2": "Thickness isn't the issue. Length creates metabolic demands.",
+        "3": "Long axons definitely exist — the longest reach from spine to toes."
+      }
     },
     {
-      "q": "When nerves are stressed by disease (diabetes, alcohol, toxins), the longest nerves fail first.",
+      "q": "When nerves are stressed by disease, which fail first?",
       "options": [
-        "True",
-        "False"
+        "The shortest nerves",
+        "The longest nerves",
+        "All nerves fail equally",
+        "No nerves fail"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! This is called length-dependent neuropathy. The longest supply lines fail before shorter ones."
+      "explain": "The LONGEST NERVES fail first. This is called LENGTH-DEPENDENT NEUROPATHY. The longest supply lines fail before shorter ones.",
+      "wrongExplains": {
+        "0": "Shortest nerves are easier to maintain. Longest fail first.",
+        "2": "Length matters. Distal nerves (to hands/feet) fail earlier.",
+        "3": "Disease definitely causes nerve failure, starting with the longest."
+      }
     },
     {
-      "q": "'Glove-and-stocking' refers to numbness in the hands (like gloves) and feet (like stockings).",
+      "q": "What does 'glove-and-stocking' distribution mean?",
       "options": [
-        "True",
-        "False"
+        "Numbness only in one finger",
+        "Numbness in hands (like gloves) and feet (like stockings)",
+        "Numbness on the face",
+        "Numbness in the trunk only"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The pattern looks like wearing gloves and stockings. The numbness is in the most distal (distant) parts of the limbs."
+      "explain": "GLOVE-AND-STOCKING refers to numbness in the hands (like wearing gloves) and feet (like wearing stockings). The most DISTAL (distant) parts are affected.",
+      "wrongExplains": {
+        "0": "One finger would suggest a single nerve injury. Glove = whole hand.",
+        "2": "Face involves cranial nerves. Glove-and-stocking is hands and feet.",
+        "3": "The trunk is spared. Only the distal extremities are affected."
+      }
     },
     {
-      "q": "In glove-and-stocking pattern, the upper arms and thighs are SPARED (normal).",
+      "q": "In glove-and-stocking pattern, are the upper arms and thighs affected?",
       "options": [
-        "True",
-        "False"
+        "Yes, they're the worst affected",
+        "No, they are SPARED (normal) — only hands and feet are affected",
+        "Only the left side is affected",
+        "The whole body is equally affected"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Only the hands and feet (served by the longest nerves) are affected. The proximal limbs (shorter nerves) are fine."
+      "explain": "Only the hands and feet (served by the LONGEST nerves) are affected. The proximal limbs (shorter nerves) are FINE — that's the diagnostic pattern.",
+      "wrongExplains": {
+        "0": "Proximal areas are preserved. Only distal (hands/feet) are affected.",
+        "2": "Both sides are equally affected — it's symmetric.",
+        "3": "The pattern is specifically distal, not diffuse."
+      }
     },
     {
-      "q": "This pattern is SYMMETRIC - both hands and both feet are affected equally.",
+      "q": "Is this pattern symmetric (both sides affected equally)?",
       "options": [
-        "True",
-        "False"
+        "No, only one side is affected",
+        "Yes, both hands and both feet are affected equally",
+        "It randomly affects different areas",
+        "Only the right side"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Both left and right sides are affected equally because it's a metabolic/toxic process, not a localized injury."
+      "explain": "Both left and right sides are affected EQUALLY because it's a metabolic/toxic process, not a localized injury. SYMMETRY is a key feature.",
+      "wrongExplains": {
+        "0": "One-sided patterns suggest stroke or local injury. This is symmetric.",
+        "2": "The pattern is predictable, not random — based on nerve length.",
+        "3": "Both sides are affected equally in length-dependent neuropathy."
+      }
     },
     {
-      "q": "Common causes of glove-and-stocking neuropathy include diabetes, alcoholism, and chemotherapy.",
+      "q": "What commonly causes glove-and-stocking neuropathy?",
       "options": [
-        "True",
-        "False"
+        "Broken bones",
+        "Diabetes, alcoholism, and chemotherapy",
+        "Common cold",
+        "Sunburn"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! These conditions damage nerves through metabolic stress. The longest nerves (to hands and feet) die first."
+      "explain": "DIABETES, ALCOHOLISM, and CHEMOTHERAPY damage nerves through metabolic stress. The longest nerves (to hands and feet) die first.",
+      "wrongExplains": {
+        "0": "Broken bones cause localized injury. Metabolic diseases cause this pattern.",
+        "2": "Cold doesn't cause neuropathy. Metabolic/toxic conditions do.",
+        "3": "Sunburn affects skin. Neuropathy comes from systemic metabolic stress."
+      }
     },
     {
-      "q": "The pattern of symptoms (distal, symmetric) tells you the TYPE of nerve damage.",
+      "q": "What does the symptom pattern tell doctors?",
       "options": [
-        "True",
-        "False"
+        "Nothing useful",
+        "The pattern (distal, symmetric) reveals the TYPE of nerve damage",
+        "Only the patient's age",
+        "Only the patient's name"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Geography is diagnosis. Glove-and-stocking = length-dependent. One-sided = stroke or local injury. Pattern reveals cause."
+      "explain": "GEOGRAPHY IS DIAGNOSIS. Glove-and-stocking = length-dependent. One-sided = stroke or local injury. The PATTERN REVEALS the CAUSE.",
+      "wrongExplains": {
+        "0": "Symptom patterns are extremely useful for diagnosis.",
+        "2": "The pattern reveals pathophysiology, not demographics.",
+        "3": "Patterns indicate disease mechanism, not patient identity."
+      }
     },
     {
-      "q": "Glove-and-stocking distribution indicates ___.",
+      "q": "What does glove-and-stocking distribution indicate?",
       "options": [
         "Central brain lesion",
         "Spinal cord compression",
         "Length-dependent peripheral neuropathy",
-        "Nerve root damage"
+        "Single nerve root damage"
       ],
       "answer": 2,
       "difficulty": "intermediate",
-      "explain": "Length-dependent peripheral neuropathy! The longest nerves fail first, creating the symmetric distal pattern. Diabetes, alcohol, and toxins cause this."
+      "explain": "LENGTH-DEPENDENT PERIPHERAL NEUROPATHY! The longest nerves fail first, creating the symmetric distal pattern. Diabetes, alcohol, and toxins cause this.",
+      "wrongExplains": {
+        "0": "Brain lesions cause different patterns (hemiparesis, etc.). This is peripheral.",
+        "1": "Spinal cord compression causes level-specific deficits. This is length-dependent.",
+        "3": "Root damage causes dermatomal patterns. Glove-stocking is length-dependent."
+      }
     }
   ]
 }

@@ -3,24 +3,157 @@
   "parentQuestion": "The sympathetic division of the ANS is also called the ___.",
   "scaffolds": [
     {
-      "q": "The spinal cord has different regions: cervical, thoracic, lumbar, and sacral.",
+      "q": "The ANS has two main divisions. What are they?",
       "options": [
-        "True",
-        "False"
+        "Somatic and motor",
+        "Sympathetic and parasympathetic",
+        "Central and peripheral",
+        "Sensory and motor"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "The spinal cord is organized into regions that correspond to the vertebral column: 8 cervical, 12 thoracic, 5 lumbar, 5 sacral, and 1 coccygeal segments. each region gives rise to specific spinal nerves serving different body territories. Open your mind to this:the map."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The ANS has two divisions: SYMPATHETIC ('fight or flight') and PARASYMPATHETIC ('rest and digest'). They often have opposite effects on the same organs, creating balanced control.",
+      "wrongExplains": {
+        "0": "Somatic is a separate system (voluntary muscle control). The ANS divisions are sympathetic and parasympathetic.",
+        "2": "Central and peripheral describe locations (brain/spinal cord vs. body), not ANS divisions.",
+        "3": "Sensory and motor describe nerve function types, not the two ANS divisions."
+      }
     },
     {
-      "q": "The two main divisions of the ANS are sympathetic and parasympathetic.",
+      "q": "The sympathetic division is often called the '___ system.'",
       "options": [
-        "True",
-        "False"
+        "Rest and digest",
+        "Fight or flight",
+        "Sleep and dream",
+        "Eat and store"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "the ANS has two major divisions: sympathetic (fight-or-flight, energy mobilization) and parasympathetic (rest-and-digest, energy conservation). They often have opposing effects on the same organ, creating a beautiful push-pull balance. Simply magnificent. engineering?"
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The sympathetic division is the 'FIGHT OR FLIGHT' system. It prepares your body for action during stress or danger — increasing heart rate, dilating pupils, diverting blood to muscles.",
+      "wrongExplains": {
+        "0": "'Rest and digest' describes the PARASYMPATHETIC division, which does the opposite of sympathetic.",
+        "2": "Sleep involves reduced sympathetic activity. The sympathetic system is for alertness and action.",
+        "3": "Eating and storing are parasympathetic activities. Sympathetic prepares for fighting or fleeing."
+      }
+    },
+    {
+      "q": "The parasympathetic division is often called the '___ system.'",
+      "options": [
+        "Fight or flight",
+        "Rest and digest",
+        "Panic and run",
+        "Attack and defend"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The parasympathetic division is the 'REST AND DIGEST' system. It promotes calm activities — slowing heart rate, increasing digestion, conserving energy.",
+      "wrongExplains": {
+        "0": "'Fight or flight' is the SYMPATHETIC system, which does the opposite of parasympathetic.",
+        "2": "Panic would activate sympathetic, not parasympathetic. Parasympathetic is for calm states.",
+        "3": "Attack and defend are sympathetic responses. Parasympathetic promotes rest and recovery."
+      }
+    },
+    {
+      "q": "When you encounter a dangerous situation, which ANS division activates?",
+      "options": [
+        "Parasympathetic (rest and digest)",
+        "Sympathetic (fight or flight)",
+        "Neither",
+        "Both equally"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "DANGER activates the SYMPATHETIC division. Your body prepares to fight or run: heart races, pupils dilate, blood flows to muscles, digestion stops. All energy goes to survival.",
+      "wrongExplains": {
+        "0": "Parasympathetic is for calm, safe situations. Danger activates the opposite — sympathetic.",
+        "2": "The ANS definitely responds to danger. The sympathetic division takes over.",
+        "3": "In danger, sympathetic dominates. Parasympathetic is suppressed during fight-or-flight."
+      }
+    },
+    {
+      "q": "After a big meal, which ANS division is most active?",
+      "options": [
+        "Sympathetic (fight or flight)",
+        "Parasympathetic (rest and digest)",
+        "Neither — digestion doesn't use the ANS",
+        "The somatic system"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "After eating, the PARASYMPATHETIC division dominates. It increases digestive activity, stimulates enzyme secretion, and promotes nutrient absorption. This is 'rest and digest' in action.",
+      "wrongExplains": {
+        "0": "Sympathetic actually INHIBITS digestion. After a meal, you want parasympathetic to process food.",
+        "2": "Digestion is definitely controlled by the ANS. The parasympathetic division stimulates it.",
+        "3": "The somatic system controls voluntary skeletal muscles, not digestion. The ANS controls the gut."
+      }
+    },
+    {
+      "q": "What happens to your heart rate when the sympathetic system activates?",
+      "options": [
+        "Heart rate decreases",
+        "Heart rate increases",
+        "Heart rate stays exactly the same",
+        "The heart stops"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Sympathetic activation INCREASES heart rate. This pumps more blood to muscles for fighting or fleeing. It's part of preparing the body for intense physical action.",
+      "wrongExplains": {
+        "0": "Decreasing heart rate is a PARASYMPATHETIC effect. Sympathetic speeds up the heart.",
+        "2": "The whole point of ANS activation is to change body functions. Heart rate definitely changes.",
+        "3": "The sympathetic system would never stop the heart. It speeds it up for action."
+      }
+    },
+    {
+      "q": "What happens to your heart rate when the parasympathetic system activates?",
+      "options": [
+        "Heart rate increases",
+        "Heart rate decreases",
+        "Heart rate becomes irregular",
+        "No effect on heart"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Parasympathetic activation DECREASES heart rate. The vagus nerve acts as a 'brake' on the heart, slowing it down for rest and conservation of energy.",
+      "wrongExplains": {
+        "0": "Increasing heart rate is a SYMPATHETIC effect. Parasympathetic slows the heart.",
+        "2": "Parasympathetic doesn't cause irregular rhythm — just a slower, regular rhythm.",
+        "3": "The parasympathetic system definitely affects the heart. The vagus nerve slows heart rate."
+      }
+    },
+    {
+      "q": "Sympathetic and parasympathetic often have ___ effects on the same organ.",
+      "options": [
+        "Identical",
+        "Opposite",
+        "No",
+        "Random"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "They have OPPOSITE effects: sympathetic speeds up heart, parasympathetic slows it. Sympathetic dilates pupils, parasympathetic constricts them. This creates balanced push-pull control.",
+      "wrongExplains": {
+        "0": "If they had identical effects, there would be no balance. They work as opposites.",
+        "2": "Both systems definitely affect the same organs — just in opposite directions.",
+        "3": "The effects are not random — they're predictable and opposite for balanced control."
+      }
+    },
+    {
+      "q": "Another name for the sympathetic division is the 'thoracolumbar' division. Why?",
+      "options": [
+        "It originates from cervical and sacral regions",
+        "It originates from thoracic and lumbar spinal cord regions",
+        "It only affects the thorax",
+        "It was discovered by Dr. Thoracolumbar"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The sympathetic division is called 'thoracolumbar' because its preganglionic neurons originate from the THORACIC (T1-T12) and LUMBAR (L1-L2) regions of the spinal cord.",
+      "wrongExplains": {
+        "0": "Cervical and sacral origins describe the PARASYMPATHETIC system (craniosacral), not sympathetic.",
+        "2": "The sympathetic affects the whole body, not just thorax. The name refers to spinal cord origin.",
+        "3": "There's no Dr. Thoracolumbar. The name describes the anatomical origin in the spinal cord."
+      }
     }
   ]
 }

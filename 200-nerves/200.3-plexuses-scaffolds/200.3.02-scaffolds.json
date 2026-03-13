@@ -3,96 +3,157 @@
   "parentQuestion": "The phrenic nerve branches from which plexus?",
   "scaffolds": [
     {
-      "q": "The diaphragm is the main muscle you use for breathing.",
+      "q": "What is a nerve plexus?",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! The diaphragm is a dome-shaped muscle below your lungs. When it contracts and flattens, it pulls air into your lungs. It's your primary breathing muscle."
-    },
-    {
-      "q": "Muscles need nerves to tell them when to contract.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Correct! Every muscle needs nerve signals to function. No nerve signal = no contraction. This is why nerve damage causes paralysis."
-    },
-    {
-      "q": "The nerve that controls the diaphragm is called the phrenic nerve.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! 'Phrenic' relates to the diaphragm. The phrenic nerve is the ONLY motor nerve to the diaphragm - if it's damaged, that side of the diaphragm can't move."
-    },
-    {
-      "q": "A 'plexus' is a network of nerves that work together.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Correct! Plexus means 'braid' or 'network.' Spinal nerves combine into plexuses before branching out to supply specific body regions."
-    },
-    {
-      "q": "The cervical region refers to the ___ area.",
-      "options": [
-        "Lower back",
-        "Neck",
-        "Chest",
-        "Pelvis"
+        "A single nerve fiber",
+        "A network of nerves that branch and recombine",
+        "A type of muscle",
+        "A bone in the spine"
       ],
       "answer": 1,
       "difficulty": "foundation",
-      "explain": "The neck! Cervical = neck region. The cervical plexus is formed from neck-level spinal nerves (C1-C4). The cervical spine has 7 vertebrae."
+      "explain": "A PLEXUS is a NETWORK of nerves that BRANCH and RECOMBINE. 'Plexus' comes from Latin meaning 'braid.' Spinal nerves weave together before distributing to body regions.",
+      "wrongExplains": {
+        "0": "A plexus is a network of multiple nerves, not a single fiber.",
+        "2": "Plexuses are nerve networks. Muscles receive signals from plexuses but aren't plexuses themselves.",
+        "3": "Plexuses are made of nerves, not bones. They're near the spine but distinct from it."
+      }
     },
     {
-      "q": "The cervical plexus gives rise to the phrenic nerve.",
+      "q": "What does the phrenic nerve control?",
       "options": [
-        "True",
-        "False"
+        "Heart rate only",
+        "The diaphragm (main breathing muscle)",
+        "Leg movement",
+        "Vision"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The phrenic nerve comes from C3, C4, and C5 (mostly C4). Since C3 and C4 are part of the cervical plexus, the phrenic nerve is classified as arising from it."
+      "explain": "The PHRENIC NERVE controls the DIAPHRAGM — your primary breathing muscle. 'Phrenic' comes from Greek for diaphragm. Without it, that side of the diaphragm cannot contract.",
+      "wrongExplains": {
+        "0": "Heart rate is controlled by the vagus nerve and sympathetic nerves. Phrenic controls breathing.",
+        "2": "Leg movement uses lumbar and sacral plexus nerves. Phrenic is for breathing.",
+        "3": "Vision uses the optic nerve. Phrenic controls the diaphragm."
+      }
     },
     {
-      "q": "The mnemonic 'C3, 4, 5 keeps the diaphragm alive' helps you remember which nerve roots form the phrenic nerve.",
+      "q": "What is the diaphragm?",
       "options": [
-        "True",
-        "False"
+        "A bone in the chest",
+        "The dome-shaped muscle that powers breathing",
+        "A valve in the heart",
+        "A ligament in the knee"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! C3, C4, C5 - keeps the diaphragm alive! These are the nerve roots that form the phrenic nerve. Damage above C3 can stop the diaphragm completely."
+      "explain": "The DIAPHRAGM is a DOME-SHAPED MUSCLE below your lungs. When it contracts and flattens, it creates negative pressure that draws air into your lungs. It's your PRIMARY breathing muscle.",
+      "wrongExplains": {
+        "0": "The diaphragm is a muscle, not a bone. It separates the chest from the abdomen.",
+        "2": "Heart valves are different structures. The diaphragm is a skeletal muscle for breathing.",
+        "3": "Knee ligaments are in the leg. The diaphragm is in the torso, below the lungs."
+      }
     },
     {
-      "q": "If the phrenic nerve is damaged, the diaphragm on that side cannot contract.",
+      "q": "What does 'cervical' refer to?",
       "options": [
-        "True",
-        "False"
+        "The lower back",
+        "The neck region",
+        "The pelvis",
+        "The skull"
       ],
-      "answer": 0,
-      "difficulty": "intermediate",
-      "explain": "Yes! The phrenic nerve is the SOLE motor supply to the diaphragm. Damage it, and that hemidiaphragm is paralyzed. Damage BOTH phrenic nerves, and you can't breathe on your own."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CERVICAL refers to the NECK region. The cervical spine has 7 vertebrae (C1-C7). The cervical plexus is formed from upper cervical nerve roots (C1-C4).",
+      "wrongExplains": {
+        "0": "The lower back is the lumbar region. Cervical is the neck.",
+        "2": "The pelvis is the sacral region. Cervical is the neck.",
+        "3": "The skull is cranial. Cervical specifically means neck."
+      }
     },
     {
-      "q": "A high cervical spinal cord injury (above C3) can stop breathing because it damages the origin of the phrenic nerve.",
+      "q": "Which spinal nerve roots form the phrenic nerve?",
       "options": [
-        "True",
-        "False"
+        "L1, L2, L3",
+        "C3, C4, C5",
+        "T10, T11, T12",
+        "S1, S2, S3"
       ],
-      "answer": 0,
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "'C3, 4, 5 KEEPS THE DIAPHRAGM ALIVE!' These cervical nerve roots form the phrenic nerve. Mostly C4, with contributions from C3 and C5.",
+      "wrongExplains": {
+        "0": "L1-L3 are lumbar roots for the legs. The phrenic comes from cervical roots.",
+        "2": "T10-T12 are thoracic roots. The phrenic comes from C3-C5 in the neck.",
+        "3": "S1-S3 are sacral roots for the pelvis. The phrenic comes from cervical roots."
+      }
+    },
+    {
+      "q": "Why is the cervical plexus location important for the phrenic nerve?",
+      "options": [
+        "It's not important",
+        "High neck injuries can stop breathing by damaging phrenic nerve origins",
+        "It only affects taste",
+        "It only affects hearing"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "HIGH CERVICAL INJURIES (above C3) can be FATAL because they damage the phrenic nerve origin. No phrenic signal = no diaphragm contraction = no breathing without a ventilator.",
+      "wrongExplains": {
+        "0": "Location is critically important — it determines what injuries affect breathing.",
+        "2": "Taste uses cranial nerves. The cervical plexus affects arm, neck, and diaphragm.",
+        "3": "Hearing uses the vestibulocochlear nerve. The phrenic controls breathing."
+      }
+    },
+    {
+      "q": "What happens if one phrenic nerve is damaged?",
+      "options": [
+        "Nothing — you have two lungs anyway",
+        "That side of the diaphragm is paralyzed (hemidiaphragm paralysis)",
+        "Both legs become paralyzed",
+        "Vision is lost"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Damage to ONE phrenic nerve causes HEMIDIAPHRAGM PARALYSIS — that side of the diaphragm can't move. The other side still works, so breathing continues but with reduced capacity.",
+      "wrongExplains": {
+        "0": "You do have two lungs, but reduced diaphragm function impairs breathing efficiency.",
+        "2": "Leg paralysis would be from lumbar/sacral injury. Phrenic damage affects the diaphragm.",
+        "3": "Vision uses the optic nerve. Phrenic damage affects breathing."
+      }
+    },
+    {
+      "q": "What happens if BOTH phrenic nerves are damaged?",
+      "options": [
+        "Minor inconvenience",
+        "Complete inability to breathe on your own (need ventilator)",
+        "Only arm weakness",
+        "Only leg weakness"
+      ],
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The phrenic nerve originates from C3-C5. Injury above C3 cuts off all signals to the phrenic nerve, paralyzing the diaphragm. These patients need mechanical ventilation to survive."
+      "explain": "BILATERAL phrenic nerve damage = COMPLETE DIAPHRAGM PARALYSIS. You CANNOT breathe on your own and will need MECHANICAL VENTILATION to survive.",
+      "wrongExplains": {
+        "0": "This is life-threatening, not minor. The diaphragm is essential for breathing.",
+        "2": "Arms use the brachial plexus. Bilateral phrenic damage paralyzes breathing.",
+        "3": "Legs use lumbar/sacral plexus. Phrenic damage affects the diaphragm."
+      }
+    },
+    {
+      "q": "The phrenic nerve branches from which plexus?",
+      "options": [
+        "Brachial plexus",
+        "Cervical plexus",
+        "Lumbar plexus",
+        "Sacral plexus"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The CERVICAL PLEXUS! The phrenic nerve comes from C3, C4, C5 — with C3 and C4 being part of the cervical plexus. Remember: 'C3, 4, 5 keeps the diaphragm alive!'",
+      "wrongExplains": {
+        "0": "The brachial plexus (C5-T1) supplies the arm. The phrenic comes from the cervical plexus.",
+        "2": "The lumbar plexus is in the lower back for leg innervation.",
+        "3": "The sacral plexus is in the pelvis for leg and pelvic innervation."
+      }
     }
   ]
 }

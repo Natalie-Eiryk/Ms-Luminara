@@ -3,24 +3,157 @@
   "parentQuestion": "The fight-or-flight response includes all of the following EXCEPT ___.",
   "scaffolds": [
     {
-      "q": "The sympathetic nervous system prepares the body for emergency situations.",
+      "q": "What is the 'fight-or-flight' response?",
       "options": [
-        "True",
-        "False"
+        "A parasympathetic response to food",
+        "The sympathetic response to stress or danger that prepares the body for action",
+        "A reflex for sleeping",
+        "A voluntary muscle response"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Sympathetic activation is the body's alarm system. when danger appears, the sympathetic system mobilizes energy stores, increases cardiac output, sharpens senses, and prepares muscles for action. Everything non-essential is suppressed. Permit yourself to feel this:the focused urgency."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Fight-or-flight is the SYMPATHETIC response to perceived danger. It prepares your body to either confront the threat (fight) or escape (flight) by mobilizing energy and enhancing physical capabilities.",
+      "wrongExplains": {
+        "0": "Food triggers parasympathetic 'rest and digest' responses, not fight-or-flight.",
+        "2": "Sleep involves parasympathetic dominance. Fight-or-flight is about alertness and action.",
+        "3": "Fight-or-flight is an autonomic (involuntary) response, not voluntary muscle control."
+      }
     },
     {
-      "q": "During stress, blood flow is redirected from digestive organs to skeletal muscles.",
+      "q": "During fight-or-flight, what happens to heart rate?",
       "options": [
-        "True",
-        "False"
+        "It decreases",
+        "It increases",
+        "It stops",
+        "No change"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Traverse this territory: into this redistribution. Sympathetic activation constricts blood vessels in the gut (α1 receptors) while dilating vessels in skeletal muscle (epinephrine on β2 receptors). The muscle that might save your life gets priority over the gut that's processing food. Survival triage."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Heart rate INCREASES during fight-or-flight. The sympathetic system stimulates the heart (via β1 receptors) to pump more blood to muscles that might need to fight or run.",
+      "wrongExplains": {
+        "0": "Decreasing heart rate is a parasympathetic effect. Sympathetic speeds the heart up.",
+        "2": "The heart never stops during normal stress responses — that would be fatal.",
+        "3": "There's definitely a change — faster heart rate is a hallmark of sympathetic activation."
+      }
+    },
+    {
+      "q": "During fight-or-flight, what happens to the pupils?",
+      "options": [
+        "They constrict (get smaller)",
+        "They dilate (get larger)",
+        "They close completely",
+        "No change"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Pupils DILATE during fight-or-flight. Larger pupils let in more light, improving vision to detect threats. This is why scared people have 'wide eyes.'",
+      "wrongExplains": {
+        "0": "Constriction is a parasympathetic effect. Sympathetic dilates pupils for better threat detection.",
+        "2": "Eyes stay open during fight-or-flight — you need to see the danger!",
+        "3": "Pupil dilation is a classic sign of sympathetic activation."
+      }
+    },
+    {
+      "q": "During fight-or-flight, what happens to the bronchioles (airways)?",
+      "options": [
+        "They constrict, making breathing harder",
+        "They dilate, making breathing easier",
+        "They close completely",
+        "No change"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Bronchioles DILATE during fight-or-flight (β2 receptors). Wider airways allow more air in and out, increasing oxygen delivery to muscles that are working hard.",
+      "wrongExplains": {
+        "0": "Constriction is parasympathetic. During stress, you need MORE air, not less.",
+        "2": "Closing airways would cause suffocation. The opposite happens — airways open wider.",
+        "3": "Bronchodilation is essential for meeting increased oxygen demands during stress."
+      }
+    },
+    {
+      "q": "During fight-or-flight, where is blood flow redirected?",
+      "options": [
+        "To the digestive system",
+        "Away from digestive organs and TO skeletal muscles",
+        "To the skin for warmth",
+        "Equally to all organs"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Blood is redirected FROM the gut TO the muscles. Digesting lunch can wait — escaping a predator cannot. Sympathetic activation constricts gut vessels (α1) and dilates muscle vessels (β2).",
+      "wrongExplains": {
+        "0": "The digestive system gets LESS blood during stress. Digestion is postponed.",
+        "2": "Skin blood vessels actually constrict during stress (that's why scared people look pale).",
+        "3": "Blood is specifically redirected to essential systems — muscles, heart, brain — not equally distributed."
+      }
+    },
+    {
+      "q": "During fight-or-flight, what happens to digestion?",
+      "options": [
+        "It speeds up dramatically",
+        "It slows down or stops",
+        "It continues normally",
+        "It reverses direction"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Digestion SLOWS or STOPS during fight-or-flight. Energy is redirected from processing food to survival functions. This is why stress can cause 'stomach upset' — the gut isn't working normally.",
+      "wrongExplains": {
+        "0": "Speeding up digestion is parasympathetic. Sympathetic suppresses digestive activity.",
+        "2": "Digestion definitely changes — the sympathetic system inhibits GI motility and secretion.",
+        "3": "Digestion slows but doesn't reverse. Food processing is simply put on hold."
+      }
+    },
+    {
+      "q": "During fight-or-flight, what happens to blood glucose levels?",
+      "options": [
+        "They decrease",
+        "They increase (glucose is released from storage)",
+        "They stay exactly the same",
+        "Glucose is not affected"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Blood glucose INCREASES during fight-or-flight. Epinephrine and sympathetic activation trigger glycogenolysis (glycogen → glucose) in the liver, providing fuel for muscles.",
+      "wrongExplains": {
+        "0": "Decreasing glucose would reduce energy for muscles. The body releases MORE glucose.",
+        "2": "Blood glucose definitely rises — it's needed to fuel the muscles for fighting or fleeing.",
+        "3": "Glucose metabolism is central to the fight-or-flight response — it provides energy for action."
+      }
+    },
+    {
+      "q": "Which of these is NOT a typical fight-or-flight response?",
+      "options": [
+        "Increased heart rate",
+        "Dilated pupils",
+        "Increased digestive activity",
+        "Bronchodilation"
+      ],
+      "answer": 2,
+      "difficulty": "foundation",
+      "explain": "INCREASED DIGESTIVE ACTIVITY is NOT fight-or-flight — that's a parasympathetic (rest-and-digest) response. During stress, digestion is INHIBITED, not enhanced.",
+      "wrongExplains": {
+        "0": "Increased heart rate IS a fight-or-flight response — the heart pumps faster to deliver more blood.",
+        "1": "Dilated pupils ARE part of fight-or-flight — wider pupils let in more light to see threats.",
+        "3": "Bronchodilation IS fight-or-flight — open airways allow more oxygen for active muscles."
+      }
+    },
+    {
+      "q": "What happens to sweating during fight-or-flight?",
+      "options": [
+        "Sweating stops completely",
+        "Sweating increases (to cool the body during exertion)",
+        "Sweating becomes oily",
+        "No change"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Sweating INCREASES during fight-or-flight. The sympathetic system activates sweat glands (using ACh, unusually) to cool the body in anticipation of intense physical activity.",
+      "wrongExplains": {
+        "0": "Sweating increases — you need cooling if you're about to run or fight.",
+        "2": "The type of sweat doesn't change character. It's the quantity that increases.",
+        "3": "Sweating definitely increases — that's why nervous people have 'sweaty palms.'"
+      }
     }
   ]
 }

@@ -3,84 +3,140 @@
   "parentQuestion": "Transduction refers to conversion of ___.",
   "scaffolds": [
     {
-      "q": "The nervous system uses electrical signals to transmit information.",
+      "q": "What type of signals does the nervous system use?",
       "options": [
-        "True",
-        "False"
+        "Sound waves directly",
+        "Electrical signals",
+        "Light beams",
+        "Radio waves"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Neurons communicate using electrical signals (action potentials and graded potentials). The brain only understands electrical language."
+      "explain": "Neurons communicate using ELECTRICAL SIGNALS (action potentials and graded potentials). The brain only understands ELECTRICAL language.",
+      "wrongExplains": {
+        "0": "Sound waves must be converted to electrical signals. The brain processes electricity.",
+        "2": "Light must be converted to electrical signals by photoreceptors.",
+        "3": "Radio waves aren't used by the nervous system. Neurons use electricity."
+      }
     },
     {
-      "q": "The world around you consists of different forms of energy - light, sound waves, pressure, chemicals, heat.",
+      "q": "What forms of energy exist in the environment?",
       "options": [
-        "True",
-        "False"
+        "Only one type of energy exists",
+        "Light, sound waves, pressure, chemicals, heat",
+        "The environment has no energy",
+        "Only electrical energy"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Different stimuli are different forms of energy. Light is electromagnetic waves. Sound is pressure waves. Touch is mechanical force."
+      "explain": "Different stimuli are different forms of energy. Light is electromagnetic waves. Sound is pressure waves. Touch is mechanical force. The world is energetically diverse.",
+      "wrongExplains": {
+        "0": "Multiple forms of energy exist — that's why we have different senses.",
+        "2": "The environment is full of various energy forms that we can sense.",
+        "3": "Many energy forms exist. They must be CONVERTED to electrical for the brain."
+      }
     },
     {
-      "q": "For your brain to understand a stimulus, it must be converted into electrical signals.",
+      "q": "What must happen for the brain to understand a stimulus?",
       "options": [
-        "True",
-        "False"
+        "Nothing — the brain understands all stimuli directly",
+        "The stimulus must be converted into electrical signals",
+        "The brain ignores all stimuli",
+        "The stimulus must be amplified by sound"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Your brain doesn't process light or sound directly. It processes electrical signals. Sensory receptors translate the world into electricity."
+      "explain": "Your brain doesn't process light or sound DIRECTLY. It processes ELECTRICAL SIGNALS. Sensory receptors TRANSLATE the world into electricity.",
+      "wrongExplains": {
+        "0": "The brain only understands electricity. All stimuli must be converted.",
+        "2": "The brain definitely processes stimuli — after they're converted to electricity.",
+        "3": "All senses require electrical conversion, not sound amplification."
+      }
     },
     {
-      "q": "Transduction is the process of converting stimulus energy into electrical signals.",
+      "q": "What is transduction?",
       "options": [
-        "True",
-        "False"
+        "Moving signals from one brain area to another",
+        "Converting stimulus energy into electrical signals",
+        "Breaking down chemicals",
+        "Muscle contraction"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Transduction is the fundamental translation step. Physical stimulus → electrical potential. It's how the nervous system 'hears' the world."
+      "explain": "TRANSDUCTION is the fundamental TRANSLATION step. Physical stimulus → electrical potential. It's how the nervous system 'hears' the world.",
+      "wrongExplains": {
+        "0": "Moving signals within the brain is transmission. Transduction is the initial conversion.",
+        "2": "Chemical breakdown is metabolism. Transduction is energy conversion to electricity.",
+        "3": "Muscle contraction is a motor response. Transduction is sensory conversion."
+      }
     },
     {
-      "q": "A graded potential is an electrical signal that varies in strength with stimulus intensity.",
+      "q": "What is a graded potential?",
       "options": [
-        "True",
-        "False"
+        "An all-or-nothing signal",
+        "An electrical signal that varies in strength with stimulus intensity",
+        "A type of hormone",
+        "A muscle fiber"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Stronger stimulus = larger graded potential. Weaker stimulus = smaller graded potential. It's like a volume knob, not an on/off switch."
+      "explain": "A GRADED POTENTIAL varies in strength. STRONGER stimulus = LARGER potential. Weaker stimulus = smaller potential. It's like a volume knob, not an on/off switch.",
+      "wrongExplains": {
+        "0": "All-or-nothing describes action potentials. Graded potentials vary in size.",
+        "2": "Hormones are chemical messengers. Graded potentials are electrical changes.",
+        "3": "Muscle fibers are contractile. Graded potentials are electrical signals."
+      }
     },
     {
-      "q": "The receptor potential (or generator potential) is the graded electrical change produced by transduction.",
+      "q": "What is the receptor potential (generator potential)?",
       "options": [
-        "True",
-        "False"
+        "A type of action potential",
+        "The graded electrical change produced by transduction",
+        "A hormone secretion",
+        "A muscle movement"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! When transduction happens, the result is a receptor potential - a graded change in voltage that represents stimulus intensity."
+      "explain": "When transduction happens, the result is a RECEPTOR POTENTIAL — a GRADED change in voltage that represents stimulus intensity.",
+      "wrongExplains": {
+        "0": "Action potentials are all-or-nothing. Receptor potentials are graded.",
+        "2": "Hormones are chemical. Receptor potentials are electrical.",
+        "3": "Movement is motor output. Receptor potentials are sensory input signals."
+      }
     },
     {
-      "q": "Without transduction, you couldn't see, hear, feel, smell, or taste anything.",
+      "q": "What would happen without transduction?",
       "options": [
-        "True",
-        "False"
+        "You could still see and hear normally",
+        "You couldn't see, hear, feel, smell, or taste anything",
+        "Only vision would be affected",
+        "Transduction isn't important"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Every sensation depends on transduction. No conversion to electrical signals = no perception. Transduction is the foundation of all sensation."
+      "explain": "EVERY SENSATION depends on transduction. No conversion to electrical signals = NO PERCEPTION. Transduction is the foundation of ALL sensation.",
+      "wrongExplains": {
+        "0": "Without transduction, no sensory information reaches the brain.",
+        "2": "All senses require transduction, not just vision.",
+        "3": "Transduction is absolutely critical for all sensation."
+      }
     },
     {
-      "q": "Transduction converts stimulus energy into a graded (receptor) potential.",
+      "q": "What does transduction produce?",
       "options": [
-        "True",
-        "False"
+        "A hormone",
+        "A graded (receptor) potential",
+        "A bone",
+        "A muscle"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Light → receptor potential in photoreceptors. Pressure → receptor potential in mechanoreceptors. Every sensory modality uses transduction."
+      "explain": "Transduction converts stimulus energy into a GRADED (RECEPTOR) POTENTIAL. Light → receptor potential in photoreceptors. Pressure → receptor potential in mechanoreceptors.",
+      "wrongExplains": {
+        "0": "Hormones are produced by glands. Transduction produces electrical potentials.",
+        "2": "Bones are structural tissue. Transduction produces electrical signals.",
+        "3": "Muscles are contractile tissue. Transduction produces receptor potentials."
+      }
     },
     {
       "q": "Transduction refers to conversion of ___.",
@@ -92,7 +148,12 @@
       ],
       "answer": 0,
       "difficulty": "intermediate",
-      "explain": "Stimulus energy into a graded (receptor) potential! Transduction is the translation from physical world (pressure, light, chemicals) to electrical language (voltage changes)."
+      "explain": "STIMULUS ENERGY into a GRADED (receptor) POTENTIAL! Transduction is the translation from physical world (pressure, light, chemicals) to electrical language (voltage changes).",
+      "wrongExplains": {
+        "1": "Afferent/efferent describes direction. Transduction is the conversion process itself.",
+        "2": "Pre/postsynaptic describes synaptic transmission. Transduction is energy conversion.",
+        "3": "This is backwards. Transduction converts stimulus TO receptor potential."
+      }
     }
   ]
 }

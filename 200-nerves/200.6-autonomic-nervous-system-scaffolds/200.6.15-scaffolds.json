@@ -3,24 +3,157 @@
   "parentQuestion": "Which of the following correctly describes the muscarinic receptor?",
   "scaffolds": [
     {
-      "q": "G-protein coupled receptors use second messengers to produce their effects.",
+      "q": "Muscarinic receptors bind which neurotransmitter?",
       "options": [
-        "True",
-        "False"
+        "Norepinephrine",
+        "Acetylcholine (ACh)",
+        "Dopamine",
+        "Serotonin"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "GPCRs activate intracellular G-proteins when ligands bind. These G-proteins then modulate enzymes (like adenylyl cyclase or phospholipase C) that produce second messengers (cAMP, IP3, DAG). this cascade amplifies the signal and allows diverse cellular responses. Slower but more versatile than ion channels."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Muscarinic receptors bind ACETYLCHOLINE. They're one of the two main types of cholinergic receptors (the other being nicotinic). The name comes from muscarine, a mushroom toxin that activates them.",
+      "wrongExplains": {
+        "0": "Norepinephrine binds to ADRENERGIC receptors (alpha and beta), not muscarinic.",
+        "2": "Dopamine has its own receptor family. Muscarinic receptors specifically bind ACh.",
+        "3": "Serotonin has its own receptor family. Muscarinic receptors are cholinergic (for ACh)."
+      }
     },
     {
-      "q": "Muscarine is a toxin from certain mushrooms that mimics acetylcholine effects.",
+      "q": "What type of receptor is a muscarinic receptor?",
       "options": [
-        "True",
-        "False"
+        "Ligand-gated ion channel",
+        "G-protein coupled receptor (GPCR)",
+        "Enzyme-linked receptor",
+        "Nuclear receptor"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Muscarine from Amanita muscaria mushrooms activates the same receptors as ACh at parasympathetic targets. mushroom poisoning produces parasympathetic overactivation: salivation, lacrimation, urination, defecation (SLUD). The receptor was named after this toxin. Invite this in:the pharmacological history."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Muscarinic receptors are G-PROTEIN COUPLED RECEPTORS (GPCRs). When ACh binds, it activates intracellular G-proteins that trigger second messenger cascades, producing slower but more diverse effects.",
+      "wrongExplains": {
+        "0": "Ligand-gated ion channels describes NICOTINIC receptors. Muscarinic are GPCRs.",
+        "2": "Enzyme-linked receptors are a different family. Muscarinic are specifically G-protein coupled.",
+        "3": "Nuclear receptors bind hormones like steroids. Muscarinic are membrane GPCRs."
+      }
+    },
+    {
+      "q": "How does a G-protein coupled receptor (like muscarinic) produce its effects?",
+      "options": [
+        "By directly opening an ion channel",
+        "By activating G-proteins that trigger second messenger cascades",
+        "By entering the cell nucleus",
+        "By blocking all cell activity"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "GPCRs activate intracellular G-PROTEINS when ACh binds. These G-proteins then modulate enzymes that produce SECOND MESSENGERS (like cAMP, IP3, DAG), which trigger cellular responses.",
+      "wrongExplains": {
+        "0": "Direct ion channel opening is how NICOTINIC receptors work. Muscarinic use second messengers.",
+        "2": "GPCRs are membrane receptors that signal from outside the cell. Nuclear receptors enter the nucleus.",
+        "3": "GPCRs activate specific cellular responses, not block all activity."
+      }
+    },
+    {
+      "q": "Compare: Nicotinic receptors are fast; muscarinic receptors are ___.",
+      "options": [
+        "Even faster",
+        "Slower but with more varied effects",
+        "Identical in speed",
+        "Inactive"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Muscarinic responses are SLOWER because they use second messenger cascades (taking hundreds of milliseconds to seconds). However, this allows more VARIED effects than just opening an ion channel.",
+      "wrongExplains": {
+        "0": "Nicotinic are faster because they're ion channels. Muscarinic second messenger systems take longer.",
+        "2": "They differ significantly — nicotinic is milliseconds, muscarinic is hundreds of milliseconds to seconds.",
+        "3": "Muscarinic receptors are definitely active and produce important parasympathetic effects."
+      }
+    },
+    {
+      "q": "Where are muscarinic receptors primarily found?",
+      "options": [
+        "At autonomic ganglia",
+        "At parasympathetic target organs (heart, smooth muscle, glands)",
+        "At the neuromuscular junction",
+        "Only in the brain"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Muscarinic receptors are at PARASYMPATHETIC TARGET ORGANS — the heart (M2 subtype), smooth muscle, and glands (M3 subtype). They receive ACh from parasympathetic postganglionic neurons.",
+      "wrongExplains": {
+        "0": "Ganglia use NICOTINIC receptors for fast transmission. Muscarinic are at target organs.",
+        "2": "The neuromuscular junction uses nicotinic receptors. Muscarinic are at autonomic targets.",
+        "3": "Muscarinic receptors are in the brain AND at peripheral parasympathetic targets."
+      }
+    },
+    {
+      "q": "How did muscarinic receptors get their name?",
+      "options": [
+        "After a scientist named Muscarine",
+        "After muscarine, a toxin from certain mushrooms that activates them",
+        "After a muscle they affect",
+        "Random naming"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Muscarine is a toxin from Amanita muscaria mushrooms. It activates these receptors just like ACh does. Scientists named the receptor after the toxin that helped identify it.",
+      "wrongExplains": {
+        "0": "There's no scientist named Muscarine. The name comes from a mushroom toxin.",
+        "2": "The name comes from muscarine (toxin), not from muscles.",
+        "3": "The naming has a clear origin — the mushroom toxin muscarine."
+      }
+    },
+    {
+      "q": "What happens in muscarinic receptor poisoning (e.g., from eating certain mushrooms)?",
+      "options": [
+        "Sympathetic overactivation",
+        "Parasympathetic overactivation: salivation, lacrimation, urination, defecation (SLUD)",
+        "No symptoms",
+        "Only affects skeletal muscles"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Muscarine overstimulates parasympathetic targets, causing SLUDGE symptoms: Salivation, Lacrimation, Urination, Defecation, GI distress, Emesis. Everything parasympathetic goes into overdrive.",
+      "wrongExplains": {
+        "0": "Muscarinic receptors are parasympathetic, not sympathetic. Muscarine causes parasympathetic overactivation.",
+        "2": "Mushroom poisoning has significant symptoms — massive parasympathetic activation.",
+        "3": "Muscarinic receptors don't affect skeletal muscle. They affect smooth muscle, glands, and the heart."
+      }
+    },
+    {
+      "q": "There are different subtypes of muscarinic receptors (M1, M2, M3, etc.). Where is M2 primarily found?",
+      "options": [
+        "In skeletal muscle",
+        "In the heart",
+        "In the eyes only",
+        "In blood vessels"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "M2 receptors are primarily in the HEART. Activation of M2 by ACh slows heart rate. M3 receptors are on smooth muscle and glands. Different subtypes allow tissue-specific effects.",
+      "wrongExplains": {
+        "0": "Skeletal muscle has nicotinic receptors. M2 muscarinic receptors are primarily in the heart.",
+        "2": "The eye has muscarinic receptors for pupil constriction, but M2 is specifically cardiac.",
+        "3": "Blood vessels have limited parasympathetic innervation. M2 is the cardiac muscarinic subtype."
+      }
+    },
+    {
+      "q": "A drug that blocks muscarinic receptors (antimuscarinic) would cause ___.",
+      "options": [
+        "Increased parasympathetic effects",
+        "Decreased parasympathetic effects (sympathetic-like symptoms)",
+        "No change",
+        "Paralysis"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Blocking muscarinic receptors DECREASES parasympathetic effects. With parasympathetic blocked, sympathetic dominates — causing increased heart rate, dry mouth, dilated pupils, constipation.",
+      "wrongExplains": {
+        "0": "Blocking receptors reduces effects, not increases them.",
+        "2": "Blocking parasympathetic receptors definitely changes body function — sympathetic dominates.",
+        "3": "Muscarinic receptors don't affect skeletal muscle. Antimuscarinics cause autonomic changes, not paralysis."
+      }
     }
   ]
 }

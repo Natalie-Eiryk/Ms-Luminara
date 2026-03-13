@@ -1,26 +1,159 @@
 {
   "parentId": "200.6.19",
-  "parentQuestion": "An asthmatic patient is started on propranolol (non-selective β-blocker) for hyp...",
+  "parentQuestion": "An asthmatic patient is started on propranolol (non-selective β-blocker) for hypertension. Their asthma worsens significantly. Why?",
   "scaffolds": [
     {
-      "q": "β2 receptors on bronchial smooth muscle mediate bronchodilation.",
+      "q": "What are β-blockers used for?",
       "options": [
-        "True",
-        "False"
+        "Treating infections",
+        "Treating hypertension, heart conditions, and anxiety (blocking sympathetic effects)",
+        "Treating asthma",
+        "Treating diabetes"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Sympathetic activation and circulating epinephrine relax bronchial smooth muscle via β2 receptors, opening the airways. this is why β2 agonists (albuterol) are rescue medications for asthma. The β2 receptor keeps airways open. Block it, and they close."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "β-BLOCKERS block beta-adrenergic receptors, reducing sympathetic effects on the heart (slower rate, lower BP) and other tissues. Common uses include hypertension, angina, arrhythmias, and anxiety.",
+      "wrongExplains": {
+        "0": "Antibiotics treat infections. β-blockers affect the cardiovascular system.",
+        "2": "β-blockers can actually WORSEN asthma, not treat it. This question is about that problem.",
+        "3": "Diabetes is treated with insulin or oral medications. β-blockers affect the heart."
+      }
     },
     {
-      "q": "β-blockers can have different selectivity for β1 versus β2 receptor subtypes.",
+      "q": "What do β1 receptors primarily control?",
       "options": [
-        "True",
-        "False"
+        "Bronchial smooth muscle",
+        "Heart rate and contractility",
+        "Pupil size",
+        "Digestion"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Non-selective β-blockers (propranolol, nadolol) block BOTH β1 and β2. Cardioselective β-blockers (metoprolol, atenolol) preferentially block β1. this selectivity matters when patients have both cardiac disease AND pulmonary disease. Choose the wrong drug, and you harm the lungs trying to help the heart."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "β1 receptors are primarily in the HEART. Blocking them reduces heart rate and contractility — the therapeutic effect for hypertension and heart conditions.",
+      "wrongExplains": {
+        "0": "Bronchial smooth muscle has β2 receptors, not β1.",
+        "2": "Pupil size is controlled by α1 (dilation) and muscarinic receptors (constriction).",
+        "3": "Digestion is controlled by parasympathetic muscarinic receptors."
+      }
+    },
+    {
+      "q": "What do β2 receptors primarily control?",
+      "options": [
+        "Heart rate only",
+        "Bronchial smooth muscle (airways) and some blood vessels",
+        "Skeletal muscle movement",
+        "Hearing"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "β2 receptors are in BRONCHIAL smooth muscle and some blood vessels. Stimulating β2 causes bronchodilation (airways open). Blocking β2 allows bronchoconstriction.",
+      "wrongExplains": {
+        "0": "Heart rate is primarily β1. β2 is mainly in airways and blood vessels.",
+        "2": "Skeletal muscle is controlled by somatic nerves. β2 affects smooth muscle.",
+        "3": "Hearing uses CN VIII. β2 receptors affect airways and vessels."
+      }
+    },
+    {
+      "q": "What happens to airways when β2 receptors are stimulated?",
+      "options": [
+        "Bronchoconstriction (airways narrow)",
+        "Bronchodilation (airways widen)",
+        "No effect on airways",
+        "Airways close completely"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "β2 stimulation causes BRONCHODILATION — airways widen. This is why β2 agonists (like albuterol) are rescue medications for asthma — they open the airways.",
+      "wrongExplains": {
+        "0": "Bronchoconstriction is what happens when β2 is BLOCKED, not stimulated.",
+        "2": "β2 stimulation definitely affects airways — it opens them.",
+        "3": "β2 stimulation opens airways, it doesn't close them."
+      }
+    },
+    {
+      "q": "Propranolol is a 'non-selective' β-blocker. What does this mean?",
+      "options": [
+        "It only blocks β1 receptors",
+        "It blocks BOTH β1 AND β2 receptors",
+        "It doesn't block any receptors",
+        "It only blocks β2 receptors"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "NON-SELECTIVE means propranolol blocks BOTH β1 AND β2 receptors. It doesn't discriminate between subtypes. This affects both heart (β1) and airways (β2).",
+      "wrongExplains": {
+        "0": "Blocking only β1 would be 'cardioselective.' Propranolol is non-selective.",
+        "2": "Propranolol definitely blocks receptors — that's how it works.",
+        "3": "Blocking only β2 would be unusual. Propranolol blocks both β1 and β2."
+      }
+    },
+    {
+      "q": "When β2 receptors in the airways are blocked, what happens?",
+      "options": [
+        "Airways dilate (open wider)",
+        "Airways constrict (narrow)",
+        "Airways are unaffected",
+        "Airways disappear"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Blocking β2 removes the bronchodilating influence, allowing airways to CONSTRICT. For asthma patients, this can trigger a severe attack — their already-sensitive airways narrow further.",
+      "wrongExplains": {
+        "0": "Dilation requires β2 activation. Blocking β2 allows constriction.",
+        "2": "Airways are definitely affected — blocking β2 allows bronchoconstriction.",
+        "3": "Airways don't disappear; they constrict when β2 is blocked."
+      }
+    },
+    {
+      "q": "Why is giving propranolol to an asthmatic patient dangerous?",
+      "options": [
+        "It helps their asthma",
+        "Blocking β2 receptors causes bronchoconstriction, worsening asthma",
+        "It has no effect on breathing",
+        "Propranolol is perfectly safe in asthma"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Asthmatic airways are already hyperreactive. Blocking β2 removes the bronchodilating influence, causing BRONCHOCONSTRICTION that can trigger a severe asthma attack.",
+      "wrongExplains": {
+        "0": "Propranolol worsens asthma by blocking β2-mediated bronchodilation.",
+        "2": "There IS a significant effect — dangerous bronchoconstriction.",
+        "3": "Non-selective β-blockers are CONTRAINDICATED in asthma due to bronchoconstriction risk."
+      }
+    },
+    {
+      "q": "What type of β-blocker would be safer for a hypertensive patient with asthma?",
+      "options": [
+        "Non-selective β-blockers like propranolol",
+        "Cardioselective β-blockers like metoprolol (preferentially block β1)",
+        "No β-blocker is ever safe",
+        "It doesn't matter which type"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "CARDIOSELECTIVE β-blockers (metoprolol, atenolol) preferentially block β1 (heart) over β2 (airways). They're safer in asthma because they spare airway β2 receptors.",
+      "wrongExplains": {
+        "0": "Non-selective blockers like propranolol are dangerous in asthma — they block β2.",
+        "2": "Cardioselective β-blockers are generally safe in asthma when needed for cardiac conditions.",
+        "3": "Selectivity matters greatly — it's the difference between safe and dangerous."
+      }
+    },
+    {
+      "q": "Summary: This case teaches that drug selectivity matters because ___.",
+      "options": [
+        "All receptors do the same thing",
+        "Different receptor subtypes (β1 vs β2) control different organs",
+        "Drugs always affect only one organ",
+        "Receptor subtypes don't exist"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "β1 and β2 have different tissue distributions: β1 in heart, β2 in airways. A drug that blocks both affects both organs. Selective drugs can target one while sparing the other.",
+      "wrongExplains": {
+        "0": "β1 and β2 have different effects — that's why selectivity matters.",
+        "2": "Non-selective drugs affect multiple organs. That's the problem here.",
+        "3": "Receptor subtypes definitely exist and have clinical importance."
+      }
     }
   ]
 }

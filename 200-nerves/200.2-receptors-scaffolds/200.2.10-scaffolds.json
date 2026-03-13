@@ -3,87 +3,143 @@
   "parentQuestion": "A patient cannot detect vibration from a tuning fork placed on their ankle but can still detect it on their knee. Light touch is intact at both locations. Which receptor type is selectively impaired?",
   "scaffolds": [
     {
-      "q": "Different mechanoreceptors detect different types of touch.",
+      "q": "Do different mechanoreceptors detect different types of touch?",
       "options": [
-        "True",
-        "False"
+        "No, all touch receptors are identical",
+        "Yes, different receptors detect light touch vs vibration",
+        "Mechanoreceptors don't exist",
+        "Only one type of touch exists"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Light touch is detected by Meissner's corpuscles and Merkel discs. Vibration is detected by Pacinian corpuscles. Different receptors, different jobs."
+      "explain": "Light touch is detected by MEISSNER'S CORPUSCLES and MERKEL DISCS. Vibration is detected by PACINIAN CORPUSCLES. Different receptors, different jobs.",
+      "wrongExplains": {
+        "0": "Touch receptors are specialized. Each type detects specific stimuli.",
+        "2": "Mechanoreceptors definitely exist — they detect all mechanical stimuli.",
+        "3": "Many types of touch exist: light, deep pressure, vibration, etc."
+      }
     },
     {
-      "q": "Pacinian corpuscles detect vibration (like from a tuning fork).",
+      "q": "What do Pacinian corpuscles detect?",
       "options": [
-        "True",
-        "False"
+        "Only temperature",
+        "Vibration (like from a tuning fork)",
+        "Only pain",
+        "Only light touch"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Pacinian corpuscles are deep, encapsulated receptors that respond to high-frequency vibration (40-400 Hz)."
+      "explain": "PACINIAN CORPUSCLES are deep, encapsulated receptors that respond to HIGH-FREQUENCY VIBRATION (40-400 Hz). A tuning fork test specifically targets them.",
+      "wrongExplains": {
+        "0": "Temperature is detected by thermoreceptors. Pacinian detect vibration.",
+        "2": "Pain is detected by nociceptors. Pacinian detect vibration.",
+        "3": "Light touch is detected by Meissner's and Merkel's. Pacinian detect vibration."
+      }
     },
     {
-      "q": "Meissner's corpuscles and Merkel discs detect light touch.",
+      "q": "What do Meissner's corpuscles and Merkel discs detect?",
       "options": [
-        "True",
-        "False"
+        "Only vibration",
+        "Light touch and texture",
+        "Only deep pressure",
+        "Only pain"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! These superficial receptors detect light touch and texture. They're sensitive to gentle pressure."
+      "explain": "These SUPERFICIAL receptors detect LIGHT TOUCH and texture. They're sensitive to gentle pressure on the skin surface.",
+      "wrongExplains": {
+        "0": "Vibration is detected by Pacinian corpuscles. These detect light touch.",
+        "2": "Deep pressure activates Pacinian. Meissner's and Merkel's are superficial.",
+        "3": "Pain is detected by nociceptors. These detect gentle touch."
+      }
     },
     {
-      "q": "Vibration and light touch can be affected separately because they use different receptors.",
+      "q": "Can vibration and light touch be affected separately?",
       "options": [
-        "True",
-        "False"
+        "No, they're always affected together",
+        "Yes, because they use different receptors",
+        "Touch sensations can't be separated",
+        "Neither can be affected by disease"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Disease can damage one type of receptor or pathway while sparing others. This is called dissociated sensory loss."
+      "explain": "Disease can damage ONE type of receptor or pathway while SPARING others. This is called DISSOCIATED SENSORY LOSS — selective damage.",
+      "wrongExplains": {
+        "0": "Different receptors can be selectively damaged by disease.",
+        "2": "Touch modalities use different receptors and can be separately affected.",
+        "3": "Disease definitely affects touch sensation, sometimes selectively."
+      }
     },
     {
-      "q": "In early neuropathy, vibration sense often fails before light touch.",
+      "q": "In early neuropathy, does vibration or light touch fail first?",
       "options": [
-        "True",
-        "False"
+        "Light touch always fails first",
+        "Vibration sense often fails before light touch",
+        "They always fail together",
+        "Neither ever fails"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Pacinian corpuscles (vibration) may be more vulnerable than light touch receptors. Vibration loss is an early sign of nerve damage."
+      "explain": "PACINIAN CORPUSCLES (vibration) may be more vulnerable than light touch receptors. VIBRATION LOSS is an early sign of nerve damage.",
+      "wrongExplains": {
+        "0": "Vibration often fails first. Light touch may be preserved longer.",
+        "2": "They can fail at different rates due to receptor vulnerability differences.",
+        "3": "Neuropathy definitely causes sensory loss, often vibration first."
+      }
     },
     {
-      "q": "Testing vibration at different body locations can map the progression of nerve damage.",
+      "q": "Why is testing vibration at different locations useful?",
       "options": [
-        "True",
-        "False"
+        "It's not useful",
+        "It maps the progression of nerve damage",
+        "It only tests hearing",
+        "It measures blood pressure"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Lost at ankle but present at knee? The damage reaches up to ankle level. A tuning fork becomes a diagnostic mapping tool."
+      "explain": "Lost at ankle but present at knee? The damage reaches UP TO ankle level. A tuning fork becomes a DIAGNOSTIC MAPPING TOOL for neuropathy.",
+      "wrongExplains": {
+        "0": "Location testing is very useful for mapping nerve damage.",
+        "2": "Tuning forks on skin test vibration sense, not hearing.",
+        "3": "Blood pressure uses a cuff. Vibration tests use a tuning fork."
+      }
     },
     {
-      "q": "The patient's preserved light touch but lost vibration indicates selective damage to vibration-sensing receptors.",
+      "q": "What does preserved light touch but lost vibration indicate?",
       "options": [
-        "True",
-        "False"
+        "All receptors are equally damaged",
+        "Selective damage to vibration-sensing receptors",
+        "The patient is fine",
+        "Only motor nerves are damaged"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Different receptors, different fates. Pacinian corpuscles are damaged while light touch receptors survive."
+      "explain": "Different receptors, different fates. PACINIAN CORPUSCLES are damaged while LIGHT TOUCH RECEPTORS survive. This is selective receptor damage.",
+      "wrongExplains": {
+        "0": "The preserved light touch shows receptors are NOT equally damaged.",
+        "2": "Lost vibration sense indicates pathology, not normalcy.",
+        "3": "This is sensory receptor damage, not motor."
+      }
     },
     {
-      "q": "Selective loss of vibration with preserved light touch indicates Pacinian corpuscle impairment.",
+      "q": "What does selective loss of vibration with preserved light touch indicate?",
       "options": [
-        "True",
-        "False"
+        "Meissner's corpuscle damage",
+        "Pacinian corpuscle impairment",
+        "Complete nerve transection",
+        "Brain damage"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Pacinian corpuscles detect vibration. When they fail, vibration sense is lost while light touch (different receptors) remains."
+      "explain": "PACINIAN CORPUSCLES detect vibration. When they fail, VIBRATION SENSE is lost while LIGHT TOUCH (different receptors) remains intact.",
+      "wrongExplains": {
+        "0": "Meissner's damage would affect light touch. Light touch is preserved here.",
+        "2": "Complete transection would affect ALL sensations. This is selective.",
+        "3": "Brain damage would cause different patterns. This is receptor-level."
+      }
     },
     {
-      "q": "The receptor type selectively impaired is the ___.",
+      "q": "Which receptor type is selectively impaired in this patient?",
       "options": [
         "Free nerve endings",
         "Meissner's corpuscles",
@@ -92,7 +148,12 @@
       ],
       "answer": 2,
       "difficulty": "intermediate",
-      "explain": "Pacinian corpuscles! These detect vibration. Lost vibration + preserved light touch = selective Pacinian damage."
+      "explain": "PACINIAN CORPUSCLES! These detect vibration. Lost vibration + preserved light touch = SELECTIVE PACINIAN DAMAGE.",
+      "wrongExplains": {
+        "0": "Free nerve endings detect pain. This patient has vibration loss.",
+        "1": "Meissner's corpuscles detect light touch, which is preserved.",
+        "3": "Merkel discs detect sustained touch, which is preserved."
+      }
     }
   ]
 }

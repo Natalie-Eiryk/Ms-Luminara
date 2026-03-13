@@ -1,26 +1,159 @@
 {
   "parentId": "200.6.22",
-  "parentQuestion": "A patient develops severe bradycardia (heart rate 35 bpm) and hypotension after ...",
+  "parentQuestion": "A patient develops severe bradycardia (heart rate 35 bpm) and hypotension after receiving too much neostigmine. Atropine is given as an antidote because it ___.",
   "scaffolds": [
     {
-      "q": "The vagus nerve releases ACh onto M2 receptors in the heart to slow heart rate.",
+      "q": "What is neostigmine?",
       "options": [
-        "True",
-        "False"
+        "A muscarinic blocker",
+        "An acetylcholinesterase inhibitor (increases ACh levels)",
+        "A β-blocker",
+        "An antibiotic"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Parasympathetic control of the heart is via the vagus nerve. ACh binding to M2 receptors in the SA and AV nodes hyperpolarizes the cells and slows pacemaker firing. This is the 'rest and digest' brake on your heart. Remove it, and the heart speeds up."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Neostigmine INHIBITS acetylcholinesterase, the enzyme that breaks down ACh. This causes ACh to accumulate, increasing cholinergic (both muscarinic and nicotinic) effects.",
+      "wrongExplains": {
+        "0": "Neostigmine increases ACh activity; it doesn't block muscarinic receptors. Atropine does that.",
+        "2": "β-blockers affect adrenergic receptors. Neostigmine affects the cholinergic system.",
+        "3": "Antibiotics treat infections. Neostigmine is a cholinesterase inhibitor."
+      }
     },
     {
-      "q": "Atropine is a muscarinic receptor antagonist (blocker).",
+      "q": "What happens when ACh levels increase excessively?",
       "options": [
-        "True",
-        "False"
+        "Only sympathetic effects",
+        "Excessive parasympathetic effects (via muscarinic receptors)",
+        "No effects",
+        "Only effects on bone"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Atropine competitively blocks muscarinic cholinergic receptors throughout the body. it prevents ACh from binding, effectively shutting down parasympathetic effects at target organs. Surrender to the logic here:the molecular blockade."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Excess ACh overstimulates MUSCARINIC receptors at parasympathetic targets: heart slows dramatically (bradycardia), secretions increase, GI activity increases, airways may constrict.",
+      "wrongExplains": {
+        "0": "ACh excess primarily affects parasympathetic targets (muscarinic) and ganglia (nicotinic).",
+        "2": "There are significant effects — that's why it's dangerous.",
+        "3": "ACh affects muscle and glands, not bone."
+      }
+    },
+    {
+      "q": "Why does neostigmine overdose cause bradycardia?",
+      "options": [
+        "It blocks the heart",
+        "Excess ACh overstimulates M2 muscarinic receptors, slowing the heart",
+        "It speeds up the heart first",
+        "The heart is unaffected"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Excess ACh binds M2 MUSCARINIC receptors in the heart's SA and AV nodes, causing severe BRADYCARDIA. The vagal effect is massively amplified.",
+      "wrongExplains": {
+        "0": "The heart isn't blocked — it's slowed by excessive parasympathetic stimulation.",
+        "2": "It slows the heart immediately via muscarinic receptors, not speeds it up.",
+        "3": "The heart is definitely affected — bradycardia is a hallmark of cholinergic toxicity."
+      }
+    },
+    {
+      "q": "The patient also has hypotension. Why?",
+      "options": [
+        "Blood pressure increases with cholinergic toxicity",
+        "Vasodilation and cardiac depression from muscarinic overstimulation",
+        "The kidneys fail",
+        "Blood pressure is unaffected"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Muscarinic overstimulation can cause vasodilation (via endothelial M3 receptors → NO release) and reduced cardiac output (bradycardia + reduced contractility), leading to HYPOTENSION.",
+      "wrongExplains": {
+        "0": "Cholinergic toxicity typically lowers blood pressure, not raises it.",
+        "2": "The kidney is not the primary issue. The problem is cardiovascular depression.",
+        "3": "Blood pressure is definitely affected — hypotension is a major concern."
+      }
+    },
+    {
+      "q": "What is atropine?",
+      "options": [
+        "A cholinesterase inhibitor",
+        "A muscarinic receptor blocker (antagonist)",
+        "A β-agonist",
+        "A vitamin"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "ATROPINE is a MUSCARINIC RECEPTOR BLOCKER. It competitively binds to muscarinic receptors without activating them, blocking the effects of ACh.",
+      "wrongExplains": {
+        "0": "Cholinesterase inhibitors (like neostigmine) cause the problem. Atropine blocks the receptors.",
+        "2": "β-agonists affect adrenergic receptors. Atropine blocks muscarinic cholinergic receptors.",
+        "3": "Vitamins are nutrients. Atropine is a drug that blocks muscarinic receptors."
+      }
+    },
+    {
+      "q": "How does atropine reverse neostigmine toxicity?",
+      "options": [
+        "It destroys ACh",
+        "It blocks muscarinic receptors, preventing excess ACh from having effects",
+        "It stimulates sympathetic nerves",
+        "It has no effect on the heart"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Atropine BLOCKS muscarinic receptors. Even though ACh levels are high (from neostigmine), ACh can't activate receptors that are blocked by atropine. The parasympathetic effects are reversed.",
+      "wrongExplains": {
+        "0": "Atropine doesn't destroy ACh — it blocks the receptors ACh would bind to.",
+        "2": "Atropine blocks parasympathetic receptors rather than stimulating sympathetic nerves.",
+        "3": "Atropine has significant cardiac effects — it speeds up the heart by blocking vagal influence."
+      }
+    },
+    {
+      "q": "After atropine administration, what happens to heart rate?",
+      "options": [
+        "Heart rate decreases further",
+        "Heart rate increases as vagal (muscarinic) braking is blocked",
+        "Heart rate stays at 35 bpm",
+        "The heart stops"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Blocking muscarinic receptors removes the excessive vagal braking. Heart rate INCREASES back toward normal as the parasympathetic influence is blocked.",
+      "wrongExplains": {
+        "0": "Decreasing would require more cholinergic activity. Atropine reverses this.",
+        "2": "Heart rate should increase as the muscarinic blockade takes effect.",
+        "3": "Atropine is life-saving — it restores heart rate, not stops the heart."
+      }
+    },
+    {
+      "q": "Atropine also causes dry mouth. Why?",
+      "options": [
+        "It stimulates salivary glands",
+        "It blocks muscarinic receptors on salivary glands, reducing secretion",
+        "It causes dehydration",
+        "It has no effect on salivation"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Blocking muscarinic receptors on salivary glands reduces saliva production. This 'side effect' (dry mouth) is actually a sign that atropine is working — muscarinic receptors are being blocked.",
+      "wrongExplains": {
+        "0": "Atropine blocks salivary gland receptors, reducing secretion. It doesn't stimulate them.",
+        "2": "The dry mouth is from receptor blockade, not fluid loss.",
+        "3": "Atropine definitely affects salivation — dry mouth is a classic antimuscarinic effect."
+      }
+    },
+    {
+      "q": "Summary: Atropine is the antidote for neostigmine overdose because it ___.",
+      "options": [
+        "Increases ACh levels further",
+        "Blocks muscarinic receptors, preventing ACh from overstimulating parasympathetic targets",
+        "Destroys neostigmine",
+        "Has no effect on the cholinergic system"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Atropine competitively BLOCKS MUSCARINIC RECEPTORS. This prevents the accumulated ACh (from neostigmine inhibiting breakdown) from overstimulating parasympathetic target organs.",
+      "wrongExplains": {
+        "0": "Increasing ACh would worsen the problem. Atropine blocks the receptors ACh binds to.",
+        "2": "Atropine doesn't destroy neostigmine — it blocks the receptors where ACh acts.",
+        "3": "Atropine has major effects on the cholinergic system — it blocks muscarinic receptors."
+      }
     }
   ]
 }

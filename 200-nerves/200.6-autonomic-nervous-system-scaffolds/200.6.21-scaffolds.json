@@ -1,26 +1,159 @@
 {
   "parentId": "200.6.21",
-  "parentQuestion": "A 28-year-old woman presents to the ER after eating wild mushrooms. She has prof...",
+  "parentQuestion": "A 28-year-old woman presents to the ER after eating wild mushrooms. She has profuse salivation, lacrimation, diarrhea, and bradycardia. This is ___.",
   "scaffolds": [
     {
-      "q": "Muscarine is a toxin from certain mushrooms that mimics acetylcholine at muscarinic receptors.",
+      "q": "What is muscarine?",
       "options": [
-        "True",
-        "False"
+        "A type of antibiotic",
+        "A toxin from certain mushrooms that activates muscarinic receptors",
+        "A vitamin",
+        "A pain reliever"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Muscarine binds to and activates muscarinic cholinergic receptors, producing parasympathetic effects. this is where the receptor got its name. The mushroom toxin taught us about this receptor subtype. Take a moment to appreciate this:the pharmacological history written in poisonings."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "MUSCARINE is a toxin found in certain mushrooms (like Amanita muscaria). It activates MUSCARINIC cholinergic receptors, mimicking ACh and causing excessive parasympathetic effects.",
+      "wrongExplains": {
+        "0": "Antibiotics treat infections. Muscarine is a toxin from mushrooms.",
+        "2": "Vitamins are essential nutrients. Muscarine is a toxic alkaloid.",
+        "3": "Pain relievers work on different receptors. Muscarine activates cholinergic receptors."
+      }
     },
     {
-      "q": "Parasympathetic activation increases secretions from glands and increases smooth muscle activity in the gut and bladder.",
+      "q": "Muscarinic receptors mediate which type of autonomic responses?",
       "options": [
-        "True",
-        "False"
+        "Sympathetic (fight-or-flight)",
+        "Parasympathetic (rest-and-digest)",
+        "Somatic (skeletal muscle)",
+        "None — they're not part of the ANS"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "The parasympathetic 'rest and digest' response cranks up secretory activity (saliva, tears, digestive juices) and GI motility. when these systems are overstimulated, you get excessive secretions and diarrhea. Embrace this:the parasympathetic overdrive."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Muscarinic receptors are at PARASYMPATHETIC target organs. They mediate 'rest-and-digest' responses: slowing heart, stimulating digestion, increasing gland secretions.",
+      "wrongExplains": {
+        "0": "Sympathetic uses adrenergic receptors. Muscarinic receptors are parasympathetic.",
+        "2": "Skeletal muscle uses nicotinic receptors at the neuromuscular junction, not muscarinic.",
+        "3": "Muscarinic receptors are very much part of the ANS — they're the main parasympathetic target receptors."
+      }
+    },
+    {
+      "q": "What does 'SLUDGE' stand for in toxicology?",
+      "options": [
+        "A type of mushroom",
+        "Salivation, Lacrimation, Urination, Defecation, GI distress, Emesis",
+        "Symptoms of sympathetic activation",
+        "A blood test"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "SLUDGE is a mnemonic for cholinergic toxicity: Salivation, Lacrimation (tears), Urination, Defecation, GI distress, Emesis (vomiting). These are all parasympathetic overactivation symptoms.",
+      "wrongExplains": {
+        "0": "SLUDGE is a mnemonic for symptoms, not a mushroom name.",
+        "2": "SLUDGE symptoms are parasympathetic, not sympathetic. Sympathetic would cause dry mouth, not salivation.",
+        "3": "SLUDGE is a clinical mnemonic, not a blood test."
+      }
+    },
+    {
+      "q": "The patient has profuse salivation. What causes this?",
+      "options": [
+        "Sympathetic activation",
+        "Parasympathetic (muscarinic) overstimulation of salivary glands",
+        "Dehydration",
+        "Fever"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Salivary glands have muscarinic receptors. PARASYMPATHETIC stimulation (or muscarine toxicity) increases saliva production. Sympathetic would cause dry mouth.",
+      "wrongExplains": {
+        "0": "Sympathetic activation causes dry mouth. Profuse salivation is parasympathetic.",
+        "2": "Dehydration would reduce saliva. This is excessive parasympathetic stimulation.",
+        "3": "Fever doesn't directly cause profuse salivation. This is muscarinic receptor overstimulation."
+      }
+    },
+    {
+      "q": "The patient has lacrimation (tearing). What causes this?",
+      "options": [
+        "Eye injury",
+        "Parasympathetic overstimulation of lacrimal (tear) glands",
+        "Sympathetic activation",
+        "Allergies"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Lacrimal glands have muscarinic receptors. PARASYMPATHETIC stimulation (via CN VII) causes tear production. Muscarine overstimulates this pathway.",
+      "wrongExplains": {
+        "0": "The tearing is from muscarinic toxicity, not physical injury.",
+        "2": "Sympathetic doesn't strongly stimulate tear production. This is parasympathetic.",
+        "3": "While allergies cause tearing, this patient's tearing is from mushroom poisoning."
+      }
+    },
+    {
+      "q": "The patient has diarrhea. What causes this?",
+      "options": [
+        "Sympathetic inhibition of gut motility",
+        "Parasympathetic overstimulation increasing gut motility and secretions",
+        "Blocked digestion",
+        "Constipation"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Parasympathetic stimulation INCREASES GI motility and secretions. Overstimulation by muscarine causes excessive activity — diarrhea is the result.",
+      "wrongExplains": {
+        "0": "Sympathetic INHIBITS gut motility. The diarrhea is from parasympathetic overstimulation.",
+        "2": "Digestion is actually overactive, not blocked. The gut is working too fast.",
+        "3": "Constipation is the opposite. Excessive parasympathetic causes diarrhea."
+      }
+    },
+    {
+      "q": "The patient has bradycardia (slow heart rate). What causes this?",
+      "options": [
+        "Sympathetic stimulation of the heart",
+        "Parasympathetic (vagal) overstimulation slowing the heart",
+        "The heart is healthy",
+        "Exercise"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Muscarinic M2 receptors in the heart mediate PARASYMPATHETIC slowing. Muscarine overstimulates these receptors, causing severe bradycardia (dangerously slow heart rate).",
+      "wrongExplains": {
+        "0": "Sympathetic speeds up the heart. Bradycardia is from parasympathetic overstimulation.",
+        "2": "Bradycardia from mushroom poisoning is not healthy — it can be life-threatening.",
+        "3": "Exercise increases heart rate. This patient has a slow rate from toxicity."
+      }
+    },
+    {
+      "q": "What is the antidote for muscarinic poisoning?",
+      "options": [
+        "More mushrooms",
+        "Atropine (muscarinic blocker)",
+        "β-blockers",
+        "Antibiotics"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "ATROPINE is a muscarinic receptor BLOCKER. It competitively blocks muscarine from activating the receptors, reversing the parasympathetic overactivation.",
+      "wrongExplains": {
+        "0": "More mushrooms would add more toxin. You need to block the receptors.",
+        "2": "β-blockers affect adrenergic receptors. The problem here is muscarinic (cholinergic) overactivation.",
+        "3": "Antibiotics treat infections. This is a toxin that needs receptor blockade."
+      }
+    },
+    {
+      "q": "Summary: Mushroom poisoning with muscarine causes ___.",
+      "options": [
+        "Sympathetic overactivation (fight-or-flight)",
+        "Parasympathetic overactivation (SLUDGE symptoms)",
+        "No autonomic effects",
+        "Only affects skeletal muscles"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Muscarine causes PARASYMPATHETIC OVERACTIVATION — all the 'rest-and-digest' functions go into overdrive: excessive secretions, gut hyperactivity, slow heart, constricted pupils.",
+      "wrongExplains": {
+        "0": "Muscarine activates muscarinic (parasympathetic) receptors, not adrenergic (sympathetic).",
+        "2": "There are significant autonomic effects — that's why it's dangerous.",
+        "3": "Muscarinic receptors are at parasympathetic targets, not skeletal muscle (which uses nicotinic)."
+      }
     }
   ]
 }

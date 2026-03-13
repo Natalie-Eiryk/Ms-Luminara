@@ -1,96 +1,159 @@
 {
   "parentId": "200.5.19",
-  "parentQuestion": "Post-parotid surgery: cannot smile or close eye, but CAN feel face",
+  "parentQuestion": "After parotid gland surgery, a patient cannot smile or close their eye, but CAN feel their face normally. Which nerve was injured?",
   "scaffolds": [
     {
-      "q": "The parotid gland is a salivary gland near your ear and jaw.",
+      "q": "What is the parotid gland and where is it located?",
       "options": [
-        "True",
-        "False"
+        "A gland in your stomach",
+        "A salivary gland near your ear and jaw",
+        "A gland in your neck",
+        "A gland in your brain"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "The parotid produces saliva. The facial nerve runs through it."
+      "explain": "The PAROTID GLAND is the largest salivary gland, located in front of and below each ear, extending along the jawline. It produces saliva to help with digestion.",
+      "wrongExplains": {
+        "0": "The stomach has its own glands, but the parotid is in the face region, near the ear.",
+        "2": "The parotid is in the face/jaw area, not the neck. The thyroid is in the neck.",
+        "3": "The brain has glands (like pituitary), but the parotid is external, near the ear."
+      }
     },
     {
-      "q": "Surgery near a nerve can accidentally injure that nerve.",
+      "q": "Which important nerve runs THROUGH the parotid gland?",
       "options": [
-        "True",
-        "False"
+        "CN V (trigeminal)",
+        "CN VII (facial)",
+        "CN X (vagus)",
+        "CN XII (hypoglossal)"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Nerves near surgical sites are at risk of damage during procedures."
+      "explain": "CN VII (facial nerve) runs THROUGH the parotid gland, branching inside it. This makes it vulnerable during parotid surgery — surgeons must carefully avoid it.",
+      "wrongExplains": {
+        "0": "CN V passes near but not through the parotid. It's the facial nerve that traverses the gland itself.",
+        "2": "CN X (vagus) travels down the neck to the chest/abdomen. It doesn't pass through the parotid.",
+        "3": "CN XII is in the floor of the mouth/tongue area. It doesn't go through the parotid gland."
+      }
     },
     {
-      "q": "Smiling and closing your eye are facial movements.",
+      "q": "Why is the facial nerve at risk during parotid surgery?",
       "options": [
-        "True",
-        "False"
+        "It's nowhere near the parotid",
+        "It passes directly through the parotid gland tissue",
+        "It's protected by bone",
+        "Surgeons never operate near it"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "These are controlled by the facial nerve (CN VII)."
+      "explain": "The facial nerve literally PASSES THROUGH the parotid gland. When removing a parotid tumor, surgeons must carefully dissect around the nerve branches to avoid cutting them.",
+      "wrongExplains": {
+        "0": "It IS near the parotid — it passes through it. That's exactly why it's at risk.",
+        "2": "At the parotid level, the nerve is in soft tissue, not protected by bone.",
+        "3": "Parotid surgery is common for tumors. The nerve is always at risk and requires careful identification."
+      }
     },
     {
-      "q": "Feeling touch on your face is a different function than moving your face.",
+      "q": "The patient can't smile or close their eye. What type of function is impaired?",
       "options": [
-        "True",
-        "False"
+        "Sensory (feeling)",
+        "Motor (movement)",
+        "Hearing",
+        "Vision"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Sensation (CN V) and movement (CN VII) use different nerves."
+      "explain": "Smiling and closing the eye are MOVEMENTS — motor functions. These facial expression muscles are controlled by CN VII. Lost movement = motor nerve damage.",
+      "wrongExplains": {
+        "0": "Sensory function would be lost if the patient couldn't FEEL their face. They can feel fine — only movement is affected.",
+        "2": "Hearing uses CN VIII. Facial paralysis doesn't affect hearing.",
+        "3": "Vision uses CN II. Facial paralysis doesn't affect vision (though not being able to close the eye can dry it out)."
+      }
     },
     {
-      "q": "CN VII (facial) controls facial MOVEMENT, CN V (trigeminal) detects facial SENSATION.",
+      "q": "The patient CAN still feel their face normally. Why?",
       "options": [
-        "True",
-        "False"
+        "CN VII carries sensation",
+        "CN V (trigeminal) carries facial sensation and is intact",
+        "Sensation and movement use the same nerve",
+        "The injury healed instantly"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Different nerves do different jobs. That is why one can be damaged while the other works."
+      "explain": "CN V carries facial SENSATION. CN VII carries facial MOVEMENT. They're DIFFERENT nerves! The surgery damaged CN VII (movement) but left CN V (sensation) intact.",
+      "wrongExplains": {
+        "0": "CN VII is primarily motor. Facial sensation is handled by CN V (trigeminal).",
+        "2": "They use DIFFERENT nerves — that's why one function can be lost while the other remains.",
+        "3": "Nerve injuries don't heal instantly. The sensation remains because CN V wasn't damaged."
+      }
     },
     {
-      "q": "The facial nerve passes through the parotid gland.",
+      "q": "This clinical pattern — lost facial movement but intact facial sensation — indicates damage to which nerve?",
       "options": [
-        "True",
-        "False"
+        "CN V (trigeminal)",
+        "CN VII (facial)",
+        "Both CN V and CN VII",
+        "Neither"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "CN VII runs through the parotid, making it vulnerable during parotid surgery."
+      "explain": "MOVEMENT lost + SENSATION intact = CN VII damage only. If CN V were also damaged, the patient would have numbness. The dissociation tells you exactly which nerve was injured.",
+      "wrongExplains": {
+        "0": "If CN V were damaged, the patient would have facial NUMBNESS. They can feel fine, so CN V is intact.",
+        "2": "If both were damaged, there would be BOTH numbness AND paralysis. Here, only movement is affected.",
+        "3": "Something IS damaged — the patient clearly has facial paralysis. It's CN VII."
+      }
     },
     {
-      "q": "If only movement is lost but sensation is intact, only the motor nerve is damaged.",
+      "q": "The key teaching point: CN VII does ___ while CN V does ___.",
       "options": [
-        "True",
-        "False"
+        "Hearing; smell",
+        "Facial movement; facial sensation",
+        "Vision; taste",
+        "Chewing; swallowing"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Right! CN VII (motor) is damaged, CN V (sensory) is intact."
+      "explain": "CN VII = MOVEMENT (facial expression). CN V = SENSATION (touch, pain, temperature on face). This is a critical distinction for understanding facial nerve injuries.",
+      "wrongExplains": {
+        "0": "Hearing is CN VIII, smell is CN I. Neither is CN V or CN VII.",
+        "2": "Vision is CN II. Taste from the front tongue is CN VII, but the main point here is movement vs. sensation.",
+        "3": "Chewing is CN V (motor part), but swallowing is CN IX and X. The main point is movement vs. sensation."
+      }
     },
     {
-      "q": "CN VII provides motor innervation to facial muscles but not sensation.",
+      "q": "What facial movements might be affected after parotid surgery damaging CN VII?",
       "options": [
-        "True",
-        "False"
+        "Chewing food",
+        "Smiling, frowning, raising eyebrows, closing eyes",
+        "Moving the tongue",
+        "Turning the head"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Facial movement is CN VII. Face sensation is CN V."
+      "explain": "ALL facial expressions are affected: smiling (zygomaticus), frowning (corrugator), raising eyebrows (frontalis), closing eyes (orbicularis oculi). All controlled by CN VII.",
+      "wrongExplains": {
+        "0": "Chewing uses CN V (trigeminal motor). It's not affected by CN VII damage.",
+        "2": "Tongue movement uses CN XII (hypoglossal). Different nerve, different territory.",
+        "3": "Head turning uses CN XI (accessory) via the sternocleidomastoid muscle. Not related to facial nerve."
+      }
     },
     {
-      "q": "Parotid surgery risks facial nerve injury because CN VII traverses the gland.",
+      "q": "A surgeon is removing a parotid tumor and wants to protect the facial nerve. What should they do?",
       "options": [
-        "True",
-        "False"
+        "Operate quickly without looking",
+        "Carefully identify and preserve the nerve branches",
+        "Remove the nerve with the tumor",
+        "The nerve isn't at risk"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "The facial nerve branches run through the parotid gland."
+      "explain": "Surgeons carefully IDENTIFY the facial nerve branches and dissect AROUND them. Nerve monitoring is often used. The goal is to remove the tumor while preserving CN VII function.",
+      "wrongExplains": {
+        "0": "Operating blindly would almost certainly damage the nerve. Careful visualization is essential.",
+        "2": "Removing the nerve would cause permanent facial paralysis. Preservation is the goal unless the nerve is invaded by cancer.",
+        "3": "The nerve IS at risk — it runs through the gland. That's why parotid surgery is technically challenging."
+      }
     }
   ]
 }

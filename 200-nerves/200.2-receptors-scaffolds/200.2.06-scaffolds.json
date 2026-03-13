@@ -3,94 +3,157 @@
   "parentQuestion": "Which of the following is an INCORRECT statement regarding the occurrence of a sensation?",
   "scaffolds": [
     {
-      "q": "Sensation requires several steps to work properly.",
+      "q": "Does sensation require multiple steps to work?",
       "options": [
-        "True",
-        "False"
+        "No, sensation happens instantly without any process",
+        "Yes, sensation is a chain of events",
+        "Only vision requires steps",
+        "Sensation doesn't exist"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Sensation is a chain: stimulus → receptor → transduction → nerve signal → brain interpretation. Break any link, no sensation."
+      "explain": "Sensation is a CHAIN: stimulus → receptor → transduction → nerve signal → brain interpretation. Break any link, no sensation.",
+      "wrongExplains": {
+        "0": "Sensation requires a specific sequence of events to work properly.",
+        "2": "All senses require the same general process of transduction and transmission.",
+        "3": "Sensation definitely exists — it's how we perceive the world."
+      }
     },
     {
-      "q": "Each receptor type responds best to a specific type of stimulus (its 'adequate stimulus').",
+      "q": "Does each receptor type respond to a specific stimulus?",
       "options": [
-        "True",
-        "False"
+        "No, all receptors respond to everything",
+        "Yes, each has an 'adequate stimulus' it responds to best",
+        "Receptors respond randomly",
+        "Only pain receptors are specific"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Photoreceptors respond to light. Mechanoreceptors respond to pressure. Thermoreceptors respond to temperature. Receptor specificity is essential."
+      "explain": "RECEPTOR SPECIFICITY is essential. Photoreceptors respond to light. Mechanoreceptors respond to pressure. Thermoreceptors respond to temperature. Each has its preferred stimulus.",
+      "wrongExplains": {
+        "0": "Receptors are highly specialized. Each responds best to specific stimuli.",
+        "2": "Receptor responses are predictable, based on their adequate stimulus.",
+        "3": "All receptor types have specificity, not just nociceptors."
+      }
     },
     {
-      "q": "The stimulus must occur in the receptor's 'receptive field' - the area it monitors.",
+      "q": "What is a receptive field?",
       "options": [
-        "True",
-        "False"
+        "A hospital area",
+        "The area a receptor monitors — where a stimulus must occur",
+        "A type of muscle",
+        "A brain region"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Touch my fingertip, activate fingertip receptors. Touch my shoulder, activate different receptors. Location matters."
+      "explain": "The RECEPTIVE FIELD is the area a receptor monitors. Touch my fingertip, activate fingertip receptors. Touch my shoulder, activate different receptors. LOCATION MATTERS.",
+      "wrongExplains": {
+        "0": "Receptive field is a neurophysiology term, not a hospital location.",
+        "2": "Muscles don't have receptive fields. Sensory receptors do.",
+        "3": "While brain regions process information, the receptive field is the sensory area monitored."
+      }
     },
     {
-      "q": "Transduction converts stimulus energy into a receptor (generator) potential.",
+      "q": "What does transduction produce?",
       "options": [
-        "True",
-        "False"
+        "A hormone",
+        "A receptor (generator) potential",
+        "A bone",
+        "A blood cell"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Transduction is the PROCESS. The receptor potential is the PRODUCT - the graded electrical change that results."
+      "explain": "Transduction is the PROCESS. The RECEPTOR POTENTIAL (or generator potential) is the PRODUCT — the graded electrical change that results.",
+      "wrongExplains": {
+        "0": "Hormones are produced by glands. Transduction produces electrical potentials.",
+        "2": "Bones are skeletal tissue. Transduction produces receptor potentials.",
+        "3": "Blood cells are made in bone marrow. Transduction creates electrical signals."
+      }
     },
     {
-      "q": "The receptor potential must be large enough to trigger action potentials in the sensory neuron.",
+      "q": "What must happen for action potentials to be triggered?",
       "options": [
-        "True",
-        "False"
+        "Nothing — action potentials fire continuously",
+        "The receptor potential must reach threshold",
+        "The stimulus must be red in color",
+        "The brain must be asleep"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The receptor potential must reach THRESHOLD to trigger action potentials. Too weak = no signal sent to brain."
+      "explain": "The receptor potential must reach THRESHOLD to trigger action potentials. Too weak = no signal sent to brain. The signal must be strong enough.",
+      "wrongExplains": {
+        "0": "Action potentials require adequate stimulation to fire.",
+        "2": "Color is irrelevant. Threshold is about signal strength.",
+        "3": "The brain being awake or asleep doesn't determine threshold."
+      }
     },
     {
-      "q": "The graded potential produced by transduction is called a RECEPTOR potential (or generator potential).",
+      "q": "What is another name for the receptor potential?",
       "options": [
-        "True",
-        "False"
+        "Action potential",
+        "Generator potential",
+        "Blood pressure",
+        "Heart rate"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Receptor potential or generator potential - both terms describe the electrical change produced by transduction."
+      "explain": "RECEPTOR POTENTIAL or GENERATOR POTENTIAL — both terms describe the graded electrical change produced by transduction.",
+      "wrongExplains": {
+        "0": "Action potentials are all-or-nothing. Receptor potentials are graded.",
+        "2": "Blood pressure is cardiovascular. Receptor potential is neural.",
+        "3": "Heart rate is cardiovascular. Generator potential is a neural signal."
+      }
     },
     {
-      "q": "There is no such thing as a 'transduction potential' - that's mixing up the process with the product.",
+      "q": "Is 'transduction potential' a correct term?",
       "options": [
-        "True",
-        "False"
+        "Yes, it's the standard term",
+        "No, the correct terms are 'receptor potential' or 'generator potential'",
+        "Both terms are equally correct",
+        "Neither term exists"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Transduction is the PROCESS. Receptor potential is the RESULT. Calling it 'transduction potential' confuses the action with the outcome."
+      "explain": "There is NO such thing as a 'transduction potential.' Transduction is the PROCESS. Receptor/generator potential is the RESULT. Calling it 'transduction potential' confuses action with outcome.",
+      "wrongExplains": {
+        "0": "'Transduction potential' is NOT standard terminology. Use receptor/generator potential.",
+        "2": "'Transduction potential' is incorrect. Only receptor/generator potential is correct.",
+        "3": "The correct terms definitely exist: receptor potential and generator potential."
+      }
     },
     {
-      "q": "The INCORRECT statement says the potential is called a 'transduction potential' instead of 'receptor potential.'",
+      "q": "Why is 'transduction potential' incorrect terminology?",
       "options": [
-        "True",
-        "False"
+        "It's actually correct",
+        "It confuses the process (transduction) with the product (potential)",
+        "Both words are made up",
+        "Transduction doesn't exist"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The answer is the statement claiming 'transduction potential.' The correct term is RECEPTOR potential (or generator potential)."
+      "explain": "Transduction is the PROCESS. Receptor potential is the RESULT. 'Transduction potential' wrongly combines process and product. TERMINOLOGY MATTERS in science.",
+      "wrongExplains": {
+        "0": "It is incorrect. The proper term is receptor or generator potential.",
+        "2": "Both words are real — they just shouldn't be combined this way.",
+        "3": "Transduction definitely exists as the conversion process."
+      }
     },
     {
-      "q": "The phrase 'transduction potential' is incorrect - the proper term is 'receptor potential' or 'generator potential.'",
+      "q": "Which statement about sensation would be INCORRECT?",
       "options": [
-        "True",
-        "False"
+        "Each receptor responds best to its adequate stimulus",
+        "Transduction produces a receptor potential",
+        "The potential is called a 'transduction potential'",
+        "The stimulus must occur in the receptor's receptive field"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "intermediate",
-      "explain": "Yes! This is why that statement is INCORRECT. Transduction is the process. Receptor/generator potential is the result. Terminology matters."
+      "explain": "The INCORRECT statement calls it 'transduction potential.' The correct term is RECEPTOR POTENTIAL (or generator potential). Transduction is the process, not the product.",
+      "wrongExplains": {
+        "0": "This is correct — receptor specificity is fundamental.",
+        "1": "This is correct — transduction produces receptor potentials.",
+        "3": "This is correct — stimuli must be in the receptor's monitored area."
+      }
     }
   ]
 }

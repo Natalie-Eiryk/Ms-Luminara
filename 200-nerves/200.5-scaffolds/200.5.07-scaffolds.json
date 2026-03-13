@@ -3,96 +3,157 @@
   "parentQuestion": "A patient cannot smile, raise their eyebrows, or close their eye tightly on the right side. Which nerve is damaged?",
   "scaffolds": [
     {
-      "q": "Your face can show emotions like happiness, sadness, and surprise.",
+      "q": "Which cranial nerve controls the muscles that move your face for expressions?",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! Facial expressions communicate emotions. Smiling shows happiness, frowning shows sadness, raised eyebrows show surprise. Muscles in your face create these expressions."
-    },
-    {
-      "q": "Smiling requires muscles to pull the corners of your mouth upward.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Exactly! Small muscles around your mouth contract to pull your lips into a smile. These are called muscles of facial expression, and theyre all controlled by one nerve."
-    },
-    {
-      "q": "CN VII is the abbreviation for Cranial Nerve number ___.",
-      "options": [
-        "Six",
-        "Seven",
-        "Eight",
-        "Seventeen"
+        "CN V (trigeminal)",
+        "CN VII (facial)",
+        "CN X (vagus)",
+        "CN XII (hypoglossal)"
       ],
       "answer": 1,
       "difficulty": "foundation",
-      "explain": "CN VII = Cranial Nerve Seven! In Roman numerals, VII = 7. The facial nerve is the seventh cranial nerve."
+      "explain": "CN VII (facial nerve) controls all the muscles of facial expression — smiling, frowning, raising eyebrows, closing eyes, puckering lips. It's called the 'facial' nerve because it moves the face!",
+      "wrongExplains": {
+        "0": "CN V (trigeminal) handles facial SENSATION (feeling touch, pain) and CHEWING muscles. But facial MOVEMENT for expressions? That's CN VII. Remember: CN V FEELS the face, CN VII MOVES it.",
+        "2": "CN X (vagus) is the 'wanderer' that controls heart, lungs, and gut. It doesn't reach the facial muscles at all. Wrong territory entirely.",
+        "3": "CN XII (hypoglossal) controls TONGUE muscles only. The face and tongue are controlled by different nerves. CN XII = tongue, CN VII = face."
+      }
     },
     {
-      "q": "The facial nerve is named because it controls the face.",
+      "q": "What's the difference between CN V and CN VII for the face?",
       "options": [
-        "True",
-        "False"
+        "CN V = facial sensation, CN VII = facial movement",
+        "CN V = facial movement, CN VII = facial sensation",
+        "Both do the same thing",
+        "Neither involves the face"
       ],
       "answer": 0,
       "difficulty": "foundation",
-      "explain": "Yes! The facial nerve (CN VII) controls the muscles that move your face - smiling, frowning, blinking, raising eyebrows. Its named for what it does!"
+      "explain": "CN V FEELS (sensation), CN VII MOVES (expression). If you can't feel your face → CN V problem. If you can't move your face → CN VII problem. The patient can feel their face fine but can't move it, so it's CN VII.",
+      "wrongExplains": {
+        "1": "This is backwards! CN V carries sensation (touch, pain, temperature) FROM the face. CN VII carries motor commands TO the muscles for movement. Don't mix them up.",
+        "2": "They have completely different functions. CN V = sensory input from face. CN VII = motor output to facial muscles. They're partners but do opposite jobs.",
+        "3": "Both absolutely involve the face! CN V provides sensation and CN VII provides movement. They're two of the most important cranial nerves for facial function."
+      }
     },
     {
-      "q": "The right side and left side of your face are controlled by separate nerves.",
+      "q": "If only the RIGHT side of a patient's face is paralyzed, how many facial nerves are damaged?",
       "options": [
-        "True",
-        "False"
+        "Both facial nerves",
+        "Only one facial nerve (right side)",
+        "All twelve cranial nerves",
+        "No nerves are damaged"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! You have a facial nerve on each side. The right CN VII controls the right side of your face, and the left CN VII controls the left side."
+      "explain": "Each side of your face has its own facial nerve. Right facial nerve → right face muscles. Left facial nerve → left face muscles. One-sided paralysis means only ONE nerve is affected.",
+      "wrongExplains": {
+        "0": "If both nerves were damaged, the ENTIRE face would be paralyzed, not just the right side. One-sided symptoms = one-sided nerve damage.",
+        "2": "There are 12 PAIRS of cranial nerves, not 12 total. And this patient only has facial paralysis — no other symptoms. Just the right CN VII is affected.",
+        "3": "The face IS paralyzed on one side, so clearly something is damaged. The right facial nerve must be affected for the right side to not move."
+      }
     },
     {
-      "q": "If only one side of someones face is drooping, only one nerve is damaged.",
+      "q": "The orbicularis oculi muscle (around the eye) is controlled by which nerve?",
       "options": [
-        "True",
-        "False"
+        "CN III (oculomotor)",
+        "CN VII (facial)",
+        "CN V (trigeminal)",
+        "CN VI (abducens)"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Right! Since each side has its own nerve, damage to just the right facial nerve causes problems only on the right side. The left side still works normally."
+      "explain": "The orbicularis oculi (the muscle that squeezes your eye shut) is a muscle of FACIAL EXPRESSION. All facial expression muscles are controlled by CN VII. This is why the patient can't close the eye tightly.",
+      "wrongExplains": {
+        "0": "CN III controls the muscles INSIDE the eye socket that move the eyeball itself. The orbicularis oculi is OUTSIDE the socket, surrounding the eyelid — it's a facial expression muscle.",
+        "2": "CN V provides SENSATION around the eye (touch, pain) but doesn't control the muscles that close it. Feeling vs. moving — different jobs.",
+        "3": "CN VI (abducens) moves the eyeball laterally (to the side). It has nothing to do with the eyelid muscles that close the eye."
+      }
     },
     {
-      "q": "Closing your eyes tightly uses muscles around your eyes.",
+      "q": "Why can't this patient raise their eyebrows on the right side?",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! The orbicularis oculi muscle circles your eye and squeezes it shut. This muscle, like all facial expression muscles, is controlled by the facial nerve (CN VII)."
-    },
-    {
-      "q": "Smiling, frowning, and raising eyebrows all use facial muscles.",
-      "options": [
-        "True",
-        "False"
+        "The right CN VII can't send signals to the frontalis muscle",
+        "The right CN V is numb",
+        "The eyebrows are not controlled by nerves",
+        "Both sides should be equally affected"
       ],
       "answer": 0,
       "difficulty": "intermediate",
-      "explain": "Facial expressions are produced by muscles of facial expression - small muscles that attach to the skin. Theyre all controlled by CN VII."
+      "explain": "The frontalis muscle raises the eyebrows, and it's controlled by CN VII. If the right CN VII is damaged, it can't send motor signals to the right frontalis muscle, so the right eyebrow can't lift.",
+      "wrongExplains": {
+        "1": "CN V handles sensation, not movement. Even if CN V were damaged, the patient could still raise their eyebrows (they just wouldn't feel them). This is a MOTOR problem, so it's CN VII.",
+        "2": "All voluntary muscle movement requires nerve signals. The frontalis muscle absolutely needs CN VII to contract. No nerve signal = no movement.",
+        "3": "Each side has its own nerve. The right CN VII controls only the right frontalis. The left CN VII (intact) keeps the left side working normally."
+      }
     },
     {
-      "q": "The same nerve controls all muscles of facial expression on one side.",
+      "q": "Bell's palsy is sudden weakness of facial muscles. Which nerve does it affect?",
       "options": [
-        "True",
-        "False"
+        "CN V (trigeminal)",
+        "CN VII (facial)",
+        "CN VIII (vestibulocochlear)",
+        "CN XII (hypoglossal)"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Bell's palsy affects CN VII (facial nerve), causing sudden one-sided facial paralysis. Patients can't smile, close their eye, or raise their eyebrow on the affected side — exactly like this patient.",
+      "wrongExplains": {
+        "0": "CN V damage would cause facial NUMBNESS and weak CHEWING, not facial paralysis. Bell's palsy patients can feel their face fine — they just can't move it.",
+        "2": "CN VIII handles hearing and balance. Damage causes deafness or vertigo, not facial paralysis. Wrong nerve, wrong symptoms.",
+        "3": "CN XII damage would cause tongue weakness, not facial weakness. The tongue and face are controlled by different nerves."
+      }
+    },
+    {
+      "q": "The patient can still feel touch on their right face. What does this tell you?",
+      "options": [
+        "CN V (sensory) is intact; only CN VII (motor) is damaged",
+        "CN VII is providing sensation",
+        "All cranial nerves are fine",
+        "The patient is faking"
       ],
       "answer": 0,
       "difficulty": "intermediate",
-      "explain": "The facial nerve (CN VII) provides motor innervation to all muscles of facial expression on one side of the face. Lose it, and half your face stops moving."
+      "explain": "Intact sensation means CN V (the sensory nerve) is working. The problem is isolated to CN VII (motor nerve). This dissociation — feeling but not moving — points directly to CN VII damage.",
+      "wrongExplains": {
+        "1": "CN VII provides motor function, not sensation. Facial sensation comes from CN V. These nerves have separate jobs and separate pathways.",
+        "2": "If all nerves were fine, the patient could both feel AND move their face. The movement problem proves CN VII is damaged, even though CN V is intact.",
+        "3": "One-sided facial paralysis with intact sensation is a classic, well-documented neurological finding (Bell's palsy). It's not possible to fake intact sensation with real paralysis."
+      }
+    },
+    {
+      "q": "Which of these is NOT controlled by the facial nerve (CN VII)?",
+      "options": [
+        "Smiling",
+        "Chewing",
+        "Closing eyes",
+        "Raising eyebrows"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "CHEWING is controlled by CN V (trigeminal), not CN VII. Chewing uses the masseter and temporalis muscles (muscles of mastication). Smiling, closing eyes, and raising eyebrows are all facial EXPRESSIONS controlled by CN VII.",
+      "wrongExplains": {
+        "0": "Smiling uses the zygomaticus muscle — a muscle of facial expression controlled by CN VII. If CN VII is damaged, you can't smile on that side.",
+        "2": "Closing eyes uses the orbicularis oculi — a muscle of facial expression controlled by CN VII. CN VII damage = can't close the eye tightly.",
+        "3": "Raising eyebrows uses the frontalis muscle — a muscle of facial expression controlled by CN VII. Eyebrow lifting is a classic CN VII test."
+      }
+    },
+    {
+      "q": "The facial nerve has five terminal branches that spread across the face. One symptom affecting ALL these areas suggests damage where?",
+      "options": [
+        "At one branch only",
+        "At the main nerve trunk before it branches",
+        "In the brain",
+        "Damage is impossible"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "If ALL facial muscles on one side are affected (forehead, eye, cheek, mouth), the damage must be at the main nerve trunk BEFORE it splits into branches. This is called a 'lower motor neuron' lesion of CN VII.",
+      "wrongExplains": {
+        "0": "If only one branch were damaged, only THAT territory would be affected (e.g., just the mouth OR just the forehead). This patient has complete one-sided paralysis, suggesting trunk damage.",
+        "2": "Brain lesions affecting facial control have a special pattern: they often SPARE the forehead (because forehead has bilateral brain input). Complete facial paralysis including forehead suggests peripheral nerve damage.",
+        "3": "Facial nerve trunk damage is absolutely possible and is the most common cause of Bell's palsy. The nerve passes through a narrow bony canal where it can be compressed."
+      }
     }
   ]
 }

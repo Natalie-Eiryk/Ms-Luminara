@@ -3,94 +3,157 @@
   "parentQuestion": "Which of these would you NOT find in the cerebral cortex?",
   "scaffolds": [
     {
-      "q": "The cerebral cortex is the thin outer layer of the cerebrum.",
+      "q": "What is the cerebral cortex made of?",
       "options": [
-        "True",
-        "False"
+        "White matter",
+        "Gray matter",
+        "Bone",
+        "Fluid"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The cortex is about 2-4mm thick, covering the cerebrum's surface like a rind on an orange. This thin layer is where conscious processing happens."
+      "explain": "The CEREBRAL CORTEX is made of GRAY MATTER — it contains neuron cell bodies, dendrites, and synapses. This is where computation and conscious processing happen.",
+      "wrongExplains": {
+        "0": "White matter is beneath the cortex. The cortex itself is gray matter.",
+        "2": "The cortex is neural tissue, not bone. The skull protects the cortex.",
+        "3": "The cortex is solid neural tissue. Fluid (CSF) is in the ventricles."
+      }
     },
     {
-      "q": "The cerebral cortex is made of gray matter.",
+      "q": "What structures are found in gray matter?",
       "options": [
-        "True",
-        "False"
+        "Only myelinated axons",
+        "Neuron cell bodies, dendrites, and synapses",
+        "Only bones",
+        "Only blood"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Gray matter contains neuron cell bodies, dendrites, and synapses - the computation hardware. That's what the cortex is."
+      "explain": "GRAY MATTER contains NEURON CELL BODIES, DENDRITES, and SYNAPSES — the computational hardware where processing happens. The cortex has about 16 billion neurons.",
+      "wrongExplains": {
+        "0": "Myelinated axons are in white matter. Gray matter has cell bodies and dendrites.",
+        "2": "Gray matter is neural tissue, not bone.",
+        "3": "While gray matter has blood supply, it's defined by its neural components."
+      }
     },
     {
-      "q": "Neuron cell bodies are found in gray matter.",
+      "q": "What are interneurons?",
       "options": [
-        "True",
-        "False"
+        "Neurons that only leave the brain",
+        "Local circuit neurons that connect neurons within a region",
+        "Bones in the skull",
+        "Blood vessels"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Cell bodies (somas) are the defining feature of gray matter. The cortex is packed with them - about 16 billion neurons."
+      "explain": "INTERNEURONS are LOCAL CIRCUIT NEURONS found in gray matter. They connect neurons within a region, modulating and processing local circuit activity.",
+      "wrongExplains": {
+        "0": "Interneurons stay local. Projection neurons leave a region to connect distant areas.",
+        "2": "Interneurons are neural cells, not bones.",
+        "3": "Interneurons are a type of neuron, not blood vessels."
+      }
     },
     {
-      "q": "Dendrites receive signals and are found in gray matter.",
+      "q": "What is white matter?",
       "options": [
-        "True",
-        "False"
+        "Neuron cell bodies",
+        "Myelinated axons that transmit signals",
+        "The outer brain layer",
+        "Cerebrospinal fluid"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Dendrites are the receiving branches of neurons. They're abundant in gray matter where synaptic connections form."
+      "explain": "WHITE MATTER contains MYELINATED AXONS — transmission cables covered in fatty myelin that carry signals between brain regions. It's the wiring, not the processing units.",
+      "wrongExplains": {
+        "0": "Neuron cell bodies are in gray matter. White matter has axons.",
+        "2": "The outer brain layer (cortex) is gray matter. White matter is beneath it.",
+        "3": "White matter is neural tissue. CSF is fluid in ventricles and around the brain."
+      }
     },
     {
-      "q": "Interneurons are local circuit neurons found in gray matter.",
+      "q": "What are fiber tracts?",
       "options": [
-        "True",
-        "False"
+        "Neuron cell bodies",
+        "Organized bundles of axons in white matter",
+        "Parts of the cortex",
+        "Skull bones"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Interneurons connect neurons within a region. The cortex has many types of interneurons modulating local circuit activity."
+      "explain": "FIBER TRACTS are ORGANIZED BUNDLES of MYELINATED AXONS in white matter. Examples include the corpus callosum and internal capsule — they're highways connecting brain regions.",
+      "wrongExplains": {
+        "0": "Fiber tracts are axon bundles, not cell bodies. Cell bodies are in gray matter.",
+        "2": "Fiber tracts are white matter structures beneath the cortex, not part of the cortex.",
+        "3": "Fiber tracts are neural tissue, not skull bones."
+      }
     },
     {
-      "q": "White matter contains myelinated axons, not cell bodies.",
+      "q": "Where are fiber tracts located?",
       "options": [
-        "True",
-        "False"
+        "In the cerebral cortex",
+        "In the white matter beneath the cortex",
+        "Only in the skull",
+        "Only in blood vessels"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! White matter = axon bundles covered in myelin (fatty insulation). It's transmission cables, not processing units."
+      "explain": "Fiber tracts are located in the WHITE MATTER BENEATH THE CORTEX. They're deep transmission highways, not surface processing areas. The cortex (gray matter) processes; white matter transmits.",
+      "wrongExplains": {
+        "0": "The cortex is gray matter with cell bodies. Fiber tracts are in the white matter below.",
+        "2": "Fiber tracts are neural structures inside the brain, not in the skull bones.",
+        "3": "Fiber tracts are axon bundles, separate from blood vessels."
+      }
     },
     {
-      "q": "Fiber tracts are bundles of axons found in white matter, not gray matter.",
+      "q": "What's the difference between cortex and white matter?",
       "options": [
-        "True",
-        "False"
+        "They're the same thing",
+        "Cortex (gray matter) processes; white matter transmits",
+        "White matter is on the surface",
+        "Cortex is beneath white matter"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! Fiber tracts (like the corpus callosum) are organized bundles of myelinated axons. They live beneath the cortex in the white matter."
-    },
-    {
-      "q": "The cortex (gray matter) contains cell bodies, dendrites, and interneurons - but NOT fiber tracts.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Gray matter processes, white matter transmits. Fiber tracts are white matter structures found BENEATH the cortex, not in it."
+      "explain": "The CORTEX (gray matter) PROCESSES information with cell bodies and synapses. WHITE MATTER TRANSMITS information via axon bundles. Different locations, different jobs.",
+      "wrongExplains": {
+        "0": "They're different structures with different functions and compositions.",
+        "2": "Gray matter (cortex) is on the surface. White matter is beneath it.",
+        "3": "The cortex is the outer layer. White matter is beneath the cortex."
+      }
     },
     {
-      "q": "You would NOT find fiber tracts in the cerebral cortex because they are white matter structures.",
+      "q": "What would you find IN the cerebral cortex?",
       "options": [
-        "True",
-        "False"
+        "Fiber tracts",
+        "Cell bodies, dendrites, and interneurons",
+        "Only myelinated axons",
+        "Only bones"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! The answer is FIBER TRACTS. The cortex has cell bodies, dendrites, and interneurons (all gray matter components). Fiber tracts are white matter - they live deep to the cortex."
+      "explain": "The cortex contains CELL BODIES, DENDRITES, and INTERNEURONS — all gray matter components. Fiber tracts are white matter structures found BENEATH the cortex.",
+      "wrongExplains": {
+        "0": "Fiber tracts are white matter structures, not found in the cortex (gray matter).",
+        "2": "Myelinated axons dominate white matter. The cortex has cell bodies and synapses.",
+        "3": "The cortex is neural tissue, not bone."
+      }
+    },
+    {
+      "q": "Which of these would you NOT find in the cerebral cortex?",
+      "options": [
+        "Neuron cell bodies",
+        "Dendrites",
+        "Fiber tracts",
+        "Interneurons"
+      ],
+      "answer": 2,
+      "difficulty": "intermediate",
+      "explain": "FIBER TRACTS would NOT be found in the cortex. The cortex has cell bodies, dendrites, and interneurons (all gray matter). Fiber tracts are WHITE MATTER structures deep to the cortex.",
+      "wrongExplains": {
+        "0": "Neuron cell bodies are abundant in the cortex — about 16 billion of them.",
+        "1": "Dendrites are definitely in the cortex — they receive synaptic inputs.",
+        "3": "Interneurons are in the cortex — they modulate local circuit activity."
+      }
     }
   ]
 }

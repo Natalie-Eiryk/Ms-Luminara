@@ -3,24 +3,157 @@
   "parentQuestion": "Sympathetic and parasympathetic divisions interact primarily through ___.",
   "scaffolds": [
     {
-      "q": "Reciprocal inhibition means that activating one pathway inhibits the opposing pathway.",
+      "q": "What is 'reciprocal inhibition' in the context of ANS control?",
       "options": [
-        "True",
-        "False"
+        "Both divisions activate simultaneously",
+        "When one division activates, the opposing division is inhibited",
+        "Both divisions are always inactive",
+        "The divisions never interact"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "When the CNS activates sympathetic pathways, it often simultaneously inhibits parasympathetic pathways (and vice versa). this reciprocal relationship ensures the two divisions don't fight each other. They take turns, coordinated from above. Elegant choreography."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "RECIPROCAL INHIBITION means when the CNS activates sympathetic pathways, it simultaneously INHIBITS parasympathetic pathways (and vice versa). This prevents the two divisions from fighting each other.",
+      "wrongExplains": {
+        "0": "Simultaneous full activation would create conflicting signals. Reciprocal inhibition prevents this.",
+        "2": "Both divisions maintain some baseline activity. Reciprocal inhibition adjusts the BALANCE.",
+        "3": "They definitely interact — coordinating through reciprocal inhibition is how they work together."
+      }
     },
     {
-      "q": "The balance between sympathetic and parasympathetic activity determines the final state of an organ.",
+      "q": "Why is reciprocal inhibition important for ANS function?",
       "options": [
-        "True",
-        "False"
+        "It causes organ damage",
+        "It ensures coordinated responses without conflicting signals",
+        "It blocks all autonomic activity",
+        "It's not important"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "An organ's function reflects the NET influence of both divisions. it's not just about one division being 'on'; it's about the ratio of activity. Shifting this balance in either direction changes organ function. Give this idea space to land:the continuous spectrum of control."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Reciprocal inhibition ensures COORDINATION. If sympathetic signals 'speed up heart' while parasympathetic signals 'slow down heart' fired equally, they'd cancel out. Inhibiting one while activating the other creates clear, effective responses.",
+      "wrongExplains": {
+        "0": "Reciprocal inhibition is protective, not damaging. It prevents conflicting signals.",
+        "2": "It doesn't block activity — it coordinates it by shifting the balance between divisions.",
+        "3": "It's very important for effective ANS control and preventing conflicting commands."
+      }
+    },
+    {
+      "q": "The CNS (hypothalamus, brainstem) coordinates ANS activity by ___.",
+      "options": [
+        "Only activating one division at a time",
+        "Adjusting the balance between sympathetic and parasympathetic output",
+        "Keeping both divisions inactive",
+        "Working independently of the ANS"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The CNS coordinates the ANS by ADJUSTING THE BALANCE. It can increase sympathetic while decreasing parasympathetic, or vice versa. The ratio determines the final organ state.",
+      "wrongExplains": {
+        "0": "Both divisions maintain some baseline activity. The CNS adjusts the relative balance.",
+        "2": "Both divisions are always somewhat active. The CNS modulates their relative output.",
+        "3": "The CNS (especially hypothalamus and brainstem) is the command center FOR the ANS."
+      }
+    },
+    {
+      "q": "If you're in danger and need fight-or-flight, what happens to the balance between divisions?",
+      "options": [
+        "Parasympathetic increases, sympathetic decreases",
+        "Sympathetic increases, parasympathetic decreases",
+        "Both increase equally",
+        "Both decrease equally"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "During fight-or-flight, SYMPATHETIC increases while PARASYMPATHETIC decreases (reciprocal inhibition). This shifts the balance strongly toward fight-or-flight responses.",
+      "wrongExplains": {
+        "0": "This is backwards. Danger requires sympathetic (fight-or-flight), not parasympathetic.",
+        "2": "Reciprocal inhibition prevents equal activation. One goes up, the other goes down.",
+        "3": "During stress, ANS activity shifts, it doesn't decrease overall. Sympathetic dominates."
+      }
+    },
+    {
+      "q": "After a big meal when you need to digest, what happens to the balance?",
+      "options": [
+        "Sympathetic increases, parasympathetic decreases",
+        "Parasympathetic increases, sympathetic decreases",
+        "Both stop completely",
+        "Neither is active during digestion"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "After eating, PARASYMPATHETIC increases while SYMPATHETIC decreases. This shifts the balance toward 'rest and digest' — promoting digestion, slowing heart rate, conserving energy.",
+      "wrongExplains": {
+        "0": "This is backwards. Digestion requires parasympathetic dominance, not sympathetic.",
+        "2": "The ANS never stops. After eating, parasympathetic dominates for digestion.",
+        "3": "Parasympathetic is very active during digestion — that's its primary domain."
+      }
+    },
+    {
+      "q": "What does 'autonomic balance' refer to?",
+      "options": [
+        "Only sympathetic activity",
+        "Only parasympathetic activity",
+        "The relative activity levels of both divisions",
+        "Complete inactivity"
+      ],
+      "answer": 2,
+      "difficulty": "foundation",
+      "explain": "AUTONOMIC BALANCE is the relative activity of sympathetic vs parasympathetic. The body's state reflects this balance — stress shifts it one way, rest shifts it the other.",
+      "wrongExplains": {
+        "0": "Balance requires considering BOTH divisions, not just sympathetic.",
+        "1": "Balance requires considering BOTH divisions, not just parasympathetic.",
+        "3": "Balance means relative activity levels. Both divisions are typically somewhat active."
+      }
+    },
+    {
+      "q": "The sympathetic and parasympathetic divisions can be thought of as ___.",
+      "options": [
+        "Identical twins doing the same thing",
+        "Opponents in a push-pull system",
+        "Completely unrelated systems",
+        "Always inactive"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "They work as OPPONENTS in a PUSH-PULL system. When one 'pushes' (increases activity), the other 'pulls back' (decreases). This creates fine control over organ function.",
+      "wrongExplains": {
+        "0": "They have opposite effects, not identical effects. That's what enables balanced control.",
+        "2": "They're definitely related — both are divisions of the ANS working in coordination.",
+        "3": "Both divisions maintain activity. Their relative balance shifts according to body needs."
+      }
+    },
+    {
+      "q": "When sympathetic activity increases and parasympathetic activity decreases, the net effect is ___.",
+      "options": [
+        "More rest-and-digest activity",
+        "More fight-or-flight activity",
+        "No change in organ function",
+        "Sleep"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Increased sympathetic + decreased parasympathetic = stronger FIGHT-OR-FLIGHT effect. Heart speeds up, pupils dilate, digestion stops — the body prepares for action.",
+      "wrongExplains": {
+        "0": "Rest-and-digest would require the opposite shift — more parasympathetic, less sympathetic.",
+        "2": "There IS a change — shifting the balance changes organ function.",
+        "3": "Sleep involves parasympathetic dominance, not sympathetic. This shift promotes alertness."
+      }
+    },
+    {
+      "q": "The coordination between sympathetic and parasympathetic divisions allows ___.",
+      "options": [
+        "Only on/off control of organs",
+        "Fine-tuned, graded control of organ function",
+        "No control at all",
+        "Random organ responses"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The push-pull system allows FINE-TUNED, GRADED control. Heart rate can be set anywhere from slow to fast, not just 'on' or 'off.' The ratio between divisions determines the precise setting.",
+      "wrongExplains": {
+        "0": "The dual system enables graded control, not just on/off. That's its advantage.",
+        "2": "The ANS provides excellent control over organ function through this balanced system.",
+        "3": "Responses are precisely coordinated, not random. The CNS carefully adjusts the balance."
+      }
     }
   ]
 }

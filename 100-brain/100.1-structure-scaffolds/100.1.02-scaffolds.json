@@ -3,94 +3,157 @@
   "parentQuestion": "The three basic regions of the cerebrum are the cerebral cortical gray matter, internal white matter, and the superior and inferior colliculi.",
   "scaffolds": [
     {
-      "q": "The cerebrum is the largest part of the brain.",
+      "q": "What is the cerebrum?",
       "options": [
-        "True",
-        "False"
+        "The spinal cord",
+        "The largest part of the brain (about 83% of brain mass)",
+        "A bone in the skull",
+        "A muscle"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The cerebrum makes up about 83% of your brain mass. It's the big wrinkled dome you picture when you think 'brain.'"
+      "explain": "The CEREBRUM is the LARGEST PART of the brain, making up about 83% of brain mass. It's the big wrinkled dome you picture when you think 'brain.'",
+      "wrongExplains": {
+        "0": "The spinal cord is below the brain. The cerebrum is the large upper portion of the brain.",
+        "2": "The cerebrum is brain tissue, not bone. The skull bones protect the cerebrum.",
+        "3": "The cerebrum is neural tissue. Muscles are in the body for movement."
+      }
     },
     {
-      "q": "Gray matter contains neuron cell bodies where processing happens.",
+      "q": "What is gray matter?",
       "options": [
-        "True",
-        "False"
+        "Myelinated axon bundles",
+        "Neuron cell bodies where processing happens",
+        "Bone tissue",
+        "Blood vessels only"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Gray matter is where the computation happens - neuron cell bodies, dendrites, and synapses doing the actual thinking."
+      "explain": "GRAY MATTER contains NEURON CELL BODIES, dendrites, and synapses — the computational hardware. This is where the actual thinking and processing happens.",
+      "wrongExplains": {
+        "0": "Myelinated axon bundles are white matter. Gray matter has cell bodies.",
+        "2": "Gray matter is neural tissue, not bone.",
+        "3": "While gray matter has blood supply, it's defined by neuron cell bodies, not blood vessels."
+      }
     },
     {
-      "q": "White matter contains myelinated axons that transmit signals.",
+      "q": "What is white matter?",
       "options": [
-        "True",
-        "False"
+        "Neuron cell bodies",
+        "Myelinated axons that transmit signals between brain regions",
+        "The skull",
+        "Cerebrospinal fluid"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! White matter is the wiring - axons covered in fatty myelin that carry signals between brain regions. The myelin makes it look white."
+      "explain": "WHITE MATTER contains MYELINATED AXONS that carry signals between brain regions. The fatty myelin coating makes it appear white — it's the brain's wiring system.",
+      "wrongExplains": {
+        "0": "Neuron cell bodies are in gray matter. White matter has axons, not cell bodies.",
+        "2": "The skull is bone. White matter is neural tissue inside the brain.",
+        "3": "CSF is fluid in the ventricles. White matter is neural tissue made of axon bundles."
+      }
     },
     {
-      "q": "The cerebral cortex is the thin outer layer of gray matter covering the cerebrum.",
+      "q": "What is the cerebral cortex?",
       "options": [
-        "True",
-        "False"
+        "Deep internal brain tissue",
+        "The thin outer layer of gray matter covering the cerebrum",
+        "A bone",
+        "The spinal cord"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The cortex is about 2-4mm thick, covering the cerebrum's surface. This thin layer is where conscious thought happens."
+      "explain": "The CEREBRAL CORTEX is the THIN OUTER LAYER (2-4mm) of GRAY MATTER covering the cerebrum's surface. This is where conscious thought and processing occur.",
+      "wrongExplains": {
+        "0": "The cortex is the outer layer, not deep tissue. Deep structures include basal nuclei.",
+        "2": "The cortex is neural tissue, not bone.",
+        "3": "The cortex is part of the brain. The spinal cord is below the brain."
+      }
     },
     {
-      "q": "The basal nuclei (basal ganglia) are deep clusters of gray matter inside the cerebrum.",
+      "q": "What are the basal nuclei?",
       "options": [
-        "True",
-        "False"
+        "The outer brain surface",
+        "Deep clusters of gray matter inside the cerebrum",
+        "Bones of the skull",
+        "Parts of the spinal cord"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The basal nuclei are islands of gray matter deep in the cerebrum. They help filter and coordinate movement."
+      "explain": "The BASAL NUCLEI (also called basal ganglia) are DEEP CLUSTERS of GRAY MATTER inside the cerebrum. They help filter and coordinate movement.",
+      "wrongExplains": {
+        "0": "The outer surface is the cortex. The basal nuclei are deep internal structures.",
+        "2": "The basal nuclei are neural tissue, not bones.",
+        "3": "The basal nuclei are in the cerebrum, not the spinal cord."
+      }
     },
     {
-      "q": "The colliculi are bumps on the MIDBRAIN, not the cerebrum.",
+      "q": "Where are the superior and inferior colliculi located?",
       "options": [
-        "True",
-        "False"
+        "In the cerebrum",
+        "On the back of the midbrain (brainstem)",
+        "In the spinal cord",
+        "In the skull bones"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The superior and inferior colliculi are on the back of the midbrain (part of the brainstem). They handle visual and auditory reflexes. They're NOT cerebrum structures."
+      "explain": "The COLLICULI are on the back of the MIDBRAIN (part of the brainstem). They handle visual and auditory reflexes. They are NOT cerebrum structures.",
+      "wrongExplains": {
+        "0": "The colliculi are NOT in the cerebrum — they're in the midbrain below it.",
+        "2": "The colliculi are in the midbrain, not the spinal cord.",
+        "3": "The colliculi are neural structures, not skull bones."
+      }
     },
     {
-      "q": "The three regions of the cerebrum are: cortex, internal white matter, and basal nuclei.",
+      "q": "What are the three TRUE regions of the cerebrum?",
       "options": [
-        "True",
-        "False"
+        "Cerebrum, cerebellum, and brainstem",
+        "Cortex (gray matter), internal white matter, and basal nuclei",
+        "Superior colliculus, inferior colliculus, and midbrain",
+        "Skull, meninges, and brain"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! Cerebrum = (1) cortical gray matter (outer processing layer), (2) internal white matter (transmission highways), (3) basal nuclei (deep gray matter islands)."
-    },
-    {
-      "q": "The colliculi are midbrain structures, NOT part of the cerebrum.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The original statement tries to sneak midbrain structures into the cerebrum. The colliculi live downstairs in the brainstem, not upstairs in the cerebrum."
+      "explain": "The cerebrum has THREE REGIONS: (1) CORTICAL GRAY MATTER (outer processing layer), (2) INTERNAL WHITE MATTER (transmission highways), (3) BASAL NUCLEI (deep gray matter islands).",
+      "wrongExplains": {
+        "0": "Those are three major brain divisions, but not the three regions of the cerebrum specifically.",
+        "2": "The colliculi and midbrain are brainstem structures, not cerebrum regions.",
+        "3": "These are different structural categories entirely, not cerebrum regions."
+      }
     },
     {
-      "q": "The statement is FALSE because the colliculi are midbrain structures, not cerebrum regions.",
+      "q": "Why is the parent statement FALSE?",
       "options": [
-        "True",
-        "False"
+        "The cerebrum doesn't have regions",
+        "The colliculi are midbrain structures, not cerebrum regions",
+        "Gray matter doesn't exist",
+        "White matter isn't inside the cerebrum"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! The statement is FALSE. The cerebrum's three regions are cortex, white matter, and basal nuclei. The colliculi are midbrain imposters trying to crash the cerebrum party."
+      "explain": "The statement is FALSE because the COLLICULI ARE MIDBRAIN STRUCTURES, not cerebrum regions. The cerebrum's three regions are cortex, white matter, and basal nuclei.",
+      "wrongExplains": {
+        "0": "The cerebrum definitely has regions — cortex, white matter, and basal nuclei.",
+        "2": "Gray matter definitely exists — it contains neuron cell bodies.",
+        "3": "White matter is definitely inside the cerebrum — it forms the internal transmission system."
+      }
+    },
+    {
+      "q": "Which structure does NOT belong in the cerebrum?",
+      "options": [
+        "Cerebral cortex",
+        "Internal white matter",
+        "Superior and inferior colliculi",
+        "Basal nuclei"
+      ],
+      "answer": 2,
+      "difficulty": "intermediate",
+      "explain": "The COLLICULI do NOT belong in the cerebrum — they're MIDBRAIN (brainstem) structures. The statement tries to sneak midbrain structures into the cerebrum, making it FALSE.",
+      "wrongExplains": {
+        "0": "The cerebral cortex is the outer gray matter layer of the cerebrum — it definitely belongs.",
+        "1": "Internal white matter is the transmission system inside the cerebrum — it definitely belongs.",
+        "3": "The basal nuclei are deep gray matter inside the cerebrum — they definitely belong."
+      }
     }
   ]
 }

@@ -3,96 +3,157 @@
   "parentQuestion": "A person has gone for a deep-tissue therapeutic massage. Which of the following receptors would be stimulated by the massage?",
   "scaffolds": [
     {
-      "q": "Deep-tissue massage involves applying strong pressure to muscles.",
+      "q": "What does deep-tissue massage involve?",
       "options": [
-        "True",
-        "False"
+        "Very gentle touching",
+        "Applying strong pressure to muscles",
+        "Only using hot stones",
+        "No physical contact"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Unlike gentle Swedish massage, deep-tissue work uses significant pressure to reach deeper muscle layers. It can be uncomfortable or even painful."
+      "explain": "Unlike gentle Swedish massage, DEEP-TISSUE work uses SIGNIFICANT PRESSURE to reach deeper muscle layers. It can be uncomfortable or even painful.",
+      "wrongExplains": {
+        "0": "Deep-tissue massage specifically uses firm pressure, not gentle touching.",
+        "2": "Hot stones are a separate technique. Deep-tissue massage is about pressure.",
+        "3": "Massage definitely involves physical contact and pressure."
+      }
     },
     {
-      "q": "The 'hurts so good' feeling during deep-tissue massage suggests pain receptors are involved.",
+      "q": "The 'hurts so good' feeling during deep massage suggests what?",
       "options": [
-        "True",
-        "False"
+        "Nothing is happening",
+        "Pain receptors (nociceptors) are being activated",
+        "The massage is too gentle",
+        "Only thermoreceptors are involved"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! That intense, bordering-on-painful sensation comes from activating nociceptors (pain receptors). You're getting therapeutic pain."
+      "explain": "That intense, bordering-on-painful sensation comes from activating NOCICEPTORS (pain receptors). You're getting therapeutic pain.",
+      "wrongExplains": {
+        "0": "The 'hurts so good' sensation means nociceptors are definitely being activated.",
+        "2": "If it hurts, it's not too gentle — nociceptors are being stimulated.",
+        "3": "Thermoreceptors detect temperature. The pressure sensation involves nociceptors."
+      }
     },
     {
-      "q": "Free nerve endings are the simplest type of sensory receptor - just bare nerve terminals.",
+      "q": "What are free nerve endings?",
       "options": [
-        "True",
-        "False"
+        "Complex encapsulated receptors",
+        "The simplest receptors — just bare nerve terminals",
+        "Receptors only in the brain",
+        "Blood vessel sensors"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Free nerve endings have no fancy capsules or structures. They're raw nerve terminals that respond to intense stimuli."
+      "explain": "FREE NERVE ENDINGS have no fancy capsules or structures. They're RAW NERVE TERMINALS that respond to intense stimuli. They're nociceptors.",
+      "wrongExplains": {
+        "0": "Free nerve endings are specifically UNencapsulated — bare nerve terminals.",
+        "2": "Free nerve endings are found throughout the body, especially in skin.",
+        "3": "Free nerve endings are sensory receptors, not blood vessel sensors."
+      }
     },
     {
-      "q": "Free nerve endings detect painful, intense, or potentially damaging stimuli.",
+      "q": "What do free nerve endings (nociceptors) detect?",
       "options": [
-        "True",
-        "False"
+        "Only gentle touch",
+        "Painful, intense, or potentially damaging stimuli",
+        "Only pleasant sensations",
+        "Only cold temperatures"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Free nerve endings (nociceptors) respond when stimuli are intense enough to be concerning - strong pressure, extreme temperature, or tissue damage."
+      "explain": "FREE NERVE ENDINGS (nociceptors) respond when stimuli are INTENSE enough to be concerning — strong pressure, extreme temperature, or tissue damage.",
+      "wrongExplains": {
+        "0": "Gentle touch activates encapsulated mechanoreceptors. Free endings detect intense stimuli.",
+        "2": "Free nerve endings detect potentially harmful stimuli, not pleasant ones.",
+        "3": "Free nerve endings detect multiple types of intense stimuli, not just cold."
+      }
     },
     {
-      "q": "Pacinian corpuscles detect vibration and brief pressure, not sustained deep pressure.",
+      "q": "What do Pacinian corpuscles detect?",
       "options": [
-        "True",
-        "False"
+        "Sustained deep pressure",
+        "Vibration and brief pressure changes",
+        "Body position",
+        "Blood sugar"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Pacinian corpuscles adapt rapidly - they fire when pressure starts and stops, but go quiet during sustained pressure. They're vibration detectors."
+      "explain": "PACINIAN CORPUSCLES adapt rapidly — they fire when pressure STARTS and STOPS, but go quiet during SUSTAINED pressure. They're VIBRATION DETECTORS.",
+      "wrongExplains": {
+        "0": "Pacinian corpuscles adapt quickly and don't detect sustained pressure well.",
+        "2": "Body position is detected by proprioceptors. Pacinian corpuscles detect vibration.",
+        "3": "Blood sugar is monitored internally. Pacinian corpuscles detect mechanical vibration."
+      }
     },
     {
-      "q": "Golgi tendon organs detect muscle tension, not external pressure applied to skin.",
+      "q": "What do Golgi tendon organs detect?",
       "options": [
-        "True",
-        "False"
+        "External pressure on skin",
+        "Muscle tension from YOUR muscle contracting",
+        "Temperature changes",
+        "Sounds"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Golgi tendon organs are in tendons and respond when YOUR muscle contracts forcefully. They don't detect someone pressing on you from outside."
+      "explain": "GOLGI TENDON ORGANS are in tendons and respond when YOUR MUSCLE contracts forcefully. They detect internal muscle tension, NOT external pressure.",
+      "wrongExplains": {
+        "0": "Golgi tendon organs detect internal muscle tension, not external skin pressure.",
+        "2": "Temperature is detected by thermoreceptors. Golgi organs detect muscle tension.",
+        "3": "Sounds are detected by cochlear hair cells. Golgi organs are in tendons."
+      }
     },
     {
-      "q": "The intense sensation of deep-tissue massage comes from stimulating free nerve endings (nociceptors).",
+      "q": "What causes the intense sensation during deep-tissue massage?",
       "options": [
-        "True",
-        "False"
+        "Golgi tendon organs",
+        "Free nerve endings (nociceptors) being stimulated",
+        "Photoreceptors",
+        "Taste buds"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! That uncomfortable-yet-therapeutic sensation is your nociceptors firing. You're essentially paying someone to activate your pain system in a controlled way."
+      "explain": "That uncomfortable-yet-therapeutic sensation is your NOCICEPTORS (free nerve endings) firing. You're essentially paying someone to activate your pain system in a controlled way.",
+      "wrongExplains": {
+        "0": "Golgi organs detect internal muscle tension. The massage pain comes from nociceptors.",
+        "2": "Photoreceptors detect light in the eyes, not massage pressure.",
+        "3": "Taste buds are in the tongue. Massage pressure activates skin nociceptors."
+      }
     },
     {
-      "q": "Free nerve endings are polymodal - they respond to multiple types of intense stimuli.",
+      "q": "What does 'polymodal' mean for free nerve endings?",
       "options": [
-        "True",
-        "False"
+        "They only detect one type of stimulus",
+        "They respond to multiple types of intense stimuli",
+        "They don't respond to anything",
+        "They only work in groups"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Free nerve endings can respond to intense mechanical pressure, extreme temperature, AND damaging chemicals. They're the body's general alarm system."
+      "explain": "Free nerve endings are POLYMODAL — they respond to intense mechanical pressure, extreme temperature, AND damaging chemicals. They're the body's GENERAL ALARM SYSTEM.",
+      "wrongExplains": {
+        "0": "Polymodal specifically means responding to MULTIPLE stimulus types.",
+        "2": "Free nerve endings definitely respond — to multiple types of intense stimuli.",
+        "3": "Polymodal refers to stimulus types, not receptor grouping."
+      }
     },
     {
-      "q": "The receptor most stimulated by deep-tissue massage is the ___.",
+      "q": "Which receptor is most stimulated by deep-tissue massage?",
       "options": [
         "Golgi tendon organ",
         "Pacinian corpuscle",
-        "Free nerve ending",
+        "Free nerve ending (nociceptor)",
         "Muscle spindle"
       ],
       "answer": 2,
       "difficulty": "intermediate",
-      "explain": "Free nerve endings (nociceptors)! The intense pressure of deep-tissue work is strong enough to activate these pain receptors. That's why it 'hurts so good.'"
+      "explain": "FREE NERVE ENDINGS (nociceptors)! The intense pressure of deep-tissue work is strong enough to activate these pain receptors. That's why it 'hurts so good.'",
+      "wrongExplains": {
+        "0": "Golgi tendon organs detect internal muscle tension, not external massage pressure.",
+        "1": "Pacinian corpuscles detect vibration, not sustained deep pressure.",
+        "3": "Muscle spindles detect muscle stretch, not external pressure causing pain."
+      }
     }
   ]
 }

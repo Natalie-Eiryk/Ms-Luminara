@@ -3,102 +3,157 @@
   "parentQuestion": "Damage to the optic nerve (CN II) would result in ___.",
   "scaffolds": [
     {
-      "q": "Your eyes are where you detect light and see things.",
+      "q": "Which cranial nerve carries visual information from your eye to your brain?",
       "options": [
-        "True",
-        "False"
+        "CN I (olfactory)",
+        "CN II (optic)",
+        "CN III (oculomotor)",
+        "CN VIII (vestibulocochlear)"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Your eyes contain special light-detecting cells. Light enters through the pupil, hits the retina at the back, and those cells turn light into electrical signals your brain can understand."
+      "explain": "CN II (optic nerve) carries VISUAL information from the retina to the brain. 'Optic' = vision. Without this nerve, the brain never receives the visual signals your eye detects.",
+      "wrongExplains": {
+        "0": "CN I (olfactory) carries SMELL information from the nose. Different sense, different nerve. Optic = vision, Olfactory = smell.",
+        "2": "CN III (oculomotor) MOVES the eye but doesn't carry visual information. It controls eye muscles and pupil size. CN II carries the actual image data.",
+        "3": "CN VIII (vestibulocochlear) carries HEARING and BALANCE from the ear. Vision uses CN II, not CN VIII."
+      }
     },
     {
-      "q": "The word optic means related to ___.",
+      "q": "The optic nerve connects which two structures?",
       "options": [
-        "Hearing",
-        "Smell",
-        "Vision/Sight",
-        "Taste"
+        "Ear to brain",
+        "Eye (retina) to brain",
+        "Nose to brain",
+        "Tongue to brain"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The optic nerve connects the RETINA (back of the eye) to the BRAIN (visual cortex). It's like a cable carrying video signals from a camera to a monitor.",
+      "wrongExplains": {
+        "0": "Ear to brain uses CN VIII (vestibulocochlear). The optic nerve is specifically for vision, not hearing.",
+        "2": "Nose to brain uses CN I (olfactory) for smell. The optic nerve serves the eye, not the nose.",
+        "3": "Tongue to brain uses CN VII and IX for taste. The optic nerve doesn't carry taste — only visual data."
+      }
+    },
+    {
+      "q": "If the optic nerve is completely destroyed, what happens to vision in that eye?",
+      "options": [
+        "Vision becomes blurry",
+        "Colors look different",
+        "Complete blindness in that eye",
+        "Vision improves"
       ],
       "answer": 2,
       "difficulty": "foundation",
-      "explain": "Optic = vision/sight! When you see optical or optic in anatomy, think eyes and seeing. Opticians make glasses, optometrists check eyes - its all about vision!"
+      "explain": "Complete optic nerve destruction causes TOTAL BLINDNESS in that eye. No nerve = no signal path. Even if the eye is perfectly healthy, the brain never receives the visual information.",
+      "wrongExplains": {
+        "0": "Blurry vision suggests partial function — the signal is getting through but degraded. Complete destruction means NO signal at all.",
+        "1": "Color changes suggest partial damage to specific fibers. Complete destruction means nothing gets through — not even distorted images.",
+        "3": "Vision cannot improve if the nerve carrying visual signals is destroyed. No nerve = no vision, period."
+      }
     },
     {
-      "q": "If a cable connecting your TV to the wall is cut, the TV screen goes blank.",
+      "q": "CN II is classified as purely ___.",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Exactly! And your optic nerve works the same way - its the cable connecting your eye to your brain. Cut that nerve and the signal cant reach your brain, so you cant see from that eye."
-    },
-    {
-      "q": "CN II is the abbreviation for Cranial Nerve number ___.",
-      "options": [
-        "One",
-        "Two",
-        "Three",
-        "Twelve"
+        "Motor",
+        "Sensory",
+        "Mixed",
+        "Autonomic"
       ],
       "answer": 1,
       "difficulty": "foundation",
-      "explain": "CN II = Cranial Nerve Two! In Roman numerals, II = 2. The optic nerve is the second cranial nerve, right after the olfactory (smell) nerve."
+      "explain": "CN II is purely SENSORY — it only carries information TO the brain (visual signals). It doesn't control any muscles. The three purely sensory cranial nerves are CN I, II, and VIII.",
+      "wrongExplains": {
+        "0": "Motor nerves carry commands FROM the brain to muscles. CN II doesn't control muscles — it carries visual information TO the brain.",
+        "2": "Mixed nerves have both sensory and motor fibers. CN II only has sensory fibers carrying visual input.",
+        "3": "Autonomic nerves control involuntary functions like heart rate. CN II carries conscious visual perception."
+      }
     },
     {
-      "q": "The optic nerve carries information about what you ___.",
+      "q": "Each eye has its own optic nerve. If the RIGHT optic nerve is damaged, which eye loses vision?",
       "options": [
-        "Hear",
-        "See",
-        "Smell",
-        "Taste"
+        "Left eye only",
+        "Right eye only",
+        "Both eyes",
+        "Neither eye"
       ],
       "answer": 1,
       "difficulty": "foundation",
-      "explain": "The optic nerve carries visual information - what you see! It takes the light signals your retina detects and sends them to the visual processing area in your brain."
+      "explain": "RIGHT optic nerve damage = RIGHT eye blindness. Each eye has its own dedicated optic nerve. Damage to one doesn't affect the other eye's nerve.",
+      "wrongExplains": {
+        "0": "The left optic nerve serves the left eye. Right nerve damage affects the right eye only.",
+        "2": "Each optic nerve is independent until they partially cross at the optic chiasm. Before the chiasm, one nerve = one eye.",
+        "3": "The damaged nerve definitely can't carry signals. The right eye will lose vision if its optic nerve is destroyed."
+      }
     },
     {
-      "q": "If something is damaged or broken, it usually stops working properly.",
+      "q": "Where does the optic nerve send visual information?",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Right! When nerves are damaged, they cant carry signals properly. A damaged optic nerve means visual signals cant get from your eye to your brain."
-    },
-    {
-      "q": "Blindness means you cannot ___.",
-      "options": [
-        "Hear",
-        "See",
-        "Walk",
-        "Think"
+        "Auditory cortex (hearing area)",
+        "Visual cortex (seeing area)",
+        "Motor cortex (movement area)",
+        "Spinal cord"
       ],
       "answer": 1,
-      "difficulty": "foundation",
-      "explain": "Blindness = inability to see. If the optic nerve is completely damaged, signals from that eye never reach the brain, causing blindness in that eye."
+      "difficulty": "intermediate",
+      "explain": "The optic nerve sends signals to the VISUAL CORTEX in the occipital lobe (back of the brain). This is where your brain actually 'sees' and interprets visual information.",
+      "wrongExplains": {
+        "0": "The auditory cortex processes SOUND from CN VIII. Visual information goes to a different brain area entirely.",
+        "2": "The motor cortex controls MOVEMENT. Visual processing happens in the visual cortex. Different functions, different locations.",
+        "3": "The spinal cord handles body sensation and movement. Cranial nerve signals go directly to the brain, not the spinal cord."
+      }
     },
     {
-      "q": "Visual information from the eye must travel to the brain to be perceived.",
+      "q": "The eye itself is healthy, but the optic nerve is severed. Can this person see from that eye?",
       "options": [
-        "True",
-        "False"
+        "Yes, the eye still works",
+        "No, signals can't reach the brain",
+        "Yes, but only colors",
+        "Yes, but only in darkness"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "NO vision is possible. The eye may detect light perfectly, but without the optic nerve, that information NEVER REACHES the brain. Vision requires both detection (eye) AND perception (brain).",
+      "wrongExplains": {
+        "0": "The eye 'works' in the sense that photoreceptors still respond to light, but you can't SEE without the brain receiving those signals.",
+        "2": "No visual information of any kind — color, shape, movement, nothing — can reach the brain without the optic nerve.",
+        "3": "Light level doesn't matter if the nerve is cut. No signal path = no vision under any conditions."
+      }
+    },
+    {
+      "q": "What's the difference between CN II (optic) and CN III (oculomotor)?",
+      "options": [
+        "CN II carries vision TO brain; CN III moves the eye",
+        "CN II moves the eye; CN III carries vision",
+        "Both carry vision",
+        "Both move the eye"
       ],
       "answer": 0,
       "difficulty": "intermediate",
-      "explain": "The retina detects light and converts it to electrical signals, but those signals must reach the visual cortex in the brain before you see anything. The optic nerve is the highway that carries the data."
+      "explain": "CN II is SENSORY (carries visual signals TO the brain). CN III is mostly MOTOR (moves the eye, controls pupil). Different jobs: II = seeing, III = moving.",
+      "wrongExplains": {
+        "1": "This is backwards. CN II carries visual information (sensory). CN III controls eye muscles (motor).",
+        "2": "Only CN II carries vision. CN III controls eye MOVEMENT and pupil size — it doesn't transmit visual images.",
+        "3": "Only CN III moves the eye (along with CN IV and VI). CN II is purely sensory — it doesn't control any muscles."
+      }
     },
     {
-      "q": "Each eye has its own optic nerve.",
+      "q": "A patient has a brain tumor pressing on the right optic nerve. What symptom would you expect?",
       "options": [
-        "True",
-        "False"
+        "Deafness in the right ear",
+        "Vision loss in the right eye",
+        "Weakness in the right arm",
+        "Loss of smell"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Each eye has a separate optic nerve (CN II). Damage to one optic nerve affects only that eyes vision. Its a dedicated connection - one eye, one cable."
+      "explain": "Pressure on the RIGHT optic nerve causes RIGHT eye vision loss. The nerve can't transmit signals when compressed. This is a classic sign of tumors near the optic pathway.",
+      "wrongExplains": {
+        "0": "Deafness would involve CN VIII (vestibulocochlear), not the optic nerve. Different nerve, different location.",
+        "2": "Arm weakness involves motor pathways and spinal nerves, not cranial nerve II. The optic nerve only handles vision.",
+        "3": "Loss of smell involves CN I (olfactory). Optic nerve compression affects vision, not smell."
+      }
     }
   ]
 }

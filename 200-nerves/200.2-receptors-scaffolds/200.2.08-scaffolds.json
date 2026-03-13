@@ -3,87 +3,143 @@
   "parentQuestion": "A patient with advanced multiple sclerosis reports she must watch her feet constantly while walking, or she stumbles. Her strength is normal, but she can't tell where her legs are without looking. Which receptor type has lost its connection to the CNS?",
   "scaffolds": [
     {
-      "q": "Proprioception is your sense of body position without looking.",
+      "q": "What is proprioception?",
       "options": [
-        "True",
-        "False"
+        "The sense of taste",
+        "The sense of body position without looking",
+        "The ability to see in color",
+        "The sense of hearing"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Proprioception tells you where your limbs are in space. You can touch your nose with eyes closed because of proprioception."
+      "explain": "PROPRIOCEPTION tells you where your limbs are in SPACE. You can touch your nose with eyes closed because of proprioception — your body's internal GPS.",
+      "wrongExplains": {
+        "0": "Taste is gustation. Proprioception is body position sense.",
+        "2": "Color vision uses cones in the eyes. Proprioception is limb position sense.",
+        "3": "Hearing is audition. Proprioception tells you where body parts are."
+      }
     },
     {
-      "q": "Proprioceptors include muscle spindles, Golgi tendon organs, and joint receptors.",
+      "q": "What structures are proprioceptors?",
       "options": [
-        "True",
-        "False"
+        "Only taste buds",
+        "Muscle spindles, Golgi tendon organs, and joint receptors",
+        "Only photoreceptors",
+        "Only blood cells"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! These receptors monitor muscle length, muscle tension, and joint position. Together they create your body map."
+      "explain": "PROPRIOCEPTORS include MUSCLE SPINDLES (muscle length), GOLGI TENDON ORGANS (muscle tension), and JOINT RECEPTORS (joint position). Together they create your body map.",
+      "wrongExplains": {
+        "0": "Taste buds detect chemicals. Proprioceptors are in muscles and joints.",
+        "2": "Photoreceptors detect light. Proprioceptors are in the musculoskeletal system.",
+        "3": "Blood cells are circulatory. Proprioceptors are sensory structures."
+      }
     },
     {
-      "q": "Multiple sclerosis (MS) is a disease that damages myelin sheaths around nerve axons.",
+      "q": "What is multiple sclerosis (MS)?",
       "options": [
-        "True",
-        "False"
+        "A bone disease",
+        "A disease that damages myelin sheaths around nerve axons",
+        "A muscle weakness disorder",
+        "A skin condition"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! MS is a demyelinating disease. Without myelin, nerve signals slow down or get blocked entirely."
+      "explain": "MS is a DEMYELINATING disease. The immune system attacks MYELIN around nerve axons. Without myelin, nerve signals slow down or get BLOCKED entirely.",
+      "wrongExplains": {
+        "0": "MS affects the nervous system, not bones.",
+        "2": "MS affects nerves. Weakness results from nerve damage, not muscle disease.",
+        "3": "MS is a neurological condition, not a skin condition."
+      }
     },
     {
-      "q": "Proprioceptive signals travel on large, heavily myelinated nerve fibers.",
+      "q": "What type of fibers do proprioceptive signals travel on?",
       "options": [
-        "True",
-        "False"
+        "Slow, unmyelinated fibers",
+        "Large, heavily myelinated nerve fibers",
+        "No fibers at all",
+        "Only motor fibers"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Proprioception needs to be FAST for real-time position updates. These signals travel on the fastest, most myelinated fibers."
+      "explain": "Proprioception needs to be FAST for real-time position updates. These signals travel on the FASTEST, most heavily MYELINATED fibers.",
+      "wrongExplains": {
+        "0": "Unmyelinated fibers carry pain. Proprioception uses fast myelinated fibers.",
+        "2": "Proprioception definitely uses nerve fibers to transmit information.",
+        "3": "Proprioception is sensory. It uses sensory fibers, not motor."
+      }
     },
     {
-      "q": "When myelin is damaged, fast-conducting signals (like proprioception) are disrupted.",
+      "q": "What happens to proprioception when myelin is damaged?",
       "options": [
-        "True",
-        "False"
+        "It improves",
+        "Fast-conducting signals are disrupted",
+        "Nothing changes",
+        "It only affects hearing"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! MS damages myelin. Heavily myelinated pathways suffer most. Proprioception depends on fast, myelinated fibers."
+      "explain": "MS damages MYELIN. Heavily myelinated pathways suffer most. Proprioception depends on fast, myelinated fibers — so it's vulnerable in MS.",
+      "wrongExplains": {
+        "0": "Myelin damage slows or blocks signals. It doesn't improve them.",
+        "2": "Demyelination definitely disrupts signal transmission.",
+        "3": "MS can affect many systems. Proprioception is particularly vulnerable."
+      }
     },
     {
-      "q": "The patient has normal strength, so her MOTOR pathways still work.",
+      "q": "This patient has normal strength. What does that tell us?",
       "options": [
-        "True",
-        "False"
+        "Her motor pathways are damaged",
+        "Her MOTOR pathways still work — the problem is sensory",
+        "She has muscle disease",
+        "Nothing is wrong"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! She can move her legs. The problem is she doesn't know WHERE her legs are. Motor works, sensory (proprioception) fails."
+      "explain": "She can MOVE her legs (motor works). The problem is she doesn't know WHERE her legs are (sensory proprioception fails). Motor and sensory pathways are separate.",
+      "wrongExplains": {
+        "0": "Normal strength means motor pathways are intact, not damaged.",
+        "2": "Muscle disease would cause weakness. Her strength is normal.",
+        "3": "She has a significant problem — she can't sense her limb positions."
+      }
     },
     {
-      "q": "She watches her feet because vision compensates for lost proprioception.",
+      "q": "Why does she watch her feet constantly?",
       "options": [
-        "True",
-        "False"
+        "Because she's afraid of dirt",
+        "Vision compensates for lost proprioception",
+        "Her feet are painful",
+        "Her feet are very attractive"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! When proprioception fails, you can use your eyes as a backup. But you have to constantly watch your feet to know where they are."
+      "explain": "When PROPRIOCEPTION fails, you can use your EYES as a backup. But you have to CONSTANTLY WATCH your feet to know where they are — visual compensation.",
+      "wrongExplains": {
+        "0": "She watches her feet to know where they are, not to check for dirt.",
+        "2": "Pain would come from nociceptors. Her issue is position sense.",
+        "3": "She's watching for spatial awareness, not aesthetics."
+      }
     },
     {
-      "q": "The lost sense of limb position indicates proprioceptors have lost their connection to the brain.",
+      "q": "What has happened to this patient's proprioceptors?",
       "options": [
-        "True",
-        "False"
+        "They are enhanced",
+        "They have lost their connection to the brain due to demyelination",
+        "They moved to a different location",
+        "They turned into motor neurons"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The receptors may still work, but the signals can't reach the brain due to demyelination. The pathway is blocked."
+      "explain": "The RECEPTORS may still work, but the SIGNALS CAN'T REACH THE BRAIN due to demyelination. The pathway is blocked by MS damage.",
+      "wrongExplains": {
+        "0": "Demyelination impairs function. It doesn't enhance it.",
+        "2": "Receptors don't move. The pathway to the brain is disrupted.",
+        "3": "Receptors don't transform. The connection to CNS is damaged."
+      }
     },
     {
-      "q": "The receptor type that has lost its connection to the CNS is ___.",
+      "q": "Which receptor type has lost its connection to the CNS?",
       "options": [
         "Nociceptors",
         "Proprioceptors",
@@ -92,7 +148,12 @@
       ],
       "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Proprioceptors! She can't sense where her legs are without looking. Muscle spindles, Golgi tendon organs, and joint receptors have lost their pathway to the brain."
+      "explain": "PROPRIOCEPTORS! She can't sense where her legs are without looking. Muscle spindles, Golgi tendon organs, and joint receptors have lost their pathway to the brain due to MS.",
+      "wrongExplains": {
+        "0": "Nociceptors detect pain. Her issue is position sense, not pain.",
+        "2": "Photoreceptors are in the eyes. Her problem is limb position sense.",
+        "3": "Chemoreceptors detect chemicals. Her issue is proprioception."
+      }
     }
   ]
 }

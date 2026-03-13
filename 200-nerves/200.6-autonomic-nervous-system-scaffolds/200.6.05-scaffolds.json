@@ -1,26 +1,159 @@
 {
   "parentId": "200.6.05",
-  "parentQuestion": "ALL preganglionic neurons in BOTH sympathetic and parasympathetic divisions rele...",
+  "parentQuestion": "ALL preganglionic neurons in BOTH sympathetic and parasympathetic divisions release ___.",
   "scaffolds": [
     {
-      "q": "Acetylcholine (ACh) is a neurotransmitter used at many synapses in the nervous system.",
+      "q": "What is a preganglionic neuron?",
       "options": [
-        "True",
-        "False"
+        "A neuron that comes after the ganglion",
+        "A neuron that extends from the CNS to the ganglion",
+        "A sensory neuron",
+        "A neuron in the brain only"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "ACh is one of the most widespread neurotransmitters — it's used at the neuromuscular junction, in the brain, and throughout the ANS. Sit with this knowledge:this versatility: one molecule serving many masters. The effect depends on the receptor, not just the transmitter."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "A PREGANGLIONIC neuron extends FROM the CNS (brain/spinal cord) TO a ganglion. 'Pre' = before. It's the first neuron in the two-neuron autonomic pathway, synapsing in the ganglion.",
+      "wrongExplains": {
+        "0": "That describes a POSTganglionic neuron. 'Pre' means before the ganglion, not after.",
+        "2": "Preganglionic neurons are motor/efferent neurons carrying commands OUT, not sensory neurons bringing info IN.",
+        "3": "Preganglionic neurons are in the spinal cord (sympathetic) AND brainstem (parasympathetic), not just the brain."
+      }
     },
     {
-      "q": "A ganglion is a cluster of neuron cell bodies located outside the CNS.",
+      "q": "What is a ganglion?",
       "options": [
-        "True",
-        "False"
+        "A muscle fiber",
+        "A cluster of neuron cell bodies outside the CNS",
+        "A type of neurotransmitter",
+        "Part of the brain"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "ganglia are the peripheral relay stations. In the ANS, preganglionic neurons synapse with postganglionic neurons IN ganglia. These clusters of cell bodies process and distribute autonomic signals before they reach target organs. Gloriously complex. beautiful?"
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "A GANGLION is a cluster of neuron cell bodies located OUTSIDE the CNS. In the ANS, ganglia serve as relay stations where preganglionic neurons synapse with postganglionic neurons.",
+      "wrongExplains": {
+        "0": "Muscle fibers are effectors at the end of the pathway. Ganglia are neural relay stations.",
+        "2": "Neurotransmitters are chemical messengers. A ganglion is a structural cluster of nerve cell bodies.",
+        "3": "Ganglia are specifically OUTSIDE the CNS. Clusters of cell bodies inside the CNS are called 'nuclei,' not ganglia."
+      }
+    },
+    {
+      "q": "What is the most common neurotransmitter used throughout the nervous system?",
+      "options": [
+        "Dopamine",
+        "Acetylcholine (ACh)",
+        "Serotonin",
+        "GABA"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "ACETYLCHOLINE (ACh) is the most widespread neurotransmitter. It's used at neuromuscular junctions, in the brain, and throughout the ANS — at ALL preganglionic synapses and at parasympathetic target organs.",
+      "wrongExplains": {
+        "0": "Dopamine is important for movement and reward, but ACh is more widespread throughout the body.",
+        "2": "Serotonin is important for mood and gut function, but ACh has more total uses in the nervous system.",
+        "3": "GABA is the main inhibitory neurotransmitter in the brain, but ACh is more widespread overall."
+      }
+    },
+    {
+      "q": "ALL preganglionic neurons (sympathetic AND parasympathetic) release which neurotransmitter?",
+      "options": [
+        "Norepinephrine",
+        "Acetylcholine (ACh)",
+        "Epinephrine",
+        "Dopamine"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "ALL preganglionic neurons release ACETYLCHOLINE — both sympathetic and parasympathetic. This is a universal rule. The difference between the divisions appears at the postganglionic level.",
+      "wrongExplains": {
+        "0": "Norepinephrine is released by sympathetic POSTganglionic neurons, not preganglionic.",
+        "2": "Epinephrine is primarily a hormone from the adrenal medulla, not a preganglionic neurotransmitter.",
+        "3": "Dopamine is used in the brain and some peripheral areas, but not at autonomic preganglionic synapses."
+      }
+    },
+    {
+      "q": "Neurons that release acetylcholine are called ___.",
+      "options": [
+        "Adrenergic",
+        "Cholinergic",
+        "Dopaminergic",
+        "Serotonergic"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CHOLINERGIC neurons release acetylCHOLINE. All preganglionic neurons are cholinergic. The suffix '-ergic' means 'working by' or 'releasing' that neurotransmitter.",
+      "wrongExplains": {
+        "0": "Adrenergic neurons release adrenaline/norepinephrine. Sympathetic postganglionic neurons are adrenergic.",
+        "2": "Dopaminergic neurons release dopamine. They're found in the brain, not at ANS ganglia.",
+        "3": "Serotonergic neurons release serotonin. Different neurotransmitter system entirely."
+      }
+    },
+    {
+      "q": "What type of receptor does ACh bind to in autonomic ganglia?",
+      "options": [
+        "Adrenergic receptors",
+        "Nicotinic receptors",
+        "GABA receptors",
+        "Dopamine receptors"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "In ganglia, ACh binds to NICOTINIC receptors on postganglionic neurons. These are fast-acting ion channel receptors (named because nicotine also activates them).",
+      "wrongExplains": {
+        "0": "Adrenergic receptors bind norepinephrine/epinephrine, not acetylcholine.",
+        "2": "GABA receptors bind GABA, an inhibitory neurotransmitter. ACh uses its own receptor types.",
+        "3": "Dopamine receptors bind dopamine. ACh binds to cholinergic receptors (nicotinic or muscarinic)."
+      }
+    },
+    {
+      "q": "Why is it important that ALL preganglionic neurons use ACh?",
+      "options": [
+        "It makes no difference",
+        "It allows drugs to affect both divisions at the ganglionic level",
+        "It proves the two divisions are identical",
+        "ACh is the only neurotransmitter that exists"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "This shared feature means GANGLIONIC BLOCKING DRUGS affect BOTH divisions simultaneously. A drug that blocks nicotinic receptors in ganglia will inhibit both sympathetic and parasympathetic transmission.",
+      "wrongExplains": {
+        "0": "It makes a big difference pharmacologically — drugs can target the common ganglionic synapse.",
+        "2": "The divisions differ at the postganglionic level, but share ACh at the preganglionic level.",
+        "3": "Many neurotransmitters exist. ACh happens to be the universal choice for preganglionic neurons."
+      }
+    },
+    {
+      "q": "Postganglionic parasympathetic neurons release ___.",
+      "options": [
+        "Norepinephrine",
+        "Acetylcholine",
+        "Epinephrine",
+        "Cortisol"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Parasympathetic postganglionic neurons ALSO release ACh. So parasympathetic is 'ACh all the way' — both preganglionic AND postganglionic neurons are cholinergic.",
+      "wrongExplains": {
+        "0": "Norepinephrine is released by SYMPATHETIC postganglionic neurons, not parasympathetic.",
+        "2": "Epinephrine is a hormone from the adrenal medulla, not a parasympathetic neurotransmitter.",
+        "3": "Cortisol is a stress hormone from the adrenal cortex, not a neurotransmitter."
+      }
+    },
+    {
+      "q": "Postganglionic sympathetic neurons (mostly) release ___.",
+      "options": [
+        "Acetylcholine",
+        "Norepinephrine",
+        "Serotonin",
+        "Histamine"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Most sympathetic postganglionic neurons release NOREPINEPHRINE (NE). This is the key difference: sympathetic switches from ACh (preganglionic) to NE (postganglionic). One exception: sweat glands use ACh.",
+      "wrongExplains": {
+        "0": "ACh is used by sympathetic PREganglionic neurons and to sweat glands, but most postganglionic use NE.",
+        "2": "Serotonin is primarily a CNS neurotransmitter and gut signaling molecule, not used by sympathetic postganglionic neurons.",
+        "3": "Histamine is involved in immune/allergic responses, not standard sympathetic neurotransmission."
+      }
     }
   ]
 }

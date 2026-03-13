@@ -1,96 +1,159 @@
 {
   "parentId": "200.5.16",
-  "parentQuestion": "Hoarse voice and difficulty swallowing",
+  "parentQuestion": "Hoarse voice and difficulty swallowing suggest damage to which cranial nerve?",
   "scaffolds": [
     {
-      "q": "Your voice comes from vibrations in your throat.",
+      "q": "Your voice is produced by which structure in your throat?",
       "options": [
-        "True",
-        "False"
+        "The esophagus",
+        "The larynx (voice box)",
+        "The stomach",
+        "The tongue"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The LARYNX (voice box) produces your voice. Air from your lungs passes through the vocal cords in the larynx, making them vibrate to create sound.",
+      "wrongExplains": {
+        "0": "The esophagus is the food tube leading to the stomach. It doesn't produce sound — it carries food.",
+        "2": "The stomach digests food. Voice is produced in the throat, not the abdomen.",
+        "3": "The tongue shapes sounds into words but doesn't produce the actual voice. Voice comes from laryngeal vibration."
+      }
+    },
+    {
+      "q": "Which cranial nerve controls the muscles of the larynx (voice box)?",
+      "options": [
+        "CN VII (facial)",
+        "CN IX (glossopharyngeal)",
+        "CN X (vagus)",
+        "CN XII (hypoglossal)"
+      ],
+      "answer": 2,
+      "difficulty": "foundation",
+      "explain": "CN X (vagus) controls the laryngeal muscles through its recurrent laryngeal branch. If CN X is damaged, the vocal cords can't move properly, causing hoarseness.",
+      "wrongExplains": {
+        "0": "CN VII controls facial EXPRESSION muscles (smiling, frowning), not voice. Different territory.",
+        "1": "CN IX helps with some throat sensation and the gag reflex, but voice production is mainly CN X.",
+        "3": "CN XII controls TONGUE movement, not voice. The tongue shapes sounds but doesn't make the voice itself."
+      }
+    },
+    {
+      "q": "Swallowing requires muscles in the throat (pharynx). Which nerve controls these?",
+      "options": [
+        "CN V (trigeminal)",
+        "CN VII (facial)",
+        "CN X (vagus)",
+        "CN XII (hypoglossal)"
+      ],
+      "answer": 2,
+      "difficulty": "foundation",
+      "explain": "CN X (vagus) controls the pharyngeal muscles needed for swallowing. It coordinates the complex muscle movements that push food from the throat into the esophagus.",
+      "wrongExplains": {
+        "0": "CN V controls CHEWING muscles (jaw), not swallowing muscles (throat). Different phase of eating.",
+        "1": "CN VII controls facial muscles. While the face is involved in early swallowing, the pharynx uses CN X.",
+        "3": "CN XII controls the TONGUE, which helps push food backward, but the actual swallowing mechanism uses CN X."
+      }
+    },
+    {
+      "q": "A patient has BOTH hoarse voice AND difficulty swallowing. What does this combination suggest?",
+      "options": [
+        "Two different nerves are damaged",
+        "One nerve controls both functions",
+        "The problem is in the arm",
+        "No nerve is involved"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "When TWO functions fail together, look for ONE nerve that controls both. CN X (vagus) controls both voice (larynx) AND swallowing (pharynx). Both symptoms = one culprit.",
+      "wrongExplains": {
+        "0": "While possible, the simplest explanation is one nerve affecting both. CN X controls both voice and swallowing.",
+        "2": "Arm nerves don't control throat functions. Voice and swallowing are controlled by cranial nerves in the head/neck.",
+        "3": "These symptoms definitely indicate nerve involvement — specifically CN X damage."
+      }
+    },
+    {
+      "q": "What is 'aspiration' and why is it dangerous?",
+      "options": [
+        "Food going into the lungs instead of stomach",
+        "Breathing too fast",
+        "Eating too quickly",
+        "Drinking too much water"
       ],
       "answer": 0,
       "difficulty": "foundation",
-      "explain": "Air passing through your larynx vibrates vocal cords."
+      "explain": "Aspiration = food or liquid entering the LUNGS instead of the stomach. It's dangerous because it can cause choking or pneumonia. Proper swallowing prevents this.",
+      "wrongExplains": {
+        "1": "Fast breathing is hyperventilation, not aspiration. Aspiration specifically involves food/liquid in the airway.",
+        "2": "Eating quickly isn't aspiration. Aspiration is misdirection of food into the lungs.",
+        "3": "Drinking water isn't aspiration unless the water goes down the wrong pipe (into lungs)."
+      }
     },
     {
-      "q": "Swallowing moves food from mouth to stomach.",
+      "q": "Why does CN X damage cause aspiration risk?",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Throat muscles coordinate to push food down."
-    },
-    {
-      "q": "A hoarse voice means something is wrong with the voice box.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "If vocal cords cannot move properly, voice sounds hoarse."
-    },
-    {
-      "q": "The vagus nerve (CN X) controls muscles in the throat.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "CN X innervates larynx and pharynx muscles."
-    },
-    {
-      "q": "If swallowing muscles are paralyzed, food can go down wrong.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Food might enter airway instead of esophagus."
-    },
-    {
-      "q": "CN X is the vagus nerve.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "It controls throat muscles for voice and swallowing."
-    },
-    {
-      "q": "Voice and swallowing problems together suggest one nerve controls both.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "When two functions fail together, look for one nerve."
-    },
-    {
-      "q": "The vagus nerve innervates larynx and pharynx muscles.",
-      "options": [
-        "True",
-        "False"
+        "Because swallowing muscles don't close the airway properly",
+        "Because the heart beats faster",
+        "Because hearing is affected",
+        "Because vision is lost"
       ],
       "answer": 0,
       "difficulty": "intermediate",
-      "explain": "CN X controls voice and swallowing."
+      "explain": "CN X controls the pharyngeal muscles that coordinate swallowing AND close off the airway. Without proper coordination, food can slip into the trachea (airway) instead of the esophagus.",
+      "wrongExplains": {
+        "1": "CN X does affect heart rate, but that's unrelated to aspiration. Aspiration is about swallowing coordination.",
+        "2": "Hearing uses CN VIII. CN X damage doesn't affect hearing.",
+        "3": "Vision uses CN II. CN X damage doesn't affect vision."
+      }
     },
     {
-      "q": "Vagal damage can cause aspiration from impaired swallowing.",
+      "q": "The vagus nerve is called the 'wanderer' because it ___.",
       "options": [
-        "True",
-        "False"
+        "Only stays in the head",
+        "Travels far from the head into chest and abdomen",
+        "Moves randomly",
+        "Is very small"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Without proper swallowing, food/liquid can enter airway."
+      "explain": "Vagus = WANDERER. Unlike other cranial nerves that stay in the head/neck, CN X 'wanders' down into the chest (heart, lungs) and abdomen (stomach, intestines). This is why it affects so many organs.",
+      "wrongExplains": {
+        "0": "Most cranial nerves stay in the head. CN X is unique for going much further — that's why it's special.",
+        "2": "The vagus has a specific path — it doesn't move randomly. 'Wanderer' refers to its long journey through the body.",
+        "3": "CN IV (trochlear) is actually the smallest cranial nerve. The vagus is quite long and complex."
+      }
+    },
+    {
+      "q": "A patient after thyroid surgery develops hoarseness. Which nerve might have been accidentally damaged?",
+      "options": [
+        "CN VII (facial)",
+        "CN X recurrent laryngeal branch",
+        "CN XII (hypoglossal)",
+        "CN V (trigeminal)"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The RECURRENT LARYNGEAL nerve (branch of CN X) runs near the thyroid gland. During thyroid surgery, it can be accidentally damaged, causing vocal cord paralysis and hoarseness.",
+      "wrongExplains": {
+        "0": "CN VII is in the face, not near the thyroid. It controls facial expression, not voice.",
+        "2": "CN XII controls the tongue. While near the throat, it doesn't control the larynx or voice.",
+        "3": "CN V is higher up, controlling facial sensation and chewing. It's not at risk during thyroid surgery."
+      }
+    },
+    {
+      "q": "To test CN X function, a doctor might ask the patient to ___.",
+      "options": [
+        "Clench their jaw",
+        "Say 'ah' and watch the palate rise",
+        "Stick out their tongue",
+        "Shrug their shoulders"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Saying 'AH' makes the soft palate rise. The doctor watches for symmetric elevation. If one side droops, CN X on that side may be damaged. Also tests voice quality.",
+      "wrongExplains": {
+        "0": "Jaw clenching tests CN V (trigeminal motor). Different nerve.",
+        "2": "Tongue protrusion tests CN XII (hypoglossal). Different nerve, different test.",
+        "3": "Shoulder shrugging tests CN XI (accessory). Different nerve, different test."
+      }
     }
   ]
 }

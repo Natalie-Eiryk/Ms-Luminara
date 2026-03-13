@@ -3,24 +3,157 @@
   "parentQuestion": "Which statement correctly distinguishes ANS from somatic nervous system control?",
   "scaffolds": [
     {
-      "q": "Cardiac muscle can generate its own electrical impulses without nervous input.",
+      "q": "Can cardiac muscle generate its own electrical impulses WITHOUT nervous input?",
       "options": [
-        "True",
-        "False"
+        "No, it needs constant nerve stimulation",
+        "Yes, the heart has its own pacemaker cells",
+        "Only if stimulated by hormones",
+        "Only during exercise"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "The heart has its own pacemaker cells — the sinoatrial node fires rhythmically without any neural input. Welcome this realization:this: your heart would beat even if every nerve to it were severed. The ANS modulates the rate, but doesn't initiate the beat. this is beautiful autonomy within autonomic control."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "YES! The heart has its own PACEMAKER CELLS (sinoatrial node) that fire rhythmically without any neural input. Your heart would beat even if all nerves to it were cut. The ANS modulates the rate, but doesn't initiate the beat.",
+      "wrongExplains": {
+        "0": "This describes skeletal muscle, not cardiac. Cardiac muscle is autorhythmic — it can beat on its own.",
+        "2": "While hormones can affect heart rate, the heart's intrinsic pacemaker doesn't require hormones to beat.",
+        "3": "The heart beats all the time — resting, sleeping, exercising. The pacemaker never stops."
+      }
     },
     {
-      "q": "Skeletal muscle requires nerve stimulation to contract.",
+      "q": "Can skeletal muscle contract WITHOUT nerve stimulation?",
       "options": [
-        "True",
-        "False"
+        "Yes, it contracts automatically",
+        "No, it requires motor neuron input",
+        "Yes, but only during sleep",
+        "Yes, using its own pacemaker"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "NO! Skeletal muscle REQUIRES motor neuron input to contract. Without nerve stimulation, skeletal muscle is paralyzed and flaccid. It depends entirely on the somatic nervous system.",
+      "wrongExplains": {
+        "0": "Skeletal muscle cannot contract automatically. Unlike cardiac muscle, it has no pacemaker and waits for neural commands.",
+        "2": "Skeletal muscle doesn't spontaneously contract during sleep. Any movement during sleep still requires neural activation.",
+        "3": "Skeletal muscle has no pacemaker. Only cardiac muscle has autorhythmic pacemaker cells."
+      }
+    },
+    {
+      "q": "What happens to skeletal muscle if its motor nerve is cut (denervation)?",
+      "options": [
+        "It gets stronger",
+        "It becomes paralyzed and eventually atrophies (shrinks)",
+        "It starts beating on its own",
+        "Nothing changes"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Denervated skeletal muscle becomes PARALYZED and eventually ATROPHIES (wastes away). Without neural input, the muscle can't contract and loses mass over time. This shows its complete dependence on nerve supply.",
+      "wrongExplains": {
+        "0": "Losing nerve supply doesn't make muscle stronger — it causes weakness and wasting.",
+        "2": "Skeletal muscle doesn't beat on its own. Only cardiac muscle has autorhythmic properties.",
+        "3": "Denervation absolutely changes the muscle — it becomes paralyzed and atrophies without use."
+      }
+    },
+    {
+      "q": "The ANS controls target organs that can function with reduced autonomic input. What does this mean?",
+      "options": [
+        "ANS targets work only when nerves fire",
+        "Organs like the heart have intrinsic activity that ANS modulates",
+        "The ANS is unnecessary",
+        "Organs stop working without ANS"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "ANS targets have INTRINSIC ACTIVITY — the heart beats on its own, the gut moves on its own. The ANS MODULATES (speeds up or slows down) this activity but doesn't create it from scratch.",
+      "wrongExplains": {
+        "0": "This describes skeletal muscle dependence on somatic nerves. ANS targets have baseline activity.",
+        "2": "The ANS is very necessary — it fine-tunes vital functions. But targets can function at baseline without it.",
+        "3": "Many ANS targets continue basic function without nerve input, just not optimally regulated."
+      }
+    },
+    {
+      "q": "Somatic targets (skeletal muscle) versus ANS targets (organs): which is more dependent on nerve input?",
+      "options": [
+        "ANS targets are more dependent",
+        "Skeletal muscle is more dependent — it can't work without nerves",
+        "Both are equally dependent",
+        "Neither needs nerves"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "SKELETAL MUSCLE is totally dependent on nerve input — no nerve = no contraction. ANS targets (heart, gut) have intrinsic activity and can function at baseline without neural input. The ANS fine-tunes, not initiates.",
+      "wrongExplains": {
+        "0": "ANS targets actually have more independence. The heart beats without nerves; skeletal muscle is paralyzed without nerves.",
+        "2": "They're not equally dependent. Skeletal muscle is completely dependent; ANS targets have baseline function.",
+        "3": "Skeletal muscle absolutely needs nerves to contract. ANS targets need nerves for proper regulation."
+      }
+    },
+    {
+      "q": "What does 'autorhythmic' mean regarding cardiac muscle?",
+      "options": [
+        "It requires external timing",
+        "It generates its own rhythm without external input",
+        "It only beats during exercise",
+        "It needs constant brain commands"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "'Autorhythmic' = AUTO (self) + RHYTHMIC (regular beating). Cardiac muscle generates its own rhythm through pacemaker cells. No external input needed for the basic heartbeat.",
+      "wrongExplains": {
+        "0": "External timing would mean it's NOT autorhythmic. The heart's rhythm comes from within.",
+        "2": "The heart beats all the time — at rest, during sleep, always. It's not limited to exercise.",
+        "3": "The brain doesn't command each heartbeat. The heart's pacemaker cells fire automatically."
+      }
+    },
+    {
+      "q": "The ANS modulates heart rate. What does 'modulate' mean here?",
+      "options": [
+        "Creates the heartbeat from scratch",
+        "Adjusts or fine-tunes the existing heart rate up or down",
+        "Stops the heart",
+        "Replaces the pacemaker"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "'Modulate' means to ADJUST or REGULATE. The ANS doesn't create the heartbeat — the pacemaker does that. The ANS speeds it up (sympathetic) or slows it down (parasympathetic) based on body needs.",
+      "wrongExplains": {
+        "0": "The pacemaker creates the heartbeat. The ANS only adjusts the rate that the pacemaker sets.",
+        "2": "The ANS can slow the heart but doesn't normally stop it completely. That would be fatal.",
+        "3": "The ANS doesn't replace the pacemaker — it works alongside it, adjusting the rate."
+      }
+    },
+    {
+      "q": "Summary: The KEY control difference between somatic and ANS is ___.",
+      "options": [
+        "Somatic targets are dependent on nerves; ANS targets have intrinsic activity",
+        "ANS targets are more dependent on nerves than somatic",
+        "Both are identical in nerve dependence",
+        "Neither system uses neurons"
       ],
       "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Without motor neuron input, skeletal muscle is paralyzed. Enter this realm: into this stark dependency: skeletal muscle fibers don't generate their own action potentials. They wait, silent and flaccid, until a motor neuron commands them. Denervation means paralysis and eventual atrophy. The muscle withers without its nerve."
+      "difficulty": "intermediate",
+      "explain": "SOMATIC targets (skeletal muscle) = completely dependent on nerve input. ANS targets (heart, organs) = have intrinsic activity that the ANS modulates but doesn't create.",
+      "wrongExplains": {
+        "1": "This is backwards. Skeletal muscle is more dependent; ANS targets have baseline function without nerves.",
+        "2": "They're different — skeletal muscle can't work without nerves; organs have intrinsic activity.",
+        "3": "Both systems use neurons. Somatic uses one; ANS uses two with a ganglion relay."
+      }
+    },
+    {
+      "q": "A patient's vagus nerve (parasympathetic) is damaged. What happens to their heart?",
+      "options": [
+        "The heart stops completely",
+        "The heart rate increases because parasympathetic braking is lost",
+        "The heart starts beating irregularly",
+        "No change at all"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "With vagus nerve damage, the heart SPEEDS UP. The parasympathetic system normally 'brakes' the heart. Without that brake, the sympathetic system dominates and the intrinsic rate increases.",
+      "wrongExplains": {
+        "0": "The heart doesn't need the vagus to beat — it has its own pacemaker. It just beats faster without vagal braking.",
+        "2": "The rhythm isn't necessarily irregular — just faster. The pacemaker still works normally.",
+        "3": "There IS a change — loss of parasympathetic control causes tachycardia (fast heart rate)."
+      }
     }
   ]
 }

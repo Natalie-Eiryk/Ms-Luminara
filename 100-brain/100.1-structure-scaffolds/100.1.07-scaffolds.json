@@ -3,94 +3,157 @@
   "parentQuestion": "Which of the following is NOT a role of the basal nuclei?",
   "scaffolds": [
     {
-      "q": "The basal nuclei are deep gray matter structures in the cerebrum.",
+      "q": "What are the basal nuclei?",
       "options": [
-        "True",
-        "False"
+        "Parts of the brainstem",
+        "Deep gray matter structures in the cerebrum",
+        "Skull bones",
+        "Spinal cord regions"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The basal nuclei (also called basal ganglia) are islands of gray matter buried deep in the white matter of the cerebrum."
+      "explain": "The BASAL NUCLEI (also called basal ganglia) are DEEP GRAY MATTER structures buried in the white matter of the CEREBRUM. They're islands of processing tissue deep inside the brain.",
+      "wrongExplains": {
+        "0": "The basal nuclei are in the cerebrum, not the brainstem.",
+        "2": "The basal nuclei are neural tissue, not skull bones.",
+        "3": "The basal nuclei are in the brain, not the spinal cord."
+      }
     },
     {
-      "q": "The basal nuclei help control voluntary movement.",
+      "q": "What is a primary function of the basal nuclei?",
       "options": [
-        "True",
-        "False"
+        "Pumping blood",
+        "Controlling voluntary movement",
+        "Digesting food",
+        "Filtering urine"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The basal nuclei form loops with the motor cortex to regulate movement. They help start, stop, and filter movements."
+      "explain": "The basal nuclei help CONTROL VOLUNTARY MOVEMENT. They form loops with the motor cortex to regulate movement — helping start, stop, and filter movements.",
+      "wrongExplains": {
+        "0": "The heart pumps blood. The basal nuclei are for movement control.",
+        "2": "The digestive system digests food. The basal nuclei control movement.",
+        "3": "The kidneys filter urine. The basal nuclei are part of movement control circuits."
+      }
     },
     {
-      "q": "The basal nuclei help START and STOP movements.",
+      "q": "How do the basal nuclei help with movement initiation?",
       "options": [
-        "True",
-        "False"
+        "They don't affect movement",
+        "They help START and STOP movements appropriately",
+        "They only control breathing",
+        "They move bones directly"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Problems with the basal nuclei cause movement disorders - Parkinson's (hard to start moving) and Huntington's (can't stop unwanted movements)."
+      "explain": "The basal nuclei help START and STOP movements. Parkinson's disease (basal nuclei dysfunction) makes it hard to START moving. Huntington's disease makes it hard to STOP unwanted movements.",
+      "wrongExplains": {
+        "0": "The basal nuclei significantly affect movement initiation and termination.",
+        "2": "Breathing is controlled by the brainstem. The basal nuclei control voluntary movement.",
+        "3": "Muscles move bones. The basal nuclei regulate the motor signals that control muscles."
+      }
     },
     {
-      "q": "The basal nuclei help SUPPRESS unwanted or antagonistic movements.",
+      "q": "How do the basal nuclei help filter movements?",
       "options": [
-        "True",
-        "False"
+        "They don't filter anything",
+        "They suppress unwanted or antagonistic movements",
+        "They only affect emotions",
+        "They create reflexes"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! When you reach for a cup, the basal nuclei suppress competing motor programs. They filter out the noise, letting intended movements through."
+      "explain": "The basal nuclei SUPPRESS UNWANTED MOVEMENTS. When you reach for a cup, they filter out competing motor programs, letting intended movements through while blocking noise.",
+      "wrongExplains": {
+        "0": "Filtering unwanted movements is a core basal nuclei function.",
+        "2": "They do affect emotions too, but movement filtering is a primary role.",
+        "3": "Reflexes are spinal cord circuits. The basal nuclei work on voluntary movement."
+      }
     },
     {
-      "q": "The basal nuclei also play roles in cognition and emotion.",
+      "q": "What else do the basal nuclei affect besides movement?",
       "options": [
-        "True",
-        "False"
+        "Nothing else",
+        "Cognition and emotion",
+        "Only bone growth",
+        "Only blood pressure"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The basal nuclei aren't just for movement. They're involved in reward processing, motivation, and cognitive functions too."
+      "explain": "The basal nuclei also affect COGNITION AND EMOTION. They're involved in reward processing, motivation, and cognitive functions — not just movement.",
+      "wrongExplains": {
+        "0": "The basal nuclei have roles beyond movement — including cognition and emotion.",
+        "2": "Bone growth is separate. The basal nuclei affect neural functions.",
+        "3": "Blood pressure is brainstem-controlled. The basal nuclei affect cognition and emotion."
+      }
     },
     {
-      "q": "Protective reflexes (like pulling away from heat) are controlled by the spinal cord, not the brain.",
+      "q": "What controls protective reflexes like pulling away from heat?",
       "options": [
-        "True",
-        "False"
+        "The basal nuclei",
+        "The spinal cord",
+        "The skull",
+        "Blood vessels"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Reflexes need speed, not deliberation. The spinal cord handles reflexes directly - your hand pulls away before your brain even knows there's pain."
+      "explain": "PROTECTIVE REFLEXES are controlled by the SPINAL CORD, not the brain. They need speed, not deliberation — your hand pulls away before your brain even knows there's pain.",
+      "wrongExplains": {
+        "0": "The basal nuclei handle voluntary movement, not reflexes. Reflexes are spinal.",
+        "2": "The skull is protective bone. Reflexes are neural circuits in the spinal cord.",
+        "3": "Blood vessels transport blood. Reflexes are spinal cord circuits."
+      }
     },
     {
-      "q": "The basal nuclei are involved in VOLUNTARY movement, not protective REFLEXES.",
+      "q": "Why don't the basal nuclei control reflexes?",
       "options": [
-        "True",
-        "False"
+        "They do control all reflexes",
+        "Reflexes bypass the cerebrum for speed — they're spinal cord circuits",
+        "Reflexes don't exist",
+        "The basal nuclei are too small"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! Reflexes bypass the cerebrum entirely. The basal nuclei work in the voluntary movement domain, filtering motor commands that originate in the cortex."
-    },
-    {
-      "q": "Initiating protective reflexes is a spinal cord function, NOT a basal nuclei function.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The basal nuclei help with voluntary movement: starting/stopping movements, inhibiting unwanted movements, cognition and emotion. Reflexes are spinal cord territory."
+      "explain": "Reflexes BYPASS THE CEREBRUM for speed. The basal nuclei work in VOLUNTARY movement circuits. Reflexes are fast, automatic, SPINAL CORD circuits that don't need conscious processing.",
+      "wrongExplains": {
+        "0": "The basal nuclei are for voluntary movement, not reflexes.",
+        "2": "Reflexes definitely exist — they're just handled by the spinal cord.",
+        "3": "Size isn't the issue. The basal nuclei are specialized for voluntary movement, not reflexes."
+      }
     },
     {
-      "q": "'Initiating protective reflex actions' is NOT a role of the basal nuclei - that's the spinal cord's job.",
+      "q": "What are the TRUE roles of the basal nuclei?",
       "options": [
-        "True",
-        "False"
+        "Only reflexes",
+        "Starting/stopping movement, inhibiting unwanted movements, cognition and emotion",
+        "Only pumping blood",
+        "Only hearing"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! The answer is 'initiating protective reflex actions.' The basal nuclei do motor filtering, cognition, and emotion - but NOT reflexes. Reflexes are fast, automatic, spinal cord circuits."
+      "explain": "The basal nuclei: (1) INITIATE and TERMINATE movements, (2) INHIBIT unwanted movements, (3) Contribute to COGNITION and EMOTION. Reflexes are NOT their territory.",
+      "wrongExplains": {
+        "0": "Reflexes are spinal cord territory. The basal nuclei handle voluntary movement.",
+        "2": "The heart pumps blood. The basal nuclei are for movement and cognition.",
+        "3": "Hearing is temporal lobe auditory cortex. The basal nuclei handle movement and cognition."
+      }
+    },
+    {
+      "q": "Which is NOT a role of the basal nuclei?",
+      "options": [
+        "Initiating voluntary movement",
+        "Inhibiting unwanted movements",
+        "Initiating protective reflex actions",
+        "Cognition and emotion"
+      ],
+      "answer": 2,
+      "difficulty": "intermediate",
+      "explain": "INITIATING PROTECTIVE REFLEX ACTIONS is NOT a basal nuclei role — that's the SPINAL CORD's job. The basal nuclei handle voluntary movement, motor filtering, cognition, and emotion — but NOT reflexes.",
+      "wrongExplains": {
+        "0": "Initiating voluntary movement IS a basal nuclei role — they help start movements.",
+        "1": "Inhibiting unwanted movements IS a basal nuclei role — they filter out noise.",
+        "3": "Cognition and emotion ARE basal nuclei roles — they're involved in reward and motivation."
+      }
     }
   ]
 }

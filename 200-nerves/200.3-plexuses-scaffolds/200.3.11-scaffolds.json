@@ -3,94 +3,157 @@
   "parentQuestion": "An infant born after prolonged labor with the arm pulled forcefully during delivery presents with a 'claw hand' — hyperextension at the MCP joints and flexion at the IP joints of the 4th and 5th digits. Which nerve roots are most likely injured?",
   "scaffolds": [
     {
-      "q": "The hand has intrinsic muscles that control fine finger movements.",
+      "q": "What is Klumpke's palsy?",
       "options": [
-        "True",
-        "False"
+        "An upper brachial plexus injury",
+        "A lower brachial plexus injury (C8-T1) causing claw hand deformity",
+        "A leg injury",
+        "A facial nerve injury"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Intrinsic hand muscles (inside the hand itself) control delicate movements like spreading fingers, fine grip, and balancing finger position."
+      "explain": "KLUMPKE'S PALSY is a LOWER BRACHIAL PLEXUS INJURY affecting C8-T1. It causes weakness of intrinsic hand muscles, resulting in 'CLAW HAND' deformity. It contrasts with Erb-Duchenne (upper plexus).",
+      "wrongExplains": {
+        "0": "Upper plexus injury is Erb-Duchenne (C5-C6). Klumpke's is LOWER plexus (C8-T1).",
+        "2": "Klumpke's affects the arm. Leg injuries involve lumbar/sacral plexus.",
+        "3": "Facial nerve is cranial. Klumpke's affects brachial plexus (arm)."
+      }
     },
     {
-      "q": "The brachial plexus has lower roots (C8-T1) that mainly control the hand.",
+      "q": "What is claw hand deformity?",
       "options": [
-        "True",
-        "False"
+        "Normal hand position",
+        "Fingers with hyperextended MCP joints and flexed IP joints (like a claw)",
+        "A completely limp hand",
+        "Fingers that can't bend at all"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! C8-T1 (lower brachial plexus) give rise to nerves that control intrinsic hand muscles. Upper roots (C5-C6) control shoulder and elbow."
+      "explain": "CLAW HAND has HYPEREXTENDED MCP joints (bent backward at the knuckles) and FLEXED IP joints (curled). The fingers look like a claw. It's caused by loss of intrinsic hand muscles.",
+      "wrongExplains": {
+        "0": "Claw hand is definitely abnormal — it's a sign of nerve damage.",
+        "2": "The hand isn't limp — it's held in a specific abnormal posture.",
+        "3": "The fingers CAN bend — they're stuck in flexion at the IP joints."
+      }
     },
     {
-      "q": "The ulnar nerve controls most of the small muscles inside the hand.",
+      "q": "What does C8-T1 control in the hand?",
       "options": [
-        "True",
-        "False"
+        "Only shoulder movement",
+        "Intrinsic hand muscles that control fine finger movements",
+        "Only elbow movement",
+        "Only breathing"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The ulnar nerve (from C8-T1) supplies most intrinsic hand muscles - the interossei, lumbricals for 4th/5th fingers, hypothenar muscles."
+      "explain": "C8-T1 nerve roots give rise to nerves (mainly ulnar) that control INTRINSIC HAND MUSCLES — the small muscles inside the hand that control fine movements, finger spreading, and grip balance.",
+      "wrongExplains": {
+        "0": "Shoulder is mainly C5-C6. C8-T1 controls the hand.",
+        "2": "Elbow flexion is C5-C6. C8-T1 supplies hand intrinsics.",
+        "3": "Breathing uses C3-C5 (phrenic). C8-T1 is for the hand."
+      }
     },
     {
-      "q": "A 'claw hand' deformity involves fingers that are bent in an abnormal position.",
+      "q": "Why do the 4th and 5th fingers show the worst claw deformity?",
       "options": [
-        "True",
-        "False"
+        "They're the strongest fingers",
+        "The ulnar nerve (from C8-T1) mainly supplies these fingers' intrinsic muscles",
+        "They have no muscles",
+        "They're not connected to the hand"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! In claw hand, the MCP joints are hyperextended (bent backward) while the IP joints are flexed (curled). The fingers look like a claw."
+      "explain": "The ULNAR NERVE (from C8-T1) supplies the intrinsic muscles for the 4th and 5th fingers. When damaged, these fingers lose their balance muscles and develop the WORST claw deformity.",
+      "wrongExplains": {
+        "0": "Strength isn't the issue. The ulnar nerve territory is affected.",
+        "2": "They have intrinsic muscles — but those muscles are paralyzed.",
+        "3": "They're definitely part of the hand. The nerve supply is damaged."
+      }
     },
     {
-      "q": "Claw hand happens when intrinsic hand muscles are paralyzed.",
+      "q": "Why do intrinsic muscle paralysis cause claw hand?",
       "options": [
-        "True",
-        "False"
+        "Intrinsic muscles don't matter",
+        "Without intrinsics to balance, extrinsic muscles overpower and curl the fingers",
+        "The bones break",
+        "The joints fuse"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Intrinsic muscles normally flex the MCP joints and extend the IP joints. Without them, the extrinsic flexors (in the forearm) overpower and curl the fingers into a claw."
+      "explain": "INTRINSIC muscles normally flex MCP joints and extend IP joints. When they're paralyzed, the EXTRINSIC FLEXORS (in the forearm) act unopposed, pulling the fingers into the claw position.",
+      "wrongExplains": {
+        "0": "Intrinsic muscles are critical for hand function and finger balance.",
+        "2": "The bones are intact. The problem is muscle imbalance from nerve damage.",
+        "3": "The joints can still move — they're just held in abnormal position."
+      }
     },
     {
-      "q": "The 4th and 5th fingers are most affected in ulnar nerve injury.",
+      "q": "How does birth injury cause Klumpke's palsy?",
       "options": [
-        "True",
-        "False"
+        "It can't happen during birth",
+        "Forceful pulling of the arm stretches the lower plexus roots (C8-T1)",
+        "Only from vaccines",
+        "Only in adults"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The ulnar nerve mainly supplies the 4th and 5th fingers. Claw deformity is most prominent in these fingers when the ulnar nerve is damaged."
+      "explain": "During difficult deliveries, FORCEFUL ARM TRACTION (pulling) can stretch the lower brachial plexus roots. This tears C8-T1, causing Klumpke's palsy with claw hand.",
+      "wrongExplains": {
+        "0": "Birth-related plexus injuries are well-documented and not uncommon.",
+        "2": "Vaccines don't cause brachial plexus injuries. Mechanical stretching does.",
+        "3": "Infants can definitely get Klumpke's palsy — that's the classic presentation."
+      }
     },
     {
-      "q": "Lower brachial plexus injury (C8-T1) is called Klumpke's palsy.",
+      "q": "What is the difference between Erb-Duchenne and Klumpke's palsy?",
       "options": [
-        "True",
-        "False"
+        "They're the same condition",
+        "Erb's is upper plexus (C5-C6, waiter's tip); Klumpke's is lower plexus (C8-T1, claw hand)",
+        "They both affect the legs",
+        "Only adults get Erb's"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Klumpke's palsy = lower plexus injury (C8-T1). It typically occurs when the arm is pulled forcefully upward during delivery. The classic sign is claw hand."
+      "explain": "ERB-DUCHENNE = UPPER plexus (C5-C6), causes WAITER'S TIP (shoulder/elbow affected). KLUMPKE'S = LOWER plexus (C8-T1), causes CLAW HAND (hand muscles affected).",
+      "wrongExplains": {
+        "0": "They're different — affecting different parts of the brachial plexus.",
+        "2": "Both affect the arm (brachial plexus). Leg injuries are lumbar/sacral.",
+        "3": "Both can occur in infants during difficult deliveries."
+      }
     },
     {
-      "q": "Klumpke's palsy causes claw hand because C8-T1 roots supply the intrinsic hand muscles.",
+      "q": "May Klumpke's palsy be associated with Horner's syndrome?",
       "options": [
-        "True",
-        "False"
+        "No, never",
+        "Yes, because T1 fibers travel with sympathetic nerves to the eye",
+        "Only in leg injuries",
+        "Only in older adults"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! C8-T1 give rise to the ulnar nerve and medial contribution to median nerve. These control intrinsic hand muscles. Damage causes claw hand deformity."
+      "explain": "YES! T1 carries SYMPATHETIC fibers to the eye. Severe lower plexus injury can cause HORNER'S SYNDROME — ptosis (droopy eyelid), miosis (small pupil), and anhidrosis (no sweating) on that side.",
+      "wrongExplains": {
+        "0": "Horner's syndrome can accompany severe Klumpke's palsy.",
+        "2": "Horner's syndrome involves the face/eye, associated with T1 damage.",
+        "3": "Klumpke's with Horner's can occur in birth injuries."
+      }
     },
     {
-      "q": "An infant with claw hand deformity after difficult delivery most likely has C8-T1 injury (Klumpke's palsy), not C5-C6 injury.",
+      "q": "This infant with claw hand after arm traction during delivery has injury to which nerve roots?",
       "options": [
-        "True",
-        "False"
+        "C3-C4",
+        "C5-C6",
+        "C8-T1",
+        "L4-L5"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "intermediate",
-      "explain": "Yes! Claw hand = lower plexus (C8-T1 = Klumpke's). Waiter's tip = upper plexus (C5-C6 = Erb-Duchenne). The presentation tells you which roots are injured."
+      "explain": "C8-T1! This is KLUMPKE'S PALSY — lower brachial plexus injury. Claw hand (especially 4th/5th fingers) indicates intrinsic muscle paralysis from ulnar nerve territory damage.",
+      "wrongExplains": {
+        "0": "C3-C4 are cervical plexus roots for the neck and diaphragm.",
+        "1": "C5-C6 injury causes Erb-Duchenne palsy (waiter's tip), not claw hand.",
+        "3": "L4-L5 are lumbar roots for the leg. The arm uses cervical roots."
+      }
     }
   ]
 }

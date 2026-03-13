@@ -3,94 +3,157 @@
   "parentQuestion": "What type of cells line the ventricles of the brain?",
   "scaffolds": [
     {
-      "q": "The brain contains fluid-filled cavities called ventricles.",
+      "q": "What are the ventricles?",
       "options": [
-        "True",
-        "False"
+        "Solid brain regions",
+        "Fluid-filled cavities inside the brain",
+        "Blood vessels",
+        "Skull bones"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Four ventricles (two lateral, one third, one fourth) are connected chambers filled with cerebrospinal fluid."
+      "explain": "The VENTRICLES are FLUID-FILLED CAVITIES inside the brain. There are four ventricles (two lateral, third, and fourth) connected and filled with cerebrospinal fluid (CSF).",
+      "wrongExplains": {
+        "0": "The ventricles are cavities, not solid tissue.",
+        "2": "Blood vessels are separate structures. Ventricles are CSF-filled cavities.",
+        "3": "Ventricles are inside the brain, not part of the skull."
+      }
     },
     {
-      "q": "Glial cells are support cells in the nervous system - they're not neurons.",
+      "q": "What are glial cells?",
       "options": [
-        "True",
-        "False"
+        "The only cells in the brain",
+        "Support cells that help neurons but don't transmit electrical signals",
+        "Blood cells",
+        "Muscle cells"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Glial cells (astrocytes, oligodendrocytes, microglia, ependymal cells) provide support, nutrition, and protection - they don't transmit electrical signals."
+      "explain": "GLIAL CELLS are SUPPORT CELLS in the nervous system. They provide nutrition, protection, and maintenance but don't transmit electrical signals like neurons do.",
+      "wrongExplains": {
+        "0": "The brain also has neurons. Glial cells are the support cells.",
+        "2": "Glial cells are nervous system cells, not blood cells.",
+        "3": "Glial cells are neural tissue, not muscle."
+      }
     },
     {
-      "q": "Ependymal cells are a specific type of glial cell.",
+      "q": "What are ependymal cells?",
       "options": [
-        "True",
-        "False"
+        "Neurons",
+        "Glial cells that line the ventricles",
+        "Bone cells",
+        "Blood cells"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Ependymal cells are classified as glial cells even though they form an epithelial-like lining. They're specialized support cells."
+      "explain": "EPENDYMAL CELLS are a type of GLIAL CELL that forms the lining of the ventricles. They're epithelial-like support cells specialized for the ventricular surface.",
+      "wrongExplains": {
+        "0": "Neurons transmit signals. Ependymal cells are glial cells that line ventricles.",
+        "2": "Ependymal cells are neural tissue, not bone.",
+        "3": "Ependymal cells line ventricles. Blood cells circulate in vessels."
+      }
     },
     {
-      "q": "Ependymal cells have cilia on their surface.",
+      "q": "What special feature do ependymal cells have?",
       "options": [
-        "True",
-        "False"
+        "They can regenerate neurons",
+        "They have cilia that help circulate CSF",
+        "They produce blood",
+        "They are made of bone"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The cilia beat in coordinated waves, helping circulate cerebrospinal fluid through the ventricular system."
+      "explain": "Ependymal cells have CILIA on their surface that beat in coordinated waves. This helps CIRCULATE CSF through the ventricular system.",
+      "wrongExplains": {
+        "0": "Neurons generally don't regenerate. Ependymal cells help with CSF circulation.",
+        "2": "Blood cells are produced in bone marrow. Ependymal cells produce/circulate CSF.",
+        "3": "Ependymal cells are soft neural tissue, not bone."
+      }
     },
     {
-      "q": "CSF is produced by specialized ependymal cells in the choroid plexus.",
+      "q": "What is the choroid plexus?",
       "options": [
-        "True",
-        "False"
+        "A brain lobe",
+        "Specialized ependymal cells that produce cerebrospinal fluid",
+        "A skull bone",
+        "A blood vessel"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The choroid plexus contains modified ependymal cells that filter blood plasma and actively secrete CSF - about 500mL per day."
+      "explain": "The CHOROID PLEXUS contains modified ependymal cells that filter blood plasma and actively PRODUCE CSF — about 500mL per day. It's located in the ventricles.",
+      "wrongExplains": {
+        "0": "The choroid plexus is a CSF-producing structure, not a brain lobe.",
+        "2": "The choroid plexus is soft tissue in the ventricles, not bone.",
+        "3": "The choroid plexus contains capillaries but is mainly specialized ependymal tissue."
+      }
     },
     {
-      "q": "Neurons do NOT line body cavities - that's a job for epithelial-type cells.",
+      "q": "Do neurons line body cavities?",
       "options": [
-        "True",
-        "False"
+        "Yes, neurons line all cavities",
+        "No, neurons transmit signals — lining cavities is a job for epithelial-type cells",
+        "Only in the heart",
+        "Only in the lungs"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Neurons transmit signals - they don't form barrier layers. The ventricles are lined by ependymal cells (glial, epithelial-like)."
+      "explain": "NEURONS DO NOT LINE CAVITIES — they transmit electrical signals. Lining cavities is the job of epithelial-type cells. In the brain, ependymal cells (glial) line the ventricles.",
+      "wrongExplains": {
+        "0": "Neurons never line cavities. That's not their function.",
+        "2": "The heart is lined by endocardium, not neurons.",
+        "3": "The lungs are lined by respiratory epithelium, not neurons."
+      }
     },
     {
-      "q": "Astrocytes support neurons but don't line the ventricles.",
+      "q": "Do astrocytes line the ventricles?",
       "options": [
-        "True",
-        "False"
+        "Yes, astrocytes line all brain cavities",
+        "No, astrocytes support neurons in brain tissue but don't form the ventricular lining",
+        "Yes, only astrocytes line ventricles",
+        "Astrocytes don't exist"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Astrocytes regulate the blood-brain barrier and support neurons throughout brain tissue, but they don't form the ventricular lining."
+      "explain": "ASTROCYTES support neurons throughout brain tissue and contribute to the blood-brain barrier, but they DON'T FORM THE VENTRICULAR LINING. Ependymal cells do that.",
+      "wrongExplains": {
+        "0": "Ependymal cells, not astrocytes, line the ventricles.",
+        "2": "Ependymal cells line ventricles. Astrocytes are in brain parenchyma.",
+        "3": "Astrocytes definitely exist — they're important glial cells."
+      }
     },
     {
-      "q": "The cells lining the brain ventricles are called ependymal cells.",
+      "q": "What cells produce and circulate CSF?",
       "options": [
-        "True",
-        "False"
+        "Neurons",
+        "Ependymal cells",
+        "Red blood cells",
+        "Bone cells"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Ependymal cells form the ventricular lining. They're ciliated glial cells that help circulate CSF and produce it in the choroid plexus."
+      "explain": "EPENDYMAL CELLS produce CSF (in the choroid plexus) and circulate it (with their cilia). They're the CSF specialists lining the ventricular system.",
+      "wrongExplains": {
+        "0": "Neurons transmit signals. Ependymal cells handle CSF.",
+        "2": "Red blood cells carry oxygen. Ependymal cells produce CSF.",
+        "3": "Bone cells make bone. Ependymal cells are nervous system cells."
+      }
     },
     {
-      "q": "The answer is EPENDYMAL CELLS - the ciliated glial cells that line the ventricles.",
+      "q": "What type of cells line the ventricles of the brain?",
       "options": [
-        "True",
-        "False"
+        "Neurons",
+        "Ependymal cells",
+        "Astrocytes",
+        "Red blood cells"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not neurons (they transmit signals, don't line cavities), not astrocytes (they support neurons in tissue, not ventricular lining), not 'epithelial cells' (too vague - ependymal is the specific term)."
+      "explain": "EPENDYMAL CELLS line the ventricles. They're ciliated glial cells that help produce and circulate CSF. Not neurons (they transmit signals), not astrocytes (they support neurons in tissue).",
+      "wrongExplains": {
+        "0": "Neurons transmit electrical signals. They don't line cavities.",
+        "2": "Astrocytes support neurons in brain tissue. They don't line the ventricles.",
+        "3": "Red blood cells are in blood vessels, not lining ventricles."
+      }
     }
   ]
 }

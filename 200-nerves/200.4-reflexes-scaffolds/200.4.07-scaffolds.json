@@ -3,94 +3,157 @@
   "parentQuestion": "A neurologist tests a patient's reflexes and finds a positive Babinski sign in both feet. In a 35-year-old adult, this most likely indicates damage to ___.",
   "scaffolds": [
     {
-      "q": "When you stroke the sole of a healthy adult's foot, the toes curl downward.",
+      "q": "What is the Babinski sign?",
       "options": [
-        "True",
-        "False"
+        "Toes curling downward when the sole is stroked",
+        "The big toe extending upward while other toes fan out when the sole is stroked",
+        "A test for hearing",
+        "A test for taste"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! This is the normal plantar reflex. Stroke the lateral sole from heel to toes, and the toes flex (curl) downward."
+      "explain": "The BABINSKI SIGN is when the big toe EXTENDS UPWARD and the other toes FAN OUT when the lateral sole is stroked. This is the OPPOSITE of the normal plantar response.",
+      "wrongExplains": {
+        "0": "Toes curling downward is the NORMAL plantar reflex. Babinski is upward extension.",
+        "2": "The Babinski tests motor pathways, not hearing.",
+        "3": "Taste uses cranial nerves. Babinski tests corticospinal tract function."
+      }
     },
     {
-      "q": "The Babinski sign is when the big toe extends UPWARD instead of curling down.",
+      "q": "What is the normal plantar reflex in adults?",
       "options": [
-        "True",
-        "False"
+        "Big toe extends upward",
+        "All toes curl (flex) downward",
+        "Foot shakes uncontrollably",
+        "No response at all"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! In a positive Babinski sign, the big toe extends (goes up) and the other toes may fan out. This is the opposite of normal."
+      "explain": "In healthy adults, stroking the lateral sole from heel to toes causes the toes to CURL (flex) DOWNWARD. This is the normal plantar response.",
+      "wrongExplains": {
+        "0": "Big toe extending upward is the Babinski sign — abnormal in adults.",
+        "2": "Uncontrolled shaking would indicate a different problem. The normal response is toe flexion.",
+        "3": "Absence of response could indicate pathology. Normal adults have toe flexion."
+      }
     },
     {
-      "q": "The Babinski sign is NORMAL in babies but ABNORMAL in adults.",
+      "q": "Is the Babinski sign normal in babies?",
       "options": [
-        "True",
-        "False"
+        "No, it always indicates brain damage",
+        "Yes, it's normal until about age 2 while the nervous system matures",
+        "Babies don't have feet reflexes",
+        "It's only found in adults"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Babies have immature nervous systems, so the Babinski is normal until about age 2. In adults, it indicates brain or spinal cord damage."
+      "explain": "The Babinski sign is NORMAL in infants until about age 2. Their corticospinal tracts aren't fully myelinated yet, so the primitive reflex isn't suppressed.",
+      "wrongExplains": {
+        "0": "In babies, it's developmental, not pathological.",
+        "2": "Babies definitely have foot reflexes, including the normal infant Babinski.",
+        "3": "It's normally present in infants and disappears as they mature."
+      }
     },
     {
-      "q": "Upper motor neurons are the pathways from the brain to the spinal cord.",
+      "q": "What are upper motor neurons?",
       "options": [
-        "True",
-        "False"
+        "Neurons in the peripheral nerves",
+        "Pathways from the brain to the spinal cord (like the corticospinal tract)",
+        "Neurons only in the muscles",
+        "Neurons only in the skin"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Upper motor neurons (like the corticospinal tract) carry commands from the brain DOWN to the spinal cord. They control voluntary movement."
+      "explain": "UPPER MOTOR NEURONS are the pathways from the BRAIN TO THE SPINAL CORD, like the corticospinal tract. They control voluntary movement and normally inhibit primitive reflexes.",
+      "wrongExplains": {
+        "0": "Peripheral nerves are lower motor neurons. Upper motor neurons are in the CNS.",
+        "2": "Upper motor neurons are in the brain and spinal cord, not muscles.",
+        "3": "Skin has sensory receptors. Upper motor neurons are motor pathways in the CNS."
+      }
     },
     {
-      "q": "Lower motor neurons are the final pathway from spinal cord to muscle.",
+      "q": "What is the corticospinal tract?",
       "options": [
-        "True",
-        "False"
+        "A nerve in the leg",
+        "The main pathway from the motor cortex to the spinal cord for voluntary movement",
+        "A bone in the spine",
+        "A blood vessel in the brain"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Lower motor neurons carry the signal from the spinal cord OUT to the muscles. They're the 'final common pathway.'"
+      "explain": "The CORTICOSPINAL TRACT is the main DESCENDING PATHWAY from the motor cortex to the spinal cord. It controls voluntary movement and normally INHIBITS the Babinski reflex in adults.",
+      "wrongExplains": {
+        "0": "The corticospinal tract is a pathway in the CNS, not a peripheral nerve.",
+        "2": "It's a neural pathway, not a bone.",
+        "3": "It's a neural tract, not a blood vessel."
+      }
     },
     {
-      "q": "The brain normally INHIBITS (suppresses) the Babinski reflex in adults.",
+      "q": "How does the brain normally suppress the Babinski reflex?",
       "options": [
-        "True",
-        "False"
+        "It doesn't suppress it",
+        "The corticospinal tract sends inhibitory signals to suppress primitive reflexes",
+        "Only medication suppresses it",
+        "It's suppressed by bones"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Mature corticospinal tracts send signals that suppress this primitive reflex. When those tracts are damaged, the reflex 'escapes' and reappears."
+      "explain": "The mature CORTICOSPINAL TRACT sends INHIBITORY signals that suppress primitive reflexes like the Babinski. When this tract is damaged, the primitive reflex 'escapes' and reappears.",
+      "wrongExplains": {
+        "0": "The brain actively suppresses the Babinski in healthy adults.",
+        "2": "It's natural neural inhibition, not medication-dependent.",
+        "3": "Bones don't suppress reflexes. Neural pathways do."
+      }
     },
     {
-      "q": "Damage to the corticospinal tract (upper motor neurons) releases primitive reflexes like the Babinski.",
+      "q": "What does a positive Babinski sign indicate in an adult?",
       "options": [
-        "True",
-        "False"
+        "Normal nervous system function",
+        "Damage to the upper motor neurons (corticospinal tract)",
+        "Excellent athletic ability",
+        "Improved reflexes"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Without descending inhibition from the brain, the spinal cord's primitive reflexes are no longer suppressed. The Babinski returns."
+      "explain": "In adults, a positive Babinski indicates UPPER MOTOR NEURON DAMAGE — the corticospinal tract is injured. The primitive reflex is 'released' because inhibition is lost.",
+      "wrongExplains": {
+        "0": "A positive Babinski in adults is abnormal, not normal.",
+        "2": "Athletic ability isn't related to the Babinski sign.",
+        "3": "The Babinski indicates pathology, not improved function."
+      }
     },
     {
-      "q": "A positive Babinski sign in an adult suggests upper motor neuron damage (corticospinal tract).",
+      "q": "What conditions can cause a positive Babinski sign in adults?",
       "options": [
-        "True",
-        "False"
+        "Only muscle injuries",
+        "Stroke, multiple sclerosis, spinal cord injury, brain tumors",
+        "Only skin conditions",
+        "Only hearing problems"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! This is a key clinical sign. Stroke, MS, spinal cord injury, and other conditions that damage the corticospinal tract cause a positive Babinski."
+      "explain": "Any condition that damages the CORTICOSPINAL TRACT can cause a positive Babinski: STROKE, MS, SPINAL CORD INJURY, brain tumors, ALS, and other upper motor neuron diseases.",
+      "wrongExplains": {
+        "0": "Muscle injuries cause lower motor neuron signs. Babinski is upper motor neuron.",
+        "2": "Skin conditions don't cause Babinski. It's a neural pathway sign.",
+        "3": "Hearing involves cranial nerve VIII. Babinski tests the corticospinal tract."
+      }
     },
     {
-      "q": "In a 35-year-old with bilateral Babinski signs, the corticospinal tracts (upper motor neurons) are most likely damaged.",
+      "q": "In this 35-year-old with bilateral Babinski signs, what is most likely damaged?",
       "options": [
-        "True",
-        "False"
+        "Lower motor neurons",
+        "Upper motor neurons (corticospinal tracts)",
+        "Only skin receptors",
+        "Only bones"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! This is the answer. The Babinski in an adult = upper motor neuron pathology. Bilateral involvement suggests a lesion affecting both corticospinal tracts."
+      "explain": "UPPER MOTOR NEURONS / CORTICOSPINAL TRACTS! The bilateral Babinski signs in an adult indicate damage to the descending motor pathways that normally suppress this primitive reflex.",
+      "wrongExplains": {
+        "0": "Lower motor neuron damage causes absent reflexes. Babinski indicates upper motor neuron damage.",
+        "2": "Skin receptors are sensory. The Babinski tests motor pathways.",
+        "3": "Bones don't control the Babinski reflex. Neural pathways do."
+      }
     }
   ]
 }

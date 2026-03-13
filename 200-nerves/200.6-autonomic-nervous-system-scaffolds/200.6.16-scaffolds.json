@@ -3,24 +3,157 @@
   "parentQuestion": "Stimulation of β2 receptors in the bronchi causes ___.",
   "scaffolds": [
     {
-      "q": "Smooth muscle can contract or relax depending on the signals it receives.",
+      "q": "What are β2 (beta-2) receptors?",
       "options": [
-        "True",
-        "False"
+        "Cholinergic receptors that bind ACh",
+        "Adrenergic receptors that bind norepinephrine and epinephrine",
+        "Receptors for dopamine",
+        "Receptors for serotonin"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Unlike skeletal muscle (which only contracts), smooth muscle has bidirectional control. sympathetic and parasympathetic signals can push it toward contraction or relaxation depending on the receptors present. The final state depends on the signal balance."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "β2 receptors are ADRENERGIC receptors that bind norepinephrine and especially epinephrine. They're found in bronchial smooth muscle, blood vessels, and other tissues.",
+      "wrongExplains": {
+        "0": "Cholinergic receptors (nicotinic, muscarinic) bind ACh. β2 receptors bind catecholamines.",
+        "2": "Dopamine has its own receptor family. β2 are specifically adrenergic.",
+        "3": "Serotonin has its own receptor family. β2 are adrenergic receptors."
+      }
     },
     {
-      "q": "During exercise, you need more oxygen flowing into your lungs.",
+      "q": "What are bronchi/bronchioles?",
       "options": [
-        "True",
-        "False"
+        "Blood vessels",
+        "Airways that carry air to and from the lungs",
+        "Digestive tubes",
+        "Nerve pathways"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Physical exertion demands increased oxygen delivery. your airways dilate, breathing deepens, and ventilation increases. This is coordinated by sympathetic activation and circulating epinephrine. The body opens all channels for gas exchange."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Bronchi and bronchioles are AIRWAYS — tubes that branch from the trachea to carry air into the lungs. Their walls contain smooth muscle that can change their diameter.",
+      "wrongExplains": {
+        "0": "Blood vessels carry blood. Bronchi carry air.",
+        "2": "Digestive tubes process food. Bronchi are part of the respiratory system.",
+        "3": "Nerve pathways conduct electrical signals. Bronchi are tubes for airflow."
+      }
+    },
+    {
+      "q": "Bronchioles have smooth muscle in their walls. What does this mean?",
+      "options": [
+        "They can't change diameter",
+        "They can contract (narrow) or relax (widen)",
+        "They're made of bone",
+        "They only function during sleep"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Smooth muscle allows bronchioles to change diameter: CONTRACT (bronchoconstriction) to narrow, or RELAX (bronchodilation) to widen. This controls airflow resistance.",
+      "wrongExplains": {
+        "0": "Smooth muscle specifically enables diameter changes. That's its function.",
+        "2": "Bronchioles are soft tubes with smooth muscle, not rigid bone.",
+        "3": "Bronchioles function continuously to adjust airflow based on body needs."
+      }
+    },
+    {
+      "q": "What happens when bronchial smooth muscle RELAXES?",
+      "options": [
+        "Airways narrow (bronchoconstriction)",
+        "Airways widen (bronchodilation)",
+        "Airways close completely",
+        "No change in airway diameter"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Relaxed smooth muscle means the airway WIDENS (bronchodilation). This allows more air to flow in and out, increasing ventilation capacity.",
+      "wrongExplains": {
+        "0": "Narrowing occurs with smooth muscle CONTRACTION, not relaxation.",
+        "2": "Relaxation opens airways; it doesn't close them.",
+        "3": "Relaxation definitely increases diameter — that's the effect of removing muscle tension."
+      }
+    },
+    {
+      "q": "During exercise or stress, you need ___.",
+      "options": [
+        "Less air flow",
+        "More air flow to deliver more oxygen",
+        "Airways to close",
+        "Decreased breathing"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Exercise increases oxygen demand. Your body needs MORE AIR FLOW to bring in oxygen and remove CO2. This is achieved by bronchodilation.",
+      "wrongExplains": {
+        "0": "Less airflow would create oxygen debt. Exercise requires more airflow.",
+        "2": "Closing airways would cause suffocation. Exercise opens airways wider.",
+        "3": "Breathing increases during exercise, not decreases."
+      }
+    },
+    {
+      "q": "The sympathetic system (fight-or-flight) causes bronchi to ___.",
+      "options": [
+        "Constrict (narrow)",
+        "Dilate (widen)",
+        "Close completely",
+        "Stay unchanged"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "During fight-or-flight, bronchi DILATE to allow maximum airflow. If you're running from danger, you need all the oxygen you can get. Sympathetic = open airways.",
+      "wrongExplains": {
+        "0": "Constriction is a parasympathetic effect. Sympathetic causes bronchodilation.",
+        "2": "Complete closure would prevent breathing. The body needs MORE air during stress.",
+        "3": "There IS a change — airways open wider during sympathetic activation."
+      }
+    },
+    {
+      "q": "What receptor mediates bronchodilation when stimulated by epinephrine?",
+      "options": [
+        "Alpha-1 (α1) receptors",
+        "Beta-2 (β2) receptors",
+        "Muscarinic receptors",
+        "Nicotinic receptors"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "β2 RECEPTORS on bronchial smooth muscle mediate bronchodilation. When epinephrine (or norepinephrine) binds to β2 receptors, the smooth muscle relaxes and airways widen.",
+      "wrongExplains": {
+        "0": "α1 receptors cause vasoconstriction in blood vessels, not bronchodilation.",
+        "2": "Muscarinic receptors in bronchi cause bronchoconstriction (parasympathetic), not dilation.",
+        "3": "Nicotinic receptors are at ganglia, not on bronchial smooth muscle."
+      }
+    },
+    {
+      "q": "Asthma rescue inhalers (like albuterol) work by ___.",
+      "options": [
+        "Blocking β2 receptors",
+        "Activating β2 receptors to cause bronchodilation",
+        "Activating muscarinic receptors",
+        "Blocking all receptors"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Albuterol and similar drugs are β2 AGONISTS — they activate β2 receptors to cause bronchodilation, opening airways during an asthma attack.",
+      "wrongExplains": {
+        "0": "Blocking β2 would prevent bronchodilation — the opposite of what's needed in asthma.",
+        "2": "Muscarinic activation would cause bronchoconstriction — making asthma worse.",
+        "3": "Rescue inhalers specifically target β2 receptors to open airways."
+      }
+    },
+    {
+      "q": "Summary: β2 receptor stimulation in bronchi causes ___.",
+      "options": [
+        "Bronchoconstriction (airways narrow)",
+        "Bronchodilation (airways widen)",
+        "No effect on airways",
+        "Airway closure"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "β2 receptor stimulation causes BRONCHODILATION — airways widen. This is the sympathetic response that increases airflow during stress or exercise.",
+      "wrongExplains": {
+        "0": "Bronchoconstriction is caused by parasympathetic activation (muscarinic receptors), not β2 stimulation.",
+        "2": "β2 stimulation definitely affects airways — it causes significant dilation.",
+        "3": "Stimulation of β2 opens airways, it doesn't close them."
+      }
     }
   ]
 }

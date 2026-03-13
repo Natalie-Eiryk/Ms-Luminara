@@ -3,39 +3,7 @@
   "parentQuestion": "The olfactory nerve (CN I) is responsible for which sense?",
   "scaffolds": [
     {
-      "q": "Your nose is where you detect smells.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! Your nose contains special cells that detect smell molecules floating in the air. When you sniff a flower or fresh cookies, those scent molecules travel up into your nose."
-    },
-    {
-      "q": "Nerves are like wires that carry messages.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Exactly! Nerves are the bodys electrical cables. They carry signals from your senses (like smell, sight, touch) to your brain, and carry commands from your brain back to your muscles."
-    },
-    {
-      "q": "Which body part do you use to smell things?",
-      "options": [
-        "Eyes",
-        "Nose",
-        "Ears",
-        "Tongue"
-      ],
-      "answer": 1,
-      "difficulty": "foundation",
-      "explain": "Your nose! Inside your nose are millions of tiny smell receptors. When air carrying scent molecules enters your nose, these receptors detect them and send signals to your brain."
-    },
-    {
-      "q": "The word olfactory means related to the sense of ___.",
+      "q": "The word 'olfactory' means related to which sense?",
       "options": [
         "Sight",
         "Hearing",
@@ -44,31 +12,46 @@
       ],
       "answer": 2,
       "difficulty": "foundation",
-      "explain": "Olfactory = smell! It comes from the Latin word olfacere meaning to smell. So whenever you see olfactory in anatomy, think nose and smelling."
+      "explain": "Olfactory = SMELL. It comes from the Latin 'olfacere' meaning 'to smell.' Whenever you see 'olfactory' in anatomy, think nose and smelling.",
+      "wrongExplains": {
+        "0": "Sight uses the word 'optic' or 'visual.' The optic nerve (CN II) handles vision. Olfactory specifically means smell.",
+        "1": "Hearing uses 'auditory' or 'acoustic.' The vestibulocochlear nerve (CN VIII) handles hearing. Olfactory = smell only.",
+        "3": "Touch sensation uses 'tactile' or 'somatosensory.' Various nerves handle touch. Olfactory is specifically for smell."
+      }
     },
     {
-      "q": "Cranial nerves are nerves that connect directly to your ___.",
+      "q": "Which body part contains the receptors that detect smell?",
       "options": [
-        "Feet",
-        "Hands",
-        "Brain",
-        "Stomach"
+        "Eyes",
+        "Ears",
+        "Nose",
+        "Tongue"
       ],
       "answer": 2,
       "difficulty": "foundation",
-      "explain": "Cranial nerves connect directly to your brain! Cranial comes from cranium which means skull. These special nerves dont go through the spinal cord - they plug straight into the brain."
+      "explain": "The NOSE contains smell receptors! Inside your nasal cavity, millions of olfactory receptor cells detect airborne chemical molecules. These receptors connect directly to CN I.",
+      "wrongExplains": {
+        "0": "Eyes detect LIGHT for vision, not smell molecules. Different sense, different organ, different nerve (CN II).",
+        "1": "Ears detect SOUND vibrations for hearing, not smell. The vestibulocochlear nerve (CN VIII) serves the ears.",
+        "3": "The tongue detects TASTE (sweet, salty, sour, bitter, umami). Taste and smell are different senses, though they work together for flavor."
+      }
     },
     {
-      "q": "How many pairs of cranial nerves do humans have?",
+      "q": "Humans have how many pairs of cranial nerves?",
       "options": [
-        "2",
-        "6",
-        "12",
-        "24"
+        "6 pairs",
+        "10 pairs",
+        "12 pairs",
+        "24 pairs"
       ],
       "answer": 2,
       "difficulty": "foundation",
-      "explain": "We have 12 pairs of cranial nerves! Theyre numbered CN I through CN XII (thats Roman numerals for 1-12). The olfactory nerve is CN I - the very first one!"
+      "explain": "Humans have 12 PAIRS of cranial nerves, numbered CN I through CN XII using Roman numerals. The olfactory nerve is CN I — the very first one, because it's located at the front of the brain near the nose.",
+      "wrongExplains": {
+        "0": "Six pairs would only be half of the cranial nerves. We have 12 pairs total.",
+        "1": "Ten pairs is close but not correct. There are exactly 12 pairs of cranial nerves.",
+        "3": "24 would be the total number of individual nerves (12 pairs × 2 sides), but we count them as 12 PAIRS."
+      }
     },
     {
       "q": "CN I is the abbreviation for Cranial Nerve number ___.",
@@ -80,27 +63,97 @@
       ],
       "answer": 0,
       "difficulty": "foundation",
-      "explain": "CN I = Cranial Nerve One! In Roman numerals, I = 1. The olfactory nerve was named CN I because its located at the very front of the brain, closest to the nose."
+      "explain": "CN I = Cranial Nerve ONE. In Roman numerals, I = 1. The olfactory nerve was given the number 1 because it's located at the very front of the brain, closest to the nose.",
+      "wrongExplains": {
+        "1": "CN II (two) is the optic nerve for vision. The Roman numeral I means one, not two.",
+        "2": "CN X (ten) is the vagus nerve. The Roman numeral I means one, not ten (which would be X).",
+        "3": "CN XI (eleven) is the accessory nerve. The Roman numeral I means one, not eleven (which would be XI)."
+      }
     },
     {
-      "q": "The sense of smell detects airborne chemicals.",
+      "q": "Cranial nerves connect directly to which structure?",
       "options": [
-        "True",
-        "False"
+        "Spinal cord",
+        "Brain",
+        "Heart",
+        "Stomach"
       ],
-      "answer": 0,
-      "difficulty": "intermediate",
-      "explain": "Smell (olfaction) detects volatile chemical molecules in the air. Receptors in the nasal cavity bind these molecules and fire signals straight to the brain."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Cranial nerves connect directly to the BRAIN (or brainstem). 'Cranial' comes from 'cranium' (skull). These nerves don't go through the spinal cord — they plug straight into the brain.",
+      "wrongExplains": {
+        "0": "Spinal nerves connect to the spinal cord. Cranial nerves bypass the spinal cord and connect directly to the brain.",
+        "2": "The heart receives nerve supply from the vagus nerve (CN X), but cranial nerves themselves connect to the brain, not the heart.",
+        "3": "The stomach is innervated by the vagus nerve (CN X), but the connection point for all cranial nerves is the brain itself."
+      }
     },
     {
-      "q": "Cranial nerves connect directly to the brain rather than the spinal cord.",
+      "q": "CN I is classified as purely ___.",
       "options": [
-        "True",
-        "False"
+        "Motor",
+        "Sensory",
+        "Mixed",
+        "Autonomic"
       ],
-      "answer": 0,
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN I is purely SENSORY — it only carries smell information TO the brain. It doesn't control any muscles. The three purely sensory cranial nerves are CN I, CN II, and CN VIII.",
+      "wrongExplains": {
+        "0": "Motor nerves carry commands FROM the brain to muscles. CN I doesn't control muscles — it brings smell information TO the brain.",
+        "2": "Mixed nerves have both sensory and motor functions. CN I only carries sensory information (smell).",
+        "3": "Autonomic nerves control involuntary functions like heart rate. CN I carries conscious smell perception."
+      }
+    },
+    {
+      "q": "If CN I is damaged on both sides, what would happen to your sense of smell?",
+      "options": [
+        "Smell would improve",
+        "Smell would be completely lost (anosmia)",
+        "Smell would only work for sweet things",
+        "Hearing would be affected instead"
+      ],
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "There are 12 pairs of cranial nerves that emerge directly from the brain or brainstem, serving primarily the head and neck region. Think of them as the brains private access cables."
+      "explain": "Bilateral CN I damage causes ANOSMIA — complete loss of smell. 'An-' means without, 'osmia' means smell. No olfactory nerve = no smell signals reaching the brain.",
+      "wrongExplains": {
+        "0": "Damage never improves function. Losing the nerve that carries smell signals means losing the ability to smell.",
+        "2": "CN I carries ALL smell information, not just certain types. Sweet, sour, floral, rotten — all smell perception requires CN I.",
+        "3": "Hearing uses CN VIII (vestibulocochlear). CN I only handles smell. Damage to one sense doesn't affect the other."
+      }
+    },
+    {
+      "q": "Why is CN I unique among cranial nerves?",
+      "options": [
+        "It's the longest nerve",
+        "Its neurons can regenerate throughout life",
+        "It controls the most muscles",
+        "It carries the most blood"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "CN I is unique because its olfactory receptor neurons can REGENERATE throughout life. Most neurons can't regenerate, but smell receptors are replaced every 30-60 days. This is why smell can sometimes recover after damage.",
+      "wrongExplains": {
+        "0": "The longest cranial nerve is CN X (vagus), which wanders all the way to the abdomen. CN I is quite short.",
+        "2": "CN I controls NO muscles — it's purely sensory. CN III controls the most muscles (four eye muscles plus others).",
+        "3": "Nerves carry electrical signals, not blood. Blood supply to nerves comes from surrounding blood vessels."
+      }
+    },
+    {
+      "q": "Smell molecules must be ___ to reach the olfactory receptors in your nose.",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Airborne (volatile)",
+        "Frozen"
+      ],
+      "answer": 2,
+      "difficulty": "intermediate",
+      "explain": "Smell molecules must be AIRBORNE (volatile) — they float in the air and get breathed into your nose. Once inside, they dissolve in the mucus layer and bind to olfactory receptors.",
+      "wrongExplains": {
+        "0": "Solid molecules can't reach the receptors high in your nasal cavity. They need to vaporize (become airborne) to be smelled.",
+        "1": "Liquid molecules on their own can't be smelled directly. They must evaporate into the air first, then be inhaled.",
+        "3": "Frozen molecules don't evaporate easily. That's why cold food has less smell than hot food — fewer airborne molecules."
+      }
     }
   ]
 }

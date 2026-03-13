@@ -3,94 +3,157 @@
   "parentQuestion": "An EMT shines a pen light into a trauma patient's eye and records the reactivity of the pupil constricting when stimulated by light. This test supports which of the following?",
   "scaffolds": [
     {
-      "q": "The pupil is the dark opening in the center of your eye.",
+      "q": "What is the pupillary light reflex?",
       "options": [
-        "True",
-        "False"
+        "A voluntary eye movement",
+        "Automatic pupil constriction in response to bright light",
+        "A test for hearing",
+        "A muscle in the arm"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The pupil is the hole that lets light into your eye. It looks black because light goes in and doesn't come back out."
+      "explain": "The PUPILLARY LIGHT REFLEX is AUTOMATIC PUPIL CONSTRICTION when bright light enters the eye. It protects the retina from excessive light and is controlled by the brainstem.",
+      "wrongExplains": {
+        "0": "It's automatic and involuntary. You don't consciously control pupil size.",
+        "2": "Hearing tests use different methods. The pupil reflex tests vision pathways.",
+        "3": "The pupil is in the eye. Arm muscles are unrelated."
+      }
     },
     {
-      "q": "The pupil gets smaller (constricts) in bright light to protect the eye.",
+      "q": "What is the pupil?",
       "options": [
-        "True",
-        "False"
+        "The colored part of the eye",
+        "The dark opening in the center of the eye that lets light in",
+        "A muscle behind the eye",
+        "The white part of the eye"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Pupil constriction reduces the amount of light entering the eye. This is automatic - you don't have to think about it."
+      "explain": "The PUPIL is the DARK OPENING in the center of the iris that lets light into the eye. It looks black because light goes in but doesn't come back out.",
+      "wrongExplains": {
+        "0": "The colored part is the iris. The pupil is the dark opening in its center.",
+        "2": "The pupil is a hole, not a muscle. Muscles around it control its size.",
+        "3": "The white part is the sclera. The pupil is the central dark opening."
+      }
     },
     {
-      "q": "The pupillary light reflex is controlled by the brainstem, not conscious thought.",
+      "q": "Which nerve carries visual information FROM the eye TO the brain?",
       "options": [
-        "True",
-        "False"
+        "Olfactory nerve (CN I)",
+        "Optic nerve (CN II)",
+        "Oculomotor nerve (CN III)",
+        "Facial nerve (CN VII)"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! It's a reflex - automatic and involuntary. The pathway goes through the midbrain (brainstem), so checking pupil reactions tests brainstem function."
+      "explain": "The OPTIC NERVE (CN II) carries visual information FROM the eye TO the brain. It's the SENSORY (afferent) limb of the pupillary light reflex.",
+      "wrongExplains": {
+        "0": "CN I is for smell. CN II (optic) carries visual information.",
+        "2": "CN III controls eye muscles and pupil constriction. CN II carries visual input.",
+        "3": "CN VII controls facial expression. CN II is for vision."
+      }
     },
     {
-      "q": "The optic nerve (CN II) carries visual information from the eye to the brain.",
+      "q": "Which nerve controls pupil constriction?",
       "options": [
-        "True",
-        "False"
+        "Optic nerve (CN II)",
+        "Oculomotor nerve (CN III)",
+        "Trigeminal nerve (CN V)",
+        "Vagus nerve (CN X)"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! CN II is the sensory nerve for vision. It carries the light signal FROM the eye TO the brain. It's the 'input' side of the pupil reflex."
+      "explain": "The OCULOMOTOR NERVE (CN III) controls the sphincter pupillae muscle that CONSTRICTS the pupil. It's the MOTOR (efferent) limb of the pupillary light reflex.",
+      "wrongExplains": {
+        "0": "CN II carries sensory input. CN III sends the motor command to constrict.",
+        "2": "CN V is for facial sensation. CN III controls pupil constriction.",
+        "3": "CN X controls parasympathetic functions but not the pupil. CN III does."
+      }
     },
     {
-      "q": "The oculomotor nerve (CN III) controls muscles that move the eye AND the muscle that constricts the pupil.",
+      "q": "Where is the pupillary light reflex processed?",
       "options": [
-        "True",
-        "False"
+        "In the arm",
+        "In the brainstem (midbrain)",
+        "In the lungs",
+        "In the stomach"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! CN III controls most eye muscles PLUS the sphincter pupillae muscle that constricts the pupil. It's the 'output' side of the pupil reflex."
+      "explain": "The pupillary light reflex is processed in the MIDBRAIN (brainstem). Light signal enters (CN II), midbrain processes it, motor signal exits (CN III). Testing pupils tests brainstem function.",
+      "wrongExplains": {
+        "0": "The pupil reflex involves eye and brain, not the arm.",
+        "2": "The lungs are for breathing. Pupil reflexes are neural.",
+        "3": "The stomach is for digestion. Pupil reflexes are in the brainstem."
+      }
     },
     {
-      "q": "The pupillary light reflex tests both CN II (sensory input) and CN III (motor output).",
+      "q": "What does a reactive pupil (one that constricts to light) indicate?",
       "options": [
-        "True",
-        "False"
+        "The patient is sleeping",
+        "CN II and CN III pathways are intact through the brainstem",
+        "The patient is deaf",
+        "The patient is blind"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Light goes in (CN II), brainstem processes it, signal goes out (CN III), pupil constricts. Both nerves must work for the reflex to happen."
+      "explain": "A REACTIVE PUPIL means both the sensory (CN II) and motor (CN III) limbs of the reflex are working, AND the brainstem pathway between them is intact. It's reassuring!",
+      "wrongExplains": {
+        "0": "Pupils react to light whether awake or asleep. It tests the reflex arc.",
+        "2": "Hearing uses different cranial nerves (CN VIII). Pupil reaction tests vision pathway.",
+        "3": "Even with some visual impairment, the pupil can still react if the reflex arc works."
+      }
     },
     {
-      "q": "If a patient's pupil constricts when light is shined in it, this indicates CN III (oculomotor) is functioning.",
+      "q": "What does a 'blown pupil' (fixed and dilated) suggest in a trauma patient?",
       "options": [
-        "True",
-        "False"
+        "The patient is relaxed",
+        "Possible brain herniation compressing CN III",
+        "The room is too bright",
+        "The patient is hungry"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! The motor signal that constricts the pupil travels through CN III. If the pupil constricts, the efferent (output) limb of the reflex is working."
-    },
-    {
-      "q": "A 'blown pupil' (fixed and dilated) can indicate brain herniation compressing CN III.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Rising brain pressure can push the brain downward, crushing CN III against the skull. The pupil dilates and stops responding to light. This is a neurological emergency."
+      "explain": "A BLOWN PUPIL (fixed, dilated, unreactive) can indicate BRAIN HERNIATION compressing CN III against the skull. This is a NEUROLOGICAL EMERGENCY requiring immediate intervention.",
+      "wrongExplains": {
+        "0": "A blown pupil is a sign of serious brain injury, not relaxation.",
+        "2": "In bright light, normal pupils constrict. A dilated unreactive pupil is abnormal.",
+        "3": "Hunger doesn't affect pupil reactivity. Brainstem damage does."
+      }
     },
     {
-      "q": "When an EMT checks pupil reactivity and sees constriction, it confirms the oculomotor nerve is functioning.",
+      "q": "Why do EMTs check pupil reactivity in trauma patients?",
       "options": [
-        "True",
-        "False"
+        "To test hearing",
+        "To assess brainstem function and detect serious brain injury",
+        "To measure blood pressure",
+        "To check for broken bones"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! A reactive pupil means CN III is carrying the motor signal to constrict it. This is reassuring - it means this part of the brainstem circuit is intact."
+      "explain": "Checking pupil reactivity assesses BRAINSTEM FUNCTION. An unreactive pupil suggests serious injury to the CN III pathway or brainstem. It's a quick bedside test for brain status.",
+      "wrongExplains": {
+        "0": "Hearing is tested differently. Pupils test vision and brainstem pathways.",
+        "2": "Blood pressure uses a cuff. Pupils test neurological function.",
+        "3": "Broken bones are assessed by palpation and imaging. Pupils test the brain."
+      }
+    },
+    {
+      "q": "If the pupil constricts when light is shined in it, this test supports the function of which nerve?",
+      "options": [
+        "Olfactory nerve (CN I)",
+        "Optic nerve (CN II) only",
+        "Oculomotor nerve (CN III)",
+        "Accessory nerve (CN XI)"
+      ],
+      "answer": 2,
+      "difficulty": "intermediate",
+      "explain": "The OCULOMOTOR NERVE (CN III)! Pupil constriction requires CN III to send the motor signal. A constricting pupil confirms CN III is functioning. (CN II is also tested but the constriction confirms CN III motor output.)",
+      "wrongExplains": {
+        "0": "CN I is for smell. The pupil reflex involves CN II and CN III.",
+        "1": "CN II provides input, but the constriction RESPONSE confirms CN III output is working.",
+        "3": "CN XI controls neck muscles. CN III controls pupil constriction."
+      }
     }
   ]
 }

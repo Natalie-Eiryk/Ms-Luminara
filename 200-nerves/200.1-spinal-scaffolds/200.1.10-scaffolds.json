@@ -3,94 +3,157 @@
   "parentQuestion": "A patient develops sudden paralysis and loss of all sensation below the waist after an abdominal aortic aneurysm repair. Pain and temperature sensation return partially after a few days, but motor function, proprioception, and vibration sense remain absent. This pattern suggests ___.",
   "scaffolds": [
     {
-      "q": "The spinal cord needs blood supply to function, just like any other organ.",
+      "q": "Does the spinal cord need blood supply?",
       "options": [
-        "True",
-        "False"
+        "No, it works without blood",
+        "Yes, it needs blood for oxygen and nutrients like any organ",
+        "Only the brain needs blood",
+        "Blood damages the spinal cord"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The spinal cord needs oxygen and nutrients from blood. If blood supply is cut off (a stroke of the spinal cord), the affected tissue can die. This is a spinal cord infarct."
+      "explain": "The spinal cord needs OXYGEN and NUTRIENTS from blood. If blood supply is cut off (a stroke of the spinal cord), the affected tissue can die. This is a SPINAL CORD INFARCT.",
+      "wrongExplains": {
+        "0": "All neural tissue requires blood supply. Without it, cells die.",
+        "2": "Both brain AND spinal cord need continuous blood supply.",
+        "3": "Blood is essential. Loss of blood supply causes infarction."
+      }
     },
     {
-      "q": "The spinal cord receives blood from arteries that run along its length.",
+      "q": "How does blood reach the spinal cord?",
       "options": [
-        "True",
-        "False"
+        "Through muscles",
+        "Through arteries that run along its length",
+        "The spinal cord makes its own blood",
+        "Through the skin"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Three main arteries supply the spinal cord: one anterior spinal artery (front) and two posterior spinal arteries (back). These run vertically along the cord."
+      "explain": "Three main ARTERIES supply the spinal cord: one ANTERIOR spinal artery (front) and two POSTERIOR spinal arteries (back). These run vertically along the cord.",
+      "wrongExplains": {
+        "0": "Blood comes from arteries, not muscles. Muscles receive blood.",
+        "2": "Blood is made in bone marrow. The cord receives blood through arteries.",
+        "3": "Skin doesn't supply the cord. Arteries penetrate to reach the cord."
+      }
     },
     {
-      "q": "The ANTERIOR spinal artery supplies the FRONT portion of the spinal cord.",
+      "q": "What does the ANTERIOR spinal artery supply?",
       "options": [
-        "True",
-        "False"
+        "Only the back of the cord",
+        "The FRONT portion (about two-thirds) of the spinal cord",
+        "Only the brain",
+        "Nothing"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The anterior spinal artery supplies about the front two-thirds of the cord. This includes motor pathways (corticospinal tracts) and the spinothalamic tract (pain/temperature)."
+      "explain": "The ANTERIOR spinal artery supplies about the front TWO-THIRDS of the cord. This includes motor pathways (corticospinal tracts) and the spinothalamic tract (pain/temperature).",
+      "wrongExplains": {
+        "0": "The back is supplied by POSTERIOR arteries. Anterior supplies the front.",
+        "2": "The anterior spinal artery runs along the spinal cord, not the brain.",
+        "3": "It supplies a critical portion of the cord — motor and pain pathways."
+      }
     },
     {
-      "q": "The POSTERIOR spinal arteries supply the BACK portion of the spinal cord.",
+      "q": "What do the POSTERIOR spinal arteries supply?",
       "options": [
-        "True",
-        "False"
+        "The front of the cord",
+        "The BACK portion (about one-third) of the spinal cord",
+        "Only muscles",
+        "The brain stem"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The posterior spinal arteries (two of them) supply the back one-third of the cord. This includes the dorsal columns (proprioception and vibration)."
+      "explain": "The POSTERIOR spinal arteries (two of them) supply the back ONE-THIRD of the cord. This includes the DORSAL COLUMNS (proprioception and vibration).",
+      "wrongExplains": {
+        "0": "The front is supplied by the ANTERIOR artery. Posterior supplies the back.",
+        "2": "Muscles have their own blood supply. Posterior arteries supply the cord.",
+        "3": "The brainstem has different blood supply. Posterior spinal arteries supply the cord."
+      }
     },
     {
-      "q": "Motor pathways and pain/temperature pathways are supplied by the anterior spinal artery.",
+      "q": "Which pathways are supplied by the anterior spinal artery?",
       "options": [
-        "True",
-        "False"
+        "Only the dorsal columns",
+        "Motor pathways (corticospinal) and pain/temperature (spinothalamic)",
+        "No important pathways",
+        "Only blood vessels"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The anterior cord contains: corticospinal tracts (motor), spinothalamic tracts (pain/temp), and anterior horn motor neurons. All supplied by the anterior spinal artery."
+      "explain": "The anterior cord contains: CORTICOSPINAL TRACTS (motor), SPINOTHALAMIC TRACTS (pain/temp), and anterior horn motor neurons. All supplied by the ANTERIOR spinal artery.",
+      "wrongExplains": {
+        "0": "Dorsal columns are POSTERIOR — supplied by posterior arteries.",
+        "2": "Very important pathways are here — motor and pain sensation.",
+        "3": "Neural pathways, not just blood vessels, depend on this artery."
+      }
     },
     {
-      "q": "Proprioception and vibration pathways (dorsal columns) are supplied by the posterior spinal arteries.",
+      "q": "Which pathway is supplied by the posterior spinal arteries?",
       "options": [
-        "True",
-        "False"
+        "Motor pathways",
+        "Proprioception and vibration (dorsal columns)",
+        "Pain and temperature",
+        "All pathways"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The dorsal columns sit at the back of the cord and are supplied by the posterior spinal arteries. If only the anterior artery is blocked, the dorsal columns are spared."
+      "explain": "The DORSAL COLUMNS sit at the back of the cord and are supplied by the POSTERIOR spinal arteries. If only the anterior artery is blocked, dorsal columns are SPARED.",
+      "wrongExplains": {
+        "0": "Motor pathways are anterior. Posterior arteries supply dorsal columns.",
+        "2": "Pain/temp (spinothalamic) is anterior. Posterior supplies proprioception.",
+        "3": "Each artery supplies a specific region — not all pathways."
+      }
     },
     {
-      "q": "Aortic surgery can sometimes damage the blood supply to the spinal cord.",
+      "q": "How can aortic surgery damage the spinal cord?",
       "options": [
-        "True",
-        "False"
+        "It cannot affect the spinal cord",
+        "The anterior spinal artery gets blood from aortic branches that may be damaged",
+        "Surgery strengthens the spine",
+        "The spinal cord is in the aorta"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The anterior spinal artery gets blood from arteries branching off the aorta. During aortic surgery (like aneurysm repair), these feeding arteries may be damaged, causing spinal cord ischemia."
+      "explain": "The anterior spinal artery gets blood from arteries branching off the AORTA. During aortic surgery (like aneurysm repair), these feeding arteries may be damaged, causing SPINAL CORD ISCHEMIA.",
+      "wrongExplains": {
+        "0": "Aortic surgery is a known risk for spinal cord ischemia.",
+        "2": "Surgery can inadvertently damage blood supply to the cord.",
+        "3": "The spinal cord is in the vertebral canal, but its blood supply connects to the aorta."
+      }
     },
     {
-      "q": "Anterior spinal artery syndrome causes motor paralysis and loss of pain/temperature, but proprioception is PRESERVED.",
+      "q": "What does anterior spinal artery syndrome cause?",
       "options": [
-        "True",
-        "False"
+        "Loss of proprioception only",
+        "Motor paralysis and loss of pain/temp, but proprioception is PRESERVED",
+        "Complete recovery",
+        "Enhanced sensation"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! When the anterior artery is blocked: anterior cord dies (motor and pain/temp pathways), but posterior cord survives (dorsal columns preserved). The patient can still sense position but can't move or feel pain."
+      "explain": "When the anterior artery is blocked: ANTERIOR CORD dies (motor and pain/temp pathways), but POSTERIOR CORD survives (dorsal columns preserved). Patient can still sense position but can't move or feel pain.",
+      "wrongExplains": {
+        "0": "Proprioception is actually PRESERVED because posterior arteries supply dorsal columns.",
+        "2": "Spinal cord infarction causes permanent deficits, not recovery.",
+        "3": "Sensation is lost (pain/temp) or diminished, not enhanced."
+      }
     },
     {
-      "q": "In anterior spinal artery syndrome, pain sensation may partially recover before motor function because the spinothalamic tract is more resilient to ischemia than motor neurons.",
+      "q": "Why might pain sensation partially recover before motor function?",
       "options": [
-        "True",
-        "False"
+        "Pain is imaginary",
+        "Spinothalamic tract is more resilient than motor neurons to ischemia",
+        "Motor function always recovers first",
+        "They recover at exactly the same rate"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Motor neurons in the anterior horn are very vulnerable to ischemia and die quickly. The spinothalamic tract fibers may partially recover as the ischemic penumbra improves. This creates the tragic pattern: patients regain ability to FEEL pain but remain paralyzed."
+      "explain": "Motor neurons in the anterior horn are very VULNERABLE to ischemia and die quickly. The spinothalamic tract fibers may partially recover as the ischemic penumbra improves. This creates a tragic pattern: patients regain ability to FEEL PAIN but remain paralyzed.",
+      "wrongExplains": {
+        "0": "Pain sensation is real neural function, not imaginary.",
+        "2": "Motor neurons are actually more vulnerable and may not recover.",
+        "3": "Different tissues have different vulnerabilities to ischemia."
+      }
     }
   ]
 }

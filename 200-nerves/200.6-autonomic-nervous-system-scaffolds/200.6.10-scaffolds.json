@@ -3,24 +3,157 @@
   "parentQuestion": "Dual innervation means that most visceral organs receive input from ___.",
   "scaffolds": [
     {
-      "q": "The sympathetic and parasympathetic divisions often have opposite effects.",
+      "q": "What does 'dual innervation' mean?",
       "options": [
-        "True",
-        "False"
+        "An organ receives nerves from only one division",
+        "An organ receives nerves from both sympathetic AND parasympathetic divisions",
+        "An organ has two separate functions",
+        "Two organs share the same nerve"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Sympathetic speeds up the heart; parasympathetic slows it. Sympathetic dilates bronchi; parasympathetic constricts them. this opposition creates a spectrum of control, not just on/off. The balance between divisions determines the final state. Exquisite modulation."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "DUAL INNERVATION means an organ receives input from BOTH the sympathetic AND parasympathetic divisions. This allows push-pull control — one speeds up, the other slows down.",
+      "wrongExplains": {
+        "0": "That would be single innervation. Dual means TWO sources of autonomic control.",
+        "2": "Dual innervation refers to nerve supply, not organ functions.",
+        "3": "Dual innervation describes one organ receiving two types of ANS input."
+      }
     },
     {
-      "q": "The ANS maintains homeostasis by adjusting visceral organ function.",
+      "q": "What is the usual relationship between sympathetic and parasympathetic effects on the same organ?",
       "options": [
-        "True",
-        "False"
+        "They always do the same thing",
+        "They usually have opposite effects",
+        "They have no relationship",
+        "Parasympathetic has no effect"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Homeostasis requires constant adjustment — body temperature, blood pressure, digestive activity all fluctuate. Enter this realm:: the ANS is the primary effector system that makes these adjustments, shifting the balance between sympathetic and parasympathetic as needs change. Immerse yourself in this:the dynamic equilibrium."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Sympathetic and parasympathetic usually have OPPOSITE effects. Heart: sympathetic speeds it up, parasympathetic slows it down. Bronchi: sympathetic dilates, parasympathetic constricts. This opposition enables fine control.",
+      "wrongExplains": {
+        "0": "If they did the same thing, there would be no point in having two divisions.",
+        "2": "Their relationship is specifically antagonistic — opposite effects for balanced control.",
+        "3": "Parasympathetic has major effects — it dominates at rest (rest and digest)."
+      }
+    },
+    {
+      "q": "How does dual innervation help maintain homeostasis?",
+      "options": [
+        "It doesn't — it causes instability",
+        "It allows fine-tuning by adjusting the balance between divisions",
+        "It only works during emergencies",
+        "It blocks all autonomic effects"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Dual innervation allows FINE-TUNING. The body can adjust the BALANCE between sympathetic and parasympathetic to precisely control organ function — not just on/off, but a spectrum of activity.",
+      "wrongExplains": {
+        "0": "Dual innervation actually promotes stability by allowing precise adjustments.",
+        "2": "It works all the time — at rest (parasympathetic dominant) and during stress (sympathetic dominant).",
+        "3": "It enables effects, not blocks them. The balance determines the final organ state."
+      }
+    },
+    {
+      "q": "In a dually innervated organ, what determines the organ's current state?",
+      "options": [
+        "Only sympathetic activity",
+        "Only parasympathetic activity",
+        "The relative balance of sympathetic vs parasympathetic activity",
+        "Neither — organs work independently"
+      ],
+      "answer": 2,
+      "difficulty": "intermediate",
+      "explain": "The organ's state reflects the BALANCE between divisions. If sympathetic > parasympathetic, the organ shows more fight-or-flight activity. If parasympathetic > sympathetic, rest-and-digest dominates.",
+      "wrongExplains": {
+        "0": "Both divisions contribute. The organ responds to the relative balance, not just one input.",
+        "1": "Both divisions contribute. The organ responds to the relative balance, not just one input.",
+        "3": "Dually innervated organs are definitely controlled by their autonomic input."
+      }
+    },
+    {
+      "q": "Example: Sympathetic activation ___ heart rate; parasympathetic activation ___ heart rate.",
+      "options": [
+        "Decreases; increases",
+        "Increases; decreases",
+        "Increases; increases",
+        "Has no effect; has no effect"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Sympathetic INCREASES heart rate (fight-or-flight needs fast heart). Parasympathetic DECREASES heart rate (rest-and-digest allows slow heart). Opposite effects on the same organ.",
+      "wrongExplains": {
+        "0": "This is backwards. Remember: sympathetic = stress/speed up; parasympathetic = rest/slow down.",
+        "2": "They have opposite effects. If both increased heart rate, there would be no balance control.",
+        "3": "Both divisions definitely affect heart rate — that's a classic example of dual innervation."
+      }
+    },
+    {
+      "q": "Example: Sympathetic activation ___ pupil size; parasympathetic activation ___ pupil size.",
+      "options": [
+        "Constricts; dilates",
+        "Dilates; constricts",
+        "Dilates; dilates",
+        "Neither affects pupils"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Sympathetic DILATES pupils (wide eyes to see danger). Parasympathetic CONSTRICTS pupils (smaller pupils for close focus). Again, opposite effects.",
+      "wrongExplains": {
+        "0": "This is backwards. Think: sympathetic = alert, wide-eyed for danger.",
+        "2": "They have opposite effects to enable control across a range of pupil sizes.",
+        "3": "Pupil size is definitely controlled by autonomic innervation — both divisions affect it."
+      }
+    },
+    {
+      "q": "Which organs typically DO NOT have dual innervation?",
+      "options": [
+        "Heart and lungs",
+        "Blood vessels and sweat glands (mostly sympathetic only)",
+        "Stomach and intestines",
+        "Eyes"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "BLOOD VESSELS and SWEAT GLANDS are exceptions — they receive mainly SYMPATHETIC innervation only. Blood vessel tone is adjusted by varying sympathetic activity, not by opposing it with parasympathetic.",
+      "wrongExplains": {
+        "0": "Heart and lungs DO have dual innervation — both divisions affect them oppositely.",
+        "2": "The GI tract definitely has dual innervation — parasympathetic stimulates it, sympathetic inhibits it.",
+        "3": "The eyes have dual innervation — affecting pupil size and lens focus."
+      }
+    },
+    {
+      "q": "At rest, which division typically dominates?",
+      "options": [
+        "Sympathetic",
+        "Parasympathetic",
+        "Neither — they're perfectly equal",
+        "Both are completely inactive"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "At rest, PARASYMPATHETIC dominates. This is why your resting heart rate (~70 bpm) is below the SA node's intrinsic rate (~100 bpm) — vagal tone is braking it. Rest and digest is the default state.",
+      "wrongExplains": {
+        "0": "Sympathetic dominates during stress, not rest. Constant sympathetic activation would be exhausting.",
+        "2": "They're rarely equal — one usually dominates depending on circumstances.",
+        "3": "The ANS is always active. Resting tone (especially vagal) is constantly present."
+      }
+    },
+    {
+      "q": "The phrase 'autonomic tone' refers to ___.",
+      "options": [
+        "The sound the ANS makes",
+        "The baseline level of ANS activity that's always present",
+        "A special type of muscle",
+        "Complete absence of ANS activity"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "AUTONOMIC TONE is the baseline level of continuous ANS activity. There's always some sympathetic and parasympathetic activity occurring — the balance between them can shift, but neither is ever completely off.",
+      "wrongExplains": {
+        "0": "The ANS doesn't make sounds. Tone refers to continuous baseline activity.",
+        "2": "Muscle tone is different. Autonomic tone is about continuous nerve activity.",
+        "3": "There's always some autonomic activity — the term 'tone' acknowledges this baseline."
+      }
     }
   ]
 }

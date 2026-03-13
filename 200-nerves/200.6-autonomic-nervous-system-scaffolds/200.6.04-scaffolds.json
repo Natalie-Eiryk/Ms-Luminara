@@ -3,24 +3,157 @@
   "parentQuestion": "The parasympathetic division originates from which regions?",
   "scaffolds": [
     {
-      "q": "Cranial nerves emerge directly from the brain or brainstem.",
+      "q": "The parasympathetic division is also called the 'craniosacral' division. What does this name tell you?",
       "options": [
-        "True",
-        "False"
+        "It originates from thoracic and lumbar spinal cord",
+        "It originates from brain (cranial) and sacral spinal cord regions",
+        "It only affects the head",
+        "It only affects the pelvis"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "There are 12 pairs of cranial nerves that bypass the spinal cord entirely, emerging directly from the brain and brainstem. four of these (III, VII, IX, X) carry parasympathetic fibers to head, thorax, and abdomen. Allow the mechanism to reveal itself:how the brain reaches directly into your viscera."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "'Craniosacral' = CRANIAL (brain/brainstem) + SACRAL (S2-S4 spinal cord). Parasympathetic fibers emerge from BOTH ends — four cranial nerves from above and sacral nerves from below.",
+      "wrongExplains": {
+        "0": "Thoracic and lumbar origin describes the SYMPATHETIC (thoracolumbar) division, not parasympathetic.",
+        "2": "The cranial part affects the head, but the sacral part affects pelvic organs too.",
+        "3": "The sacral part affects the pelvis, but the cranial part affects head, thorax, and abdomen."
+      }
     },
     {
-      "q": "The sacral spinal cord is at the base of the vertebral column.",
+      "q": "Which cranial nerves carry parasympathetic fibers?",
       "options": [
-        "True",
-        "False"
+        "CN I, II, VIII, XI",
+        "CN III, VII, IX, X",
+        "All 12 cranial nerves",
+        "None of them"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "The sacral region (S1-S5) is below the lumbar segments, corresponding to the sacral vertebrae. this is where the second parasympathetic outflow originates, specifically S2-S4, serving the pelvic organs. Bladder, rectum, genitals — all under parasympathetic influence from down here."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Four cranial nerves carry parasympathetic fibers: CN III (pupils), CN VII (salivation, tears), CN IX (salivation), and CN X (vagus — heart, lungs, digestive tract). Remember: 3, 7, 9, 10.",
+      "wrongExplains": {
+        "0": "CN I (smell), II (vision), VIII (hearing), XI (shoulder) are NOT parasympathetic carriers.",
+        "2": "Only 4 of the 12 cranial nerves carry parasympathetic fibers: III, VII, IX, X.",
+        "3": "Four cranial nerves definitely carry parasympathetic fibers to control pupils, glands, and visceral organs."
+      }
+    },
+    {
+      "q": "The vagus nerve (CN X) is the most important parasympathetic nerve. How much of parasympathetic output does it carry?",
+      "options": [
+        "About 10%",
+        "About 25%",
+        "About 75% or more",
+        "None — it's sympathetic"
+      ],
+      "answer": 2,
+      "difficulty": "foundation",
+      "explain": "The VAGUS carries about 75% of all parasympathetic output! It reaches the heart, lungs, and nearly all abdominal organs. It's the 'wandering' nerve that brings rest-and-digest to most of your viscera.",
+      "wrongExplains": {
+        "0": "The vagus carries FAR more than 10%. It's the dominant parasympathetic nerve.",
+        "1": "25% is too low. The vagus reaches heart, lungs, and almost all abdominal organs — that's about 75%.",
+        "3": "The vagus is definitely PARASYMPATHETIC, not sympathetic. It slows the heart and promotes digestion."
+      }
+    },
+    {
+      "q": "Which sacral spinal segments contribute parasympathetic fibers?",
+      "options": [
+        "S1 only",
+        "S2, S3, S4 (pelvic splanchnic nerves)",
+        "S5 only",
+        "All sacral segments equally"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Sacral parasympathetics originate from S2-S4 segments and form the PELVIC SPLANCHNIC NERVES. These control bladder, rectum, and reproductive organs. Memory aid: 'S2, 3, 4 keep the pelvis off the floor.'",
+      "wrongExplains": {
+        "0": "S1 alone doesn't provide parasympathetic outflow. It's S2, S3, and S4 together.",
+        "2": "S5 is too low and doesn't contribute significant parasympathetic fibers. The key segments are S2-S4.",
+        "3": "Only S2, S3, S4 contribute parasympathetic fibers, not all sacral segments equally."
+      }
+    },
+    {
+      "q": "What organs do the sacral parasympathetics (S2-S4) control?",
+      "options": [
+        "Heart and lungs",
+        "Bladder, rectum, and reproductive organs",
+        "Eyes and salivary glands",
+        "Stomach and intestines"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Sacral parasympathetics control PELVIC organs: bladder (urination), rectum (defecation), and reproductive organs. The cranial parasympathetics handle organs above the pelvis.",
+      "wrongExplains": {
+        "0": "Heart and lungs are controlled by the VAGUS nerve (CN X), which is cranial parasympathetic.",
+        "2": "Eyes and salivary glands are controlled by cranial parasympathetics (CN III, VII, IX), not sacral.",
+        "3": "Stomach and most intestines are vagus nerve territory (CN X), not sacral parasympathetic."
+      }
+    },
+    {
+      "q": "CN III (oculomotor) carries parasympathetic fibers to control what?",
+      "options": [
+        "Heart rate",
+        "Pupil constriction and lens focusing",
+        "Salivation",
+        "Bladder"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "CN III parasympathetics control PUPIL CONSTRICTION (via the sphincter pupillae muscle) and LENS ACCOMMODATION (via the ciliary muscle for near vision focusing).",
+      "wrongExplains": {
+        "0": "Heart rate is controlled by CN X (vagus), not CN III. CN III only affects the eye.",
+        "2": "Salivation is controlled by CN VII and CN IX, not CN III.",
+        "3": "Bladder is controlled by sacral parasympathetics (S2-S4), not by CN III."
+      }
+    },
+    {
+      "q": "CN VII (facial) carries parasympathetic fibers to control what?",
+      "options": [
+        "Pupil size",
+        "Lacrimal glands (tears) and salivary glands",
+        "Heart rate",
+        "Breathing"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "CN VII parasympathetics control LACRIMAL GLANDS (tears) and several SALIVARY GLANDS (submandibular, sublingual). It stimulates tear production and mouth watering.",
+      "wrongExplains": {
+        "0": "Pupil size is controlled by CN III parasympathetics, not CN VII.",
+        "2": "Heart rate is controlled by CN X (vagus). CN VII affects glands in the face.",
+        "3": "Breathing control involves CN X and spinal nerves, not CN VII."
+      }
+    },
+    {
+      "q": "Why is 'craniosacral' a good descriptive name for parasympathetic origin?",
+      "options": [
+        "All fibers originate from one location",
+        "Fibers originate from two separate locations: head (cranial) and pelvis (sacral)",
+        "It describes where the nerves end, not where they start",
+        "It's named after a researcher"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The parasympathetic division has TWO origins separated by the thoracolumbar region: CRANIAL (brainstem via CN III, VII, IX, X) and SACRAL (S2-S4). The sympathetic 'thoracolumbar' division fills the gap between.",
+      "wrongExplains": {
+        "0": "Parasympathetic has TWO separate origins (cranial AND sacral), not one location.",
+        "2": "The name describes where fibers ORIGINATE (start), not where they end.",
+        "3": "The name is purely anatomical — it describes the cranial and sacral origins, not a person."
+      }
+    },
+    {
+      "q": "Compare: Where does the sympathetic division originate versus the parasympathetic?",
+      "options": [
+        "Sympathetic: craniosacral; Parasympathetic: thoracolumbar",
+        "Sympathetic: thoracolumbar; Parasympathetic: craniosacral",
+        "Both originate from the same locations",
+        "Neither originates from the spinal cord"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "SYMPATHETIC = thoracolumbar (T1-L2). PARASYMPATHETIC = craniosacral (brainstem + S2-S4). They originate from different spinal cord levels, with parasympathetic at the extremes and sympathetic in the middle.",
+      "wrongExplains": {
+        "0": "This is backwards. Sympathetic is thoracolumbar; parasympathetic is craniosacral.",
+        "2": "They originate from completely different locations. That's a key distinguishing feature.",
+        "3": "Both divisions DO originate from the CNS — sympathetic from thoracolumbar cord, parasympathetic from brainstem and sacral cord."
+      }
     }
   ]
 }

@@ -3,47 +3,58 @@
   "parentQuestion": "Striking the 'funny bone' is actually stimulation of (or injury to) the ___.",
   "scaffolds": [
     {
-      "q": "Nerves carry electrical signals through your body.",
+      "q": "What is the 'funny bone'?",
       "options": [
-        "True",
-        "False"
+        "A small bone in the elbow",
+        "The ulnar nerve passing behind the elbow",
+        "A joint between arm bones",
+        "A muscle that causes laughter"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Nerves are like electrical wires. They carry signals for sensation (feeling) and motor commands (movement) throughout your body."
+      "explain": "The 'FUNNY BONE' is actually the ULNAR NERVE passing behind your elbow. It's called 'funny' because it creates a strange tingling sensation when bumped, not because it's humorous.",
+      "wrongExplains": {
+        "0": "It's not a bone at all — it's a nerve. The name is misleading.",
+        "2": "While the elbow is a joint, the funny bone refers to a nerve, not the joint itself.",
+        "3": "Laughter isn't involved. The 'funny' refers to the strange tingling sensation."
+      }
     },
     {
-      "q": "When you hit your 'funny bone', you feel tingling in your hand.",
+      "q": "What does the ulnar nerve do?",
       "options": [
-        "True",
-        "False"
+        "Only controls leg movement",
+        "Provides sensation and motor control to part of the hand",
+        "Only pumps blood",
+        "Only controls breathing"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! That distinctive electric tingling shoots down into your fingers. It's not funny at all when you hit it hard! The sensation is caused by hitting a nerve."
+      "explain": "The ULNAR NERVE provides SENSATION to the little finger and half the ring finger, plus MOTOR control to many small hand muscles. It's essential for grip strength.",
+      "wrongExplains": {
+        "0": "The ulnar nerve is in the arm, not the leg. Leg nerves come from the lumbar/sacral plexus.",
+        "2": "Blood pumping is done by the heart. Nerves carry electrical signals.",
+        "3": "Breathing is controlled by the phrenic nerve. The ulnar nerve serves the hand."
+      }
     },
     {
-      "q": "The 'funny bone' is actually a nerve, not a bone.",
+      "q": "Why does hitting your funny bone cause tingling in your fingers?",
       "options": [
-        "True",
-        "False"
+        "Because bones vibrate into the hand",
+        "Because the ulnar nerve is compressed against the bone",
+        "Because blood flow stops",
+        "Because muscles spasm randomly"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Despite the name, you're not hitting a bone - you're hitting a nerve that runs close to the surface at your elbow, where it's unprotected."
+      "explain": "At the elbow, the ULNAR NERVE passes through the CUBITAL TUNNEL with minimal protection. When struck, it's COMPRESSED against the bone, sending signals that feel like electric tingling.",
+      "wrongExplains": {
+        "0": "Bones don't vibrate to cause this sensation. It's nerve compression.",
+        "2": "Blood flow isn't the issue. Direct nerve stimulation causes the tingling.",
+        "3": "The tingling is from nerve stimulation, not muscle spasms."
+      }
     },
     {
-      "q": "The elbow is where the upper arm bone (humerus) meets the forearm bones.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Correct! The elbow joint connects your humerus (upper arm) to the radius and ulna (forearm). Several important nerves pass through this area."
-    },
-    {
-      "q": "When you hit your 'funny bone', which fingers feel the tingling?",
+      "q": "Which fingers feel tingling when you hit your funny bone?",
       "options": [
         "Thumb and index finger",
         "Ring finger and little finger",
@@ -52,49 +63,97 @@
       ],
       "answer": 1,
       "difficulty": "foundation",
-      "explain": "The ring finger and little finger! The nerve at the 'funny bone' (ulnar nerve) supplies these specific fingers. Each nerve has its own territory."
+      "explain": "The RING FINGER and LITTLE FINGER! This is the ULNAR NERVE'S sensory territory. The thumb and index finger are supplied by the median nerve instead.",
+      "wrongExplains": {
+        "0": "Thumb and index finger are supplied by the median nerve, not the ulnar nerve.",
+        "2": "Each nerve has its own territory. The ulnar nerve only serves the ulnar side of the hand.",
+        "3": "The middle finger is mainly median nerve territory. Ulnar is ring and little finger."
+      }
     },
     {
-      "q": "Different nerves supply different parts of the hand.",
+      "q": "Where is the ulnar nerve most vulnerable to injury?",
       "options": [
-        "True",
-        "False"
+        "In the shoulder joint",
+        "Behind the medial elbow (cubital tunnel)",
+        "In the wrist only",
+        "In the neck only"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Three main nerves supply the hand: the median nerve (thumb/index/middle), ulnar nerve (ring/little finger), and radial nerve (back of hand). Each has its own territory."
+      "explain": "The ulnar nerve is most vulnerable at the CUBITAL TUNNEL behind the MEDIAL ELBOW. Here it lies superficially with minimal soft tissue protection — your 'funny bone' spot.",
+      "wrongExplains": {
+        "0": "The shoulder has other nerves but isn't where the ulnar nerve is most exposed.",
+        "2": "The wrist is another compression site (Guyon's canal), but the elbow is more vulnerable.",
+        "3": "The neck is where nerve roots exit, but the elbow is the classic vulnerability point."
+      }
     },
     {
-      "q": "The ulnar nerve is named after the ulna, a bone in the forearm.",
+      "q": "Why is the ulnar nerve named 'ulnar'?",
       "options": [
-        "True",
-        "False"
+        "After the doctor who discovered it",
+        "Because it runs along the ulna bone in the forearm",
+        "Because it's the 'ultimate' nerve",
+        "Because it's shaped like the letter U"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The ulnar nerve runs along the ulna (the forearm bone on your pinky side). At the elbow, it passes behind the medial epicondyle - your 'funny bone' spot."
+      "explain": "The ULNAR NERVE is named after the ULNA — the forearm bone on your pinky side. The nerve runs along this bone from elbow to hand.",
+      "wrongExplains": {
+        "0": "It's named after anatomy, not a person. Ulna is the pinky-side forearm bone.",
+        "2": "'Ulnar' refers to the ulna bone, not 'ultimate.'",
+        "3": "The shape isn't U-like. It's named for the ulna bone it travels alongside."
+      }
     },
     {
-      "q": "The ulnar nerve passes behind the elbow in an area where it's vulnerable to being hit.",
+      "q": "How many main nerves supply the hand?",
       "options": [
-        "True",
-        "False"
+        "Only one nerve supplies everything",
+        "Three main nerves: median, ulnar, and radial",
+        "Ten nerves, one per finger",
+        "No nerves reach the hand"
       ],
-      "answer": 0,
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "THREE main nerves supply the hand: MEDIAN (thumb/index/middle), ULNAR (ring/little finger), and RADIAL (back of hand). Each has its own territory.",
+      "wrongExplains": {
+        "0": "Multiple nerves are needed. One nerve couldn't provide all the fine motor control.",
+        "2": "Three nerves divide the territory, not one per finger.",
+        "3": "The hand absolutely has nerve supply — that's how you feel and move your fingers."
+      }
+    },
+    {
+      "q": "What happens if the ulnar nerve is severely damaged?",
+      "options": [
+        "Only the thumb is affected",
+        "Weakness in grip and loss of sensation in the little finger",
+        "The entire arm becomes paralyzed",
+        "Only hearing is affected"
+      ],
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! The ulnar nerve passes through the cubital tunnel at the medial elbow, where it's superficial and unprotected. This is why a bump here causes such intense tingling."
+      "explain": "Severe ulnar nerve damage causes 'CLAW HAND' — weakness in grip (especially pinch strength) and LOSS OF SENSATION in the ring and little fingers. Fine motor control is impaired.",
+      "wrongExplains": {
+        "0": "The thumb is mainly median nerve. Ulnar damage affects the little finger side.",
+        "2": "Only the ulnar nerve territory is affected. Other nerves still work.",
+        "3": "Hearing uses the cochlear nerve. The ulnar nerve is in the arm."
+      }
     },
     {
-      "q": "The 'funny bone' sensation is caused by stimulating the ___ nerve.",
+      "q": "Striking the 'funny bone' stimulates which nerve?",
       "options": [
-        "Median",
-        "Radial",
-        "Ulnar",
-        "Sciatic"
+        "Median nerve",
+        "Radial nerve",
+        "Ulnar nerve",
+        "Sciatic nerve"
       ],
       "answer": 2,
       "difficulty": "intermediate",
-      "explain": "The ulnar nerve! It passes through the cubital tunnel at the medial elbow, right against the bone with no protection. The tingling in your ring and little fingers is the ulnar nerve's sensory distribution."
+      "explain": "The ULNAR NERVE! It passes through the cubital tunnel at the medial elbow, unprotected against the bone. The tingling in your ring and little fingers is classic ulnar nerve sensation.",
+      "wrongExplains": {
+        "0": "The median nerve is deeper and protected. It doesn't cause the 'funny bone' sensation.",
+        "1": "The radial nerve is on the lateral (thumb) side of the arm, not at the funny bone.",
+        "3": "The sciatic nerve is in the leg. The funny bone is in the arm."
+      }
     }
   ]
 }

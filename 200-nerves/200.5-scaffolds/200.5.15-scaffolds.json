@@ -3,94 +3,157 @@
   "parentQuestion": "To test CN V (trigeminal) motor function, you would ask the patient to ___.",
   "scaffolds": [
     {
-      "q": "CN V (trigeminal) controls the muscles used for chewing.",
+      "q": "CN V (trigeminal) has both sensory AND motor functions. The motor part controls which muscles?",
       "options": [
-        "True",
-        "False"
+        "Facial expression muscles",
+        "Chewing muscles (mastication)",
+        "Tongue muscles",
+        "Eye muscles"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The masseter and other chewing muscles are controlled by CN V."
+      "explain": "CN V motor controls the CHEWING muscles (muscles of mastication): masseter, temporalis, and pterygoids. These powerful muscles move your jaw for biting and chewing.",
+      "wrongExplains": {
+        "0": "Facial expression muscles are controlled by CN VII (facial nerve). CN V handles chewing, CN VII handles expressions.",
+        "2": "Tongue muscles are controlled by CN XII (hypoglossal). CN V controls jaw muscles, not tongue muscles.",
+        "3": "Eye muscles are controlled by CN III, IV, and VI. CN V doesn't move the eyes."
+      }
     },
     {
-      "q": "Motor function means the ability to move muscles.",
+      "q": "What does 'motor function' mean?",
       "options": [
-        "True",
-        "False"
+        "The ability to feel sensations",
+        "The ability to control muscle movement",
+        "The ability to think",
+        "The ability to hear"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Exactly! Motor = movement."
+      "explain": "Motor function = MUSCLE MOVEMENT. Motor nerves carry commands FROM the brain to muscles, telling them to contract. 'Motor' = movement.",
+      "wrongExplains": {
+        "0": "Feeling sensations is SENSORY function. Motor is the opposite — output to muscles, not input from sensors.",
+        "2": "Thinking is a cognitive brain function. Motor function specifically refers to controlling muscles.",
+        "3": "Hearing is a sensory function handled by CN VIII. Motor = movement of muscles."
+      }
     },
     {
-      "q": "Doctors test nerves by asking patients to do specific movements.",
+      "q": "How would a doctor test CN V MOTOR function?",
       "options": [
-        "True",
-        "False"
+        "Shine a light in the eye",
+        "Ask the patient to clench their jaw",
+        "Test hearing with a tuning fork",
+        "Have the patient stick out their tongue"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Right! Each nerve controls specific muscles."
+      "explain": "To test CN V motor function, ask the patient to CLENCH THEIR JAW or bite down. The doctor can feel the masseter muscles contract or test jaw strength against resistance.",
+      "wrongExplains": {
+        "0": "Shining a light tests the PUPIL reflex (CN II for sensory, CN III for motor). Not related to CN V.",
+        "2": "Tuning fork tests HEARING (CN VIII). CN V has nothing to do with hearing.",
+        "3": "Tongue protrusion tests CN XII (hypoglossal). CN V controls jaw muscles, not tongue muscles."
+      }
     },
     {
-      "q": "Clenching your jaw requires the muscles that close your mouth.",
+      "q": "The masseter muscle is tested by having the patient ___.",
       "options": [
-        "True",
-        "False"
+        "Smile widely",
+        "Bite down hard",
+        "Raise their eyebrows",
+        "Close their eyes"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! These chewing muscles are controlled by CN V."
+      "explain": "BITE DOWN HARD to test the masseter. You can feel this muscle bulge on your cheek when you clench your teeth. It's one of the most powerful muscles in your body for its size.",
+      "wrongExplains": {
+        "0": "Smiling tests CN VII (facial nerve). The masseter is for biting, not smiling.",
+        "2": "Raising eyebrows tests CN VII (facial nerve). Different nerve, different muscle.",
+        "3": "Closing eyes tests CN VII (orbicularis oculi). The masseter only moves the jaw."
+      }
     },
     {
-      "q": "Smiling uses facial muscles controlled by CN VII, not CN V.",
+      "q": "If CN V motor function is damaged, what would the patient have trouble doing?",
       "options": [
-        "True",
-        "False"
+        "Seeing clearly",
+        "Chewing food",
+        "Hearing sounds",
+        "Smelling odors"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Different nerve, different muscles."
+      "explain": "CN V motor damage = trouble CHEWING. The jaw muscles would be weak, making it hard to bite and grind food. The jaw might also deviate to the weak side when opening.",
+      "wrongExplains": {
+        "0": "Seeing uses CN II (optic). CN V motor has nothing to do with vision.",
+        "2": "Hearing uses CN VIII (vestibulocochlear). CN V doesn't affect hearing.",
+        "3": "Smelling uses CN I (olfactory). CN V motor only controls chewing muscles."
+      }
     },
     {
-      "q": "Sticking out your tongue uses CN XII (hypoglossal), not CN V.",
+      "q": "Why is clenching the jaw a good test for CN V motor function?",
       "options": [
-        "True",
-        "False"
+        "Because CN V controls the heart",
+        "Because CN V controls the masseter and other chewing muscles",
+        "Because CN V controls breathing",
+        "Because CN V controls swallowing"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! Tongue movement is CN XII."
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Jaw clenching directly uses the masseter, temporalis, and pterygoid muscles — all controlled by CN V. If CN V motor is damaged, clenching will be weak on the affected side.",
+      "wrongExplains": {
+        "0": "The heart is controlled by the vagus nerve (CN X) and sympathetic nervous system. CN V doesn't affect the heart.",
+        "2": "Breathing is controlled by the phrenic nerve and other respiratory nerves. CN V only controls jaw muscles.",
+        "3": "Swallowing primarily uses CN IX (glossopharyngeal) and CN X (vagus). CN V handles chewing, not swallowing."
+      }
     },
     {
-      "q": "If CN V motor function is damaged, the patient would have trouble chewing.",
+      "q": "What's the difference between CN V sensory and CN V motor testing?",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Exactly! Jaw muscles cannot contract properly."
-    },
-    {
-      "q": "The masseter muscle is used for biting and chewing.",
-      "options": [
-        "True",
-        "False"
+        "Sensory tests feeling on face; motor tests jaw strength",
+        "Sensory tests jaw strength; motor tests feeling on face",
+        "Both test the same thing",
+        "Neither involves the face"
       ],
       "answer": 0,
       "difficulty": "intermediate",
-      "explain": "The masseter is innervated by CN V. Feel it on your cheek when you clench."
+      "explain": "CN V SENSORY = testing facial sensation (touch, pain on forehead, cheek, jaw). CN V MOTOR = testing jaw muscle strength (clenching, biting). Same nerve, different components.",
+      "wrongExplains": {
+        "1": "This is backwards. Sensory tests FEELING, motor tests MOVEMENT. They're opposites.",
+        "2": "They test completely different things. One tests sensation (input), the other tests movement (output).",
+        "3": "Both involve the face! CN V is the main nerve for facial sensation AND jaw movement."
+      }
     },
     {
-      "q": "Testing jaw clench strength tests the motor component of CN V.",
+      "q": "A patient can feel their face normally but can't chew effectively. Which CN V component is damaged?",
       "options": [
-        "True",
-        "False"
+        "Sensory only",
+        "Motor only",
+        "Both",
+        "Neither"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Weakness in jaw clenching indicates trigeminal motor nerve damage."
+      "explain": "Normal sensation but weak chewing = MOTOR damage only. The sensory fibers carrying facial feeling are intact, but the motor fibers controlling chewing muscles are affected.",
+      "wrongExplains": {
+        "0": "If sensory were damaged, the patient wouldn't feel their face normally. Sensation is intact here.",
+        "2": "If both were damaged, the patient would have BOTH numbness AND chewing weakness. Here, only chewing is affected.",
+        "3": "The chewing problem proves CN V IS involved — specifically the motor component."
+      }
+    },
+    {
+      "q": "Which test would NOT assess CN V motor function?",
+      "options": [
+        "Bite down on a tongue depressor",
+        "Clench teeth and feel the masseter",
+        "Touch the face with cotton",
+        "Move jaw side to side"
+      ],
+      "answer": 2,
+      "difficulty": "intermediate",
+      "explain": "TOUCHING the face with cotton tests CN V SENSORY function (feeling), not motor. The other options all test jaw muscle movement (motor function).",
+      "wrongExplains": {
+        "0": "Biting down tests motor function — it requires the jaw muscles to work.",
+        "1": "Clenching teeth makes the masseter contract — this is motor function.",
+        "3": "Moving the jaw side to side uses the pterygoid muscles (CN V motor)."
+      }
     }
   ]
 }

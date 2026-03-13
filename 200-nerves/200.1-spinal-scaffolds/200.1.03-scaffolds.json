@@ -3,89 +3,143 @@
   "parentQuestion": "Starting at the spinal cord, the subdivisions of the brachial plexus are (in order) ___.",
   "scaffolds": [
     {
-      "q": "A 'plexus' is a network of nerves that interweave together.",
+      "q": "What is a 'plexus' in anatomy?",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! Plexus means 'braid' or 'network.' Nerves from different spinal levels come together, mix their fibers, and then redistribute. It's like a complex interchange on a highway system."
-    },
-    {
-      "q": "The brachial plexus controls the ___.",
-      "options": [
-        "Leg",
-        "Arm",
-        "Face",
-        "Trunk"
+        "A single straight nerve",
+        "A network of nerves that interweave together",
+        "A type of muscle",
+        "A blood vessel"
       ],
       "answer": 1,
       "difficulty": "foundation",
-      "explain": "The brachial plexus controls your arm! 'Brachial' comes from the Latin word for arm. This network of nerves supplies your shoulder, arm, forearm, and hand."
+      "explain": "PLEXUS means 'braid' or 'network.' Nerves from different spinal levels come together, mix their fibers, and redistribute. It's like a complex interchange on a highway system.",
+      "wrongExplains": {
+        "0": "A single nerve is not a plexus. Plexus specifically means an interwoven network.",
+        "2": "Muscles are contractile tissue. A plexus is a nerve network.",
+        "3": "Blood vessels are part of the cardiovascular system. Plexus refers to nerves."
+      }
     },
     {
-      "q": "The brachial plexus is formed from spinal nerves C5 through T1.",
+      "q": "What body part does the brachial plexus control?",
       "options": [
-        "True",
-        "False"
+        "The leg",
+        "The arm",
+        "The face",
+        "The trunk"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Five spinal levels (C5, C6, C7, C8, T1) combine to form the brachial plexus. These are cervical (neck) and upper thoracic nerves - right where your arm attaches!"
+      "explain": "The BRACHIAL plexus controls your ARM. 'Brachial' comes from the Latin word for arm. This nerve network supplies your shoulder, arm, forearm, and hand.",
+      "wrongExplains": {
+        "0": "The leg is controlled by the lumbar and sacral plexuses. Brachial = arm.",
+        "2": "The face is controlled by cranial nerves. Brachial plexus controls the arm.",
+        "3": "The trunk is mainly supplied by thoracic nerves. The brachial plexus is for the arm."
+      }
     },
     {
-      "q": "The word 'root' in nerve anatomy refers to the part that attaches to the spinal cord.",
+      "q": "Which spinal nerves form the brachial plexus?",
       "options": [
-        "True",
-        "False"
+        "C1 through C4",
+        "C5 through T1",
+        "L1 through L5",
+        "S1 through S4"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Just like tree roots anchor to the ground, nerve roots anchor to the spinal cord. In the brachial plexus, the roots are the ventral rami of C5-T1 - the starting point."
+      "explain": "The brachial plexus is formed from C5, C6, C7, C8, and T1 — five spinal levels combining. These are cervical (neck) and upper thoracic nerves, right where your arm attaches!",
+      "wrongExplains": {
+        "0": "C1-C4 form the cervical plexus (neck muscles). The brachial plexus is C5-T1.",
+        "2": "L1-L5 are lumbar nerves for the lower body. The arm uses C5-T1.",
+        "3": "S1-S4 are sacral nerves for the pelvis/leg. The arm uses C5-T1."
+      }
     },
     {
-      "q": "A 'trunk' in nerve anatomy is formed when roots combine together.",
+      "q": "In the brachial plexus, what are 'roots'?",
       "options": [
-        "True",
-        "False"
+        "The final branches going to muscles",
+        "The starting point where nerves attach to the spinal cord",
+        "The middle section of the plexus",
+        "The arteries running with the nerves"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Just like a tree trunk is bigger than roots, nerve trunks form when roots merge. In the brachial plexus: C5+C6 = upper trunk, C7 = middle trunk, C8+T1 = lower trunk."
+      "explain": "Just like tree roots anchor to the ground, nerve ROOTS anchor to the spinal cord. In the brachial plexus, the roots are the ventral rami of C5-T1 — the starting point.",
+      "wrongExplains": {
+        "0": "Final branches are called 'branches.' Roots are the attachment to the spinal cord.",
+        "2": "The middle sections are trunks, divisions, and cords. Roots are at the start.",
+        "3": "Arteries are blood vessels. Roots are the nerve attachments to the spinal cord."
+      }
     },
     {
-      "q": "A 'division' in nerve anatomy splits a trunk into anterior and posterior parts.",
+      "q": "In the brachial plexus, what forms a 'trunk'?",
       "options": [
-        "True",
-        "False"
+        "A single nerve root alone",
+        "Roots combining together",
+        "Final branches to muscles",
+        "Blood vessels only"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Each trunk divides into an anterior division (front/flexor muscles) and posterior division (back/extensor muscles). This sorting determines which muscles each nerve will eventually control."
+      "explain": "Just like a tree trunk is bigger than roots, nerve TRUNKS form when roots MERGE. In the brachial plexus: C5+C6 = upper trunk, C7 alone = middle trunk, C8+T1 = lower trunk.",
+      "wrongExplains": {
+        "0": "A single root is still a root. Trunks form when roots combine.",
+        "2": "Branches come at the end. Trunks are an intermediate structure formed from roots.",
+        "3": "Blood vessels are separate. Trunks are nerve structures formed from merging roots."
+      }
     },
     {
-      "q": "A 'cord' in nerve anatomy is named based on its position relative to an artery.",
+      "q": "What do 'divisions' do in the brachial plexus?",
       "options": [
-        "True",
-        "False"
+        "They combine roots together",
+        "They split each trunk into anterior and posterior parts",
+        "They form the final nerve branches",
+        "They connect to the spinal cord"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The three cords (lateral, medial, posterior) are named based on their position around the axillary artery. Divisions recombine to form these cords before giving off the final nerve branches."
+      "explain": "Each trunk DIVIDES into an ANTERIOR division (front/flexor muscles) and POSTERIOR division (back/extensor muscles). This sorting determines which muscles each nerve will eventually control.",
+      "wrongExplains": {
+        "0": "Combining roots makes trunks. Divisions SPLIT trunks.",
+        "2": "Final branches come after cords. Divisions split trunks into anterior/posterior.",
+        "3": "Roots connect to the spinal cord. Divisions come later in the sequence."
+      }
     },
     {
-      "q": "The mnemonic 'Robert Taylor Drinks Cold Beer' helps remember the brachial plexus order: Roots, Trunks, Divisions, Cords, Branches.",
+      "q": "How are the 'cords' of the brachial plexus named?",
       "options": [
-        "True",
-        "False"
+        "By their color",
+        "By their position relative to the axillary artery",
+        "By their size",
+        "By the muscles they supply"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The three CORDS (lateral, medial, posterior) are named by their position around the AXILLARY ARTERY. Divisions recombine to form these cords before giving off the final nerve branches.",
+      "wrongExplains": {
+        "0": "Nerves aren't named by color. Cords are named by position around the axillary artery.",
+        "2": "Size isn't the naming criterion. Position relative to the axillary artery is.",
+        "3": "The branches supply muscles, but cords are named by position around the artery."
+      }
+    },
+    {
+      "q": "What mnemonic helps remember the brachial plexus order?",
+      "options": [
+        "'Robert Taylor Drinks Cold Beer' = Roots, Trunks, Divisions, Cords, Branches",
+        "'Big Dogs Run Fast' = Branches, Divisions, Roots, Final",
+        "'Cold Rooms Have Dust' = Cords, Roots, Hands, Divisions",
+        "There is no useful mnemonic"
       ],
       "answer": 0,
       "difficulty": "intermediate",
-      "explain": "Yes! R-T-D-C-B: Roots → Trunks → Divisions → Cords → Branches. From spinal cord outward, nerve fibers reorganize through these five levels before becoming the final arm nerves."
+      "explain": "R-T-D-C-B: Robert Taylor Drinks Cold Beer = Roots → Trunks → Divisions → Cords → Branches. From spinal cord outward, nerve fibers reorganize through these five levels.",
+      "wrongExplains": {
+        "1": "This isn't the correct mnemonic or order. The real one is 'Robert Taylor Drinks Cold Beer.'",
+        "2": "This isn't the correct mnemonic or order. Use 'Robert Taylor Drinks Cold Beer.'",
+        "3": "There IS a useful mnemonic: 'Robert Taylor Drinks Cold Beer' for R-T-D-C-B."
+      }
     },
     {
-      "q": "Put the brachial plexus components in order from spinal cord to arm: Divisions, Cords, Trunks, Roots.",
+      "q": "What is the correct order of brachial plexus components from spinal cord to arm?",
       "options": [
         "Roots → Divisions → Trunks → Cords",
         "Roots → Trunks → Divisions → Cords",
@@ -94,7 +148,12 @@
       ],
       "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Roots → Trunks → Divisions → Cords (then Branches). Remember: Robert Taylor Drinks Cold Beer. The fibers merge (roots to trunks), split (divisions), recombine (cords), then branch to their final destinations."
+      "explain": "ROOTS → TRUNKS → DIVISIONS → CORDS (then Branches). Remember: Robert Taylor Drinks Cold Beer. Fibers merge (roots to trunks), split (divisions), recombine (cords), then branch to destinations.",
+      "wrongExplains": {
+        "0": "Divisions come AFTER trunks, not before. The order is Roots → Trunks → Divisions → Cords.",
+        "2": "Roots come first, not trunks. The correct order starts at the spinal cord with roots.",
+        "3": "This is completely reversed. Signal flows OUT from spinal cord, so roots are first."
+      }
     }
   ]
 }

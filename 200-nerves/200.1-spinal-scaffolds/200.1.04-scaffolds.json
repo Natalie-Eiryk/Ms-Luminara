@@ -3,94 +3,157 @@
   "parentQuestion": "Select the statement that is most correct.",
   "scaffolds": [
     {
-      "q": "Neurons are the cells that carry electrical signals in the nervous system.",
+      "q": "What are neurons?",
       "options": [
-        "True",
-        "False"
+        "Cells that store fat",
+        "Cells that carry electrical signals in the nervous system",
+        "Cells that produce hormones",
+        "Cells that fight infection"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Neurons are specialized cells that transmit electrical impulses. They have a cell body, dendrites (receiving signals), and an axon (sending signals)."
+      "explain": "NEURONS are specialized cells that transmit ELECTRICAL IMPULSES. They have a cell body, dendrites (receiving signals), and an axon (sending signals).",
+      "wrongExplains": {
+        "0": "Fat-storing cells are adipocytes. Neurons transmit electrical signals.",
+        "2": "Hormone-producing cells are in endocrine glands. Neurons carry electrical signals.",
+        "3": "Infection-fighting cells are immune cells (like lymphocytes). Neurons are for signaling."
+      }
     },
     {
-      "q": "The 'cell body' of a neuron contains the nucleus and most of the cell's organelles.",
+      "q": "What does the cell body (soma) of a neuron contain?",
       "options": [
-        "True",
-        "False"
+        "Only the axon terminal",
+        "The nucleus and most organelles",
+        "Only myelin",
+        "Nothing — it's hollow"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The cell body (soma) is the neuron's control center. It contains the nucleus and keeps the cell alive. The axon is just the long extension that carries signals."
+      "explain": "The CELL BODY (SOMA) is the neuron's control center. It contains the NUCLEUS and keeps the cell alive. The axon is just the long extension that carries signals away.",
+      "wrongExplains": {
+        "0": "The axon terminal is at the end of the axon, separate from the cell body.",
+        "2": "Myelin wraps around the axon. The cell body contains the nucleus and organelles.",
+        "3": "The cell body is definitely not hollow — it's packed with the nucleus and organelles."
+      }
     },
     {
-      "q": "The CNS (Central Nervous System) includes the brain and spinal cord.",
+      "q": "What does the CNS (Central Nervous System) include?",
       "options": [
-        "True",
-        "False"
+        "Only the nerves in your arms and legs",
+        "The brain and spinal cord",
+        "Only the autonomic nerves",
+        "All the ganglia in the body"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The CNS is the 'central command' - brain and spinal cord. Everything else (nerves throughout your body) is the PNS (Peripheral Nervous System)."
+      "explain": "The CNS is the 'central command' — the BRAIN and SPINAL CORD. Everything else (nerves throughout your body) is the PNS (Peripheral Nervous System).",
+      "wrongExplains": {
+        "0": "Arm and leg nerves are part of the PERIPHERAL nervous system. CNS = brain + spinal cord.",
+        "2": "Autonomic nerves are part of the PNS. The CNS is brain and spinal cord.",
+        "3": "Ganglia are in the PNS (outside the CNS). The CNS is brain and spinal cord."
+      }
     },
     {
-      "q": "A 'ganglion' is a cluster of neuron cell bodies located OUTSIDE the brain and spinal cord.",
+      "q": "What is a 'ganglion'?",
       "options": [
-        "True",
-        "False"
+        "A cluster of neuron cell bodies inside the brain",
+        "A cluster of neuron cell bodies OUTSIDE the brain and spinal cord",
+        "A type of hormone",
+        "A blood vessel in the brain"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Ganglia are collections of neuron cell bodies in the PERIPHERAL nervous system - outside the CNS. They look like little bumps or swellings along nerves."
+      "explain": "GANGLIA are collections of neuron cell bodies in the PERIPHERAL nervous system — outside the CNS. They look like little bumps or swellings along nerves.",
+      "wrongExplains": {
+        "0": "Cell body clusters INSIDE the CNS are called 'nuclei,' not ganglia.",
+        "2": "Hormones are chemical messengers. Ganglia are nerve cell body clusters.",
+        "3": "Blood vessels are part of the cardiovascular system. Ganglia are nerve structures."
+      }
     },
     {
-      "q": "A 'nucleus' (in the nervous system context) is a cluster of neuron cell bodies located INSIDE the brain or spinal cord.",
+      "q": "In nervous system terminology, what is a 'nucleus'?",
       "options": [
-        "True",
-        "False"
+        "The center of an atom",
+        "A cluster of neuron cell bodies INSIDE the brain or spinal cord",
+        "A type of muscle cell",
+        "A cluster of cell bodies outside the CNS"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Same structure, different location = different name. Cluster of cell bodies OUTSIDE CNS = ganglion. Cluster of cell bodies INSIDE CNS = nucleus. Location determines the term!"
+      "explain": "In neuroanatomy, a NUCLEUS is a cluster of cell bodies INSIDE the CNS. Same structure outside the CNS = ganglion. Location determines the term!",
+      "wrongExplains": {
+        "0": "That's physics/chemistry. In neuroanatomy, nucleus means a CNS cell body cluster.",
+        "2": "Muscle cells are myocytes. A neuroanatomical nucleus is a nerve cell body cluster.",
+        "3": "Outside the CNS, cell body clusters are called GANGLIA, not nuclei."
+      }
     },
     {
-      "q": "The dorsal root ganglion contains the cell bodies of sensory neurons.",
+      "q": "What does the dorsal root ganglion (DRG) contain?",
       "options": [
-        "True",
-        "False"
+        "Motor neuron cell bodies",
+        "Sensory neuron cell bodies",
+        "Only blood vessels",
+        "Muscle tissue"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The dorsal root ganglion (DRG) sits just outside the spinal cord and contains cell bodies of sensory neurons. These neurons detect touch, pain, temperature, and position."
+      "explain": "The DORSAL ROOT GANGLION (DRG) contains cell bodies of SENSORY NEURONS. These neurons detect touch, pain, temperature, and position. Motor neuron bodies are in the spinal cord.",
+      "wrongExplains": {
+        "0": "Motor neuron cell bodies are in the ventral horn of the spinal cord, not in ganglia.",
+        "2": "While blood vessels supply the DRG, its main contents are sensory neuron cell bodies.",
+        "3": "The DRG is neural tissue containing sensory neuron cell bodies, not muscle."
+      }
     },
     {
-      "q": "'Afferent' means carrying signals TOWARD the CNS (sensory), while 'efferent' means carrying signals AWAY from the CNS (motor).",
+      "q": "What do 'afferent' and 'efferent' mean?",
       "options": [
-        "True",
-        "False"
+        "Both mean the same thing",
+        "Afferent = toward CNS (sensory); Efferent = away from CNS (motor)",
+        "Afferent = away from CNS; Efferent = toward CNS",
+        "Neither relates to signal direction"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Afferent = Arriving (sensory, toward CNS). Efferent = Exiting (motor, away from CNS). These terms describe signal direction - a fundamental concept in neuroscience."
+      "explain": "AFFERENT = ARRIVING (sensory, toward CNS). EFFERENT = EXITING (motor, away from CNS). These terms describe signal direction — a fundamental concept in neuroscience.",
+      "wrongExplains": {
+        "0": "They are opposites. Afferent is toward CNS; efferent is away from CNS.",
+        "2": "That's backwards. Afferent = arriving/toward. Efferent = exiting/away.",
+        "3": "Both terms specifically relate to signal direction relative to the CNS."
+      }
     },
     {
-      "q": "Ganglia associated with afferent (sensory) fibers contain cell bodies of sensory neurons.",
+      "q": "What type of neuron cell bodies do afferent ganglia contain?",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "intermediate",
-      "explain": "Correct! Afferent = sensory. Ganglia = cell body clusters outside CNS. So afferent ganglia (like dorsal root ganglia) contain sensory neuron cell bodies. Motor neuron cell bodies are located in the spinal cord itself (in nuclei, not ganglia)."
-    },
-    {
-      "q": "The dorsal root ganglion is a motor-only structure.",
-      "options": [
-        "True",
-        "False"
+        "Motor neuron cell bodies",
+        "Sensory neuron cell bodies",
+        "Both motor and sensory",
+        "Neither — ganglia are empty"
       ],
       "answer": 1,
       "difficulty": "intermediate",
-      "explain": "FALSE! The dorsal root ganglion is SENSORY, not motor. It contains cell bodies of sensory neurons. Motor neuron cell bodies are in the ventral horn of the spinal cord (inside CNS, so they're in nuclei, not ganglia)."
+      "explain": "AFFERENT = sensory. GANGLIA = cell body clusters outside CNS. So afferent ganglia (like dorsal root ganglia) contain SENSORY neuron cell bodies. Motor neuron bodies are in the spinal cord.",
+      "wrongExplains": {
+        "0": "Motor neuron cell bodies are in the spinal cord (CNS), not in peripheral ganglia.",
+        "2": "Ganglia are segregated. Afferent ganglia contain sensory neurons only.",
+        "3": "Ganglia definitely contain neuron cell bodies — that's what they are."
+      }
+    },
+    {
+      "q": "Is the dorsal root ganglion a motor structure?",
+      "options": [
+        "Yes, it controls muscles",
+        "No, it is a SENSORY structure containing sensory neuron cell bodies",
+        "Yes, it contains motor neuron cell bodies",
+        "It has nothing to do with neurons"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The dorsal root ganglion is SENSORY, not motor. It contains cell bodies of sensory neurons. Motor neuron cell bodies are in the ventral horn of the spinal cord (inside CNS, so they're in nuclei, not ganglia).",
+      "wrongExplains": {
+        "0": "Motor control comes from the ventral horn. The DRG is purely sensory.",
+        "2": "Motor neuron cell bodies are in the spinal cord, not in the DRG.",
+        "3": "The DRG is entirely about neurons — specifically sensory neuron cell bodies."
+      }
     }
   ]
 }

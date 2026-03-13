@@ -3,94 +3,157 @@
   "parentQuestion": "A patient presents with bilateral loss of pain and temperature sensation in the hands and upper arms, forming a 'cape-like' distribution across the shoulders, but proprioception, vibration sense, and motor function are intact. This pattern most strongly suggests ___.",
   "scaffolds": [
     {
-      "q": "The spinal cord has a central canal (a small tube running down the middle).",
+      "q": "What is the central canal of the spinal cord?",
       "options": [
-        "True",
-        "False"
+        "A blood vessel",
+        "A small CSF-filled tube running through the center",
+        "A muscle attachment",
+        "A sensory receptor"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The central canal is a small, CSF-filled tube that runs through the center of the spinal cord. It's a remnant from early development."
+      "explain": "The CENTRAL CANAL is a small, CSF-filled tube that runs through the center of the spinal cord. It's a remnant from early development and continuous with the brain's ventricles.",
+      "wrongExplains": {
+        "0": "Blood vessels supply the cord but are separate from the central canal.",
+        "2": "Muscles don't attach inside the spinal cord. The central canal contains CSF.",
+        "3": "Sensory receptors are in the periphery. The central canal is in the cord's center."
+      }
     },
     {
-      "q": "Pain and temperature fibers cross from one side to the other near the CENTER of the spinal cord.",
+      "q": "Where do pain and temperature fibers cross in the spinal cord?",
       "options": [
-        "True",
-        "False"
+        "At the periphery of the cord",
+        "Near the CENTER, through the anterior commissure",
+        "They don't cross in the spinal cord",
+        "In the dorsal columns"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Pain and temperature fibers enter through the dorsal root, then cross through the anterior commissure (near the central canal) to reach the spinothalamic tract on the opposite side."
+      "explain": "Pain and temperature fibers enter through the dorsal root, then CROSS through the ANTERIOR COMMISSURE (near the central canal) to reach the spinothalamic tract on the opposite side.",
+      "wrongExplains": {
+        "0": "The crossing occurs centrally, near the central canal, not peripherally.",
+        "2": "Pain/temp fibers DO cross in the spinal cord — that's a key anatomical fact.",
+        "3": "Dorsal columns carry proprioception. Pain/temp crosses near the central canal."
+      }
     },
     {
-      "q": "The dorsal columns (proprioception/vibration) are located at the BACK of the spinal cord.",
+      "q": "Where are the dorsal columns located?",
       "options": [
-        "True",
-        "False"
+        "At the front of the spinal cord",
+        "At the BACK (posterior) of the spinal cord",
+        "In the center of the cord",
+        "Outside the spinal cord"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Dorsal = back. The dorsal columns run along the posterior (back) part of the spinal cord. This location becomes important when central cord lesions occur."
+      "explain": "DORSAL = BACK. The dorsal columns run along the POSTERIOR (back) part of the spinal cord. This location matters when central cord lesions occur — dorsal columns are spared.",
+      "wrongExplains": {
+        "0": "The front (anterior) contains motor pathways. Dorsal columns are posterior.",
+        "2": "The center is where pain/temp fibers cross. Dorsal columns are at the back.",
+        "3": "The dorsal columns are inside the cord, along its posterior surface."
+      }
     },
     {
-      "q": "A 'syrinx' is a fluid-filled cavity that can form inside the spinal cord.",
+      "q": "What is a 'syrinx'?",
       "options": [
-        "True",
-        "False"
+        "A type of nerve cell",
+        "A fluid-filled cavity that forms inside the spinal cord",
+        "A blood clot",
+        "A muscle spasm"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! In syringomyelia, a syrinx (cavity filled with CSF-like fluid) forms in the central part of the spinal cord and can slowly expand outward over time."
+      "explain": "In SYRINGOMYELIA, a SYRINX (fluid-filled cavity) forms in the central part of the spinal cord and can slowly expand outward over time, damaging surrounding tissue.",
+      "wrongExplains": {
+        "0": "Neurons are nerve cells. A syrinx is a pathological cavity.",
+        "2": "Blood clots are vascular. A syrinx is a CSF-filled cavity in the cord.",
+        "3": "Muscle spasms are muscular. A syrinx is a structural abnormality in the cord."
+      }
     },
     {
-      "q": "If something expands from the CENTER of the spinal cord outward, it damages the central crossing fibers first.",
+      "q": "What happens when a central lesion expands outward?",
       "options": [
-        "True",
-        "False"
+        "It damages the dorsal columns first",
+        "It damages the central crossing fibers first",
+        "It has no effect on pathways",
+        "It improves spinal cord function"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! An expanding central lesion (like a syrinx) first damages structures near the center - including the crossing pain/temperature fibers. The dorsal columns (at the back) are spared initially."
+      "explain": "An expanding central lesion (like a syrinx) first damages structures near the center — including the CROSSING PAIN/TEMPERATURE FIBERS. The dorsal columns (at the back) are spared initially.",
+      "wrongExplains": {
+        "0": "Dorsal columns are at the back and would be affected later. Central fibers go first.",
+        "2": "Central lesions definitely damage pathways — starting with centrally-located fibers.",
+        "3": "Lesions damage tissue; they don't improve function."
+      }
     },
     {
-      "q": "A 'cape-like' or 'shawl' distribution refers to a pattern affecting the shoulders, arms, and upper back.",
+      "q": "What is a 'cape-like' or 'shawl' distribution?",
       "options": [
-        "True",
-        "False"
+        "Affecting only the legs",
+        "A pattern affecting the shoulders, arms, and upper back",
+        "Affecting only the face",
+        "A random pattern"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! This pattern looks like wearing a cape or shawl. It typically affects cervical (neck) levels, which control the shoulders and arms - the area a cape would cover."
+      "explain": "A CAPE-LIKE distribution looks like wearing a cape or shawl. It typically affects cervical (neck) levels, which control the shoulders and arms — the area a cape would cover.",
+      "wrongExplains": {
+        "0": "Leg involvement would be from lumbar/sacral levels. Cape distribution is upper body.",
+        "2": "Face is controlled by cranial nerves. Cape distribution affects shoulders/arms.",
+        "3": "The pattern is specific and predictable based on cervical dermatomes."
+      }
     },
     {
-      "q": "'Dissociated sensory loss' means some sensations are lost while others remain intact.",
+      "q": "What is 'dissociated sensory loss'?",
       "options": [
-        "True",
-        "False"
+        "Complete loss of all sensation",
+        "Loss of SOME sensations while others remain intact",
+        "Enhanced sensation",
+        "Normal sensation"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! When you lose pain/temperature but keep touch/proprioception (or vice versa), that's dissociated sensory loss. Different pathways are selectively affected."
+      "explain": "DISSOCIATED SENSORY LOSS means some sensations are lost while others are preserved. When you lose pain/temperature but keep proprioception (or vice versa), different pathways are selectively affected.",
+      "wrongExplains": {
+        "0": "Complete loss would affect all modalities. Dissociated means selective loss.",
+        "2": "Enhancement isn't sensory loss. Dissociation means some lost, some preserved.",
+        "3": "Normal sensation means nothing is lost. Dissociation is a pathological finding."
+      }
     },
     {
-      "q": "Syringomyelia causes loss of pain/temperature in a cape distribution while preserving proprioception because the syrinx damages crossing spinothalamic fibers while sparing the dorsal columns.",
+      "q": "Why does syringomyelia cause loss of pain/temp but preserve proprioception?",
       "options": [
-        "True",
-        "False"
+        "Proprioception doesn't exist",
+        "The syrinx damages crossing pain/temp fibers while sparing dorsal columns",
+        "All sensations are lost equally",
+        "The syrinx is in the legs"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The expanding central cavity damages the crossing pain/temperature fibers first. The dorsal columns are at the back of the cord and get spared. This creates classic dissociated sensory loss."
+      "explain": "The expanding central cavity damages the CROSSING PAIN/TEMPERATURE FIBERS first. The DORSAL COLUMNS are at the back of the cord and get spared. This creates classic DISSOCIATED SENSORY LOSS.",
+      "wrongExplains": {
+        "0": "Proprioception definitely exists — it's preserved because dorsal columns are spared.",
+        "2": "The selective damage creates dissociation — NOT equal loss.",
+        "3": "Syringomyelia commonly affects the cervical cord, causing cape-like distribution."
+      }
     },
     {
-      "q": "A patient with syringomyelia might burn themselves without feeling pain because they've lost pain sensation but can still feel position and movement.",
+      "q": "Why might a patient with syringomyelia burn themselves without feeling pain?",
       "options": [
-        "True",
-        "False"
+        "Their skin is resistant to heat",
+        "They've lost pain/temperature sensation but can still feel position/movement",
+        "Burns don't cause pain",
+        "They have enhanced pain sensation"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! This is the tragedy of syringomyelia - patients can't feel pain or temperature in the affected areas. They burn themselves on stoves, cut themselves without noticing, because their pain alarm system is damaged while their position sense remains."
+      "explain": "This is the tragedy of syringomyelia — patients can't feel PAIN or TEMPERATURE in affected areas. They burn themselves on stoves, cut themselves without noticing, because their pain alarm system is damaged while position sense remains.",
+      "wrongExplains": {
+        "0": "Their skin is normal. The problem is the sensory pathway damage.",
+        "2": "Burns definitely cause pain in normal people. These patients can't feel it.",
+        "3": "They have REDUCED or absent pain sensation, not enhanced."
+      }
     }
   ]
 }

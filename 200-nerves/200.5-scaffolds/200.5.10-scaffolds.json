@@ -3,96 +3,157 @@
   "parentQuestion": "The vagus nerve (CN X) is unique because it ___.",
   "scaffolds": [
     {
-      "q": "Most cranial nerves only go to the head and neck area.",
+      "q": "Most cranial nerves stay in which body region?",
       "options": [
-        "True",
-        "False"
+        "Head and neck only",
+        "Chest only",
+        "Abdomen only",
+        "Legs and feet"
       ],
       "answer": 0,
       "difficulty": "foundation",
-      "explain": "Yes! Most cranial nerves stay in the head and neck - controlling eyes, face, ears, tongue. But one special nerve travels much farther!"
+      "explain": "Most cranial nerves stay in the HEAD and NECK — controlling eyes, face, ears, tongue, and throat. But CN X is special: it 'wanders' far beyond this region into the chest and abdomen.",
+      "wrongExplains": {
+        "1": "The chest (thorax) is usually served by spinal nerves and autonomic fibers, not cranial nerves. CN X is the exception that travels this far.",
+        "2": "The abdomen is normally innervated by spinal nerves and the autonomic nervous system. Only CN X reaches down this far from the brain.",
+        "3": "The legs and feet are served by lumbar and sacral spinal nerves. No cranial nerve goes anywhere near the legs."
+      }
     },
     {
-      "q": "The chest (thorax) contains the heart and lungs.",
+      "q": "The word 'vagus' comes from Latin meaning ___.",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Exactly! The thorax is your chest cavity. It protects vital organs like your heart and lungs. The vagus nerve reaches all the way down here."
-    },
-    {
-      "q": "The abdomen contains organs like the stomach and intestines.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! Your abdomen is the belly area containing digestive organs. The vagus nerve travels here too, helping control digestion."
-    },
-    {
-      "q": "CN X is the abbreviation for Cranial Nerve number ___.",
-      "options": [
-        "Nine",
-        "Ten",
-        "Eleven",
-        "Twenty"
+        "Strong",
+        "Wanderer",
+        "Heart",
+        "Breath"
       ],
       "answer": 1,
       "difficulty": "foundation",
-      "explain": "CN X = Cranial Nerve Ten! In Roman numerals, X = 10. The vagus nerve is the tenth cranial nerve."
+      "explain": "Vagus = WANDERER (same root as 'vagrant' and 'vagabond'). The nerve earned this name because it 'wanders' from the head all the way down to the abdomen — a remarkably long journey for a cranial nerve.",
+      "wrongExplains": {
+        "0": "The vagus nerve isn't named for strength. Its distinguishing feature is its DISTRIBUTION — how far it travels — not its power.",
+        "2": "While the vagus DOES affect the heart, its name comes from 'wanderer,' not 'heart.' The heart connection is a function, not the etymology.",
+        "3": "While the vagus DOES affect breathing, 'vagus' means wanderer, referring to how far the nerve travels through the body."
+      }
     },
     {
-      "q": "The word vagus comes from Latin meaning wanderer.",
+      "q": "Which organs does CN X reach that other cranial nerves do NOT?",
       "options": [
-        "True",
-        "False"
+        "Eyes and ears",
+        "Heart, lungs, and gut",
+        "Arms and legs",
+        "Facial muscles"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Vagus means wanderer (like vagrant or vagabond). This nerve wanders far from the head, traveling through the chest and into the abdomen."
+      "explain": "CN X reaches the HEART, LUNGS, and GUT (stomach, intestines). No other cranial nerve goes to these thoracic and abdominal organs. This is what makes the vagus 'unique' — it wanders far from home.",
+      "wrongExplains": {
+        "0": "Eyes and ears are served by other cranial nerves (II, III, IV, VI, VIII). These are HEAD structures that multiple cranial nerves reach — not unique to the vagus.",
+        "2": "Arms and legs are served by spinal nerves from the cervical, lumbar, and sacral spine. No cranial nerve, including CN X, reaches the limbs.",
+        "3": "Facial muscles are controlled by CN VII (facial nerve). This is a head structure, not something unique to CN X's territory."
+      }
     },
     {
-      "q": "The vagus nerve helps control your heart rate.",
+      "q": "CN X is part of the parasympathetic nervous system. What does this system do?",
       "options": [
-        "True",
-        "False"
+        "Fight or flight (stress response)",
+        "Rest and digest (calm response)",
+        "Voluntary movement",
+        "Conscious thought"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! CN X sends signals to slow down your heart when you need to rest. Its part of the rest and digest system (parasympathetic nervous system)."
+      "explain": "The parasympathetic system handles 'REST and DIGEST' — slowing heart rate, increasing digestion, conserving energy. CN X is the main parasympathetic nerve. It calms the body down.",
+      "wrongExplains": {
+        "0": "Fight or flight is the SYMPATHETIC nervous system — the opposite of parasympathetic. The vagus is parasympathetic, promoting rest rather than stress.",
+        "2": "Voluntary movement uses motor pathways from the brain through spinal nerves. The vagus controls AUTONOMIC (involuntary) functions like heart rate and digestion.",
+        "3": "Conscious thought is a brain function, not a peripheral nerve function. The vagus carries signals to organs, not thoughts."
+      }
     },
     {
-      "q": "Some nerves can control organs that are far from the brain.",
+      "q": "How does CN X affect your heart rate?",
       "options": [
-        "True",
-        "False"
+        "It speeds up the heart",
+        "It slows down the heart",
+        "It has no effect on heart",
+        "It stops the heart"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The vagus nerve is the ultimate example - it starts in the brain but sends branches to the heart, lungs, stomach, and intestines."
+      "explain": "CN X SLOWS the heart. As a parasympathetic nerve, it releases acetylcholine that decreases heart rate. When you're calm and relaxed, vagal tone keeps your heart from racing.",
+      "wrongExplains": {
+        "0": "Speeding up the heart is a SYMPATHETIC function (fight or flight). The vagus is parasympathetic and does the opposite — it slows things down.",
+        "2": "CN X absolutely affects the heart. It's one of the main regulators of heart rate. Vagal tone is a major factor in cardiac health.",
+        "3": "The vagus slows the heart but doesn't stop it. Even with maximum vagal activity, intrinsic pacemaker cells keep the heart beating."
+      }
     },
     {
-      "q": "The vagus nerve influences heart rate, breathing, and digestion.",
+      "q": "A patient's heart is racing and won't slow down. Which nerve might not be working properly?",
       "options": [
-        "True",
-        "False"
+        "CN V (trigeminal)",
+        "CN VII (facial)",
+        "CN X (vagus)",
+        "CN XII (hypoglossal)"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "intermediate",
-      "explain": "CN X is the main parasympathetic nerve. It slows the heart, constricts airways, and stimulates digestion. Rest and digest mode."
+      "explain": "CN X (vagus) is the 'brake pedal' for the heart. If it's not working, the heart can race unopposed. Loss of vagal tone leads to persistent tachycardia (fast heart rate).",
+      "wrongExplains": {
+        "0": "CN V handles facial sensation and chewing. It has nothing to do with heart rate. Wrong territory entirely.",
+        "1": "CN VII handles facial expression and some taste. It doesn't affect the heart. Heart rate = vagus territory.",
+        "3": "CN XII controls tongue movement. It doesn't innervate the heart. The vagus is the only cranial nerve that reaches the heart."
+      }
     },
     {
-      "q": "No other cranial nerve extends as far into the body as CN X.",
+      "q": "CN X affects digestion by doing what?",
       "options": [
-        "True",
-        "False"
+        "Stopping all digestive movement",
+        "Stimulating stomach and intestinal activity",
+        "Destroying food directly",
+        "Blocking nutrient absorption"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "The vagus is unique among cranial nerves for its extensive distribution. It wanders into the thorax and abdomen, earning its name (vagus = wanderer)."
+      "explain": "CN X STIMULATES digestion — increasing stomach acid secretion, enhancing gut motility (movement), and promoting the digestive process. 'Rest and digest' literally means the vagus helps you digest when relaxed.",
+      "wrongExplains": {
+        "0": "Stopping digestion is a SYMPATHETIC response (during stress). The vagus is parasympathetic and does the opposite — it gets digestion moving.",
+        "2": "Nerves don't destroy food. Enzymes and acid break down food. The vagus controls the ACTIVITY of digestive organs, not the chemical breakdown.",
+        "3": "The vagus enhances digestion, which includes absorption. It doesn't block absorption — it facilitates the entire digestive process."
+      }
+    },
+    {
+      "q": "Why is CN X called 'unique' among cranial nerves?",
+      "options": [
+        "It's the only nerve in the body",
+        "It extends far beyond head/neck into thorax and abdomen",
+        "It only controls taste",
+        "It's purely motor"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN X is unique because it WANDERS beyond the head and neck. While other cranial nerves stay in the head region, the vagus extends into the chest (heart, lungs) and abdomen (stomach, intestines).",
+      "wrongExplains": {
+        "0": "There are hundreds of nerves in the body. The vagus is unique among CRANIAL nerves for its extensive reach, but it's not the only nerve.",
+        "2": "Taste involves multiple nerves (CN VII, IX, X). The vagus does carry some taste from the throat, but that's not what makes it unique.",
+        "3": "CN X is MIXED — it has sensory, motor, AND autonomic fibers. The purely motor cranial nerves are CN III, IV, VI, XI, and XII."
+      }
+    },
+    {
+      "q": "The vagus nerve affects: heart rate, breathing, digestion, and ___.",
+      "options": [
+        "Eye movement",
+        "Voice/swallowing",
+        "Leg movement",
+        "Hair growth"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "CN X also controls VOICE and SWALLOWING through the laryngeal and pharyngeal muscles. A damaged vagus can cause hoarseness and difficulty swallowing. Heart + lungs + gut + voice = vagus territory.",
+      "wrongExplains": {
+        "0": "Eye movement is controlled by CN III, IV, and VI. The vagus doesn't reach the eye muscles at all.",
+        "2": "Leg movement is controlled by spinal nerves from the lumbar and sacral spine. No cranial nerve affects the legs.",
+        "3": "Hair growth is not controlled by nerves directly. It's a slow biological process involving hormones and cellular growth, not vagal signals."
+      }
     }
   ]
 }

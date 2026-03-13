@@ -1,96 +1,159 @@
 {
   "parentId": "200.5.22",
-  "parentQuestion": "Double vision looking down, head tilt compensation",
+  "parentQuestion": "A patient has double vision when looking down (reading, stairs) and tilts their head to compensate. Which nerve is damaged?",
   "scaffolds": [
     {
-      "q": "Double vision (diplopia) means seeing two images of one object.",
+      "q": "What is double vision (diplopia)?",
       "options": [
-        "True",
-        "False"
+        "Seeing everything in one color",
+        "Seeing two images of one object",
+        "Complete blindness",
+        "Seeing only at night"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "DIPLOPIA = seeing TWO images of a single object. It occurs when the eyes aren't properly aligned, so each eye sees a slightly different view that the brain can't merge into one image.",
+      "wrongExplains": {
+        "0": "Color vision problems are different (color blindness). Diplopia is about seeing double, not color changes.",
+        "2": "Blindness is complete vision loss. With diplopia, you can see — you just see double.",
+        "3": "Night-only vision (nyctalopia) is a different condition. Diplopia is double vision at any time."
+      }
+    },
+    {
+      "q": "The patient has trouble looking DOWN. Which activity would be especially difficult?",
+      "options": [
+        "Looking at the ceiling",
+        "Reading a book or walking down stairs",
+        "Looking straight ahead",
+        "Closing the eyes"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "READING and WALKING DOWN STAIRS require looking down. If downward gaze is impaired, these activities cause double vision and difficulty.",
+      "wrongExplains": {
+        "0": "Looking at the ceiling requires upward gaze, not downward. Different muscles, different problem.",
+        "2": "Looking straight ahead uses balanced muscle activity. The problem here is specifically with looking down.",
+        "3": "Closing the eyes uses CN VII (facial). Eye movement down uses CN IV."
+      }
+    },
+    {
+      "q": "Which cranial nerve controls the superior oblique muscle for looking DOWN and inward?",
+      "options": [
+        "CN III (oculomotor)",
+        "CN IV (trochlear)",
+        "CN VI (abducens)",
+        "CN VII (facial)"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN IV (trochlear) controls ONLY the superior oblique muscle. This muscle pulls the eye DOWN and rotates it INWARD (intorsion). CN IV damage = trouble looking down.",
+      "wrongExplains": {
+        "0": "CN III controls four eye muscles (up, down via inferior rectus, medial, inferior oblique) but NOT the superior oblique. The superior oblique is CN IV.",
+        "2": "CN VI controls the lateral rectus for looking OUTWARD (lateral gaze). It doesn't help with looking down.",
+        "3": "CN VII controls facial EXPRESSION. It has nothing to do with eye movement."
+      }
+    },
+    {
+      "q": "CN IV is unique because it controls how many eye muscles?",
+      "options": [
+        "One (superior oblique only)",
+        "Two",
+        "Four",
+        "All six"
       ],
       "answer": 0,
       "difficulty": "foundation",
-      "explain": "When eyes do not align properly, each eye sees differently, creating double images."
+      "explain": "CN IV controls ONLY ONE muscle — the superior oblique. It's a specialist nerve with a single dedicated job. This is different from CN III, which controls four muscles.",
+      "wrongExplains": {
+        "1": "CN IV controls just one muscle. You might be thinking of a different nerve.",
+        "2": "Four muscles are controlled by CN III (oculomotor). CN IV has just one.",
+        "3": "Six muscles are split between THREE nerves: CN III (four), CN IV (one), CN VI (one)."
+      }
     },
     {
-      "q": "Different muscles move your eye in different directions.",
+      "q": "Why would a patient TILT THEIR HEAD to compensate for CN IV palsy?",
       "options": [
-        "True",
-        "False"
+        "Tilting has no effect",
+        "Tilting compensates for the eye's inability to rotate properly (intorsion)",
+        "Tilting helps hearing",
+        "Tilting strengthens the damaged nerve"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Six muscles per eye work together. Each has a specific direction it pulls."
+      "explain": "The superior oblique normally ROTATES the eye inward (intorsion). If it can't, the patient tilts their head to mechanically align the eyes and reduce double vision. This is a classic compensatory sign.",
+      "wrongExplains": {
+        "0": "Tilting definitely helps! It's such a common compensation that doctors look for head tilt as a sign of CN IV palsy.",
+        "2": "Hearing uses CN VIII and isn't affected by head tilt for eye muscle problems.",
+        "3": "Head tilting doesn't heal nerves. It's a mechanical compensation to align vision, not a treatment."
+      }
     },
     {
-      "q": "Looking down is needed for reading and walking down stairs.",
+      "q": "Which way does a patient with RIGHT CN IV palsy typically tilt their head?",
       "options": [
-        "True",
-        "False"
+        "To the right (toward the affected side)",
+        "To the left (away from the affected side)",
+        "Backward",
+        "They don't tilt"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "These activities require your eyes to look downward - a specific eye movement."
-    },
-    {
-      "q": "The trochlear nerve (CN IV) controls one muscle that pulls the eye down.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "CN IV controls only the superior oblique muscle, which helps look down and inward."
-    },
-    {
-      "q": "People often tilt their head to compensate for eye muscle problems.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Tilting the head reduces the work the damaged muscle needs to do."
-    },
-    {
-      "q": "CN IV is the smallest cranial nerve and only controls one muscle.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "It is tiny but important - dedicated to just the superior oblique muscle."
-    },
-    {
-      "q": "Difficulty looking down and in, with head tilt, suggests CN IV damage.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "This specific pattern is the classic sign of trochlear nerve palsy."
-    },
-    {
-      "q": "CN IV controls the superior oblique muscle for downward gaze.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "The superior oblique depresses and intorts the eye - essential for looking down."
+      "explain": "The patient tilts AWAY from the affected side. With RIGHT CN IV palsy, they tilt LEFT. This compensates for the right eye's inability to intort and reduces diplopia.",
+      "wrongExplains": {
+        "0": "Tilting toward the affected side would worsen the problem, not help it.",
+        "2": "Backward tilt doesn't help with intorsion problems. The compensation is a lateral (sideways) tilt.",
+        "3": "Head tilt is one of the most reliable signs of CN IV palsy. Patients absolutely do compensate this way."
+      }
     },
     {
-      "q": "Head trauma can damage CN IV due to its long path in the skull.",
+      "q": "CN IV is also unique because it exits from which part of the brainstem?",
       "options": [
-        "True",
-        "False"
+        "Anterior (front) like all other cranial nerves",
+        "Posterior (back) — the only cranial nerve to do so",
+        "The sides only",
+        "It doesn't come from the brainstem"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "CN IV has the longest intracranial course, making it vulnerable to shearing forces."
+      "explain": "CN IV is the ONLY cranial nerve that exits from the POSTERIOR (dorsal) brainstem. All others exit anteriorly. This unique path makes it vulnerable to injury in certain conditions.",
+      "wrongExplains": {
+        "0": "That's where other nerves exit, but CN IV is the exception. It exits from the back.",
+        "2": "CN IV specifically exits from the posterior (dorsal) midbrain, not the sides.",
+        "3": "CN IV does come from the brainstem (midbrain), just from the back side uniquely."
+      }
+    },
+    {
+      "q": "Why is CN IV particularly vulnerable to HEAD TRAUMA?",
+      "options": [
+        "It's thick and strong",
+        "It has the longest path inside the skull and is thin",
+        "It's protected by thick bone",
+        "It doesn't enter the skull"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "CN IV has the LONGEST intracranial course of any cranial nerve AND is the thinnest. During head trauma, shearing forces can stretch and damage this delicate, long nerve.",
+      "wrongExplains": {
+        "0": "CN IV is actually the THINNEST cranial nerve. Its small size makes it vulnerable.",
+        "2": "While inside the skull, it's not specially protected. Its long path through cerebrospinal fluid makes it vulnerable to movement injuries.",
+        "3": "CN IV does enter the skull — it has the longest path inside the skull of any cranial nerve."
+      }
+    },
+    {
+      "q": "To summarize: double vision looking down + head tilt = damage to CN ___.",
+      "options": [
+        "CN III",
+        "CN IV",
+        "CN VI",
+        "CN VII"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN IV (trochlear) palsy classic presentation: double vision on DOWNWARD gaze + HEAD TILT compensation. This pattern is almost pathognomonic (uniquely identifying) for CN IV damage.",
+      "wrongExplains": {
+        "0": "CN III palsy shows ptosis, dilated pupil, and eye down-and-out. Different presentation.",
+        "2": "CN VI palsy shows inability to look OUTWARD (laterally). Different direction of gaze affected.",
+        "3": "CN VII affects facial expression. It doesn't affect eye movement at all."
+      }
     }
   ]
 }

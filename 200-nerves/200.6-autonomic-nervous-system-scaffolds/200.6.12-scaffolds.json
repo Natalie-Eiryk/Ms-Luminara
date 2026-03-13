@@ -1,26 +1,159 @@
 {
   "parentId": "200.6.12",
-  "parentQuestion": "The hypothalamus is considered the main integration center for autonomic control...",
+  "parentQuestion": "The hypothalamus is considered the main integration center for autonomic control because it ___.",
   "scaffolds": [
     {
-      "q": "The hypothalamus is located in the brain, below the thalamus.",
+      "q": "Where is the hypothalamus located?",
       "options": [
-        "True",
-        "False"
+        "In the spinal cord",
+        "In the brain, below the thalamus",
+        "In the heart",
+        "In the adrenal gland"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "The hypothalamus is a small but mighty structure at the base of the forebrain, forming the floor and walls of the third ventricle. despite its small size, it controls body temperature, hunger, thirst, circadian rhythms, and autonomic function. Accept this reality:this miniature master controller."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The HYPOTHALAMUS is in the brain, located BELOW the thalamus (hence 'hypo-' = below). It forms the floor and lower walls of the third ventricle, at the base of the forebrain.",
+      "wrongExplains": {
+        "0": "The spinal cord is below the brain. The hypothalamus is in the brain itself.",
+        "2": "The heart has its own pacemaker but the hypothalamus is in the brain, controlling ANS output.",
+        "3": "The adrenal gland is controlled BY the hypothalamus, not where the hypothalamus is located."
+      }
     },
     {
-      "q": "Emotional states can affect autonomic functions like heart rate and digestion.",
+      "q": "Despite its small size, the hypothalamus controls many vital functions. Which of these does it regulate?",
       "options": [
-        "True",
-        "False"
+        "Only voluntary movements",
+        "Body temperature, hunger, thirst, and autonomic function",
+        "Only vision",
+        "Only hearing"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Think about how fear makes your heart race, or how anxiety can upset your stomach. the limbic system (emotional brain) connects to the hypothalamus, which then adjusts autonomic output. Your feelings become physiology through this pathway. Crafted to perfection."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The hypothalamus is a master regulator of homeostasis: body TEMPERATURE, HUNGER, THIRST, sleep-wake cycles, and AUTONOMIC FUNCTION. It's small but mighty.",
+      "wrongExplains": {
+        "0": "Voluntary movements are controlled by motor cortex and cerebellum. The hypothalamus controls involuntary functions.",
+        "2": "Vision is processed in the occipital lobe. The hypothalamus controls homeostatic functions.",
+        "3": "Hearing is processed in the temporal lobe. The hypothalamus has different regulatory roles."
+      }
+    },
+    {
+      "q": "The hypothalamus is the main 'integration center' for the ANS. What does 'integration' mean here?",
+      "options": [
+        "It blocks all autonomic signals",
+        "It receives input from many sources and coordinates the autonomic output",
+        "It only sends signals, never receives",
+        "It has no connection to the ANS"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "INTEGRATION means receiving inputs from many sources (emotions, hormones, body sensors) and coordinating appropriate autonomic responses. The hypothalamus is where all this information converges and gets organized.",
+      "wrongExplains": {
+        "0": "Integration means coordinating, not blocking. The hypothalamus organizes appropriate responses.",
+        "2": "The hypothalamus both receives information AND sends out coordinated commands.",
+        "3": "The hypothalamus is THE major ANS control center — it's intimately connected to autonomic function."
+      }
+    },
+    {
+      "q": "What structure connects emotional states to autonomic responses (like fear causing racing heart)?",
+      "options": [
+        "Only the spinal cord",
+        "The limbic system connecting to the hypothalamus",
+        "The peripheral nerves alone",
+        "The skeletal muscles"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The LIMBIC SYSTEM (emotional brain) connects to the hypothalamus. This pathway turns emotions into physical responses — fear activates sympathetic output, causing rapid heart rate, sweating, etc.",
+      "wrongExplains": {
+        "0": "The spinal cord carries signals but emotions are processed in the brain (limbic system → hypothalamus).",
+        "2": "Peripheral nerves carry the final signals, but the emotional processing happens in the brain.",
+        "3": "Skeletal muscles are voluntary. The heart racing from fear is an autonomic (involuntary) response."
+      }
+    },
+    {
+      "q": "Why does fear cause your heart to race?",
+      "options": [
+        "Fear has no effect on the heart",
+        "The limbic system (fear) activates the hypothalamus, which increases sympathetic output",
+        "The heart decides on its own",
+        "You consciously control heart rate"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Fear activates the amygdala (limbic system) → hypothalamus → increased sympathetic output → faster heart rate. Your emotions become physiology through this neural pathway.",
+      "wrongExplains": {
+        "0": "Fear definitely affects the heart — that's why we say 'heart-pounding fear.'",
+        "2": "The heart responds to neural and hormonal signals. The brain initiates the fear response.",
+        "3": "Heart rate is controlled by the ANS, not conscious control. You can't will your heart faster."
+      }
+    },
+    {
+      "q": "Why does anxiety sometimes cause stomach problems?",
+      "options": [
+        "Anxiety has no effect on digestion",
+        "Stress hormones and sympathetic activation alter gut function",
+        "The stomach controls anxiety",
+        "Only food affects digestion"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Anxiety activates the hypothalamus → sympathetic system, which INHIBITS digestion. Also, stress hormones (cortisol) affect gut function. This is why anxious people get 'butterflies' or upset stomachs.",
+      "wrongExplains": {
+        "0": "There's a strong gut-brain connection. Emotional states definitely affect digestive function.",
+        "2": "The brain controls the stomach via the ANS, not the reverse (though there is some gut-to-brain signaling).",
+        "3": "Food affects digestion, but so do emotions via the autonomic nervous system."
+      }
+    },
+    {
+      "q": "The hypothalamus receives information from body sensors about temperature, glucose, blood pressure, etc. Why is this important?",
+      "options": [
+        "It ignores this information",
+        "It uses this information to adjust autonomic output for homeostasis",
+        "It only uses emotional information",
+        "Body sensors don't connect to the brain"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The hypothalamus monitors body status (temperature, glucose, etc.) and adjusts autonomic output to maintain HOMEOSTASIS. Too hot? Activate sweating. Low glucose? Increase hunger signals.",
+      "wrongExplains": {
+        "0": "The hypothalamus actively uses this information to regulate body functions.",
+        "2": "It uses both emotional AND physiological information to coordinate appropriate responses.",
+        "3": "Body sensors absolutely connect to the brain — that's how you sense temperature, hunger, thirst, etc."
+      }
+    },
+    {
+      "q": "The hypothalamus also controls the pituitary gland. Why does this matter for autonomic function?",
+      "options": [
+        "The pituitary has nothing to do with autonomic function",
+        "Hormones from the pituitary can amplify and sustain autonomic responses",
+        "The pituitary only controls growth",
+        "They're in different body parts"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The hypothalamus controls the pituitary, which releases hormones (like ACTH → cortisol) that can amplify stress responses. Neural and hormonal systems work together for coordinated body regulation.",
+      "wrongExplains": {
+        "0": "The pituitary releases stress hormones that complement autonomic activation.",
+        "2": "The pituitary controls many functions including stress hormones, not just growth.",
+        "3": "The pituitary is directly below the hypothalamus — they're anatomically and functionally connected."
+      }
+    },
+    {
+      "q": "Summary: The hypothalamus integrates information from ___ to coordinate autonomic output.",
+      "options": [
+        "Only muscles",
+        "Emotions (limbic system), body sensors, and hormones",
+        "Only the eyes",
+        "Nothing — it works alone"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The hypothalamus integrates EMOTIONAL input (limbic system), SENSORY input (body temperature, glucose, etc.), and HORMONAL signals to produce coordinated autonomic responses for homeostasis.",
+      "wrongExplains": {
+        "0": "Muscles are controlled by somatic system. The hypothalamus integrates information ABOUT internal states.",
+        "2": "Visual information is one small part. The hypothalamus gets input from many internal and emotional sources.",
+        "3": "Integration means combining information from multiple sources — the hypothalamus is a convergence center."
+      }
     }
   ]
 }

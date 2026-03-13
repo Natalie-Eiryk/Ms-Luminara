@@ -3,94 +3,157 @@
   "parentQuestion": "Which of the following cranial nerves are purely SENSORY?",
   "scaffolds": [
     {
-      "q": "Sensory nerves carry information TO the brain (like what you see, hear, smell).",
+      "q": "What does a 'sensory' nerve do?",
       "options": [
-        "True",
-        "False"
+        "Carries commands FROM the brain to muscles",
+        "Carries information TO the brain from sensors",
+        "Produces hormones",
+        "Pumps blood"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Sensory nerves carry information TO the brain. They detect things (light, sound, smell, touch) and report that information to the brain for processing.",
+      "wrongExplains": {
+        "0": "Carrying commands FROM the brain to muscles is MOTOR function. Sensory is the opposite direction — information going TO the brain.",
+        "2": "Hormones are produced by glands in the endocrine system. Nerves carry electrical signals, not hormones.",
+        "3": "Blood is pumped by the heart. Nerves carry electrical signals, not blood."
+      }
+    },
+    {
+      "q": "What does a 'motor' nerve do?",
+      "options": [
+        "Detects sensations like touch and smell",
+        "Carries commands FROM the brain to muscles",
+        "Stores memories",
+        "Filters blood"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Motor nerves carry commands FROM the brain to muscles, telling them to contract. 'Motor' = movement. These nerves make things move.",
+      "wrongExplains": {
+        "0": "Detecting sensations is SENSORY function. Motor nerves are about output (movement), not input (sensation).",
+        "2": "Memory storage is a brain function involving neurons, but not the motor nerve pathway specifically.",
+        "3": "Blood filtering is done by the kidneys. Nerves carry electrical signals for communication."
+      }
+    },
+    {
+      "q": "A 'purely sensory' nerve means it ___.",
+      "options": [
+        "Only carries information TO the brain, no motor function",
+        "Only controls muscles, no sensory function",
+        "Does both equally",
+        "Does neither"
       ],
       "answer": 0,
       "difficulty": "foundation",
-      "explain": "Yes! Sensory nerves detect things and send that information to your brain."
+      "explain": "Purely sensory = ONLY carries information TO the brain. No motor fibers, no muscle control. It's a one-way street: sensors → brain.",
+      "wrongExplains": {
+        "1": "Only controlling muscles would be 'purely MOTOR.' Purely sensory is the opposite.",
+        "2": "Doing both would be a 'MIXED' nerve. Purely sensory means only sensory function.",
+        "3": "Doing neither would mean it's not a functional nerve. Purely sensory means it does sensory only."
+      }
     },
     {
-      "q": "Motor nerves carry commands FROM the brain to muscles.",
+      "q": "CN I (Olfactory) carries smell information. Does it control any muscles?",
       "options": [
-        "True",
-        "False"
+        "Yes, it controls nose muscles",
+        "No, it only carries smell sensation",
+        "Yes, it controls tongue muscles",
+        "Yes, it controls eye muscles"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN I is PURELY SENSORY — it only carries smell information to the brain. It doesn't control any muscles. Smell detection only, no movement.",
+      "wrongExplains": {
+        "0": "Nose muscles are controlled by CN VII (facial nerve). CN I only detects smell.",
+        "2": "Tongue muscles are controlled by CN XII (hypoglossal). CN I is only for smell.",
+        "3": "Eye muscles are controlled by CN III, IV, and VI. CN I has nothing to do with eye movement."
+      }
+    },
+    {
+      "q": "CN II (Optic) carries visual information. Does it move the eyeball?",
+      "options": [
+        "Yes, it rotates the eye",
+        "No, it only carries vision to the brain",
+        "Yes, it controls the pupil",
+        "Yes, it opens the eyelid"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN II is PURELY SENSORY — it carries visual information from the retina to the brain. Eye MOVEMENT uses CN III, IV, and VI. CN II just carries the image.",
+      "wrongExplains": {
+        "0": "Eye rotation is controlled by CN III, IV, and VI. CN II transmits visual signals only.",
+        "2": "Pupil control is CN III (oculomotor). CN II is the sensory input, CN III is motor output.",
+        "3": "Eyelid opening is CN III (levator palpebrae muscle). CN II doesn't control any muscles."
+      }
+    },
+    {
+      "q": "CN VIII (Vestibulocochlear) carries hearing and balance. Is it motor or sensory?",
+      "options": [
+        "Motor — it moves the ear",
+        "Sensory — it only carries hearing and balance information",
+        "Mixed — it does both",
+        "Neither"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CN VIII is PURELY SENSORY — it carries hearing (cochlear part) and balance (vestibular part) information to the brain. It doesn't control any muscles.",
+      "wrongExplains": {
+        "0": "There are no 'ear movement' muscles that CN VIII controls. The ear doesn't rotate like the eye. CN VIII is sensory only.",
+        "2": "CN VIII is not mixed. It only carries sensory information about sound and head position.",
+        "3": "CN VIII definitely has a function — it carries hearing and balance. It's purely sensory, not non-functional."
+      }
+    },
+    {
+      "q": "Which THREE cranial nerves are purely sensory?",
+      "options": [
+        "CN I, CN II, CN VIII",
+        "CN III, CN IV, CN VI",
+        "CN V, CN VII, CN IX",
+        "CN X, CN XI, CN XII"
       ],
       "answer": 0,
       "difficulty": "foundation",
-      "explain": "Exactly! Motor nerves tell muscles to move."
+      "explain": "The three purely SENSORY cranial nerves are: CN I (smell), CN II (vision), CN VIII (hearing/balance). Memory trick: 1, 2, 8 are sensory gates!",
+      "wrongExplains": {
+        "1": "CN III, IV, and VI are the eye MOVEMENT nerves — they're purely MOTOR, not sensory. They control muscles.",
+        "2": "CN V, VII, and IX are MIXED nerves — they have both sensory AND motor functions.",
+        "3": "CN X is mixed (huge variety of functions). CN XI and XII are purely MOTOR (control muscles)."
+      }
     },
     {
-      "q": "Some nerves are purely sensory - they only detect things, they do not move anything.",
+      "q": "The mnemonic 'Some Say Marry Money...' helps remember nerve types. What does 'S' stand for?",
       "options": [
-        "True",
-        "False"
+        "Special",
+        "Sensory",
+        "Strong",
+        "Spinal"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Correct! Pure sensory nerves only bring information IN to the brain."
-    },
-    {
-      "q": "CN I (Olfactory) only carries smell information - it does not move any muscles.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! The olfactory nerve is purely sensory."
-    },
-    {
-      "q": "CN II (Optic) only carries visual information - it does not move your eyes.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Right! Eye MOVEMENT uses different nerves (III, IV, VI)."
-    },
-    {
-      "q": "CN VIII (Vestibulocochlear) only carries hearing and balance - no motor function.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! CN VIII is purely sensory."
-    },
-    {
-      "q": "Some nerves can be both sensory AND motor at the same time.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Correct! Mixed nerves do both jobs, like CN V."
-    },
-    {
-      "q": "CN I, II, and VIII are the three purely sensory cranial nerves.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "These three only carry sensory information: smell, vision, hearing/balance."
+      "explain": "S = SENSORY, M = Motor, B = Both. The mnemonic 'Some Say Marry Money But My Brother Says Big Brains Matter More' tells you each nerve's type in order.",
+      "wrongExplains": {
+        "0": "While some sensory nerves are called 'special sensory,' the S in this mnemonic simply stands for Sensory.",
+        "2": "Strong isn't a nerve classification. Nerves are classified as Sensory, Motor, or Both (Mixed).",
+        "3": "Spinal refers to spinal nerves, not a type of cranial nerve function. S = Sensory."
+      }
     },
     {
-      "q": "A mnemonic for nerve types is Some Say Marry Money But My Brother Says Big Brains Matter More.",
+      "q": "Using 'Some Say Marry Money But My Brother Says Big Brains Matter More' — what type is CN V?",
       "options": [
-        "True",
-        "False"
+        "Sensory (S)",
+        "Motor (M)",
+        "Both/Mixed (B)",
+        "Neither"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "intermediate",
-      "explain": "S=Sensory, M=Motor, B=Both for each cranial nerve in order."
+      "explain": "Count through: CN I=S, CN II=S, CN III=M, CN IV=M, CN V=B. The 5th word is 'But' = B = Both. CN V (Trigeminal) is a MIXED nerve with sensory AND motor functions.",
+      "wrongExplains": {
+        "0": "CN I and II are Sensory (Some Say). CN V is the 5th position = 'But' = Both.",
+        "1": "CN III and IV are Motor (Marry Money). CN V is Both (But).",
+        "3": "CN V definitely has function — it's mixed. It carries face sensation AND controls chewing muscles."
+      }
     }
   ]
 }

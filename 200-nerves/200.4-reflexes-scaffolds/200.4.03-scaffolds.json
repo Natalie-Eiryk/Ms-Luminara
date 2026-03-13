@@ -3,94 +3,157 @@
   "parentQuestion": "Trauma to a nerve of the brachial plexus may cause wrist drop.",
   "scaffolds": [
     {
-      "q": "The brachial plexus is the nerve network that supplies the arm.",
+      "q": "What is wrist drop?",
       "options": [
-        "True",
-        "False"
+        "A dance move",
+        "The wrist hanging limply because extensor muscles are paralyzed",
+        "A fashion accessory",
+        "A wrist exercise"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The brachial plexus (C5-T1) supplies the entire upper limb - all movement and sensation in your shoulder, arm, forearm, and hand."
+      "explain": "WRIST DROP is when the wrist HANGS LIMPLY because the EXTENSOR muscles are paralyzed. Without these muscles, gravity pulls the wrist down into flexion.",
+      "wrongExplains": {
+        "0": "Wrist drop is a medical sign of nerve injury, not a dance.",
+        "2": "It's a pathological condition, not an accessory.",
+        "3": "It's caused by nerve damage, not exercise."
+      }
     },
     {
-      "q": "Wrist extension means lifting your hand upward (back of hand toward forearm).",
+      "q": "What is the brachial plexus?",
       "options": [
-        "True",
-        "False"
+        "A leg nerve",
+        "The nerve network (C5-T1) that supplies the entire arm",
+        "A bone in the shoulder",
+        "A muscle in the back"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Extension straightens or lifts. When you wave goodbye, you're extending your wrist. Without extension, your hand hangs down."
+      "explain": "The BRACHIAL PLEXUS is the NERVE NETWORK formed from C5-T1 that supplies the ENTIRE ARM — all movement and sensation in the shoulder, arm, forearm, and hand.",
+      "wrongExplains": {
+        "0": "The brachial plexus supplies the arm. Leg nerves come from lumbar/sacral plexus.",
+        "2": "The plexus is a nerve network. The clavicle and scapula are shoulder bones.",
+        "3": "It's nerves, not muscle. Muscles are supplied BY the plexus."
+      }
     },
     {
-      "q": "Wrist drop means the hand hangs limply because you can't extend the wrist.",
+      "q": "What is wrist extension?",
       "options": [
-        "True",
-        "False"
+        "Bending the wrist down toward the palm",
+        "Lifting the hand upward (back of hand toward forearm)",
+        "Rotating the wrist",
+        "Spreading the fingers"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! When the extensor muscles are paralyzed, gravity pulls the wrist down into flexion. The hand just dangles - no ability to lift it."
+      "explain": "WRIST EXTENSION is LIFTING the hand UPWARD so the back of the hand moves toward the forearm. When you wave goodbye, you're extending your wrist. Without extension, the hand hangs down.",
+      "wrongExplains": {
+        "0": "Bending down is flexion. Extension lifts the hand upward.",
+        "2": "Rotation is different (pronation/supination). Extension lifts the hand.",
+        "3": "Finger spreading is abduction. Wrist extension lifts the whole hand."
+      }
     },
     {
-      "q": "The radial nerve controls all the wrist and finger extensor muscles.",
+      "q": "Which nerve controls wrist and finger extension?",
       "options": [
-        "True",
-        "False"
+        "Median nerve",
+        "Radial nerve",
+        "Ulnar nerve",
+        "Musculocutaneous nerve"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The radial nerve innervates the entire posterior forearm - all the muscles that extend (lift) the wrist and fingers."
+      "explain": "The RADIAL NERVE controls ALL the EXTENSOR muscles on the back of the forearm. It's the nerve for wrist extension, finger extension, and thumb extension.",
+      "wrongExplains": {
+        "0": "The median nerve controls flexion and thumb opposition, not extension.",
+        "2": "The ulnar nerve controls hand intrinsics. Radial controls extensors.",
+        "3": "The musculocutaneous nerve controls elbow flexion (biceps), not wrist extension."
+      }
     },
     {
-      "q": "The radial nerve comes from the brachial plexus.",
+      "q": "Does the radial nerve come from the brachial plexus?",
       "options": [
-        "True",
-        "False"
+        "No, it comes from the lumbar plexus",
+        "Yes, it arises from the posterior cord of the brachial plexus",
+        "No, it comes directly from the brain",
+        "No, it comes from the sacral plexus"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The radial nerve arises from the posterior cord of the brachial plexus (C5-T1). It's one of the major branches."
+      "explain": "YES! The radial nerve arises from the POSTERIOR CORD of the BRACHIAL PLEXUS (C5-T1). It's one of the major terminal branches of this plexus.",
+      "wrongExplains": {
+        "0": "The lumbar plexus supplies the thigh. The radial nerve is from the brachial plexus.",
+        "2": "Peripheral nerves come from the spinal cord via plexuses, not directly from the brain.",
+        "3": "The sacral plexus supplies the leg. The radial nerve is for the arm."
+      }
     },
     {
-      "q": "Damage to the radial nerve causes wrist drop.",
+      "q": "What causes wrist drop?",
       "options": [
-        "True",
-        "False"
+        "Median nerve injury",
+        "Radial nerve injury",
+        "Ulnar nerve injury",
+        "Sciatic nerve injury"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Without the radial nerve, the extensor muscles can't contract. Gravity wins - the wrist hangs in flexion."
+      "explain": "RADIAL NERVE INJURY causes wrist drop. Without the radial nerve, the extensor muscles can't contract, and gravity pulls the wrist down into flexion.",
+      "wrongExplains": {
+        "0": "Median nerve injury causes 'hand of benediction' and thenar weakness, not wrist drop.",
+        "2": "Ulnar nerve injury causes 'claw hand,' not wrist drop.",
+        "3": "The sciatic nerve is in the leg. Wrist drop is from radial nerve damage in the arm."
+      }
     },
     {
-      "q": "The radial nerve can be damaged by a humeral (upper arm bone) fracture.",
+      "q": "Where can the radial nerve be injured?",
       "options": [
-        "True",
-        "False"
+        "Only in the neck",
+        "In the spiral groove of the humerus (mid-arm fractures)",
+        "Only in the wrist",
+        "Only in the shoulder"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The radial nerve wraps around the humerus in the spiral groove. A mid-shaft fracture can crush or cut the nerve."
+      "explain": "The radial nerve is vulnerable in the SPIRAL GROOVE of the humerus. A MID-SHAFT HUMERAL FRACTURE can crush or cut the nerve against the bone.",
+      "wrongExplains": {
+        "0": "The nerve can be injured at multiple locations. The spiral groove is most common.",
+        "2": "Wrist injuries can cause different problems. The spiral groove is classic for wrist drop.",
+        "3": "Shoulder injuries can affect other nerves. The humerus is key for radial nerve."
+      }
     },
     {
-      "q": "Since the radial nerve is part of the brachial plexus, radial nerve injury IS brachial plexus injury.",
+      "q": "If the radial nerve is a brachial plexus branch, is radial nerve injury technically brachial plexus injury?",
       "options": [
-        "True",
-        "False"
+        "No, they're completely separate",
+        "Yes, injury to any branch is injury to that plexus's territory",
+        "Only if both are damaged",
+        "Only in children"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The statement is TRUE. The radial nerve is a brachial plexus branch, so trauma to it is trauma to a nerve of the brachial plexus. Wrist drop is the result."
+      "explain": "YES! The radial nerve IS a brachial plexus branch. Trauma to the radial nerve is technically trauma to a nerve OF the brachial plexus. The statement is TRUE.",
+      "wrongExplains": {
+        "0": "They're connected — the radial nerve arises FROM the brachial plexus.",
+        "2": "Injury to any branch affects brachial plexus function in that territory.",
+        "3": "The anatomical relationship is the same regardless of age."
+      }
     },
     {
-      "q": "Trauma to a brachial plexus nerve (specifically the radial nerve) can cause wrist drop.",
+      "q": "Can trauma to a brachial plexus nerve cause wrist drop?",
       "options": [
-        "True",
-        "False"
+        "No, wrist drop is only from spinal cord injury",
+        "Yes, specifically if the radial nerve is damaged",
+        "No, wrist drop affects only the legs",
+        "Yes, but only from median nerve injury"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! This is why the original statement is TRUE. The radial nerve is from the brachial plexus, and damaging it causes loss of wrist extension = wrist drop."
+      "explain": "YES! The RADIAL NERVE is a brachial plexus nerve. Damage to it causes wrist drop. The statement is TRUE — brachial plexus trauma CAN cause wrist drop (specifically radial nerve injury).",
+      "wrongExplains": {
+        "0": "Wrist drop commonly occurs from peripheral radial nerve injury, not just spinal cord.",
+        "2": "The wrist is in the arm. Wrist drop is an arm problem from radial nerve damage.",
+        "3": "Median nerve injury causes different deficits. Radial nerve injury causes wrist drop."
+      }
     }
   ]
 }

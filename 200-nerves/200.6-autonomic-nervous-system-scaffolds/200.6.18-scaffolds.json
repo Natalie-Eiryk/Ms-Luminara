@@ -1,26 +1,159 @@
 {
   "parentId": "200.6.18",
-  "parentQuestion": "A patient with a pheochromocytoma presents with episodic severe hypertension (BP...",
+  "parentQuestion": "A patient with a pheochromocytoma presents with episodic severe hypertension (BP 220/130), palpitations, headache, and diaphoresis. This is caused by excess release of ___.",
   "scaffolds": [
     {
-      "q": "The adrenal medulla releases catecholamines (epinephrine and norepinephrine) into the bloodstream.",
+      "q": "What is a pheochromocytoma?",
       "options": [
-        "True",
-        "False"
+        "A tumor in the brain",
+        "A tumor of the adrenal medulla that produces excess catecholamines",
+        "A blood clot",
+        "A type of infection"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "The chromaffin cells of the adrenal medulla are essentially postganglionic sympathetic neurons that lost their axons and dump their 'neurotransmitters' into the circulation instead. this creates systemic sympathetic effects. Epinephrine (80%) and norepinephrine (20%) become hormones."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "A PHEOCHROMOCYTOMA is a tumor of the ADRENAL MEDULLA. It produces and releases excessive amounts of catecholamines (epinephrine and norepinephrine), causing dangerous sympathetic overactivation.",
+      "wrongExplains": {
+        "0": "Brain tumors are different. Pheochromocytomas are specifically adrenal medulla tumors.",
+        "2": "Blood clots are vascular problems. A pheochromocytoma is a hormone-secreting tumor.",
+        "3": "Infections are caused by pathogens. Pheochromocytoma is a tumor."
+      }
     },
     {
-      "q": "Norepinephrine causes vasoconstriction and increased blood pressure through α1 receptors.",
+      "q": "What does the adrenal medulla normally produce?",
       "options": [
-        "True",
-        "False"
+        "Cortisol and aldosterone",
+        "Epinephrine (adrenaline) and norepinephrine",
+        "Insulin",
+        "Thyroid hormone"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The adrenal MEDULLA produces CATECHOLAMINES: primarily epinephrine (~80%) and norepinephrine (~20%). These are the fight-or-flight hormones released into the bloodstream.",
+      "wrongExplains": {
+        "0": "Cortisol and aldosterone come from the adrenal CORTEX, not medulla.",
+        "2": "Insulin comes from the pancreas, not the adrenal gland.",
+        "3": "Thyroid hormone comes from the thyroid gland in the neck."
+      }
+    },
+    {
+      "q": "What happens when too much epinephrine and norepinephrine are released?",
+      "options": [
+        "Blood pressure decreases",
+        "Severe sympathetic overactivation: high BP, fast heart, sweating",
+        "The patient falls asleep",
+        "No symptoms"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Excess catecholamines cause SEVERE SYMPATHETIC OVERACTIVATION: dangerously high blood pressure, rapid heart rate (palpitations), sweating (diaphoresis), and headache from vasoconstriction.",
+      "wrongExplains": {
+        "0": "Catecholamines cause vasoconstriction, which RAISES blood pressure, not lowers it.",
+        "2": "Catecholamines cause alertness and arousal, the opposite of sleep.",
+        "3": "Excess catecholamines definitely cause severe symptoms — that's why pheochromocytoma is dangerous."
+      }
+    },
+    {
+      "q": "Why does pheochromocytoma cause high blood pressure (hypertension)?",
+      "options": [
+        "Catecholamines dilate blood vessels",
+        "Norepinephrine causes vasoconstriction via α1 receptors",
+        "Catecholamines have no effect on blood vessels",
+        "The heart stops"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Norepinephrine binds to α1 RECEPTORS on blood vessels, causing VASOCONSTRICTION. Narrower vessels increase resistance, raising blood pressure — sometimes to dangerous levels (220/130 mmHg).",
+      "wrongExplains": {
+        "0": "While β2 receptors can cause some vasodilation, the net effect of NE is vasoconstriction and hypertension.",
+        "2": "Catecholamines strongly affect blood vessels through α1 receptors.",
+        "3": "The heart doesn't stop — it beats faster and stronger due to β1 stimulation."
+      }
+    },
+    {
+      "q": "Why does pheochromocytoma cause palpitations (feeling of racing heart)?",
+      "options": [
+        "The heart slows down",
+        "Catecholamines stimulate β1 receptors, increasing heart rate and force",
+        "The heart is not affected",
+        "The lungs compress the heart"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Catecholamines stimulate β1 RECEPTORS on the heart, increasing rate (chronotropy) and force (inotropy). The patient feels their heart pounding — these are palpitations.",
+      "wrongExplains": {
+        "0": "Catecholamines speed up the heart via β1 receptors, not slow it down.",
+        "2": "The heart is strongly affected — β1 stimulation increases rate and contractility.",
+        "3": "Palpitations are from direct cardiac stimulation, not lung compression."
+      }
+    },
+    {
+      "q": "Why does pheochromocytoma cause diaphoresis (sweating)?",
+      "options": [
+        "Parasympathetic activation",
+        "Sympathetic activation of sweat glands",
+        "The patient is hot",
+        "Sweat glands are not affected"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Sweating is a SYMPATHETIC response. Catecholamines activate sweat glands (via ACh, unusually). Profuse sweating (diaphoresis) is a classic sign of catecholamine excess.",
+      "wrongExplains": {
+        "0": "Sweating is sympathetic, not parasympathetic. The fight-or-flight response includes sweating.",
+        "2": "The sweating occurs even without fever. It's due to sympathetic overactivation, not environmental heat.",
+        "3": "Sweat glands are strongly affected by sympathetic activation."
+      }
+    },
+    {
+      "q": "Why does pheochromocytoma cause headache?",
+      "options": [
+        "Blood pressure drops",
+        "Severe vasoconstriction and high blood pressure cause headache",
+        "Headaches are unrelated to blood pressure",
+        "The patient imagines the headache"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The SEVERE HYPERTENSION (220/130 mmHg) and vasoconstriction cause hypertensive headache. High pressure in cerebral vessels can be painful and dangerous.",
+      "wrongExplains": {
+        "0": "Pheochromocytoma raises blood pressure dramatically, not drops it.",
+        "2": "Severe hypertension definitely causes headaches. It's a classic symptom.",
+        "3": "The headache is very real — caused by dangerously high blood pressure."
+      }
+    },
+    {
+      "q": "Why are pheochromocytoma symptoms often 'episodic' (come and go)?",
+      "options": [
+        "The tumor releases catecholamines in bursts, not continuously",
+        "The patient imagines the symptoms",
+        "Catecholamines are released constantly and evenly",
+        "The tumor only exists temporarily"
       ],
       "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "NE binding to α1 receptors on vascular smooth muscle causes constriction, increasing peripheral resistance and blood pressure. this is the primary pressor effect. In a pheochromocytoma, uncontrolled NE release creates dangerous hypertensive surges. Feel the weight of this:the vasoconstriction."
+      "difficulty": "intermediate",
+      "explain": "Pheochromocytomas often release catecholamines in BURSTS triggered by stress, exercise, or pressure on the tumor. This causes episodic crises of severe symptoms followed by relatively normal periods.",
+      "wrongExplains": {
+        "1": "The symptoms are real and measurable — blood pressure spikes to dangerous levels.",
+        "2": "The episodic nature is due to intermittent release, not constant release.",
+        "3": "The tumor is persistent. The symptoms are episodic due to intermittent hormone release."
+      }
+    },
+    {
+      "q": "How is pheochromocytoma treated?",
+      "options": [
+        "Antibiotics",
+        "Surgical removal of the tumor (after stabilization with alpha-blockers)",
+        "Rest and fluids only",
+        "There is no treatment"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Treatment is SURGICAL REMOVAL of the tumor. Before surgery, patients receive alpha-blockers to control blood pressure (blocking the effects of excess catecholamines). This is life-saving.",
+      "wrongExplains": {
+        "0": "Antibiotics treat infections. Pheochromocytoma is a tumor requiring surgery.",
+        "2": "Rest alone can't control a hormone-secreting tumor. Surgery is required.",
+        "3": "There definitely is treatment — surgical removal is curative if the tumor hasn't spread."
+      }
     }
   ]
 }

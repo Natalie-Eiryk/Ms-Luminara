@@ -3,96 +3,157 @@
   "parentQuestion": "The correct simple spinal reflex arc is: ___.",
   "scaffolds": [
     {
-      "q": "A reflex is an automatic response that happens without thinking.",
+      "q": "What is a reflex?",
       "options": [
-        "True",
-        "False"
+        "A conscious decision to move",
+        "An automatic response that happens without thinking",
+        "A type of hormone",
+        "A blood vessel response"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Reflexes are fast, automatic responses. When you touch something hot, your hand jerks away before you even consciously feel the pain. No thinking required!"
+      "explain": "REFLEXES are FAST, AUTOMATIC responses. When you touch something hot, your hand jerks away before you consciously feel the pain. No thinking required!",
+      "wrongExplains": {
+        "0": "Conscious decisions involve the brain. Reflexes are automatic and don't require thought.",
+        "2": "Hormones are chemical messengers. Reflexes are rapid neural responses.",
+        "3": "Blood vessel responses can be reflexive, but 'reflex' refers to the neural pathway itself."
+      }
     },
     {
-      "q": "A 'receptor' is a structure that detects a stimulus (like touch, heat, or pressure).",
+      "q": "What is a 'receptor' in a reflex arc?",
       "options": [
-        "True",
-        "False"
+        "The muscle that moves",
+        "The structure that detects a stimulus (touch, heat, pressure)",
+        "The spinal cord",
+        "A type of blood cell"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Receptors are the sensory detectors - they sense what's happening (hot stove, knee tap, sharp object) and start the reflex by sending a signal."
+      "explain": "RECEPTORS are sensory detectors — they sense what's happening (hot stove, knee tap, sharp object) and START the reflex by sending a signal to the CNS.",
+      "wrongExplains": {
+        "0": "The muscle that moves is the 'effector.' Receptors detect stimuli.",
+        "2": "The spinal cord is the integration center. Receptors are at the periphery detecting stimuli.",
+        "3": "Blood cells are part of the circulatory system. Receptors are sensory structures."
+      }
     },
     {
-      "q": "An 'effector' is the muscle or gland that produces the response in a reflex.",
+      "q": "What is an 'effector' in a reflex arc?",
       "options": [
-        "True",
-        "False"
+        "The sensory receptor",
+        "The muscle or gland that produces the response",
+        "The afferent neuron",
+        "The stimulus itself"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The effector does the actual responding. In the knee-jerk reflex, the quadriceps muscle (effector) kicks your leg. In a pain reflex, muscles pull your hand away."
+      "explain": "The EFFECTOR does the actual responding. In the knee-jerk reflex, the quadriceps muscle (effector) kicks your leg. In a pain reflex, muscles pull your hand away.",
+      "wrongExplains": {
+        "0": "The sensory receptor detects stimuli. The effector produces the response.",
+        "2": "Afferent neurons carry signals TO the CNS. Effectors are muscles/glands that respond.",
+        "3": "The stimulus is what triggers the reflex. The effector is what responds to it."
+      }
     },
     {
-      "q": "Afferent neurons carry signals TOWARD the spinal cord, while efferent neurons carry signals AWAY from the spinal cord.",
+      "q": "What direction do afferent and efferent neurons carry signals?",
       "options": [
-        "True",
-        "False"
+        "Both carry signals away from the spinal cord",
+        "Afferent = toward CNS; Efferent = away from CNS",
+        "Both carry signals toward the spinal cord",
+        "Afferent = away from CNS; Efferent = toward CNS"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Afferent = Arriving (sensory, going IN). Efferent = Exiting (motor, going OUT). The signal goes IN to be processed, then commands go OUT to muscles."
+      "explain": "AFFERENT = ARRIVING (sensory, going IN). EFFERENT = EXITING (motor, going OUT). The signal goes IN to be processed, then commands go OUT to muscles.",
+      "wrongExplains": {
+        "0": "Afferent carries signals TOWARD the CNS, not away. Only efferent goes away.",
+        "2": "Efferent carries signals AWAY from the CNS, not toward. Only afferent goes toward.",
+        "3": "That's backwards. Afferent = arriving/toward; Efferent = exiting/away."
+      }
     },
     {
-      "q": "The 'integration center' in a reflex arc is where the decision is made (usually in the spinal cord).",
+      "q": "What is the 'integration center' in a reflex arc?",
       "options": [
-        "True",
-        "False"
+        "The sensory receptor",
+        "Where the decision is made (usually in the spinal cord)",
+        "The muscle that contracts",
+        "The skin surface"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The integration center processes the incoming signal and decides what to do. For spinal reflexes, this happens in the spinal cord - no brain required for simple reflexes!"
+      "explain": "The INTEGRATION CENTER processes the incoming signal and decides what to do. For spinal reflexes, this happens in the SPINAL CORD — no brain required for simple reflexes!",
+      "wrongExplains": {
+        "0": "The receptor detects stimuli. The integration center processes and decides.",
+        "2": "The contracting muscle is the effector. The integration center is in the CNS.",
+        "3": "The skin contains receptors. The integration center is in the spinal cord."
+      }
     },
     {
-      "q": "In a reflex arc, information flows from receptor to effector, not the other way around.",
+      "q": "In what direction does information flow in a reflex arc?",
       "options": [
-        "True",
-        "False"
+        "From effector to receptor",
+        "From receptor to effector",
+        "In random directions",
+        "Only within the brain"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The flow is always: detect (receptor) → process (integration center) → respond (effector). You can't respond to something before you detect it!"
+      "explain": "Information flows from RECEPTOR to EFFECTOR: detect (receptor) → process (integration center) → respond (effector). You can't respond before you detect!",
+      "wrongExplains": {
+        "0": "That's backwards. Receptors detect FIRST, then effectors respond.",
+        "2": "Reflex arcs have a specific, linear pathway — not random.",
+        "3": "Spinal reflexes don't require the brain. They use the spinal cord."
+      }
     },
     {
-      "q": "The knee-jerk reflex is an example of a spinal reflex - it doesn't require the brain.",
+      "q": "Does the knee-jerk reflex require the brain?",
       "options": [
-        "True",
-        "False"
+        "Yes, you must think about kicking",
+        "No, it's a spinal reflex that bypasses the brain",
+        "Yes, the brain controls all movements",
+        "Only the cerebellum is involved"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! When the doctor taps your knee, the signal goes to your spinal cord and right back out to your thigh muscle. Your brain finds out about it AFTER your leg kicks!"
+      "explain": "The knee-jerk reflex is a SPINAL REFLEX. When the doctor taps your knee, the signal goes to your spinal cord and right back out to your thigh muscle. Your brain finds out AFTER your leg kicks!",
+      "wrongExplains": {
+        "0": "You don't think about it — it's automatic. The spinal cord handles it.",
+        "2": "Reflexes bypass the brain for speed. The spinal cord processes simple reflexes.",
+        "3": "The cerebellum coordinates movement but isn't needed for the basic knee-jerk reflex."
+      }
     },
     {
-      "q": "The correct order for a reflex arc is: Receptor → Afferent neuron → Integration center → Efferent neuron → Effector.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "intermediate",
-      "explain": "Yes! R-A-I-E-E: Receptor detects → Afferent carries IN → Integration center processes → Efferent carries OUT → Effector responds. A linear signal pathway."
-    },
-    {
-      "q": "Which sequence correctly describes the reflex arc?",
+      "q": "What is the correct order of components in a reflex arc?",
       "options": [
         "Receptor → Afferent → Integration → Efferent → Effector",
         "Effector → Efferent → Integration → Afferent → Receptor",
-        "Receptor → Efferent → Integration → Afferent → Effector",
+        "Integration → Receptor → Afferent → Effector → Efferent",
         "Afferent → Receptor → Effector → Integration → Efferent"
       ],
       "answer": 0,
       "difficulty": "intermediate",
-      "explain": "Receptor → Afferent → Integration → Efferent → Effector. Signal flows from detection to response: sense it (receptor), carry it in (afferent), process it (integration), carry it out (efferent), do it (effector)."
+      "explain": "R-A-I-E-E: RECEPTOR detects → AFFERENT carries IN → INTEGRATION center processes → EFFERENT carries OUT → EFFECTOR responds. A linear signal pathway from stimulus to response.",
+      "wrongExplains": {
+        "1": "This is completely reversed. The reflex starts at the receptor, not the effector.",
+        "2": "Integration can't happen first — you need to detect the stimulus first.",
+        "3": "The receptor must detect before afferent neurons can carry anything."
+      }
+    },
+    {
+      "q": "Why are reflexes so fast?",
+      "options": [
+        "They use very long pathways through the brain",
+        "They use short pathways that don't require conscious processing",
+        "They don't actually work quickly",
+        "They use hormones instead of nerves"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Reflexes are fast because they use SHORT PATHWAYS that bypass conscious brain processing. The signal goes to the spinal cord and back — no waiting for the brain to think about it.",
+      "wrongExplains": {
+        "0": "Long brain pathways would slow things down. Reflexes use short spinal pathways.",
+        "2": "Reflexes are specifically designed to be FAST protective responses.",
+        "3": "Hormones are slow (blood transport). Reflexes use fast electrical nerve signals."
+      }
     }
   ]
 }

@@ -3,24 +3,157 @@
   "parentQuestion": "Which receptor type is found at ALL autonomic ganglia?",
   "scaffolds": [
     {
-      "q": "Nicotinic receptors are ligand-gated ion channels that open when ACh binds.",
+      "q": "What are the two main types of acetylcholine (cholinergic) receptors?",
       "options": [
-        "True",
-        "False"
+        "Alpha and beta",
+        "Nicotinic and muscarinic",
+        "Fast and slow",
+        "Excitatory and inhibitory"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Nicotinic receptors are ionotropic — ACh binding directly opens an ion channel allowing Na⁺ influx and K⁺ efflux, rapidly depolarizing the cell. Trace this pathway:: this makes ganglionic transmission fast. The receptor IS the channel. Beautiful directness."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "ACh receptors come in two types: NICOTINIC (named for nicotine) and MUSCARINIC (named for muscarine, a mushroom toxin). Both bind ACh but work very differently.",
+      "wrongExplains": {
+        "0": "Alpha and beta are types of ADRENERGIC receptors that bind norepinephrine, not ACh.",
+        "2": "While they do differ in speed, the classification is nicotinic vs muscarinic.",
+        "3": "Both types can produce different effects. The classification is based on which drug activates them."
+      }
     },
     {
-      "q": "There are two main types of cholinergic receptors: nicotinic and muscarinic.",
+      "q": "Nicotinic receptors are what type of receptor?",
       "options": [
-        "True",
-        "False"
+        "G-protein coupled (slow, second messenger)",
+        "Ligand-gated ion channels (fast, direct)",
+        "Enzyme-linked receptors",
+        "Nuclear receptors"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "Chart this course: into cholinergic pharmacology. Nicotinic receptors (named for nicotine) are ion channels. Muscarinic receptors (named for muscarine) are G-protein coupled. ACh activates both, but the effects are very different. Location determines which receptor matters."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Nicotinic receptors are LIGAND-GATED ION CHANNELS. When ACh binds, the receptor immediately opens, allowing Na⁺ in and K⁺ out. This produces a fast response (milliseconds).",
+      "wrongExplains": {
+        "0": "G-protein coupled describes MUSCARINIC receptors. Nicotinic receptors are ion channels.",
+        "2": "Enzyme-linked receptors are another category (like growth factor receptors). Nicotinic are ion channels.",
+        "3": "Nuclear receptors bind steroid hormones. Nicotinic receptors are membrane ion channels."
+      }
+    },
+    {
+      "q": "Muscarinic receptors are what type of receptor?",
+      "options": [
+        "Ligand-gated ion channels (fast)",
+        "G-protein coupled receptors (slower, second messenger)",
+        "Cytoplasmic receptors",
+        "Enzyme-linked receptors"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Muscarinic receptors are G-PROTEIN COUPLED RECEPTORS (GPCRs). ACh binding activates intracellular signaling cascades. This takes longer (hundreds of milliseconds to seconds) but produces more varied effects.",
+      "wrongExplains": {
+        "0": "Ligand-gated ion channels describes NICOTINIC receptors. Muscarinic are GPCRs.",
+        "2": "Muscarinic receptors are membrane receptors, not cytoplasmic. They're embedded in the cell membrane.",
+        "3": "Enzyme-linked receptors are a different category. Muscarinic are specifically G-protein coupled."
+      }
+    },
+    {
+      "q": "Which receptor type is found at ALL autonomic ganglia (both sympathetic and parasympathetic)?",
+      "options": [
+        "Muscarinic",
+        "Nicotinic",
+        "Beta-adrenergic",
+        "Alpha-adrenergic"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "NICOTINIC receptors are found at ALL autonomic ganglia. This is because ALL preganglionic neurons release ACh, and postganglionic neurons have nicotinic receptors to receive that signal quickly.",
+      "wrongExplains": {
+        "0": "Muscarinic receptors are at parasympathetic TARGET organs, not in the ganglia themselves.",
+        "2": "Beta-adrenergic receptors bind norepinephrine at sympathetic targets, not ACh at ganglia.",
+        "3": "Alpha-adrenergic receptors bind norepinephrine, not ACh. Ganglia use nicotinic ACh receptors."
+      }
+    },
+    {
+      "q": "Why are nicotinic receptors ideal for ganglionic transmission?",
+      "options": [
+        "They produce slow, sustained effects",
+        "They produce fast responses because they're ion channels",
+        "They don't require neurotransmitter",
+        "They only work with norepinephrine"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Ganglia need FAST transmission to relay signals quickly. Nicotinic receptors are ion channels that open immediately when ACh binds, producing rapid depolarization in milliseconds.",
+      "wrongExplains": {
+        "0": "Slow effects would delay autonomic responses. Nicotinic provides fast transmission.",
+        "2": "All receptors require their specific neurotransmitter (ACh for nicotinic) to be activated.",
+        "3": "Nicotinic receptors bind ACh, not norepinephrine. Adrenergic receptors bind NE."
+      }
+    },
+    {
+      "q": "Where are muscarinic receptors primarily found in the ANS?",
+      "options": [
+        "At all ganglia",
+        "At parasympathetic target organs (heart, glands, smooth muscle)",
+        "Only in the brain",
+        "At sympathetic postganglionic synapses"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Muscarinic receptors are at PARASYMPATHETIC TARGET ORGANS — the heart (M2), smooth muscle, and glands (M3). They receive ACh from parasympathetic postganglionic neurons.",
+      "wrongExplains": {
+        "0": "Ganglia use nicotinic receptors for fast transmission. Muscarinic are at target organs.",
+        "2": "Muscarinic receptors are in the brain AND at peripheral parasympathetic targets.",
+        "3": "Sympathetic postganglionic neurons mostly release NE onto adrenergic receptors, not ACh onto muscarinic."
+      }
+    },
+    {
+      "q": "The drug nicotine activates nicotinic receptors. What would happen if nicotine were given?",
+      "options": [
+        "Only parasympathetic activation",
+        "Both sympathetic and parasympathetic ganglia would be stimulated",
+        "Only sympathetic activation",
+        "No autonomic effect"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Nicotine activates nicotinic receptors at ALL ganglia — both sympathetic and parasympathetic. This is why nicotine causes mixed effects (increased heart rate but also gut stimulation).",
+      "wrongExplains": {
+        "0": "Nicotinic receptors are at BOTH types of ganglia, so both divisions would be affected.",
+        "2": "Both divisions use nicotinic receptors at their ganglia, so both would be stimulated.",
+        "3": "Nicotine definitely has autonomic effects — it acts at all autonomic ganglia."
+      }
+    },
+    {
+      "q": "A drug that blocks nicotinic receptors (ganglionic blocker) would affect ___.",
+      "options": [
+        "Only the parasympathetic division",
+        "Only the sympathetic division",
+        "Both sympathetic and parasympathetic divisions",
+        "Neither division"
+      ],
+      "answer": 2,
+      "difficulty": "intermediate",
+      "explain": "A ganglionic blocker affects BOTH divisions because both use nicotinic receptors at their ganglia. This produces widespread autonomic effects — often side effects limit clinical use.",
+      "wrongExplains": {
+        "0": "Nicotinic receptors are at BOTH types of ganglia, so blocking affects both divisions.",
+        "1": "Nicotinic receptors are at BOTH types of ganglia, so blocking affects both divisions.",
+        "3": "Both divisions rely on nicotinic receptors for ganglionic transmission, so blocking them has major effects."
+      }
+    },
+    {
+      "q": "Summary: Nicotinic receptors are at ganglia; muscarinic receptors are at ___.",
+      "options": [
+        "Also at ganglia",
+        "Parasympathetic target organs",
+        "Only skeletal muscle",
+        "The brain exclusively"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "NICOTINIC = ganglia (both divisions). MUSCARINIC = parasympathetic target organs (heart, smooth muscle, glands). This separation allows selective drug targeting.",
+      "wrongExplains": {
+        "0": "Muscarinic receptors are at target organs, not ganglia. Ganglia use nicotinic.",
+        "2": "Skeletal muscle has nicotinic receptors (neuromuscular junction), not muscarinic.",
+        "3": "Muscarinic receptors are in the brain AND at peripheral parasympathetic targets."
+      }
     }
   ]
 }

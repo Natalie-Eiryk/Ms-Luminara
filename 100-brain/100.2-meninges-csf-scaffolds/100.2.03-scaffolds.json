@@ -3,94 +3,157 @@
   "parentQuestion": "The subarachnoid space lies between what two layers of meninges?",
   "scaffolds": [
     {
-      "q": "The brain is surrounded by protective membranes called meninges.",
+      "q": "What are the meninges?",
       "options": [
-        "True",
-        "False"
+        "Brain neurons",
+        "Protective membranes surrounding the brain and spinal cord",
+        "Skull bones",
+        "Blood vessels"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The meninges are three membranes that protect the brain and spinal cord - a layered defense system."
+      "explain": "The MENINGES are three PROTECTIVE MEMBRANES that surround and protect the brain and spinal cord — a layered defense system.",
+      "wrongExplains": {
+        "0": "Neurons are inside the brain. The meninges are protective coverings.",
+        "2": "The skull is bone. The meninges are membrane layers beneath the skull.",
+        "3": "Blood vessels are separate structures. The meninges are protective membranes."
+      }
     },
     {
-      "q": "There are THREE layers of meninges, from outside to inside.",
+      "q": "How many layers of meninges are there?",
       "options": [
-        "True",
-        "False"
+        "One",
+        "Three",
+        "Five",
+        "Ten"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Dura mater (tough outer), arachnoid mater (middle, web-like), pia mater (delicate inner). Three mothers protecting the brain."
+      "explain": "There are THREE meningeal layers from outside to inside: DURA MATER (tough outer), ARACHNOID MATER (middle, web-like), and PIA MATER (delicate inner).",
+      "wrongExplains": {
+        "0": "There are three distinct layers, not one.",
+        "2": "Three layers — dura, arachnoid, and pia.",
+        "3": "Just three layers make up the meninges."
+      }
     },
     {
-      "q": "The dura mater is the OUTERMOST and toughest meningeal layer.",
+      "q": "What is the dura mater?",
       "options": [
-        "True",
-        "False"
+        "The innermost layer touching the brain",
+        "The outermost and toughest meningeal layer",
+        "A brain structure",
+        "A fluid-filled space"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! 'Dura mater' means 'tough mother' in Latin. It's thick, fibrous, and adheres to the skull - essentially leather protecting your brain."
+      "explain": "The DURA MATER is the OUTERMOST and TOUGHEST layer. 'Dura mater' means 'tough mother' in Latin — it's thick, fibrous, and adheres to the skull like protective leather.",
+      "wrongExplains": {
+        "0": "The innermost layer is the pia mater. The dura is outermost.",
+        "2": "The dura mater is a meningeal covering, not brain tissue.",
+        "3": "The dura is a membrane layer, not a space."
+      }
     },
     {
-      "q": "The arachnoid mater is the MIDDLE meningeal layer.",
+      "q": "What is the arachnoid mater?",
       "options": [
-        "True",
-        "False"
+        "The outermost layer",
+        "The middle meningeal layer with web-like projections",
+        "The layer touching the brain",
+        "A bone"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! 'Arachnoid' means spider-like - it has web-like projections (trabeculae) that span the CSF-filled space below it."
+      "explain": "The ARACHNOID MATER is the MIDDLE layer. 'Arachnoid' means SPIDER-LIKE — it has web-like projections (trabeculae) that span the CSF-filled space below it.",
+      "wrongExplains": {
+        "0": "The outermost layer is the dura. The arachnoid is middle.",
+        "2": "The layer touching the brain is the pia. The arachnoid is above it.",
+        "3": "The arachnoid is a membrane, not bone."
+      }
     },
     {
-      "q": "The pia mater is the INNERMOST layer, directly touching the brain surface.",
+      "q": "What is the pia mater?",
       "options": [
-        "True",
-        "False"
+        "The outermost layer",
+        "The innermost layer directly touching the brain surface",
+        "A skull bone",
+        "A blood vessel"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! 'Pia mater' means 'gentle mother' - it's thin, delicate, and follows every contour of the brain surface like shrink-wrap."
+      "explain": "The PIA MATER is the INNERMOST layer, directly touching the brain surface. 'Pia mater' means 'gentle mother' — it's thin, delicate, and follows every contour like shrink-wrap.",
+      "wrongExplains": {
+        "0": "The outermost layer is the dura. The pia is innermost.",
+        "2": "The pia mater is a delicate membrane, not bone.",
+        "3": "The pia is a meningeal layer, not a blood vessel."
+      }
     },
     {
-      "q": "The prefix 'sub-' means 'below' or 'under'.",
+      "q": "What does the prefix 'sub-' mean?",
       "options": [
-        "True",
-        "False"
+        "Above",
+        "Below or under",
+        "Inside",
+        "Outside"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! So 'SUBarachnoid' means 'under the arachnoid' - the space beneath the arachnoid layer but above the pia."
+      "explain": "'SUB-' means BELOW or UNDER. So 'SUBarachnoid' means 'under the arachnoid' — the space beneath the arachnoid layer but above the pia.",
+      "wrongExplains": {
+        "0": "'Super' or 'supra' means above. 'Sub' means below.",
+        "2": "'Sub' specifically means below/under, not inside.",
+        "3": "'Sub' means below, not outside."
+      }
     },
     {
-      "q": "CSF fills the subarachnoid space, providing cushioning for the brain.",
+      "q": "What fills the subarachnoid space?",
       "options": [
-        "True",
-        "False"
+        "Air",
+        "Cerebrospinal fluid (CSF)",
+        "Blood only",
+        "Bone marrow"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The subarachnoid space is filled with CSF and major cerebral blood vessels. This fluid bath reduces effective brain weight and cushions against impacts."
+      "explain": "The subarachnoid space is filled with CEREBROSPINAL FLUID (CSF) and major cerebral blood vessels. The CSF cushions the brain and reduces its effective weight.",
+      "wrongExplains": {
+        "0": "Air in the subarachnoid space would be pathological (pneumocephalus).",
+        "2": "CSF fills the space. Major blood vessels run through it, but blood doesn't fill it.",
+        "3": "Bone marrow is inside bones, not in meningeal spaces."
+      }
     },
     {
-      "q": "The subarachnoid space lies between arachnoid mater (above) and pia mater (below).",
+      "q": "What two layers bound the subarachnoid space?",
       "options": [
-        "True",
-        "False"
+        "Dura and skull",
+        "Arachnoid (above) and pia (below)",
+        "Skull and brain",
+        "Dura and pia"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! SUBarachnoid = under the arachnoid. The space is below the arachnoid and above the pia, filled with CSF."
+      "explain": "The SUBARACHNOID space lies between the ARACHNOID (above) and PIA (below). 'SUBarachnoid' = UNDER the arachnoid, filled with CSF.",
+      "wrongExplains": {
+        "0": "Between dura and skull is the epidural space. Subarachnoid is deeper.",
+        "2": "The subarachnoid space is between meningeal layers, not skull and brain.",
+        "3": "Between dura and arachnoid is the subdural space. Subarachnoid is between arachnoid and pia."
+      }
     },
     {
-      "q": "The answer is ARACHNOID and PIA - the subarachnoid space lies between these two layers.",
+      "q": "The subarachnoid space lies between what two layers of meninges?",
       "options": [
-        "True",
-        "False"
+        "Dura and arachnoid",
+        "Arachnoid and pia",
+        "Skull and dura",
+        "Pia and brain"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not dura and arachnoid (that's the subdural space - a potential space), not epidural (that's between dura and bone). Subarachnoid = arachnoid to pia."
+      "explain": "ARACHNOID and PIA! The subarachnoid space is UNDER the arachnoid, ABOVE the pia, filled with CSF. Not dura-arachnoid (that's subdural), not skull-dura (that's epidural).",
+      "wrongExplains": {
+        "0": "Between dura and arachnoid is the subdural space (a potential space).",
+        "2": "Between skull and dura is the epidural space.",
+        "3": "The pia touches the brain directly — there's no real space there."
+      }
     }
   ]
 }

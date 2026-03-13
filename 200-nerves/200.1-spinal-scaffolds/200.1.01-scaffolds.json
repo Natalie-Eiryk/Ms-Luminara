@@ -3,71 +3,109 @@
   "parentQuestion": "Dorsal and ventral rami are similar in that they both contain sensory and motor fibers.",
   "scaffolds": [
     {
-      "q": "Nerves carry electrical signals through your body.",
+      "q": "What do nerves do in the body?",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! Nerves are like the body's electrical wiring. They carry signals between your brain, spinal cord, and the rest of your body - letting you feel things and move muscles."
-    },
-    {
-      "q": "Sensory nerves carry information TOWARD the brain and spinal cord.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Correct! Sensory nerves bring information IN - they tell your brain what you're touching, feeling, or sensing. Think of them as the 'input' cables."
-    },
-    {
-      "q": "Motor nerves carry commands FROM the brain to muscles.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Exactly! Motor nerves carry movement commands OUT from your brain to your muscles. They're the 'output' cables that make your body move."
-    },
-    {
-      "q": "A 'mixed' nerve contains ___.",
-      "options": [
-        "Only sensory fibers",
-        "Only motor fibers",
-        "Both sensory AND motor fibers",
-        "Neither sensory nor motor fibers"
-      ],
-      "answer": 2,
-      "difficulty": "foundation",
-      "explain": "A mixed nerve carries BOTH types - sensory fibers going IN and motor fibers going OUT. Most of the nerves in your body are mixed nerves, like two-way streets."
-    },
-    {
-      "q": "The spinal cord is located inside your ___.",
-      "options": [
-        "Skull",
-        "Spine (vertebral column)",
-        "Chest",
-        "Abdomen"
+        "Produce hormones for digestion",
+        "Carry electrical signals between the CNS and body",
+        "Store nutrients for later use",
+        "Filter blood like the kidneys"
       ],
       "answer": 1,
       "difficulty": "foundation",
-      "explain": "The spinal cord runs through your vertebral column (spine). It's protected by the bones of your back and serves as the main highway between your brain and body."
+      "explain": "Nerves are the body's ELECTRICAL WIRING. They carry signals between your brain, spinal cord, and the rest of your body — enabling sensation and movement.",
+      "wrongExplains": {
+        "0": "Hormones are produced by endocrine glands. Nerves carry electrical signals.",
+        "2": "Nutrient storage occurs in tissues like fat and liver. Nerves transmit information.",
+        "3": "Kidneys filter blood. Nerves are communication pathways."
+      }
     },
     {
-      "q": "Nerve roots attach directly to the spinal cord.",
+      "q": "Sensory nerves carry information in which direction?",
       "options": [
-        "True",
-        "False"
+        "FROM the brain TO muscles",
+        "TOWARD the brain and spinal cord (afferent)",
+        "In circles within organs",
+        "Only within the brain itself"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Roots are the attachment points where nerves connect to the spinal cord. Think of them like the roots of a tree anchoring into the ground - they're the starting point."
+      "explain": "SENSORY (AFFERENT) nerves carry information TOWARD the CNS. They're the 'input' cables — telling your brain what you're touching, feeling, or sensing.",
+      "wrongExplains": {
+        "0": "That describes MOTOR (efferent) nerves. Sensory nerves bring information IN.",
+        "2": "Nerves follow linear pathways to and from the CNS, not circular routes.",
+        "3": "Sensory nerves connect peripheral receptors to the CNS. They extend throughout the body."
+      }
     },
     {
-      "q": "The word 'ramus' (plural: rami) means ___.",
+      "q": "Motor nerves carry commands in which direction?",
+      "options": [
+        "FROM muscles TO the brain",
+        "FROM the brain and spinal cord TO muscles (efferent)",
+        "Only between bones",
+        "Only within the spinal cord"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "MOTOR (EFFERENT) nerves carry commands FROM the CNS OUT to muscles. They're the 'output' cables that make your body move.",
+      "wrongExplains": {
+        "0": "That describes SENSORY nerves. Motor nerves carry commands OUT to muscles.",
+        "2": "Nerves connect to muscles, not bones directly. Bones are innervated for sensation, not movement.",
+        "3": "Motor nerves extend from the spinal cord to muscles throughout the body."
+      }
+    },
+    {
+      "q": "What is a 'mixed' nerve?",
+      "options": [
+        "A nerve with only sensory fibers",
+        "A nerve with only motor fibers",
+        "A nerve containing BOTH sensory AND motor fibers",
+        "A damaged nerve that doesn't work"
+      ],
+      "answer": 2,
+      "difficulty": "foundation",
+      "explain": "A MIXED NERVE carries BOTH sensory fibers (going IN) and motor fibers (going OUT). Most body nerves are mixed — like two-way streets handling traffic in both directions.",
+      "wrongExplains": {
+        "0": "A nerve with only sensory fibers is called a purely sensory nerve. Mixed means both types.",
+        "1": "A nerve with only motor fibers is called a purely motor nerve. Mixed includes sensory too.",
+        "3": "Mixed refers to fiber types, not damage. It means the nerve carries both sensory and motor signals."
+      }
+    },
+    {
+      "q": "Where is the spinal cord located?",
+      "options": [
+        "Inside the skull with the brain",
+        "Inside the vertebral column (spine)",
+        "In the chest cavity with the lungs",
+        "In the abdominal cavity"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The spinal cord runs through the VERTEBRAL COLUMN (spine). Protected by vertebral bones, it serves as the main communication highway between your brain and body.",
+      "wrongExplains": {
+        "0": "The brain is in the skull. The spinal cord continues below in the vertebral column.",
+        "2": "The chest contains heart and lungs. The spinal cord is protected by the vertebral column.",
+        "3": "The abdomen contains digestive organs. The spinal cord runs through the back in the spine."
+      }
+    },
+    {
+      "q": "What are nerve roots?",
+      "options": [
+        "Branches that go to muscles",
+        "The attachment points where nerves connect to the spinal cord",
+        "Nerves that go to plant-like organs",
+        "The ends of nerves in the skin"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "NERVE ROOTS are the attachment points where nerves connect directly to the spinal cord. Like tree roots anchoring into ground — they're the origin point of spinal nerves.",
+      "wrongExplains": {
+        "0": "Branches to muscles come later. Roots are specifically the spinal cord attachment points.",
+        "2": "'Root' is anatomical terminology, not related to plants. It means the origin at the spinal cord.",
+        "3": "Nerve endings in skin are sensory receptors. Roots are at the spinal cord."
+      }
+    },
+    {
+      "q": "What does the word 'ramus' (plural: rami) mean?",
       "options": [
         "Root",
         "Branch",
@@ -76,27 +114,46 @@
       ],
       "answer": 1,
       "difficulty": "foundation",
-      "explain": "Ramus means 'branch' in Latin! After a spinal nerve forms, it branches into rami - like a tree trunk splitting into branches. Dorsal ramus goes to the back, ventral ramus goes to the front and limbs."
+      "explain": "RAMUS means 'BRANCH' in Latin. After a spinal nerve forms, it branches into rami — like a tree trunk splitting into branches. Dorsal ramus goes to the back, ventral ramus to the front/limbs.",
+      "wrongExplains": {
+        "0": "Root refers to where nerves attach to the spinal cord. Ramus means branch.",
+        "2": "Trunk suggests something large and central. Ramus specifically means branch.",
+        "3": "Cord refers to the spinal cord itself. Ramus means branch."
+      }
     },
     {
-      "q": "Spinal nerves are formed when dorsal and ventral roots merge together.",
+      "q": "How does a spinal nerve form?",
       "options": [
-        "True",
-        "False"
+        "It grows directly from the brain",
+        "Dorsal and ventral roots merge together",
+        "It branches off from arteries",
+        "It forms from muscle tissue"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "The dorsal root (sensory) and ventral root (motor) come together to form a single spinal nerve. This merged nerve is very short before it splits again into dorsal and ventral rami."
+      "explain": "A spinal nerve forms when the DORSAL ROOT (sensory) and VENTRAL ROOT (motor) MERGE together. This combined nerve is very short before it splits again into dorsal and ventral rami.",
+      "wrongExplains": {
+        "0": "Cranial nerves come from the brain. Spinal nerves form from merging dorsal and ventral roots.",
+        "2": "Nerves and arteries are separate systems. Spinal nerves form from root mergers.",
+        "3": "Nerves develop from neural tissue, not muscle. They form when roots merge."
+      }
     },
     {
-      "q": "While dorsal ROOTS are sensory and ventral ROOTS are motor, both dorsal and ventral RAMI are mixed nerves.",
+      "q": "What's the key difference between roots and rami in terms of fiber content?",
       "options": [
-        "True",
-        "False"
+        "Both roots and rami are purely sensory",
+        "Both roots and rami are purely motor",
+        "Roots are segregated (dorsal=sensory, ventral=motor), but BOTH rami are mixed",
+        "Rami are segregated, but roots are mixed"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": "intermediate",
-      "explain": "This is the key distinction! Roots are segregated (dorsal = sensory, ventral = motor), but after they merge and split into rami, BOTH rami carry mixed traffic. The terminology shift from 'root' to 'ramus' marks where sensory and motor fibers combine."
+      "explain": "ROOTS are segregated: dorsal root = sensory only, ventral root = motor only. But after they merge and split into RAMI, BOTH rami carry mixed traffic. The term shift from 'root' to 'ramus' marks where fibers combine.",
+      "wrongExplains": {
+        "0": "Only the dorsal root is sensory. The ventral root is motor, and rami are mixed.",
+        "1": "Only the ventral root is motor. The dorsal root is sensory, and rami are mixed.",
+        "3": "It's the opposite. Roots are segregated by function; rami are mixed after the merger."
+      }
     }
   ]
 }

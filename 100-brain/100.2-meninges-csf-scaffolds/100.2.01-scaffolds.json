@@ -3,94 +3,157 @@
   "parentQuestion": "The blood-brain barrier is the protective mechanism that helps maintain the brain's stable environment.",
   "scaffolds": [
     {
-      "q": "The brain needs protection from substances circulating in the blood.",
+      "q": "What is the blood-brain barrier?",
       "options": [
-        "True",
-        "False"
+        "A bone structure protecting the brain",
+        "A selective filter that controls what passes from blood into brain tissue",
+        "The skull",
+        "A muscle around blood vessels"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Many substances in blood would harm neurons - toxins, hormones, pathogens. The brain needs a selective filter to maintain its delicate chemical environment."
+      "explain": "The BLOOD-BRAIN BARRIER (BBB) is a SELECTIVE FILTER formed by special brain capillaries. It controls what substances can pass from the bloodstream into brain tissue.",
+      "wrongExplains": {
+        "0": "Bone protects from trauma. The BBB is a cellular barrier in capillaries.",
+        "2": "The skull provides physical protection. The BBB is a microscopic capillary barrier.",
+        "3": "The BBB is formed by endothelial cells and astrocytes, not muscle."
+      }
     },
     {
-      "q": "Endothelial cells line all blood capillaries in the body.",
+      "q": "Why does the brain need a blood-brain barrier?",
       "options": [
-        "True",
-        "False"
+        "The brain doesn't need protection from blood",
+        "To protect neurons from harmful substances in the blood",
+        "Only for temperature regulation",
+        "To increase blood flow to the brain"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Endothelial cells form the inner wall of all blood vessels. But brain capillaries are special - their endothelial cells are sealed with tight junctions."
+      "explain": "The brain needs the BBB to PROTECT NEURONS from toxins, pathogens, and fluctuating blood chemicals that would harm them. Neurons are extremely sensitive.",
+      "wrongExplains": {
+        "0": "Many blood substances would harm neurons. Protection is essential.",
+        "2": "The BBB does more than temperature — it filters toxins, pathogens, and hormones.",
+        "3": "The BBB restricts substances. Blood flow is regulated by other mechanisms."
+      }
     },
     {
-      "q": "Most body capillaries have gaps between endothelial cells that allow substances to pass through.",
+      "q": "What makes brain capillaries different from other body capillaries?",
       "options": [
-        "True",
-        "False"
+        "Brain capillaries are larger",
+        "Brain capillaries have tight junctions sealing endothelial cells together",
+        "Brain capillaries have no endothelial cells",
+        "Brain capillaries are made of bone"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Most capillaries are 'leaky' - small gaps (fenestrations) let substances diffuse in and out. But brain capillaries have tight junctions eliminating these gaps."
+      "explain": "Brain capillaries have TIGHT JUNCTIONS that seal endothelial cells together. Most body capillaries have gaps (fenestrations), but brain capillaries have no paracellular gaps.",
+      "wrongExplains": {
+        "0": "Size isn't the difference. Tight junctions are the key feature.",
+        "2": "Brain capillaries have endothelial cells — they're just sealed with tight junctions.",
+        "3": "Capillaries are never made of bone. They're endothelial cells."
+      }
     },
     {
-      "q": "Brain capillaries have tight junctions that seal endothelial cells together.",
+      "q": "What are tight junctions?",
       "options": [
-        "True",
-        "False"
+        "Gaps between cells",
+        "Protein complexes that seal spaces between cells",
+        "Bone connections",
+        "Nerve endings"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Tight junctions are protein complexes that completely seal the spaces between brain endothelial cells - no gaps, no paracellular diffusion."
+      "explain": "TIGHT JUNCTIONS are protein complexes that COMPLETELY SEAL spaces between brain endothelial cells. No gaps means no uncontrolled diffusion between cells.",
+      "wrongExplains": {
+        "0": "Tight junctions eliminate gaps, not create them.",
+        "2": "Tight junctions are protein structures, not bone connections.",
+        "3": "Tight junctions are cell-to-cell seals, not nerve endings."
+      }
     },
     {
-      "q": "Astrocytes contribute to the blood-brain barrier by wrapping around capillaries.",
+      "q": "What role do astrocytes play in the blood-brain barrier?",
       "options": [
-        "True",
-        "False"
+        "They destroy the barrier",
+        "Their foot processes wrap around capillaries and help maintain barrier properties",
+        "They form the blood vessels themselves",
+        "They have no role in the barrier"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Astrocyte foot processes surround brain capillaries, helping maintain barrier properties and regulating what crosses into brain tissue."
+      "explain": "ASTROCYTE FOOT PROCESSES surround brain capillaries and help MAINTAIN barrier properties. They regulate what crosses into brain tissue.",
+      "wrongExplains": {
+        "0": "Astrocytes support the barrier, not destroy it.",
+        "2": "Endothelial cells form blood vessels. Astrocytes wrap around them.",
+        "3": "Astrocytes are essential contributors to the BBB."
+      }
     },
     {
-      "q": "Small lipid-soluble molecules (like oxygen and CO2) can cross the blood-brain barrier easily.",
+      "q": "Which substances can easily cross the blood-brain barrier?",
       "options": [
-        "True",
-        "False"
+        "Large proteins",
+        "Small lipid-soluble molecules (oxygen, CO2, alcohol)",
+        "Red blood cells",
+        "Bacteria"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Lipid-soluble molecules dissolve through the cell membrane. Oxygen, CO2, alcohol, anesthetics - they pass right through the barrier."
+      "explain": "Small LIPID-SOLUBLE molecules dissolve through cell membranes easily. OXYGEN, CO2, ALCOHOL, and anesthetics pass right through the BBB without needing transporters.",
+      "wrongExplains": {
+        "0": "Large proteins are blocked by the BBB. Only small lipid-soluble molecules cross easily.",
+        "2": "Red blood cells are far too large to cross the BBB.",
+        "3": "Bacteria are blocked by the BBB (unless they have special invasion mechanisms)."
+      }
     },
     {
-      "q": "The blood-brain barrier maintains a stable chemical environment for neurons.",
+      "q": "What would happen without the blood-brain barrier?",
       "options": [
-        "True",
-        "False"
+        "Nothing would change",
+        "Fluctuating blood chemistry would cause seizures and brain damage",
+        "The brain would be stronger",
+        "Only vision would be affected"
       ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! Neurons operate on millivolt gradients - even small changes in ion concentrations can trigger seizures. The BBB keeps the brain's chemistry stable."
-    },
-    {
-      "q": "The blood-brain barrier is a protective mechanism that maintains brain stability.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The BBB (tight junctions + astrocyte foot processes) selectively filters blood contents, protecting neurons from toxins and maintaining chemical homeostasis."
+      "explain": "Without the BBB, fluctuating blood chemistry would disrupt the precise ion gradients neurons need. Even small changes can trigger SEIZURES. Every meal would risk brain damage.",
+      "wrongExplains": {
+        "0": "The BBB is essential. Without it, brain function would be severely disrupted.",
+        "2": "The brain would be vulnerable, not stronger.",
+        "3": "All brain functions would be affected, not just vision."
+      }
     },
     {
-      "q": "The statement is TRUE - the blood-brain barrier does protect the brain's stable environment.",
+      "q": "What does the blood-brain barrier maintain?",
       "options": [
-        "True",
-        "False"
+        "Only blood pressure",
+        "A stable chemical environment for neurons",
+        "Only body temperature",
+        "Only heart rate"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! The answer is TRUE. The BBB is absolutely a protective mechanism - without it, every meal would risk seizures, every infection would become encephalitis."
+      "explain": "The BBB maintains a STABLE CHEMICAL ENVIRONMENT for neurons. Neurons operate on millivolt gradients — they need precisely controlled ion concentrations and protection from toxins.",
+      "wrongExplains": {
+        "0": "Blood pressure is regulated differently. The BBB maintains chemical stability.",
+        "2": "Temperature regulation is separate. The BBB controls chemical environment.",
+        "3": "Heart rate is controlled by the autonomic nervous system, not the BBB."
+      }
+    },
+    {
+      "q": "Is the statement TRUE: 'The blood-brain barrier is a protective mechanism that maintains the brain's stable environment'?",
+      "options": [
+        "False — the BBB doesn't protect the brain",
+        "True — the BBB selectively filters blood and maintains chemical homeostasis",
+        "False — only the skull protects the brain",
+        "False — the brain has no special protection"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "TRUE! The BLOOD-BRAIN BARRIER is a PROTECTIVE MECHANISM (tight junctions + astrocyte foot processes) that MAINTAINS BRAIN STABILITY by filtering blood contents and protecting neurons from harmful substances.",
+      "wrongExplains": {
+        "0": "The BBB is definitely protective — it filters toxins and maintains chemical stability.",
+        "2": "Both the skull (physical protection) and BBB (chemical protection) protect the brain.",
+        "3": "The brain has multiple protective mechanisms, including the BBB."
+      }
     }
   ]
 }

@@ -3,94 +3,157 @@
   "parentQuestion": "A patient cannot dorsiflex their foot after a fibular neck fracture. The foot slaps the ground during walking (steppage gait). Which nerve runs around the fibular neck and is most likely injured?",
   "scaffolds": [
     {
-      "q": "Dorsiflexion means lifting your foot and toes upward (toward your shin).",
+      "q": "What is dorsiflexion?",
       "options": [
-        "True",
-        "False"
+        "Pointing the toes downward",
+        "Lifting the foot and toes upward toward the shin",
+        "Turning the foot inward",
+        "Curling the toes"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Dorsiflexion points your toes up. You need dorsiflexion to clear your foot off the ground when walking. Without it, your foot drags."
+      "explain": "DORSIFLEXION means LIFTING the foot and toes UPWARD toward the shin. You need dorsiflexion to clear your foot off the ground when walking. Without it, your foot drags.",
+      "wrongExplains": {
+        "0": "Pointing toes down is plantarflexion. Dorsiflexion is the opposite — lifting up.",
+        "2": "Turning the foot inward is inversion. Dorsiflexion is upward movement.",
+        "3": "Toe curling is flexion. Dorsiflexion lifts the whole foot upward."
+      }
     },
     {
-      "q": "If you can't dorsiflex your foot, it hangs down (foot drop).",
+      "q": "What is foot drop?",
       "options": [
-        "True",
-        "False"
+        "A dance move",
+        "Inability to lift the foot due to paralyzed dorsiflexors",
+        "A type of shoe",
+        "A foot massage"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Without dorsiflexor muscles working, the foot drops into plantarflexion (pointing down). This makes walking very difficult."
+      "explain": "FOOT DROP is the INABILITY TO LIFT THE FOOT (dorsiflex). The dorsiflexor muscles are paralyzed, so gravity pulls the foot down into plantarflexion. This makes walking very difficult.",
+      "wrongExplains": {
+        "0": "Foot drop is a medical condition from nerve damage, not a dance.",
+        "2": "It's a pathological condition, not footwear.",
+        "3": "It's a sign of nerve injury, not a therapy."
+      }
     },
     {
-      "q": "The fibula is the thin bone on the outside of your lower leg.",
+      "q": "What is the fibula?",
       "options": [
-        "True",
-        "False"
+        "A bone in the arm",
+        "The thin bone on the outside of the lower leg",
+        "A muscle in the thigh",
+        "A nerve in the foot"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The fibula is the smaller bone, lateral to the tibia. Near the knee, its top portion (fibular neck) is an important landmark where a nerve wraps around."
+      "explain": "The FIBULA is the THIN BONE on the LATERAL (outer) side of the lower leg, next to the larger tibia. Its neck (near the knee) is where an important nerve wraps around.",
+      "wrongExplains": {
+        "0": "Arm bones include the humerus, radius, and ulna. The fibula is in the leg.",
+        "2": "The fibula is a bone, not a muscle.",
+        "3": "It's a bone, not a nerve. A nerve wraps around it."
+      }
     },
     {
-      "q": "The common fibular nerve wraps around the fibular neck just below the knee.",
+      "q": "Where does the common fibular nerve run?",
       "options": [
-        "True",
-        "False"
+        "Through the arm",
+        "It wraps around the fibular neck just below the knee",
+        "Through the chest",
+        "Through the spine"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The common fibular (peroneal) nerve loops around the fibular neck superficially. This exposed location makes it very vulnerable to injury."
+      "explain": "The COMMON FIBULAR (peroneal) NERVE wraps around the FIBULAR NECK, just below the knee, on the lateral leg. This superficial position makes it very vulnerable to injury.",
+      "wrongExplains": {
+        "0": "The common fibular nerve is in the leg, not the arm.",
+        "2": "The chest has different nerves. The fibular nerve is in the lower limb.",
+        "3": "The nerve originates from the spine but runs around the fibular neck."
+      }
     },
     {
-      "q": "The common fibular nerve controls the muscles that lift the foot.",
+      "q": "Why is the common fibular nerve vulnerable to injury?",
       "options": [
-        "True",
-        "False"
+        "It's deep and protected",
+        "It wraps superficially around bone where it can be compressed",
+        "It's not vulnerable",
+        "It's in a safe location"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The common fibular nerve gives rise to nerves that control foot dorsiflexion (lifting foot up) and eversion (turning sole outward)."
+      "explain": "The common fibular nerve is SUPERFICIAL at the fibular neck — it lies RIGHT AGAINST THE BONE with minimal soft tissue protection. Fractures, casts, leg crossing, or trauma can easily damage it.",
+      "wrongExplains": {
+        "0": "It's actually superficial and exposed, not deep and protected.",
+        "2": "It's the MOST COMMONLY INJURED nerve in the lower limb.",
+        "3": "The fibular neck is a notoriously dangerous location for this nerve."
+      }
     },
     {
-      "q": "'Foot drop' is when the foot hangs down because the dorsiflexors are paralyzed.",
+      "q": "What is steppage gait?",
       "options": [
-        "True",
-        "False"
+        "Normal walking",
+        "A high-stepping walk to clear a dropped foot",
+        "Running fast",
+        "Walking backward"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Without dorsiflexor function, gravity pulls the foot down. The patient must lift the knee high to clear the dropped foot - this is called 'steppage gait.'"
+      "explain": "STEPPAGE GAIT is when someone lifts their knee ABNORMALLY HIGH to clear a dropped foot when walking. Without dorsiflexion, the foot drags unless the whole leg is lifted higher.",
+      "wrongExplains": {
+        "0": "Steppage gait is abnormal — it compensates for foot drop.",
+        "2": "Running is different. Steppage gait is a compensatory walking pattern.",
+        "3": "Walking backward is different. Steppage gait is forward with high knee lift."
+      }
     },
     {
-      "q": "Steppage gait means lifting the knee high to clear a dropped foot when walking.",
+      "q": "What causes the foot to 'slap' the ground in foot drop?",
       "options": [
-        "True",
-        "False"
+        "The patient is angry",
+        "Without dorsiflexor control, the foot drops uncontrolled during heel strike",
+        "The shoes are too big",
+        "The floor is uneven"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! When you can't lift your foot, you must lift your whole leg higher than normal. The foot then slaps the ground because you can't control the landing."
+      "explain": "Normally, dorsiflexors CONTROL how the foot lands after heel strike. Without them, the foot DROPS UNCONTROLLED, slapping the ground. This audible 'foot slap' is characteristic of foot drop.",
+      "wrongExplains": {
+        "0": "The slapping is from muscle paralysis, not emotion.",
+        "2": "It's a neurological issue, not a shoe fitting problem.",
+        "3": "The slapping happens on any surface due to lost motor control."
+      }
     },
     {
-      "q": "The common fibular nerve is the most commonly injured nerve in the lower limb.",
+      "q": "Is the common fibular nerve the most commonly injured nerve in the lower limb?",
       "options": [
-        "True",
-        "False"
+        "No, it's well protected",
+        "Yes, due to its superficial position around the fibular neck",
+        "Only the sciatic nerve gets injured",
+        "Leg nerves are never injured"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Because it wraps superficially around the bony fibular neck, the common fibular nerve is easily damaged by fractures, casts, leg crossing, or direct trauma."
+      "explain": "YES! The common fibular nerve is the MOST COMMONLY INJURED nerve in the lower limb. Its SUPERFICIAL position around the bony fibular neck makes it vulnerable to fractures, casts, and compression.",
+      "wrongExplains": {
+        "0": "It's actually very poorly protected at the fibular neck.",
+        "2": "While the sciatic can be injured, the common fibular is more commonly damaged.",
+        "3": "Leg nerves can definitely be injured, with the common fibular being most vulnerable."
+      }
     },
     {
-      "q": "Foot drop after fibular neck fracture indicates common fibular nerve injury.",
+      "q": "Which nerve runs around the fibular neck and is injured in this patient with foot drop?",
       "options": [
-        "True",
-        "False"
+        "Tibial nerve",
+        "Common fibular (peroneal) nerve",
+        "Femoral nerve",
+        "Saphenous nerve"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! The combination of fibular neck injury + foot drop is classic for common fibular nerve damage. The nerve wraps right around this bone - fracture it, and the nerve gets crushed."
+      "explain": "The COMMON FIBULAR (PERONEAL) NERVE! It wraps around the fibular neck where fractures crush it. This causes foot drop and steppage gait — the classic presentation.",
+      "wrongExplains": {
+        "0": "The tibial nerve runs posteriorly. The fibular neck has the common fibular nerve.",
+        "2": "The femoral nerve is in the thigh. The fibular nerve is at the fibular neck.",
+        "3": "The saphenous nerve is sensory. Foot drop requires motor nerve damage (common fibular)."
+      }
     }
   ]
 }

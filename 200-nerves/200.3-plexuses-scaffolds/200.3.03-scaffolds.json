@@ -3,96 +3,157 @@
   "parentQuestion": "Striking the \"funny bone\" (ulnar nerve) may cause injury to a nerve of which plexus?",
   "scaffolds": [
     {
-      "q": "The arm is supplied by a network of nerves called the brachial plexus.",
+      "q": "What is the brachial plexus?",
       "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Yes! The brachial plexus is the nerve network that supplies your entire arm - from shoulder to fingertips. 'Brachial' means relating to the arm."
-    },
-    {
-      "q": "'Plexus' means a network or braid of nerves.",
-      "options": [
-        "True",
-        "False"
-      ],
-      "answer": 0,
-      "difficulty": "foundation",
-      "explain": "Correct! Plexus comes from Latin meaning 'braid.' Spinal nerves weave together into plexuses before distributing to specific body regions."
-    },
-    {
-      "q": "The brachial plexus is formed from spinal nerves in the ___ region.",
-      "options": [
-        "Lower back (lumbar)",
-        "Neck (cervical)",
-        "Pelvis (sacral)",
-        "Mid-back (thoracic)"
+        "A bone in the arm",
+        "The nerve network that supplies the entire arm",
+        "A muscle in the shoulder",
+        "A blood vessel in the neck"
       ],
       "answer": 1,
       "difficulty": "foundation",
-      "explain": "The neck region! The brachial plexus comes from C5-T1 (lower cervical and upper thoracic nerves). These nerves exit the neck and travel to supply the arm."
+      "explain": "The BRACHIAL PLEXUS is the NERVE NETWORK that supplies your entire arm — from shoulder to fingertips. 'Brachial' comes from Latin for arm.",
+      "wrongExplains": {
+        "0": "The brachial plexus is nerves, not bone. The humerus is the arm bone.",
+        "2": "It's a nerve network, not a muscle. Muscles receive signals from the plexus.",
+        "3": "Blood vessels carry blood. The brachial plexus carries nerve signals."
+      }
     },
     {
-      "q": "All the major nerves of the arm (median, ulnar, radial) come from the brachial plexus.",
+      "q": "Which spinal levels form the brachial plexus?",
       "options": [
-        "True",
-        "False"
+        "C1-C4",
+        "C5-T1",
+        "L1-L5",
+        "S1-S5"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The brachial plexus gives rise to all the major arm nerves: median, ulnar, radial, musculocutaneous, and axillary. It's the master distribution center for the upper limb."
+      "explain": "The brachial plexus is formed from C5, C6, C7, C8, and T1. These nerve roots exit the lower cervical and upper thoracic spine and combine to form the arm's nerve supply.",
+      "wrongExplains": {
+        "0": "C1-C4 form the cervical plexus (neck/diaphragm). Brachial plexus is C5-T1.",
+        "2": "L1-L5 form the lumbar plexus (thigh). Brachial plexus is in the neck for the arm.",
+        "3": "S1-S5 form part of the sacral plexus (leg/pelvis). Brachial is for the arm."
+      }
     },
     {
-      "q": "The ulnar nerve supplies sensation to the little finger and half the ring finger.",
+      "q": "What major nerves come from the brachial plexus?",
       "options": [
-        "True",
-        "False"
+        "Only the sciatic nerve",
+        "Median, ulnar, radial, musculocutaneous, and axillary nerves",
+        "Only the phrenic nerve",
+        "Only the femoral nerve"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The ulnar nerve's sensory territory is the little finger and medial half of the ring finger. That's why hitting your 'funny bone' causes tingling in those specific fingers."
+      "explain": "The brachial plexus gives rise to all major ARM nerves: MEDIAN, ULNAR, RADIAL, MUSCULOCUTANEOUS, and AXILLARY. It's the master distribution center for the upper limb.",
+      "wrongExplains": {
+        "0": "The sciatic nerve comes from the sacral plexus for the leg, not the brachial plexus.",
+        "2": "The phrenic nerve comes from the cervical plexus (C3-C5) for breathing.",
+        "3": "The femoral nerve comes from the lumbar plexus for the thigh."
+      }
     },
     {
-      "q": "The ulnar nerve comes from C8 and T1 spinal nerve roots.",
+      "q": "Where does the ulnar nerve originate?",
       "options": [
-        "True",
-        "False"
+        "The lumbar plexus",
+        "The medial cord of the brachial plexus",
+        "The sacral plexus",
+        "Directly from the brain"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The ulnar nerve arises from C8-T1, the lowest roots of the brachial plexus. It comes from the medial cord of the plexus."
+      "explain": "The ulnar nerve comes from the MEDIAL CORD of the BRACHIAL PLEXUS, formed from C8 and T1 nerve roots. It's one of the terminal branches of this plexus.",
+      "wrongExplains": {
+        "0": "The lumbar plexus supplies the thigh. The ulnar nerve is an arm nerve.",
+        "2": "The sacral plexus supplies the leg and pelvis. The ulnar is for the hand.",
+        "3": "Peripheral nerves come from the spinal cord via plexuses, not directly from the brain."
+      }
     },
     {
-      "q": "If the brachial plexus is damaged, arm function is affected.",
+      "q": "What does 'brachial' mean?",
       "options": [
-        "True",
-        "False"
+        "Related to the leg",
+        "Related to the arm",
+        "Related to the head",
+        "Related to breathing"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Since the brachial plexus supplies the entire arm, damage here can cause widespread loss of movement and sensation. Severe injuries cause complete arm paralysis."
+      "explain": "BRACHIAL means 'related to the ARM.' The brachial plexus supplies the arm, the brachial artery carries blood to the arm, and the biceps brachii is an arm muscle.",
+      "wrongExplains": {
+        "0": "Leg-related terms include femoral, tibial, and crural. Brachial is for the arm.",
+        "2": "Head-related terms include cranial and cephalic. Brachial is for the arm.",
+        "3": "Breathing-related terms include phrenic and pulmonary. Brachial is for the arm."
+      }
     },
     {
-      "q": "The ulnar nerve is a terminal branch of the brachial plexus, specifically from the medial cord.",
+      "q": "Which fingers does the ulnar nerve supply sensation to?",
       "options": [
-        "True",
-        "False"
+        "Thumb and index finger",
+        "Little finger and half the ring finger",
+        "All five fingers",
+        "Only the middle finger"
       ],
-      "answer": 0,
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The ulnar nerve supplies the LITTLE FINGER and medial half of the RING FINGER. That's why hitting your 'funny bone' causes tingling in those specific fingers.",
+      "wrongExplains": {
+        "0": "Thumb and index finger are median nerve territory.",
+        "2": "Different nerves supply different fingers. The ulnar nerve has a specific territory.",
+        "3": "The middle finger is mainly median nerve. Ulnar is ring and little finger."
+      }
+    },
+    {
+      "q": "What happens if the brachial plexus is severely injured?",
+      "options": [
+        "Only mild tingling",
+        "Complete arm paralysis and sensory loss",
+        "Only leg weakness",
+        "Only facial drooping"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Severe BRACHIAL PLEXUS INJURY causes COMPLETE ARM PARALYSIS and sensory loss — the entire arm loses motor and sensory function. This is called a 'flail arm.'",
+      "wrongExplains": {
+        "0": "Severe injury causes more than tingling — it can completely paralyze the arm.",
+        "2": "The brachial plexus supplies the arm, not the legs.",
+        "3": "Facial drooping is from facial nerve (cranial nerve VII) damage, not brachial plexus."
+      }
+    },
+    {
+      "q": "What is the relationship between the ulnar nerve and brachial plexus?",
+      "options": [
+        "They are completely unrelated",
+        "The ulnar nerve is a terminal branch of the brachial plexus",
+        "The ulnar nerve controls the brachial plexus",
+        "They are in different parts of the body"
+      ],
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! The brachial plexus has three cords (lateral, medial, posterior). The ulnar nerve comes from the medial cord, which is formed from C8-T1 fibers."
+      "explain": "The ulnar nerve is a TERMINAL BRANCH of the brachial plexus. It originates from the medial cord (C8-T1) and travels to supply the hand. Injury to the ulnar IS injury to a brachial plexus nerve.",
+      "wrongExplains": {
+        "0": "They are directly related — the ulnar nerve comes FROM the brachial plexus.",
+        "2": "The brachial plexus gives rise to the ulnar nerve, not vice versa.",
+        "3": "They are in the same region — both are in the arm/upper extremity."
+      }
     },
     {
-      "q": "Since the ulnar nerve comes from the brachial plexus, injury to this nerve is injury to a brachial plexus branch.",
+      "q": "The ulnar nerve (at the 'funny bone') is a nerve from which plexus?",
       "options": [
-        "True",
-        "False"
+        "Cervical plexus",
+        "Brachial plexus",
+        "Lumbar plexus",
+        "Sacral plexus"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The ulnar nerve is a brachial plexus nerve. Any injury to the ulnar nerve (like hitting your funny bone) affects a nerve from the brachial plexus distribution."
+      "explain": "The BRACHIAL PLEXUS! The ulnar nerve originates from the medial cord of the brachial plexus (C8-T1). Hitting your funny bone stimulates a brachial plexus nerve.",
+      "wrongExplains": {
+        "0": "The cervical plexus (C1-C4) supplies the neck and diaphragm, not the arm.",
+        "2": "The lumbar plexus supplies the thigh. The ulnar nerve is in the arm.",
+        "3": "The sacral plexus supplies the leg and pelvis. The ulnar nerve is in the arm."
+      }
     }
   ]
 }

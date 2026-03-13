@@ -3,94 +3,157 @@
   "parentQuestion": "A patient presents with bilateral loss of proprioception and vibration sense in the legs, but pain and temperature sensation are intact. The patient has a wide-based, unsteady gait and positive Romberg sign (increased instability when eyes are closed). This pattern suggests selective damage to ___.",
   "scaffolds": [
     {
-      "q": "Proprioception tells you where your body parts are in space without looking.",
+      "q": "What is proprioception?",
       "options": [
-        "True",
-        "False"
+        "The ability to see in the dark",
+        "The sense of body position — knowing where limbs are without looking",
+        "The ability to hear sounds",
+        "The sense of taste"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Proprioception is your internal position sense. Close your eyes and touch your nose - proprioception lets you know where your finger and nose are. It's your body's GPS."
+      "explain": "PROPRIOCEPTION is your internal POSITION SENSE. Close your eyes and touch your nose — proprioception lets you know where your finger and nose are. It's your body's GPS.",
+      "wrongExplains": {
+        "0": "Night vision involves the eyes. Proprioception is body position sense.",
+        "2": "Hearing uses the ears. Proprioception tells you where body parts are.",
+        "3": "Taste uses the tongue. Proprioception is position sense."
+      }
     },
     {
-      "q": "Vibration sense is tested by placing a vibrating tuning fork on the skin.",
+      "q": "How is vibration sense tested?",
       "options": [
-        "True",
-        "False"
+        "By asking the patient to identify sounds",
+        "By placing a vibrating tuning fork on the skin",
+        "By checking pupil reactions",
+        "By testing muscle strength"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Doctors test vibration sense by striking a tuning fork and placing it on a bony area (like the ankle). You should feel the buzzing vibration."
+      "explain": "Doctors test vibration sense by striking a TUNING FORK and placing it on a bony area (like the ankle or toe). You should feel the buzzing vibration.",
+      "wrongExplains": {
+        "0": "Sound identification tests hearing. Vibration is tested with a tuning fork on skin.",
+        "2": "Pupil reactions test cranial nerves. Vibration uses a tuning fork.",
+        "3": "Muscle strength is motor function. Vibration sense is sensory."
+      }
     },
     {
-      "q": "Proprioception and vibration travel in the same pathway in the spinal cord.",
+      "q": "Do proprioception and vibration travel in the same pathway?",
       "options": [
-        "True",
-        "False"
+        "No, they use completely separate pathways",
+        "Yes, both travel in the dorsal columns (posterior columns)",
+        "Proprioception uses motor pathways",
+        "Vibration uses pain pathways"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Both proprioception and vibration travel in the dorsal columns (posterior columns) - the back part of the spinal cord. Damage here affects both together."
+      "explain": "Both proprioception and vibration travel in the DORSAL COLUMNS (posterior columns) — the back part of the spinal cord. Damage here affects BOTH together.",
+      "wrongExplains": {
+        "0": "They actually share the same pathway — that's why they're often affected together.",
+        "2": "Proprioception is sensory, not motor. It travels in the dorsal columns.",
+        "3": "Pain uses the spinothalamic tract. Vibration uses the dorsal columns."
+      }
     },
     {
-      "q": "Pain and temperature travel in a DIFFERENT pathway than proprioception.",
+      "q": "Does pain/temperature use the same pathway as proprioception?",
       "options": [
-        "True",
-        "False"
+        "Yes, all sensations use one pathway",
+        "No, pain/temp uses a DIFFERENT pathway than proprioception",
+        "There is only one sensory pathway",
+        "Pain doesn't have a pathway"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Pain/temperature travel in the spinothalamic tract (anterolateral cord), while proprioception/vibration travel in the dorsal columns (posterior cord). Different pathways can be damaged separately."
+      "explain": "Pain/temperature travel in the SPINOTHALAMIC TRACT (anterolateral cord), while proprioception/vibration travel in the DORSAL COLUMNS (posterior cord). Different pathways can be damaged separately!",
+      "wrongExplains": {
+        "0": "Different sensations use different pathways — that's clinically important.",
+        "2": "Multiple distinct sensory pathways exist in the spinal cord.",
+        "3": "Pain definitely has a pathway — the spinothalamic tract."
+      }
     },
     {
-      "q": "The dorsal columns are located at the BACK (posterior) of the spinal cord.",
+      "q": "Where are the dorsal columns located?",
       "options": [
-        "True",
-        "False"
+        "At the front of the spinal cord",
+        "At the BACK (posterior) of the spinal cord",
+        "Outside the spinal cord",
+        "In the brain only"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Dorsal = back. The dorsal columns run along the posterior surface of the spinal cord. They carry proprioception, vibration, and fine touch."
+      "explain": "DORSAL = BACK. The dorsal columns run along the POSTERIOR surface of the spinal cord. They carry proprioception, vibration, and fine touch.",
+      "wrongExplains": {
+        "0": "The front (anterior) contains motor pathways. Dorsal columns are posterior.",
+        "2": "Dorsal columns are inside the spinal cord, along its back surface.",
+        "3": "The dorsal columns run the length of the spinal cord, not just in the brain."
+      }
     },
     {
-      "q": "If you lose proprioception, you have trouble knowing where your feet are without looking at them.",
+      "q": "What happens if you lose proprioception in your legs?",
       "options": [
-        "True",
-        "False"
+        "You can walk normally without any issues",
+        "You have trouble knowing where your feet are without looking",
+        "You become deaf",
+        "Your legs become stronger"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Without proprioception, you lose your internal body map. You'd have to watch your feet while walking, and you'd be very unsteady with your eyes closed."
+      "explain": "Without proprioception, you lose your internal body map. You'd have to WATCH your feet while walking, and you'd be very unsteady with eyes closed.",
+      "wrongExplains": {
+        "0": "Walking requires proprioception. Without it, gait becomes unsteady.",
+        "2": "Deafness involves hearing. Proprioception loss affects position sense.",
+        "3": "Proprioception loss causes coordination problems, not strength gains."
+      }
     },
     {
-      "q": "The Romberg sign tests whether a patient can stand steadily with eyes closed.",
+      "q": "What does the Romberg test assess?",
       "options": [
-        "True",
-        "False"
+        "Hearing ability",
+        "Whether a patient can stand steadily with eyes closed",
+        "Memory function",
+        "Blood pressure"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The Romberg test has the patient stand with feet together. If they sway or fall only when eyes are CLOSED (not open), it means they're relying on vision to compensate for lost proprioception."
+      "explain": "The ROMBERG TEST has the patient stand with feet together. If they sway or fall only when eyes are CLOSED (not open), they're relying on vision to compensate for lost proprioception.",
+      "wrongExplains": {
+        "0": "Hearing tests use different methods. Romberg tests proprioception/balance.",
+        "2": "Memory is cognitive testing. Romberg tests positional stability.",
+        "3": "Blood pressure is measured with a cuff. Romberg tests stance stability."
+      }
     },
     {
-      "q": "A positive Romberg sign (falling with eyes closed) indicates a problem with proprioception, not balance centers.",
+      "q": "What does a positive Romberg sign (falling with eyes closed) indicate?",
       "options": [
-        "True",
-        "False"
+        "Cerebellar damage",
+        "Proprioception loss — vision was compensating",
+        "Normal balance",
+        "Inner ear infection"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! If the balance centers (cerebellum) were damaged, the patient would be unsteady even with eyes OPEN. When they're only unsteady with eyes CLOSED, it means vision was compensating for lost proprioception. Closing eyes removes that compensation."
+      "explain": "If the patient is only unsteady with eyes CLOSED, it means vision was compensating for lost proprioception. Closing eyes removes that compensation. Cerebellar damage causes unsteadiness even with eyes OPEN.",
+      "wrongExplains": {
+        "0": "Cerebellar damage causes ataxia even with eyes open. Positive Romberg = proprioception loss.",
+        "2": "Falling is not normal balance. It indicates sensory compensation was needed.",
+        "3": "Inner ear problems cause vertigo. This pattern suggests dorsal column dysfunction."
+      }
     },
     {
-      "q": "Bilateral loss of proprioception/vibration with intact pain/temperature suggests damage to the dorsal columns specifically.",
+      "q": "What does bilateral proprioception/vibration loss with intact pain suggest?",
       "options": [
-        "True",
-        "False"
+        "Complete spinal cord injury",
+        "Selective damage to the dorsal columns specifically",
+        "Normal findings",
+        "Muscle disease"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! This pattern of dissociated sensory loss (some modalities lost, others preserved) localizes to the dorsal columns. The spinothalamic tract (pain/temp) is intact. Common causes: B12 deficiency, tabes dorsalis, multiple sclerosis."
+      "explain": "This pattern of DISSOCIATED SENSORY LOSS (some modalities lost, others preserved) localizes to the DORSAL COLUMNS. The spinothalamic tract (pain/temp) is intact. Common causes: B12 deficiency, tabes dorsalis, multiple sclerosis.",
+      "wrongExplains": {
+        "0": "Complete injury would affect all pathways. This is selective dorsal column damage.",
+        "2": "Sensory loss is definitely abnormal, not normal.",
+        "3": "Muscle disease affects strength, not sensory pathways."
+      }
     }
   ]
 }

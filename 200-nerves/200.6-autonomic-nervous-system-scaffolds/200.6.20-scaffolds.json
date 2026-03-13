@@ -1,26 +1,159 @@
 {
   "parentId": "200.6.20",
-  "parentQuestion": "A 70-year-old man with benign prostatic hyperplasia (BPH) has difficulty initiat...",
+  "parentQuestion": "A 70-year-old man with benign prostatic hyperplasia (BPH) has difficulty initiating urination. Tamsulosin (α1-blocker) is prescribed. Why?",
   "scaffolds": [
     {
-      "q": "The prostate gland surrounds the urethra and can obstruct urine flow when enlarged.",
+      "q": "What is benign prostatic hyperplasia (BPH)?",
       "options": [
-        "True",
-        "False"
+        "Cancer of the prostate",
+        "Non-cancerous enlargement of the prostate gland",
+        "A urinary tract infection",
+        "A kidney disease"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "In BPH, the prostate enlarges and compresses the urethra like a hand squeezing a straw. both the bulk of the tissue AND the tension in the smooth muscle within the prostate contribute to obstruction. Reduce the tension, and flow improves even if the gland is still enlarged."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "BPH is NON-CANCEROUS (benign) ENLARGEMENT (hyperplasia) of the prostate gland. It's very common in older men and can cause urinary symptoms by compressing the urethra.",
+      "wrongExplains": {
+        "0": "Cancer is malignant. BPH is specifically BENIGN — non-cancerous growth.",
+        "2": "UTIs are infections. BPH is anatomical enlargement of the prostate.",
+        "3": "Kidney disease is different. BPH affects the prostate gland."
+      }
     },
     {
-      "q": "α1 receptors mediate smooth muscle contraction in response to sympathetic activation.",
+      "q": "Where is the prostate gland located relative to the urethra?",
       "options": [
-        "True",
-        "False"
+        "Far from the urethra",
+        "The prostate surrounds the urethra",
+        "In the kidney",
+        "In the bladder wall"
       ],
-      "answer": 0,
-      "chapter": "Chapter 14 — Autonomic Nervous System",
-      "explain": "α1 receptors are Gq-coupled — activation increases intracellular Ca²⁺ and causes smooth muscle contraction. in the prostate and bladder neck, this sympathetic tone keeps the outlet closed between urinations. Allow this to wash over you:the sphincter grip."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The prostate SURROUNDS the urethra as it exits the bladder. When the prostate enlarges, it compresses the urethra like a hand squeezing a straw, obstructing urine flow.",
+      "wrongExplains": {
+        "0": "The prostate is intimately wrapped around the urethra — that's why BPH causes urinary symptoms.",
+        "2": "The kidney is in the upper abdomen. The prostate is in the pelvis around the urethra.",
+        "3": "The prostate is below the bladder, surrounding the urethra as it exits."
+      }
+    },
+    {
+      "q": "Why does prostate enlargement cause difficulty urinating?",
+      "options": [
+        "It has no effect on urination",
+        "The enlarged prostate compresses the urethra, obstructing flow",
+        "It increases urine production",
+        "It blocks kidney function"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The enlarged prostate SQUEEZES the urethra, narrowing the passage. This makes it hard to START urinating, creates a weak stream, and may cause incomplete emptying.",
+      "wrongExplains": {
+        "0": "Prostate enlargement definitely affects urination — that's the main symptom.",
+        "2": "BPH doesn't affect urine production. It obstructs the urethra mechanically.",
+        "3": "BPH affects the prostate/urethra, not the kidneys directly."
+      }
+    },
+    {
+      "q": "The prostate contains smooth muscle with α1 receptors. What does α1 activation do?",
+      "options": [
+        "Relaxes smooth muscle",
+        "Causes smooth muscle contraction",
+        "Has no effect on muscle",
+        "Dissolves muscle"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "α1 receptor activation causes smooth muscle CONTRACTION. In the prostate and bladder neck, this sympathetic tone keeps the urinary outlet closed between urinations.",
+      "wrongExplains": {
+        "0": "Relaxation would require BLOCKING α1 or activating β2. α1 activation contracts muscle.",
+        "2": "α1 receptors definitely affect smooth muscle — they cause contraction.",
+        "3": "Receptors don't dissolve tissue; they control muscle tension."
+      }
+    },
+    {
+      "q": "In BPH, urinary obstruction has TWO components. What are they?",
+      "options": [
+        "Only bone compression",
+        "Physical bulk of enlarged tissue AND smooth muscle tension",
+        "Only nervous system problems",
+        "Only bladder weakness"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "BPH obstruction has TWO parts: (1) the physical BULK of enlarged prostate tissue, and (2) SMOOTH MUSCLE TENSION from α1-mediated contraction. You can reduce the second component with medication.",
+      "wrongExplains": {
+        "0": "The prostate is soft tissue, not bone. Obstruction is from tissue bulk and muscle tension.",
+        "2": "The problem is local prostate enlargement, not primarily nervous system dysfunction.",
+        "3": "The bladder is usually trying hard to empty. The obstruction is at the prostate."
+      }
+    },
+    {
+      "q": "What is tamsulosin?",
+      "options": [
+        "An antibiotic",
+        "An α1-adrenergic receptor blocker",
+        "A hormone",
+        "A pain reliever"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Tamsulosin is an α1-BLOCKER — it blocks α1-adrenergic receptors. By blocking these receptors in the prostate, it reduces smooth muscle tension and improves urinary flow.",
+      "wrongExplains": {
+        "0": "Antibiotics treat infections. Tamsulosin blocks α1 receptors.",
+        "2": "Tamsulosin is a receptor blocker, not a hormone.",
+        "3": "Pain relievers work differently. Tamsulosin targets α1 receptors to relax prostatic smooth muscle."
+      }
+    },
+    {
+      "q": "When α1 receptors in the prostate are blocked by tamsulosin, what happens?",
+      "options": [
+        "Smooth muscle contracts more",
+        "Smooth muscle relaxes, reducing urethral compression",
+        "The prostate shrinks",
+        "No effect"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Blocking α1 receptors causes smooth muscle RELAXATION. The prostate and bladder neck relax, reducing compression on the urethra and improving urine flow.",
+      "wrongExplains": {
+        "0": "Blocking α1 causes relaxation, not more contraction. Contraction requires α1 activation.",
+        "2": "Tamsulosin doesn't shrink the prostate (other drugs like finasteride do). It relaxes the muscle.",
+        "3": "There IS a significant effect — smooth muscle relaxation improves urine flow."
+      }
+    },
+    {
+      "q": "A common side effect of α1-blockers like tamsulosin is ___.",
+      "options": [
+        "High blood pressure",
+        "Orthostatic hypotension (dizziness when standing)",
+        "Weight gain",
+        "Insomnia"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "α1-blockers also relax blood vessel smooth muscle, causing VASODILATION and potentially ORTHOSTATIC HYPOTENSION (blood pressure drops when standing). Patients should stand up slowly.",
+      "wrongExplains": {
+        "0": "α1-blockers LOWER blood pressure by causing vasodilation, not raise it.",
+        "2": "Weight gain isn't a typical α1-blocker side effect. Blood pressure effects are more common.",
+        "3": "Insomnia isn't typical. The main concern is orthostatic hypotension."
+      }
+    },
+    {
+      "q": "Summary: Tamsulosin helps BPH symptoms by ___.",
+      "options": [
+        "Killing prostate cells",
+        "Blocking α1 receptors to relax prostatic smooth muscle",
+        "Increasing prostate size",
+        "Stopping urine production"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Tamsulosin BLOCKS α1 RECEPTORS in the prostate, causing smooth muscle RELAXATION. This reduces the dynamic (muscular) component of obstruction and improves urine flow.",
+      "wrongExplains": {
+        "0": "Tamsulosin relaxes muscle; it doesn't kill cells. Other drugs can shrink the prostate.",
+        "2": "Tamsulosin doesn't change prostate size. It reduces muscle tension.",
+        "3": "Tamsulosin affects the outlet, not urine production."
+      }
     }
   ]
 }
