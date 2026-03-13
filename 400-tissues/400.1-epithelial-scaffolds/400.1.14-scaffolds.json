@@ -1,30 +1,159 @@
 {
   "parentId": "400.1.14",
-  "parentQuestion": "A patient presents with difficulty swallowing and endoscopy reveals white patche...",
+  "parentQuestion": "A patient presents with difficulty swallowing and endoscopy reveals white patches in the esophagus. Biopsy shows keratinization of the normally non-keratinized epithelium. This represents ___.",
   "scaffolds": [
     {
-      "q": "What type of stratified squamous epithelium is found in the oral cavity and esophagus?",
+      "q": "What type of epithelium normally lines the esophagus?",
       "options": [
-        "Keratinized",
-        "Non-keratinized",
-        "Transitional",
-        "Ciliated"
+        "Keratinized stratified squamous",
+        "Non-keratinized stratified squamous",
+        "Simple columnar",
+        "Transitional"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "The oral cavity and esophagus are lined by NON-keratinized stratified squamous epithelium. These are wet internal surfaces that need to stay moist and flexible, so the surface cells remain alive rather than becoming keratinized."
+      "difficulty": "foundation",
+      "explain": "The esophagus is lined by NON-KERATINIZED STRATIFIED SQUAMOUS epithelium. It provides protection against abrasion while remaining moist and flexible for swallowing.",
+      "wrongExplains": {
+        "0": "Keratinized epithelium is in skin; esophagus needs to stay moist.",
+        "2": "Simple columnar lines the stomach and intestines.",
+        "3": "Transitional is in the urinary system."
+      }
     },
     {
-      "q": "What does keratinization do to epithelial cells?",
+      "q": "What is the difference between keratinized and non-keratinized epithelium?",
       "options": [
-        "Makes them moist and flexible",
-        "Fills them with tough protein and causes cell death",
-        "Increases their number",
-        "Makes them columnar"
+        "Number of layers",
+        "Keratinized has dead, keratin-filled surface cells; non-keratinized surface cells are alive",
+        "Cell shape",
+        "Location of blood vessels"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Keratinization is the process where epithelial cells fill with keratin protein and die, creating a tough, waterproof barrier. This is normal in skin but abnormal in wet internal surfaces like the mouth and esophagus."
+      "difficulty": "foundation",
+      "explain": "KERATINIZED epithelium has DEAD, keratin-filled surface cells; NON-KERATINIZED surface cells remain ALIVE. Skin is keratinized (dry); mouth/esophagus are non-keratinized (moist).",
+      "wrongExplains": {
+        "0": "Both can have similar layers; the difference is surface cell vitality.",
+        "2": "Both have squamous (flat) surface cells.",
+        "3": "Both are avascular; blood vessels are in underlying connective tissue."
+      }
+    },
+    {
+      "q": "What is keratinization?",
+      "options": [
+        "Cell growth",
+        "The process where cells fill with keratin protein and die",
+        "Cell division",
+        "Mucus secretion"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "KERATINIZATION is the process where epithelial cells FILL WITH KERATIN PROTEIN and DIE. This creates a tough, waterproof outer layer (normal in skin, abnormal in esophagus).",
+      "wrongExplains": {
+        "0": "Keratinization involves cell death, not growth.",
+        "2": "Cell division is separate from keratinization.",
+        "3": "Goblet cells secrete mucus; keratinization fills cells with protein."
+      }
+    },
+    {
+      "q": "Why should the esophagus NOT be keratinized?",
+      "options": [
+        "It would absorb too much food",
+        "It would become dry, stiff, and unable to stretch for swallowing",
+        "It would produce too much mucus",
+        "It would grow too fast"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Keratinization would make the esophagus DRY, STIFF, and unable to STRETCH for swallowing. The esophagus needs moist, flexible epithelium to transport food.",
+      "wrongExplains": {
+        "0": "The esophagus doesn't absorb food; it transports it.",
+        "2": "Keratinization doesn't increase mucus; it creates dry tissue.",
+        "3": "Keratinization doesn't affect growth rate."
+      }
+    },
+    {
+      "q": "What would keratinized patches in the esophagus look like?",
+      "options": [
+        "Red and inflamed",
+        "White patches (leukoplakia)",
+        "Transparent",
+        "Blue-colored"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Keratinized patches appear as WHITE PATCHES (leukoplakia). The keratin protein is white/opaque, making abnormally keratinized areas visible as white lesions.",
+      "wrongExplains": {
+        "0": "Inflammation is red; keratin is white.",
+        "2": "Keratin is opaque, not transparent.",
+        "3": "Keratin is white; blue indicates other issues like cyanosis."
+      }
+    },
+    {
+      "q": "What causes abnormal keratinization in the esophagus?",
+      "options": [
+        "Normal aging",
+        "Chronic irritation (alcohol, smoking, vitamin deficiencies)",
+        "Eating too fast",
+        "Drinking cold water"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CHRONIC IRRITATION (alcohol, smoking, vitamin A/B deficiency) causes abnormal keratinization. The epithelium adapts to stress by becoming tougher, like skin.",
+      "wrongExplains": {
+        "0": "This is pathological, not normal aging.",
+        "2": "Eating speed doesn't cause keratinization.",
+        "3": "Temperature doesn't cause keratinization."
+      }
+    },
+    {
+      "q": "Why is esophageal keratinization clinically important?",
+      "options": [
+        "It improves swallowing",
+        "It indicates chronic irritation and may precede cancer",
+        "It protects against acid",
+        "It's always harmless"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Esophageal keratinization indicates CHRONIC IRRITATION and MAY PRECEDE CANCER. Leukoplakia is a premalignant condition that requires monitoring.",
+      "wrongExplains": {
+        "0": "Keratinization impairs swallowing by stiffening the tissue.",
+        "2": "Keratinization doesn't protect against acid.",
+        "3": "It's a warning sign of chronic damage and potential malignancy."
+      }
+    },
+    {
+      "q": "What is the term for white patches caused by keratinization?",
+      "options": [
+        "Erythema",
+        "Leukoplakia",
+        "Melanoma",
+        "Hyperemia"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "LEUKOPLAKIA means 'white patch' (leuko = white, plakia = patch). It describes white keratinized areas on mucous membranes where keratinization shouldn't occur.",
+      "wrongExplains": {
+        "0": "Erythema means redness from increased blood flow.",
+        "2": "Melanoma is a pigmented skin cancer.",
+        "3": "Hyperemia is increased blood flow causing redness."
+      }
+    },
+    {
+      "q": "White patches with keratinization in the normally non-keratinized esophagus represents ___?",
+      "options": [
+        "Normal variation",
+        "Pathological keratinization (leukoplakia) due to chronic irritation",
+        "Improved protection",
+        "Bacterial infection"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "This is PATHOLOGICAL KERATINIZATION (LEUKOPLAKIA) due to CHRONIC IRRITATION. Non-keratinized epithelium shouldn't keratinize; this indicates tissue stress and potential premalignancy.",
+      "wrongExplains": {
+        "0": "Keratinization in the esophagus is abnormal, not normal.",
+        "2": "This impairs function and indicates damage, not improved protection.",
+        "3": "Keratinization is cellular change, not infection (though infection can be a cause)."
+      }
     }
   ]
 }

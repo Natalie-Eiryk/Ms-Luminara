@@ -1,30 +1,159 @@
 {
   "parentId": "400.1.12",
-  "parentQuestion": "A patient with primary ciliary dyskinesia (Kartagener syndrome) has immotile cil...",
+  "parentQuestion": "A patient with primary ciliary dyskinesia (Kartagener syndrome) has immotile cilia. Which structures would be affected?",
   "scaffolds": [
+    {
+      "q": "What are cilia?",
+      "options": [
+        "Large organelles inside cells",
+        "Tiny hair-like projections that beat in coordinated waves",
+        "Protein channels in membranes",
+        "Type of connective tissue"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CILIA are TINY HAIR-LIKE PROJECTIONS that BEAT IN COORDINATED WAVES. They move fluids and substances across epithelial surfaces.",
+      "wrongExplains": {
+        "0": "Cilia extend from cells; they're not internal organelles.",
+        "2": "Cilia are structural projections, not membrane channels.",
+        "3": "Cilia are on epithelial cells, not connective tissue."
+      }
+    },
+    {
+      "q": "What is primary ciliary dyskinesia?",
+      "options": [
+        "Overgrowth of cilia",
+        "A genetic disorder causing defective, immotile cilia",
+        "Infection of ciliated tissues",
+        "Cancer of ciliated cells"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "PRIMARY CILIARY DYSKINESIA is a GENETIC DISORDER causing DEFECTIVE, IMMOTILE CILIA. Without proper ciliary movement, mucociliary clearance fails.",
+      "wrongExplains": {
+        "0": "The problem is dysfunctional cilia, not overgrowth.",
+        "2": "It's a genetic defect, not an infection.",
+        "3": "It's a functional disorder, not cancer."
+      }
+    },
     {
       "q": "What is the primary function of cilia on epithelial cells?",
       "options": [
-        "Increase surface area",
-        "Move substances across the surface",
-        "Absorb nutrients",
-        "Secrete mucus"
+        "Increase surface area for absorption",
+        "Move substances across the epithelial surface",
+        "Anchor cells to basement membrane",
+        "Produce mucus"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "The primary function of cilia is to move substances across the epithelial surface through coordinated beating. They act like tiny oars creating currents."
+      "difficulty": "foundation",
+      "explain": "Cilia MOVE SUBSTANCES across epithelial surfaces. They beat in coordinated waves to propel mucus, eggs, or cerebrospinal fluid.",
+      "wrongExplains": {
+        "0": "Microvilli increase surface area; cilia provide movement.",
+        "2": "Hemidesmosomes anchor cells; cilia move substances.",
+        "3": "Goblet cells produce mucus; cilia move it."
+      }
     },
     {
       "q": "What are microvilli?",
       "options": [
-        "Motile hair-like projections",
-        "Short non-motile projections that increase surface area",
-        "Cellular organelles",
-        "Gap junctions between cells"
+        "Motile projections that beat",
+        "Non-motile projections that increase surface area for absorption",
+        "Ciliated cells",
+        "Secretory granules"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Microvilli are short, non-motile cellular projections that increase surface area for absorption. They're found on intestinal cells (forming the brush border) and kidney tubule cells."
+      "difficulty": "foundation",
+      "explain": "MICROVILLI are NON-MOTILE projections that INCREASE SURFACE AREA for absorption. They're found on intestinal cells (brush border) and kidney tubules.",
+      "wrongExplains": {
+        "0": "Cilia are motile; microvilli are stationary.",
+        "2": "Microvilli are structures on cells, not cell types.",
+        "3": "Secretory granules store substances; microvilli are absorptive projections."
+      }
+    },
+    {
+      "q": "Where are cilia found in the body?",
+      "options": [
+        "Only in the lungs",
+        "Respiratory tract, fallopian tubes, ependymal cells, and middle ear",
+        "Only in the digestive tract",
+        "Only in blood vessels"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Cilia are found in the RESPIRATORY TRACT (mucus clearance), FALLOPIAN TUBES (egg transport), EPENDYMAL cells (CSF flow), and MIDDLE EAR.",
+      "wrongExplains": {
+        "0": "Cilia are in multiple body systems, not just lungs.",
+        "2": "The digestive tract has microvilli, not cilia.",
+        "3": "Blood vessels have endothelium, not ciliated epithelium."
+      }
+    },
+    {
+      "q": "How would defective cilia affect the respiratory system?",
+      "options": [
+        "Improved oxygen absorption",
+        "Failure to clear mucus and debris, leading to chronic infections",
+        "Increased mucus production",
+        "Better protection against pathogens"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Defective cilia cause FAILURE TO CLEAR MUCUS and debris, leading to CHRONIC INFECTIONS. The mucociliary escalator stops working.",
+      "wrongExplains": {
+        "0": "Cilia don't absorb oxygen; they clear debris.",
+        "2": "Mucus accumulates due to failed clearance, not increased production.",
+        "3": "Without clearance, infection risk increases."
+      }
+    },
+    {
+      "q": "How would defective cilia affect fertility?",
+      "options": [
+        "No effect",
+        "Female infertility (eggs can't reach uterus) and male infertility (immotile sperm)",
+        "Increased fertility",
+        "Only affects males"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Defective cilia cause FEMALE INFERTILITY (fallopian tube cilia can't move eggs) and MALE INFERTILITY (sperm flagella, related to cilia, are defective).",
+      "wrongExplains": {
+        "0": "Cilia are essential for egg transport and sperm motility.",
+        "2": "Defective cilia impair fertility, not improve it.",
+        "3": "Both sexes are affected due to ciliary defects."
+      }
+    },
+    {
+      "q": "What is Kartagener syndrome?",
+      "options": [
+        "A heart defect",
+        "Primary ciliary dyskinesia with situs inversus (reversed organ positions)",
+        "A lung infection",
+        "An allergy"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "KARTAGENER SYNDROME is primary ciliary dyskinesia WITH SITUS INVERSUS (mirror-reversed organs). Cilia are needed for proper organ positioning during development.",
+      "wrongExplains": {
+        "0": "It involves multiple systems, not just the heart.",
+        "2": "Infections result from the syndrome but aren't the syndrome itself.",
+        "3": "It's a genetic ciliary disorder, not an allergy."
+      }
+    },
+    {
+      "q": "In primary ciliary dyskinesia, which structures would be affected by immotile cilia?",
+      "options": [
+        "Only the lungs",
+        "Respiratory tract, fallopian tubes, sperm, ependymal cells, and middle ear",
+        "Only reproductive organs",
+        "Only the digestive tract"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Immotile cilia affect ALL CILIATED STRUCTURES: RESPIRATORY TRACT (infections), FALLOPIAN TUBES (infertility), SPERM (infertility), EPENDYMAL cells (CSF flow), and MIDDLE EAR (infections).",
+      "wrongExplains": {
+        "0": "All ciliated tissues are affected, not just lungs.",
+        "2": "Respiratory and other systems are also affected.",
+        "3": "The digestive tract has microvilli, not cilia."
+      }
     }
   ]
 }

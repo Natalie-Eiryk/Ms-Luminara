@@ -3,94 +3,157 @@
   "parentQuestion": "The connective tissue that stores fat is called ___.",
   "scaffolds": [
     {
-      "q": "The body stores energy for later use.",
+      "q": "What is adipose tissue?",
       "options": [
-        "True",
-        "False"
+        "Tissue that forms bones",
+        "Connective tissue specialized for fat storage",
+        "Tissue that transmits nerve signals",
+        "Tissue that contracts for movement"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! When you eat more calories than you burn, the excess is stored for times when food is scarce."
+      "explain": "ADIPOSE TISSUE is CONNECTIVE TISSUE specialized for FAT STORAGE. 'Adipo-' means fat. It stores triglycerides in specialized cells called adipocytes.",
+      "wrongExplains": {
+        "0": "Bone tissue (osseous tissue) forms bones.",
+        "2": "Nervous tissue transmits signals.",
+        "3": "Muscle tissue contracts for movement."
+      }
     },
     {
-      "q": "Fat (triglycerides) is the body's main long-term energy storage molecule.",
+      "q": "What is the body's main long-term energy storage molecule?",
       "options": [
-        "True",
-        "False"
+        "Glycogen",
+        "Fat (triglycerides)",
+        "Protein",
+        "Glucose"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Fat contains more than twice the energy per gram compared to carbohydrates. Very efficient storage!"
+      "explain": "FAT (TRIGLYCERIDES) is the main LONG-TERM energy storage molecule. It contains more than twice the energy per gram compared to carbohydrates.",
+      "wrongExplains": {
+        "0": "Glycogen is short-term storage in liver and muscles.",
+        "2": "Protein is structural; it's not primarily for energy storage.",
+        "3": "Glucose is immediate fuel, not long-term storage."
+      }
     },
     {
-      "q": "Specialized cells store fat in large droplets that fill most of the cell.",
+      "q": "What are adipocytes?",
       "options": [
-        "True",
-        "False"
+        "Bone-building cells",
+        "Fat-storing cells filled with lipid droplets",
+        "Cartilage cells",
+        "Blood cells"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Fat cells (adipocytes) are mostly filled with one giant lipid droplet - the nucleus gets pushed to the edge."
+      "explain": "ADIPOCYTES are FAT-STORING CELLS filled with large LIPID DROPLETS. The droplet pushes the nucleus to the cell's edge, making them look like signet rings.",
+      "wrongExplains": {
+        "0": "Osteoblasts build bone.",
+        "2": "Chondrocytes are cartilage cells.",
+        "3": "Blood cells include RBCs, WBCs, and platelets."
+      }
     },
     {
-      "q": "The tissue made of fat-storing cells is called ADIPOSE tissue.",
+      "q": "What functions does adipose tissue perform besides energy storage?",
       "options": [
-        "True",
-        "False"
+        "Only energy storage",
+        "Insulation, cushioning, and hormone secretion",
+        "Blood cell production",
+        "Nerve signal transmission"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! 'Adipo-' means fat. Adipose tissue = fat tissue."
+      "explain": "Adipose tissue provides INSULATION (under skin), CUSHIONING (around organs), and HORMONE SECRETION (leptin and other adipokines). It's an endocrine organ!",
+      "wrongExplains": {
+        "0": "Adipose has multiple functions beyond storage.",
+        "2": "Bone marrow produces blood cells.",
+        "3": "Nervous tissue transmits signals."
+      }
     },
     {
-      "q": "Adipose tissue is classified as connective tissue.",
+      "q": "What hormone does adipose tissue secrete that signals satiety?",
       "options": [
-        "True",
-        "False"
+        "Insulin",
+        "Leptin",
+        "Glucagon",
+        "Cortisol"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Despite being mostly fat droplets, adipose tissue is a type of connective tissue because of its developmental origin and matrix."
+      "explain": "Adipose tissue secretes LEPTIN, which signals SATIETY (fullness) to the brain. More fat stores = more leptin = less hunger (in theory).",
+      "wrongExplains": {
+        "0": "Insulin is secreted by pancreatic beta cells.",
+        "2": "Glucagon is secreted by pancreatic alpha cells.",
+        "3": "Cortisol is secreted by adrenal glands."
+      }
     },
     {
-      "q": "Adipose tissue does MORE than just store fat - it also secretes hormones.",
+      "q": "Why is adipose tissue classified as connective tissue?",
       "options": [
-        "True",
-        "False"
+        "Because it contracts",
+        "Because of its developmental origin and matrix structure",
+        "Because it conducts electricity",
+        "Because it covers body surfaces"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Adipose tissue is an endocrine organ. It releases leptin (satiety signal) and other hormones that affect metabolism."
+      "explain": "Adipose is classified as connective tissue due to its DEVELOPMENTAL ORIGIN (from mesenchyme) and having an extracellular MATRIX, even though it's mostly fat droplets.",
+      "wrongExplains": {
+        "0": "Muscle tissue contracts.",
+        "2": "Nervous tissue conducts electrical signals.",
+        "3": "Epithelial tissue covers body surfaces."
+      }
     },
     {
-      "q": "Adipose tissue also provides insulation and cushioning for organs.",
+      "q": "Where is adipose tissue found in the body?",
       "options": [
-        "True",
-        "False"
+        "Only in the abdominal cavity",
+        "Under skin (subcutaneous), around organs, and in bone marrow",
+        "Only in muscles",
+        "Only in the brain"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Fat under your skin insulates against cold, and fat around kidneys protects them from impact."
+      "explain": "Adipose tissue is found UNDER SKIN (subcutaneous), AROUND ORGANS (visceral), and in BONE MARROW (yellow marrow). Distribution varies by individual.",
+      "wrongExplains": {
+        "0": "Adipose is distributed throughout the body.",
+        "2": "Some fat infiltrates muscle, but it's mainly elsewhere.",
+        "3": "The brain has myelin (fatty), but not adipose tissue stores."
+      }
     },
     {
-      "q": "ADIPOSE tissue stores fat in specialized cells called adipocytes.",
+      "q": "What gives white adipose tissue its color?",
       "options": [
-        "True",
-        "False"
+        "Blood vessels",
+        "The yellow color of stored lipids",
+        "Muscle fibers",
+        "Bone marrow"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! These cells are designed for fat storage - each is essentially a giant triglyceride droplet with a rim of cytoplasm."
+      "explain": "White adipose tissue appears WHITE to YELLOW due to the color of stored LIPIDS (triglycerides). Brown adipose tissue appears brown due to mitochondria.",
+      "wrongExplains": {
+        "0": "Blood vessels are red; they don't give adipose its color.",
+        "2": "Muscle fibers are red due to myoglobin.",
+        "3": "Bone marrow is separate from adipose tissue."
+      }
     },
     {
-      "q": "The answer is ADIPOSE tissue - the connective tissue specialized for fat storage.",
+      "q": "The connective tissue that stores fat is called ___?",
       "options": [
-        "True",
-        "False"
+        "Areolar tissue",
+        "Adipose tissue",
+        "Dense regular tissue",
+        "Reticular tissue"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not areolar (loose packing tissue), not dense connective tissue (tendons/ligaments). Adipose = fat storage tissue."
+      "explain": "ADIPOSE TISSUE is the connective tissue specialized for FAT STORAGE. Its cells (adipocytes) contain large lipid droplets for energy storage.",
+      "wrongExplains": {
+        "0": "Areolar tissue is loose packing tissue, not specialized for fat.",
+        "2": "Dense regular tissue forms tendons and ligaments.",
+        "3": "Reticular tissue forms the framework of lymphoid organs."
+      }
     }
   ]
 }

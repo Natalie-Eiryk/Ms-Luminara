@@ -1,30 +1,159 @@
 {
   "parentId": "400.1.13",
-  "parentQuestion": "A patient undergoes cystoscopy, and the urologist observes that the bladder epit...",
+  "parentQuestion": "A patient undergoes cystoscopy, and the urologist observes that the bladder epithelium appears thick and folded when empty but thin when distended. This epithelium is ___.",
   "scaffolds": [
     {
-      "q": "What organ in the urinary system stores urine before elimination?",
+      "q": "What is transitional epithelium?",
+      "options": [
+        "Epithelium that is transitioning to another type",
+        "Epithelium that can change appearance when stretched",
+        "Epithelium that transports substances",
+        "Epithelium found only in developing embryos"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "TRANSITIONAL EPITHELIUM can CHANGE APPEARANCE when stretched. It looks thick and folded when relaxed but thin and flat when distended.",
+      "wrongExplains": {
+        "0": "It's a permanent, mature epithelial type, not transitioning.",
+        "2": "All epithelia can transport; transitional's feature is shape change.",
+        "3": "It's found in adult urinary organs, not just embryos."
+      }
+    },
+    {
+      "q": "What organ stores urine before elimination?",
       "options": [
         "Kidney",
-        "Ureter",
         "Bladder",
+        "Ureter",
         "Urethra"
       ],
-      "answer": 2,
-      "chapter": "Tissues & Epithelia",
-      "explain": "The bladder is the organ that temporarily stores urine before it's eliminated through the urethra. It must be able to expand significantly as it fills, which requires specialized epithelium."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The BLADDER stores urine before elimination. It must expand significantly as it fills, requiring specialized stretchable epithelium.",
+      "wrongExplains": {
+        "0": "Kidneys produce urine; the bladder stores it.",
+        "2": "Ureters transport urine from kidneys to bladder.",
+        "3": "The urethra carries urine out of the body."
+      }
     },
     {
       "q": "What happens to the bladder as it fills with urine?",
       "options": [
         "It stays the same size",
-        "It expands and stretches",
+        "It expands and stretches dramatically",
         "It contracts",
         "It produces more cells"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "As the bladder fills with urine, it expands and stretches dramatically — from holding essentially nothing when empty to 400-600 mL when full. The epithelium lining it must be able to accommodate this stretching."
+      "difficulty": "foundation",
+      "explain": "The bladder EXPANDS AND STRETCHES dramatically as it fills — from essentially empty to 400-600 mL. The epithelium must accommodate this without tearing.",
+      "wrongExplains": {
+        "0": "The bladder changes size significantly with filling.",
+        "2": "Contraction empties the bladder; filling causes expansion.",
+        "3": "Stretching occurs without adding new cells."
+      }
+    },
+    {
+      "q": "How does transitional epithelium appear when the bladder is empty?",
+      "options": [
+        "Thin and flat",
+        "Thick and folded with rounded surface cells",
+        "Ciliated",
+        "Keratinized"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "When empty, transitional epithelium appears THICK AND FOLDED with ROUNDED SURFACE CELLS (dome/umbrella cells). It looks like multiple layers.",
+      "wrongExplains": {
+        "0": "Thin and flat is how it appears when stretched.",
+        "2": "Transitional epithelium doesn't have cilia.",
+        "3": "Bladder epithelium isn't keratinized; it stays moist."
+      }
+    },
+    {
+      "q": "How does transitional epithelium appear when the bladder is full?",
+      "options": [
+        "Thick with rounded cells",
+        "Thin with flattened cells",
+        "Ciliated and columnar",
+        "Keratinized and dead"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "When stretched (bladder full), transitional epithelium appears THIN with FLATTENED CELLS. The dome cells flatten as the surface area increases.",
+      "wrongExplains": {
+        "0": "Thick with rounded cells is the relaxed (empty) appearance.",
+        "2": "Transitional epithelium doesn't become ciliated or columnar.",
+        "3": "Bladder epithelium remains alive and moist."
+      }
+    },
+    {
+      "q": "What are dome (umbrella) cells?",
+      "options": [
+        "Cells that produce mucus",
+        "Large surface cells in transitional epithelium that flatten when stretched",
+        "Cells that absorb urine",
+        "Stem cells for regeneration"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "DOME (UMBRELLA) cells are LARGE SURFACE CELLS in transitional epithelium that can FLATTEN dramatically when the organ stretches. They're named for their domed shape when relaxed.",
+      "wrongExplains": {
+        "0": "Goblet cells produce mucus; dome cells accommodate stretching.",
+        "2": "The bladder shouldn't absorb from urine.",
+        "3": "Basal cells are the stem cells; dome cells are specialized surface cells."
+      }
+    },
+    {
+      "q": "Where is transitional epithelium found?",
+      "options": [
+        "Digestive tract",
+        "Urinary bladder, ureters, and part of urethra",
+        "Respiratory airways",
+        "Blood vessels"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Transitional epithelium lines the URINARY BLADDER, URETERS, and part of the URETHRA — structures that must stretch with varying urine volumes.",
+      "wrongExplains": {
+        "0": "Digestive tract has columnar epithelium for absorption.",
+        "2": "Airways have pseudostratified ciliated columnar epithelium.",
+        "3": "Blood vessels have simple squamous endothelium."
+      }
+    },
+    {
+      "q": "What is cystoscopy?",
+      "options": [
+        "X-ray of the bladder",
+        "Visual examination of the bladder interior using a scope",
+        "Urine test",
+        "Blood test for kidney function"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "CYSTOSCOPY is VISUAL EXAMINATION of the BLADDER INTERIOR using a scope (cystoscope). It allows direct viewing of the transitional epithelium.",
+      "wrongExplains": {
+        "0": "X-rays show structure; cystoscopy provides direct visualization.",
+        "2": "Urinalysis tests urine; cystoscopy visualizes the bladder.",
+        "3": "Blood tests assess kidney function; cystoscopy examines the bladder."
+      }
+    },
+    {
+      "q": "Bladder epithelium that appears thick when empty and thin when distended is ___?",
+      "options": [
+        "Simple squamous epithelium",
+        "Transitional epithelium (urothelium)",
+        "Stratified squamous epithelium",
+        "Simple columnar epithelium"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "TRANSITIONAL EPITHELIUM (UROTHELIUM) appears thick when relaxed and thin when stretched. This unique property allows the bladder to expand without tearing or leaking.",
+      "wrongExplains": {
+        "0": "Simple squamous is thin; it doesn't change appearance with stretch.",
+        "2": "Stratified squamous provides protection; it doesn't stretch like this.",
+        "3": "Simple columnar is for absorption/secretion; it doesn't stretch dramatically."
+      }
     }
   ]
 }

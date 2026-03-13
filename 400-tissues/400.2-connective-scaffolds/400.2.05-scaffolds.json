@@ -3,94 +3,157 @@
   "parentQuestion": "The type of cartilage found in the external ear is ___.",
   "scaffolds": [
     {
-      "q": "The external ear can be bent and folded, then springs back to its original shape.",
+      "q": "What happens when you bend your ear?",
       "options": [
-        "True",
-        "False"
+        "It stays bent",
+        "It springs back to its original shape",
+        "It breaks",
+        "It becomes permanently deformed"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Try it - bend your ear. It returns to its original shape. This requires flexibility WITH shape memory."
+      "explain": "When you bend your ear, it SPRINGS BACK to its original shape. This requires flexibility WITH shape memory — exactly what elastic cartilage provides.",
+      "wrongExplains": {
+        "0": "Elastic cartilage doesn't stay deformed.",
+        "2": "Elastic cartilage is flexible, not brittle.",
+        "3": "It returns to shape; it doesn't permanently deform."
+      }
     },
     {
-      "q": "There are three types of cartilage: hyaline, elastic, and fibrocartilage.",
+      "q": "What protein gives elastic cartilage its flexibility?",
       "options": [
-        "True",
-        "False"
+        "Collagen",
+        "Elastin",
+        "Keratin",
+        "Actin"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Each type has different mechanical properties suited for different body locations."
+      "explain": "ELASTIN fibers give elastic cartilage its flexibility and recoil. Elastin can stretch and SNAP BACK like a rubber band.",
+      "wrongExplains": {
+        "0": "Collagen provides strength but resists stretching.",
+        "2": "Keratin is in skin, hair, and nails.",
+        "3": "Actin is a contractile protein in muscle."
+      }
     },
     {
-      "q": "ELASTIN fibers provide stretch and recoil - like a rubber band.",
+      "q": "How does elastin differ from collagen?",
       "options": [
-        "True",
-        "False"
+        "Elastin is stronger",
+        "Elastin provides stretch and recoil; collagen resists stretching",
+        "Collagen is more flexible",
+        "They are identical proteins"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Elastin can stretch and snap back. Collagen resists stretching. Different jobs, different fibers."
+      "explain": "ELASTIN provides STRETCH and RECOIL (like rubber bands); COLLAGEN RESISTS stretching (provides tensile strength). Different proteins, different mechanical jobs.",
+      "wrongExplains": {
+        "0": "Collagen is stronger; elastin is more flexible.",
+        "2": "Elastin is more flexible than collagen.",
+        "3": "They are very different proteins with different properties."
+      }
     },
     {
-      "q": "ELASTIC cartilage contains elastin fibers that give it flexibility.",
+      "q": "What type of cartilage is hyaline?",
       "options": [
-        "True",
-        "False"
+        "The most flexible type",
+        "Smooth, glassy cartilage for joint surfaces",
+        "The toughest type for shock absorption",
+        "Cartilage with elastin fibers"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The elastin fibers let elastic cartilage bend and spring back to shape."
+      "explain": "HYALINE cartilage is SMOOTH and GLASSY (hyaline = glass-like). It covers joint surfaces for low-friction gliding. It's firm but not as flexible as elastic cartilage.",
+      "wrongExplains": {
+        "0": "Elastic cartilage is most flexible.",
+        "2": "Fibrocartilage is toughest for shock absorption.",
+        "3": "Elastic cartilage has elastin fibers."
+      }
     },
     {
-      "q": "Hyaline cartilage is smooth and found on joint surfaces - not as flexible as elastic cartilage.",
+      "q": "Where is elastic cartilage found?",
       "options": [
-        "True",
-        "False"
+        "Joint surfaces",
+        "External ear, epiglottis, and parts of larynx",
+        "Intervertebral discs",
+        "Nasal septum"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Hyaline is firm and smooth for gliding movements in joints. Elastic cartilage is for bending."
+      "explain": "Elastic cartilage is found in the EXTERNAL EAR, EPIGLOTTIS, and parts of LARYNX — structures that need to bend and spring back.",
+      "wrongExplains": {
+        "0": "Hyaline cartilage covers joint surfaces.",
+        "2": "Fibrocartilage is in intervertebral discs.",
+        "3": "Hyaline cartilage is in the nasal septum."
+      }
     },
     {
-      "q": "Fibrocartilage is tough and found in intervertebral discs - not flexible like the ear.",
+      "q": "Why does the epiglottis need elastic cartilage?",
       "options": [
-        "True",
-        "False"
+        "To absorb shock",
+        "To flip back and forth during swallowing",
+        "To provide smooth gliding",
+        "To resist compression"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Fibrocartilage handles compression forces. The ear needs flexibility, not shock absorption."
+      "explain": "The epiglottis needs elastic cartilage to FLIP BACK AND FORTH during swallowing — covering the airway during swallowing, then springing back open for breathing.",
+      "wrongExplains": {
+        "0": "Fibrocartilage absorbs shock.",
+        "2": "Hyaline provides smooth gliding.",
+        "3": "Fibrocartilage resists compression."
+      }
     },
     {
-      "q": "Elastic cartilage is found in the ear, epiglottis, and larynx - places needing flexibility.",
+      "q": "Why isn't hyaline cartilage used in the ear?",
       "options": [
-        "True",
-        "False"
+        "It's too soft",
+        "It lacks the flexibility to bend and spring back",
+        "It's too expensive to make",
+        "It's too vascular"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The epiglottis flaps over the airway, the ear bends, the larynx changes shape for voice. All need elastic cartilage."
+      "explain": "Hyaline cartilage LACKS the FLEXIBILITY to bend and spring back like the ear needs. Hyaline is firm and smooth, suited for joints, not for bending structures.",
+      "wrongExplains": {
+        "0": "Hyaline is firm, not too soft.",
+        "2": "Biological cost isn't the determining factor.",
+        "3": "All cartilage is avascular."
+      }
     },
     {
-      "q": "The external ear is made of ELASTIC cartilage because it needs to bend and return to shape.",
+      "q": "What gives elastic cartilage its yellow appearance?",
       "options": [
-        "True",
-        "False"
+        "Blood vessels",
+        "The elastin fibers",
+        "Fat deposits",
+        "Bone marrow"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The elastin fibers give it that spring-back property you feel when you bend your ear."
+      "explain": "ELASTIN FIBERS give elastic cartilage a YELLOW appearance. Hyaline cartilage appears more bluish-white because it lacks elastin.",
+      "wrongExplains": {
+        "0": "Cartilage is avascular; no blood vessels are present.",
+        "2": "Fat isn't a major component of elastic cartilage.",
+        "3": "Bone marrow is in bone, not cartilage."
+      }
     },
     {
-      "q": "The answer is ELASTIC cartilage - flexible with shape retention, perfect for the ear.",
+      "q": "The type of cartilage found in the external ear is ___?",
       "options": [
-        "True",
-        "False"
+        "Hyaline cartilage",
+        "Elastic cartilage",
+        "Fibrocartilage",
+        "Articular cartilage"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not hyaline (for smooth gliding), not fibrocartilage (for compression). Elastic = flexibility + shape memory."
+      "explain": "The external ear contains ELASTIC CARTILAGE. Its elastin fibers allow the ear to bend and spring back to its original shape.",
+      "wrongExplains": {
+        "0": "Hyaline is for smooth joint surfaces, not flexible structures.",
+        "2": "Fibrocartilage is for shock absorption (spine, knee).",
+        "3": "Articular cartilage (hyaline) is on joint surfaces."
+      }
     }
   ]
 }

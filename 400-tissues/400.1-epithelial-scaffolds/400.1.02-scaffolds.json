@@ -3,28 +3,157 @@
   "parentQuestion": "Which one of the following would be found lining the digestive tract?",
   "scaffolds": [
     {
-      "q": "What does 'simple' mean when describing epithelial tissue?",
+      "q": "What is simple epithelium?",
       "options": [
-        "The cells are flat",
-        "The cells form one layer",
-        "The cells have few organelles",
-        "The cells are easy to study"
+        "Epithelium with flat cells",
+        "Epithelium with a single layer of cells",
+        "Epithelium with few functions",
+        "Epithelium that is easy to identify"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "In epithelial tissue classification, 'simple' means the epithelium consists of a single layer of cells. This is contrasted with 'stratified' epithelium, which has multiple layers."
+      "difficulty": "foundation",
+      "explain": "SIMPLE EPITHELIUM has a SINGLE LAYER of cells. 'Simple' refers to the number of layers (one), not cell shape or complexity.",
+      "wrongExplains": {
+        "0": "Flat cells are squamous; 'simple' refers to having one layer.",
+        "2": "Simple epithelium has important functions like absorption and secretion.",
+        "3": "'Simple' is a classification term for one-layer epithelium."
+      }
     },
     {
-      "q": "What shape are columnar epithelial cells?",
+      "q": "What does 'columnar' mean when describing epithelial cells?",
       "options": [
         "Flat and scale-like",
+        "Tall and column-shaped",
         "Cube-shaped",
-        "Tall and narrow",
-        "Irregular"
+        "Irregularly shaped"
       ],
-      "answer": 2,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Columnar epithelial cells are tall and narrow (column-shaped). This shape provides more cytoplasm volume, which is useful for cells that perform absorption or secretion functions."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "COLUMNAR cells are TALL AND COLUMN-SHAPED (like columns in a building). This shape provides more cytoplasm for absorption and secretion machinery.",
+      "wrongExplains": {
+        "0": "Flat and scale-like describes squamous cells.",
+        "2": "Cube-shaped describes cuboidal cells.",
+        "3": "Columnar cells have a distinct tall, narrow shape."
+      }
+    },
+    {
+      "q": "What is the primary function of simple columnar epithelium?",
+      "options": [
+        "Protection from abrasion",
+        "Absorption and secretion",
+        "Rapid diffusion of gases",
+        "Stretching when filled"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Simple columnar epithelium specializes in ABSORPTION AND SECRETION. The tall cells have room for organelles needed for these active processes.",
+      "wrongExplains": {
+        "0": "Protection from abrasion requires stratified epithelium.",
+        "2": "Gas diffusion requires thin simple squamous epithelium.",
+        "3": "Stretching is the function of transitional epithelium."
+      }
+    },
+    {
+      "q": "What are goblet cells?",
+      "options": [
+        "Cells that absorb water",
+        "Mucus-secreting cells found among epithelial cells",
+        "Cells that detect chemicals",
+        "Stem cells for epithelium"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "GOBLET CELLS are MUCUS-SECRETING cells scattered among columnar epithelial cells. They're shaped like goblets (wine glasses) due to stored mucus.",
+      "wrongExplains": {
+        "0": "Goblet cells secrete mucus; they don't absorb water.",
+        "2": "Goblet cells produce mucus; sensory cells detect chemicals.",
+        "3": "Stem cells regenerate epithelium; goblet cells secrete mucus."
+      }
+    },
+    {
+      "q": "Where is simple columnar epithelium found in the body?",
+      "options": [
+        "Skin surface",
+        "Digestive tract lining",
+        "Blood vessel lining",
+        "Mouth and esophagus"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Simple columnar epithelium lines the DIGESTIVE TRACT (stomach to large intestine) where absorption and secretion occur. It often has goblet cells for mucus production.",
+      "wrongExplains": {
+        "0": "Skin has stratified squamous epithelium for protection.",
+        "2": "Blood vessels are lined by simple squamous endothelium.",
+        "3": "Mouth and esophagus have stratified squamous for abrasion protection."
+      }
+    },
+    {
+      "q": "Why does the digestive tract need mucus?",
+      "options": [
+        "To absorb nutrients",
+        "To lubricate and protect the lining",
+        "To digest food",
+        "To kill bacteria"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Mucus LUBRICATES AND PROTECTS the digestive tract lining. It allows food to slide through easily and shields the epithelium from digestive enzymes and acid.",
+      "wrongExplains": {
+        "0": "Epithelial cells absorb nutrients; mucus provides protection.",
+        "2": "Enzymes digest food; mucus protects against those enzymes.",
+        "3": "Stomach acid kills bacteria; mucus protects the lining."
+      }
+    },
+    {
+      "q": "What does 'stratified' mean when describing epithelium?",
+      "options": [
+        "Single layer of cells",
+        "Multiple layers of cells",
+        "Specialized for secretion",
+        "Contains goblet cells"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "STRATIFIED epithelium has MULTIPLE LAYERS of cells stacked on top of each other. 'Strata' means layers. This provides protection against abrasion.",
+      "wrongExplains": {
+        "0": "Single layer is simple epithelium; stratified has multiple layers.",
+        "2": "Stratified refers to layers, not function.",
+        "3": "Goblet cells can be in various epithelial types."
+      }
+    },
+    {
+      "q": "Why is simple (one-layer) epithelium found in the intestine rather than stratified?",
+      "options": [
+        "It's cheaper to make",
+        "One layer allows efficient absorption; multiple layers would block it",
+        "The intestine doesn't need protection",
+        "Stratified epithelium can't produce mucus"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "ONE LAYER allows EFFICIENT ABSORPTION — nutrients only need to cross one cell layer. Multiple layers would create a barrier that blocks absorption.",
+      "wrongExplains": {
+        "0": "The choice is functional, not about metabolic cost.",
+        "2": "The intestine needs protection (mucus provides it), but also needs absorption.",
+        "3": "Goblet cells can exist in stratified epithelium."
+      }
+    },
+    {
+      "q": "Which epithelium would be found lining the digestive tract?",
+      "options": [
+        "Stratified squamous (for protection)",
+        "Simple columnar with goblet cells (for absorption and secretion)",
+        "Simple squamous (for diffusion)",
+        "Transitional (for stretching)"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The digestive tract is lined by SIMPLE COLUMNAR epithelium with GOBLET CELLS. Simple allows absorption; columnar provides cell volume for secretion; goblet cells produce protective mucus.",
+      "wrongExplains": {
+        "0": "Stratified squamous protects against abrasion but blocks absorption.",
+        "2": "Simple squamous is for diffusion (lungs, blood vessels), not absorption.",
+        "3": "Transitional is for stretching (bladder), not digestion."
+      }
     }
   ]
 }

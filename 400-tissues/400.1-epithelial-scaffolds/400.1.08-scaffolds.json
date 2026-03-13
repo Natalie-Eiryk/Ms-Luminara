@@ -5,26 +5,155 @@
     {
       "q": "What are alveoli?",
       "options": [
-        "Airways in the lungs",
+        "Large airways in the lungs",
         "Tiny air sacs where gas exchange occurs",
-        "Large breathing tubes",
-        "Muscles that control breathing"
+        "Muscles that control breathing",
+        "Blood vessels in the lungs"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Alveoli are tiny, grape-like air sacs at the end of the respiratory tree where gas exchange occurs. Oxygen moves from the air in the alveoli into the blood, and carbon dioxide moves from blood to air."
+      "difficulty": "foundation",
+      "explain": "ALVEOLI are TINY AIR SACS where GAS EXCHANGE occurs. Oxygen moves from air into blood, and carbon dioxide moves from blood into air, across the alveolar walls.",
+      "wrongExplains": {
+        "0": "Large airways are bronchi and bronchioles; alveoli are tiny sacs.",
+        "2": "The diaphragm and intercostal muscles control breathing.",
+        "3": "Pulmonary capillaries surround alveoli; alveoli are air sacs."
+      }
     },
     {
       "q": "What does 'squamous' mean when describing cell shape?",
       "options": [
         "Cube-shaped",
-        "Tall and narrow",
         "Flat and scale-like",
+        "Tall and narrow",
         "Round and spherical"
       ],
-      "answer": 2,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Squamous cells are flat and scale-like (the term comes from Latin 'squama,' meaning scale — like fish scales or roof shingles). This shape creates a thin barrier, which is ideal for diffusion and filtration processes."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "SQUAMOUS cells are FLAT AND SCALE-LIKE. The term comes from Latin 'squama' meaning scale — like fish scales or roof shingles.",
+      "wrongExplains": {
+        "0": "Cube-shaped cells are cuboidal.",
+        "2": "Tall and narrow cells are columnar.",
+        "3": "Round cells could be various types; squamous are flat."
+      }
+    },
+    {
+      "q": "What is the main function of simple squamous epithelium?",
+      "options": [
+        "Protection from abrasion",
+        "Rapid diffusion and filtration",
+        "Absorption of nutrients",
+        "Secretion of mucus"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Simple squamous epithelium allows RAPID DIFFUSION AND FILTRATION. Its extreme thinness (one layer of flat cells) minimizes the barrier for gas and fluid exchange.",
+      "wrongExplains": {
+        "0": "Protection requires thick stratified epithelium.",
+        "2": "Absorption is primarily done by columnar epithelium with microvilli.",
+        "3": "Mucus secretion is done by goblet cells in other epithelial types."
+      }
+    },
+    {
+      "q": "Why must the alveolar epithelium be extremely thin?",
+      "options": [
+        "To produce more mucus",
+        "To allow rapid gas diffusion between air and blood",
+        "To resist high pressure",
+        "To secrete surfactant in large amounts"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Alveolar epithelium must be extremely thin to allow RAPID GAS DIFFUSION. Oxygen and carbon dioxide must quickly cross from air to blood (and vice versa).",
+      "wrongExplains": {
+        "0": "Mucus is produced in airways, not alveoli.",
+        "2": "Thin epithelium is fragile; it's thin for diffusion, not pressure resistance.",
+        "3": "Type II cells secrete surfactant, but thinness is for gas exchange."
+      }
+    },
+    {
+      "q": "What other structures have simple squamous epithelium?",
+      "options": [
+        "Skin and mouth",
+        "Blood vessel lining (endothelium) and body cavity lining (mesothelium)",
+        "Stomach and intestines",
+        "Urinary bladder and ureters"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Simple squamous epithelium lines BLOOD VESSELS (endothelium) and BODY CAVITIES (mesothelium). These locations need thin tissue for filtration or smooth surfaces.",
+      "wrongExplains": {
+        "0": "Skin and mouth have stratified squamous for protection.",
+        "2": "Stomach and intestines have columnar epithelium for absorption/secretion.",
+        "3": "Urinary structures have transitional epithelium for stretching."
+      }
+    },
+    {
+      "q": "What is the blood-air barrier?",
+      "options": [
+        "Mucus that protects the lungs",
+        "The thin barrier between alveolar air and pulmonary capillary blood",
+        "The trachea that separates outside air from the lungs",
+        "The diaphragm that separates the lungs from abdomen"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The BLOOD-AIR BARRIER is the thin layer between ALVEOLAR AIR and CAPILLARY BLOOD. It consists of simple squamous epithelium, basement membrane, and capillary endothelium — only ~0.5 μm thick!",
+      "wrongExplains": {
+        "0": "Mucus traps debris; the blood-air barrier is for gas exchange.",
+        "2": "The trachea conducts air; the blood-air barrier is in alveoli.",
+        "3": "The diaphragm is a breathing muscle; the barrier is in alveolar walls."
+      }
+    },
+    {
+      "q": "Why would thick epithelium be harmful in the alveoli?",
+      "options": [
+        "It would produce too much mucus",
+        "It would slow gas diffusion and impair oxygen delivery",
+        "It would be too flexible",
+        "It would divide too rapidly"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Thick epithelium would SLOW GAS DIFFUSION and impair oxygen delivery. The thinner the barrier, the faster gases can exchange between air and blood.",
+      "wrongExplains": {
+        "0": "Mucus production isn't related to epithelial thickness.",
+        "2": "Flexibility isn't the concern; diffusion rate is.",
+        "3": "Cell division rate isn't affected by thickness."
+      }
+    },
+    {
+      "q": "What happens in conditions like pulmonary edema that thicken the alveolar barrier?",
+      "options": [
+        "Breathing becomes easier",
+        "Gas exchange is impaired, causing hypoxemia",
+        "The alveoli produce more surfactant",
+        "The lungs become more elastic"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "When the alveolar barrier thickens (edema, fibrosis), GAS EXCHANGE IS IMPAIRED causing HYPOXEMIA (low blood oxygen). Diffusion distance increases, slowing oxygen transfer.",
+      "wrongExplains": {
+        "0": "Breathing becomes harder, not easier, with thickened barriers.",
+        "2": "Surfactant production isn't increased by edema.",
+        "3": "Fibrosis makes lungs stiffer, not more elastic."
+      }
+    },
+    {
+      "q": "Which type of epithelium is found lining the alveoli of the lungs?",
+      "options": [
+        "Stratified squamous",
+        "Simple squamous",
+        "Simple columnar",
+        "Pseudostratified ciliated columnar"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "SIMPLE SQUAMOUS epithelium lines the alveoli. This single layer of flat cells creates the thinnest possible barrier for rapid gas exchange between air and blood.",
+      "wrongExplains": {
+        "0": "Stratified squamous is too thick for gas exchange.",
+        "2": "Simple columnar is for absorption/secretion, not gas exchange.",
+        "3": "Pseudostratified ciliated columnar is in airways, not alveoli."
+      }
     }
   ]
 }

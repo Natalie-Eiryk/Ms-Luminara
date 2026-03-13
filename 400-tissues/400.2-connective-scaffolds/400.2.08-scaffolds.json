@@ -3,94 +3,157 @@
   "parentQuestion": "A 28-year-old woman presents with hyperextensible joints (she can bend her thumb back to touch her forearm), thin skin that bruises easily, and poor wound healing with 'cigarette-paper' scars. Which protein is most likely defective?",
   "scaffolds": [
     {
-      "q": "COLLAGEN is the main structural protein that provides strength to connective tissues.",
+      "q": "What is the main structural protein providing tensile strength to tissues?",
       "options": [
-        "True",
-        "False"
+        "Elastin",
+        "Collagen",
+        "Keratin",
+        "Actin"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Collagen fibers resist stretching and provide tensile strength to skin, ligaments, and joints."
+      "explain": "COLLAGEN is the main structural protein providing TENSILE STRENGTH. It resists stretching and holds tissues together in skin, ligaments, tendons, and bone.",
+      "wrongExplains": {
+        "0": "Elastin provides stretch and recoil, not tensile strength.",
+        "2": "Keratin protects skin surface; collagen provides deep strength.",
+        "3": "Actin is a contractile protein in muscle."
+      }
     },
     {
-      "q": "Ligaments connect bone to bone and stabilize joints.",
+      "q": "What do ligaments do?",
       "options": [
-        "True",
-        "False"
+        "Connect muscle to bone",
+        "Connect bone to bone and stabilize joints",
+        "Cover joint surfaces",
+        "Produce synovial fluid"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Ligaments are made mostly of collagen. Weak collagen = weak ligaments = unstable joints."
+      "explain": "LIGAMENTS connect BONE TO BONE and STABILIZE JOINTS. They're primarily made of collagen — weak collagen means loose, unstable joints.",
+      "wrongExplains": {
+        "0": "Tendons connect muscle to bone.",
+        "2": "Articular cartilage covers joint surfaces.",
+        "3": "Synovial membrane produces synovial fluid."
+      }
     },
     {
-      "q": "If collagen is defective, joints can become TOO flexible (hyperextensible).",
+      "q": "What happens to joints if collagen is defective?",
       "options": [
-        "True",
-        "False"
+        "They become stiff",
+        "They become hyperextensible (overly flexible)",
+        "They swell with fluid",
+        "They fuse together"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Normal collagen limits how far joints can bend. Defective collagen allows excessive movement."
+      "explain": "Defective collagen causes joints to become HYPEREXTENSIBLE (overly flexible). Normal collagen limits joint movement; defective collagen allows excessive bending.",
+      "wrongExplains": {
+        "0": "Stiffness occurs with arthritis; weak collagen causes hypermobility.",
+        "2": "Fluid accumulation is a different problem (effusion).",
+        "3": "Fusion occurs in some types of arthritis, not collagen defects."
+      }
     },
     {
-      "q": "Skin contains collagen in the dermis layer.",
+      "q": "Why does defective collagen cause thin, fragile skin?",
       "options": [
-        "True",
-        "False"
+        "The epidermis thins",
+        "The dermis loses its collagen framework and structural support",
+        "Melanocytes decrease",
+        "Sweat glands shrink"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Collagen gives skin its strength and resistance to tearing. Weak collagen = fragile skin."
+      "explain": "The DERMIS contains collagen that provides structural support. DEFECTIVE COLLAGEN means the dermis loses its FRAMEWORK, making skin thin and fragile.",
+      "wrongExplains": {
+        "0": "The dermis, not epidermis, contains most skin collagen.",
+        "2": "Melanocytes affect pigmentation, not skin strength.",
+        "3": "Sweat glands aren't related to skin structural integrity."
+      }
     },
     {
-      "q": "Wound healing requires new collagen to form scar tissue.",
+      "q": "Why do wounds heal poorly with 'cigarette-paper' scars?",
       "options": [
-        "True",
-        "False"
+        "Too much scar tissue forms",
+        "The new collagen in scar tissue is defective and thin",
+        "No scar forms at all",
+        "The wound gets infected"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! If the new collagen is defective, scars will be thin and weak - like 'cigarette paper.'"
+      "explain": "Scars require collagen formation. If the NEW COLLAGEN is DEFECTIVE, scars will be THIN and weak — thin and wrinkled like 'cigarette paper.'",
+      "wrongExplains": {
+        "0": "Excessive scarring (keloid) is a different problem.",
+        "2": "Scars do form, but they're abnormally thin.",
+        "3": "Infection is a separate issue from collagen defects."
+      }
     },
     {
-      "q": "Ehlers-Danlos syndrome is a genetic disorder affecting collagen.",
+      "q": "What is Ehlers-Danlos syndrome?",
       "options": [
-        "True",
-        "False"
+        "A bone disorder",
+        "A group of genetic disorders affecting collagen",
+        "A muscle disease",
+        "A nerve problem"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! EDS involves mutations in collagen genes, causing stretchy joints, fragile skin, and poor healing."
+      "explain": "EHLERS-DANLOS SYNDROME (EDS) is a group of GENETIC DISORDERS AFFECTING COLLAGEN. Different types involve different collagen genes, causing joint hypermobility, fragile skin, and poor healing.",
+      "wrongExplains": {
+        "0": "EDS affects connective tissue, particularly collagen, not primarily bone.",
+        "2": "EDS isn't a muscle disease.",
+        "3": "EDS isn't a nerve problem."
+      }
     },
     {
-      "q": "Elastin problems would cause loose, sagging skin - NOT hyperextensible joints.",
+      "q": "What protein would NOT cause these symptoms if defective?",
       "options": [
-        "True",
-        "False"
+        "Collagen type I",
+        "Elastin",
+        "Collagen type III",
+        "Collagen type V"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Elastin provides elastic recoil. Collagen provides tensile strength. Different proteins, different problems."
+      "explain": "ELASTIN defects cause loose, sagging skin (like in cutis laxa), NOT hyperextensible joints and thin scars. Collagen defects cause EDS symptoms.",
+      "wrongExplains": {
+        "0": "Collagen type I defects can cause these symptoms.",
+        "2": "Collagen type III defects cause vascular EDS.",
+        "3": "Collagen type V defects cause classical EDS."
+      }
     },
     {
-      "q": "This woman's symptoms - hyperflexible joints, fragile skin, thin scars - point to COLLAGEN defect.",
+      "q": "How do you distinguish collagen problems from elastin problems?",
       "options": [
-        "True",
-        "False"
+        "Both cause identical symptoms",
+        "Collagen defects cause hypermobile joints; elastin defects cause loose, sagging skin",
+        "Elastin defects cause hypermobile joints",
+        "Only collagen affects skin"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! These are classic Ehlers-Danlos syndrome features caused by defective collagen."
+      "explain": "COLLAGEN provides strength (defects = hypermobile joints). ELASTIN provides recoil (defects = loose, sagging skin that doesn't snap back). Different proteins, different symptoms.",
+      "wrongExplains": {
+        "0": "They cause different symptoms due to different functions.",
+        "2": "Collagen defects cause hypermobility, not elastin.",
+        "3": "Both affect skin, but differently."
+      }
     },
     {
-      "q": "The answer is COLLAGEN - defective collagen causes hyperextensible joints and fragile skin.",
+      "q": "The woman with hyperextensible joints, thin skin, and cigarette-paper scars most likely has defective ___?",
       "options": [
-        "True",
-        "False"
+        "Elastin",
+        "Collagen",
+        "Keratin",
+        "Myosin"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not elastin (would cause sagging), not keratin (affects hair/nails/skin surface). Collagen = structural integrity."
+      "explain": "These are classic signs of COLLAGEN defects (Ehlers-Danlos syndrome). Collagen provides tensile strength to joints, skin, and scar tissue.",
+      "wrongExplains": {
+        "0": "Elastin defects cause sagging skin, not hyperextensible joints.",
+        "2": "Keratin affects skin surface and hair, not joint flexibility.",
+        "3": "Myosin is a muscle protein unrelated to these symptoms."
+      }
     }
   ]
 }

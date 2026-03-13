@@ -3,94 +3,157 @@
   "parentQuestion": "The primary cell of mature bone tissue is the ___.",
   "scaffolds": [
     {
-      "q": "Bone is a living tissue with cells inside it.",
+      "q": "Is bone a living tissue?",
       "options": [
-        "True",
-        "False"
+        "No, bone is dead mineral",
+        "Yes, bone contains living cells that maintain it",
+        "Only in children",
+        "Only the outer layer is living"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Bone isn't just hard mineral - it contains living cells that maintain and remodel it."
+      "explain": "Yes! BONE is LIVING TISSUE containing living cells that MAINTAIN and REMODEL it. It's not just hard mineral — it's dynamic and constantly changing.",
+      "wrongExplains": {
+        "0": "Bone has living cells within its mineral matrix.",
+        "2": "Adult bone is also living tissue.",
+        "3": "Living bone cells exist throughout the bone."
+      }
     },
     {
-      "q": "The prefix 'osteo-' means bone.",
+      "q": "What does the prefix 'osteo-' mean?",
       "options": [
-        "True",
-        "False"
+        "Cartilage",
+        "Bone",
+        "Muscle",
+        "Fat"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! From Greek. Osteoblast, osteocyte, osteoclast - all bone-related terms."
+      "explain": "'OSTEO-' means BONE (from Greek). Osteoblast, osteocyte, osteoclast — all bone-related terms. Osteoporosis = porous bones.",
+      "wrongExplains": {
+        "0": "'Chondro-' means cartilage.",
+        "2": "'Myo-' means muscle.",
+        "3": "'Adipo-' means fat."
+      }
     },
     {
-      "q": "The suffix '-blast' means a cell that BUILDS or creates.",
+      "q": "What does the suffix '-blast' mean in cell names?",
       "options": [
-        "True",
-        "False"
+        "A cell that breaks down",
+        "A cell that builds or creates",
+        "A mature cell",
+        "A dead cell"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Osteoblast = bone builder. Fibroblast = fiber builder. Blasts are construction workers."
+      "explain": "'-BLAST' means a cell that BUILDS or CREATES. Osteoblast = bone builder. Fibroblast = fiber builder. Blasts are construction workers.",
+      "wrongExplains": {
+        "0": "'-Clast' means to break down.",
+        "2": "'-Cyte' means a mature cell.",
+        "3": "Blasts are actively functioning cells."
+      }
     },
     {
-      "q": "The suffix '-cyte' means a mature cell.",
+      "q": "What does the suffix '-cyte' mean in cell names?",
       "options": [
-        "True",
-        "False"
+        "A building cell",
+        "A mature, maintenance cell",
+        "A destroying cell",
+        "An immature cell"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Osteocyte = mature bone cell. Chondrocyte = mature cartilage cell. Cytes are the finished product."
+      "explain": "'-CYTE' means a MATURE cell. Osteocyte = mature bone cell. Chondrocyte = mature cartilage cell. Cytes are the finished product that maintain tissue.",
+      "wrongExplains": {
+        "0": "'-Blast' indicates building cells.",
+        "2": "'-Clast' indicates destroying cells.",
+        "3": "Cytes are mature, not immature."
+      }
     },
     {
-      "q": "OSTEOBLASTS build bone by secreting matrix that mineralizes.",
+      "q": "What do osteoblasts do?",
       "options": [
-        "True",
-        "False"
+        "Break down bone",
+        "Build new bone by secreting matrix",
+        "Store fat",
+        "Conduct nerve signals"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! They lay down the bone matrix (osteoid), which then hardens with calcium deposits."
+      "explain": "OSTEOBLASTS BUILD new BONE by secreting bone matrix (osteoid), which then mineralizes with calcium. They're the construction workers of bone.",
+      "wrongExplains": {
+        "0": "Osteoclasts break down bone.",
+        "2": "Adipocytes store fat.",
+        "3": "Neurons conduct nerve signals."
+      }
     },
     {
-      "q": "When osteoblasts get trapped in the bone they built, they become OSTEOCYTES.",
+      "q": "What happens when osteoblasts become trapped in the bone they built?",
       "options": [
-        "True",
-        "False"
+        "They die",
+        "They become osteocytes (mature bone cells)",
+        "They escape",
+        "They become osteoclasts"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The builders get walled into their own construction. They live in tiny spaces called lacunae."
+      "explain": "When osteoblasts get trapped in their own construction, they become OSTEOCYTES. They live in tiny spaces (lacunae) and maintain the surrounding bone matrix.",
+      "wrongExplains": {
+        "0": "They transform into osteocytes and continue living.",
+        "2": "They remain trapped but alive as osteocytes.",
+        "3": "Osteoclasts are a completely different cell type (bone destroyers)."
+      }
     },
     {
-      "q": "OSTEOCLASTS are different - they BREAK DOWN bone (clast = break).",
+      "q": "What do osteoclasts do?",
       "options": [
-        "True",
-        "False"
+        "Build bone",
+        "Break down bone during remodeling",
+        "Maintain bone",
+        "Produce cartilage"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! 'Clast' comes from Greek for 'to break.' Osteoclasts demolish bone during remodeling."
+      "explain": "OSTEOCLASTS BREAK DOWN BONE during remodeling. '-Clast' means to break. They're the demolition crew, releasing stored calcium into the blood.",
+      "wrongExplains": {
+        "0": "Osteoblasts build bone.",
+        "2": "Osteocytes maintain bone.",
+        "3": "Chondroblasts produce cartilage."
+      }
     },
     {
-      "q": "The MATURE bone cell that maintains bone tissue is the osteoCYTE.",
+      "q": "What is the function of osteocytes?",
       "options": [
-        "True",
-        "False"
+        "Building new bone",
+        "Maintaining bone tissue and sensing mechanical stress",
+        "Breaking down bone",
+        "Producing blood cells"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Osteocytes are former osteoblasts now trapped in the bone, maintaining the matrix."
+      "explain": "OSTEOCYTES MAINTAIN bone tissue and SENSE MECHANICAL STRESS. They communicate through tiny channels (canaliculi) to coordinate bone remodeling based on mechanical demands.",
+      "wrongExplains": {
+        "0": "Osteoblasts build new bone.",
+        "2": "Osteoclasts break down bone.",
+        "3": "Bone marrow stem cells produce blood cells."
+      }
     },
     {
-      "q": "The answer is OSTEOCYTE - the mature (-cyte) bone (osteo-) cell.",
+      "q": "The primary cell of mature bone tissue is the ___?",
       "options": [
-        "True",
-        "False"
+        "Osteoblast",
+        "Osteocyte",
+        "Osteoclast",
+        "Chondrocyte"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not osteoblast (that's the builder), not osteoclast (that's the demolisher). Osteocyte = mature bone cell."
+      "explain": "The OSTEOCYTE is the primary cell of MATURE bone. These are former osteoblasts now trapped in lacunae, maintaining the bone matrix around them.",
+      "wrongExplains": {
+        "0": "Osteoblasts build bone; osteocytes are the mature form.",
+        "2": "Osteoclasts destroy bone; osteocytes maintain it.",
+        "3": "Chondrocytes are cartilage cells, not bone cells."
+      }
     }
   ]
 }

@@ -1,30 +1,159 @@
 {
   "parentId": "400.1.09",
-  "parentQuestion": "A patient with chronic acid reflux develops Barrett's esophagus, where the norma...",
+  "parentQuestion": "A patient with chronic acid reflux develops Barrett's esophagus, where the normal epithelium is replaced by a different type. This represents ___.",
   "scaffolds": [
+    {
+      "q": "What is metaplasia?",
+      "options": [
+        "Normal cell growth",
+        "Replacement of one mature cell type with another mature cell type",
+        "Cancer formation",
+        "Cell death"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "METAPLASIA is the REPLACEMENT of one MATURE cell type with ANOTHER in response to chronic stress. It's reversible and represents an adaptive response to injury.",
+      "wrongExplains": {
+        "0": "Normal growth is hyperplasia; metaplasia is cell type change.",
+        "2": "Cancer is neoplasia; metaplasia is adaptive change (but can precede cancer).",
+        "3": "Cell death is necrosis or apoptosis; metaplasia is replacement."
+      }
+    },
     {
       "q": "What type of epithelium normally lines the esophagus?",
       "options": [
         "Simple columnar",
-        "Stratified squamous",
-        "Transitional",
-        "Simple cuboidal"
+        "Non-keratinized stratified squamous",
+        "Simple squamous",
+        "Transitional"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "The esophagus is normally lined by non-keratinized stratified squamous epithelium, which protects against mechanical abrasion from swallowing food but is NOT designed to resist acid."
+      "difficulty": "foundation",
+      "explain": "The esophagus is normally lined by NON-KERATINIZED STRATIFIED SQUAMOUS epithelium. This protects against mechanical abrasion from swallowing food.",
+      "wrongExplains": {
+        "0": "Simple columnar lines the stomach and intestines, not esophagus.",
+        "2": "Simple squamous is in alveoli; esophagus needs protection.",
+        "3": "Transitional is in the urinary system."
+      }
     },
     {
-      "q": "What is the term for a cell type that changes into a different cell type?",
+      "q": "What type of epithelium lines the stomach?",
       "options": [
-        "Division",
-        "Differentiation",
-        "Transformation",
-        "Regeneration"
+        "Stratified squamous",
+        "Simple columnar (mucus-secreting)",
+        "Transitional",
+        "Pseudostratified"
       ],
-      "answer": 2,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Transformation refers to cells changing type. In pathology, metaplasia is a specific type of transformation where one mature cell type is replaced by another mature cell type in response to stress."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The stomach is lined by SIMPLE COLUMNAR MUCUS-SECRETING epithelium. The mucus protects the stomach wall from its own acid and enzymes.",
+      "wrongExplains": {
+        "0": "Stratified squamous lines the esophagus, not stomach.",
+        "2": "Transitional is in the urinary system.",
+        "3": "Pseudostratified is in the respiratory tract."
+      }
+    },
+    {
+      "q": "What happens in Barrett's esophagus?",
+      "options": [
+        "Esophageal cells die",
+        "Normal squamous epithelium is replaced by columnar epithelium",
+        "The esophagus narrows",
+        "Muscle tissue replaces epithelium"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "In Barrett's esophagus, normal SQUAMOUS epithelium is REPLACED by COLUMNAR epithelium (intestinal-type). This is metaplasia in response to chronic acid exposure.",
+      "wrongExplains": {
+        "0": "Cell death occurs, but the key change is cell type replacement.",
+        "2": "Narrowing can occur, but the primary change is epithelial type.",
+        "3": "Epithelium changes to different epithelium, not muscle."
+      }
+    },
+    {
+      "q": "Why does acid reflux cause metaplasia in the esophagus?",
+      "options": [
+        "Acid kills all cells",
+        "Columnar epithelium with mucus is more resistant to acid than squamous",
+        "Acid causes cancer directly",
+        "Acid makes squamous cells thicker"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "COLUMNAR EPITHELIUM with MUCUS is more RESISTANT to acid than squamous epithelium. The body adapts by replacing vulnerable squamous cells with more acid-resistant columnar cells.",
+      "wrongExplains": {
+        "0": "Acid damages cells, but metaplasia is an adaptive replacement.",
+        "2": "Metaplasia increases cancer risk but isn't cancer itself.",
+        "3": "The epithelial type changes; squamous cells don't just thicken."
+      }
+    },
+    {
+      "q": "Is metaplasia the same as cancer?",
+      "options": [
+        "Yes, they're identical",
+        "No, but metaplasia can increase cancer risk",
+        "No, metaplasia is always harmless",
+        "Yes, metaplasia is early cancer"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Metaplasia is NOT cancer, but it can INCREASE CANCER RISK. Barrett's esophagus (metaplasia) increases the risk of esophageal adenocarcinoma.",
+      "wrongExplains": {
+        "0": "Metaplasia is adaptive cell change; cancer is uncontrolled growth.",
+        "2": "Metaplasia isn't always harmless — it can precede dysplasia and cancer.",
+        "3": "Metaplasia is distinct from cancer, though it can increase risk."
+      }
+    },
+    {
+      "q": "What triggers metaplasia?",
+      "options": [
+        "Normal aging",
+        "Chronic irritation or environmental stress",
+        "Genetic inheritance only",
+        "Single acute injury"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CHRONIC IRRITATION or ENVIRONMENTAL STRESS triggers metaplasia. Examples include acid reflux (Barrett's), smoking (respiratory metaplasia), and vitamin A deficiency.",
+      "wrongExplains": {
+        "0": "Aging doesn't typically cause metaplasia without chronic stress.",
+        "2": "Environmental factors trigger metaplasia; genetics may contribute.",
+        "3": "Chronic, not acute, injury causes metaplasia."
+      }
+    },
+    {
+      "q": "Can metaplasia be reversed?",
+      "options": [
+        "Never — it's permanent",
+        "Yes, if the chronic irritant is removed",
+        "Only with surgery",
+        "Only in children"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Metaplasia can be REVERSED if the CHRONIC IRRITANT is REMOVED. For example, quitting smoking can allow respiratory epithelium to return to normal.",
+      "wrongExplains": {
+        "0": "Metaplasia is reversible, unlike cancer.",
+        "2": "Removing the irritant can reverse metaplasia without surgery.",
+        "3": "Age doesn't determine reversibility; removing the cause does."
+      }
+    },
+    {
+      "q": "Barrett's esophagus (epithelial replacement due to chronic acid reflux) represents ___?",
+      "options": [
+        "Normal development",
+        "Metaplasia (adaptive change of one epithelial type to another)",
+        "Immediate cancer",
+        "Tissue death (necrosis)"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Barrett's esophagus is METAPLASIA — adaptive change from squamous to columnar epithelium in response to chronic acid exposure. It's reversible but increases cancer risk.",
+      "wrongExplains": {
+        "0": "It's a pathological adaptation, not normal development.",
+        "2": "Metaplasia isn't cancer, though it increases cancer risk.",
+        "3": "Metaplasia is cell replacement, not death."
+      }
     }
   ]
 }

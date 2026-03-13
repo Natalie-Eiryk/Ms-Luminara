@@ -3,94 +3,157 @@
   "parentQuestion": "Which of the following statements about connective tissue is FALSE?",
   "scaffolds": [
     {
-      "q": "Connective tissue contains lots of extracellular matrix (material between cells).",
+      "q": "What is a defining feature of connective tissue?",
       "options": [
-        "True",
-        "False"
+        "Cells tightly packed with no matrix",
+        "Abundant extracellular matrix with scattered cells",
+        "Cells that conduct electricity",
+        "Cells that contract"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! This is a defining feature of connective tissue - abundant matrix with scattered cells."
+      "explain": "Connective tissue has ABUNDANT EXTRACELLULAR MATRIX with SCATTERED CELLS. This is the opposite of epithelium, which has tightly packed cells with minimal matrix.",
+      "wrongExplains": {
+        "0": "Tightly packed cells describes epithelial tissue.",
+        "2": "Conducting electricity describes nervous tissue.",
+        "3": "Contraction describes muscle tissue."
+      }
     },
     {
-      "q": "'Vascular' means having blood vessels.",
+      "q": "What does 'vascular' mean?",
       "options": [
-        "True",
-        "False"
+        "Without blood vessels",
+        "Having blood vessels (blood supply)",
+        "Without nerves",
+        "Having lots of collagen"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Well-vascularized = good blood supply. Avascular = NO blood vessels."
+      "explain": "VASCULAR means HAVING BLOOD VESSELS. 'A-vascular' means WITHOUT blood vessels (the 'a-' prefix means 'not' or 'without').",
+      "wrongExplains": {
+        "0": "Without blood vessels is 'avascular.'",
+        "2": "Without nerves would be 'aneural.'",
+        "3": "Collagen content isn't described by 'vascular.'"
+      }
     },
     {
-      "q": "MOST connective tissues have a good blood supply (are vascular).",
+      "q": "Are most connective tissues vascular or avascular?",
       "options": [
-        "True",
-        "False"
+        "All are avascular",
+        "Most are vascular (have blood vessels)",
+        "None have blood vessels",
+        "Only bone is vascular"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Bone, fat, and loose connective tissues all have blood vessels."
+      "explain": "MOST connective tissues are VASCULAR — bone, fat, and loose connective tissues all have blood vessels. The major exception is cartilage, which is avascular.",
+      "wrongExplains": {
+        "0": "Most connective tissues have blood supply.",
+        "2": "Most connective tissues are vascularized.",
+        "3": "Many connective tissues besides bone are vascular."
+      }
     },
     {
-      "q": "CARTILAGE is the exception - it is AVASCULAR (no blood vessels).",
+      "q": "Which connective tissue is the exception — lacking blood vessels?",
       "options": [
-        "True",
-        "False"
+        "Bone",
+        "Cartilage",
+        "Blood",
+        "Adipose tissue"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Cartilage gets nutrients by diffusion, not by direct blood supply."
+      "explain": "CARTILAGE is AVASCULAR — it has NO BLOOD VESSELS. Nutrients reach cartilage cells (chondrocytes) only by slow diffusion through the matrix.",
+      "wrongExplains": {
+        "0": "Bone is highly vascular with an excellent blood supply.",
+        "2": "Blood IS the vascular system itself.",
+        "3": "Adipose tissue has a good blood supply."
+      }
     },
     {
-      "q": "Because cartilage has no blood supply, it heals SLOWLY.",
+      "q": "Why does cartilage heal slowly?",
       "options": [
-        "True",
-        "False"
+        "It has too many cells",
+        "It lacks blood vessels, so healing supplies arrive slowly by diffusion",
+        "It's too hard",
+        "It has too much collagen"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Blood delivers healing cells and nutrients. No blood = slow delivery = slow repair."
+      "explain": "Cartilage LACKS BLOOD VESSELS, so healing supplies (nutrients, immune cells, growth factors) arrive slowly by DIFFUSION. No express delivery means slow repair.",
+      "wrongExplains": {
+        "0": "Cartilage actually has relatively few cells.",
+        "2": "Hardness doesn't directly affect healing rate.",
+        "3": "Collagen is necessary for healing."
+      }
     },
     {
-      "q": "The statement 'connective tissue is highly vascular' is NOT always true.",
+      "q": "What embryonic tissue do all connective tissues develop from?",
       "options": [
-        "True",
-        "False"
+        "Ectoderm",
+        "Mesenchyme (embryonic mesoderm)",
+        "Endoderm",
+        "Neural crest"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Cartilage proves this statement false - it has NO blood vessels."
+      "explain": "All connective tissues develop from MESENCHYME, which comes from MESODERM. This common origin unifies the diverse connective tissue family.",
+      "wrongExplains": {
+        "0": "Ectoderm forms skin and nervous system.",
+        "2": "Endoderm forms digestive tract lining.",
+        "3": "Neural crest forms some connective tissues but not all."
+      }
     },
     {
-      "q": "All connective tissues develop from mesenchyme (embryonic connective tissue).",
+      "q": "What are the main functions of connective tissue?",
       "options": [
-        "True",
-        "False"
+        "Conducting nerve signals",
+        "Binding, support, protection, insulation, and transport",
+        "Contracting for movement",
+        "Covering body surfaces"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! This IS true for all connective tissues - they share a common embryonic origin."
+      "explain": "Connective tissue provides BINDING (ligaments), SUPPORT (bone, cartilage), PROTECTION (bone, fat padding), INSULATION (fat), and TRANSPORT (blood).",
+      "wrongExplains": {
+        "0": "Nervous tissue conducts signals.",
+        "2": "Muscle tissue contracts.",
+        "3": "Epithelial tissue covers surfaces."
+      }
     },
     {
-      "q": "When looking for a FALSE statement, remember: cartilage is AVASCULAR.",
+      "q": "Why is 'connective tissue is highly vascular' a false statement?",
       "options": [
-        "True",
-        "False"
+        "No connective tissue has blood vessels",
+        "Cartilage is avascular, disproving the general statement",
+        "Blood isn't a connective tissue",
+        "All connective tissues are equally vascular"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! 'Connective tissue is highly vascular' is FALSE because cartilage has no blood supply."
+      "explain": "CARTILAGE is AVASCULAR, disproving the statement that 'connective tissue is highly vascular.' Most are vascular, but cartilage is the notable exception.",
+      "wrongExplains": {
+        "0": "Most connective tissues do have blood vessels.",
+        "2": "Blood IS classified as connective tissue.",
+        "3": "Vascularity varies among connective tissues."
+      }
     },
     {
-      "q": "The FALSE statement is 'Connective tissue is highly vascular' - cartilage proves this wrong.",
+      "q": "Which statement about connective tissue is FALSE?",
       "options": [
-        "True",
-        "False"
+        "Contains abundant extracellular matrix",
+        "All connective tissue is highly vascular",
+        "Develops from mesenchyme",
+        "Provides support and binding"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! The other statements (abundant matrix, from mesenchyme, support/binding function) are all TRUE."
+      "explain": "'All connective tissue is highly vascular' is FALSE because CARTILAGE is AVASCULAR. The other statements (abundant matrix, mesenchyme origin, support function) are true.",
+      "wrongExplains": {
+        "0": "Abundant ECM IS a true characteristic of connective tissue.",
+        "2": "Developing from mesenchyme IS true for all connective tissues.",
+        "3": "Support and binding ARE connective tissue functions."
+      }
     }
   ]
 }

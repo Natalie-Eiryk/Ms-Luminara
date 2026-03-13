@@ -1,30 +1,159 @@
 {
   "parentId": "400.1.05",
-  "parentQuestion": "Choose which tissue would line the uterine (fallopian) tubes and function as a '...",
+  "parentQuestion": "Choose which tissue would line the uterine (fallopian) tubes and function as a 'conveyor belt' to move the egg toward the uterus.",
   "scaffolds": [
     {
       "q": "What are cilia?",
       "options": [
-        "Long whip-like structures",
-        "Short hair-like projections on cells",
-        "Folds in the cell membrane",
+        "Long whip-like structures for swimming",
+        "Short hair-like projections that beat in coordinated waves",
+        "Folds in the cell membrane for absorption",
         "Channels through the cell"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Cilia are short, hair-like projections that extend from the cell surface. They beat in coordinated waves to move substances across the cell surface, like a conveyor belt."
+      "difficulty": "foundation",
+      "explain": "CILIA are SHORT, HAIR-LIKE PROJECTIONS that BEAT IN COORDINATED WAVES. They create currents that move substances across the cell surface, like tiny oars.",
+      "wrongExplains": {
+        "0": "Long whip-like structures for swimming are flagella, not cilia.",
+        "2": "Membrane folds for absorption are microvilli.",
+        "3": "Channels through cells are different structures entirely."
+      }
     },
     {
       "q": "What is the primary function of cilia on epithelial cells?",
       "options": [
-        "Absorb nutrients",
-        "Move substances across the surface",
-        "Protect against infection",
-        "Sense chemicals"
+        "Increase surface area for absorption",
+        "Move substances across the epithelial surface",
+        "Protect against bacteria",
+        "Secrete hormones"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "The primary function of cilia is to move substances across the epithelial surface. They beat in rhythmic waves, creating currents that propel materials like mucus, eggs, or cerebrospinal fluid."
+      "difficulty": "foundation",
+      "explain": "Cilia MOVE SUBSTANCES across the epithelial surface through coordinated beating. They function like a conveyor belt for mucus, eggs, or cerebrospinal fluid.",
+      "wrongExplains": {
+        "0": "Microvilli increase surface area; cilia provide movement.",
+        "2": "Cilia remove debris; they don't directly fight bacteria.",
+        "3": "Glands secrete hormones; cilia move substances."
+      }
+    },
+    {
+      "q": "What type of epithelium has cilia?",
+      "options": [
+        "Simple squamous",
+        "Ciliated columnar epithelium",
+        "Stratified squamous",
+        "Transitional"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CILIATED COLUMNAR EPITHELIUM has cilia. The tall columnar cells provide enough cytoplasm to support the energy-demanding ciliary beating.",
+      "wrongExplains": {
+        "0": "Simple squamous is too thin for cilia.",
+        "2": "Stratified squamous is for protection; cilia would be worn off.",
+        "3": "Transitional epithelium stretches; it doesn't have cilia."
+      }
+    },
+    {
+      "q": "Where is ciliated epithelium found besides the respiratory tract?",
+      "options": [
+        "Skin and blood vessels",
+        "Uterine (fallopian) tubes",
+        "Stomach and intestines",
+        "Urinary bladder"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Ciliated epithelium lines the UTERINE (FALLOPIAN) TUBES where cilia move the egg toward the uterus. The respiratory tract also has cilia for moving mucus.",
+      "wrongExplains": {
+        "0": "Skin has keratinized stratified squamous; blood vessels have endothelium.",
+        "2": "The digestive tract has non-ciliated columnar with microvilli.",
+        "3": "The bladder has transitional epithelium for stretching."
+      }
+    },
+    {
+      "q": "How do cilia move an egg through the fallopian tube?",
+      "options": [
+        "By pushing it with muscle contractions only",
+        "By creating wave-like currents that propel the egg",
+        "By absorbing it into cells",
+        "By secreting mucus that carries it"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Cilia create WAVE-LIKE CURRENTS that propel the egg toward the uterus. The coordinated beating acts like a conveyor belt moving the egg along.",
+      "wrongExplains": {
+        "0": "Muscle contractions help, but cilia provide the primary movement.",
+        "2": "The egg isn't absorbed; it's moved along the surface.",
+        "3": "Mucus helps, but the ciliary beating provides the movement force."
+      }
+    },
+    {
+      "q": "What is pseudostratified epithelium?",
+      "options": [
+        "Epithelium with multiple distinct layers",
+        "Single-layer epithelium that appears stratified because nuclei are at different levels",
+        "Epithelium that changes appearance when stretched",
+        "Epithelium composed of fake cells"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "PSEUDOSTRATIFIED epithelium is a SINGLE LAYER that APPEARS stratified because cell nuclei are at different levels. 'Pseudo' means false — it's falsely appearing stratified.",
+      "wrongExplains": {
+        "0": "True stratified epithelium has multiple layers; pseudo has one.",
+        "2": "Transitional epithelium changes appearance when stretched.",
+        "3": "'Pseudo' refers to the appearance, not fake cells."
+      }
+    },
+    {
+      "q": "What type of epithelium lines the trachea?",
+      "options": [
+        "Simple squamous",
+        "Pseudostratified ciliated columnar",
+        "Stratified squamous",
+        "Transitional"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The trachea is lined by PSEUDOSTRATIFIED CILIATED COLUMNAR epithelium. Cilia move mucus upward (mucociliary escalator) to trap and remove debris.",
+      "wrongExplains": {
+        "0": "Simple squamous is for gas exchange, not airway protection.",
+        "2": "Stratified squamous is in the oral cavity, not lower airways.",
+        "3": "Transitional is for stretching organs like the bladder."
+      }
+    },
+    {
+      "q": "Why are columnar cells needed for ciliated epithelium?",
+      "options": [
+        "They're flat enough for diffusion",
+        "They have enough cytoplasm for the energy-demanding ciliary machinery",
+        "They can stretch when needed",
+        "They provide multiple layers of protection"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Columnar cells have ENOUGH CYTOPLASM for the ENERGY-DEMANDING ciliary machinery. Beating cilia require mitochondria and motor proteins that need cellular space.",
+      "wrongExplains": {
+        "0": "Columnar cells are tall, not flat; squamous is flat.",
+        "2": "Transitional epithelium stretches; columnar is for ciliary function.",
+        "3": "Columnar describes cell shape, not number of layers."
+      }
+    },
+    {
+      "q": "Which tissue would line the uterine tubes and function as a 'conveyor belt' to move the egg?",
+      "options": [
+        "Stratified squamous epithelium",
+        "Simple ciliated columnar epithelium",
+        "Simple squamous epithelium",
+        "Transitional epithelium"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "SIMPLE CILIATED COLUMNAR epithelium lines the uterine tubes. The CILIA create wave-like currents that act as a CONVEYOR BELT, propelling the egg toward the uterus.",
+      "wrongExplains": {
+        "0": "Stratified squamous protects against abrasion; it lacks cilia.",
+        "2": "Simple squamous is for diffusion; it's too thin for cilia.",
+        "3": "Transitional is for stretching; it doesn't move substances."
+      }
     }
   ]
 }

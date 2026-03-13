@@ -3,28 +3,157 @@
   "parentQuestion": "Select the correct statement regarding epithelia.",
   "scaffolds": [
     {
-      "q": "What does 'stratified' mean in anatomy?",
+      "q": "What does 'stratified' mean in epithelial classification?",
       "options": [
-        "Arranged in a single layer",
-        "Arranged in multiple layers",
-        "Arranged randomly",
-        "Arranged in a spiral"
+        "Cells are flat",
+        "Cells are arranged in multiple layers",
+        "Cells are specialized for secretion",
+        "Cells can change shape"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Stratified means arranged in multiple layers or strata. Stratified epithelium has cells stacked on top of each other in layers, as opposed to simple epithelium which has only one layer."
+      "difficulty": "foundation",
+      "explain": "STRATIFIED means arranged in MULTIPLE LAYERS (strata). Stratified epithelium has cells stacked on top of each other, unlike simple epithelium which has only one layer.",
+      "wrongExplains": {
+        "0": "Flat cells are squamous; stratified refers to layering.",
+        "2": "Glandular epithelium specializes in secretion; stratified refers to layers.",
+        "3": "Transitional epithelium changes shape; stratified refers to layers."
+      }
     },
     {
-      "q": "What kind of stress would require protective tissue?",
+      "q": "What is the main advantage of having multiple epithelial layers?",
       "options": [
-        "Osmotic pressure",
-        "Abrasion and mechanical wear",
-        "Light exposure",
-        "Temperature changes"
+        "Better absorption",
+        "Better protection against abrasion and damage",
+        "Faster diffusion",
+        "More secretion"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Abrasion and mechanical wear (rubbing, friction) damage surface tissues. Areas subject to abrasion need thicker, more protective epithelium with multiple layers."
+      "difficulty": "foundation",
+      "explain": "Multiple layers provide BETTER PROTECTION against ABRASION and damage. If surface cells are damaged, deeper layers remain to protect underlying tissues.",
+      "wrongExplains": {
+        "0": "Multiple layers actually impair absorption by creating barriers.",
+        "2": "Multiple layers slow diffusion; simple epithelium is better for diffusion.",
+        "3": "Secretion doesn't require multiple layers."
+      }
+    },
+    {
+      "q": "Where is stratified epithelium typically found?",
+      "options": [
+        "Gas exchange surfaces",
+        "Areas subject to friction and mechanical stress",
+        "Absorption surfaces",
+        "Filtering surfaces"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Stratified epithelium is found in areas subject to FRICTION AND MECHANICAL STRESS — skin, mouth, esophagus, vagina. Multiple layers protect against wear.",
+      "wrongExplains": {
+        "0": "Gas exchange needs thin simple squamous epithelium.",
+        "2": "Absorption needs simple epithelium to minimize barrier.",
+        "3": "Filtering surfaces have simple squamous for thinness."
+      }
+    },
+    {
+      "q": "How is stratified epithelium named?",
+      "options": [
+        "By the shape of the basal (bottom) cells",
+        "By the shape of the apical (surface) cells",
+        "By the total number of layers",
+        "By the location in the body"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Stratified epithelium is named by the shape of the APICAL (SURFACE) cells. For example, stratified squamous has flat cells at the surface, even if deeper cells are cuboidal.",
+      "wrongExplains": {
+        "0": "Basal cells in stratified epithelium are often cuboidal regardless of type.",
+        "2": "The number of layers isn't used for naming.",
+        "3": "Classification is by cell shape, not location."
+      }
+    },
+    {
+      "q": "What types of cells make up stratified squamous epithelium?",
+      "options": [
+        "Only squamous cells throughout",
+        "Cuboidal/columnar cells at base, squamous cells at surface",
+        "Squamous cells at base, cuboidal at surface",
+        "Randomly mixed cell types"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Stratified squamous has CUBOIDAL/COLUMNAR cells at the BASE (where they divide) and SQUAMOUS cells at the SURFACE. Cells flatten as they move toward the surface.",
+      "wrongExplains": {
+        "0": "Only the surface cells are squamous; basal cells are cuboidal.",
+        "2": "It's the opposite: cuboidal at base, squamous at surface.",
+        "3": "The arrangement is organized, not random."
+      }
+    },
+    {
+      "q": "Which epithelium regenerates from the basal layer?",
+      "options": [
+        "Simple squamous only",
+        "Stratified epithelium",
+        "Transitional only",
+        "No epithelium regenerates"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "STRATIFIED EPITHELIUM regenerates from the BASAL LAYER. Stem cells at the base divide, and daughter cells move upward, flattening as they reach the surface.",
+      "wrongExplains": {
+        "0": "Simple squamous regenerates from all cells, not a distinct basal layer.",
+        "2": "All epithelia can regenerate, not just transitional.",
+        "3": "Epithelium is highly regenerative tissue."
+      }
+    },
+    {
+      "q": "What happens to cells as they move from base to surface in stratified epithelium?",
+      "options": [
+        "They get larger and rounder",
+        "They flatten and may die (keratinize)",
+        "They divide more rapidly",
+        "They become more specialized for absorption"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "As cells move from base to surface, they FLATTEN and may DIE (keratinize). In keratinized epithelium like skin, surface cells are dead and filled with keratin protein.",
+      "wrongExplains": {
+        "0": "Cells flatten, not get rounder, as they move toward surface.",
+        "2": "Cell division occurs at the base, not surface.",
+        "3": "Surface cells are for protection, not absorption."
+      }
+    },
+    {
+      "q": "Why is absorption NOT a function of stratified epithelium?",
+      "options": [
+        "The cells are too small",
+        "Multiple layers create a barrier that blocks absorption",
+        "Stratified cells lack organelles",
+        "Only simple epithelium has a blood supply"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "MULTIPLE LAYERS create a BARRIER that BLOCKS absorption. Substances would have to pass through many cell layers to reach underlying blood vessels — too slow and inefficient.",
+      "wrongExplains": {
+        "0": "Cell size isn't the issue; the number of layers is.",
+        "2": "Stratified cells have organelles; the barrier is the problem.",
+        "3": "Both types are avascular; simple epithelium is thinner for diffusion."
+      }
+    },
+    {
+      "q": "Select the correct statement regarding epithelia:",
+      "options": [
+        "Simple epithelium is best for protection",
+        "Stratified epithelium is best for areas subject to abrasion",
+        "Stratified epithelium is best for absorption",
+        "Simple epithelium provides the most protection"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "STRATIFIED EPITHELIUM is best for areas subject to ABRASION because multiple layers provide protection. Simple epithelium is thin for absorption/diffusion but offers less protection.",
+      "wrongExplains": {
+        "0": "Simple epithelium is too thin for protection; it's for exchange.",
+        "2": "Stratified epithelium blocks absorption; simple allows it.",
+        "3": "Simple epithelium provides minimal protection."
+      }
     }
   ]
 }

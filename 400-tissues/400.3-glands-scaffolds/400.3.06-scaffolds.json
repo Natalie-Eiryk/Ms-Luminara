@@ -3,94 +3,157 @@
   "parentQuestion": "A patient undergoes surgery to remove a tumor that has been secreting excessive growth hormone directly into the bloodstream, causing gigantism. The tumor originated in which type of gland?",
   "scaffolds": [
     {
-      "q": "Growth hormone affects the entire body, not just one local area.",
+      "q": "What is growth hormone?",
       "options": [
-        "True",
-        "False"
+        "A digestive enzyme",
+        "A chemical messenger that promotes body-wide growth",
+        "A protein that breaks down fat",
+        "A vitamin"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Growth hormone promotes growth of bones and tissues throughout the body - systemic effects."
+      "explain": "GROWTH HORMONE is a CHEMICAL MESSENGER that promotes BODY-WIDE GROWTH. It affects bones and tissues throughout the entire body — systemic effects.",
+      "wrongExplains": {
+        "0": "Digestive enzymes work in the GI tract; GH works body-wide.",
+        "2": "GH promotes growth, not just fat breakdown.",
+        "3": "Hormones are made by the body; vitamins come from food."
+      }
     },
     {
-      "q": "Hormones travel through the BLOODSTREAM to reach their targets.",
+      "q": "How do hormones travel to their target cells?",
       "options": [
-        "True",
-        "False"
+        "Through nerves",
+        "Through the bloodstream",
+        "Through lymph only",
+        "By direct contact between cells"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Hormones are chemical messengers that get released into blood and travel everywhere."
+      "explain": "Hormones travel through the BLOODSTREAM to reach their targets. They're chemical messengers released into blood and carried everywhere in the body.",
+      "wrongExplains": {
+        "0": "Nerves transmit electrical signals; blood carries hormones.",
+        "2": "Blood is the primary transport; some hormones enter lymph.",
+        "3": "Hormones travel distances through blood, not just contact."
+      }
     },
     {
-      "q": "ENDOCRINE glands secrete hormones directly into the bloodstream.",
+      "q": "What defines an endocrine gland?",
       "options": [
-        "True",
-        "False"
+        "It has ducts to surfaces",
+        "It secretes hormones directly into the bloodstream",
+        "It produces mucus",
+        "It secretes onto the skin"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! 'Endo' = inside. Endocrine glands are ductless - they dump hormones straight into blood."
+      "explain": "ENDOCRINE glands SECRETE HORMONES directly into the BLOODSTREAM. 'Endo' = inside. They're ductless — hormones go straight into blood for system-wide distribution.",
+      "wrongExplains": {
+        "0": "Ducts characterize exocrine glands, not endocrine.",
+        "2": "Mucus comes from exocrine glands.",
+        "3": "Skin secretions come from exocrine glands."
+      }
     },
     {
-      "q": "The pituitary gland produces growth hormone and is an endocrine gland.",
+      "q": "Which gland produces growth hormone?",
       "options": [
-        "True",
-        "False"
+        "Thyroid gland",
+        "Pituitary gland",
+        "Adrenal gland",
+        "Pancreas"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The pituitary is called the 'master gland' - it makes many hormones including growth hormone."
+      "explain": "The PITUITARY GLAND produces growth hormone. It's called the 'master gland' because it makes many hormones, including growth hormone (GH).",
+      "wrongExplains": {
+        "0": "Thyroid makes thyroid hormones, not GH.",
+        "2": "Adrenal makes cortisol and adrenaline, not GH.",
+        "3": "Pancreas makes insulin and glucagon, not GH."
+      }
     },
     {
-      "q": "Gigantism results from too much growth hormone during childhood.",
+      "q": "What is gigantism?",
       "options": [
-        "True",
-        "False"
+        "A deficiency of growth hormone",
+        "Excessive height from too much growth hormone during childhood",
+        "A bone disease",
+        "A muscle disorder"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Excess GH before the growth plates close causes extreme height - gigantism."
+      "explain": "GIGANTISM results from TOO MUCH GROWTH HORMONE during CHILDHOOD. Excess GH before growth plates close causes extreme height.",
+      "wrongExplains": {
+        "0": "Deficiency causes dwarfism, not gigantism.",
+        "2": "It's a hormonal disorder, not primarily bone disease.",
+        "3": "It affects the whole body, not just muscles."
+      }
     },
     {
-      "q": "A tumor in an endocrine gland can produce excess hormones continuously.",
+      "q": "What happens when a tumor forms in an endocrine gland?",
       "options": [
-        "True",
-        "False"
+        "Hormone production stops completely",
+        "The tumor often produces excess hormones continuously",
+        "The gland shrinks",
+        "Hormones become toxic"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Tumors often retain the secretory function but lose the normal feedback control - overproduction."
+      "explain": "Endocrine tumors often PRODUCE EXCESS HORMONES continuously. They retain secretory function but lose normal feedback control — leading to overproduction.",
+      "wrongExplains": {
+        "0": "Many tumors increase, not stop, hormone production.",
+        "2": "Tumors usually enlarge the gland.",
+        "3": "It's the quantity, not toxicity, that's the problem."
+      }
     },
     {
-      "q": "EXOCRINE glands have ducts and deliver to surfaces - NOT into blood.",
+      "q": "How do exocrine glands differ from endocrine glands?",
       "options": [
-        "True",
-        "False"
+        "They're identical",
+        "Exocrine have ducts and deliver to surfaces; endocrine secrete into blood",
+        "Exocrine make hormones",
+        "Exocrine are ductless"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Sweat and salivary glands are exocrine. They don't cause systemic hormone effects like gigantism."
+      "explain": "EXOCRINE glands have DUCTS and DELIVER TO SURFACES — not into blood. Sweat and salivary glands are exocrine. They don't cause systemic hormone effects like gigantism.",
+      "wrongExplains": {
+        "0": "They have fundamentally different delivery mechanisms.",
+        "2": "Endocrine glands make hormones; exocrine don't.",
+        "3": "Exocrine glands have ducts; endocrine are ductless."
+      }
     },
     {
-      "q": "A tumor secreting hormones into blood must originate from an ENDOCRINE gland.",
+      "q": "If a tumor secretes hormones into the blood, what type of gland did it originate from?",
       "options": [
-        "True",
-        "False"
+        "Exocrine gland",
+        "Endocrine gland",
+        "Sweat gland",
+        "Salivary gland"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The fact that growth hormone is going directly into blood tells you it's endocrine tissue."
+      "explain": "A tumor secreting HORMONES INTO BLOOD must originate from an ENDOCRINE gland. The fact that growth hormone goes directly into blood tells you it's endocrine tissue.",
+      "wrongExplains": {
+        "0": "Exocrine glands secrete to surfaces, not blood.",
+        "2": "Sweat glands are exocrine; they don't make hormones.",
+        "3": "Salivary glands are exocrine; they make saliva, not hormones."
+      }
     },
     {
-      "q": "The answer is ENDOCRINE gland - secretes hormones directly into bloodstream.",
+      "q": "A tumor secreting growth hormone into the bloodstream originated in which type of gland?",
       "options": [
-        "True",
-        "False"
+        "Exocrine gland",
+        "Endocrine gland",
+        "Holocrine gland",
+        "Apocrine gland"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not exocrine (has ducts), not holocrine/apocrine (secretion modes, not gland types). Endocrine = ductless hormone secretion."
+      "explain": "The tumor originated in an ENDOCRINE gland — specifically the pituitary. Not exocrine (has ducts), not holocrine/apocrine (secretion modes, not gland types). Endocrine = ductless hormone secretion.",
+      "wrongExplains": {
+        "0": "Exocrine glands have ducts and don't secrete hormones.",
+        "2": "Holocrine describes a secretion mode, not gland type.",
+        "3": "Apocrine describes a secretion mode, not gland type."
+      }
     }
   ]
 }

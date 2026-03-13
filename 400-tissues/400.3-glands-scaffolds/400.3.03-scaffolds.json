@@ -3,94 +3,157 @@
   "parentQuestion": "An inflammation response would include which of the following?",
   "scaffolds": [
     {
-      "q": "Inflammation is the body's first response to tissue damage.",
+      "q": "What is inflammation?",
       "options": [
-        "True",
-        "False"
+        "A disease that damages tissue",
+        "The body's protective response to tissue damage or infection",
+        "The final stage of healing",
+        "A type of cancer"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Before you can rebuild, you need to clean up the damage and fight infection."
+      "explain": "INFLAMMATION is the body's PROTECTIVE RESPONSE to tissue damage or infection. It's the first step of repair — cleanup before rebuilding.",
+      "wrongExplains": {
+        "0": "Inflammation is a protective response, not a disease itself.",
+        "2": "Inflammation is the first stage, not the final stage.",
+        "3": "Inflammation is a normal response, not cancer."
+      }
     },
     {
-      "q": "The cardinal signs of inflammation are: redness, heat, swelling, and pain.",
+      "q": "What are the cardinal signs of inflammation?",
       "options": [
-        "True",
-        "False"
+        "Paleness, cold, dryness, numbness",
+        "Redness, heat, swelling, and pain",
+        "Fatigue, weakness, weight loss",
+        "Itching, peeling, cracking"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! These aren't bugs - they're features! They indicate your body is responding to damage."
+      "explain": "The cardinal signs are REDNESS, HEAT, SWELLING, and PAIN. These aren't bugs — they're features showing your body is responding to damage!",
+      "wrongExplains": {
+        "0": "These are signs of poor circulation, not inflammation.",
+        "2": "These are systemic symptoms, not local inflammatory signs.",
+        "3": "These describe skin conditions, not classic inflammation."
+      }
     },
     {
-      "q": "VASODILATION means blood vessels WIDEN, increasing blood flow.",
+      "q": "What does vasodilation mean?",
       "options": [
-        "True",
-        "False"
+        "Blood vessels narrow",
+        "Blood vessels widen, increasing blood flow",
+        "Blood vessels rupture",
+        "Blood vessels disappear"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! 'Vaso' = vessel, 'dilation' = widening. More blood flows to the area, causing redness and heat."
+      "explain": "VASODILATION means blood vessels WIDEN, INCREASING BLOOD FLOW. 'Vaso' = vessel, 'dilation' = widening. More blood flows to the area, causing redness and heat.",
+      "wrongExplains": {
+        "0": "Narrowing is vasoconstriction, the opposite.",
+        "2": "Rupture is hemorrhage, not dilation.",
+        "3": "Vessels don't disappear during inflammation."
+      }
     },
     {
-      "q": "Increased PERMEABILITY means vessel walls become 'leaky.'",
+      "q": "What does increased permeability mean during inflammation?",
       "options": [
-        "True",
-        "False"
+        "Vessel walls become thicker",
+        "Vessel walls become 'leaky,' allowing fluid and cells out",
+        "Vessel walls become impermeable",
+        "Vessels stop carrying blood"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Fluid and proteins leak out of blood vessels into tissues, causing swelling."
+      "explain": "Increased PERMEABILITY means vessel walls become 'LEAKY.' Fluid and proteins leak out of blood vessels into tissues, causing swelling.",
+      "wrongExplains": {
+        "0": "Walls become leakier, not thicker.",
+        "2": "Impermeability would prevent healing; permeability increases.",
+        "3": "Blood still flows; fluid leaks out."
+      }
     },
     {
-      "q": "During inflammation, immune cells rush TO the injury site.",
+      "q": "Why do immune cells rush to the injury site during inflammation?",
       "options": [
-        "True",
-        "False"
+        "To cause more damage",
+        "To clear debris and fight infection",
+        "To form scar tissue immediately",
+        "To stop blood flow"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Vasodilation brings more blood, and increased permeability lets immune cells leave vessels to reach damaged tissue."
+      "explain": "Immune cells rush to the injury to CLEAR DEBRIS and FIGHT INFECTION. Vasodilation brings more blood, and increased permeability lets immune cells leave vessels to reach damaged tissue.",
+      "wrongExplains": {
+        "0": "Immune cells help heal, not cause more damage.",
+        "2": "Scar tissue forms later; first is cleanup.",
+        "3": "Blood flow increases during inflammation."
+      }
     },
     {
-      "q": "Inflammation INCREASES blood flow, not decreases it.",
+      "q": "Does inflammation increase or decrease blood flow?",
       "options": [
-        "True",
-        "False"
+        "Decreases blood flow",
+        "Increases blood flow",
+        "Has no effect on blood flow",
+        "Completely stops blood flow"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! You want MORE blood bringing immune cells and nutrients to the damage zone."
+      "explain": "Inflammation INCREASES blood flow through vasodilation. You want MORE blood bringing immune cells and nutrients to the damage zone.",
+      "wrongExplains": {
+        "0": "Decreased flow would impair healing.",
+        "2": "Vasodilation significantly increases flow.",
+        "3": "Blood continues flowing; it's increased."
+      }
     },
     {
-      "q": "Granulation tissue forms AFTER inflammation, during the proliferative phase.",
+      "q": "When does granulation tissue form relative to inflammation?",
       "options": [
-        "True",
-        "False"
+        "Before inflammation",
+        "After inflammation, during the proliferative phase",
+        "At the same time as inflammation",
+        "Granulation tissue doesn't form"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! First cleanup (inflammation), THEN building (proliferation with granulation tissue)."
+      "explain": "Granulation tissue forms AFTER inflammation, during the PROLIFERATIVE PHASE. First cleanup (inflammation), THEN building (proliferation with granulation tissue).",
+      "wrongExplains": {
+        "0": "Inflammation must happen first to clear debris.",
+        "2": "Phases are sequential, not simultaneous.",
+        "3": "Granulation tissue is essential for wound healing."
+      }
     },
     {
-      "q": "Inflammation includes VASODILATION and INCREASED PERMEABILITY.",
+      "q": "What two processes characterize the inflammatory response?",
       "options": [
-        "True",
-        "False"
+        "Vasoconstriction and decreased permeability",
+        "Vasodilation and increased permeability",
+        "Cell death and scarring",
+        "Granulation and regeneration"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Wider vessels + leaky walls = more blood flow and fluid/cells leaving vessels."
+      "explain": "Inflammation includes VASODILATION and INCREASED PERMEABILITY. Wider vessels + leaky walls = more blood flow and fluid/cells leaving vessels to reach damaged tissue.",
+      "wrongExplains": {
+        "0": "These are the opposite of what happens.",
+        "2": "Cell death and scarring occur later in repair.",
+        "3": "These occur after inflammation resolves."
+      }
     },
     {
-      "q": "The answer is 'dilation of blood vessels and increased permeability.'",
+      "q": "An inflammation response would include which of the following?",
       "options": [
-        "True",
-        "False"
+        "Reduced blood flow to the area",
+        "Dilation of blood vessels and increased permeability",
+        "Granulation tissue formation",
+        "Immediate regeneration of tissue"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not reduced blood flow (inflammation increases flow), not granulation (that's later), not regeneration (that's the final phase)."
+      "explain": "Inflammation includes VASODILATION and INCREASED PERMEABILITY. Not reduced blood flow (inflammation increases flow), not granulation (that's later), not regeneration (that's the final phase).",
+      "wrongExplains": {
+        "0": "Blood flow increases during inflammation.",
+        "2": "Granulation occurs after inflammation, during proliferation.",
+        "3": "Regeneration is the final outcome, not part of inflammation."
+      }
     }
   ]
 }

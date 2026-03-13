@@ -3,94 +3,157 @@
   "parentQuestion": "A patient has a wound that is healing very slowly. Biopsy shows abundant granulation tissue that is failing to transition to the next phase of repair. Which phase is the tissue 'stuck' in?",
   "scaffolds": [
     {
-      "q": "Tissue repair happens in three phases: inflammation, proliferation, remodeling.",
+      "q": "What are the three phases of tissue repair?",
       "options": [
-        "True",
-        "False"
+        "Infection, healing, scarring",
+        "Inflammation, proliferation, remodeling",
+        "Bleeding, clotting, recovery",
+        "Damage, cleanup, growth"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Each phase must complete before the next can succeed."
+      "explain": "The three phases of tissue repair are INFLAMMATION, PROLIFERATION, and REMODELING. Each phase must complete before the next can succeed.",
+      "wrongExplains": {
+        "0": "These aren't the standard repair phases.",
+        "2": "Hemostasis precedes repair but isn't a repair phase.",
+        "3": "These are oversimplified terms."
+      }
     },
     {
-      "q": "Phase 1 (inflammation) involves cleanup - immune cells remove debris.",
+      "q": "What happens during the inflammatory phase?",
       "options": [
-        "True",
-        "False"
+        "New tissue is built",
+        "Immune cells arrive and clear debris",
+        "Scar tissue strengthens",
+        "The wound closes completely"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! First responders clear the damage zone. Painful but necessary."
+      "explain": "Phase 1 (INFLAMMATION) involves CLEANUP — IMMUNE CELLS remove debris and fight infection. Painful but necessary before rebuilding.",
+      "wrongExplains": {
+        "0": "New tissue forms in proliferation.",
+        "2": "Scar strengthening occurs in remodeling.",
+        "3": "Closure happens later in the process."
+      }
     },
     {
-      "q": "Phase 2 (proliferation) involves building - new tissue scaffold forms.",
+      "q": "What happens during the proliferative phase?",
       "options": [
-        "True",
-        "False"
+        "Debris is cleared",
+        "New tissue scaffold (granulation tissue) forms",
+        "Final scar matures",
+        "Inflammation peaks"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Fibroblasts and new blood vessels create granulation tissue."
+      "explain": "Phase 2 (PROLIFERATION) involves BUILDING — new blood vessels and connective tissue form GRANULATION TISSUE, a scaffold for repair.",
+      "wrongExplains": {
+        "0": "Debris clearing occurs in inflammation.",
+        "2": "Scar maturation occurs in remodeling.",
+        "3": "Inflammation peaks before proliferation."
+      }
     },
     {
-      "q": "GRANULATION TISSUE is characteristic of the PROLIFERATIVE phase.",
+      "q": "What is granulation tissue?",
       "options": [
-        "True",
-        "False"
+        "Dead tissue",
+        "Pink, granular tissue with new capillaries forming during proliferation",
+        "Final scar tissue",
+        "Infected tissue"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! That pink, granular tissue with new capillaries = proliferation is happening."
+      "explain": "GRANULATION TISSUE is PINK, GRANULAR tissue with NEW CAPILLARIES. It's the scaffold formed during proliferation — characteristic of active wound healing.",
+      "wrongExplains": {
+        "0": "Granulation tissue is living, healing tissue.",
+        "2": "It's a temporary scaffold, not final scar.",
+        "3": "It indicates healing, not infection."
+      }
     },
     {
-      "q": "Phase 3 (remodeling) involves maturation - collagen reorganizes, scar strengthens.",
+      "q": "What happens during the remodeling phase?",
       "options": [
-        "True",
-        "False"
+        "Inflammation begins",
+        "Collagen reorganizes and the scar strengthens",
+        "Granulation tissue first appears",
+        "The wound first opens"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The final phase refines the repair - can take months or years."
+      "explain": "Phase 3 (REMODELING) involves maturation — COLLAGEN REORGANIZES and the SCAR STRENGTHENS. This final phase can take months or years.",
+      "wrongExplains": {
+        "0": "Inflammation is the first phase.",
+        "2": "Granulation tissue forms during proliferation.",
+        "3": "The wound opens from injury, not during remodeling."
+      }
     },
     {
-      "q": "If you see GRANULATION TISSUE, the wound is in the PROLIFERATIVE phase.",
+      "q": "If you see granulation tissue in a wound, which phase is active?",
       "options": [
-        "True",
-        "False"
+        "Inflammatory phase",
+        "Proliferative phase",
+        "Remodeling phase",
+        "Pre-injury phase"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Granulation tissue is THE hallmark of proliferation."
+      "explain": "Granulation tissue indicates the PROLIFERATIVE PHASE is active. Granulation tissue IS THE HALLMARK of proliferation — active scaffold building.",
+      "wrongExplains": {
+        "0": "Inflammation occurs before granulation tissue forms.",
+        "2": "Remodeling comes after granulation tissue has formed.",
+        "3": "Pre-injury is before any wound exists."
+      }
     },
     {
-      "q": "A wound stuck WITH granulation tissue is stuck IN proliferation.",
+      "q": "If a wound is 'stuck' with abundant granulation tissue, which phase is impaired?",
       "options": [
-        "True",
-        "False"
+        "Inflammatory phase",
+        "Proliferative phase (can't transition to remodeling)",
+        "Remodeling phase",
+        "Hemostasis phase"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The tissue can't transition to remodeling. Construction continues but never finishes."
+      "explain": "A wound stuck WITH granulation tissue is stuck IN PROLIFERATION. The tissue can't transition to remodeling — construction continues but never finishes.",
+      "wrongExplains": {
+        "0": "Inflammation happens before granulation tissue forms.",
+        "2": "Remodeling comes after successful transition from proliferation.",
+        "3": "Hemostasis precedes the repair phases."
+      }
     },
     {
-      "q": "This wound shows granulation tissue, so it's stuck in the PROLIFERATIVE phase.",
+      "q": "What must happen for a wound to progress from proliferation to remodeling?",
       "options": [
-        "True",
-        "False"
+        "More inflammation",
+        "Granulation tissue must mature and begin collagen reorganization",
+        "More bleeding",
+        "Infection must occur"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Not inflammatory (that's before granulation), not remodeling (that's after). Proliferation = granulation."
+      "explain": "For progression, GRANULATION TISSUE must MATURE and begin COLLAGEN REORGANIZATION. If this transition fails, the wound stays in proliferation.",
+      "wrongExplains": {
+        "0": "Inflammation must resolve, not increase.",
+        "2": "Bleeding would set back healing.",
+        "3": "Infection impairs healing."
+      }
     },
     {
-      "q": "The answer is PROLIFERATIVE phase - granulation tissue is its hallmark.",
+      "q": "A wound with abundant granulation tissue failing to transition is stuck in which phase?",
       "options": [
-        "True",
-        "False"
+        "Inflammatory phase",
+        "Proliferative phase",
+        "Remodeling phase",
+        "Regeneration phase"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! The wound keeps making scaffold tissue but can't progress to final remodeling/healing."
+      "explain": "The wound is stuck in the PROLIFERATIVE PHASE. Granulation tissue is its hallmark, but the wound can't progress to final remodeling/healing.",
+      "wrongExplains": {
+        "0": "Inflammatory phase occurs before granulation tissue.",
+        "2": "Remodeling comes after successful transition.",
+        "3": "Regeneration is an outcome, not a phase name."
+      }
     }
   ]
 }

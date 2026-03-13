@@ -3,94 +3,157 @@
   "parentQuestion": "A patient presents with severe acne. Examination reveals sebaceous glands that are overfilled with sebum, causing them to rupture and trigger inflammation. What mode of secretion characterizes these problematic glands?",
   "scaffolds": [
     {
-      "q": "Sebaceous glands produce an oily substance called sebum.",
+      "q": "What are sebaceous glands?",
       "options": [
-        "True",
-        "False"
+        "Sweat-producing glands",
+        "Oil-producing glands that secrete sebum",
+        "Hormone-producing glands",
+        "Saliva-producing glands"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Sebum lubricates and waterproofs your skin and hair."
+      "explain": "SEBACEOUS GLANDS are OIL-PRODUCING GLANDS that secrete SEBUM. Sebum lubricates and waterproofs your skin and hair.",
+      "wrongExplains": {
+        "0": "Sweat comes from eccrine and apocrine sweat glands.",
+        "2": "Hormones come from endocrine glands.",
+        "3": "Saliva comes from salivary glands."
+      }
     },
     {
-      "q": "Acne occurs when sebaceous glands produce too much sebum.",
+      "q": "What causes acne?",
       "options": [
-        "True",
-        "False"
+        "Too little oil production",
+        "Excess sebum production that clogs pores",
+        "Excessive sweating",
+        "Hormone deficiency"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Excess oil + blocked pores = acne. The sebum has nowhere to go."
+      "explain": "ACNE occurs when sebaceous glands produce TOO MUCH SEBUM. Excess oil + blocked pores = acne. The sebum has nowhere to go and gets trapped.",
+      "wrongExplains": {
+        "0": "Acne involves excess oil, not too little.",
+        "2": "Sweating doesn't directly cause acne.",
+        "3": "Hormones stimulate sebum; excess hormones can worsen acne."
+      }
     },
     {
-      "q": "In HOLOCRINE secretion, the cell fills with product and then ruptures.",
+      "q": "What happens to the cell in holocrine secretion?",
       "options": [
-        "True",
-        "False"
+        "The cell remains intact",
+        "The cell fills with product and ruptures to release it",
+        "Only the cell membrane is released",
+        "The cell divides first"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The cell literally explodes to release its contents. The cell dies in the process."
+      "explain": "In HOLOCRINE secretion, the cell FILLS WITH PRODUCT and RUPTURES to release it. The cell literally explodes — it dies in the process.",
+      "wrongExplains": {
+        "0": "That describes merocrine secretion.",
+        "2": "The entire cell contents are released.",
+        "3": "Division before secretion doesn't define holocrine."
+      }
     },
     {
-      "q": "Sebaceous glands use holocrine secretion - the cells rupture to release sebum.",
+      "q": "What type of secretion do sebaceous glands use?",
       "options": [
-        "True",
-        "False"
+        "Merocrine — cells stay intact",
+        "Holocrine — cells rupture to release sebum",
+        "Apocrine — cells lose their apex",
+        "Endocrine — secretes into blood"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Each sebaceous cell swells with oil until it bursts. Cellular martyrdom for soft skin."
+      "explain": "Sebaceous glands use HOLOCRINE secretion — the cells RUPTURE to release sebum. Each sebaceous cell swells with oil until it bursts. Cellular martyrdom for soft skin.",
+      "wrongExplains": {
+        "0": "Merocrine keeps cells intact; sebaceous cells rupture.",
+        "2": "Apocrine only loses the apex; holocrine destroys the whole cell.",
+        "3": "Sebaceous glands secrete to skin surface, not blood."
+      }
     },
     {
-      "q": "MEROCRINE secretion keeps the cell intact - the cell doesn't rupture.",
+      "q": "How does merocrine secretion differ from holocrine?",
       "options": [
-        "True",
-        "False"
+        "Both destroy the cell",
+        "Merocrine keeps the cell intact; holocrine destroys it",
+        "Merocrine is faster",
+        "There's no difference"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Sweat glands use merocrine secretion. The cells survive and keep secreting."
+      "explain": "In MEROCRINE secretion, the CELL STAYS INTACT — products are released by exocytosis. Sweat glands use merocrine. Sebaceous glands use holocrine (cell destruction).",
+      "wrongExplains": {
+        "0": "Only holocrine destroys the cell.",
+        "2": "Speed isn't the distinguishing feature.",
+        "3": "They're fundamentally different mechanisms."
+      }
     },
     {
-      "q": "APOCRINE secretion pinches off part of the cell, but doesn't destroy it completely.",
+      "q": "How does apocrine secretion differ from holocrine?",
       "options": [
-        "True",
-        "False"
+        "Both destroy the entire cell",
+        "Apocrine only pinches off the apex; holocrine destroys the whole cell",
+        "Apocrine is used by oil glands",
+        "There's no difference"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Some mammary glands work this way. Partial loss, not total destruction."
+      "explain": "APOCRINE secretion PINCHES OFF part of the cell (the apex) but doesn't destroy it completely. HOLOCRINE destroys the ENTIRE CELL. Some mammary glands use apocrine.",
+      "wrongExplains": {
+        "0": "Apocrine only removes the apex; the cell survives.",
+        "2": "Oil glands use holocrine, not apocrine.",
+        "3": "They're distinctly different mechanisms."
+      }
     },
     {
-      "q": "In acne, holocrine secretion creates lots of dead cell debris along with excess sebum.",
+      "q": "Why does holocrine secretion in acne create extra debris?",
       "options": [
-        "True",
-        "False"
+        "It doesn't create debris",
+        "Cell rupture means dead cell debris mixes with sebum",
+        "The debris comes from outside the body",
+        "Bacteria create all the debris"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Cell rupture = cell death debris. This debris gets trapped in blocked pores and feeds bacteria."
+      "explain": "In holocrine secretion, CELL RUPTURE creates DEAD CELL DEBRIS along with sebum. This debris gets trapped in blocked pores and feeds bacteria, worsening acne.",
+      "wrongExplains": {
+        "0": "Cell death always creates debris.",
+        "2": "Debris comes from dying cells inside.",
+        "3": "Cell debris exists before bacteria multiply."
+      }
     },
     {
-      "q": "Sebaceous glands use HOLOCRINE secretion - cells rupture and die to release sebum.",
+      "q": "Why do sebaceous glands need constant cell replacement?",
       "options": [
-        "True",
-        "False"
+        "Cells migrate away",
+        "Cells die every time they secrete (holocrine)",
+        "Cells divide too fast",
+        "Cells shrink over time"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! This normal process goes wrong in acne when ducts get blocked."
+      "explain": "Sebaceous glands need constant cell replacement because CELLS DIE EVERY TIME THEY SECRETE (holocrine). Stem cells at the base divide to replenish the population.",
+      "wrongExplains": {
+        "0": "Cells rupture in place; they don't migrate.",
+        "2": "Division replaces lost cells; it's not 'too fast.'",
+        "3": "Cells rupture, not shrink."
+      }
     },
     {
-      "q": "The answer is HOLOCRINE secretion - the mode where cells rupture and die.",
+      "q": "What mode of secretion characterizes sebaceous glands in acne?",
       "options": [
-        "True",
-        "False"
+        "Merocrine",
+        "Holocrine",
+        "Apocrine",
+        "Endocrine"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not merocrine (cell stays intact), not apocrine (only apex lost), not endocrine (that's hormone secretion into blood)."
+      "explain": "HOLOCRINE secretion characterizes sebaceous glands — cells rupture and die to release sebum. Not merocrine (cell stays intact), not apocrine (only apex lost), not endocrine (hormones into blood).",
+      "wrongExplains": {
+        "0": "Merocrine cells stay intact; sebaceous cells rupture.",
+        "2": "Apocrine only loses the apex; sebaceous cells die completely.",
+        "3": "Endocrine describes hormone secretion into blood."
+      }
     }
   ]
 }

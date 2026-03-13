@@ -3,94 +3,157 @@
   "parentQuestion": "A 70-year-old man with chronic kidney disease has persistently high blood calcium levels despite dietary calcium restriction. His bones are becoming progressively weaker and X-rays show 'moth-eaten' appearance. Which cells are being OVERSTIMULATED by the hormone his kidneys can no longer properly regulate?",
   "scaffolds": [
     {
-      "q": "Bone serves as a storage reservoir for calcium.",
+      "q": "Where is most of the body's calcium stored?",
       "options": [
-        "True",
-        "False"
+        "In the blood",
+        "In the bones",
+        "In muscles",
+        "In the liver"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! About 99% of body calcium is stored in bones. It can be released when blood calcium drops."
+      "explain": "About 99% of body calcium is stored IN THE BONES. Bones serve as a calcium reservoir that can be tapped when blood calcium levels drop.",
+      "wrongExplains": {
+        "0": "Only about 1% of calcium is in blood.",
+        "2": "Muscles use calcium for contraction but don't store it.",
+        "3": "The liver doesn't store calcium."
+      }
     },
     {
-      "q": "The suffix '-clast' means to break or destroy.",
+      "q": "What does the suffix '-clast' indicate about cell function?",
       "options": [
-        "True",
-        "False"
+        "Building",
+        "Breaking down or destroying",
+        "Maintaining",
+        "Growing"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Osteoclast = bone breaker. Iconoclast = image/icon breaker. Clasts destroy things."
+      "explain": "'-CLAST' indicates BREAKING DOWN or DESTROYING. Osteoclast = bone breaker. Iconoclast = image/icon breaker. Clasts are demolition crews.",
+      "wrongExplains": {
+        "0": "'-Blast' indicates building.",
+        "2": "'-Cyte' indicates maintaining.",
+        "3": "Growth is indicated by other terms."
+      }
     },
     {
-      "q": "OSTEOCLASTS are cells that BREAK DOWN bone.",
+      "q": "What do osteoclasts do?",
       "options": [
-        "True",
-        "False"
+        "Build new bone",
+        "Break down bone and release calcium into blood",
+        "Maintain bone matrix",
+        "Produce cartilage"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! They resorb bone matrix, releasing calcium into the bloodstream."
+      "explain": "OSTEOCLASTS BREAK DOWN BONE and RELEASE CALCIUM into the bloodstream. They're the demolition crew, resorbing bone matrix.",
+      "wrongExplains": {
+        "0": "Osteoblasts build new bone.",
+        "2": "Osteocytes maintain bone matrix.",
+        "3": "Chondroblasts produce cartilage."
+      }
     },
     {
-      "q": "Parathyroid hormone (PTH) stimulates osteoclasts to release calcium from bone.",
+      "q": "What hormone stimulates osteoclasts to release calcium from bone?",
       "options": [
-        "True",
-        "False"
+        "Insulin",
+        "Parathyroid hormone (PTH)",
+        "Growth hormone",
+        "Cortisol"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! When blood calcium is low, PTH tells osteoclasts to break down bone and release calcium."
+      "explain": "PARATHYROID HORMONE (PTH) stimulates osteoclasts to break down bone and release calcium. PTH increases when blood calcium is low.",
+      "wrongExplains": {
+        "0": "Insulin regulates blood sugar, not calcium.",
+        "2": "Growth hormone promotes growth, not calcium release.",
+        "3": "Cortisol affects metabolism and stress response."
+      }
     },
     {
-      "q": "Kidneys normally help regulate PTH and calcium levels.",
+      "q": "How do kidneys help regulate PTH and calcium?",
       "options": [
-        "True",
-        "False"
+        "They produce PTH",
+        "They activate vitamin D and excrete phosphate",
+        "They store calcium",
+        "They produce osteoclasts"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Kidneys activate vitamin D and excrete phosphate - both crucial for calcium balance."
+      "explain": "Kidneys ACTIVATE VITAMIN D and EXCRETE PHOSPHATE — both crucial for calcium balance. Kidney failure disrupts this regulation.",
+      "wrongExplains": {
+        "0": "Parathyroid glands produce PTH.",
+        "2": "Bones store calcium, not kidneys.",
+        "3": "Bone marrow produces osteoclast precursors."
+      }
     },
     {
-      "q": "In kidney disease, PTH can become chronically elevated (hyperparathyroidism).",
+      "q": "What happens to PTH in chronic kidney disease?",
       "options": [
-        "True",
-        "False"
+        "It drops to zero",
+        "It becomes chronically elevated (secondary hyperparathyroidism)",
+        "It stays perfectly normal",
+        "It fluctuates randomly"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The feedback loop breaks down, leading to persistent PTH secretion."
+      "explain": "In kidney disease, PTH becomes CHRONICALLY ELEVATED (secondary hyperparathyroidism). The feedback loop breaks, causing persistent PTH secretion.",
+      "wrongExplains": {
+        "0": "PTH is elevated, not absent.",
+        "2": "PTH regulation is disrupted in kidney disease.",
+        "3": "PTH is consistently elevated, not random."
+      }
     },
     {
-      "q": "Chronically high PTH overstimulates osteoclasts, dissolving bone.",
+      "q": "What does 'moth-eaten' appearance on bone X-ray indicate?",
       "options": [
-        "True",
-        "False"
+        "New bone formation",
+        "Bone being dissolved by overactive osteoclasts",
+        "Normal bone aging",
+        "Bone infection"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The bones are literally being eaten away to maintain blood calcium. The 'moth-eaten' appearance on X-ray shows this."
+      "explain": "'Moth-eaten' appearance shows BONE being DISSOLVED by overactive osteoclasts. The pattern looks like moths have eaten holes in the bone.",
+      "wrongExplains": {
+        "0": "New bone formation would show denser areas.",
+        "2": "Normal aging doesn't cause moth-eaten appearance.",
+        "3": "Infection has different X-ray features."
+      }
     },
     {
-      "q": "In this patient, OSTEOCLASTS are being overstimulated by excess PTH.",
+      "q": "Why is blood calcium high despite weak bones?",
       "options": [
-        "True",
-        "False"
+        "Calcium is being absorbed from food",
+        "Osteoclasts are releasing calcium from bones into blood",
+        "Kidneys are retaining calcium",
+        "Muscles are releasing calcium"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The kidney can't regulate PTH properly, so osteoclasts keep breaking down bone."
+      "explain": "OSTEOCLASTS are releasing CALCIUM FROM BONES into blood. Overstimulated osteoclasts are literally dissolving bone to raise blood calcium.",
+      "wrongExplains": {
+        "0": "Dietary restriction rules out food absorption.",
+        "2": "Kidney function is impaired.",
+        "3": "Muscles don't store significant calcium."
+      }
     },
     {
-      "q": "The answer is OSTEOCLASTS - they're breaking down bone due to uncontrolled PTH.",
+      "q": "Which cells are being overstimulated by uncontrolled PTH in this patient?",
       "options": [
-        "True",
-        "False"
+        "Osteoblasts",
+        "Osteoclasts",
+        "Osteocytes",
+        "Chondrocytes"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not osteoblasts (they build), not osteocytes (they maintain). Osteoclasts are the bone destroyers responding to PTH."
+      "explain": "OSTEOCLASTS are being OVERSTIMULATED by elevated PTH. They're breaking down too much bone, causing weak 'moth-eaten' bones and high blood calcium.",
+      "wrongExplains": {
+        "0": "Osteoblasts build bone; they're not causing the breakdown.",
+        "2": "Osteocytes maintain bone; PTH primarily stimulates osteoclasts.",
+        "3": "Chondrocytes are cartilage cells, not affected by PTH."
+      }
     }
   ]
 }

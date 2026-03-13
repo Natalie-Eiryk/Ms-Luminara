@@ -3,19 +3,58 @@
   "parentQuestion": "Epithelial tissues have all of the following general characteristics except they...",
   "scaffolds": [
     {
+      "q": "What is epithelial tissue?",
+      "options": [
+        "Tissue that stores fat",
+        "Tissue that covers body surfaces and lines cavities",
+        "Tissue that contracts",
+        "Tissue that transmits signals"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "EPITHELIAL TISSUE COVERS body surfaces and LINES body cavities and organs. It forms the skin's outer layer and the inner lining of digestive, respiratory, and urinary tracts.",
+      "wrongExplains": {
+        "0": "Fat storage is adipose tissue (connective tissue).",
+        "2": "Contraction is muscle tissue's function.",
+        "3": "Signal transmission is nervous tissue's function."
+      }
+    },
+    {
       "q": "What is the extracellular matrix (ECM)?",
       "options": [
         "Material inside cells",
-        "Material between cells",
+        "Material between cells that provides support",
         "The cell membrane",
         "The nucleus"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "The extracellular matrix is the material located outside cells, in the spaces between them. It provides structural support and biochemical signals in many tissues."
+      "difficulty": "foundation",
+      "explain": "The EXTRACELLULAR MATRIX (ECM) is material BETWEEN CELLS that provides structural support and biochemical signals. Connective tissue has abundant ECM; epithelium has minimal ECM.",
+      "wrongExplains": {
+        "0": "Material inside cells is cytoplasm; ECM is outside cells.",
+        "2": "The cell membrane surrounds individual cells; ECM fills spaces between cells.",
+        "3": "The nucleus contains DNA; ECM is extracellular material."
+      }
     },
     {
-      "q": "Which tissue type has cells that are separated by large amounts of extracellular matrix?",
+      "q": "How are epithelial cells arranged compared to connective tissue cells?",
+      "options": [
+        "Scattered with lots of ECM between them",
+        "Tightly packed with minimal ECM",
+        "In random clusters",
+        "Connected by long fibers"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Epithelial cells are TIGHTLY PACKED with MINIMAL ECM between them. This is the opposite of connective tissue, where cells are scattered through abundant ECM.",
+      "wrongExplains": {
+        "0": "Scattered arrangement with lots of ECM describes connective tissue.",
+        "2": "Epithelial cells form organized sheets, not random clusters.",
+        "3": "Long fibers characterize connective tissue, not epithelium."
+      }
+    },
+    {
+      "q": "Which tissue type has cells separated by large amounts of extracellular matrix?",
       "options": [
         "Epithelial tissue",
         "Connective tissue",
@@ -23,8 +62,98 @@
         "Nervous tissue"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Connective tissue is characterized by having lots of extracellular matrix with relatively few cells scattered throughout. This is the opposite of epithelial tissue, where cells are tightly packed."
+      "difficulty": "foundation",
+      "explain": "CONNECTIVE TISSUE has cells separated by LARGE AMOUNTS of EXTRACELLULAR MATRIX. This includes bone, cartilage, blood, and loose connective tissue.",
+      "wrongExplains": {
+        "0": "Epithelial cells are tightly packed with minimal ECM.",
+        "2": "Muscle tissue cells are packed together with minimal ECM.",
+        "3": "Nervous tissue has neurons and supporting cells, not abundant ECM."
+      }
+    },
+    {
+      "q": "What is the basement membrane?",
+      "options": [
+        "The cell's outer covering",
+        "A thin layer that anchors epithelium to underlying tissue",
+        "The thickest part of connective tissue",
+        "A membrane around organelles"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The BASEMENT MEMBRANE is a thin layer of ECM that ANCHORS EPITHELIUM to underlying connective tissue. All epithelial tissues rest on a basement membrane.",
+      "wrongExplains": {
+        "0": "The cell's outer covering is the plasma membrane, not basement membrane.",
+        "2": "The basement membrane is thin, not thick.",
+        "3": "Organelle membranes are inside cells; basement membrane is extracellular."
+      }
+    },
+    {
+      "q": "Is epithelium vascular or avascular?",
+      "options": [
+        "Vascular (has blood vessels)",
+        "Avascular (lacks blood vessels)",
+        "Only the top layer is vascular",
+        "Only certain types are vascular"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Epithelium is AVASCULAR — it LACKS BLOOD VESSELS. Nutrients must diffuse from blood vessels in the underlying connective tissue through the basement membrane.",
+      "wrongExplains": {
+        "0": "Epithelium lacks blood vessels; it's avascular.",
+        "2": "No layer of epithelium contains blood vessels.",
+        "3": "All epithelial types are avascular without exception."
+      }
+    },
+    {
+      "q": "What does polarity mean in epithelium?",
+      "options": [
+        "Cells are electrically charged",
+        "Cells have distinct apical (top) and basal (bottom) surfaces",
+        "Cells divide rapidly",
+        "Cells are arranged randomly"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Epithelial POLARITY means cells have distinct APICAL (top, exposed) and BASAL (bottom, attached) surfaces. Each surface has different structures and functions.",
+      "wrongExplains": {
+        "0": "Polarity here refers to structural orientation, not electrical charge.",
+        "2": "Rapid division is regeneration, not polarity.",
+        "3": "Polarity means organized orientation, the opposite of random."
+      }
+    },
+    {
+      "q": "A characteristic of epithelium is having lots of extracellular matrix. True or false?",
+      "options": [
+        "True, epithelium has abundant ECM",
+        "False, epithelium has minimal ECM and tightly packed cells",
+        "True, but only in stratified epithelium",
+        "False, epithelium has no cells at all"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "FALSE — epithelium has MINIMAL ECM and TIGHTLY PACKED cells. Abundant ECM is a characteristic of CONNECTIVE tissue, not epithelial tissue.",
+      "wrongExplains": {
+        "0": "Abundant ECM characterizes connective tissue, not epithelium.",
+        "2": "Even stratified epithelium has minimal ECM.",
+        "3": "Epithelium definitely has cells — they're tightly packed."
+      }
+    },
+    {
+      "q": "Epithelial tissues have all of the following characteristics EXCEPT ___?",
+      "options": [
+        "Tightly packed cells",
+        "Large amounts of extracellular matrix",
+        "Resting on a basement membrane",
+        "Being avascular"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Epithelium does NOT have large amounts of ECM — that's connective tissue. Epithelial characteristics include TIGHTLY PACKED cells, BASEMENT MEMBRANE, and being AVASCULAR.",
+      "wrongExplains": {
+        "0": "Tightly packed cells IS a characteristic of epithelium.",
+        "2": "Resting on a basement membrane IS a characteristic of epithelium.",
+        "3": "Being avascular IS a characteristic of epithelium."
+      }
     }
   ]
 }

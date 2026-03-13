@@ -1,30 +1,159 @@
 {
   "parentId": "400.1.11",
-  "parentQuestion": "A long-term smoker's respiratory epithelium undergoes changes, losing cilia and ...",
+  "parentQuestion": "A long-term smoker's respiratory epithelium undergoes changes, losing cilia and becoming stratified. This represents ___.",
   "scaffolds": [
     {
-      "q": "What is the normal epithelium lining the trachea and bronchi?",
+      "q": "What type of epithelium normally lines the trachea and bronchi?",
       "options": [
-        "Stratified squamous",
         "Simple squamous",
-        "Pseudostratified ciliated columnar",
-        "Simple cuboidal"
+        "Pseudostratified ciliated columnar with goblet cells",
+        "Stratified squamous",
+        "Transitional"
       ],
-      "answer": 2,
-      "chapter": "Tissues & Epithelia",
-      "explain": "The trachea and bronchi are normally lined by pseudostratified ciliated columnar epithelium with goblet cells. The cilia sweep mucus upward, and goblet cells produce the mucus that traps debris."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The trachea and bronchi are lined by PSEUDOSTRATIFIED CILIATED COLUMNAR epithelium with GOBLET CELLS. Cilia sweep mucus upward; goblet cells produce the mucus.",
+      "wrongExplains": {
+        "0": "Simple squamous is in alveoli for gas exchange.",
+        "2": "Stratified squamous protects against abrasion (mouth, skin).",
+        "3": "Transitional is in the urinary system."
+      }
     },
     {
       "q": "What is the function of cilia in the respiratory tract?",
       "options": [
         "Absorb oxygen",
-        "Move mucus upward",
+        "Move mucus (and trapped debris) upward toward the throat",
         "Produce mucus",
-        "Filter air"
+        "Filter air directly"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Cilia in the respiratory tract beat in coordinated waves to move mucus (and trapped debris) upward toward the throat. This is called the mucociliary escalator and is a critical defense mechanism."
+      "difficulty": "foundation",
+      "explain": "Respiratory cilia MOVE MUCUS UPWARD toward the throat (mucociliary escalator). This clears trapped particles, bacteria, and debris from the airways.",
+      "wrongExplains": {
+        "0": "Alveoli absorb oxygen; cilia move mucus.",
+        "2": "Goblet cells produce mucus; cilia move it.",
+        "3": "Cilia clear debris in mucus; they don't filter air directly."
+      }
+    },
+    {
+      "q": "What is the mucociliary escalator?",
+      "options": [
+        "A type of breathing muscle",
+        "The system where cilia move mucus upward to clear debris",
+        "A machine for lung surgery",
+        "Blood flow through the lungs"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The MUCOCILIARY ESCALATOR is the system where CILIA move MUCUS UPWARD like an escalator, carrying trapped debris out of the airways to be coughed up or swallowed.",
+      "wrongExplains": {
+        "0": "The diaphragm is the breathing muscle; this is a debris-clearing mechanism.",
+        "2": "It's a natural defense system, not a machine.",
+        "3": "Pulmonary circulation is blood flow; this is debris clearance."
+      }
+    },
+    {
+      "q": "What is squamous metaplasia?",
+      "options": [
+        "Normal cell growth",
+        "Replacement of one epithelial type with stratified squamous",
+        "Cancer of squamous cells",
+        "Death of squamous cells"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "SQUAMOUS METAPLASIA is REPLACEMENT of normal epithelium with STRATIFIED SQUAMOUS epithelium. In smokers, respiratory epithelium changes to squamous in response to chronic irritation.",
+      "wrongExplains": {
+        "0": "Metaplasia is cell type change, not normal growth.",
+        "2": "Metaplasia isn't cancer, though it increases cancer risk.",
+        "3": "Metaplasia is replacement, not death."
+      }
+    },
+    {
+      "q": "Why does smoking cause loss of cilia?",
+      "options": [
+        "Smoke adds more cilia",
+        "Toxic chemicals damage and paralyze cilia",
+        "Smoke makes cilia beat faster",
+        "Cilia move to other cells"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Toxic chemicals in smoke DAMAGE AND PARALYZE CILIA. Without functioning cilia, mucus and debris accumulate, leading to the characteristic 'smoker's cough.'",
+      "wrongExplains": {
+        "0": "Smoke damages cilia; it doesn't add them.",
+        "2": "Smoke paralyzes cilia, not accelerates them.",
+        "3": "Cilia are damaged in place; they don't migrate."
+      }
+    },
+    {
+      "q": "What happens when respiratory epithelium becomes stratified squamous?",
+      "options": [
+        "Gas exchange improves",
+        "Mucociliary clearance stops because stratified squamous lacks cilia",
+        "Mucus production increases",
+        "The airways become more flexible"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "MUCOCILIARY CLEARANCE STOPS because stratified squamous epithelium LACKS CILIA. This impairs the lung's ability to clear debris and increases infection risk.",
+      "wrongExplains": {
+        "0": "Stratified squamous is thicker, impairing gas exchange.",
+        "2": "Goblet cells are lost with metaplasia, reducing mucus.",
+        "3": "The protective function is lost, not gained."
+      }
+    },
+    {
+      "q": "Why is squamous metaplasia adaptive?",
+      "options": [
+        "It improves oxygen absorption",
+        "Stratified squamous is more resistant to the constant irritation from smoke",
+        "It produces more mucus",
+        "It grows cilia faster"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Stratified squamous epithelium is MORE RESISTANT to CONSTANT IRRITATION. The body adapts by replacing fragile ciliated epithelium with tougher squamous cells.",
+      "wrongExplains": {
+        "0": "Thicker epithelium impairs oxygen absorption.",
+        "2": "Squamous epithelium produces less mucus, not more.",
+        "3": "Squamous epithelium lacks cilia entirely."
+      }
+    },
+    {
+      "q": "Can smoking-induced metaplasia be reversed?",
+      "options": [
+        "Never — the damage is permanent",
+        "Yes, if smoking stops, the epithelium can gradually return to normal",
+        "Only with surgery",
+        "Only in young people"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Metaplasia CAN BE REVERSED if SMOKING STOPS. The respiratory epithelium can gradually regenerate to normal pseudostratified ciliated columnar epithelium.",
+      "wrongExplains": {
+        "0": "Metaplasia is reversible, unlike cancer.",
+        "2": "Removing the irritant (smoking) can reverse metaplasia.",
+        "3": "Age affects recovery speed but doesn't prevent it."
+      }
+    },
+    {
+      "q": "A smoker's respiratory epithelium loses cilia and becomes stratified. This represents ___?",
+      "options": [
+        "Normal aging",
+        "Squamous metaplasia (adaptive change in response to chronic irritation)",
+        "Immediate cancer",
+        "Improved lung function"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "This is SQUAMOUS METAPLASIA — adaptive replacement of ciliated epithelium with more resistant stratified squamous epithelium in response to CHRONIC IRRITATION from smoke.",
+      "wrongExplains": {
+        "0": "This is pathological, not normal aging.",
+        "2": "Metaplasia increases cancer risk but isn't cancer itself.",
+        "3": "Losing cilia impairs lung function, not improves it."
+      }
     }
   ]
 }

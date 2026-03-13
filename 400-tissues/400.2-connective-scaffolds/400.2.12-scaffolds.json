@@ -3,94 +3,157 @@
   "parentQuestion": "A marathon runner develops severe knee pain. MRI shows a torn meniscus (fibrocartilage). The orthopedic surgeon explains this will heal very slowly and may require surgical repair. What property of this tissue makes healing so difficult?",
   "scaffolds": [
     {
-      "q": "Healing requires delivery of nutrients, oxygen, and repair cells to the injury.",
+      "q": "What is required for tissue healing?",
       "options": [
-        "True",
-        "False"
+        "Only time",
+        "Delivery of nutrients, oxygen, and repair cells to the injury",
+        "Complete rest",
+        "Antibiotics"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Without these supplies, tissues can't repair themselves effectively."
+      "explain": "Healing requires DELIVERY OF NUTRIENTS, OXYGEN, AND REPAIR CELLS to the injury site. Without these supplies, tissues can't repair themselves effectively.",
+      "wrongExplains": {
+        "0": "Time alone isn't enough without healing supplies.",
+        "2": "Rest helps but supplies must still reach the injury.",
+        "3": "Antibiotics fight infection but don't repair tissue."
+      }
     },
     {
-      "q": "Blood vessels deliver healing supplies directly to injured tissues.",
+      "q": "How do healing supplies usually reach injured tissue?",
       "options": [
-        "True",
-        "False"
+        "By diffusion through skin",
+        "Through blood vessels delivering nutrients and cells",
+        "From neighboring organs",
+        "From the nervous system"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Good blood supply = fast healing. Blood brings inflammatory cells, growth factors, and nutrients."
+      "explain": "BLOOD VESSELS deliver healing supplies directly to injured tissues. Good blood supply = fast healing. Blood brings immune cells, growth factors, and nutrients.",
+      "wrongExplains": {
+        "0": "Diffusion through skin is too slow and limited.",
+        "2": "Neighboring organs don't supply healing factors.",
+        "3": "Nerves transmit signals, not healing supplies."
+      }
     },
     {
-      "q": "'Vascular' means having blood vessels.",
+      "q": "What does 'vascular' mean?",
       "options": [
-        "True",
-        "False"
+        "Without blood vessels",
+        "Having blood vessels (good blood supply)",
+        "Having nerves",
+        "Having muscles"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! 'A-vascular' means WITHOUT blood vessels. The 'a-' prefix means 'not' or 'without.'"
+      "explain": "VASCULAR means HAVING BLOOD VESSELS. 'A-vascular' means WITHOUT blood vessels. The 'a-' prefix means 'not' or 'without.'",
+      "wrongExplains": {
+        "0": "'Avascular' means without blood vessels.",
+        "2": "Having nerves is 'innervated.'",
+        "3": "Muscles aren't described by 'vascular.'"
+      }
     },
     {
-      "q": "Cartilage is AVASCULAR - it has NO blood vessels.",
+      "q": "Is cartilage vascular or avascular?",
       "options": [
-        "True",
-        "False"
+        "Vascular (has blood vessels)",
+        "Avascular (lacks blood vessels)",
+        "Only outer layers are vascular",
+        "Only certain types are vascular"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! This includes the meniscus (fibrocartilage). Nutrients reach it only by slow diffusion."
+      "explain": "Cartilage is AVASCULAR — it has NO BLOOD VESSELS. Nutrients reach cartilage cells only by slow diffusion from surrounding tissues.",
+      "wrongExplains": {
+        "0": "Cartilage lacks blood vessels entirely.",
+        "2": "No part of cartilage is vascular.",
+        "3": "All cartilage types are avascular."
+      }
     },
     {
-      "q": "Without blood vessels, healing supplies must DIFFUSE in slowly from the edges.",
+      "q": "How do nutrients reach cartilage cells?",
       "options": [
-        "True",
-        "False"
+        "Through blood vessels",
+        "By slow diffusion through the cartilage matrix",
+        "From the nervous system",
+        "They don't need nutrients"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! This is much slower than direct blood delivery. Days instead of hours."
+      "explain": "Nutrients reach cartilage by SLOW DIFFUSION through the matrix. This is much slower than blood delivery — days instead of minutes.",
+      "wrongExplains": {
+        "0": "Cartilage has no blood vessels.",
+        "2": "Nerves don't deliver nutrients.",
+        "3": "All cells need nutrients."
+      }
     },
     {
-      "q": "Avascular tissues heal SLOWLY or sometimes not at all.",
+      "q": "What is the consequence of being avascular for healing?",
       "options": [
-        "True",
-        "False"
+        "Faster healing",
+        "Very slow healing or no healing at all",
+        "Normal healing",
+        "Healing only at night"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! That's why cartilage injuries are so problematic - minimal blood supply means minimal healing."
+      "explain": "Avascular tissues have VERY SLOW HEALING or NO HEALING at all. Without blood vessel delivery, repair cells and supplies can't reach the injury efficiently.",
+      "wrongExplains": {
+        "0": "Avascular tissues heal slower, not faster.",
+        "2": "Healing is significantly impaired.",
+        "3": "Time of day doesn't affect healing rate."
+      }
     },
     {
-      "q": "The meniscus often requires surgery because it won't heal well on its own.",
+      "q": "Why might a torn meniscus require surgery?",
       "options": [
-        "True",
-        "False"
+        "To add blood vessels",
+        "Because it won't heal well on its own due to poor blood supply",
+        "To prevent infection",
+        "To make it more flexible"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Surgeons often remove damaged portions because waiting for healing may be futile."
+      "explain": "Surgery may be needed because the meniscus WON'T HEAL WELL on its own due to POOR BLOOD SUPPLY. Surgeons may remove or repair the damaged portion.",
+      "wrongExplains": {
+        "0": "Surgery can't add blood vessels to cartilage.",
+        "2": "Infection prevention isn't the main reason.",
+        "3": "Flexibility isn't the concern."
+      }
     },
     {
-      "q": "The meniscus heals slowly because fibrocartilage is AVASCULAR (no blood supply).",
+      "q": "What tissue type is the meniscus made of?",
       "options": [
-        "True",
-        "False"
+        "Hyaline cartilage",
+        "Fibrocartilage",
+        "Elastic cartilage",
+        "Bone"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! No blood vessels means slow nutrient delivery and poor access for repair cells."
+      "explain": "The knee meniscus is made of FIBROCARTILAGE. It provides shock absorption between the femur and tibia during weight-bearing activities.",
+      "wrongExplains": {
+        "0": "Hyaline covers joint surfaces; fibrocartilage forms menisci.",
+        "2": "Elastic cartilage is in ears and epiglottis.",
+        "3": "Bone doesn't form the meniscus."
+      }
     },
     {
-      "q": "The answer is AVASCULAR (no blood supply) - cartilage can't heal quickly without blood vessels.",
+      "q": "What property of the meniscus makes healing so difficult?",
       "options": [
-        "True",
-        "False"
+        "Being too hard",
+        "Being avascular (lacking blood supply)",
+        "Having too many cells",
+        "Being too flexible"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! The tissue has cells, growth factors can reach it eventually, but the lack of blood supply is the critical limitation."
+      "explain": "The meniscus is AVASCULAR (LACKS BLOOD SUPPLY). Without blood vessels, healing supplies must diffuse slowly from the edges, making repair very slow or impossible.",
+      "wrongExplains": {
+        "0": "Hardness doesn't directly prevent healing.",
+        "2": "Cartilage has few cells, not too many.",
+        "3": "Flexibility doesn't impair healing."
+      }
     }
   ]
 }

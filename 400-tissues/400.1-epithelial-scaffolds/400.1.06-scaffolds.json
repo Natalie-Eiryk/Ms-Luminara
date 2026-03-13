@@ -3,19 +3,75 @@
   "parentQuestion": "Which of the following is NOT a function of epithelial tissue?",
   "scaffolds": [
     {
+      "q": "What are the four primary tissue types in the body?",
+      "options": [
+        "Skin, muscle, bone, blood",
+        "Epithelial, connective, muscle, nervous",
+        "Organs, systems, cells, tissues",
+        "Solid, liquid, flexible, rigid"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The four PRIMARY TISSUE TYPES are EPITHELIAL, CONNECTIVE, MUSCLE, and NERVOUS. All organs are made of combinations of these four basic tissue types.",
+      "wrongExplains": {
+        "0": "These are specific structures, not the four tissue types.",
+        "2": "These are organizational levels, not tissue types.",
+        "3": "These describe physical properties, not tissue classifications."
+      }
+    },
+    {
       "q": "What does absorption mean in biological terms?",
       "options": [
-        "Releasing substances",
-        "Taking in substances from outside",
-        "Breaking down substances",
+        "Releasing substances from a cell",
+        "Taking in substances from outside the cell",
+        "Breaking down substances chemically",
         "Moving substances across a surface"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Absorption means taking in or assimilating substances from outside the cell or organism. For example, intestinal cells absorb nutrients from digested food."
+      "difficulty": "foundation",
+      "explain": "ABSORPTION means TAKING IN substances from outside the cell. For example, intestinal epithelial cells absorb nutrients from digested food.",
+      "wrongExplains": {
+        "0": "Releasing substances is secretion or exocytosis.",
+        "2": "Breaking down substances is digestion or catabolism.",
+        "3": "Moving substances across a surface describes ciliary action."
+      }
     },
     {
-      "q": "Which of the four primary tissue types provides structural support to the body?",
+      "q": "What is secretion?",
+      "options": [
+        "Taking in substances",
+        "Releasing substances produced by the cell",
+        "Filtering blood",
+        "Contracting to create movement"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "SECRETION is RELEASING SUBSTANCES produced by the cell. Epithelial cells can secrete mucus, hormones, enzymes, and other products.",
+      "wrongExplains": {
+        "0": "Taking in substances is absorption.",
+        "2": "Filtering blood is a kidney function.",
+        "3": "Contraction for movement is muscle tissue's function."
+      }
+    },
+    {
+      "q": "What is the protective function of epithelium?",
+      "options": [
+        "Fighting infection with antibodies",
+        "Forming a barrier against pathogens, chemicals, and physical damage",
+        "Producing immune cells",
+        "Contracting to prevent injury"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Epithelium FORMS A BARRIER against pathogens, chemicals, and physical damage. Skin epithelium is the primary example of this protective function.",
+      "wrongExplains": {
+        "0": "Antibody production is by immune cells, not epithelium.",
+        "2": "Immune cells come from connective tissue (bone marrow).",
+        "3": "Contraction is muscle tissue's function."
+      }
+    },
+    {
+      "q": "Which tissue type provides structural support throughout the body?",
       "options": [
         "Epithelial tissue",
         "Connective tissue",
@@ -23,8 +79,81 @@
         "Nervous tissue"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Connective tissue provides structural support to the body. It includes bone, cartilage, ligaments, and tendons — all structures that support and bind other tissues together."
+      "difficulty": "foundation",
+      "explain": "CONNECTIVE TISSUE provides STRUCTURAL SUPPORT. It includes bone, cartilage, tendons, ligaments, and other supporting structures throughout the body.",
+      "wrongExplains": {
+        "0": "Epithelium covers and lines; connective supports.",
+        "2": "Muscle creates movement; connective provides structural support.",
+        "3": "Nervous tissue transmits signals; connective provides support."
+      }
+    },
+    {
+      "q": "What is filtration in epithelial function?",
+      "options": [
+        "Removing toxins from blood",
+        "Allowing certain substances to pass while blocking others based on size",
+        "Cleaning air in the lungs",
+        "Breaking down waste products"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "FILTRATION allows certain substances to PASS while BLOCKING OTHERS based on size. Kidney glomeruli filter blood through thin epithelium, keeping blood cells while letting water and small molecules through.",
+      "wrongExplains": {
+        "0": "The liver detoxifies; epithelium filters by size.",
+        "2": "Air cleaning involves cilia and mucus, not filtration.",
+        "3": "Waste breakdown is metabolism, not filtration."
+      }
+    },
+    {
+      "q": "What is sensory reception?",
+      "options": [
+        "Sending signals to muscles",
+        "Detecting stimuli from the environment",
+        "Producing hormones",
+        "Filtering blood"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "SENSORY RECEPTION is DETECTING STIMULI from the environment. Specialized epithelial cells in taste buds, olfactory epithelium, and the inner ear detect chemical and physical signals.",
+      "wrongExplains": {
+        "0": "Sending signals to muscles is motor function.",
+        "2": "Hormone production is an endocrine function.",
+        "3": "Blood filtering is a kidney function."
+      }
+    },
+    {
+      "q": "Which function is NOT performed by epithelial tissue?",
+      "options": [
+        "Protection from abrasion",
+        "Supporting body weight and structure",
+        "Absorption of nutrients",
+        "Secretion of mucus"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "SUPPORTING BODY WEIGHT AND STRUCTURE is a CONNECTIVE tissue function, not epithelial. Bone, cartilage, and ligaments (connective tissues) provide structural support.",
+      "wrongExplains": {
+        "0": "Protection from abrasion IS an epithelial function (stratified epithelium).",
+        "2": "Absorption of nutrients IS an epithelial function (intestinal epithelium).",
+        "3": "Secretion of mucus IS an epithelial function (goblet cells)."
+      }
+    },
+    {
+      "q": "Which of the following is NOT a function of epithelial tissue?",
+      "options": [
+        "Absorption",
+        "Structural support",
+        "Protection",
+        "Secretion"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "STRUCTURAL SUPPORT is NOT an epithelial function — that's CONNECTIVE tissue's job. Epithelial functions include protection, absorption, secretion, filtration, and sensory reception.",
+      "wrongExplains": {
+        "0": "Absorption IS an epithelial function (intestinal epithelium absorbs nutrients).",
+        "2": "Protection IS an epithelial function (skin protects against damage).",
+        "3": "Secretion IS an epithelial function (glands secrete hormones and mucus)."
+      }
     }
   ]
 }

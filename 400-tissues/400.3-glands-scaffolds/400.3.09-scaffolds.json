@@ -3,94 +3,157 @@
   "parentQuestion": "A marathon runner experiences severe muscle cramping and is found to have abnormally low sodium levels. Examination of their sports drink reveals no electrolytes, meaning they've been losing sodium through sweat without replacement. Which type of gland is responsible for the sodium loss?",
   "scaffolds": [
     {
-      "q": "Sweat contains water AND electrolytes like sodium.",
+      "q": "What does sweat contain?",
       "options": [
-        "True",
-        "False"
+        "Pure water only",
+        "Water and electrolytes including sodium",
+        "Only protein",
+        "Only fat"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Sweat isn't pure water - it contains sodium, chloride, and other minerals."
+      "explain": "Sweat contains WATER AND ELECTROLYTES including SODIUM. Sweat isn't pure water — it contains sodium, chloride, and other minerals.",
+      "wrongExplains": {
+        "0": "Sweat contains dissolved electrolytes, not just water.",
+        "2": "Sweat has minimal protein; it's mostly water and salts.",
+        "3": "Fat isn't secreted in sweat."
+      }
     },
     {
-      "q": "Heavy sweating during exercise causes significant sodium loss.",
+      "q": "What happens during heavy sweating?",
       "options": [
-        "True",
-        "False"
+        "Only water is lost",
+        "Significant sodium and electrolytes are lost along with water",
+        "Sodium levels increase",
+        "No fluid is lost"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Marathon runners can lose 1-2 liters of sweat per hour, each containing sodium."
+      "explain": "Heavy sweating causes SIGNIFICANT SODIUM LOSS along with water. Marathon runners can lose 1-2 liters of sweat per hour, each containing sodium.",
+      "wrongExplains": {
+        "0": "Electrolytes are lost along with water.",
+        "2": "Sweating decreases sodium; it doesn't increase it.",
+        "3": "Sweating causes substantial fluid loss."
+      }
     },
     {
-      "q": "Sweat glands deliver sweat to the SKIN SURFACE through ducts.",
+      "q": "How do sweat glands deliver sweat to the skin surface?",
       "options": [
-        "True",
-        "False"
+        "Through the bloodstream",
+        "Through ducts to the skin surface",
+        "By diffusion only",
+        "Through nerves"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Sweat glands are EXOCRINE - they have ducts that deliver to a surface (skin)."
+      "explain": "Sweat glands deliver sweat to the SKIN SURFACE through DUCTS. This makes them EXOCRINE glands — they have ducts that deliver to a surface.",
+      "wrongExplains": {
+        "0": "Bloodstream delivery would make them endocrine.",
+        "2": "Ducts actively transport sweat to the surface.",
+        "3": "Nerves stimulate glands; they don't transport secretions."
+      }
     },
     {
-      "q": "EXOCRINE glands have ducts and deliver to surfaces.",
+      "q": "What defines an exocrine gland?",
       "options": [
-        "True",
-        "False"
+        "It secretes into blood",
+        "It has ducts and delivers secretions to surfaces",
+        "It makes hormones",
+        "It's ductless"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! 'Exo' = outside. Exocrine glands secrete to external or internal surfaces via ducts."
+      "explain": "EXOCRINE glands have DUCTS and DELIVER TO SURFACES. 'Exo' = outside. They secrete to external or internal surfaces via ducts — like sweat glands.",
+      "wrongExplains": {
+        "0": "Secreting into blood defines endocrine glands.",
+        "2": "Hormones are made by endocrine glands.",
+        "3": "Exocrine glands have ducts; endocrine are ductless."
+      }
     },
     {
-      "q": "MEROCRINE secretion releases products by exocytosis - the cell stays intact.",
+      "q": "What type of secretion do sweat glands use?",
       "options": [
-        "True",
-        "False"
+        "Holocrine — cells rupture",
+        "Merocrine — cells release products by exocytosis and stay intact",
+        "Apocrine — cells lose their apex",
+        "Endocrine — secretes into blood"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! This allows continuous, sustainable secretion. Perfect for sweating during a marathon!"
+      "explain": "Sweat glands use MEROCRINE secretion — products are released by EXOCYTOSIS and the CELL STAYS INTACT. This allows continuous, sustainable secretion during a marathon!",
+      "wrongExplains": {
+        "0": "Holocrine (cell rupture) is used by sebaceous glands.",
+        "2": "Sweat glands keep cells fully intact, not losing apex.",
+        "3": "Endocrine describes gland type (ductless), not secretion mode."
+      }
     },
     {
-      "q": "Sweat glands use MEROCRINE secretion - continuous release without cell death.",
+      "q": "Why can sweat glands continuously produce sweat during exercise?",
       "options": [
-        "True",
-        "False"
+        "New cells constantly replace dying ones",
+        "Merocrine secretion keeps cells alive and functioning",
+        "The glands shut off periodically",
+        "Sweat is pulled from blood"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Also called eccrine secretion. Cells survive and keep pumping out sweat."
+      "explain": "MEROCRINE secretion keeps cells ALIVE and functioning. Cells survive and keep pumping out sweat — perfect for sustained sweating during exercise.",
+      "wrongExplains": {
+        "0": "In merocrine secretion, cells don't die.",
+        "2": "Sweat glands work continuously during exercise.",
+        "3": "Glands actively produce and secrete sweat."
+      }
     },
     {
-      "q": "Endocrine glands secrete into BLOOD, not onto surfaces - not sweat glands.",
+      "q": "Why aren't endocrine glands responsible for sweat and sodium loss?",
       "options": [
-        "True",
-        "False"
+        "Endocrine glands don't exist",
+        "Endocrine glands secrete into blood, not onto skin surfaces",
+        "Endocrine glands make sweat",
+        "Endocrine glands are the same as sweat glands"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Sweat goes onto skin (exocrine), not into bloodstream (endocrine)."
+      "explain": "ENDOCRINE glands secrete into BLOOD, not onto surfaces. Sweat goes onto skin (exocrine), not into bloodstream (endocrine). Different delivery routes entirely.",
+      "wrongExplains": {
+        "0": "Endocrine glands definitely exist.",
+        "2": "Exocrine sweat glands make sweat, not endocrine.",
+        "3": "They're different types of glands."
+      }
     },
     {
-      "q": "Sweat glands are MEROCRINE EXOCRINE glands.",
+      "q": "What is the complete classification of sweat glands?",
       "options": [
-        "True",
-        "False"
+        "Holocrine endocrine",
+        "Merocrine exocrine",
+        "Apocrine endocrine",
+        "Holocrine exocrine"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Exocrine (has ducts to surface) + merocrine (secretion mode - cell intact)."
+      "explain": "Sweat glands are MEROCRINE EXOCRINE glands. EXOCRINE = has ducts to surface. MEROCRINE = secretion mode where cells stay intact.",
+      "wrongExplains": {
+        "0": "Sweat glands are merocrine (intact cells), not holocrine.",
+        "2": "Sweat glands are exocrine (has ducts), not endocrine.",
+        "3": "Sweat glands use merocrine, not holocrine secretion."
+      }
     },
     {
-      "q": "The answer is MEROCRINE EXOCRINE glands - sweat glands use this method.",
+      "q": "Which type of gland is responsible for sodium loss through sweat?",
       "options": [
-        "True",
-        "False"
+        "Holocrine exocrine glands",
+        "Merocrine exocrine glands (sweat glands)",
+        "Endocrine glands",
+        "Apocrine glands only"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not holocrine (that's sebaceous glands), not endocrine (that's hormones into blood). Merocrine exocrine = sweat glands."
+      "explain": "MEROCRINE EXOCRINE glands (sweat glands) are responsible. Not holocrine (that's sebaceous glands), not endocrine (that's hormones into blood). Merocrine exocrine = sweat glands.",
+      "wrongExplains": {
+        "0": "Holocrine exocrine glands are sebaceous (oil) glands.",
+        "2": "Endocrine glands secrete hormones into blood.",
+        "3": "The eccrine (merocrine) sweat glands produce most sweat."
+      }
     }
   ]
 }

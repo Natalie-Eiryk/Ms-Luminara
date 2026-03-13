@@ -3,6 +3,23 @@
   "parentQuestion": "Transitional epithelium is found in the ___.",
   "scaffolds": [
     {
+      "q": "What is transitional epithelium?",
+      "options": [
+        "Epithelium that transports substances",
+        "Epithelium that can change shape when stretched",
+        "Epithelium that is developing into another type",
+        "Epithelium found in transition zones"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "TRANSITIONAL EPITHELIUM can CHANGE SHAPE when stretched. It transitions between appearing thick/cuboidal (relaxed) and thin/squamous (stretched).",
+      "wrongExplains": {
+        "0": "All epithelia can transport; transitional's special feature is shape change.",
+        "2": "Transitional is a mature, specialized type, not developing into another.",
+        "3": "'Transitional' refers to shape change, not location."
+      }
+    },
+    {
       "q": "What is the main function of the urinary bladder?",
       "options": [
         "Filter blood",
@@ -11,20 +28,132 @@
         "Absorb water from urine"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "The urinary bladder's primary function is to store urine temporarily until it can be eliminated. This requires the bladder to expand and contract, which is why it needs specialized epithelium."
+      "difficulty": "foundation",
+      "explain": "The urinary bladder STORES URINE TEMPORARILY until elimination. It must expand significantly as it fills, requiring specialized stretchable epithelium.",
+      "wrongExplains": {
+        "0": "Kidneys filter blood; the bladder stores the resulting urine.",
+        "2": "Kidneys produce urine; the bladder stores it.",
+        "3": "Kidney tubules reabsorb water; the bladder just stores urine."
+      }
     },
     {
-      "q": "What does 'transitional' suggest about transitional epithelium?",
+      "q": "Why does the bladder need epithelium that can stretch?",
       "options": [
-        "It transports substances",
-        "It can change shape",
-        "It's found in transition zones",
-        "It develops slowly"
+        "To filter more urine",
+        "To accommodate filling without tearing",
+        "To absorb water",
+        "To produce more cells"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "The term 'transitional' refers to the epithelium's ability to transition between different appearances — it can change from appearing thick and cuboidal to thin and squamous as the organ stretches."
+      "difficulty": "foundation",
+      "explain": "The bladder needs stretchable epithelium to ACCOMMODATE FILLING WITHOUT TEARING. It can hold 400-600 mL of urine, requiring significant expansion.",
+      "wrongExplains": {
+        "0": "The bladder stores, not filters, urine.",
+        "2": "The bladder doesn't absorb water; it just stores urine.",
+        "3": "Stretching doesn't require producing more cells."
+      }
+    },
+    {
+      "q": "How does transitional epithelium appear when relaxed vs. stretched?",
+      "options": [
+        "Always thin regardless of stretch",
+        "Thick and cuboidal when relaxed; thin and squamous when stretched",
+        "Always thick regardless of stretch",
+        "Thin when relaxed; thick when stretched"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "When RELAXED, transitional epithelium appears THICK and CUBOIDAL (cells rounded). When STRETCHED, it becomes THIN and SQUAMOUS (cells flatten).",
+      "wrongExplains": {
+        "0": "Transitional epithelium changes thickness with stretch.",
+        "2": "It thins when stretched as cells flatten.",
+        "3": "It's the opposite: thick when relaxed, thin when stretched."
+      }
+    },
+    {
+      "q": "What organs have transitional epithelium?",
+      "options": [
+        "Stomach and intestines",
+        "Bladder, ureters, and part of urethra",
+        "Lungs and blood vessels",
+        "Skin and mouth"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Transitional epithelium lines the BLADDER, URETERS, and part of the URETHRA — the urinary structures that must stretch to accommodate urine volume changes.",
+      "wrongExplains": {
+        "0": "Stomach and intestines have simple columnar for absorption.",
+        "2": "Lungs have simple squamous; blood vessels have endothelium.",
+        "3": "Skin has keratinized stratified squamous; mouth has non-keratinized stratified squamous."
+      }
+    },
+    {
+      "q": "What are dome cells (umbrella cells) in transitional epithelium?",
+      "options": [
+        "Cells that secrete mucus",
+        "Large surface cells that can flatten when stretched",
+        "Cells that detect urine volume",
+        "Stem cells for regeneration"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "DOME CELLS (umbrella cells) are large cells on the SURFACE of transitional epithelium that can FLATTEN dramatically when the organ stretches.",
+      "wrongExplains": {
+        "0": "Goblet cells secrete mucus; dome cells provide stretch capability.",
+        "2": "Dome cells accommodate stretching; they don't sense volume.",
+        "3": "Basal cells regenerate epithelium; dome cells are specialized surface cells."
+      }
+    },
+    {
+      "q": "Why isn't simple squamous epithelium used in the bladder?",
+      "options": [
+        "It can't stretch",
+        "It's too thin to protect against urine",
+        "It absorbs too much water",
+        "It can't produce mucus"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Simple squamous is TOO THIN to protect against the chemical irritation of urine. Transitional epithelium provides both stretch capability AND an effective barrier.",
+      "wrongExplains": {
+        "0": "Simple squamous can stretch but doesn't provide adequate protection.",
+        "2": "The bladder shouldn't absorb water from urine.",
+        "3": "Mucus production isn't the key issue; protection is."
+      }
+    },
+    {
+      "q": "What unique property makes transitional epithelium ideal for the urinary system?",
+      "options": [
+        "Rapid cell division",
+        "Ability to stretch while maintaining an impermeable barrier",
+        "Cilia for moving urine",
+        "High absorption capacity"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Transitional epithelium can STRETCH while maintaining an IMPERMEABLE BARRIER. This prevents urine from leaking into tissues while allowing organ expansion.",
+      "wrongExplains": {
+        "0": "All epithelia can divide; transitional's key feature is stretch with barrier.",
+        "2": "Urine moves by muscle contraction and gravity, not cilia.",
+        "3": "The urinary system shouldn't absorb from urine."
+      }
+    },
+    {
+      "q": "Transitional epithelium is found in the ___?",
+      "options": [
+        "Digestive tract",
+        "Urinary bladder, ureters, and urethra",
+        "Respiratory airways",
+        "Blood vessels"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Transitional epithelium lines the URINARY BLADDER, URETERS, and URETHRA. These structures need epithelium that can stretch with urine volume changes while maintaining a protective barrier.",
+      "wrongExplains": {
+        "0": "Digestive tract has simple columnar for absorption.",
+        "2": "Respiratory airways have pseudostratified ciliated columnar.",
+        "3": "Blood vessels have simple squamous endothelium."
+      }
     }
   ]
 }

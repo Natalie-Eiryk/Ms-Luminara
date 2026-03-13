@@ -1,18 +1,91 @@
 {
   "parentId": "400.1.10",
-  "parentQuestion": "A patient with Fanconi syndrome has defective kidney tubules that cannot reabsor...",
+  "parentQuestion": "A patient with Fanconi syndrome has defective kidney tubules that cannot reabsorb glucose, amino acids, and other substances. These tubules are lined by ___.",
   "scaffolds": [
+    {
+      "q": "What is simple cuboidal epithelium?",
+      "options": [
+        "Flat cells in one layer",
+        "Cube-shaped cells in a single layer",
+        "Tall cells in multiple layers",
+        "Stretchy cells that change shape"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "SIMPLE CUBOIDAL epithelium consists of CUBE-SHAPED CELLS in a SINGLE LAYER. These cells are specialized for absorption and secretion.",
+      "wrongExplains": {
+        "0": "Flat cells are squamous; cuboidal cells are cube-shaped.",
+        "2": "Tall cells are columnar; cuboidal are roughly cube-shaped.",
+        "3": "Stretchy cells are transitional; cuboidal maintain their shape."
+      }
+    },
     {
       "q": "What is the primary function of the kidney tubules?",
       "options": [
-        "Filter blood",
-        "Reabsorb useful substances from filtrate",
+        "Filter blood directly",
+        "Reabsorb useful substances from filtrate back into blood",
         "Produce urine from scratch",
         "Store urine"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Kidney tubules reabsorb useful substances (water, glucose, amino acids, electrolytes) from the filtrate back into the blood. This prevents loss of valuable nutrients and helps concentrate waste into urine."
+      "difficulty": "foundation",
+      "explain": "Kidney tubules REABSORB useful substances (glucose, amino acids, electrolytes, water) from the filtrate back into the blood. This prevents loss of valuable nutrients.",
+      "wrongExplains": {
+        "0": "Glomeruli filter blood; tubules reabsorb from the filtrate.",
+        "2": "Urine is modified filtrate, not produced from scratch.",
+        "3": "The bladder stores urine; tubules modify filtrate."
+      }
+    },
+    {
+      "q": "Why do kidney tubule cells need to be cuboidal (cube-shaped)?",
+      "options": [
+        "To stretch when filled",
+        "To have enough cytoplasm for transport proteins and mitochondria",
+        "To be as thin as possible",
+        "To produce mucus"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Cuboidal cells have ENOUGH CYTOPLASM for TRANSPORT PROTEINS and MITOCHONDRIA. Active reabsorption requires energy and molecular machinery that needs cellular volume.",
+      "wrongExplains": {
+        "0": "Stretching is transitional epithelium's function.",
+        "2": "Thin cells (squamous) are for diffusion; cuboidal is for active transport.",
+        "3": "Goblet cells produce mucus; kidney tubule cells reabsorb."
+      }
+    },
+    {
+      "q": "What structures increase surface area on kidney tubule cells?",
+      "options": [
+        "Cilia",
+        "Microvilli (brush border)",
+        "Flagella",
+        "Keratin"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "MICROVILLI (forming a BRUSH BORDER) increase surface area on kidney tubule cells. This maximizes the area available for reabsorption of nutrients.",
+      "wrongExplains": {
+        "0": "Cilia move substances; microvilli increase absorption surface.",
+        "2": "Flagella are for cell movement (sperm); microvilli are for absorption.",
+        "3": "Keratin is a protective protein in skin; microvilli are absorptive projections."
+      }
+    },
+    {
+      "q": "What is Fanconi syndrome?",
+      "options": [
+        "A heart defect",
+        "A disorder where kidney tubules fail to reabsorb substances properly",
+        "A lung disease",
+        "A digestive problem"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "FANCONI SYNDROME is a disorder where KIDNEY TUBULES FAIL to REABSORB glucose, amino acids, phosphate, and other substances, causing them to be lost in urine.",
+      "wrongExplains": {
+        "0": "Fanconi syndrome affects kidney tubules, not the heart.",
+        "2": "It's a kidney disorder, not lung disease.",
+        "3": "It affects kidneys, not digestion."
+      }
     },
     {
       "q": "What type of epithelium lines most kidney tubules?",
@@ -23,8 +96,64 @@
         "Transitional"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Most kidney tubules are lined by simple cuboidal epithelium, which is specialized for absorption and secretion. These cube-shaped cells have enough cytoplasm to house the molecular machinery needed for active transport."
+      "difficulty": "foundation",
+      "explain": "Most kidney tubules are lined by SIMPLE CUBOIDAL epithelium. These cells are specialized for the active transport needed to reabsorb filtered substances.",
+      "wrongExplains": {
+        "0": "Simple squamous is for diffusion (glomerulus); tubules need cuboidal for transport.",
+        "2": "Stratified squamous is for protection; tubules need absorption.",
+        "3": "Transitional is in the urinary tract (bladder); tubules are cuboidal."
+      }
+    },
+    {
+      "q": "What other organs have simple cuboidal epithelium?",
+      "options": [
+        "Skin and mouth",
+        "Thyroid gland follicles and ovary surface",
+        "Blood vessels and alveoli",
+        "Esophagus and stomach"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Simple cuboidal epithelium lines THYROID GLAND follicles and the OVARY surface. It's also found in many gland ducts where secretion/absorption occurs.",
+      "wrongExplains": {
+        "0": "Skin has stratified squamous; mouth has non-keratinized stratified squamous.",
+        "2": "Blood vessels and alveoli have simple squamous.",
+        "3": "Esophagus has stratified squamous; stomach has simple columnar."
+      }
+    },
+    {
+      "q": "Why is cuboidal epithelium (not squamous) needed for reabsorption?",
+      "options": [
+        "Squamous cells are too rigid",
+        "Cuboidal cells have more volume for active transport machinery",
+        "Squamous cells can't attach to basement membrane",
+        "Cuboidal cells divide faster"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Cuboidal cells have MORE VOLUME for ACTIVE TRANSPORT MACHINERY — transporters, pumps, and mitochondria. Squamous cells are too flat to house this equipment.",
+      "wrongExplains": {
+        "0": "Squamous cells are thin and flexible, not rigid.",
+        "2": "Both cell types attach to basement membrane.",
+        "3": "Division rate isn't the determining factor."
+      }
+    },
+    {
+      "q": "Kidney tubules that reabsorb glucose and amino acids are lined by ___?",
+      "options": [
+        "Simple squamous epithelium",
+        "Simple cuboidal epithelium with brush border",
+        "Transitional epithelium",
+        "Stratified squamous epithelium"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Kidney tubules are lined by SIMPLE CUBOIDAL epithelium with a BRUSH BORDER (microvilli). The cuboidal shape provides volume for transport machinery; microvilli increase surface area for reabsorption.",
+      "wrongExplains": {
+        "0": "Simple squamous is for filtration (glomerulus), not reabsorption.",
+        "2": "Transitional lines the bladder and ureters, not tubules.",
+        "3": "Stratified squamous is for protection, not absorption."
+      }
     }
   ]
 }

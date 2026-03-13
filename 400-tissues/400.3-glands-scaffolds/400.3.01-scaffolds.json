@@ -3,94 +3,157 @@
   "parentQuestion": "Glands whose secretions are stored and then released when the cell ruptures and dies are classified as ___.",
   "scaffolds": [
     {
-      "q": "Glands can release their secretions in different ways.",
+      "q": "What is a gland?",
       "options": [
-        "True",
-        "False"
+        "A type of muscle",
+        "An organ that produces and releases substances",
+        "A type of nerve",
+        "A blood vessel"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Some glands use gentle exocytosis, others tear off parts of themselves, and some literally explode."
+      "explain": "A GLAND is an ORGAN that PRODUCES and RELEASES SUBSTANCES. Glands make hormones, sweat, saliva, oil, digestive enzymes, and more.",
+      "wrongExplains": {
+        "0": "Muscles contract; glands secrete substances.",
+        "2": "Nerves transmit signals; glands produce secretions.",
+        "3": "Blood vessels transport blood; glands release products."
+      }
     },
     {
-      "q": "There are THREE main modes of secretion: merocrine, apocrine, and holocrine.",
+      "q": "What are the three main modes of glandular secretion?",
       "options": [
-        "True",
-        "False"
+        "Active, passive, and diffusion",
+        "Merocrine, apocrine, and holocrine",
+        "Endocrine, exocrine, and paracrine",
+        "Fast, medium, and slow"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Each mode describes HOW the cell releases its product - from gentle to destructive."
+      "explain": "The three secretion modes are MEROCRINE, APOCRINE, and HOLOCRINE. Each describes HOW the cell releases its product — from gentle exocytosis to complete cell destruction.",
+      "wrongExplains": {
+        "0": "These describe transport mechanisms, not secretion modes.",
+        "2": "These describe gland types, not secretion mechanisms.",
+        "3": "Speed doesn't define secretion mode."
+      }
     },
     {
-      "q": "MEROCRINE secretion uses exocytosis - the cell stays intact.",
+      "q": "What happens during merocrine secretion?",
       "options": [
-        "True",
-        "False"
+        "The cell ruptures and dies",
+        "The cell releases products by exocytosis and stays intact",
+        "Part of the cell pinches off",
+        "The cell transforms into a different type"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Vesicles release contents at the cell surface. The cell survives and keeps working. Sweat glands work this way."
+      "explain": "In MEROCRINE secretion, vesicles release contents by EXOCYTOSIS and the CELL STAYS INTACT. The cell survives and continues secreting. Sweat glands work this way.",
+      "wrongExplains": {
+        "0": "Cell rupture and death describes holocrine secretion.",
+        "2": "Pinching off describes apocrine secretion.",
+        "3": "Secretion doesn't involve cell transformation."
+      }
     },
     {
-      "q": "APOCRINE secretion pinches off part of the cell - partial loss.",
+      "q": "What happens during apocrine secretion?",
       "options": [
-        "True",
-        "False"
+        "The cell remains completely intact",
+        "Part of the cell pinches off with the secretion",
+        "The entire cell ruptures and dies",
+        "The cell divides in half"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The cell's apex breaks off with the secretion. The cell survives but loses a piece. Some mammary glands work this way."
+      "explain": "In APOCRINE secretion, the CELL'S APEX BREAKS OFF with the secretion. The cell survives but loses a piece. Some mammary gland secretions work this way.",
+      "wrongExplains": {
+        "0": "That describes merocrine secretion.",
+        "2": "Complete rupture and death describes holocrine secretion.",
+        "3": "Cell division is mitosis, not secretion."
+      }
     },
     {
-      "q": "HOLOCRINE secretion destroys the entire cell - the cell BECOMES the product.",
+      "q": "What happens during holocrine secretion?",
       "options": [
-        "True",
-        "False"
+        "The cell releases products gently",
+        "The entire cell fills with product, dies, and ruptures to release it",
+        "Only the nucleus is released",
+        "The cell multiplies before secreting"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! 'Holo-' means whole/entire. The whole cell fills with product, dies, and ruptures to release it."
+      "explain": "In HOLOCRINE secretion, the ENTIRE CELL fills with product, DIES, and RUPTURES. 'Holo-' means whole/entire — the whole cell becomes the product.",
+      "wrongExplains": {
+        "0": "Gentle release describes merocrine secretion.",
+        "2": "The entire cell contents are released, not just the nucleus.",
+        "3": "Multiplication before secretion doesn't define holocrine."
+      }
     },
     {
-      "q": "Sebaceous glands (oil glands) use holocrine secretion.",
+      "q": "Which glands use holocrine secretion?",
       "options": [
-        "True",
-        "False"
+        "Sweat glands",
+        "Sebaceous (oil) glands",
+        "Salivary glands",
+        "Tear glands"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The cell fills with sebum (oil), swells, and eventually ruptures. Cellular martyrdom for smooth skin."
+      "explain": "SEBACEOUS (oil) GLANDS use HOLOCRINE secretion. The cells fill with sebum, swell, and eventually rupture — cellular martyrdom for smooth skin.",
+      "wrongExplains": {
+        "0": "Sweat glands use merocrine secretion.",
+        "2": "Salivary glands use merocrine secretion.",
+        "3": "Tear (lacrimal) glands use merocrine secretion."
+      }
     },
     {
-      "q": "In holocrine secretion, the cell dies as part of releasing its product.",
+      "q": "What is the key characteristic that defines holocrine glands?",
       "options": [
-        "True",
-        "False"
+        "They have the longest ducts",
+        "The secreting cells rupture and die to release their product",
+        "They produce the most volume",
+        "They secrete directly into blood"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Unlike merocrine (cell lives) or apocrine (cell loses apex), holocrine means total cell destruction."
+      "explain": "HOLOCRINE glands are defined by CELL RUPTURE and DEATH during secretion. Unlike merocrine (cell lives) or apocrine (cell loses apex), holocrine means TOTAL cell destruction.",
+      "wrongExplains": {
+        "0": "Duct length doesn't define secretion mode.",
+        "2": "Volume doesn't define the secretion mechanism.",
+        "3": "Secreting into blood describes endocrine glands."
+      }
     },
     {
-      "q": "Glands that release secretions when the cell RUPTURES and DIES are HOLOCRINE.",
+      "q": "Why must holocrine glands constantly replace their cells?",
       "options": [
-        "True",
-        "False"
+        "The cells migrate away",
+        "The cells die each time they secrete",
+        "The cells become too large",
+        "The cells lose their nuclei"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Rupture + cell death = holocrine. The entire cell becomes the secretion."
+      "explain": "Holocrine glands must constantly REPLACE CELLS because each cell DIES when it secretes. Stem cells at the base divide to replenish the secreting population.",
+      "wrongExplains": {
+        "0": "Cells don't migrate; they rupture in place.",
+        "2": "Size isn't the issue; cell death is.",
+        "3": "The whole cell is lost, not just the nucleus."
+      }
     },
     {
-      "q": "The answer is HOLOCRINE - cells fill with product, then rupture and die to release it.",
+      "q": "Glands whose secretions are released when cells rupture and die are classified as ___?",
       "options": [
-        "True",
-        "False"
+        "Merocrine",
+        "Holocrine",
+        "Apocrine",
+        "Endocrine"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not merocrine (cell stays intact), not apocrine (only apex pinches off). Holocrine = whole cell destruction."
+      "explain": "HOLOCRINE glands release secretions when cells RUPTURE and DIE. The entire cell becomes the secretion — sebaceous glands are the classic example.",
+      "wrongExplains": {
+        "0": "Merocrine cells stay intact during secretion.",
+        "2": "Apocrine cells only lose their apex, not the whole cell.",
+        "3": "Endocrine describes gland type (ductless), not secretion mode."
+      }
     }
   ]
 }

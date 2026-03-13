@@ -5,26 +5,155 @@
     {
       "q": "What is keratin?",
       "options": [
-        "A type of sugar",
+        "A type of carbohydrate",
         "A tough, waterproof protein",
-        "A type of fat",
+        "A type of fat molecule",
         "A cellular organelle"
       ],
       "answer": 1,
-      "chapter": "Tissues & Epithelia",
-      "explain": "Keratin is a tough, fibrous protein that provides strength and waterproofing. It's the main structural component of hair, nails, and the outer layer of skin."
+      "difficulty": "foundation",
+      "explain": "KERATIN is a TOUGH, WATERPROOF PROTEIN. It provides strength and protection in hair, nails, and the outer layer of skin.",
+      "wrongExplains": {
+        "0": "Keratin is a structural protein, not a carbohydrate.",
+        "2": "Keratin is a protein, not a lipid/fat.",
+        "3": "Keratin fills cells; it's not an organelle."
+      }
+    },
+    {
+      "q": "What is keratinization?",
+      "options": [
+        "Cell division",
+        "The process where cells fill with keratin and die",
+        "Cell growth",
+        "Cell movement"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "KERATINIZATION is the process where epithelial cells FILL WITH KERATIN AND DIE. The dead, keratin-filled cells form a tough, protective outer layer.",
+      "wrongExplains": {
+        "0": "Cell division is mitosis; keratinization involves cell death.",
+        "2": "Cell growth is enlargement; keratinization is filling with protein and dying.",
+        "3": "Cell movement is migration; keratinization is a protective transformation."
+      }
+    },
+    {
+      "q": "What type of epithelium makes up the epidermis (outer skin)?",
+      "options": [
+        "Simple squamous",
+        "Keratinized stratified squamous",
+        "Simple columnar",
+        "Transitional"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The epidermis is KERATINIZED STRATIFIED SQUAMOUS epithelium. Multiple layers provide protection, and keratinization makes it tough and waterproof.",
+      "wrongExplains": {
+        "0": "Simple squamous is too thin for skin protection.",
+        "2": "Simple columnar is for absorption, not protection.",
+        "3": "Transitional is for stretching organs like the bladder."
+      }
+    },
+    {
+      "q": "Why does skin need to be keratinized?",
+      "options": [
+        "To absorb nutrients",
+        "To prevent water loss and protect against abrasion",
+        "To increase flexibility",
+        "To allow gas exchange"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Skin keratinization PREVENTS WATER LOSS and PROTECTS against abrasion. The waterproof keratin layer keeps body fluids in and harmful substances out.",
+      "wrongExplains": {
+        "0": "Skin doesn't absorb nutrients; intestinal epithelium does.",
+        "2": "Keratinization provides toughness, not flexibility.",
+        "3": "Keratinized skin blocks gas exchange; lungs have thin epithelium for that."
+      }
     },
     {
       "q": "Which body surface is exposed to air and requires waterproofing?",
       "options": [
-        "Oral cavity",
-        "Esophagus",
+        "Stomach lining",
         "Skin",
-        "Stomach lining"
+        "Esophagus",
+        "Blood vessel lining"
       ],
-      "answer": 2,
-      "chapter": "Tissues & Epithelia",
-      "explain": "The skin is the body's external surface exposed to air. It needs waterproofing to prevent water loss and to protect against environmental damage. Internal surfaces like the esophagus need to stay moist."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "SKIN is exposed to air and requires WATERPROOFING. Without keratinization, body water would evaporate rapidly through the skin surface.",
+      "wrongExplains": {
+        "0": "Stomach lining is internal and moist; it doesn't need waterproofing.",
+        "2": "Esophagus is internal and needs to stay moist for swallowing.",
+        "3": "Blood vessel lining is internal, bathed in blood."
+      }
+    },
+    {
+      "q": "What is the difference between keratinized and non-keratinized stratified squamous epithelium?",
+      "options": [
+        "Number of layers",
+        "Keratinized has dead surface cells filled with keratin; non-keratinized surface cells are alive",
+        "Cell shape",
+        "Location of stem cells"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "KERATINIZED epithelium has DEAD surface cells filled with keratin; NON-KERATINIZED surface cells are ALIVE and moist. Skin is keratinized; mouth and esophagus are non-keratinized.",
+      "wrongExplains": {
+        "0": "Both types can have similar numbers of layers.",
+        "2": "Both types have squamous (flat) surface cells.",
+        "3": "Both have stem cells in the basal layer."
+      }
+    },
+    {
+      "q": "Where is non-keratinized stratified squamous epithelium found?",
+      "options": [
+        "Skin and hair follicles",
+        "Mouth, esophagus, and vagina",
+        "Digestive tract lining",
+        "Respiratory airways"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Non-keratinized stratified squamous epithelium lines the MOUTH, ESOPHAGUS, and VAGINA. These are moist internal surfaces that need protection but must remain flexible.",
+      "wrongExplains": {
+        "0": "Skin and hair follicles have keratinized epithelium.",
+        "2": "Most of the digestive tract has simple columnar epithelium.",
+        "3": "Respiratory airways have pseudostratified ciliated columnar epithelium."
+      }
+    },
+    {
+      "q": "Why can't keratinized epithelium be used inside the mouth?",
+      "options": [
+        "It's too thin",
+        "It would be too dry and rigid for eating and speaking",
+        "It can't protect against bacteria",
+        "It divides too slowly"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Keratinized epithelium would be TOO DRY AND RIGID for the mouth. Eating and speaking require moist, flexible tissue that non-keratinized epithelium provides.",
+      "wrongExplains": {
+        "0": "Keratinized epithelium can be thick; the issue is moisture.",
+        "2": "Both types protect against bacteria.",
+        "3": "Division rate isn't the primary issue."
+      }
+    },
+    {
+      "q": "Keratinized stratified squamous epithelium is found in the ___?",
+      "options": [
+        "Oral cavity and esophagus",
+        "Epidermis (skin)",
+        "Urinary bladder",
+        "Respiratory tract"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Keratinized stratified squamous epithelium forms the EPIDERMIS (SKIN). It provides a tough, waterproof barrier against the external environment, abrasion, and water loss.",
+      "wrongExplains": {
+        "0": "Oral cavity and esophagus have NON-keratinized stratified squamous.",
+        "2": "Urinary bladder has transitional epithelium.",
+        "3": "Respiratory tract has pseudostratified ciliated columnar epithelium."
+      }
     }
   ]
 }

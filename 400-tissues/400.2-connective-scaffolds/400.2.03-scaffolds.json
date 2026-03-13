@@ -3,94 +3,157 @@
   "parentQuestion": "Which of the following connective tissues provides the framework for lymphoid organs?",
   "scaffolds": [
     {
-      "q": "Lymphoid organs are part of the immune system.",
+      "q": "What are lymphoid organs?",
       "options": [
-        "True",
-        "False"
+        "Organs that produce hormones",
+        "Organs of the immune system (lymph nodes, spleen, thymus)",
+        "Organs that digest food",
+        "Organs that filter blood for waste"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Lymph nodes, spleen, and thymus are lymphoid organs where immune cells live and work."
+      "explain": "LYMPHOID ORGANS are part of the IMMUNE SYSTEM. They include LYMPH NODES, SPLEEN, and THYMUS — places where immune cells live and work.",
+      "wrongExplains": {
+        "0": "Endocrine glands produce hormones.",
+        "2": "The digestive tract digests food.",
+        "3": "Kidneys filter blood for waste."
+      }
     },
     {
-      "q": "Organs need internal scaffolding (framework) to support their cells.",
+      "q": "What is the stroma of an organ?",
       "options": [
-        "True",
-        "False"
+        "The functional cells",
+        "The supportive framework (scaffolding)",
+        "The outer covering",
+        "The blood supply"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! This supporting framework is called the stroma. It holds everything in place."
+      "explain": "STROMA is the SUPPORTIVE FRAMEWORK (scaffolding) of an organ. The PARENCHYMA is the functional cells. Think: stroma = structure, parenchyma = performance.",
+      "wrongExplains": {
+        "0": "Functional cells are the parenchyma.",
+        "2": "The outer covering is the capsule or serosa.",
+        "3": "Blood supply is the vasculature."
+      }
     },
     {
-      "q": "The stroma is the supportive framework; the parenchyma is the functional cells.",
+      "q": "What is reticular tissue?",
       "options": [
-        "True",
-        "False"
+        "Dense fibrous tissue",
+        "Delicate mesh-like connective tissue forming a 3D network",
+        "Fat-storing tissue",
+        "Bone tissue"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Think of stroma as scaffolding and parenchyma as the workers on that scaffolding."
+      "explain": "RETICULAR TISSUE forms a DELICATE MESH-LIKE network. 'Reticular' means net-like — it creates a 3D spiderweb structure for cells to inhabit.",
+      "wrongExplains": {
+        "0": "Dense fibrous tissue is thick collagen bundles (tendons).",
+        "2": "Adipose tissue stores fat.",
+        "3": "Osseous tissue is bone."
+      }
     },
     {
-      "q": "RETICULAR tissue forms a delicate mesh-like network.",
+      "q": "What are reticular fibers made of?",
       "options": [
-        "True",
-        "False"
+        "Elastin",
+        "Type III collagen (thin collagen fibers)",
+        "Keratin",
+        "Actin and myosin"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! 'Reticular' means net-like. It forms a 3D spiderweb structure."
+      "explain": "Reticular fibers are made of TYPE III COLLAGEN — thin, delicate collagen fibers that form the mesh-like network of reticular tissue.",
+      "wrongExplains": {
+        "0": "Elastin provides stretch and recoil (elastic fibers).",
+        "2": "Keratin is in skin, hair, and nails.",
+        "3": "Actin and myosin are contractile proteins in muscle."
+      }
     },
     {
-      "q": "Reticular tissue is made of thin fibers called reticular fibers.",
+      "q": "Why do lymphoid organs need a mesh-like framework?",
       "options": [
-        "True",
-        "False"
+        "To contract and pump lymph",
+        "To provide surfaces where immune cells can perch and interact",
+        "To produce hormones",
+        "To store energy"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! These are thin type III collagen fibers that form the delicate mesh."
+      "explain": "The reticular mesh provides SURFACES where IMMUNE CELLS can PERCH, crawl, and INTERACT with each other and with antigens. It's 3D scaffolding for immune surveillance.",
+      "wrongExplains": {
+        "0": "Lymphoid organs don't contract; muscle does.",
+        "2": "Endocrine glands produce hormones.",
+        "3": "Adipose tissue stores energy."
+      }
     },
     {
-      "q": "Lymphoid organs need a mesh where immune cells can perch, crawl, and interact.",
+      "q": "Where is reticular tissue found?",
       "options": [
-        "True",
-        "False"
+        "Tendons and ligaments",
+        "Lymph nodes, spleen, and bone marrow",
+        "Skin surface",
+        "Blood vessels"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The reticular mesh provides the perfect 3D scaffolding for immune cell surveillance."
+      "explain": "Reticular tissue is found in LYMPH NODES, SPLEEN, and BONE MARROW — wherever immune cells need a framework to gather and function.",
+      "wrongExplains": {
+        "0": "Tendons and ligaments have dense regular connective tissue.",
+        "2": "Skin surface has stratified squamous epithelium.",
+        "3": "Blood vessels have endothelium and smooth muscle."
+      }
     },
     {
-      "q": "Reticular tissue is found in lymph nodes, spleen, and bone marrow.",
+      "q": "What cells produce the reticular fiber network?",
       "options": [
-        "True",
-        "False"
+        "Adipocytes",
+        "Reticular cells (fibroblasts)",
+        "Osteocytes",
+        "Neurons"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Anywhere immune cells need to gather and interact, reticular tissue provides the framework."
+      "explain": "RETICULAR CELLS (a type of fibroblast) produce and maintain the RETICULAR FIBER network. They also wrap around the fibers, supporting the mesh structure.",
+      "wrongExplains": {
+        "0": "Adipocytes store fat.",
+        "2": "Osteocytes maintain bone.",
+        "3": "Neurons transmit nerve signals."
+      }
     },
     {
-      "q": "RETICULAR connective tissue provides the internal framework (stroma) of lymphoid organs.",
+      "q": "How does reticular tissue differ from dense connective tissue?",
       "options": [
-        "True",
-        "False"
+        "Reticular has more collagen",
+        "Reticular forms a delicate mesh; dense has thick, packed fibers",
+        "Reticular is found in skin; dense is found in lymph nodes",
+        "They are identical"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Its delicate mesh supports the immune cells that populate these organs."
+      "explain": "Reticular tissue forms a DELICATE MESH; dense connective tissue has THICK, PACKED fibers. Dense tissue resists tension; reticular provides a framework for cells.",
+      "wrongExplains": {
+        "0": "Dense tissue has more and thicker collagen.",
+        "2": "It's the opposite: reticular in lymph nodes, dense in skin (dermis).",
+        "3": "They have very different structures and functions."
+      }
     },
     {
-      "q": "The answer is RETICULAR tissue - the mesh-like framework for lymphoid organs.",
+      "q": "Which connective tissue provides the framework for lymphoid organs?",
       "options": [
-        "True",
-        "False"
+        "Dense regular connective tissue",
+        "Reticular connective tissue",
+        "Adipose tissue",
+        "Hyaline cartilage"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not dense regular (tendons), not dense irregular (dermis), not areolar (loose packing). Reticular = lymphoid organ scaffolding."
+      "explain": "RETICULAR CONNECTIVE TISSUE provides the framework for lymphoid organs. Its mesh-like network supports immune cells in lymph nodes, spleen, and thymus.",
+      "wrongExplains": {
+        "0": "Dense regular forms tendons and ligaments.",
+        "2": "Adipose stores fat.",
+        "3": "Hyaline cartilage cushions joints."
+      }
     }
   ]
 }

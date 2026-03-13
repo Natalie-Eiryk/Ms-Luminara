@@ -3,94 +3,157 @@
   "parentQuestion": "A patient with severe burns shows minimal scarring after healing, with near-complete regeneration of the epidermis. However, deep dermal burns in the same patient resulted in thick, fibrotic scars. What determines whether repair results in regeneration versus fibrosis?",
   "scaffolds": [
     {
-      "q": "REGENERATION means restoring the original tissue type.",
+      "q": "What is regeneration in tissue repair?",
       "options": [
-        "True",
-        "False"
+        "Forming scar tissue",
+        "Restoring the original tissue type with full function",
+        "Removing damaged tissue",
+        "Preventing infection"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The damaged tissue is replaced with identical, functional tissue. Best outcome!"
+      "explain": "REGENERATION means RESTORING the ORIGINAL TISSUE TYPE with full function. The damaged tissue is replaced with identical, functional tissue — the best outcome!",
+      "wrongExplains": {
+        "0": "Scar formation is fibrosis, not regeneration.",
+        "2": "Removal is debridement, not regeneration.",
+        "3": "Infection prevention is separate from tissue regeneration."
+      }
     },
     {
-      "q": "FIBROSIS means replacing damaged tissue with scar tissue.",
+      "q": "What is fibrosis in tissue repair?",
       "options": [
-        "True",
-        "False"
+        "Perfect tissue restoration",
+        "Replacing damaged tissue with scar tissue",
+        "Growing new blood vessels",
+        "Removing dead cells"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Scar tissue is collagen-rich but doesn't function like the original tissue."
+      "explain": "FIBROSIS means replacing damaged tissue with SCAR TISSUE. Scar tissue is collagen-rich but doesn't function like the original tissue.",
+      "wrongExplains": {
+        "0": "Perfect restoration is regeneration, not fibrosis.",
+        "2": "New blood vessel growth is angiogenesis.",
+        "3": "Removing dead cells is part of inflammation."
+      }
     },
     {
-      "q": "Some tissues regenerate well (skin, bone, liver), others don't (heart, brain).",
+      "q": "Do all tissues regenerate equally well?",
       "options": [
-        "True",
-        "False"
+        "Yes, all tissues regenerate identically",
+        "No, some tissues regenerate well (skin, bone, liver), others poorly (heart, brain)",
+        "Only bones can regenerate",
+        "Only skin can regenerate"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Tissue TYPE matters. Epithelia have stem cells and regenerate well. Cardiac muscle doesn't."
+      "explain": "TISSUE TYPE MATTERS. Epithelia and bone have stem cells and regenerate well. Cardiac muscle and brain tissue don't regenerate well — they form scars instead.",
+      "wrongExplains": {
+        "0": "Regenerative capacity varies greatly by tissue type.",
+        "2": "Many tissues can regenerate, not just bone.",
+        "3": "Multiple tissue types regenerate, not just skin."
+      }
     },
     {
-      "q": "The SEVERITY of damage affects whether regeneration or fibrosis occurs.",
+      "q": "Does injury severity affect whether regeneration or fibrosis occurs?",
       "options": [
-        "True",
-        "False"
+        "No, only tissue type matters",
+        "Yes, mild damage may regenerate while severe damage often scars",
+        "Severe damage always regenerates better",
+        "Severity has no effect"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Mild damage may regenerate. Severe damage often leads to scarring."
+      "explain": "The SEVERITY of damage affects outcome. MILD damage may regenerate. SEVERE damage often leads to scarring because too much structure is lost.",
+      "wrongExplains": {
+        "0": "Both tissue type AND severity matter.",
+        "2": "Mild damage regenerates better than severe.",
+        "3": "Severity significantly affects healing outcome."
+      }
     },
     {
-      "q": "Superficial burns leave the basement membrane intact, allowing regeneration.",
+      "q": "Why do superficial burns often heal without scarring?",
       "options": [
-        "True",
-        "False"
+        "They don't bleed",
+        "The basement membrane remains intact, allowing cell migration",
+        "They don't involve skin",
+        "They heal faster"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The basement membrane is the scaffold for epithelial cells to migrate and regenerate."
+      "explain": "Superficial burns leave the BASEMENT MEMBRANE INTACT. This membrane serves as a scaffold for epithelial cells to migrate and regenerate new skin.",
+      "wrongExplains": {
+        "0": "Bleeding isn't the determining factor.",
+        "2": "Superficial burns do involve skin.",
+        "3": "Speed isn't the key factor; scaffold preservation is."
+      }
     },
     {
-      "q": "Deep burns destroy the basement membrane, leading to fibrosis/scarring.",
+      "q": "Why do deep burns result in scarring?",
       "options": [
-        "True",
-        "False"
+        "They bleed more",
+        "They destroy the basement membrane, eliminating the regeneration scaffold",
+        "They're always infected",
+        "They heal too quickly"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! No scaffold = no template for regeneration. The body defaults to scar tissue."
+      "explain": "Deep burns DESTROY THE BASEMENT MEMBRANE. Without this scaffold/template for regeneration, the body defaults to SCAR TISSUE (fibrosis).",
+      "wrongExplains": {
+        "0": "Bleeding amount isn't the determining factor.",
+        "2": "Infection isn't universal in deep burns.",
+        "3": "Deep burns heal slowly and scar."
+      }
     },
     {
-      "q": "BOTH tissue type AND severity of damage determine regeneration vs. fibrosis.",
+      "q": "What two factors together determine if a wound regenerates or scars?",
       "options": [
-        "True",
-        "False"
+        "Age and gender",
+        "Tissue type and severity of damage",
+        "Location and time of day",
+        "Temperature and humidity"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Regenerative capacity + injury depth together determine the outcome."
+      "explain": "BOTH TISSUE TYPE and SEVERITY OF DAMAGE determine outcome. Regenerative capacity + injury depth together determine whether you get regeneration or fibrosis.",
+      "wrongExplains": {
+        "0": "Age can affect healing but isn't the primary determinant.",
+        "2": "Location matters somewhat, but tissue type and severity are key.",
+        "3": "Environmental factors aren't the main determinants."
+      }
     },
     {
-      "q": "Same patient, different depths of burn = different outcomes (regeneration vs. scarring).",
+      "q": "Why did the same patient have different outcomes for superficial vs. deep burns?",
       "options": [
-        "True",
-        "False"
+        "Different immune responses",
+        "Different depths of injury — superficial preserved basement membrane, deep didn't",
+        "Different skin colors",
+        "Different treatment"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Superficial burn regenerated (basement membrane intact). Deep burn scarred (basement membrane destroyed)."
+      "explain": "Same patient, DIFFERENT DEPTHS = different outcomes. SUPERFICIAL burn regenerated (basement membrane intact). DEEP burn scarred (basement membrane destroyed).",
+      "wrongExplains": {
+        "0": "The immune response was the same; depth differed.",
+        "2": "Skin color doesn't determine regeneration vs. scarring.",
+        "3": "The scenario doesn't mention different treatments."
+      }
     },
     {
-      "q": "The answer is: tissue TYPE and SEVERITY of damage determine outcome.",
+      "q": "What determines whether repair results in regeneration versus fibrosis?",
       "options": [
-        "True",
-        "False"
+        "Only the patient's age",
+        "Tissue type and severity of damage",
+        "Only the amount of granulation tissue",
+        "Only the inflammatory response"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not just age, not just granulation presence, not just inflammation. Both tissue type AND damage severity matter."
+      "explain": "TISSUE TYPE and SEVERITY OF DAMAGE determine outcome. Not just age, not just granulation presence, not just inflammation. Both factors together decide regeneration vs. fibrosis.",
+      "wrongExplains": {
+        "0": "Age is one factor but not the only determinant.",
+        "2": "Granulation tissue is part of healing but doesn't determine outcome alone.",
+        "3": "Inflammation is necessary but doesn't determine final outcome."
+      }
     }
   ]
 }
