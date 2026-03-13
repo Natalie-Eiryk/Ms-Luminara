@@ -3,28 +3,157 @@
   "parentQuestion": "The dorsal body cavity contains the ___.",
   "scaffolds": [
     {
-      "q": "What does 'dorsal' mean?",
+      "q": "What does dorsal mean?",
       "options": [
         "Front (belly side)",
-        "Back (posterior)",
+        "Back (posterior side)",
+        "Side",
+        "Head"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "DORSAL means BACK (posterior). In humans standing upright, dorsal structures are on your back side. Think: dorsal fin on a shark.",
+      "wrongExplains": {
+        "0": "Front/belly side is ventral; dorsal is back.",
+        "2": "Side is lateral; dorsal refers to back.",
+        "3": "Head region is cranial; dorsal refers to back."
+      }
+    },
+    {
+      "q": "What does ventral mean?",
+      "options": [
+        "Back side",
+        "Front (belly side)",
         "Upper",
         "Lower"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Dorsal means back or posterior. In humans standing upright, dorsal structures are on your back side. Think: dorsal fin on a shark — it's on the back/top. Simple, elegant, precise."
+      "difficulty": "foundation",
+      "explain": "VENTRAL means FRONT or BELLY SIDE. In humans, ventral structures are on the front (anterior) of the body.",
+      "wrongExplains": {
+        "0": "Back side is dorsal; ventral is front.",
+        "2": "Upper is superior; ventral refers to front/back position.",
+        "3": "Lower is inferior; ventral refers to front/back position."
+      }
     },
     {
-      "q": "The brain and spinal cord together form the ___.",
+      "q": "What is the dorsal body cavity?",
       "options": [
-        "Peripheral nervous system",
-        "Central nervous system",
-        "Digestive system",
-        "Respiratory system"
+        "The chest cavity",
+        "The cavity along the back containing the brain and spinal cord",
+        "The abdominal cavity",
+        "The pelvic cavity"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "The brain and spinal cord together form the central nervous system (CNS) — your body's command-and-control center. Everything else (nerves branching to your limbs and organs) is the peripheral nervous system. Beautiful hierarchy, isn't it?"
+      "difficulty": "foundation",
+      "explain": "The DORSAL BODY CAVITY runs along the BACK and contains the BRAIN AND SPINAL CORD. It includes cranial and vertebral cavities.",
+      "wrongExplains": {
+        "0": "The chest cavity is thoracic (ventral cavity).",
+        "2": "The abdominal cavity is part of the ventral cavity.",
+        "3": "The pelvic cavity is part of the ventral cavity."
+      }
+    },
+    {
+      "q": "What is the central nervous system?",
+      "options": [
+        "All the nerves in the body",
+        "The brain and spinal cord",
+        "Only the peripheral nerves",
+        "Only the autonomic nerves"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The CENTRAL NERVOUS SYSTEM (CNS) is the BRAIN AND SPINAL CORD — the command center. Everything else is peripheral.",
+      "wrongExplains": {
+        "0": "All body nerves include peripheral; CNS is brain and spinal cord only.",
+        "2": "Peripheral nerves are outside CNS.",
+        "3": "Autonomic nerves are part of peripheral nervous system."
+      }
+    },
+    {
+      "q": "What is the cranial cavity?",
+      "options": [
+        "The chest cavity",
+        "The cavity in the skull that contains the brain",
+        "The abdominal space",
+        "The spinal canal"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The CRANIAL CAVITY is in the SKULL and CONTAINS THE BRAIN. It's part of the dorsal body cavity.",
+      "wrongExplains": {
+        "0": "The chest cavity is thoracic; cranial is in the skull.",
+        "2": "Abdominal space contains digestive organs.",
+        "3": "The spinal canal is the vertebral cavity; cranial holds the brain."
+      }
+    },
+    {
+      "q": "What is the vertebral cavity?",
+      "options": [
+        "The cavity holding the brain",
+        "The canal within the spine containing the spinal cord",
+        "The chest cavity",
+        "The abdominal cavity"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The VERTEBRAL CAVITY is the canal WITHIN THE SPINE that contains the SPINAL CORD. It's part of the dorsal body cavity.",
+      "wrongExplains": {
+        "0": "The brain is in the cranial cavity.",
+        "2": "The chest cavity is thoracic (ventral).",
+        "3": "The abdominal cavity is ventral."
+      }
+    },
+    {
+      "q": "What protects the structures in the dorsal cavity?",
+      "options": [
+        "Only soft tissue",
+        "Bone — the skull and vertebral column",
+        "Only muscle",
+        "The diaphragm"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "BONE protects the dorsal cavity structures — the SKULL protects the brain and the VERTEBRAL COLUMN protects the spinal cord.",
+      "wrongExplains": {
+        "0": "Hard bone provides the main protection for CNS.",
+        "2": "Bone is the primary protector; muscles provide secondary support.",
+        "3": "The diaphragm separates thoracic from abdominal cavities."
+      }
+    },
+    {
+      "q": "What is the relationship between dorsal cavity and CNS?",
+      "options": [
+        "No relationship",
+        "The dorsal cavity houses and protects the CNS",
+        "The CNS is in the ventral cavity",
+        "The dorsal cavity contains digestive organs"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The DORSAL CAVITY HOUSES AND PROTECTS THE CNS (brain and spinal cord). This critical nervous tissue is enclosed in bone.",
+      "wrongExplains": {
+        "0": "There's a direct relationship — dorsal cavity contains CNS.",
+        "2": "The CNS is in the dorsal cavity, not ventral.",
+        "3": "Digestive organs are in the ventral (abdominal) cavity."
+      }
+    },
+    {
+      "q": "The dorsal body cavity contains the ___?",
+      "options": [
+        "Heart and lungs",
+        "Brain and spinal cord (central nervous system)",
+        "Stomach and intestines",
+        "Reproductive organs"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The dorsal body cavity contains the BRAIN AND SPINAL CORD (CENTRAL NERVOUS SYSTEM). It runs along the back of the body.",
+      "wrongExplains": {
+        "0": "Heart and lungs are in the thoracic cavity (ventral).",
+        "2": "Stomach and intestines are in the abdominal cavity (ventral).",
+        "3": "Reproductive organs are in the pelvic cavity (ventral)."
+      }
     }
   ]
 }

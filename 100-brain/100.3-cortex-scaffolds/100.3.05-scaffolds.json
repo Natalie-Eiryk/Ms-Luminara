@@ -3,94 +3,157 @@
   "parentQuestion": "The area of the cortex that is responsible for sensing a full bladder and the feeling that your lungs will burst when you hold your breath too long is the ___.",
   "scaffolds": [
     {
-      "q": "The brain can sense internal body states - not just the external world.",
+      "q": "What is interoception?",
       "options": [
-        "True",
-        "False"
+        "Sensing the external world",
+        "Sensing the body's internal state (visceral sensations)",
+        "Seeing colors",
+        "Hearing sounds"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Internal sensations like hunger, thirst, bladder fullness, and air hunger are called 'interoception.'"
+      "explain": "INTEROCEPTION is sensing the BODY'S INTERNAL STATE — hunger, thirst, bladder fullness, heartbeat, air hunger. 'Intero-' = inside, '-ception' = sensing.",
+      "wrongExplains": {
+        "0": "Sensing the external world is exteroception (touch, vision, hearing).",
+        "2": "Color vision is visual exteroception, not interoception.",
+        "3": "Hearing is auditory exteroception, not interoception."
+      }
     },
     {
-      "q": "Interoception = sensing the body's internal state (visceral sensations).",
+      "q": "What is the insula (insular cortex)?",
       "options": [
-        "True",
-        "False"
+        "Part of the cerebellum",
+        "A cortical region buried beneath frontal/temporal lobes that processes interoception",
+        "A cranial nerve",
+        "Part of the brainstem"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Intero- (inside) + -ception (sensing). Awareness of internal organ states."
+      "explain": "The INSULA (insular cortex) is a cortical region BURIED beneath the frontal and temporal lobes. It's the primary INTEROCEPTIVE CORTEX — processing internal body states.",
+      "wrongExplains": {
+        "0": "The insula is cortex, not cerebellum.",
+        "2": "The insula is a cortical region, not a cranial nerve.",
+        "3": "The insula is cerebral cortex, not brainstem."
+      }
     },
     {
-      "q": "Bladder fullness is a visceral (internal organ) sensation.",
+      "q": "What sensation does bladder fullness represent?",
       "options": [
-        "True",
-        "False"
+        "External touch sensation",
+        "Visceral/interoceptive sensation from stretch receptors",
+        "Hearing",
+        "Vision"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Stretch receptors in bladder wall signal fullness - an interoceptive signal."
+      "explain": "BLADDER FULLNESS is a VISCERAL (INTEROCEPTIVE) sensation. Stretch receptors in the bladder wall signal fullness — an internal body state awareness.",
+      "wrongExplains": {
+        "0": "Bladder fullness is internal, not external touch.",
+        "2": "Hearing involves the auditory system, not visceral sensation.",
+        "3": "Vision involves the visual system, not visceral sensation."
+      }
     },
     {
-      "q": "Air hunger (urge to breathe) is triggered by rising CO2 levels.",
+      "q": "What causes the feeling that 'your lungs will burst'?",
       "options": [
-        "True",
-        "False"
+        "Low oxygen",
+        "Rising CO2 levels detected by chemoreceptors — air hunger",
+        "External pressure",
+        "Cold temperature"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Chemoreceptors detect CO2, and the sensation becomes overwhelming. That's interoception."
+      "explain": "AIR HUNGER is triggered by RISING CO2 (not low oxygen). Chemoreceptors detect CO2, and the sensation becomes overwhelming — this is INTEROCEPTION.",
+      "wrongExplains": {
+        "0": "Interestingly, low O2 is a weaker stimulus than high CO2 for air hunger.",
+        "2": "External pressure doesn't cause the 'bursting' feeling from breath-holding.",
+        "3": "Temperature sensation is different from air hunger."
+      }
     },
     {
-      "q": "The insula (insular cortex) processes interoceptive signals.",
+      "q": "What types of sensations does the insula process?",
       "options": [
-        "True",
-        "False"
+        "Only vision",
+        "Hunger, thirst, air hunger, heartbeat awareness, pain, temperature",
+        "Only hearing",
+        "Only motor commands"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The insula is buried beneath frontal/temporal lobes and is the interoceptive cortex."
+      "explain": "The insula processes INTERNAL BODY STATES: HUNGER, THIRST, AIR HUNGER, HEARTBEAT awareness, PAIN, internal TEMPERATURE — all interoceptive signals.",
+      "wrongExplains": {
+        "0": "Vision is processed in occipital cortex, not insula.",
+        "2": "Hearing is processed in temporal cortex, not insula.",
+        "3": "Motor commands originate from motor cortex, not insula."
+      }
     },
     {
-      "q": "The insula creates conscious awareness of internal body states.",
+      "q": "Why is the insula also called the 'visceral sensory area'?",
       "options": [
-        "True",
-        "False"
+        "It controls intestinal movement",
+        "It processes sensations from internal organs (viscera)",
+        "It's shaped like an organ",
+        "It secretes digestive enzymes"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Hunger, thirst, air hunger, heartbeat awareness, temperature - all processed in insula."
+      "explain": "VISCERAL = internal organs. The insula is called the VISCERAL SENSORY AREA because it processes sensations FROM INTERNAL ORGANS — the interoceptive cortex.",
+      "wrongExplains": {
+        "0": "The insula receives sensations, it doesn't control intestinal movement directly.",
+        "2": "The name refers to function, not shape.",
+        "3": "The cortex doesn't secrete digestive enzymes."
+      }
     },
     {
-      "q": "The 'visceral sensory area' is another name for the insular cortex.",
+      "q": "What role does the insula play in emotional awareness?",
       "options": [
-        "True",
-        "False"
+        "None",
+        "It links body sensations to emotional feelings (gut feelings)",
+        "It only processes happiness",
+        "It controls facial expressions"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Visceral = internal organs. The insula processes visceral sensations."
+      "explain": "The insula links BODY SENSATIONS to EMOTIONAL FEELINGS. 'Gut feelings' and emotional awareness depend on sensing internal body states — interoception underlies emotional experience.",
+      "wrongExplains": {
+        "0": "The insula is crucial for emotional awareness through interoception.",
+        "2": "It processes the bodily component of all emotions, not just happiness.",
+        "3": "Facial expressions are controlled by motor cortex and facial nucleus."
+      }
     },
     {
-      "q": "Full bladder + air hunger = interoceptive signals processed in visceral sensory area.",
+      "q": "What do bladder fullness and air hunger have in common?",
       "options": [
-        "True",
-        "False"
+        "Both are processed in the motor cortex",
+        "Both are interoceptive sensations processed by the insula",
+        "Both involve the cerebellum",
+        "Both are hearing-related"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Both are internal body sensations (interoception), processed by the insular cortex."
+      "explain": "Both BLADDER FULLNESS and AIR HUNGER are INTEROCEPTIVE sensations — internal body state awareness processed by the INSULA (visceral sensory area).",
+      "wrongExplains": {
+        "0": "Motor cortex controls movement, not visceral sensation.",
+        "2": "The cerebellum coordinates movement, not interoception.",
+        "3": "Neither involves the auditory system."
+      }
     },
     {
-      "q": "The answer is VISCERAL SENSORY AREA (insula) - the interoceptive cortex.",
+      "q": "Which cortical area senses bladder fullness and air hunger?",
       "options": [
-        "True",
-        "False"
+        "Primary motor cortex",
+        "Visceral sensory area (insula)",
+        "Primary visual cortex",
+        "Auditory cortex"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not gustatory (taste), not olfactory (smell), not vestibular (balance). Visceral sensory area = internal body sensations like bladder fullness and air hunger."
+      "explain": "VISCERAL SENSORY AREA (INSULA). It's the interoceptive cortex that creates conscious awareness of INTERNAL BODY STATES like bladder fullness and air hunger.",
+      "wrongExplains": {
+        "0": "Motor cortex controls movement, not internal sensations.",
+        "2": "Visual cortex processes sight, not visceral sensations.",
+        "3": "Auditory cortex processes hearing, not internal body states."
+      }
     }
   ]
 }

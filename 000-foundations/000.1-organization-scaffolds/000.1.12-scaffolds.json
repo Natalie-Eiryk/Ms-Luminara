@@ -3,94 +3,157 @@
   "parentQuestion": "A major function of serous membranes is to decrease friction.",
   "scaffolds": [
     {
-      "q": "Organs in body cavities move constantly (heart beats, lungs expand, intestines churn).",
+      "q": "Do organs in body cavities move?",
       "options": [
-        "True",
-        "False"
+        "No, organs are completely stationary",
+        "Yes — heart beats, lungs expand, intestines churn constantly",
+        "Only during exercise",
+        "Only during sleep"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! All this movement could cause friction damage without lubrication."
+      "explain": "Yes, organs in body cavities move CONSTANTLY — heart beats, lungs expand, intestines churn. All this movement could cause friction damage.",
+      "wrongExplains": {
+        "0": "Organs are constantly moving (heart beats ~100,000 times/day).",
+        "2": "Organs move all the time, not just during exercise.",
+        "3": "Organs move all the time, not just during sleep."
+      }
     },
     {
-      "q": "FRICTION is the resistance when surfaces rub against each other.",
+      "q": "What is friction?",
       "options": [
-        "True",
-        "False"
+        "A type of energy",
+        "The resistance when surfaces rub against each other",
+        "A type of muscle",
+        "A body fluid"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Friction causes heat and wear. Not good for delicate organs."
+      "explain": "FRICTION is the RESISTANCE when surfaces rub against each other. Friction causes heat and wear — not good for delicate organs.",
+      "wrongExplains": {
+        "0": "Friction generates heat but is resistance, not energy itself.",
+        "2": "Friction is a physical force, not a muscle.",
+        "3": "Friction is a physical force, not a fluid."
+      }
     },
     {
-      "q": "SEROUS membranes secrete a watery, slippery fluid.",
+      "q": "What do serous membranes secrete?",
       "options": [
-        "True",
-        "False"
+        "Thick mucus",
+        "A watery, slippery fluid",
+        "Blood",
+        "Nothing"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! This serous fluid acts as a lubricant between the membrane layers."
+      "explain": "SEROUS MEMBRANES secrete a WATERY, SLIPPERY fluid. This serous fluid acts as a lubricant between the membrane layers.",
+      "wrongExplains": {
+        "0": "Mucous membranes secrete mucus; serous secrete watery fluid.",
+        "2": "Serous membranes secrete serous fluid, not blood.",
+        "3": "Serous membranes definitely secrete lubricating fluid."
+      }
     },
     {
-      "q": "The serous fluid fills the space between parietal and visceral layers.",
+      "q": "Where does serous fluid go?",
       "options": [
-        "True",
-        "False"
+        "Into the bloodstream",
+        "Into the space between parietal and visceral layers",
+        "Into the organs",
+        "Outside the body"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! It creates a slippery layer that reduces friction."
+      "explain": "Serous fluid fills the SPACE BETWEEN PARIETAL and VISCERAL LAYERS. It creates a slippery layer that reduces friction.",
+      "wrongExplains": {
+        "0": "Serous fluid stays in the cavity space, not bloodstream.",
+        "2": "Serous fluid is between membrane layers, not inside organs.",
+        "3": "Serous fluid stays inside body cavities."
+      }
     },
     {
-      "q": "Without lubrication, your heart beating would create painful friction.",
+      "q": "What would happen without pericardial fluid?",
       "options": [
-        "True",
-        "False"
+        "Nothing — fluid isn't needed",
+        "Heart beating would create painful friction",
+        "The heart would stop",
+        "Blood wouldn't flow"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Pericardial fluid lets the heart slide smoothly as it contracts."
+      "explain": "Without lubrication, your heart beating would create PAINFUL FRICTION. Pericardial fluid lets the heart slide smoothly as it contracts.",
+      "wrongExplains": {
+        "0": "Pericardial fluid is essential for smooth heart function.",
+        "2": "The heart could still beat but with damaging friction.",
+        "3": "Blood flow doesn't depend directly on pericardial fluid."
+      }
     },
     {
-      "q": "Pleural fluid lets lungs expand smoothly against the chest wall.",
+      "q": "What does pleural fluid allow?",
       "options": [
-        "True",
-        "False"
+        "Blood flow to lungs",
+        "Lungs to expand smoothly against the chest wall",
+        "Air to enter lungs",
+        "Oxygen absorption"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! You breathe ~20,000 times per day - that's a lot of sliding!"
+      "explain": "PLEURAL FLUID lets lungs expand SMOOTHLY against the chest wall. You breathe ~20,000 times per day — that's a lot of sliding!",
+      "wrongExplains": {
+        "0": "Pulmonary circulation provides blood; pleural fluid provides lubrication.",
+        "2": "Airways allow air entry; pleural fluid reduces friction.",
+        "3": "Alveoli absorb oxygen; pleural fluid reduces friction."
+      }
     },
     {
-      "q": "The PRIMARY function of serous membranes: REDUCE FRICTION.",
+      "q": "What is the primary function of serous membranes?",
       "options": [
-        "True",
-        "False"
+        "To produce blood cells",
+        "To reduce friction between organs and cavity walls",
+        "To digest food",
+        "To filter waste"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Lubrication is their main job."
+      "explain": "The PRIMARY function of serous membranes is to REDUCE FRICTION between organs and cavity walls. Lubrication is their main job.",
+      "wrongExplains": {
+        "0": "Bone marrow produces blood cells; serous membranes reduce friction.",
+        "2": "Digestive organs digest food; serous membranes reduce friction.",
+        "3": "Kidneys filter waste; serous membranes reduce friction."
+      }
     },
     {
-      "q": "Serous membranes reduce friction between organs and cavity walls.",
+      "q": "How do serous membranes reduce friction?",
       "options": [
-        "True",
-        "False"
+        "By being thick and rough",
+        "By secreting lubricating fluid between layers",
+        "By absorbing movement",
+        "By stopping organ movement"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! This is their major function."
+      "explain": "Serous membranes reduce friction by SECRETING LUBRICATING FLUID between layers. The fluid allows smooth gliding during organ movement.",
+      "wrongExplains": {
+        "0": "Serous membranes are thin and slippery, not thick and rough.",
+        "2": "The fluid lubricates; it doesn't absorb movement.",
+        "3": "Organs need to move; serous membranes allow smooth movement."
+      }
     },
     {
-      "q": "The statement is TRUE - decreasing friction is a major serous membrane function.",
+      "q": "Is this TRUE: 'A major function of serous membranes is to decrease friction'?",
       "options": [
-        "True",
-        "False"
+        "False — serous membranes increase friction",
+        "True — decreasing friction is a major serous membrane function",
+        "False — serous membranes have no function",
+        "False — friction isn't a concern"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Serous fluid lubricates to reduce friction during organ movement."
+      "explain": "TRUE. Decreasing friction IS a major serous membrane function. Serous fluid lubricates to reduce friction during organ movement.",
+      "wrongExplains": {
+        "0": "Serous membranes decrease friction through lubrication.",
+        "2": "Serous membranes have the important function of reducing friction.",
+        "3": "Friction is a major concern for moving organs."
+      }
     }
   ]
 }

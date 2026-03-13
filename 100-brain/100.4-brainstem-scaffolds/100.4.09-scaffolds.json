@@ -3,94 +3,157 @@
   "parentQuestion": "A patient develops sudden inability to look upward, pupillary light-near dissociation (pupils don't constrict to light but do constrict with accommodation), and eyelid retraction. What brainstem structure is most likely compressed?",
   "scaffolds": [
     {
-      "q": "The midbrain is the uppermost part of the brainstem.",
+      "q": "Where is the midbrain located?",
       "options": [
-        "True",
-        "False"
+        "Below the medulla",
+        "At the top of the brainstem, just below the diencephalon",
+        "In the spinal cord",
+        "In the cerebellum"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! From top to bottom: midbrain → pons → medulla. The midbrain sits just below the diencephalon."
+      "explain": "The MIDBRAIN is at the TOP of the brainstem, just below the diencephalon. It's above the pons and contains important visual and auditory reflex centers.",
+      "wrongExplains": {
+        "0": "The medulla is the lowest brainstem structure; midbrain is highest.",
+        "2": "The midbrain is in the brainstem, not spinal cord.",
+        "3": "The midbrain is brainstem; cerebellum is a separate structure."
+      }
     },
     {
-      "q": "The superior colliculus is in the midbrain and helps control eye movements.",
+      "q": "What is the superior colliculus?",
       "options": [
-        "True",
-        "False"
+        "Part of the medulla",
+        "A dorsal midbrain structure that helps control eye movements and visual reflexes",
+        "Part of the cerebellum",
+        "A cranial nerve"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The superior colliculus (part of the corpora quadrigemina) is on the dorsal midbrain and helps control vertical gaze and visual reflexes."
+      "explain": "The SUPERIOR COLLICULUS is on the DORSAL MIDBRAIN (part of corpora quadrigemina) and helps control VERTICAL GAZE and visual reflexes.",
+      "wrongExplains": {
+        "0": "The superior colliculus is midbrain, not medulla.",
+        "2": "The superior colliculus is midbrain, not cerebellum.",
+        "3": "The superior colliculus is a brain structure, not a nerve."
+      }
     },
     {
-      "q": "The pupillary light reflex pathway goes through the pretectal area in the midbrain.",
+      "q": "Where is the pretectal area for the pupillary light reflex?",
       "options": [
-        "True",
-        "False"
+        "In the medulla",
+        "In the midbrain, near the superior colliculus",
+        "In the spinal cord",
+        "In the frontal lobe"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Light hits retina → optic nerve → pretectal nucleus (midbrain) → Edinger-Westphal nucleus → CN III → pupil constricts."
+      "explain": "The PRETECTAL AREA is in the MIDBRAIN. Light hits retina → optic nerve → pretectal nucleus → Edinger-Westphal nucleus → CN III → pupil constricts.",
+      "wrongExplains": {
+        "0": "The pretectal area is midbrain, not medulla.",
+        "2": "The pretectal area is midbrain, not spinal cord.",
+        "3": "The pretectal area is midbrain, not frontal lobe."
+      }
     },
     {
-      "q": "The near/accommodation reflex uses a DIFFERENT pathway than the light reflex.",
+      "q": "Do the light reflex and near/accommodation reflex use the same pathway?",
       "options": [
-        "True",
-        "False"
+        "Yes, they're identical",
+        "No — they use different pathways, so one can be lost while the other is preserved",
+        "Neither is real",
+        "Both are only cortical"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The near reflex involves cortical pathways. So you can lose the light reflex but keep the near reflex if the pretectal area is damaged."
+      "explain": "The NEAR REFLEX uses DIFFERENT pathways (cortical) than the LIGHT reflex (pretectal). Pretectal damage loses light reflex but spares near reflex.",
+      "wrongExplains": {
+        "0": "They use different pathways, which is why dissociation occurs.",
+        "2": "Both reflexes are real and clinically testable.",
+        "3": "The light reflex uses subcortical pathways."
+      }
     },
     {
-      "q": "'Light-near dissociation' means pupils don't respond to light but DO respond to near focusing.",
+      "q": "What is 'light-near dissociation'?",
       "options": [
-        "True",
-        "False"
+        "Normal pupil function",
+        "Pupils don't respond to light but DO respond to near focusing",
+        "Complete pupil paralysis",
+        "Pupils only respond to light"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! This dissociation indicates pretectal damage. The light reflex pathway is broken, but the near/accommodation pathway is spared."
+      "explain": "LIGHT-NEAR DISSOCIATION: pupils don't constrict to LIGHT but DO constrict with NEAR focusing. This indicates PRETECTAL damage — light pathway broken, near pathway spared.",
+      "wrongExplains": {
+        "0": "Light-near dissociation is pathological, not normal.",
+        "2": "In dissociation, the near reflex works; it's not complete paralysis.",
+        "3": "In dissociation, pupils DON'T respond to light."
+      }
     },
     {
-      "q": "Upward gaze palsy suggests damage to the dorsal midbrain (superior colliculus region).",
+      "q": "What does upward gaze palsy indicate?",
       "options": [
-        "True",
-        "False"
+        "Medullary damage",
+        "Dorsal midbrain (superior colliculus region) damage",
+        "Spinal cord damage",
+        "Cerebellar damage"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Vertical gaze centers are in the dorsal midbrain. Compression here (often from a pineal tumor) causes upward gaze palsy."
+      "explain": "VERTICAL GAZE centers are in the DORSAL MIDBRAIN. Compression here (often from a pineal tumor) causes UPWARD GAZE PALSY.",
+      "wrongExplains": {
+        "0": "Medulla handles vital functions, not vertical gaze.",
+        "2": "Spinal cord doesn't control eye movements.",
+        "3": "Cerebellum coordinates timing, not vertical gaze direction."
+      }
     },
     {
-      "q": "This triad (upward gaze palsy, light-near dissociation, eyelid retraction) is called Parinaud syndrome.",
+      "q": "What is Parinaud syndrome?",
       "options": [
-        "True",
-        "False"
+        "A memory disorder",
+        "Dorsal midbrain syndrome — upward gaze palsy, light-near dissociation, eyelid retraction",
+        "A language disorder",
+        "A hearing disorder"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Parinaud syndrome = dorsal midbrain syndrome. Often caused by pineal region tumors compressing the superior colliculus."
+      "explain": "PARINAUD SYNDROME = DORSAL MIDBRAIN SYNDROME. The triad: upward gaze palsy, light-near dissociation, eyelid retraction. Often from pineal tumors.",
+      "wrongExplains": {
+        "0": "Parinaud affects eye movements, not memory.",
+        "2": "Parinaud affects eye movements, not language.",
+        "3": "Parinaud affects eye movements, not hearing."
+      }
     },
     {
-      "q": "Parinaud syndrome localizes to the superior colliculus region of the midbrain.",
+      "q": "What commonly causes Parinaud syndrome?",
       "options": [
-        "True",
-        "False"
+        "Stroke in the medulla",
+        "Pineal region tumors compressing the dorsal midbrain",
+        "Spinal cord injury",
+        "Ear infection"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The constellation of findings (upward gaze palsy, light-near dissociation, eyelid retraction) points specifically to dorsal midbrain compression."
+      "explain": "PINEAL REGION TUMORS commonly compress the DORSAL MIDBRAIN, causing Parinaud syndrome. The pineal gland sits just above the superior colliculus.",
+      "wrongExplains": {
+        "0": "Medullary stroke affects vital functions, not vertical gaze.",
+        "2": "Spinal cord doesn't control eye movements.",
+        "3": "Ear infections don't affect the midbrain."
+      }
     },
     {
-      "q": "The answer is SUPERIOR COLLICULUS IN MIDBRAIN - the site of Parinaud syndrome.",
+      "q": "Upward gaze palsy + light-near dissociation + eyelid retraction = compression of the ___?",
       "options": [
-        "True",
-        "False"
+        "Medulla",
+        "Superior colliculus (dorsal midbrain)",
+        "Pons",
+        "Cerebellum"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not medulla (that's vital centers), not pons (that's horizontal gaze), not cerebellum (that's coordination). SUPERIOR COLLICULUS compression causes this specific triad."
+      "explain": "SUPERIOR COLLICULUS (dorsal midbrain). This triad is Parinaud syndrome — pathognomonic for dorsal midbrain compression.",
+      "wrongExplains": {
+        "0": "Medulla handles vital centers, not vertical gaze.",
+        "2": "Pons handles horizontal gaze and CN V-VIII, not vertical gaze.",
+        "3": "Cerebellum coordinates movement, not vertical gaze."
+      }
     }
   ]
 }

@@ -3,94 +3,157 @@
   "parentQuestion": "One functional center found within the medulla oblongata is a respiratory center involved in the control of the rate and depth of breathing.",
   "scaffolds": [
     {
-      "q": "Breathing happens automatically without you having to think about it.",
+      "q": "What is the medulla oblongata?",
       "options": [
-        "True",
-        "False"
+        "Part of the cerebral cortex",
+        "The lowest part of the brainstem, connecting to the spinal cord",
+        "A cranial nerve",
+        "Part of the cerebellum"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Breathing is controlled by automatic centers in the brainstem. You don't have to consciously remember to breathe - even when you're asleep or unconscious."
+      "explain": "The MEDULLA OBLONGATA is the LOWEST part of the BRAINSTEM, directly continuous with the spinal cord at the foramen magnum. It's beneath the pons.",
+      "wrongExplains": {
+        "0": "The medulla is brainstem, not cerebral cortex.",
+        "2": "The medulla is a brainstem structure, not a nerve.",
+        "3": "The medulla is brainstem; the cerebellum is separate."
+      }
     },
     {
-      "q": "The medulla oblongata is part of the brainstem.",
+      "q": "Why is breathing called an 'automatic' function?",
       "options": [
-        "True",
-        "False"
+        "Because it requires conscious effort",
+        "Because brainstem centers control it without conscious thought",
+        "Because it only happens during sleep",
+        "Because you have to remember to breathe"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The medulla is the lowest part of the brainstem, directly continuous with the spinal cord. It sits beneath the pons."
+      "explain": "Breathing is AUTOMATIC because BRAINSTEM CENTERS control it without conscious thought. You don't have to remember to breathe — even when asleep or unconscious.",
+      "wrongExplains": {
+        "0": "Breathing continues automatically without conscious effort.",
+        "2": "Breathing happens continuously, awake or asleep.",
+        "3": "Automatic means you don't have to remember; it happens involuntarily."
+      }
     },
     {
-      "q": "The medulla oblongata is the LOWEST part of the brainstem.",
+      "q": "What is the correct order of brainstem structures from top to bottom?",
       "options": [
-        "True",
-        "False"
+        "Medulla → pons → midbrain",
+        "Midbrain → pons → medulla",
+        "Pons → medulla → midbrain",
+        "Cerebellum → pons → medulla"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! From top to bottom: midbrain → pons → medulla. The medulla connects directly to the spinal cord at the foramen magnum."
+      "explain": "From top to bottom: MIDBRAIN → PONS → MEDULLA. The medulla is most inferior, connecting to the spinal cord at the foramen magnum.",
+      "wrongExplains": {
+        "0": "This is reversed; midbrain is superior, medulla is inferior.",
+        "2": "Incorrect order; midbrain is at the top, not bottom.",
+        "3": "The cerebellum is not part of the brainstem proper."
+      }
     },
     {
-      "q": "The medulla contains centers that control vital functions like breathing.",
+      "q": "What are 'vital centers'?",
       "options": [
-        "True",
-        "False"
+        "Centers for voluntary movement",
+        "Brainstem centers controlling life-sustaining functions like breathing and heart rate",
+        "Centers for memory storage",
+        "Centers for visual processing"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The medulla houses 'vital centers' - respiratory, cardiovascular, and other life-sustaining functions. Damage here is often fatal."
+      "explain": "VITAL CENTERS are brainstem regions controlling LIFE-SUSTAINING functions — respiratory, cardiovascular, and other autonomic functions. Damage here is often fatal.",
+      "wrongExplains": {
+        "0": "Voluntary movement is motor cortex; vital centers are automatic.",
+        "2": "Memory involves hippocampus and cortex, not vital centers.",
+        "3": "Visual processing is in occipital lobe, not vital centers."
+      }
     },
     {
-      "q": "The respiratory center in the medulla controls BOTH rate and depth of breathing.",
+      "q": "What does the respiratory center in the medulla control?",
       "options": [
-        "True",
-        "False"
+        "Only breathing rate",
+        "Both rate and depth of breathing",
+        "Only depth of breathing",
+        "Heart rate only"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The medullary respiratory centers set the basic breathing rhythm AND adjust how deep each breath is based on body needs."
+      "explain": "The medullary respiratory centers control BOTH RATE and DEPTH of breathing, adjusting each based on the body's oxygen and CO2 needs.",
+      "wrongExplains": {
+        "0": "The center controls both rate and depth, not just rate.",
+        "2": "The center controls both rate and depth, not just depth.",
+        "3": "Heart rate is the cardiovascular center; respiratory center handles breathing."
+      }
     },
     {
-      "q": "Damage to the medulla's respiratory center would be life-threatening.",
+      "q": "Why is medullary damage so dangerous?",
       "options": [
-        "True",
-        "False"
+        "It causes memory loss",
+        "Without the respiratory center, breathing stops and there's no backup",
+        "It causes blindness",
+        "It only affects voluntary movement"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Without the respiratory center, breathing stops. There's no backup plan. This is why medullary damage is so dangerous."
+      "explain": "Without the RESPIRATORY CENTER, breathing stops. There's NO BACKUP PLAN. This is why medullary damage is often fatal — vital functions cease.",
+      "wrongExplains": {
+        "0": "Memory is hippocampus; medulla controls vital functions.",
+        "2": "Vision is occipital; medulla damage affects breathing.",
+        "3": "Medulla controls automatic vital functions, which are essential for survival."
+      }
     },
     {
-      "q": "The medulla handles breathing 'automatically' - meaning without conscious control.",
+      "q": "Can you consciously override automatic breathing?",
       "options": [
-        "True",
-        "False"
+        "No, never",
+        "Yes, temporarily — but the medulla resumes control automatically",
+        "Yes, permanently",
+        "Only during sleep"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The breathing rhythm is generated automatically. You can consciously override it temporarily, but the medulla keeps you breathing when you're not thinking about it."
+      "explain": "You CAN consciously override breathing TEMPORARILY (hold your breath), but the MEDULLA resumes automatic control when CO2 levels rise too high.",
+      "wrongExplains": {
+        "0": "You can hold your breath temporarily; it's just not permanent.",
+        "2": "You cannot permanently override; CO2 buildup forces breathing.",
+        "3": "You can consciously override while awake, not during sleep."
+      }
     },
     {
-      "q": "The medulla oblongata contains a respiratory center that controls rate and depth of breathing.",
+      "q": "What structures are in the medullary respiratory center?",
       "options": [
-        "True",
-        "False"
+        "Only motor neurons",
+        "Ventral and dorsal respiratory groups that generate breathing rhythm",
+        "Only sensory neurons",
+        "Pyramidal cells"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! This is one of the medulla's vital functions. The respiratory center generates the breathing rhythm and adjusts it based on oxygen and CO2 levels."
+      "explain": "The medulla contains VENTRAL and DORSAL RESPIRATORY GROUPS. The pre-Bötzinger complex generates the basic breathing rhythm.",
+      "wrongExplains": {
+        "0": "Respiratory groups are specialized networks, not just motor neurons.",
+        "2": "Respiratory groups include both sensory input and motor output components.",
+        "3": "Pyramidal cells are in motor cortex, not respiratory centers."
+      }
     },
     {
-      "q": "The statement is TRUE - the medulla oblongata does contain a respiratory center.",
+      "q": "The medulla oblongata contains a respiratory center that controls rate and depth of breathing — is this TRUE?",
       "options": [
-        "True",
-        "False"
+        "False — the pons controls breathing",
+        "True — this is one of the medulla's vital functions",
+        "False — breathing is controlled by the cerebellum",
+        "False — breathing is voluntary only"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! The answer is TRUE. The medulla absolutely contains respiratory centers (ventral and dorsal respiratory groups) that control breathing rate and depth."
+      "explain": "TRUE. The MEDULLA absolutely contains respiratory centers that control breathing RATE and DEPTH. This is one of its key vital functions.",
+      "wrongExplains": {
+        "0": "The pons modulates breathing but doesn't generate the basic rhythm.",
+        "2": "The cerebellum coordinates movement, not breathing rhythm.",
+        "3": "Breathing has automatic and voluntary components; medulla handles automatic."
+      }
     }
   ]
 }

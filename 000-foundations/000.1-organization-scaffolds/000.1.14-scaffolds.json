@@ -3,94 +3,157 @@
   "parentQuestion": "A patient presents with muscle weakness, cardiac arrhythmias, and altered mental status. Lab work reveals critically low potassium levels. The attending physician immediately orders IV potassium replacement, stating 'We need to restore homeostasis NOW.' What makes this an emergency requiring rapid intervention?",
   "scaffolds": [
     {
-      "q": "HOMEOSTASIS is the body's stable internal environment.",
+      "q": "What is homeostasis?",
       "options": [
-        "True",
-        "False"
+        "A disease state",
+        "The body's stable internal environment",
+        "Only temperature regulation",
+        "Only blood pressure"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Proper electrolyte balance, pH, temperature - all part of homeostasis."
+      "explain": "HOMEOSTASIS is the body's STABLE INTERNAL ENVIRONMENT. Proper electrolyte balance, pH, temperature — all part of homeostasis.",
+      "wrongExplains": {
+        "0": "Homeostasis is normal function, not disease.",
+        "2": "Homeostasis includes many variables, not just temperature.",
+        "3": "Homeostasis includes many variables, not just blood pressure."
+      }
     },
     {
-      "q": "Potassium is essential for muscle contraction and nerve signaling.",
+      "q": "Why is potassium important?",
       "options": [
-        "True",
-        "False"
+        "Only for bone strength",
+        "It's essential for muscle contraction and nerve signaling",
+        "Only for digestion",
+        "It's not important"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! K+ is needed for action potentials in muscles and nerves."
+      "explain": "POTASSIUM is essential for MUSCLE CONTRACTION and NERVE SIGNALING. K+ is needed for action potentials in muscles and nerves.",
+      "wrongExplains": {
+        "0": "Potassium affects muscles and nerves, not primarily bones.",
+        "2": "Potassium is critical for neuromuscular function, not just digestion.",
+        "3": "Potassium is critically important for multiple body functions."
+      }
     },
     {
-      "q": "When potassium is critically low, MULTIPLE systems malfunction.",
+      "q": "What happens when potassium is critically low?",
       "options": [
-        "True",
-        "False"
+        "Nothing noticeable",
+        "Multiple systems malfunction — muscles, heart, and nervous system",
+        "Only skin problems",
+        "Only hair loss"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Muscles weak (skeletal), heart arrhythmias (cardiac), confusion (nervous)."
+      "explain": "When potassium is critically low, MULTIPLE SYSTEMS MALFUNCTION: muscles weak (skeletal), heart arrhythmias (cardiac), confusion (nervous).",
+      "wrongExplains": {
+        "0": "Critical potassium deficiency causes serious symptoms.",
+        "2": "Low potassium primarily affects muscles, heart, and brain.",
+        "3": "Low potassium primarily affects muscles, heart, and brain."
+      }
     },
     {
-      "q": "The body's systems are INTERCONNECTED - one variable affects many systems.",
+      "q": "Why does one electrolyte affect multiple systems?",
       "options": [
-        "True",
-        "False"
+        "It doesn't",
+        "Body systems are interconnected — potassium is used by muscles, heart, and brain",
+        "Only one system uses potassium",
+        "Systems are completely separate"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Potassium is used by muscles, heart, AND brain."
+      "explain": "The body's systems are INTERCONNECTED — one variable affects many systems. Potassium is used by muscles, heart, AND brain.",
+      "wrongExplains": {
+        "0": "Electrolytes definitely affect multiple systems.",
+        "2": "Many systems depend on potassium, not just one.",
+        "3": "Body systems are integrated, not separate."
+      }
     },
     {
-      "q": "This patient has muscle weakness (muscles), arrhythmias (heart), confusion (brain).",
+      "q": "What symptoms does this patient have?",
       "options": [
-        "True",
-        "False"
+        "Only a headache",
+        "Muscle weakness (muscles), arrhythmias (heart), confusion (brain)",
+        "Only a fever",
+        "Only a rash"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! THREE different organ systems failing from ONE homeostatic disruption."
+      "explain": "This patient has muscle weakness (MUSCLES), arrhythmias (HEART), and confusion (BRAIN). THREE different organ systems failing from ONE homeostatic disruption.",
+      "wrongExplains": {
+        "0": "The patient has multiple serious symptoms, not just headache.",
+        "2": "The symptoms are neuromuscular and cardiac, not fever.",
+        "3": "The symptoms are neuromuscular and cardiac, not skin-related."
+      }
     },
     {
-      "q": "This is an emergency because MULTIPLE organ systems are failing at once.",
+      "q": "Why is this an emergency?",
       "options": [
-        "True",
-        "False"
+        "It's not really an emergency",
+        "Multiple organ systems are failing at once — especially the heart",
+        "Only one minor system is affected",
+        "The patient just needs rest"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The heart arrhythmias alone could be fatal."
+      "explain": "This is an emergency because MULTIPLE ORGAN SYSTEMS are failing at once. The heart arrhythmias alone could be FATAL.",
+      "wrongExplains": {
+        "0": "Multi-system failure is definitely an emergency.",
+        "2": "Multiple systems are affected: muscles, heart, brain.",
+        "3": "This requires immediate medical intervention, not just rest."
+      }
     },
     {
-      "q": "Homeostatic mechanisms can't compensate - the patient is already symptomatic.",
+      "q": "Can the body's homeostatic mechanisms compensate for this?",
       "options": [
-        "True",
-        "False"
+        "Yes, the body can always compensate",
+        "No — the patient is already symptomatic, showing compensation has failed",
+        "Compensation takes years",
+        "The body doesn't have homeostatic mechanisms"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! If the body could handle it, there wouldn't be symptoms."
+      "explain": "Homeostatic mechanisms CAN'T COMPENSATE — the patient is already symptomatic. If the body could handle it, there wouldn't be symptoms.",
+      "wrongExplains": {
+        "0": "Symptoms indicate compensation has failed.",
+        "2": "Acute compensation happens quickly; this patient has failed to compensate.",
+        "3": "The body definitely has homeostatic mechanisms."
+      }
     },
     {
-      "q": "Multiple organ systems failing simultaneously makes this an EMERGENCY.",
+      "q": "What makes multi-system failure an emergency?",
       "options": [
-        "True",
-        "False"
+        "It doesn't require emergency treatment",
+        "Multiple organs failing simultaneously threatens life — especially cardiac",
+        "Only one system matters",
+        "Multi-system means nothing"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Disrupted homeostasis affecting muscles, heart, AND brain at once."
+      "explain": "MULTIPLE ORGAN SYSTEMS failing simultaneously makes this an EMERGENCY. Disrupted homeostasis affecting muscles, heart, AND brain at once is life-threatening.",
+      "wrongExplains": {
+        "0": "Multi-system failure definitely requires emergency treatment.",
+        "2": "All affected systems matter; cardiac arrhythmias are especially dangerous.",
+        "3": "Multi-system failure is clinically very significant."
+      }
     },
     {
-      "q": "The answer: multiple organ systems failing due to disrupted homeostasis.",
+      "q": "What makes this an emergency requiring rapid intervention?",
       "options": [
-        "True",
-        "False"
+        "The body will eventually compensate on its own",
+        "Multiple organ systems failing due to disrupted homeostasis",
+        "It's just a minor issue",
+        "Only the brain is affected"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not 'eventually' (it's happening NOW), not 'can compensate' (it can't)."
+      "explain": "The answer: MULTIPLE ORGAN SYSTEMS FAILING due to disrupted homeostasis. Not 'eventually compensate' (it's happening NOW and failing), not minor (life-threatening).",
+      "wrongExplains": {
+        "0": "The body has already failed to compensate; intervention is needed now.",
+        "2": "Multi-system failure with cardiac arrhythmias is serious, not minor.",
+        "3": "Muscles, heart, AND brain are all affected."
+      }
     }
   ]
 }

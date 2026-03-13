@@ -3,94 +3,157 @@
   "parentQuestion": "The brain area that regulates activities that control the state of wakefulness or alertness of the cerebral cortex is the ___.",
   "scaffolds": [
     {
-      "q": "The cortex needs to be 'turned on' to be conscious and aware.",
+      "q": "What is the reticular formation?",
       "options": [
-        "True",
-        "False"
+        "A bone in the skull",
+        "A diffuse network of neurons running through the brainstem core",
+        "Part of the cerebellum",
+        "A cranial nerve"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Something must provide the arousal signal - the brain's 'power switch.'"
+      "explain": "The RETICULAR FORMATION is a diffuse NETWORK of interconnected neurons running through the BRAINSTEM core. 'Reticular' means NET-LIKE.",
+      "wrongExplains": {
+        "0": "The reticular formation is neural tissue, not bone.",
+        "2": "It's in the brainstem, not the cerebellum.",
+        "3": "It's a brainstem network, not a cranial nerve."
+      }
     },
     {
-      "q": "The brainstem contains structures that regulate consciousness and arousal.",
+      "q": "What is the reticular activating system (RAS)?",
       "options": [
-        "True",
-        "False"
+        "The motor pathway for movement",
+        "The ascending arousal system that 'turns on' the cortex",
+        "The visual pathway",
+        "The pain pathway"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The brainstem (midbrain, pons, medulla) contains arousal-regulating circuits."
+      "explain": "The RETICULAR ACTIVATING SYSTEM (RAS) is the ASCENDING component of the reticular formation. It projects to thalamus and cortex to ACTIVATE and AROUSE the brain.",
+      "wrongExplains": {
+        "0": "Motor pathways are separate from the RAS.",
+        "2": "Visual pathways go through the LGN, not the RAS.",
+        "3": "Pain pathways are different from the arousal system."
+      }
     },
     {
-      "q": "The reticular formation is a diffuse network running through the brainstem core.",
+      "q": "What does the RAS control?",
       "options": [
-        "True",
-        "False"
+        "Digestion",
+        "Sleep-wake cycles and consciousness",
+        "Blood pressure only",
+        "Immune function"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! 'Reticular' means net-like. It's a mesh of interconnected neurons, not a discrete nucleus."
+      "explain": "The RAS controls SLEEP-WAKE CYCLES and maintains CONSCIOUSNESS. It's the brain's 'power switch' — turn it off and you're unconscious.",
+      "wrongExplains": {
+        "0": "Digestion is controlled by the enteric nervous system and autonomic nervous system.",
+        "2": "Blood pressure involves cardiovascular centers, though the reticular formation contributes.",
+        "3": "Immune function is not controlled by the RAS."
+      }
     },
     {
-      "q": "The reticular ACTIVATING system (RAS) projects to thalamus and cortex.",
+      "q": "What happens if the reticular formation is severely damaged?",
       "options": [
-        "True",
-        "False"
+        "Temporary sleepiness",
+        "Coma — the cortex can't be awakened",
+        "Only motor problems",
+        "Improved alertness"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! RAS = ascending component of reticular formation. It 'activates' the cortex."
+      "explain": "Severe reticular formation damage causes COMA. Unlike sleep (which is reversible), coma from RAS damage may be permanent. The cortex simply CAN'T wake up.",
+      "wrongExplains": {
+        "0": "RAS damage causes coma, not just sleepiness.",
+        "2": "The primary deficit is consciousness, not just motor function.",
+        "3": "Damage impairs alertness, it doesn't improve it."
+      }
     },
     {
-      "q": "The RAS controls sleep-wake cycles and maintains consciousness.",
+      "q": "Where does the RAS project to?",
       "options": [
-        "True",
-        "False"
+        "Only the spinal cord",
+        "The thalamus and cerebral cortex",
+        "Only the cerebellum",
+        "The heart"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! It's the brain's power switch - turn it off and you're unconscious."
+      "explain": "The RAS projects UPWARD to the THALAMUS and CEREBRAL CORTEX. This ascending pathway 'activates' and arouses the cortex for conscious awareness.",
+      "wrongExplains": {
+        "0": "The RAS projects upward to cortex, not just to spinal cord.",
+        "2": "The cerebellum coordinates movement; the RAS activates cortex.",
+        "3": "The RAS doesn't directly project to the heart."
+      }
     },
     {
-      "q": "Damage to the reticular formation causes COMA, not just sleep.",
+      "q": "Why does a loud noise wake you from sleep?",
       "options": [
-        "True",
-        "False"
+        "Your eyes open automatically",
+        "Sensory input reaches the RAS, which then arouses the cortex",
+        "The motor cortex activates first",
+        "The sound bypasses the brain"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Sleep is reversible. Coma from RAS damage may be permanent. The cortex can't wake up."
+      "explain": "The RAS receives input from ALL SENSORY SYSTEMS. A loud noise activates the RAS, which then AROUSES the cortex — bringing you to consciousness to respond to the stimulus.",
+      "wrongExplains": {
+        "0": "Eye opening follows cortical arousal, it doesn't cause it.",
+        "2": "Arousal happens first; motor responses follow.",
+        "3": "Sound is processed through the brain, not bypassed."
+      }
     },
     {
-      "q": "The reticular formation receives input from all sensory systems.",
+      "q": "What's the relationship between the RAS and anesthesia?",
       "options": [
-        "True",
-        "False"
+        "Anesthesia stimulates the RAS",
+        "Anesthesia suppresses the RAS, causing unconsciousness",
+        "Anesthesia only affects pain receptors",
+        "No relationship"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! This lets it wake the cortex when something important happens - loud noise, pain, etc."
+      "explain": "General ANESTHESIA suppresses the RAS, which is why patients become UNCONSCIOUS. The cortex can't be aroused because its 'power switch' is turned off.",
+      "wrongExplains": {
+        "0": "Anesthesia suppresses (not stimulates) the RAS.",
+        "2": "General anesthesia affects consciousness, not just pain.",
+        "3": "The RAS is directly involved in anesthetic-induced unconsciousness."
+      }
     },
     {
-      "q": "Wakefulness and alertness are controlled by the reticular formation/RAS.",
+      "q": "What is the 'ascending' reticular activating system?",
       "options": [
-        "True",
-        "False"
+        "Pathways going down to the spinal cord",
+        "Pathways going up to arouse the cortex",
+        "Pathways to the heart",
+        "Pathways for descending motor control"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The reticular activating system maintains cortical arousal and consciousness."
+      "explain": "ASCENDING RAS refers to pathways going UPWARD from brainstem to AROUSE the CORTEX. 'Ascending' = going up toward higher brain centers.",
+      "wrongExplains": {
+        "0": "Ascending means going up, not down.",
+        "2": "The RAS goes to the cortex, not directly to the heart.",
+        "3": "Descending pathways go down; the RAS is ascending."
+      }
     },
     {
-      "q": "The answer is RETICULAR FORMATION - the brainstem arousal system.",
+      "q": "Which structure controls wakefulness and alertness of the cerebral cortex?",
       "options": [
-        "True",
-        "False"
+        "Cerebellum",
+        "Reticular formation (reticular activating system)",
+        "Hippocampus",
+        "Primary motor cortex"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not pyramids (motor tracts), not limbic (emotion), not thalamus (sensory relay - though it receives RAS input). Reticular formation = arousal control."
+      "explain": "RETICULAR FORMATION (RAS). It's the brainstem arousal system that maintains WAKEFULNESS and ALERTNESS. Damage causes coma; activation causes arousal.",
+      "wrongExplains": {
+        "0": "The cerebellum coordinates movement, not consciousness.",
+        "2": "The hippocampus handles memory, not arousal.",
+        "3": "Primary motor cortex executes movement, not arousal."
+      }
     }
   ]
 }

@@ -3,94 +3,157 @@
   "parentQuestion": "A patient has difficulty planning and sequencing complex tasks — they can perform individual movements normally, but cannot organize multi-step actions like making coffee or getting dressed in the correct order. Which lobe is most likely affected?",
   "scaffolds": [
     {
-      "q": "Executive function = planning, sequencing, organizing complex behaviors.",
+      "q": "What are executive functions?",
       "options": [
-        "True",
-        "False"
+        "Basic reflexes",
+        "Higher cognitive processes: planning, sequencing, organizing complex behaviors",
+        "Sensory detection",
+        "Muscle strength"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Executive functions coordinate behavior toward goals - like a CEO of the brain."
+      "explain": "EXECUTIVE FUNCTIONS are higher cognitive processes — PLANNING, SEQUENCING, ORGANIZING, DECISION-MAKING. They coordinate behavior toward goals, like a CEO.",
+      "wrongExplains": {
+        "0": "Reflexes are automatic; executive functions are deliberate and complex.",
+        "2": "Sensory detection is handled by sensory cortices, not executive areas.",
+        "3": "Muscle strength is about motor output, not cognitive organization."
+      }
     },
     {
-      "q": "The frontal lobe is responsible for executive functions.",
+      "q": "Which brain region controls executive functions?",
       "options": [
-        "True",
-        "False"
+        "Occipital lobe",
+        "Frontal lobe (especially prefrontal cortex)",
+        "Cerebellum",
+        "Spinal cord"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Especially the prefrontal cortex - planning, judgment, sequencing."
+      "explain": "The FRONTAL LOBE, especially the PREFRONTAL CORTEX, controls executive functions — planning, judgment, sequencing, organization.",
+      "wrongExplains": {
+        "0": "The occipital lobe processes vision, not executive function.",
+        "2": "The cerebellum coordinates movement timing, not cognitive planning.",
+        "3": "The spinal cord handles motor/sensory pathways, not cognition."
+      }
     },
     {
-      "q": "Individual motor movements are controlled by primary motor cortex.",
+      "q": "What is the difference between motor cortex and prefrontal cortex?",
       "options": [
-        "True",
-        "False"
+        "They're the same",
+        "Motor cortex executes movements; prefrontal cortex plans and organizes them",
+        "Prefrontal controls muscles directly",
+        "Motor cortex handles planning"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Primary motor cortex executes movements. Prefrontal cortex PLANS them."
+      "explain": "MOTOR CORTEX executes individual movements. PREFRONTAL CORTEX PLANS and ORGANIZES complex sequences. One is the worker, one is the manager.",
+      "wrongExplains": {
+        "0": "They have distinct functions within the frontal lobe.",
+        "2": "Prefrontal plans; motor cortex controls muscles.",
+        "3": "Planning is prefrontal; motor cortex executes."
+      }
     },
     {
-      "q": "Sequencing multi-step tasks requires the prefrontal cortex (frontal lobe).",
+      "q": "What does 'sequencing' mean in executive function?",
       "options": [
-        "True",
-        "False"
+        "Walking in a line",
+        "Organizing steps of a task in the correct order",
+        "Counting numbers",
+        "Muscle contractions"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Prefrontal cortex maintains the goal, sequences subgoals, monitors progress."
+      "explain": "SEQUENCING means organizing STEPS of a task in the CORRECT ORDER. Making coffee requires: get cup → add grounds → add water → start machine. Order matters.",
+      "wrongExplains": {
+        "0": "Walking is motor function, not executive sequencing.",
+        "2": "Counting is a specific skill; sequencing is organizing any multi-step task.",
+        "3": "Muscle contractions are motor output, not cognitive sequencing."
+      }
     },
     {
-      "q": "Can do individual steps + can't sequence them = prefrontal problem.",
+      "q": "What happens with frontal lobe damage?",
       "options": [
-        "True",
-        "False"
+        "Only blindness",
+        "Executive dysfunction — difficulty planning and sequencing despite intact basic abilities",
+        "Only hearing loss",
+        "Only paralysis"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Motor system intact (can move). Executive system broken (can't organize)."
+      "explain": "FRONTAL LOBE damage causes EXECUTIVE DYSFUNCTION — difficulty PLANNING and SEQUENCING despite intact basic motor abilities. Individual actions work; organization fails.",
+      "wrongExplains": {
+        "0": "Blindness is from occipital damage, not frontal.",
+        "2": "Hearing loss is from temporal damage, not frontal.",
+        "3": "Paralysis may occur with motor cortex damage, but executive dysfunction is the key prefrontal deficit."
+      }
     },
     {
-      "q": "Executive dysfunction makes complex tasks like cooking or dressing difficult.",
+      "q": "What pattern indicates executive dysfunction?",
       "options": [
-        "True",
-        "False"
+        "Can't move at all",
+        "Can perform individual steps but can't organize multi-step tasks",
+        "Only sensory problems",
+        "Only memory loss"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Steps happen in wrong order, are repeated, or abandoned mid-task."
+      "explain": "EXECUTIVE DYSFUNCTION pattern: CAN perform INDIVIDUAL steps normally, but CAN'T ORGANIZE multi-step tasks. Motor output works; cognitive organization fails.",
+      "wrongExplains": {
+        "0": "Individual movements are intact in executive dysfunction.",
+        "2": "Sensation is typically intact; organization is impaired.",
+        "3": "Memory may be intact; the problem is task organization."
+      }
     },
     {
-      "q": "The frontal lobe orchestrates behavior - it's the conductor of the brain.",
+      "q": "Why is the frontal lobe compared to a conductor?",
       "options": [
-        "True",
-        "False"
+        "It conducts electricity",
+        "It coordinates other brain regions to orchestrate purposeful behavior",
+        "It's at the front",
+        "It was discovered by a conductor"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Without it, individual brain functions work but aren't coordinated into purposeful behavior."
+      "explain": "Like a CONDUCTOR orchestrates musicians, the frontal lobe COORDINATES other brain regions into PURPOSEFUL BEHAVIOR. Without it, parts work but aren't coordinated.",
+      "wrongExplains": {
+        "0": "The comparison is about coordination, not electricity.",
+        "2": "Location isn't the reason for the comparison.",
+        "3": "The comparison is metaphorical about function."
+      }
     },
     {
-      "q": "Can perform movements + can't sequence tasks = frontal lobe (executive) damage.",
+      "q": "What activities require executive function?",
       "options": [
-        "True",
-        "False"
+        "Only simple reflexes",
+        "Complex tasks like cooking, dressing, or organizing a project",
+        "Only seeing",
+        "Only hearing"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Motor output works. Planning and organization don't. That's frontal lobe."
+      "explain": "EXECUTIVE FUNCTION is needed for COMPLEX TASKS — cooking, dressing, project organization. Any multi-step goal-directed behavior requires frontal lobe planning.",
+      "wrongExplains": {
+        "0": "Reflexes are automatic and don't require executive function.",
+        "2": "Seeing is sensory; executive function organizes behavior.",
+        "3": "Hearing is sensory; executive function plans actions."
+      }
     },
     {
-      "q": "The answer is FRONTAL LOBE - for planning and sequencing complex tasks.",
+      "q": "Which lobe is affected if someone can move normally but can't sequence tasks?",
       "options": [
-        "True",
-        "False"
+        "Occipital lobe",
+        "Frontal lobe",
+        "Cerebellum",
+        "Temporal lobe"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not occipital (vision), not temporal (hearing/memory), not parietal (sensation/spatial). Frontal lobe damage disrupts executive function - planning, sequencing, task organization."
+      "explain": "FRONTAL LOBE. The pattern — intact individual movements but impaired multi-step task organization — indicates executive dysfunction from frontal lobe damage.",
+      "wrongExplains": {
+        "0": "Occipital lobe damage causes visual problems, not sequencing deficits.",
+        "2": "Cerebellum damage causes coordination/timing problems, not planning deficits.",
+        "3": "Temporal lobe damage affects hearing/memory, not task sequencing."
+      }
     }
   ]
 }

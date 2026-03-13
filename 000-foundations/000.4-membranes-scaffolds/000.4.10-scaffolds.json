@@ -1,28 +1,159 @@
 {
   "parentId": "000.4.10",
-  "parentQuestion": "A patient with severe diarrhea loses massive amounts of water and electrolytes. ...",
+  "parentQuestion": "A patient with severe diarrhea loses massive amounts of water and electrolytes. The treatment is oral rehydration solution containing sodium and glucose. Why does this work better than water alone?",
   "scaffolds": [
     {
-      "q": "Osmosis causes water to move toward areas of ___ solute concentration.",
+      "q": "What is osmosis?",
       "options": [
-        "Lower",
-        "Higher",
-        "Equal"
+        "Movement of solutes",
+        "Movement of water toward higher solute concentration",
+        "Active transport of ions",
+        "Diffusion of gases"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Water moves toward HIGHER solute concentration (which is equivalently LOWER water concentration). Think: water dilutes concentrated solutions by flowing toward them. Osmosis is water's attempt to equalize concentrations. Elegant physics."
+      "difficulty": "foundation",
+      "explain": "OSMOSIS is movement of WATER TOWARD HIGHER SOLUTE concentration. Water dilutes concentrated solutions by flowing toward them.",
+      "wrongExplains": {
+        "0": "Solute movement is diffusion; osmosis moves water.",
+        "2": "Active transport uses ATP; osmosis is passive.",
+        "3": "Gas diffusion is different; osmosis moves water."
+      }
     },
     {
-      "q": "A co-transporter moves ___ molecules across the membrane simultaneously.",
+      "q": "What is a co-transporter?",
       "options": [
-        "One type of",
-        "Two or more types of",
-        "No"
+        "A pump that moves one molecule",
+        "A transporter that moves two or more molecules together",
+        "A passive channel",
+        "A type of enzyme"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "A co-transporter (also called a symporter) moves TWO OR MORE different molecules in the SAME direction across the membrane. Example: SGLT1 moves sodium and glucose together. This allows cells to use one molecule's gradient to power another's transport. Exquisite coupling, isn't it?"
+      "difficulty": "foundation",
+      "explain": "A CO-TRANSPORTER moves TWO OR MORE molecules TOGETHER across the membrane. Example: SGLT1 moves sodium and glucose together.",
+      "wrongExplains": {
+        "0": "One molecule at a time is a uniporter; co-transporters move multiple.",
+        "2": "Passive channels don't couple molecule movement.",
+        "3": "Enzymes catalyze reactions; co-transporters move molecules."
+      }
+    },
+    {
+      "q": "What is SGLT1?",
+      "options": [
+        "A type of DNA",
+        "A sodium-glucose co-transporter in the intestine",
+        "A type of protein that breaks down glucose",
+        "A hormone"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "SGLT1 is a SODIUM-GLUCOSE CO-TRANSPORTER in the intestine. It uses sodium's gradient to pull glucose into cells.",
+      "wrongExplains": {
+        "0": "SGLT1 is a protein transporter, not DNA.",
+        "2": "SGLT1 transports glucose; it doesn't break it down.",
+        "3": "SGLT1 is a membrane transporter, not a hormone."
+      }
+    },
+    {
+      "q": "Why is sodium important for glucose absorption?",
+      "options": [
+        "It isn't important",
+        "Sodium's gradient powers glucose uptake via co-transport",
+        "Sodium converts glucose to energy",
+        "Sodium is glucose"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "SODIUM'S GRADIENT powers GLUCOSE UPTAKE via co-transport. As sodium moves down its gradient, it drags glucose along with it.",
+      "wrongExplains": {
+        "0": "Sodium is essential for intestinal glucose absorption.",
+        "2": "Sodium doesn't convert glucose; it helps transport it.",
+        "3": "Sodium and glucose are different molecules."
+      }
+    },
+    {
+      "q": "How does water follow sodium and glucose absorption?",
+      "options": [
+        "Water doesn't follow",
+        "Water follows absorbed solutes by osmosis",
+        "Water is actively pumped",
+        "Water moves against the gradient"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "WATER FOLLOWS absorbed solutes by OSMOSIS. As sodium and glucose enter cells, water follows to maintain osmotic balance.",
+      "wrongExplains": {
+        "0": "Water definitely follows absorbed solutes.",
+        "2": "Water movement is passive (osmosis), not pumped.",
+        "3": "Water moves down its concentration gradient via osmosis."
+      }
+    },
+    {
+      "q": "Why doesn't plain water rehydrate as well as ORS?",
+      "options": [
+        "Water has too many minerals",
+        "Without sodium and glucose, water isn't absorbed efficiently from the gut",
+        "Plain water is toxic",
+        "There's no difference"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Without SODIUM AND GLUCOSE, water absorption from the gut is LESS EFFICIENT. Co-transport of sodium and glucose enhances water uptake.",
+      "wrongExplains": {
+        "0": "Plain water lacks minerals; that's the problem.",
+        "2": "Plain water isn't toxic; it's just less efficiently absorbed.",
+        "3": "There's a significant difference in absorption efficiency."
+      }
+    },
+    {
+      "q": "What is oral rehydration solution (ORS)?",
+      "options": [
+        "Pure water",
+        "A mixture of water, sodium, glucose, and other electrolytes",
+        "Intravenous fluids",
+        "A medication"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "ORS is a MIXTURE of WATER, SODIUM, GLUCOSE, and other electrolytes designed to maximize intestinal absorption of water.",
+      "wrongExplains": {
+        "0": "Pure water lacks the electrolytes and glucose in ORS.",
+        "2": "ORS is taken orally; IV fluids are intravenous.",
+        "3": "ORS is a fluid replacement, not a medication."
+      }
+    },
+    {
+      "q": "What makes ORS more effective than water alone?",
+      "options": [
+        "It tastes better",
+        "Sodium-glucose co-transport enhances water absorption",
+        "It has more volume",
+        "It's carbonated"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "SODIUM-GLUCOSE CO-TRANSPORT enhances water absorption. As these solutes are absorbed together, water follows by osmosis.",
+      "wrongExplains": {
+        "0": "Effectiveness is due to physiology, not taste.",
+        "2": "Volume isn't the key; co-transport mechanism is.",
+        "3": "Carbonation isn't a feature of ORS."
+      }
+    },
+    {
+      "q": "ORS containing sodium and glucose works better than water alone because ___?",
+      "options": [
+        "Water is harmful",
+        "Sodium-glucose co-transport enhances intestinal water absorption",
+        "Glucose provides energy for pumping water",
+        "Sodium directly carries water"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "SODIUM-GLUCOSE CO-TRANSPORT (SGLT1) enhances intestinal WATER ABSORPTION. Water follows the absorbed solutes by osmosis.",
+      "wrongExplains": {
+        "0": "Water isn't harmful; it's just less efficiently absorbed alone.",
+        "2": "Glucose helps transport, not pump water.",
+        "3": "Sodium enables co-transport; water follows by osmosis."
+      }
     }
   ]
 }

@@ -3,94 +3,157 @@
   "parentQuestion": "The serous membrane covering the abdominal organs is called ___.",
   "scaffolds": [
     {
-      "q": "SEROUS membranes are thin, slippery membranes that line body cavities.",
+      "q": "What are serous membranes?",
       "options": [
-        "True",
-        "False"
+        "Thick, rough membranes",
+        "Thin, slippery membranes that line body cavities and produce watery fluid",
+        "Only found in the brain",
+        "Only found in muscles"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! They produce watery fluid that reduces friction."
+      "explain": "SEROUS MEMBRANES are THIN, SLIPPERY membranes that line body cavities. They produce watery fluid that reduces friction.",
+      "wrongExplains": {
+        "0": "Serous membranes are thin and slippery, not thick and rough.",
+        "2": "Serous membranes line thoracic and abdominal cavities.",
+        "3": "Serous membranes are found in body cavities, not muscles."
+      }
     },
     {
-      "q": "Serous membranes have TWO layers: parietal and visceral.",
+      "q": "How many layers do serous membranes have?",
       "options": [
-        "True",
-        "False"
+        "One layer",
+        "Two layers: parietal and visceral",
+        "Three layers",
+        "No layers"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Parietal = wall. Visceral = organ. Two sides of the same membrane."
+      "explain": "Serous membranes have TWO LAYERS: PARIETAL (lines wall) and VISCERAL (covers organ). Two sides of the same membrane.",
+      "wrongExplains": {
+        "0": "Serous membranes have two distinct layers.",
+        "2": "Serous membranes have two layers, not three.",
+        "3": "Serous membranes definitely have layers."
+      }
     },
     {
-      "q": "PARIETAL layer lines the WALL of the cavity.",
+      "q": "What does the parietal layer of a serous membrane line?",
       "options": [
-        "True",
-        "False"
+        "The organs",
+        "The wall of the cavity",
+        "The blood vessels",
+        "The bones"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Parietal = wall. Think of it as wallpaper lining the cavity."
+      "explain": "PARIETAL layer lines the WALL of the cavity. Parietal = wall. Think of it as wallpaper lining the cavity.",
+      "wrongExplains": {
+        "0": "Visceral layer covers organs; parietal lines walls.",
+        "2": "Parietal lines cavity walls, not blood vessels specifically.",
+        "3": "Serous membranes line cavities, not bones."
+      }
     },
     {
-      "q": "VISCERAL layer covers the ORGANS themselves.",
+      "q": "What does the visceral layer of a serous membrane cover?",
       "options": [
-        "True",
-        "False"
+        "The cavity wall",
+        "The organs themselves",
+        "Only blood vessels",
+        "Only nerves"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Visceral = organs. Like shrink-wrap on the organ surface."
+      "explain": "VISCERAL layer covers the ORGANS themselves. Visceral = organs. Like shrink-wrap on the organ surface.",
+      "wrongExplains": {
+        "0": "Parietal lines walls; visceral covers organs.",
+        "2": "Visceral covers entire organs, not just blood vessels.",
+        "3": "Visceral covers entire organs, not just nerves."
+      }
     },
     {
-      "q": "The PERITONEUM is the serous membrane of the abdominal cavity.",
+      "q": "What is the name of the serous membrane in the abdominal cavity?",
       "options": [
-        "True",
-        "False"
+        "Pleura",
+        "Peritoneum",
+        "Pericardium",
+        "Meninges"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Pleura = lungs. Pericardium = heart. Peritoneum = abdomen."
+      "explain": "The PERITONEUM is the serous membrane of the abdominal cavity. Pleura = lungs. Pericardium = heart. Peritoneum = abdomen.",
+      "wrongExplains": {
+        "0": "Pleura surrounds lungs; peritoneum is abdominal.",
+        "2": "Pericardium surrounds heart; peritoneum is abdominal.",
+        "3": "Meninges surround brain/spinal cord; peritoneum is abdominal."
+      }
     },
     {
-      "q": "VISCERAL peritoneum covers the abdominal ORGANS.",
+      "q": "What does visceral peritoneum cover?",
       "options": [
-        "True",
-        "False"
+        "The abdominal wall",
+        "The abdominal organs (stomach, intestines, liver)",
+        "The lungs",
+        "The heart"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The layer directly touching stomach, intestines, liver, etc."
+      "explain": "VISCERAL PERITONEUM covers the abdominal ORGANS — the layer directly touching stomach, intestines, liver, etc.",
+      "wrongExplains": {
+        "0": "Parietal peritoneum lines the wall; visceral covers organs.",
+        "2": "Visceral pleura covers lungs; visceral peritoneum covers abdominal organs.",
+        "3": "Visceral pericardium covers heart; visceral peritoneum covers abdominal organs."
+      }
     },
     {
-      "q": "PARIETAL peritoneum lines the abdominal WALL (not the organs).",
+      "q": "What does parietal peritoneum line?",
       "options": [
-        "True",
-        "False"
+        "The abdominal organs",
+        "The abdominal wall (not the organs)",
+        "The lungs",
+        "The heart"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The layer touching the inside of your abdominal wall."
+      "explain": "PARIETAL PERITONEUM lines the abdominal WALL (not the organs) — the layer touching the inside of your abdominal wall.",
+      "wrongExplains": {
+        "0": "Visceral peritoneum covers organs; parietal lines walls.",
+        "2": "Parietal pleura lines chest wall; parietal peritoneum lines abdominal wall.",
+        "3": "Parietal pericardium lines heart sac; parietal peritoneum lines abdominal wall."
+      }
     },
     {
-      "q": "The membrane covering abdominal ORGANS = VISCERAL peritoneum.",
+      "q": "Which membrane covers abdominal organs specifically?",
       "options": [
-        "True",
-        "False"
+        "Parietal peritoneum",
+        "Visceral peritoneum",
+        "Visceral pleura",
+        "Parietal pericardium"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Visceral = organ-covering. Peritoneum = abdominal membrane."
+      "explain": "VISCERAL PERITONEUM covers abdominal organs. Visceral = organ-covering. Peritoneum = abdominal membrane.",
+      "wrongExplains": {
+        "0": "Parietal peritoneum lines walls, not organs.",
+        "2": "Visceral pleura covers lungs, not abdominal organs.",
+        "3": "Parietal pericardium is part of heart sac, not abdominal."
+      }
     },
     {
-      "q": "The answer is VISCERAL PERITONEUM - covers abdominal organs.",
+      "q": "The serous membrane covering the abdominal organs is called ___?",
       "options": [
-        "True",
-        "False"
+        "Parietal peritoneum",
+        "Visceral peritoneum",
+        "Mesentery",
+        "Parietal pleura"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not parietal (that's the wall), not mesentery (that's a double layer)."
+      "explain": "The answer is VISCERAL PERITONEUM — the serous membrane covering abdominal organs. Not parietal (that's the wall), not mesentery (that's a double layer connecting organs).",
+      "wrongExplains": {
+        "0": "Parietal peritoneum lines the wall, not covers organs.",
+        "2": "Mesentery is a double-layer extension, not the organ covering itself.",
+        "3": "Parietal pleura is in the chest, not abdomen."
+      }
     }
   ]
 }

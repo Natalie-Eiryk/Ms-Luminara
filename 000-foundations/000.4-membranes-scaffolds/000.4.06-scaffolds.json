@@ -1,28 +1,159 @@
 {
   "parentId": "000.4.06",
-  "parentQuestion": "A patient with cystic fibrosis has abnormally thick, sticky mucus in their lungs...",
+  "parentQuestion": "A patient with cystic fibrosis has abnormally thick, sticky mucus in their lungs. This is caused by a defect in a membrane protein that transports ___.",
   "scaffolds": [
     {
-      "q": "Can charged ions like Na⁺ or Cl⁻ easily cross the lipid bilayer on their own?",
+      "q": "What is a membrane protein?",
       "options": [
-        "Yes",
-        "No"
+        "A lipid in the membrane",
+        "A protein embedded in or attached to the cell membrane",
+        "DNA in the nucleus",
+        "A carbohydrate on the surface"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "No! The lipid bilayer is hydrophobic — it repels charged, hydrophilic particles like ions. Ions need HELP crossing — either channels (protein tunnels) or carriers (protein shuttles). Without these transport proteins, ions are trapped on whichever side of the membrane they're on. Beautiful barrier, isn't it?"
+      "difficulty": "foundation",
+      "explain": "A MEMBRANE PROTEIN is a protein EMBEDDED IN OR ATTACHED TO the cell membrane. They function as channels, receptors, and transporters.",
+      "wrongExplains": {
+        "0": "Lipids form the bilayer; membrane proteins are embedded in it.",
+        "2": "DNA is in the nucleus; membrane proteins are in membranes.",
+        "3": "Carbohydrates on surfaces are glycocalyx; membrane proteins are proteins."
+      }
     },
     {
-      "q": "What type of molecule makes up most of the cell membrane's structure?",
+      "q": "Can ions like Na⁺ or Cl⁻ easily cross the lipid bilayer?",
       "options": [
-        "Proteins",
-        "Phospholipids",
-        "Carbohydrates",
-        "Nucleic acids"
+        "Yes, they pass freely",
+        "No, they need protein channels or transporters",
+        "Only Na⁺ can cross freely",
+        "Only Cl⁻ can cross freely"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Phospholipids form the bilayer — the fundamental structure of the membrane. They arrange themselves with hydrophilic heads facing outward (toward water) and hydrophobic tails facing inward (away from water). Proteins are embedded in this bilayer, but phospholipids are the structural backbone. Exquisite self-assembly, isn't it?"
+      "difficulty": "foundation",
+      "explain": "IONS CANNOT easily cross the hydrophobic lipid bilayer. They need PROTEIN CHANNELS or TRANSPORTERS to cross the membrane.",
+      "wrongExplains": {
+        "0": "The hydrophobic bilayer blocks charged ions.",
+        "2": "Neither Na⁺ nor Cl⁻ can cross freely; both need help.",
+        "3": "Neither Na⁺ nor Cl⁻ can cross freely; both need help."
+      }
+    },
+    {
+      "q": "What is a channel protein?",
+      "options": [
+        "A protein that makes ATP",
+        "A protein that forms a pore for specific molecules to pass through",
+        "A protein that stores energy",
+        "A protein in the nucleus"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "A CHANNEL PROTEIN forms a PORE (tunnel) for specific molecules or ions to pass through the membrane. Examples: ion channels, aquaporins.",
+      "wrongExplains": {
+        "0": "ATP synthase makes ATP; channel proteins allow passage.",
+        "2": "Fat cells store energy; channel proteins allow transport.",
+        "3": "Nuclear proteins are different; channel proteins are in membranes."
+      }
+    },
+    {
+      "q": "What is CFTR?",
+      "options": [
+        "A DNA sequence",
+        "A chloride channel protein that's defective in cystic fibrosis",
+        "A type of mucus",
+        "A lung cell"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CFTR (Cystic Fibrosis Transmembrane Conductance Regulator) is a CHLORIDE CHANNEL protein that's DEFECTIVE in cystic fibrosis.",
+      "wrongExplains": {
+        "0": "CFTR is a protein, not DNA (though the gene encodes it).",
+        "2": "Mucus is a secretion; CFTR is the protein that affects it.",
+        "3": "CFTR is a protein in lung cells, not the cell itself."
+      }
+    },
+    {
+      "q": "What does CFTR normally transport?",
+      "options": [
+        "Sodium ions (Na⁺)",
+        "Chloride ions (Cl⁻)",
+        "Glucose",
+        "Proteins"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CFTR normally transports CHLORIDE IONS (Cl⁻) out of cells. This movement affects water movement and mucus consistency.",
+      "wrongExplains": {
+        "0": "Sodium uses different channels; CFTR moves chloride.",
+        "2": "Glucose uses GLUT transporters; CFTR moves chloride.",
+        "3": "Proteins don't cross via CFTR; it moves chloride ions."
+      }
+    },
+    {
+      "q": "Why does defective CFTR cause thick mucus?",
+      "options": [
+        "It produces extra mucus",
+        "Without chloride transport, water doesn't follow, so mucus isn't hydrated",
+        "It destroys mucus-producing cells",
+        "It adds extra proteins to mucus"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Without CHLORIDE TRANSPORT, WATER DOESN'T FOLLOW (water follows salt), so mucus isn't properly HYDRATED and becomes thick and sticky.",
+      "wrongExplains": {
+        "0": "CFTR doesn't control mucus production; it affects hydration.",
+        "2": "CFTR defect doesn't destroy cells; it impairs chloride transport.",
+        "3": "Thick mucus is due to dehydration, not extra proteins."
+      }
+    },
+    {
+      "q": "What is the relationship between chloride and water movement?",
+      "options": [
+        "No relationship",
+        "Water follows chloride (and other ions) by osmosis",
+        "Chloride follows water",
+        "They repel each other"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "WATER FOLLOWS CHLORIDE (and other ions) by osmosis. When chloride moves out, water follows, hydrating secretions like mucus.",
+      "wrongExplains": {
+        "0": "There's a direct relationship — water follows ions.",
+        "2": "Ions create the osmotic gradient; water follows them.",
+        "3": "Water is attracted to ions, not repelled."
+      }
+    },
+    {
+      "q": "What organs are affected in cystic fibrosis?",
+      "options": [
+        "Only the heart",
+        "Lungs, pancreas, digestive tract — organs with mucous membranes",
+        "Only bones",
+        "Only the brain"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "CF affects LUNGS, PANCREAS, and DIGESTIVE TRACT — organs with MUCOUS MEMBRANES where thick mucus causes problems.",
+      "wrongExplains": {
+        "0": "The heart isn't primarily affected by CF.",
+        "2": "Bones aren't affected; mucous membrane organs are.",
+        "3": "The brain isn't primarily affected by CF."
+      }
+    },
+    {
+      "q": "Cystic fibrosis is caused by a defect in a membrane protein that transports ___?",
+      "options": [
+        "Sodium ions",
+        "Chloride ions",
+        "Glucose",
+        "Oxygen"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "CF is caused by defective CFTR, which transports CHLORIDE IONS. Without proper chloride transport, mucus becomes thick and sticky.",
+      "wrongExplains": {
+        "0": "Sodium channels are different; CFTR moves chloride.",
+        "2": "Glucose uses GLUT transporters; CFTR moves chloride.",
+        "3": "Oxygen diffuses freely; CFTR moves chloride ions."
+      }
     }
   ]
 }

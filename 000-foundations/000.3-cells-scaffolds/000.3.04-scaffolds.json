@@ -3,28 +3,157 @@
   "parentQuestion": "The organelle primarily responsible for cellular ATP production is the ___.",
   "scaffolds": [
     {
-      "q": "ATP is the cell's main source of ___.",
+      "q": "What is ATP?",
       "options": [
-        "Genetic information",
-        "Structural support",
-        "Energy",
-        "Water"
+        "A type of protein",
+        "The main energy currency of cells",
+        "A type of DNA",
+        "A cell membrane component"
       ],
-      "answer": 2,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "ATP (adenosine triphosphate) provides energy for cellular processes. When cells need energy, they break down ATP to release it. It's the universal energy currency — accepted everywhere in the cell."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "ATP (adenosine triphosphate) is the MAIN ENERGY CURRENCY of cells. When ATP is broken down, energy is released for cellular work.",
+      "wrongExplains": {
+        "0": "Proteins do work; ATP provides the energy.",
+        "2": "DNA stores genetic information; ATP provides energy.",
+        "3": "Phospholipids form membranes; ATP is an energy molecule."
+      }
     },
     {
-      "q": "Cellular respiration converts glucose into ___ that cells can use.",
+      "q": "What is cellular respiration?",
       "options": [
+        "Breathing in and out",
+        "The process of breaking down glucose to produce ATP",
+        "Cell division",
+        "Protein synthesis"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CELLULAR RESPIRATION is the process of BREAKING DOWN GLUCOSE to produce ATP. It occurs mainly in mitochondria.",
+      "wrongExplains": {
+        "0": "Breathing is external respiration; cellular respiration is biochemical.",
+        "2": "Cell division is mitosis; cellular respiration produces ATP.",
+        "3": "Protein synthesis occurs on ribosomes; cellular respiration makes ATP."
+      }
+    },
+    {
+      "q": "What is the mitochondria?",
+      "options": [
+        "The protein-making organelle",
+        "The ATP-producing organelle (powerhouse of the cell)",
+        "The genetic material storage",
+        "The waste disposal organelle"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "MITOCHONDRIA are the ATP-producing organelles — the 'POWERHOUSE OF THE CELL.' They perform cellular respiration.",
+      "wrongExplains": {
+        "0": "Ribosomes make proteins; mitochondria make ATP.",
+        "2": "The nucleus stores DNA; mitochondria make ATP.",
+        "3": "Lysosomes handle waste; mitochondria make ATP."
+      }
+    },
+    {
+      "q": "What fuel does cellular respiration primarily use?",
+      "options": [
+        "Proteins only",
+        "Glucose",
         "DNA",
-        "Protein",
-        "ATP",
         "Water"
       ],
-      "answer": 2,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Cellular respiration breaks down glucose (food) to produce ATP, which cells use as energy for their activities. This process primarily occurs in mitochondria — the cellular power plants. Don't lose this thread:."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Cellular respiration primarily uses GLUCOSE as fuel to produce ATP. The equation: glucose + oxygen → CO₂ + water + ATP.",
+      "wrongExplains": {
+        "0": "Proteins can be used but glucose is the primary fuel.",
+        "2": "DNA stores information; glucose is the fuel.",
+        "3": "Water is a product; glucose is the fuel."
+      }
+    },
+    {
+      "q": "What is required for aerobic cellular respiration?",
+      "options": [
+        "Only glucose",
+        "Glucose and oxygen",
+        "Only carbon dioxide",
+        "Only water"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "AEROBIC cellular respiration requires both GLUCOSE AND OXYGEN. 'Aerobic' means with oxygen.",
+      "wrongExplains": {
+        "0": "Both glucose and oxygen are needed for aerobic respiration.",
+        "2": "CO₂ is a product, not a requirement.",
+        "3": "Water is a product, not a requirement."
+      }
+    },
+    {
+      "q": "How many ATP molecules can one glucose molecule produce?",
+      "options": [
+        "2 ATP",
+        "About 36-38 ATP",
+        "100 ATP",
+        "1 ATP"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "One glucose molecule can produce about 36-38 ATP through complete aerobic respiration. This is highly efficient.",
+      "wrongExplains": {
+        "0": "2 ATP is only from glycolysis; full respiration yields 36-38.",
+        "2": "100 ATP is too high; the yield is about 36-38.",
+        "3": "1 ATP is far too low; the yield is about 36-38."
+      }
+    },
+    {
+      "q": "Why do mitochondria have their own DNA?",
+      "options": [
+        "They don't have DNA",
+        "They were once independent bacteria that became symbiotic",
+        "They need extra genetic storage",
+        "To make proteins for the nucleus"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Mitochondria have their own DNA because they were once INDEPENDENT BACTERIA that became symbiotic with early cells (endosymbiotic theory).",
+      "wrongExplains": {
+        "0": "Mitochondria do have their own circular DNA.",
+        "2": "The separate DNA supports the endosymbiotic origin theory.",
+        "3": "Mitochondrial DNA codes for mitochondrial proteins."
+      }
+    },
+    {
+      "q": "What happens when mitochondria are defective?",
+      "options": [
+        "Nothing noticeable",
+        "Cells cannot produce enough ATP, causing energy-related diseases",
+        "Protein synthesis stops",
+        "DNA replication fails"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Defective mitochondria mean cells CAN'T PRODUCE ENOUGH ATP, causing energy-related diseases (mitochondrial myopathies).",
+      "wrongExplains": {
+        "0": "Mitochondrial diseases cause serious energy deficits.",
+        "2": "Ribosomes handle protein synthesis; mitochondria handle ATP.",
+        "3": "The nucleus handles DNA replication; mitochondria handle ATP."
+      }
+    },
+    {
+      "q": "The organelle primarily responsible for cellular ATP production is the ___?",
+      "options": [
+        "Nucleus",
+        "Mitochondria",
+        "Ribosome",
+        "Golgi apparatus"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "MITOCHONDRIA are primarily responsible for ATP production through cellular respiration — they're the 'powerhouses' of cells.",
+      "wrongExplains": {
+        "0": "The nucleus controls the cell; mitochondria produce ATP.",
+        "2": "Ribosomes make proteins; mitochondria produce ATP.",
+        "3": "Golgi packages proteins; mitochondria produce ATP."
+      }
     }
   ]
 }

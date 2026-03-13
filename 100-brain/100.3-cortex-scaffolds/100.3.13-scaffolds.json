@@ -3,94 +3,157 @@
   "parentQuestion": "A patient sustains a traumatic brain injury and afterward becomes impulsive, socially inappropriate, and unable to consider long-term consequences of their actions. Their memory, language, and motor function are intact. The most likely affected region is the ___.",
   "scaffolds": [
     {
-      "q": "Impulse control requires a brain 'brake system' to inhibit inappropriate actions.",
+      "q": "What is the orbitofrontal cortex (OFC)?",
       "options": [
-        "True",
-        "False"
+        "Part of the occipital lobe",
+        "The ventral surface of the frontal lobe, above the eye orbits",
+        "Part of the cerebellum",
+        "Part of the temporal lobe"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Without inhibition, every thought becomes action. That's what we're seeing here."
+      "explain": "The ORBITOFRONTAL CORTEX (OFC) is on the VENTRAL (bottom) surface of the FRONTAL LOBE, above the EYE ORBITS. It's part of the prefrontal cortex.",
+      "wrongExplains": {
+        "0": "The OFC is frontal, not occipital.",
+        "2": "The OFC is cortex, not cerebellum.",
+        "3": "The OFC is frontal, not temporal."
+      }
     },
     {
-      "q": "The orbitofrontal cortex (OFC) is on the ventral surface of the frontal lobe.",
+      "q": "What does the orbitofrontal cortex control?",
       "options": [
-        "True",
-        "False"
+        "Vision",
+        "Impulse control, social judgment, and decision-making",
+        "Hearing",
+        "Balance"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Above the eye orbits. It's part of the prefrontal cortex."
+      "explain": "The OFC controls IMPULSE CONTROL, SOCIAL JUDGMENT, and DECISION-MAKING. It evaluates actions for consequences before you act — the brain's 'brake system.'",
+      "wrongExplains": {
+        "0": "Vision is processed in occipital cortex.",
+        "2": "Hearing is processed in temporal cortex.",
+        "3": "Balance involves vestibular system and cerebellum."
+      }
     },
     {
-      "q": "The OFC is involved in impulse control and social judgment.",
+      "q": "Who was Phineas Gage?",
       "options": [
-        "True",
-        "False"
+        "A neuroscientist",
+        "A railroad worker whose OFC damage changed his personality",
+        "A doctor",
+        "A patient with memory loss"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! It weighs consequences before acting - 'Should I do this?'"
+      "explain": "PHINEAS GAGE (1848) was a railroad worker. A tamping iron through his frontal lobe destroyed his OFC. He survived but became impulsive and socially inappropriate.",
+      "wrongExplains": {
+        "0": "Gage was a patient, not a scientist.",
+        "2": "Gage was not a doctor; he was a railway worker.",
+        "3": "Gage's primary deficit was personality, not memory."
+      }
     },
     {
-      "q": "Phineas Gage became impulsive and inappropriate after OFC damage.",
+      "q": "What is disinhibition?",
       "options": [
-        "True",
-        "False"
+        "Excessive shyness",
+        "Acting on impulses without considering consequences — lost 'brakes'",
+        "Paralysis",
+        "Memory loss"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Famous 1848 case - tamping iron through frontal lobe changed his personality."
+      "explain": "DISINHIBITION is acting on IMPULSES without considering consequences — the behavioral 'brakes' are lost. OFC normally inhibits inappropriate actions.",
+      "wrongExplains": {
+        "0": "Disinhibition is the opposite of shyness — excessive impulsivity.",
+        "2": "Paralysis is motor, not behavioral disinhibition.",
+        "3": "Memory is typically intact in disinhibition syndromes."
+      }
     },
     {
-      "q": "OFC damage = impulsive + socially inappropriate + poor judgment.",
+      "q": "What's intact in orbitofrontal syndrome?",
       "options": [
-        "True",
-        "False"
+        "Nothing",
+        "Memory, language, motor function — only judgment and impulse control are impaired",
+        "Only movement",
+        "Only sensation"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Memory and language stay intact. Just the 'brake' is broken."
+      "explain": "In OFC damage, MEMORY, LANGUAGE, and MOTOR FUNCTION remain INTACT. The patient can think, speak, and move — they just can't INHIBIT inappropriate behavior.",
+      "wrongExplains": {
+        "0": "Many functions remain intact; social regulation fails.",
+        "2": "Memory and language are also typically intact.",
+        "3": "Multiple functions are intact, not just sensation."
+      }
     },
     {
-      "q": "The OFC evaluates potential actions for social and emotional consequences.",
+      "q": "How does OFC damage affect social behavior?",
       "options": [
-        "True",
-        "False"
+        "No effect",
+        "Patients become socially inappropriate — saying/doing things they shouldn't",
+        "Patients become shy",
+        "Patients lose hearing"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! It connects emotion (amygdala) with decision-making to guide behavior."
+      "explain": "OFC damage causes SOCIAL INAPPROPRIATENESS. Patients say rude things, make poor decisions, violate social norms — they can't consider how actions affect others.",
+      "wrongExplains": {
+        "0": "OFC damage profoundly affects social behavior.",
+        "2": "Patients become inappropriately forward, not shy.",
+        "3": "Hearing is unaffected by OFC damage."
+      }
     },
     {
-      "q": "Without OFC, patients act on impulses without considering consequences.",
+      "q": "Can OFC patients understand right from wrong?",
       "options": [
-        "True",
-        "False"
+        "No, they lose all moral understanding",
+        "Yes, abstractly — but they can't apply it to inhibit behavior",
+        "They become completely immoral",
+        "Only if reminded"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! They KNOW right from wrong abstractly but CAN'T inhibit inappropriate behavior."
+      "explain": "OFC patients often KNOW right from wrong ABSTRACTLY but CAN'T INHIBIT inappropriate behavior in the moment. Knowledge is intact; application is impaired.",
+      "wrongExplains": {
+        "0": "Abstract moral reasoning is often preserved.",
+        "2": "They know morality; they can't apply it.",
+        "3": "The deficit is in application, not just recall."
+      }
     },
     {
-      "q": "Impulsive + socially inappropriate + intact memory/language = orbitofrontal damage.",
+      "q": "What pattern indicates OFC damage?",
       "options": [
-        "True",
-        "False"
+        "Memory loss only",
+        "Impulsive, socially inappropriate + intact memory/language/motor",
+        "Paralysis only",
+        "Blindness only"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Classic orbitofrontal syndrome - disinhibition with preserved cognition."
+      "explain": "OFC DAMAGE pattern: IMPULSIVE, SOCIALLY INAPPROPRIATE behavior with INTACT memory, language, and motor function. Cognition works; behavioral regulation fails.",
+      "wrongExplains": {
+        "0": "Memory is typically intact in OFC damage.",
+        "2": "Motor function is intact; behavior is disinhibited.",
+        "3": "Vision is unaffected by OFC damage."
+      }
     },
     {
-      "q": "The answer is ORBITOFRONTAL CORTEX - the brain's behavioral brake system.",
+      "q": "Which region is affected if impulsivity develops but memory/language are intact?",
       "options": [
-        "True",
-        "False"
+        "Hippocampus",
+        "Orbitofrontal cortex",
+        "Wernicke's area",
+        "Cerebellum"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not hippocampus (memory), not Wernicke's (language), not cerebellum (motor coordination). OFC damage = impulsivity, social inappropriateness, poor judgment with intact cognitive abilities."
+      "explain": "ORBITOFRONTAL CORTEX. The pattern — impulsivity and social inappropriateness with intact memory/language — is classic OFC damage (orbitofrontal syndrome).",
+      "wrongExplains": {
+        "0": "Hippocampus damage causes memory problems, not impulsivity.",
+        "2": "Wernicke's damage causes language comprehension problems.",
+        "3": "Cerebellum damage causes coordination problems, not personality changes."
+      }
     }
   ]
 }

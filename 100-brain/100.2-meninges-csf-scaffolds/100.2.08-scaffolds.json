@@ -3,94 +3,157 @@
   "parentQuestion": "Following blunt head trauma, a 62-year-old develops progressively worsening headache and confusion over several days. CT shows a crescent-shaped hyperdensity. Which space contains the hemorrhage?",
   "scaffolds": [
     {
-      "q": "Head trauma can tear blood vessels between the layers of meninges.",
+      "q": "What is a subdural hematoma?",
       "options": [
-        "True",
-        "False"
+        "Bleeding inside the brain tissue",
+        "Bleeding between the dura mater and arachnoid mater",
+        "Bleeding outside the skull",
+        "Bleeding in the ventricles"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Trauma can tear arteries or veins at different meningeal levels, causing epidural, subdural, or subarachnoid hemorrhages."
+      "explain": "A SUBDURAL HEMATOMA is bleeding between the DURA MATER and ARACHNOID MATER — the subdural space. Blood accumulates beneath the dura, above the arachnoid.",
+      "wrongExplains": {
+        "0": "Bleeding inside brain tissue is intracerebral hemorrhage.",
+        "2": "Bleeding outside the skull is a scalp hematoma.",
+        "3": "Bleeding in ventricles is intraventricular hemorrhage."
+      }
     },
     {
-      "q": "Arterial bleeding is high-pressure and develops RAPIDLY.",
+      "q": "What causes subdural hematomas?",
       "options": [
-        "True",
-        "False"
+        "Arterial rupture",
+        "Torn bridging veins",
+        "Aneurysm rupture",
+        "Skull fracture"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Arterial pressure is ~100 mmHg. Arterial bleeds (like epidural hematomas) accumulate quickly - hours, not days."
+      "explain": "SUBDURAL HEMATOMAS form when BRIDGING VEINS tear. These veins cross from the brain surface to dural sinuses and are vulnerable to shearing forces, especially in elderly patients.",
+      "wrongExplains": {
+        "0": "Arterial rupture typically causes epidural hematomas.",
+        "2": "Aneurysm rupture causes subarachnoid hemorrhage.",
+        "3": "Skull fracture may accompany epidural hematoma, not subdural."
+      }
     },
     {
-      "q": "Venous bleeding is low-pressure and develops SLOWLY.",
+      "q": "Why are elderly patients prone to subdural hematomas?",
       "options": [
-        "True",
-        "False"
+        "Stronger skull",
+        "Brain atrophy stretches bridging veins, making them vulnerable",
+        "Higher blood pressure",
+        "Thicker dura"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Venous pressure is only ~8 mmHg. Venous bleeds (like subdural hematomas) accumulate gradually - days to weeks."
+      "explain": "With aging, BRAIN ATROPHY occurs. The brain shrinks, but bridging veins stay attached to the dura — they become STRETCHED TAUT and more vulnerable to tearing from minor trauma.",
+      "wrongExplains": {
+        "0": "Skull strength doesn't affect bridging vein vulnerability.",
+        "2": "Blood pressure isn't the primary factor in subdural formation.",
+        "3": "Dura thickness doesn't cause subdural hematomas."
+      }
     },
     {
-      "q": "Subdural hematomas form when BRIDGING VEINS tear.",
+      "q": "How does subdural bleeding develop over time?",
       "options": [
-        "True",
-        "False"
+        "Rapidly within minutes (arterial pressure)",
+        "Slowly over days to weeks (venous pressure)",
+        "Instantly",
+        "Only during sleep"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Bridging veins cross from brain surface to dural sinuses. In elderly patients with brain atrophy, they're stretched taut and vulnerable to shearing."
+      "explain": "SUBDURAL bleeding is SLOW (venous pressure is only ~8 mmHg). Blood accumulates gradually over DAYS to WEEKS, explaining the progressive symptoms in this patient.",
+      "wrongExplains": {
+        "0": "Rapid bleeding is arterial (epidural). Subdural is slow venous bleeding.",
+        "2": "Venous bleeding accumulates gradually, not instantly.",
+        "3": "Bleeding continues regardless of sleep/wake state."
+      }
     },
     {
-      "q": "Subdural hematomas appear CRESCENT-shaped on CT.",
+      "q": "What shape is a subdural hematoma on CT?",
       "options": [
-        "True",
-        "False"
+        "Lens-shaped (biconvex)",
+        "Crescent-shaped (follows brain contour)",
+        "Round",
+        "Triangular"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Blood layers along the brain surface, following its contours - creating a crescent or banana shape. Epidural hematomas are lens-shaped."
+      "explain": "SUBDURAL hematomas are CRESCENT-SHAPED on CT. Blood layers along the brain surface, following its contours like a banana. EPIDURAL hematomas are lens-shaped.",
+      "wrongExplains": {
+        "0": "Lens-shaped (biconvex) is epidural hematoma.",
+        "2": "Hematomas don't appear perfectly round.",
+        "3": "Hematomas don't form triangular shapes."
+      }
     },
     {
-      "q": "Symptoms developing over DAYS (not hours) suggests slow venous bleeding.",
+      "q": "What is the difference between hyperdense and hypodense on CT?",
       "options": [
-        "True",
-        "False"
+        "No difference",
+        "Hyperdense = bright (acute blood); hypodense = dark (old blood)",
+        "Hyperdense means smaller",
+        "Hypodense means dangerous"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Rapid deterioration suggests arterial bleeding (epidural). Gradual deterioration over days suggests venous bleeding (subdural)."
+      "explain": "HYPERDENSE = bright (acute blood is dense). HYPODENSE = dark (old blood liquefies). This patient's hyperdense crescent indicates RECENT bleeding, though symptoms developed over days.",
+      "wrongExplains": {
+        "0": "They indicate different tissue densities.",
+        "2": "Density refers to X-ray absorption, not size.",
+        "3": "Both can be dangerous; they indicate timing."
+      }
     },
     {
-      "q": "The subdural space is between the dura mater and arachnoid mater.",
+      "q": "How does subdural differ from epidural hematoma?",
       "options": [
-        "True",
-        "False"
+        "Same location, different causes",
+        "Subdural is venous/slow/crescent; epidural is arterial/rapid/lens-shaped",
+        "Epidural is more common in elderly",
+        "No difference"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! It's normally a potential space (layers are touching). Blood accumulation peels the arachnoid away from the dura, creating an actual space."
+      "explain": "KEY DIFFERENCES: SUBDURAL = venous (bridging veins), slow, crescent-shaped. EPIDURAL = arterial (middle meningeal artery), rapid, lens-shaped. Different mechanisms, presentations, and CT appearances.",
+      "wrongExplains": {
+        "0": "They're in different spaces with different causes.",
+        "2": "Subdural is more common in elderly; epidural in younger patients.",
+        "3": "They are distinct conditions with different characteristics."
+      }
     },
     {
-      "q": "Slow progression + crescent shape + elderly patient = subdural hematoma.",
+      "q": "What explains this patient's progressive symptoms over days?",
       "options": [
-        "True",
-        "False"
+        "Arterial bleeding stopped and restarted",
+        "Slow venous bleeding gradually accumulated",
+        "Brain swelling alone",
+        "Infection"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The gradual timeline (days), crescent CT appearance, and elderly patient with likely brain atrophy all point to subdural bleeding from torn bridging veins."
+      "explain": "SLOW VENOUS BLEEDING from torn bridging veins accumulated over DAYS. Low venous pressure means gradual accumulation — explaining progressive (not sudden) headache and confusion.",
+      "wrongExplains": {
+        "0": "Arterial bleeding would cause rapid, not progressive symptoms.",
+        "2": "Brain swelling alone wouldn't show crescent-shaped blood collection.",
+        "3": "No infection signs are present; this is hemorrhage."
+      }
     },
     {
-      "q": "The answer is SUBDURAL SPACE - where blood accumulates from torn bridging veins.",
+      "q": "Which space contains this hemorrhage?",
       "options": [
-        "True",
-        "False"
+        "Epidural space",
+        "Subdural space",
+        "Subarachnoid space",
+        "Intraventricular space"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not epidural (that's lens-shaped, rapid, arterial). Not subarachnoid (that's thunderclap headache, diffuse blood). SUBDURAL = crescent, slow, venous."
+      "explain": "SUBDURAL SPACE. The pattern is classic: elderly patient, trauma, progressive symptoms over days, crescent-shaped CT = SUBDURAL HEMATOMA from torn bridging veins.",
+      "wrongExplains": {
+        "0": "Epidural would be lens-shaped, rapid, and arterial.",
+        "2": "Subarachnoid hemorrhage causes thunderclap headache, not progressive symptoms.",
+        "3": "Intraventricular blood doesn't form crescent shapes on CT."
+      }
     }
   ]
 }

@@ -3,94 +3,157 @@
   "parentQuestion": "A pharmaceutical company develops a highly effective anti-cancer drug, but it fails to reach brain tumors despite excellent blood concentrations. The drug is water-soluble and cannot cross lipid barriers. Which level of organization explains this therapeutic failure?",
   "scaffolds": [
     {
-      "q": "The body is organized in levels: chemical → cellular → tissue → organ → organ system.",
+      "q": "What are the levels of body organization?",
       "options": [
-        "True",
-        "False"
+        "Only cells and organs",
+        "Chemical → cellular → tissue → organ → organ system",
+        "Only organ systems",
+        "No organization exists"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Each level has different properties and potential failure points."
+      "explain": "The body is organized in levels: CHEMICAL → CELLULAR → TISSUE → ORGAN → ORGAN SYSTEM. Each level has different properties and potential failure points.",
+      "wrongExplains": {
+        "0": "Many levels exist, not just cells and organs.",
+        "2": "Multiple levels exist below organ systems.",
+        "3": "The body is highly organized."
+      }
     },
     {
-      "q": "The CHEMICAL level involves atoms, molecules, and their properties.",
+      "q": "What does the chemical level involve?",
       "options": [
-        "True",
-        "False"
+        "Only living cells",
+        "Atoms, molecules, and their properties",
+        "Only organs",
+        "Only body systems"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Molecules have properties like solubility that affect how they behave."
+      "explain": "The CHEMICAL level involves ATOMS, MOLECULES, and their PROPERTIES. Molecules have properties like solubility that affect how they behave.",
+      "wrongExplains": {
+        "0": "Living cells are the cellular level; chemical is atoms/molecules.",
+        "2": "Organs are higher level; chemical is atoms/molecules.",
+        "3": "Body systems are higher level; chemical is atoms/molecules."
+      }
     },
     {
-      "q": "A drug's molecular structure determines whether it can cross barriers.",
+      "q": "What determines whether a drug can cross barriers?",
       "options": [
-        "True",
-        "False"
+        "Only the drug's color",
+        "The drug's molecular structure and properties",
+        "Only the drug's name",
+        "Only the drug's price"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Water-soluble drugs can't easily cross lipid membranes."
+      "explain": "A drug's MOLECULAR STRUCTURE determines whether it can cross barriers. Water-soluble drugs can't easily cross lipid membranes.",
+      "wrongExplains": {
+        "0": "Molecular structure matters, not color.",
+        "2": "Molecular structure matters, not name.",
+        "3": "Molecular structure matters, not price."
+      }
     },
     {
-      "q": "The blood-brain barrier protects the brain from harmful substances.",
+      "q": "What does the blood-brain barrier do?",
       "options": [
-        "True",
-        "False"
+        "Nothing important",
+        "Protects the brain from harmful substances (but also blocks some medications)",
+        "Only lets blood through",
+        "Only blocks oxygen"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! But it also blocks some medications from reaching brain tumors."
+      "explain": "The BLOOD-BRAIN BARRIER protects the brain from harmful substances. But it also blocks some medications from reaching brain tumors.",
+      "wrongExplains": {
+        "0": "The blood-brain barrier is critical for brain protection.",
+        "2": "The barrier is selective about what passes, not just blood.",
+        "3": "The barrier allows oxygen through."
+      }
     },
     {
-      "q": "Lipid-soluble molecules cross membranes easily; water-soluble molecules don't.",
+      "q": "Why can lipid-soluble molecules cross membranes but water-soluble molecules can't?",
       "options": [
-        "True",
-        "False"
+        "No reason",
+        "Cell membranes are lipid bilayers — friendly to lipids, not water",
+        "Water is too heavy",
+        "Lipids are magnetic"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Cell membranes are lipid bilayers - they're friendly to lipids, not water."
+      "explain": "LIPID-SOLUBLE molecules cross membranes easily because cell membranes are LIPID BILAYERS — they're friendly to lipids, not water.",
+      "wrongExplains": {
+        "0": "The lipid composition of membranes is the reason.",
+        "2": "Weight isn't the issue; solubility is.",
+        "3": "Magnetism isn't involved; chemical properties are."
+      }
     },
     {
-      "q": "The drug's MOLECULAR PROPERTIES (water-soluble) explain why it can't cross.",
+      "q": "The drug is water-soluble. What property explains why it can't cross the blood-brain barrier?",
       "options": [
-        "True",
-        "False"
+        "Its color",
+        "Its molecular properties (water-solubility) — a chemical level property",
+        "Its size only",
+        "Its shape only"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! This is a CHEMICAL level property determining biological behavior."
+      "explain": "The drug's MOLECULAR PROPERTIES (water-soluble) explain why it can't cross. This is a CHEMICAL level property determining biological behavior.",
+      "wrongExplains": {
+        "0": "Molecular solubility, not color, determines membrane crossing.",
+        "2": "Solubility is the primary issue, not just size.",
+        "3": "Solubility is the primary issue, not just shape."
+      }
     },
     {
-      "q": "The CHEMICAL level of organization determines a drug's ability to cross barriers.",
+      "q": "Which level of organization determines a drug's ability to cross barriers?",
       "options": [
-        "True",
-        "False"
+        "Organ level",
+        "Chemical level — molecular solubility is a chemical property",
+        "Organ system level",
+        "Population level"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Molecular solubility is a chemical property."
+      "explain": "The CHEMICAL level determines a drug's ability to cross barriers. Molecular solubility is a CHEMICAL property.",
+      "wrongExplains": {
+        "0": "Organ level doesn't determine molecular properties.",
+        "2": "Organ system level doesn't determine molecular properties.",
+        "3": "Population level is epidemiology, not molecular properties."
+      }
     },
     {
-      "q": "The failure occurs at the CHEMICAL level - the drug's molecular properties.",
+      "q": "At which level does the therapeutic failure occur?",
       "options": [
-        "True",
-        "False"
+        "Cellular level — neurons reject it",
+        "Chemical level — the drug's molecular properties prevent passage",
+        "Tissue level — brain tissue is too dense",
+        "Organ system level"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The drug is water-soluble, so it can't cross lipid barriers."
+      "explain": "The failure occurs at the CHEMICAL level — the drug is water-soluble, so it can't cross lipid barriers. It's a molecular property issue.",
+      "wrongExplains": {
+        "0": "Neurons don't actively reject it; it can't cross the barrier chemically.",
+        "2": "Tissue density isn't the issue; molecular solubility is.",
+        "3": "The issue is at the molecular/chemical level, not organ system."
+      }
     },
     {
-      "q": "The answer is CHEMICAL level - molecular properties prevent passage.",
+      "q": "Which level of organization explains this drug's failure to reach brain tumors?",
       "options": [
-        "True",
-        "False"
+        "Cellular level",
+        "Chemical level — molecular properties prevent passage",
+        "Tissue level",
+        "Organ level"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not cellular (neurons don't reject it), not tissue (density isn't the issue)."
+      "explain": "The answer is CHEMICAL level. The drug's molecular properties (water-soluble) prevent it from crossing lipid barriers. Not cellular (neurons don't reject it), not tissue (density isn't the issue).",
+      "wrongExplains": {
+        "0": "The problem is molecular properties, not cell rejection.",
+        "2": "The problem is molecular properties, not tissue characteristics.",
+        "3": "The problem is molecular properties, not organ structure."
+      }
     }
   ]
 }

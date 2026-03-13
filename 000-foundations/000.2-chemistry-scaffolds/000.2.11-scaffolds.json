@@ -1,28 +1,159 @@
 {
   "parentId": "000.2.11",
-  "parentQuestion": "A patient in diabetic ketoacidosis presents with rapid, deep breathing (Kussmaul...",
+  "parentQuestion": "A patient in diabetic ketoacidosis presents with rapid, deep breathing (Kussmaul respiration). This breathing pattern is the body's attempt to compensate for metabolic acidosis by ___.",
   "scaffolds": [
+    {
+      "q": "What is acidosis?",
+      "options": [
+        "Blood pH above normal (>7.45)",
+        "Blood pH below normal (<7.35)",
+        "Normal blood pH",
+        "Neutral pH"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "ACIDOSIS means blood pH BELOW NORMAL (<7.35) — too acidic, too many H⁺ ions.",
+      "wrongExplains": {
+        "0": "pH above normal is alkalosis, not acidosis.",
+        "2": "Normal pH (7.35-7.45) is neither acidosis nor alkalosis.",
+        "3": "Neutral is pH 7; blood is normally slightly alkaline."
+      }
+    },
     {
       "q": "What is the relationship between CO₂ and blood acidity?",
       "options": [
         "More CO₂ = more acidic blood",
-        "More CO₂ = more alkaline blood",
-        "CO₂ has no effect on pH"
+        "More CO₂ = less acidic blood",
+        "CO₂ has no effect on pH",
+        "CO₂ only affects temperature"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "More CO₂ means MORE acidic blood. here's the chemistry: CO₂ + H₂O ↔ H₂CO₃ (carbonic acid) ↔ H⁺ + HCO₃⁻. When CO₂ increases, this equilibrium shifts RIGHT, producing more H⁺ (which LOWERS pH = more acidic). When CO₂ decreases (hyperventilation), the equilibrium shifts LEFT, reducing H⁺ (pH rises = less acidic). Open yourself to this:this: every breath you take affects your blood pH. Breathing IS acid-base regulation."
+      "difficulty": "foundation",
+      "explain": "More CO₂ = MORE ACIDIC blood. CO₂ + H₂O → H₂CO₃ → H⁺ + HCO₃⁻. More CO₂ means more H⁺.",
+      "wrongExplains": {
+        "1": "More CO₂ increases acidity, not decreases it.",
+        "2": "CO₂ directly affects pH through carbonic acid.",
+        "3": "CO₂ affects pH, not temperature."
+      }
     },
     {
-      "q": "What does acidosis mean?",
+      "q": "What happens when you breathe faster and deeper?",
       "options": [
-        "Blood pH below normal (< 7.35)",
-        "Blood pH above normal (> 7.45)",
-        "Normal blood pH (7.35-7.45)"
+        "CO₂ increases",
+        "CO₂ decreases (is blown off)",
+        "CO₂ stays the same",
+        "Oxygen decreases"
       ],
-      "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Acidosis means blood pH BELOW normal (< 7.35) — too acidic, too many H⁺ ions. Hold this thought:: normal blood pH is 7.35-7.45 (slightly alkaline). Acidosis disrupts enzyme function, protein structure, and cellular processes. Below 6.8? Incompatible with life. Surrender to the logic here:the narrow margin between health and crisis. pH regulation is CRITICAL."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Faster, deeper breathing BLOWS OFF CO₂, decreasing it in the blood. This is how lungs regulate acid-base balance.",
+      "wrongExplains": {
+        "0": "Hyperventilation decreases CO₂, not increases it.",
+        "2": "Ventilation changes definitely affect CO₂ levels.",
+        "3": "Deep breathing increases oxygen while decreasing CO₂."
+      }
+    },
+    {
+      "q": "If blood is too acidic, what should happen to CO₂ to compensate?",
+      "options": [
+        "CO₂ should increase",
+        "CO₂ should decrease",
+        "CO₂ should stay the same",
+        "CO₂ is not involved"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "If blood is too acidic, CO₂ should DECREASE. Blowing off CO₂ removes acid and raises pH toward normal.",
+      "wrongExplains": {
+        "0": "Increasing CO₂ would make acidosis worse.",
+        "2": "Compensation requires changing CO₂ levels.",
+        "3": "CO₂ is a major factor in acid-base balance."
+      }
+    },
+    {
+      "q": "What is Kussmaul respiration?",
+      "options": [
+        "Slow, shallow breathing",
+        "Rapid, deep breathing to blow off CO₂",
+        "Holding the breath",
+        "Normal breathing"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "KUSSMAUL RESPIRATION is RAPID, DEEP BREATHING to blow off CO₂. It's the body's compensation for metabolic acidosis.",
+      "wrongExplains": {
+        "0": "Kussmaul is rapid and deep, not slow and shallow.",
+        "2": "Kussmaul involves continuous rapid breathing, not breath-holding.",
+        "3": "Kussmaul is abnormal compensation for acidosis."
+      }
+    },
+    {
+      "q": "Why does the body increase breathing in acidosis?",
+      "options": [
+        "To get more oxygen",
+        "To blow off CO₂ and reduce acidity",
+        "To warm up",
+        "To sleep better"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The body increases breathing to BLOW OFF CO₂ and REDUCE ACIDITY. Less CO₂ = less carbonic acid = less H⁺.",
+      "wrongExplains": {
+        "0": "The primary goal is removing CO₂, not just getting oxygen.",
+        "2": "Temperature regulation is not the purpose.",
+        "3": "Sleep is not related to this compensation."
+      }
+    },
+    {
+      "q": "What type of compensation is increased breathing for metabolic acidosis?",
+      "options": [
+        "Metabolic compensation",
+        "Respiratory compensation",
+        "No compensation",
+        "Renal compensation"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Increased breathing is RESPIRATORY COMPENSATION — the lungs blow off CO₂ to counteract metabolic acidosis.",
+      "wrongExplains": {
+        "0": "Kidneys provide metabolic compensation; lungs provide respiratory.",
+        "2": "Kussmaul breathing IS compensation.",
+        "3": "Kidneys provide renal compensation; this is respiratory."
+      }
+    },
+    {
+      "q": "What equation links CO₂, carbonic acid, and pH?",
+      "options": [
+        "CO₂ + O₂ → energy",
+        "CO₂ + H₂O ↔ H₂CO₃ ↔ H⁺ + HCO₃⁻",
+        "CO₂ → CO + O",
+        "H₂O → H₂ + O₂"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "CO₂ + H₂O ↔ H₂CO₃ ↔ H⁺ + HCO₃⁻. This equilibrium links breathing to pH: more CO₂ shifts right (more H⁺), less CO₂ shifts left (less H⁺).",
+      "wrongExplains": {
+        "0": "That's cellular respiration; this is the bicarbonate buffer.",
+        "2": "CO₂ doesn't break apart; it combines with water.",
+        "3": "Water electrolysis is different; this is the buffer equation."
+      }
+    },
+    {
+      "q": "Kussmaul respiration compensates for acidosis by ___?",
+      "options": [
+        "Retaining CO₂ to raise pH",
+        "Blowing off CO₂ to raise pH",
+        "Adding more H⁺",
+        "Stopping all breathing"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Kussmaul respiration compensates by BLOWING OFF CO₂ to RAISE pH. Less CO₂ means less carbonic acid and fewer H⁺ ions.",
+      "wrongExplains": {
+        "0": "Retaining CO₂ would worsen acidosis; blowing it off helps.",
+        "2": "Adding H⁺ would worsen acidosis; the goal is to remove acid.",
+        "3": "Stopping breathing would be fatal, not compensatory."
+      }
     }
   ]
 }

@@ -3,94 +3,157 @@
   "parentQuestion": "Which of the following is the mildest consequence of traumatic brain injury?",
   "scaffolds": [
     {
-      "q": "Traumatic brain injury (TBI) can range from mild to severe.",
+      "q": "What is traumatic brain injury (TBI)?",
       "options": [
-        "True",
-        "False"
+        "A genetic brain condition",
+        "Brain damage caused by external force, ranging from mild to severe",
+        "A type of stroke",
+        "A brain tumor"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! TBI exists on a spectrum - from concussions (temporary dysfunction) to severe injuries with bleeding, swelling, and permanent damage."
+      "explain": "TRAUMATIC BRAIN INJURY (TBI) is brain damage from EXTERNAL FORCE (impact, acceleration). It exists on a spectrum from mild (concussion) to severe.",
+      "wrongExplains": {
+        "0": "TBI is caused by trauma, not genetics.",
+        "2": "Stroke is vascular; TBI is traumatic/mechanical injury.",
+        "3": "Tumors are abnormal growths; TBI is traumatic injury."
+      }
     },
     {
-      "q": "A concussion is a type of traumatic brain injury.",
+      "q": "What is a concussion?",
       "options": [
-        "True",
-        "False"
+        "Permanent brain damage",
+        "The mildest form of TBI — temporary dysfunction without visible structural damage",
+        "A type of brain tumor",
+        "A skull fracture"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Concussions are the mildest form of TBI - temporary disruption of brain function without structural damage visible on imaging."
+      "explain": "A CONCUSSION is the MILDEST form of TBI — TEMPORARY disruption of brain function without structural damage visible on imaging.",
+      "wrongExplains": {
+        "0": "Concussions typically resolve; they're not permanent damage.",
+        "2": "Concussions are traumatic injuries, not tumors.",
+        "3": "Concussions can occur without skull fracture; they're functional disruption."
+      }
     },
     {
-      "q": "Concussions do NOT show visible structural damage on CT or MRI scans.",
+      "q": "Why don't concussions show on CT or MRI scans?",
       "options": [
-        "True",
-        "False"
+        "Because scanners don't work on the brain",
+        "Because there's no visible structural damage — it's functional disruption",
+        "Because they only affect bones",
+        "Because they're too severe to image"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! That's what makes concussions 'mild' - the brain doesn't work right temporarily, but there's no visible tearing, bleeding, or swelling on imaging."
+      "explain": "Concussions don't show on imaging because there's NO VISIBLE STRUCTURAL DAMAGE — the brain doesn't work right temporarily, but there's no tearing or bleeding.",
+      "wrongExplains": {
+        "0": "Scanners do work; concussions just don't cause visible damage.",
+        "2": "Concussions affect brain function, not bones.",
+        "3": "Concussions are mild; more severe injuries show on imaging."
+      }
     },
     {
-      "q": "Concussion symptoms typically resolve within days to weeks.",
+      "q": "How long do concussion symptoms typically last?",
       "options": [
-        "True",
-        "False"
+        "Forever",
+        "Days to weeks — most resolve completely",
+        "Only a few seconds",
+        "Years in all cases"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Most concussions resolve completely. Headache, confusion, dizziness - these symptoms typically clear up as the brain recovers."
+      "explain": "Most concussions RESOLVE COMPLETELY within DAYS TO WEEKS. Headache, confusion, and dizziness clear up as the brain recovers.",
+      "wrongExplains": {
+        "0": "Most concussions resolve; permanent effects are unusual.",
+        "2": "Symptoms last longer than seconds, typically days to weeks.",
+        "3": "Most resolve in weeks; prolonged symptoms are the exception."
+      }
     },
     {
-      "q": "Brain swelling (cerebral edema) is more serious than a concussion.",
+      "q": "What is cerebral edema?",
       "options": [
-        "True",
-        "False"
+        "A mild condition",
+        "Brain swelling — more serious than concussion",
+        "A type of headache",
+        "Normal brain function"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Swelling in a rigid skull increases intracranial pressure, compresses blood vessels, and can be life-threatening. Much worse than a concussion."
+      "explain": "CEREBRAL EDEMA is BRAIN SWELLING. In a rigid skull, swelling increases pressure, compresses blood vessels, and can be LIFE-THREATENING. Much worse than concussion.",
+      "wrongExplains": {
+        "0": "Cerebral edema is serious, not mild.",
+        "2": "Edema is pathological swelling, not just a headache.",
+        "3": "Edema is abnormal swelling, not normal function."
+      }
     },
     {
-      "q": "Brain hemorrhage (bleeding) is more serious than a concussion.",
+      "q": "What is brain hemorrhage?",
       "options": [
-        "True",
-        "False"
+        "The same as concussion",
+        "Bleeding in or around the brain — more serious than concussion",
+        "A temporary headache",
+        "Normal brain function"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Hemorrhage means bleeding - epidural, subdural, or intracerebral. These often require emergency neurosurgery. Far worse than concussion."
+      "explain": "Brain HEMORRHAGE means BLEEDING — epidural, subdural, or intracerebral. These often require emergency neurosurgery. Far worse than concussion.",
+      "wrongExplains": {
+        "0": "Hemorrhage involves bleeding; concussion doesn't.",
+        "2": "Hemorrhage is serious bleeding, not just a headache.",
+        "3": "Hemorrhage is pathological bleeding, not normal."
+      }
     },
     {
-      "q": "'Confusion' is a SYMPTOM, not a category of brain injury.",
+      "q": "What is 'confusion' in the context of TBI?",
       "options": [
-        "True",
-        "False"
+        "A category of brain injury",
+        "A symptom that can accompany various TBI severities",
+        "The most severe TBI type",
+        "A type of surgery"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Confusion can accompany various TBI severities - it's a sign, not a diagnosis. A concussion causes confusion, but so can more severe injuries."
+      "explain": "CONFUSION is a SYMPTOM, not a diagnosis. It can accompany various TBI severities — concussions cause confusion, but so can more severe injuries.",
+      "wrongExplains": {
+        "0": "Confusion is a symptom, not a TBI category.",
+        "2": "Confusion is a symptom seen across severities, not a severity level.",
+        "3": "Confusion is a symptom, not a treatment."
+      }
     },
     {
-      "q": "Concussion is MILDER than swelling, hemorrhage, or contusion.",
+      "q": "Rank these from mildest to most severe: hemorrhage, concussion, edema.",
       "options": [
-        "True",
-        "False"
+        "Hemorrhage → concussion → edema",
+        "Concussion → edema → hemorrhage (all more severe than concussion)",
+        "Edema → hemorrhage → concussion",
+        "They're all equally severe"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Concussion = temporary dysfunction, no structural damage, usually full recovery. Everything else involves visible tissue damage and is more severe."
+      "explain": "CONCUSSION is mildest (temporary dysfunction, no structural damage). EDEMA and HEMORRHAGE involve visible tissue damage and are much more severe.",
+      "wrongExplains": {
+        "0": "Concussion is mildest, not hemorrhage.",
+        "2": "Concussion is mildest, not edema.",
+        "3": "Concussion is clearly milder than bleeding or swelling."
+      }
     },
     {
-      "q": "The answer is CONCUSSION - the mildest form of traumatic brain injury.",
+      "q": "Which is the mildest form of traumatic brain injury?",
       "options": [
-        "True",
-        "False"
+        "Cerebral edema",
+        "Concussion",
+        "Hemorrhage",
+        "Contusion"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not swelling (that's dangerous), not hemorrhage (that's life-threatening), not confusion (that's a symptom, not a diagnosis). CONCUSSION is the mildest TBI."
+      "explain": "CONCUSSION is the MILDEST TBI — temporary dysfunction, no structural damage, usually full recovery. Everything else involves visible tissue damage.",
+      "wrongExplains": {
+        "0": "Edema (swelling) involves structural changes; concussion doesn't.",
+        "2": "Hemorrhage (bleeding) is far more serious than concussion.",
+        "3": "Contusion (bruising) involves structural damage; concussion doesn't."
+      }
     }
   ]
 }

@@ -1,30 +1,159 @@
 {
   "parentId": "000.3.09",
-  "parentQuestion": "A genetic disease causes undigested material to accumulate in cells, leading to ...",
+  "parentQuestion": "A genetic disease causes undigested material to accumulate in cells, leading to organ dysfunction. This most likely involves defective ___.",
   "scaffolds": [
     {
-      "q": "Lysosomes contain ___ enzymes that break down materials.",
+      "q": "What is a lysosome?",
       "options": [
-        "Synthetic",
-        "Hydrolytic",
-        "Photosynthetic",
-        "Replicative"
+        "An energy-producing organelle",
+        "A membrane-bound organelle containing digestive enzymes",
+        "The site of protein synthesis",
+        "The control center of the cell"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Lysosomes are packed with hydrolytic enzymes — enzymes that use water to break chemical bonds and digest macromolecules. They're the cell's demolition crew, darling. Hold the line here:."
+      "difficulty": "foundation",
+      "explain": "A LYSOSOME is a membrane-bound organelle containing DIGESTIVE ENZYMES. It breaks down worn-out organelles, debris, and pathogens.",
+      "wrongExplains": {
+        "0": "Mitochondria produce energy; lysosomes digest.",
+        "2": "Ribosomes synthesize proteins; lysosomes digest.",
+        "3": "The nucleus controls the cell; lysosomes digest."
+      }
     },
     {
-      "q": "An enzyme is a type of ___ that speeds up chemical reactions.",
+      "q": "What is an enzyme?",
       "options": [
-        "Lipid",
-        "Carbohydrate",
-        "Protein",
-        "Nucleic acid"
+        "A type of lipid",
+        "A protein that speeds up chemical reactions",
+        "A nucleic acid",
+        "A carbohydrate"
       ],
-      "answer": 2,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Enzymes are proteins that catalyze (speed up) specific chemical reactions without being consumed in the process. They're biological catalysts — the cell's efficiency experts. Open yourself to this:impressed."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "An ENZYME is a PROTEIN that SPEEDS UP (catalyzes) chemical reactions without being consumed in the process.",
+      "wrongExplains": {
+        "0": "Lipids store energy; enzymes are proteins that catalyze.",
+        "2": "Nucleic acids store genetic info; enzymes are catalytic proteins.",
+        "3": "Carbohydrates provide energy; enzymes are proteins."
+      }
+    },
+    {
+      "q": "What are hydrolytic enzymes?",
+      "options": [
+        "Enzymes that build molecules",
+        "Enzymes that break down molecules using water",
+        "Enzymes that produce ATP",
+        "Enzymes that replicate DNA"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "HYDROLYTIC ENZYMES break down molecules USING WATER (hydrolysis). Lysosomes are packed with hydrolytic enzymes.",
+      "wrongExplains": {
+        "0": "Building molecules is synthesis; hydrolysis breaks down.",
+        "2": "ATP production occurs in mitochondria, not by hydrolytic enzymes.",
+        "3": "DNA replication uses different enzymes (polymerases)."
+      }
+    },
+    {
+      "q": "What happens when lysosomes are defective?",
+      "options": [
+        "ATP production increases",
+        "Undigested material accumulates in cells",
+        "Protein synthesis stops",
+        "Cell division increases"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "When lysosomes are defective, UNDIGESTED MATERIAL ACCUMULATES in cells because waste cannot be properly broken down.",
+      "wrongExplains": {
+        "0": "Mitochondria handle ATP; lysosome defects cause accumulation.",
+        "2": "Ribosomes handle protein synthesis; lysosomes handle digestion.",
+        "3": "Cell division is controlled by the nucleus, not lysosomes."
+      }
+    },
+    {
+      "q": "What are lysosomal storage diseases?",
+      "options": [
+        "Diseases where too many lysosomes form",
+        "Genetic diseases where missing enzymes cause material to accumulate",
+        "Diseases of the mitochondria",
+        "Infections of lysosomes"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "LYSOSOMAL STORAGE DISEASES are genetic diseases where MISSING ENZYMES cause undigested material to ACCUMULATE (e.g., Tay-Sachs disease).",
+      "wrongExplains": {
+        "0": "The problem is missing enzymes, not too many lysosomes.",
+        "2": "Mitochondrial diseases are different; these involve lysosomes.",
+        "3": "These are genetic, not infectious diseases."
+      }
+    },
+    {
+      "q": "What does a lysosome digest?",
+      "options": [
+        "Only proteins",
+        "Worn-out organelles, debris, and engulfed pathogens",
+        "Only lipids",
+        "Only carbohydrates"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Lysosomes digest WORN-OUT ORGANELLES, DEBRIS, and ENGULFED PATHOGENS. They contain many enzyme types for different substrates.",
+      "wrongExplains": {
+        "0": "Lysosomes digest many materials, not just proteins.",
+        "2": "Lysosomes digest many materials, not just lipids.",
+        "3": "Lysosomes digest many materials, not just carbohydrates."
+      }
+    },
+    {
+      "q": "Why are lysosomal enzymes kept inside the lysosome?",
+      "options": [
+        "They need oxygen",
+        "To prevent them from digesting the cell's own components",
+        "They require high temperature",
+        "They are toxic"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Lysosomal enzymes are KEPT INSIDE to prevent them from DIGESTING the cell's own components. The membrane acts as a protective barrier.",
+      "wrongExplains": {
+        "0": "Oxygen availability isn't the reason for compartmentalization.",
+        "2": "Lysosomes work at body temperature, not high temperature.",
+        "3": "They're digestive, not toxic — containment prevents self-digestion."
+      }
+    },
+    {
+      "q": "What is autophagy?",
+      "options": [
+        "Cell death",
+        "The process of lysosomes digesting the cell's own worn-out organelles",
+        "Cell division",
+        "Protein synthesis"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "AUTOPHAGY is the process of lysosomes DIGESTING THE CELL'S OWN worn-out organelles. 'Auto' = self, 'phagy' = eating.",
+      "wrongExplains": {
+        "0": "Cell death is apoptosis; autophagy is self-digestion for recycling.",
+        "2": "Cell division is mitosis; autophagy is organelle recycling.",
+        "3": "Protein synthesis is translation; autophagy is digestion."
+      }
+    },
+    {
+      "q": "A genetic disease causes undigested material to accumulate in cells. This most likely involves defective ___?",
+      "options": [
+        "Mitochondria",
+        "Lysosomes",
+        "Ribosomes",
+        "Golgi apparatus"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Defective LYSOSOMES cause undigested material to accumulate. Missing lysosomal enzymes lead to lysosomal storage diseases.",
+      "wrongExplains": {
+        "0": "Mitochondria produce ATP; lysosomes digest materials.",
+        "2": "Ribosomes make proteins; lysosomes digest waste.",
+        "3": "Golgi packages proteins; lysosomes digest materials."
+      }
     }
   ]
 }

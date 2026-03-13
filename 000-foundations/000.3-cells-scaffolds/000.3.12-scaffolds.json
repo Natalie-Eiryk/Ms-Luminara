@@ -1,30 +1,159 @@
 {
   "parentId": "000.3.12",
-  "parentQuestion": "A patient receives an IV infusion of distilled water by mistake. Red blood cells...",
+  "parentQuestion": "A patient receives an IV infusion of distilled water by mistake. Red blood cells begin to swell and burst. What osmotic process caused this?",
   "scaffolds": [
     {
-      "q": "A solution with LOWER solute concentration than the cell interior is called ___.",
+      "q": "What is tonicity?",
       "options": [
-        "Hypertonic",
-        "Isotonic",
-        "Hypotonic",
-        "Equilibrated"
-      ],
-      "answer": 2,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Hypotonic means 'low solute' relative to the cell — more water, less stuff dissolved in it. Water will move INTO the cell from the hypotonic solution. Hypo = low. Don't lose this thread:, darling."
-    },
-    {
-      "q": "When a red blood cell bursts due to excess water intake, this is called ___.",
-      "options": [
-        "Crenation",
-        "Hemolysis",
-        "Agglutination",
-        "Coagulation"
+        "Cell shape",
+        "The ability of a solution to affect cell volume through osmosis",
+        "Cell color",
+        "Cell division rate"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Hemolysis is the rupture of red blood cells with release of hemoglobin. Hemo = blood, lysis = breaking apart. When osmosis drives too much water into RBCs, they swell and burst. Physics is brutal, darling."
+      "difficulty": "foundation",
+      "explain": "TONICITY is the ability of a solution to affect CELL VOLUME through osmosis. It determines whether cells shrink, swell, or stay the same.",
+      "wrongExplains": {
+        "0": "Tonicity affects shape indirectly by changing volume.",
+        "2": "Tonicity relates to water movement, not color.",
+        "3": "Tonicity affects volume, not division rate."
+      }
+    },
+    {
+      "q": "What is a hypotonic solution?",
+      "options": [
+        "Higher solute than the cell",
+        "Lower solute concentration than the cell interior",
+        "Equal solute to the cell",
+        "No water present"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "A HYPOTONIC solution has LOWER SOLUTE concentration than the cell interior. Water moves INTO the cell, causing swelling.",
+      "wrongExplains": {
+        "0": "Higher solute is hypertonic; hypotonic has less.",
+        "2": "Equal solute is isotonic; hypotonic has less.",
+        "3": "Hypotonic solutions contain water; they have low solute."
+      }
+    },
+    {
+      "q": "What happens to cells in a hypotonic solution?",
+      "options": [
+        "They shrink",
+        "They swell as water enters",
+        "They stay the same",
+        "They divide"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Cells SWELL as WATER ENTERS when placed in a hypotonic solution. Water follows the concentration gradient into the cell.",
+      "wrongExplains": {
+        "0": "Shrinking occurs in hypertonic solutions.",
+        "2": "Staying the same occurs in isotonic solutions.",
+        "3": "Division is unrelated to tonicity."
+      }
+    },
+    {
+      "q": "What is hemolysis?",
+      "options": [
+        "Cell shrinkage",
+        "Red blood cell bursting due to excess water",
+        "Cell division",
+        "Protein synthesis"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "HEMOLYSIS is RED BLOOD CELL BURSTING due to excess water entry. 'Hemo' = blood, 'lysis' = breaking apart.",
+      "wrongExplains": {
+        "0": "Cell shrinkage is crenation; hemolysis is bursting.",
+        "2": "Division is mitosis; hemolysis is cell rupture.",
+        "3": "Protein synthesis is ribosomal; hemolysis is cell lysis."
+      }
+    },
+    {
+      "q": "Is distilled water hypotonic, hypertonic, or isotonic to cells?",
+      "options": [
+        "Hypertonic",
+        "Hypotonic (very low solute)",
+        "Isotonic",
+        "It varies"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Distilled water is HYPOTONIC — it has essentially NO SOLUTES. Water rushes into cells, which have higher solute concentration.",
+      "wrongExplains": {
+        "0": "Hypertonic would have high solute; distilled water has none.",
+        "2": "Isotonic would match cell concentration; distilled water doesn't.",
+        "3": "Distilled water is always hypotonic to cells."
+      }
+    },
+    {
+      "q": "Why is it dangerous to infuse pure water IV?",
+      "options": [
+        "It's too cold",
+        "The hypotonic solution causes cells to swell and burst",
+        "It contains bacteria",
+        "It's too acidic"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Pure water is HYPOTONIC, causing cells to SWELL AND BURST (hemolysis). This releases hemoglobin and can be fatal.",
+      "wrongExplains": {
+        "0": "Temperature isn't the main issue; osmotic damage is.",
+        "2": "Distilled water is sterile; the danger is osmotic.",
+        "3": "Acidity isn't the issue; osmotic imbalance is."
+      }
+    },
+    {
+      "q": "What is crenation?",
+      "options": [
+        "Cell swelling",
+        "Cell shrinkage in a hypertonic solution",
+        "Cell division",
+        "Cell death"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CRENATION is CELL SHRINKAGE in a HYPERTONIC solution. Water leaves the cell, causing it to shrivel.",
+      "wrongExplains": {
+        "0": "Swelling occurs in hypotonic solutions; crenation is shrinkage.",
+        "2": "Division is mitosis; crenation is shrinkage.",
+        "3": "Crenation is shrinkage; severe cases may lead to death."
+      }
+    },
+    {
+      "q": "What IV solution is safe for cells?",
+      "options": [
+        "Distilled water",
+        "Isotonic saline (0.9% NaCl)",
+        "Concentrated salt solution",
+        "Pure alcohol"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "ISOTONIC SALINE (0.9% NaCl) is safe because it matches cell tonicity. Cells neither swell nor shrink.",
+      "wrongExplains": {
+        "0": "Distilled water is hypotonic and causes hemolysis.",
+        "2": "Concentrated salt is hypertonic and causes crenation.",
+        "3": "Alcohol would damage cells through different mechanisms."
+      }
+    },
+    {
+      "q": "A patient receives an IV infusion of distilled water. Red blood cells swell and burst. What osmotic process caused this?",
+      "options": [
+        "Crenation from hypertonic solution",
+        "Hemolysis from hypotonic solution",
+        "No osmosis occurred",
+        "Active transport failure"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "HEMOLYSIS from HYPOTONIC SOLUTION. Distilled water has no solutes, so water rushes into RBCs, causing them to burst.",
+      "wrongExplains": {
+        "0": "Crenation is shrinkage; hemolysis is bursting from swelling.",
+        "2": "Osmosis definitely occurred — water moved into cells.",
+        "3": "This is passive osmosis, not active transport."
+      }
     }
   ]
 }

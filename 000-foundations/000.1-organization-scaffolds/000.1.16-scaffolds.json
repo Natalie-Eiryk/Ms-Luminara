@@ -3,94 +3,157 @@
   "parentQuestion": "A pathologist examines a biopsy showing severe disruption: cells are no longer organized into distinct layers, tissues show loss of specialized architecture, and normal boundaries between structures have disappeared. This loss of structural organization most directly indicates which pathological process?",
   "scaffolds": [
     {
-      "q": "Normal tissues have organized structure - cells arranged in specific patterns.",
+      "q": "What is tissue organization?",
       "options": [
-        "True",
-        "False"
+        "Random cell arrangement",
+        "Cells arranged in specific structural patterns",
+        "Cells floating freely",
+        "No pattern exists in tissues"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Epithelium has layers, muscle fibers are aligned, etc."
+      "explain": "TISSUE ORGANIZATION means cells are arranged in SPECIFIC STRUCTURAL PATTERNS. Epithelium has layers, muscle fibers are aligned, etc.",
+      "wrongExplains": {
+        "0": "Normal tissues have organized, not random, arrangement.",
+        "2": "Tissue cells are anchored in patterns, not floating.",
+        "3": "Tissues definitely have organized patterns."
+      }
     },
     {
-      "q": "Healthy cells stay in their proper locations and maintain boundaries.",
+      "q": "What do healthy cells do regarding tissue boundaries?",
       "options": [
-        "True",
-        "False"
+        "Ignore all boundaries",
+        "Stay in proper locations and maintain boundaries",
+        "Constantly cross boundaries",
+        "Have no awareness of boundaries"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Normal cells respect tissue boundaries."
+      "explain": "Healthy cells STAY IN PROPER LOCATIONS and MAINTAIN BOUNDARIES. Normal cells respect tissue boundaries.",
+      "wrongExplains": {
+        "0": "Healthy cells respect boundaries; ignoring them is abnormal.",
+        "2": "Healthy cells stay within boundaries, not cross them.",
+        "3": "Normal cells have mechanisms to recognize boundaries."
+      }
     },
     {
-      "q": "CANCER cells lose their organization and invade across normal boundaries.",
+      "q": "What happens to cancer cells regarding organization and boundaries?",
       "options": [
-        "True",
-        "False"
+        "They become more organized",
+        "They lose organization and invade across normal boundaries",
+        "They form better layers",
+        "They strengthen boundaries"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! One hallmark of malignancy is loss of normal tissue architecture."
+      "explain": "CANCER CELLS lose organization and INVADE ACROSS NORMAL BOUNDARIES. Loss of normal tissue architecture is a hallmark of malignancy.",
+      "wrongExplains": {
+        "0": "Cancer cells become disorganized, not more organized.",
+        "2": "Cancer disrupts layers, doesn't improve them.",
+        "3": "Cancer breaks down boundaries, doesn't strengthen them."
+      }
     },
     {
-      "q": "Loss of distinct layers and specialized structure = loss of DIFFERENTIATION.",
+      "q": "What is differentiation in the context of cells?",
       "options": [
-        "True",
-        "False"
+        "Cell death",
+        "Cells having specialized structure and function",
+        "Cell division",
+        "Cell movement"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Cancer cells often 'dedifferentiate' and lose specialized features."
+      "explain": "DIFFERENTIATION means cells have SPECIALIZED STRUCTURE AND FUNCTION. Cancer cells often 'dedifferentiate' and lose these specialized features.",
+      "wrongExplains": {
+        "0": "Cell death is apoptosis; differentiation is specialization.",
+        "2": "Cell division is proliferation; differentiation is specialization.",
+        "3": "Cell movement is migration; differentiation is specialization."
+      }
     },
     {
-      "q": "Inflammation causes temporary disruption but PRESERVES underlying structure.",
+      "q": "How does inflammation differ from cancer in tissue effects?",
       "options": [
-        "True",
-        "False"
+        "Inflammation destroys tissue structure permanently",
+        "Inflammation causes temporary disruption but preserves underlying structure",
+        "They affect tissue identically",
+        "Cancer preserves structure better"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Inflammatory cells infiltrate, but the tissue framework remains recognizable."
+      "explain": "INFLAMMATION causes TEMPORARY disruption but PRESERVES underlying structure. The tissue framework remains recognizable, unlike in cancer.",
+      "wrongExplains": {
+        "0": "Inflammation is usually reversible; cancer permanently disrupts.",
+        "2": "They affect tissue very differently.",
+        "3": "Cancer destroys structure; inflammation preserves it."
+      }
     },
     {
-      "q": "Disappearing boundaries between structures = cells INVADING where they shouldn't.",
+      "q": "What does it mean when boundaries between structures disappear?",
       "options": [
-        "True",
-        "False"
+        "Normal healing process",
+        "Cells are invading where they shouldn't be",
+        "Improved tissue function",
+        "Better cell communication"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! This is characteristic of cancer - invasion across normal boundaries."
+      "explain": "Disappearing boundaries means CELLS ARE INVADING where they shouldn't be. This is characteristic of cancer — invasion across normal boundaries.",
+      "wrongExplains": {
+        "0": "Normal healing restores boundaries; cancer destroys them.",
+        "2": "Lost boundaries indicate dysfunction, not improved function.",
+        "3": "Lost boundaries indicate invasion, not communication."
+      }
     },
     {
-      "q": "Cancer = loss of organization + loss of boundaries + loss of specialization.",
+      "q": "What are the pathological hallmarks of malignancy?",
       "options": [
-        "True",
-        "False"
+        "Better organization and stronger boundaries",
+        "Loss of organization, boundaries, and specialization",
+        "Increased cell death only",
+        "Improved tissue function"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! These are pathological hallmarks of malignancy."
+      "explain": "MALIGNANCY hallmarks: LOSS OF ORGANIZATION + LOSS OF BOUNDARIES + LOSS OF SPECIALIZATION. These define cancerous tissue.",
+      "wrongExplains": {
+        "0": "Malignancy shows worse organization and broken boundaries.",
+        "2": "Malignancy involves more than just cell death.",
+        "3": "Malignancy impairs tissue function."
+      }
     },
     {
-      "q": "This biopsy shows features of CANCER - malignant cells losing organization.",
+      "q": "What does the biopsy showing lost layers, architecture, and boundaries indicate?",
       "options": [
-        "True",
-        "False"
+        "Simple inflammation",
+        "Cancer/malignancy",
+        "Normal tissue repair",
+        "Bacterial infection only"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Loss of layers, architecture, and boundaries = malignancy."
+      "explain": "The biopsy shows features of CANCER/MALIGNANCY — loss of layers, architecture, and boundaries are pathological hallmarks of malignant transformation.",
+      "wrongExplains": {
+        "0": "Inflammation preserves structure; this shows permanent disruption.",
+        "2": "Tissue repair restores organization; this shows destruction.",
+        "3": "Infection has different patterns; this is malignant transformation."
+      }
     },
     {
-      "q": "The answer is CANCER - malignant cells lose normal organizational hierarchy.",
+      "q": "The loss of structural organization in this biopsy most directly indicates which pathological process?",
       "options": [
-        "True",
-        "False"
+        "Inflammation",
+        "Cancer — malignant cells losing normal organizational hierarchy",
+        "Infection",
+        "Normal aging"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not inflammation (preserves structure), not infection (different pattern)."
+      "explain": "The answer is CANCER — malignant cells lose normal organizational hierarchy. Inflammation preserves structure, infection shows different patterns.",
+      "wrongExplains": {
+        "0": "Inflammation preserves underlying tissue structure.",
+        "2": "Infection doesn't cause this pattern of organizational loss.",
+        "3": "Normal aging doesn't cause loss of boundaries and layers."
+      }
     }
   ]
 }

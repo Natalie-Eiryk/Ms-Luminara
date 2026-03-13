@@ -3,6 +3,23 @@
   "parentQuestion": "Triglycerides are a poor source of stored energy.",
   "scaffolds": [
     {
+      "q": "What are triglycerides?",
+      "options": [
+        "A type of protein",
+        "Fats made of glycerol and three fatty acid chains",
+        "A type of carbohydrate",
+        "A type of vitamin"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "TRIGLYCERIDES are FATS made of GLYCEROL and THREE FATTY ACID chains. They're the main form of fat stored in adipose tissue.",
+      "wrongExplains": {
+        "0": "Proteins are made of amino acids; triglycerides are fats.",
+        "2": "Carbohydrates are sugars; triglycerides are lipids.",
+        "3": "Vitamins are micronutrients; triglycerides are energy storage fats."
+      }
+    },
+    {
       "q": "What is another common name for triglycerides?",
       "options": [
         "Proteins",
@@ -11,19 +28,132 @@
         "Vitamins"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Triglycerides ARE fats. They consist of three fatty acid chains attached to a glycerol backbone (hence 'tri-glyceride' — three glycerides). they're the main form of fat stored in adipose tissue — your body's energy warehouse. Receive this insight:the molecular architecture: three long hydrocarbon chains, packed with potential energy."
+      "difficulty": "foundation",
+      "explain": "Triglycerides are commonly called FATS. They consist of three fatty acid chains attached to a glycerol backbone.",
+      "wrongExplains": {
+        "0": "Fats and proteins are different macronutrients.",
+        "2": "Sugars are carbohydrates; triglycerides are fats.",
+        "3": "Vitamins are micronutrients; triglycerides are fats."
+      }
     },
     {
-      "q": "Which macronutrient provides the most calories per gram?",
+      "q": "How many calories per gram do carbohydrates provide?",
       "options": [
-        "Carbohydrates (4 kcal/g)",
-        "Proteins (4 kcal/g)",
-        "Fats (9 kcal/g)"
+        "2 kcal/g",
+        "4 kcal/g",
+        "7 kcal/g",
+        "9 kcal/g"
       ],
-      "answer": 2,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Fats provide 9 kcal per gram — more than TWICE the energy of carbohydrates or proteins (both 4 kcal/g). this high energy density makes fat an incredibly efficient storage medium. It's why migrating birds fatten up before long flights, and why your body stores excess energy as fat rather than glycogen. Compact, energy-dense, efficient. Make room for this understanding:the evolutionary logic of this."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Carbohydrates provide 4 KCAL/G. This is the same as proteins (4 kcal/g), but less than fats (9 kcal/g).",
+      "wrongExplains": {
+        "0": "Carbohydrates provide 4 kcal/g, not 2.",
+        "2": "Alcohol provides ~7 kcal/g; carbs provide 4.",
+        "3": "Fats provide 9 kcal/g; carbs provide 4."
+      }
+    },
+    {
+      "q": "How many calories per gram do fats provide?",
+      "options": [
+        "4 kcal/g",
+        "9 kcal/g",
+        "2 kcal/g",
+        "12 kcal/g"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Fats provide 9 KCAL/G — more than TWICE the energy of carbohydrates or proteins (both 4 kcal/g).",
+      "wrongExplains": {
+        "0": "Carbohydrates and proteins provide 4 kcal/g; fats provide 9.",
+        "2": "Fats provide much more than 2 kcal/g.",
+        "3": "Fats provide 9 kcal/g, not 12."
+      }
+    },
+    {
+      "q": "Why are triglycerides efficient for energy storage?",
+      "options": [
+        "They weigh more than carbohydrates",
+        "They pack more than twice the energy per gram compared to carbs",
+        "They dissolve in water easily",
+        "They are easier to digest"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Triglycerides are efficient because they pack MORE THAN TWICE THE ENERGY per gram (9 vs 4 kcal/g) compared to carbohydrates.",
+      "wrongExplains": {
+        "0": "Energy density, not weight, makes fats efficient storage.",
+        "2": "Fats are hydrophobic (don't dissolve in water).",
+        "3": "Fats take longer to digest than carbs."
+      }
+    },
+    {
+      "q": "Where are triglycerides primarily stored in the body?",
+      "options": [
+        "In muscles only",
+        "In adipose tissue (fat cells)",
+        "In bones",
+        "In the brain only"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Triglycerides are primarily stored in ADIPOSE TISSUE (fat cells). This is the body's main energy warehouse.",
+      "wrongExplains": {
+        "0": "Some fat is in muscles, but adipose tissue is the main storage.",
+        "2": "Bones store minerals, not triglycerides.",
+        "3": "The brain uses fat but adipose tissue stores most."
+      }
+    },
+    {
+      "q": "Why does the body store excess energy as fat rather than glycogen?",
+      "options": [
+        "Fat is easier to make",
+        "Fat is more energy-dense, storing more calories in less space",
+        "The body can't make glycogen",
+        "Fat tastes better"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Fat is MORE ENERGY-DENSE, storing more calories in less space. At 9 kcal/g vs 4 kcal/g, fat is much more compact.",
+      "wrongExplains": {
+        "0": "Energy density, not ease of synthesis, is the main reason.",
+        "2": "The body makes glycogen but stores limited amounts.",
+        "3": "Biological efficiency, not taste, drives storage choice."
+      }
+    },
+    {
+      "q": "Are triglycerides a good or poor source of stored energy?",
+      "options": [
+        "Poor — they provide few calories",
+        "Excellent — they provide 9 kcal/g, the highest of any macronutrient",
+        "Poor — they can't be used for energy",
+        "Neither good nor poor"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Triglycerides are an EXCELLENT source of stored energy. At 9 kcal/g, they provide the highest energy density of any macronutrient.",
+      "wrongExplains": {
+        "0": "Fats provide the most calories per gram (9 kcal/g).",
+        "2": "Fats are definitely used for energy, especially during fasting.",
+        "3": "Fats are definitely an excellent energy source."
+      }
+    },
+    {
+      "q": "Is this TRUE: 'Triglycerides are a poor source of stored energy'?",
+      "options": [
+        "True — triglycerides provide little energy",
+        "False — triglycerides are an excellent energy source at 9 kcal/g",
+        "True — only carbohydrates provide energy",
+        "True — fats cannot be metabolized"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "FALSE — Triglycerides are an EXCELLENT source of stored energy. At 9 kcal/g, they're the most energy-dense macronutrient.",
+      "wrongExplains": {
+        "0": "Triglycerides provide MORE energy per gram than carbs or protein.",
+        "2": "All three macronutrients (carbs, fats, proteins) provide energy.",
+        "3": "Fats are metabolized through beta-oxidation."
+      }
     }
   ]
 }

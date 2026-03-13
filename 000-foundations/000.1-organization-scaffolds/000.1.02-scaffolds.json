@@ -3,94 +3,157 @@
   "parentQuestion": "Generally, what is the result of the negative feedback process?",
   "scaffolds": [
     {
-      "q": "Feedback mechanisms help the body respond to changes.",
+      "q": "What is a feedback mechanism?",
       "options": [
-        "True",
-        "False"
+        "A random process",
+        "A control system that helps the body respond to changes",
+        "Only found in the brain",
+        "Only found in muscles"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The body constantly monitors conditions and adjusts its responses."
+      "explain": "A FEEDBACK MECHANISM is a control system that helps the body RESPOND TO CHANGES. The body constantly monitors conditions and adjusts its responses.",
+      "wrongExplains": {
+        "0": "Feedback mechanisms are highly regulated, not random.",
+        "2": "Feedback mechanisms operate throughout the entire body.",
+        "3": "Feedback mechanisms are found in all organ systems."
+      }
     },
     {
-      "q": "NEGATIVE feedback OPPOSES changes from the normal state.",
+      "q": "What does negative feedback do to changes from the normal state?",
       "options": [
-        "True",
-        "False"
+        "Amplifies them",
+        "Opposes them — brings things back toward normal",
+        "Ignores them",
+        "Accelerates them"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! 'Negative' means the response is opposite to the change."
+      "explain": "NEGATIVE FEEDBACK OPPOSES changes from the normal state. 'Negative' means the response is OPPOSITE to the change, returning conditions to normal.",
+      "wrongExplains": {
+        "0": "Amplification is positive feedback; negative opposes.",
+        "2": "Negative feedback actively responds to changes, not ignores.",
+        "3": "Acceleration is positive feedback; negative opposes."
+      }
     },
     {
-      "q": "A thermostat is an example of negative feedback.",
+      "q": "How is a thermostat an example of negative feedback?",
       "options": [
-        "True",
-        "False"
+        "It makes the room hotter when hot",
+        "It opposes temperature deviations — too hot triggers cooling, too cold triggers heating",
+        "It has no effect on temperature",
+        "It amplifies temperature changes"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Room gets too hot, AC turns on. Gets too cold, heater turns on. Opposes deviations."
+      "explain": "A thermostat OPPOSES deviations: Room gets too hot → AC turns on. Gets too cold → heater turns on. It brings temperature back to the set point.",
+      "wrongExplains": {
+        "0": "That would be positive feedback; thermostats oppose changes.",
+        "2": "Thermostats actively regulate temperature.",
+        "3": "Amplification would be positive feedback."
+      }
     },
     {
-      "q": "Blood sugar regulation uses negative feedback.",
+      "q": "How does blood sugar regulation demonstrate negative feedback?",
       "options": [
-        "True",
-        "False"
+        "High glucose triggers more glucose release",
+        "High glucose triggers insulin to lower it; low glucose triggers glucagon to raise it",
+        "Glucose levels are never regulated",
+        "Blood sugar always increases"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Too high glucose? Insulin lowers it. Too low? Glucagon raises it."
+      "explain": "Blood sugar uses NEGATIVE FEEDBACK: Too HIGH glucose → INSULIN lowers it. Too LOW glucose → GLUCAGON raises it. Deviations are opposed.",
+      "wrongExplains": {
+        "0": "That would be positive feedback; glucose regulation opposes changes.",
+        "2": "Blood glucose is tightly regulated by hormones.",
+        "3": "Negative feedback keeps glucose stable, not always increasing."
+      }
     },
     {
-      "q": "HOMEOSTASIS is the body's stable internal environment.",
+      "q": "What is homeostasis?",
       "options": [
-        "True",
-        "False"
+        "Constant change",
+        "The body's stable internal environment",
+        "A disease state",
+        "External temperature"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Temperature, pH, blood pressure - all kept within normal ranges."
+      "explain": "HOMEOSTASIS is the body's STABLE INTERNAL ENVIRONMENT. Temperature, pH, blood pressure — all are kept within normal ranges.",
+      "wrongExplains": {
+        "0": "Homeostasis is stability, not constant change.",
+        "2": "Homeostasis is normal function, not disease.",
+        "3": "Homeostasis is internal stability, not external conditions."
+      }
     },
     {
-      "q": "Negative feedback is the PRIMARY way the body maintains homeostasis.",
+      "q": "Why is negative feedback the PRIMARY way the body maintains homeostasis?",
       "options": [
-        "True",
-        "False"
+        "It amplifies changes",
+        "By opposing changes, it keeps conditions stable",
+        "It has no effect",
+        "It creates instability"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! By opposing changes, negative feedback keeps conditions stable."
+      "explain": "Negative feedback is PRIMARY for homeostasis because by OPPOSING CHANGES, it keeps conditions STABLE within normal ranges.",
+      "wrongExplains": {
+        "0": "Amplification is positive feedback; negative opposes.",
+        "2": "Negative feedback is the main mechanism of homeostasis.",
+        "3": "Negative feedback creates stability, not instability."
+      }
     },
     {
-      "q": "Most body processes use negative feedback to maintain stability.",
+      "q": "Which body processes use negative feedback?",
       "options": [
-        "True",
-        "False"
+        "Only temperature regulation",
+        "Temperature, blood pressure, pH, glucose — most body processes",
+        "Only digestion",
+        "None"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Temperature, blood pressure, pH, glucose - all use negative feedback."
+      "explain": "MOST body processes use negative feedback: temperature, blood pressure, pH, glucose, heart rate, breathing rate, and many more.",
+      "wrongExplains": {
+        "0": "Many processes beyond temperature use negative feedback.",
+        "2": "Negative feedback is used throughout the body, not just digestion.",
+        "3": "Negative feedback is the dominant control mechanism."
+      }
     },
     {
-      "q": "The result of negative feedback is HOMEOSTASIS - stable internal conditions.",
+      "q": "What is the end result of negative feedback?",
       "options": [
-        "True",
-        "False"
+        "Instability",
+        "Homeostasis — stable internal conditions",
+        "Accelerated change",
+        "System failure"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! By opposing deviations, negative feedback maintains a stable state."
+      "explain": "The result of negative feedback is HOMEOSTASIS — STABLE INTERNAL CONDITIONS. By opposing deviations, negative feedback maintains a stable state.",
+      "wrongExplains": {
+        "0": "Negative feedback creates stability, not instability.",
+        "2": "Negative feedback slows/reverses change, not accelerates.",
+        "3": "Negative feedback maintains function, not causes failure."
+      }
     },
     {
-      "q": "The answer is 'to maintain homeostasis.'",
+      "q": "Generally, what is the result of negative feedback?",
       "options": [
-        "True",
-        "False"
+        "Amplification of changes",
+        "Maintenance of homeostasis",
+        "System breakdown",
+        "Positive feedback"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Negative feedback opposes changes to keep the body stable."
+      "explain": "The result of negative feedback is MAINTENANCE OF HOMEOSTASIS. Negative feedback opposes changes to keep the body stable.",
+      "wrongExplains": {
+        "0": "Amplification is positive feedback; negative maintains stability.",
+        "2": "Negative feedback maintains function, prevents breakdown.",
+        "3": "Negative and positive feedback are different mechanisms."
+      }
     }
   ]
 }

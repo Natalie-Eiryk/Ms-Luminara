@@ -1,30 +1,159 @@
 {
   "parentId": "000.4.07",
-  "parentQuestion": "A bacterial toxin creates unregulated pores in cell membranes, causing rapid cel...",
+  "parentQuestion": "A bacterial toxin creates unregulated pores in cell membranes, causing rapid cell death. This disrupts membrane function by ___.",
   "scaffolds": [
     {
-      "q": "What happens to a cell placed in pure water (hypotonic solution)?",
+      "q": "What is the function of the cell membrane?",
+      "options": [
+        "Only structure",
+        "Controlling what enters and exits the cell (selective permeability)",
+        "Only energy production",
+        "Only protein synthesis"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The cell membrane CONTROLS WHAT ENTERS AND EXITS the cell (SELECTIVE PERMEABILITY). It maintains the internal environment.",
+      "wrongExplains": {
+        "0": "Structure is one function; selective permeability is key.",
+        "2": "Mitochondria produce energy; the membrane controls transport.",
+        "3": "Ribosomes synthesize proteins; the membrane controls transport."
+      }
+    },
+    {
+      "q": "What is selective permeability?",
+      "options": [
+        "Allowing everything through",
+        "Allowing some substances through while blocking others",
+        "Blocking everything",
+        "Only allowing water"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "SELECTIVE PERMEABILITY means allowing SOME SUBSTANCES through while BLOCKING OTHERS. This maintains cell homeostasis.",
+      "wrongExplains": {
+        "0": "Allowing everything would be fully permeable.",
+        "2": "Blocking everything would be impermeable.",
+        "3": "Many substances pass, not just water."
+      }
+    },
+    {
+      "q": "What happens when unregulated pores form in membranes?",
+      "options": [
+        "Nothing — cells adapt",
+        "Ions and molecules leak freely, disrupting cell function",
+        "Cells become stronger",
+        "Only water leaks out"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "UNREGULATED PORES allow ions and molecules to LEAK FREELY, destroying concentration gradients and DISRUPTING cell function.",
+      "wrongExplains": {
+        "0": "Cells cannot adapt to loss of membrane integrity.",
+        "2": "Pore formation damages cells; it doesn't strengthen them.",
+        "3": "Many substances leak, not just water."
+      }
+    },
+    {
+      "q": "What molecules can normally cross the lipid bilayer freely?",
+      "options": [
+        "Ions like Na⁺ and Cl⁻",
+        "Small nonpolar molecules like O₂ and CO₂",
+        "Large proteins",
+        "Glucose"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "SMALL NONPOLAR MOLECULES (O₂, CO₂, steroid hormones) can cross the hydrophobic lipid bilayer freely. Ions and polar molecules need help.",
+      "wrongExplains": {
+        "0": "Ions are charged and need channels to cross.",
+        "2": "Large proteins cannot cross the bilayer directly.",
+        "3": "Glucose is polar and needs transport proteins."
+      }
+    },
+    {
+      "q": "What happens to a cell in a hypotonic solution?",
       "options": [
         "It shrinks",
-        "It swells",
-        "Nothing happens",
+        "It swells as water enters",
+        "Nothing changes",
         "It divides"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "The cell swells! Water moves by osmosis from areas of HIGH water concentration (pure water) to LOW water concentration (inside the cell, where dissolved solutes reduce water concentration). Water rushes in, the cell expands. If the membrane ruptures, that's lysis. Dramatic? Yes. Physics? Absolutely."
+      "difficulty": "foundation",
+      "explain": "In a HYPOTONIC solution, water enters the cell causing it to SWELL. If swelling is excessive, the cell may burst (lyse).",
+      "wrongExplains": {
+        "0": "Shrinking occurs in hypertonic solutions.",
+        "2": "Osmosis causes water movement and volume changes.",
+        "3": "Division is unrelated to tonicity."
+      }
     },
     {
-      "q": "Which molecules can cross the lipid bilayer easily without protein help?",
+      "q": "Why do cells maintain ion gradients?",
       "options": [
-        "Ions like Na⁺ and Cl⁻",
-        "Large polar molecules like glucose",
-        "Small nonpolar molecules like O₂ and CO₂",
-        "Proteins"
+        "For no particular reason",
+        "For nerve signaling, muscle contraction, and transport processes",
+        "Only for decoration",
+        "To waste energy"
       ],
-      "answer": 2,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Small, nonpolar molecules (O₂, CO₂, steroid hormones) slip through the hydrophobic lipid bilayer easily. Ions and polar molecules need protein channels or carriers. Size and polarity determine permeability. Simple, elegant chemistry."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Ion gradients power NERVE SIGNALING (action potentials), MUSCLE CONTRACTION, and TRANSPORT processes (secondary active transport).",
+      "wrongExplains": {
+        "0": "Ion gradients are essential for multiple functions.",
+        "2": "Ion gradients are functional, not decorative.",
+        "3": "Maintaining gradients is essential, not wasteful."
+      }
+    },
+    {
+      "q": "What is cell lysis?",
+      "options": [
+        "Cell division",
+        "Cell bursting or rupture",
+        "Cell growth",
+        "Cell differentiation"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CELL LYSIS is cell BURSTING or RUPTURE. 'Lysis' means breaking apart. It can occur from osmotic stress or membrane damage.",
+      "wrongExplains": {
+        "0": "Cell division is mitosis; lysis is rupture.",
+        "2": "Cell growth is enlargement; lysis is destruction.",
+        "3": "Differentiation is specialization; lysis is rupture."
+      }
+    },
+    {
+      "q": "How do pore-forming toxins kill cells?",
+      "options": [
+        "By providing extra nutrients",
+        "By destroying membrane integrity and ion gradients",
+        "By helping cells divide",
+        "By strengthening the membrane"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Pore-forming toxins DESTROY MEMBRANE INTEGRITY and ION GRADIENTS. Without controlled permeability, cells lose homeostasis and die.",
+      "wrongExplains": {
+        "0": "Toxins don't provide nutrients; they damage membranes.",
+        "2": "Toxins kill cells, not help them divide.",
+        "3": "Toxins weaken membranes by creating holes."
+      }
+    },
+    {
+      "q": "A bacterial toxin creates unregulated pores in cell membranes. This disrupts membrane function by ___?",
+      "options": [
+        "Strengthening the membrane",
+        "Destroying selective permeability and allowing uncontrolled ion flow",
+        "Helping cells regulate better",
+        "Adding more proteins"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Unregulated pores DESTROY SELECTIVE PERMEABILITY, allowing UNCONTROLLED ION FLOW. This collapses gradients and kills cells.",
+      "wrongExplains": {
+        "0": "Pores weaken membranes; they don't strengthen them.",
+        "2": "Pores cause loss of regulation, not better regulation.",
+        "3": "The damage is from holes, not protein addition."
+      }
     }
   ]
 }

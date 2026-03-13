@@ -3,94 +3,157 @@
   "parentQuestion": "A patient develops a rare autoimmune condition where antibodies attack the tight junctions between endothelial cells lining blood vessels throughout the body. Which physiological consequence would you predict?",
   "scaffolds": [
     {
-      "q": "Blood vessels have walls that control what enters and leaves the bloodstream.",
+      "q": "What are tight junctions?",
       "options": [
-        "True",
-        "False"
+        "Loose connections between cells",
+        "Seals between cells that control permeability",
+        "Channels that allow everything through",
+        "Connections that have no function"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The vessel wall acts as a selective barrier."
+      "explain": "TIGHT JUNCTIONS are SEALS between cells that CONTROL PERMEABILITY. They're like gaskets that prevent leakage between cells.",
+      "wrongExplains": {
+        "0": "Tight junctions are tight seals, not loose connections.",
+        "2": "Tight junctions restrict passage, not allow everything through.",
+        "3": "Tight junctions have critical barrier functions."
+      }
     },
     {
-      "q": "TIGHT JUNCTIONS seal the gaps between cells, controlling permeability.",
+      "q": "What do blood vessel walls do?",
       "options": [
-        "True",
-        "False"
+        "Allow everything to pass freely",
+        "Control what enters and leaves the bloodstream",
+        "Block all substances completely",
+        "Have no selective function"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! They're like gaskets that prevent leakage between cells."
+      "explain": "Blood vessel walls CONTROL what enters and leaves the bloodstream. The vessel wall acts as a selective barrier.",
+      "wrongExplains": {
+        "0": "Vessel walls are selective, not freely permeable.",
+        "2": "Vessel walls allow selective passage, not complete blockage.",
+        "3": "Vessel walls definitely have selective barrier function."
+      }
     },
     {
-      "q": "When tight junctions are damaged, fluid and proteins can LEAK out of vessels.",
+      "q": "What happens when tight junctions are damaged?",
       "options": [
-        "True",
-        "False"
+        "Nothing changes",
+        "Fluid and proteins leak out of vessels",
+        "Blood pressure increases dramatically",
+        "Oxygen delivery improves"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The vessel wall becomes 'leaky' and substances escape."
+      "explain": "When tight junctions are damaged, FLUID AND PROTEINS LEAK out of vessels. The vessel wall becomes 'leaky.'",
+      "wrongExplains": {
+        "0": "Damaged tight junctions cause significant leakage.",
+        "2": "Tight junction damage causes leakage, not primarily blood pressure change.",
+        "3": "Tight junction damage impairs barrier function, not oxygen delivery."
+      }
     },
     {
-      "q": "EDEMA is swelling caused by fluid accumulating in tissues.",
+      "q": "What is edema?",
       "options": [
-        "True",
-        "False"
+        "A type of blood cell",
+        "Swelling caused by fluid accumulating in tissues",
+        "A blood clotting disorder",
+        "A type of muscle contraction"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Fluid that should stay in blood vessels leaks into surrounding tissue."
+      "explain": "EDEMA is SWELLING caused by FLUID ACCUMULATING IN TISSUES. Fluid that should stay in blood vessels leaks into surrounding tissue.",
+      "wrongExplains": {
+        "0": "Edema is tissue swelling, not a blood cell type.",
+        "2": "Edema involves fluid, not blood clotting.",
+        "3": "Edema is tissue swelling, not muscle contraction."
+      }
     },
     {
-      "q": "Damaged tight junctions → increased permeability → fluid leaks into tissues.",
+      "q": "What is the pathway from damaged tight junctions to edema?",
       "options": [
-        "True",
-        "False"
+        "Tight junctions → better barrier → less fluid",
+        "Tight junctions damaged → increased permeability → fluid leaks into tissues",
+        "Tight junctions → blood clotting → swelling",
+        "Tight junctions → muscle relaxation → fluid shift"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! This causes widespread edema throughout the body."
+      "explain": "Damaged tight junctions → INCREASED PERMEABILITY → FLUID LEAKS INTO TISSUES. This causes edema (swelling).",
+      "wrongExplains": {
+        "0": "Damaged junctions worsen the barrier, causing leakage.",
+        "2": "Edema from tight junction damage involves permeability, not clotting.",
+        "3": "Edema from tight junction damage involves permeability, not muscle relaxation."
+      }
     },
     {
-      "q": "This condition would cause WIDESPREAD EDEMA as vessels leak everywhere.",
+      "q": "If tight junctions in blood vessels throughout the body are attacked, what would happen?",
       "options": [
-        "True",
-        "False"
+        "Localized swelling only",
+        "Widespread edema as vessels leak everywhere",
+        "Improved circulation",
+        "No effect on fluid balance"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Every blood vessel in the body would become leaky."
+      "explain": "If tight junctions throughout the body are attacked, WIDESPREAD EDEMA occurs as vessels leak everywhere.",
+      "wrongExplains": {
+        "0": "Body-wide attack causes widespread, not localized, edema.",
+        "2": "Leaky vessels impair circulation, not improve it.",
+        "3": "Leaky vessels definitely affect fluid balance."
+      }
     },
     {
-      "q": "Clotting and blood pressure are NOT directly affected by tight junction damage.",
+      "q": "Are clotting and blood pressure directly affected by tight junction damage?",
       "options": [
-        "True",
-        "False"
+        "Yes, clotting is the main effect",
+        "No, those involve different mechanisms",
+        "Yes, blood pressure is the main effect",
+        "Yes, both are equally affected"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Those involve different mechanisms than tight junction integrity."
+      "explain": "CLOTTING and BLOOD PRESSURE are NOT directly affected by tight junction damage. Those involve different mechanisms than tight junction integrity.",
+      "wrongExplains": {
+        "0": "Clotting involves platelets and coagulation factors, not tight junctions.",
+        "2": "Blood pressure involves cardiac output and vessel tone, not primarily tight junctions.",
+        "3": "Tight junction damage primarily affects permeability/fluid balance."
+      }
     },
     {
-      "q": "Attacking tight junctions causes WIDESPREAD EDEMA from leaky vessels.",
+      "q": "What makes autoimmune attack on tight junctions cause body-wide problems?",
       "options": [
-        "True",
-        "False"
+        "Only local vessels are affected",
+        "Every blood vessel in the body becomes leaky simultaneously",
+        "Only large vessels are affected",
+        "Only small vessels are affected"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Increased vascular permeability = fluid accumulation in tissues."
+      "explain": "Autoimmune attack causes body-wide problems because EVERY BLOOD VESSEL in the body becomes leaky simultaneously.",
+      "wrongExplains": {
+        "0": "Autoimmune conditions affect vessels throughout the body.",
+        "2": "All vessel sizes with endothelium are affected.",
+        "3": "All vessel sizes with endothelium are affected."
+      }
     },
     {
-      "q": "The answer is WIDESPREAD EDEMA - fluid leaking from vessels into tissues.",
+      "q": "Which physiological consequence would you predict from autoimmune attack on tight junctions?",
       "options": [
-        "True",
-        "False"
+        "Impaired oxygen delivery",
+        "Widespread edema from leaky vessels",
+        "Increased blood clotting",
+        "Vasodilation"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not oxygen delivery (hemoglobin issue), not clotting, not vasodilation."
+      "explain": "The answer is WIDESPREAD EDEMA from leaky vessels. Tight junction damage → increased vascular permeability → fluid accumulation in tissues.",
+      "wrongExplains": {
+        "0": "Oxygen delivery involves hemoglobin, not tight junctions.",
+        "2": "Clotting involves different mechanisms than tight junctions.",
+        "3": "Vasodilation involves vessel tone, not tight junction integrity."
+      }
     }
   ]
 }

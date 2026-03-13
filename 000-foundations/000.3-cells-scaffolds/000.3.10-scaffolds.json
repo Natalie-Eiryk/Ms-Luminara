@@ -1,30 +1,159 @@
 {
   "parentId": "000.3.10",
-  "parentQuestion": "A patient presents with severe muscle weakness and exercise intolerance. Lab tes...",
+  "parentQuestion": "A patient presents with severe muscle weakness and exercise intolerance. Lab tests reveal elevated lactic acid levels. This suggests a problem with ___.",
   "scaffolds": [
     {
-      "q": "Mitochondria produce ___ through cellular respiration.",
+      "q": "What is aerobic respiration?",
       "options": [
-        "DNA",
-        "ATP",
-        "Protein",
-        "Glucose"
+        "Respiration without oxygen",
+        "Respiration using oxygen to produce ATP",
+        "Breathing air",
+        "Photosynthesis"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Mitochondria are the 'powerhouses' that produce ATP — the cell's energy currency — through aerobic respiration. They're your cellular power plants, darling."
+      "difficulty": "foundation",
+      "explain": "AEROBIC RESPIRATION uses OXYGEN to produce ATP efficiently. It occurs in mitochondria and yields 36-38 ATP per glucose.",
+      "wrongExplains": {
+        "0": "Without oxygen is anaerobic; aerobic requires oxygen.",
+        "2": "Breathing is external respiration; cellular respiration makes ATP.",
+        "3": "Photosynthesis is in plants; aerobic respiration is in all cells."
+      }
     },
     {
-      "q": "Lactic acid is produced during ___ when oxygen is scarce.",
+      "q": "What is anaerobic respiration?",
       "options": [
-        "Photosynthesis",
-        "Glycolysis",
-        "DNA replication",
+        "Respiration requiring oxygen",
+        "Respiration without oxygen, producing less ATP",
+        "Mitochondrial function",
         "Protein synthesis"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "When oxygen is limited, cells perform glycolysis and convert pyruvate to lactate (lactic acid) to regenerate NAD+ and keep glycolysis running. It's metabolic desperation, darling — not efficient, but it keeps you alive."
+      "difficulty": "foundation",
+      "explain": "ANAEROBIC RESPIRATION occurs WITHOUT OXYGEN and produces less ATP (only 2 ATP from glycolysis).",
+      "wrongExplains": {
+        "0": "Aerobic requires oxygen; anaerobic doesn't.",
+        "2": "Mitochondria need oxygen; anaerobic respiration bypasses them.",
+        "3": "Protein synthesis is different; anaerobic respiration makes limited ATP."
+      }
+    },
+    {
+      "q": "What is lactic acid?",
+      "options": [
+        "A product of aerobic respiration",
+        "A byproduct of anaerobic metabolism when oxygen is scarce",
+        "A type of protein",
+        "A vitamin"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "LACTIC ACID is a byproduct of ANAEROBIC METABOLISM. When oxygen is scarce, pyruvate is converted to lactate.",
+      "wrongExplains": {
+        "0": "Aerobic respiration produces CO₂ and water, not lactic acid.",
+        "2": "Lactic acid is a small organic acid, not a protein.",
+        "3": "Lactic acid is a metabolic byproduct, not a vitamin."
+      }
+    },
+    {
+      "q": "Why does lactic acid accumulate when mitochondria are defective?",
+      "options": [
+        "Mitochondria normally produce lactic acid",
+        "Cells must use anaerobic pathways when mitochondria can't use oxygen",
+        "Lactic acid is a normal mitochondrial product",
+        "Mitochondria store lactic acid"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "When mitochondria are defective, cells CAN'T USE OXYGEN efficiently and must rely on ANAEROBIC PATHWAYS, producing lactic acid.",
+      "wrongExplains": {
+        "0": "Normal mitochondria produce CO₂, not lactic acid.",
+        "2": "Lactic acid comes from anaerobic glycolysis, not mitochondria.",
+        "3": "Mitochondria don't store lactic acid; they're not functioning properly."
+      }
+    },
+    {
+      "q": "What causes exercise intolerance in mitochondrial disease?",
+      "options": [
+        "Too much ATP production",
+        "Inability to produce enough ATP for muscle demand",
+        "Excessive oxygen use",
+        "Too many mitochondria"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "EXERCISE INTOLERANCE occurs because defective mitochondria CAN'T PRODUCE ENOUGH ATP to meet the high energy demands of working muscles.",
+      "wrongExplains": {
+        "0": "The problem is too little ATP, not too much.",
+        "2": "The problem is inability to use oxygen properly.",
+        "3": "Having more mitochondria would help; the problem is they're defective."
+      }
+    },
+    {
+      "q": "Why do muscles need so much ATP?",
+      "options": [
+        "For DNA replication",
+        "For contraction and relaxation",
+        "For lipid storage",
+        "For hormone production"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Muscles need ATP for CONTRACTION AND RELAXATION. Myosin uses ATP to power the cross-bridge cycle of muscle contraction.",
+      "wrongExplains": {
+        "0": "DNA replication needs some ATP but isn't the main muscle demand.",
+        "2": "Lipid storage doesn't require as much ATP as contraction.",
+        "3": "Muscle isn't a primary hormone producer."
+      }
+    },
+    {
+      "q": "What organs are commonly affected by mitochondrial disease?",
+      "options": [
+        "Only skin",
+        "Muscles, brain, heart — high-energy demand organs",
+        "Only bones",
+        "Only hair and nails"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "MUSCLES, BRAIN, and HEART are commonly affected because they have HIGH ENERGY DEMANDS and depend heavily on mitochondria.",
+      "wrongExplains": {
+        "0": "Skin has lower energy demands than muscles and brain.",
+        "2": "Bones have lower energy demands than muscles and brain.",
+        "3": "Hair and nails have low metabolic activity."
+      }
+    },
+    {
+      "q": "What is the relationship between mitochondria and fatigue?",
+      "options": [
+        "Mitochondria cause fatigue",
+        "Defective mitochondria can't supply enough ATP, causing early fatigue",
+        "Mitochondria prevent fatigue",
+        "There is no relationship"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "DEFECTIVE MITOCHONDRIA can't supply enough ATP, causing EARLY FATIGUE. Muscles run out of energy quickly during exercise.",
+      "wrongExplains": {
+        "0": "Healthy mitochondria prevent fatigue by supplying ATP.",
+        "2": "Healthy mitochondria help delay fatigue; defective ones cause it.",
+        "3": "There's a direct relationship between mitochondrial function and fatigue."
+      }
+    },
+    {
+      "q": "A patient presents with severe muscle weakness and elevated lactic acid. This suggests a problem with ___?",
+      "options": [
+        "Ribosomes",
+        "Mitochondria",
+        "Lysosomes",
+        "Golgi apparatus"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Elevated LACTIC ACID with muscle weakness suggests MITOCHONDRIAL dysfunction. Cells can't use oxygen and rely on anaerobic pathways.",
+      "wrongExplains": {
+        "0": "Ribosomes make proteins; mitochondria produce ATP.",
+        "2": "Lysosomes digest waste; mitochondria produce ATP.",
+        "3": "Golgi packages proteins; mitochondria produce ATP."
+      }
     }
   ]
 }

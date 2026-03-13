@@ -3,27 +3,157 @@
   "parentQuestion": "In anatomical position, the ulna is ___ to the radius.",
   "scaffolds": [
     {
-      "q": "What does 'medial' mean in anatomical terms?",
+      "q": "What is anatomical position?",
+      "options": [
+        "Lying face down",
+        "Standing upright, facing forward, arms at sides, palms forward",
+        "Sitting cross-legged",
+        "Lying on one side"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "ANATOMICAL POSITION is STANDING UPRIGHT, facing forward, arms at sides, PALMS FORWARD. All anatomical terms reference this position.",
+      "wrongExplains": {
+        "0": "Lying face down is prone position; anatomical position is standing.",
+        "2": "Sitting isn't anatomical position; it's standing upright.",
+        "3": "Lying on one side is lateral recumbent; anatomical position is standing."
+      }
+    },
+    {
+      "q": "What does medial mean?",
       "options": [
         "Away from the body midline",
-        "Toward the body midline",
+        "Toward the body midline (center)",
         "Above",
         "Below"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Medial means toward the midline (center) of your body. Lateral means away from the midline. Think: the nose is medial to the eyes. Your pinky is medial to your thumb. Simple, elegant, precise."
+      "difficulty": "foundation",
+      "explain": "MEDIAL means TOWARD THE MIDLINE (center) of the body. The nose is medial to the eyes.",
+      "wrongExplains": {
+        "0": "Away from midline is lateral; medial is toward midline.",
+        "2": "Above is superior; medial refers to left-right position.",
+        "3": "Below is inferior; medial refers to left-right position."
+      }
     },
     {
-      "q": "In anatomical position, which bone is on the thumb side of the forearm?",
+      "q": "What does lateral mean?",
+      "options": [
+        "Toward the midline",
+        "Away from the body midline (toward the sides)",
+        "Above",
+        "Below"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "LATERAL means AWAY FROM THE MIDLINE (toward the sides). The ears are lateral to the nose.",
+      "wrongExplains": {
+        "0": "Toward midline is medial; lateral is away from midline.",
+        "2": "Above is superior; lateral refers to side position.",
+        "3": "Below is inferior; lateral refers to side position."
+      }
+    },
+    {
+      "q": "What is the ulna?",
+      "options": [
+        "The upper arm bone",
+        "The forearm bone on the pinky side",
+        "A bone in the leg",
+        "A bone in the foot"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The ULNA is the forearm bone on the PINKY (MEDIAL) SIDE. It forms the point of the elbow.",
+      "wrongExplains": {
+        "0": "The upper arm bone is the humerus.",
+        "2": "Leg bones are tibia and fibula.",
+        "3": "Foot bones include tarsals and metatarsals."
+      }
+    },
+    {
+      "q": "What is the radius?",
+      "options": [
+        "The forearm bone on the pinky side",
+        "The forearm bone on the thumb side",
+        "The upper arm bone",
+        "A bone in the hand"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The RADIUS is the forearm bone on the THUMB (LATERAL) SIDE. It rotates during pronation and supination.",
+      "wrongExplains": {
+        "0": "The pinky side bone is the ulna.",
+        "2": "The upper arm bone is the humerus.",
+        "3": "Hand bones are carpals, metacarpals, and phalanges."
+      }
+    },
+    {
+      "q": "In anatomical position, which bone is on the thumb side?",
       "options": [
         "Ulna",
         "Radius",
-        "Humerus"
+        "Humerus",
+        "Scapula"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "The radius is on the lateral (thumb) side of the forearm. The ulna is on the medial (pinky) side. The humerus is the upper arm bone — wrong neighborhood entirely. Let me guide you to the right location."
+      "difficulty": "foundation",
+      "explain": "The RADIUS is on the THUMB (lateral) side of the forearm. The ulna is on the pinky (medial) side.",
+      "wrongExplains": {
+        "0": "The ulna is on the pinky side; radius is on thumb side.",
+        "2": "The humerus is the upper arm bone.",
+        "3": "The scapula is the shoulder blade."
+      }
+    },
+    {
+      "q": "Which side of the forearm is the pinky on?",
+      "options": [
+        "Lateral side",
+        "Medial side",
+        "Superior side",
+        "Inferior side"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The pinky is on the MEDIAL SIDE of the forearm (closer to the body's midline in anatomical position).",
+      "wrongExplains": {
+        "0": "Lateral is the thumb side; medial is the pinky side.",
+        "2": "Superior refers to up/down, not side position.",
+        "3": "Inferior refers to up/down, not side position."
+      }
+    },
+    {
+      "q": "Is the ulna medial or lateral to the radius?",
+      "options": [
+        "Lateral (farther from midline)",
+        "Medial (closer to midline)",
+        "Superior (above)",
+        "Inferior (below)"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The ulna is MEDIAL (closer to the midline) to the radius. The ulna is on the pinky side, which is closer to the body's center.",
+      "wrongExplains": {
+        "0": "The radius is lateral (thumb side); the ulna is medial (pinky side).",
+        "2": "Superior/inferior describe up/down, not side relationships.",
+        "3": "The bones are side-by-side, not above/below each other."
+      }
+    },
+    {
+      "q": "In anatomical position, the ulna is ___ to the radius?",
+      "options": [
+        "Lateral",
+        "Medial",
+        "Superior",
+        "Inferior"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The ulna is MEDIAL to the radius. The ulna is on the pinky side (closer to midline); the radius is on the thumb side (lateral).",
+      "wrongExplains": {
+        "0": "Lateral means farther from midline — that's the radius.",
+        "2": "Superior means above; these bones are side-by-side.",
+        "3": "Inferior means below; these bones are side-by-side."
+      }
     }
   ]
 }

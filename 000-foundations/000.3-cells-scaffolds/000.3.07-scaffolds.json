@@ -3,28 +3,157 @@
   "parentQuestion": "The 'rough' in rough endoplasmic reticulum refers to ___.",
   "scaffolds": [
     {
-      "q": "Ribosomes are the organelles responsible for making ___.",
+      "q": "What is the endoplasmic reticulum (ER)?",
       "options": [
-        "DNA",
-        "Lipids",
-        "Proteins",
-        "Carbohydrates"
-      ],
-      "answer": 2,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Ribosomes are the sites of protein synthesis. They read mRNA instructions and assemble amino acids into proteins. They're molecular 3D printers. Open your mind to this:impressed, darling."
-    },
-    {
-      "q": "The endoplasmic reticulum (ER) is a network of ___ within the cell.",
-      "options": [
-        "DNA strands",
-        "Membranes",
-        "Fibers",
-        "Channels"
+        "The energy-producing organelle",
+        "A network of membranes involved in synthesis and transport",
+        "The control center of the cell",
+        "The digestive organelle"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "The ER is an extensive network of membranous tubes and sacs. It comes in two forms: rough ER (with ribosomes) and smooth ER (without ribosomes). Think of it as the cell's internal highway system. Navigate this together:."
+      "difficulty": "foundation",
+      "explain": "The ENDOPLASMIC RETICULUM (ER) is a NETWORK OF MEMBRANES involved in synthesis and transport of proteins and lipids.",
+      "wrongExplains": {
+        "0": "Mitochondria produce energy; ER synthesizes and transports.",
+        "2": "The nucleus is the control center; ER is for synthesis.",
+        "3": "Lysosomes digest; ER synthesizes."
+      }
+    },
+    {
+      "q": "What is a ribosome?",
+      "options": [
+        "An energy producer",
+        "The site of protein synthesis",
+        "A lipid storage organelle",
+        "The genetic material"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "A RIBOSOME is the site of PROTEIN SYNTHESIS. Ribosomes read mRNA and assemble amino acids into proteins.",
+      "wrongExplains": {
+        "0": "Mitochondria produce energy; ribosomes make proteins.",
+        "2": "Smooth ER and adipocytes store lipids; ribosomes make proteins.",
+        "3": "DNA is genetic material; ribosomes are protein factories."
+      }
+    },
+    {
+      "q": "What is rough ER?",
+      "options": [
+        "ER without any ribosomes",
+        "ER studded with ribosomes on its surface",
+        "ER that makes lipids",
+        "The same as smooth ER"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "ROUGH ER is ER STUDDED WITH RIBOSOMES on its surface. The ribosomes give it a 'rough' appearance under a microscope.",
+      "wrongExplains": {
+        "0": "ER without ribosomes is smooth ER.",
+        "2": "Smooth ER makes lipids; rough ER makes proteins.",
+        "3": "Rough and smooth ER differ in ribosomes and function."
+      }
+    },
+    {
+      "q": "What is smooth ER?",
+      "options": [
+        "ER with ribosomes",
+        "ER without ribosomes that makes lipids and detoxifies",
+        "The nuclear envelope",
+        "The same as rough ER"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "SMOOTH ER is ER WITHOUT RIBOSOMES. It synthesizes LIPIDS and DETOXIFIES harmful substances.",
+      "wrongExplains": {
+        "0": "ER with ribosomes is rough ER.",
+        "2": "The nuclear envelope surrounds the nucleus; smooth ER is different.",
+        "3": "Smooth lacks ribosomes; rough has them."
+      }
+    },
+    {
+      "q": "What types of proteins does rough ER make?",
+      "options": [
+        "Only cytoplasmic proteins",
+        "Secreted proteins and membrane proteins",
+        "Only nuclear proteins",
+        "Only mitochondrial proteins"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Rough ER makes SECRETED PROTEINS and MEMBRANE PROTEINS. These proteins enter the ER lumen for processing.",
+      "wrongExplains": {
+        "0": "Cytoplasmic proteins are made by free ribosomes.",
+        "2": "Nuclear proteins can be made elsewhere; rough ER specializes in secreted/membrane proteins.",
+        "3": "Mitochondria have their own ribosomes for some proteins."
+      }
+    },
+    {
+      "q": "Where do proteins go after being made on rough ER?",
+      "options": [
+        "Directly to the nucleus",
+        "To the Golgi apparatus for further processing",
+        "Back to ribosomes",
+        "Directly to lysosomes"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Proteins from rough ER go to the GOLGI APPARATUS for further processing, modification, and sorting.",
+      "wrongExplains": {
+        "0": "Nuclear proteins use different pathways.",
+        "2": "Ribosomes make proteins; they don't receive them.",
+        "3": "Proteins go to Golgi first; some may then go to lysosomes."
+      }
+    },
+    {
+      "q": "What gives rough ER its 'rough' appearance?",
+      "options": [
+        "Its irregular shape",
+        "Ribosomes attached to its surface",
+        "Lipid deposits",
+        "Vesicles on its surface"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "RIBOSOMES ATTACHED to the surface give rough ER its 'rough' appearance under electron microscopy.",
+      "wrongExplains": {
+        "0": "Shape doesn't cause roughness; ribosomes do.",
+        "2": "Lipids are on smooth ER; ribosomes make rough ER rough.",
+        "3": "Vesicles bud off but don't cause the rough appearance."
+      }
+    },
+    {
+      "q": "What is the relationship between rough ER and protein secretion?",
+      "options": [
+        "Rough ER prevents secretion",
+        "Rough ER is where secreted proteins are synthesized and enter the secretory pathway",
+        "Secreted proteins bypass rough ER",
+        "Rough ER only makes structural proteins"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "ROUGH ER is where SECRETED PROTEINS are synthesized and enter the SECRETORY PATHWAY (ER → Golgi → secretion).",
+      "wrongExplains": {
+        "0": "Rough ER initiates secretion, not prevents it.",
+        "2": "Secreted proteins must go through rough ER.",
+        "3": "Rough ER makes many protein types including secreted ones."
+      }
+    },
+    {
+      "q": "The 'rough' in rough endoplasmic reticulum refers to ___?",
+      "options": [
+        "Its irregular membrane structure",
+        "Ribosomes attached to its surface",
+        "The proteins it contains",
+        "Its location near the nucleus"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The 'rough' refers to RIBOSOMES ATTACHED to the ER surface. These create a studded, rough appearance under microscopy.",
+      "wrongExplains": {
+        "0": "Membrane structure is similar to smooth ER; ribosomes make it rough.",
+        "2": "Internal proteins don't create the rough appearance.",
+        "3": "Location doesn't affect appearance; ribosomes do."
+      }
     }
   ]
 }

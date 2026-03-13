@@ -3,28 +3,157 @@
   "parentQuestion": "The process by which cells engulf particles or other cells is called ___.",
   "scaffolds": [
     {
-      "q": "Endocytosis is the process of bringing materials ___ the cell.",
+      "q": "What is endocytosis?",
       "options": [
-        "Out of",
-        "Into",
-        "Around",
-        "Through"
+        "Releasing materials from the cell",
+        "Taking materials into the cell by surrounding them with membrane",
+        "Diffusion across the membrane",
+        "Active transport using pumps"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Endocytosis means 'into the cell' — it's the process by which cells take in materials from their environment by surrounding them with membrane. Endo equals in. Easy, darling."
+      "difficulty": "foundation",
+      "explain": "ENDOCYTOSIS is TAKING MATERIALS INTO THE CELL by surrounding them with membrane. 'Endo' means into.",
+      "wrongExplains": {
+        "0": "Releasing materials is exocytosis; endocytosis brings things in.",
+        "2": "Diffusion doesn't use membrane wrapping.",
+        "3": "Pumps move ions; endocytosis engulfs particles."
+      }
     },
     {
-      "q": "White blood cells engulf and destroy bacteria. This is an example of cells eating ___.",
+      "q": "What is phagocytosis?",
       "options": [
-        "Liquids",
-        "Solid particles",
-        "Gases",
-        "DNA"
+        "Cell drinking",
+        "Cell eating — engulfing solid particles",
+        "Passive diffusion",
+        "Exocytosis"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "When white blood cells surround and engulf bacteria (solid particles), they are performing a type of endocytosis that involves eating solid material. Your immune cells are literally eating the invaders. Accept this reality:drawn into the violence of it."
+      "difficulty": "foundation",
+      "explain": "PHAGOCYTOSIS is 'CELL EATING' — engulfing SOLID PARTICLES. 'Phago' means eat, 'cyto' means cell.",
+      "wrongExplains": {
+        "0": "Cell drinking is pinocytosis; phagocytosis is eating solids.",
+        "2": "Diffusion doesn't engulf; phagocytosis does.",
+        "3": "Exocytosis releases; phagocytosis takes in."
+      }
+    },
+    {
+      "q": "What is pinocytosis?",
+      "options": [
+        "Cell eating solids",
+        "Cell drinking — engulfing dissolved substances in fluid",
+        "Active transport",
+        "Osmosis"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "PINOCYTOSIS is 'CELL DRINKING' — engulfing DISSOLVED SUBSTANCES in fluid. 'Pino' means drink.",
+      "wrongExplains": {
+        "0": "Cell eating is phagocytosis; pinocytosis is drinking.",
+        "2": "Active transport uses pumps; pinocytosis uses membrane vesicles.",
+        "3": "Osmosis is water diffusion; pinocytosis engulfs fluid."
+      }
+    },
+    {
+      "q": "What is exocytosis?",
+      "options": [
+        "Taking materials into the cell",
+        "Releasing materials from the cell",
+        "Diffusion of water",
+        "Cell division"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "EXOCYTOSIS is RELEASING MATERIALS from the cell by fusing vesicles with the membrane. 'Exo' means out.",
+      "wrongExplains": {
+        "0": "Taking materials in is endocytosis; exocytosis releases.",
+        "2": "Water diffusion is osmosis; exocytosis releases vesicle contents.",
+        "3": "Cell division is mitosis; exocytosis releases materials."
+      }
+    },
+    {
+      "q": "What cells commonly use phagocytosis?",
+      "options": [
+        "Red blood cells",
+        "White blood cells (macrophages, neutrophils)",
+        "Nerve cells only",
+        "Bone cells only"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "WHITE BLOOD CELLS (macrophages, neutrophils) commonly use phagocytosis to engulf and destroy bacteria and debris.",
+      "wrongExplains": {
+        "0": "RBCs lack organelles; phagocytes are white blood cells.",
+        "2": "Nerve cells transmit signals; immune cells phagocytose.",
+        "3": "Bone cells remodel bone; immune cells phagocytose pathogens."
+      }
+    },
+    {
+      "q": "What happens to engulfed material in phagocytosis?",
+      "options": [
+        "It's released outside",
+        "It's digested by lysosomes inside the cell",
+        "It becomes part of the nucleus",
+        "It's converted to ATP"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Engulfed material is DIGESTED BY LYSOSOMES inside the cell. The phagosome fuses with lysosomes containing digestive enzymes.",
+      "wrongExplains": {
+        "0": "Engulfed material is digested inside, not released.",
+        "2": "Material goes to lysosomes, not the nucleus.",
+        "3": "Mitochondria make ATP; lysosomes digest engulfed material."
+      }
+    },
+    {
+      "q": "What structure forms around engulfed material?",
+      "options": [
+        "Nucleus",
+        "Phagosome (vesicle)",
+        "Ribosome",
+        "Golgi apparatus"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "A PHAGOSOME (vesicle) forms around engulfed material. This membrane-bound vesicle then fuses with lysosomes.",
+      "wrongExplains": {
+        "0": "The nucleus contains DNA; phagosomes contain engulfed material.",
+        "2": "Ribosomes make proteins; phagosomes hold engulfed material.",
+        "3": "Golgi packages proteins; phagosomes contain engulfed particles."
+      }
+    },
+    {
+      "q": "How does phagocytosis differ from pinocytosis?",
+      "options": [
+        "They are identical",
+        "Phagocytosis engulfs solids; pinocytosis engulfs fluids",
+        "Phagocytosis releases; pinocytosis takes in",
+        "Phagocytosis is passive; pinocytosis is active"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "PHAGOCYTOSIS engulfs SOLIDS (eating); PINOCYTOSIS engulfs FLUIDS (drinking). Both are forms of endocytosis.",
+      "wrongExplains": {
+        "0": "They differ in what they engulf — solids vs fluids.",
+        "2": "Both take in; the difference is solids vs fluids.",
+        "3": "Both are active processes requiring ATP."
+      }
+    },
+    {
+      "q": "The process by which cells engulf particles or other cells is called ___?",
+      "options": [
+        "Exocytosis",
+        "Phagocytosis",
+        "Osmosis",
+        "Diffusion"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "PHAGOCYTOSIS is the process by which cells engulf particles or other cells. 'Phago' = eat, 'cyto' = cell — cell eating.",
+      "wrongExplains": {
+        "0": "Exocytosis releases materials; phagocytosis engulfs them.",
+        "2": "Osmosis is water movement; phagocytosis engulfs particles.",
+        "3": "Diffusion is passive movement; phagocytosis actively engulfs."
+      }
     }
   ]
 }

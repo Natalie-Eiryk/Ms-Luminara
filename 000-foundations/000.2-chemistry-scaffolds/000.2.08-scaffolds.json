@@ -3,18 +3,41 @@
   "parentQuestion": "Minerals required by the body in fairly large amounts are called ___.",
   "scaffolds": [
     {
-      "q": "What are minerals in the context of nutrition?",
+      "q": "What are minerals in nutrition?",
       "options": [
         "Organic compounds from plants",
         "Inorganic elements from the earth",
-        "Types of vitamins"
+        "Types of vitamins",
+        "Types of proteins"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Minerals are INORGANIC elements — simple atoms from the periodic table. they come from rocks, soil, and water, absorbed by plants and passed through the food chain. Unlike vitamins (which are ORGANIC compounds with carbon-hydrogen bonds), minerals are elemental: Ca, Fe, Na, K, Mg, Zn. Breathe in this knowledge:this: you're built from stardust and geology."
+      "difficulty": "foundation",
+      "explain": "MINERALS are INORGANIC ELEMENTS from the earth — simple atoms from the periodic table like Ca, Fe, Na, K, Mg, Zn.",
+      "wrongExplains": {
+        "0": "Minerals are inorganic; organic compounds have carbon-hydrogen bonds.",
+        "2": "Vitamins are organic compounds; minerals are inorganic elements.",
+        "3": "Proteins are macromolecules; minerals are elemental atoms."
+      }
     },
     {
-      "q": "Which mineral is most abundant in the human body and essential for bone structure?",
+      "q": "What is the difference between minerals and vitamins?",
+      "options": [
+        "They are the same thing",
+        "Minerals are inorganic elements; vitamins are organic compounds",
+        "Vitamins are inorganic; minerals are organic",
+        "Both are proteins"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "MINERALS are INORGANIC elements; VITAMINS are ORGANIC compounds with carbon-hydrogen bonds.",
+      "wrongExplains": {
+        "0": "Minerals and vitamins are chemically different.",
+        "2": "It's the opposite: minerals are inorganic, vitamins are organic.",
+        "3": "Neither are proteins; they're micronutrients."
+      }
+    },
+    {
+      "q": "Which mineral is most abundant in the human body?",
       "options": [
         "Iron",
         "Calcium",
@@ -22,8 +45,115 @@
         "Zinc"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Calcium is the MOST abundant mineral in the body — about 1-2% of body weight (roughly 1-2 kg in an adult!). about 99% is stored in bones and teeth as hydroxyapatite (Ca₁₀(PO₄)₆(OH)₂), providing rigid structural support. The remaining 1%? Critical for nerve signals, muscle contractions, blood clotting, enzyme regulation. Accept this reality:this: bulk mineral, MASSIVE importance."
+      "difficulty": "foundation",
+      "explain": "CALCIUM is the most abundant mineral — about 1-2% of body weight (1-2 kg in an adult!). 99% is in bones and teeth.",
+      "wrongExplains": {
+        "0": "Iron is essential but not the most abundant mineral.",
+        "2": "Sodium is important but not the most abundant mineral.",
+        "3": "Zinc is a trace mineral, much less abundant than calcium."
+      }
+    },
+    {
+      "q": "What is the primary function of calcium in the body?",
+      "options": [
+        "Oxygen transport",
+        "Bone structure and muscle contraction",
+        "Only taste perception",
+        "Only hormone production"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Calcium's primary functions are BONE STRUCTURE (99% stored in bones) and MUSCLE CONTRACTION. It's also essential for nerve function and blood clotting.",
+      "wrongExplains": {
+        "0": "Iron transports oxygen; calcium is for bones and muscles.",
+        "2": "Zinc is involved in taste; calcium has structural and functional roles.",
+        "3": "Calcium has many functions beyond hormone production."
+      }
+    },
+    {
+      "q": "What are macro minerals?",
+      "options": [
+        "Minerals needed in very tiny amounts",
+        "Minerals required in fairly large amounts (>100 mg/day)",
+        "Minerals that don't exist",
+        "Minerals found only in plants"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "MACRO MINERALS are minerals required in FAIRLY LARGE AMOUNTS (typically >100 mg/day). Examples: calcium, phosphorus, magnesium, sodium, potassium.",
+      "wrongExplains": {
+        "0": "Trace minerals are needed in tiny amounts; macros need larger amounts.",
+        "2": "Macro minerals definitely exist and are essential.",
+        "3": "Macro minerals are found in various food sources, not just plants."
+      }
+    },
+    {
+      "q": "What are trace minerals?",
+      "options": [
+        "Minerals needed in large amounts",
+        "Minerals needed in very small amounts (micrograms)",
+        "Minerals that aren't essential",
+        "Minerals only found in supplements"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "TRACE MINERALS are needed in VERY SMALL AMOUNTS (micrograms). Examples: iron, zinc, copper, iodine, selenium.",
+      "wrongExplains": {
+        "0": "Macro minerals are needed in large amounts; trace minerals in small.",
+        "2": "Trace minerals are essential, just needed in small quantities.",
+        "3": "Trace minerals are found in food sources, not just supplements."
+      }
+    },
+    {
+      "q": "Which of these are macro minerals?",
+      "options": [
+        "Iron, zinc, copper",
+        "Calcium, phosphorus, magnesium, sodium, potassium",
+        "Iodine, selenium, chromium",
+        "Vitamins A, C, D"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "MACRO MINERALS include CALCIUM, PHOSPHORUS, MAGNESIUM, SODIUM, and POTASSIUM. These are needed in amounts greater than 100 mg/day.",
+      "wrongExplains": {
+        "0": "Iron, zinc, copper are trace minerals, not macros.",
+        "2": "Iodine, selenium, chromium are trace minerals, not macros.",
+        "3": "Vitamins are organic compounds, not minerals."
+      }
+    },
+    {
+      "q": "Why are macro minerals needed in larger amounts?",
+      "options": [
+        "They are less important",
+        "They serve structural roles and regulate fluid balance",
+        "They are only for taste",
+        "They have no function"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Macro minerals are needed in larger amounts because they serve STRUCTURAL ROLES (bones, teeth) and REGULATE FLUID BALANCE.",
+      "wrongExplains": {
+        "0": "Larger requirement doesn't mean less important.",
+        "2": "Macro minerals have many functions beyond taste.",
+        "3": "Macro minerals have critical functions in the body."
+      }
+    },
+    {
+      "q": "Minerals required by the body in fairly large amounts are called ___?",
+      "options": [
+        "Trace minerals",
+        "Macro minerals",
+        "Vitamins",
+        "Amino acids"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Minerals required in fairly large amounts are called MACRO MINERALS. Examples include calcium, phosphorus, magnesium, sodium, and potassium.",
+      "wrongExplains": {
+        "0": "Trace minerals are needed in small amounts, not large.",
+        "2": "Vitamins are organic compounds, not minerals.",
+        "3": "Amino acids are protein building blocks, not minerals."
+      }
     }
   ]
 }

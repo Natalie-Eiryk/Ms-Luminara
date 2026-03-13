@@ -3,27 +3,157 @@
   "parentQuestion": "Which of the following is the major positive ion outside cells?",
   "scaffolds": [
     {
-      "q": "What is a positive ion called?",
+      "q": "What is a cation?",
       "options": [
-        "Anion",
-        "Cation",
-        "Electron",
-        "Neutron"
+        "A negatively charged ion",
+        "A positively charged ion",
+        "A neutral atom",
+        "A type of molecule"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "A cation is a positively charged ion — it has LOST one or more electrons. An anion is negatively charged (it GAINED electrons). Memory trick: cats are PAWSitive, so CATions are POSitive. *pause for groaning* Yes, that pun is chemically terrible and pedagogically effective. You'll hate yourself for remembering it, and you WILL remember it. That's the point. Welcome to my teaching style — I weaponize bad jokes for your education."
+      "difficulty": "foundation",
+      "explain": "A CATION is a POSITIVELY charged ion — it has LOST electrons. Memory trick: CATions are PAWSitive.",
+      "wrongExplains": {
+        "0": "Negatively charged ions are anions, not cations.",
+        "2": "Neutral atoms have no charge; cations are positive.",
+        "3": "Cations are charged particles, not molecules."
+      }
     },
     {
-      "q": "Which fluid compartment is 'outside cells'?",
+      "q": "What is an anion?",
       "options": [
-        "Intracellular fluid",
-        "Extracellular fluid",
-        "Cytoplasm"
+        "A positively charged ion",
+        "A negatively charged ion",
+        "A neutral atom",
+        "A type of protein"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Extracellular fluid (ECF) is the fluid OUTSIDE cells — blood plasma, interstitial fluid (between cells), cerebrospinal fluid. Intracellular fluid (ICF) is inside cells (also called cytoplasm). the body maintains WILDLY different ion concentrations in these two compartments. That difference is what makes life as we know it possible. Take a moment to appreciate this:the wonder of that chemical asymmetry."
+      "difficulty": "foundation",
+      "explain": "An ANION is a NEGATIVELY charged ion — it has GAINED electrons. Anions are attracted to the positive electrode (anode).",
+      "wrongExplains": {
+        "0": "Positively charged ions are cations, not anions.",
+        "2": "Neutral atoms have no charge; anions are negative.",
+        "3": "Anions are charged particles, not proteins."
+      }
+    },
+    {
+      "q": "What is extracellular fluid (ECF)?",
+      "options": [
+        "Fluid inside cells",
+        "Fluid outside cells",
+        "Fluid in the nucleus",
+        "Fluid in mitochondria only"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "EXTRACELLULAR FLUID is the fluid OUTSIDE cells — includes blood plasma, interstitial fluid, and cerebrospinal fluid.",
+      "wrongExplains": {
+        "0": "Intracellular fluid is inside cells; extracellular is outside.",
+        "2": "Nuclear fluid is inside cells; ECF is outside cells.",
+        "3": "ECF is all fluid outside cells, not just specific organelles."
+      }
+    },
+    {
+      "q": "What is intracellular fluid (ICF)?",
+      "options": [
+        "Fluid outside cells",
+        "Fluid inside cells (cytoplasm)",
+        "Blood plasma",
+        "Lymph"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "INTRACELLULAR FLUID is the fluid INSIDE cells, also called cytoplasm. It contains different ion concentrations than ECF.",
+      "wrongExplains": {
+        "0": "Extracellular fluid is outside cells; ICF is inside.",
+        "2": "Blood plasma is extracellular; ICF is inside cells.",
+        "3": "Lymph is extracellular; ICF is inside cells."
+      }
+    },
+    {
+      "q": "Which ion has the highest concentration in extracellular fluid?",
+      "options": [
+        "Potassium (K⁺)",
+        "Sodium (Na⁺)",
+        "Calcium (Ca²⁺)",
+        "Magnesium (Mg²⁺)"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "SODIUM (Na⁺) has the highest concentration in extracellular fluid — about 140 mEq/L outside vs only 10-15 mEq/L inside cells.",
+      "wrongExplains": {
+        "0": "Potassium is high INSIDE cells, not outside.",
+        "2": "Calcium is present but not the major extracellular cation.",
+        "3": "Magnesium is present but not the major extracellular cation."
+      }
+    },
+    {
+      "q": "Which ion is the major cation INSIDE cells?",
+      "options": [
+        "Sodium (Na⁺)",
+        "Potassium (K⁺)",
+        "Chloride (Cl⁻)",
+        "Bicarbonate (HCO₃⁻)"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "POTASSIUM (K⁺) is the major cation INSIDE cells — about 140 mEq/L inside vs only 4-5 mEq/L outside.",
+      "wrongExplains": {
+        "0": "Sodium is high OUTSIDE cells, not inside.",
+        "2": "Chloride is an anion, not a cation.",
+        "3": "Bicarbonate is an anion, not a cation."
+      }
+    },
+    {
+      "q": "Why do cells maintain different ion concentrations inside vs outside?",
+      "options": [
+        "No reason — it's random",
+        "The ion gradients power electrical signaling and transport",
+        "Only to store ions",
+        "Only to regulate temperature"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Ion GRADIENTS power ELECTRICAL SIGNALING and TRANSPORT. The Na⁺/K⁺ difference creates the membrane potential essential for nerve/muscle function.",
+      "wrongExplains": {
+        "0": "Ion distribution is carefully maintained, not random.",
+        "2": "Gradients power function, not just storage.",
+        "3": "Gradients power signaling, not temperature regulation."
+      }
+    },
+    {
+      "q": "What maintains the sodium/potassium gradient?",
+      "options": [
+        "Gravity",
+        "The Na⁺/K⁺ ATPase pump",
+        "Random diffusion",
+        "Body heat"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The Na⁺/K⁺ ATPASE PUMP maintains the gradient by pumping 3 Na⁺ out and 2 K⁺ in, using ATP energy.",
+      "wrongExplains": {
+        "0": "Gravity doesn't affect ion distribution in cells.",
+        "2": "Diffusion would equalize gradients; the pump maintains them.",
+        "3": "Body heat doesn't pump ions against their gradient."
+      }
+    },
+    {
+      "q": "Which of the following is the major positive ion outside cells?",
+      "options": [
+        "Potassium (K⁺)",
+        "Sodium (Na⁺)",
+        "Calcium (Ca²⁺)",
+        "Hydrogen (H⁺)"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "SODIUM (Na⁺) is the major positive ion (cation) OUTSIDE cells. Potassium is the major cation inside cells.",
+      "wrongExplains": {
+        "0": "Potassium is the major cation INSIDE cells, not outside.",
+        "2": "Calcium is present but not the major extracellular cation.",
+        "3": "H⁺ is present but not the major extracellular cation."
+      }
     }
   ]
 }

@@ -1,28 +1,159 @@
 {
   "parentId": "000.2.14",
-  "parentQuestion": "A marathon runner collapses after drinking only water (no electrolytes) during a...",
+  "parentQuestion": "A marathon runner collapses after drinking only water (no electrolytes) during a race. Labs show critically low sodium levels. This condition results from ___.",
   "scaffolds": [
     {
       "q": "What is osmosis?",
       "options": [
-        "Movement of water across a membrane from high solute to low solute concentration",
-        "Movement of water across a membrane from low solute to high solute concentration",
-        "Movement of ions using ATP energy"
+        "Movement of ions using ATP",
+        "Movement of water from low solute to high solute concentration",
+        "Movement of water from high solute to low solute concentration",
+        "Movement of proteins across membranes"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Osmosis is the movement of WATER across a semipermeable membrane from LOW solute concentration (HIGH water concentration) to HIGH solute concentration (LOW water concentration). think of it as water chasing solute to equalize concentration. Continue the sequence:: this is PASSIVE — no energy required. Allow this to wash over you:this: osmosis is a fundamental force shaping cell volume, blood pressure, and kidney function."
+      "difficulty": "foundation",
+      "explain": "OSMOSIS is movement of WATER from LOW SOLUTE (high water) to HIGH SOLUTE (low water) concentration across a semipermeable membrane.",
+      "wrongExplains": {
+        "0": "Ion movement using ATP is active transport; osmosis is passive water movement.",
+        "2": "Water moves toward high solute, not away from it.",
+        "3": "Osmosis involves water, not protein movement."
+      }
     },
     {
-      "q": "What does 'hypotonic' mean in relation to a solution?",
+      "q": "What does 'hypotonic' mean?",
       "options": [
-        "Lower solute concentration than the comparison solution",
-        "Higher solute concentration than the comparison solution",
-        "Same solute concentration as the comparison solution"
+        "Higher solute concentration than comparison",
+        "Lower solute concentration (higher water) than comparison",
+        "Same solute concentration",
+        "No solute present"
       ],
-      "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Hypotonic means LOWER solute concentration (or equivalently, HIGHER water concentration) than the reference solution. Follow the breadcrumbs:: if you place cells in a hypotonic solution, water will ENTER the cells by osmosis, causing them to SWELL (potentially to the point of lysis — bursting). Absorb this:this: pure water is EXTREMELY hypotonic relative to cells. Drop red blood cells in pure water and they explode. That's osmotic pressure at work."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "HYPOTONIC means LOWER solute concentration (HIGHER water concentration) than the comparison solution.",
+      "wrongExplains": {
+        "0": "Higher solute is hypertonic, not hypotonic.",
+        "2": "Same solute concentration is isotonic.",
+        "3": "Hypotonic has some solute, just less than the comparison."
+      }
+    },
+    {
+      "q": "What happens to cells in a hypotonic solution?",
+      "options": [
+        "Water leaves cells, they shrink",
+        "Water enters cells, they swell",
+        "Nothing changes",
+        "Cells stay the same size"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "In a hypotonic solution, WATER ENTERS cells by osmosis, causing them to SWELL (potentially to the point of bursting).",
+      "wrongExplains": {
+        "0": "Water enters cells in hypotonic solutions, not leaves.",
+        "2": "Osmosis definitely causes changes in cell volume.",
+        "3": "Cells swell in hypotonic solutions."
+      }
+    },
+    {
+      "q": "What is hyponatremia?",
+      "options": [
+        "High sodium levels in blood",
+        "Low sodium levels in blood",
+        "Normal sodium levels",
+        "High potassium levels"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "HYPONATREMIA is LOW SODIUM levels in blood. 'Hypo' = low, 'natr' = sodium, 'emia' = in blood.",
+      "wrongExplains": {
+        "0": "High sodium is hypernatremia; hyponatremia is low.",
+        "2": "Normal sodium isn't hyponatremia; it's eunatremia.",
+        "3": "Potassium is different; this is about sodium."
+      }
+    },
+    {
+      "q": "What happens when a runner drinks only water and loses sodium through sweat?",
+      "options": [
+        "Blood becomes more concentrated",
+        "Blood becomes diluted (hypotonic relative to cells)",
+        "Sodium increases",
+        "Nothing changes"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Blood becomes DILUTED (hypotonic relative to cells). Water is added while sodium is lost through sweat.",
+      "wrongExplains": {
+        "0": "Adding water dilutes blood, not concentrates it.",
+        "2": "Sodium is lost in sweat and diluted by water intake.",
+        "3": "Drinking water definitely changes blood composition."
+      }
+    },
+    {
+      "q": "When blood becomes hypotonic, what happens to cells?",
+      "options": [
+        "Water leaves cells",
+        "Water enters cells by osmosis, causing swelling",
+        "Cells shrink",
+        "Cells are unaffected"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "When blood is hypotonic, WATER ENTERS CELLS by osmosis, causing SWELLING. This is especially dangerous for brain cells.",
+      "wrongExplains": {
+        "0": "Water enters cells from hypotonic fluid, not leaves.",
+        "2": "Cells swell in hypotonic conditions, not shrink.",
+        "3": "Cells are definitely affected by osmotic changes."
+      }
+    },
+    {
+      "q": "Why is brain swelling especially dangerous in hyponatremia?",
+      "options": [
+        "The brain doesn't need sodium",
+        "The skull is rigid, so swelling causes compression",
+        "Brain cells don't swell",
+        "Swelling improves brain function"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The SKULL IS RIGID, so brain swelling causes COMPRESSION and increased intracranial pressure. This can be fatal.",
+      "wrongExplains": {
+        "0": "The brain definitely needs sodium for neuron function.",
+        "2": "Brain cells do swell when blood is hypotonic.",
+        "3": "Brain swelling impairs function and can be fatal."
+      }
+    },
+    {
+      "q": "What should runners drink to prevent hyponatremia?",
+      "options": [
+        "Only pure water",
+        "Fluids containing electrolytes (especially sodium)",
+        "Only caffeinated drinks",
+        "Nothing"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Runners should drink FLUIDS CONTAINING ELECTROLYTES (especially sodium) to replace what's lost in sweat.",
+      "wrongExplains": {
+        "0": "Pure water dilutes blood without replacing lost sodium.",
+        "2": "Caffeine doesn't replace lost electrolytes.",
+        "3": "Dehydration is also dangerous; balanced fluids are needed."
+      }
+    },
+    {
+      "q": "This marathon runner's collapse results from ___?",
+      "options": [
+        "Dehydration from too little water",
+        "Hyponatremia — dilutional low sodium causing cellular swelling",
+        "Too much sodium",
+        "Normal hydration"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The collapse results from HYPONATREMIA — dilutional LOW SODIUM causing cellular swelling. Pure water intake diluted blood sodium.",
+      "wrongExplains": {
+        "0": "The runner drank water; the problem is dilution, not dehydration.",
+        "2": "The problem is low sodium (hyponatremia), not high.",
+        "3": "This is abnormal, not normal hydration."
+      }
     }
   ]
 }

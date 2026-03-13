@@ -1,30 +1,159 @@
 {
   "parentId": "000.4.09",
-  "parentQuestion": "A patient is given an IV saline solution that is isotonic to blood. Why is isoto...",
+  "parentQuestion": "A patient is given an IV saline solution that is isotonic to blood. Why is isotonic saline used instead of pure water?",
   "scaffolds": [
     {
-      "q": "Osmosis is the movement of ___ across a selectively permeable membrane.",
+      "q": "What is osmosis?",
       "options": [
-        "Solutes",
-        "Water",
-        "Proteins",
-        "Ions"
+        "Movement of any molecule",
+        "Movement of water across a semipermeable membrane",
+        "Active transport of ions",
+        "Diffusion of gases"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Osmosis is specifically the movement of WATER across a membrane, from high water concentration (low solute) to low water concentration (high solute). It's a special case of diffusion. Water follows solute gradients. Simple, elegant physics."
+      "difficulty": "foundation",
+      "explain": "OSMOSIS is the movement of WATER across a semipermeable membrane from low solute to high solute concentration.",
+      "wrongExplains": {
+        "0": "Osmosis specifically refers to water, not any molecule.",
+        "2": "Active transport uses ATP; osmosis is passive water movement.",
+        "3": "Gas diffusion is different; osmosis moves water."
+      }
     },
     {
-      "q": "If a cell is placed in a hypotonic solution, water will move ___.",
+      "q": "What does isotonic mean?",
       "options": [
-        "Into the cell",
-        "Out of the cell",
-        "Equally in both directions",
-        "Not at all"
+        "Higher solute than the cell",
+        "Same solute concentration as the cell",
+        "Lower solute than the cell",
+        "No solute present"
       ],
-      "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "HYPOtonic means 'lower solute concentration than the cell' — so there's MORE water outside (relative to solute). Water moves from high → low concentration, so it rushes INTO the cell. The cell swells. If it's an animal cell (no cell wall), it may burst. Beautiful and brutal physics."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "ISOTONIC means SAME SOLUTE CONCENTRATION as the cell. 'Iso' = same, 'tonic' = concentration. No net water movement.",
+      "wrongExplains": {
+        "0": "Higher solute is hypertonic; isotonic is equal.",
+        "2": "Lower solute is hypotonic; isotonic is equal.",
+        "3": "Isotonic solutions have solutes at the same concentration as cells."
+      }
+    },
+    {
+      "q": "What happens to cells in an isotonic solution?",
+      "options": [
+        "They swell",
+        "They remain the same size (no net water movement)",
+        "They shrink",
+        "They divide"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "In an ISOTONIC solution, cells REMAIN THE SAME SIZE because there's no net water movement — concentrations are equal.",
+      "wrongExplains": {
+        "0": "Swelling occurs in hypotonic solutions.",
+        "2": "Shrinking occurs in hypertonic solutions.",
+        "3": "Division is unrelated to tonicity."
+      }
+    },
+    {
+      "q": "What is hypotonic mean?",
+      "options": [
+        "Same concentration as the cell",
+        "Lower solute concentration than the cell",
+        "Higher solute concentration than the cell",
+        "No water present"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "HYPOTONIC means LOWER SOLUTE concentration than the cell. 'Hypo' = below. Water enters cells in hypotonic solutions.",
+      "wrongExplains": {
+        "0": "Same concentration is isotonic; hypotonic has less solute.",
+        "2": "Higher concentration is hypertonic; hypotonic has less.",
+        "3": "Hypotonic solutions contain water with low solute."
+      }
+    },
+    {
+      "q": "What happens to a cell in a hypotonic solution?",
+      "options": [
+        "It shrinks",
+        "Water enters and it swells (may burst)",
+        "Nothing changes",
+        "It becomes isotonic"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "In a HYPOTONIC solution, WATER ENTERS the cell and it SWELLS. If swelling is severe, the cell may burst (lyse).",
+      "wrongExplains": {
+        "0": "Shrinking occurs in hypertonic solutions.",
+        "2": "Osmosis causes water movement and cell volume changes.",
+        "3": "The cell swells, it doesn't just become isotonic."
+      }
+    },
+    {
+      "q": "Is pure water hypotonic to blood cells?",
+      "options": [
+        "No, it's isotonic",
+        "Yes, pure water has no solutes so it's hypotonic",
+        "No, it's hypertonic",
+        "It depends on temperature"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Yes! Pure water is HYPOTONIC to blood cells because it has NO SOLUTES. Water would rush into cells, causing them to swell and burst.",
+      "wrongExplains": {
+        "0": "Pure water has no solutes; it's not isotonic to cells.",
+        "2": "Hypertonic has more solute; pure water has none.",
+        "3": "Tonicity depends on solute concentration, not temperature."
+      }
+    },
+    {
+      "q": "What concentration is normal (isotonic) saline?",
+      "options": [
+        "10% NaCl",
+        "0.9% NaCl",
+        "0.1% NaCl",
+        "5% NaCl"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Normal (isotonic) saline is 0.9% NaCl — this matches the tonicity of blood and body fluids.",
+      "wrongExplains": {
+        "0": "10% NaCl is hypertonic and would cause cell shrinkage.",
+        "2": "0.1% NaCl is hypotonic and would cause cell swelling.",
+        "3": "5% NaCl is hypertonic and would cause cell shrinkage."
+      }
+    },
+    {
+      "q": "What is hemolysis?",
+      "options": [
+        "Cell shrinkage",
+        "Red blood cell bursting due to excess water",
+        "Cell growth",
+        "Blood clotting"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "HEMOLYSIS is RED BLOOD CELL BURSTING due to excess water entry (in hypotonic solutions). 'Hemo' = blood, 'lysis' = breaking.",
+      "wrongExplains": {
+        "0": "Shrinkage is crenation; hemolysis is bursting.",
+        "2": "Growth is enlargement; hemolysis is destruction.",
+        "3": "Clotting is coagulation; hemolysis is cell rupture."
+      }
+    },
+    {
+      "q": "Why is isotonic saline used instead of pure water for IV fluids?",
+      "options": [
+        "Pure water is too expensive",
+        "Pure water is hypotonic and would cause red blood cells to swell and burst",
+        "Isotonic saline tastes better",
+        "There's no real difference"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Pure water is HYPOTONIC and would cause RED BLOOD CELLS TO SWELL AND BURST (hemolysis). Isotonic saline matches blood tonicity, preventing this.",
+      "wrongExplains": {
+        "0": "The issue is osmotic damage, not cost.",
+        "2": "Taste is irrelevant; the issue is cell safety.",
+        "3": "There's a critical difference in osmotic effects."
+      }
     }
   ]
 }

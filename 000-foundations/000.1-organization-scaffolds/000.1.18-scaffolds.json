@@ -3,94 +3,157 @@
   "parentQuestion": "A trauma patient arrives with multiple injuries affecting skin, muscle, bone, and nerves in the left arm. The surgeon explains that reconstruction will require addressing 'all four primary tissue types.' The medical team must repair epithelial coverage, muscle function, skeletal support, and nerve signaling. What organizational principle makes this statement accurate?",
   "scaffolds": [
     {
-      "q": "There are FOUR primary tissue types: epithelial, connective, muscle, nervous.",
+      "q": "What are the four primary tissue types?",
       "options": [
-        "True",
-        "False"
+        "Skin, bone, blood, fat",
+        "Epithelial, connective, muscle, nervous",
+        "Heart, liver, lung, brain",
+        "Red, white, plasma, platelets"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Every tissue in your body fits into one of these four categories."
+      "explain": "The FOUR PRIMARY TISSUE TYPES are EPITHELIAL, CONNECTIVE, MUSCLE, and NERVOUS. Every tissue in your body fits into one of these four categories.",
+      "wrongExplains": {
+        "0": "Those are specific structures, not the four primary tissue categories.",
+        "2": "Those are organs, not tissue types.",
+        "3": "Those are blood components, not tissue types."
+      }
     },
     {
-      "q": "Body REGIONS typically contain all four tissue types.",
+      "q": "Do body regions typically contain all four tissue types?",
       "options": [
-        "True",
-        "False"
+        "No, each region has only one tissue type",
+        "Yes, most body regions contain all four tissue types",
+        "Only organs have multiple tissue types",
+        "Tissue types don't mix"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Your arm has skin, muscle, bone, nerves - all four represented."
+      "explain": "Yes, most BODY REGIONS contain all FOUR TISSUE TYPES. Your arm has skin (epithelial), muscle, bone (connective), and nerves — all four represented.",
+      "wrongExplains": {
+        "0": "Body regions contain multiple tissue types working together.",
+        "2": "Body regions (not just organs) contain multiple tissue types.",
+        "3": "Tissue types work together throughout the body."
+      }
     },
     {
-      "q": "Epithelial tissue in the arm = SKIN covering the surface.",
+      "q": "What type of tissue is skin?",
       "options": [
-        "True",
-        "False"
+        "Connective tissue",
+        "Epithelial tissue",
+        "Muscle tissue",
+        "Nervous tissue"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The outer covering that protects against damage and infection."
+      "explain": "Skin is EPITHELIAL TISSUE — the outer covering that protects against damage and infection.",
+      "wrongExplains": {
+        "0": "Skin's outer layer is epithelial; connective tissue is underneath.",
+        "2": "Skin is epithelial covering, not muscle.",
+        "3": "Skin is epithelial covering, not nervous tissue."
+      }
     },
     {
-      "q": "Muscle tissue in the arm = MUSCLES that move the arm.",
+      "q": "What type of tissue enables arm movement?",
       "options": [
-        "True",
-        "False"
+        "Epithelial tissue",
+        "Muscle tissue",
+        "Only nervous tissue",
+        "Only connective tissue"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Skeletal muscle for movement, smooth muscle in blood vessels."
+      "explain": "MUSCLE TISSUE enables arm movement — skeletal muscle for voluntary movement, smooth muscle in blood vessels.",
+      "wrongExplains": {
+        "0": "Epithelial covers surfaces; muscle produces movement.",
+        "2": "Nerves control muscles, but muscles produce the actual movement.",
+        "3": "Connective tissue supports; muscle produces movement."
+      }
     },
     {
-      "q": "Connective tissue in the arm = BONES, tendons, ligaments, blood vessels.",
+      "q": "What tissue type includes bones, tendons, and blood vessels?",
       "options": [
-        "True",
-        "False"
+        "Epithelial tissue",
+        "Connective tissue",
+        "Muscle tissue",
+        "Nervous tissue"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Support, connection, and transport - all connective tissue functions."
+      "explain": "CONNECTIVE TISSUE includes bones, tendons, ligaments, and blood vessels — providing support, connection, and transport.",
+      "wrongExplains": {
+        "0": "Epithelial covers surfaces; connective provides support.",
+        "2": "Muscle produces movement; connective provides support.",
+        "3": "Nervous tissue transmits signals; connective provides support."
+      }
     },
     {
-      "q": "Nervous tissue in the arm = NERVES for sensation and movement control.",
+      "q": "What type of tissue is found in the nerves of the arm?",
       "options": [
-        "True",
-        "False"
+        "Epithelial tissue",
+        "Nervous tissue",
+        "Connective tissue only",
+        "Muscle tissue"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Motor neurons, sensory receptors, all present."
+      "explain": "NERVOUS TISSUE is found in nerves — motor neurons for movement control, sensory receptors for sensation.",
+      "wrongExplains": {
+        "0": "Epithelial covers surfaces; nervous tissue transmits signals.",
+        "2": "Connective tissue surrounds nerves but neurons are nervous tissue.",
+        "3": "Muscle produces movement; nervous tissue controls it."
+      }
     },
     {
-      "q": "The arm isn't a single organ, but a body REGION with all four tissue types.",
+      "q": "Is the arm a single organ or a body region?",
       "options": [
-        "True",
-        "False"
+        "A single organ",
+        "A body region containing representatives of all four tissue types",
+        "An organ system",
+        "A single tissue type"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Most body regions contain representatives of all four tissue types."
+      "explain": "The arm is a BODY REGION containing representatives of all FOUR TISSUE TYPES, not a single organ.",
+      "wrongExplains": {
+        "0": "The arm contains multiple organs and tissues; it's not one organ.",
+        "2": "The arm is a region, not an organ system.",
+        "3": "The arm contains all four tissue types, not just one."
+      }
     },
     {
-      "q": "All body regions contain representatives of the four primary tissue types.",
+      "q": "Why does trauma to the arm affect multiple tissue types?",
       "options": [
-        "True",
-        "False"
+        "The arm only has one tissue type",
+        "Body regions contain representatives of all four tissue types",
+        "Only skin is in the arm",
+        "Trauma only affects one tissue at a time"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! That's why trauma to any region affects multiple tissue types."
+      "explain": "Trauma affects multiple tissue types because BODY REGIONS contain representatives of ALL FOUR TISSUE TYPES.",
+      "wrongExplains": {
+        "0": "The arm contains all four tissue types.",
+        "2": "The arm has skin, muscle, bone, and nerves.",
+        "3": "Trauma to a region can affect all tissues present."
+      }
     },
     {
-      "q": "The answer: all body regions contain representatives of the four tissue types.",
+      "q": "What organizational principle explains why the surgeon must address 'all four primary tissue types'?",
       "options": [
-        "True",
-        "False"
+        "The arm is a single organ with one tissue",
+        "All body regions contain representatives of the four tissue types",
+        "The arm is an organ system",
+        "Only muscles need repair"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not 'organs have multiple tissues' (arm isn't one organ), not 'organ system' (arm isn't a system)."
+      "explain": "The answer: ALL BODY REGIONS contain representatives of the FOUR TISSUE TYPES. The arm has epithelial, connective, muscle, and nervous tissue.",
+      "wrongExplains": {
+        "0": "The arm is a region with multiple tissue types, not one organ.",
+        "2": "The arm is a body region, not an organ system.",
+        "3": "All four tissue types (not just muscle) are present and need repair."
+      }
     }
   ]
 }

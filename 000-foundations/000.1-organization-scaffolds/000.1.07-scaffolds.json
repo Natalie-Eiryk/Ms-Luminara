@@ -3,94 +3,157 @@
   "parentQuestion": "One of the descriptions below is from the perspective of physiological study; the rest are from an anatomical perspective. Select the description that comes from a physiological perspective.",
   "scaffolds": [
     {
-      "q": "ANATOMY studies STRUCTURE - what things look like and where they are.",
+      "q": "What does anatomy study?",
       "options": [
-        "True",
-        "False"
+        "How things work",
+        "Structure — what things look like and where they are",
+        "Chemical reactions",
+        "Disease processes"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Anatomy describes the shape, location, and composition of body parts."
+      "explain": "ANATOMY studies STRUCTURE — what things look like and where they are. It describes shape, location, and composition of body parts.",
+      "wrongExplains": {
+        "0": "How things work is physiology; anatomy is structure.",
+        "2": "Chemical reactions are biochemistry; anatomy is structure.",
+        "3": "Disease processes are pathology; anatomy is normal structure."
+      }
     },
     {
-      "q": "PHYSIOLOGY studies FUNCTION - how things work and what processes occur.",
+      "q": "What does physiology study?",
       "options": [
-        "True",
-        "False"
+        "Only body structure",
+        "Function — how things work and what processes occur",
+        "Only anatomy",
+        "Only location of parts"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Physiology explains mechanisms, processes, and how body parts function."
+      "explain": "PHYSIOLOGY studies FUNCTION — how things work and what processes occur. It explains mechanisms and how body parts function.",
+      "wrongExplains": {
+        "0": "Structure is anatomy; physiology is function.",
+        "2": "Physiology is distinct from anatomy.",
+        "3": "Location is anatomy; physiology is about processes."
+      }
     },
     {
-      "q": "'The heart has four chambers' is ANATOMY (structure).",
+      "q": "'The heart has four chambers' is an example of what perspective?",
       "options": [
-        "True",
-        "False"
+        "Physiology",
+        "Anatomy — describes structure",
+        "Chemistry",
+        "Psychology"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! This describes what the heart LOOKS LIKE, not how it works."
+      "explain": "'The heart has four chambers' is ANATOMY because it describes what the heart LOOKS LIKE (structure), not how it works.",
+      "wrongExplains": {
+        "0": "This describes structure, not function (which would be physiology).",
+        "2": "This is anatomical description, not chemistry.",
+        "3": "This is anatomy, not psychology."
+      }
     },
     {
-      "q": "'The heart pumps blood through contractions' is PHYSIOLOGY (function).",
+      "q": "'The heart pumps blood through contractions' is an example of what perspective?",
       "options": [
-        "True",
-        "False"
+        "Anatomy",
+        "Physiology — describes function",
+        "Only structural description",
+        "Static observation"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! This describes HOW the heart works, what process it performs."
+      "explain": "'The heart pumps blood through contractions' is PHYSIOLOGY because it describes HOW the heart works, what process it performs.",
+      "wrongExplains": {
+        "0": "This describes function, not structure (which would be anatomy).",
+        "2": "This is functional description, not structural.",
+        "3": "This describes a dynamic process, not static structure."
+      }
     },
     {
-      "q": "Words like 'contracts,' 'releases,' 'responds,' 'produces' suggest PHYSIOLOGY.",
+      "q": "Which words suggest a physiological description?",
       "options": [
-        "True",
-        "False"
+        "'Composed of,' 'located'",
+        "'Contracts,' 'releases,' 'responds,' 'produces'",
+        "'Made of,' 'shaped like'",
+        "'Found in,' 'positioned'"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Action words = function = physiology."
+      "explain": "Words like 'CONTRACTS,' 'RELEASES,' 'RESPONDS,' 'PRODUCES' suggest PHYSIOLOGY because they're ACTION words describing function.",
+      "wrongExplains": {
+        "0": "'Composed of' and 'located' describe structure (anatomy).",
+        "2": "'Made of' and 'shaped like' describe structure (anatomy).",
+        "3": "'Found in' and 'positioned' describe location (anatomy)."
+      }
     },
     {
-      "q": "Words like 'composed of,' 'located,' 'formed by' suggest ANATOMY.",
+      "q": "Which words suggest an anatomical description?",
       "options": [
-        "True",
-        "False"
+        "'Contracts,' 'secretes'",
+        "'Composed of,' 'located,' 'formed by'",
+        "'Responds,' 'produces'",
+        "'Functions,' 'works'"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Descriptive words about structure = anatomy."
+      "explain": "Words like 'COMPOSED OF,' 'LOCATED,' 'FORMED BY' suggest ANATOMY because they describe STRUCTURE, not function.",
+      "wrongExplains": {
+        "0": "'Contracts' and 'secretes' are action words (physiology).",
+        "2": "'Responds' and 'produces' are action words (physiology).",
+        "3": "'Functions' and 'works' describe physiology."
+      }
     },
     {
-      "q": "'Vasoconstriction reduces blood flow' is PHYSIOLOGY (a process/function).",
+      "q": "'Vasoconstriction reduces blood flow' is what type of description?",
       "options": [
-        "True",
-        "False"
+        "Anatomy",
+        "Physiology — describes a process",
+        "Static structure",
+        "Location description"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! This describes a PROCESS - smooth muscle contracting, flow reducing."
+      "explain": "'Vasoconstriction reduces blood flow' is PHYSIOLOGY because it describes a PROCESS — smooth muscle contracting, flow reducing.",
+      "wrongExplains": {
+        "0": "This describes a dynamic process, not static anatomy.",
+        "2": "Vasoconstriction is an active process, not static.",
+        "3": "This describes function, not location."
+      }
     },
     {
-      "q": "Physiology describes PROCESSES and FUNCTIONS - how things WORK.",
+      "q": "What is the key difference between anatomy and physiology?",
       "options": [
-        "True",
-        "False"
+        "They're the same",
+        "Anatomy = structure (what it is); Physiology = function (how it works)",
+        "Anatomy = function; Physiology = structure",
+        "Both study chemistry"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Look for action words and descriptions of mechanisms."
+      "explain": "ANATOMY = STRUCTURE (what it is, where it is). PHYSIOLOGY = FUNCTION (how it works, what processes occur). They're complementary.",
+      "wrongExplains": {
+        "0": "Anatomy and physiology are distinct but related fields.",
+        "2": "This is reversed; anatomy is structure, physiology is function.",
+        "3": "Chemistry is separate; anatomy/physiology focus on structure/function."
+      }
     },
     {
-      "q": "The PHYSIOLOGICAL answer describes a PROCESS (vasoconstriction reducing flow).",
+      "q": "Which description uses a physiological perspective?",
       "options": [
-        "True",
-        "False"
+        "'The kidney is bean-shaped'",
+        "'Vasoconstriction reduces blood flow' — describes a process",
+        "'The heart is located in the thoracic cavity'",
+        "'The stomach has three layers'"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! The other options describe structure/location (anatomy)."
+      "explain": "The PHYSIOLOGICAL answer describes a PROCESS (vasoconstriction reducing flow). The other options describe structure/location (anatomy).",
+      "wrongExplains": {
+        "0": "Shape descriptions are anatomy, not physiology.",
+        "2": "Location descriptions are anatomy, not physiology.",
+        "3": "Layer descriptions are anatomy, not physiology."
+      }
     }
   ]
 }

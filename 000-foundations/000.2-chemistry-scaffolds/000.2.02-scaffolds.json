@@ -3,27 +3,157 @@
   "parentQuestion": "The lower the pH, the higher the hydrogen ion concentration.",
   "scaffolds": [
     {
-      "q": "What does pH measure in a solution?",
+      "q": "What is pH?",
       "options": [
-        "Temperature",
-        "Acidity or alkalinity",
-        "Dissolved oxygen",
-        "Salt content"
+        "A measure of temperature",
+        "A measure of acidity or alkalinity",
+        "A measure of pressure",
+        "A measure of volume"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "pH measures how acidic or alkaline (basic) a solution is. the pH scale runs from 0 (viciously acidic — battery acid, stomach acid) to 14 (caustic alkaline — drain cleaner), with 7 being neutral (pure water). Blood pH is TIGHTLY regulated around 7.4. Drift too far in either direction and proteins denature, enzymes fail, and you die. Allow the mechanism to reveal itself:the knife-edge precision your body maintains."
+      "difficulty": "foundation",
+      "explain": "pH is a measure of ACIDITY or ALKALINITY of a solution. It indicates the concentration of hydrogen ions (H⁺).",
+      "wrongExplains": {
+        "0": "Temperature is measured in degrees; pH measures acidity.",
+        "2": "Pressure is measured in mmHg or atm; pH measures acidity.",
+        "3": "Volume is measured in liters; pH measures acidity."
+      }
     },
     {
-      "q": "On the pH scale, is a pH of 3 more acidic or less acidic than a pH of 5?",
+      "q": "What is the pH scale range?",
       "options": [
-        "More acidic",
-        "Less acidic",
-        "Same acidity"
+        "1 to 100",
+        "0 to 14",
+        "0 to 100",
+        "-10 to +10"
       ],
-      "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Lower pH = more acidic. pH 3 is MUCH more acidic than pH 5. The drama intensifies: — Thread this needle carefully:: each unit decrease represents a 10-fold increase in acidity. So pH 3 is 10× more acidic than pH 4, and 100× more acidic than pH 5. Logarithmic thinking matters! Feel the weight of this:drawn into the elegance of exponential change."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The pH scale runs from 0 to 14. Values below 7 are acidic, 7 is neutral, and above 7 is alkaline (basic).",
+      "wrongExplains": {
+        "0": "pH ranges 0-14, not 1-100.",
+        "2": "pH ranges 0-14, not 0-100.",
+        "3": "pH ranges 0-14, not -10 to +10."
+      }
+    },
+    {
+      "q": "What does a pH of 7 indicate?",
+      "options": [
+        "Very acidic",
+        "Neutral",
+        "Very alkaline",
+        "Cannot be determined"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "pH 7 is NEUTRAL — neither acidic nor alkaline. Pure water has a pH of 7.",
+      "wrongExplains": {
+        "0": "pH 7 is neutral; acidic is below 7.",
+        "2": "pH 7 is neutral; alkaline is above 7.",
+        "3": "pH 7 always indicates neutral."
+      }
+    },
+    {
+      "q": "What do hydrogen ions (H⁺) determine?",
+      "options": [
+        "Temperature of a solution",
+        "Acidity of a solution",
+        "Color of a solution",
+        "Volume of a solution"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Hydrogen ions (H⁺) determine the ACIDITY of a solution. More H⁺ ions = more acidic = lower pH.",
+      "wrongExplains": {
+        "0": "Molecular motion determines temperature; H⁺ determines acidity.",
+        "2": "Pigments determine color; H⁺ determines acidity.",
+        "3": "Container determines volume; H⁺ determines acidity."
+      }
+    },
+    {
+      "q": "Is a pH of 3 more acidic or less acidic than a pH of 5?",
+      "options": [
+        "Less acidic",
+        "More acidic",
+        "Same acidity",
+        "Cannot compare"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "pH 3 is MORE ACIDIC than pH 5. Lower pH = more acidic = more H⁺ ions.",
+      "wrongExplains": {
+        "0": "Lower pH means more acidic, not less.",
+        "2": "Different pH values mean different acidity levels.",
+        "3": "pH values can always be compared for acidity."
+      }
+    },
+    {
+      "q": "What is the normal pH of blood?",
+      "options": [
+        "7.0 (neutral)",
+        "7.35-7.45 (slightly alkaline)",
+        "6.0-6.5 (acidic)",
+        "8.0-8.5 (very alkaline)"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Normal blood pH is 7.35-7.45 — SLIGHTLY ALKALINE. This narrow range is tightly regulated for enzyme function.",
+      "wrongExplains": {
+        "0": "Blood is slightly alkaline (7.35-7.45), not neutral.",
+        "2": "pH 6.0-6.5 would be fatal acidosis.",
+        "3": "pH 8.0-8.5 would be fatal alkalosis."
+      }
+    },
+    {
+      "q": "How much more acidic is each pH unit decrease?",
+      "options": [
+        "2 times more acidic",
+        "10 times more acidic",
+        "100 times more acidic",
+        "The same acidity"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Each pH unit decrease represents 10 TIMES more acidic (10-fold increase in H⁺). pH is a logarithmic scale.",
+      "wrongExplains": {
+        "0": "pH is logarithmic; each unit is 10x, not 2x.",
+        "2": "Each single unit is 10x; two units would be 100x.",
+        "3": "Different pH values have different acidity levels."
+      }
+    },
+    {
+      "q": "What is the relationship between pH and hydrogen ion concentration?",
+      "options": [
+        "Higher pH = higher H⁺ concentration",
+        "Lower pH = higher H⁺ concentration",
+        "pH and H⁺ are unrelated",
+        "pH only measures temperature"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "LOWER pH = HIGHER H⁺ concentration. This inverse relationship is fundamental to understanding acid-base chemistry.",
+      "wrongExplains": {
+        "0": "The relationship is inverse: lower pH = more H⁺.",
+        "2": "pH directly measures H⁺ concentration.",
+        "3": "pH measures acidity (H⁺), not temperature."
+      }
+    },
+    {
+      "q": "Is this TRUE: 'The lower the pH, the higher the hydrogen ion concentration'?",
+      "options": [
+        "False — lower pH means fewer H⁺ ions",
+        "True — pH and H⁺ are inversely related",
+        "False — pH has no relationship to H⁺",
+        "Only true for blood, not other solutions"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "TRUE — pH and H⁺ concentration are INVERSELY related. Lower pH means more H⁺ ions (more acidic).",
+      "wrongExplains": {
+        "0": "Lower pH means MORE H⁺ ions, not fewer.",
+        "2": "pH is defined by H⁺ concentration.",
+        "3": "This relationship applies to all aqueous solutions."
+      }
     }
   ]
 }

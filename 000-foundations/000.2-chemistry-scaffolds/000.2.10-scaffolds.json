@@ -3,26 +3,157 @@
   "parentQuestion": "The atomic number is equal to the number of ___.",
   "scaffolds": [
     {
-      "q": "What are the three main subatomic particles in an atom?",
+      "q": "What is an atom?",
+      "options": [
+        "A type of molecule",
+        "The smallest unit of an element that retains its properties",
+        "A type of cell",
+        "A type of tissue"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "An ATOM is the SMALLEST UNIT of an element that retains its chemical properties. Atoms are the building blocks of matter.",
+      "wrongExplains": {
+        "0": "Molecules are made of atoms; atoms are more fundamental.",
+        "2": "Cells are made of molecules; atoms are smaller.",
+        "3": "Tissues are made of cells; atoms are much smaller."
+      }
+    },
+    {
+      "q": "What are the three main subatomic particles?",
       "options": [
         "Protons, neutrons, and electrons",
         "Protons, photons, and electrons",
-        "Ions, neutrons, and electrons"
+        "Ions, neutrons, and electrons",
+        "Atoms, molecules, and ions"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Atoms are made of three main particles: PROTONS (positive charge, in nucleus), NEUTRONS (no charge, in nucleus), and ELECTRONS (negative charge, orbiting nucleus in probability clouds). the number and arrangement of these particles determines EVERYTHING — element identity, chemical reactivity, physical properties. Sit with this knowledge:this: you're built from these three fundamental pieces."
+      "difficulty": "foundation",
+      "explain": "The three main subatomic particles are PROTONS (positive), NEUTRONS (neutral), and ELECTRONS (negative).",
+      "wrongExplains": {
+        "1": "Photons are light particles; neutrons are in the nucleus.",
+        "2": "Ions are charged atoms; protons are subatomic particles.",
+        "3": "Atoms and molecules are larger structures, not subatomic."
+      }
     },
     {
       "q": "Where are protons located in an atom?",
       "options": [
         "Orbiting around the nucleus",
         "In the nucleus at the center",
-        "Between the nucleus and electrons"
+        "Between the nucleus and electrons",
+        "Outside the atom"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Protons are located in the NUCLEUS at the center of the atom, packed tightly with neutrons. Electrons orbit around the nucleus in electron shells (or more accurately, probability clouds). The crescendo approaches:: the nucleus contains almost ALL the atom's mass but occupies TINY space. If an atom were a stadium, the nucleus would be a marble on the 50-yard line. Consider the elegance here:this: almost all of you is EMPTY SPACE. (Existentially unsettling? Chemically fascinating!)"
+      "difficulty": "foundation",
+      "explain": "Protons are located IN THE NUCLEUS at the center of the atom, packed tightly with neutrons.",
+      "wrongExplains": {
+        "0": "Electrons orbit the nucleus; protons are in it.",
+        "2": "Protons are in the nucleus itself, not between structures.",
+        "3": "Protons are inside the atom, in the nucleus."
+      }
+    },
+    {
+      "q": "What charge does a proton have?",
+      "options": [
+        "Negative",
+        "Positive",
+        "Neutral",
+        "Variable"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Protons have a POSITIVE charge. This positive charge in the nucleus attracts negatively charged electrons.",
+      "wrongExplains": {
+        "0": "Electrons are negative; protons are positive.",
+        "2": "Neutrons are neutral; protons are positive.",
+        "3": "Proton charge is always positive (+1)."
+      }
+    },
+    {
+      "q": "What charge does an electron have?",
+      "options": [
+        "Positive",
+        "Negative",
+        "Neutral",
+        "Variable"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Electrons have a NEGATIVE charge. They orbit the nucleus and are attracted to the positive protons.",
+      "wrongExplains": {
+        "0": "Protons are positive; electrons are negative.",
+        "2": "Neutrons are neutral; electrons are negative.",
+        "3": "Electron charge is always negative (-1)."
+      }
+    },
+    {
+      "q": "What charge does a neutron have?",
+      "options": [
+        "Positive",
+        "Negative",
+        "Neutral (no charge)",
+        "Variable"
+      ],
+      "answer": 2,
+      "difficulty": "foundation",
+      "explain": "Neutrons have NO CHARGE — they are neutral. They add mass to the nucleus without changing the charge.",
+      "wrongExplains": {
+        "0": "Protons are positive; neutrons are neutral.",
+        "1": "Electrons are negative; neutrons are neutral.",
+        "3": "Neutron charge is always neutral (zero)."
+      }
+    },
+    {
+      "q": "What determines which element an atom is?",
+      "options": [
+        "Number of neutrons",
+        "Number of protons (atomic number)",
+        "Number of electrons",
+        "Size of the atom"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The NUMBER OF PROTONS (atomic number) determines which element an atom is. Carbon has 6 protons, oxygen has 8, etc.",
+      "wrongExplains": {
+        "0": "Neutron number can vary (isotopes); protons define the element.",
+        "2": "Electrons can be gained/lost (ions); protons define the element.",
+        "3": "Size varies; proton number defines the element."
+      }
+    },
+    {
+      "q": "What is the atomic number?",
+      "options": [
+        "The number of neutrons",
+        "The number of protons in an atom's nucleus",
+        "The total number of particles",
+        "The atomic mass"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The ATOMIC NUMBER is the NUMBER OF PROTONS in an atom's nucleus. It defines the element and appears on the periodic table.",
+      "wrongExplains": {
+        "0": "Neutron number can vary; atomic number is protons.",
+        "2": "Mass number is total particles; atomic number is just protons.",
+        "3": "Atomic mass includes protons and neutrons; atomic number is just protons."
+      }
+    },
+    {
+      "q": "The atomic number is equal to the number of ___?",
+      "options": [
+        "Neutrons",
+        "Protons",
+        "Electrons in an ion",
+        "Total particles"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The atomic number equals the number of PROTONS. This number defines the element and never changes for that element.",
+      "wrongExplains": {
+        "0": "Neutrons vary in isotopes; atomic number = protons.",
+        "2": "Electrons can vary in ions; atomic number = protons.",
+        "3": "Total particles is mass number; atomic number = protons."
+      }
     }
   ]
 }

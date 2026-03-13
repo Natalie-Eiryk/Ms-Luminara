@@ -3,26 +3,157 @@
   "parentQuestion": "A charged particle is generally called an ion or electrolyte.",
   "scaffolds": [
     {
+      "q": "What is an ion?",
+      "options": [
+        "A neutral atom",
+        "A charged atom or molecule",
+        "A type of cell",
+        "A body organ"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "An ION is a CHARGED atom or molecule. Ions form when atoms gain or lose electrons, creating positive or negative charges.",
+      "wrongExplains": {
+        "0": "Neutral atoms have balanced charges; ions are charged.",
+        "2": "Ions are charged particles, not cells.",
+        "3": "Ions are charged particles, not organs."
+      }
+    },
+    {
       "q": "What gives an atom its electrical charge?",
       "options": [
-        "Number of protons only",
         "Number of neutrons",
-        "Imbalance between protons and electrons"
+        "Imbalance between protons and electrons",
+        "Size of the nucleus",
+        "Temperature"
       ],
-      "answer": 2,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Atoms have protons (positive) and electrons (negative). When these are balanced, the atom is neutral — no net charge. But when an atom GAINS or LOSES electrons, it becomes charged. Follow the breadcrumbs:: More electrons than protons? Negative charge (anion). Fewer electrons than protons? Positive charge (cation). Chemistry is just charged particles seeking balance. Let this settle:the tension of that imbalance."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "An IMBALANCE BETWEEN PROTONS AND ELECTRONS gives atoms their charge. More electrons = negative; fewer electrons = positive.",
+      "wrongExplains": {
+        "0": "Neutrons are neutral; proton/electron imbalance creates charge.",
+        "2": "Nucleus size doesn't determine charge; electron balance does.",
+        "3": "Temperature doesn't determine ionic charge."
+      }
+    },
+    {
+      "q": "What is an electrolyte?",
+      "options": [
+        "A solid crystal that doesn't dissolve",
+        "A substance that dissociates into ions when dissolved",
+        "A type of fat",
+        "A protein"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "An ELECTROLYTE is a substance that DISSOCIATES INTO IONS when dissolved in water. These ions can conduct electricity.",
+      "wrongExplains": {
+        "0": "Electrolytes dissolve and dissociate, unlike non-dissolving crystals.",
+        "2": "Fats are lipids; electrolytes are ion-forming substances.",
+        "3": "Proteins are macromolecules; electrolytes form ions."
+      }
     },
     {
       "q": "What happens when table salt (NaCl) dissolves in water?",
       "options": [
         "It stays as solid crystals",
         "It separates into Na⁺ and Cl⁻ ions",
-        "It becomes a gas"
+        "It becomes a gas",
+        "It forms a new compound"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "When ionic compounds like salt dissolve in water, they DISSOCIATE — they break apart into separate ions. NaCl → Na⁺ + Cl⁻. these dissolved ions are mobile and can conduct electricity, which is why they're called electrolytes. Your body is mostly water and dissolved ions. Permit yourself to feel this:this: you're literally a salty solution with delusions of grandeur. (And I mean that with the utmost affection.)"
+      "difficulty": "foundation",
+      "explain": "When NaCl dissolves, it SEPARATES INTO Na⁺ AND Cl⁻ IONS. This dissociation is why salt is an electrolyte.",
+      "wrongExplains": {
+        "0": "Dissolving means the crystal breaks apart into ions.",
+        "2": "Salt dissolves into ions in water, not into gas.",
+        "3": "Salt dissociates into existing ions, not new compounds."
+      }
+    },
+    {
+      "q": "Why are dissolved ions called electrolytes?",
+      "options": [
+        "They produce light",
+        "They can conduct electricity",
+        "They generate heat",
+        "They create magnetic fields"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Dissolved ions are called ELECTROLYTES because they can CONDUCT ELECTRICITY. Moving ions carry electrical charge.",
+      "wrongExplains": {
+        "0": "Electrolytes conduct electricity, not produce light.",
+        "2": "Electrolytes conduct electricity, not primarily generate heat.",
+        "3": "Electrolytes conduct electricity, not create magnetic fields."
+      }
+    },
+    {
+      "q": "What are common electrolytes in the body?",
+      "options": [
+        "Only vitamins",
+        "Sodium, potassium, calcium, chloride, bicarbonate",
+        "Only fats",
+        "Only proteins"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Common body electrolytes include SODIUM, POTASSIUM, CALCIUM, CHLORIDE, and BICARBONATE. These ions regulate fluid balance and nerve function.",
+      "wrongExplains": {
+        "0": "Vitamins are organic molecules; electrolytes are ions.",
+        "2": "Fats are lipids; electrolytes are dissolved ions.",
+        "3": "Proteins are macromolecules; electrolytes are ions."
+      }
+    },
+    {
+      "q": "What is the difference between cations and anions?",
+      "options": [
+        "They are the same thing",
+        "Cations are positive; anions are negative",
+        "Cations are larger than anions",
+        "Anions are always sodium"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CATIONS are POSITIVE (lost electrons); ANIONS are NEGATIVE (gained electrons). Both are types of ions.",
+      "wrongExplains": {
+        "0": "Cations and anions have opposite charges.",
+        "2": "Charge, not size, distinguishes cations from anions.",
+        "3": "Sodium is a cation, not an anion."
+      }
+    },
+    {
+      "q": "Why are electrolytes important for body function?",
+      "options": [
+        "They provide calories",
+        "They enable nerve impulses, muscle contractions, and fluid balance",
+        "They only flavor food",
+        "They only affect digestion"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Electrolytes enable NERVE IMPULSES, MUSCLE CONTRACTIONS, and FLUID BALANCE. Ion movement is essential for all these functions.",
+      "wrongExplains": {
+        "0": "Electrolytes don't provide calories; carbs, fats, proteins do.",
+        "2": "Electrolytes are essential for physiology, not just taste.",
+        "3": "Electrolytes affect many systems, not just digestion."
+      }
+    },
+    {
+      "q": "Is this TRUE: 'A charged particle is generally called an ion or electrolyte'?",
+      "options": [
+        "False — ions and electrolytes are unrelated",
+        "True — ions are charged particles, and electrolytes dissociate into ions",
+        "False — only anions are charged",
+        "False — electrolytes are neutral"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "TRUE — IONS are charged particles, and ELECTROLYTES dissociate into ions when dissolved. Both terms relate to charged particles.",
+      "wrongExplains": {
+        "0": "Ions and electrolytes are closely related concepts.",
+        "2": "Both cations and anions are charged.",
+        "3": "Electrolytes produce charged ions when dissolved."
+      }
     }
   ]
 }

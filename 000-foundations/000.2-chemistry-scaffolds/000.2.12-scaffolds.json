@@ -1,9 +1,26 @@
 {
   "parentId": "000.2.12",
-  "parentQuestion": "A patient with chronic renal failure develops severe muscle weakness and cardiac...",
+  "parentQuestion": "A patient with chronic renal failure develops severe muscle weakness and cardiac arrhythmias. Labs reveal critically elevated potassium levels. Which cellular mechanism is being disrupted?",
   "scaffolds": [
     {
-      "q": "Which ion has a much higher concentration INSIDE cells compared to outside?",
+      "q": "What is the resting membrane potential?",
+      "options": [
+        "0 mV (neutral)",
+        "About -70 mV (negative inside relative to outside)",
+        "About +30 mV (positive inside)",
+        "About +70 mV"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The resting membrane potential is about -70 mV — the INSIDE is NEGATIVE relative to outside. This electrical difference powers nerve and muscle function.",
+      "wrongExplains": {
+        "0": "Resting cells are polarized (charged), not neutral.",
+        "2": "+30 mV is during depolarization, not at rest.",
+        "3": "The inside is negative at rest, not positive."
+      }
+    },
+    {
+      "q": "Which ion is the major cation INSIDE cells?",
       "options": [
         "Sodium (Na⁺)",
         "Potassium (K⁺)",
@@ -11,19 +28,132 @@
         "Chloride (Cl⁻)"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Potassium (K⁺) is the major INTRACELLULAR cation — about 140 mEq/L inside cells, only 4-5 mEq/L outside. Descend with me into this:: this gradient is the OPPOSITE of sodium (high outside, low inside). Together, they form the electrical battery that powers nerve and muscle function. Allow your mind to embrace this:this asymmetry — it's maintained at ENORMOUS metabolic cost, and it's absolutely essential for life."
+      "difficulty": "foundation",
+      "explain": "POTASSIUM (K⁺) is the major cation INSIDE cells — about 140 mEq/L inside vs only 4-5 mEq/L outside.",
+      "wrongExplains": {
+        "0": "Sodium is the major cation OUTSIDE cells.",
+        "2": "Calcium is present but not the major intracellular cation.",
+        "3": "Chloride is an anion, not a cation."
+      }
     },
     {
-      "q": "What is the typical resting membrane potential of a neuron or muscle cell?",
+      "q": "What maintains the potassium gradient?",
       "options": [
-        "0 mV (neutral)",
-        "About -70 mV (negative inside)",
-        "About +30 mV (positive inside)"
+        "Gravity",
+        "The Na⁺/K⁺ ATPase pump",
+        "Random diffusion",
+        "Body temperature"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "The resting membrane potential is about -70 mV — the INSIDE of the cell is negative relative to the outside. this negative charge is maintained by the K⁺ gradient and the Na⁺/K⁺ ATPase pump. This electrical potential is the 'loaded spring' that allows rapid signaling when voltage-gated channels open. Give this idea space to land:this: you're electrically polarized, waiting to fire. Every thought, every heartbeat, every movement depends on this voltage difference."
+      "difficulty": "foundation",
+      "explain": "The Na⁺/K⁺ ATPASE PUMP maintains the gradient by pumping 3 Na⁺ out and 2 K⁺ in, using ATP energy.",
+      "wrongExplains": {
+        "0": "Gravity doesn't affect ion distribution in cells.",
+        "2": "Diffusion would equalize gradients; the pump maintains them.",
+        "3": "Temperature doesn't pump ions against their gradient."
+      }
+    },
+    {
+      "q": "What does the potassium gradient create?",
+      "options": [
+        "Body heat",
+        "The resting membrane potential (electrical charge)",
+        "Blood pressure",
+        "Digestion"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The potassium gradient creates the RESTING MEMBRANE POTENTIAL — the electrical charge difference across cell membranes.",
+      "wrongExplains": {
+        "0": "Metabolism creates heat; K⁺ gradient creates membrane potential.",
+        "2": "Blood pressure involves heart and vessels; K⁺ creates membrane potential.",
+        "3": "Digestion involves GI tract; K⁺ creates membrane potential."
+      }
+    },
+    {
+      "q": "What happens if extracellular potassium becomes too high?",
+      "options": [
+        "Nothing — cells adapt",
+        "The gradient decreases, disrupting the membrane potential",
+        "Cells become more polarized",
+        "Muscles become stronger"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "High extracellular K⁺ DECREASES THE GRADIENT, disrupting membrane potential. This impairs nerve and muscle function.",
+      "wrongExplains": {
+        "0": "Cells cannot adapt to severely disrupted gradients.",
+        "2": "Less gradient means less polarization, not more.",
+        "3": "Disrupted potassium causes weakness, not strength."
+      }
+    },
+    {
+      "q": "Why does hyperkalemia cause muscle weakness?",
+      "options": [
+        "Muscles get too much energy",
+        "Reduced K⁺ gradient impairs action potential generation",
+        "Muscles become too strong",
+        "Hyperkalemia doesn't affect muscles"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "REDUCED K⁺ GRADIENT impairs ACTION POTENTIAL GENERATION. Without proper membrane potential, muscles can't contract properly.",
+      "wrongExplains": {
+        "0": "Energy isn't the issue; membrane potential is.",
+        "2": "Hyperkalemia causes weakness, not strength.",
+        "3": "Hyperkalemia definitely affects muscles through membrane potential."
+      }
+    },
+    {
+      "q": "Why does hyperkalemia cause cardiac arrhythmias?",
+      "options": [
+        "The heart receives too much blood",
+        "Disrupted membrane potential affects cardiac electrical conduction",
+        "The heart gets more oxygen",
+        "Hyperkalemia doesn't affect the heart"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Disrupted MEMBRANE POTENTIAL affects cardiac ELECTRICAL CONDUCTION. The heart's rhythm depends on proper ion gradients.",
+      "wrongExplains": {
+        "0": "Blood flow isn't the issue; electrical conduction is.",
+        "2": "Oxygen isn't the issue; electrical conduction is.",
+        "3": "Hyperkalemia is life-threatening to the heart."
+      }
+    },
+    {
+      "q": "What organs rely most on proper potassium gradients?",
+      "options": [
+        "Liver and kidneys",
+        "Heart and skeletal muscles (excitable tissues)",
+        "Skin and hair",
+        "Bones and joints"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "HEART and SKELETAL MUSCLES (excitable tissues) rely most on potassium gradients. These tissues need proper membrane potentials for function.",
+      "wrongExplains": {
+        "0": "Liver/kidneys are important but not primarily affected by K⁺ gradients.",
+        "2": "Skin/hair aren't excitable tissues dependent on K⁺ gradients.",
+        "3": "Bones/joints aren't excitable tissues dependent on K⁺ gradients."
+      }
+    },
+    {
+      "q": "Which cellular mechanism is disrupted by elevated potassium?",
+      "options": [
+        "DNA replication",
+        "Resting membrane potential and action potential generation",
+        "Protein synthesis",
+        "Fat metabolism"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "RESTING MEMBRANE POTENTIAL and ACTION POTENTIAL GENERATION are disrupted. High extracellular K⁺ reduces the gradient that powers electrical signaling.",
+      "wrongExplains": {
+        "0": "DNA replication isn't directly affected by K⁺ levels.",
+        "2": "Protein synthesis isn't directly affected by K⁺ levels.",
+        "3": "Fat metabolism isn't directly affected by K⁺ levels."
+      }
     }
   ]
 }

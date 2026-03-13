@@ -3,94 +3,157 @@
   "parentQuestion": "Which one of the following systems responds fastest to environmental stimuli?",
   "scaffolds": [
     {
-      "q": "Different body systems respond at different speeds.",
+      "q": "Do different body systems respond at different speeds?",
       "options": [
-        "True",
-        "False"
+        "No, all systems respond equally fast",
+        "Yes — some respond in milliseconds, others take hours or days",
+        "Speed doesn't matter in physiology",
+        "Only the heart responds quickly"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Some systems respond in milliseconds, others take hours or days."
+      "explain": "Yes, different body systems respond at DIFFERENT SPEEDS. Some respond in MILLISECONDS, others take HOURS or DAYS.",
+      "wrongExplains": {
+        "0": "Response times vary dramatically between systems.",
+        "2": "Speed of response is critical in physiology.",
+        "3": "Many systems respond quickly, not just the heart."
+      }
     },
     {
-      "q": "The NERVOUS system uses ELECTRICAL signals (action potentials).",
+      "q": "What type of signals does the nervous system use?",
       "options": [
-        "True",
-        "False"
+        "Only hormones",
+        "Electrical signals (action potentials)",
+        "Only mechanical signals",
+        "Only chemical signals through blood"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Electrical signals travel along nerve fibers at incredible speeds."
+      "explain": "The NERVOUS SYSTEM uses ELECTRICAL SIGNALS (action potentials) that travel along nerve fibers at incredible speeds.",
+      "wrongExplains": {
+        "0": "Hormones are the endocrine system; nerves use electrical signals.",
+        "2": "The primary signal is electrical, though neurotransmitters are chemical.",
+        "3": "Hormones travel through blood; nerve signals travel along neurons."
+      }
     },
     {
-      "q": "Nerve signals can travel up to 120 meters per second.",
+      "q": "How fast can nerve signals travel?",
       "options": [
-        "True",
-        "False"
+        "About 1 meter per hour",
+        "Up to 120 meters per second (about 270 mph)",
+        "The speed of light",
+        "About 1 meter per day"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! That's about 270 miles per hour - extremely fast!"
+      "explain": "Nerve signals can travel up to 120 METERS PER SECOND — about 270 miles per hour. Extremely fast!",
+      "wrongExplains": {
+        "0": "Nerve signals are much faster than 1 meter per hour.",
+        "2": "Nerve signals are fast but not the speed of light.",
+        "3": "Nerve signals are much faster than 1 meter per day."
+      }
     },
     {
-      "q": "The ENDOCRINE system uses HORMONES that travel through blood.",
+      "q": "How does the endocrine system communicate?",
       "options": [
-        "True",
-        "False"
+        "Through electrical wires",
+        "Through hormones that travel in the bloodstream",
+        "Through nerve impulses",
+        "Instantly without delay"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Hormones must travel through the bloodstream - slower than nerves."
+      "explain": "The ENDOCRINE SYSTEM uses HORMONES that travel through the BLOODSTREAM — slower than electrical nerve signals.",
+      "wrongExplains": {
+        "0": "The body doesn't have wires; nerves carry electrical signals.",
+        "2": "Nerve impulses are the nervous system; hormones are endocrine.",
+        "3": "Hormones must travel through blood, which takes time."
+      }
     },
     {
-      "q": "Hormones take seconds to hours to produce effects.",
+      "q": "How long do hormones take to produce effects?",
       "options": [
-        "True",
-        "False"
+        "Instantly (milliseconds)",
+        "Seconds to hours — blood must carry them to targets",
+        "Always exactly one day",
+        "Hormones never work"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Blood must carry them to target cells, then they trigger responses."
+      "explain": "Hormones take SECONDS TO HOURS to produce effects. Blood must carry them to target cells, then they trigger cellular responses.",
+      "wrongExplains": {
+        "0": "Instant responses are nervous system; hormones are slower.",
+        "2": "Response time varies; not always exactly one day.",
+        "3": "Hormones are essential regulators that definitely work."
+      }
     },
     {
-      "q": "The IMMUNE system takes hours to days to mount a full response.",
+      "q": "How long does the immune system take to mount a full response?",
       "options": [
-        "True",
-        "False"
+        "Milliseconds",
+        "Hours to days",
+        "Never",
+        "Exactly one second"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Immune cells need time to recognize threats, multiply, and attack."
+      "explain": "The IMMUNE SYSTEM takes HOURS TO DAYS to mount a full response. Immune cells need time to recognize threats, multiply, and attack.",
+      "wrongExplains": {
+        "0": "Milliseconds is nervous system; immune takes much longer.",
+        "2": "The immune system does respond, just slowly.",
+        "3": "Immune responses are complex and take longer than one second."
+      }
     },
     {
-      "q": "For FAST responses (milliseconds), the NERVOUS system is unmatched.",
+      "q": "Which system provides the fastest response to stimuli?",
       "options": [
-        "True",
-        "False"
+        "The immune system",
+        "The nervous system — responds in milliseconds",
+        "The digestive system",
+        "The skeletal system"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Touch a hot stove - you pull your hand back instantly. Nerves!"
+      "explain": "The NERVOUS SYSTEM is UNMATCHED for fast responses (milliseconds). Touch a hot stove — you pull your hand back instantly. Nerves!",
+      "wrongExplains": {
+        "0": "Immune system takes hours/days; nervous is fastest.",
+        "2": "Digestion takes hours; nervous system responds in milliseconds.",
+        "3": "Skeletal system doesn't respond to stimuli; it provides structure."
+      }
     },
     {
-      "q": "The NERVOUS system responds FASTEST - milliseconds vs. seconds/hours.",
+      "q": "Why is the nervous system faster than the endocrine system?",
       "options": [
-        "True",
-        "False"
+        "Hormones are faster than electricity",
+        "Electrical signals (nerves) beat chemical signals (hormones) for speed",
+        "They're the same speed",
+        "The endocrine system doesn't exist"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Electrical signals beat chemical signals for speed."
+      "explain": "ELECTRICAL SIGNALS (nerves) beat CHEMICAL SIGNALS (hormones) for speed. Nerves respond in milliseconds; hormones take seconds to hours.",
+      "wrongExplains": {
+        "0": "Electricity (nerves) is faster than chemical hormones.",
+        "2": "Nervous system is much faster than endocrine.",
+        "3": "The endocrine system exists and uses hormones."
+      }
     },
     {
-      "q": "The answer is NERVOUS system - fastest response to stimuli.",
+      "q": "Which system responds FASTEST to environmental stimuli?",
       "options": [
-        "True",
-        "False"
+        "Immune system",
+        "Nervous system",
+        "Muscular system",
+        "Endocrine system"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not immune (days), not muscular (needs nervous input). Nervous = fastest."
+      "explain": "The NERVOUS SYSTEM responds FASTEST. Not immune (days), not muscular (needs nervous input), not endocrine (hours). Nervous = fastest.",
+      "wrongExplains": {
+        "0": "Immune system takes hours to days to respond.",
+        "2": "Muscular system requires nervous system input to respond.",
+        "3": "Endocrine system takes seconds to hours via hormones."
+      }
     }
   ]
 }

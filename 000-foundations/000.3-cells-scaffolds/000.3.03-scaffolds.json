@@ -1,30 +1,159 @@
 {
   "parentId": "000.3.03",
-  "parentQuestion": "The movement of substances across the membrane without any energy input from the...",
+  "parentQuestion": "The movement of substances across the membrane without any energy input from the cell is called ___.",
   "scaffolds": [
     {
-      "q": "Substances naturally move from areas of ___ concentration to areas of ___ concentration.",
+      "q": "What is passive transport?",
       "options": [
-        "Low; high",
-        "High; low",
-        "Equal; high",
-        "Low; equal"
+        "Transport that requires ATP",
+        "Transport that requires no energy input from the cell",
+        "Transport by vesicles",
+        "Transport through the nucleus"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "This is diffusion — substances naturally spread out from areas of high concentration to low concentration. This movement happens spontaneously without energy input. Think of perfume spreading through a room. Absorb this:the inevitability of it."
+      "difficulty": "foundation",
+      "explain": "PASSIVE TRANSPORT is transport that REQUIRES NO ENERGY INPUT from the cell. Substances move down their concentration gradient.",
+      "wrongExplains": {
+        "0": "Transport requiring ATP is active transport, not passive.",
+        "2": "Vesicle transport can be either active or passive.",
+        "3": "The nucleus doesn't transport substances across the cell membrane."
+      }
     },
     {
-      "q": "The main energy currency used by cells is ___.",
+      "q": "What is diffusion?",
       "options": [
-        "Glucose",
-        "ATP",
-        "DNA",
-        "Protein"
+        "Movement from low to high concentration",
+        "Movement from high to low concentration",
+        "Movement requiring ATP",
+        "Movement into the cell only"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "ATP — adenosine triphosphate — is the primary energy currency of cells. When ATP is broken down to ADP, energy is released for cellular processes. It's the cell's wallet. spend it wisely."
+      "difficulty": "foundation",
+      "explain": "DIFFUSION is movement from HIGH to LOW concentration — substances spread out until evenly distributed.",
+      "wrongExplains": {
+        "0": "Diffusion is from high to low, not low to high.",
+        "2": "Diffusion is passive, requiring no ATP.",
+        "3": "Diffusion can occur in any direction down the gradient."
+      }
+    },
+    {
+      "q": "What is a concentration gradient?",
+      "options": [
+        "Equal concentration everywhere",
+        "A difference in concentration between two areas",
+        "A type of protein",
+        "A cell structure"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "A CONCENTRATION GRADIENT is a DIFFERENCE in concentration between two areas. Substances diffuse down this gradient.",
+      "wrongExplains": {
+        "0": "Equal concentration means no gradient exists.",
+        "2": "Gradients are concentration differences, not proteins.",
+        "3": "Gradients are conditions, not structures."
+      }
+    },
+    {
+      "q": "What is active transport?",
+      "options": [
+        "Transport without energy",
+        "Transport that requires energy (ATP) to move against the gradient",
+        "Simple diffusion",
+        "Osmosis"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "ACTIVE TRANSPORT requires ENERGY (ATP) to move substances AGAINST their concentration gradient (uphill).",
+      "wrongExplains": {
+        "0": "Active transport requires energy; passive doesn't.",
+        "2": "Simple diffusion is passive; active transport uses ATP.",
+        "3": "Osmosis is passive water movement; active transport uses ATP."
+      }
+    },
+    {
+      "q": "What is ATP?",
+      "options": [
+        "A type of protein",
+        "The main energy currency of cells",
+        "A type of lipid",
+        "A cell membrane"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "ATP (adenosine triphosphate) is the MAIN ENERGY CURRENCY of cells. It provides energy for active transport and other processes.",
+      "wrongExplains": {
+        "0": "Proteins are made of amino acids; ATP provides energy.",
+        "2": "Lipids store energy; ATP is the immediate energy source.",
+        "3": "Membranes are made of phospholipids; ATP is an energy molecule."
+      }
+    },
+    {
+      "q": "What is facilitated diffusion?",
+      "options": [
+        "Diffusion requiring ATP",
+        "Diffusion using transport proteins but no ATP",
+        "Movement against the gradient",
+        "Only for water"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "FACILITATED DIFFUSION uses TRANSPORT PROTEINS to help substances cross the membrane, but requires NO ATP — still passive.",
+      "wrongExplains": {
+        "0": "Facilitated diffusion is passive, not requiring ATP.",
+        "2": "Movement against gradient requires active transport.",
+        "3": "Facilitated diffusion works for many molecules, not just water."
+      }
+    },
+    {
+      "q": "Why does passive transport not require energy?",
+      "options": [
+        "It uses enzymes",
+        "Substances move down their concentration gradient naturally",
+        "The membrane provides energy",
+        "ATP is recycled"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Passive transport requires no energy because substances move DOWN their concentration gradient — this happens NATURALLY.",
+      "wrongExplains": {
+        "0": "Enzymes don't provide the driving force for passive transport.",
+        "2": "The membrane facilitates but doesn't provide energy.",
+        "3": "No ATP is used or recycled in passive transport."
+      }
+    },
+    {
+      "q": "What is the difference between passive and active transport?",
+      "options": [
+        "Passive uses more ATP",
+        "Passive requires no energy; active requires ATP",
+        "They are the same",
+        "Active is always faster"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "PASSIVE requires NO ENERGY (down gradient); ACTIVE requires ATP (against gradient). This is the fundamental difference.",
+      "wrongExplains": {
+        "0": "Passive uses no ATP; active uses ATP.",
+        "2": "They are fundamentally different in energy requirements.",
+        "3": "Speed depends on many factors, not just transport type."
+      }
+    },
+    {
+      "q": "Movement of substances across the membrane without energy input is called ___?",
+      "options": [
+        "Active transport",
+        "Passive transport",
+        "Endocytosis",
+        "Exocytosis"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "PASSIVE TRANSPORT is movement without energy input. Examples include diffusion, osmosis, and facilitated diffusion.",
+      "wrongExplains": {
+        "0": "Active transport requires energy (ATP).",
+        "2": "Endocytosis uses vesicles and can require energy.",
+        "3": "Exocytosis uses vesicles and can require energy."
+      }
     }
   ]
 }

@@ -3,94 +3,157 @@
   "parentQuestion": "Histology would be best defined as a study of ___.",
   "scaffolds": [
     {
-      "q": "The suffix '-ology' means 'the study of.'",
+      "q": "What does the suffix '-ology' mean?",
       "options": [
-        "True",
-        "False"
+        "Treatment of",
+        "The study of",
+        "Removal of",
+        "Creation of"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Biology = study of life. Cardiology = study of heart. Pattern!"
+      "explain": "The suffix '-OLOGY' means 'THE STUDY OF.' Biology = study of life. Cardiology = study of heart. Pattern!",
+      "wrongExplains": {
+        "0": "'-ology' means study, not treatment.",
+        "2": "'-ology' means study, not removal (that's '-ectomy').",
+        "3": "'-ology' means study, not creation."
+      }
     },
     {
-      "q": "'Histo-' refers to TISSUES.",
+      "q": "What does the prefix 'histo-' refer to?",
       "options": [
-        "True",
-        "False"
+        "Cells",
+        "Tissues",
+        "Organs",
+        "Bones"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! From Greek 'histos' meaning tissue or web."
+      "explain": "'HISTO-' refers to TISSUES. From Greek 'histos' meaning tissue or web.",
+      "wrongExplains": {
+        "0": "'Cyto-' refers to cells; 'histo-' refers to tissues.",
+        "2": "Organs are studied by gross anatomy; 'histo-' is tissues.",
+        "3": "'Osteo-' refers to bones; 'histo-' refers to tissues."
+      }
     },
     {
-      "q": "HISTOLOGY = histo (tissue) + logy (study) = study of tissues.",
+      "q": "What does 'histology' mean when you combine 'histo-' and '-ology'?",
       "options": [
-        "True",
-        "False"
+        "Study of cells",
+        "Study of tissues",
+        "Study of organs",
+        "Study of bones"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Put the word parts together to get the meaning."
+      "explain": "HISTOLOGY = HISTO (tissue) + LOGY (study) = STUDY OF TISSUES. Put the word parts together!",
+      "wrongExplains": {
+        "0": "Study of cells is cytology; histology is tissues.",
+        "2": "Study of organs is gross anatomy; histology is tissues.",
+        "3": "Study of bones is osteology; histology is tissues."
+      }
     },
     {
-      "q": "CYTOLOGY is the study of CELLS (cyto = cell).",
+      "q": "What is cytology?",
       "options": [
-        "True",
-        "False"
+        "Study of tissues",
+        "Study of cells (cyto = cell)",
+        "Study of organs",
+        "Study of blood"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Different term for different level of organization."
+      "explain": "CYTOLOGY is the study of CELLS (cyto = cell). Different term for different level of organization.",
+      "wrongExplains": {
+        "0": "Study of tissues is histology; cytology is cells.",
+        "2": "Study of organs is gross anatomy; cytology is cells.",
+        "3": "Study of blood is hematology; cytology is cells."
+      }
     },
     {
-      "q": "Histology uses microscopes to examine tissue structure.",
+      "q": "What does histology use to examine tissues?",
       "options": [
-        "True",
-        "False"
+        "Only the naked eye",
+        "Microscopes",
+        "X-rays only",
+        "Nothing — tissues are invisible"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Tissues are too small to study in detail with the naked eye."
+      "explain": "Histology uses MICROSCOPES to examine tissue structure. Tissues are too small to study in detail with the naked eye.",
+      "wrongExplains": {
+        "0": "Naked eye studies gross anatomy; histology needs microscopes.",
+        "2": "X-rays show bones; microscopes show tissue detail.",
+        "3": "Tissues are visible under microscopes."
+      }
     },
     {
-      "q": "Gross anatomy studies structures visible WITHOUT a microscope.",
+      "q": "What does gross anatomy study?",
       "options": [
-        "True",
-        "False"
+        "Cells only",
+        "Structures visible WITHOUT a microscope",
+        "Only tissues",
+        "Only molecules"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Gross anatomy = large scale. Histology = microscopic scale."
+      "explain": "GROSS ANATOMY studies structures visible WITHOUT a microscope. Gross = large scale. Histology = microscopic scale.",
+      "wrongExplains": {
+        "0": "Cells are studied with microscopes (cytology/histology).",
+        "2": "Tissues are studied with microscopes (histology).",
+        "3": "Molecules are studied with biochemistry."
+      }
     },
     {
-      "q": "Histology examines how cells are organized into tissues.",
+      "q": "What does histology examine about tissues?",
       "options": [
-        "True",
-        "False"
+        "Only tissue color",
+        "How cells are organized into tissues",
+        "Only tissue weight",
+        "Only tissue temperature"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Looking at tissue slices under the microscope to see cell arrangement."
+      "explain": "Histology examines HOW CELLS ARE ORGANIZED INTO TISSUES — looking at tissue slices under the microscope to see cell arrangement.",
+      "wrongExplains": {
+        "0": "Histology examines structure and organization, not just color.",
+        "2": "Histology examines microscopic structure, not weight.",
+        "3": "Histology examines structure, not temperature."
+      }
     },
     {
-      "q": "Histology is the study of TISSUES, not cells or gross structures.",
+      "q": "How does histology differ from cytology and gross anatomy?",
       "options": [
-        "True",
-        "False"
+        "They're all the same",
+        "Cytology = cells; Histology = tissues; Gross anatomy = organs/large structures",
+        "Histology is the largest scale",
+        "Cytology is the largest scale"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Cytology = cells. Histology = tissues. Gross anatomy = organs."
+      "explain": "CYTOLOGY = cells. HISTOLOGY = tissues. GROSS ANATOMY = organs/large structures. Different scales of study.",
+      "wrongExplains": {
+        "0": "They study different organizational levels.",
+        "2": "Gross anatomy is largest scale; histology is intermediate.",
+        "3": "Cytology is smallest scale (cells); gross anatomy is largest."
+      }
     },
     {
-      "q": "The answer is TISSUES - histology is the study of tissues.",
+      "q": "Histology would be best defined as a study of ___?",
       "options": [
-        "True",
-        "False"
+        "Cells",
+        "Tissues",
+        "Cell chemistry",
+        "Gross structures"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not cells (cytology), not cell chemistry (biochemistry), not gross structures."
+      "explain": "Histology is the study of TISSUES. Not cells (cytology), not cell chemistry (biochemistry), not gross structures (gross anatomy).",
+      "wrongExplains": {
+        "0": "Study of cells is cytology, not histology.",
+        "2": "Cell chemistry is biochemistry, not histology.",
+        "3": "Gross structures are gross anatomy, not histology."
+      }
     }
   ]
 }

@@ -1,28 +1,159 @@
 {
   "parentId": "000.2.16",
-  "parentQuestion": "A patient with cystic fibrosis has thick, dehydrated mucus clogging the airways ...",
+  "parentQuestion": "A patient with cystic fibrosis has thick, dehydrated mucus clogging the airways. The underlying defect is in the CFTR chloride channel. How does defective chloride transport lead to thick mucus?",
   "scaffolds": [
     {
-      "q": "What is osmosis driven by?",
+      "q": "What is CFTR?",
       "options": [
-        "Differences in solute concentration creating an osmotic gradient",
-        "ATP energy from active transport",
-        "Protein pumps moving water directly"
+        "A type of mucus",
+        "Cystic Fibrosis Transmembrane Conductance Regulator — a chloride channel",
+        "A digestive enzyme",
+        "A type of bacteria"
       ],
-      "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Osmosis is driven by differences in SOLUTE concentration across a semipermeable membrane. Water moves from LOW solute (high water) to HIGH solute (low water) concentration to equalize osmotic pressure. this is PASSIVE; no ATP needed. See this through:: when Cl⁻ is secreted into mucus, it creates an osmotic gradient that PULLS water out of cells. No Cl⁻ secretion? No osmotic pull. No water movement. Receive this insight:this: osmosis is a passive consequence of solute gradients."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CFTR stands for CYSTIC FIBROSIS TRANSMEMBRANE CONDUCTANCE REGULATOR — it's a CHLORIDE CHANNEL in cell membranes.",
+      "wrongExplains": {
+        "0": "CFTR is a chloride channel protein, not mucus itself.",
+        "2": "CFTR is a channel protein, not a digestive enzyme.",
+        "3": "CFTR is a human protein, not a bacteria."
+      }
     },
     {
-      "q": "What does CFTR stand for in cystic fibrosis?",
+      "q": "What does a chloride channel do?",
       "options": [
-        "Cystic Fibrosis Transmembrane Conductance Regulator",
-        "Chloride Fluid Transport Receptor",
-        "Cellular Function and Transport Regulator"
+        "Produces chloride",
+        "Allows chloride ions to cross cell membranes",
+        "Destroys chloride",
+        "Converts chloride to sodium"
       ],
-      "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "CFTR stands for Cystic Fibrosis Transmembrane Conductance Regulator — it's a CHLORIDE CHANNEL (and regulator of other ion channels). Embark on this:: it sits in the cell membrane and allows Cl⁻ to flow OUT of cells into secretions. When it's mutated (most common: ΔF508 deletion), Cl⁻ can't be secreted → secretions become dehydrated. Make room for this understanding:this: one protein, one job (Cl⁻ transport), catastrophic consequences when broken."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "A chloride channel ALLOWS CHLORIDE IONS (Cl⁻) to cross cell membranes. CFTR specifically allows Cl⁻ to exit cells into secretions.",
+      "wrongExplains": {
+        "0": "Channels allow passage; they don't produce ions.",
+        "2": "Channels allow passage; they don't destroy ions.",
+        "3": "Chloride and sodium are different ions; they don't convert."
+      }
+    },
+    {
+      "q": "What drives osmosis?",
+      "options": [
+        "Temperature differences",
+        "Solute concentration differences (osmotic gradient)",
+        "Pressure only",
+        "Light"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Osmosis is driven by SOLUTE CONCENTRATION DIFFERENCES (osmotic gradient). Water moves from low solute to high solute areas.",
+      "wrongExplains": {
+        "0": "Temperature affects rate but doesn't drive osmosis direction.",
+        "2": "Concentration gradient is the primary driver; pressure is secondary.",
+        "3": "Light doesn't drive osmosis."
+      }
+    },
+    {
+      "q": "When chloride is secreted into mucus, what follows by osmosis?",
+      "options": [
+        "More chloride",
+        "Water",
+        "Proteins",
+        "Fat"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "WATER follows chloride by osmosis. Cl⁻ creates an osmotic gradient that pulls water into the mucus, hydrating it.",
+      "wrongExplains": {
+        "0": "Chloride creates the gradient; water follows.",
+        "2": "Water follows solutes; proteins don't move by osmosis.",
+        "3": "Water follows solutes; fat doesn't move by osmosis."
+      }
+    },
+    {
+      "q": "What happens when CFTR is defective?",
+      "options": [
+        "Too much chloride is secreted",
+        "Chloride cannot be secreted into mucus",
+        "Sodium increases",
+        "Mucus becomes too watery"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "When CFTR is defective, CHLORIDE CANNOT BE SECRETED into mucus. The channel doesn't work properly.",
+      "wrongExplains": {
+        "0": "Defective CFTR secretes less chloride, not more.",
+        "2": "Sodium balance is affected, but chloride secretion is the primary defect.",
+        "3": "Mucus becomes thick and dry, not watery."
+      }
+    },
+    {
+      "q": "If chloride isn't secreted, what happens to water movement?",
+      "options": [
+        "Water floods into mucus",
+        "Water doesn't follow — no osmotic gradient to pull it",
+        "Water movement increases",
+        "Water is unaffected"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "If chloride isn't secreted, there's NO OSMOTIC GRADIENT to pull water. Without the solute gradient, water stays in cells.",
+      "wrongExplains": {
+        "0": "Without chloride gradient, water doesn't move into mucus.",
+        "2": "Water movement decreases, not increases.",
+        "3": "Water movement is definitely affected by solute gradients."
+      }
+    },
+    {
+      "q": "What happens to mucus without adequate water?",
+      "options": [
+        "It becomes thin and runny",
+        "It becomes thick and dehydrated",
+        "It disappears",
+        "It becomes acidic"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Without adequate water, mucus becomes THICK AND DEHYDRATED. This thick mucus clogs airways in cystic fibrosis.",
+      "wrongExplains": {
+        "0": "Dehydrated mucus is thick, not thin.",
+        "2": "Mucus is still produced but is abnormally thick.",
+        "3": "The primary issue is hydration, not pH."
+      }
+    },
+    {
+      "q": "What is the pathway from CFTR defect to thick mucus?",
+      "options": [
+        "CFTR defect → more water → thick mucus",
+        "CFTR defect → no Cl⁻ secretion → no osmotic gradient → no water → thick mucus",
+        "CFTR defect → more chloride → thick mucus",
+        "CFTR defect has no effect on mucus"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The pathway: CFTR defect → no Cl⁻ secretion → no osmotic gradient → no water movement → THICK, DEHYDRATED MUCUS.",
+      "wrongExplains": {
+        "0": "The defect causes less water, not more.",
+        "2": "The defect causes less chloride secretion, not more.",
+        "3": "CFTR defect definitely causes thick mucus through this pathway."
+      }
+    },
+    {
+      "q": "How does defective chloride transport lead to thick mucus?",
+      "options": [
+        "Chloride directly thickens mucus",
+        "Without Cl⁻ secretion, there's no osmotic gradient to pull water into mucus",
+        "Chloride destroys mucus proteins",
+        "Chloride has no relation to mucus"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "WITHOUT Cl⁻ SECRETION, there's NO OSMOTIC GRADIENT to pull water into mucus. No chloride = no water movement = dehydrated, thick mucus.",
+      "wrongExplains": {
+        "0": "Chloride doesn't directly thicken mucus; lack of water does.",
+        "2": "Chloride doesn't destroy proteins; it creates osmotic gradients.",
+        "3": "Chloride is directly related to mucus hydration through osmosis."
+      }
     }
   ]
 }

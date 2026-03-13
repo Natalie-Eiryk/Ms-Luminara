@@ -3,94 +3,157 @@
   "parentQuestion": "An individual who could trace a picture of a bicycle with their finger but could not recognize it as a bicycle most likely has damage to the ___.",
   "scaffolds": [
     {
-      "q": "Vision is processed in stages: first detecting shapes, then recognizing meaning.",
+      "q": "What is visual agnosia?",
       "options": [
-        "True",
-        "False"
+        "Blindness from eye damage",
+        "Inability to recognize objects despite intact vision",
+        "Color blindness",
+        "Double vision"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Primary visual cortex (V1) processes raw features. Association areas build meaning."
+      "explain": "VISUAL AGNOSIA is the inability to RECOGNIZE objects despite INTACT VISION. The person can SEE but can't COMPREHEND what they're seeing. 'Agnosia' = without knowledge.",
+      "wrongExplains": {
+        "0": "In agnosia, the eyes and primary vision are intact — recognition fails.",
+        "2": "Color blindness affects color perception, not object recognition.",
+        "3": "Double vision (diplopia) is an eye alignment issue, not recognition."
+      }
     },
     {
-      "q": "The primary visual cortex (V1) detects edges, orientations, colors, and motion.",
+      "q": "What does the primary visual cortex (V1) do?",
       "options": [
-        "True",
-        "False"
+        "Recognizes objects",
+        "Detects basic visual features (edges, colors, motion)",
+        "Names what we see",
+        "Stores visual memories"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! V1 builds a 'feature map' - the raw building blocks of vision."
+      "explain": "V1 detects BASIC VISUAL FEATURES — edges, orientations, colors, motion. It builds a 'feature map' but doesn't assign MEANING. That comes later in association areas.",
+      "wrongExplains": {
+        "0": "Object recognition requires visual association areas, not just V1.",
+        "2": "Naming involves language areas, not V1.",
+        "3": "Memory storage involves hippocampus and temporal lobe, not V1."
+      }
     },
     {
-      "q": "Visual ASSOCIATION areas interpret what V1 detects - assigning meaning to shapes.",
+      "q": "What do visual association areas do?",
       "options": [
-        "True",
-        "False"
+        "Detect light and dark",
+        "Interpret and recognize what V1 detects — assigning meaning",
+        "Control eye movements",
+        "Produce tears"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Association cortex turns meaningless geometry into recognizable objects."
+      "explain": "VISUAL ASSOCIATION AREAS interpret what V1 detects — they turn meaningless geometry into RECOGNIZABLE OBJECTS. 'That's a bicycle, that's a face.'",
+      "wrongExplains": {
+        "0": "Light detection happens in the retina and V1, not association areas.",
+        "2": "Eye movements are controlled by frontal eye fields and brainstem.",
+        "3": "Tear production is controlled by lacrimal glands and autonomic system."
+      }
     },
     {
-      "q": "Visual agnosia = ability to SEE objects but inability to RECOGNIZE them.",
+      "q": "If someone can trace a picture, what does that tell us?",
       "options": [
-        "True",
-        "False"
+        "Their association cortex is working",
+        "Their primary visual cortex (V1) is intact — they can see the lines",
+        "They have complete blindness",
+        "Their motor cortex is damaged"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! 'Agnosia' means 'without knowledge.' Vision is intact; comprehension is lost."
+      "explain": "If they can TRACE the picture, they can SEE the lines. This means V1 (primary visual cortex) is INTACT. The problem is elsewhere — in recognition.",
+      "wrongExplains": {
+        "0": "Association cortex handles recognition, which is failing here.",
+        "2": "They can see and trace — not blind.",
+        "3": "They can trace, showing motor control is intact."
+      }
     },
     {
-      "q": "If someone can TRACE a picture, their primary visual cortex must be intact.",
+      "q": "If someone can't recognize a picture, what is damaged?",
       "options": [
-        "True",
-        "False"
+        "The retina",
+        "The visual association areas — recognition/interpretation",
+        "The optic nerve",
+        "The eye muscles"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Tracing requires seeing the lines. If V1 were damaged, they'd be blind to the image."
+      "explain": "If vision is intact (can trace) but recognition fails (can't identify), the VISUAL ASSOCIATION AREAS are damaged. They extract MEANING from visual input.",
+      "wrongExplains": {
+        "0": "Retinal damage would cause vision loss, not recognition failure.",
+        "2": "Optic nerve damage would cause blindness in the affected area.",
+        "3": "Eye muscle problems cause movement issues, not recognition problems."
+      }
     },
     {
-      "q": "If someone CAN'T RECOGNIZE a picture, their visual association area is damaged.",
+      "q": "What's the difference between V1 damage and association area damage?",
       "options": [
-        "True",
-        "False"
+        "No difference",
+        "V1 damage = cortical blindness; association damage = agnosia (can see but not recognize)",
+        "V1 damage affects color; association affects shape",
+        "Association damage is more severe"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! They see perfectly but can't extract meaning - classic visual agnosia."
+      "explain": "V1 DAMAGE causes CORTICAL BLINDNESS — can't see. ASSOCIATION DAMAGE causes AGNOSIA — can see but can't recognize. Different levels of processing failure.",
+      "wrongExplains": {
+        "0": "They cause very different deficits.",
+        "2": "Both areas process multiple features; the distinction is detection vs. recognition.",
+        "3": "Severity depends on extent; the key difference is type of deficit."
+      }
     },
     {
-      "q": "V1 damage causes cortical BLINDNESS. Association damage causes AGNOSIA.",
+      "q": "Where are visual association areas located?",
       "options": [
-        "True",
-        "False"
+        "In the frontal lobe only",
+        "Surrounding V1 in the occipital and temporal lobes",
+        "In the cerebellum",
+        "In the spinal cord"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Blindness = can't see. Agnosia = can see but can't recognize. Different failures."
+      "explain": "VISUAL ASSOCIATION AREAS surround V1 in the OCCIPITAL lobe and extend into the TEMPORAL lobe (the 'what pathway' for object recognition).",
+      "wrongExplains": {
+        "0": "Visual association is posterior (occipital/temporal), not frontal.",
+        "2": "The cerebellum coordinates movement, not visual recognition.",
+        "3": "Visual processing is entirely in the brain, not spinal cord."
+      }
     },
     {
-      "q": "Can trace but can't recognize = vision OK, interpretation broken = association damage.",
+      "q": "What pattern indicates visual association area damage?",
       "options": [
-        "True",
-        "False"
+        "Complete blindness",
+        "Can see perfectly but cannot recognize objects (visual agnosia)",
+        "Only color vision affected",
+        "Eye movement problems"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Primary visual processing is intact (can trace). Recognition is lost (can't identify)."
+      "explain": "The PATTERN: Can SEE (V1 intact) but CAN'T RECOGNIZE (association damaged). This is VISUAL AGNOSIA — perception without comprehension.",
+      "wrongExplains": {
+        "0": "Complete blindness indicates V1 or earlier damage, not association.",
+        "2": "Color processing is more distributed; association damage affects recognition broadly.",
+        "3": "Eye movements are controlled by different areas (frontal eye fields, brainstem)."
+      }
     },
     {
-      "q": "The answer is VISUAL ASSOCIATION AREA - where meaning is extracted from geometry.",
+      "q": "Can trace + can't recognize = damage to what area?",
       "options": [
-        "True",
-        "False"
+        "Primary visual cortex (V1)",
+        "Visual association area",
+        "Motor cortex",
+        "Retina"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not V1 (they can see), not LGN (relay station), not calcarine cortex (same as V1). Visual association area damage causes visual agnosia - perception without comprehension."
+      "explain": "VISUAL ASSOCIATION AREA. Can trace = V1 is working (sees the lines). Can't recognize = association is damaged (can't extract meaning). Classic visual agnosia pattern.",
+      "wrongExplains": {
+        "0": "V1 damage would prevent tracing — can't see the lines.",
+        "2": "Motor cortex damage would prevent tracing, but recognition might be intact.",
+        "3": "Retinal damage would cause blindness, preventing tracing."
+      }
     }
   ]
 }

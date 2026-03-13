@@ -1,28 +1,159 @@
 {
   "parentId": "000.2.06",
-  "parentQuestion": "In a DNA molecule, the__(1)__ contains deoxyribose sugar, whereas the__(2)__ con...",
+  "parentQuestion": "In a DNA molecule, the__(1)__ contains deoxyribose sugar, whereas the__(2)__ contains ribose sugar.",
   "scaffolds": [
     {
       "q": "What does DNA stand for?",
       "options": [
         "Deoxyribonucleic acid",
         "Dynamic neural acid",
-        "Double nucleotide arrangement"
+        "Double nucleotide arrangement",
+        "Direct nitrogen assembly"
       ],
       "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "DNA stands for DeoxyriboNucleic Acid. let's break that down: 'Deoxyribo-' refers to the deoxyribose sugar (ribose minus one oxygen). 'Nucleic' means it's found in the nucleus and made of nucleotides. 'Acid' because of the phosphate groups. It's the molecule that carries genetic information in all living organisms. Allow the mechanism to reveal itself:the elegance of that chemical name."
+      "difficulty": "foundation",
+      "explain": "DNA stands for DEOXYRIBONUCLEIC ACID. 'Deoxyribo-' refers to deoxyribose sugar; 'nucleic' means found in the nucleus.",
+      "wrongExplains": {
+        "1": "DNA is a chemical name, not 'dynamic neural acid.'",
+        "2": "DNA refers to the acid's components, not 'double nucleotide arrangement.'",
+        "3": "DNA refers to deoxyribose, not 'direct nitrogen assembly.'"
+      }
+    },
+    {
+      "q": "What does RNA stand for?",
+      "options": [
+        "Deoxyribonucleic acid",
+        "Ribonucleic acid",
+        "Rapid nuclear assembly",
+        "Ribose nitrogen acid"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "RNA stands for RIBONUCLEIC ACID. It contains ribose sugar (with oxygen) instead of deoxyribose.",
+      "wrongExplains": {
+        "0": "DNA contains deoxyribose; RNA contains ribose.",
+        "2": "RNA is a chemical name, not 'rapid nuclear assembly.'",
+        "3": "The full name is ribonucleic acid, not 'ribose nitrogen acid.'"
+      }
+    },
+    {
+      "q": "What is the difference between deoxyribose and ribose?",
+      "options": [
+        "They are identical",
+        "Deoxyribose is missing one oxygen atom compared to ribose",
+        "Ribose is missing one oxygen atom",
+        "They have different numbers of carbons"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "DEOXYRIBOSE is missing ONE OXYGEN ATOM compared to ribose. 'De-oxy' means 'without oxygen.'",
+      "wrongExplains": {
+        "0": "They differ by one oxygen atom.",
+        "2": "Deoxyribose is missing the oxygen, not ribose.",
+        "3": "Both have five carbons; they differ in oxygen content."
+      }
+    },
+    {
+      "q": "Which sugar is found in DNA?",
+      "options": [
+        "Ribose",
+        "Deoxyribose",
+        "Glucose",
+        "Fructose"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "DEOXYRIBOSE is found in DNA. The 'D' in DNA stands for deoxyribose.",
+      "wrongExplains": {
+        "0": "Ribose is in RNA; deoxyribose is in DNA.",
+        "2": "Glucose is a monosaccharide energy source, not in DNA.",
+        "3": "Fructose is fruit sugar, not in DNA."
+      }
+    },
+    {
+      "q": "Which sugar is found in RNA?",
+      "options": [
+        "Deoxyribose",
+        "Ribose",
+        "Sucrose",
+        "Maltose"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "RIBOSE is found in RNA. The 'R' in RNA stands for ribose.",
+      "wrongExplains": {
+        "0": "Deoxyribose is in DNA; ribose is in RNA.",
+        "2": "Sucrose is table sugar, not in RNA.",
+        "3": "Maltose is malt sugar, not in RNA."
+      }
     },
     {
       "q": "What are the four nitrogenous bases found in DNA?",
       "options": [
         "A, U, G, C",
         "A, T, G, C",
-        "A, B, C, D"
+        "A, B, C, D",
+        "W, X, Y, Z"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "DNA contains four bases: Adenine (A), Thymine (T), Guanine (G), and Cytosine (C). the SEQUENCE of these bases encodes genetic information. (Note: RNA has Uracil (U) instead of Thymine. DNA uses T, RNA uses U. Feel the weight of this:this: chemistry is all about subtle variations with profound consequences.)"
+      "difficulty": "foundation",
+      "explain": "DNA contains A (adenine), T (thymine), G (guanine), and C (cytosine). RNA has U (uracil) instead of T.",
+      "wrongExplains": {
+        "0": "U (uracil) is in RNA; DNA has T (thymine).",
+        "2": "The bases have chemical names, not just A, B, C, D.",
+        "3": "The bases are named after their chemical structures."
+      }
+    },
+    {
+      "q": "How do DNA and RNA differ in their bases?",
+      "options": [
+        "They have identical bases",
+        "DNA has thymine (T); RNA has uracil (U)",
+        "RNA has thymine (T); DNA has uracil (U)",
+        "DNA has no bases"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "DNA has THYMINE (T) while RNA has URACIL (U). This is a key difference between the two nucleic acids.",
+      "wrongExplains": {
+        "0": "They differ in one base: T vs U.",
+        "2": "It's the opposite: DNA has T, RNA has U.",
+        "3": "DNA definitely has nitrogenous bases."
+      }
+    },
+    {
+      "q": "What makes DNA more stable than RNA?",
+      "options": [
+        "RNA is more stable",
+        "Deoxyribose (lacking an -OH group) makes DNA less reactive",
+        "DNA has fewer bases",
+        "RNA is double-stranded"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "DEOXYRIBOSE (lacking an -OH group) makes DNA LESS REACTIVE and more stable. RNA's ribose makes it more reactive and shorter-lived.",
+      "wrongExplains": {
+        "0": "DNA is more stable than RNA.",
+        "2": "Both have four types of bases.",
+        "3": "DNA is typically double-stranded; RNA is usually single-stranded."
+      }
+    },
+    {
+      "q": "In a DNA molecule, the __(1)__ contains deoxyribose sugar, whereas __(2)__ contains ribose sugar?",
+      "options": [
+        "(1) RNA; (2) DNA",
+        "(1) DNA; (2) RNA",
+        "(1) DNA; (2) DNA",
+        "(1) RNA; (2) RNA"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "DNA contains DEOXYRIBOSE sugar; RNA contains RIBOSE sugar. The names tell you which sugar each contains.",
+      "wrongExplains": {
+        "0": "The names are reversed: DNA = deoxyribose, RNA = ribose.",
+        "2": "DNA has deoxyribose; RNA has ribose (different).",
+        "3": "RNA has ribose; DNA has deoxyribose (different)."
+      }
     }
   ]
 }

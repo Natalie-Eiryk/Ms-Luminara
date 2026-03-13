@@ -1,30 +1,159 @@
 {
   "parentId": "000.3.08",
-  "parentQuestion": "The Na⁺/K⁺ ATPase pump moves ___ Na⁺ ions out and ___ K⁺ ions into the cell per ...",
+  "parentQuestion": "The Na⁺/K⁺ ATPase pump moves ___ Na⁺ ions out and ___ K⁺ ions into the cell per cycle.",
   "scaffolds": [
     {
-      "q": "A pump that requires ATP to move substances is an example of ___ transport.",
+      "q": "What is the Na⁺/K⁺ ATPase pump?",
       "options": [
-        "Passive",
-        "Active",
-        "Simple",
-        "Osmotic"
+        "A passive channel",
+        "An active transporter that moves sodium out and potassium into cells",
+        "A ribosome",
+        "A type of receptor"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Active transport requires energy (ATP) to move substances AGAINST their concentration gradient. Pumps use ATP to do this uphill work — it's expensive, but sometimes necessary, darling."
+      "difficulty": "foundation",
+      "explain": "The Na⁺/K⁺ ATPase PUMP is an ACTIVE TRANSPORTER that moves SODIUM OUT and POTASSIUM INTO cells using ATP.",
+      "wrongExplains": {
+        "0": "Passive channels don't use ATP; this pump requires it.",
+        "2": "Ribosomes make proteins; this is a membrane pump.",
+        "3": "Receptors bind signals; this pump moves ions."
+      }
     },
     {
-      "q": "Na⁺ and K⁺ are examples of ___.",
+      "q": "What is active transport?",
       "options": [
-        "Proteins",
-        "Ions",
-        "Lipids",
-        "Carbohydrates"
+        "Movement down a concentration gradient",
+        "Movement against a concentration gradient using ATP",
+        "Diffusion",
+        "Osmosis"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Na⁺ (sodium) and K⁺ (potassium) are ions — atoms or molecules with an electrical charge. The plus sign indicates they have a positive charge (they've lost an electron). They're charged particles zipping around your cells. Follow the breadcrumbs:."
+      "difficulty": "foundation",
+      "explain": "ACTIVE TRANSPORT moves substances AGAINST their concentration gradient, requiring ATP energy to do 'uphill' work.",
+      "wrongExplains": {
+        "0": "Movement down gradient is passive; active goes against it.",
+        "2": "Diffusion is passive; active transport uses energy.",
+        "3": "Osmosis is passive water movement; active transport uses ATP."
+      }
+    },
+    {
+      "q": "What is ATP?",
+      "options": [
+        "A type of DNA",
+        "The cell's energy currency",
+        "A membrane lipid",
+        "A storage protein"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "ATP (adenosine triphosphate) is the cell's ENERGY CURRENCY. It provides energy for active transport and other processes.",
+      "wrongExplains": {
+        "0": "DNA stores genetic information; ATP stores energy.",
+        "2": "Phospholipids form membranes; ATP provides energy.",
+        "3": "Proteins do work; ATP provides the energy for that work."
+      }
+    },
+    {
+      "q": "What ions does the Na⁺/K⁺ pump move?",
+      "options": [
+        "Calcium and chloride",
+        "Sodium (Na⁺) and potassium (K⁺)",
+        "Hydrogen and bicarbonate",
+        "Magnesium and phosphate"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The Na⁺/K⁺ pump moves SODIUM (Na⁺) OUT and POTASSIUM (K⁺) IN. This maintains the ionic gradient essential for cell function.",
+      "wrongExplains": {
+        "0": "Different pumps handle calcium; this one moves Na⁺ and K⁺.",
+        "2": "Other transporters handle H⁺; this pump moves Na⁺ and K⁺.",
+        "3": "This pump specifically moves sodium and potassium."
+      }
+    },
+    {
+      "q": "In which direction does the pump move sodium?",
+      "options": [
+        "Into the cell",
+        "Out of the cell",
+        "Both directions equally",
+        "It doesn't move sodium"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The pump moves SODIUM OUT of the cell. This maintains low intracellular sodium concentration.",
+      "wrongExplains": {
+        "0": "Sodium goes out; potassium comes in.",
+        "2": "The pump is directional — Na⁺ out, K⁺ in.",
+        "3": "The pump definitely moves sodium — three ions out per cycle."
+      }
+    },
+    {
+      "q": "In which direction does the pump move potassium?",
+      "options": [
+        "Out of the cell",
+        "Into the cell",
+        "Both directions equally",
+        "It doesn't move potassium"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The pump moves POTASSIUM INTO the cell. This maintains high intracellular potassium concentration.",
+      "wrongExplains": {
+        "0": "Potassium goes in; sodium goes out.",
+        "2": "The pump is directional — K⁺ in, Na⁺ out.",
+        "3": "The pump definitely moves potassium — two ions in per cycle."
+      }
+    },
+    {
+      "q": "Why is the Na⁺/K⁺ pump important for cells?",
+      "options": [
+        "It produces ATP",
+        "It maintains the electrochemical gradient needed for nerve impulses and cell function",
+        "It synthesizes proteins",
+        "It stores genetic information"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The pump maintains the ELECTROCHEMICAL GRADIENT needed for nerve impulses, muscle contraction, and secondary active transport.",
+      "wrongExplains": {
+        "0": "The pump uses ATP; mitochondria produce it.",
+        "2": "Ribosomes synthesize proteins; the pump moves ions.",
+        "3": "DNA stores genetic information; the pump maintains ion gradients."
+      }
+    },
+    {
+      "q": "How many ions does the Na⁺/K⁺ pump move per cycle?",
+      "options": [
+        "1 Na⁺ out, 1 K⁺ in",
+        "3 Na⁺ out, 2 K⁺ in",
+        "2 Na⁺ out, 3 K⁺ in",
+        "Equal numbers in and out"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The pump moves 3 Na⁺ OUT and 2 K⁺ IN per ATP hydrolyzed. This unequal exchange makes the pump ELECTROGENIC.",
+      "wrongExplains": {
+        "0": "The ratio is 3:2, not 1:1.",
+        "2": "It's 3 Na⁺ out, 2 K⁺ in — not reversed.",
+        "3": "The exchange is unequal (3 out, 2 in), making it electrogenic."
+      }
+    },
+    {
+      "q": "The Na⁺/K⁺ ATPase pump moves ___ Na⁺ ions out and ___ K⁺ ions into the cell per cycle?",
+      "options": [
+        "2; 3",
+        "3; 2",
+        "1; 1",
+        "4; 4"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The pump moves 3 Na⁺ OUT and 2 K⁺ IN per cycle. This 3:2 ratio creates a net positive charge movement out of the cell.",
+      "wrongExplains": {
+        "0": "The ratio is 3 Na⁺ out, 2 K⁺ in — not reversed.",
+        "2": "The exchange is unequal (3:2), not 1:1.",
+        "3": "The ratio is 3:2, not 4:4."
+      }
     }
   ]
 }

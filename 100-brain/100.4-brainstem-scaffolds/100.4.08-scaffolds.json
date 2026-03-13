@@ -3,94 +3,157 @@
   "parentQuestion": "Following a posterior circulation stroke, a patient presents with vertigo, nystagmus, ataxia, ipsilateral loss of pain and temperature sensation on the face, and contralateral loss of pain and temperature on the body. Which brainstem region is affected?",
   "scaffolds": [
     {
-      "q": "Pain and temperature from the BODY travels in the spinothalamic tract.",
+      "q": "What pathway carries pain and temperature from the body?",
       "options": [
-        "True",
-        "False"
+        "The dorsal columns",
+        "The spinothalamic tract",
+        "The corticospinal tract",
+        "The pyramidal tract"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The spinothalamic tract carries pain and temperature from the body. It crosses in the spinal cord, so it's already contralateral by the time it reaches the brainstem."
+      "explain": "The SPINOTHALAMIC TRACT carries PAIN and TEMPERATURE from the body. It crosses in the spinal cord, so it's already contralateral by brainstem level.",
+      "wrongExplains": {
+        "0": "Dorsal columns carry fine touch and proprioception, not pain/temp.",
+        "2": "Corticospinal tract is motor (descending), not sensory.",
+        "3": "Pyramidal tract is motor, not sensory."
+      }
     },
     {
-      "q": "Pain and temperature from the FACE travels via the trigeminal nerve (CN V).",
+      "q": "What pathway carries pain and temperature from the face?",
       "options": [
-        "True",
-        "False"
+        "The spinothalamic tract",
+        "The trigeminal nerve (CN V) and spinal trigeminal tract",
+        "The optic nerve",
+        "The facial nerve"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The trigeminal nerve carries facial sensation, including pain and temperature. Its pathway is separate from body sensation pathways."
+      "explain": "The TRIGEMINAL NERVE (CN V) carries facial sensation, including pain and temperature. Its pathway is SEPARATE from body sensation pathways.",
+      "wrongExplains": {
+        "0": "Spinothalamic carries body pain/temp; trigeminal carries face pain/temp.",
+        "2": "Optic nerve carries vision, not facial sensation.",
+        "3": "Facial nerve controls facial muscles; trigeminal carries sensation."
+      }
     },
     {
-      "q": "The spinothalamic tract (body pain/temp) has already CROSSED by the time it reaches the brainstem.",
+      "q": "Where does the spinothalamic tract (body pain/temp) cross?",
       "options": [
-        "True",
-        "False"
+        "In the brainstem",
+        "In the spinal cord, within 1-2 segments of entry",
+        "It doesn't cross",
+        "In the cerebral cortex"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The spinothalamic tract crosses in the spinal cord within 1-2 segments. So brainstem damage causes CONTRALATERAL body sensory loss."
+      "explain": "The spinothalamic tract CROSSES in the SPINAL CORD within 1-2 segments. So by brainstem level, it's already CONTRALATERAL to its origin.",
+      "wrongExplains": {
+        "0": "Spinothalamic crosses in spinal cord, not brainstem.",
+        "2": "The spinothalamic tract definitely crosses.",
+        "3": "Crossing happens in spinal cord, not cortex."
+      }
     },
     {
-      "q": "The trigeminal pain/temp pathway has NOT crossed yet in the lateral medulla.",
+      "q": "Has the trigeminal pain/temp pathway crossed yet in the lateral medulla?",
       "options": [
-        "True",
-        "False"
+        "Yes, it crosses immediately",
+        "No — it descends before crossing, so lateral medullary damage causes IPSILATERAL face sensory loss",
+        "It never crosses",
+        "It crosses in the cortex"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Facial pain/temp fibers descend in the spinal trigeminal tract before crossing. So lateral medullary damage causes IPSILATERAL face sensory loss."
+      "explain": "Facial pain/temp fibers DESCEND in the spinal trigeminal tract BEFORE crossing. Lateral medullary damage causes IPSILATERAL face sensory loss.",
+      "wrongExplains": {
+        "0": "Trigeminal pain/temp descends before crossing.",
+        "2": "It does cross eventually, just not until after the lateral medulla.",
+        "3": "It crosses in the brainstem, not cortex."
+      }
     },
     {
-      "q": "'Crossed sensory loss' (face on one side, body on the other) indicates a brainstem lesion.",
+      "q": "What does 'crossed sensory loss' (face on one side, body on the other) indicate?",
       "options": [
-        "True",
-        "False"
+        "A cortical lesion",
+        "A brainstem lesion — because face and body pathways cross at different levels",
+        "A spinal cord lesion",
+        "Normal sensation"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! This pattern occurs because face and body pathways cross at different levels. It's the signature of brainstem pathology."
+      "explain": "'CROSSED' sensory loss is the SIGNATURE of BRAINSTEM pathology. Face and body pathways cross at DIFFERENT LEVELS — a single lesion can affect both differently.",
+      "wrongExplains": {
+        "0": "Crossed sensory loss indicates brainstem, not cortex.",
+        "2": "Spinal cord wouldn't cause facial sensory loss.",
+        "3": "This is pathological, not normal."
+      }
     },
     {
-      "q": "Vertigo and ataxia suggest damage to vestibular and cerebellar connections.",
+      "q": "What do vertigo and ataxia suggest?",
       "options": [
-        "True",
-        "False"
+        "Motor cortex damage",
+        "Damage to vestibular and cerebellar connections",
+        "Hearing loss",
+        "Memory problems"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The lateral medulla contains vestibular nuclei (vertigo, nystagmus) and the inferior cerebellar peduncle (ataxia)."
+      "explain": "VERTIGO and ATAXIA suggest damage to VESTIBULAR nuclei (vertigo, nystagmus) and INFERIOR CEREBELLAR PEDUNCLE (ataxia). Both are in the lateral medulla.",
+      "wrongExplains": {
+        "0": "Motor cortex damage causes weakness, not vertigo/ataxia.",
+        "2": "Vertigo is balance dysfunction, not hearing loss.",
+        "3": "Memory involves hippocampus, not vestibular system."
+      }
     },
     {
-      "q": "The lateral medulla is supplied by the posterior inferior cerebellar artery (PICA).",
+      "q": "What artery supplies the lateral medulla?",
       "options": [
-        "True",
-        "False"
+        "Middle cerebral artery",
+        "Posterior inferior cerebellar artery (PICA)",
+        "Anterior cerebral artery",
+        "Carotid artery"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! PICA stroke causes 'lateral medullary syndrome' (Wallenberg syndrome) - the classic crossed sensory loss pattern with ataxia and vertigo."
+      "explain": "PICA (posterior inferior cerebellar artery) supplies the lateral medulla. PICA stroke causes LATERAL MEDULLARY SYNDROME (Wallenberg syndrome).",
+      "wrongExplains": {
+        "0": "MCA supplies cerebral cortex, not lateral medulla.",
+        "2": "ACA supplies medial frontal cortex, not lateral medulla.",
+        "3": "Carotid supplies anterior circulation; medulla is posterior."
+      }
     },
     {
-      "q": "Ipsilateral face + contralateral body pain/temp loss + vertigo + ataxia = lateral medulla lesion.",
+      "q": "What is Wallenberg syndrome?",
       "options": [
-        "True",
-        "False"
+        "A memory disorder",
+        "Lateral medullary syndrome — crossed sensory loss with vertigo and ataxia",
+        "A language disorder",
+        "A visual disorder"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! This is Wallenberg syndrome (lateral medullary syndrome). The crossed sensory pattern is pathognomonic."
+      "explain": "WALLENBERG SYNDROME is LATERAL MEDULLARY SYNDROME — ipsilateral face + contralateral body pain/temp loss, plus vertigo, nystagmus, and ataxia.",
+      "wrongExplains": {
+        "0": "Wallenberg is brainstem, not memory-related.",
+        "2": "Wallenberg affects sensation/coordination, not language.",
+        "3": "Wallenberg affects sensation/coordination, not vision."
+      }
     },
     {
-      "q": "The answer is LATERAL MEDULLA - site of the famous Wallenberg syndrome.",
+      "q": "Ipsilateral face + contralateral body pain/temp loss + vertigo + ataxia = lesion in the ___?",
       "options": [
-        "True",
-        "False"
+        "Midbrain",
+        "Lateral medulla",
+        "Cerebral cortex",
+        "Spinal cord"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not midbrain (wrong level), not medial pons (wrong territory), not medial midbrain. LATERAL MEDULLA causes the crossed sensory loss pattern with cerebellar signs."
+      "explain": "LATERAL MEDULLA. This is the classic Wallenberg syndrome pattern. The crossed sensory pattern with cerebellar signs is pathognomonic.",
+      "wrongExplains": {
+        "0": "Midbrain would affect different structures; this is medullary.",
+        "2": "Cortex wouldn't produce crossed sensory loss.",
+        "3": "Spinal cord wouldn't affect facial sensation."
+      }
     }
   ]
 }

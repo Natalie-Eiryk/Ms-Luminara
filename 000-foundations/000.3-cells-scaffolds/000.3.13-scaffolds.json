@@ -1,30 +1,159 @@
 {
   "parentId": "000.3.13",
-  "parentQuestion": "A researcher treats cells with a drug that disrupts the Golgi apparatus. Which c...",
+  "parentQuestion": "A researcher treats cells with a drug that disrupts the Golgi apparatus. Which cellular process would be most directly affected?",
   "scaffolds": [
     {
-      "q": "The Golgi apparatus receives proteins from the ___.",
+      "q": "What is the Golgi apparatus?",
       "options": [
-        "Nucleus",
-        "Mitochondria",
-        "Rough endoplasmic reticulum",
-        "Lysosomes"
+        "The energy-producing organelle",
+        "An organelle that modifies, packages, and sorts proteins",
+        "The site of DNA replication",
+        "The site of protein synthesis"
       ],
-      "answer": 2,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Proteins synthesized on rough ER are transported to the Golgi apparatus in vesicles for further modification and sorting. The assembly line flows: ribosome → rough ER → Golgi → destination. Walk through this:, darling."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The GOLGI APPARATUS MODIFIES, PACKAGES, and SORTS proteins for their final destinations (secretion, membrane, lysosomes).",
+      "wrongExplains": {
+        "0": "Mitochondria produce energy; Golgi processes proteins.",
+        "2": "DNA replication occurs in the nucleus.",
+        "3": "Ribosomes synthesize proteins; Golgi modifies them."
+      }
     },
     {
-      "q": "Glycosylation is the process of adding ___ to proteins.",
+      "q": "Where do proteins come from before reaching the Golgi?",
       "options": [
-        "Phosphate groups",
-        "Lipids",
-        "Carbohydrate (sugar) chains",
-        "Amino acids"
+        "Lysosomes",
+        "Rough endoplasmic reticulum",
+        "Mitochondria",
+        "Nucleus"
       ],
-      "answer": 2,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Glycosylation adds carbohydrate chains (sugars) to proteins, affecting their folding, stability, and function. Many glycoproteins are on cell surfaces or secreted. The Golgi is the master glycosylator, darling."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Proteins come from the ROUGH ENDOPLASMIC RETICULUM before reaching the Golgi. The pathway is: ribosome → rough ER → Golgi.",
+      "wrongExplains": {
+        "0": "Lysosomes digest; they don't send proteins to Golgi.",
+        "2": "Mitochondria have their own proteins; most go ER → Golgi.",
+        "3": "The nucleus sends mRNA; proteins are made on ribosomes/ER."
+      }
+    },
+    {
+      "q": "What is glycosylation?",
+      "options": [
+        "Adding lipids to proteins",
+        "Adding carbohydrate (sugar) chains to proteins",
+        "Removing proteins",
+        "DNA replication"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "GLYCOSYLATION is adding CARBOHYDRATE (SUGAR) CHAINS to proteins. This occurs in the ER and Golgi, affecting protein function.",
+      "wrongExplains": {
+        "0": "Adding lipids is lipidation; glycosylation adds sugars.",
+        "2": "Removing proteins is degradation; glycosylation modifies them.",
+        "3": "DNA replication is in the nucleus; glycosylation is protein modification."
+      }
+    },
+    {
+      "q": "What happens to proteins in the Golgi?",
+      "options": [
+        "They are synthesized",
+        "They are modified, sorted, and packaged into vesicles",
+        "They are digested",
+        "They are replicated"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "In the Golgi, proteins are MODIFIED (glycosylation), SORTED by destination, and PACKAGED into vesicles for transport.",
+      "wrongExplains": {
+        "0": "Synthesis is on ribosomes; Golgi modifies proteins.",
+        "2": "Lysosomes digest; Golgi packages proteins.",
+        "3": "Proteins aren't replicated; DNA is replicated."
+      }
+    },
+    {
+      "q": "Where do Golgi vesicles go?",
+      "options": [
+        "Only to the nucleus",
+        "To the plasma membrane, lysosomes, or secretion",
+        "Only to mitochondria",
+        "Back to ribosomes"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Golgi vesicles go to the PLASMA MEMBRANE, LYSOSOMES, or are SECRETED — depending on the protein's final destination.",
+      "wrongExplains": {
+        "0": "The nucleus receives different signals; Golgi targets multiple sites.",
+        "2": "Mitochondria import proteins differently, not via Golgi.",
+        "3": "Ribosomes make proteins; they don't receive Golgi vesicles."
+      }
+    },
+    {
+      "q": "What is the relationship between Golgi and secretion?",
+      "options": [
+        "Golgi prevents secretion",
+        "Golgi packages secretory proteins into vesicles for release",
+        "Secretion bypasses Golgi",
+        "Golgi digests secretory proteins"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The Golgi PACKAGES SECRETORY PROTEINS into vesicles that fuse with the plasma membrane to RELEASE their contents (exocytosis).",
+      "wrongExplains": {
+        "0": "Golgi enables secretion by packaging proteins.",
+        "2": "Most secretory proteins go through Golgi for processing.",
+        "3": "Lysosomes digest; Golgi packages for secretion."
+      }
+    },
+    {
+      "q": "What would happen if the Golgi stopped working?",
+      "options": [
+        "Only DNA would be affected",
+        "Protein modification, sorting, and secretion would fail",
+        "Only lipids would be affected",
+        "Only energy production would stop"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Without Golgi, PROTEIN MODIFICATION, SORTING, and SECRETION would fail. Proteins couldn't reach their proper destinations.",
+      "wrongExplains": {
+        "0": "DNA is in the nucleus; Golgi handles proteins.",
+        "2": "Smooth ER makes lipids; Golgi processes proteins.",
+        "3": "Mitochondria produce energy; Golgi handles protein traffic."
+      }
+    },
+    {
+      "q": "How does the Golgi know where to send proteins?",
+      "options": [
+        "Random chance",
+        "Signal sequences on proteins act as 'address labels'",
+        "The nucleus decides",
+        "Proteins choose their destination"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "SIGNAL SEQUENCES on proteins act as 'ADDRESS LABELS' telling the Golgi where to send them (membrane, lysosome, secretion).",
+      "wrongExplains": {
+        "0": "Sorting is highly organized, not random.",
+        "2": "The nucleus provides genetic instructions; signals are on proteins.",
+        "3": "Proteins have signals; they don't consciously choose."
+      }
+    },
+    {
+      "q": "A researcher disrupts the Golgi apparatus. Which cellular process would be most directly affected?",
+      "options": [
+        "DNA replication",
+        "Protein modification and secretion",
+        "ATP production",
+        "Cell division"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "PROTEIN MODIFICATION AND SECRETION would be most directly affected. The Golgi is the protein processing and distribution center.",
+      "wrongExplains": {
+        "0": "DNA replication occurs in the nucleus, not Golgi.",
+        "2": "ATP production occurs in mitochondria, not Golgi.",
+        "3": "Cell division involves nucleus and spindle; Golgi handles protein traffic."
+      }
     }
   ]
 }

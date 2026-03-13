@@ -3,94 +3,157 @@
   "parentQuestion": "Which of the following are survival needs of the body?",
   "scaffolds": [
     {
-      "q": "Cells need certain things to stay alive.",
+      "q": "Do cells need certain things to stay alive?",
       "options": [
-        "True",
-        "False"
+        "No, cells are self-sufficient",
+        "Yes — without essential supplies, cells die and so does the organism",
+        "Only brain cells need things",
+        "Cells don't need anything"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Without these essentials, cells die and so does the organism."
+      "explain": "Yes, CELLS NEED CERTAIN THINGS to stay alive. Without these essentials, cells die and so does the organism.",
+      "wrongExplains": {
+        "0": "Cells depend on external supplies for survival.",
+        "2": "All cells, not just brain cells, have survival needs.",
+        "3": "All cells have requirements for survival."
+      }
     },
     {
-      "q": "OXYGEN is needed for cellular respiration to produce ATP (energy).",
+      "q": "Why is oxygen essential for survival?",
       "options": [
-        "True",
-        "False"
+        "It isn't essential",
+        "It's needed for cellular respiration to produce ATP (energy)",
+        "Only for smell",
+        "Only for talking"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Without oxygen, brain cells start dying within 4-6 minutes."
+      "explain": "OXYGEN is needed for CELLULAR RESPIRATION to produce ATP (energy). Without oxygen, brain cells start dying within 4-6 minutes.",
+      "wrongExplains": {
+        "0": "Oxygen is absolutely essential for energy production.",
+        "2": "Oxygen is for cellular energy, not smell.",
+        "3": "Oxygen is for cellular energy, not just talking."
+      }
     },
     {
-      "q": "WATER is essential - the body is about 60% water.",
+      "q": "Why is water essential for survival?",
       "options": [
-        "True",
-        "False"
+        "Only for drinking",
+        "It's the solvent for all biochemical reactions — body is ~60% water",
+        "It isn't essential",
+        "Only for cooling"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Water is the solvent for all biochemical reactions. No water = no life."
+      "explain": "WATER is essential — the body is about 60% water. Water is the SOLVENT for all biochemical reactions. No water = no life.",
+      "wrongExplains": {
+        "0": "Water is essential for all body chemistry, not just drinking.",
+        "2": "Water is absolutely essential for survival.",
+        "3": "Water serves many functions beyond cooling."
+      }
     },
     {
-      "q": "NUTRIENTS provide energy and building materials for cells.",
+      "q": "Why are nutrients essential?",
       "options": [
-        "True",
-        "False"
+        "Only for taste",
+        "They provide energy and building materials for cells",
+        "Nutrients aren't needed",
+        "Only for weight gain"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Carbs, proteins, fats, vitamins, minerals - all essential."
+      "explain": "NUTRIENTS provide ENERGY and BUILDING MATERIALS for cells. Carbs, proteins, fats, vitamins, minerals — all essential.",
+      "wrongExplains": {
+        "0": "Nutrients provide essential energy and materials, not just taste.",
+        "2": "Nutrients are absolutely necessary for survival.",
+        "3": "Nutrients are for cell function and energy, not just weight."
+      }
     },
     {
-      "q": "ATMOSPHERIC PRESSURE is needed for breathing and gas exchange.",
+      "q": "Why is atmospheric pressure important?",
       "options": [
-        "True",
-        "False"
+        "It isn't important",
+        "It's needed for breathing and gas exchange in the lungs",
+        "Only for flying",
+        "Only for weather"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Without proper pressure, gases won't move in and out of lungs properly."
+      "explain": "ATMOSPHERIC PRESSURE is needed for BREATHING and GAS EXCHANGE. Without proper pressure, gases won't move in and out of lungs properly.",
+      "wrongExplains": {
+        "0": "Atmospheric pressure is essential for respiration.",
+        "2": "Atmospheric pressure affects breathing, not just flying.",
+        "3": "Atmospheric pressure is critical for body function, not just weather."
+      }
     },
     {
-      "q": "Growth and reproduction are important, but NOT immediate survival needs.",
+      "q": "Are growth and reproduction immediate survival needs?",
       "options": [
-        "True",
-        "False"
+        "Yes, you die without them",
+        "No — you can survive without growing or reproducing, but not without oxygen",
+        "Growth is, reproduction isn't",
+        "They're more important than oxygen"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! You can survive without growing or reproducing. You can't survive without oxygen."
+      "explain": "Growth and reproduction are important but NOT IMMEDIATE survival needs. You can survive without growing or reproducing. You CAN'T survive without oxygen.",
+      "wrongExplains": {
+        "0": "You can survive without growth or reproduction.",
+        "2": "Neither is an immediate survival need.",
+        "3": "Oxygen is more immediately critical than growth or reproduction."
+      }
     },
     {
-      "q": "The IMMEDIATE survival needs: oxygen, water, nutrients, atmospheric pressure.",
+      "q": "What are the immediate survival needs?",
       "options": [
-        "True",
-        "False"
+        "Growth and reproduction",
+        "Oxygen, water, nutrients, and atmospheric pressure",
+        "Only food",
+        "Only oxygen"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! These are what you need RIGHT NOW to stay alive."
+      "explain": "The IMMEDIATE SURVIVAL NEEDS are: OXYGEN, WATER, NUTRIENTS, and ATMOSPHERIC PRESSURE. These are what you need RIGHT NOW to stay alive.",
+      "wrongExplains": {
+        "0": "Growth and reproduction are important but not immediate survival needs.",
+        "2": "Multiple factors beyond just food are needed.",
+        "3": "Multiple factors beyond just oxygen are needed."
+      }
     },
     {
-      "q": "Survival needs = nutrients, water, atmospheric pressure, and oxygen.",
+      "q": "Which list represents survival needs?",
       "options": [
-        "True",
-        "False"
+        "Growth, reproduction, movement",
+        "Nutrients, water, atmospheric pressure, oxygen",
+        "Only water and food",
+        "Only temperature"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Not growth (can stop and survive), not movement (can be still and survive)."
+      "explain": "SURVIVAL NEEDS = NUTRIENTS, WATER, ATMOSPHERIC PRESSURE, and OXYGEN. Not growth (can stop and survive), not movement (can be still and survive).",
+      "wrongExplains": {
+        "0": "These are important but not immediate survival needs.",
+        "2": "Oxygen and atmospheric pressure are also essential.",
+        "3": "Appropriate temperature is important but oxygen, water, nutrients are more direct."
+      }
     },
     {
-      "q": "The answer is 'nutrients, water, atmospheric pressure, and oxygen.'",
+      "q": "Which of the following are survival needs of the body?",
       "options": [
-        "True",
-        "False"
+        "Growth and reproduction",
+        "Nutrients, water, atmospheric pressure, and oxygen",
+        "Only movement",
+        "Only reproduction"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Growth and reproduction are NOT immediate survival needs."
+      "explain": "The survival needs are NUTRIENTS, WATER, ATMOSPHERIC PRESSURE, and OXYGEN. Growth and reproduction are NOT immediate survival needs.",
+      "wrongExplains": {
+        "0": "Growth and reproduction are not immediate survival needs.",
+        "2": "Movement is not an immediate survival need.",
+        "3": "Reproduction is not an immediate survival need."
+      }
     }
   ]
 }

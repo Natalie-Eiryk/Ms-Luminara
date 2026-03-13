@@ -3,28 +3,157 @@
   "parentQuestion": "The hypogastric region is ___ to the umbilical region.",
   "scaffolds": [
     {
-      "q": "What does 'inferior' mean in anatomical terms?",
+      "q": "What does inferior mean in anatomy?",
       "options": [
-        "Above",
-        "Below",
+        "Above or higher",
+        "Below or lower in position",
         "Toward the side",
         "Toward the midline"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Inferior means below or lower in position. Superior means above or higher. Think: your feet are inferior to your head (unless you're doing a headstand, in which case... still true). Simple, elegant, precise."
+      "difficulty": "foundation",
+      "explain": "INFERIOR means BELOW or LOWER in position. The feet are inferior to the head.",
+      "wrongExplains": {
+        "0": "Above or higher is superior; inferior is below.",
+        "2": "Toward the side is lateral; inferior is below.",
+        "3": "Toward midline is medial; inferior is below."
+      }
     },
     {
-      "q": "The umbilical region is named for what anatomical landmark?",
+      "q": "What does superior mean in anatomy?",
       "options": [
-        "The stomach",
-        "The belly button (navel)",
-        "The hips",
-        "The ribs"
+        "Below or lower",
+        "Above or higher in position",
+        "Toward the back",
+        "Toward the front"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "The umbilical region is centered on the umbilicus — your belly button, the scar left from your umbilical cord. It's the dead-center region of the nine-region abdominal grid. Your first connection to the outside world, preserved as a landmark."
+      "difficulty": "foundation",
+      "explain": "SUPERIOR means ABOVE or HIGHER in position. The head is superior to the feet.",
+      "wrongExplains": {
+        "0": "Below is inferior; superior is above.",
+        "2": "Toward the back is posterior/dorsal; superior is above.",
+        "3": "Toward the front is anterior/ventral; superior is above."
+      }
+    },
+    {
+      "q": "What is the umbilical region?",
+      "options": [
+        "The chest area",
+        "The central abdominal region around the belly button",
+        "The lower back",
+        "The head region"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The UMBILICAL REGION is the CENTRAL ABDOMINAL REGION around the BELLY BUTTON (umbilicus). It's the center of the 9-region grid.",
+      "wrongExplains": {
+        "0": "The chest is the thoracic region.",
+        "2": "The lower back is the lumbar region.",
+        "3": "The head region is cephalic."
+      }
+    },
+    {
+      "q": "What is the hypogastric region?",
+      "options": [
+        "The region above the stomach",
+        "The region below the umbilical region (lower abdomen)",
+        "The chest region",
+        "The side flank area"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The HYPOGASTRIC region is BELOW the umbilical region (lower abdomen). 'Hypo' means below; 'gastric' refers to the stomach area.",
+      "wrongExplains": {
+        "0": "Above the stomach is epigastric; hypogastric is below.",
+        "2": "The chest is thoracic; hypogastric is lower abdomen.",
+        "3": "Side flank areas are lumbar regions."
+      }
+    },
+    {
+      "q": "What does 'hypo' mean as a prefix?",
+      "options": [
+        "Above or over",
+        "Below or under",
+        "Beside",
+        "Within"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "'HYPO' means BELOW or UNDER. Hypogastric = below the gastric (stomach) region. Hypodermic = below the skin.",
+      "wrongExplains": {
+        "0": "Above or over is 'hyper' or 'epi'; hypo is below.",
+        "2": "Beside is 'para'; hypo is below.",
+        "3": "Within is 'endo' or 'intra'; hypo is below."
+      }
+    },
+    {
+      "q": "What organs are in the hypogastric region?",
+      "options": [
+        "Heart and lungs",
+        "Bladder, parts of small intestine, reproductive organs",
+        "Liver and gallbladder",
+        "Stomach"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The hypogastric region contains the BLADDER, parts of SMALL INTESTINE, and REPRODUCTIVE ORGANS (uterus, etc.).",
+      "wrongExplains": {
+        "0": "Heart and lungs are in the thoracic cavity.",
+        "2": "Liver and gallbladder are in the right upper quadrant.",
+        "3": "The stomach is in the epigastric/umbilical regions."
+      }
+    },
+    {
+      "q": "How many regions divide the abdomen in the 9-region system?",
+      "options": [
+        "4 regions",
+        "9 regions",
+        "6 regions",
+        "12 regions"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The abdomen is divided into 9 REGIONS: 3 upper (epigastric, left/right hypochondriac), 3 middle (umbilical, left/right lumbar), 3 lower (hypogastric, left/right iliac).",
+      "wrongExplains": {
+        "0": "4 quadrants is a simpler system; 9 regions is more detailed.",
+        "2": "The 9-region system has 9 regions, not 6.",
+        "3": "There are 9 regions in this system, not 12."
+      }
+    },
+    {
+      "q": "Where is the hypogastric region relative to the umbilical region?",
+      "options": [
+        "Above it",
+        "Below it (inferior)",
+        "To the left of it",
+        "To the right of it"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The hypogastric region is BELOW (inferior to) the umbilical region. It's the lowest central region of the 9-region grid.",
+      "wrongExplains": {
+        "0": "Above the umbilical region is the epigastric region.",
+        "2": "To the left is the left iliac region.",
+        "3": "To the right is the right iliac region."
+      }
+    },
+    {
+      "q": "The hypogastric region is ___ to the umbilical region?",
+      "options": [
+        "Superior",
+        "Inferior",
+        "Lateral",
+        "Medial"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The hypogastric region is INFERIOR (below) the umbilical region. 'Hypo' means below — it's the lower central abdominal region.",
+      "wrongExplains": {
+        "0": "Superior means above; the hypogastric is below the umbilical.",
+        "2": "Lateral means to the side; hypogastric is directly below.",
+        "3": "Medial refers to side-to-side position; hypogastric is below."
+      }
     }
   ]
 }

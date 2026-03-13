@@ -3,94 +3,157 @@
   "parentQuestion": "A patient can see objects perfectly but cannot recognize familiar faces, including their own family members. Which cortical area is most likely damaged?",
   "scaffolds": [
     {
-      "q": "Face recognition is a specialized brain function - not just general vision.",
+      "q": "What is prosopagnosia?",
       "options": [
-        "True",
-        "False"
+        "Blindness",
+        "Face blindness — inability to recognize faces despite intact vision",
+        "Hearing loss",
+        "Memory loss"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Humans are face experts - we have dedicated brain areas just for processing faces."
+      "explain": "PROSOPAGNOSIA is FACE BLINDNESS — inability to RECOGNIZE FACES despite INTACT VISION. 'Prosop-' = face, 'agnosia' = without knowledge.",
+      "wrongExplains": {
+        "0": "In prosopagnosia, basic vision is intact — only face recognition fails.",
+        "2": "Hearing is unaffected in prosopagnosia.",
+        "3": "General memory is intact; only face recognition is lost."
+      }
     },
     {
-      "q": "The fusiform gyrus is located on the ventral (bottom) surface of the temporal lobe.",
+      "q": "Where is the fusiform face area (FFA) located?",
       "options": [
-        "True",
-        "False"
+        "In the frontal lobe",
+        "On the ventral (bottom) surface of the temporal lobe",
+        "In the cerebellum",
+        "In the brainstem"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The fusiform gyrus is part of the 'what' pathway for object recognition."
+      "explain": "The FUSIFORM FACE AREA (FFA) is in the FUSIFORM GYRUS on the VENTRAL (bottom) surface of the TEMPORAL LOBE. It's specialized for face recognition.",
+      "wrongExplains": {
+        "0": "The FFA is in the temporal lobe, not frontal.",
+        "2": "The cerebellum coordinates movement, not face recognition.",
+        "3": "The FFA is in cortex, not brainstem."
+      }
     },
     {
-      "q": "The fusiform face area (FFA) responds selectively and strongly to faces.",
+      "q": "What does the fusiform face area do?",
       "options": [
-        "True",
-        "False"
+        "Controls eye movements",
+        "Processes and recognizes faces — responds strongly to face stimuli",
+        "Processes sounds",
+        "Controls balance"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Show it a face - it lights up. Show it objects or houses - minimal response."
+      "explain": "The FFA PROCESSES and RECOGNIZES FACES. It responds selectively and strongly to faces — show it a face and it lights up; show it objects and minimal response.",
+      "wrongExplains": {
+        "0": "Eye movements are controlled by frontal eye fields and brainstem.",
+        "2": "Sound processing is in auditory cortex, not FFA.",
+        "3": "Balance is controlled by vestibular system and cerebellum."
+      }
     },
     {
-      "q": "Prosopagnosia = face blindness - inability to recognize faces despite intact vision.",
+      "q": "What can prosopagnosia patients see?",
       "options": [
-        "True",
-        "False"
+        "Nothing — they're blind",
+        "Everything including facial features, but can't extract identity",
+        "Only colors",
+        "Only movement"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Prosop- (face) + agnosia (without knowledge). They see faces but can't extract identity."
+      "explain": "Prosopagnosia patients can SEE EVERYTHING including facial features (eyes, nose, mouth). They just can't EXTRACT IDENTITY — faces don't 'click' as recognizable.",
+      "wrongExplains": {
+        "0": "They have intact vision; only recognition is impaired.",
+        "2": "They see all visual features, not just colors.",
+        "3": "They see complete images, not just movement."
+      }
     },
     {
-      "q": "Prosopagnosia patients can see facial features but can't recognize WHO the face belongs to.",
+      "q": "How do prosopagnosia patients recognize people?",
       "options": [
-        "True",
-        "False"
+        "They can't recognize anyone ever",
+        "By voice, gait, clothing, or other non-facial cues",
+        "By reading minds",
+        "By smell only"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! They see eyes, nose, mouth - but can't extract identity. Even their own reflection is a stranger."
+      "explain": "Prosopagnosia patients develop WORKAROUNDS — recognizing people by VOICE, GAIT, CLOTHING, or hairstyle because face recognition is broken.",
+      "wrongExplains": {
+        "0": "They can recognize people through non-facial cues.",
+        "2": "Mind reading isn't possible; they use sensory workarounds.",
+        "3": "Multiple sensory cues help, not just smell."
+      }
     },
     {
-      "q": "People with prosopagnosia often recognize others by voice, gait, or clothing.",
+      "q": "Can prosopagnosia patients recognize their own face?",
       "options": [
-        "True",
-        "False"
+        "Yes, always",
+        "Often no — even their own reflection is a stranger",
+        "Only in mirrors",
+        "Only in photographs"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! They develop workarounds because face recognition is broken."
+      "explain": "In severe cases, prosopagnosia patients CAN'T RECOGNIZE THEIR OWN FACE. Looking in a mirror, they see a stranger — the face recognition module is broken.",
+      "wrongExplains": {
+        "0": "Self-face recognition uses the same module and is often impaired.",
+        "2": "The deficit applies regardless of whether it's mirror or photo.",
+        "3": "The medium doesn't matter; the recognition deficit is consistent."
+      }
     },
     {
-      "q": "If vision is intact but faces are unrecognizable, the fusiform face area is damaged.",
+      "q": "Why is face recognition considered 'special' in the brain?",
       "options": [
-        "True",
-        "False"
+        "It isn't special",
+        "Humans have dedicated brain areas just for processing faces",
+        "Faces are processed in the spinal cord",
+        "Only babies have face recognition"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! V1 is working (can see). Fusiform is damaged (can't recognize faces)."
+      "explain": "Face recognition is SPECIAL — humans have DEDICATED brain areas (FFA) just for faces. This specialization can be selectively damaged (prosopagnosia).",
+      "wrongExplains": {
+        "0": "Face processing is highly specialized in the human brain.",
+        "2": "Face processing is entirely in the brain, not spinal cord.",
+        "3": "Face recognition continues throughout life with specialized brain areas."
+      }
     },
     {
-      "q": "Sees perfectly + can't recognize faces = prosopagnosia = fusiform gyrus damage.",
+      "q": "What pattern indicates fusiform face area damage?",
       "options": [
-        "True",
-        "False"
+        "Complete blindness",
+        "Intact vision + inability to recognize faces = prosopagnosia",
+        "Only color blindness",
+        "Hearing loss"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The fusiform face area is the specialized face recognition module."
+      "explain": "The PATTERN: INTACT VISION + inability to RECOGNIZE FACES = PROSOPAGNOSIA from FFA damage. They see faces perfectly but can't identify them.",
+      "wrongExplains": {
+        "0": "Blindness would indicate V1 damage, not FFA.",
+        "2": "Color processing is more widely distributed.",
+        "3": "Hearing is unrelated to the visual face recognition system."
+      }
     },
     {
-      "q": "The answer is FUSIFORM GYRUS (fusiform face area) - the face recognition area.",
+      "q": "Which cortical area is damaged if someone can't recognize faces but can see normally?",
       "options": [
-        "True",
-        "False"
+        "Primary visual cortex (V1)",
+        "Fusiform gyrus (fusiform face area)",
+        "Motor cortex",
+        "Auditory cortex"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not V1 (they can see), not prefrontal (executive function), not somatosensory (body sensation). Fusiform face area damage causes prosopagnosia - face blindness."
+      "explain": "FUSIFORM GYRUS (fusiform face area). V1 is intact (can see), but the FFA is damaged (can't recognize faces). Classic prosopagnosia pattern.",
+      "wrongExplains": {
+        "0": "V1 damage would cause blindness, not selective face blindness.",
+        "2": "Motor cortex controls movement, not face recognition.",
+        "3": "Auditory cortex processes hearing, not visual face recognition."
+      }
     }
   ]
 }

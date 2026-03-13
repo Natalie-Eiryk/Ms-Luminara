@@ -3,94 +3,157 @@
   "parentQuestion": "Positive feedback mechanisms tend to enhance the original stimulus so that the response is accelerated.",
   "scaffolds": [
     {
-      "q": "The body uses feedback mechanisms to control its internal processes.",
+      "q": "What is a feedback mechanism?",
       "options": [
-        "True",
-        "False"
+        "A random body process",
+        "A control system where the output influences the input",
+        "Only a nervous system process",
+        "Only a digestive process"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Feedback loops allow the body to monitor conditions and respond appropriately."
+      "explain": "A FEEDBACK MECHANISM is a control system where the OUTPUT influences the INPUT. This allows the body to monitor conditions and respond appropriately.",
+      "wrongExplains": {
+        "0": "Feedback mechanisms are regulated, not random.",
+        "2": "Feedback mechanisms operate throughout the body, not just nervous system.",
+        "3": "Feedback mechanisms are found in all body systems, not just digestion."
+      }
     },
     {
-      "q": "There are TWO main types of feedback: negative and positive.",
+      "q": "What are the two main types of feedback?",
       "options": [
-        "True",
-        "False"
+        "Fast and slow feedback",
+        "Negative feedback and positive feedback",
+        "Internal and external feedback",
+        "Chemical and electrical feedback"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! They do opposite things - negative opposes changes, positive amplifies them."
+      "explain": "The two main types are NEGATIVE FEEDBACK (opposes changes) and POSITIVE FEEDBACK (amplifies changes). They serve opposite purposes.",
+      "wrongExplains": {
+        "0": "The classification is based on direction, not speed.",
+        "2": "The classification is based on effect, not location.",
+        "3": "The classification is based on effect, not mechanism type."
+      }
     },
     {
-      "q": "NEGATIVE feedback OPPOSES changes - it brings things back toward normal.",
+      "q": "What does negative feedback do?",
       "options": [
-        "True",
-        "False"
+        "Amplifies changes",
+        "Opposes changes and brings things back toward normal",
+        "Creates instability",
+        "Speeds up processes"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Like a thermostat - too hot, cooling kicks in; too cold, heating kicks in."
+      "explain": "NEGATIVE FEEDBACK OPPOSES changes — it brings things back toward normal. Like a thermostat: too hot, cooling kicks in; too cold, heating kicks in.",
+      "wrongExplains": {
+        "0": "Amplification is positive feedback; negative feedback opposes.",
+        "2": "Negative feedback creates stability by opposing deviations.",
+        "3": "Negative feedback slows/reverses changes, not speeds them up."
+      }
     },
     {
-      "q": "POSITIVE feedback AMPLIFIES changes - it makes the response bigger.",
+      "q": "What does positive feedback do?",
       "options": [
-        "True",
-        "False"
+        "Opposes changes",
+        "Amplifies changes — makes the response bigger",
+        "Maintains stability",
+        "Has no effect"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The output feeds back to INCREASE the original stimulus."
+      "explain": "POSITIVE FEEDBACK AMPLIFIES changes — the output feeds back to INCREASE the original stimulus, making the response bigger and faster.",
+      "wrongExplains": {
+        "0": "Opposing changes is negative feedback; positive amplifies.",
+        "2": "Positive feedback drives toward completion, not stability.",
+        "3": "Positive feedback has powerful effects on body processes."
+      }
     },
     {
-      "q": "Blood clotting uses positive feedback - each step triggers MORE clotting.",
+      "q": "Which is an example of positive feedback?",
       "options": [
-        "True",
-        "False"
+        "Body temperature regulation",
+        "Blood clotting — each step triggers MORE clotting",
+        "Blood pressure regulation",
+        "Blood glucose regulation"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Clotting factors activate more clotting factors in an explosive cascade."
+      "explain": "BLOOD CLOTTING uses positive feedback — clotting factors activate MORE clotting factors in an explosive cascade until the wound is sealed.",
+      "wrongExplains": {
+        "0": "Temperature regulation is negative feedback; it opposes deviations.",
+        "2": "Blood pressure regulation is negative feedback.",
+        "3": "Glucose regulation is negative feedback (insulin/glucagon)."
+      }
     },
     {
-      "q": "Childbirth contractions use positive feedback - contractions trigger stronger contractions.",
+      "q": "How do childbirth contractions demonstrate positive feedback?",
       "options": [
-        "True",
-        "False"
+        "Contractions gradually decrease",
+        "Contractions trigger stronger contractions until delivery",
+        "Contractions stay constant",
+        "Contractions are inhibited"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Oxytocin causes contractions, which trigger more oxytocin, more contractions..."
+      "explain": "During childbirth, OXYTOCIN causes contractions, which trigger MORE oxytocin, causing STRONGER contractions. The cycle continues until delivery.",
+      "wrongExplains": {
+        "0": "Contractions increase in positive feedback, not decrease.",
+        "2": "Positive feedback causes escalation, not constancy.",
+        "3": "Positive feedback enhances contractions, not inhibits them."
+      }
     },
     {
-      "q": "Positive feedback ENHANCES and ACCELERATES the original response.",
+      "q": "How does positive feedback differ from negative feedback in terms of the response?",
       "options": [
-        "True",
-        "False"
+        "Both do the same thing",
+        "Positive ENHANCES and ACCELERATES; negative OPPOSES and STABILIZES",
+        "Positive is slower",
+        "Positive maintains homeostasis"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Unlike negative feedback which opposes, positive feedback accelerates toward a goal."
+      "explain": "POSITIVE feedback ENHANCES and ACCELERATES the response (drives toward completion). NEGATIVE feedback OPPOSES changes and STABILIZES (maintains homeostasis).",
+      "wrongExplains": {
+        "0": "They have opposite effects on body processes.",
+        "2": "Positive feedback accelerates; it's not slower.",
+        "3": "Negative feedback maintains homeostasis; positive drives completion."
+      }
     },
     {
-      "q": "Positive feedback mechanisms AMPLIFY the original stimulus.",
+      "q": "Why is positive feedback called 'positive'?",
       "options": [
-        "True",
-        "False"
+        "Because it's good for you",
+        "Because it amplifies — adds to — the original stimulus",
+        "Because it's electric",
+        "Because it's always beneficial"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The response enhances and accelerates the original change."
+      "explain": "'POSITIVE' means the feedback ADDS TO (amplifies) the original stimulus. The name refers to direction, not whether it's good or bad.",
+      "wrongExplains": {
+        "0": "The name refers to amplification, not health benefit.",
+        "2": "The name refers to direction of effect, not electrical charge.",
+        "3": "The name refers to amplification; positive feedback can be dangerous."
+      }
     },
     {
-      "q": "The statement is TRUE - positive feedback enhances and accelerates the response.",
+      "q": "Is this TRUE: Positive feedback mechanisms enhance the original stimulus so that the response is accelerated?",
       "options": [
-        "True",
-        "False"
+        "False — positive feedback opposes changes",
+        "True — this is the defining characteristic of positive feedback",
+        "False — positive feedback has no effect on stimulus",
+        "False — positive feedback slows responses"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! This is the defining characteristic of positive feedback."
+      "explain": "TRUE. This is the DEFINING CHARACTERISTIC of positive feedback — it ENHANCES the stimulus and ACCELERATES the response until completion.",
+      "wrongExplains": {
+        "0": "Opposing changes is negative feedback, not positive.",
+        "2": "Positive feedback powerfully amplifies the stimulus.",
+        "3": "Positive feedback accelerates, not slows, responses."
+      }
     }
   ]
 }

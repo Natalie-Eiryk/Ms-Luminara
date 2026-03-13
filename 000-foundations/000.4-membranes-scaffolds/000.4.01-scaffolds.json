@@ -3,28 +3,157 @@
   "parentQuestion": "The abdominal cavity is separated from the thoracic cavity by the ___.",
   "scaffolds": [
     {
-      "q": "Which body cavity contains the lungs?",
+      "q": "What is a body cavity?",
       "options": [
-        "Thoracic cavity",
+        "A type of cell",
+        "A space within the body that contains and protects internal organs",
+        "A type of tissue",
+        "A blood vessel"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "A BODY CAVITY is a SPACE within the body that CONTAINS AND PROTECTS internal organs. Major cavities include thoracic, abdominal, and pelvic.",
+      "wrongExplains": {
+        "0": "Cells are the basic units of life; cavities are spaces.",
+        "2": "Tissues are groups of cells; cavities are body spaces.",
+        "3": "Blood vessels transport blood; cavities hold organs."
+      }
+    },
+    {
+      "q": "What is the thoracic cavity?",
+      "options": [
+        "The abdominal region",
+        "The chest cavity containing the heart and lungs",
+        "The pelvic region",
+        "The cranial cavity"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The THORACIC CAVITY is the CHEST CAVITY containing the heart and lungs. It's protected by the rib cage.",
+      "wrongExplains": {
+        "0": "The abdominal region is below the diaphragm.",
+        "2": "The pelvic region contains reproductive organs.",
+        "3": "The cranial cavity contains the brain."
+      }
+    },
+    {
+      "q": "What is the abdominal cavity?",
+      "options": [
+        "The chest region",
+        "The cavity containing digestive organs like stomach and intestines",
+        "The skull cavity",
+        "The spinal canal"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The ABDOMINAL CAVITY contains DIGESTIVE ORGANS like stomach, intestines, liver, and spleen.",
+      "wrongExplains": {
+        "0": "The chest is the thoracic cavity.",
+        "2": "The skull contains the cranial cavity.",
+        "3": "The spinal canal is part of the dorsal cavity."
+      }
+    },
+    {
+      "q": "What is the diaphragm?",
+      "options": [
+        "A bone",
+        "A muscle that separates the thoracic and abdominal cavities",
+        "A blood vessel",
+        "A type of membrane"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The DIAPHRAGM is a dome-shaped MUSCLE that SEPARATES the thoracic and abdominal cavities. It's essential for breathing.",
+      "wrongExplains": {
+        "0": "The diaphragm is muscle, not bone.",
+        "2": "Blood vessels transport blood; the diaphragm is a muscle.",
+        "3": "Membranes line cavities; the diaphragm is a muscle separating them."
+      }
+    },
+    {
+      "q": "Which cavity contains the lungs?",
+      "options": [
         "Abdominal cavity",
+        "Thoracic cavity",
         "Pelvic cavity",
         "Cranial cavity"
       ],
-      "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "The thoracic cavity — your chest region — houses the lungs within their pleural cavities and the heart within its pericardial cavity. Your chest is basically a three-compartment fortress protecting your most vital pumping and breathing machinery."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The THORACIC CAVITY contains the lungs (in pleural cavities) and the heart (in pericardial cavity).",
+      "wrongExplains": {
+        "0": "The abdominal cavity contains digestive organs.",
+        "2": "The pelvic cavity contains reproductive organs.",
+        "3": "The cranial cavity contains the brain."
+      }
     },
     {
-      "q": "Which body cavity contains the stomach and intestines?",
+      "q": "Which cavity contains the stomach and intestines?",
       "options": [
         "Thoracic cavity",
-        "Cranial cavity",
         "Abdominal cavity",
+        "Cranial cavity",
         "Vertebral cavity"
       ],
-      "answer": 2,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "The abdominal cavity houses digestive organs like the stomach, intestines, liver, and spleen. It's your body's processing plant, where nutrients get extracted and waste gets packaged for disposal. We'll explore this churning darkness together."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The ABDOMINAL CAVITY contains the stomach, intestines, liver, and spleen — the digestive processing organs.",
+      "wrongExplains": {
+        "0": "The thoracic cavity contains heart and lungs.",
+        "2": "The cranial cavity contains the brain.",
+        "3": "The vertebral cavity contains the spinal cord."
+      }
+    },
+    {
+      "q": "What is the function of the diaphragm in breathing?",
+      "options": [
+        "It pumps blood",
+        "It contracts to expand the thoracic cavity, drawing air into lungs",
+        "It digests food",
+        "It filters blood"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The diaphragm CONTRACTS to EXPAND the thoracic cavity, creating negative pressure that DRAWS AIR INTO the lungs.",
+      "wrongExplains": {
+        "0": "The heart pumps blood; the diaphragm moves air.",
+        "2": "The stomach digests food; the diaphragm aids breathing.",
+        "3": "The kidneys filter blood; the diaphragm aids breathing."
+      }
+    },
+    {
+      "q": "Where is the diaphragm located?",
+      "options": [
+        "In the skull",
+        "Between the thoracic and abdominal cavities",
+        "In the pelvis",
+        "In the spine"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The diaphragm is located BETWEEN the THORACIC AND ABDOMINAL CAVITIES. It forms the floor of the thoracic cavity.",
+      "wrongExplains": {
+        "0": "The skull contains the brain; the diaphragm is in the trunk.",
+        "2": "The pelvis is below the abdomen; the diaphragm is higher.",
+        "3": "The spine is posterior; the diaphragm is a horizontal muscle."
+      }
+    },
+    {
+      "q": "The abdominal cavity is separated from the thoracic cavity by the ___?",
+      "options": [
+        "Sternum",
+        "Diaphragm",
+        "Ribs",
+        "Vertebrae"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The DIAPHRAGM is the dome-shaped muscle that separates the abdominal cavity from the thoracic cavity.",
+      "wrongExplains": {
+        "0": "The sternum is the breastbone; the diaphragm is the separating muscle.",
+        "2": "Ribs protect the thoracic cavity; the diaphragm separates cavities.",
+        "3": "Vertebrae form the spine; the diaphragm separates thoracic from abdominal."
+      }
     }
   ]
 }

@@ -3,28 +3,157 @@
   "parentQuestion": "The lipid bilayer is primarily composed of molecules called ___.",
   "scaffolds": [
     {
-      "q": "A molecule that has both water-loving and water-fearing parts is called ___.",
+      "q": "What is a phospholipid?",
       "options": [
-        "Hydrophobic",
-        "Amphipathic",
-        "Hydrophilic",
-        "Polar"
+        "A type of protein",
+        "A lipid with a phosphate group that forms cell membranes",
+        "A carbohydrate",
+        "A nucleic acid"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Amphipathic molecules have both hydrophilic (water-loving) and hydrophobic (water-fearing) regions. This split personality — and darling, what a beautiful split it is — allows them to form membranes. Open your mind to this:the tension in that word: amphipathic. Both. Torn. Perfect."
+      "difficulty": "foundation",
+      "explain": "A PHOSPHOLIPID is a LIPID with a PHOSPHATE GROUP that forms cell membranes. It has a hydrophilic head and hydrophobic tails.",
+      "wrongExplains": {
+        "0": "Proteins are made of amino acids; phospholipids are lipids.",
+        "2": "Carbohydrates are sugars; phospholipids are lipids.",
+        "3": "Nucleic acids are DNA/RNA; phospholipids are lipids."
+      }
     },
     {
-      "q": "The cell membrane has ___ layer(s) of lipid molecules.",
+      "q": "What does amphipathic mean?",
+      "options": [
+        "Completely water-loving",
+        "Having both water-loving and water-fearing parts",
+        "Completely water-fearing",
+        "Having no charge"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "AMPHIPATHIC means having BOTH water-loving (hydrophilic) AND water-fearing (hydrophobic) parts. This property allows phospholipids to form bilayers.",
+      "wrongExplains": {
+        "0": "Completely water-loving is hydrophilic; amphipathic has both.",
+        "2": "Completely water-fearing is hydrophobic; amphipathic has both.",
+        "3": "Amphipathic refers to water interaction, not charge."
+      }
+    },
+    {
+      "q": "What is hydrophilic?",
+      "options": [
+        "Water-fearing",
+        "Water-loving",
+        "Fat-loving",
+        "Neutral"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "HYDROPHILIC means WATER-LOVING. Hydrophilic molecules dissolve in or interact well with water.",
+      "wrongExplains": {
+        "0": "Hydrophobic is water-fearing; hydrophilic is water-loving.",
+        "2": "Lipophilic is fat-loving; hydrophilic is water-loving.",
+        "3": "Hydrophilic specifically means attracted to water."
+      }
+    },
+    {
+      "q": "What is hydrophobic?",
+      "options": [
+        "Water-loving",
+        "Water-fearing",
+        "Fat-fearing",
+        "Charged"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "HYDROPHOBIC means WATER-FEARING. Hydrophobic molecules repel water and dissolve in fats/oils.",
+      "wrongExplains": {
+        "0": "Hydrophilic is water-loving; hydrophobic is water-fearing.",
+        "2": "Hydrophobic molecules are actually fat-loving, not fat-fearing.",
+        "3": "Hydrophobic refers to water repulsion, not charge."
+      }
+    },
+    {
+      "q": "How many layers of lipids are in a cell membrane?",
       "options": [
         "One",
-        "Two",
+        "Two (bilayer)",
         "Three",
         "Four"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "The cell membrane is a lipid bilayer — it has TWO layers of lipid molecules arranged with their hydrophobic tails facing each other and hydrophilic heads facing outward. Bi = two. Simple as that. Keep pace with this:, though — the simplicity is deceptive."
+      "difficulty": "foundation",
+      "explain": "Cell membranes have TWO layers (BILAYER). The hydrophobic tails face inward, hydrophilic heads face outward.",
+      "wrongExplains": {
+        "0": "One layer couldn't form a stable barrier; two are needed.",
+        "2": "Cell membranes have two layers, not three.",
+        "3": "Cell membranes have two layers, not four."
+      }
+    },
+    {
+      "q": "How are phospholipids arranged in the bilayer?",
+      "options": [
+        "Heads facing inward, tails outward",
+        "Hydrophobic tails facing each other, hydrophilic heads facing outward",
+        "Randomly arranged",
+        "All in one direction"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Phospholipids arrange with HYDROPHOBIC TAILS FACING EACH OTHER and HYDROPHILIC HEADS FACING OUTWARD toward water.",
+      "wrongExplains": {
+        "0": "Heads face water (outward); tails avoid water (inward).",
+        "2": "Arrangement is highly organized, not random.",
+        "3": "Two opposing layers face each other."
+      }
+    },
+    {
+      "q": "Why do phospholipids spontaneously form bilayers?",
+      "options": [
+        "They are forced by enzymes",
+        "Their amphipathic nature drives them to hide tails from water",
+        "They are attracted to proteins",
+        "ATP provides the energy"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Phospholipids SPONTANEOUSLY form bilayers because their AMPHIPATHIC NATURE drives hydrophobic tails to hide from water.",
+      "wrongExplains": {
+        "0": "Bilayer formation is spontaneous, not enzyme-driven.",
+        "2": "Self-assembly is driven by water avoidance, not protein attraction.",
+        "3": "Bilayer formation is spontaneous, requiring no ATP."
+      }
+    },
+    {
+      "q": "What is the fluid mosaic model?",
+      "options": [
+        "A model of DNA structure",
+        "A model describing the cell membrane as fluid with embedded proteins",
+        "A model of protein folding",
+        "A model of cell division"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The FLUID MOSAIC MODEL describes the cell membrane as FLUID (phospholipids move) with embedded proteins creating a MOSAIC pattern.",
+      "wrongExplains": {
+        "0": "DNA structure is the double helix model.",
+        "2": "Protein folding models are different.",
+        "3": "Cell division involves different models."
+      }
+    },
+    {
+      "q": "The lipid bilayer is primarily composed of molecules called ___?",
+      "options": [
+        "Proteins",
+        "Phospholipids",
+        "Carbohydrates",
+        "Nucleic acids"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The lipid bilayer is primarily composed of PHOSPHOLIPIDS — amphipathic molecules that arrange in two layers.",
+      "wrongExplains": {
+        "0": "Proteins are embedded in the membrane but don't form the bilayer.",
+        "2": "Carbohydrates are on the surface but don't form the bilayer.",
+        "3": "Nucleic acids are in the nucleus, not the membrane."
+      }
     }
   ]
 }

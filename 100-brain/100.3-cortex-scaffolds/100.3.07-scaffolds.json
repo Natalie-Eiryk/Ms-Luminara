@@ -3,94 +3,157 @@
   "parentQuestion": "Which type of wave predominates during stage 1 NREM sleep?",
   "scaffolds": [
     {
-      "q": "Brain electrical activity can be measured with EEG (electroencephalography).",
+      "q": "What is EEG?",
       "options": [
-        "True",
-        "False"
+        "A type of brain surgery",
+        "Electroencephalography — recording brain electrical activity ('brain waves')",
+        "A heart monitor",
+        "An X-ray"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! EEG records voltage fluctuations from scalp electrodes - 'brain waves.'"
+      "explain": "EEG (ELECTROENCEPHALOGRAPHY) records BRAIN ELECTRICAL ACTIVITY from scalp electrodes. These voltage fluctuations are called 'BRAIN WAVES.'",
+      "wrongExplains": {
+        "0": "EEG is a recording technique, not surgery.",
+        "2": "Heart monitors record cardiac activity; EEG records brain activity.",
+        "3": "X-rays use radiation; EEG records electrical activity."
+      }
     },
     {
-      "q": "Different brain wave frequencies correspond to different states of consciousness.",
+      "q": "What are beta waves?",
       "options": [
-        "True",
-        "False"
+        "Slow waves during deep sleep",
+        "Fast waves (13-30 Hz) during alert, focused attention",
+        "Waves during relaxation",
+        "Waves during light sleep"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Fast waves = alert. Slow waves = relaxed or asleep. Frequency reflects brain state."
+      "explain": "BETA WAVES (13-30 Hz) are FAST waves seen when you're ALERT, FOCUSED, and actively thinking. They're the signature of an engaged, active brain.",
+      "wrongExplains": {
+        "0": "Slow waves during deep sleep are delta waves.",
+        "2": "Relaxation produces alpha waves, not beta.",
+        "3": "Light sleep produces theta waves, not beta."
+      }
     },
     {
-      "q": "Beta waves (13-30 Hz) = alert, focused, concentrating. Fastest waves.",
+      "q": "What are alpha waves?",
       "options": [
-        "True",
-        "False"
+        "Waves during intense concentration",
+        "Waves (8-13 Hz) during relaxed wakefulness, often eyes closed",
+        "Waves during deep sleep",
+        "Waves during REM sleep"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Beta is the signature of an active, engaged brain. Wide awake and thinking hard."
+      "explain": "ALPHA WAVES (8-13 Hz) appear during RELAXED WAKEFULNESS — typically with eyes closed, calm but awake. They're the brain's 'idling' frequency.",
+      "wrongExplains": {
+        "0": "Intense concentration produces beta waves.",
+        "2": "Deep sleep produces delta waves.",
+        "3": "REM sleep produces mixed frequency waves similar to waking."
+      }
     },
     {
-      "q": "Alpha waves (8-13 Hz) = relaxed wakefulness, eyes closed. Slower than beta.",
+      "q": "What are theta waves?",
       "options": [
-        "True",
-        "False"
+        "Fastest brain waves",
+        "Waves (4-7 Hz) during light sleep and drowsiness",
+        "Waves during deep sleep",
+        "Waves during intense exercise"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Alpha emerges when you close your eyes and relax. Idling frequency."
+      "explain": "THETA WAVES (4-7 Hz) appear during LIGHT SLEEP and DROWSINESS — the transition from wakefulness to sleep. Stage 1 NREM is characterized by theta.",
+      "wrongExplains": {
+        "0": "Beta waves are fastest; theta is intermediate.",
+        "2": "Deep sleep produces delta waves, not theta.",
+        "3": "Exercise doesn't produce specific theta patterns."
+      }
     },
     {
-      "q": "Theta waves (4-7 Hz) = light sleep, drowsy. Even slower.",
+      "q": "What are delta waves?",
       "options": [
-        "True",
-        "False"
+        "Fast waves during alertness",
+        "Slowest waves (0.5-4 Hz) during deep sleep (stage 3 NREM)",
+        "Waves during light sleep",
+        "Waves when relaxed with eyes closed"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Theta marks the transition from wakefulness to sleep - stage 1 NREM."
+      "explain": "DELTA WAVES (0.5-4 Hz) are the SLOWEST brain waves, seen during DEEP SLEEP (stage 3 NREM). They're high amplitude and highly synchronized.",
+      "wrongExplains": {
+        "0": "Fast waves during alertness are beta waves.",
+        "2": "Light sleep produces theta waves.",
+        "3": "Relaxed with eyes closed produces alpha waves."
+      }
     },
     {
-      "q": "Delta waves (0.5-4 Hz) = deep sleep (stage 3 NREM). Slowest waves.",
+      "q": "What is stage 1 NREM sleep?",
       "options": [
-        "True",
-        "False"
+        "The deepest sleep stage",
+        "The lightest sleep stage — transition from wakefulness to sleep",
+        "REM sleep",
+        "Coma"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Delta = slow-wave sleep. High amplitude, highly synchronized, deep restorative sleep."
+      "explain": "Stage 1 NREM (N1) is the LIGHTEST sleep stage — the TRANSITION from wakefulness to sleep. You're drifting off and easily awakened.",
+      "wrongExplains": {
+        "0": "The deepest stage is stage 3 NREM (slow-wave sleep).",
+        "2": "REM sleep is a distinct stage, not stage 1 NREM.",
+        "3": "Coma is a pathological state, not normal sleep."
+      }
     },
     {
-      "q": "Stage 1 NREM is the LIGHTEST sleep stage - drifting off, easily awakened.",
+      "q": "How do brain waves change as you fall asleep?",
       "options": [
-        "True",
-        "False"
+        "They get faster",
+        "They slow down: beta → alpha → theta → delta",
+        "They stay the same",
+        "They become random"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! N1 is the transition zone between awake and asleep. Just drifting off."
+      "explain": "As you fall asleep, brain waves SLOW DOWN: BETA (alert) → ALPHA (relaxed) → THETA (light sleep) → DELTA (deep sleep). Frequency decreases.",
+      "wrongExplains": {
+        "0": "Waves slow down, not speed up, during sleep onset.",
+        "2": "Brain waves definitely change with consciousness level.",
+        "3": "The pattern is organized, not random."
+      }
     },
     {
-      "q": "Stage 1 NREM (N1) is dominated by theta waves (4-7 Hz).",
+      "q": "What frequency range characterizes stage 1 NREM?",
       "options": [
-        "True",
-        "False"
+        "Beta waves (13-30 Hz)",
+        "Theta waves (4-7 Hz)",
+        "Delta waves (0.5-4 Hz)",
+        "Alpha waves only"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Slower than alpha (relaxed awake) but faster than delta (deep sleep)."
+      "explain": "Stage 1 NREM is characterized by THETA WAVES (4-7 Hz). They're slower than alpha (awake) but faster than delta (deep sleep).",
+      "wrongExplains": {
+        "0": "Beta waves indicate alertness, not sleep.",
+        "2": "Delta waves indicate deep sleep (stage 3 NREM).",
+        "3": "Alpha transitions to theta as you enter stage 1."
+      }
     },
     {
-      "q": "The answer is THETA - the wave that predominates in stage 1 NREM.",
+      "q": "Which wave predominates during stage 1 NREM sleep?",
       "options": [
-        "True",
-        "False"
+        "Alpha waves",
+        "Theta waves",
+        "Beta waves",
+        "Delta waves"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not alpha (relaxed wakefulness), not beta (alert), not delta (deep sleep). Theta waves dominate stage 1 NREM - the lightest sleep stage."
+      "explain": "THETA WAVES predominate in stage 1 NREM. This is the light sleep/drowsy transition — slower than alpha (relaxed wakefulness), faster than delta (deep sleep).",
+      "wrongExplains": {
+        "0": "Alpha indicates relaxed wakefulness, not sleep.",
+        "2": "Beta indicates alert attention, not sleep.",
+        "3": "Delta indicates deep sleep (stage 3), not stage 1."
+      }
     }
   ]
 }

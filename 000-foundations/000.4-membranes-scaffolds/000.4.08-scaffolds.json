@@ -1,28 +1,159 @@
 {
   "parentId": "000.4.08",
-  "parentQuestion": "A new cancer drug cannot enter tumor cells because it is large and highly charge...",
+  "parentQuestion": "A new cancer drug cannot enter tumor cells because it is large and highly charged. What mechanism could researchers use to deliver it into cells?",
   "scaffolds": [
     {
-      "q": "Can large, highly charged molecules easily cross the lipid bilayer?",
+      "q": "Why can't large, charged molecules cross the lipid bilayer?",
       "options": [
-        "Yes",
-        "No"
+        "They're too small",
+        "The hydrophobic core repels charged and large molecules",
+        "They dissolve in the membrane",
+        "There's no barrier"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "No! Large, charged molecules are blocked by the hydrophobic lipid bilayer. They need protein channels, carriers, or bulk transport mechanisms (endocytosis) to enter cells. The membrane is a selective fortress."
+      "difficulty": "foundation",
+      "explain": "The HYDROPHOBIC CORE of the lipid bilayer REPELS charged molecules and blocks large molecules. Only small, nonpolar molecules pass freely.",
+      "wrongExplains": {
+        "0": "Size is the issue — they're too large, not too small.",
+        "2": "Charged molecules don't dissolve in the hydrophobic core.",
+        "3": "The lipid bilayer is definitely a barrier."
+      }
     },
     {
-      "q": "What is the general term for a cell engulfing material by wrapping it in membrane?",
+      "q": "What is endocytosis?",
       "options": [
-        "Exocytosis",
-        "Osmosis",
-        "Endocytosis",
-        "Diffusion"
+        "Releasing materials from the cell",
+        "Taking materials into the cell by wrapping them in membrane",
+        "Cell division",
+        "Passive diffusion"
       ],
-      "answer": 2,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Endocytosis ('endo' = into, 'cyto' = cell) — the cell wraps material in membrane and brings it inside as a vesicle. Exocytosis is the reverse (releasing material). Osmosis is water movement. Diffusion is passive spreading. Etymology guides you to the right answer."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "ENDOCYTOSIS is TAKING MATERIALS INTO the cell by WRAPPING THEM IN MEMBRANE. 'Endo' = into, 'cyto' = cell.",
+      "wrongExplains": {
+        "0": "Releasing materials is exocytosis; endocytosis brings things in.",
+        "2": "Cell division is mitosis; endocytosis is material uptake.",
+        "3": "Passive diffusion doesn't use membrane wrapping."
+      }
+    },
+    {
+      "q": "What is receptor-mediated endocytosis?",
+      "options": [
+        "Random uptake of any material",
+        "Specific uptake triggered by receptor binding to target molecules",
+        "Exocytosis",
+        "Osmosis"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "RECEPTOR-MEDIATED ENDOCYTOSIS is SPECIFIC UPTAKE triggered by RECEPTOR BINDING. The cell only takes in molecules that bind to its receptors.",
+      "wrongExplains": {
+        "0": "Receptor-mediated endocytosis is specific, not random.",
+        "2": "Exocytosis releases; endocytosis takes in.",
+        "3": "Osmosis is water movement; this is selective uptake."
+      }
+    },
+    {
+      "q": "What is a vesicle?",
+      "options": [
+        "A type of protein",
+        "A small membrane-bound sac that transports materials",
+        "A type of DNA",
+        "A cell organ"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "A VESICLE is a small MEMBRANE-BOUND SAC that TRANSPORTS MATERIALS within or between cells.",
+      "wrongExplains": {
+        "0": "Proteins do functions; vesicles are membrane-bound compartments.",
+        "2": "DNA stores genetic information; vesicles transport materials.",
+        "3": "Vesicles are small transport compartments, not organs."
+      }
+    },
+    {
+      "q": "How does phagocytosis help cells take in large particles?",
+      "options": [
+        "By diffusion",
+        "By engulfing particles with membrane to form a phagosome",
+        "By pumping ions",
+        "By using ribosomes"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "PHAGOCYTOSIS ENGULFS large particles by wrapping them in membrane to form a PHAGOSOME (vesicle). 'Phago' = eat.",
+      "wrongExplains": {
+        "0": "Diffusion works for small molecules; phagocytosis engulfs large ones.",
+        "2": "Ion pumps move ions; phagocytosis engulfs particles.",
+        "3": "Ribosomes make proteins; phagocytosis involves membrane."
+      }
+    },
+    {
+      "q": "What is a liposome?",
+      "options": [
+        "A type of enzyme",
+        "An artificial vesicle made of lipid bilayer used for drug delivery",
+        "A type of protein",
+        "A cell structure"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "A LIPOSOME is an ARTIFICIAL VESICLE made of lipid bilayer, used for DRUG DELIVERY. Drugs can be packaged inside and delivered to cells.",
+      "wrongExplains": {
+        "0": "Enzymes catalyze reactions; liposomes are lipid vesicles.",
+        "2": "Liposomes are lipid structures, not proteins.",
+        "3": "Liposomes are artificial, used for drug delivery."
+      }
+    },
+    {
+      "q": "Why are liposomes useful for drug delivery?",
+      "options": [
+        "They destroy drugs",
+        "They can fuse with cell membranes and deliver contents inside",
+        "They block drug entry",
+        "They only work outside cells"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Liposomes can FUSE WITH CELL MEMBRANES and DELIVER CONTENTS INSIDE. This bypasses the barrier that blocks large, charged drugs.",
+      "wrongExplains": {
+        "0": "Liposomes protect and deliver drugs, not destroy them.",
+        "2": "Liposomes facilitate drug entry, not block it.",
+        "3": "Liposomes deliver drugs inside cells."
+      }
+    },
+    {
+      "q": "What cellular mechanism could deliver a large, charged drug?",
+      "options": [
+        "Simple diffusion",
+        "Endocytosis or liposome-mediated delivery",
+        "Osmosis",
+        "Passive transport"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "ENDOCYTOSIS or LIPOSOME-MEDIATED DELIVERY can transport large, charged molecules that can't cross the lipid bilayer directly.",
+      "wrongExplains": {
+        "0": "Simple diffusion only works for small, nonpolar molecules.",
+        "2": "Osmosis is water movement; it can't deliver large drugs.",
+        "3": "Passive transport can't move large, charged molecules."
+      }
+    },
+    {
+      "q": "A large, charged cancer drug cannot enter tumor cells. What mechanism could deliver it?",
+      "options": [
+        "Simple diffusion across the membrane",
+        "Endocytosis or liposome-mediated delivery",
+        "Osmosis",
+        "Direct insertion through lipid bilayer"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "ENDOCYTOSIS or LIPOSOME DELIVERY can bypass the membrane barrier. Large, charged drugs need vesicle-mediated entry, not diffusion.",
+      "wrongExplains": {
+        "0": "Large, charged molecules can't diffuse through the hydrophobic bilayer.",
+        "2": "Osmosis moves water, not large drug molecules.",
+        "3": "Direct insertion is impossible for large, charged molecules."
+      }
     }
   ]
 }

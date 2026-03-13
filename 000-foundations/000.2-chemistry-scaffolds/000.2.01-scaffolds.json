@@ -3,6 +3,23 @@
   "parentQuestion": "Which element is necessary for proper conduction of nerve impulses?",
   "scaffolds": [
     {
+      "q": "What is an ion?",
+      "options": [
+        "A neutral atom",
+        "A charged atom or molecule",
+        "A type of protein",
+        "A cell organelle"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "An ION is a CHARGED atom or molecule. Ions have gained or lost electrons, giving them an electrical charge that allows them to conduct electricity.",
+      "wrongExplains": {
+        "0": "Neutral atoms have no charge; ions are charged.",
+        "2": "Proteins are macromolecules; ions are charged particles.",
+        "3": "Organelles are cell structures; ions are charged particles."
+      }
+    },
+    {
       "q": "What does Na represent on the periodic table?",
       "options": [
         "Nitrogen",
@@ -11,19 +28,132 @@
         "Nickel"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Na is sodium, from its Latin name 'natrium'. Chemistry loves its Latin roots — Pursue this logic:, there's pleasure in etymology. Sodium is an alkali metal — Group 1 on the periodic table — which means it DESPERATELY wants to donate its single valence electron and become Na⁺. In the body, it exists almost exclusively as this positively charged ion. Make room for this understanding:the elegance of this chemical desperation."
+      "difficulty": "foundation",
+      "explain": "Na is SODIUM, from its Latin name 'natrium'. Sodium is an alkali metal that loses one electron to become Na⁺.",
+      "wrongExplains": {
+        "0": "Nitrogen is N, not Na.",
+        "2": "Neon is Ne, not Na.",
+        "3": "Nickel is Ni, not Na."
+      }
     },
     {
-      "q": "A nerve impulse involves the movement of charged particles. What are charged atoms or molecules called?",
+      "q": "What charge does sodium carry in the body?",
       "options": [
-        "Neutrons",
-        "Ions",
-        "Isotopes"
+        "Negative (Na⁻)",
+        "Positive (Na⁺)",
+        "Neutral (Na⁰)",
+        "Double positive (Na²⁺)"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Ions are atoms or molecules with an electrical charge due to gaining or losing electrons. Sodium loses one electron to become Na⁺ (positive charge). Now observe what happens:: ions can move across membranes, and that movement — from high concentration to low — generates electrical signals. Chemistry becomes electricity. Stunning, yes? Welcome this realization:the wonder of it."
+      "difficulty": "foundation",
+      "explain": "Sodium carries a POSITIVE charge (Na⁺). It loses one electron to become a cation, which is essential for nerve impulse conduction.",
+      "wrongExplains": {
+        "0": "Sodium loses electrons, becoming positive, not negative.",
+        "2": "In the body, sodium exists as an ion, not neutral.",
+        "3": "Sodium loses only one electron, so it's +1, not +2."
+      }
+    },
+    {
+      "q": "Where is sodium concentration highest in the body?",
+      "options": [
+        "Inside cells (intracellular)",
+        "Outside cells (extracellular)",
+        "In the nucleus only",
+        "In the mitochondria only"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Sodium concentration is highest OUTSIDE cells (EXTRACELLULAR). This gradient is essential for nerve impulse conduction.",
+      "wrongExplains": {
+        "0": "Potassium is high inside cells; sodium is high outside.",
+        "2": "Sodium is distributed in extracellular fluid, not just nucleus.",
+        "3": "Sodium gradient exists across cell membranes, not just in mitochondria."
+      }
+    },
+    {
+      "q": "How do ions create nerve impulses?",
+      "options": [
+        "By staying in one place",
+        "By moving across membranes, generating electrical signals",
+        "By combining with proteins",
+        "By producing heat"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Ions create nerve impulses by MOVING ACROSS MEMBRANES, generating electrical signals. The flow of Na⁺ into cells depolarizes the membrane.",
+      "wrongExplains": {
+        "0": "Ion MOVEMENT, not stillness, generates electrical signals.",
+        "2": "Ion movement across membranes, not protein binding, creates impulses.",
+        "3": "Ion movement creates electrical signals, not heat."
+      }
+    },
+    {
+      "q": "What happens when sodium channels open in a neuron?",
+      "options": [
+        "Nothing — neurons don't have sodium channels",
+        "Sodium rushes INTO the cell, causing depolarization",
+        "Sodium leaves the cell",
+        "The cell dies"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "When sodium channels open, Na⁺ RUSHES INTO the cell, causing DEPOLARIZATION. This is the basis of the nerve impulse (action potential).",
+      "wrongExplains": {
+        "0": "Neurons have voltage-gated sodium channels essential for impulses.",
+        "2": "Sodium enters cells when channels open (down its gradient).",
+        "3": "Sodium influx causes depolarization, not cell death."
+      }
+    },
+    {
+      "q": "Why is maintaining ion gradients important for nerves?",
+      "options": [
+        "It's not important",
+        "Ion gradients provide the electrochemical energy for nerve impulses",
+        "Only for muscle function",
+        "Only for digestion"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Ion gradients provide the ELECTROCHEMICAL ENERGY for nerve impulses. Without gradients, neurons couldn't generate action potentials.",
+      "wrongExplains": {
+        "0": "Ion gradients are critically important for neural function.",
+        "2": "Ion gradients are essential for both nerve AND muscle function.",
+        "3": "Ion gradients power nerve function, not digestion."
+      }
+    },
+    {
+      "q": "Which element is necessary for proper conduction of nerve impulses?",
+      "options": [
+        "Iron",
+        "Sodium",
+        "Calcium only",
+        "Oxygen"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "SODIUM is necessary for proper nerve impulse conduction. Na⁺ influx depolarizes neurons, propagating action potentials.",
+      "wrongExplains": {
+        "0": "Iron carries oxygen in hemoglobin; sodium conducts nerve impulses.",
+        "2": "Both sodium and potassium are essential; sodium is the primary depolarizing ion.",
+        "3": "Oxygen supports metabolism; sodium conducts nerve impulses."
+      }
+    },
+    {
+      "q": "What makes sodium essential for nerve conduction?",
+      "options": [
+        "It provides nutrition to neurons",
+        "Its movement across membranes generates electrical signals",
+        "It insulates nerve fibers",
+        "It breaks down neurotransmitters"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Sodium is essential because its MOVEMENT ACROSS MEMBRANES generates ELECTRICAL SIGNALS. The sodium gradient powers action potentials.",
+      "wrongExplains": {
+        "0": "Glucose provides nutrition; sodium provides electrical signaling.",
+        "2": "Myelin insulates nerves; sodium generates electrical signals.",
+        "3": "Enzymes break down neurotransmitters; sodium generates impulses."
+      }
     }
   ]
 }

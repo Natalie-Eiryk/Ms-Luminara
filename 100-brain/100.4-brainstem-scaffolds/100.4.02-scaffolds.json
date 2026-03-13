@@ -3,94 +3,157 @@
   "parentQuestion": "Nuclei of cranial nerves V (trigeminal), VI (abducens), and VII (facial) are found in the ___.",
   "scaffolds": [
     {
-      "q": "Cranial nerves emerge directly from the brain (not the spinal cord).",
+      "q": "What are cranial nerves?",
       "options": [
-        "True",
-        "False"
+        "Nerves that emerge from the spinal cord",
+        "Nerves that emerge directly from the brain and brainstem",
+        "Nerves that only control the heart",
+        "Nerves found only in the legs"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Cranial nerves (12 pairs) emerge from the brain and brainstem, serving the head and neck. Spinal nerves emerge from the spinal cord."
+      "explain": "CRANIAL NERVES (12 pairs) emerge directly from the BRAIN and BRAINSTEM, serving the head and neck. Spinal nerves emerge from the spinal cord.",
+      "wrongExplains": {
+        "0": "Those are spinal nerves; cranial nerves emerge from the brain.",
+        "2": "Cranial nerves serve many functions beyond the heart.",
+        "3": "Cranial nerves serve the head/neck region, not legs."
+      }
     },
     {
-      "q": "The brainstem consists of three parts: midbrain, pons, and medulla.",
+      "q": "What are the three parts of the brainstem?",
       "options": [
-        "True",
-        "False"
+        "Cerebrum, cerebellum, spinal cord",
+        "Midbrain, pons, medulla",
+        "Frontal, temporal, parietal lobes",
+        "Thalamus, hypothalamus, epithalamus"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! From top to bottom: midbrain (most superior) → pons (middle) → medulla (most inferior, connects to spinal cord)."
+      "explain": "The brainstem consists of three parts: MIDBRAIN (most superior) → PONS (middle) → MEDULLA (most inferior, connects to spinal cord).",
+      "wrongExplains": {
+        "0": "These are major brain divisions, not brainstem parts.",
+        "2": "These are cerebral lobes, not brainstem structures.",
+        "3": "These are diencephalon structures, not brainstem."
+      }
     },
     {
-      "q": "The PONS is the middle section of the brainstem.",
+      "q": "What does 'pons' mean in Latin?",
       "options": [
-        "True",
-        "False"
+        "Head",
+        "Bridge",
+        "Nerve",
+        "Center"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The pons ('bridge' in Latin) sits between the midbrain above and medulla below. It's the middle tier of the brainstem."
+      "explain": "PONS means 'BRIDGE' in Latin. It bridges the midbrain above and medulla below, and connects the cerebrum to the cerebellum.",
+      "wrongExplains": {
+        "0": "'Pons' means bridge, not head.",
+        "2": "'Pons' means bridge, not nerve.",
+        "3": "'Pons' means bridge, not center."
+      }
     },
     {
-      "q": "Cranial nerve nuclei are organized by level - different nerves live at different brainstem heights.",
+      "q": "How are cranial nerve nuclei organized in the brainstem?",
       "options": [
-        "True",
-        "False"
+        "All cranial nerves are at the same level",
+        "Different cranial nerves live at different brainstem heights",
+        "Cranial nerves are only in the cerebrum",
+        "Cranial nerves don't have nuclei"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The brainstem is like an apartment building - CN III-IV live in the midbrain, CN V-VIII live in the pons, CN IX-XII live in the medulla."
+      "explain": "Cranial nerve nuclei are organized by level: CN III-IV in midbrain, CN V-VIII in pons, CN IX-XII in medulla. Like floors in a building.",
+      "wrongExplains": {
+        "0": "Different cranial nerves are at different brainstem levels.",
+        "2": "Cranial nerve nuclei are in the brainstem, not cerebrum.",
+        "3": "Each cranial nerve has nuclei where its cell bodies reside."
+      }
     },
     {
-      "q": "CN V (trigeminal) handles facial sensation and chewing muscles.",
+      "q": "What does CN V (trigeminal) control?",
       "options": [
-        "True",
-        "False"
+        "Hearing",
+        "Facial sensation and chewing muscles",
+        "Eye movement",
+        "Smell"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The trigeminal nerve is the main sensory nerve for the face and also controls the muscles of mastication (chewing)."
+      "explain": "The TRIGEMINAL NERVE (CN V) is the main SENSORY nerve for the FACE and controls the MUSCLES OF MASTICATION (chewing).",
+      "wrongExplains": {
+        "0": "Hearing is CN VIII (vestibulocochlear).",
+        "2": "Eye movement is CN III, IV, VI.",
+        "3": "Smell is CN I (olfactory)."
+      }
     },
     {
-      "q": "CN VII (facial) controls the muscles of facial expression.",
+      "q": "What does CN VII (facial) control?",
       "options": [
-        "True",
-        "False"
+        "Tongue movement",
+        "Muscles of facial expression",
+        "Vision",
+        "Balance"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Smile, frown, blink, raise eyebrows - all controlled by CN VII (facial nerve). Damage causes facial paralysis."
+      "explain": "The FACIAL NERVE (CN VII) controls the MUSCLES OF FACIAL EXPRESSION — smile, frown, blink, raise eyebrows. Damage causes facial paralysis.",
+      "wrongExplains": {
+        "0": "Tongue movement is CN XII (hypoglossal).",
+        "2": "Vision is CN II (optic).",
+        "3": "Balance is CN VIII (vestibulocochlear)."
+      }
     },
     {
-      "q": "CN V, VI, and VII all have their nuclei in the same brainstem region.",
+      "q": "Where do CN V, VI, and VII all have their nuclei?",
       "options": [
-        "True",
-        "False"
+        "Midbrain",
+        "Pons",
+        "Medulla",
+        "Cerebral cortex"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! These three cranial nerves are neighbors - they all live in the PONS. Same floor of the brainstem building."
+      "explain": "CN V, VI, and VII are NEIGHBORS — they all have nuclei in the PONS. Same 'floor' of the brainstem building.",
+      "wrongExplains": {
+        "0": "Midbrain houses CN III-IV, not V-VII.",
+        "2": "Medulla houses CN IX-XII, not V-VII.",
+        "3": "Cranial nerve nuclei are in the brainstem, not cortex."
+      }
     },
     {
-      "q": "The pons houses the nuclei for cranial nerves V, VI, and VII.",
+      "q": "What functions are controlled by pontine cranial nerves (V, VI, VII)?",
       "options": [
-        "True",
-        "False"
+        "Only breathing",
+        "Face sensation, lateral eye movement, facial expression",
+        "Only hearing",
+        "Only swallowing"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! The pons is home to CN V (trigeminal - face sensation/chewing), CN VI (abducens - lateral eye movement), and CN VII (facial - facial expression)."
+      "explain": "Pontine nerves: CN V (face SENSATION + chewing), CN VI (LATERAL eye movement), CN VII (FACIAL EXPRESSION + taste anterior tongue).",
+      "wrongExplains": {
+        "0": "Breathing is medulla; pontine nerves handle face-related functions.",
+        "2": "Hearing is CN VIII, which is also pontine but not V-VII.",
+        "3": "Swallowing involves medullary nerves CN IX-X."
+      }
     },
     {
-      "q": "The answer is PONS - where CN V, VI, and VII nuclei are located.",
+      "q": "The nuclei for CN V, VI, and VII are found in the ___?",
       "options": [
-        "True",
-        "False"
+        "Midbrain",
+        "Pons",
+        "Medulla",
+        "Cerebrum"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not the cerebrum (that's higher cortex), not the midbrain (that's CN III-IV), not the medulla (that's CN IX-XII). The PONS houses CN V, VI, and VII."
+      "explain": "The PONS houses CN V (trigeminal), CN VI (abducens — lateral eye), and CN VII (facial). Not midbrain (III-IV) or medulla (IX-XII).",
+      "wrongExplains": {
+        "0": "Midbrain houses CN III-IV; pons houses V-VIII.",
+        "2": "Medulla houses CN IX-XII; pons houses V-VIII.",
+        "3": "Cranial nerve nuclei are in brainstem, not cerebrum."
+      }
     }
   ]
 }

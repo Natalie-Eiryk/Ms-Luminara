@@ -3,94 +3,157 @@
   "parentQuestion": "The part of the serous membrane that lines the peritoneal cavity wall is called visceral peritoneum.",
   "scaffolds": [
     {
-      "q": "Serous membranes have two layers: parietal and visceral.",
+      "q": "How many layers do serous membranes have?",
       "options": [
-        "True",
-        "False"
+        "One layer",
+        "Two layers: parietal and visceral",
+        "Three layers",
+        "Four layers"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! One for the wall, one for the organ."
+      "explain": "Serous membranes have TWO LAYERS: PARIETAL (lines wall) and VISCERAL (covers organ). One for the wall, one for the organ.",
+      "wrongExplains": {
+        "0": "Serous membranes have two distinct layers, not one.",
+        "2": "Serous membranes have two layers, not three.",
+        "3": "Serous membranes have two layers, not four."
+      }
     },
     {
-      "q": "'Parietal' means relating to WALLS.",
+      "q": "What does 'parietal' mean?",
       "options": [
-        "True",
-        "False"
+        "Relating to organs",
+        "Relating to walls",
+        "Relating to blood",
+        "Relating to nerves"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! From Latin 'paries' = wall. Parietal = wall layer."
+      "explain": "'PARIETAL' means relating to WALLS. From Latin 'paries' = wall. Parietal = wall layer.",
+      "wrongExplains": {
+        "0": "Organs are 'visceral'; 'parietal' relates to walls.",
+        "2": "'Parietal' relates to walls, not blood.",
+        "3": "'Parietal' relates to walls, not nerves."
+      }
     },
     {
-      "q": "'Visceral' means relating to ORGANS.",
+      "q": "What does 'visceral' mean?",
       "options": [
-        "True",
-        "False"
+        "Relating to walls",
+        "Relating to organs",
+        "Relating to skin",
+        "Relating to bones"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Viscera = internal organs. Visceral = organ layer."
+      "explain": "'VISCERAL' means relating to ORGANS. Viscera = internal organs. Visceral = organ layer.",
+      "wrongExplains": {
+        "0": "Walls are 'parietal'; 'visceral' relates to organs.",
+        "2": "'Visceral' relates to internal organs, not skin.",
+        "3": "'Visceral' relates to internal organs, not bones."
+      }
     },
     {
-      "q": "PARIETAL peritoneum lines the WALL of the abdominal cavity.",
+      "q": "What does parietal peritoneum line?",
       "options": [
-        "True",
-        "False"
+        "The abdominal organs",
+        "The wall of the abdominal cavity",
+        "The blood vessels",
+        "The muscles"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Wall = parietal. Always."
+      "explain": "PARIETAL peritoneum lines the WALL of the abdominal cavity. Wall = parietal. Always.",
+      "wrongExplains": {
+        "0": "Visceral peritoneum covers organs; parietal lines walls.",
+        "2": "Parietal peritoneum lines the cavity wall, not just blood vessels.",
+        "3": "Parietal peritoneum lines the cavity wall specifically."
+      }
     },
     {
-      "q": "VISCERAL peritoneum covers the ORGANS in the abdominal cavity.",
+      "q": "What does visceral peritoneum cover?",
       "options": [
-        "True",
-        "False"
+        "The cavity wall",
+        "The organs in the abdominal cavity",
+        "Only the liver",
+        "Only the intestines"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Organs = visceral. Always."
+      "explain": "VISCERAL peritoneum covers the ORGANS in the abdominal cavity. Organs = visceral. Always.",
+      "wrongExplains": {
+        "0": "Parietal lines walls; visceral covers organs.",
+        "2": "Visceral peritoneum covers all abdominal organs, not just liver.",
+        "3": "Visceral peritoneum covers all abdominal organs, not just intestines."
+      }
     },
     {
-      "q": "The question states: 'cavity WALL is called VISCERAL peritoneum.'",
+      "q": "The statement says 'cavity WALL is called VISCERAL peritoneum.' Is this correct?",
       "options": [
-        "True",
-        "False"
+        "Yes, visceral lines walls",
+        "No — wall should be PARIETAL, not visceral",
+        "Yes, both terms are interchangeable",
+        "Yes, peritoneum has no layers"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! But that's WRONG. Wall = parietal, not visceral!"
+      "explain": "NO — the statement is WRONG. Wall = PARIETAL, not visceral. The statement has it BACKWARDS.",
+      "wrongExplains": {
+        "0": "Visceral covers organs; parietal lines walls.",
+        "2": "The terms are NOT interchangeable; they describe different layers.",
+        "3": "Peritoneum has two distinct layers."
+      }
     },
     {
-      "q": "The statement has it BACKWARDS - wall should be PARIETAL, not visceral.",
+      "q": "What is the correct membrane for the cavity wall?",
       "options": [
-        "True",
-        "False"
+        "Visceral peritoneum",
+        "Parietal peritoneum",
+        "Mesentery",
+        "Omentum"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The statement is incorrect. Cavity wall = parietal."
+      "explain": "The cavity WALL is lined by PARIETAL peritoneum. Visceral covers organs. The statement has it backwards.",
+      "wrongExplains": {
+        "0": "Visceral covers organs, not walls.",
+        "2": "Mesentery connects organs; parietal lines walls.",
+        "3": "Omentum is a fatty apron; parietal lines walls."
+      }
     },
     {
-      "q": "The statement is FALSE - the WALL is lined by PARIETAL peritoneum.",
+      "q": "Is the statement TRUE or FALSE: 'The cavity wall is lined by visceral peritoneum'?",
       "options": [
-        "True",
-        "False"
+        "True — visceral lines walls",
+        "False — the wall is lined by PARIETAL peritoneum",
+        "True — both layers line walls",
+        "Neither layer lines anything"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Visceral covers organs. Parietal lines walls."
+      "explain": "FALSE. The WALL is lined by PARIETAL peritoneum. Visceral covers organs. The statement confuses the two.",
+      "wrongExplains": {
+        "0": "Visceral covers organs; parietal lines walls.",
+        "2": "Only parietal lines walls; visceral covers organs.",
+        "3": "Both layers have specific functions."
+      }
     },
     {
-      "q": "The answer is FALSE - walls = parietal, organs = visceral.",
+      "q": "The statement 'The cavity wall is lined by visceral peritoneum' is ___?",
       "options": [
         "True",
-        "False"
+        "False — walls = parietal, organs = visceral",
+        "True only for the thorax",
+        "True only for the pelvis"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! The statement has parietal and visceral confused."
+      "explain": "The answer is FALSE. Walls = PARIETAL, organs = VISCERAL. The statement has parietal and visceral confused.",
+      "wrongExplains": {
+        "0": "The statement incorrectly identifies the wall layer.",
+        "2": "The rule applies everywhere: parietal = wall, visceral = organ.",
+        "3": "The rule applies everywhere: parietal = wall, visceral = organ."
+      }
     }
   ]
 }

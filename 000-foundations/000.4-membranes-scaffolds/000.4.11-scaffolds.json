@@ -1,27 +1,159 @@
 {
   "parentId": "000.4.11",
-  "parentQuestion": "A patient's neurons are unable to fire action potentials after exposure to a tox...",
+  "parentQuestion": "A patient's neurons are unable to fire action potentials after exposure to a toxin. This is most likely because the toxin inhibited ___.",
   "scaffolds": [
     {
-      "q": "Does the sodium-potassium pump require ATP to function?",
+      "q": "What is an action potential?",
       "options": [
-        "Yes",
-        "No"
-      ],
-      "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Yes! The Na⁺/K⁺ pump is an active transporter — it moves ions AGAINST their concentration gradients, which requires energy input (ATP). It's one of the most ATP-hungry processes in your body. Without ATP, it stops, and neurons lose their ability to fire. Expensive but essential."
-    },
-    {
-      "q": "In a resting neuron, is the concentration of Na⁺ higher inside or outside the cell?",
-      "options": [
-        "Inside",
-        "Outside",
-        "Equal on both sides"
+        "A type of protein",
+        "An electrical signal that travels along neurons",
+        "A static charge",
+        "Energy storage"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "OUTSIDE! The Na⁺/K⁺ pump maintains HIGH sodium OUTSIDE the cell (~145 mM extracellular vs. ~12 mM intracellular). This gradient is what allows Na⁺ to rush IN during action potentials, causing depolarization. Beautiful ionic architecture, isn't it?"
+      "difficulty": "foundation",
+      "explain": "An ACTION POTENTIAL is an ELECTRICAL SIGNAL that TRAVELS ALONG NEURONS. It's how nerve cells communicate over long distances.",
+      "wrongExplains": {
+        "0": "Proteins are molecules; action potentials are electrical signals.",
+        "2": "Action potentials are propagating signals, not static charges.",
+        "3": "ATP stores energy; action potentials transmit information."
+      }
+    },
+    {
+      "q": "What is the Na⁺/K⁺ ATPase pump?",
+      "options": [
+        "A passive channel",
+        "An active transporter that moves 3 Na⁺ out and 2 K⁺ into cells",
+        "A ribosome",
+        "A type of receptor"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The Na⁺/K⁺ ATPase PUMP is an ACTIVE TRANSPORTER that moves 3 Na⁺ OUT and 2 K⁺ INTO cells, using ATP.",
+      "wrongExplains": {
+        "0": "Passive channels don't use ATP; this pump requires it.",
+        "2": "Ribosomes make proteins; this is a membrane pump.",
+        "3": "Receptors bind signals; this pump moves ions."
+      }
+    },
+    {
+      "q": "Does the Na⁺/K⁺ pump require ATP?",
+      "options": [
+        "No, it's passive",
+        "Yes, it uses ATP to move ions against their gradients",
+        "It uses glucose instead",
+        "It doesn't need any energy"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Yes! The pump USES ATP to move ions AGAINST their concentration gradients. It's one of the most ATP-hungry processes in the body.",
+      "wrongExplains": {
+        "0": "It's active transport, requiring ATP.",
+        "2": "ATP, not glucose, directly powers the pump.",
+        "3": "Active transport always requires energy."
+      }
+    },
+    {
+      "q": "Where is Na⁺ concentration higher in a resting neuron?",
+      "options": [
+        "Inside the cell",
+        "Outside the cell",
+        "Equal on both sides",
+        "In the nucleus"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Na⁺ concentration is HIGHER OUTSIDE the cell (~145 mM outside vs ~12 mM inside). This gradient is maintained by the Na⁺/K⁺ pump.",
+      "wrongExplains": {
+        "0": "Na⁺ is pumped out; it's higher outside.",
+        "2": "The pump creates an unequal distribution.",
+        "3": "The nucleus is inside; Na⁺ is higher in extracellular fluid."
+      }
+    },
+    {
+      "q": "Where is K⁺ concentration higher in a resting neuron?",
+      "options": [
+        "Outside the cell",
+        "Inside the cell",
+        "Equal on both sides",
+        "In the membrane"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "K⁺ concentration is HIGHER INSIDE the cell (~150 mM inside vs ~5 mM outside). The pump moves K⁺ in and Na⁺ out.",
+      "wrongExplains": {
+        "0": "K⁺ is pumped in; it's higher inside.",
+        "2": "The pump creates an unequal distribution.",
+        "3": "K⁺ is dissolved in cytoplasm, not in the membrane."
+      }
+    },
+    {
+      "q": "Why are ion gradients essential for action potentials?",
+      "options": [
+        "They provide nutrients",
+        "They create the electrical potential that neurons use to fire",
+        "They produce ATP",
+        "They're not important"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Ion gradients CREATE THE ELECTRICAL POTENTIAL neurons use to fire. Na⁺ rushing in causes depolarization; K⁺ leaving causes repolarization.",
+      "wrongExplains": {
+        "0": "Nutrients come from metabolism; gradients enable signaling.",
+        "2": "Mitochondria produce ATP; gradients enable signaling.",
+        "3": "Ion gradients are absolutely essential for neuronal function."
+      }
+    },
+    {
+      "q": "What happens if the Na⁺/K⁺ pump stops working?",
+      "options": [
+        "Nothing changes",
+        "Ion gradients collapse and neurons cannot fire action potentials",
+        "Neurons fire faster",
+        "Only K⁺ is affected"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Without the pump, ION GRADIENTS COLLAPSE. Without gradients, neurons CANNOT FIRE action potentials — no Na⁺ to rush in.",
+      "wrongExplains": {
+        "0": "Stopping the pump has major consequences.",
+        "2": "Neurons stop firing, not fire faster.",
+        "3": "Both Na⁺ and K⁺ gradients are affected."
+      }
+    },
+    {
+      "q": "What type of toxin would prevent action potentials?",
+      "options": [
+        "One that adds more ATP",
+        "One that inhibits the Na⁺/K⁺ pump or sodium channels",
+        "One that adds more neurons",
+        "One that provides more oxygen"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Toxins that INHIBIT THE Na⁺/K⁺ PUMP (like ouabain) or BLOCK SODIUM CHANNELS (like tetrodotoxin) prevent action potentials.",
+      "wrongExplains": {
+        "0": "Adding ATP would help, not harm neurons.",
+        "2": "Adding neurons wouldn't block action potentials.",
+        "3": "More oxygen would help, not block action potentials."
+      }
+    },
+    {
+      "q": "A toxin prevents neurons from firing action potentials. This most likely inhibited ___?",
+      "options": [
+        "Ribosomes",
+        "The Na⁺/K⁺ ATPase pump (or sodium channels)",
+        "Lysosomes",
+        "Golgi apparatus"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The toxin likely inhibited the Na⁺/K⁺ PUMP (or sodium channels). Without proper ion gradients, neurons cannot generate action potentials.",
+      "wrongExplains": {
+        "0": "Ribosomes make proteins; the pump maintains ion gradients.",
+        "2": "Lysosomes digest waste; the pump enables neuron firing.",
+        "3": "Golgi processes proteins; the pump enables action potentials."
+      }
     }
   ]
 }

@@ -1,30 +1,159 @@
 {
   "parentId": "000.3.14",
-  "parentQuestion": "A toxin prevents the assembly of microtubules in dividing cells. The most immedi...",
+  "parentQuestion": "A toxin prevents the assembly of microtubules in dividing cells. The most immediate effect would be failure of ___.",
   "scaffolds": [
     {
-      "q": "The structure that physically separates chromosomes during cell division is the ___.",
+      "q": "What are microtubules?",
       "options": [
-        "Nuclear envelope",
-        "Mitotic spindle",
-        "Golgi apparatus",
-        "Ribosome"
+        "A type of DNA",
+        "Hollow protein filaments that form part of the cell's cytoskeleton",
+        "Energy-producing structures",
+        "Cell membranes"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "The mitotic spindle — made of microtubules — attaches to chromosomes and pulls them to opposite poles of the dividing cell. It's the cellular tow truck, darling. Keep this momentum:."
+      "difficulty": "foundation",
+      "explain": "MICROTUBULES are HOLLOW PROTEIN FILAMENTS that form part of the CYTOSKELETON. They provide structure and enable movement.",
+      "wrongExplains": {
+        "0": "DNA is genetic material; microtubules are structural proteins.",
+        "2": "Mitochondria produce energy; microtubules are structural.",
+        "3": "Membranes are phospholipid bilayers; microtubules are protein filaments."
+      }
     },
     {
-      "q": "Microtubules are protein filaments made of subunits called ___.",
+      "q": "What protein makes up microtubules?",
       "options": [
         "Actin",
         "Tubulin",
         "Keratin",
-        "Myosin"
+        "Collagen"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Tubulin dimers (α and β tubulin) polymerize to form hollow microtubule tubes. Actin forms microfilaments, not microtubules. Different filament, different protein, darling."
+      "difficulty": "foundation",
+      "explain": "TUBULIN is the protein that makes up microtubules. α-tubulin and β-tubulin dimers polymerize to form the hollow tube.",
+      "wrongExplains": {
+        "0": "Actin forms microfilaments; tubulin forms microtubules.",
+        "2": "Keratin forms intermediate filaments in epithelial cells.",
+        "3": "Collagen is extracellular matrix; tubulin is cytoskeletal."
+      }
+    },
+    {
+      "q": "What is the mitotic spindle?",
+      "options": [
+        "A type of chromosome",
+        "The structure made of microtubules that separates chromosomes during division",
+        "The nuclear membrane",
+        "A type of ribosome"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "The MITOTIC SPINDLE is made of MICROTUBULES and SEPARATES CHROMOSOMES during cell division, pulling them to opposite poles.",
+      "wrongExplains": {
+        "0": "Chromosomes are pulled by the spindle; they're not the spindle.",
+        "2": "The nuclear membrane breaks down; the spindle forms from microtubules.",
+        "3": "Ribosomes make proteins; the spindle separates chromosomes."
+      }
+    },
+    {
+      "q": "What happens during mitosis?",
+      "options": [
+        "Protein synthesis",
+        "Cell division producing two identical daughter cells",
+        "ATP production",
+        "DNA transcription"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "MITOSIS is CELL DIVISION producing two IDENTICAL DAUGHTER CELLS. Chromosomes are replicated and separated equally.",
+      "wrongExplains": {
+        "0": "Protein synthesis is translation; mitosis is cell division.",
+        "2": "ATP production is cellular respiration; mitosis is division.",
+        "3": "DNA transcription makes RNA; mitosis divides cells."
+      }
+    },
+    {
+      "q": "Why are microtubules essential for cell division?",
+      "options": [
+        "They produce ATP",
+        "They form the spindle that separates chromosomes",
+        "They make proteins",
+        "They store DNA"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Microtubules FORM THE SPINDLE that SEPARATES CHROMOSOMES. Without them, chromosomes can't be distributed to daughter cells.",
+      "wrongExplains": {
+        "0": "Mitochondria produce ATP; microtubules form the spindle.",
+        "2": "Ribosomes make proteins; microtubules form structural spindle.",
+        "3": "The nucleus stores DNA; microtubules separate chromosomes."
+      }
+    },
+    {
+      "q": "What happens if the spindle cannot form?",
+      "options": [
+        "Normal cell division",
+        "Chromosomes cannot separate properly, blocking cell division",
+        "Increased protein synthesis",
+        "More ATP production"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Without a spindle, CHROMOSOMES CANNOT SEPARATE properly. Cell division is blocked or produces abnormal cells.",
+      "wrongExplains": {
+        "0": "Division fails without spindle; it's not normal.",
+        "2": "Protein synthesis is unrelated to spindle formation.",
+        "3": "ATP production is unrelated to spindle function."
+      }
+    },
+    {
+      "q": "Why do some cancer drugs target microtubules?",
+      "options": [
+        "To increase cancer cell division",
+        "To prevent cancer cells from dividing by blocking spindle formation",
+        "To help cancer cells survive",
+        "To increase tumor size"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Cancer drugs target microtubules to PREVENT CANCER CELLS FROM DIVIDING by blocking spindle formation (e.g., taxol, vincristine).",
+      "wrongExplains": {
+        "0": "The goal is to stop division, not increase it.",
+        "2": "The goal is to kill cancer cells, not help them survive.",
+        "3": "The goal is to shrink tumors by stopping cell division."
+      }
+    },
+    {
+      "q": "What other functions do microtubules have besides cell division?",
+      "options": [
+        "None — only cell division",
+        "Intracellular transport, cell shape, cilia and flagella movement",
+        "Only storing genetic information",
+        "Only producing proteins"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Microtubules also function in INTRACELLULAR TRANSPORT (motor proteins), CELL SHAPE, and CILIA/FLAGELLA MOVEMENT.",
+      "wrongExplains": {
+        "0": "Microtubules have many functions beyond division.",
+        "2": "DNA stores genetic information; microtubules are structural.",
+        "3": "Ribosomes produce proteins; microtubules are structural."
+      }
+    },
+    {
+      "q": "A toxin prevents the assembly of microtubules in dividing cells. The most immediate effect would be failure of ___?",
+      "options": [
+        "ATP production",
+        "Chromosome separation (mitotic spindle function)",
+        "Protein synthesis",
+        "DNA replication"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The most immediate effect is failure of CHROMOSOME SEPARATION because the MITOTIC SPINDLE cannot form without microtubules.",
+      "wrongExplains": {
+        "0": "ATP production is mitochondrial; microtubules form spindles.",
+        "2": "Protein synthesis is ribosomal; microtubules separate chromosomes.",
+        "3": "DNA replication is nuclear; microtubules separate the copies."
+      }
     }
   ]
 }

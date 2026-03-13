@@ -3,94 +3,157 @@
   "parentQuestion": "The primary visual cortex contains a map of visual space.",
   "scaffolds": [
     {
-      "q": "Visual information from the eyes is processed in the occipital lobe.",
+      "q": "What is the primary visual cortex?",
       "options": [
-        "True",
-        "False"
+        "The frontal lobe area for planning",
+        "The occipital lobe area that first processes visual information (also called V1)",
+        "The temporal lobe area for hearing",
+        "The parietal lobe area for touch"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The occipital lobe, at the back of the brain, contains the primary visual cortex (V1)."
+      "explain": "The PRIMARY VISUAL CORTEX (V1) is in the OCCIPITAL LOBE and is the first cortical area to process visual information from the eyes.",
+      "wrongExplains": {
+        "0": "The frontal lobe handles motor planning and executive function, not vision.",
+        "2": "The temporal lobe processes auditory information, not visual.",
+        "3": "The parietal lobe handles somatosensory information, not visual."
+      }
     },
     {
-      "q": "The primary visual cortex is also called V1 or the calcarine cortex.",
+      "q": "What is retinotopy?",
       "options": [
-        "True",
-        "False"
+        "A disease of the retina",
+        "The mapping of retinal spatial relationships onto the visual cortex",
+        "A type of eye surgery",
+        "The production of tears"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! V1 sits in the calcarine sulcus of the occipital lobe."
+      "explain": "RETINOTOPY means the SPATIAL RELATIONSHIPS from the retina are PRESERVED in the cortex. Neighboring retinal points project to neighboring cortical points — a MAP.",
+      "wrongExplains": {
+        "0": "Retinotopy is a normal organizational principle, not a disease.",
+        "2": "Retinotopy refers to brain organization, not surgery.",
+        "3": "Tear production is controlled by lacrimal glands, unrelated to retinotopy."
+      }
     },
     {
-      "q": "Visual information travels: retina → optic nerve → LGN (thalamus) → V1.",
+      "q": "What is the visual pathway to the cortex?",
       "options": [
-        "True",
-        "False"
+        "Retina → spinal cord → V1",
+        "Retina → optic nerve → LGN (thalamus) → V1",
+        "Retina → cerebellum → V1",
+        "Retina → frontal lobe → V1"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The lateral geniculate nucleus (LGN) is the thalamic relay for vision."
+      "explain": "Visual information travels: RETINA → OPTIC NERVE → LGN (lateral geniculate nucleus in thalamus) → V1. The thalamus is the relay station for sensory info.",
+      "wrongExplains": {
+        "0": "Visual pathways don't go through the spinal cord.",
+        "2": "The cerebellum coordinates movement, not vision.",
+        "3": "Visual input goes to occipital lobe, not frontal."
+      }
     },
     {
-      "q": "Neighboring retinal cells project to neighboring cortical cells in V1.",
+      "q": "What is cortical magnification?",
       "options": [
-        "True",
-        "False"
+        "The cortex is larger than the retina",
+        "The fovea (central vision) gets disproportionately large cortical representation",
+        "The brain magnifies images",
+        "V1 is the largest brain area"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! This preserves spatial relationships - called 'retinotopy' or topographic mapping."
+      "explain": "CORTICAL MAGNIFICATION: The FOVEA covers only ~1% of retina but takes ~50% of V1! Central vision gets massive overrepresentation for high-resolution detail.",
+      "wrongExplains": {
+        "0": "Cortical magnification refers to representation ratio, not physical size comparison.",
+        "2": "The brain doesn't optically magnify images; it allocates more neurons to important areas.",
+        "3": "V1's size isn't what cortical magnification refers to."
+      }
     },
     {
-      "q": "The fovea (center of gaze) is overrepresented in V1 - 'cortical magnification.'",
+      "q": "What happens if part of V1 is damaged?",
       "options": [
-        "True",
-        "False"
+        "Complete blindness",
+        "Blindness in the corresponding part of the visual field",
+        "Color blindness only",
+        "No effect on vision"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The fovea covers ~1% of retina but takes ~50% of V1! High-resolution central vision."
+      "explain": "Damage to a patch of V1 causes BLINDNESS in the CORRESPONDING PATCH of visual field. The map IS the function — destroy part of the map, that region goes dark.",
+      "wrongExplains": {
+        "0": "Only bilateral V1 damage causes complete blindness.",
+        "2": "Color processing is more widely distributed; V1 damage causes scotoma.",
+        "3": "V1 is essential for conscious vision in its mapped region."
+      }
     },
     {
-      "q": "Damage to a patch of V1 causes blindness in a corresponding patch of visual field.",
+      "q": "Where is V1 located in the occipital lobe?",
       "options": [
-        "True",
-        "False"
+        "On the outer surface only",
+        "In the calcarine sulcus (calcarine cortex)",
+        "In the frontal portion",
+        "Only in the right hemisphere"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The map IS the function. Destroy part of the map, that region of visual space goes dark."
+      "explain": "V1 is located in the CALCARINE SULCUS (calcarine cortex) on the medial surface of the occipital lobe. This is why it's also called the 'calcarine cortex.'",
+      "wrongExplains": {
+        "0": "Most of V1 is actually buried in the calcarine sulcus, not on outer surface.",
+        "2": "The frontal portion of occipital lobe is not where V1 is located.",
+        "3": "V1 is present in both hemispheres."
+      }
     },
     {
-      "q": "The term for this spatial mapping is 'retinotopy' - the retina is mapped onto cortex.",
+      "q": "Why is the visual field representation called a 'map'?",
       "options": [
-        "True",
-        "False"
+        "It looks like a geographical map",
+        "Spatial relationships are preserved — neighbors in vision remain neighbors in cortex",
+        "It shows roads and cities",
+        "It was discovered using maps"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Retino- (retina) + -topy (place). Spatial relationships are preserved across relay stations."
+      "explain": "It's a MAP because SPATIAL RELATIONSHIPS are PRESERVED. Points that are neighbors in the visual field project to neighboring neurons in V1 — a topographic representation.",
+      "wrongExplains": {
+        "0": "The 'map' refers to spatial organization, not appearance.",
+        "2": "It's a neural map of visual space, not geographical features.",
+        "3": "The term refers to the organization principle, not discovery method."
+      }
     },
     {
-      "q": "V1 contains a retinotopic map - a spatial representation of the visual field.",
+      "q": "What does retinotopic organization allow?",
       "options": [
-        "True",
-        "False"
+        "Better color vision",
+        "Spatial information processing — where things are in visual space",
+        "Faster blinking",
+        "Larger pupils"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Neighboring points in visual space map to neighboring points in V1, with the fovea massively overrepresented."
+      "explain": "RETINOTOPIC ORGANIZATION allows the brain to process WHERE things are in visual space. The map preserves spatial relationships for accurate localization.",
+      "wrongExplains": {
+        "0": "Color processing is related but not the primary function of retinotopy.",
+        "2": "Blinking is controlled by brainstem reflexes, not visual cortex mapping.",
+        "3": "Pupil size is controlled by the autonomic nervous system."
+      }
     },
     {
-      "q": "The answer is TRUE - the primary visual cortex contains a map of visual space.",
+      "q": "Is the statement TRUE: 'The primary visual cortex contains a map of visual space'?",
       "options": [
-        "True",
-        "False"
+        "False — V1 processes color only",
+        "True — V1 contains a retinotopic map preserving spatial relationships",
+        "False — maps are only in the parietal lobe",
+        "True — but only for the left visual field"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! V1 contains a retinotopic map - spatial relationships preserved from retina through LGN to cortex, with cortical magnification favoring central vision."
+      "explain": "TRUE! V1 contains a RETINOTOPIC MAP — spatial relationships from the visual field are preserved in the cortical organization, with cortical magnification favoring central vision.",
+      "wrongExplains": {
+        "0": "V1 processes multiple features including spatial organization, not just color.",
+        "2": "V1 definitely contains a visual space map (retinotopic organization).",
+        "3": "Both visual fields are mapped (left field to right V1, right field to left V1)."
+      }
     }
   ]
 }

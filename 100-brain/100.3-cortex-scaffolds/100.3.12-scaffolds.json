@@ -3,94 +3,157 @@
   "parentQuestion": "A patient reports being able to 'feel' someone touching their left hand, but cannot localize WHERE on the hand they are being touched or identify the shape of objects placed in that hand. The lesion is in the ___.",
   "scaffolds": [
     {
-      "q": "Touch processing has multiple stages - detection first, then interpretation.",
+      "q": "What is primary somatosensory cortex (S1)?",
       "options": [
-        "True",
-        "False"
+        "The area that plans movement",
+        "The cortical area that detects basic touch sensations",
+        "The area that stores memories",
+        "The area that processes vision"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Primary cortex detects. Association cortex interprets meaning."
+      "explain": "PRIMARY SOMATOSENSORY CORTEX (S1) is in the postcentral gyrus and DETECTS basic touch sensations — pressure, texture, temperature, vibration. Raw sensory data.",
+      "wrongExplains": {
+        "0": "Movement planning is prefrontal/premotor, not S1.",
+        "2": "Memory storage involves hippocampus and cortex, not S1.",
+        "3": "Vision is processed in occipital lobe, not S1."
+      }
     },
     {
-      "q": "Primary somatosensory cortex (S1) detects basic touch sensations.",
+      "q": "What is the somatosensory association cortex?",
       "options": [
-        "True",
-        "False"
+        "The same as S1",
+        "The area that interprets touch — localizing and identifying objects by feel",
+        "The motor cortex",
+        "The visual cortex"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! S1 processes pressure, texture, temperature, vibration - raw sensory data."
+      "explain": "SOMATOSENSORY ASSOCIATION CORTEX interprets what S1 detects — WHERE you're being touched and WHAT you're touching. It builds meaning from raw sensation.",
+      "wrongExplains": {
+        "0": "Association cortex processes differently than primary cortex.",
+        "2": "Motor cortex controls movement, not sensation.",
+        "3": "Visual cortex processes vision, not touch."
+      }
     },
     {
-      "q": "Somatosensory ASSOCIATION cortex interprets touch - localizing and identifying.",
+      "q": "What is astereognosis?",
       "options": [
-        "True",
-        "False"
+        "Blindness",
+        "Inability to identify objects by touch despite intact sensation",
+        "Hearing loss",
+        "Paralysis"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Association cortex builds meaning from raw data - WHERE and WHAT."
+      "explain": "ASTEREOGNOSIS is inability to IDENTIFY OBJECTS BY TOUCH despite INTACT SENSATION. 'A-' = without, 'stereo' = solid, 'gnosis' = knowledge. Can feel but can't recognize shapes.",
+      "wrongExplains": {
+        "0": "Astereognosis affects touch recognition, not vision.",
+        "2": "Astereognosis is tactile, not auditory.",
+        "3": "Movement is intact in astereognosis."
+      }
     },
     {
-      "q": "Astereognosis = inability to identify objects by touch despite intact sensation.",
+      "q": "If S1 is damaged, what happens?",
       "options": [
-        "True",
-        "False"
+        "Only astereognosis",
+        "Loss of basic touch sensation — can't feel touch at all",
+        "Only localization problems",
+        "Only object recognition problems"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! A- (without) + stereo (solid) + gnosis (knowledge). Can't recognize shapes by touch."
+      "explain": "S1 DAMAGE causes LOSS of BASIC TOUCH SENSATION — the patient can't FEEL touch at all on the affected area. Primary detection fails completely.",
+      "wrongExplains": {
+        "0": "Astereognosis is from association damage, not S1.",
+        "2": "S1 damage causes total sensation loss, not just localization.",
+        "3": "S1 damage causes total loss, not selective recognition problems."
+      }
     },
     {
-      "q": "If S1 were damaged, the patient couldn't FEEL touch at all.",
+      "q": "What does it mean to 'localize' touch?",
       "options": [
-        "True",
-        "False"
+        "Feeling pain",
+        "Knowing WHERE on your body you are being touched",
+        "Moving your hand",
+        "Seeing the touch"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! S1 damage = loss of primary sensation. This patient CAN feel touch."
+      "explain": "LOCALIZING touch means knowing WHERE on your body you're being touched — which finger, which part of the hand. This requires association cortex processing.",
+      "wrongExplains": {
+        "0": "Pain detection is different from localization.",
+        "2": "Movement is motor function, not sensory localization.",
+        "3": "Localization is tactile, not visual."
+      }
     },
     {
-      "q": "Can feel touch + can't localize or identify shape = association cortex damage.",
+      "q": "What pattern indicates association cortex damage?",
       "options": [
-        "True",
-        "False"
+        "Can't feel anything",
+        "Can feel touch but can't localize it or identify objects by feel",
+        "Complete blindness",
+        "Complete paralysis"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Primary sensation intact (S1 OK). Interpretation broken (association damaged)."
+      "explain": "ASSOCIATION CORTEX DAMAGE pattern: CAN FEEL touch (S1 intact) but CAN'T LOCALIZE it or IDENTIFY objects by feel. Raw sensation works; interpretation fails.",
+      "wrongExplains": {
+        "0": "Total sensation loss indicates S1 damage, not association.",
+        "2": "Blindness is visual, not somatosensory.",
+        "3": "Paralysis is motor, not sensory."
+      }
     },
     {
-      "q": "The somatosensory association cortex is in the posterior parietal lobe.",
+      "q": "Where is the somatosensory association cortex located?",
       "options": [
-        "True",
-        "False"
+        "Frontal lobe",
+        "Posterior parietal lobe, just behind S1",
+        "Occipital lobe",
+        "Temporal lobe"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Just behind S1, in the parietal cortex. It integrates and interprets touch."
+      "explain": "SOMATOSENSORY ASSOCIATION CORTEX is in the POSTERIOR PARIETAL LOBE, just behind S1. It integrates and interprets the raw touch data from S1.",
+      "wrongExplains": {
+        "0": "The frontal lobe handles motor and executive functions.",
+        "2": "The occipital lobe processes vision.",
+        "3": "The temporal lobe processes hearing and memory."
+      }
     },
     {
-      "q": "Feels touch + can't localize it + can't identify objects by touch = association damage.",
+      "q": "Can feel touch + can't localize or identify = what damage?",
       "options": [
-        "True",
-        "False"
+        "S1 damage",
+        "Somatosensory association cortex damage",
+        "Motor cortex damage",
+        "Visual cortex damage"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Raw sensation arrives. Interpretation fails. That's somatosensory association cortex."
+      "explain": "SOMATOSENSORY ASSOCIATION CORTEX damage. S1 is intact (can feel), but interpretation fails (can't localize or identify). Classic association area deficit.",
+      "wrongExplains": {
+        "0": "S1 damage would cause loss of all touch sensation.",
+        "2": "Motor cortex damage affects movement, not sensation.",
+        "3": "Visual cortex damage affects vision, not touch."
+      }
     },
     {
-      "q": "The answer is SOMATOSENSORY ASSOCIATION CORTEX - for tactile interpretation.",
+      "q": "Which area is damaged if touch is felt but can't be localized or used to identify objects?",
       "options": [
-        "True",
-        "False"
+        "Primary somatosensory cortex (S1)",
+        "Somatosensory association cortex",
+        "Motor cortex",
+        "Auditory cortex"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not S1 (they can feel), not motor cortex (movement, not sensation), not thalamus (relay - would lose all sensation). Association cortex damage = astereognosis - sensation without comprehension."
+      "explain": "SOMATOSENSORY ASSOCIATION CORTEX. The pattern — intact sensation but impaired localization and object identification — indicates association cortex damage causing astereognosis.",
+      "wrongExplains": {
+        "0": "S1 damage causes loss of basic sensation, not interpretation.",
+        "2": "Motor cortex damage affects movement, not sensory interpretation.",
+        "3": "Auditory cortex processes hearing, not touch."
+      }
     }
   ]
 }

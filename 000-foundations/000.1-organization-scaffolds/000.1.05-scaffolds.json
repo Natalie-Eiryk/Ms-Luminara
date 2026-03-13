@@ -3,94 +3,157 @@
   "parentQuestion": "Homeostasis is the condition in which the body maintains ___.",
   "scaffolds": [
     {
-      "q": "The body's internal environment must stay within certain limits for cells to survive.",
+      "q": "Why must the body's internal environment stay within certain limits?",
       "options": [
-        "True",
-        "False"
+        "It doesn't matter",
+        "For cells to survive — conditions outside normal ranges cause cell death",
+        "Only for comfort",
+        "Only for appearance"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Temperature, pH, glucose levels - they all have survival ranges."
+      "explain": "The body's internal environment must stay within certain limits FOR CELLS TO SURVIVE. Temperature, pH, glucose levels — they all have survival ranges.",
+      "wrongExplains": {
+        "0": "Internal conditions are critical for survival.",
+        "2": "This is about survival, not just comfort.",
+        "3": "Internal conditions affect cell function, not appearance."
+      }
     },
     {
-      "q": "The body constantly monitors and adjusts its internal conditions.",
+      "q": "How does the body maintain internal stability?",
       "options": [
-        "True",
-        "False"
+        "It doesn't",
+        "By constantly monitoring and adjusting conditions via feedback loops",
+        "By ignoring changes",
+        "Only during sleep"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Sensors detect changes, control centers process info, effectors respond."
+      "explain": "The body CONSTANTLY MONITORS and ADJUSTS its internal conditions. Sensors detect changes, control centers process info, effectors respond.",
+      "wrongExplains": {
+        "0": "The body actively maintains internal stability.",
+        "2": "The body actively responds to changes, not ignores them.",
+        "3": "Homeostasis operates continuously, not just during sleep."
+      }
     },
     {
-      "q": "HOMEOSTASIS means maintaining a stable internal environment.",
+      "q": "What does 'homeostasis' mean?",
       "options": [
-        "True",
-        "False"
+        "Constant motion",
+        "Maintaining a stable internal environment",
+        "Staying perfectly still",
+        "Only blood pressure"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! 'Homeo' = similar, 'stasis' = standing still. Keeping things stable."
+      "explain": "HOMEOSTASIS means maintaining a STABLE INTERNAL ENVIRONMENT. 'Homeo' = similar, 'stasis' = standing still. Keeping things stable.",
+      "wrongExplains": {
+        "0": "Homeostasis is about stability, not motion.",
+        "2": "Homeostasis is internal balance, not physical stillness.",
+        "3": "Homeostasis includes many variables, not just blood pressure."
+      }
     },
     {
-      "q": "Homeostasis doesn't mean PERFECTLY stable - small fluctuations are normal.",
+      "q": "Does homeostasis mean perfectly stable, with no fluctuations?",
       "options": [
-        "True",
-        "False"
+        "Yes, everything must be perfectly constant",
+        "No — small fluctuations within normal ranges are part of dynamic balance",
+        "Fluctuations mean disease",
+        "Only temperature fluctuates"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Your blood sugar rises after eating, then comes back down. Dynamic balance."
+      "explain": "Homeostasis doesn't mean PERFECTLY stable — small FLUCTUATIONS are normal. Blood sugar rises after eating, then comes back down. DYNAMIC balance.",
+      "wrongExplains": {
+        "0": "Small fluctuations within normal ranges are normal and expected.",
+        "2": "Normal fluctuations within limits are healthy, not disease.",
+        "3": "Many variables fluctuate normally, not just temperature."
+      }
     },
     {
-      "q": "Homeostasis keeps variables WITHIN NORMAL LIMITS, not perfectly fixed.",
+      "q": "What does 'within normal limits' mean for homeostasis?",
       "options": [
-        "True",
-        "False"
+        "Only one exact value is acceptable",
+        "There's an acceptable range, not just one perfect value",
+        "Any value is acceptable",
+        "Limits don't exist"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! There's an acceptable range, not just one perfect value."
+      "explain": "Homeostasis keeps variables WITHIN NORMAL LIMITS — there's an ACCEPTABLE RANGE, not just one perfect value. Dynamic, not static.",
+      "wrongExplains": {
+        "0": "Homeostasis maintains a range, not a single exact value.",
+        "2": "Values outside normal limits cause problems; not any value works.",
+        "3": "Normal limits definitely exist and are critical for survival."
+      }
     },
     {
-      "q": "Examples: body temperature ~37°C, blood pH 7.35-7.45, blood glucose 70-100 mg/dL.",
+      "q": "What are examples of homeostatic ranges?",
       "options": [
-        "True",
-        "False"
+        "No ranges exist",
+        "Body temp ~37°C, blood pH 7.35-7.45, blood glucose 70-100 mg/dL",
+        "Only heart rate has a range",
+        "All values are unlimited"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Each variable has its normal range that homeostasis maintains."
+      "explain": "Examples include: body temperature ~37°C, blood pH 7.35-7.45, blood glucose 70-100 mg/dL. Each variable has its normal range.",
+      "wrongExplains": {
+        "0": "Many homeostatic ranges are well defined.",
+        "2": "Many variables have normal ranges, not just heart rate.",
+        "3": "All physiological variables have limits for normal function."
+      }
     },
     {
-      "q": "Homeostasis requires constant adjustment - it's DYNAMIC, not static.",
+      "q": "Is homeostasis static (unchanging) or dynamic (constantly adjusting)?",
       "options": [
-        "True",
-        "False"
+        "Static — nothing ever changes",
+        "Dynamic — constant adjustment to maintain stability",
+        "Sometimes static, sometimes dynamic",
+        "Neither"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The body is constantly making small corrections to stay stable."
+      "explain": "Homeostasis is DYNAMIC — it requires CONSTANT ADJUSTMENT. The body is always making small corrections to stay within normal limits.",
+      "wrongExplains": {
+        "0": "Homeostasis requires constant adjustments; it's not static.",
+        "2": "Homeostasis is consistently dynamic, not sometimes one or the other.",
+        "3": "Homeostasis is definitely dynamic."
+      }
     },
     {
-      "q": "Homeostasis = RELATIVELY STABLE internal environment, WITHIN LIMITS.",
+      "q": "What is the best description of homeostasis?",
       "options": [
-        "True",
-        "False"
+        "Perfect stability with no changes",
+        "Relatively stable internal environment maintained within limits",
+        "Complete chaos",
+        "Only external stability"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Not perfectly fixed, not unlimited range - stable within normal limits."
+      "explain": "Homeostasis = RELATIVELY STABLE internal environment, WITHIN LIMITS. Not perfectly fixed, not unlimited range — stable within normal limits.",
+      "wrongExplains": {
+        "0": "Homeostasis involves dynamic balance, not perfect stability.",
+        "2": "Homeostasis is controlled stability, not chaos.",
+        "3": "Homeostasis is internal stability, not external."
+      }
     },
     {
-      "q": "The answer is 'a relatively stable internal environment, within limits.'",
+      "q": "Homeostasis is the condition in which the body maintains ___?",
       "options": [
-        "True",
-        "False"
+        "The lowest possible energy",
+        "A relatively stable internal environment, within limits",
+        "An unlimited range of conditions",
+        "Perfect unchanging values"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! Not lowest energy, not unlimited range, not perfectly static."
+      "explain": "Homeostasis maintains A RELATIVELY STABLE INTERNAL ENVIRONMENT, WITHIN LIMITS. Not lowest energy, not unlimited range, not perfectly static.",
+      "wrongExplains": {
+        "0": "Homeostasis is about stability, not just low energy.",
+        "2": "Conditions must be within limits, not unlimited.",
+        "3": "Homeostasis involves dynamic balance with normal fluctuations."
+      }
     }
   ]
 }

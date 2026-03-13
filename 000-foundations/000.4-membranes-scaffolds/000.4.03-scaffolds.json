@@ -3,26 +3,157 @@
   "parentQuestion": "Which membrane lines body cavities that open to the exterior?",
   "scaffolds": [
     {
+      "q": "What is a membrane in anatomy?",
+      "options": [
+        "A bone structure",
+        "A thin layer of tissue that covers surfaces or lines cavities",
+        "A type of muscle",
+        "A blood vessel"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "A MEMBRANE is a THIN LAYER OF TISSUE that COVERS surfaces or LINES CAVITIES. Examples include mucous, serous, and cutaneous membranes.",
+      "wrongExplains": {
+        "0": "Bones are hard structures; membranes are thin tissue layers.",
+        "2": "Muscles contract; membranes cover and line surfaces.",
+        "3": "Blood vessels transport blood; membranes are tissue layers."
+      }
+    },
+    {
+      "q": "What is a mucous membrane?",
+      "options": [
+        "The skin",
+        "A membrane that lines cavities open to the exterior and secretes mucus",
+        "The lining of the heart",
+        "A membrane around bones"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "A MUCOUS MEMBRANE lines cavities OPEN TO THE EXTERIOR and SECRETES MUCUS. Examples: digestive tract, respiratory tract, urogenital tract.",
+      "wrongExplains": {
+        "0": "Skin is the cutaneous membrane; mucous membranes are internal.",
+        "2": "The heart lining is serous membrane (pericardium).",
+        "3": "Bone covering is periosteum; mucous membranes line open cavities."
+      }
+    },
+    {
       "q": "What is the cutaneous membrane?",
       "options": [
         "The lining of the stomach",
-        "The skin",
+        "The skin — the body's external covering",
         "The lining of joints",
-        "The lining of the heart"
+        "The lining of blood vessels"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "The cutaneous membrane is your skin — the largest organ in your body. It's a tough, keratinized, waterproof barrier covering your entire external surface. Without it, you'd dry out like a raisin in minutes. Dramatic? Yes. True? Absolutely."
+      "difficulty": "foundation",
+      "explain": "The CUTANEOUS MEMBRANE is THE SKIN — the body's external, waterproof, keratinized covering.",
+      "wrongExplains": {
+        "0": "The stomach lining is mucous membrane.",
+        "2": "Joint lining is synovial membrane.",
+        "3": "Blood vessel lining is endothelium."
+      }
     },
     {
-      "q": "Does the digestive tract (mouth to anus) have an opening to the exterior?",
+      "q": "What is a serous membrane?",
       "options": [
-        "Yes",
-        "No"
+        "The skin",
+        "A membrane that lines closed body cavities and secretes serous fluid",
+        "The lining of the mouth",
+        "The outer covering of bones"
       ],
-      "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Yes! The digestive tract is technically a continuous tube THROUGH your body, opening to the exterior at both the mouth and anus. Topologically speaking, you're a very complicated donut. This means anything inside your digestive tract is technically still 'outside' your body — it hasn't crossed the membrane barrier into your internal tissues yet."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "A SEROUS MEMBRANE lines CLOSED BODY CAVITIES and secretes watery SEROUS FLUID for lubrication. Examples: pleura, pericardium, peritoneum.",
+      "wrongExplains": {
+        "0": "Skin is cutaneous membrane; serous membranes are internal.",
+        "2": "The mouth has mucous membrane (opens to exterior).",
+        "3": "Bone covering is periosteum; serous membranes line closed cavities."
+      }
+    },
+    {
+      "q": "Does the digestive tract open to the exterior?",
+      "options": [
+        "No, it's completely internal",
+        "Yes, it opens at the mouth and anus",
+        "Only at one end",
+        "It has no openings"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Yes! The digestive tract OPENS TO THE EXTERIOR at both the MOUTH AND ANUS. It's technically a tube through the body.",
+      "wrongExplains": {
+        "0": "The digestive tract is a tube through the body with two openings.",
+        "2": "It has two openings — mouth and anus.",
+        "3": "It definitely has openings at both ends."
+      }
+    },
+    {
+      "q": "What type of membrane lines the respiratory tract?",
+      "options": [
+        "Cutaneous membrane",
+        "Mucous membrane",
+        "Serous membrane",
+        "Synovial membrane"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "MUCOUS MEMBRANE lines the respiratory tract because it OPENS TO THE EXTERIOR (through nose/mouth). It secretes mucus to trap particles.",
+      "wrongExplains": {
+        "0": "Cutaneous membrane is skin; respiratory tract is internal.",
+        "2": "Serous membranes line closed cavities; respiratory tract opens to exterior.",
+        "3": "Synovial membranes line joints."
+      }
+    },
+    {
+      "q": "What does mucus do in mucous membranes?",
+      "options": [
+        "Hardens the surface",
+        "Traps particles, lubricates, and protects the surface",
+        "Produces hormones",
+        "Absorbs nutrients"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Mucus TRAPS PARTICLES (dust, bacteria), LUBRICATES surfaces, and PROTECTS underlying tissue from damage.",
+      "wrongExplains": {
+        "0": "Keratin hardens skin; mucus is slippery and protective.",
+        "2": "Glands produce hormones; mucus is protective secretion.",
+        "3": "Intestinal cells absorb nutrients; mucus is protective."
+      }
+    },
+    {
+      "q": "Which cavities are lined by serous membranes?",
+      "options": [
+        "Mouth and nose",
+        "Closed cavities like pleural, pericardial, and peritoneal",
+        "Only the skin surface",
+        "Joints only"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "CLOSED CAVITIES are lined by serous membranes: PLEURAL (lungs), PERICARDIAL (heart), and PERITONEAL (abdominal organs).",
+      "wrongExplains": {
+        "0": "Mouth and nose open to exterior — lined by mucous membrane.",
+        "2": "Skin surface is cutaneous membrane.",
+        "3": "Joints are lined by synovial membrane."
+      }
+    },
+    {
+      "q": "Which membrane lines body cavities that open to the exterior?",
+      "options": [
+        "Serous membrane",
+        "Mucous membrane",
+        "Cutaneous membrane",
+        "Synovial membrane"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "MUCOUS MEMBRANE lines cavities that OPEN TO THE EXTERIOR (digestive, respiratory, urogenital tracts). It secretes protective mucus.",
+      "wrongExplains": {
+        "0": "Serous membranes line closed cavities, not ones open to exterior.",
+        "2": "Cutaneous membrane is skin — the external surface.",
+        "3": "Synovial membranes line joints, not body cavities."
+      }
     }
   ]
 }

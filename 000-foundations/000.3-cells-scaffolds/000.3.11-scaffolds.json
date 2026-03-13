@@ -1,30 +1,159 @@
 {
   "parentId": "000.3.11",
-  "parentQuestion": "A newly developed antibiotic specifically targets bacterial ribosomes without af...",
+  "parentQuestion": "A newly developed antibiotic specifically targets bacterial ribosomes without affecting human ribosomes. Why is this selectivity possible?",
   "scaffolds": [
     {
-      "q": "Ribosomes are responsible for making ___ using mRNA as a template.",
+      "q": "What is a ribosome?",
       "options": [
-        "Lipids",
-        "Carbohydrates",
-        "Proteins",
-        "DNA"
-      ],
-      "answer": 2,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Ribosomes synthesize proteins by reading mRNA and linking amino acids in the correct sequence. They're molecular 3D printers, darling. Keep pace with this:."
-    },
-    {
-      "q": "Bacteria are ___ cells, meaning they lack a membrane-bound nucleus.",
-      "options": [
-        "Eukaryotic",
-        "Prokaryotic",
-        "Viral",
-        "Fungal"
+        "An energy-producing organelle",
+        "The cellular structure that makes proteins",
+        "The control center of the cell",
+        "A membrane transport protein"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Prokaryotic cells (bacteria) lack a membrane-bound nucleus — their DNA floats freely in the cytoplasm. Eukaryotic cells (like yours) have a nucleus. Pro = before, karyon = nucleus. Simple as that."
+      "difficulty": "foundation",
+      "explain": "A RIBOSOME is the cellular structure that MAKES PROTEINS by reading mRNA and assembling amino acids.",
+      "wrongExplains": {
+        "0": "Mitochondria produce energy; ribosomes make proteins.",
+        "2": "The nucleus is the control center; ribosomes make proteins.",
+        "3": "Transport proteins move substances; ribosomes synthesize proteins."
+      }
+    },
+    {
+      "q": "What is the difference between prokaryotic and eukaryotic cells?",
+      "options": [
+        "They are identical",
+        "Prokaryotes lack a membrane-bound nucleus; eukaryotes have one",
+        "Eukaryotes are smaller",
+        "Prokaryotes have more organelles"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "PROKARYOTES lack a membrane-bound NUCLEUS; EUKARYOTES have one. Bacteria are prokaryotes; human cells are eukaryotes.",
+      "wrongExplains": {
+        "0": "They have fundamental structural differences.",
+        "2": "Prokaryotes are typically smaller than eukaryotes.",
+        "3": "Eukaryotes have more membrane-bound organelles."
+      }
+    },
+    {
+      "q": "Are bacterial ribosomes identical to human ribosomes?",
+      "options": [
+        "Yes, completely identical",
+        "No, they differ in size and structure",
+        "Bacteria don't have ribosomes",
+        "Only in shape, not function"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Bacterial ribosomes DIFFER IN SIZE AND STRUCTURE from human ribosomes. Bacterial = 70S; human = 80S (different subunit composition).",
+      "wrongExplains": {
+        "0": "They differ significantly in size and structure.",
+        "2": "All cells have ribosomes, including bacteria.",
+        "3": "They differ in both structure and some functional details."
+      }
+    },
+    {
+      "q": "What is the size of bacterial ribosomes?",
+      "options": [
+        "80S",
+        "70S",
+        "100S",
+        "50S"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Bacterial ribosomes are 70S (made of 30S and 50S subunits). Human ribosomes are 80S. 'S' stands for Svedberg units.",
+      "wrongExplains": {
+        "0": "80S is human ribosomes; bacterial are 70S.",
+        "2": "100S doesn't exist; bacterial ribosomes are 70S.",
+        "3": "50S is a subunit of the 70S ribosome, not the whole thing."
+      }
+    },
+    {
+      "q": "What is the size of human ribosomes?",
+      "options": [
+        "70S",
+        "80S",
+        "60S",
+        "40S"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Human (eukaryotic) ribosomes are 80S (made of 40S and 60S subunits). Bacterial ribosomes are smaller at 70S.",
+      "wrongExplains": {
+        "0": "70S is bacterial ribosomes; human are 80S.",
+        "2": "60S is a subunit of 80S, not the whole ribosome.",
+        "3": "40S is a subunit of 80S, not the whole ribosome."
+      }
+    },
+    {
+      "q": "Why do antibiotics target bacterial ribosomes?",
+      "options": [
+        "Bacteria don't need ribosomes",
+        "To stop bacteria from making proteins, killing them",
+        "To help bacteria grow",
+        "Ribosomes aren't important"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Antibiotics target bacterial ribosomes to STOP BACTERIA FROM MAKING PROTEINS, which kills them or stops their growth.",
+      "wrongExplains": {
+        "0": "All living cells need ribosomes to make proteins.",
+        "2": "Antibiotics kill bacteria; they don't help them.",
+        "3": "Ribosomes are essential for life — protein synthesis is critical."
+      }
+    },
+    {
+      "q": "Why don't ribosome-targeting antibiotics harm human cells?",
+      "options": [
+        "Human cells don't need proteins",
+        "Human ribosomes have different structure, so the antibiotic doesn't bind",
+        "Antibiotics only work in hospitals",
+        "Human cells don't have ribosomes"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Human ribosomes have DIFFERENT STRUCTURE (80S vs 70S), so antibiotics designed for 70S ribosomes DON'T BIND to human 80S ribosomes.",
+      "wrongExplains": {
+        "0": "Human cells definitely need proteins.",
+        "2": "Antibiotics work wherever bacteria are, not just hospitals.",
+        "3": "Human cells have ribosomes; they're just different from bacterial ones."
+      }
+    },
+    {
+      "q": "What does selective toxicity mean in antibiotic design?",
+      "options": [
+        "The antibiotic kills everything",
+        "The antibiotic targets bacterial structures while sparing human cells",
+        "The antibiotic works randomly",
+        "The antibiotic only works sometimes"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "SELECTIVE TOXICITY means the antibiotic TARGETS BACTERIAL STRUCTURES while SPARING HUMAN CELLS. Ribosomal differences enable this.",
+      "wrongExplains": {
+        "0": "Selective means targeting specific cells, not all cells.",
+        "2": "Selective antibiotics target specific structures, not randomly.",
+        "3": "Selectivity refers to target specificity, not effectiveness."
+      }
+    },
+    {
+      "q": "Why is selectivity possible when targeting bacterial vs human ribosomes?",
+      "options": [
+        "They are in different locations",
+        "Bacterial and human ribosomes differ structurally (70S vs 80S)",
+        "Bacteria don't have ribosomes",
+        "Human cells are protected by skin"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Selectivity is possible because bacterial (70S) and human (80S) ribosomes DIFFER STRUCTURALLY. Drugs can bind one but not the other.",
+      "wrongExplains": {
+        "0": "Location doesn't determine selectivity; structure does.",
+        "2": "Bacteria definitely have ribosomes (70S type).",
+        "3": "Skin doesn't explain why antibiotics don't affect internal human cells."
+      }
     }
   ]
 }

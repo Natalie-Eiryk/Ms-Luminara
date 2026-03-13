@@ -3,28 +3,157 @@
   "parentQuestion": "Osmosis is the movement of ___ across a semipermeable membrane.",
   "scaffolds": [
     {
-      "q": "In a saltwater solution, salt is the ___ and water is the ___.",
+      "q": "What is osmosis?",
       "options": [
-        "Solvent; solute",
-        "Solute; solvent",
-        "Solution; mixture",
-        "Mixture; solution"
+        "Movement of any molecule",
+        "Movement of water across a semipermeable membrane",
+        "Active transport of ions",
+        "Movement of proteins"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "The solute is the substance being dissolved (salt), and the solvent is the substance doing the dissolving (water). Together they form a solution. Solute gets dissolved, solvent does the dissolving. Maintain this focus:."
+      "difficulty": "foundation",
+      "explain": "OSMOSIS is the movement of WATER across a SEMIPERMEABLE MEMBRANE from low solute to high solute concentration.",
+      "wrongExplains": {
+        "0": "Osmosis specifically refers to water movement.",
+        "2": "Active transport uses ATP; osmosis is passive water movement.",
+        "3": "Proteins are too large; osmosis moves water."
+      }
     },
     {
-      "q": "A semipermeable membrane allows ___ to pass through while blocking ___.",
+      "q": "What is a solute?",
       "options": [
-        "Nothing; everything",
-        "Some substances; others",
-        "Everything; nothing",
-        "Solutes; water"
+        "The substance doing the dissolving",
+        "The substance being dissolved",
+        "Pure water",
+        "A type of membrane"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Semipermeable membranes are selective — they let some substances through while blocking others. Cell membranes are semipermeable, allowing water and some small molecules through while blocking larger molecules. It's a bouncer with a very specific guest list, darling."
+      "difficulty": "foundation",
+      "explain": "A SOLUTE is the substance BEING DISSOLVED (like salt in water). The solute dissolves in the solvent.",
+      "wrongExplains": {
+        "0": "The solvent dissolves; the solute is dissolved.",
+        "2": "Pure water is a solvent; solutes dissolve in it.",
+        "3": "Membranes are structures; solutes are dissolved substances."
+      }
+    },
+    {
+      "q": "What is a solvent?",
+      "options": [
+        "The substance being dissolved",
+        "The substance doing the dissolving (like water)",
+        "A dissolved salt",
+        "A protein"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "A SOLVENT is the substance DOING THE DISSOLVING. Water is the most common solvent in biology — the 'universal solvent.'",
+      "wrongExplains": {
+        "0": "The solute is dissolved; the solvent does the dissolving.",
+        "2": "Salt is a solute; water is the solvent.",
+        "3": "Proteins are solutes; water is typically the solvent."
+      }
+    },
+    {
+      "q": "What is a semipermeable membrane?",
+      "options": [
+        "A membrane that blocks everything",
+        "A membrane that allows some substances through but not others",
+        "A membrane that lets everything through",
+        "A solid wall"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "A SEMIPERMEABLE MEMBRANE allows SOME SUBSTANCES through but NOT OTHERS. Cell membranes are semipermeable.",
+      "wrongExplains": {
+        "0": "Blocking everything would be impermeable.",
+        "2": "Letting everything through would be fully permeable.",
+        "3": "Membranes are selective barriers, not solid walls."
+      }
+    },
+    {
+      "q": "In which direction does water move during osmosis?",
+      "options": [
+        "From high solute to low solute",
+        "From low solute (high water) to high solute (low water)",
+        "In random directions",
+        "Only out of cells"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Water moves from LOW SOLUTE (high water) to HIGH SOLUTE (low water). Water follows the gradient to dilute the solute.",
+      "wrongExplains": {
+        "0": "Water moves toward high solute, not away from it.",
+        "2": "Osmosis has a specific direction — toward higher solute.",
+        "3": "Water can move into or out of cells depending on conditions."
+      }
+    },
+    {
+      "q": "What is a hypertonic solution?",
+      "options": [
+        "Lower solute than the cell",
+        "Higher solute concentration than the cell",
+        "Equal concentration to the cell",
+        "Pure water"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "A HYPERTONIC solution has HIGHER SOLUTE concentration than the cell. Water leaves cells in hypertonic solutions.",
+      "wrongExplains": {
+        "0": "Lower solute is hypotonic; hypertonic has more solute.",
+        "2": "Equal concentration is isotonic; hypertonic has more.",
+        "3": "Pure water is hypotonic; hypertonic has high solute."
+      }
+    },
+    {
+      "q": "What is a hypotonic solution?",
+      "options": [
+        "Higher solute than the cell",
+        "Lower solute concentration than the cell",
+        "Equal concentration to the cell",
+        "Concentrated salt solution"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "A HYPOTONIC solution has LOWER SOLUTE concentration than the cell. Water enters cells in hypotonic solutions.",
+      "wrongExplains": {
+        "0": "Higher solute is hypertonic; hypotonic has less.",
+        "2": "Equal concentration is isotonic; hypotonic has less.",
+        "3": "Concentrated salt is hypertonic; hypotonic has low solute."
+      }
+    },
+    {
+      "q": "What happens to a cell in a hypotonic solution?",
+      "options": [
+        "It shrinks (crenates)",
+        "It swells and may burst (lyse)",
+        "Nothing changes",
+        "It divides"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "In a HYPOTONIC solution, water enters the cell causing it to SWELL and possibly BURST (lyse). The cell has higher solute.",
+      "wrongExplains": {
+        "0": "Shrinking (crenation) occurs in hypertonic solutions.",
+        "2": "Osmosis causes water movement and cell volume changes.",
+        "3": "Division is mitosis; hypotonic solutions cause swelling."
+      }
+    },
+    {
+      "q": "Osmosis is the movement of ___ across a semipermeable membrane?",
+      "options": [
+        "Solutes",
+        "Water",
+        "Proteins",
+        "Ions"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Osmosis is the movement of WATER across a semipermeable membrane from low solute to high solute concentration.",
+      "wrongExplains": {
+        "0": "Solute movement is diffusion; osmosis specifically moves water.",
+        "2": "Proteins are too large; osmosis moves water.",
+        "3": "Ion movement requires channels or pumps; osmosis moves water."
+      }
     }
   ]
 }

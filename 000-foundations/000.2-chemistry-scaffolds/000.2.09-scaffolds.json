@@ -3,27 +3,157 @@
   "parentQuestion": "Enzymes are proteins that work as catalysts. A catalyst is defined as ___.",
   "scaffolds": [
     {
+      "q": "What is an enzyme?",
+      "options": [
+        "A type of carbohydrate",
+        "A protein that speeds up chemical reactions",
+        "A type of fat",
+        "A type of vitamin"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "An ENZYME is a PROTEIN that SPEEDS UP chemical reactions. Enzymes are biological catalysts essential for metabolism.",
+      "wrongExplains": {
+        "0": "Carbohydrates provide energy; enzymes are proteins.",
+        "2": "Fats store energy; enzymes are proteins.",
+        "3": "Vitamins are micronutrients; enzymes are proteins."
+      }
+    },
+    {
       "q": "What are enzymes primarily made of?",
       "options": [
         "Carbohydrates",
-        "Lipids",
         "Proteins",
+        "Lipids",
         "Nucleic acids"
       ],
-      "answer": 2,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Enzymes are PROTEINS — large molecules made of amino acids folded into PRECISE 3D shapes. that shape — the active site — allows them to bind specific substrate molecules and speed up chemical reactions. Change the shape (through heat, pH, or denaturing agents) and the enzyme STOPS WORKING. Make room for this understanding:this principle: structure determines function. Always."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Enzymes are primarily made of PROTEINS — large molecules of amino acids folded into precise 3D shapes.",
+      "wrongExplains": {
+        "0": "Enzymes are proteins, not carbohydrates.",
+        "2": "Enzymes are proteins, not lipids.",
+        "3": "Most enzymes are proteins (some RNA molecules can act as enzymes)."
+      }
     },
     {
-      "q": "What does a catalyst do to a chemical reaction?",
+      "q": "What is a catalyst?",
       "options": [
-        "Stops the reaction",
-        "Speeds up the reaction",
-        "Reverses the reaction"
+        "A substance that stops reactions",
+        "A substance that speeds up reactions without being consumed",
+        "A substance that slows reactions",
+        "A substance that reverses reactions"
       ],
       "answer": 1,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "A catalyst SPEEDS UP a chemical reaction by lowering the energy barrier (activation energy) needed for the reaction to occur. critically, the catalyst itself is NOT consumed or permanently changed. It can be used over and over again. Welcome this realization:this: without catalysts, most biochemical reactions would be impossibly slow. Life REQUIRES catalysis."
+      "difficulty": "foundation",
+      "explain": "A CATALYST SPEEDS UP reactions WITHOUT BEING CONSUMED. It lowers the activation energy needed for reactions to occur.",
+      "wrongExplains": {
+        "0": "Catalysts speed up reactions, not stop them.",
+        "2": "Catalysts speed up reactions, not slow them.",
+        "3": "Catalysts speed up reactions; direction depends on thermodynamics."
+      }
+    },
+    {
+      "q": "What happens to a catalyst during a reaction?",
+      "options": [
+        "It is used up completely",
+        "It is not consumed or permanently changed",
+        "It becomes a different substance",
+        "It disappears"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "A catalyst is NOT CONSUMED or permanently changed. It can be used over and over again to catalyze multiple reactions.",
+      "wrongExplains": {
+        "0": "Catalysts are reusable; they're not consumed.",
+        "2": "Catalysts return to their original form after the reaction.",
+        "3": "Catalysts remain present and functional."
+      }
+    },
+    {
+      "q": "What is activation energy?",
+      "options": [
+        "Energy released by a reaction",
+        "The energy barrier that must be overcome to start a reaction",
+        "Energy stored in bonds",
+        "Energy lost as heat"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "ACTIVATION ENERGY is the ENERGY BARRIER that must be overcome to start a reaction. Enzymes lower this barrier.",
+      "wrongExplains": {
+        "0": "Energy released is the energy change; activation energy is the starting barrier.",
+        "2": "Bond energy is stored; activation energy is the starting barrier.",
+        "3": "Heat loss is entropy; activation energy is the starting barrier."
+      }
+    },
+    {
+      "q": "How do enzymes speed up reactions?",
+      "options": [
+        "By adding more energy",
+        "By lowering the activation energy needed",
+        "By heating the solution",
+        "By removing products"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Enzymes speed up reactions by LOWERING THE ACTIVATION ENERGY needed. This allows reactions to occur more easily.",
+      "wrongExplains": {
+        "0": "Enzymes don't add energy; they lower the barrier.",
+        "2": "Enzymes work at body temperature; they don't heat solutions.",
+        "3": "Enzymes catalyze reactions; product removal is a different mechanism."
+      }
+    },
+    {
+      "q": "What happens if an enzyme's shape is changed?",
+      "options": [
+        "Nothing — shape doesn't matter",
+        "The enzyme stops working (loses function)",
+        "The enzyme works faster",
+        "The enzyme becomes a carbohydrate"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "If an enzyme's shape is changed (denatured), it STOPS WORKING. Structure determines function — change shape, lose function.",
+      "wrongExplains": {
+        "0": "Shape is critical; enzymes need proper 3D structure.",
+        "2": "Denatured enzymes lose function, not gain it.",
+        "3": "Denatured enzymes are still proteins, not carbohydrates."
+      }
+    },
+    {
+      "q": "Why are enzymes essential for life?",
+      "options": [
+        "They provide energy directly",
+        "Without them, most biochemical reactions would be impossibly slow",
+        "They replace vitamins",
+        "They store genetic information"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "Without enzymes, most biochemical reactions would be IMPOSSIBLY SLOW. Life REQUIRES catalysis to function at biological speed.",
+      "wrongExplains": {
+        "0": "Enzymes catalyze reactions; they don't provide energy directly.",
+        "2": "Enzymes and vitamins have different roles (vitamins are often coenzymes).",
+        "3": "DNA stores genetic information; enzymes catalyze reactions."
+      }
+    },
+    {
+      "q": "Enzymes are proteins that work as catalysts. A catalyst is defined as ___?",
+      "options": [
+        "A substance that stops reactions",
+        "A substance that speeds up reactions without being consumed",
+        "A substance that provides energy",
+        "A substance that stores information"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "A CATALYST is a substance that SPEEDS UP REACTIONS WITHOUT BEING CONSUMED. Enzymes are biological catalysts made of protein.",
+      "wrongExplains": {
+        "0": "Catalysts accelerate reactions, not stop them.",
+        "2": "Catalysts lower energy barriers; they don't provide energy.",
+        "3": "DNA stores information; catalysts speed up reactions."
+      }
     }
   ]
 }

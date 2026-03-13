@@ -3,94 +3,157 @@
   "parentQuestion": "Nondeclarative memories preserve the circumstances in which they are learned.",
   "scaffolds": [
     {
-      "q": "The brain has multiple memory systems that work differently.",
+      "q": "What is declarative memory?",
       "options": [
-        "True",
-        "False"
+        "Memory for motor skills like riding a bike",
+        "Memory for facts and events you can consciously recall",
+        "Reflexive memories",
+        "Unconscious habits"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Memory isn't one thing - declarative memory (facts and events) and nondeclarative memory (skills and habits) use different brain structures."
+      "explain": "DECLARATIVE memory stores FACTS and EVENTS you can consciously recall and 'declare' — like your birthday, historical dates, and personal experiences.",
+      "wrongExplains": {
+        "0": "Motor skills are procedural/nondeclarative memory, not declarative.",
+        "2": "Reflexes are automatic, not consciously recalled.",
+        "3": "Unconscious habits are nondeclarative, not declarative."
+      }
     },
     {
-      "q": "Declarative memory stores facts and events you can consciously recall.",
+      "q": "What is nondeclarative (procedural) memory?",
       "options": [
-        "True",
-        "False"
+        "Memory for historical facts",
+        "Memory for skills and habits — 'how to' knowledge",
+        "Memory for personal events",
+        "Memory for faces"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Declarative = 'you can declare it' - facts (semantic memory) and personal experiences (episodic memory) that you can talk about."
+      "explain": "NONDECLARATIVE (procedural) memory stores SKILLS and HABITS — riding a bike, typing, tying shoes. Your body knows HOW without conscious recall.",
+      "wrongExplains": {
+        "0": "Historical facts are declarative (semantic) memory.",
+        "2": "Personal events are declarative (episodic) memory.",
+        "3": "Face recognition is declarative recognition memory."
+      }
     },
     {
-      "q": "Nondeclarative memory stores skills and habits - 'how to' knowledge.",
+      "q": "Which memory type preserves context (when, where, how you felt)?",
       "options": [
-        "True",
-        "False"
+        "Procedural memory",
+        "Episodic (declarative) memory",
+        "Motor memory",
+        "Implicit memory"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Nondeclarative = procedural memory. Riding a bike, typing, tying shoes - skills your body knows without conscious recall."
+      "explain": "EPISODIC memory (a type of declarative) preserves the full CONTEXT — time, place, emotions. Your wedding day, graduation, that embarrassing moment.",
+      "wrongExplains": {
+        "0": "Procedural memory stores skills without context.",
+        "2": "Motor memory is procedural, context-free.",
+        "3": "Implicit memory is another term for nondeclarative, which lacks context."
+      }
     },
     {
-      "q": "Episodic memories include contextual details - when, where, how you felt.",
+      "q": "Do procedural memories preserve how you learned the skill?",
       "options": [
-        "True",
-        "False"
+        "Yes, you always remember learning it",
+        "No, the skill remains but learning context is lost",
+        "Only if you practice daily",
+        "Only for childhood skills"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Your wedding day, graduation, that embarrassing moment - episodic memories preserve the full scene with time, place, and emotion."
+      "explain": "PROCEDURAL memories are CONTEXT-FREE. You know HOW to ride a bike, but you probably can't recall the exact afternoon you learned. Skill preserved; story lost.",
+      "wrongExplains": {
+        "0": "Most people cannot recall specific procedural learning sessions.",
+        "2": "Practice frequency doesn't affect context preservation.",
+        "3": "This applies to all procedural memories, not just childhood ones."
+      }
     },
     {
-      "q": "Procedural memories (like how to ride a bike) do NOT preserve the circumstances of learning.",
+      "q": "Which brain structures handle procedural memory?",
       "options": [
-        "True",
-        "False"
+        "Hippocampus only",
+        "Cerebellum and basal nuclei",
+        "Frontal lobe only",
+        "Occipital lobe"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! You know HOW to ride a bike, but you probably can't recall the exact afternoon you learned. The skill remains; the context is lost."
+      "explain": "PROCEDURAL memory uses the CEREBELLUM and BASAL NUCLEI — motor learning structures. That's why patient H.M. could learn motor skills despite losing his hippocampus.",
+      "wrongExplains": {
+        "0": "The hippocampus handles declarative, not procedural memory.",
+        "2": "The frontal lobe is involved but works with cerebellum and basal nuclei.",
+        "3": "The occipital lobe processes vision, not procedural memory."
+      }
     },
     {
-      "q": "Patient H.M. could learn new motor skills but couldn't remember the learning sessions.",
+      "q": "What did patient H.M. demonstrate about memory systems?",
       "options": [
-        "True",
-        "False"
+        "All memory uses the same brain region",
+        "Declarative and procedural memory use different brain structures",
+        "Memory doesn't require brain structures",
+        "The hippocampus controls all memory"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! H.M. lost his hippocampus (declarative memory) but kept his procedural memory intact. He improved at tasks without any memory of practice."
+      "explain": "H.M. lost his HIPPOCAMPUS and couldn't form new declarative memories, but he could still learn motor skills. This proved DECLARATIVE and PROCEDURAL memory are separate systems.",
+      "wrongExplains": {
+        "0": "H.M. proved different memory types use different structures.",
+        "2": "H.M.'s case showed specific structures are essential for specific memory types.",
+        "3": "H.M. could form procedural memories without his hippocampus."
+      }
     },
     {
-      "q": "Nondeclarative memories are stripped of context - you know the skill but not how you learned it.",
+      "q": "Which memory type is 'stripped of context'?",
       "options": [
-        "True",
-        "False"
+        "Episodic memory",
+        "Nondeclarative (procedural) memory",
+        "Semantic memory",
+        "Working memory"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! The cerebellum and basal nuclei store the skill pattern without the story of how you acquired it."
+      "explain": "NONDECLARATIVE memory is CONTEXT-FREE. The cerebellum and basal nuclei store the skill pattern without the story of how you acquired it.",
+      "wrongExplains": {
+        "0": "Episodic memory specifically preserves context.",
+        "2": "Semantic memory can often be associated with learning context.",
+        "3": "Working memory is temporary, not about context preservation."
+      }
     },
     {
-      "q": "The statement says nondeclarative memories preserve circumstances - but that's FALSE.",
+      "q": "Is the statement 'Nondeclarative memories preserve the circumstances in which they are learned' TRUE or FALSE?",
       "options": [
-        "True",
-        "False"
+        "True — nondeclarative memories include full context",
+        "False — nondeclarative memories are context-free",
+        "True — all memories preserve context",
+        "It depends on the specific skill"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Nondeclarative memories are context-free. DECLARATIVE memories preserve circumstances, not nondeclarative ones."
+      "explain": "FALSE! The statement has it backwards. NONDECLARATIVE memories are CONTEXT-FREE. DECLARATIVE (episodic) memories preserve circumstances, not nondeclarative ones.",
+      "wrongExplains": {
+        "0": "Nondeclarative memories lack context — that's their defining feature.",
+        "2": "Different memory types handle context differently.",
+        "3": "This is a categorical distinction, not skill-dependent."
+      }
     },
     {
-      "q": "The answer is FALSE - nondeclarative memories do NOT preserve learning circumstances.",
+      "q": "The statement confuses which two memory types?",
       "options": [
-        "True",
-        "False"
+        "Short-term and long-term memory",
+        "Declarative (context-rich) and nondeclarative (context-free)",
+        "Visual and auditory memory",
+        "Conscious and unconscious memory"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! The statement confuses declarative and nondeclarative. Declarative (episodic) memories preserve context. Nondeclarative (procedural) memories store skills without context."
+      "explain": "The statement incorrectly attributes DECLARATIVE memory's feature (context preservation) to NONDECLARATIVE memory. DECLARATIVE = context-rich, NONDECLARATIVE = context-free.",
+      "wrongExplains": {
+        "0": "The distinction is about memory type, not duration.",
+        "2": "Visual/auditory refers to sensory modality, not context preservation.",
+        "3": "While related, the specific issue is declarative vs. nondeclarative."
+      }
     }
   ]
 }

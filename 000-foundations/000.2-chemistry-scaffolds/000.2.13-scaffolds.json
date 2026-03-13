@@ -1,28 +1,159 @@
 {
   "parentId": "000.2.13",
-  "parentQuestion": "A patient taking high-dose antacids (calcium carbonate) for weeks develops muscl...",
+  "parentQuestion": "A patient taking high-dose antacids (calcium carbonate) for weeks develops muscle cramps and tetany. Labs show elevated blood pH. This condition is caused by ___.",
   "scaffolds": [
     {
-      "q": "What is the role of calcium ions (Ca²⁺) in muscle function?",
+      "q": "What is alkalosis?",
       "options": [
-        "Required for muscle contraction",
-        "Causes muscle relaxation by blocking sodium channels",
-        "Has no direct role in muscle function"
+        "Blood pH below normal (<7.35)",
+        "Blood pH above normal (>7.45)",
+        "Normal blood pH",
+        "Neutral pH"
       ],
-      "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Calcium is ESSENTIAL for muscle contraction. when a motor neuron fires, Ca²⁺ FLOODS into the muscle cell, binding to troponin and causing a conformational change that exposes myosin-binding sites on actin. Contraction begins. Maintain this focus:: LOW calcium paradoxically causes HYPEREXCITABILITY and muscle CRAMPS (because Ca²⁺ also stabilizes nerve membranes). Open your mind to this:this — calcium is a gatekeeper, a stabilizer, and a trigger. Chemistry becomes movement."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "ALKALOSIS means blood pH ABOVE NORMAL (>7.45) — too alkaline, too few H⁺ ions.",
+      "wrongExplains": {
+        "0": "pH below normal is acidosis, not alkalosis.",
+        "2": "Normal pH (7.35-7.45) is neither acidosis nor alkalosis.",
+        "3": "Neutral is pH 7; blood is normally slightly alkaline."
+      }
     },
     {
-      "q": "What does alkalosis mean?",
+      "q": "What do antacids do?",
       "options": [
-        "Blood pH above normal (> 7.45)",
-        "Blood pH below normal (< 7.35)",
-        "Normal blood pH"
+        "Increase stomach acid",
+        "Neutralize stomach acid",
+        "Increase blood pressure",
+        "Increase heart rate"
       ],
-      "answer": 0,
-      "chapter": "Chapters 1-4 — Foundations",
-      "explain": "Alkalosis means blood pH ABOVE normal (> 7.45) — too alkaline, too few H⁺ ions. Pursue this logic:: antacids neutralize stomach acid (HCl), and excessive use can cause metabolic alkalosis. While this sounds 'good' (less acidic!), it's DANGEROUS — enzymes denature, electrolyte binding changes (especially calcium and magnesium), and oxygen delivery to tissues is impaired (leftward shift of the oxygen-hemoglobin dissociation curve). Grant yourself this moment of clarity:this: balance is everything. Too acid OR too alkaline will kill you."
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Antacids NEUTRALIZE STOMACH ACID. They contain bases like calcium carbonate that react with HCl.",
+      "wrongExplains": {
+        "0": "Antacids neutralize acid, not increase it.",
+        "2": "Antacids affect stomach pH, not blood pressure directly.",
+        "3": "Antacids affect stomach pH, not heart rate directly."
+      }
+    },
+    {
+      "q": "What happens when you take excessive antacids?",
+      "options": [
+        "Blood becomes more acidic",
+        "Blood becomes more alkaline (metabolic alkalosis)",
+        "Blood pH stays normal",
+        "Stomach acid increases"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Excessive antacids cause blood to become MORE ALKALINE (metabolic alkalosis). The bases are absorbed into the bloodstream.",
+      "wrongExplains": {
+        "0": "Antacids neutralize acid, causing alkalosis, not acidosis.",
+        "2": "Excessive antacids definitely change blood pH.",
+        "3": "Antacids decrease stomach acid, not increase it."
+      }
+    },
+    {
+      "q": "What is the role of calcium in muscle contraction?",
+      "options": [
+        "Calcium is not involved in muscle function",
+        "Calcium is required for muscle contraction",
+        "Calcium only relaxes muscles",
+        "Calcium only affects bones"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "CALCIUM is REQUIRED for muscle contraction. Ca²⁺ binds to troponin, allowing actin-myosin interaction.",
+      "wrongExplains": {
+        "0": "Calcium is essential for muscle contraction.",
+        "2": "Calcium triggers contraction; its removal allows relaxation.",
+        "3": "Calcium affects both bones and muscle function."
+      }
+    },
+    {
+      "q": "How does alkalosis affect ionized calcium?",
+      "options": [
+        "It increases ionized calcium",
+        "It decreases ionized calcium (more binds to albumin)",
+        "It has no effect on calcium",
+        "It converts calcium to potassium"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Alkalosis DECREASES ionized calcium. In alkaline blood, more calcium binds to albumin, leaving less free (ionized) calcium.",
+      "wrongExplains": {
+        "0": "Alkalosis decreases ionized calcium, not increases it.",
+        "2": "Alkalosis definitely affects calcium binding.",
+        "3": "Calcium and potassium are different elements; they don't convert."
+      }
+    },
+    {
+      "q": "What is tetany?",
+      "options": [
+        "Muscle relaxation",
+        "Sustained muscle spasms from low ionized calcium",
+        "Normal muscle function",
+        "Increased muscle strength"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "TETANY is SUSTAINED MUSCLE SPASMS caused by low ionized calcium. Nerves become hyperexcitable with insufficient calcium.",
+      "wrongExplains": {
+        "0": "Tetany is spasm, not relaxation.",
+        "2": "Tetany is abnormal, not normal muscle function.",
+        "3": "Tetany is spasm, not increased strength."
+      }
+    },
+    {
+      "q": "Why does low ionized calcium cause muscle spasms?",
+      "options": [
+        "Muscles become too relaxed",
+        "Nerves become hyperexcitable without calcium's stabilizing effect",
+        "Muscles die",
+        "Low calcium has no effect"
+      ],
+      "answer": 1,
+      "difficulty": "foundation",
+      "explain": "Nerves become HYPEREXCITABLE without calcium's stabilizing effect. Calcium normally stabilizes nerve membranes; less calcium = more excitable nerves.",
+      "wrongExplains": {
+        "0": "Low calcium causes hyperexcitability, not relaxation.",
+        "2": "Muscles spasm but don't die from transient low calcium.",
+        "3": "Low calcium definitely causes neuronal hyperexcitability."
+      }
+    },
+    {
+      "q": "What is the pathway from antacids to tetany?",
+      "options": [
+        "Antacids → acidosis → tetany",
+        "Antacids → alkalosis → decreased ionized Ca²⁺ → hyperexcitable nerves → tetany",
+        "Antacids → increased calcium → tetany",
+        "Antacids have no effect on muscles"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The pathway: Antacids → ALKALOSIS → decreased ionized Ca²⁺ → hyperexcitable nerves → TETANY.",
+      "wrongExplains": {
+        "0": "Antacids cause alkalosis, not acidosis.",
+        "2": "Alkalosis decreases ionized calcium, not increases it.",
+        "3": "Antacids can definitely affect muscles through this pathway."
+      }
+    },
+    {
+      "q": "This patient's condition (alkalosis causing muscle cramps and tetany) is caused by ___?",
+      "options": [
+        "Acidosis",
+        "Decreased ionized calcium due to alkalosis",
+        "Increased potassium",
+        "Dehydration"
+      ],
+      "answer": 1,
+      "difficulty": "intermediate",
+      "explain": "The condition is caused by DECREASED IONIZED CALCIUM DUE TO ALKALOSIS. Excessive antacids raise pH, causing calcium to bind albumin.",
+      "wrongExplains": {
+        "0": "Antacids cause alkalosis, not acidosis.",
+        "2": "Potassium isn't the primary issue; calcium is.",
+        "3": "Dehydration isn't the mechanism; alkalosis affecting calcium is."
+      }
     }
   ]
 }

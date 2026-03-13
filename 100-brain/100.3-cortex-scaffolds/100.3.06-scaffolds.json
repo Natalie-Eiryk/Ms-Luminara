@@ -3,94 +3,157 @@
   "parentQuestion": "Which of the following statements is FALSE? \"Damage to the primary (somatic) motor cortex results in the loss of both voluntary muscle control and all reflexive contractions.\"",
   "scaffolds": [
     {
-      "q": "The motor cortex controls VOLUNTARY (conscious) movements.",
+      "q": "What is the primary motor cortex?",
       "options": [
-        "True",
-        "False"
+        "The area that processes vision",
+        "The cortical area that initiates voluntary movements",
+        "The area that processes hearing",
+        "The area that creates memories"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! When you decide to move your arm, that command originates in the primary motor cortex."
+      "explain": "The PRIMARY MOTOR CORTEX (precentral gyrus) is the cortical area that INITIATES VOLUNTARY MOVEMENTS. When you decide to move, the command starts here.",
+      "wrongExplains": {
+        "0": "Vision is processed in the occipital lobe, not motor cortex.",
+        "2": "Hearing is processed in the temporal lobe, not motor cortex.",
+        "3": "Memory involves hippocampus and other areas, not motor cortex."
+      }
     },
     {
-      "q": "Reflexes are automatic, involuntary responses that don't require the cortex.",
+      "q": "What are reflexes?",
       "options": [
-        "True",
-        "False"
+        "Voluntary, conscious movements",
+        "Automatic, involuntary responses that don't require cortex",
+        "Thoughts",
+        "Emotions"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The knee-jerk reflex happens at the spinal cord - no cortex needed."
+      "explain": "REFLEXES are AUTOMATIC, INVOLUNTARY responses that DON'T REQUIRE the CORTEX. The knee-jerk reflex happens entirely at the spinal cord level.",
+      "wrongExplains": {
+        "0": "Reflexes are involuntary; voluntary movements require cortex.",
+        "2": "Thoughts are cognitive, not motor reflexes.",
+        "3": "Emotions are processed by limbic system, not reflex arcs."
+      }
     },
     {
-      "q": "Reflex arcs are completed at the spinal cord or brainstem level.",
+      "q": "Where do spinal reflexes occur?",
       "options": [
-        "True",
-        "False"
+        "In the cerebral cortex",
+        "At the spinal cord level — without cortical involvement",
+        "In the eyes",
+        "In the cerebellum only"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Sensory neuron → interneuron → motor neuron, all within the spinal cord. Cortex not involved."
+      "explain": "SPINAL REFLEXES occur at the SPINAL CORD level. Sensory neuron → interneuron → motor neuron — all within the cord. The cortex is NOT involved.",
+      "wrongExplains": {
+        "0": "Spinal reflexes bypass the cortex entirely.",
+        "2": "Reflexes occur in the nervous system, not the eyes.",
+        "3": "The cerebellum modulates but doesn't execute spinal reflexes."
+      }
     },
     {
-      "q": "If motor cortex is damaged, voluntary movement is lost on the opposite side.",
+      "q": "What happens to voluntary movement after motor cortex damage?",
       "options": [
-        "True",
-        "False"
+        "Voluntary movement improves",
+        "Voluntary movement is lost on the opposite (contralateral) side",
+        "No effect",
+        "Voluntary movement is lost on the same side"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! Contralateral control - right cortex controls left body and vice versa."
+      "explain": "Motor cortex damage causes LOSS of VOLUNTARY MOVEMENT on the OPPOSITE (contralateral) side. Motor pathways cross (decussate), so right cortex controls left body.",
+      "wrongExplains": {
+        "0": "Damage impairs, not improves voluntary movement.",
+        "2": "Motor cortex is essential for voluntary movement.",
+        "3": "Control is contralateral (opposite side), not ipsilateral (same side)."
+      }
     },
     {
-      "q": "If motor cortex is damaged, reflexes are PRESERVED (not lost).",
+      "q": "What happens to reflexes after motor cortex damage?",
       "options": [
-        "True",
-        "False"
+        "All reflexes are lost",
+        "Reflexes are preserved (often become hyperactive)",
+        "Reflexes become voluntary",
+        "Reflexes transfer to the other side"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! Reflexes don't need the cortex. The spinal circuit remains intact."
+      "explain": "REFLEXES are PRESERVED after cortex damage because they don't need the cortex! In fact, they often become HYPERACTIVE (disinhibited) without cortical suppression.",
+      "wrongExplains": {
+        "0": "Reflexes don't require cortex and are preserved.",
+        "2": "Reflexes remain automatic; they don't become voluntary.",
+        "3": "Reflexes stay in their original pathways."
+      }
     },
     {
-      "q": "In upper motor neuron lesions, reflexes often become HYPERactive (not lost).",
+      "q": "Why do reflexes become hyperactive after upper motor neuron lesions?",
       "options": [
-        "True",
-        "False"
+        "The spinal cord is damaged",
+        "The cortex normally inhibits reflexes — losing it causes disinhibition",
+        "Muscles get stronger",
+        "The cerebellum takes over"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Correct! The cortex normally INHIBITS reflexes. Lose the cortex → disinhibition → hyperreflexia."
+      "explain": "The cortex normally INHIBITS reflexes (acts as a brake). Lose the cortex → lose the brake → DISINHIBITION → HYPERREFLEXIA. Reflexes become exaggerated.",
+      "wrongExplains": {
+        "0": "Upper motor neuron lesions are above the spinal cord.",
+        "2": "Muscles don't get stronger; reflex arcs are disinhibited.",
+        "3": "The cerebellum doesn't replace cortical inhibition."
+      }
     },
     {
-      "q": "Spasticity = exaggerated reflexes due to loss of cortical inhibition.",
+      "q": "What is spasticity?",
       "options": [
-        "True",
-        "False"
+        "Loss of all reflexes",
+        "Exaggerated reflexes due to loss of cortical inhibition",
+        "Muscle weakness without reflex changes",
+        "Perfect muscle control"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "foundation",
-      "explain": "Yes! After stroke, reflexes become overactive because the inhibitory 'brake' is gone."
+      "explain": "SPASTICITY = EXAGGERATED REFLEXES due to loss of cortical inhibition. After stroke, the inhibitory 'brake' is gone, so reflexes become overactive.",
+      "wrongExplains": {
+        "0": "Spasticity involves increased (not lost) reflexes.",
+        "2": "Spasticity specifically involves reflex changes, not just weakness.",
+        "3": "Spasticity is a disorder of muscle control, not perfect control."
+      }
     },
     {
-      "q": "The statement is FALSE - motor cortex damage does NOT eliminate reflexes.",
+      "q": "What's wrong with the statement 'motor cortex damage eliminates all reflexive contractions'?",
       "options": [
-        "True",
-        "False"
+        "Nothing is wrong",
+        "Reflexes don't require cortex — they're spinal circuits that persist",
+        "Reflexes are voluntary",
+        "The motor cortex doesn't exist"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Correct! Voluntary movement is lost, but reflexes are preserved (often hyperactive)."
+      "explain": "The statement is WRONG because REFLEXES DON'T REQUIRE CORTEX. They're SPINAL CIRCUITS that PERSIST after cortex damage — often becoming hyperactive, not lost.",
+      "wrongExplains": {
+        "0": "The statement incorrectly claims reflexes are lost.",
+        "2": "Reflexes are automatic, not voluntary.",
+        "3": "The motor cortex definitely exists."
+      }
     },
     {
-      "q": "The answer is TRUE - this statement IS false. Reflexes survive cortical damage.",
+      "q": "Which statement is FALSE?",
       "options": [
-        "True",
-        "False"
+        "Motor cortex damage causes voluntary movement loss",
+        "Damage causes loss of BOTH voluntary control AND all reflexive contractions",
+        "Reflexes are preserved after cortex damage",
+        "Upper motor neuron lesions cause hyperreflexia"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": "intermediate",
-      "explain": "Yes! The statement claims ALL reflexes are lost - that's wrong. Reflexes are spinal circuits that persist (and become exaggerated) after motor cortex damage."
+      "explain": "FALSE: 'Damage causes loss of BOTH voluntary control AND all reflexive contractions.' Voluntary movement IS lost, but reflexes are PRESERVED (often hyperactive). Reflexes don't need cortex.",
+      "wrongExplains": {
+        "0": "This is true — voluntary movement is lost.",
+        "2": "This is true — reflexes persist without cortex.",
+        "3": "This is true — cortical damage often causes hyperreflexia."
+      }
     }
   ]
 }
